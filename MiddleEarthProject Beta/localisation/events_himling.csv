@@ -1,0 +1,28 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVT400004;Explore Himling?;Exploration d'Himling;;;;;;;;;;;;x
+EVTDESC400004;You are the Lord of the Isle of Himling. You know that at one point in the First Age it was a hill in Beleriand, and home of the realm of Maedhros, a prince of the Noldor. Do you want to search the ruins of the March of Maedhros? Who knows, there may be ancient artefacts or treasure!;Vous êtes le Suzerain de l'île d'Himling, et vous savez qu'au Premier Âge, cet endroit était le plus haut sommet du royaume de Maedhros. Voulez-vous explorer l'île à la recherche d'anciens artefacts?;;;;;;;;;;;;x
+EVTOPTA400004;Yes, fetch my ship, I will explore it!;Oui, je dois explorer l'île!;;;;;;;;;;;;x
+EVTOPTB400004;No, the past is past...;Non, le Passé est le passé.;;;;;;;;;;;;x
+EVT400005;Exploring Himling;Exploration d'Himling;;;;;;;;;;;;x
+EVTDESC400005;After a few hours searching you find an elvish ruin in the island. Only weathered stone remains, but there is one room still locked...;Vous trouvez une ruine sur l'île, et dans cette ruine, une salle semble être encore intacte, mais verrouillée…;;;;;;;;;;;;x
+EVTOPTA400005;Open this door!;Forcez la serrure!;;;;;;;;;;;;x
+EVT400006;In the locked room...;Dans cette salle…;;;;;;;;;;;;x
+EVTDESC400006;The door is battered down, and peering through the dust and cobwebs, you see a Noldor chest! The room itself appears to be have been the quarters of a noble, the rich furniture and banner mounts are now rotted and broken. There is an ancient painting of Fëanor and his sons on one wall. Your hopes soar! What might you find in the chest?;… vous trouvez un coffre ! La pièce elle-même semble avoir été occupée par un noble, et sur un mur, vous découvrez une peinture ancienne, représentant Feanor et ses fils. Mais que trouverez-vous dans le coffre?;;;;;;;;;;;;x
+EVTOPTA400006;Could it be? A treasure of the March of Maedhros!;Serait-ce un trésor de la Maison de Maedhros?;;;;;;;;;;;;x
+EVT400007;Maedhros's Sword;L'épée de Maedhros;;;;;;;;;;;;x
+EVTDESC400007;You find a key, and it fits the trunk... you slowly open the chest and, sure enough, inside there lies an antique elvish sword. The weapon is finely adorned, clearly of the highest level of craftsmanship and surely belonging to someone prestigious, and the blade is still sharp... The runes on the blade reveal the name of the former owner... Maedhros himself!;Dans le coffre, vous découvrez une ancienne épée elfique. Elle vous parait prestigieuse, et la lame est toujours affutée… Sur la lame justement, des runes elfiques donnent le nom de l'ancien propriétaire… Maedhros lui-même!;;;;;;;;;;;;x
+EVTOPTA400007;It shall be the treasure of my House!;Ce sera le Trésor de ma Maison !;;;;;;;;;;;;x
+EVT400008;The Armour of Maedhros!;L'Armure de Maedhros!;;;;;;;;;;;;x
+EVTDESC400008;You find a key, and it fits the trunk... you slowly open the chest and, sure enough, inside there lies an antique helmet and cuirass! The armour is beautiful, clearly of the highest level of craftsmanship and surely belonging to someone prestigious!;Dans le coffre, vous découvrez une ancienne armure elfique ! Elle est encore magnifique, et semble digne d'un Prince. Dans le fond du coffre, vous découvrez un étendard aux couleurs de Maedhros. Plus de doute sur son ancien propriétaire…;;;;;;;;;;;;x
+EVTOPTA400008;I shall be a prince on the battlefield!;Je serais un vrai Prince sur les champs de bataille !;;;;;;;;;;;;x
+EVT400009;Ancient Documents;Des Anciens Documents;;;;;;;;;;;;x
+EVTDESC400009;You find a key, and it fits the trunk... you slowly open the chest and, sure enough, there lies a stack of antique parchments, some with old elvish songs, some with chronicles from the First Age, all written in fine Quenya calligraphy.;Dans le coffre, vous découvrez de vieux papiers, comme des chants, ou des chroniques du Premier Age. Rien de bien interessant cependant …;;;;;;;;;;;;x
+EVTOPTA400009;How disappointing...;Quelle déception…;;;;;;;;;;;;x
+EVT400010;An Empty Room;Une Salle Vide;;;;;;;;;;;;x
+EVTDESC400010;The room appears empty, and after several hours of investigation for hidden rooms or treasure, you can't find anything. The room itself is not interesting.;La Salle est vide, et même après plusieurs heures de fouilles, vous ne trouvez rien. La salle elle-même ne semble pas interessante…;;;;;;;;;;;;x
+EVTOPTA400010;How disappointing...;Quelle déception…;;;;;;;;;;;;x
+explore_himling_ruins;Exploration of Himling;Exploration d'Himling;;;;;;;;;;;;x
+himling_armour;Maedhros's Armor;L'Armure de Maedhros;;;;;;;;;;;;x
+himling_armour_desc;The armour of Maedhros, son of Fëanor. This is the real armor of a Prince of the Noldor, and so fine is it, the wearer could almost pass as one of the glorious children of Ilúvatar.;Dans les ruines de l'ancienne forteresse de Maedhros, sur l'île d'Himling, vous avez trouvé l'Armure de Maedhros, fils de Fëanor. Cette armure est celle d'un vrai prince des Noldor, et lorsque vous la portez, vous sentez la gloire rejaillir sur votre Maison.;;;;;;;;;;;;x
+himling_sword;Maedhros's Sword;L'épée de Maedhros;;;;;;;;;;;;x
+himling_sword_desc;The sword of Maedhros, son of Fëanor. This is the real sword of a Prince of the Noldor, and so fine is it, the wielder looks to be one of the greatest warriors of Middle-Earth.;Dans les ruines de l'ancienne forteresse de Maedhros, sur l'île d'Himling, vous avez trouvé l'Epée de Maedhros, fils de Fëanor. Cette épée est celle d'un vrai prince des Noldor, et lorsque vous la brandissez, vous avez l'impression d'être l'un des plus grands guerriers de la Terre du Milieu.;;;;;;;;;;;;x

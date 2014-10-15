@@ -1,0 +1,7 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTsailedtowest.3;Sail to West?;Partir à l'Ouest?;;;;;;;;;;;;x
+EVTDESCsailedtowest.3;You're tired of the life in Middle-Earth. The wars, the pains are not what you wants to live. You're looking to the West, and you heard the call of the Sea. Will you leave the Middle-Earth and go to the Undyiang Lands of Valinor?;Vous êtes fatigué de la vie sur les Terres du Milieu. Les guerres, les peines, les souffrances ont eu raison de votre volonté. Votre regard se porte maintenant vers l'Ouest, et vous entendez l'appel de la Mer. Allez-vous quitter les Terres du Milieu pour partir vers les Terres Immortelles?;;;;;;;;;;;;
+EVTOPTAsailedwest3;Yes, It's the Time of Men, we've to leave.;Oui, le temps des Hommes est venu.;;;;;;;;;;;;x
+EVTOPTBsailedwest3;Not yet, Middle-Earth needs us!;Les Terres du Milieu ont encore besoin de moi !;;;;;;;;;;;;x
+elveninfertility_de1;You can feel that this will be your last child.;Vous pouvez sentir que vous ne pourrez plus avoir d'enfants.;;;;;;;;;;;;x
+elven_infertility;You can feel that this will be your last child.;Vous pouvez sentir que vous ne pourrez plus avoir d'enfants.;;;;;;;;;;;;x

@@ -1,0 +1,10 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#
+EVTNAMEmepstartup.0;Welcome to the Middle Earth Project;;;;;;;;;;;;;x
+EVTDESCmepstartup.0;you are playing beta version revision 0.3.2b! \n\nNew features include x, y and z. \n\nKnown bugs include x, y and z. \n\nPlease visit our thread on the Paradox Forum to report bugs and give us your suggestions.;;;;;;;;;;;;;x
+EVTOPTAmepstartup.0;Okay;;;;;;;;;;;;;x
+#
+EVTNAMEmepstartup.1;The Middle Earth Project Beta;;;;;;;;;;;;;x
+EVTDESCmepstartup.1;Welcome to version 0.3.2b;;;;;;;;;;;;;x
+EVTOPTAmepstartup.1;Cool;;;;;;;;;;;;;x
+EVTOPTBmepstartup.1;Okay;;;;;;;;;;;;;x

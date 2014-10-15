@@ -1,0 +1,8 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESClesserrings.0;The Guardians of the Lesser Rings are…;Les Gardiens des Anneaux Mineurs sont…;;;;;;;;;;;;x
+EVTOPTAlesserrings.0;Ok.;Ok.;;;;;;;;;;;;x
+CURRENTRINGSARUMAN;Ring of Saruman;Anneau de Saruman;;;;;;;;;;;;x
+CURRENTLESSERRING;Lesser Ring;Anneau Mineur;;;;;;;;;;;;x
+CURRENTRINGBARAHIR;Ring of Barahir;Anneau de Barahir;;;;;;;;;;;;x
+list_lesser_rings;Show the Guardians of the Lesser Rings;Montrez les Gardiens des Anneaux Mineurs;;;;;;;;;;;;x
+list_lesser_rings_desc;The Lesser Rings are not as powerful as the Three, the Seven, the Nine, and obviously the One, but can give some bonuses to their holders.;Les Anneaux Mineurs sont moins puissants que les Trois, les Sept, les Neuf et bien sur l'Unique, mais peuvent apporter quelques bonus à leurs propriétaires.;;;;;;;;;;;;x

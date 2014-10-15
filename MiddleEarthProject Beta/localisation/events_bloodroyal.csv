@@ -1,0 +1,15 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTMaglor;OK.;;;;;;;;;;;;;x
+EVTmaglor_de;Maglor, son of Mighty Feanor has been, living here for ages. He offers to join you, if you will have him.;;;;;;;;;;;;;x
+EVTOPTAmaglor;Maglor? But of course!;;;;;;;;;;;;;x
+EVTOPTBmaglor;Maglor? Kinslayer and accursed? I think not!;;;;;;;;;;;;;x
+EVTmaglortext;Hmmm...;;;;;;;;;;;;;x
+EVTmaglortext2;Leave him alone.;;;;;;;;;;;;;x
+EVTcultprova;OK.;;;;;;;;;;;;;x
+EVTprovcult;OK.;;;;;;;;;;;;;x
+on_fellowshipquest;Away with Fellowship of the Ring;;;;;;;;;;;;;x
+on_fellowshipquest_desc;This character is braving many dangers, in order to save the world from Sauron's dominion.;;;;;;;;;;;;;x
+saruman_spell;Under Saruman's Spell;;;;;;;;;;;;;x
+saruman_spell_desc;Using foul sorcery, Saruman has made this character a mere shadow of his former self and weakened his realm.;;;;;;;;;;;;;x
+huntforring;Hunting for the Ring;;;;;;;;;;;;;x
+huntforring_desc;Is away in distant lands tracking the ring bearer.;;;;;;;;;;;;;x

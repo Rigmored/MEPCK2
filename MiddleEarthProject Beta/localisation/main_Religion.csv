@@ -1,0 +1,87 @@
+#CODE;ENGLISH;FRENCH;GERMAN;SPANISH;ITALIAN;x
+#RELIGION GROUPS;x;x;x;x;x;x
+CHURCH_NAME;$RELIGION$ ($GROUP$);$RELIGION$ ($GROUP$);;;$RELIGION$ ($GROUP$);x
+religion_group_eruhini;Ainur;Ainur;;;;x
+religion_group_enyd;Onodrim;Onodrim;;;;x
+religion_group_khazad;Khazâd;Khazâd;;;;x
+religion_group_eldar;Eldar;Eldar;;;;x
+religion_group_periannath;Periannath;Periannath;;;;x
+religion_group_edain;Edain;Edain;;;;x
+religion_group_hildor;Men of Darkness;Hommes de l'Ombre;;;Uomini dell'Oscurità;x
+religion_group_melkor;Creatures of Melkor;Créatures de Melkor;;;;x
+religion_group_orkish;Orcs;Orques;;;;x
+religion_group_olog;Olog;Olog;;;;x
+religion_group_wilderness;Wilderness;Vie sauvage;;;;x
+#RELIGIONS;;;;;;x
+religion_eruhini;Ainur;Ainur;;;;x
+religion_enyd;Onodrim;Onodrim;;;;x
+religion_mahal;Dwarves;Nains;;;Nani;x
+religion_moriquendi;Moriquendi;Moriquendi;;;;x
+religion_calaquendi;Calaquendi;Calaquendi;;;;x
+religion_perian;Periannath;Periannath;;;Periannath;x
+religion_stoor;Stoor;Stoor;;;;x
+religion_druedain;Drúedain;Drúedain;;;;x
+religion_edain;Edain;Edain;;;;x
+religion_dunedain;Dúnedain;Dúnedain;;;;x
+religion_numenorean;Númenórean;Númenóreen;;;;x
+religion_black_numenorean;Black Númenóreans;Númenóreen Noir;;;;x
+religion_rhovanion;Northmen;;;;Uomini del Nord;x
+religion_easterlings;Easterlings;Easterlings;;;Esterling;x
+religion_haldadian;Haldadian;Haldadian;;;;x
+religion_southron;Southrons;Hommes du Sud;;;Sudroni;x
+religion_ishmalogim;Ishmalogim;Ishmalogim;;;;x
+religion_lossoth;Lossoth;Lossoth;;;Lossoth;x
+religion_angmarim;Angmarim;Angmarim;;;;x
+religion_melkor;Creature of Melkor;Créatures de Melkor;;;;x
+religion_orkish;Orcs;Orques;;;;x
+religion_uruk;Uruk;Uruk;;;;x
+religion_olog;Troll;Troll;;;;x
+religion_wilderness;Wilderness;Vie sauvage;;;Lande Selvagge;x
+religion_nurning;Núrnoth;Núrnoth;;;Núrnoth;x
+religion_wight;Wights;;;;Spettri;x
+#RELIGIONS_DESC;;;;;;x
+religion_eruhini_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_enyd_DESC;Onodrim, also named Ents, are sentient humanoid beings created by Yavanna to protect the trees from other creatures. Ents are envisioned as Shepherds of the Trees and their duty is to protect the forests from Orcs, Dwarves and other possible perils.;Le groupe culturel de ce personnage.;;;;x
+religion_mahal_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_moriquendi_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_calaquendi_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_perian_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_stoor_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_druedain_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_edain_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_dunedain_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_numenorean_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_black_numenorean_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_rhovanion_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_easterlings_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_nurning_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_haldadian_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_southron_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_ishmalogim_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_lossoth_DESC;Lossoth, or the Snowmen of Forochel, is the name of a race of Men living mainly on the shores of the Ice-Bay of Forochel. The Lossoth are a remnant of the Forodwaith that survived the ravages of the end of the First Age. They dwelt in the far northwest of Middle-earth in a land of bitter cold. The Lossoth are described as using bones tied to their feet as ice skates, and are known as a semi-nomadic people.;;;;;x
+religion_angmarim_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_melkor_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_sauron_cult_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_orkish_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_uruk_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_olog_DESC;Trolls, also named Torog and Olog, are large monsters of limited intellect, they're strong and vicious, but they cannot endure sunlight. They were created by Morgoth before the First Age even if their exact origins are unknown.;Les Trolls, aussi appelés Torog ou Olog, sont de grands monstres à l'intellect limité. Ils sont fort, vicieux, et ne peuvent endurer la lumière du Soleil. Ils furent créés par Morgoth avant le Premier Âge, et leur origine exacte reste inconnue.;;;;x
+religion_wilderness_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_eruhini_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_enyd_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_mahal_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;x
+religion_moriquendi_DESC;This elf has not beheld the light of the Trees of Valinor, and is therefore a Moriquendi.;Cet elfe n'a pas contemplé la lumière des Arbres de Valinor, et est donc un Moriquendi;;;;x
+religion_calaquendi_DESC;This elf has contemplated the light of the Trees of Valinor, and is therefore a Calaquendi.;Cet elfe a contemplé la lumière des Arbres de Valinor, et est donc un Calaquendi.;;;;x
+religion_wight_DESC;Wights, also known with the Sindarin name of Gordain, are powerful Spirits which can take possession of dead bodies and often have great knowledge in Dark Sorcery.;;;;"Gli Spettri, spesso indicati col nome Sindarin ""Gordain"" sono potenti spiriti oscuri capaci di prendere possesso di cadaveri e scheletri controllando ciò che ne resta. Solitamente sono esseri guidati da potenti conoscitori della Stregoneria.";x
+#GODS;;;;;;x
+GOD_THE_MAIAR;The Maiar;Les Maiar;;;Maiar;x
+GO_THE_VALAR;The Valar;Les Valar;;;Valar;x
+GOD_ERU;Eru Ilúvatar;Eru Ilúvatar;;;Eru Ilúvatar;x
+GOD_MAHAL;Aulë Mahal;Aulë Mahal;;;Aulë Mahal;x
+GOD_YAVANNA;Yavanna Kementári;Yavanna Kementári;;;Yavanna Kementári;x
+GOD_THE_POWERS;The Powers;Les Pouvoirs;;;I Poteri;x
+GOD_WEALTH;Wealth;Fortune;;;Ricchezza;x
+GOD_MORGOTH;Melkor Morgoth;Melkor Morgoth;;;Melkor Morgoth;x
+PROPHET_SAURON;Sauron;Sauron;;;Sauron;x
+GOD_TREE;Trees;Arbres;;;Alberi;x
+## INTERFACE;x;x;x;x;x;x
+REL_HOLY_SITES;Symbolic Places;Lieux Symboliques;;;Luoghi Simbolici;x
