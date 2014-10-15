@@ -1,0 +1,187 @@
+namespace = calendar
+
+##DWARVES
+
+# Durin's Day - New Year
+narrative_event = {
+	id = calendar.0
+	title = "EVTNAMEcalendar.0"
+	desc = "EVTDESCcalendar.0"
+	picture = GFX_evt_durinday
+
+	only_rulers = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				ai = yes
+				OR = {
+					has_global_flag = calendar_events_disabled
+					NOT = {
+						any_playable_ruler = { ai = no }
+					}
+				}
+			}
+			AND = {
+				ai = no
+				NOT = { has_global_flag = calendar_events_disabled }
+				religion_group = religion_group_khazad
+			}
+		}				
+		month = 10
+		NOT = { month = 11 }
+		day = 29
+		NOT = { day = 30 }
+		NOT = { has_global_flag = not_durin_day }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 0.00001
+			always = yes
+		}
+	}
+
+	immediate = {
+		clr_global_flag = not_durin_day
+		set_global_flag = durin_day
+		
+	}
+
+	option = {
+		name = "EVTOPTAcalendar.0"
+		trigger = {
+		    religion_group = religion_group_khazad
+			religion = religion_mahal
+		}
+		immediate = {
+		clr_global_flag = durin_day
+		set_global_flag = not_durin_day
+		
+	}
+	}
+	
+	
+	option = {
+		name = "EVTOPTBcalendar.0"
+		set_global_flag = calendar_events_disabled
+	}
+}
+
+##HOBBITS
+
+# Lithe - Hobbit Midsummer Harvest Festival
+narrative_event = {
+	id = calendar.1
+	title = "EVTNAMEcalendar.1"
+	desc = "EVTDESCcalendar.1"
+	picture = GFX_evt_lithe
+
+	only_rulers = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				ai = yes
+				OR = {
+					has_global_flag = calendar_events_disabled
+					NOT = {
+						any_playable_ruler = { ai = no }
+					}
+				}
+			}
+			AND = {
+				ai = no
+				NOT = { has_global_flag = calendar_events_disabled }
+				religion = religion_perian
+			}
+		}				
+		month = 6
+		NOT = { month = 7 }
+		day = 29
+		NOT = { day = 30 }
+		NOT = { has_global_flag = lithe }
+	}
+
+	mean_time_to_happen = {
+		days = 20
+		modifier = {
+			factor = 0.00001
+			always = yes
+		}
+	}
+
+	immediate = {
+		clr_global_flag = yule
+		set_global_flag = lithe
+		
+	}
+
+	option = {
+		name = "EVTOPTAcalendar.1"
+	}
+	
+	
+	option = {
+		name = "EVTOPTBcalendar.1"
+		set_global_flag = calendar_events_disabled
+	}
+}
+
+#Yule - Midwinter/New Year
+narrative_event = {
+	id = calendar.2
+	title = "EVTNAMEcalendar.2"
+	desc = "EVTDESCcalendar.2"
+	picture = GFX_evt_hobbityule
+
+	only_rulers = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				ai = yes
+				OR = {
+					has_global_flag = calendar_events_disabled
+					NOT = {
+						any_playable_ruler = { ai = no }
+					}
+				}
+			}
+			AND = {
+				ai = no
+				NOT = { has_global_flag = calendar_events_disabled }
+				religion = religion_perian
+			}
+		}				
+		month = 12
+		day = 29
+		NOT = { day = 30 }
+		NOT = { has_global_flag = yule }
+	}
+
+	mean_time_to_happen = {
+		days = 20
+		modifier = {
+			factor = 0.00001
+			always = yes
+		}
+	}
+
+	immediate = {
+		clr_global_flag = lithe
+		set_global_flag = yule
+		
+	}
+
+	option = {
+		name = "EVTOPTAcalendar.2"
+	}
+	
+	
+	option = {
+		name = "EVTOPTBcalendar.2"
+		set_global_flag = calendar_events_disabled
+	}
+}

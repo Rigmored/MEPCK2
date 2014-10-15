@@ -1,0 +1,11 @@
+##OBSOLETE##
+
+##Noldor Buildings#MOVED#
+##Dwarven Buildings # MOVED #
+##Rohan special buildings# MOVED #
+##Halfling special buildings#MOVED#
+#Silvan, Sindar, Avari Special Buildings#MOVED#
+##Gondor Special Buildings##MOVED##
+## Dunedains Buildings ##MOVED##
+#Black Numenorean Buildings##MOVED##
+## Púkel-men #MOVED and changed into watchtower#

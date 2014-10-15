@@ -1,0 +1,875 @@
+# Types:
+# 0 - Light Infantry
+# 1 - Heavy Infantry
+# 2 - Pikemen
+# 3 - Light Cavalry
+# 4 - Heavy Cavalry
+# 5 - Archers
+# 6 - Special troops
+
+#Gondorian Retinues#
+
+#400 Pikemen, 100 Archers#
+"Tower Guard Company" =
+{
+    first_type = 2
+    first_amount = 400
+    second_type = 5
+    second_amount = 100
+    culture = culture_gondorian
+	
+	potential = {		
+		culture = culture_gondorian
+	}
+    modifier = {
+        archers_offensive = 0.1
+        archers_defensive = 0.1
+        pikemen_defensive = 0.1
+        pikemen_offensive = 0.1
+        pikemen_morale = 0.1
+    }
+}
+
+#250 Heavy Cavalry#
+"Gondorian Heavy Cavalry" =
+{
+    first_type = 4
+    first_amount = 250
+    culture = culture_gondorian
+	potential = {
+		culture = culture_gondorian
+	}
+    modifier = {
+        knights_offensive = 0.1
+        knights_defensive = 0.1
+        knights_morale = 0.1
+        
+    }
+}
+
+#250 Heavy Cavalry#
+"Swan Knights" =
+{
+    first_type = 4
+    first_amount = 250
+    culture = culture_gondorian
+	potential = {
+		culture = culture_gondorian
+	}
+    modifier = {
+        knights_offensive = 0.2
+        knights_morale = 0.2
+        
+    }
+}
+
+#500 Archers#
+"Black Vale Archers" =
+{
+    first_type = 5
+    first_amount = 500
+    culture = culture_gondorian
+	potential = {
+		culture = culture_gondorian
+	}
+    modifier = {
+        archers_offensive = 0.1
+        archers_defensive = 0.1
+       
+    }
+}
+
+#Dunedain Retinues#
+
+#50 Archers, 50 heavy infantry#
+"Dunedain Elite Company" =
+{
+    first_type = 5
+    first_amount = 50
+    second_type = 1
+    second_amount = 50
+    culture = culture_dunedain
+		potential = {
+		culture = culture_dunedain
+	}
+    modifier = {
+        archers_offensive = 0.1
+        archers_defensive = 0.1
+        heavy_infantry_defensive = 0.1
+        heavy_infantry_offensive = 0.1
+    }
+}
+
+#50 Knights#
+"Knights of Annunimas" =
+{
+    first_type = 4
+    first_amount = 50
+    culture = culture_dunedain
+	potential = {
+		OR = {
+			culture = culture_dunedain
+			culture = culture_arnorian
+		}
+	}
+    modifier = {
+        knights_offensive = 0.3
+        knights_morale = 0.1
+    }
+}
+
+#50 Knights#
+"Knights of Dol Amroth" =
+{
+    first_type = 4
+    first_amount = 50
+    culture = culture_dunedain
+		potential = {
+		culture = culture_dunedain
+	}
+    modifier = {
+        knights_offensive = 0.1
+        knights_morale = 0.3
+    }
+}
+
+"Royal Guard Company" =
+{
+    first_type = 2
+    first_amount = 400
+    second_type = 5
+    second_amount = 100
+    culture = culture_dunedain
+	potential = {
+		OR = {
+			culture = culture_dunedain
+			culture = culture_arnorian
+		}
+	}
+    modifier = {
+        archers_offensive = 0.1
+        archers_defensive = 0.1
+        pikemen_defensive = 0.1
+        pikemen_offensive = 0.1
+        pikemen_morale = 0.1
+    }
+}
+#Sindar Retinues
+
+#200 Archers, 50 Heavy Infatry#
+"Sindar Royal Guard" =
+{
+    first_type = 5
+    first_amount = 200
+    second_type = 1
+    second_amount = 50
+    culture = culture_sindar
+		potential = {
+		culture = culture_sindar
+	}
+    modifier = {
+        archers_offensive = 0.1
+        archers_defensive = 0.1
+        heavy_infantry_defensive = 0.1
+        heavy_infantry_offensive = 0.1
+       
+    }
+}
+
+#Noldor Retinues
+
+#100 Heavy Infantry#
+"Noldor Elite Guards" =
+{
+    first_type = 1
+    first_amount = 100
+    culture = culture_noldor
+	potential = {
+		culture = culture_noldor
+	}
+    modifier = {
+        heavy_infantry_defensive = 0.1
+        heavy_infantry_offensive = 0.1
+        heavy_infantry_morale = 0.1       
+    }
+}
+
+#50 Horse Archers#
+"Noldor Horse Archers" = 
+{
+    first_type = 3
+    first_amount = 50
+    culture = culture_noldor
+	potential = {
+		culture = culture_noldor
+	}
+    modifier = {
+        archers_defensive = 0.1
+        archers_offensive = 0.1
+        archers_morale = 0.1       
+    }
+}
+#Dwarven Retinues
+
+#100 Heavy Infantry#
+"Dwarven Gate-Wardens" =
+{
+    first_type = 1
+    first_amount = 100
+    culture = culture_longbeard
+	potential = {
+		culture = culture_longbeard
+	}
+    modifier = {
+        heavy_infantry_defensive = 0.1
+        heavy_infantry_offensive = 0.1
+        heavy_infantry_morale = 0.1      
+    }
+}
+
+#100 Heavy Infantry#
+"Gate-Wardens" =
+{
+    first_type = 1
+    first_amount = 100
+    culture = culture_broadbeam
+	potential = {
+		culture = culture_broadbeam
+	}
+    modifier = {
+        heavy_infantry_defensive = 0.1
+        heavy_infantry_offensive = 0.1
+        heavy_infantry_morale = 0.1       
+    }
+}
+#Harad Retinues
+
+#250 Heavy Cavalry#
+"Red Serpent Guard" =
+{
+    first_type = 4
+    first_amount = 250
+    culture = culture_haradrim
+	potential = {
+		culture = culture_haradrim
+	}
+    modifier = {
+        knights_offensive = 1.5
+        knights_defensive = 1.5
+        knights_morale = 0.3
+       
+    }
+}
+
+#Black Numenorean Retinues#
+
+#50 Heavy Cavalry#
+"Black Numenorean Knights" =
+{
+    first_type = 4
+    first_amount = 50
+    culture = culture_black_numenorean
+	potential = {
+		culture = culture_black_numenorean
+	}
+    modifier = {
+        knights_offensive = 3.0
+        knights_defensive = 3.0
+       
+    }
+}
+
+#Halfling Retinues#
+
+#250 Archers#
+"Took Archers" =
+{
+    first_type = 5
+    first_amount = 250
+    culture = culture_fallohide
+	potential = {
+		culture = culture_fallohide
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 0.3
+       
+    }
+}
+
+#250 Light Infantry#
+"Halfling Sheriffs" =
+{
+    first_type = 5
+    first_amount = 250
+    culture = culture_harfoot
+	potential = {
+		culture = culture_harfoot
+	}
+    modifier = {
+        light_infantry_offensive = 0.2
+        light_infantry_defensive = 0.3
+       
+    }
+}
+#Barding/Dale Retinues#
+
+#100 Heavy Cavalry, 150 Light Cavalry#
+"Knights of Dale" =
+{
+    first_type = 4
+    first_amount = 100
+    culture = culture_barding
+	potential = {
+		culture = culture_barding
+	}
+    modifier = {
+        knights_offensive = 1.5
+        knights_defensive = 1.5
+        light_cavalry_offensive = 1.0
+	light_cavalry_defensive = 1.0
+    }
+}
+#125 Archers, 125 Heavy Infatry#
+"Barding Men-at-Arms" =
+{
+    first_type = 5
+    first_amount = 125
+    second_type = 1
+    second_amount = 125
+    culture = culture_barding
+	potential = {
+		culture = culture_barding
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+
+#Breelander#
+
+#100 Heavy Cavalry, 150 Light Cavalry#
+"Greenway Sentinels" =
+{
+    first_type = 4
+    first_amount = 100
+    second_type = 3
+    second_amount = 150
+    culture = culture_breelander
+	potential = {
+    culture = culture_breelander
+}
+    modifier = {
+        knights_offensive = 1.5
+        knights_defensive = 1.5
+        light_cavalry_offensive = 1.0
+	light_cavalry_defensive = 1.0
+    }
+}
+#125 Archers, 125 Heavy Infatry#
+"Bree Men-at-Arms" =
+{
+    first_type = 5
+    first_amount = 125
+    second_type = 1
+    second_amount = 125
+    culture = culture_breelander
+	potential = {
+    culture = culture_breelander
+}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+#100 Light infantry, 100 archers#
+"Guards of the Gates" =
+{
+    first_type = 0
+    first_amount = 100
+    second_type = 5
+    second_amount = 100
+    culture = culture_breelander
+	potential = {
+    culture = culture_breelander
+}
+    modifier = {
+       archers_offensive = 1.0
+       archers_defensive = 1.0
+	   light_infantry_defensive = 1.0
+       light_infantry_offensive = 1.0
+    }
+}
+
+#Northmen Retinues#
+
+#250 Light Cavalry#
+"Northmen Skirmishers" =
+{
+    first_type = 3
+    first_amount = 250
+    culture = culture_northmen
+	potential = {
+		culture = culture_northmen
+	}
+    modifier = {
+
+        light_cavalry_offensive = 1.0
+	light_cavalry_defensive = 1.0
+    }
+}
+#125 Archers, 125 Heavy Infatry#
+"Northmen Royal Guard" =
+{
+    first_type = 5
+    first_amount = 125
+    second_type = 1
+    second_amount = 125
+    culture = culture_northmen
+	potential = {
+		culture = culture_northmen
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+
+#Woodsmen Retinues
+
+#125 Archers, 125 Heavy Infatry#
+"Forest Wardens" =
+{
+    first_type = 5
+    first_amount = 125
+    second_type = 1
+    second_amount = 125
+    culture = culture_woodsmen
+	potential = {
+		culture = culture_woodsmen
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+
+#Beorning Retinues
+
+#125 heavy infantry, 125 archers#
+"Beorning Guards" =
+{
+    first_type = 5
+    first_amount = 125
+    second_type = 1
+    second_amount = 125
+    culture = culture_beorning
+	potential = {
+		culture = culture_beorning
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+
+#25 heavy infantry#
+"Beorning Skinchangers" =
+{
+    first_type = 1
+    first_amount = 25
+    culture = culture_beorning
+	potential = {
+		culture = culture_beorning
+	}
+    modifier = {
+     heavy_infantry_defensive = 2.5
+     heavy_infantry_offensive = 2.5
+       
+    }
+}
+#Balchoth Retinues
+
+#125 Horse Archers, 125 Light Cavalry#
+"Balchoth Chief's Guard" =
+{
+    first_type = 3
+    first_amount = 125
+    second_type = 5
+    second_amount = 125
+    culture = culture_balchoth
+	potential = {
+		culture = culture_balchoth
+	}
+    modifier = {
+    light_cavalry_offensive = 1.0
+	archers_offensive = 1.0
+       
+    }
+}
+
+#Dunlending Retinues
+
+#125 Heavy Infantry#
+"Chieftain's Guard" =
+{
+    first_type = 1
+    first_amount = 125
+    culture = culture_dunlending
+	potential = {
+		culture = culture_dunlending
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+
+#Rohan Retinues#
+
+#120 Cavalry#
+"Eored of Rohan" =
+{
+    first_type = 4
+    first_amount = 120
+    culture = culture_rohirrim
+	potential = {
+		culture = culture_rohirrim
+	}
+    modifier = {
+        knights_offensive = 1.0
+        knights_defensive = 1.0
+        knights_morale = 0.6
+        
+    }
+}
+#125 Archers, 125 Heavy Infatry#
+"Rohan Elite Guard" =
+{
+    first_type = 5
+    first_amount = 125
+    second_type = 1
+    second_amount = 125
+    culture = culture_rohirrim
+	potential = {
+		culture = culture_rohirrim
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+
+##Sauron retinues##
+#125 Archers, 125 Heavy Infatry#
+"Morgul Guards" =
+{
+    first_type = 5
+    first_amount = 125
+    second_type = 1
+    second_amount = 125
+    culture = culture_orkish
+	potential = {
+	AND = {
+		culture = culture_maiar
+		trait = evil_side
+	}
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+
+##75 heavy cavalry##
+"Olog-Hai Elite" =
+{
+    first_type = 4
+    first_amount = 75
+    culture = culture_orkish
+	potential = {
+	AND = {
+		culture = culture_maiar
+		trait = evil_side
+	}
+	}
+    modifier = {
+        knights_offensive = 5.0
+        knights_defensive = 5.0
+        knights_morale = 0.6
+        
+    }
+}
+##Saruman retinues##
+#125 Archers, 125 Heavy Infatry#
+"Isengard Guards" =
+{
+    first_type = 5
+    first_amount = 125
+    second_type = 1
+    second_amount = 125
+    culture = culture_urukhai
+	potential = {
+	AND = {
+		culture = culture_istari
+		trait = evil_side
+	}
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+
+#100 Pikemen#
+"Uruk-Hai Pikes" =
+{
+    first_type = 2
+    first_amount = 100
+    culture = culture_urukhai
+	potential = {
+	AND = {
+		culture = culture_istari
+		trait = evil_side
+	}
+	}
+    modifier = {
+        pikemen_offensive = 1.0
+        pikemen_defensive = 1.0     
+    }
+}
+
+
+##Arnorian Retinues
+#125 Archers, 125 Heavy Infatry#
+"Arnorian Men-at-Arms" =
+{
+    first_type = 5
+    first_amount = 125
+    second_type = 1
+    second_amount = 125
+    culture = culture_arnorian
+	potential = {
+		OR = {
+			culture = culture_dunedain
+			culture = culture_arnorian
+		}
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+        heavy_infantry_defensive = 1.0
+        heavy_infantry_offensive = 1.0
+       
+    }
+}
+
+##25 heavy cavalry##
+"Annunimas Royal Guard" =
+{
+    first_type = 4
+    first_amount = 25
+    culture = culture_arnorian
+	potential = {
+		OR = {
+			culture = culture_dunedain
+			culture = culture_arnorian
+		}
+	}
+    modifier = {
+        knights_offensive = 3.0
+        knights_defensive = 3.0
+        knights_morale = 0.6
+        
+    }
+}
+
+#Avari Retinues
+
+#25 Archers, 25 Heavy Infatry#
+"Avari Royal Guard" =
+{
+    first_type = 5
+    first_amount = 25
+    second_type = 1
+    second_amount = 25
+    culture = culture_avari
+potential = {
+culture = culture_avari
+}
+    modifier = {
+        archers_offensive = 0.1
+        archers_defensive = 0.1
+        heavy_infantry_defensive = 0.1
+        heavy_infantry_offensive = 0.1
+       
+    }
+}
+
+#25 Horse Archers#
+"Avari Horse Archers" = {
+    first_type = 3
+    first_amount = 25
+    culture = culture_avari
+potential = {
+culture = culture_avari
+}
+    modifier = {
+        archers_defensive = 0.1
+        archers_offensive = 0.1
+        archers_morale = 0.1       
+    }
+}
+
+### ORCS RETINUES ###
+
+#500 Pikemen#
+"Orcs Pikes" =
+{
+    first_type = 2
+    first_amount = 500
+    culture =  culture_orkish
+	potential = {
+		OR = {
+			culture = culture_orkish
+			culture = culture_goblin
+		}
+	}
+    modifier = {
+        pikemen_offensive = 1.0
+        pikemen_defensive = 1.0     
+    }
+}
+
+#500 Archers#
+"Orcs Archers" =
+{
+    first_type = 5
+    first_amount = 500
+    culture =  culture_orkish
+	potential = {
+		OR = {
+			culture = culture_orkish
+			culture = culture_goblin
+		}
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+       
+    }
+}
+
+# 250 Wargs Riders #
+"Wargs Riders" =
+{
+    second_type = 4
+    second_amount = 250
+    culture =  culture_orkish
+	potential = {
+		OR = {
+			culture = culture_orkish
+			culture = culture_goblin
+		}
+	}
+    modifier = {
+		light_cavalry_offensive = 1.0 
+    }
+}
+
+
+### URUK RETINUES ###
+
+#150 Pikemen#
+"Uruk Pikes" =
+{
+    first_type = 2
+    first_amount = 150
+    culture =  culture_urukhai
+	potential = {
+		culture = culture_urukhai
+	}
+    modifier = {
+        pikemen_offensive = 1.0
+        pikemen_defensive = 1.0     
+    }
+}
+
+#150 Archers#
+"Uruk Archers" =
+{
+    first_type = 5
+    first_amount = 150
+    culture =  culture_urukhai
+	potential = {
+		culture = culture_urukhai
+	}
+    modifier = {
+        archers_offensive = 1.0
+        archers_defensive = 1.0
+       
+    }
+}
+
+# 50 Wargs Riders #
+"Uruk Wargs Riders" =
+{
+    second_type = 4
+    second_amount = 50
+    culture =  culture_urukhai
+	potential = {
+		culture = culture_urukhai
+	}
+    modifier = {
+		light_cavalry_offensive = 1.0 
+    }
+}
+
+### VARIAGS RETINUES ###
+
+# 250 Light Cavalry #
+"Variags Lights Cavalry" =
+{
+    second_type = 3
+    second_amount = 250
+    culture =  culture_variags
+	potential = {
+		culture = culture_variags
+	}
+    modifier = {
+		light_cavalry_offensive = 1.0 
+    }
+}
+
+
+#Missing:
+#Wainrider
+#Easterling

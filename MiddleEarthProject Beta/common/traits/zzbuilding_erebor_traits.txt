@@ -1,0 +1,22 @@
+erebor_founder = {
+	customizer = no
+	monthly_character_prestige = 1.0
+	diplomacy = 1
+	same_religion_opinion = 5
+}
+erebor_gem_mine = {
+	stewardship = 1
+	same_religion_opinion = 5
+	tax_income = 3
+	customizer = no
+	unique = yes
+	cached = yes
+}
+mithril_found = {
+	stewardship = 2
+	same_religion_opinion = 5
+	tax_income = 7
+	customizer = no
+	unique = yes
+	cached = yes
+}

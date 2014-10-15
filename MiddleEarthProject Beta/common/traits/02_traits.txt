@@ -1,0 +1,191 @@
+########################################################################################################
+# WARNING: IF YOU DON'T ADD NEW TRAITS LAST (IN THE LAST READ TRAIT FILE), IT WILL BREAK OLD SAVE GAMES!
+########################################################################################################
+
+#SOME VANILLA RELIGIOUS TRAITS HAVE BEEN REMOVED SINCE THEY'RE USELESS FOR THE MOD
+eunuch = {
+	sex_appeal_opinion = -20
+	fertility = -50.0
+
+	customizer = no
+	
+	cannot_marry = yes
+	cannot_inherit = yes
+}
+blinded = {
+	sex_appeal_opinion = -10
+	martial = -6
+	stewardship = -2
+	intrigue = -2
+	health = -1
+	
+	customizer = no
+	is_health = yes
+	
+	blinding = yes
+	
+	command_modifier = {
+		damage = -0.05
+		defence = -0.05
+	}
+}
+
+flat_terrain_leader = {
+	leader = yes
+	random = no
+	
+	command_modifier = {
+		terrain = plains
+		terrain = farmlands
+		terrain = steppe
+	}
+}
+
+rough_terrain_leader = {
+	leader = yes
+	random = no
+	
+	command_modifier = {
+		terrain = forest
+		terrain = hills
+	}
+}
+
+mountain_terrain_leader = {
+	leader = yes
+	random = no
+	
+	command_modifier = {
+		terrain = mountain
+	}
+}
+
+desert_terrain_leader = {
+	leader = yes
+	random = no
+	
+	command_modifier = {
+		terrain = desert
+	}
+}
+
+unyielding_leader = {
+	leader = yes
+	
+	command_modifier = {
+		morale_defence = 0.2
+		defence = 0.1
+	}
+}
+
+
+child_of_consort = {
+	diplomacy = -1
+
+	customizer = no
+}
+
+peasant_leader = {
+	diplomacy = -5
+	
+	same_opinion = 50
+	
+	vassal_opinion = -20
+
+	rebel_inherited = yes
+	customizer = no
+}
+
+berserker = {
+	martial = 4
+	diplomacy = -2
+	
+	same_opinion = 20
+	
+	ai_rationality = -5
+	
+	command_modifier = {
+		damage = 0.05
+		defence = -0.05
+	}
+}
+
+# Christian pilgrim while doing pilgrimage
+on_pilgrimage = {
+	potential = {
+		NOT = { trait = pilgrim }
+	}
+	
+	cached = yes    # Keep a cache of all trait holders, to use with the corresponding event trigger 
+	
+	monthly_character_piety = 0.2
+	same_religion_opinion = 10
+	
+	pilgrimage = yes    # Will need a regent, but can still be guardian to children
+	customizer = no
+}
+# Babies can be born sickly
+sickly = {
+	is_health = yes
+	is_illness = yes
+	
+	potential = {
+		NOT = { age = 6 }
+	}
+	
+	health = -2.5
+
+	customizer = no
+	random = no
+}
+narrow_flank_leader = {
+	leader = yes
+	
+	command_modifier = {
+		narrow_flank = 0.5
+	}
+}
+
+war_elephant_leader = {
+	leader = yes
+	random = no
+	
+	command_modifier = {
+		war_elephants = 0.2
+		morale_offence = 0.2
+	}
+}
+
+jungle_terrain_leader = {
+	leader = yes
+	random = no
+	
+	command_modifier = {
+		terrain = jungle
+	}
+}
+
+in_hiding = {
+	potential = {
+		prisoner = no
+	}
+
+	monthly_character_prestige = -2
+	diplomacy = -5
+	vassal_opinion = -10
+	
+	in_hiding = yes
+
+	customizer = no
+	random = no
+}
+
+winter_soldier = {
+	leader = yes
+	random = no
+	
+	command_modifier = {
+		winter_supply = 4
+		winter_combat = 0.5
+	}	
+}

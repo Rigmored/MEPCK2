@@ -1,0 +1,23 @@
+sam = { # Sam only
+	customizer = no
+	cached = yes
+	random = no
+}
+
+pippin = { # Pippin only
+	customizer = no
+	cached = yes
+	random = no
+}
+
+spiritform = {
+    customizer = no
+	cached = yes
+	random = no
+	incapacitating = yes
+	diplomacy = -5
+	stewardship = -5
+	martial = -5
+	intrigue = -5
+	learning = -5
+}

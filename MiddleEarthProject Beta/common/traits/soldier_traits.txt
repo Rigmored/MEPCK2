@@ -1,0 +1,778 @@
+### Cavalry traits ###
+
+squire = {
+	leader = yes
+
+	martial = 1
+	
+	potential = {
+		OR = {
+			culture = culture_variags
+			culture = culture_eotheod
+			culture = culture_rohirrim			
+		}
+	}	
+	
+	command_modifier = {
+		cavalry = 0.1
+	}
+	
+	opposites =  {
+		good_rider
+		great_rider
+		horse_master
+	}
+cached = yes	
+}
+
+good_rider = {
+	leader = yes
+
+	martial = 2
+	
+	potential = {
+		OR = {
+			culture = culture_variags
+			culture = culture_eotheod
+			culture = culture_rohirrim	
+		}
+	}	
+	
+	command_modifier = {
+		cavalry = 0.2
+	}
+	opposites =  {
+		squire
+		great_rider
+		horse_master
+	}
+cached = yes		
+}
+
+great_rider = {
+	leader = yes
+
+	martial = 3
+	
+	monthly_character_prestige = 0.05
+	vassal_opinion = 5
+	sex_appeal_opinion = 5	
+	
+	potential = {
+		OR = {
+			culture = culture_variags
+			culture = culture_eotheod
+			culture = culture_rohirrim	
+		}
+	}	
+	
+	command_modifier = {
+		cavalry = 0.3
+	}
+	opposites =  {
+		squire
+		good_rider
+		horse_master
+	}
+cached = yes	
+}
+
+horse_master = {
+	leader = yes
+
+	martial = 5
+	
+	monthly_character_prestige = 0.1
+	vassal_opinion = 10
+	sex_appeal_opinion = 10		
+	
+	potential = {
+		OR = {
+			culture = culture_variags
+			culture = culture_eotheod
+			culture = culture_rohirrim			
+		}
+	}	
+	
+	command_modifier = {
+		cavalry = 0.5
+	}
+	opposites =  {
+		squire
+		great_rider
+		good_rider
+	}
+cached = yes	
+}
+
+### Dol Amroth traits ###
+amroth_squire = {
+	leader = yes
+
+	martial = 2
+	
+	monthly_character_prestige = 0.02
+	sex_appeal_opinion = 5		
+	
+	potential = {
+			culture = culture_gondorian		
+	}	
+	
+	command_modifier = {
+		cavalry = 0.3
+		light_infantry = 0.3
+	}
+	opposites =  {
+		amroth_knight
+	}
+cached = yes		
+}
+
+amroth_knight = {
+	leader = yes
+
+	martial = 4
+	
+	monthly_character_prestige = 0.1
+	vassal_opinion = 10
+	sex_appeal_opinion = 10	
+	
+	potential = {
+			culture = culture_gondorian	
+	}	
+	
+	command_modifier = {
+		cavalry = 0.6
+	}
+	opposites =  {
+		amroth_squire
+	}
+cached = yes		
+}
+
+### Rangers of Ithilien Traits ###
+
+ithilien_ranger = {
+	leader = yes
+
+	martial = 3
+	
+	monthly_character_prestige = 0.2
+	vassal_opinion = 10
+	sex_appeal_opinion = 10
+	
+	potential = {
+		culture = culture_gondorian	
+	}
+	
+	command_modifier = {
+		archers = 0.3
+	}
+	opposites =  {
+		ithilien_scout
+		ithilien_bowman
+		ithilien_captain
+	}
+cached = yes		
+}
+
+ithilien_captain = {
+	leader = yes
+
+	martial = 4
+	
+	monthly_character_prestige = 0.3
+	vassal_opinion = 20
+	sex_appeal_opinion = 20	
+	
+	potential = {
+		culture = culture_gondorian		
+	}
+	
+	command_modifier = {	
+		archers = 0.5	
+	}
+	opposites =  {
+		ithilien_scout
+		ithilien_bowman
+		ithilien_ranger
+	}
+cached = yes		
+}
+
+### Orcs Traits ###
+
+weak_orc = {
+	leader = yes
+
+	martial = 1
+	
+	monthly_character_prestige = -0.1
+	vassal_opinion = -10
+	sex_appeal_opinion = -20		
+	
+	potential = {
+		OR = {
+			culture = culture_orkish
+			culture = culture_goblin
+			culture = culture_urukhai		
+		}
+	}	
+	
+	command_modifier = {
+		light_infantry = 0.1
+	}
+	opposites =  {
+		orc_warrior
+		great_orc
+		strong_orc
+	}
+cached = yes	
+}
+
+orc_warrior = {
+	leader = yes
+
+	martial = 2
+	
+	monthly_character_prestige = 0.02
+	vassal_opinion = 5
+	sex_appeal_opinion = 5		
+	
+	potential = {
+		OR = {
+			culture = culture_orkish
+			culture = culture_goblin
+			culture = culture_urukhai		
+		}
+	}	
+	
+	command_modifier = {
+		light_infantry = 0.2
+	}
+	opposites =  {
+		weak_orc
+		great_orc
+		strong_orc
+	}
+cached = yes	
+}
+
+strong_orc = {
+	leader = yes
+
+	martial = 3
+	
+	monthly_character_prestige = 0.05
+	vassal_opinion = 10
+	sex_appeal_opinion = 10	
+	
+	potential = {
+		OR = {
+			culture = culture_orkish
+			culture = culture_goblin
+			culture = culture_urukhai		
+		}
+	}	
+	
+	command_modifier = {
+		light_infantry = 0.3
+		heavy_infantry = 0.1		
+	}
+	opposites =  {
+		weak_orc
+		orc_warrior
+		great_orc
+	}
+cached = yes	
+}
+
+great_orc = {
+	leader = yes
+
+	martial = 5
+	
+	monthly_character_prestige = 0.1
+	vassal_opinion = 15
+	sex_appeal_opinion = 20
+	
+	potential = {
+		OR = {
+			culture = culture_orkish
+			culture = culture_goblin
+			culture = culture_urukhai		
+		}
+	}	
+	
+	command_modifier = {
+		light_infantry = 0.5
+		heavy_infantry = 0.2		
+	}
+	opposites =  {
+		weak_orc
+		orc_warrior
+		strong_orc
+	}
+cached = yes	
+}
+
+### Elvish Trait ###
+
+pacifist_elf = {
+	leader = yes
+
+	martial = -1
+	
+	potential = {
+		OR = {
+			culture_group = culture_group_moriquendi
+			culture_group = culture_group_umanyar
+			culture_group = culture_group_amanyar
+			culture_group = culture_group_quendi
+		}
+	}	
+	
+	command_modifier = {
+		light_infantry = 0.1
+	}
+	opposites =  {
+		trained_elf
+		great_elf
+		legendary_warrior
+	}
+cached = yes		
+}
+
+trained_elf = {
+	leader = yes
+
+	martial = 2
+	
+	potential = {
+		OR = {
+			culture_group = culture_group_moriquendi
+			culture_group = culture_group_umanyar
+			culture_group = culture_group_amanyar
+			culture_group = culture_group_quendi
+		}
+	}	
+	
+	command_modifier = {
+		light_infantry = 0.2
+	}
+	opposites =  {
+		pacifist_elf
+		great_elf
+		legendary_warrior
+	}
+cached = yes	
+}
+
+great_elf = {
+	leader = yes
+
+	martial = 4
+	
+	potential = {
+		OR = {
+			culture_group = culture_group_moriquendi
+			culture_group = culture_group_umanyar
+			culture_group = culture_group_amanyar
+			culture_group = culture_group_quendi
+		}
+	}	
+	
+	command_modifier = {
+		light_infantry = 0.3
+		heavy_infantry = 0.1		
+	}
+	opposites =  {
+		pacifist_elf
+		trained_elf
+		legendary_warrior
+	}
+cached = yes		
+}
+
+legendary_warrior = {
+	leader = yes
+
+	martial = 6
+	
+	potential = {
+		OR = {
+			culture_group = culture_group_moriquendi
+			culture_group = culture_group_umanyar
+			culture_group = culture_group_amanyar
+			culture_group = culture_group_quendi
+		}
+	}	
+	
+	command_modifier = {
+		light_infantry = 0.5
+		heavy_infantry = 0.2		
+	}
+	opposites =  {
+		pacifist_elf
+		trained_elf
+		great_elf
+	}
+cached = yes	
+}
+
+
+### Haradrim Traits - Mumakil riders ###
+
+mumakil_raiser = {
+	leader = yes
+
+	martial = 1	
+	
+	potential = {
+		culture = culture_haradrim		
+	}	
+	opposites =  {
+		mumakil_groom
+		mumakil_rider
+		mumakil_commander
+	}
+cached = yes		
+}
+
+mumakil_groom = {
+	leader = yes
+
+	martial = 2
+	
+	potential = {
+		culture = culture_haradrim		
+	}	
+
+	opposites =  {
+		mumakil_raiser
+		mumakil_rider
+		mumakil_commander
+	}
+cached = yes		
+}
+
+mumakil_rider = {
+	leader = yes
+
+	martial = 4
+	
+	monthly_character_prestige = 0.1
+	vassal_opinion = 10
+	sex_appeal_opinion = 10
+	
+	potential = {
+		culture = culture_haradrim		
+	}	
+	
+	opposites =  {
+		mumakil_raiser
+		mumakil_groom
+		mumakil_commander
+	}
+cached = yes	
+}
+
+mumakil_commander = {
+	leader = yes
+
+	martial = 5
+	
+	monthly_character_prestige = 0.2
+	vassal_opinion = 15
+	sex_appeal_opinion = 20	
+	
+	potential = {
+		culture = culture_haradrim		
+	}	
+	
+	opposites =  {
+		mumakil_raiser
+		mumakil_rider
+		mumakil_groom
+	}
+cached = yes	
+}
+
+
+### Dwarven Traits ###
+
+dwarf_warrior = {
+	leader = yes
+
+	martial = 1	
+	
+	potential = {
+		culture_group = culture_group_dwarves		
+	}	
+	opposites =  {
+		trained_dwarf
+		great_axeman
+		dragon_slayer
+	}
+cached = yes
+}
+
+trained_dwarf = {
+	leader = yes
+
+	martial = 2
+	
+	potential = {
+		culture_group = culture_group_dwarves		
+	}	
+	
+	command_modifier = {
+		heavy_infantry = 0.2
+	}
+	opposites =  {
+		dwarf_warrior
+		great_axeman
+		dragon_slayer
+	}
+cached = yes	
+}
+
+great_axeman = {
+	leader = yes
+
+	martial = 4
+	
+	monthly_character_prestige = 0.1
+	vassal_opinion = 10
+	sex_appeal_opinion = 10
+	
+	potential = {
+		culture_group = culture_group_dwarves		
+	}
+	
+	command_modifier = {
+		heavy_infantry = 0.3	
+	}
+	opposites =  {
+		dwarf_warrior
+		trained_dwarf
+		dragon_slayer
+	}
+cached = yes		
+}
+
+dragon_slayer = {
+	leader = yes
+
+	martial = 5
+	
+	monthly_character_prestige = 0.2
+	vassal_opinion = 15
+	sex_appeal_opinion = 20	
+	
+	potential = {
+		culture_group = culture_group_dwarves		
+	}
+	
+	command_modifier = {
+		heavy_infantry = 0.5	
+	}
+	opposites =  {
+		dwarf_warrior
+		trained_dwarf
+		great_axeman
+	}
+cached = yes		
+}
+
+
+### Dunedain Traits ###
+
+dunedain_scout = {
+	leader = yes
+
+	martial = 1	
+	
+	potential = {
+		culture = culture_dunedain	
+	}	
+	opposites =  {
+		dunedain_ranger
+		dunedain_captain
+		grey_member
+	}
+cached = yes
+}
+
+dunedain_ranger = {
+	leader = yes
+
+	martial = 2
+	
+	potential = {
+		culture = culture_dunedain	
+	}	
+	
+	command_modifier = {
+		heavy_infantry = 0.2
+		archers = 0.1		
+	}
+	opposites =  {
+		dunedain_scout
+		grey_member
+		dunedain_captain
+	}
+cached = yes	
+}
+
+dunedain_captain = {
+	leader = yes
+
+	martial = 4
+	
+	monthly_character_prestige = 0.2
+	vassal_opinion = 10
+	sex_appeal_opinion = 10
+	
+	potential = {
+		culture = culture_dunedain	
+		OR = {
+			trait = blood_of_numenor
+			trait = blood_of_numenor2
+			trait = elven_blood
+			trait = half_elf
+			trait = blood_of_isildur
+		}		
+	}
+	
+	command_modifier = {
+		light_infantry = 0.3
+		archers = 0.2
+	}
+	opposites =  {
+		dunedain_ranger
+		dunedain_scout
+		grey_member
+	}
+cached = yes		
+}
+
+grey_member = {
+	leader = yes
+
+	martial = 5
+	
+	monthly_character_prestige = 0.4
+	vassal_opinion = 15
+	sex_appeal_opinion = 20	
+	
+	potential = {
+		culture = culture_dunedain	
+		OR = {
+			trait = blood_of_numenor
+			trait = blood_of_numenor2
+			trait = elven_blood
+			trait = half_elf
+			trait = blood_of_isildur
+		}
+	}
+	
+	command_modifier = {
+		heavy_infantry = 0.5	
+		archers = 0.3		
+	}
+	opposites =  {
+		dunedain_ranger
+		dunedain_scout
+		dunedain_captain
+	}
+cached = yes		
+}
+
+
+### Archers Traits ###
+
+bowman = {
+	leader = yes
+
+	martial = 1	
+	
+	potential = {
+		culture = culture_barding	
+	}	
+	opposites =  {
+		skilled_bowman
+		great_bowman
+		master_bowman
+	}
+cached = yes
+}
+
+skilled_bowman = {
+	leader = yes
+
+	martial = 2
+	
+	potential = {
+		culture = culture_barding	
+	}	
+	
+	command_modifier = {
+		archers = 0.1		
+	}
+	opposites =  {
+		bowman
+		great_bowman
+		master_bowman
+	}
+cached = yes	
+}
+
+great_bowman = {
+	leader = yes
+
+	martial = 3
+	
+	monthly_character_prestige = 0.1
+	vassal_opinion = 5
+	sex_appeal_opinion = 5
+	
+	potential = {
+		culture = culture_barding	
+	}
+	
+	command_modifier = {
+		archers = 0.2
+	}
+	opposites =  {
+		bowman
+		skilled_bowman
+		master_bowman
+	}
+cached = yes		
+}
+
+master_bowman = {
+	leader = yes
+
+	martial = 4
+	
+	monthly_character_prestige = 0.2
+	vassal_opinion = 10
+	sex_appeal_opinion = 10	
+	
+	potential = {
+		culture = culture_barding	
+	}
+	
+	command_modifier = {	
+		archers = 0.3		
+	}
+	opposites =  {
+		bowman
+		skilled_bowman
+		great_bowman
+	}
+cached = yes		
+}
+

@@ -1,0 +1,16 @@
+########################################################################################################
+# WARNING: IF YOU DON'T ADD NEW TRAITS LAST (IN THE LAST READ TRAIT FILE), IT WILL BREAK OLD SAVE GAMES!
+########################################################################################################
+
+#THE OTHER HAVE BEEN REMOVED SINCE ARE COMPLETELY USELESS FOR THE MOD
+
+# Christian who has completed a Pilgrimage
+pilgrim = {
+	same_religion_opinion = 5
+	monthly_character_piety = 0.1
+}
+
+# The character is visibly scarred from an old wound
+scarred = {
+	monthly_character_prestige = 0.1
+}

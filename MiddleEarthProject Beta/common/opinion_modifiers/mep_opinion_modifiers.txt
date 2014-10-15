@@ -1,0 +1,40 @@
+opinion_gave_palantir_to_me = {
+	opinion = 100
+}
+
+opinion_didnt_give_palantir_to_me = {
+	opinion = -20
+}
+
+opinion_gave_object_to_me = {
+	opinion = 100
+}
+
+opinion_didnt_give_object_to_me = {
+	opinion = -20
+}
+
+###For Arnor and Gondor ##
+opinion_undivided_realm = {
+	opinion = -70
+	months = 12000
+}
+# Is Aragorn, as King
+king_restored = {
+	opinion = 100
+}
+# Stabilizer for some kingdoms
+true_king = {
+	opinion = 100
+}
+# Steward Raised Authority by Council
+opinion_steward_raised_authority = {
+	opinion = 20
+}
+# Mithril Gift
+mithril_gift = {
+	opinion = 100
+}
+opinion_refused_to_trade = {
+	opinion = -50
+}

@@ -1,0 +1,405 @@
+#####Events to stop random Maiar courtiers from appearing####
+
+##We start by giving Saruman and Sauron some courtiers to fill their court##
+
+namespace = maiarkiller
+
+##Sauron gets courtiers##
+	character_event = {
+    id = maiarkiller.1
+    title = "Your Court"
+    desc = "In Barad-Dur, many of your most capable lieutenants reside. They handle the daily tasks of running your realm, and keep your unruly legions under control."
+    picture = "GFX_good"
+	age = 16
+	
+	trigger = {
+		has_landed_title = c_barad_dur
+		NOT = { has_character_flag = maiarkiller1 }
+		year = 11362
+		NOT = { year = 11363 }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+	name = "It's good to have servants."
+	set_character_flag = maiarkiller1
+	create_random_soldier = {
+			dynasty = none
+			religion = religion_black_numenorean
+			culture = culture_black_numenorean
+			female = no
+			age = 45
+			attributes = {
+				martial = 15
+				diplomacy = 9
+				stewardship = 8
+				intrigue = 15
+				learning = 3
+			}
+			health = 6
+			fertility = 0.7
+			trait = brilliant_strategist
+			trait = diligent
+			trait = proud
+			trait = cruel
+			trait = hedonist
+			trait = evil_side
+			trait = blood_of_numenor
+			trait = attractive
+			trait = wroth
+			trait = ambitious
+			trait = impaler
+		}
+		create_random_soldier = {
+			dynasty = none
+			religion = religion_black_numenorean
+			culture = culture_black_numenorean
+			female = yes
+			age = 25
+			attributes = {
+				martial = 6
+				diplomacy = 12
+				stewardship = 8
+				intrigue = 15
+				learning = 9
+			}
+			health = 6
+			fertility = 0.7
+			trait = mastermind_theologian
+			trait = hedonist
+			trait = proud
+			trait = cruel
+			trait = evil_side
+			trait = blood_of_numenor
+			trait = attractive
+			trait = envious
+			trait = deceitful
+			trait = ambitious
+			trait = lustful
+			trait = impaler
+		}
+		create_random_soldier = {
+			dynasty = none
+			religion = religion_black_numenorean
+			culture = culture_noldor
+			female = no
+			age = 7211
+			attributes = {
+				martial = 9
+				diplomacy = 12
+				stewardship = 8
+				intrigue = 15
+				learning = 9
+			}
+			health = 6
+			fertility = 0.7
+			trait = intricate_webweaver
+			trait = elf
+			trait = proud
+			trait = cruel
+			trait = evil_side
+			trait = kinslayer
+			trait = attractive
+			trait = strong
+			trait = greedy
+		}
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 24
+		}
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_orkish
+			female = no
+			age = 21
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_orkish
+			female = no
+			age = 23
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_orkish
+			female = no
+			age = 32
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 54
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 23
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 34
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 23
+		}
+		}
+		}
+		
+		##Saruman gets courtiers##
+			character_event = {
+    id = maiarkiller.2
+    title = "Your Court"
+    desc = "You have gathered to yourself an inner circle, loyal only to yourself. These include orcs, Uruk-Hai, Half-Orcs, and Dunlendings. They take care of all the drudgery associated with ruling a realm and building armies."
+    picture = "GFX_good"
+	age = 16
+	
+	trigger = {
+	has_landed_title = d_isengard
+	NOT = { has_character_flag = maiarkiller2 }
+	year = 11362
+	NOT = { year = 11363 }
+	}
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+		
+	option = {
+	name = "It's good to have servants."
+	set_character_flag = maiarkiller2
+	create_random_soldier = {
+			dynasty = none
+			religion = religion_haldadian
+			culture = culture_dunlending
+			female = no
+			age = 45
+			attributes = {
+				martial = 7
+				diplomacy = 9
+				stewardship = 8
+				intrigue = 12
+				learning = 3
+			}
+			health = 6
+			fertility = 0.7
+			trait = intricate_webweaver
+			trait = diligent
+			trait = cruel
+			trait = evil_side
+			trait = half_orc
+			trait = ugly
+		}
+		create_random_soldier = {
+			dynasty = none
+			religion = religion_haldadian
+			culture = culture_dunlending
+			female = yes
+			age = 18
+			attributes = {
+				martial = 6
+				diplomacy = 12
+				stewardship = 8
+				intrigue = 11
+				learning = 9
+			}
+			health = 6
+			fertility = 0.7
+			trait = mastermind_theologian
+			trait = cruel
+			trait = evil_side
+			trait = half_orc
+			trait = ugly
+			trait = gluttonous
+		}
+		create_random_soldier = {
+			dynasty = none
+			religion = religion_haldadian
+			culture = culture_dunlending
+			female = no
+			age = 19
+			attributes = {
+				martial = 9
+				diplomacy = 12
+				stewardship = 8
+				intrigue = 12
+				learning = 9
+			}
+			health = 6
+			fertility = 0.7
+			trait = intricate_webweaver
+			trait = proud
+			trait = cruel
+			trait = evil_side
+			trait = half_orc
+			trait = strong
+			trait = ugly
+		}
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 33
+		}
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_orkish
+			female = no
+			age = 33
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_orkish
+			female = no
+			age = 37
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_orkish
+			female = no
+			age = 34
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 19
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 56
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 54
+		}
+			create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = religion_orkish
+			culture = culture_urukhai
+			female = no
+			age = 27
+		}
+		}
+		}
+		
+	##Now to kill any Maiar that is below the age of 100 - killing was buggy, change culture instead##
+	character_event = {
+    id = maiarkiller.3
+    title = "You are orcish"
+    desc = "Maiar characters are not supposed to be randomly spawned."
+    picture = "GFX_good"
+	age = 16
+	
+	trigger = {
+		culture = culture_maiar
+		NOT = { age = 100 }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Goodbye, cruel world!"
+		ROOT = { culture = culture_orkish }
+		ROOT = { religion = religion_orkish }
+		set_graphical_culture = culture_orkish
+	}
+}		
+
+	##Now to kill any Istari that is below the age of 100##
+	character_event = {
+    id = maiarkiller.3
+    title = "You are dunlending"
+    desc = "Maiar characters are not supposed to be randomly spawned."
+    picture = "GFX_good"
+	age = 16
+	
+	trigger = {
+	culture = culture_istari
+	NOT = { age = 100 }
+	}
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+	
+	option = {
+	name = "Goodbye, cruel world!"
+	ROOT = { culture = culture_dunlending }
+	ROOT = { religion = religion_haldadian }
+	set_graphical_culture = culture_dunlending
+}
+}		
+
+	##Now to kill any Maiar that is below the age of 100 - killing was buggy, change culture instead##
+	character_event = {
+    id = maiarkiller.4
+    title = "You are orcish"
+    desc = "wight characters are not supposed to be randomly spawned."
+    picture = "GFX_good"
+	age = 16
+	
+	trigger = {
+	culture = culture_wight
+	NOT = { age = 100 }
+	}
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+	
+	option = {
+	name = "Goodbye, cruel world!"
+	ROOT = { culture = culture_orkish }
+	ROOT = { religion = religion_orkish }
+	set_graphical_culture = culture_orkish
+}
+}

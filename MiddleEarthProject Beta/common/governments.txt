@@ -1,0 +1,15 @@
+#city_state = {
+#	primary_settlement = city
+#}
+
+#feudal_monarchy = {
+#	primary_settlement = castle
+#}
+
+#theocracy = {
+#	primary_settlement = temple
+#}
+
+#holy_order = {
+#	primary_settlement = castle
+#}

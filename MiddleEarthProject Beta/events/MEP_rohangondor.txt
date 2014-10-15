@@ -1,0 +1,272 @@
+namespace = redarrow
+
+##Option for Gondor to ask for aid from Rohan##
+
+character_event = {
+    id = redarrow.1
+    title = "The Red Arrow"
+    desc = "The ancient friendship between the House of Eorl and Gondor allows you to send a Red Arrow in times of need, signifying your situation is dire and that your ally should send forces with all haste. Is it time to send the Red Arrow?"
+    picture = "GFX_good"
+	is_triggered_only = yes
+	
+			  
+	option = {
+            name = "Yes, send a swift rider to Rohan!"
+				trigger = {
+				OR = {
+			dynasty = 100
+			dynasty = 2001
+					}
+					}
+			set_character_flag = oath_of_eorl					
+			any_independent_ruler = {
+			limit = {
+			AND = {
+				has_landed_title = k_rohan
+				dynasty = 5
+				}
+			}
+			character_event = { id = redarrow.2 }
+		}
+		}
+
+					option = {
+            name = "No, Gondor can handle this alone."
+		}
+		
+		}
+
+#Rohan receives the Red Arrow#		
+character_event = {
+    id = redarrow.2
+    title = "The Red Arrow"
+    desc = "A Rider from Gondor appears, and kneels presenting the Red Arrow. Their borders are threatened - Gondor calls for aid!"
+    picture = "GFX_good"
+	is_triggered_only = yes
+	
+		
+	option = {
+        name = "And Rohan shall answer. Muster the Rohirrim!"
+		limit = {
+			trait = good_side
+			}
+		ROOT = {
+		join_defender_wars = FROM
+				}
+		any_independent_ruler  = {
+			limit = {
+			OR = {
+				has_landed_title = e_gondor
+				has_landed_title = e_steward_gondor
+				has_landed_title = c_minas_tirith
+				}
+			}
+			character_event = { id = redarrow.3 days = 7 }
+		}				
+				}
+				
+				}
+				
+#Gondor receives reply from Rohan#	
+character_event = {
+    id = redarrow.3
+    title = "The Red Arrow"
+    desc = "An answer returns from Rohan - the Rohirrim are mustering, and will honor the Oath of Eorl with all their might."
+    picture = "GFX_good"
+	is_triggered_only = yes
+	
+		
+	option = {
+        name = "They are true friends indeed."
+				}				
+				}
+	
+	#Gondor receives the Red Arrow#		
+character_event = {
+    id = redarrow.4
+    title = "The Red Arrow"
+    desc = "A Rider from Rohan appears, and kneels presenting the Red Arrow. Their borders are threatened and they call for aid!"
+    picture = "GFX_good"
+	is_triggered_only = yes
+	
+		
+	option = {
+        name = "We shall help our friends!"
+		limit = {
+			trait = good_side
+			}
+		ROOT = {
+		join_defender_wars = FROM
+				}
+		any_independent_ruler  = {
+			limit = {
+				has_landed_title = k_rohan
+			}
+			character_event = { id = redarrow.5 days = 7 }
+		}				
+				}				
+				}
+				
+	#Rohan receives reply from Gondor#	
+character_event = {
+    id = redarrow.5
+    title = "The Red Arrow"
+    desc = "An answer returns from Gondor - they will send what aid they can to assist you."
+    picture = "GFX_good"
+	is_triggered_only = yes
+	
+		
+	option = {
+        name = "They are true friends indeed."
+				}				
+				}
+				
+##Option for Rohan to ask for aid from Gondor##
+character_event = {
+    id = redarrow.6
+    title = "The Red Arrow"
+    desc = "The ancient friendship between the House of Eorl and Gondor allows you to send a Red Arrow in times of need, signifying your situation is dire and that your ally should send forces with all haste. Is it time to send the Red Arrow?"
+    picture = "GFX_good"
+	is_triggered_only = yes
+	
+	option = {
+            name = "Yes, send a swift Rider to Minas Tirith!"
+
+			set_character_flag = oath_of_eorl					
+			any_independent_ruler = {
+			limit = {
+			OR = {
+				has_landed_title = e_gondor
+				has_landed_title = e_steward_gondor
+				has_landed_title = c_minas_tirith
+				}
+			}
+			character_event = { id = redarrow.4 }
+		}
+		}
+
+					option = {
+            name = "No, Rohan can handle this alone."
+		}
+		
+		}
+		
+##Event to remove the character flag once peace returns##
+
+character_event = {
+    id = redarrow.7
+    title = "The Red Arrow"
+    desc = "Enough time has passed, that you can now use the Red Arrow again if needed."
+    picture = "GFX_good"
+	mean_time_to_happen = { months = 50 }
+	
+	trigger = {
+	        has_character_flag = oath_of_eorl
+			has_raised_levies = no
+			  }
+			  
+	option = {
+            name = "OK"
+			clr_character_flag = oath_of_eorl
+		}
+		}
+		
+##AI-event for Gondor to ask for aid from Rohan since decisions are too slow##
+
+character_event = {
+    id = redarrow.8
+    title = "The Red Arrow"
+    desc = "The ancient friendship between the House of Eorl and Gondor allows you to send a Red Arrow in times of need, signifying your situation is dire and that your ally should send forces with all haste. Is it time to send the Red Arrow?"
+    picture = "GFX_good"
+	is_ruler = yes
+	only_independent = yes
+	ai = yes
+	
+	trigger = {
+			AND = {
+		OR = {
+			has_landed_title = e_gondor
+			has_landed_title = e_steward_gondor
+			}
+		OR = {	
+			dynasty = 100
+			dynasty = 2001
+			}
+			independent = yes
+			is_ruler = yes
+			is_primary_war_defender = yes
+			NOT = { has_character_flag = oath_of_eorl }
+			NOT = { has_global_flag = rohan_threatened }
+			}
+			}
+		
+		mean_time_to_happen = {
+				days = 15
+			      }
+			  
+	option = {
+            name = "Yes, send a swift rider to Rohan!"
+				trigger = {
+			dynasty = 100
+					}
+			set_character_flag = oath_of_eorl					
+			any_independent_ruler = {
+			limit = {
+			OR = {
+				has_landed_title = k_rohan
+				dynasty = 24
+				}
+			}
+			character_event = { id = redarrow.2 }
+		}
+		}
+
+		}
+		
+		##Option for AI Rohan to ask for aid from Gondor since decisions are too slow##
+character_event = {
+    id = redarrow.9
+    title = "The Red Arrow"
+    desc = "The ancient friendship between the House of Eorl and Gondor allows you to send a Red Arrow in times of need, signifying your situation is dire and that your ally should send forces with all haste. Is it time to send the Red Arrow?"
+    picture = "GFX_good"
+	only_independent = yes
+	is_ruler = yes
+	
+	trigger = {
+			AND = {
+			has_landed_title = k_rohan
+			dynasty = 5
+			independent = yes
+			is_ruler = yes
+			ai = yes
+			is_primary_war_defender = yes
+			NOT = { has_character_flag = oath_of_eorl }
+			NOT = { has_global_flag = gondor_threatened }
+			}
+			}
+	
+			mean_time_to_happen = {
+				days = 15
+			      }
+				  
+	option = {
+            name = "Yes, send a swift Rider to Minas Tirith!"
+
+			set_character_flag = oath_of_eorl					
+			any_independent_ruler = {
+			limit = {
+			OR = {
+				has_landed_title = e_gondor
+				has_landed_title = e_steward_gondor
+				has_landed_title = c_minas_tirith
+				}
+			}
+			character_event = { id = redarrow.4 }
+		}
+		}
+
+					option = {
+            name = "No, Rohan can handle this alone."
+		}
+		
+		}
