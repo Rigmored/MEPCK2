@@ -1,0 +1,15 @@
+# Lond Thalos
+
+# County Title
+title = c_west_grey_haven
+
+# Settlements
+max_settlements = 3
+
+b_west_grey_haven = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_sindar
+religion = religion_moriquendi
+}

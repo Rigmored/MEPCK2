@@ -1,0 +1,19 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+11204.1.1={
+	liege=d_carrock
+}
+11284.1.1=
+{
+holder =  338 # Beorn
+}
+11320.1.1=
+{
+holder =  339 # Grimbeorn the Old
+}
+11385.1.1=
+{
+holder =  340 # Beornward
+}

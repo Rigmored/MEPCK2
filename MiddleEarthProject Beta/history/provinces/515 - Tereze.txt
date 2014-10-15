@@ -1,0 +1,15 @@
+# 515 - c_tereze
+
+# County Title
+title = c_tereze
+
+# Settlements
+max_settlements = 3
+
+b_tereze = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_far_haradrim
+religion = religion_southron
+}

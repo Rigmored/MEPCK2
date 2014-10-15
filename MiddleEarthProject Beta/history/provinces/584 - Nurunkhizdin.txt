@@ -1,0 +1,20 @@
+#584 - Nurunkhizdin 
+
+# County Title
+title = c_nurunkhizdin  
+
+# Settlements
+max_settlements = 6
+
+b_nurunkhizdin = castle
+b_narag_thurkul = city
+b_hudnul_kezer = castle
+b_manrbul = city
+#b_tumûninh = castle
+#b_khafushûn = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_blacklock
+religion = religion_mahal
+}

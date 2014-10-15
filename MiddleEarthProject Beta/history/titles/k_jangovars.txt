@@ -1,0 +1,21 @@
+11200.1.1={
+	law = agnatic_succession
+	law = succ_feudal_elective
+	law = centralization_3
+	holder = 5386
+}
+11260.1.1={
+	holder = 5388
+}
+11290.1.1={
+	holder = 5390
+}
+11330.1.1={
+	holder = 5392
+}
+11355.1.1={
+	holder = 5394
+}
+11402.1.1={
+	holder = 5396
+}

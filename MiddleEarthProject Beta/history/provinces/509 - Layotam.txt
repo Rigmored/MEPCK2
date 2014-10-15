@@ -1,0 +1,15 @@
+# 506 - c_layotam
+
+# County Title
+title = c_layotam
+
+# Settlements
+max_settlements = 3
+
+b_layotam = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

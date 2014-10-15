@@ -1,0 +1,17 @@
+5402.1.1=
+{
+liege="k_mordor"
+holder = 10016 # Sauron
+}
+8343.1.1=
+{
+holder = 0
+}
+10323.1.1=
+{
+holder =  12223 # Mordor taken by the Nazgul
+}
+11284.1.1=
+{
+holder = 6555
+}

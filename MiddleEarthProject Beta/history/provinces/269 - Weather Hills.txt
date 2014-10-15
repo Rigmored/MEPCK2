@@ -1,0 +1,25 @@
+# Weather Hills
+
+# County Title
+title = c_weather_hills
+
+# Settlements
+max_settlements = 5
+
+b_amon_sul = castle
+b_ost_alagos = castle
+b_ost_laden = castle
+#b_echad_sul = castle
+#b_gondrinn = city
+
+# Misc
+culture = culture_arnorian
+religion = religion_dunedain
+terrain = hills
+1.1.1 = {
+terrain = hills
+}
+8222.1.1 = {
+culture = culture_dunedain
+religion = religion_dunedain
+}

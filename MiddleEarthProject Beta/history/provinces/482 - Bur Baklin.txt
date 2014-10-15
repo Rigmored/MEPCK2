@@ -1,0 +1,15 @@
+# 482 - c_bur_baklin
+
+# County Title
+title = c_bur_baklin
+
+# Settlements
+max_settlements = 3
+
+b_bur_baklin = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

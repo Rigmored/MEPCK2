@@ -1,0 +1,15 @@
+# 536 - c_kes_arik
+
+# County Title
+title = c_kes_arik
+
+# Settlements
+max_settlements = 3
+
+b_kes_arik  = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

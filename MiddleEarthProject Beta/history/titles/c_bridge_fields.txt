@@ -1,0 +1,29 @@
+8221.1.1=
+
+{
+
+holder = 23004 # Eldamir
+
+liege=d_east_farthing
+
+}
+
+
+8395.1.1=
+
+{
+
+holder = 23005 # Dirhavel
+
+}
+
+ 
+10318.1.1=
+{
+holder = 0
+}
+
+11356.1.1=
+{
+holder =  8177 # Will Whitfoot
+}

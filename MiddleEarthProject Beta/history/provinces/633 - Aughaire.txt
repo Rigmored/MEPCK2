@@ -1,0 +1,22 @@
+#Aughaire
+
+# County Title
+title = c_aughaire
+
+# Settlements
+max_settlements = 6
+
+b_aughaire = castle
+b_buth_luikh = city
+b_buth_sankhas = city
+b_akan_methes = city
+#b_rostelion = city
+#b_arnalain = city
+
+# Misc
+culture = culture_hillmen
+religion = religion_angmarim
+8222.1.1 = {
+culture = culture_hillmen
+religion = religion_angmarim
+}

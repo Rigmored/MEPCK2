@@ -1,0 +1,21 @@
+# 327 - Taeg Din
+
+# County Title
+title = c_north_mirkwood
+
+# Settlements
+max_settlements = 5
+
+b_taeg_din = castle
+b_gelir_hûb = city
+b_gobel_gorf = city
+#b_gobel_tîn = castle
+#b_maeg_thôn = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_silvan
+religion = religion_moriquendi
+}
+
+

@@ -1,0 +1,23 @@
+#Narik-zadan
+
+# County Title
+title = c_narik_zadan
+
+# Settlements
+max_settlements = 5
+
+b_narik_zadan = castle
+b_saz_nejja = city
+b_dazeral = castle
+#b_caras_zadan = castle
+#b_iaun_zadan = castle
+
+# Misc
+terrain = coastal_desert
+1.1.1 = {
+terrain = coastal_desert
+}
+8222.1.1 = {
+culture = culture_bellakaze
+religion = religion_southron
+}

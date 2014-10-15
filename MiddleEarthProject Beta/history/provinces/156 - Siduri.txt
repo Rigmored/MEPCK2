@@ -1,0 +1,26 @@
+# Sudúri
+
+# County Title
+title = c_siduri
+
+# Settlements
+max_settlements = 6
+
+b_suduri = castle
+b_himlol = city
+b_aralann = city
+#b_torn_biflas = city
+#b_irudis = castle
+#b_amon_lain = city
+
+# Misc
+culture = culture_arnorian
+religion = religion_dunedain
+8222.1.1 = {
+culture = culture_arnorian
+religion = religion_dunedain
+}
+9752.1.1 = {
+culture = culture_daoine
+religion = religion_haldadian
+}

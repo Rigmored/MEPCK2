@@ -1,0 +1,21 @@
+# Annithir
+
+# County Title
+title = c_annithir
+
+# Settlements
+max_settlements = 5
+
+b_annithir = castle
+b_cairg_faergus = city
+b_cairg_dinas = city
+#b_gwernabwy = castle
+#b_annidwill = city
+
+# Misc
+culture = culture_druwaithing
+religion = religion_haldadian
+8222.1.1 = {
+culture = culture_druwaithing
+religion = religion_haldadian
+}

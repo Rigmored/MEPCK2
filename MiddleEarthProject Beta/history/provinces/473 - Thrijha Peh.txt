@@ -1,0 +1,15 @@
+# 473 - c_thrijha_peh
+
+# County Title
+title = c_thrijha_peh
+
+# Settlements
+max_settlements = 3
+
+b_thrijha_peh = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

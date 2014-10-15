@@ -1,0 +1,22 @@
+# Cirith Analanohir
+
+
+# County Title
+
+title = c_east_nan_enqui
+
+# Settlements
+
+max_settlements = 4
+
+b_cirith_analanohir = castle
+b_amon_anohir = city
+#b_rhunen_enqui = city
+#b_nan_esgobel = city
+
+
+# Misc
+6000.1.1 = {
+culture = culture_andrasting
+religion = religion_haldadian
+}

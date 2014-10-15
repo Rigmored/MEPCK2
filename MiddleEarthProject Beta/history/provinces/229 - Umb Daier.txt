@@ -1,0 +1,27 @@
+#Imlothim
+
+# County Title
+
+title = c_umb_daier
+
+
+# Settlements
+
+max_settlements = 5
+
+b_imlothim = castle
+b_amostin = city
+#b_langlant = city
+#b_maennaneth = city
+#b_dorivril = city
+
+
+# Misc
+8222.1.1 = {
+culture = culture_druwaithing
+religion = religion_haldadian
+}
+
+9979.1.1 = {
+culture = culture_druwaithing
+religion = religion_haldadian }

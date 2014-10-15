@@ -1,0 +1,15 @@
+# 514 - c_anrkaz
+
+# County Title
+title = c_anrkaz
+
+# Settlements
+max_settlements = 3
+
+b_anrkaz = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_far_haradrim
+religion = religion_southron
+}

@@ -1,0 +1,15 @@
+# 457 - c_ershawar
+
+# County Title
+title = c_ershawar
+
+# Settlements
+max_settlements = 3
+
+b_ershawar = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

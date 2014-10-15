@@ -1,0 +1,20 @@
+#Aegthelion
+# County Title
+
+title = c_aegthelion
+
+# Settlements
+
+max_settlements = 5
+
+b_aegthelion = castle
+b_agatalor = city
+b_terunnibel = castle
+#b_satrandhor = city
+#b_reminer = city
+
+# Misc
+8222.1.1 = {
+culture = culture_harondorian
+religion = religion_southron
+}

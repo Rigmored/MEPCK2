@@ -1,0 +1,26 @@
+# c_mirilgasin
+
+
+# County Title
+
+title = c_mirilgasin
+
+
+# Settlements
+
+max_settlements = 5
+
+b_mirilgasin = castle
+b_mirilgasincity = city
+b_mirilgasincastle = castle
+
+
+# Misc
+8222.1.1 = {
+culture = culture_sindar
+religion = religion_moriquendi
+}
+10000.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

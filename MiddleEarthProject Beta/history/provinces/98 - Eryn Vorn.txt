@@ -1,0 +1,22 @@
+# c_eryn_vorn
+
+# County Title
+title = c_eryn_vorn
+
+# Settlements
+max_settlements = 4
+
+b_artgualchar = castle
+b_nansret = city
+#b_minas_thonfalon = city
+#b_eryn_beffraen = city
+
+# Misc
+culture = culture_druedain
+religion = religion_druedain
+terrain = forest
+8222.1.1 = {
+terrain = forest
+culture = culture_druedain
+religion = religion_druedain
+}

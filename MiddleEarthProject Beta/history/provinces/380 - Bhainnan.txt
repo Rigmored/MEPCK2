@@ -1,0 +1,28 @@
+# c_bhainnan
+# County Title
+
+title = c_bhainnan
+
+
+# Settlements
+
+max_settlements = 5
+b_bhainnan = castle
+b_thurm_dreng = city
+b_wulfcol = city
+#b_cugleclif = city
+#b_daestir = city
+
+# Misc
+terrain = hills
+1.1.1 = {
+terrain = hills
+}
+8222.1.1 = {
+culture = culture_dunlending
+religion = religion_haldadian
+}
+
+9979.1.1 = {
+culture = culture_dunlending
+religion = religion_haldadian }

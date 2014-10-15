@@ -1,0 +1,18 @@
+800.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_2
+	law = investiture_law_1
+}
+3527.1.1 =
+{
+holder = 4002 # Azaghâl
+}
+4784.1.1 =
+{
+holder = 4195 # Nyr
+}
+4899.1.1=
+{
+holder = 0 ## Belegost is destroyed during the War of the Wraith
+}

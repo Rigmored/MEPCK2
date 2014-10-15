@@ -1,0 +1,17 @@
+# 462 - c_korb_chelkar
+
+# County Title
+title = c_korb_chelkar
+
+# Settlements
+max_settlements = 4
+
+b_korb_chelkar = castle
+b_korb_chelkarcity = city
+b_korb_chelkartemple = city
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

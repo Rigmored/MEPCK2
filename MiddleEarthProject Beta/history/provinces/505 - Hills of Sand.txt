@@ -1,0 +1,15 @@
+# 505 - c_hills_of_sand
+
+# County Title
+title = c_hills_of_sand
+
+# Settlements
+max_settlements = 3
+
+b_hills_of_sand = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

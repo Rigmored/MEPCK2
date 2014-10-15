@@ -1,0 +1,20 @@
+# 585 - Dagorlad
+
+# County Title
+title = c_east_dagorlad  
+
+# Settlements
+max_settlements = 5
+
+b_caras_gwindor = castle
+#b_tir_camlan = castle
+#b_eithel_celebrin = city
+#b_tir_ingon = castle
+#b_tir_nimmen = castle
+
+# Misc
+culture = culture_nurnim
+religion = religion_nurning
+5902.1.1 = { culture = culture_orkish religion = religion_orkish }
+8222.1.1 = { culture = culture_wilderness religion = religion_wilderness }
+9979.1.1 = { culture = culture_orkish religion = religion_orkish }

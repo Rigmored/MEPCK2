@@ -1,0 +1,18 @@
+2221.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_2
+	law = investiture_law_1
+}
+4902.1.1 =
+{
+holder = 3005 # Celeborn
+}
+4915.1.1 =
+{
+holder = 3248 # Celebrimbor
+}
+6599.1.1 =
+{
+holder = 0 # The Eregion is destroyed by Sauron
+}

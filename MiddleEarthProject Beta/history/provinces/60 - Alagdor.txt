@@ -1,0 +1,25 @@
+# Alagdor
+
+# County Title
+title = c_alagdor
+
+# Settlements
+max_settlements = 5
+
+b_alagdor = castle
+b_arastafal = city
+#b_politor = city
+#b_polisor = castle
+#b_alagber = castle
+
+# Misc
+culture = culture_gondorian
+religion = religion_dunedain
+
+8222.1.1 = {
+culture = culture_gondorian
+religion = religion_dunedain
+}
+10345.1.1 = { 
+culture = culture_wilderness 
+religion = religion_wilderness }

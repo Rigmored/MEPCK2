@@ -1,0 +1,26 @@
+# 669 - Talvi Muri
+
+
+# County Title
+
+title = c_talvi_muri
+
+
+# Settlements
+
+max_settlements = 4
+b_kuru_leiri = castle
+b_hilje = city
+#b_jotunstath = city
+#b_norbuskal = city
+
+
+# Misc
+terrain = arctic
+1.1.1 = {
+terrain = arctic
+}
+8222.1.1 = {
+culture = culture_lossoth
+religion = religion_lossoth
+}

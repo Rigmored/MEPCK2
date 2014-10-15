@@ -1,0 +1,15 @@
+# 496 - c_sandmarish
+
+# County Title
+title = c_sandmarish
+
+# Settlements
+max_settlements = 3
+
+b_sandmarish = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

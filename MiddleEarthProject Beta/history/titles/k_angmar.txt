@@ -1,0 +1,13 @@
+9643.1.1={
+law = agnatic_succession
+law = succ_seniority
+law = centralization_4
+holder = 12223 #The Witch King
+liege = "e_angmar"
+}
+10318.1.1={
+holder = 0
+liege = 0
+}
+
+

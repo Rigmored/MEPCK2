@@ -1,0 +1,26 @@
+# Parth Iaur
+
+# County Title
+
+title = c_parth_iaur
+
+# Settlements
+
+max_settlements = 4
+
+b_parth_iaur = castle
+b_an_cosa_bras = city
+#b_e_gynd = city
+#b_rast_iaur = city
+
+# Misc
+culture = culture_andrasting
+religion = religion_haldadian
+terrain = hills
+1.1.1 = {
+terrain = hills
+}
+6000.1.1 = {
+culture = culture_andrasting
+religion = religion_haldadian
+}

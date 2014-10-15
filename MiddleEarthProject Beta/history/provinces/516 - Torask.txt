@@ -1,0 +1,15 @@
+# 516 - c_torask
+
+# County Title
+title = c_torask
+
+# Settlements
+max_settlements = 3
+
+b_torask = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

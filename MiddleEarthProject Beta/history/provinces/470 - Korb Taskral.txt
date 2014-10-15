@@ -1,0 +1,15 @@
+# 470 - c_korb_taskral
+
+# County Title
+title = c_korb_taskral
+
+# Settlements
+max_settlements = 3
+
+b_korb_taskral = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

@@ -1,0 +1,18 @@
+# 675 - Lithimm
+
+# County Title
+title = c_lithimm
+
+# Settlements
+max_settlements = 4
+
+b_lithimm = castle
+b_lithloeg = city
+b_rhosgoroch = city
+#b_rasraeg = city
+
+# Misc
+8222.1.1 = {
+culture = culture_far_haradrim
+religion = religion_southron
+}

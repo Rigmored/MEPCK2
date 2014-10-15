@@ -1,0 +1,29 @@
+5402.1.1=
+{
+    law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_4
+	law = investiture_law_1
+liege="e_barad_dur"
+holder = 10016 # Sauron
+}
+8343.1.1=
+{
+law = centralization_2
+liege="e_gondor"
+holder = 0
+}
+10323.1.1=
+{
+law = centralization_4
+liege="e_barad_dur"
+holder =  12223 # Mordor taken by the Nazgul
+}
+11284.1.1=
+{
+holder = 10016 # Sauron
+}
+11362.3.25=
+{
+liege="e_gondor"
+}

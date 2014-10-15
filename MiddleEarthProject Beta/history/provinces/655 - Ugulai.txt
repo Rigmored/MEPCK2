@@ -1,0 +1,21 @@
+#Ugulai
+
+# County Title
+title = c_ugulai
+
+# Settlements
+max_settlements = 6
+
+b_ugulai = castle
+b_aksa = castle
+b_den_loke = castle
+b_gundalok = city
+#b_ikrist = castle
+#b_mokoros = castle
+
+# Misc
+culture = culture_longbeard
+religion = religion_mahal
+9648.1.1 = { 
+culture = culture_orkish 
+religion = religion_orkish }

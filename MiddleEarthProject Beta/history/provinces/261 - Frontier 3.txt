@@ -1,0 +1,22 @@
+# c_frontier_3
+
+# County Title
+title = c_frontier_3
+
+# Settlements
+max_settlements = 2
+
+b_ramunnidon = castle
+b_aradras = city
+
+# Misc
+culture = culture_arnorian
+religion = religion_dunedain
+8222.1.1 = {
+culture = culture_arnorian
+religion = religion_dunedain
+}
+9752.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

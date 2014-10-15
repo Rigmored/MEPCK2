@@ -1,0 +1,22 @@
+# 226 - Isendale
+
+# County Title
+title = c_isengard
+
+# Settlements
+max_settlements = 5
+b_forthbrond = castle
+b_athdar = city
+b_brontrig = city
+#b_cuvnerth = city
+#b_isenstan = city
+
+# Misc
+8222.1.1 = {
+culture = culture_dunlending
+religion = religion_haldadian
+}
+
+9979.1.1 = {
+culture = culture_dunlending
+religion = religion_haldadian }

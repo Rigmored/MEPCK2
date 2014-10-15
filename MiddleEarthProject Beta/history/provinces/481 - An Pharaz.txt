@@ -1,0 +1,16 @@
+# 481 - c_an_pharaz
+
+# County Title
+title = c_an_pharaz
+
+# Settlements
+max_settlements = 4
+
+b_an_pharaz = castle
+b_an_pharazcity = city
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

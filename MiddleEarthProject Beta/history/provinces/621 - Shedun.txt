@@ -1,0 +1,21 @@
+#Duvuinen 
+
+# County Title
+title = c_shedun
+
+# Settlements
+max_settlements = 5
+
+b_duvuinen = castle
+b_shedun = castle
+b_gram = castle
+#b_maethad = castle
+#b_graetdur = castle
+
+# Misc
+culture = culture_hillmen
+religion = religion_angmarim
+9643.1.1 = {
+culture = culture_orkish
+religion = religion_orkish
+}

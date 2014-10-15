@@ -1,0 +1,15 @@
+# 486 - c_krub_mabur
+
+# County Title
+title = c_krub_mabur
+
+# Settlements
+max_settlements = 3
+
+b_krub_mabur = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

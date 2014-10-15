@@ -1,0 +1,21 @@
+# 674 - Farakudum
+
+
+
+# County Title
+title = c_farakudum
+
+
+
+# Settlements
+max_settlements = 4
+b_farakudum = castle
+b_thundith = castle
+#b_barkin = castle
+#b_gharkhafush = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_firebeard
+religion = religion_mahal
+}

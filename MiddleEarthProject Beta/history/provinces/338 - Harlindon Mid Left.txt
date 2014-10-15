@@ -1,0 +1,23 @@
+# c_harlindon_mid_left
+
+
+# County Title
+
+title = c_harlindon_mid_left
+
+
+# Settlements
+
+max_settlements = 4
+b_harlindon_mid_left = castle
+
+
+# Misc
+8222.1.1 = {
+culture = culture_sindar
+religion = religion_moriquendi
+}
+10000.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

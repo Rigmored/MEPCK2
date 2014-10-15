@@ -1,0 +1,18 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_3
+	law = investiture_law_1
+}
+10932.1.1=
+{
+holder = 4025 # Grór
+}
+11148.1.1=
+{
+holder = 4043 # Dain II Ironfoot
+}
+11284.10.30=
+{
+holder = 0 # Dain II is king under the Mountain
+}

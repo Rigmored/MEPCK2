@@ -1,0 +1,26 @@
+#Cmeth Brin
+
+# County Title
+title = c_rhudaur
+
+# Settlements
+max_settlements = 6
+
+b_cameth_brin = castle
+b_carandor = city
+b_talugdaeri = castle
+b_camarath = city
+#b_ostravir = city
+#b_zarabuhr = city
+
+# Misc
+culture = culture_arnorian
+religion = religion_dunedain
+8222.1.1 = {
+culture = culture_arnorian
+religion = religion_dunedain
+}
+9752.1.1 = {
+culture = culture_hillmen
+religion = religion_haldadian
+}

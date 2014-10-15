@@ -1,0 +1,17 @@
+# 467 - c_kadar_argon
+
+# County Title
+title = c_kadar_argon
+
+# Settlements
+max_settlements = 5
+
+b_kadar_argon = castle
+b_kadar_argoncity1 = city
+b_kadar_argoncity2 = city
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

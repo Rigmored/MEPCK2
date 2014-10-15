@@ -1,0 +1,17 @@
+# 456 - c_bogath
+
+# County Title
+title = c_bogath
+
+# Settlements
+max_settlements = 4
+
+b_bogath = castle
+b_bogathcity = city
+b_bogathtemple = city
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

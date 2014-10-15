@@ -1,0 +1,17 @@
+# 433 - c_pellardur
+
+# County Title
+title = c_pellardur
+
+# Settlements
+max_settlements = 4
+
+b_pellardur  = castle
+b_pellardurcastle  = castle
+b_pellardurcity  = city
+
+# Misc
+8222.1.1 = {
+culture = culture_black_numenorean
+religion = religion_black_numenorean
+}

@@ -1,0 +1,26 @@
+# Bar Morthil
+
+# County Title
+title = c_andrast
+
+# Settlements
+
+max_settlements = 5
+
+b_bar_morthil = castle
+b_tumbnui = city
+b_rast_hanadh = city
+#b_ras_morthil = city
+#b_ulond = city
+
+# Misc
+culture = culture_andrasting
+religion = religion_haldadian
+terrain = hills
+1.1.1 = {
+terrain = hills
+}
+6000.1.1 = {
+culture = culture_andrasting
+religion = religion_haldadian
+}

@@ -1,0 +1,8 @@
+9785.1.1=
+{
+holder = 1671 # Eldacar come back to claim the leadership of Gondor
+}
+9790.1.1=
+{
+holder = 0
+}

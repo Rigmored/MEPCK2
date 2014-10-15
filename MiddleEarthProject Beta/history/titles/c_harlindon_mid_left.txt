@@ -1,0 +1,25 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1=
+{
+liege=d_harlond
+}
+8221.1.1=
+{
+holder = 3308
+}
+9688.1.1=
+{
+holder = 3309
+}
+9978.1.1=
+{
+holder = 3310
+}
+11115.1.1=
+{
+holder = 0 
+liege = 0
+}

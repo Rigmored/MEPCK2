@@ -1,0 +1,15 @@
+# 458 - c_kas_auebel
+
+# County Title
+title = c_kas_auebel
+
+# Settlements
+max_settlements = 3
+
+b_kas_auebel = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

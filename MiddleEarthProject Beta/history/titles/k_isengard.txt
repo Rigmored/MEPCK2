@@ -1,0 +1,17 @@
+11293.1.1=
+{
+holder = 10032 # Saruman
+law = succ_primogeniture
+law = agnatic_succession
+law = centralization_4
+}
+11362.1.1=
+{
+liege = e_isengard
+}
+11362.5.1=
+{
+holder = 0
+liege = 0
+}
+

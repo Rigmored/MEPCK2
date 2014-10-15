@@ -1,0 +1,15 @@
+# c_gwathlo_mouth
+
+# County Title
+title = c_gwathlo_mouth
+
+# Settlements
+max_settlements = 3
+
+b_gwathlo_mouth = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_druwaithing
+religion = religion_haldadian
+}

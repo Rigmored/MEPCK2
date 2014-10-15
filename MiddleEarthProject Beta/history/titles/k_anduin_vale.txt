@@ -1,0 +1,17 @@
+8220.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_1
+}
+11204.1.1=
+{
+holder =  338 # Beorn
+}
+11320.1.1=
+{
+holder =  339 # Grimbeorn the Old
+}
+11385.1.1=
+{
+holder =  340 # Beornward
+}

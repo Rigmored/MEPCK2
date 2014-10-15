@@ -1,0 +1,20 @@
+# Rondalph
+
+# County Title
+title = c_rondalph
+
+# Settlements
+max_settlements = 5
+
+b_rondalph = castle
+b_iantras = city
+b_tassionath = city
+#b_rondtaril = city
+#b_barad_loen = city
+
+# Misc
+culture = culture_gondorian_middlemen
+religion = religion_rhovanion
+9344.1.1={
+culture = culture_gondorian_middlemen
+religion = religion_dunedain }

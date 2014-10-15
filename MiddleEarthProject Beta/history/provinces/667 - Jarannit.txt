@@ -1,0 +1,25 @@
+# 667 - Jarannit
+
+
+# County Title
+
+title = c_jarannit
+
+# Settlements
+
+max_settlements = 4
+
+b_suri_kyla = castle
+b_lodge_of_suri_kyla = city
+#b_reodh_fuil = city
+#b_ironspan = castle
+
+# Misc
+terrain = arctic
+1.1.1 = {
+terrain = arctic
+}
+8222.1.1 = {
+culture = culture_lossoth
+religion = religion_lossoth
+}

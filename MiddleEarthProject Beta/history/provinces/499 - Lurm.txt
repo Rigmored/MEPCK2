@@ -1,0 +1,15 @@
+# 499 - c_lurm
+
+# County Title
+title = c_lurm
+
+# Settlements
+max_settlements = 3
+
+b_lurm = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

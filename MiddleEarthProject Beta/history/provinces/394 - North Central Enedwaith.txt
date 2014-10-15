@@ -1,0 +1,15 @@
+# c_north_central_enedwaith
+
+# County Title
+title = c_north_central_enedwaith
+
+# Settlements
+max_settlements = 3
+
+b_north_central_enedwaith = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

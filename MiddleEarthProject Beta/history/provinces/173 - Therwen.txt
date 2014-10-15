@@ -1,0 +1,21 @@
+# c_therwen
+
+# County Title
+title = c_therwen
+
+# Settlements
+max_settlements = 3
+
+b_therwen = castle
+
+# Misc
+culture = culture_arnorian
+religion = religion_dunedain
+8222.1.1 = {
+culture = culture_arnorian
+religion = religion_dunedain
+}
+9752.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

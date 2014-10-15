@@ -1,0 +1,25 @@
+# c_denerond
+
+# County Title
+title = c_denerond
+
+# Settlements
+max_settlements = 3
+
+b_denerond = castle
+
+# Misc
+culture = culture_arnorian
+religion = religion_dunedain
+terrain = plains
+1.1.1 = {
+terrain = plains
+}
+8222.1.1 = {
+culture = culture_arnorian
+religion = religion_dunedain
+}
+9752.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

@@ -1,0 +1,26 @@
+#Dor Rhovanion
+
+# County Title
+title = c_dor_rhovanion
+
+# Settlements
+max_settlements = 6
+
+b_dor_rhovanion = castle
+b_burh_rhavan = city
+b_dor_shatar = castle
+#b_sisien = castle
+#b_alavardi = city
+#b_lorinn = city
+
+# Misc
+culture = culture_wilderness
+religion = religion_wilderness
+8222.1.1 = {
+culture = culture_northmen
+religion = religion_rhovanion
+}
+11250.1.1 = {
+culture = culture_jangovars
+religion = religion_easterlings
+}

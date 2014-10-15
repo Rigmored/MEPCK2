@@ -1,0 +1,17 @@
+# 233 - c_mountains_of_shadow
+
+# County Title
+title = c_mountains_of_shadow
+
+# Settlements
+max_settlements = 3
+
+b_ulmyn = castle
+b_gwarthiraug = castle
+
+# Misc
+culture = culture_orkish 
+religion = religion_orkish
+5902.1.1 = { 
+culture = culture_orkish 
+religion = religion_orkish }

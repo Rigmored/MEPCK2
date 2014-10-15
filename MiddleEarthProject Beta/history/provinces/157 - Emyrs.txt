@@ -1,0 +1,21 @@
+#Minas Emrys
+
+# County Title
+title = c_emyrs
+
+# Settlements
+max_settlements = 5
+
+b_minas_emrys = castle
+b_guinnion = city
+b_cadbury = city
+#b_malehaur = city
+#b_ilfin = city
+
+# Misc
+culture = culture_dunlending
+religion = religion_haldadian
+8222.1.1 = {
+culture = culture_dunlending
+religion = religion_haldadian
+}

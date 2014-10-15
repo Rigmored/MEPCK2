@@ -1,0 +1,17 @@
+# 552 - c_ronkgul
+
+# County Title
+title = c_ronkgul
+
+# Settlements
+max_settlements = 3
+
+b_ronkgul = castle
+
+# Misc
+4222.1.1 = {
+culture = culture_avari
+religion = religion_moriquendi
+}
+
+5902.1.1 = { culture = culture_nurnim religion = religion_nurning }

@@ -1,0 +1,15 @@
+# 497 - c_sandroad
+
+# County Title
+title = c_sandroad
+
+# Settlements
+max_settlements = 3
+
+b_sandroad = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

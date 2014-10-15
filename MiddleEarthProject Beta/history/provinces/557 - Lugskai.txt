@@ -1,0 +1,15 @@
+# 557 - c_lugskai
+
+# County Title
+title = c_lugskai
+
+# Settlements
+max_settlements = 3
+
+b_lugskai = castle
+
+# Misc
+culture = culture_avari
+religion = religion_moriquendi
+
+5902.1.1 = { culture = culture_nurnim religion = religion_nurning }

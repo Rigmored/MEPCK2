@@ -1,0 +1,15 @@
+# 474 - c_vale_of_haruz
+
+# County Title
+title = c_vale_of_haruz
+
+# Settlements
+max_settlements = 3
+
+b_vale_of_haruz = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

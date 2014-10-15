@@ -1,0 +1,31 @@
+# c_north_neck_forlindon
+
+
+
+# County Title
+
+
+title = c_north_neck_forlindon
+
+
+
+# Settlements
+
+max_settlements = 3
+
+
+
+b_north_neck_forlindon = castle
+
+b_north_neck_forlindontemple = city
+
+# Misc
+8222.1.1 = {
+culture = culture_noldor
+religion = religion_moriquendi
+}
+
+10000.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

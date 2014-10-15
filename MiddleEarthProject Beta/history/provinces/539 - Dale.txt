@@ -1,0 +1,30 @@
+# 539 - Dale
+
+# County Title
+title = c_dale
+
+# Settlements
+max_settlements = 7
+
+b_dale_king_hall = castle
+b_market_square = city
+b_dale_inner_gate = castle
+b_bluetower = castle
+b_dale_outer_gate = castle
+#b_girion_hill = city
+#b_farmdale = city
+
+
+# Misc
+8222.1.1 = {
+culture = culture_northmen
+religion = religion_rhovanion
+}
+11113.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}
+11284.1.1 = {
+culture = culture_barding
+religion = religion_rhovanion
+}

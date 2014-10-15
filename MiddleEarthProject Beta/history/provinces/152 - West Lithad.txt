@@ -1,0 +1,17 @@
+# 152 - Minas Durlith
+
+# County Title
+title = c_west_lithad
+
+# Settlements
+max_settlements = 4
+
+b_minas_durlith = castle
+b_black_beacon = castle
+b_shakshara = city
+# Misc
+culture = culture_orkish 
+religion = religion_orkish
+5902.1.1 = { 
+culture = culture_orkish 
+religion = religion_orkish }

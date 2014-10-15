@@ -1,0 +1,15 @@
+# 531 - c_sulaj_dar
+
+# County Title
+title = c_sulaj_dar
+
+# Settlements
+max_settlements = 3
+
+b_sulaj_dar  = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

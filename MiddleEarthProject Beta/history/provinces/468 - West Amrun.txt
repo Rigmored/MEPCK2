@@ -1,0 +1,15 @@
+# 468 - c_west_amrun
+
+# County Title
+title = c_west_amrun
+
+# Settlements
+max_settlements = 3
+
+b_kadar_amrun = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

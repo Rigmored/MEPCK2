@@ -1,0 +1,27 @@
+#Lond Galen
+
+# County Title
+
+title = c_lond_galen
+
+# Settlements
+
+max_settlements = 6
+
+b_lond_galen = castle
+b_serelond = city
+b_lond_anfalas = city
+b_dor_galen = city
+#b_cof_galen = city
+#b_cofdurel = city
+
+# Misc
+culture = culture_gondorian_middlemen
+religion = religion_rhovanion
+terrain = hills
+1.1.1 = {
+terrain = hills
+}
+9344.1.1={
+culture = culture_gondorian_middlemen
+religion = religion_dunedain }

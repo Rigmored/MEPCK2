@@ -1,0 +1,22 @@
+#Ram Duath
+
+# County Title
+title = c_imlad_balchorth
+
+# Settlements
+max_settlements = 6
+
+b_ram_duath = castle
+b_lehma-koti = city
+b_duvaire = city
+b_frith-vaile = city
+#b_skathmur = city
+#b_rimpurod= castle
+
+# Misc
+culture = culture_hillmen
+religion = religion_angmarim
+8222.1.1 = {
+culture = culture_hillmen
+religion = religion_angmarim
+}

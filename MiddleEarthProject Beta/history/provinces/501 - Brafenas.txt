@@ -1,0 +1,17 @@
+# 501 - c_brafenas
+
+# County Title
+title = c_brafenas
+
+# Settlements
+max_settlements = 5
+
+b_brafenas = castle
+b_brafenascity1 = city
+b_brafenascity2 = city
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

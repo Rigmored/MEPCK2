@@ -1,0 +1,20 @@
+#Zimrenzil
+
+# County Title
+title = c_zimrenzil
+
+# Settlements
+max_settlements = 5
+
+b_zimrenzil = castle
+b_joam = city
+b_zimazor = city
+#b_menruzor = city
+#b_amruzoam = city
+
+
+# Misc
+8222.1.1 = {
+culture = culture_bellakaze
+religion = religion_southron
+}

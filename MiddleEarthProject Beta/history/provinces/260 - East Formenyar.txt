@@ -1,0 +1,22 @@
+# c_east_formenyar
+
+# County Title
+title = c_east_formenyar
+
+# Settlements
+max_settlements = 2
+
+b_formenyaron = castle
+b_terellisce = city
+
+# Misc
+culture = culture_arnorian
+religion = religion_dunedain
+8222.1.1 = {
+culture = culture_arnorian
+religion = religion_dunedain
+}
+9752.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

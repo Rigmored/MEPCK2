@@ -1,0 +1,15 @@
+# 641 - c_valley_of_fellbeasts
+
+# County Title
+title = c_valley_of_fellbeasts
+
+# Settlements
+max_settlements = 3
+
+b_valley_of_fellbeasts = castle
+
+# Misc
+culture = culture_nurnim
+religion = religion_nurning
+
+5902.1.1 = { culture = culture_orkish religion = religion_orkish }

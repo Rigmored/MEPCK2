@@ -1,0 +1,17 @@
+# 504 - c_lurmsakun
+
+# County Title
+title = c_lurmsakun
+
+# Settlements
+max_settlements = 5
+
+b_lurmsakun = castle
+b_lurmsakuncity = city
+b_lurmsakuntemple = city
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

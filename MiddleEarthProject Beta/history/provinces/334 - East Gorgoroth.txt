@@ -1,0 +1,17 @@
+# 334 - c_east_gorgoroth
+
+# County Title
+title = c_east_gorgoroth
+
+# Settlements
+max_settlements = 3
+
+b_seregost = castle
+b_sereglug = city
+
+# Misc
+culture = culture_orkish 
+religion = religion_orkish
+5902.1.1 = { 
+culture = culture_orkish 
+religion = religion_orkish }

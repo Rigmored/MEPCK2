@@ -1,0 +1,27 @@
+#Imladris
+
+# County Title
+title = c_imladris
+
+# Settlements
+max_settlements = 7
+
+b_last_homely_house = castle
+b_forges_of_rivendell = castle
+b_hidhuinen = city
+b_imdolen = city
+b_gates_of_rivendell = castle
+b_bridge_of_rivendell = castle
+#b_imlad_gelair = city
+
+# Misc
+culture = culture_noldor
+religion = religion_moriquendi
+terrain = hills
+1.1.1 = {
+terrain = hills
+}
+8000.1.1 = {
+culture = culture_noldor
+religion = religion_moriquendi
+}

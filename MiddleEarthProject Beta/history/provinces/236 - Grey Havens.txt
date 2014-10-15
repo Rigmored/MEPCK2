@@ -1,0 +1,21 @@
+# c_grey_havens
+
+
+# County Title
+
+title = c_grey_havens
+
+
+# Settlements
+
+max_settlements = 3
+
+
+b_grey_havens = castle
+
+
+# Misc
+8222.1.1 = {
+culture = culture_sindar
+religion = religion_moriquendi
+}

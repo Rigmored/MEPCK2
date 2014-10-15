@@ -1,0 +1,21 @@
+#Malduin
+
+# County Title
+
+title = c_malduin
+
+# Settlements
+
+max_settlements = 5
+
+b_bar_malduin = castle
+b_ereb_malduin = city
+b_garmagoum = castle
+#b_dor_malduin = castle
+#b_moreluin = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_harondorian
+religion = religion_southron
+}

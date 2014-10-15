@@ -1,0 +1,23 @@
+8220.1.1=
+{
+    law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_4
+	law = investiture_law_1
+holder = 10016 # Sauron
+}
+8343.1.1 = {
+holder = 0
+}
+
+11284.1.1=
+{
+    law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_4
+	law = investiture_law_1
+holder = 10016 # Sauron
+}
+11362.5.1 = {
+holder = 0
+}

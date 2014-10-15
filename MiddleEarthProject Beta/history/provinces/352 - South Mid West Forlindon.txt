@@ -1,0 +1,21 @@
+# c_south_mid_west_forlindon
+
+
+# County Title
+
+title = c_south_mid_west_forlindon
+
+
+# Settlements
+max_settlements = 5
+
+
+b_south_mid_west_forlindon = castle
+
+b_south_mid_west_forlindoncity = city
+
+# Misc
+8222.1.1 = {
+culture = culture_sindar
+religion = religion_moriquendi
+}

@@ -1,0 +1,17 @@
+# Imduin
+
+title = c_imduin
+
+max_settlements = 5
+
+b_minas_imduin = castle
+b_dol_imduin = city
+b_imdrilis = city
+#b_calastor = city
+#b_bar_menuir = city 
+
+#Misc
+8222.1.1 = {
+culture = culture_gondorian
+religion = religion_dunedain
+}

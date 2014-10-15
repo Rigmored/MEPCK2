@@ -1,0 +1,15 @@
+# 475 - c_feah
+
+# County Title
+title = c_feah
+
+# Settlements
+max_settlements = 3
+
+b_feah = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

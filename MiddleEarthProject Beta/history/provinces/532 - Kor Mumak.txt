@@ -1,0 +1,15 @@
+# 532 - c_kor_mumak
+
+# County Title
+title = c_kor_mumak
+
+# Settlements
+max_settlements = 3
+
+b_kor_mumak  = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_wilderness
+}

@@ -1,0 +1,15 @@
+# 460 - c_kupsha
+
+# County Title
+title = c_kupsha
+
+# Settlements
+max_settlements = 3
+
+b_kupsha = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

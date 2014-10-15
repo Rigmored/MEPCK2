@@ -1,0 +1,59 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=d_nurad
+}
+10924.1.1=
+{
+holder =  5073 # Aziagos
+}
+10965.1.1=
+{
+holder =  5074 # Phoros
+}
+10999.1.1=
+{
+holder =  5075 # Chôdonakos
+}
+11045.1.1=
+{
+holder =  5076 # Abeacus
+}
+11082.1.1=
+{
+holder =  5077 # Kossas
+}
+11128.1.1=
+{
+holder =  5078 # Baiormaios
+}
+11164.1.1=
+{
+holder =  5079 # Xêgodis
+}
+11213.1.1=
+{
+holder =  5080 # Karzoazos
+}
+11250.1.1=
+{
+holder =  5081 # Dadagos
+}
+11288.1.1=
+{
+holder =  5082 # Xiamphôkanos
+}
+11321.1.1=
+{
+holder =  5083 # Thuloganos
+}
+11358.1.1=
+{
+holder =  5084 # Iôdesmagos
+}
+11375.1.1=
+{
+holder =  5085 # Hamazasp
+}

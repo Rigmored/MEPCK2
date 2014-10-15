@@ -1,0 +1,23 @@
+# Nimrhand
+
+# County Title
+
+title = c_nimrhand
+
+# Settlements
+
+max_settlements = 4
+
+b_nimrhand = castle
+b_rast_amonher = city
+#b_nimrodui = city
+#b_caras_lidon = castle
+
+# Misc
+culture = culture_andrasting
+religion = religion_haldadian
+
+6000.1.1 = {
+culture = culture_andrasting
+religion = religion_haldadian
+}

@@ -1,0 +1,15 @@
+# 491 - c_enmahadah
+
+# County Title
+title = c_enmahadah
+
+# Settlements
+max_settlements = 3
+
+b_enmahadah = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

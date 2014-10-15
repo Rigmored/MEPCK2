@@ -1,0 +1,27 @@
+# c_fidach
+
+
+# County Title
+
+title = c_fidach
+
+
+# Settlements
+
+max_settlements = 5
+
+b_fidach = castle
+b_dunbog = city
+b_lhan_ros = city
+#b_cors_avanc = city
+#b_durgors = city
+
+# Misc
+8222.1.1 = {
+culture = culture_dunlending
+religion = religion_haldadian
+}
+
+9979.1.1 = {
+culture = culture_dunlending
+religion = religion_haldadian }

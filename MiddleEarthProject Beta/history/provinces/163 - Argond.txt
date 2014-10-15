@@ -1,0 +1,25 @@
+#Argond
+
+# County Title
+title = c_argond
+
+# Settlements
+max_settlements = 5
+
+b_argond = castle
+b_gwahilmoth = city
+b_alburh = castle
+#b_virransivu = castle
+#b_aikahaim = castle
+
+# Misc
+culture = culture_arnorian
+religion = religion_dunedain
+8222.1.1 = {
+culture = culture_arnorian
+religion = religion_dunedain
+}
+9752.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

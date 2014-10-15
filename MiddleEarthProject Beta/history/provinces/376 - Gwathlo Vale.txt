@@ -1,0 +1,15 @@
+# c_gwathlo_vale
+
+# County Title
+title = c_gwathlo_vale
+
+# Settlements
+max_settlements = 3
+
+b_gwathlo_vale = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

@@ -1,0 +1,15 @@
+# 493 - c_mikarin_peh
+
+# County Title
+title = c_mikarin_peh
+
+# Settlements
+max_settlements = 3
+
+b_mikarin_peh = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

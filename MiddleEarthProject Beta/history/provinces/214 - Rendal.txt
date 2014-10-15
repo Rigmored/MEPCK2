@@ -1,0 +1,23 @@
+#Morlad
+
+# County Title
+
+title = c_rendal
+
+# Settlements
+
+max_settlements = 5
+
+b_morlad = castle
+b_alagrant = city		  
+b_lebigir = city
+#b_rendul = city 
+#b_minas_morthond = city
+
+# Misc
+culture = culture_gondorian_middlemen
+religion = religion_rhovanion
+8222.1.1 = {
+culture = culture_gondorian_middlemen
+religion = religion_rhovanion
+}

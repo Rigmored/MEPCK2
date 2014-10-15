@@ -1,0 +1,15 @@
+# 537 - c_akhul
+
+# County Title
+title = c_akhul
+
+# Settlements
+max_settlements = 3
+
+b_akhul  = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

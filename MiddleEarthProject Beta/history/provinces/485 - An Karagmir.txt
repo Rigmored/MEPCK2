@@ -1,0 +1,17 @@
+# 485 - c_an_karagmir
+
+# County Title
+title = c_an_karagmir
+
+# Settlements
+max_settlements = 4
+
+b_an_karagmir = castle
+b_an_karagmircity = city
+b_an_karagmirtemple = city
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

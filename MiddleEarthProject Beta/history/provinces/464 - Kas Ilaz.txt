@@ -1,0 +1,15 @@
+# 463 - c_kas_ilaz
+
+# County Title
+title = c_kas_ilaz
+
+# Settlements
+max_settlements = 3
+
+b_kas_ilaz = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

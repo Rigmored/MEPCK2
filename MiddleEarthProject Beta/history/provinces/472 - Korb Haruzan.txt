@@ -1,0 +1,15 @@
+# 472 - c_korb_haruzan
+
+# County Title
+title = c_korb_haruzan
+
+# Settlements
+max_settlements = 3
+
+b_korb_haruzan = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

@@ -1,0 +1,29 @@
+# c_duncillien
+
+
+# County Title
+
+title = c_duncillien
+
+
+# Settlements
+
+max_settlements = 4
+b_duncillien = castle
+b_avardin = city
+#b_starkmoor = city
+#b_dunalais = city
+
+# Misc
+terrain = hills
+1.1.1 = {
+terrain = hills
+}
+8222.1.1 = {
+culture = culture_dunlending
+religion = religion_haldadian
+}
+
+9979.1.1 = {
+culture = culture_dunlending
+religion = religion_haldadian }

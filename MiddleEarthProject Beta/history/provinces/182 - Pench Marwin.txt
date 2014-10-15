@@ -1,0 +1,23 @@
+# Perth Maiwin
+
+# County Title
+
+title = c_pench_marwin
+
+# Settlements
+
+max_settlements = 4
+
+b_perth_maiwin = castle
+b_ras_miulime = city
+#b_bar_lond = castle
+#b_ubondost = city
+
+# Misc
+culture = culture_andrasting
+religion = religion_haldadian
+
+6000.1.1 = {
+culture = culture_andrasting
+religion = religion_haldadian
+}

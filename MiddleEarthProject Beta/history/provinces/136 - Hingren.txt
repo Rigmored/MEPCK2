@@ -1,0 +1,21 @@
+#Hingrenost
+
+# County Title
+
+title = c_hingren
+
+# Settlements
+
+max_settlements = 5
+
+b_hingrenost = castle
+b_hingren = castle
+b_ost_emergil = city
+#b_amon_ofteril = city
+#b_hingrenlon = city
+
+# Misc
+8222.1.1 = {
+culture = culture_harondorian
+religion = religion_southron
+}

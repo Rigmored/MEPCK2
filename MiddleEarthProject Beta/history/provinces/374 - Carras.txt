@@ -1,0 +1,15 @@
+# c_carras
+
+# County Title
+title = c_carras
+
+# Settlements
+max_settlements = 3
+
+b_carras = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_druwaithing
+religion = religion_haldadian
+}

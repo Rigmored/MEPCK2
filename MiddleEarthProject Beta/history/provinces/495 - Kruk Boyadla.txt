@@ -1,0 +1,15 @@
+# 495 - c_kruk_boyadla
+
+# County Title
+title = c_kruk_boyadla
+
+# Settlements
+max_settlements = 3
+
+b_kruk_boyadla = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

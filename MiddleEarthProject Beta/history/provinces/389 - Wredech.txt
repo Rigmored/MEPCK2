@@ -1,0 +1,15 @@
+# c_wredech
+
+# County Title
+title = c_wredech
+
+# Settlements
+max_settlements = 3
+
+b_wredech = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

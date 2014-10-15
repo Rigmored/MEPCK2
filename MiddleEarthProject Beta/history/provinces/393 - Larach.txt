@@ -1,0 +1,15 @@
+# c_larach
+
+# County Title
+title = c_larach
+
+# Settlements
+max_settlements = 3
+
+b_larach = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

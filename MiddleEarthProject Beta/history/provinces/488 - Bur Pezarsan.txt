@@ -1,0 +1,15 @@
+# 488 - c_bur_pezarsan
+
+# County Title
+title = c_bur_pezarsan
+
+# Settlements
+max_settlements = 3
+
+b_bur_pezarsan = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}

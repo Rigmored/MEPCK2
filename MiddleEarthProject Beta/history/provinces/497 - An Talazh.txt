@@ -1,0 +1,15 @@
+# 497 - c_an_talaz
+
+# County Title
+title = c_an_talaz
+
+# Settlements
+max_settlements = 3
+
+b_an_talaz = castle
+
+# Misc
+8222.1.1 = {
+culture = culture_haradrim
+religion = religion_southron
+}
