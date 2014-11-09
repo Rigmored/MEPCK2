@@ -2,8 +2,8 @@
 
 namespace = arnorgondor
 
-	##Tension in Gondor and Arnor##
-	character_event = {
+##Tension in Gondor and Arnor##
+character_event = {
     id = arnorgondor.1
     title = "Realm Tensions"
     desc = "It is hard to effectively rule both Arnor and Gondor. Even Elendil himself saw the truth of this, and divided his realm into two. Many suggest giving one of your children either Arnor or Gondor to rule directly."

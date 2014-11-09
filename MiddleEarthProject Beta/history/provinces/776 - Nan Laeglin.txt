@@ -8,9 +8,9 @@ title = c_nan_laeglin
 
 max_settlements = 5
 
-b_araniant = castle
-b_lhanuch = city
-b_cartrev_emlun = city
+b_araniant = tribal
+b_lhanuch = tribal
+b_cartrev_emlun = tribal
 #b_cartrev_hamon = city
 #b_colven_unus = city
 

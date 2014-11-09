@@ -174,4 +174,10 @@ technology = {
 		culture = 1.5
 	}
 		
+	14000 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
 }

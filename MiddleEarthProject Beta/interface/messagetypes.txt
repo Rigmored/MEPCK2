@@ -1542,6 +1542,54 @@ ASK_FOR_CLAIM_INTERACTION_DECLINE=
 	category=cat_diplomacy
 }
 
+LIEGE_ENDED_WAR=
+{
+	priority=2
+	close_priority=1
+	interest_priority=1
+	category=cat_military
+}
+
+LIEGE_ENDED_WAR_PARTICIPATION=
+{
+	priority=2
+	close_priority=1
+	interest_priority=1
+	category=cat_military
+}
+
+LIEGE_ENDED_OTHER_WAR=
+{
+	priority=2
+	close_priority=1
+	interest_priority=1
+	category=cat_military
+}
+
+LIEGE_ENDED_OTHER_WAR_PARTICIPATION=
+{
+	priority=2
+	close_priority=1
+	interest_priority=1
+	category=cat_military
+}
+
+LOSTNICKNAME=
+{
+	priority=3
+	close_priority=2
+	interest_priority=2
+	category=cat_dynasty
+}
+
+ACHIEVEMENT_GAINED=
+{
+	priority=2
+	close_priority=2
+	interest_priority=5
+	category=cat_government
+}
+
 # Hard coded. Special type used by all Events marked as 'notification'
 NOTIFICATION_EVENT=
 {

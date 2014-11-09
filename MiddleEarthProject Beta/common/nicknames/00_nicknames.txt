@@ -104,6 +104,8 @@ nick_halfelven = {}
 nick_elffriend = {}
 nick_steelsheen = {}
 nick_the_blue = {}
+nick_terriblehost = {}
+nick_goodhost = {}
 
 # GIVEN BY TRAITS
 #################

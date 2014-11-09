@@ -2960,8 +2960,10 @@ character_event = {
 	}
 	
 	option = {
-		liege = { NOT = { character = FROM } }
 		name = "EVTOPTBpalantir.58" # We'll join your war
+		trigger = {
+			liege = { NOT = { character = FROM } }
+		}		
 		ai_chance = { 
 			factor = 50 
 			

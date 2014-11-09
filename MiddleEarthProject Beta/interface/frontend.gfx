@@ -22,7 +22,50 @@ spriteTypes = {
 		textureFile ="gfx\\interface\\frontend_tile.tga"
 		#borderSize = { x=32 y=32 }
 	}
-
+	
+	spriteType = {
+		name = "GFX_welcome_screen_bg"
+		texturefile = "gfx/interface/welcome_screen_bg.dds"
+	}
+	
+	###pick era stuff
+	spriteType = {
+		name = "GFX_pick_era_bg"
+		texturefile = "gfx/interface/pick_era_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_selected_char"
+		texturefile = "gfx/interface/pick_era_selected_char.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_portrait_banner"
+		texturefile = "gfx/interface/pick_era_portrait_banner.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_info_bg"
+		texturefile = "gfx/interface/pick_era_info_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_image_1"
+		texturefile = "gfx/interface/pick_era_image_1.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_image_2"
+		texturefile = "gfx/interface/pick_era_image_2.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_image_3"
+		texturefile = "gfx/interface/pick_era_image_3.dds"
+	}spriteType = {
+		name = "GFX_pick_era_image_4"
+		texturefile = "gfx/interface/pick_era_image_4.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_image_5"
+		texturefile = "gfx/interface/pick_era_image_5.dds"
+	}
+	
+	###
 	corneredTileSpriteType = {
 		name = "yearslider_background"
 		size= {x =320 y = 16 }
@@ -36,7 +79,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ironman_button"
 		texturefile = "gfx\\interface\\ironman_button.dds"
-		noOfFrames = 2
+		noOfFrames = 3
 	}
 	spriteType = {
 		name = "GFX_dlc_icon_sword_of_islam"
@@ -66,7 +109,11 @@ spriteTypes = {
 		name = "GFX_dlc_icon_rajas_of_india"
 		texturefile = "gfx\\interface\\dlc_icon_rajas_of_india.dds"
 	}
-
+	spriteType = {
+		name = "GFX_dlc_icon_charlemagne"
+		texturefile = "gfx\\interface\\dlc_icon_charlemagne.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_lobby_republic_bg"
 		texturefile = "gfx\\interface\\lobby_republic_bg.dds"
@@ -506,7 +553,7 @@ spriteTypes = {
 	}
 
 	######
-
+	
 	spriteType = {
 		name = "GFX_horizontal_rule"
 		texturefile = "gfx\\interface\\horizontal_rule.tga"
@@ -541,5 +588,49 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_hosting_bg"
 		textureFile ="gfx//interface//hosting_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_era_character_name_bg"
+		textureFile ="gfx//interface//era_character_name_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_era_darkages"
+		textureFile ="gfx//interface//era_darkages.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_era_vikingera"
+		textureFile ="gfx//interface//era_vikingera.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_era_earlymed"
+		textureFile ="gfx//interface//era_earlymed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_era_highmed"
+		textureFile ="gfx//interface//era_highmed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_era_latemed"
+		textureFile ="gfx//interface//era_latemed.dds"
+	}
+	progressbartype = {
+		name = "GFX_pick_era_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\pick_era_progress_2.dds"
+		textureFile2 = "gfx\\interface\\pick_era_progress_1.dds"
+		size = { x = 158 y = 37 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_file_selection_bg"
+		textureFile ="gfx//interface//file_selection_bg.dds"
 	}	
 }

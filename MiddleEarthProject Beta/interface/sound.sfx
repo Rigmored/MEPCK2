@@ -592,3 +592,7 @@ tutorial_hint =
 {
 	file = "tutorialhint.wav"
 }
+connecting = 
+{
+	file = "menuclick.wav"
+}

@@ -49,7 +49,17 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_Minimap_buttonarea_extended"
+		texturefile = "gfx\\interface\\Minimap_buttonarea_extended.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_topbar_right_bg"
+		texturefile = "gfx\\interface\\topbar_right_bg.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_topbar_right_bg_extended"
 		texturefile = "gfx\\interface\\topbar_right_bg.dds"
 		transparencecheck = yes
 	}
@@ -129,6 +139,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_topbar_date_pause"
 		texturefile = "gfx\\interface\\topbar_date_pause.dds"
+	}
+	spriteType = {
+		name = "GFX_topbar_date_pause_extended"
+		texturefile = "gfx\\interface\\topbar_date_pause_extended.dds"
 	}
 	spriteType = {
 		name = "GFX_character_action_button"
@@ -456,6 +470,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_minimap_find_character"
 		texturefile = "gfx\\interface\\minimap_find_character.tga"
+	}
+	spriteType = {
+		name = "GFX_minimap_chronicle"
+		texturefile = "gfx\\interface\\minimap_chronicle.tga"
+		noOfFrames = 2
 	}	
 	
 	spriteType = {

@@ -6,7 +6,7 @@ objectTypes = {
 	#LIGHT_CAVALRY
 	#KNIGHTS
 	#ARCHERS
-	#SPECIAL_TROOPS
+	#horse_archers
 	#GALLEYS
 
 	EMFXActorType = {
@@ -252,7 +252,7 @@ objectTypes = {
 	}
 		
 	EMFXActorType = {
-		name = "westerngfx_SPECIAL_TROOPS"
+		name = "westerngfx_horse_archers"
 		actorfile = "gfx\models\Horse.xac"
 		
 		idle   = "gfx\models\Horse_Idle.xsm"
@@ -263,7 +263,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "westerngfx_SPECIAL_TROOPS_rider"
+		name = "westerngfx_horse_archers_rider"
 		actorfile = "gfx\models\Western_Mounted_Archer.xac"
 		
 		idle   = "gfx\models\Mounted_Archer_Idle.xsm"
@@ -274,7 +274,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "westerngfx_SPECIAL_TROOPS_weapon"
+		name = "westerngfx_horse_archers_weapon"
 		actorfile = "gfx\models\Attachments\Arrow.xac"
 		
 		idle   = "gfx\models\Attachments\Arrow_idle.xsm"
@@ -285,7 +285,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "westerngfx_SPECIAL_TROOPS_shield"
+		name = "westerngfx_horse_archers_shield"
 		actorfile = "gfx\models\Attachments\Bow.xac"
 		
 		idle   = "gfx\models\Attachments\Bow_idle.xsm"
@@ -296,7 +296,7 @@ objectTypes = {
 	}	
 		
 	EMFXActorType = {
-		name = "westerngfx_SPECIAL_TROOPS_helmet"
+		name = "westerngfx_horse_archers_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_02.xac"
 		scale = 1.0f
 	}
@@ -676,7 +676,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easterngfx_SPECIAL_TROOPS"
+		name = "easterngfx_horse_archers"
 		actorfile = "gfx\models\Horse.xac"
 		
 		idle   = "gfx\models\Horse_Idle.xsm"
@@ -687,7 +687,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easterngfx_SPECIAL_TROOPS_rider"
+		name = "easterngfx_horse_archers_rider"
 		actorfile = "gfx\models\Norse_Archer.xac"
 		
 		idle   = "gfx\models\Mounted_Archer_Idle.xsm"
@@ -698,7 +698,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easterngfx_SPECIAL_TROOPS_weapon"
+		name = "easterngfx_horse_archers_weapon"
 		actorfile = "gfx\models\Attachments\Arrow.xac"
 		
 		idle   = "gfx\models\Attachments\Arrow_idle.xsm"
@@ -709,7 +709,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easterngfx_SPECIAL_TROOPS_shield"
+		name = "easterngfx_horse_archers_shield"
 		actorfile = "gfx\models\Attachments\Bow.xac"
 		
 		idle   = "gfx\models\Attachments\Bow_idle.xsm"
@@ -720,7 +720,7 @@ objectTypes = {
 	}	
 		
 	EMFXActorType = {
-		name = "easterngfx_SPECIAL_TROOPS_helmet"
+		name = "easterngfx_horse_archers_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_01.xac"
 		scale = 1.0f
 	}
@@ -994,7 +994,6 @@ objectTypes = {
 		actorfile = "gfx\models\Attachments\Helmet_04_Arab.xac"
 		scale = 1.0f
 	}
-
 		
 	EMFXActorType = {
 		name = "muslimgfx_KNIGHTS"
@@ -1041,6 +1040,57 @@ objectTypes = {
 		actorfile = "gfx\models\Attachments\Shield_Arab_01.xac"
 		scale = 1.0f
 	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_horse_archers"
+		actorfile = "gfx\models\Muslim_Horse.xac"
+		
+		idle   = "gfx\models\Horse_Idle.xsm"
+		move   = "gfx\models\Horse_Moving.xsm"
+		attack = "gfx\models\Horse_Attack.xsm"
+		
+		scale = 0.9f
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_horse_archers_rider"
+		actorfile = "gfx\models\Muslim_Mounted_Archer.xac"
+		
+		idle   = "gfx\models\Mounted_Archer_Idle.xsm"
+		move   = "gfx\models\Mounted_Archer_Moving.xsm"
+		attack = "gfx\models\Mounted_Archer_Attack.xsm"
+		
+		scale = 1.0f
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_horse_archers_weapon"
+		actorfile = "gfx\models\Attachments\Arrow.xac"
+		
+		idle   = "gfx\models\Attachments\Arrow_idle.xsm"
+		move   = "gfx\models\Attachments\Arrow_idle.xsm"
+		attack = "gfx\models\Attachments\Arrow_attack.xsm"
+		
+		scale = 1.0f
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_horse_archers_shield"
+		actorfile = "gfx\models\Attachments\Bow.xac"
+		
+		idle   = "gfx\models\Attachments\Bow_idle.xsm"
+		move   = "gfx\models\Attachments\Bow_idle.xsm"
+		attack = "gfx\models\Attachments\Bow_attack.xsm"
+		
+		scale = 1.0f
+	}	
+	
+	EMFXActorType = {
+		name = "muslimgfx_horse_archers_helmet"
+		actorfile = "gfx\models\Attachments\Helmet_04_Arab.xac"
+		scale = 1.0f
+	}
+	
 	
 	EMFXActorType = {
 		name = "muslimgfx_job_chancellor"
@@ -1179,7 +1229,6 @@ objectTypes = {
 		scale = 1.0f
 	}
 
-
 	EMFXActorType = {
 		name = "norsegfx_LIGHT_CAVALRY"
 		actorfile = "gfx\models\Horse.xac"
@@ -1223,7 +1272,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "indiangfx_SPECIAL_TROOPS"
+		name = "indiangfx_war_elephants"
 		actorfile = "gfx\models\indian_elephant.xac"
 		
 		idle   = "gfx\models\indian_elephant_idle.xsm"
@@ -1235,7 +1284,7 @@ objectTypes = {
 	
 	
 	EMFXActorType = {
-		name = "indiangfx_SPECIAL_TROOPS_rider"
+		name = "indiangfx_war_elephants_rider"
 		actorfile = "gfx\models\indian_pikemen.xac"
 	
 		idle   = "gfx\models\indian_archer_idle.xsm"
@@ -1247,7 +1296,7 @@ objectTypes = {
 	
 	
 	EMFXActorType = {
-		name = "indiangfx_SPECIAL_TROOPS_weapon"
+		name = "indiangfx_war_elephants_weapon"
 		actorfile = "gfx\models\Attachments\Arrow.xac"
 		
 		idle   = "gfx\models\indian_arrow_idle.xsm"
@@ -1258,7 +1307,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "indiangfx_SPECIAL_TROOPS_shield"
+		name = "indiangfx_war_elephants_shield"
 		actorfile = "gfx\models\indian_bow.xac"
 		
 		idle   = "gfx\models\indian_bow_idle.xsm"
@@ -1269,111 +1318,9 @@ objectTypes = {
 	}
 
 	EMFXActorType = {
-		name = "indiangfx_SPECIAL_TROOPS_helmet"
+		name = "indiangfx_war_elephants_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_03.xac"
 		scale = 0.000001f
-	}	
-	
-
-	EMFXActorType = {
-		name = "indiangfx_SPECIAL_TROOPS_rider"
-		actorfile = "gfx\models\indian_pikemen.xac"
-	
-		idle   = "gfx\models\indian_archer_idle.xsm"
-		move   = "gfx\models\indian_archer_idle.xsm"
-		attack = "gfx\models\indian_archer_attack.xsm"
-		
-		scale = 0.9f
-	}
-	
-	### MUMAKILS ###
-	
-	EMFXActorType = {
-		name = "haradrimgfx_SPECIAL_TROOPS_weapon"
-		actorfile = "gfx\models\Attachments\Arrow.xac"
-		
-		idle   = "gfx\models\indian_arrow_idle.xsm"
-		move   = "gfx\models\indian_arrow_idle.xsm"
-		attack = "gfx\models\indian_arrow_attack.xsm"
-		
-		scale = 1.0f
-	}
-	
-	EMFXActorType = {
-		name = "haradrimgfx_SPECIAL_TROOPS_shield"
-		actorfile = "gfx\models\indian_bow.xac"
-		
-		idle   = "gfx\models\indian_bow_idle.xsm"
-		move   = "gfx\models\indian_bow_idle.xsm"
-		attack = "gfx\models\indian_bow_attack.xsm"
-		
-		scale = 1.0f
-	}
-
-	EMFXActorType = {
-		name = "haradrimgfx_SPECIAL_TROOPS_helmet"
-		actorfile = "gfx\models\Attachments\Helmet_03.xac"
-		scale = 0.000001f
-	}	
-	
-	EMFXActorType = {
-		name = "haradrimgfx_SPECIAL_TROOPS_rider"
-		actorfile = "gfx\models\indian_pikemen.xac"
-	
-		idle   = "gfx\models\indian_archer_idle.xsm"
-		move   = "gfx\models\indian_archer_idle.xsm"
-		attack = "gfx\models\indian_archer_attack.xsm"
-		
-		scale = 0.9f
-	}	
-	
-	EMFXActorType = {
-		name = "haradrimgfx_SPECIAL_TROOPS"
-		actorfile = "gfx\models\indian_elephant.xac"
-		
-		idle   = "gfx\models\indian_elephant_idle.xsm"
-		move   = "gfx\models\indian_elephant_move.xsm"
-		attack = "gfx\models\indian_elephant_attack.xsm"
-		
-		scale = 0.6f
-	}
-	
-	
-	EMFXActorType = {
-		name = "haradrimgfx_SPECIAL_TROOPS_rider"
-		actorfile = "gfx\models\indian_pikemen.xac"
-	
-		idle   = "gfx\models\indian_archer_idle.xsm"
-		move   = "gfx\models\indian_archer_idle.xsm"
-		attack = "gfx\models\indian_archer_attack.xsm"
-		
-		scale = 0.9f
-	}	
-	
-	### GONDORIAN HEAVY INFANTRY ###
-	
-	EMFXActorType = {
-		name = "gondoriangfx_HEAVY_INFANTRY"
-		actorfile = "gfx\models\Gondorian_Heavy_Infantry.xac"
-		
-		idle   = "gfx\models\Infantry_Sword_and_Shield_Idle.xsm"
-		move   = "gfx\models\Infantry_Sword_and_Shield_Moving.xsm"
-		attack = "gfx\models\Infantry_Sword_and_Shield_Attack.xsm"
-		
-		scale = 1.0f
-	}
-	
-	EMFXActorType = {
-		name = "gondoriangfx_HEAVY_INFANTRY_shield"
-		actorfile = "gfx\models\Attachments\Shield_Knight01.xac"
-		scale = 1.0f
-	}	
-	
-	EMFXActorType = {
-		name = "gondoriangfx_HEAVY_INFANTRY_weapon"
-		actorfile = "gfx\models\Attachments\Sword_01_Longsword.xac"
-
-		scale = 1.0f
 	}	
 	
 }

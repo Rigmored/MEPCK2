@@ -161,26 +161,34 @@ spriteTypes = {
 		name = "634_dlcbackground"
 		texturefile = "gfx\\interface\\store\\634_dlcbackground.dds"
 	}
-
 	spriteType = {
 		name = "641_dlcbackground"
 		texturefile = "gfx\\interface\\store\\641_dlcbackground.dds"
 	}	
-
 	spriteType = {
 		name = "642_dlcbackground"
 		texturefile = "gfx\\interface\\store\\642_dlcbackground.dds"
-	}
-	
+	}	
 	spriteType = {
 		name = "643_dlcbackground"
 		texturefile = "gfx\\interface\\store\\643_dlcbackground.dds"
-	}
-	
+	}	
 	spriteType = {
 		name = "644_dlcbackground"
 		texturefile = "gfx\\interface\\store\\644_dlcbackground.dds"
-	}		
+	}	
+	spriteType = {
+		name = "645_dlcbackground"
+		texturefile = "gfx\\interface\\store\\645_dlcbackground.dds"
+	}
+	spriteType = {
+		name = "646_dlcbackground"
+		texturefile = "gfx\\interface\\store\\646_dlcbackground.dds"
+	}
+	spriteType = {
+		name = "647_dlcbackground"
+		texturefile = "gfx\\interface\\store\\647_dlcbackground.dds"
+	}
 	
 	########## COMMERCIAL BANNERS IN FRONTEND
 	spriteType = {
@@ -326,5 +334,17 @@ spriteTypes = {
 	spriteType = {
 		name = "644_bannerbackground"
 		texturefile = "gfx\\interface\\store\\644_bannerbackground.dds"
-	}		
+	}
+	spriteType = {
+		name = "645_bannerbackground"
+		texturefile = "gfx\\interface\\store\\645_bannerbackground.dds"
+	}	
+	spriteType = {
+		name = "646_bannerbackground"
+		texturefile = "gfx\\interface\\store\\646_bannerbackground.dds"
+	}
+	spriteType = {
+		name = "647_bannerbackground"
+		texturefile = "gfx\\interface\\store\\647_bannerbackground.dds"
+	}	
 }

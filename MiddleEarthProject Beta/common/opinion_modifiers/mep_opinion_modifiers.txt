@@ -38,3 +38,37 @@ mithril_gift = {
 opinion_refused_to_trade = {
 	opinion = -50
 }
+
+
+### Hobbits Gifts ###
+
+littlegift = {
+	opinion = 10
+}
+goodgift = {
+	opinion = 30
+}
+nogift = {
+	opinion = -25
+}
+
+### Hobbits Party ###
+
+hobbit_greatparty = {
+	opinion = 20
+}
+hobbit_goodparty = {
+	opinion = 10
+}
+hobbit_boringparty = {
+	opinion = -10
+}
+hobbit_badparty = {
+	opinion = -20
+}
+
+### Independance ###
+
+protected_independance = {
+	opinion = 50
+}

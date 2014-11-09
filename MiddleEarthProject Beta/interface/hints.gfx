@@ -7,21 +7,6 @@ spriteTypes =
 	}
 	spriteType = 
 	{
-		name = "GFX_hints_splashscreen_bg_pagan_1"	
-		texturefile = "gfx\\interface\\hints_splashscreen_bg_pagan_1.dds"
-	}
-	spriteType = 
-	{
-		name = "GFX_hints_splashscreen_bg_pagan_2"	
-		texturefile = "gfx\\interface\\hints_splashscreen_bg_pagan_2.dds"
-	}
-	spriteType = 
-	{
-		name = "GFX_hints_splashscreen_bg_non_pagan"	
-		texturefile = "gfx\\interface\\hints_splashscreen_bg_non_pagan.dds"
-	}
-	spriteType = 
-	{
 		name = "GFX_hints_cardinal_bg"	
 		texturefile = "gfx\\interface\\hints_cardinal_bg.dds"
 	}	
@@ -62,8 +47,43 @@ spriteTypes =
 	}
 	spriteType = 
 	{
-		name = "GFX_hints_religionview_bg"	
-		texturefile = "gfx\\interface\\hints_religionview_bg.dds"
+		name = "GFX_hints_religionview_bg_christian"	
+		texturefile = "gfx\\interface\\hints_religionview_bg_christian.dds"
+	}
+	spriteType = 
+	{
+		name = "GFX_hints_religionview_bg_christian_nohead"	
+		texturefile = "gfx\\interface\\hints_religionview_bg_christian_nohead.dds"
+	}
+	spriteType = 
+	{
+		name = "GFX_hints_religionview_bg_catholic"	
+		texturefile = "gfx\\interface\\hints_religionview_bg_catholic.dds"
+	}
+	spriteType = 
+	{
+		name = "GFX_hints_religionview_bg_zoroastrian"	
+		texturefile = "gfx\\interface\\hints_religionview_bg_zoroastrian.dds"
+	}
+	spriteType = 
+	{
+		name = "GFX_hints_religionview_bg_indian"	
+		texturefile = "gfx\\interface\\hints_religionview_bg_indian.dds"
+	}
+	spriteType = 
+	{
+		name = "GFX_hints_religionview_bg_jewish"	
+		texturefile = "gfx\\interface\\hints_religionview_bg_jewish.dds"
+	}
+	spriteType = 
+	{
+		name = "GFX_hints_religionview_bg_pagan"	
+		texturefile = "gfx\\interface\\hints_religionview_bg_pagan.dds"
+	}
+	spriteType = 
+	{
+		name = "GFX_hints_religionview_bg_muslim"	
+		texturefile = "gfx\\interface\\hints_religionview_bg_muslim.dds"
 	}
 	spriteType = 
 	{

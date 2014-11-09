@@ -1010,7 +1010,7 @@ guiTypes = {
 				instantTextBoxType = {
 					position = { x = 30 y = 81 }
 					name = "language_label"
-					font = "small_white"
+					font = "vic_18"
 					borderSize = { x = 0 y = 0 }	
 					maxWidth = 172
 					maxHeight = 18
@@ -1022,7 +1022,7 @@ guiTypes = {
 				instantTextBoxType = {
 					position = { x = 30 y = 99 }
 					name = "language_value"
-					font = "small_white"
+					font = "vic_18"
 					borderSize = { x = 0 y = 0 }	
 					maxWidth = 172
 					maxHeight = 18

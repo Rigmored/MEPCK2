@@ -95,7 +95,7 @@ culture =
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties2.tga"
 			size = { x = 16 y = 4 }
-			noOfFrames = 51
+			noOfFrames = 50
 			color = 0
 			random = no # Do not use for random CoAs
 		}
@@ -114,12 +114,13 @@ culture =
 			random = no # Do not use for random CoAs
 		}
 		texture = {
-			file = "gfx\\coats_of_arms\\dynastiesMEP1.tga"
+			file = "gfx\\coats_of_arms\\dynasties4.tga"
 			size = { x = 16 y = 4 }
-			noOfFrames = 51
+			noOfFrames = 57
 			color = 0
 			random = no # Do not use for random CoAs
 		}
+		
 		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}
 }
@@ -662,4 +663,3 @@ culture = {
 		}
 	}
 }
-	

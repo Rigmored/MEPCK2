@@ -98,8 +98,6 @@ guiTypes = {
 			borderSize = {x = 4 y = 4}
 			text = ""
 			size = { x=180 y=32}
-
-
 			cursor = { x=4 y=1 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -971,7 +969,6 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "special_troops_total"
-
 				position = { x = 262 y = 85 }
 				textureFile = ""
 				font = "Arial12"
@@ -983,7 +980,6 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "knights_total"
-
 				position = { x = 230 y = 85 }
 				textureFile = ""
 				font = "Arial12"
@@ -1026,17 +1022,14 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
-
 				name ="special_troops"
 				spriteType = "GFX_unitpanel_specialtroops_smallstrip"
-
 				position = { x= 265 y = 58 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="knights"
 				spriteType = "GFX_unitpanel_unitstrip_small"
-
 				position = { x= 233 y = 58 }
 				Orientation = "UPPER_LEFT"
 			}
@@ -1302,7 +1295,7 @@ guiTypes = {
 		name = "ChooseSettlementDialog"
 		backGround="Background"
 		position = { x=-260 y=-190 }
-		size = { x=520 y=348 }
+		size = { x=520 y=380 }
 		moveable = 1
 		dontRender = ""
 		horizontalBorder= ""
@@ -1350,12 +1343,22 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "city"
 			buttonFont = "common"
-		}	
+		}
 		
+		guiButtonType = {
+			name = "OptionTemple"
+			position = { x=152 y =284}
+			quadTextureSprite ="button_type_4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "temple"
+			buttonFont = "common"
+		}
 		
 		guiButtonType = {
 			name = "OptionTradePost"
-			position = { x=152 y =284}
+			position = { x=152 y =316}
 			quadTextureSprite ="button_type_4"
 			tooltip = ""
 			tooltipText =""
@@ -1419,7 +1422,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_shield_medium2"
 			position = { x = 67 y = -1 }
 			Orientation = "UPPER_LEFT"
-		}
+		}	
 		
 		iconType = {
 			name ="progress_bg1"
@@ -1487,7 +1490,13 @@ guiTypes = {
 			maxHeight = 24
 			format = centre
 			fixedsize = yes
-		}	
+		}
+		guiButtonType = {
+			name ="overwrite_holding"
+			quadTextureSprite = "GFX_overwrite_holding"
+			position = { x = 74 y = 39 }
+			Orientation = "UPPER_LEFT"
+		}		
 	}
 	
 	### CAPITAL ENTRY
@@ -1590,6 +1599,12 @@ guiTypes = {
 			size = { x = 100 y = 50 }
 			format = right
 			spacing = 0
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+			name ="overwrite_holding"
+			quadTextureSprite = "GFX_overwrite_holding"
+			position = { x = 93 y = 47 }
 			Orientation = "UPPER_LEFT"
 		}
 	}

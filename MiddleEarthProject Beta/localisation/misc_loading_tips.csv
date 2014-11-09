@@ -1,6 +1,6 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 LOADING_TIP_0;One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.;Un Anneau pour les gouverner tous, un Anneau pour les trouver, un Anneau pour les amener tous et dans les ténèbres les lier.;;;;X;;;;;;;;
-LOADING_TIP_1;There's only one Lord of the Ring, only one who can bend it to his will. And he does not share power. - Gandalf the Grey;Il n'y a qu'un seul seigneur de l'anneau, un seul qui peut le plier à sa volonté. Et il ne partage pas ce pouvoir. - Gandalf;;;;x;;;;;;;;
+LOADING_TIP_1;There is only one Lord of the Ring, only one who can bend it to his will, and he does not share power. - Gandalf the Grey;Il n'y a qu'un seul seigneur de l'anneau, un seul qui peut le plier à sa volonté. Et il ne partage pas ce pouvoir. - Gandalf;;;;x;;;;;;;;
 LOADING_TIP_2;That there's some good in this world, Mr. Frodo and it's worth fighting for. - Sam Gamgee;Il y a du bon en ce monde, Monsieur Frodon, il faut se battre pour cela. - Sam Gamegie;;;;X;;;;;;;;
 LOADING_TIP_3;Even the smallest person can change the course of the future. - Galadriel;Même la plus petite personne peux changer le cours de l'avenir. - Galadriel;;;;X;;;;;;;;
 LOADING_TIP_4;We swears, to serve the master of the Precious. We will swear on the Precious. - Gollum;Nous jurons de servir le Maître du précieux. Et nous le jurons. Oh ! Oui sur le précieux. - Gollum;;;;X;;;;;;;;
@@ -22,17 +22,17 @@ LOADING_TIP_19;Many live that deserve death, and some that die deserve life. Can
 LOADING_TIP_20;I would have followed you, my brother... my captain... my King. - Boromir;;;;;X
 LOADING_TIP_21;A wizard is never late, Frodo Baggins. Nor is he early. He arrives precisely when he means to. - Gandalf the Grey;;;;;X
 LOADING_TIP_22;It comes in PINTS? I'm getting one! - Pippin;;;;;x
-LOADING_TIP_23;Ash nazg durbatuluk, ash nazg gimbatul,ash nazg thrakatuk agh burzum-ishi krimpatul.;;;;;x
+LOADING_TIP_23;Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk, agh burzum-ishi krimpatul.;;;;;x
 LOADING_TIP_24;Arise, arise, Riders of Theoden! Fell deeds awake, fire and slaughter! Spear shall be shaken, shield be splintered, a sword-day, a red day, ere the sun rises! - Theoden;;;;;x
 LOADING_TIP_25;Nine companions. So be it. You shall be the Fellowship of the Ring. - Elrond;;;;;x
-LOADING_TIP_26;"I made a promise Mr Frodo. A promise. Don't leave him Samwise Gamgee. And I don't mean to. I don't mean to.' - Sam Gamgee;;;;;x;;;;;;;;
+LOADING_TIP_26;I made a promise Mr Frodo. A promise. Don't leave him Samwise Gamgee. And I don't mean to. I don't mean to. - Sam Gamgee;;;;;x;;;;;;;;
 LOADING_TIP_27;I don't know what strength is in my blood but I swear to you I won't let the White City fall nor our people fail. Be at peace son of Gondor."" - Aragorn";;;;;x
 LOADING_TIP_28;It's a strange fate that we should suffer so much fear and doubt over so small a thing. Such a little thing. - Boromir;;;;;x
 LOADING_TIP_29;I will take it. I will take it. I will take the ring to Mordor. - Frodo Baggins;;;;;x
 LOADING_TIP_30;I give you the light of Earendil, our most beloved star. May it be a light for you in dark places where all other lights go out. - Galadriel;;;;;x
 LOADING_TIP_31;I SEE YOU! - Sauron;;;;;x
 LOADING_TIP_32;Look to my coming on the first light of the fifth day. At dawn, look to the east. - Gandalf;;;;;x
-LOADING_TIP_33; A new power is rising. It's victory is at hand. This night the land will be stained with the blood of Rohan. March to Helm's Deep.L eave none alive. To war! - Saruman;;;;;x
+LOADING_TIP_33;A new power is rising. It's victory is at hand. This night the land will be stained with the blood of Rohan. March to Helm's Deep. Leave none alive. To war! - Saruman;;;;;x
 LOADING_TIP_34;Always remember Frodo, the Ring is trying to get back to its master. It wants to be found! - Gandalf;;;;;x
 LOADING_TIP_35;Against the power of Mordor there can be no victory! - Saruman;;;;;x
 LOADING_TIP_36;I do not know half of you as well as I should like. I like less than half of you half as well as you deserve. - Bilbo Baggins;;;;;x
@@ -49,3 +49,7 @@ LOADING_TIP_46;They are taking the Hobbits to Isengard! - Legolas;Ils emmenent l
 LOADING_TIP_47;I AM NO MAN! - Eowyn;Je ne suis pas un Homme! - Eowyn;;;;x
 LOADING_TIP_48;That still only counts as one! - Gimli;Cela ne compte quand même que pour un! - Gimli;;;;x
 LOADING_TIP_50;Po-ta-toes! Boil 'em, mash 'em, stick 'em in a stew! - Sam Gamgee;;;;;x
+LOADING_TIP_51;What can men do against such reckless hate? - Theoden;;;;;x
+LOADING_TIP_52;Where now are the horse and the rider? Where is the horn that was blowing? - Theoden;;;;;x
+LOADING_TIP_53;I was there three thousand years ago. I was there the day the strength of men failed. - Elrond;;;;;x
+LOADING_TIP_54;In a dream, I saw the Eastern sky grow dark, but in the West a pale light lingered. A voice was crying, "The doom is near at hand, Isildur's Bane is found." - Boromir;;;;;x

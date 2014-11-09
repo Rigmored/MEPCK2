@@ -531,7 +531,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
-				name = "raise_county_levy"
+				name = "call_allies"
 				position = { x=300 y=138 }
 				quadTextureSprite = "GFX_military_troop_strip_1"
 				Orientation = "UPPER_LEFT"

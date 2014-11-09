@@ -17,8 +17,7 @@ b_tomb_of_elendil = temple ## Renamed in Eilenaer
 
 b_oath_of_eorl = city ## Renamed in Amon Anwar
 
-# 
-Misc
+# Misc
 
 8222.1.1 = {
 culture = culture_gondorian

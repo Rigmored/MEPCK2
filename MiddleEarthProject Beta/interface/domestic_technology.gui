@@ -286,7 +286,7 @@ guiTypes = {
 			{
 				name ="tech_level_1"
 				spriteType = "GFX_tech_spread_strip"
-				position = { x= -2 y = 17 }
+				position = { x= 0 y = 19 }
 				Orientation = "UPPER_LEFT"
 			}
 			
@@ -294,7 +294,7 @@ guiTypes = {
 			{
 				name ="tech_level_2"
 				spriteType = "GFX_tech_spread_strip"
-				position = { x= 17 y = 17 }
+				position = { x= 19 y = 19 }
 				Orientation = "UPPER_LEFT"
 			}
 			
@@ -302,7 +302,7 @@ guiTypes = {
 			{
 				name ="tech_level_3"
 				spriteType = "GFX_tech_spread_strip"
-				position = { x= 36 y = 17 }
+				position = { x= 38 y = 19 }
 				Orientation = "UPPER_LEFT"
 			}
 			
@@ -310,7 +310,7 @@ guiTypes = {
 			{
 				name ="tech_level_4"
 				spriteType = "GFX_tech_spread_strip"
-				position = { x= 55 y = 17 }
+				position = { x= 57 y = 19 }
 				Orientation = "UPPER_LEFT"
 			}
 		
@@ -318,7 +318,7 @@ guiTypes = {
 			{
 				name ="tech_level_5"
 				spriteType = "GFX_tech_spread_strip"
-				position = { x= 74 y = 17 }
+				position = { x= 76 y = 19 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -326,7 +326,7 @@ guiTypes = {
 			{
 				name ="tech_level_6"
 				spriteType = "GFX_tech_spread_strip"
-				position = { x= 93 y = 17 }
+				position = { x= 95 y = 19 }
 				Orientation = "UPPER_LEFT"
 			}
 			
@@ -334,7 +334,7 @@ guiTypes = {
 			{
 				name ="tech_level_7"
 				spriteType = "GFX_tech_spread_strip"
-				position = { x= 112 y = 17 }
+				position = { x= 114 y = 19 }
 				Orientation = "UPPER_LEFT"
 			}
 			
@@ -342,7 +342,7 @@ guiTypes = {
 			{
 				name ="tech_level_8"
 				spriteType = "GFX_tech_spread_strip"
-				position = { x= 131 y = 17 }
+				position = { x= 133 y = 19 }
 				Orientation = "UPPER_LEFT"
 			}
 			

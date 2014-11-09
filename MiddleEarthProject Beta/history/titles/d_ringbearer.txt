@@ -12,6 +12,10 @@ holder = 10016 # Sauron
 {
 holder = 12136 # Isildur
 }
+8345.1.1=
+{
+holder = 0
+}
 10806.1.=
 {
 holder = 8190 # Smeagol
@@ -24,4 +28,8 @@ holder = 8065 # Bilbo
 {
 holder = 8079 # Frodo
 liege = k_shire
-}	
+}
+11363.1.1=
+{
+holder = 0
+}

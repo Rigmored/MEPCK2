@@ -134,12 +134,12 @@ VS_OUTPUT main( const VS_INPUT v )
 	Out.vPosition = float4( vTmpPos.xy, vNewZ, vTmpPos.w );
 	
 	Out.vUV.yx = v.vUV_Tangent.xy;
-	Out.vUV.x += vTimeDirection.x * 0.5f * vTimeDirection.y;
+	Out.vUV.x += vTimeDirection.x * 1.0f * vTimeDirection.y;
 	Out.vUV.y += vTimeDirection.x * 0.2f;
 	Out.vUV.x *= 0.05f;
 
 	Out.vSecondaryUV.yx = v.vUV_Tangent.xy;
-	Out.vSecondaryUV.x += vTimeDirection.x * 0.2f * vTimeDirection.y;
+	Out.vSecondaryUV.x += vTimeDirection.x * 0.9f * vTimeDirection.y;
 	Out.vSecondaryUV.y -= vTimeDirection.x * 0.1f;
 	Out.vSecondaryUV.x *= 0.05f;
 
@@ -199,6 +199,8 @@ float4 main( VS_OUTPUT In ) : COLOR
 		+ vHeightNormal.xzy * vBottomNormal.z;
 
 	float3 vColor = lerp( vBottom, vWaterSurface.xyz, vWaterSurface.a * 0.8f );
+	float4 vFoWColor = GetFoWColor( In.vPrePos_Fade.xyz, FoWTexture);
+	vColor = ApplyWaterSnow( vColor, In.vPrePos_Fade.xyz, vSurfaceNormal, vFoWColor, FoWDiffuse );
 	vColor = CalculateLighting( vColor, vBottomNormal );
 	float vFoW = GetFoW( In.vPrePos_Fade.xyz, FoWTexture, FoWDiffuse );
 	vColor = ApplyDistanceFog( vColor, In.vPrePos_Fade.xyz ) * vFoW;

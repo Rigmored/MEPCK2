@@ -1,11 +1,6 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_blank"	
-		texturefile = "gfx\\interface\\blank.dds"
-		noOfFrames = 1
-	}
-	spriteType = {
 		name = "GFX_court_bg"
 		texturefile = "gfx\\interface\\court_bg.dds"
 	}
@@ -47,8 +42,8 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_action_claim_artefacts"
-		texturefile = "gfx\\interface\\claim_artefacts.dds"
+		name = "GFX_action_improve_rel_relations"
+		texturefile = "gfx\\interface\\job_improve_rel_relations.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
@@ -56,16 +51,6 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\job_study_technology.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_action_heal_troops"
-		texturefile = "gfx\\interface\\job_heal_troops.dds"
-		noOfFrames = 2
-	}	
-	spriteType = {
-		name = "GFX_action_search_artefacts"
-		texturefile = "gfx\\interface\\job_search_artefacts.dds"
-		noOfFrames = 2
-	}		
 	spriteType = {
 		name = "GFX_action_organize_spies"
 		texturefile = "gfx\\interface\\job_organize_spies.dds"
@@ -82,15 +67,10 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_action_colonize_province"
-		texturefile = "gfx\\interface\\job_colonize_province.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
 		name = "GFX_action_oversee_construction"
 		texturefile = "gfx\\interface\\job_oversee_construction.dds"
 		noOfFrames = 2
-	}	
+	}
 	spriteType = {
 		name = "GFX_action_squeeze_peasants"
 		texturefile = "gfx\\interface\\job_squeeze_peasants.dds"
@@ -106,16 +86,6 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\job_train_troops.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_action_purge_province"
-		texturefile = "gfx\\interface\\job_purge_province.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_action_subjugate"
-		texturefile = "gfx\\interface\\job_subjugate.dds"
-		noOfFrames = 2
-	}		
 	spriteType = {
 		name = "GFX_action_assist_arrest"
 		texturefile = "gfx\\interface\\job_assist_arrest.dds"
@@ -134,6 +104,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_action_charity"
 		texturefile = "gfx\\interface\\job_charity.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_action_organize_raid"
+		texturefile = "gfx\\interface\\job_organize_raid.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_action_build_legend"
+		texturefile = "gfx\\interface\\job_build_legend.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_action_build_zeal"
+		texturefile = "gfx\\interface\\job_build_zeal.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_action_settle_tribe"
+		texturefile = "gfx\\interface\\job_action_settle_tribe.dds"
 		noOfFrames = 2
 	}
 

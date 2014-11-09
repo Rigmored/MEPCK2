@@ -50,6 +50,7 @@ guiTypes = {
 			font = "vic_22"
 			borderSize = { x = 4 y = 4 }
 			text = ""
+			cursor = { x = 4 y = 3 }
 		}
 		
 		## search buttons
@@ -202,30 +203,6 @@ guiTypes = {
 				format = left
 			}
 			instantTextBoxType = {
-				position = { x=355 y =65}
-				name = "category_5"
-				font = "vic_18_black"
-				borderSize = {x = 0 y = 0}	
-				maxWidth = 88
-				maxHeight = 20
-				fixedsize = yes
-				text = "FILTER_SAME_REL_GROUP"	
-				orientation = "UPPER_LEFT"
-				format = left
-			}
-			instantTextBoxType = {
-				position = { x=355 y =91}
-				name = "category_6"
-				font = "vic_18_black"
-				borderSize = {x = 0 y = 0}	
-				maxWidth = 88
-				maxHeight = 20
-				fixedsize = yes
-				text = "FILTER_SAME_CUL_GROUP"	
-				orientation = "UPPER_LEFT"
-				format = left
-			}
-			instantTextBoxType = {
 				position = { x=355 y =117}
 				name = "category_7"
 				font = "vic_18_black"
@@ -252,49 +229,49 @@ guiTypes = {
 			
 			guiButtonType =	{
 				name = "category_1_button"
-				position = { x=252 y=59}
+				position = { x=251 y=59}
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_charbrowser_option_button_1"	
 			}
 			guiButtonType =	{
 				name = "category_2_button"
-				position = { x=252 y=85}
+				position = { x=251 y=85}
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_charbrowser_option_button_1"	
 			}
 			guiButtonType =	{
 				name = "category_3_button"
-				position = { x=252 y=111}
+				position = { x=251 y=111}
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_charbrowser_option_button_1"	
 			}
 			guiButtonType =	{
 				name = "category_4_button"
-				position = { x=252 y=137}
+				position = { x=251 y=137}
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_charbrowser_option_button_1"	
 			}
 			guiButtonType =	{
 				name = "category_5_button"
-				position = { x=440 y=59}
+				position = { x=341 y=58}
 				buttonFont = "vic_18"
-				quadTextureSprite ="GFX_charbrowser_option_button_1"	
+				quadTextureSprite ="GFX_charbrowser_option_button_3"	
 			}
 			guiButtonType =	{
 				name = "category_6_button"
-				position = { x=440 y=85}
+				position = { x=341 y=84}
 				buttonFont = "vic_18"
-				quadTextureSprite ="GFX_charbrowser_option_button_1"	
+				quadTextureSprite ="GFX_charbrowser_option_button_3"	
 			}
 			guiButtonType =	{
 				name = "category_7_button"
-				position = { x=440 y=111}
+				position = { x=439 y=111}
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_charbrowser_option_button_1"	
 			}
 			guiButtonType =	{
 				name = "category_8_button"
-				position = { x=440 y=137}
+				position = { x=439 y=137}
 				buttonFont = "vic_18"
 				quadTextureSprite ="GFX_charbrowser_option_button_1"	
 			}
@@ -348,26 +325,26 @@ guiTypes = {
 				format = centre
 			}
 			instantTextBoxType = {
-				position = { x=441 y =65}
+				position = { x=342 y =65}
 				name = "category_5_button_text"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
-				maxWidth = 72
+				maxWidth = 174
 				maxHeight = 20
 				fixedsize = yes
-				text = "FILTER_ANY"
+				text = "FILTER_ANY_REL"
 				orientation = "UPPER_LEFT"
 				format = centre
 			}
 			instantTextBoxType = {
-				position = { x=441 y =91}
+				position = { x=342 y =91}
 				name = "category_6_button_text"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
-				maxWidth = 72
+				maxWidth = 174
 				maxHeight = 20
 				fixedsize = yes
-				text = "FILTER_ANY"
+				text = "FILTER_ANY_CUL"
 				orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -643,6 +620,12 @@ guiTypes = {
 				fixedsize = yes
 				format = centre
 			}
+
+		iconType = {
+			name ="marriage_claims_icon"
+			spriteType = "GFX_marriage_claims_icon"
+			position = { x= 5 y = 25 }	
+		}
 		
 		instantTextBoxType = {
 			name = "character_name"

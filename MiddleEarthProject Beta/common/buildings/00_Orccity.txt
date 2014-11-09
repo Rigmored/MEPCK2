@@ -1,0 +1,715 @@
+	city = {
+	
+	ct_orctraining_grounds_1 = {
+		desc = ct_orctraining_grounds_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 547
+		levy_size = 0.05
+		garrison_size = 0.05
+		ai_creation_factor = 98
+        potential = {
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.6
+	}
+	ct_orctraining_grounds_2 = {
+		desc = ct_orctraining_grounds_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_orctraining_grounds_1
+		gold_cost = 200
+		build_time = 730
+		levy_size = 0.075
+		garrison_size = 0.1
+		ai_creation_factor = 97
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 1.2
+	} 
+	ct_orctraining_grounds_3 = {
+		desc = ct_orctraining_grounds_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		upgrades_from = ct_orctraining_grounds_2
+		gold_cost = 300
+		build_time = 1095
+		levy_size = 0.1
+		garrison_size = 0.15
+		ai_creation_factor = 96
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	} 
+	ct_orctraining_grounds_4 = {
+		desc = ct_orctraining_grounds_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ct_orctraining_grounds_3
+		gold_cost = 400
+		build_time = 1460
+		levy_size = 0.125
+		garrison_size = 0.2
+		ai_creation_factor = 95
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	} 
+	ct_orctraining_grounds_5 = {
+		desc = ct_orctraining_grounds_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ct_orctraining_grounds_4
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		garrison_size = 0.25
+		ai_creation_factor = 94
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	ct_orctraining_grounds_6 = {
+		desc = ct_orctraining_grounds_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ct_orctraining_grounds_5
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		garrison_size = 0.25
+		ai_creation_factor = 93
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	
+	ct_orcbarracks_1 = {
+		desc = ct_orcbarracks_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 60
+		archers = 30
+		ai_creation_factor = 95
+		        potential = {
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.5
+	}
+	ct_orcbarracks_2 = {
+		desc = ct_orcbarracks_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_orcbarracks_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 40
+		archers = 70
+		ai_creation_factor = 94
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 1.0
+	}
+	ct_orcbarracks_3 = {
+		desc = ct_orcbarracks_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_orcbarracks_2
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 80
+		archers = 50
+		ai_creation_factor = 93
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 1.0
+	}
+	ct_orcbarracks_4 = {
+		desc = ct_orcbarracks_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 3 }
+		upgrades_from = ct_orcbarracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 60
+		archers = 90
+		ai_creation_factor = 92
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	ct_orcbarracks_5 = {
+		desc = ct_orcbarracks_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 5 }
+		upgrades_from = ct_orcbarracks_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 100
+		archers = 70
+		ai_creation_factor = 91
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	ct_orcbarracks_6 = {
+		desc = ct_orcbarracks_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 7 }
+		upgrades_from = ct_orcbarracks_5
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 80
+		archers = 110
+		ai_creation_factor = 90
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	
+	ct_orcguard_1 = {
+		desc = ct_orcguard_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		pikemen = 45
+		ai_creation_factor = 96
+		        potential = {
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 1.0
+	}
+	ct_orcguard_2 = {
+		desc = ct_orcguard_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 2 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_orcguard_1
+		gold_cost = 120
+		build_time = 547
+		pikemen = 55
+		ai_creation_factor = 95
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	ct_orcguard_3 = {
+		desc = ct_orcguard_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 4 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_orcguard_2
+		gold_cost = 200
+		build_time = 730
+		pikemen = 65
+		ai_creation_factor = 94
+		        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	ct_orcguard_4 = {
+		desc = ct_orcguard_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 6 }
+		upgrades_from = ct_orcguard_3
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 75
+		ai_creation_factor = 93
+		        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	ct_orcguard_5 = {
+		desc = ct_orcguard_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 8 }
+		upgrades_from = ct_orcguard_4
+		gold_cost = 400
+		build_time = 2190
+		pikemen = 85
+		ai_creation_factor = 92
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	
+	ct_orcmarketplace_1 = {
+		desc = ct_orcmarketplace_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 3
+		ai_creation_factor = 110
+		add_number_to_name = no
+		        potential = {
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.4
+	}
+	ct_orcmarketplace_2 = {
+		desc = ct_orcmarketplace_1_desc
+		prerequisites = { ct_wall_1 }
+		trigger = { TECH_CITY_CONSTRUCTION = 0 }
+		upgrades_from = ct_orcmarketplace_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 3
+		ai_creation_factor = 109
+		add_number_to_name = no
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.8
+	}
+	ct_orcmarketplace_3 = {
+		desc = ct_orcmarketplace_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 1 }
+		prerequisites = { ct_wall_2 }
+		upgrades_from = ct_orcmarketplace_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 3
+		ai_creation_factor = 108
+		add_number_to_name = no
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	ct_orcmarketplace_4 = {
+		desc = ct_orcmarketplace_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 3 }
+		upgrades_from = ct_orcmarketplace_3
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 3
+		ai_creation_factor = 107
+		add_number_to_name = no
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	ct_orcmarketplace_5 = {
+		desc = ct_orcmarketplace_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 5 }
+		upgrades_from = ct_orcmarketplace_4
+		gold_cost = 400
+		build_time = 2190
+		tax_income = 3
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	ct_orcmarketplace_6 = {
+		desc = ct_orcmarketplace_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 7 }
+		upgrades_from = ct_orcmarketplace_5
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 3
+		ai_creation_factor = 105
+		add_number_to_name = no
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+		
+	}
+	
+	
+	temple = {
+	
+	tp_orcmonastery_1 = {
+		desc = tp_orcmonastery_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 547
+		levy_size = 0.05
+		garrison_size = 0.05
+		ai_creation_factor = 96
+		add_number_to_name = no
+		liege_piety = 0.05
+        potential = {
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_orcmonastery_2 = {
+		desc = tp_orcmonastery_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_orcmonastery_1
+		gold_cost = 200
+		build_time = 730
+		levy_size = 0.075
+		garrison_size = 0.1
+		ai_creation_factor = 95
+		add_number_to_name = no
+		liege_piety = 0.05
+		        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	} 
+	tp_orcmonastery_3 = {
+		desc = tp_orcmonastery_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
+		upgrades_from = tp_orcmonastery_2
+		gold_cost = 300
+		build_time = 1095
+		levy_size = 0.1
+		garrison_size = 0.15
+		ai_creation_factor = 94
+		add_number_to_name = no
+		liege_piety = 0.05
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	} 
+	tp_orcmonastery_4 = {
+		desc = tp_orcmonastery_2_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 4 }
+		upgrades_from = tp_orcmonastery_3
+		gold_cost = 400
+		build_time = 1460
+		levy_size = 0.125
+		garrison_size = 0.2
+		ai_creation_factor = 93
+		add_number_to_name = no
+		liege_piety = 0.05
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	} 
+	tp_orcmonastery_5 = {
+		desc = tp_orcmonastery_2_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_orcmonastery_4
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		garrison_size = 0.25
+		ai_creation_factor = 92
+		add_number_to_name = no
+		liege_piety = 0.05
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_orcmonastery_6 = {
+		desc = tp_orcmonastery_2_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 8 }
+		upgrades_from = tp_orcmonastery_5
+		gold_cost = 500
+		build_time = 2190
+		levy_size = 0.15
+		garrison_size = 0.25
+		ai_creation_factor = 91
+		add_number_to_name = no
+		liege_piety = 0.05
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	
+	tp_morgulbarracks_1 = {
+		desc = tp_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 60
+		archers = 30
+		ai_creation_factor = 94
+        potential = {
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.5
+	}
+	tp_morgulbarracks_2 = {
+		desc = tp_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_morgulbarracks_1
+		gold_cost = 120
+		build_time = 547
+		light_infantry = 65
+		archers = 45
+		ai_creation_factor = 93
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 1.0
+	}
+	tp_morgulbarracks_3 = {
+		desc = tp_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_morgulbarracks_2
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 70
+		archers = 60
+		ai_creation_factor = 92
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.5
+	}
+	tp_morgulbarracks_4 = {
+		desc = tp_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_morgulbarracks_3
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 75
+		archers = 75
+		ai_creation_factor = 91
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_morgulbarracks_5 = {
+		desc = tp_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_morgulbarracks_4
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 85
+		archers = 85
+		ai_creation_factor = 90
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_morgulbarracks_6 = {
+		desc = tp_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 }
+		upgrades_from = tp_morgulbarracks_5
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 95
+		archers = 95
+		ai_creation_factor = 89
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	
+	tp_elite_morgulbarracks_1 = {
+		desc = tp_elite_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		heavy_infantry = 45
+		ai_creation_factor = 95
+        potential = {
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.5
+	}
+	tp_elite_morgulbarracks_2 = {
+		desc = tp_elite_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_elite_morgulbarracks_1
+		gold_cost = 120
+		build_time = 730
+		heavy_infantry = 55
+		ai_creation_factor = 94
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 1.0
+	}
+	tp_elite_morgulbarracks_3 = {
+		desc = tp_elite_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_elite_morgulbarracks_2
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 65
+		ai_creation_factor = 93
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_elite_morgulbarracks_4 = {
+		desc = tp_elite_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 4 }
+		upgrades_from = tp_elite_morgulbarracks_3
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 75
+		ai_creation_factor = 92
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_elite_morgulbarracks_5 = {
+		desc = tp_elite_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_elite_morgulbarracks_4
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 85
+		ai_creation_factor = 91
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_elite_morgulbarracks_6 = {
+		desc = tp_elite_morgulbarracks_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 8 }
+		upgrades_from = tp_elite_morgulbarracks_5
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 95
+		ai_creation_factor = 90
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	
+	tp_orctown_1 = {
+		desc = tp_orctown_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 98
+        potential = {
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.3
+	}
+	tp_orctown_2 = {
+		desc = tp_orctown_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_orctown_1
+		gold_cost = 120
+		build_time = 547
+		tax_income = 2
+		ai_creation_factor = 96
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.6
+	}
+	tp_orctown_3 = {
+		desc = tp_orctown_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 }
+		prerequisites = { tp_wall_2 }
+		upgrades_from = tp_orctown_2
+		gold_cost = 200
+		build_time = 730
+		tax_income = 2
+		ai_creation_factor = 95
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_orctown_4 = {
+		desc = tp_orctown_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_orctown_3
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 2
+		ai_creation_factor = 94
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_orctown_5 = {
+		desc = tp_orctown_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_orctown_4
+		gold_cost = 400
+		build_time = 2190
+		tax_income = 2
+		ai_creation_factor = 93
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	tp_orctown_6 = {
+		desc = tp_orctown_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 }
+		upgrades_from = tp_orctown_5
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 2
+		ai_creation_factor = 92
+        potential = {
+            has_global_flag = building
+	        culture_group = culture_group_melkor
+            }
+		extra_tech_building_start = 0.2
+	}
+	
+	
+	}
