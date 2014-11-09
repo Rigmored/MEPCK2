@@ -1,6 +1,6 @@
 namespace = calendar
 
-##DWARVES
+##DWARVES - Durin Day
 
 # Durin's Day - New Year
 narrative_event = {
