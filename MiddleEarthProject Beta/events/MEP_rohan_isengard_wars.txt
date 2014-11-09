@@ -242,7 +242,7 @@ character_event = {
 
 	trigger = {
 		has_global_flag = battlesofisen
-		has_landed_title = e_isengard
+		has_landed_title = k_isengard
 		year = 11362
 		NOT = { year = 11363 }
 		NOT = { has_character_flag = battlesofisen }
@@ -293,7 +293,7 @@ character_event = {
 		set_global_flag = theodredatisen
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.9 days = 10 }
@@ -308,7 +308,7 @@ character_event = {
 		set_global_flag = eomeratisen
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.21 days = 10 }
@@ -591,7 +591,7 @@ character_event = {
 		name = "EVTOPTArohanisengard.15" ## Where's my son?
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.17 days = 10 }
@@ -624,7 +624,7 @@ character_event = {
 		name = "EVTOPTArohanisengard.16" ## I'm so happy!
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.18 days = 10 }
@@ -922,7 +922,7 @@ character_event = {
 		name = "EVTOPTArohanisengard.24" ## Where's my son?
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.26 days = 10 }
@@ -955,7 +955,7 @@ character_event = {
 		name = "EVTOPTArohanisengard.25" ## I'm so happy!
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.27 days = 10 }
@@ -1157,7 +1157,7 @@ character_event = {
 		name = "EVTOPTArohanisengard.31" ## Where's my son?
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.17 days = 10 }
@@ -1190,7 +1190,7 @@ character_event = {
 		name = "EVTOPTArohanisengard.32" ## My dynasty failed...
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.35 days = 10 }
@@ -1233,7 +1233,7 @@ character_event = {
 		name = "EVTOPTArohanisengard.33" ## I'm relieved !
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.36 days = 10 }
@@ -1295,7 +1295,7 @@ character_event = {
 		name = "EVTOPTArohanisengard.34" ## Eomer !
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = e_isengard
+				has_landed_title = k_isengard
 				age = 1
 			}
 			character_event = { id = rohanisengard.26 days = 10 }
