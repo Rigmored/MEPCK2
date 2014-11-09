@@ -12,6 +12,13 @@
 #define float4x4 mat4
 #define float3x3 mat3
 
+float3x3 Create3x3( in float3 x, in float3 y, in float3 z )
+{
+	float3x3 Matrix = float3x3( x, y, z );
+	Matrix = transpose( Matrix );
+	return Matrix;
+}
+
 #define static 
 #define tex2D texture2D
 float4 tex2Dlod( sampler2D tex, float4 UV_lod )
@@ -70,6 +77,11 @@ float3 mul( mat3 X,  float3 Y )
 
 #define trunc floor
 
+float3x3 CastTo3x3( in float4x4 M )
+{
+	return float3x3(M);
+}
+
 #define GetMatrixData( Matrix, row, col ) ( Matrix [ col ] [ row ] )
 //This define exist since OpenGL textures sometimes need to be flipped
 #define FIX_FLIPPED_UV( X ) ( -X )
@@ -82,5 +94,12 @@ float3 mul( mat3 X,  float3 Y )
 
 #define GetMatrixData( Matrix, row, col ) ( Matrix [ row ] [ col ] )
 #define FIX_FLIPPED_UV( X ) ( X )
+
+float3x3 CastTo3x3( in float4x4 M )
+{
+	return (float3x3)M;
+}
+
+#define Create3x3 float3x3
 
 #endif

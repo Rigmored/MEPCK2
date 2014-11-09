@@ -49,14 +49,6 @@ Samplers =
 		AddressU = "Wrap";
 		AddressV = "Wrap";
 	},
-	ProvinceSecondaryColorMapPoint = {
-		Index = 10;
-		MagFilter = "Point";
-		MipFilter = "Point";
-		MinFilter = "Point";
-		AddressU = "Wrap";
-		AddressV = "Wrap";
-	},
 	FoWTexture = {
 		Index = 6;
 		MagFilter = "Linear";
@@ -88,8 +80,15 @@ Samplers =
 		MinFilter = "Linear";
 		AddressU = "Clamp";
 		AddressV = "Clamp";
+	},
+	ProvinceSecondaryColorMapPoint = {
+		Index = 10;
+		MagFilter = "Point";
+		MipFilter = "Point";
+		MinFilter = "Point";
+		AddressU = "Wrap";
+		AddressV = "Wrap";
 	}
-
 }
 
 FallbackSamplers = 
@@ -126,7 +125,7 @@ Defines = { } -- Comma separated defines ie. "USE_SIMPLE_LIGHTS", "GUI"
 DeclareShared( [[
 
 static const float3 GREYIFY = float3( 0.212671, 0.715160, 0.072169 );
-static const float TERRAINTILEFREQ = 160.0f;
+static const float TERRAINTILEFREQ = 128.0f;
 static const float NUM_TILES = 4.0f;
 static const float TEXELS_PER_TILE = 512.0f;
 static const float ATLAS_TEXEL_POW2_EXPONENT= 11.0f;
@@ -234,6 +233,7 @@ struct VS_OUTPUT_TERRAIN
 	float2 uv				: TEXCOORD0;
 	float2 uv2				: TEXCOORD1;
 	float3 prepos 			: TEXCOORD2;
+	float4 vScreenCoord		: TEXCOORD3;
 };
 ]] )
 
@@ -279,6 +279,15 @@ VS_OUTPUT_TERRAIN main( const VS_INPUT_TERRAIN_NOTEXTURE VertexIn )
 	VertexOut.prepos = float3( pos.x, vHeight, pos.y );
 	VertexOut.position = mul( float4( VertexOut.prepos.x, VertexOut.prepos.y, VertexOut.prepos.z, 1.0f ), ViewProjectionMatrix );
 	
+	// Output the screen-space texture coordinates
+	VertexOut.vScreenCoord.x = ( VertexOut.position.x * 0.5 + VertexOut.position.w * 0.5 );
+	VertexOut.vScreenCoord.y = ( VertexOut.position.w * 0.5 - VertexOut.position.y * 0.5 );
+#ifdef PDX_OPENGL
+	VertexOut.vScreenCoord.y = -VertexOut.vScreenCoord.y;
+#endif	
+	VertexOut.vScreenCoord.z = VertexOut.position.w;
+	VertexOut.vScreenCoord.w = VertexOut.position.w;	
+	
 	return VertexOut;
 }
 
@@ -310,7 +319,7 @@ float4 main( VS_OUTPUT_TERRAIN Input ) : COLOR
 	float3 terrain_normal = tex2Dlod( TerrainNormal, sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod ) ).rbg - 0.5f;
 #endif
 
-	if ( vAllSame < 1.0f && vBorderLookup_HeightScale_UseMultisample.z < 8.0f )
+	if ( vAllSame < 1.0f && vBorderLookup_HeightScale_UseMultisample_Unused.z < 8.0f )
 	{
 		float4 ColorRD = tex2Dlod( TerrainDiffuse, sample_terrain( IndexU.x, IndexV.x, vTileRepeat, vMipTexels, lod ) );
 		float4 ColorLU = tex2Dlod( TerrainDiffuse, sample_terrain( IndexU.y, IndexV.y, vTileRepeat, vMipTexels, lod ) );
@@ -357,7 +366,12 @@ float4 main( VS_OUTPUT_TERRAIN Input ) : COLOR
 		+ normal.xyz * terrain_normal.y
 		+ normal.xzy * terrain_normal.z;
 		
-	sample.rgb = GetOverlay( sample.rgb, tex2D( TerrainColorTint, Input.uv2*vMapSize.zw ).rgb, 0.5f );
+	float3 TerrainColor = tex2D( TerrainColorTint, Input.uv2 ).rgb;
+	
+	sample.rgb = GetOverlay( sample.rgb, TerrainColor, 0.75f );
+
+	float4 vFoWColor = GetFoWColor( Input.prepos, FoWTexture);
+	sample.rgb = ApplySnow( sample.rgb, Input.prepos, normal, vFoWColor, FoWDiffuse );
 	
 	sample.rgb = calculate_secondary( Input.uv, sample.rgb, Input.prepos.xz );
 
@@ -394,7 +408,7 @@ float4 main( VS_OUTPUT_TERRAIN Input ) : COLOR
 
 	float3 terrain_color = tex2D( ProvinceColorMap, Input.uv ).rgb;
 	
-	if ( vAllSame < 1.0f && vBorderLookup_HeightScale_UseMultisample.z < 8.0f )
+	if ( vAllSame < 1.0f && vBorderLookup_HeightScale_UseMultisample_Unused.z < 8.0f )
 	{
 		float4 ColorRD = tex2Dlod( TerrainDiffuse, sample_terrain( IndexU.x, IndexV.x, vTileRepeat, vMipTexels, lod ) );
 		float4 ColorLU = tex2Dlod( TerrainDiffuse, sample_terrain( IndexU.y, IndexV.y, vTileRepeat, vMipTexels, lod ) );
@@ -426,7 +440,8 @@ float4 main( VS_OUTPUT_TERRAIN Input ) : COLOR
 			vBlendFactors.z );
 	}
 	
-	sample.rgb = GetOverlay( sample.rgb, tex2D( TerrainColorTint, Input.uv2*vMapSize.zw ).rgb, 0.5f );
+	float3 TerrainColor = tex2D( TerrainColorTint, Input.uv2 ).rgb;	
+	sample.rgb = GetOverlay( sample.rgb, TerrainColor, 0.5f );
 	
 	float2 vBlend = float2( 0.4f, 0.45f );
 	float3 vOut = ( dot(sample.rgb, GREYIFY) * vBlend.x + terrain_color.rgb * vBlend.y );

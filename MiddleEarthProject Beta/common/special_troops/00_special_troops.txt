@@ -94,4 +94,3 @@ knights_dol_amroth = {
 	phase_pursue_defense = 11
 	base_type = heavy_cavalry
 }
-

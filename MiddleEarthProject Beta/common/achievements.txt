@@ -839,3 +839,206 @@ LOOKING_EAST_AND_WEST = {
 		has_character_flag = achievement_looking_east_and_west
 	}
 }
+
+# "Holy and Roman" - Found the Holy Roman Empire in a game starting in 769.
+HOLY_AND_ROMAN = {
+	possible = {
+		is_ironman = yes
+		start_date = 769.1.1
+		NOT = { has_character_flag = achievement_holy_and_roman }
+	}
+	
+	happened = {
+		has_character_flag = achievement_holy_and_roman
+	}
+}
+
+# "Empire of the Sun" - Rule as Emperor with the Reformed Zun Faith.
+EMPIRE_OF_THE_SUN = {
+	possible = {
+		is_ironman = yes
+	}
+	
+	happened = {
+		primary_title = { tier = EMPEROR }
+		religion = zun_pagan_reformed
+	}
+}
+
+# "I shed blood of Saxon men" - As a Christian non-Saxon, completely conquer Saxony in a game starting in 769.
+SAXON_BLOOD = {
+	possible = {
+		is_ironman = yes
+		start_date = 769.1.1
+		religion_group = christian
+		NOT = { culture = old_saxon }
+	}
+	
+	happened = {
+		completely_controls = c_oldenburg
+		completely_controls = c_osnabruck
+		completely_controls = c_bremen
+		completely_controls = c_celle
+		completely_controls = c_braunschweig
+		completely_controls = c_gottingen
+		completely_controls = c_holstein
+		completely_controls = c_hamburg
+		completely_controls = c_luneburg
+		completely_controls = c_weimar
+		completely_controls = c_lubeck
+		completely_controls = c_anhalt
+		completely_controls = c_plauen
+	}
+}
+
+# "Saxons everywhere, unite!" - As an Anglo-Saxon or Saxon ruler, be king of both Saxony and England.
+SAXONS_UNITE = {
+	possible = {
+		is_ironman = yes
+		OR = {
+			culture = saxon
+			culture = old_saxon
+		}
+	}
+	
+	happened = {
+		has_landed_title = k_england
+		has_landed_title = k_saxony
+	}
+}
+
+# "The Frisian coast is long" - Be King of Frisia and hold the Atlantic coast from Léon to Jylland.
+FRISIAN_COAST = {
+	possible = {
+		is_ironman = yes
+	}
+	
+	happened = {
+		has_landed_title = k_frisia
+		completely_controls = c_french_leon
+		completely_controls = c_penthievre
+		completely_controls = c_rennes
+		completely_controls = c_avranches
+		completely_controls = c_evreux
+		completely_controls = c_arques
+		completely_controls = c_eu
+		completely_controls = c_boulogne
+		completely_controls = c_guines
+		completely_controls = c_yperen
+		completely_controls = c_brugge
+		completely_controls = c_gent
+		completely_controls = c_zeeland
+		completely_controls = c_breda
+		completely_controls = c_holland
+		completely_controls = c_westfriesland
+		completely_controls = c_sticht
+		completely_controls = c_gelre
+		completely_controls = c_frisia
+		completely_controls = c_ostfriesland
+		completely_controls = c_oldenburg
+		completely_controls = c_bremen
+		completely_controls = c_holstein
+		completely_controls = c_slesvig
+		completely_controls = c_jylland
+	}
+}
+
+# "Little brother rules!" - Become Emperor of Francia as Carloman, brother of Charlemagne.
+LITTLE_BROTHER = {
+	possible = {
+		is_ironman = yes
+		character = 144999
+	}
+	
+	happened = {
+		character = 144999
+		has_landed_title = e_france
+	}
+}
+
+# "Iron Crown" - Hold any Emperor or King title as a Lombard after 1300.
+IRON_CROWN = {
+	possible = {
+		is_ironman = yes
+		year = 1300
+	}
+	
+	happened = {
+		culture = lombard
+		primary_title = { higher_tier_than = DUKE }
+	}
+}
+
+# "Viking Ummah" - Have a capital province with Norse culture and Muslim religion.
+VIKING_UMMAH = {
+	possible = {
+		is_ironman = yes
+	}
+	
+	happened = {
+		capital_scope = {
+			culture = norse
+			religion_group = muslim
+		}
+	}
+}
+
+# "Medieval Schlieffen" - Be simultaneously at war with the Aztecs and the Mongols.
+MEDIEVAL_SCHLIEFFEN = {
+	possible = {
+		is_ironman = yes
+		NOT = { has_character_flag = achievement_medieval_schlieffen }
+	}
+	
+	happened = {
+		has_character_flag = achievement_medieval_schlieffen
+	}
+}
+
+# "I'm sorry, Desiderata" - Divorce a Lombard Princess as a Christian.
+DESIDERATA = {
+	possible = {
+		is_ironman = yes
+		NOT = { has_character_flag = achievement_desiderata }
+	}
+	
+	happened = {
+		has_character_flag = achievement_desiderata
+	}
+}
+
+# "Seven Centuries" - Play a game all the way through from 769 to 1453.
+SEVEN_CENTURIES = {
+	possible = {
+		is_ironman = yes
+		start_date = 769.1.1
+	}
+	
+	happened = {
+		date = 1452.12.30
+	}
+}
+
+# "Not a Tribe" - Play as a Tribal Ruler and Reform to Feudalism.
+NOT_A_TRIBE = {
+	possible = {
+		is_ironman = yes
+		NOT = { has_character_flag = achievement_not_a_tribe }
+	}
+	
+	happened = {
+		has_character_flag = achievement_not_a_tribe
+	}
+}
+
+# "Res Publica" - Play as a Tribal Ruler and Reform to Merchant Republic.
+RES_PUBLICA = {
+	possible = {
+		is_ironman = yes
+		NOT = { has_character_flag = achievement_res_publica }
+	}
+	
+	happened = {
+		has_character_flag = achievement_res_publica
+	}
+}

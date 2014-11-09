@@ -474,7 +474,7 @@ bitmapfonts = {
 		color_override = {
 			G = { 24 112 26 }
 			R = { 124 24 24 }
-			Y = { 0 0 0 }
+			Y = { 255 189 0 }
 		}
 		
 	}
@@ -503,6 +503,11 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "decorative"
 		fontname = "decorative"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "decorative_color"
+		fontname = "decorative_color"
 		color = 0xffffffff
 	}
 

@@ -11,11 +11,11 @@ title = c_souther_eregion
 max_settlements = 5
 
 
-b_cillien = castle
+b_cillien = tribal
 
-b_echad_naeglanc = city
+b_echad_naeglanc = tribal
 
-b_banceaster = city
+b_banceaster = tribal
 
 #b_bonevales = city
 

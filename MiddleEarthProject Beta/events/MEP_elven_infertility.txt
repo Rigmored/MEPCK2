@@ -24,5 +24,36 @@ character_event = {
 		  set_character_flag = elven_infertility
 	           }
 
-}  
+	}  
+}
+
+### For Elves and Ainur - won't be able to have more than one wife ###
+character_event = {
+	id = elveninfertility.2
+	desc = "EVTDESCelveninfertility.2"
+	picture = GFX_evt_lovers	
+		
+	trigger = {
+		is_married = yes
+		OR = {
+			culture_group = culture_group_quendi
+			culture_group = culture_group_moriquendi
+			culture_group = culture_group_umanyar
+			culture_group = culture_group_amanyar
+			culture_group = culture_group_eru
+		}
+		NOT = { trait = marriedforever }
+	}
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = "EVTOPTAelveninfertility.2" # Our souls are linked.
+		add_trait = marriedforever
+		any_spouse = {
+			add_lover = ROOT
+		}
+	} 
 }

@@ -17,13 +17,7 @@ character_event = {
 	picture = GFX_good
 	hide_window = yes	
 
-	trigger = {
-		has_landed_title = c_imladris
-		NOT = { has_global_flag = building }
-		age = 1
-	}
-	
-	mean_time_to_happen = { days = 1 }
+	is_triggered_only = yes 
 	
 	option = {
 		name = "OK"

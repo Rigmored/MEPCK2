@@ -12933,11 +12933,8 @@ d_ringbearer = {
 	
 	allow = {  
 		trait = ring
+		NOT = { has_character_flag = ringbearer_forfait }
 	}	
-	
-	# Always exists
-	landless = yes
-	
 }
 
 ## Lords of Arda - Valar Realms ##

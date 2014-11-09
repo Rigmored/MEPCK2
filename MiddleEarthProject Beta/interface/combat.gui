@@ -216,17 +216,14 @@ guiTypes = {
 		}
 		iconType = {
 			name ="special_troops"
-
 			spriteType = "GFX_unitpanel_specialtroops_smallstrip"
 			position = { x= 301 y = -7 }
-
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="heavy_cavalry"
 			spriteType = "GFX_unitpanel_unitstrip_small"
 			position = { x= 263 y = -7 }
-
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -691,7 +688,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "special_troops_total"
 			position = { x = 295 y = 167 }
-
 			textureFile = ""
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -703,7 +699,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "heavy_cavalry_total"
 			position = { x = 257 y = 167 }
-
 			textureFile = ""
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -746,17 +741,14 @@ guiTypes = {
 		}
 		iconType = {
 			name ="special_troops"
-
 			spriteType = "GFX_unitpanel_specialtroops_smallstrip"
 			position = { x= 301 y = 139 }
-
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="heavy_cavalry"
 			spriteType = "GFX_unitpanel_unitstrip_small"
 			position = { x= 263 y = 139 }
-
 			Orientation = "UPPER_LEFT"
 		}
 		

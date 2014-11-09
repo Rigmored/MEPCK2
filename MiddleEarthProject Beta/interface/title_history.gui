@@ -78,7 +78,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		guiButtonType = {
-
 			name = "portrait_dead"
 			quadTextureSprite = "GFX_overlay_char_dead_small"
 			position = { x = 20 y = 21 }
@@ -103,6 +102,18 @@ guiTypes = {
 			quadTextureSprite = "GFX_shield_medium2"
 			position = { x = 290 y = 0 }
 			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x=45 y =27}
+			name = "acquisition"
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 235
+			maxHeight = 40
+			text = "Hello world!"	
+			orientation = "UPPER_LEFT"
+			format = left
 		}
 	}
 }

@@ -94,4 +94,33 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\endgame_shield1.tga"
 		noOfFrames = 2
 	}
+	
+	spriteType = {
+		name = "GFX_chronicle_bg"
+		texturefile = "gfx\\interface\\chronicle_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_chronicle_divider"
+		texturefile = "gfx\\interface\\chronicle_divider.dds"
+	}
+	spriteType = {
+		name = "GFX_chronicle_divider_nodate"
+		texturefile = "gfx\\interface\\chronicle_divider_nodate.dds"
+	}
+	spriteType = {
+		name = "GFX_chronicle_image_frame"
+		texturefile = "gfx\\interface\\chronicle_image_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_chronicle_previous_page"
+		texturefile = "gfx\\interface\\chronicle_prev_page.dds"
+		noOfFrames = 3
+		#effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	spriteType = {
+		name = "GFX_chronicle_next_page"
+		texturefile = "gfx\\interface\\chronicle_next_page.dds"
+		noOfFrames = 3
+		#effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
 }

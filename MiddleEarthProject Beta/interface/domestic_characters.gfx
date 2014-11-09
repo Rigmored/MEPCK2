@@ -20,6 +20,16 @@ spriteTypes = {
 		clicksound = generic_click_02
 	}
 	spriteType = {
+		name = "GFX_charbrowser_option_button_3"
+		texturefile = "gfx\\interface\\charbrowser_option_button_3.dds"
+		clicksound = generic_click_02
+	}
+	textSpriteType = {
+		name = "GFX_charbrowser_option_button_4"
+		texturefile = "gfx\\interface\\charbrowser_option_button_4.dds"
+		clicksound = generic_click_02
+	}
+	spriteType = {
 		name = "GFX_charbrowser_entry_bg"
 		texturefile = "gfx\\interface\\charbrowser_entry_bg.dds"
 		allwaystransparent = yes

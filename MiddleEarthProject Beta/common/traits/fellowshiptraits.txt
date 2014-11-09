@@ -14,7 +14,6 @@ spiritform = {
     customizer = no
 	cached = yes
 	random = no
-	incapacitating = yes
 	diplomacy = -5
 	stewardship = -5
 	martial = -5

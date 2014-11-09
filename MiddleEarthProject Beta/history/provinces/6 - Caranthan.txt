@@ -15,8 +15,7 @@ b_caranthan = castle
 
 b_minas_caranthan = city
 
-b_thuillinhil = cit
-y
+b_thuillinhil = city
 #b_sarniolin = castle
 
 #b_cerviren = city

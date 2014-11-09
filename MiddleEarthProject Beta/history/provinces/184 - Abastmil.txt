@@ -8,8 +8,8 @@ title = c_abastmil
 
 max_settlements = 5
 
-b_balorn = castle
-b_hairaverden = city
+b_balorn = tribal
+b_hairaverden = tribal
 #b_dantglamor = city
 #b_glanhen = city
 #b_abariol = city

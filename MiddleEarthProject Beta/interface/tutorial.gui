@@ -1291,7 +1291,18 @@ guiTypes = {
 			}
 		instantTextBoxType = {
 				name = "Text8"
-				position = { x =74 y = 500 }
+				position = { x =74 y = 540 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 368
+				maxHeight = 480	
+				format = left
+			}
+		instantTextBoxType = {
+				name = "Text9"
+				position = { x =74 y = 620 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
@@ -1303,7 +1314,7 @@ guiTypes = {
 			
 		guiButtonType = {
 			name = "NextButton"
-			position = { x=156 y =570}
+			position = { x=156 y =690}
 			quadTextureSprite ="GFX_standard_button_164"
 			buttonText = "TUT_NEXT"
 			buttonFont = "vic_18"

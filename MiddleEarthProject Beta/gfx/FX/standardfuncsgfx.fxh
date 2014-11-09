@@ -1,7 +1,6 @@
 #ifndef STANDARDFUNCS_H_
 #define STANDARDFUNCS_H_
 
-
 CONSTANT_BUFFER( 0, 0 )
 {
 	float4x4 ViewProjectionMatrix;
@@ -14,7 +13,7 @@ CONSTANT_BUFFER( 0, 0 )
 	float3 vCamRightDir;
 	float3 vCamLookAtDir;
 	float3 vCamUpDir;
-	float2 vFoWOpacity_Time;
+	float3 vFoWOpacity_Time;
 };
 
 /*
@@ -104,6 +103,12 @@ float3 Levels( float3 vInColor, float vMinInput, float vMaxInput )
 	return saturate( vRet );
 }
 
+float3 UnpackNormal( in sampler2D NormalTex, float2 uv )
+{
+	float3 vNormalSample = normalize( tex2D( NormalTex, uv ).rgb - 0.5f );
+	vNormalSample.g = -vNormalSample.g;
+	return vNormalSample;
+}
 
 // Standard functions
 float3 CalculateLighting( float3 vColor, float3 vNormal, float3 vLightDirection )
@@ -153,6 +158,15 @@ float3 ApplyDistanceFog( float3 vColor, float3 vPos )
 	return lerp( vColor, float3( 0.5f, 0.5f, 0.5f ), saturate( vMin ) * vFogFactor );
 }
 
+float4 GetFoWColor( float3 vPos, in sampler2D FoWTexture)
+{
+#ifdef MAP_SIZE_X
+	return tex2D( FoWTexture, float2( ( ( vPos.x + 0.5f ) / MAP_SIZE_X ) * FOW_POW2_X, ( (vPos.z + 0.5f ) / MAP_SIZE_Y) * FOW_POW2_Y ) );
+#else
+	return tex2D( FoWTexture, float2( ( ( vPos.x + 0.5f ) / vMapSize.x ), ( (vPos.z + 0.5f ) / vMapSize.y) ));
+#endif
+}
+
 float GetFoW( float3 vPos, in sampler2D FoWTexture, in sampler2D FoWDiffuse )
 {
 	float vFoWDiffuse = tex2D( FoWDiffuse, ( vPos.xz + 0.5f ) / 256.0f + vFoWOpacity_Time.y * 0.02f ).r;
@@ -165,6 +179,53 @@ float GetFoW( float3 vPos, in sampler2D FoWTexture, in sampler2D FoWDiffuse )
 float3 ApplyDistanceFog( float3 vColor, float3 vPos, in sampler2D FoWTexture, in sampler2D FoWDiffuse )
 {
 	return ApplyDistanceFog( vColor, vPos ) * GetFoW( vPos, FoWTexture, FoWDiffuse );
+}
+
+const static float SNOW_START_HEIGHT 	= 18.0f;
+const static float SNOW_RIDGE_START_HEIGHT 	= 22.0f;
+const static float SNOW_NORMAL_START 	= 0.7f;
+const static float3 SNOW_COLOR = float3( 0.7f, 0.7f, 0.7f );
+const static float3 SNOW_WATER_COLOR = float3( 0.5f, 0.7f, 0.7f );
+
+float GetSnow( float4 vFoWColor )
+{
+	return lerp( vFoWColor.b, vFoWColor.g, vFoWOpacity_Time.z ); //Get winter;
+}
+
+float3 ApplySnow( float3 vColor, float3 vPos, inout float3 vNormal, float4 vFoWColor, in sampler2D FoWDiffuse, float3 vSnowColor )
+{
+	float vSnowFade = saturate( vPos.y - SNOW_START_HEIGHT );
+	float vNormalFade = saturate( saturate( vNormal.y - SNOW_NORMAL_START ) * 10.0f );
+
+	float vNoise = tex2D( FoWDiffuse, ( vPos.xz + 0.5f ) / 100.0f  ).r;
+	float vSnowTexture = tex2D( FoWDiffuse, ( vPos.xz + 0.5f ) / 10.0f  ).r;
+	
+	float vIsSnow = GetSnow( vFoWColor );
+	
+	//Increase snow on ridges
+	vNoise += saturate( vPos.y - SNOW_RIDGE_START_HEIGHT )*( saturate( (vNormal.y-0.9f) * 1000.0f )*vIsSnow );
+	vNoise = saturate( vNoise );
+	//vNoise = 1.0;
+	
+	float vSnow = saturate( saturate( vNoise - ( 1.0f - vIsSnow ) ) * 5.0f );
+	float vFrost = saturate( saturate( vNoise + 0.5f ) - ( 1.0f - vIsSnow ) );
+	vFrost = 0.0;
+	vColor = lerp( vColor, vSnowColor * ( 0.9f + 0.1f * vSnowTexture), saturate( vSnow + vFrost ) * vSnowFade * vNormalFade * ( saturate( vIsSnow*2.25f ) ) );	
+	
+	vNormal.y += 1.0f * saturate( vSnow + vFrost ) * vSnowFade * vNormalFade;
+	vNormal = normalize( vNormal );
+	
+	return vColor;
+}
+
+float3 ApplySnow( float3 vColor, float3 vPos, inout float3 vNormal, float4 vFoWColor, in sampler2D FoWDiffuse )
+{
+	return ApplySnow( vColor, vPos, vNormal, vFoWColor, FoWDiffuse, SNOW_COLOR );
+}
+
+float3 ApplyWaterSnow( float3 vColor, float3 vPos, inout float3 vNormal, float4 vFoWColor, in sampler2D FoWDiffuse )
+{
+	return ApplySnow( vColor, vPos, vNormal, vFoWColor, FoWDiffuse, SNOW_WATER_COLOR );
 }
 
 #endif // STANDARDFUNCS_H_

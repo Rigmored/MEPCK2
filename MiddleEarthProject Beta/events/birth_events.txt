@@ -41,7 +41,6 @@ character_event = {
 		NOT = { trait = infirm }
 		NOT = { trait = incapable }
 		NOT = { trait = celibate }
-		religion_group = religion_group_edain
 		liege = {
 			NOT = { character = ROOT }
 			demesne_size = 1
@@ -611,7 +610,6 @@ character_event = {
 				is_pregnant = no
 				prisoner = no
 				is_marriage_adult = yes
-				religion_group = religion_group_edain
 				OR = {
 					is_female = no
 					NOT = { age = 40 }

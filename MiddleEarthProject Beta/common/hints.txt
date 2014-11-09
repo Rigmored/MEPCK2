@@ -10,43 +10,6 @@ splash_screen =
 	text = "HINT_SPLASH_MAP"
 }
 
-old_gods_splash_screen_pagan =
-{
-	window = "old_gods_hints_splash_screen_pagan"
-	anchor = no
-	title = "OLD_GODS_SPLASH_SCREEN_TITLE"
-	text = "OLD_GODS_PAGAN_TEXT_0"
-	text = "OLD_GODS_PAGAN_TEXT_1"
-	text = "OLD_GODS_PAGAN_TEXT_2"
-	text = "OLD_GODS_PAGAN_TEXT_3"
-	text = "OLD_GODS_PAGAN_TEXT_4"
-	next_hint = "old_gods_splash_screen_pagan_2"
-}
-
-old_gods_splash_screen_pagan_2 = 
-{
-	window = "old_gods_hints_splash_screen_pagan_2"
-	anchor = no
-	title = "OLD_GODS_SPLASH_SCREEN_TITLE"
-	text = "OLD_GODS_PAGAN_TEXT_5"
-	text = "OLD_GODS_PAGAN_TEXT_6"
-	text = "OLD_GODS_PAGAN_TEXT_7"
-	text = "OLD_GODS_PAGAN_TEXT_8"
-	text = "OLD_GODS_PAGAN_TEXT_9"
-}
-
-old_gods_splash_screen_non_pagan =
-{
-	window = "old_gods_hints_splash_screen_non_pagan"
-	anchor = no
-	title = "OLD_GODS_SPLASH_SCREEN_TITLE"
-	text = "OLD_GODS_NON_PAGAN_TEXT_0"
-	text = "OLD_GODS_NON_PAGAN_TEXT_1"
-	text = "OLD_GODS_NON_PAGAN_TEXT_2"
-	text = "OLD_GODS_NON_PAGAN_TEXT_3"
-	text = "OLD_GODS_NON_PAGAN_TEXT_4"
-}
-
 character_view =
 {
 	window = "hints_character_view"
@@ -124,15 +87,92 @@ diplomacy_view =
 	text = "HINT_DIPLO_VIEW_TEXT_3"
 }
 
-religion_view =
+religion_view_christian =
 {
-	window = "hints_religion_view"
+	window = "hints_religion_view_christian"
 	anchor = no
 	title = "HINT_REL_VIEW_TITLE"
 	text = "HINT_REL_VIEW_TEXT_1"
 	text = "HINT_REL_VIEW_TEXT_2"
-	text = "HINT_REL_VIEW_TEXT_3"
-	text = "HINT_REL_VIEW_TEXT_4"
+	text = "HINT_REL_VIEW_TEXT_3_CHRISTIAN"
+	text = "HINT_REL_VIEW_TEXT_4_CHRISTIAN"
+}
+
+religion_view_christian_nohead =
+{
+	window = "hints_religion_view_christian_nohead"
+	anchor = no
+	title = "HINT_REL_VIEW_TITLE"
+	text = "HINT_REL_VIEW_TEXT_1"
+	text = "HINT_REL_VIEW_TEXT_2"
+	text = "HINT_REL_VIEW_TEXT_3_CHRISTIAN_NOHEAD"
+	text = "HINT_REL_VIEW_TEXT_4_CHRISTIAN_NOHEAD"
+}
+
+religion_view_catholic =
+{
+	window = "hints_religion_view_catholic"
+	anchor = no
+	title = "HINT_REL_VIEW_TITLE"
+	text = "HINT_REL_VIEW_TEXT_1"
+	text = "HINT_REL_VIEW_TEXT_2"
+	text = "HINT_REL_VIEW_TEXT_3_CATHOLIC"
+	text = "HINT_REL_VIEW_TEXT_4_CATHOLIC"
+}
+
+religion_view_zoroastrian =
+{
+	window = "hints_religion_view_zoroastrian"
+	anchor = no
+	title = "HINT_REL_VIEW_TITLE"
+	text = "HINT_REL_VIEW_TEXT_1"
+	text = "HINT_REL_VIEW_TEXT_2"
+	text = "HINT_REL_VIEW_TEXT_3_ZOROASTRIAN"
+	text = "HINT_REL_VIEW_TEXT_4_ZOROASTRIAN"
+}
+
+religion_view_indian =
+{
+	window = "hints_religion_view_indian"
+	anchor = no
+	title = "HINT_REL_VIEW_TITLE"
+	text = "HINT_REL_VIEW_TEXT_1"
+	text = "HINT_REL_VIEW_TEXT_2"
+	text = "HINT_REL_VIEW_TEXT_3_INDIAN"
+	text = "HINT_REL_VIEW_TEXT_4_INDIAN"
+}
+
+religion_view_jewish =
+{
+	window = "hints_religion_view_jewish"
+	anchor = no
+	title = "HINT_REL_VIEW_TITLE"
+	text = "HINT_REL_VIEW_TEXT_1"
+	text = "HINT_REL_VIEW_TEXT_2"
+	text = "HINT_REL_VIEW_TEXT_3_JEWISH"
+	text = "HINT_REL_VIEW_TEXT_4_JEWISH"
+}
+
+religion_view_pagan =
+{
+	window = "hints_religion_view_pagan"
+	anchor = no
+	title = "HINT_REL_VIEW_TITLE"
+	text = "HINT_REL_VIEW_TEXT_1"
+	text = "HINT_REL_VIEW_TEXT_2"
+	text = "HINT_REL_VIEW_TEXT_3_PAGAN"
+	text = "HINT_REL_VIEW_TEXT_4_PAGAN"
+}
+
+religion_view_muslim =
+{
+	window = "hints_religion_view_muslim"
+	anchor = no
+	title = "HINT_REL_VIEW_TITLE"
+	text = "HINT_REL_VIEW_TEXT_1"
+	text = "HINT_REL_VIEW_TEXT_2"
+	text = "HINT_REL_VIEW_TEXT_3_MUSLIM"
+	text = "HINT_REL_VIEW_TEXT_4_MUSLIM"
 }
 
 realm_view =

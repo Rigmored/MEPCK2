@@ -468,6 +468,12 @@ guiTypes = {
 			position = { x= 307 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}
+		iconType = {
+			name ="icon_prestige"
+			spriteType = "GFX_icon_prestige_small"
+			position = { x= 307 y = 9 }
+			Orientation = "UPPER_LEFT"
+		}
 		
 		guiButtonType = {
 			name = "buildbutton"

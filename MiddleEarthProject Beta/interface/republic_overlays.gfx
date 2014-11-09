@@ -13,8 +13,18 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_repover_date_2"	
+		texturefile = "gfx\\interface\\repover_date_2.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_repover_menubar_1"	
 		texturefile = "gfx\\interface\\repover_menubar_1.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_repover_menubar_2"	
+		texturefile = "gfx\\interface\\repover_menubar_2.dds"
 		allwaystransparent = yes
 	}
 	

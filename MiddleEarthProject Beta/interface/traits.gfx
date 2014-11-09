@@ -1366,6 +1366,23 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}		
 	spriteType = {
+		name = "GFX_trait_in_hiding"
+		texturefile = "gfx/traits/in_hiding.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_winter_soldier"
+		texturefile = "gfx/traits/winter_soldier.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	
+	#### MEP Traits ####
+	spriteType = {
 		name = "GFX_trait_anduril"
 		texturefile = "gfx/traits/anduril.dds"
 		noOfFrames = 1

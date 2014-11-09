@@ -1,6 +1,6 @@
 -------MIDDLE-EARTH PROJECT----------
 
-------- 0.4b Patch Changelog ---------
+##### 0.4b Changelog #####
 
 BUGFIX :
 - The Ambition to become a Elf Warrior is now fixed for characters more aged than 45.
@@ -39,6 +39,7 @@ CHARACTERS :
 - Added "Steelsheen" nickname to Morwen of Lossarnach, King Theoden's wife
 - Added death_reasons for Rohirrim characters
 - Faramir now has the Scholar lifestyle trait
+- The Stiffbeard kings of Zirakdum are now Stonefoots
 
 CULTURES AND RACES :
 - Added a general Hobbit culture to replace Stoors, Harfoots and Fallohides within Shire in War of the Rings period
@@ -60,6 +61,7 @@ EVENTS :
 - Gandalf will now travel to the realms of Good characters if they're at war, to help them.
 - An eastern ruler has now the possibility to find and invite as courtisans one of the Blue Istari: Alatar and Pallando
 - When the King of Gondor is crowned, he's now able to renew the Oath of Eorl, or to try to vassalize/conquer the land for Gondor.
+- Added event to remove Ringbearer title from non-ringbearer
 
 GFX :
 - Changed a lot of old flags
@@ -131,7 +133,7 @@ TITLES :
 - Added Ringbearer titular duchy held by current ringbearer
 - The Tribes of Harad are now independant
 
-----HOTFIX-----
+#####HOTFIX#####
 
 BUGFIX:
 - Add one missing holy site for Moriquendi religion
@@ -139,7 +141,7 @@ BUGFIX:
 - The Travel to Elostirion decision can now be used by elves, as it should be
 - Fixed a bug with the Colonization of Wilderness CB
 
--------0.3.1b Patch Changelog-------
+#####0.3.1b Patch Changelog#####
 
 AMBITIONS :
 - You can now try to reclaim a Palantir if the stone isn't in its original location, and you're the ruler of this location

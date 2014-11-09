@@ -28,6 +28,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\icon_gold_small.dds"
 	}
 	spriteType = {
+		name = "GFX_icon_prestige_small"
+		texturefile = "gfx\\interface\\icon_prestige_small.dds"
+	}
+	spriteType = {
 		name = "GFX_military_reinforce_min"
 		texturefile = "gfx\\interface\\military_reinforce_min.dds"
 		noOfFrames = 2

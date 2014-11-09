@@ -64,9 +64,399 @@ guiTypes = {
 			maxHeight = 100	
 		}
 	}
-	######
+	
+	###### PICK ERA SCREEN
+	windowType = {
+		name = "pick_era_screen"
+		backGround=""
+		position = { x=-524 y=-366 }	
+		size = { x=1024 y=720 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+		
+		iconType ={
+			name ="bg"
+			spriteType = "GFX_pick_era_bg"
+			position = { x= 0 y =0 }
+		}
+		iconType ={
+			name ="era_info_bg"
+			spriteType = "GFX_pick_era_info_bg"
+			position = { x= 259 y =123 }
+		}
+		
+		instantTextBoxType = {
+			name = "header"
+			position = { x = 147 y = 21 }
+			font = "vic_22"
+			text = "PICK_YOUR_STARTING_ERA"	
+			maxWidth = 750
+			maxHeight = 30
+			format = centre
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name = "text"
+			position = { x = 147 y = 89 }
+			font = "vic_18_black"
+			text = "PICK_STARTING_ERA_TEXT"
+			maxWidth = 750
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		
+		### era windows
+		windowType = {
+			name = "dark_ages_window"
+			position = { x=75 y=121 }
+			moveable = 0
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			
+			guiButtonType = {
+				name = "picture"
+				position = { x=0 y=0}
+				quadTextureSprite ="GFX_pick_era_image_1"
+			}
+			instantTextBoxType = {
+				name = "dlc_requirement"
+				position = { x = 10 y = 160 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				format = centre
+			}
+			iconType ={
+				name ="load_progress"
+				spriteType = "GFX_pick_era_progress"
+				position = { x= 7 y =7 }
+			}
+			instantTextBoxType = {
+				name = "label"
+				position = { x = 10 y = 9 }
+				font = "vic_18"
+				text = "DARK_AGES"
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+			instantTextBoxType = {
+				name = "year"
+				position = { x = 10 y = 26 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+		}
+		###
+		windowType = {
+			name = "viking_era_window"
+			position = { x=256 y=121 }
+			moveable = 0
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			
+			guiButtonType = {
+				name = "picture"
+				position = { x=0 y=0}
+				quadTextureSprite ="GFX_pick_era_image_2"
+			}
+			instantTextBoxType = {
+				name = "dlc_requirement"
+				position = { x = 10 y = 160 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				format = centre
+			}
+			iconType ={
+				name ="load_progress"
+				spriteType = "GFX_pick_era_progress"
+				position = { x= 7 y =7 }
+			}
+			instantTextBoxType = {
+				name = "label"
+				position = { x = 10 y = 9 }
+				font = "vic_18"
+				text = "VIKING_ERA"
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+			instantTextBoxType = {
+				name = "year"
+				position = { x = 10 y = 26 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+		}
+		###
+		windowType = {
+			name = "early_med_window"
+			position = { x=437 y=121 }
+			moveable = 0
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			
+			guiButtonType = {
+				name = "picture"
+				position = { x=0 y=0}
+				quadTextureSprite ="GFX_pick_era_image_3"
+			}
+			instantTextBoxType = {
+				name = "dlc_requirement"
+				position = { x = 10 y = 160 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				format = centre
+			}
+			iconType ={
+				name ="load_progress"
+				spriteType = "GFX_pick_era_progress"
+				position = { x= 7 y =7 }
+			}
+			instantTextBoxType = {
+				name = "label"
+				position = { x = 10 y = 9 }
+				font = "vic_18"
+				text = "EARLY_MED"
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+			instantTextBoxType = {
+				name = "year"
+				position = { x = 10 y = 26 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+		}
+		###
+		windowType = {
+			name = "high_med_window"
+			position = { x=618 y=121 }
+			moveable = 0
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			
+			guiButtonType = {
+				name = "picture"
+				position = { x=0 y=0}
+				quadTextureSprite ="GFX_pick_era_image_4"
+			}
+			instantTextBoxType = {
+				name = "dlc_requirement"
+				position = { x = 10 y = 160 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				format = centre
+			}
+			iconType ={
+				name ="load_progress"
+				spriteType = "GFX_pick_era_progress"
+				position = { x= 7 y =7 }
+			}
+			instantTextBoxType = {
+				name = "label"
+				position = { x = 10 y = 9 }
+				font = "vic_18"
+				text = "HIGH_MED"
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+			instantTextBoxType = {
+				name = "year"
+				position = { x = 10 y = 26 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+		}
+		###
+		windowType = {
+			name = "late_med_window"
+			position = { x=799 y=121 }
+			moveable = 0
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			
+			guiButtonType = {
+				name = "picture"
+				position = { x=0 y=0}
+				quadTextureSprite ="GFX_pick_era_image_5"
+			}
+			instantTextBoxType = {
+				name = "dlc_requirement"
+				position = { x = 10 y = 160 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				format = centre
+			}
+			iconType ={
+				name ="load_progress"
+				spriteType = "GFX_pick_era_progress"
+				position = { x= 7 y =7 }
+			}
+			instantTextBoxType = {
+				name = "label"
+				position = { x = 10 y = 9 }
+				font = "vic_18"
+				text = "LATE_MED"
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+			instantTextBoxType = {
+				name = "year"
+				position = { x = 10 y = 26 }
+				font = "vic_18"
+				text = ""
+				maxWidth = 150
+				maxHeight = 20
+				fixedsize = yes
+				format = centre
+			}
+		}
+		
+		
+		###
+		instantTextBoxType = {
+			name = "era_info"
+			position = { x=292 y=154 }
+			font = "vic_18_black"
+			text = ""
+			maxWidth = 640
+			maxHeight = 170
+		}
+		
+		OverlappingElementsBoxType = {
+			name = "era_characters"
+			position = { x=118 y=370 }
+			size = { x=1010 y=32 }
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "character_info"
+			position = { x=105 y=523 }
+			font = "vic_18_black"
+			text = ""
+			maxWidth = 830
+			maxHeight = 110
+		}
+		###
+		guiButtonType = {
+			name = "back"
+			position = { x=84 y=658}
+			quadTextureSprite ="GFX_big_button_220"
+			buttonText = "BACK"
+			buttonFont = "vic_18"
+		}				
+		guiButtonType = {
+			name = "custom_game"
+			position = { x=493 y=658}
+			quadTextureSprite ="GFX_big_button_220"
+			buttonText = "CUSTOM_GAME"
+			buttonFont = "vic_18"
+		}
+		guiButtonType = {
+			name = "start_game"
+			position = { x=739 y=658}
+			quadTextureSprite ="GFX_big_button_220"
+			buttonText = "START_GAME"
+			buttonFont = "vic_18"
+		}		
+	}
 
-
+	### ERA CHARACTER ENTRY
+	windowType = {
+		name = "era_character_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=158 y= 57 }
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		iconType ={
+			name ="selected"
+			spriteType = "GFX_pick_era_selected_char"
+			position = { x= -16 y =-17 }
+		}
+		guiButtonType = {
+			position = { x= -32 y = 31 }
+			name = "shield"	
+			quadTextureSprite ="GFX_shield_medium"
+		}	
+		
+		guiButtonType = {
+			name ="portrait"
+			quadTextureSprite = "GFX_char_100"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "CHARACTER_TOOLTIP"
+			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+		}
+		guiButtonType ={
+			name = "portrait_frame"
+			quadTextureSprite = "GFX_charframe_100"
+			position = { x= -8 y = -9 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="name_bg"
+			spriteType = "GFX_pick_era_portrait_banner"
+			position = { x= -30 y =80 }
+		}
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x=-4 y=95 }
+			font = "vic_18_black"
+			text = ""
+			maxWidth = 105
+			maxHeight = 50
+			format = center
+		}
+	}
+	
+	#####
 	textBoxType = {
 				name = "select_nation_label"
 				position = { x = 50 y = 30 }
@@ -350,17 +740,26 @@ guiTypes = {
 			###
 			guiButtonType = {
 				name = "back_button"
-				position = { x = -99 y = 455 }
-				quadTextureSprite ="GFX_big_button_300"	
+				position = { x = -156 y = 455 }
+				quadTextureSprite ="GFX_big_button_220"	
 				buttonText = "FE_BACK"
 				buttonFont = "vic_22"
 				clicksound = menu_click
 			}
 			
 			guiButtonType = {
+				name = "learning_scenario_button"
+				position = { x = 166 y = 455 }
+				quadTextureSprite ="GFX_big_button_220"	
+				buttonText = "LEARNING_SCENARIO"
+				buttonFont = "vic_22"
+				clicksound = menu_click
+			}
+			
+			guiButtonType = {
 				name = "start_button"
-				position = { x = 351 y = 455 }
-				quadTextureSprite ="GFX_big_button_300"
+				position = { x = 488 y = 455 }
+				quadTextureSprite ="GFX_big_button_220"
 				buttonText = "FE_START_ALL_CHAPTERS"
 				buttonFont = "vic_22"
 				clicksound = play
@@ -533,7 +932,7 @@ guiTypes = {
 				{
 					name = "single_player_button"
 					position = { x = -347 y = -141 }
-					quadTextureSprite ="GFX_big_button_232"	
+					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_SINGLE_PLAYER"
 					buttonFont = "vic_22"
 					clicksound = menu_click
@@ -541,9 +940,19 @@ guiTypes = {
 				
 				guiButtonType = 
 				{
+					name = "load_game_button"
+					position = { x = -174 y = -141 }
+					quadTextureSprite ="GFX_big_button_176"	
+					buttonText = "FE_LOAD_GAME"
+					buttonFont = "vic_22"
+					clicksound = menu_click
+				}
+				
+				guiButtonType = 
+				{
 					name = "multi_player_button"
-					position = { x = -116 y = -141 }
-					quadTextureSprite ="GFX_big_button_232"	
+					position = { x = -1 y = -141 }
+					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_MULTI_PLAYER"
 					buttonFont = "vic_22"
 					clicksound = menu_click
@@ -552,8 +961,8 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "tutorial_button"
-					position = { x = 115 y = -141 }
-					quadTextureSprite ="GFX_big_button_232"	
+					position = { x = 172 y = -141 }
+					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_TUTORIAL"
 					buttonFont = "vic_22"
 					clicksound = menu_click
@@ -575,17 +984,6 @@ guiTypes = {
 					position = { x = -174 y = -89	 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_CREDITS"
-					buttonFont = "vic_22"
-					clicksound = menu_click
-				}
-				
-				### REMOVE
-				guiButtonType = 
-				{
-					name = "pdxconnect_button"
-					position = { x = -9174 y = -89 }
-					quadTextureSprite ="GFX_big_button_176"	
-					buttonText = "Paradox Connect"
 					buttonFont = "vic_22"
 					clicksound = menu_click
 				}
@@ -750,51 +1148,25 @@ guiTypes = {
 					format = centre
 				}
 				
-				guiButtonType = 
-				{
+				### REMOVE
+				guiButtonType = {
 					name = "newgame_tab"
-					position = { x = 19 y = 46 }
+					position = { x = 999919 y = 46 }
 					quadTextureSprite ="GFX_lobby_tab"	
 					clicksound = character_view_click
 				} 
+				###
 
-				guiButtonType = 
-				{
+				guiButtonType = {
 					name = "savedgame_tab"
-					position = { x = 130  y = 46 }
-					quadTextureSprite ="GFX_lobby_tab"	
+					position = { x = 48  y = 43 }
+					quadTextureSprite ="GFX_standard_button_164"
+					buttonFont = "vic_18"
+					buttonText = "FE_LOAD_GAME"
 					clicksound = character_view_click
 				}				
 
-				instantTextBoxType = 
-				{
-					name = "bookmarks_label"
-					position = { x = 22 y = 56 }
-					textureFile = ""
-					font = "vic_18"
-					borderSize = {x = 0 y = 0}
-					text = "FE_HISTORICAL_START"	
-					maxWidth = 105
-					maxHeight = 20	
-					Orientation = "UPPER_LEFT"
-					format = centre
-					fixedsize = yes
-				}
-
-				instantTextBoxType = 
-				{
-					name = "savedgames_label"
-					position = { x = 133 y = 56 }
-					textureFile = ""
-					font = "vic_18"
-					borderSize = {x = 0 y = 0}
-					text = "FE_SAVED_GAMES"	
-					maxWidth = 105
-					maxHeight = 20	
-					Orientation = "UPPER_LEFT"
-					format = centre
-					fixedsize = yes
-				}
+				
 				### save games
 				windowType = 
 				{
@@ -817,7 +1189,7 @@ guiTypes = {
 						textureFile = ""
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
-						text = "FE_SAVED_GAMES"	
+						text = "FE_LOAD_GAME"	
 						maxWidth = 212
 						maxHeight = 20	
 						format = centre
@@ -4571,6 +4943,14 @@ guiTypes = {
 					Orientation = "LOWER_LEFT"
 				}
 				
+				iconType = 
+				{
+					name ="CM_DLC"
+					spriteType = "GFX_dlc_icon_charlemagne"
+					position = { x= 268 y = -218 }
+					Orientation = "LOWER_LEFT"
+				}
+				
 				editBoxType = 
 				{
 					position = { x = 3 y = -38 }
@@ -4629,7 +5009,18 @@ guiTypes = {
 					clicksound = menu_click
 					pdx_tooltip = "RANDOM_CHARACTER"
 					pdx_tooltip_delayed = "RANDOM_CHARACTER_DESC"
-				}					
+				}
+
+				guiButtonType = 
+				{
+					name = "observe_button"
+					position = { x = -236 y = -210 }
+					quadTextureSprite ="GFX_big_button_220"	
+					buttonText = "OBSERVE"
+					buttonFont = "vic_22"
+					Orientation = "LOWER_RIGHT"
+					clicksound = menu_click
+				}				
 				
 				guiButtonType = 
 				{
@@ -5077,7 +5468,7 @@ guiTypes = {
 			font = "vic_18_black"
 			borderSize = {x = 1 y = 1}
 			text = ""	
-			maxWidth = 180
+			maxWidth = 260
 			maxHeight = 18	
 			fixedsize = yes
 		
@@ -5124,7 +5515,7 @@ guiTypes = {
 			font = "vic_18_black"
 			borderSize = {x = 1 y = 1}
 			text = ""	
-			maxWidth = 160
+			maxWidth = 240
 			maxHeight = 18	
 			fixedsize = yes
 		
@@ -5138,7 +5529,7 @@ guiTypes = {
 			font = "vic_18_black"
 			borderSize = {x = 1 y = 1}
 			text = ""	
-			maxWidth = 180
+			maxWidth = 240
 			maxHeight = 18	
 			fixedsize = yes
 		
@@ -5148,19 +5539,19 @@ guiTypes = {
 		iconType = {
 			name = "cloud_file"
 			spriteType = "GFX_cloud_file"
-			position = { x = 168 y = 21 }
+			position = { x = 248 y = 21 }
 		}
 		
 		iconType = {
 			name = "ironman_icon"
 			spriteType = "GFX_ironman_icon"
-			position = { x = 193 y = 16 }
+			position = { x = 273 y = 16 }
 		}
 		
 		guiButtonType = 
 		{
 			name ="delete"
-			position = { x = 216 y = 7 }
+			position = { x = 296 y = 7 }
 			quadTextureSprite = "GFX_main_close_button_float"
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "DELETE"
@@ -5687,11 +6078,12 @@ guiTypes = {
 
 	}
 	
+	### Ironman / Saveselect window
 	windowType = {
 		name = "IronmanSaveSelectDialog"
 		backGround=""
-		position = { x=-210 y =-250 }	
-		size = { x=420 y =500}
+		position = { x=-225 y =-250 }	
+		size = { x=440 y =500}
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -5701,30 +6093,27 @@ guiTypes = {
 		fullscreen=no
 		Orientation = "CENTER"
 
-		iconType =
-		{
+		iconType = {
 			name ="menu"
-			spriteType = "GFX_menu"
-			position = { x= 89 y = 11 }
+			spriteType = "GFX_file_selection_bg"
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		
-		guiButtonType = 
-		{
+		guiButtonType = {
 			name = "back"
-			position = { x = 330 y = 100 }
+			position = { x = 387 y = 24 }
 			quadTextureSprite ="GFX_main_back_button"	
 		}
-		
-		guiButtonType = 
-		{
+
+		guiButtonType = {
 			name = "local_tab"
-			position = { x = 189 y = 57 }
+			position = { x = 49 y = -26 }
 			quadTextureSprite ="GFX_settings_tab_new"
-		} 
+		}
 
 		instantTextBoxType={
-			position = {x = 188 y = 67 }
+			position = {x = 48 y = -16 }
 			name = "local_tab_label"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 64
@@ -5735,15 +6124,14 @@ guiTypes = {
 			fixedsize = yes
 		}
 		
-		guiButtonType = 
-		{
+		guiButtonType = {
 			name = "remote_tab"
-			position = { x = 258  y = 57 }
+			position = { x = 118  y = -26 }
 			quadTextureSprite ="GFX_settings_tab_new"
-		}			
+		}		
 		
 		instantTextBoxType={
-			position = {x = 257 y = 67 }
+			position = {x = 117 y = -16 }
 			name = "remote_tab_label"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 64
@@ -5754,34 +6142,32 @@ guiTypes = {
 			fixedsize = yes
 		}
 		
-		instantTextBoxType = 
-		{
+		instantTextBoxType = {
 			name = "saves_dirs"
-			position = { x = 169 y = 104 }
+			position = { x = 70 y = 25 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 4}
 			text = ""	
-			maxWidth = 160
+			maxWidth = 300
 			maxHeight = 16	
 			format = left
 			fixedsize = yes
 		}
 		
-		listboxType = 
-		{
+		listboxType = {
 			name ="games"
-			position = { x=115 y =126}
+			position = { x=52 y =52}
 			backGround=""
-			size = { x=255 y =210}
+			size = { x=340 y =294}
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
 			Orientation = "UPPER_LEFT"
 		}
 		
-		instantTextBoxType={
-			position = {x = 154 y = 343 }
+		instantTextBoxType= {
+			position = {x = 126 y = 353 }
 			name = "filename_label"
 			font = "vic_18"
 			borderSize = {x = 8 y = 0}
@@ -5793,7 +6179,7 @@ guiTypes = {
 		}
 		
 		editBoxType = {
-			position = { x = 155 y = 355 }
+			position = { x = 127 y = 365 }
 			name = "game_name"
 			textureFile = "gfx/interface/small_tiles_dialog.dds"
 			font = "vic_18"
@@ -5806,14 +6192,14 @@ guiTypes = {
 			
 		guiButtonType = {
 			name = "cancel"
-			position = { x = 146 y = 428 }
+			position = { x = 95 y = 442 }
 			quadTextureSprite ="GFX_standard_button_112"	
 			buttonText = "SM_BACK"
 			buttonFont = "vic_18"
 		}
 		guiButtonType = {
 			name = "start"
-			position = { x = 256 y = 428 }
+			position = { x = 249 y = 442 }
 			quadTextureSprite ="GFX_standard_button_112"	
 			buttonText = "IRONMAN_START"
 			buttonFont = "vic_18"
@@ -6071,6 +6457,83 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "FE_CANCEL"
 			buttonFont = "vic_18"
+		}
+	}
+	
+	windowType = {
+		name = "welcome_screen"
+		backGround=""
+		position = { x=-364 y=-330 }	
+		size = { x=728 y=612 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+		
+		iconType = {
+			name = "welcome_screen_bg"
+			spriteType = "GFX_welcome_screen_bg"
+			position = { x = 0 y = 0 }
+		}
+		
+		instantTextBoxType = {
+			name = "header"
+			position = { x = 201 y = 62 }
+			font = "vic_36"
+			text = "WELCOME_HEADER"	
+			maxWidth = 600
+			maxHeight = 30
+		}
+		
+		instantTextBoxType = {
+			name = "text"
+			position = { x = 105 y = 300 }
+			font = "vic_22"
+			text = "WELCOME_TEXT"
+			maxWidth = 528
+			maxHeight = 150
+		}
+		
+		instantTextBoxType = {
+			name = "first_play_recommend"
+			position = { x = 105 y = 390 }
+			font = "vic_22"
+			text = "WELCOME_FIRST_PLAY_RECOMMEND"
+			maxWidth = 528
+			maxHeight = 100
+		}
+		
+		guiButtonType = {
+			name = "learning_scenario_button"
+			position = { x=245 y=500}
+			quadTextureSprite ="GFX_big_button_220"
+			buttonText = "WELCOME_PLAY_LEARNING_SCENARIO"
+			buttonFont = "vic_22"
+		}
+
+		guiButtonType = {
+			name = "normal_game_button"
+			position = { x=470 y=500}
+			quadTextureSprite ="GFX_big_button_220"
+			buttonText = "WELCOME_PLAY_NORMAL_GAME"
+			buttonFont = "vic_22"
+		}
+
+		guiButtonType = {
+			name = "dont_show_again_button"
+			position = { x=50 y=519}
+			quadTextureSprite ="GFX_checkbox_default"
+		}
+		
+		instantTextBoxType = {
+			name = "dont_show_again_text"
+			position = { x = 78 y = 524 }
+			font = "vic_18"
+			text = "DONT_SHOW_AGAIN"
+			maxWidth = 480
+			maxHeight = 20
 		}
 	}
 }

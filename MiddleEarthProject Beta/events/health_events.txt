@@ -510,6 +510,8 @@ character_event = {
 		NOT = { trait = elf }
 		NOT = { religion_group = religion_group_eruhini }
 		NOT = { religion_group = religion_group_wilderness }
+		NOT = { religion_group = religion_group_orkish }
+		NOT = { religion_group = religion_group_olog }
 		NOT = { religion_group = religion_group_melkor }
 	}
 	}
@@ -648,6 +650,8 @@ character_event = {
 		NOT = { trait = elf }
 		NOT = { religion_group = religion_group_eruhini }
 		NOT = { religion_group = religion_group_wilderness }
+		NOT = { religion_group = religion_group_orkish }
+		NOT = { religion_group = religion_group_olog }
 		NOT = { religion_group = religion_group_melkor }
 	}
 	
