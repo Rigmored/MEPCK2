@@ -21,9 +21,11 @@ mild_winter = {
 	# Lakes
 	750 751
 	# Dale
-	540 541 543 546
+	540 541 543 546 549 
 	#Rhunwaith
 	810
+	# Forochol Bay Sea
+        735 
 	
 	659 685 363 359 360 361 365 358 357 405 242 419 420 684 683 548 356 326
 }
@@ -31,7 +33,7 @@ normal_winter = {
     # Gundabad
 	629 634 655 798 799 800
 	# Forochol Bay Sea
-	733 734 735 736 737 738
+	736 737 738
 	# Forochel
 	667 668 669
 	# Forodwaith
