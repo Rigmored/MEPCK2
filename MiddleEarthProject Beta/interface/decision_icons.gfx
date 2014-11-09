@@ -686,5 +686,13 @@ spriteTypes = {
 		name = "GFX_build_erebor"
 		texturefile = "gfx\\interface\\decision_icon_colonisation_wilderness.dds"
 	}
+	spriteType = {
+		name = "GFX_gondor_archives"
+		texturefile = "gfx\\interface\\decision_icon_gondor_archives.dds"
+	}
+	spriteType = {
+		name = "GFX_council_gondor"
+		texturefile = "gfx\\interface\\decision_icon_gondor_council.dds"
+	}
 }
 
