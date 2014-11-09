@@ -234,7 +234,7 @@ province;red;green;blue;x;x
 233;238;133;98;Mountains of Shadow;x
 234;92;17;116;Imladris;x
 235;140;161;65;Lorien;x
-236;207;111;231;Lhûn;x
+236;207;111;231;LhÃ»n;x
 237;47;104;169;Southern Range;x
 238;0;41;87;Central Range;x
 239;137;169;205;Northern Ranges;x
@@ -429,14 +429,14 @@ province;red;green;blue;x;x
 428;36;56;178;West Osgiliath;x
 429;62;205;139;Edhellond;x
 430;197;41;67;Umbar;x
-431;195;114;128;Marös;x
-432;137;2;23;Caldûn;x
+431;195;114;128;MarÃ¶s;x
+432;137;2;23;CaldÃ»n;x
 433;221;101;121;Pellardur;x
-434;157;2;27;Barazôn;x
+434;157;2;27;BarazÃ´n;x
 435;133;81;90;Isigir;x
-436;53;2;11;Erädas;x
-437;197;32;60;Númerös;x
-438;95;33;43;Ardûmir;x
+436;53;2;11;ErÃ¤das;x
+437;197;32;60;NÃºmerÃ¶s;x
+438;95;33;43;ArdÃ»mir;x
 439;173;84;98;Eithel Angir;x
 440;222;135;104;Urlutsu Nurn;x
 441;203;54;2;Nurumurl;x
@@ -448,7 +448,7 @@ province;red;green;blue;x;x
 447;66;85;34;Kyzilkum;x
 448;127;155;80;Upper Khand;x
 449;120;164;43;Ammu Khand;x
-450;149;206;85;Nûrad;x
+450;149;206;85;NÃ»rad;x
 451;55;84;5;Laorki;x
 452;153;166;130;Sturlurtsa Khand;x
 453;126;192;11;Kruk Mahur;x
@@ -466,8 +466,8 @@ province;red;green;blue;x;x
 465;72;55;49;Mountains of Kajbah;x
 466;109;89;82;Wastes of Kajbah;x
 467;200;191;94;Kadar Argon;x
-468;173;163;52;West Amrûn;x
-469;123;116;34;East Amrûn;x
+468;173;163;52;West AmrÃ»n;x
+469;123;116;34;East AmrÃ»n;x
 470;46;34;30;Korb Taskral;x
 471;76;21;1;Korondaj;x
 472;92;87;23;Korb Haruzan;x
@@ -476,12 +476,12 @@ province;red;green;blue;x;x
 475;211;211;211;Feah;x
 476;66;14;23;Sook Oda;x
 477;94;29;40;Kas Shafra;x
-478;206;49;75;Sûkh Akhôr;x
+478;206;49;75;SÃ»kh AkhÃ´r;x
 479;138;81;91;Kiba;x
 480;59;27;32;An Tarim;x
 481;35;10;14;An Pharaz;x
 482;52;32;36;Bur Baklin;x
-483;157;38;56;An Abâr;x
+483;157;38;56;An AbÃ¢r;x
 484;130;52;66;An Zalim;x
 485;83;36;44;An Karagmir;x
 486;157;126;126;Krub Mabur;x
@@ -501,8 +501,8 @@ province;red;green;blue;x;x
 500;114;110;11;Kruk Datmen;x
 501;146;90;45;Brafenas;x
 502;14;7;15;Zhaneen;x
-503;30;1;34;Sakûn;x
-504;64;5;73;Bur Lurmsakûn;x
+503;30;1;34;SakÃ»n;x
+504;64;5;73;Bur LurmsakÃ»n;x
 505;146;90;45;Hills of Sand;x
 506;73;35;5;Gritland;x
 507;34;15;1;Dusthills;x
@@ -515,27 +515,27 @@ province;red;green;blue;x;x
 514;151;3;105;Anrkaz;x
 515;58;38;52;Tereze;x
 516;146;142;45;Torask;x
-517;142;65;65;Urezayân;x
-518;126;17;35;Zimrenzîl;x
+517;142;65;65;UrezayÃ¢n;x
+518;126;17;35;ZimrenzÃ®l;x
 519;167;62;62;Urud-an-Kibil;x
-520;138;31;31;Nilulondë;x
-521;160;43;43;Telarûd;x
-522;160;76;43;Zadan-an-Adûn;x
-523;114;5;5;Kadar-an-Balkuzôr;x
-524;154;71;84;Abârrûkh;x
-525;109;41;52;Anballukhôr;x
+520;138;31;31;NilulondÃ«;x
+521;160;43;43;TelarÃ»d;x
+522;160;76;43;Zadan-an-AdÃ»n;x
+523;114;5;5;Kadar-an-BalkuzÃ´r;x
+524;154;71;84;AbÃ¢rrÃ»kh;x
+525;109;41;52;AnballukhÃ´r;x
 526;95;71;75;Nykkea;x
-527;162;95;106;Sarnak Hôr;x
+527;162;95;106;Sarnak HÃ´r;x
 528;148;80;91;Narik-Zadan;x
 529;203;123;136;Dusalan;x
-530;162;160;29;Belabâr;x
+530;162;160;29;BelabÃ¢r;x
 531;210;207;10;Sulaj-Dar;x
 532;153;52;63;Kor Mumak;x
-533;99;98;57;Khorsâj;x
+533;99;98;57;KhorsÃ¢j;x
 534;73;72;23;North Dune Sea;x
-535;136;135;60;Tûl Isra;x
+535;136;135;60;TÃ»l Isra;x
 536;204;202;101;Kes Arik;x
-537;114;112;7;Akhûl;x
+537;114;112;7;AkhÃ»l;x
 538;2;48;19;Forestweb;x
 539;136;119;100;Dale;x
 540;80;55;26;Esgaroth;x
@@ -550,7 +550,7 @@ province;red;green;blue;x;x
 549;28;44;36;Red Swamps;x
 550;111;166;138;Confluent;x
 551;94;41;22;Ronknurn;x
-552;121;70;52;Ronkgûl;x
+552;121;70;52;RonkgÃ»l;x
 553;59;36;28;Emyn Burzum;x
 554;227;215;211;Burzash;x
 555;184;61;17;Krimp-hai;x
@@ -570,8 +570,8 @@ province;red;green;blue;x;x
 569;142;121;147;Dor Rhovanion;x
 570;56;22;65;Goblintown;x
 571;131;97;140;Thror's Combe;x
-572;177;76;140;Azanulimbar-Dûm;x
-573;48;3;32;Duban-Nâla;x
+572;177;76;140;Azanulimbar-DÃ»m;x
+573;48;3;32;Duban-NÃ¢la;x
 574;156;76;177;Baraz-Duban;x
 575;18;94;27;Ilanin;x
 576;90;145;96;Szrel-Kain;x
@@ -589,7 +589,7 @@ province;red;green;blue;x;x
 588;122;153;145;Bagronk;x
 589;11;89;69;Dol Dagor;x
 590;75;78;22;Thrumav;x
-591;61;89;11;Dor Rhûnen;x
+591;61;89;11;Dor RhÃ»nen;x
 592;100;106;7;Buhr Rhovan;x
 593;138;143;58;Tirith Thoron;x
 594;173;182;26;Carn Rhoron;x
@@ -609,21 +609,21 @@ province;red;green;blue;x;x
 608;109;68;14;Agasha Dag;x
 609;190;113;13;Mispar;x
 610;191;149;94;Nuruvan;x
-611;217;217;217;Nûrad;x
+611;217;217;217;NÃ»rad;x
 612;112;44;6;Khundolan;x
-613;189;22;22;Rhûnavuld;x
-614;189;81;22;Kas Rhûn;x
+613;189;22;22;RhÃ»navuld;x
+614;189;81;22;Kas RhÃ»n;x
 615;69;30;27;Diluvuld;x
 616;135;14;14;Thoropar;x
 617;96;12;6;Ilapar;x
 618;102;102;102;Logathavuld;x
 619;10;9;10;Litash;x
 620;100;85;91;Panth Gurehil;x
-621;53;39;45;Shedûn;x
+621;53;39;45;ShedÃ»n;x
 622;81;55;65;Morkai;x
 623;126;108;115;Angsiril;x
-624;184;159;169;Carn Dûm;x
-625;52;39;44;Angsûl;x
+624;184;159;169;Carn DÃ»m;x
+625;52;39;44;AngsÃ»l;x
 626;144;46;84;Kuska;x
 627;71;32;47;Cangash;x
 628;58;27;39;Ravda;x
@@ -632,17 +632,17 @@ province;red;green;blue;x;x
 631;116;17;26;Maethad;x
 632;149;75;82;Imlad Balchorth;x
 633;105;89;95;Aughaire;x
-634;40;30;34;Nan Lòke;x
+634;40;30;34;Nan LÃ²ke;x
 635;91;32;11;Nan Morlith;x
-636;66;38;27;Bûth-Ovaisa;x
-637;203;114;82;Zarok-Iôrag;x
+636;66;38;27;BÃ»th-Ovaisa;x
+637;203;114;82;Zarok-IÃ´rag;x
 638;203;82;82;Orduga-Avaisa;x
-639;203;145;82;Lagari-Ôrath;x
-640;121;95;67;Nebûrkha;x
+639;203;145;82;Lagari-Ã”rath;x
+640;121;95;67;NebÃ»rkha;x
 641;30;19;141;Valley of the Fellbeasts;x
 642;26;50;84;Gundabad;x
-643;18;124;15;Ikhûrirkûl;x
-644;86;147;32;Zirakdûm;x
+643;18;124;15;IkhÃ»rirkÃ»l;x
+644;86;147;32;ZirakdÃ»m;x
 645;13;45;13;Ered Harmal;x
 646;66;106;65;Buhr Harmal;x
 647;76;132;106;Janprok;x
@@ -650,10 +650,10 @@ province;red;green;blue;x;x
 649;14;213;122;Siakab;x
 650;5;60;35;Sicanna;x
 651;16;104;64;Kas Ham;x
-652;75;85;57;Tûr Kirmar;x
-653;124;141;94;Rîntark;x
+652;75;85;57;TÃ»r Kirmar;x
+653;124;141;94;RÃ®ntark;x
 654;144;52;21;Barad-Dur;x
-655;119;129;142;Ugûlaî;x
+655;119;129;142;UgÃ»laÃ®;x
 656;8;48;56;Dol Amroth;x
 657;84;10;69;Mithlond;x
 658;74;27;64;Tuckborough;x
@@ -747,7 +747,7 @@ province;red;green;blue;x;x
 745;35;43;131;W.Belegaer3;x
 746;132;138;223;S.Belegaer5;x
 747;137;148;224;S.Belegaer6;x
-748;132;143;225;S.Beòegaer7;x
+748;132;143;225;S.BeÃ²egaer7;x
 749;115;129;221;S.Belegaer8;x
 750;113;147;166;Annuminas;x
 #Lakes and Inland Seas;x;x;x;x;x
@@ -815,4 +815,9 @@ province;red;green;blue;x;x
 804;223;80;80;Imlad Thoron (Vale of Eagles);x
 805;139;27;80;Mount Gram;x
 806;0;106;255;Gundalok;x
-807;12;255;0;Dunhîth;x
+807;12;255;0;DunhÃ®th;x
+#Divided Forodwaith
+808;162;156;95;Rhunwaith;x
+809;213;226;211;Upper Forodwaith;x
+810;103;95;29;Lower Rhunwaith;x
+
