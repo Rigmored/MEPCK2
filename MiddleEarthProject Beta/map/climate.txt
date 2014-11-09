@@ -21,7 +21,7 @@ mild_winter = {
 	# Lakes
 	750 751
 	# Dale
-	540 541 543 546 549 
+	540 541 543 546
 	#Rhunwaith
 	810
 	
