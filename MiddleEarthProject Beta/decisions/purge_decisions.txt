@@ -10,15 +10,15 @@ decisions = {
 			    OR = {
 				    culture_group = culture_group_melkor
                     religion_group = religion_group_melkor				
-				}	
-				NOT = { 
-					culture = culture_maiar
-					culture = culture_istari 
-					culture_group = culture_group_melkor
 				}
-				demesne_size = 1
-				NOT = { has_character_flag = purgingprovince }
 			}
+			NOT = { 
+				culture = culture_maiar
+				culture = culture_istari 
+				culture_group = culture_group_melkor
+			}
+			demesne_size = 1
+			NOT = { has_character_flag = purgingprovince }
 	    }
 		allow = {
 			war = no
@@ -28,8 +28,8 @@ decisions = {
 			job_marshal = {			
 				location = {				
 					OR = {
-				    culture_group = culture_group_melkor
-                    religion_group = religion_group_melkor 					
+						culture_group = culture_group_melkor
+						religion_group = religion_group_melkor 					
 					}
 				}
 				has_action = action_purge_province
