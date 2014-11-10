@@ -694,5 +694,13 @@ spriteTypes = {
 		name = "GFX_council_gondor"
 		texturefile = "gfx\\interface\\decision_icon_gondor_council.dds"
 	}
+	spriteType = {
+		name = "GFX_open_employment_decisions"
+		texturefile = "gfx\\interface\\decision_icon_open_employment_decisions.dds"
+	}
+	spriteType = {
+		name = "GFX_close_employment_decisions"
+		texturefile = "gfx\\interface\\decision_icon_close_employment_decisions.dds"
+	}
 }
 
