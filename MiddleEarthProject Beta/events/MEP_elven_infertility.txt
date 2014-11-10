@@ -43,6 +43,7 @@ character_event = {
 			culture_group = culture_group_eru
 		}
 		NOT = { trait = marriedforever }
+		NOT = { has_character_flag = marriedforeverelf }
 	}
 	
 	mean_time_to_happen = {
@@ -52,6 +53,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAelveninfertility.2" # Our souls are linked.
 		add_trait = marriedforever
+		set_character_flag = marriedforeverelf
 		any_spouse = {
 			add_lover = ROOT
 		}

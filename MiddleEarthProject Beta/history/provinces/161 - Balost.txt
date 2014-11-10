@@ -6,9 +6,9 @@ title = c_balost
 # Settlements
 max_settlements = 6
 
-b_balost = castle
-b_amrelor = city
-b_chalnen = city
+b_balost = tribal
+b_amrelor = tribal
+b_chalnen = tribal
 #b_sorhaur = city
 #b_minas_stalobir = city
 #b_derethin = castle

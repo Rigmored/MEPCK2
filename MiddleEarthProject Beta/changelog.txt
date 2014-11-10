@@ -48,7 +48,7 @@ CULTURES AND RACES :
 - Added Wights race
 
 DECISIONS :
-- Rebuild the Cities of Edhellond, Amon Sûl and Osgiliath
+- Rebuild the Cities of Edhellond, Amon SÃ»l and Osgiliath
 - If the Dwarves rule Erebor, Khazad-Dum and Gundabad, as King of Gundabad, call the Assembly of the Dwarves, and try to unificate all the Dwarves of Middle-Earth.
 - Use only one decision to open all the lists of holders of artefacts (rings/palantiri/weapons for now)
 
@@ -70,6 +70,8 @@ GFX :
 - Fixed bug where Hobbit's hat feather was overlapping portrait boundary
 - Removed crosses from CB icons and changed imperial reconquest cb from LoR laurel to Arnorian crown
 - New unique portraits for Sauron with the ring and the Mouth of Sauron
+- Fixed broken religion icons and ironman selection button
+- New decision icons for most decisions
 
 JOB ACTIONS :
 - As an Evil Character, send your emissary in a weaker realm, and threaten them to improve your own glory
@@ -84,7 +86,7 @@ LOCALISATIONS :
 - Fixed missing localisation for Anadune title
 
 MAP :
-- Revamped trees map: palms in Harad, pines in the North and some other trees here and there to fill the map
+- Revamped trees map: palms in Harad, pines in the North, cyprus in Harondor and some other trees here and there to fill the map
 - Now Lorien has a golden wood
 - New marsh textures for Dagorlad, Overbourn Marshes, Swanfleet and Gladden Fields
 - New terrains for Brownlands, Dale, Forodwaith and Angmar
@@ -96,6 +98,10 @@ MAP :
  . Riavod-Logath
  . Amon Hen-Amon Lhaw
  . Wold Undeeps
+- Mirkwood Forest Road provinces now more realisticly shaped
+- Mirkwood Forest Road now covered with trees
+- Climate snow map added, northern middle earth covered in Snow until North Shire-Rivendell-Thranduil's Halls-Esgaroth line
+- Forodwaith wasteland province divided into 4
 
 MINOR TITLES :
 - You can now grant only one minor title by character in Gondor.
@@ -128,7 +134,7 @@ TRAITS :
 TITLES :
 - Changed most of the centralisation_law for kingdoms and empires titles
 - Moved Redhorn Pass to Moria duchy
-- The title of Anadûnë is now a de jure one, but needs some conditions to be created
+- The title of AnadÃ»nÃ« is now a de jure one, but needs some conditions to be created
 - the Witch King holds now more titles in the Fall of Arnor/Kin Strife bookmarks
 - Added Ringbearer titular duchy held by current ringbearer
 - The Tribes of Harad are now independant
@@ -235,14 +241,14 @@ TITLES :
 - Changed the succession law of several kingdoms to elective, for Gundabad, Jangovars, Khundolars, Balchoths, Hillmen, ...
 - Added a new duchy in Bellakar
 - Added two new duchies in Gundabad (Nan Loke and Mount Gram)
-- Added one new duchy in Misty Mountains (Cîthoron)
+- Added one new duchy in Misty Mountains (CÃ®thoron)
 - Added the titular title "Lord of the Eagles"
 - Enedwaith and Druwaith iaur are now part of an "Isenvale" de jure empire, instead of Gondor.
 - The High King of the Noldor title is now a titular title, and could be created by A Noldorin King of Eregion and of one of the following title : Mithlond, Forlindon, Harlindon or Lorien.
 - The duchy of Isenmarch is now de jure part of the Kingdom of Enedwaith
 
 TRAITS :
-- Added different traits for each palantir: Osgiliath, Minas Anor, Minas Ithil, Orthanc, Elostirion, Amon Sûl, Annuminas
+- Added different traits for each palantir: Osgiliath, Minas Anor, Minas Ithil, Orthanc, Elostirion, Amon SÃ»l, Annuminas
 - Nazgul trait now gives health buff to stop natural causes deaths
 - Added the Dwarven Rings
 - Added the Ring of Saruman, and the "Lesser Ring" trait
@@ -331,11 +337,11 @@ CASUS BELLI :
 
 CHARACTERS :
 - More civil and warrior traits for the characters of the Fall of Arnor scenario
-- Added three new Nazguls : Ren, Uvatha and Abrazîr
+- Added three new Nazguls : Ren, Uvatha and AbrazÃ®r
 - Added Blood of Numenor for Umbarian characters
-- Khamûl now get the nickname "the Easterling"
+- KhamÃ»l now get the nickname "the Easterling"
 - Added five "historical" dragons : Glaurung the Father of Dragons, Ancalagon the Black, Smaug the Golden, Scatha the Worm and a fictive Helegraug the Terrible, killer of Dain I in the Grey Mountains.
-- Imrazôr now get the nickname "the Numenorean"
+- ImrazÃ´r now get the nickname "the Numenorean"
 
 COMPATIBILITY :
 - Made some compatibility changes because of the 2.1.4 patch of CKII
@@ -343,7 +349,7 @@ COMPATIBILITY :
 CULTURES/RELIGIONS/RACES
 - Started Religions/Cultures revamping. Now religions will be considered as Races
 - Most of the cultures will now have their dynasties named from the founder
-- Added Holy Sites for Dwarves : Gundabad, Khazad-Dûm and Erebor
+- Added Holy Sites for Dwarves : Gundabad, Khazad-DÃ»m and Erebor
 - Added 3 new Easterling cultures: Khundolars, Nuriags and Jangovars
 - Changed some names of cultures and races
 - Now also the Huorns have the Onodrim malus in reinforcements
@@ -356,8 +362,8 @@ CULTURES/RELIGIONS/RACES
 
 DECISIONS :
 - Dwarves, Elves and Numenorean Rulers can now abdicate, under some conditions
-- The Members of the House of Durin can now try to reclaim Khazad-Dûm if the mines are ruled by another culture
-- If the Members of the House of Durin have reconquered/ruled Khazad-Dûm, they can reclaim Gundabad
+- The Members of the House of Durin can now try to reclaim Khazad-DÃ»m if the mines are ruled by another culture
+- If the Members of the House of Durin have reconquered/ruled Khazad-DÃ»m, they can reclaim Gundabad
 - The Rulers of Gondor can reclaim Osgiliath if the city is occupied by another culture
 - The Colonisation of Wilderness is now triggered on the location of your Steward
 - Removed the ability to create the "Reunited Kingdom" empire title
@@ -440,8 +446,8 @@ TITLES :
 - Rosghobel is now vassal of Anduin Vale to avoid odd wars between Beornings and the Istari
 
 TRAITS :
-- Added the trait "In the East" for the characters who're in mission in the east of the sea and Rhûn (like the Blue Wizards, Saruman, or Khamûl if Sauron command him)
-- Added the racial traits "Urulókë"(Fire-Drakes)/"Ringlókë"(Cold-Drakes)/"Penrámalókë"(Long-Worms), Removed the trait "Dragon" for the dragons.
+- Added the trait "In the East" for the characters who're in mission in the east of the sea and RhÃ»n (like the Blue Wizards, Saruman, or KhamÃ»l if Sauron command him)
+- Added the racial traits "UrulÃ³kÃ«"(Fire-Drakes)/"RinglÃ³kÃ«"(Cold-Drakes)/"PenrÃ¡malÃ³kÃ«"(Long-Worms), Removed the trait "Dragon" for the dragons.
 - Added the "Heir of Durin" trait, passed at death to the heir of the holder
 
 
@@ -472,7 +478,7 @@ Unique Buildings :
 - Tomb of Balin - Chamber of Mazarbul barony in Moria
 - Tomb of Durin the Deathless - Tomb of Durin barony in Moria
 - Durin's Stone - Nandhuirion
-- Kheled-zâram - Nandhuirion
+- Kheled-zÃ¢ram - Nandhuirion
 - Oath of Eorl - Eilenaer barony in Amon Anwar
 - Tomb of Elendil - Eilenaer barony in Amon Anwar
 - The Great Hall of Osgiliath - Minas Numen barony in West Osgiliath
@@ -483,11 +489,11 @@ Unique Buildings :
 - Fornost Erain - Fornost county
 - The Bridge of Tharbad - Tharbad county
 - Amon Lanc - Dol Guldur building for Elves
-- Khamûl's Palace - Kas Rhûn 
+- KhamÃ»l's Palace - Kas RhÃ»n 
 - The Forbidden Pool - Henneth Annun
 - The Grey Havens - Mithlond
 - Watcher's Lake - Moria
-- Khazad-dûm - Moria for Dwarves
+- Khazad-dÃ»m - Moria for Dwarves
 - Moria - Moria for Orcs
 
 
@@ -495,11 +501,11 @@ Cultural Buildings :
 - Inns (lvl 1/2/3) for Hobbits and Breelander cities
 - Halls of Remembrance for elvish temples
 - Halls of Archives for numenorean temples
-- Númenoreans Tombs for numenorean temples
+- NÃºmenoreans Tombs for numenorean temples
 - Halls of the Ancestrors for dwarvish temples
 - Barrowfields for middlemen temples
 - Shrine of Melkor for melkor temples
-- Púkel-men for druedain castles
+- PÃºkel-men for druedain castles
 - Telain for elvish cities and castles (only in Lorien)
 - Mumakil's Enclosure for Haradrim castles (if the character have one of the four mumakils traits)
 - Warning Beacon for Gondorian-Dunedain-Arnorian castles
@@ -547,7 +553,7 @@ Ruins Buildings (needs a decision and some events to be able to build something 
 - The Fall of Cardolan events chain. Play with the King of Cardolan, the King of Arthedain, the Witch-King or Elrond for more fun in this event chain!
 - The Kin-Strife events chain. Play with Eldacar or Castamir, and try to win the Crown of Gondor !
 - The Steward of Gondor can now claim the title of King of Gondor if the last heir of Isildur is dead, and if he's got the required lands. (Legacy of Rome DLC required)
-- The Kings of Bellakar and Mirkwood can claims new titles, if they rules the required lands : The High Kingship of Anadûnê and the High Kingship of the Silvan Elves (Legacy of Rome DLC required)
+- The Kings of Bellakar and Mirkwood can claims new titles, if they rules the required lands : The High Kingship of AnadÃ»nÃª and the High Kingship of the Silvan Elves (Legacy of Rome DLC required)
 - Added a little chain of events related to the "Sacrifice of Flame" decision
 - If Sauron is defeated, Mirkwood will be renamed "Eryn Lasgalen", and Celeborn will rule the Kingdom of "East Lorien".
 - Added several vanilla events
@@ -636,7 +642,7 @@ Ruins Buildings (needs a decision and some events to be able to build something 
 - Added holders in Druwaith Nimrais and Umb Daier
 - Added a new duchy in Vales of Anduin (Beorncrofts)
 - Added duchy of Weather Hills
-- Added the Lordship of Andunië
+- Added the Lordship of AnduniÃ«
 - Added the East Lorien titular kingdom
 - Added the "Shadows of Mirkwood" titular kingdom in Southern Mirkwood
 - Given Henneth Annun to Gondor
@@ -883,7 +889,7 @@ BUGS :
 - Fixed the bug with the Maia of Tulkas in the Sauron's court
 - Now the event "The character sailed to West" fires immediatly, it was one day to happens before.
 - The titles of Valinor can be only created or usurped by Valar now.
-- All the characters with the "Sailed to Valinor" trait are now in the court of Manwë at beginning.
+- All the characters with the "Sailed to Valinor" trait are now in the court of ManwÃ« at beginning.
 - Added the missing gfx for some traits
 - Fixed some little bugs with cultural names.
 - Changed the maximum age in the Ruler Designer to 500 years old.
