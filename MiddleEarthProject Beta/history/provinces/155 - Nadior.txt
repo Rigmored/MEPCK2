@@ -6,9 +6,9 @@ title = c_nadior
 # Settlements
 max_settlements = 5
 
-b_lond_daer = castle
-b_nadior = city
-b_amonor = city
+b_lond_daer = tribal
+b_nadior = tribal
+b_amonor = tribal
 #b_ithidior = castle
 #b_tederis = city
 
