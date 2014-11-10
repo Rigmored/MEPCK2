@@ -19,7 +19,7 @@ PROV17;Minas Arnach;Minas Arnach;;;Minas Arnach;x
 PROV18;Pelargir;Pelargir;;;Pelargir;x
 PROV19;Imduin;Imduin;;;Imduin;x
 PROV20;Caragost;Caragost;;;Caragost;x
-PROV21;Enedhîr;Enedhîr;;;Enedhîr;x
+PROV21;EnedhÃ®r;EnedhÃ®r;;;EnedhÃ®r;x
 PROV22;Brethil;Brethil;;;Brethil;x
 PROV23;Calimir;Calimir;;;Calimir;x
 PROV24;Balimur;Balimur;;;Balimur;x
@@ -32,7 +32,7 @@ PROV30;Bar Tumladen;Bar Tumladen;;;Bar Tumladen;x
 PROV31;Bar Lymen;Bar Tumladen;;;Bar Lymen;x
 PROV32;Bar Gilraen;Bar Lymen;;;Bar Gilraen;x
 PROV33;Lanrain;Bar Gilraen;;;Lanrain;x
-PROV34;Naur Amrûn;Naur Amrûn;;;Naur Amrûn;x
+PROV34;Naur AmrÃ»n;Naur AmrÃ»n;;;Naur AmrÃ»n;x
 PROV35;Anghabar;Anghabar;;;Anghabar;x
 PROV36;Eregost;Eregost;;;Eregost;x
 PROV37;Methrast;Methrast;;;Methrast;x
@@ -49,7 +49,7 @@ PROV47;Drinbar;Drinbar;;;Drinbar;x
 PROV48;Finnarphen;Finnarphen;;;Finnarphen;x
 PROV49;Asgaril;Asgaril;;;Asgaril;x
 PROV50;Coruvegil;Coruvegil;;;Coruvegil;x
-PROV51;Henneth Annûn;Henneth Annûn;;;Henneth Annûn;x
+PROV51;Henneth AnnÃ»n;Henneth AnnÃ»n;;;Henneth AnnÃ»n;x
 PROV52;Wilwarin;Wilwarin;;;Wilwarin;x
 PROV53;Curedain;Curedain;;;Curedain;x
 PROV54;Othnir;Othnir;;;Othnir;x
@@ -70,10 +70,10 @@ PROV68;Astirian;Astirian;;;Astirian;x
 PROV69;Harnastin;Harnastin;;;Harnastin;x
 PROV70;Araglas;Araglas;;;Araglas;x
 PROV71;Fangorn;Fangorn;;;Fangorn;x
-PROV72;Udûn ;Udûn ;;;Udûn ;x
+PROV72;UdÃ»n ;UdÃ»n ;;;UdÃ»n ;x
 PROV73;Overbourn Marshes;Marches d'Overbourn;;;Transpaludi;x
 PROV74;The Marish;La Maresque;;;La Palude;x
-PROV75;Frogmorton;La Grenouillère;;;Chianarana;x
+PROV75;Frogmorton;La GrenouillÃ¨re;;;Chianarana;x
 PROV76;Bridge Fields;Champs du Pont;;;Campoponte;x
 PROV77;Hills of Scary;Collines de Scary;;;Colli di Scary;x
 PROV78;Oatbarton;Oatbarton;;;Fondoquercia;x
@@ -87,7 +87,7 @@ PROV85;Bywater;Lezeau;;;Lungacque;x
 PROV86;Waymeet;Carrefour;;;Quadrivio;x
 PROV87;Little Delving;Courtecave;;;Piccola Forata;x
 PROV88;Gamwich;Gamwich;;;Gamwich;x
-PROV89;Overhill;Par-delà la Colline;;;Surcolle;x
+PROV89;Overhill;Par-delÃ  la Colline;;;Surcolle;x
 PROV90;Greenfields;Champs-Verts;;;Terreverdi;x
 PROV91;Needlehole;Trou-de-l'Aiguille;;;Forodago;x
 PROV92;Longcleeve;Longcleeve;;;Lungoscavo;x
@@ -95,19 +95,19 @@ PROV93;Whitwell;Bonblanc;;;Bianchi Poggi;x
 PROV94;Green Hill Country;Pays de la Colline Verte;;;Paese delle Verdi Colline;x
 PROV95;Michel Delving;Grand'Cave;;;Pietraforata;x
 PROV96;Men Erain;Men Erain;;;Men Erain;x
-PROV97;Bucklebury;Château-Brande;;;Buckburgo;x
+PROV97;Bucklebury;ChÃ¢teau-Brande;;;Buckburgo;x
 PROV98;Eryn Vorn;Eryn Vorn;;;Eryn Vorn;x
 PROV99;Cithrenor;Cithrenor;;;Cithrenor;x
 PROV100;Angoth;Angoth;;;Angoth;x
 PROV101;Annithir;Annithir;;;Annithir;x
 PROV102;Minas Girithlin;Minas Girithlin;;;Minas Girithlin;x
-PROV103;Girithdôr;Girithdôr;;;Girithdôr;x
-PROV104;Old Forest;La Vieille Forêt;;;Vecchia Foresta;x
+PROV103;GirithdÃ´r;GirithdÃ´r;;;GirithdÃ´r;x
+PROV104;Old Forest;La Vieille ForÃªt;;;Vecchia Foresta;x
 PROV105;Tyrn Gorthad;Tyrn Gorthad;;;Tyrn Gorthad;x
 PROV106;Ost Gorthad;Ost Gorthad;;;Ost Gorthad;x
 PROV107;Harloeg;Harloeg;;;Harloeg;x
 PROV108;Bondor;Bondor;;;Bondor;x
-PROV109;Ered Angûrath;Ered Angûrath;;;Ered Angûrath;x
+PROV109;Ered AngÃ»rath;Ered AngÃ»rath;;;Ered AngÃ»rath;x
 PROV110;Fenmarch;Fenmarch;;;Fenmarch;x
 PROV111;The Folde;Le Folde;;;Falda;x
 PROV112;Snowbourn;Snowbourn;;;Acquaneve;x
@@ -128,8 +128,8 @@ PROV126;Aegardh;Aegardh;;;Aegardh;x
 PROV127;Galadrin;Galadrin;;;Galadrin;x
 PROV128;Aegthelion;Aegthelion;;;Aegthelion;x
 PROV129;Barad Harn;Barad Harn;;;Barad Harn;x
-PROV130;Emyn Annûn;Emyn Annûn;;;Emyn Annûn;x
-PROV131;Gobel Mírlond;Gobel Mírlond;;;Gobel Mírlond;x
+PROV130;Emyn AnnÃ»n;Emyn AnnÃ»n;;;Emyn AnnÃ»n;x
+PROV131;Gobel MÃ­rlond;Gobel MÃ­rlond;;;Gobel MÃ­rlond;x
 PROV132;Has Sabiya;Has Sabiya;;;Has Sabiya;x
 PROV133;Caradhram;Caradhram;;;Caradhram;x
 PROV134;Emyn Laer;Emyn Laer;;;Emyn Laer;x
@@ -142,19 +142,19 @@ PROV140;Faday;Faday;;;Faday;x
 PROV141;Romenor;Romenor;;;Romenor;x
 PROV142;Carnen;Carnen;;;Carnen;x
 PROV143;Tirith Argon;Tirith Argon;;;Tirith Argon;x
-PROV144;Abârloni;Abârloni;;;Abârloni;x
-PROV145;Suk Abârrim;Suk Abârrim;;;Suk Abârrim;x
+PROV144;AbÃ¢rloni;AbÃ¢rloni;;;AbÃ¢rloni;x
+PROV145;Suk AbÃ¢rrim;Suk AbÃ¢rrim;;;Suk AbÃ¢rrim;x
 PROV146;Gobel Ancalimon;Gobel Ancalimon;;;Gobel Ancalimon;x
 PROV147;Morgal;Morgal;;;Morgal;x
 PROV148;Orodruin;Orodruin;;;Orodruin;x
 PROV149;Cirith Ungol;Cirith Ungol;;;Cirith Ungol;x
 PROV150;Carach Angren;Carach Angren;;;Carach Angren;x
 PROV151;Ered Lithui;Ered Lithui;;;Ered Lithui;x
-PROV152;Minas Dûrlith;Minas Dûrlith;;;Minas Dûrlith;x
+PROV152;Minas DÃ»rlith;Minas DÃ»rlith;;;Minas DÃ»rlith;x
 PROV153;East Lithad;Lithad Oriental;;;Est Lithad;x
 PROV154;Linnuis;Linnuis;;;Linnuis;x
 PROV155;Lond Daer;Lond Daer;;;Lond Daer;x
-PROV156;Sudúri;Sudúri;;;Sudúri;x
+PROV156;SudÃºri;SudÃºri;;;SudÃºri;x
 PROV157;Minas Emrys;Minas Emrys;;;Minas Emrys;x
 PROV158;Talsir;Talsir;;;Talsir;x
 PROV159;Bregnas;Bregnas;;;Bregnas;x
@@ -177,7 +177,7 @@ PROV175;Denerond;Denerond;;;Denerond;x
 PROV176;Filimir;Filimir;;;Filimir;x
 PROV177;Gleinfaerdor;Gleinfaerdor;;;Gleinfaerdor;x
 PROV178;Bar Morthil;Bar Morthil;;;Bar Morthil;x
-PROV179;Parth-i-Certémar;Parth-i-Certémar;;;Parth-i-Certémar;x
+PROV179;Parth-i-CertÃ©mar;Parth-i-CertÃ©mar;;;Parth-i-CertÃ©mar;x
 PROV180;Tharagrondost;Tharagrondost;;;Tharagrondost;x
 PROV181;Parth Iaur;Parth Iaur;;;Parth Iaur;x
 PROV182;Perth Maiwin;Perth Maiwin;;;Perth Maiwin;x
@@ -192,9 +192,9 @@ PROV190;Fangmaer;Fangmaer;;;Fangmaer;x
 PROV191;Dunlostir;Dunlostir;;;Dunlostir;x
 PROV192;Broadacres;Broadacres;;;Grandacro;x
 PROV193;Kingstead;Kingstead;;;Seggio dei Re;x
-PROV194;Entwash Vale;Vallée de l'Entalluve;;;Valle dell'Entalluvio;x
+PROV194;Entwash Vale;VallÃ©e de l'Entalluve;;;Valle dell'Entalluvio;x
 PROV195;Annulond;Annulond;;;Annulond;x
-PROV196;Lómost;Lómost;;;Lómost;x
+PROV196;LÃ³most;LÃ³most;;;LÃ³most;x
 PROV197;Lond Galen;Lond Galen;;;Lond Galen;x
 PROV198;Rondalph;Rondalph;;;Rondalph;x
 PROV199;Lond Anfalas;Lond Anfalas;;;Lond Anfalas;x
@@ -220,21 +220,21 @@ PROV218;Cemenduril;Cemenduril;;;Cemenduril;x
 PROV219;Lancrath;Lancrath;;;Lancrath;x
 PROV220;Calembel;Calembel;;;Calembel;x
 PROV221;Ethring;Ethring;;;Ethring;x
-PROV222;Dínadab;Dínadab;;;Dínadab;x
+PROV222;DÃ­nadab;DÃ­nadab;;;DÃ­nadab;x
 PROV223;Bar Elir;Bar Elir;;;Bar Elir;x
 PROV224;Lothgobel;Lothgobel;;;Lothgobel;x
 PROV225;Isengard;Isengard;;;Isengard;x
 PROV226;Isendale;Isendale;;;Isenvalle;x
 PROV227;Derwath;Derwath;;;Derwath;x
-PROV228;Drúwaith Nimrais;Drúwaith Nimrais;;;Drúwaith Nimrais;x
+PROV228;DrÃºwaith Nimrais;DrÃºwaith Nimrais;;;DrÃºwaith Nimrais;x
 PROV229;Imlothim;Imlothim;;;Imlothim;x
 PROV230;Isenangle;Isenangle;;;Isenspigolo;x
-PROV231;Drúwaith Laden;Drúwaith Laden;;;Drúwaith Laden;x
+PROV231;DrÃºwaith Laden;DrÃºwaith Laden;;;DrÃºwaith Laden;x
 PROV232;Dunlogan;Dunlogan;;;Dunlogan;x
-PROV233;Perth Ülmyn;Perth Ülmyn;;;Perth Ülmyn;x
+PROV233;Perth Ãœlmyn;Perth Ãœlmyn;;;Perth Ãœlmyn;x
 PROV234;Rivendell;Fondcombe;;;Gran Burrone;x
 PROV235;Caras Galadhon;Caras Galadhon;;;Caras Galadhon;x
-PROV236;Lhûn;Lhûn;;;Lhûn;x
+PROV236;LhÃ»n;LhÃ»n;;;LhÃ»n;x
 PROV237;Falathlorn;Falathlorn;;;Falathlorn;x
 PROV238;Low Lands;Basses-Terres;;;Terre Basse;x
 PROV239;Thorin's Gate;Porte de Thorin;;;Porte di Thorin;x
@@ -275,7 +275,7 @@ PROV273;Sutcrofts;Sutcrofts;;;Sudpoderi;x
 PROV274;Norcrofts;Norcrofts;;;Nordpoderi;x
 PROV275;East Wall;Mur-de-l'Est;;;Rupe dell'Est;x
 PROV276;Walstow;Walstow;;;Walstow;x
-PROV277;Ethir Onodló;Ethir Onodló;;;Ethir Onodló;x
+PROV277;Ethir OnodlÃ³;Ethir OnodlÃ³;;;Ethir OnodlÃ³;x
 PROV278;Harwick;Harwick;;;Harwick;x
 PROV279;Longhold;Longhold;;;Fortelungo;x
 PROV280;Sarn Gebir;Sarn Gebir;;;Sarn Gebir;x
@@ -286,10 +286,10 @@ PROV284;Nan Celebrant;Nan Celebrant;;;Nan Celebrant;x
 PROV285;Moria;Moria;;;Moria;x
 PROV286;Echad Bruinen;Echad Bruinen;;;Echad Bruinen;x
 PROV287;Echad Mirabel;Echad Mirabel;;;Echad Mirabel;x
-PROV288;Tîr Sirannon;Tîr Sirannon;;;Tîr Sirannon;x
-PROV289;Fennas Drùnnin;Fennas Drùnnin;;;Fennas Drùnnin;x
+PROV288;TÃ®r Sirannon;TÃ®r Sirannon;;;TÃ®r Sirannon;x
+PROV289;Fennas DrÃ¹nnin;Fennas DrÃ¹nnin;;;Fennas DrÃ¹nnin;x
 PROV290;Ost-in-Edhil;Ost-in-Edhil;;;Ost-in-Edhil;x
-PROV291;Swanfleet;Nîn-in-Eilph;;;Agilcigno;x
+PROV291;Swanfleet;NÃ®n-in-Eilph;;;Agilcigno;x
 PROV292;Erebor;Erebor;;;Erebor;x
 PROV293;Cillien;Cillien;;;Cillien;x
 PROV294;Nimrodel;Nimrodel;;;Nimrodel;x
@@ -309,29 +309,29 @@ PROV307;Mithereithel;Mithereithel;;;Mithereithel;x
 PROV308;Safin Rhaglaw;Safin Rhaglaw;;;Safin Rhaglaw;x
 PROV309;Taur Morvith;Taur Morvith;;;Taur Morvith;x
 PROV310;Amon Lanc;Amon Lanc;;;Amon Lanc;x
-PROV311;Emyn Lûm;Emyn Lûm;;;Emyn Lûm;x
-PROV312;Sâd Meryrn;Sâd Meryrn;;;Sâd Meryrn;x
+PROV311;Emyn LÃ»m;Emyn LÃ»m;;;Emyn LÃ»m;x
+PROV312;SÃ¢d Meryrn;SÃ¢d Meryrn;;;SÃ¢d Meryrn;x
 PROV313;Galdesgal;Galdesgal;;;Galdesgal;x
 PROV314;Imlad Aras;Imlad Aras;;;Imlad Aras;x
 PROV315;Narrows of the Forest;Le Goulet;;;Stretti della Foresta;x
 PROV316;Imlad Megli;Imlad Megli;;;Imlad Megli;x
-PROV317;Galadhmôr;Galadhmôr;;;Galadhmôr;x
-PROV318;Brôgorn;Brôgorn;;;Brôgorn;x
+PROV317;GaladhmÃ´r;GaladhmÃ´r;;;GaladhmÃ´r;x
+PROV318;BrÃ´gorn;BrÃ´gorn;;;BrÃ´gorn;x
 PROV319;Cell Angol;Cell Angol;;;Cell Angol;x
 PROV320;Eryn Aras;Eryn Aras;;;Eryn Aras;x
-PROV321;Western Forest Path;Route de la Forêt Occidentale;;;Via Silvana Ovest;x
-PROV322;Eastern Forest Path;Route de la Forêt Orientale;;;Via Silvana Est;x
+PROV321;Western Forest Path;Route de la ForÃªt Occidentale;;;Via Silvana Ovest;x
+PROV322;Eastern Forest Path;Route de la ForÃªt Orientale;;;Via Silvana Est;x
 PROV323;Halls of Thranduil;Salles de Thranduil;;;Sale di Thranduil;x
 PROV324;Emyn Duir;Emyn Duir;;;Emyn Duir;x
 PROV325;Rhosgobel;Rhosgobel ;;;Rhosgobel;x
 PROV326;Athrad Laegrim;Athrad Laegrim;;;Athrad Laegrim;x
-PROV327;Taeg Dîn;Taeg Dîn;;;Taeg Dîn;x
-PROV328;Celondîn;Celondîn;;;Celondîn;x
+PROV327;Taeg DÃ®n;Taeg DÃ®n;;;Taeg DÃ®n;x
+PROV328;CelondÃ®n;CelondÃ®n;;;CelondÃ®n;x
 PROV329;Amon Lhaw;Amon Lhaw;;;Amon Lhaw;x
 PROV330;Emyn Muil;Emyn Muil;;;Emyn Muil;x
-PROV331;East Bight;Lisière Orientale;;;Ansa Orientale;x
+PROV331;East Bight;LisiÃ¨re Orientale;;;Ansa Orientale;x
 PROV332;Kirithgal;Kirithgal;;;Kirithgal;x
-PROV333;Gap of Nurn;Cap de Nurn;;;Breccia di Núrn;x
+PROV333;Gap of Nurn;Cap de Nurn;;;Breccia di NÃºrn;x
 PROV334;Seregost;Seregost;;;Seregost;x
 PROV335;Harlond;Harlond;;;Harlond;x
 PROV336;Anhaman;Anhaman;;;Anhaman;x
@@ -342,24 +342,24 @@ PROV340;Ardquetto;Ardquetto;;;Ardquetto;x
 PROV341;Laerglinn;Laerglinn;;;Laerglinn;x
 PROV342;Uleineithel;Uleineithel;;;Uleineithel;x
 PROV343;Amon Ulein;Amon Ulein;;;Amon Ulein;x
-PROV344;Belesîr;Belesîr;;;Belesîr;x
+PROV344;BelesÃ®r;BelesÃ®r;;;BelesÃ®r;x
 PROV345;Bar Irlossiel;Bar Irlossiel;;;Bar Irlossiel;x
 PROV346;Lond Telerion;Lond Telerion;;;Lond Telerion;x
 PROV347;Belethyar;Belethyar;;;Belethyar;x
 PROV348;Lond Thalos;Lond Thalos;;;Lond Thalos;x
-PROV349;Tîr Lowen;Tîr Lowen;;;Tîr Lowen;x
+PROV349;TÃ®r Lowen;TÃ®r Lowen;;;TÃ®r Lowen;x
 PROV350;Forlond;Forlond;;;Forlond;x
 PROV351;Apariath;Apariath;;;Apariath;x
 PROV352;Estoriand;Estoriand;;;Estoriand;x
-PROV353;Olòrmindon;Olòrmindon;;;Olòrmindon;x
-PROV354;Manöriand;Manöriand;;;Manöriand;x
+PROV353;OlÃ²rmindon;OlÃ²rmindon;;;OlÃ²rmindon;x
+PROV354;ManÃ¶riand;ManÃ¶riand;;;ManÃ¶riand;x
 PROV355;Sandariand;Sandariand;;;Sandariand;x
 PROV356;Landolas;Landolas;;;Landolas;x
 PROV357;Celanoriand;Celanoriand;;;Celanoriand;x
 PROV358;Mindelhendr;Mindelhendr;;;Mindelhendr;x
 PROV359;Aranaforn;Aranaforn;;;Aranaforn;x
 PROV360;Anfangneder;Anfangneder;;;Anfangneder;x
-PROV361;Annùduin;Annùduin;;;Annùduin;x
+PROV361;AnnÃ¹duin;AnnÃ¹duin;;;AnnÃ¹duin;x
 PROV362;Amon Mithlond;Amon Mithlond;;;Amon Mithlond;x
 PROV363;Numeriador;Numeriador;;;Numeriador;x
 PROV364;Caras Celairnen;Caras Celairnen;;;Caras Celairnen;x
@@ -375,7 +375,7 @@ PROV373;Cameth Brin;Cameth Brin;;;Cameth Brin;x
 PROV374;Carras;Carras;;;Carras;x
 PROV375;Haradaelmoth;Haradaelmoth;;;Haradaelmoth;x
 PROV376;Gwathlim;Gwathlim;;;Gwathlim;x
-PROV377;Gwathlolîn;Gwathlolîn;;;Gwathlolîn;x
+PROV377;GwathlolÃ®n;GwathlolÃ®n;;;GwathlolÃ®n;x
 PROV378;Lond Angren;Lond Angren;;;Lond Angren;x
 PROV379;Gwathlethir;Gwathlethir;;;Gwathlethir;x
 PROV380;Bhainnan;Bhainnan;;;Bhainnan;x
@@ -395,10 +395,10 @@ PROV393;Larach;Larach;;;Larach;x
 PROV394;Duhnann;Duhnann;;;Duhnann;x
 PROV395;Dunsenem;Dunsenem;;;Dunsenem;x
 PROV396;Cairill;Cairill;;;Cairill;x
-PROV397;Enedhîn;Enedhîn;;;Enedhîn;x
+PROV397;EnedhÃ®n;EnedhÃ®n;;;EnedhÃ®n;x
 PROV398;Burh Anduin;Burh Anduin;;;Burh Anduin;x
 PROV399;Imlad Ninglor;Imlad Ninglor;;;Imlad Ninglor;x
-PROV400;Sîr Ninglor;Sîr Ninglor;;;Sîr Ninglor;x
+PROV400;SÃ®r Ninglor;SÃ®r Ninglor;;;SÃ®r Ninglor;x
 PROV401;Amon Ninglorin;Amon Ninglorin;;;Amon Ninglorin;x
 PROV402;Athrad Iaur;Athrad Iaur;;;Athrad Iaur;x
 PROV403;Methelburg;Methelburg;;;Methelburg;x
@@ -408,14 +408,14 @@ PROV406;Dor Firnen;Dor Firnen;;;Dor Firnen;x
 PROV407;Men Rimenn;Men Rimenn;;;Men Rimenn;x
 PROV408;Burh Baran;Burh Baran;;;Burh Baran;x
 PROV409;Talath Harroch;Talath Harroch;;;Talath Harroch;x
-PROV410;Haradnûr;Haradnûr;;;Haradnûr;x
+PROV410;HaradnÃ»r;HaradnÃ»r;;;HaradnÃ»r;x
 PROV411;Talu Baran;Talu Baran;;;Talu Baran;x
 PROV412;Rosghened;Rosghened;;;Rosghened;x
-PROV413;Amrûn Anduin;Amrûn Anduin;;;Amrûn Anduin;x
+PROV413;AmrÃ»n Anduin;AmrÃ»n Anduin;;;AmrÃ»n Anduin;x
 PROV414;Nan Anduin;Nan Anduin;;;Nan Anduin;x
 PROV415;Wuduburg;Wuduburg;;;Wuduburg;x
 PROV416;Mallendan;Mallendan;;;Mallendan;x
-PROV417;Forest Gate;Porte de la Forêt;;;Porta della Foresta;x
+PROV417;Forest Gate;Porte de la ForÃªt;;;Porta della Foresta;x
 PROV418;Mirkmaer;Mirkmaer;;;Mirkmaer;x
 PROV419;Imrad Laegrim;Imrad Laegrim;;;Imrad Laegrim;x
 PROV420;Peleth Tawar;Peleth Tawar;;;Peleth Tawar;x
@@ -423,20 +423,20 @@ PROV421;Isenflow;Isenflow;;;Isenflutti;x
 PROV422;Minas Tirith;Minas Tirith;;;Minas Tirith;x
 PROV423;Pinnath Luin;Pinnath Luin;;;Pinnath Luin;x
 PROV424;Gebin Luin;Gebin Luin;;;Gebin Luin;x
-PROV425;Inlilò;Inlilò;;;Inlilò;x
+PROV425;InlilÃ²;InlilÃ²;;;InlilÃ²;x
 PROV426;Minas Ithil;Minas Ithil;;;Minas Ithil;x
 PROV427;East Osgiliath;Est Osgiliath;;;Osgiliath Est;x
 PROV428;West Osgiliath;Ouest Osgiliath;;;Osgiliath Ovest;x
 PROV429;Edhellond;Edhellond;;;Edhellond;x
 PROV430;Umbar;Umbar;;;Umbar;x
-PROV431;Marös;Marös;;;Marös;x
-PROV432;Caldûr;Caldûr;;;Caldûr;x
+PROV431;MarÃ¶s;MarÃ¶s;;;MarÃ¶s;x
+PROV432;CaldÃ»r;CaldÃ»r;;;CaldÃ»r;x
 PROV433;Pellardur;Pellardur;;;Pellardur;x
-PROV434;Barazôn;Barazôn;;;Barazôn;x
+PROV434;BarazÃ´n;BarazÃ´n;;;BarazÃ´n;x
 PROV435;Isigir;Isigir;;;Isigir;x
-PROV436;Erädas;Erädas;;;Erädas;x
-PROV437;Númerös;Númerös;;;Númerös;x
-PROV438;Ardûmir;Ardûmir;;;Ardûmir;x
+PROV436;ErÃ¤das;ErÃ¤das;;;ErÃ¤das;x
+PROV437;NÃºmerÃ¶s;NÃºmerÃ¶s;;;NÃºmerÃ¶s;x
+PROV438;ArdÃ»mir;ArdÃ»mir;;;ArdÃ»mir;x
 PROV439;Eithel Angir;Eithel Angir;;;Eithel Angir;x
 PROV440;Urlutsu Nurn;Urlutsu Nurn;;;Urlutsu Nurn;x
 PROV441;Nurumurl;Nurumurl;;;Nurumurl;x
@@ -448,7 +448,7 @@ PROV446;Ubesesh;Ubesesh;;;Ubesesh;x
 PROV447;Kyzilkum;Kyzilkum;;;Kyzilkum;x
 PROV448;Havais;Havais;;;Havais;x
 PROV449;Ammu Khand;Ammu Khand;;;Ammu Khand;x
-PROV450;Ahrûl Admal;Ahrûl Admal;;;Ahrûl Admal;x
+PROV450;AhrÃ»l Admal;AhrÃ»l Admal;;;AhrÃ»l Admal;x
 PROV451;Laorki;Laorki;;;Laorki;x
 PROV452;Sturlurtsa Khand;Sturlurtsa Khand;;;Sturlurtsa Khand;x
 PROV453;Kruk Mahur;Kruk Mahur;;;Kruk Mahur;x
@@ -466,29 +466,29 @@ PROV464;Kas Ilaz;Kas Ilaz;;;Kas Ilaz;x
 PROV465;Emyn Kajbah;Emyn Kajbah;;;Emyn Kajbah;x
 PROV466;Wastes of Kajbah;Wastes of Kajbah;;;Piana del Kajbah;x
 PROV467;Kadar Argon;Kadar Argon;;;Kadar Argon;x
-PROV468;Dunamrûn;Dunamrûn;;;Dunamrûn;x
-PROV469;Rhûn Amrûn;Rhûn Amrûn;;;Rhûn Amrûn;x
+PROV468;DunamrÃ»n;DunamrÃ»n;;;DunamrÃ»n;x
+PROV469;RhÃ»n AmrÃ»n;RhÃ»n AmrÃ»n;;;RhÃ»n AmrÃ»n;x
 PROV470;Korb Taskral;Korb Taskral;;;Korb Taskral;x
 PROV471;Korondaj;Korondaj;;;Korondaj;x
 PROV472;Korb Haruzan;Korb Haruzan;;;Korb Haruzan;x
 PROV473;Thrijha Peh;Thrijha Peh;;;Thrijha Peh;x
-PROV474;Vale of Haruz;Vallée d'Haruz;;;Valle dell'Haruz;x
+PROV474;Vale of Haruz;VallÃ©e d'Haruz;;;Valle dell'Haruz;x
 PROV475;Feah;Feah;;;Feah;x
 PROV476;Sook Oda;Sook Oda;;;Sook Oda;x
 PROV477;Kas Shafra;Kas Shafra;;;Kas Shafra;x
-PROV478;Sûkh Akhôr;Sûkh Akhôr;;;Sûkh Akhôr;x
+PROV478;SÃ»kh AkhÃ´r;SÃ»kh AkhÃ´r;;;SÃ»kh AkhÃ´r;x
 PROV479;Kiba;Kiba;;;Kiba;x
 PROV480;An Tarim;An Tarim;;;An Tarim;x
 PROV481;An Pharaz;An Pharaz;;;An Pharaz;x
 PROV482;Bur Baklin;Bur Baklin;;;Bur Baklin;x
-PROV483;An Abâr;An Abâr;;;An Abâr;x
+PROV483;An AbÃ¢r;An AbÃ¢r;;;An AbÃ¢r;x
 PROV484;An Zalim;An Zalim;;;An Zalim;x
 PROV485;An Karagmir;An Karagmir;;;An Karagmir;x
 PROV486;Krub Mabur;Krub Mabur;;;Krub Mabur;x
 PROV487;Parzee;Parzee;;;Parzee;x
 PROV488;Bur Pezarsan;Bur Pezarsan;;;Bur Pezarsan;x
 PROV489;Talazhan;Talazhan;;;Talazhan;x
-PROV490;Vale of Pezar;Vallée de Pezar;;;Vale of Pezar;x
+PROV490;Vale of Pezar;VallÃ©e de Pezar;;;Vale of Pezar;x
 PROV491;Enmahadah;Enmahadah;;;Enmahadah;x
 PROV492;Korb Mikarin;Korb Mikarin;;;Korb Mikarin;x
 PROV493;Mikarin Peh;Mikarin Peh;;;Mikarin Peh;x
@@ -501,11 +501,11 @@ PROV499;Lurm;Lurm;;;Lurm;x
 PROV500;Kruk Datmen;Kruk Datmen;;;Kruk Datmen;x
 PROV501;Brafenas;Brafenas;;;Brafenas;x
 PROV502;Zhaneen;Zhaneen;;;Zhaneen;x
-PROV503;Sakûn;Sakûn;;;Sakûn;x
-PROV504;Bur Lurmsakûn;Bur Lurmsakûn;;;Bur Lurmsakûn;x
+PROV503;SakÃ»n;SakÃ»n;;;SakÃ»n;x
+PROV504;Bur LurmsakÃ»n;Bur LurmsakÃ»n;;;Bur LurmsakÃ»n;x
 PROV505;Hills of Sand;Monts de Sable;;;Colli Sabbiosi;x
-PROV506;Gritland;Terre-de-Poussière;;;Terre Polverose;x
-PROV507;Dusthills;Monts-de-Poussière;;;Colli Polverosi;x
+PROV506;Gritland;Terre-de-PoussiÃ¨re;;;Terre Polverose;x
+PROV507;Dusthills;Monts-de-PoussiÃ¨re;;;Colli Polverosi;x
 PROV508;Dying Pass;Passe-de-Mort;;;Passo della Morte;x
 PROV509;Layotam;Layotam;;;Layotam;x
 PROV510;Maresh;Maresh;;;Maresh;x
@@ -515,28 +515,28 @@ PROV513;Imak Peh;Imak Peh;;;Imak Peh;x
 PROV514;Anrkaz;Anrkaz;;;Anrkaz;x
 PROV515;Tereze;Tereze;;;Tereze;x
 PROV516;Torask;Torask;;;Torask;x
-PROV517;Ûrêzâyan;Ûrêzâyan;;;Ûrêzâyan;x
-PROV518;Zimrenzîl;Zimrenzîl;;;Zimrenzîl;x
+PROV517;Ã›rÃªzÃ¢yan;Ã›rÃªzÃ¢yan;;;Ã›rÃªzÃ¢yan;x
+PROV518;ZimrenzÃ®l;ZimrenzÃ®l;;;ZimrenzÃ®l;x
 PROV519;Urud-an-Kibil;Urud-an-Kibil;;;Urud-an-Kibil;x
-PROV520;Nilulondë;Nilulondë;;;Nilulondë;x
-PROV521;Telarûd;Telarûd;;;Telarûd;x
-PROV522;Zadan-an-Adûn;Zadan-an-Adûn;;;Zadan-an-Adûn;x
-PROV523;Kadar-an-Balkuzôr;Kadar-an-Balkuzôr;;;Kadar-an-Balkuzôr;x
-PROV524;Abârrûkh;Abârrûkh;;;Abârrûkh;x
+PROV520;NilulondÃ«;NilulondÃ«;;;NilulondÃ«;x
+PROV521;TelarÃ»d;TelarÃ»d;;;TelarÃ»d;x
+PROV522;Zadan-an-AdÃ»n;Zadan-an-AdÃ»n;;;Zadan-an-AdÃ»n;x
+PROV523;Kadar-an-BalkuzÃ´r;Kadar-an-BalkuzÃ´r;;;Kadar-an-BalkuzÃ´r;x
+PROV524;AbÃ¢rrÃ»kh;AbÃ¢rrÃ»kh;;;AbÃ¢rrÃ»kh;x
 PROV525;Hazaj Tollin;Hazaj Tollin;;;Hazaj Tollin;x
 PROV526;Nykkea;Nykkea;;;Nykkea;x
-PROV527;Sarnak Hôr;Sarnak Hôr;;;Sarnak Hôr;x
+PROV527;Sarnak HÃ´r;Sarnak HÃ´r;;;Sarnak HÃ´r;x
 PROV528;Narik-Zadan;Narik-Zadan;;;Narik-Zadan;x
 PROV529;Dusalan;Dusalan;;;Dusalan;x
-PROV530;Belabâr;Belabâr;;;Belabâr;x
+PROV530;BelabÃ¢r;BelabÃ¢r;;;BelabÃ¢r;x
 PROV531;Sulaj-Dar;Sulaj-Dar;;;Sulaj-Dar;x
 PROV532;Kor Mumak;Kor Mumak;;;Kor Mumak;x
-PROV533;Khorsâj;Khorsâj;;;Khorsâj;x
+PROV533;KhorsÃ¢j;KhorsÃ¢j;;;KhorsÃ¢j;x
 PROV534;North Dune Sea;Mer de Sable Nord;;;Mare di Sabbia;x
-PROV535;Tûl Isra;Tûl Isra;;;Tûl Isra;x
+PROV535;TÃ»l Isra;TÃ»l Isra;;;TÃ»l Isra;x
 PROV536;Kes Arik;Kes Arik;;;Kes Arik;x
-PROV537;Akhûl;Akhûl;;;Akhûl;x
-PROV538;Forestweb;Réseaubois;;;Forestweb;x
+PROV537;AkhÃ»l;AkhÃ»l;;;AkhÃ»l;x
+PROV538;Forestweb;RÃ©seaubois;;;Forestweb;x
 PROV539;Dale;Dale;;;Dale;x
 PROV540;Esgaroth;Esgaroth;;;Pontelagolungo;x
 PROV541;Withibord;Withibord;;;Withibord;x
@@ -548,9 +548,9 @@ PROV546;Grasgard;Grasgard;;;Grasgard;x
 PROV547;Tunn Vidugavia;Tunn Vidugavia;;;Tunn Vidugavia;x
 PROV548;Orchal Carnen;Orchal Carnen;;;Orchal Carnen;x
 PROV549;Ningloruin;Ningloruin;;;Ningloruin;x
-PROV550;Govadnîn;Govadnîn;;;Govadnîn;x
+PROV550;GovadnÃ®n;GovadnÃ®n;;;GovadnÃ®n;x
 PROV551;Ronknurn;Ronknurn;;;Ronknurn;x
-PROV552;Ronkgûl;Ronkgûl;;;Ronkgûl;x
+PROV552;RonkgÃ»l;RonkgÃ»l;;;RonkgÃ»l;x
 PROV553;Emyn Burzum;Emyn Burzum;;;Emyn Burzum;x
 PROV554;Burzash;Burzash;;;Burzash;x
 PROV555;Krimp-hai;Krimp-hai;;;Krimp-hai;x
@@ -569,9 +569,9 @@ PROV567;Burh Sauthis;Burh Sauthis;;;Burh Sauthis;x
 PROV568;Rumavuld;Rumavuld;;;Rumavuld;x
 PROV569;Dor Rhovanion;Dor Rhovanion;;;Dor Rhovanion;x
 PROV570;Annerchin;Annerchin;;;Annerchin;x
-PROV571;Thrór's Coomb;Thrór's Coomb;;;Comba di Thrór;x
-PROV572;Azanulimbar-Dûm;Azanulimbar-Dûm;;;Azanulimbar-Dûm;x
-PROV573;Duban-Nâla;Duban-Nâla;;;Duban-Nâla;x
+PROV571;ThrÃ³r's Coomb;ThrÃ³r's Coomb;;;Comba di ThrÃ³r;x
+PROV572;Azanulimbar-DÃ»m;Azanulimbar-DÃ»m;;;Azanulimbar-DÃ»m;x
+PROV573;Duban-NÃ¢la;Duban-NÃ¢la;;;Duban-NÃ¢la;x
 PROV574;Baraz-Duban;Baraz-Duban;;;Baraz-Duban;x
 PROV575;Ilanin;Ilanin;;;Ilanin;x
 PROV576;Szrel-Kain;Szrel-Kain;;;Szrel-Kain;x
@@ -609,10 +609,10 @@ PROV607;Kelepar;Kelepar;;;Kelepar;x
 PROV608;Agasha Dag;Agasha Dag;;;Agasha Dag;x
 PROV609;Mispar;Mispar;;;Mispar;x
 PROV610;Nuruvan;Nuruvan;;;Nuruvan;x
-PROV611;Nûrad;Nûrad;;;Nûrad;x
+PROV611;NÃ»rad;NÃ»rad;;;NÃ»rad;x
 PROV612;Khundolan;Khundolan;;;Khundolan;x
-PROV613;Rhûnavuld;Rhûnavuld;;;Rhûnavuld;x
-PROV614;Kas Rhûn;Kas Rhûn;;;Kas Rhûn;x
+PROV613;RhÃ»navuld;RhÃ»navuld;;;RhÃ»navuld;x
+PROV614;Kas RhÃ»n;Kas RhÃ»n;;;Kas RhÃ»n;x
 PROV615;Diluvuld;Diluvuld;;;Diluvuld;x
 PROV616;Thoropar;Thoropar;;;Thoropar;x
 PROV617;Ilapar;Ilapar;;;Ilapar;x
@@ -622,27 +622,27 @@ PROV620;Panth Gurehil;Panth Gurehil;;;Panth Gurehil;x
 PROV621;Duvuinen;Duvuinen;;;Duvuinen;x
 PROV622;Gorothlad;Gorothlad;;;Gorothlad;x
 PROV623;Urugarth;Urugarth;;;Urugarth;x
-PROV624;Carn Dûm;Carn Dûm;;;Carn Dûm;x
-PROV625;Angsûl;Angsûl;;;Angsûl;x
+PROV624;Carn DÃ»m;Carn DÃ»m;;;Carn DÃ»m;x
+PROV625;AngsÃ»l;AngsÃ»l;;;AngsÃ»l;x
 PROV626;Imlad Balcorth;Imlad Balcorth;;;Imlad Balcorth;x
 PROV627;Cangash;Cangash;;;Cangash;x
 PROV628;Malenhad;Malenhad;;;Malenhad;x
 PROV629;Himbar;Himbar;;;Himbar;x
 PROV630;Fasach-falroid;Fasach-falroid;;;Fasach-falroid;x
 PROV631;Fasach-larran;Fasach-larran;;;Fasach-larran;x
-PROV632;Ram Dúath;Ram Dúath;;;Ram Dúath;x
+PROV632;Ram DÃºath;Ram DÃºath;;;Ram DÃºath;x
 PROV633;Aughaire;Aughaire;;;Aughaire;x
-PROV634;Nan Lòke;Nan Lòke;;;Nan Lòke;x
+PROV634;Nan LÃ²ke;Nan LÃ²ke;;;Nan LÃ²ke;x
 PROV635;Nan Morlith;Nan Morlith;;;Nan Morlith;x
-PROV636;Bûth-Ovaisa;Bûth-Ovaisa;;;Bûth-Ovaisa;x
-PROV637;Zarok-Iôrag;Zarok-Iôrag;;;Zarok-Iôrag;x
+PROV636;BÃ»th-Ovaisa;BÃ»th-Ovaisa;;;BÃ»th-Ovaisa;x
+PROV637;Zarok-IÃ´rag;Zarok-IÃ´rag;;;Zarok-IÃ´rag;x
 PROV638;Orduga-Avaisa;Orduga-Avaisa;;;Orduga-Avaisa;x
-PROV639;Lagari-Ôrath;Lagari-Ôrath;;;Lagari-Ôrath;x
-PROV640;Nebûrkha;Nebûrkha;;;Nebûrkha;x
-PROV641;Valley of the Fellbeasts;Vallée des Bêtes Redoutables;;;Valle delle Fere Alate;x
+PROV639;Lagari-Ã”rath;Lagari-Ã”rath;;;Lagari-Ã”rath;x
+PROV640;NebÃ»rkha;NebÃ»rkha;;;NebÃ»rkha;x
+PROV641;Valley of the Fellbeasts;VallÃ©e des BÃªtes Redoutables;;;Valle delle Fere Alate;x
 PROV642;Gundabad;Gundabad;;;Gundabad;x
-PROV643;Ikhûrirkûl;Ikhûrirkûl;;;Ikhûrirkûl;x
-PROV644;Zirakdûm;Zirakdûm;;;Zirakdûm;x
+PROV643;IkhÃ»rirkÃ»l;IkhÃ»rirkÃ»l;;;IkhÃ»rirkÃ»l;x
+PROV644;ZirakdÃ»m;ZirakdÃ»m;;;ZirakdÃ»m;x
 PROV645;Harmaghdad;Harmaghdad;;;Harmaghdad;x
 PROV646;Burh Harmal;Burh Harmal;;;Burh Harmal;x
 PROV647;Janprok;Janprok;;;Janprok;x
@@ -650,14 +650,14 @@ PROV648;Kopanzke;Kopanzke;;;Kopanzke;x
 PROV649;Siakab;Siakab;;;Siakab;x
 PROV650;Sicanna;Sicanna;;;Sicanna;x
 PROV651;Kas Ham;Kas Ham;;;Kas Ham;x
-PROV652;Tûr Kirmar;Tûr Kirmar;;;Tûr Kirmar;x
-PROV653;Rîntark;Rîntark;;;Rîntark;x
-PROV654;Barad-Dûr;Barad-Dûr;;;Barad-Dûr;x
-PROV655;Ugûlaî;Ugûlaî;;;Ugûlaî;x
+PROV652;TÃ»r Kirmar;TÃ»r Kirmar;;;TÃ»r Kirmar;x
+PROV653;RÃ®ntark;RÃ®ntark;;;RÃ®ntark;x
+PROV654;Barad-DÃ»r;Barad-DÃ»r;;;Barad-DÃ»r;x
+PROV655;UgÃ»laÃ®;UgÃ»laÃ®;;;UgÃ»laÃ®;x
 PROV656;Dol Amroth;Dol Amroth;;;Dol Amroth;x
 PROV657;Mithlond;Mithlond;;;Mithlond;x
 PROV658;Tuckland;Pays-de-Touque;;;Tuckland;x
-PROV659;Annúminas;Annúminas;;;Annúminas;x
+PROV659;AnnÃºminas;AnnÃºminas;;;AnnÃºminas;x
 PROV660;Ascahiriand;Ascahiriand;;;Ascahiriand;x
 PROV661;Mirilgasin;Mirilgasin;;;Mirilgasin;x
 PROV662;Durthang;Durthang;;;Durthang;x
@@ -665,11 +665,11 @@ PROV663;Cair Andros;Cair Andros;;;Cair Andros;x
 PROV664;Undertower;Sous-la-Tour;;;Undertower;x
 PROV665;Greenholm;Greenholm;;;Greenholm;x
 PROV666;Vale of Thrain;Val de Thrain;;;Valle di Thrain;x
-PROV667;Jä-rannit;Jä-rannit;;;Jä-rannit;x
+PROV667;JÃ¤-rannit;JÃ¤-rannit;;;JÃ¤-rannit;x
 PROV668;Taur Orthon;Taur Orthon;;;Taur Orthon;x
-PROV669;Talvi-mûri;Talvi-mûri;;;Talvi-mûri;x
+PROV669;Talvi-mÃ»ri;Talvi-mÃ»ri;;;Talvi-mÃ»ri;x
 PROV670;Aglarond;Aglarond;;;Aglarond;x
-PROV671;Drúadan Forest;Forêt des Druedain;;;Foresta Drúadan;x
+PROV671;DrÃºadan Forest;ForÃªt des Druedain;;;Foresta DrÃºadan;x
 PROV672;Tamnogoth;Tamnogoth;;;Tamnogoth;x
 PROV673;Zirakzinbar;Zirakzinbar;;;Zirakzinbar;x
 PROV674;Farakudum;Farakudum;;;Farakudum;x
@@ -677,25 +677,25 @@ PROV675;Lithimm;Lithimm;;;Lithimm;x
 PROV676;Caradhras Pass;Caradhras;;;Passo del Caradhras;x
 PROV677;Amon Hen;Amon Hen;;;Amon Hen;x
 PROV678;Uthrael Beoac;Uthrael Beoac;;;Uthrael Beoac;x
-PROV679;Dáin's Halls;Dáin's Halls;;;Sale di Dáin;x
-PROV680;Sarch nia Linquelíë;Sarch nia Linquelíë;;;Sarch nia Linquelíë;x
+PROV679;DÃ¡in's Halls;DÃ¡in's Halls;;;Sale di DÃ¡in;x
+PROV680;Sarch nia LinquelÃ­Ã«;Sarch nia LinquelÃ­Ã«;;;Sarch nia LinquelÃ­Ã«;x
 PROV681;Thakalgund;Thakalgund;;;Thakalgund;x
 PROV682;Himling;Himling;;;Himling;x
 PROV683;Forsteard;Forsteard;;;Forsteard;x
 PROV684;Adligwold;Adligwold;;;Adligwold;x
 PROV685;Barandalf;Barandalf;;;Barandalf;x
-PROV686;Woody End;Finboisé;;;Terminalbosco;x
+PROV686;Woody End;FinboisÃ©;;;Terminalbosco;x
 PROV687;Tower Hills;Collines de la Tour;;;Colli Torrioni;x
 PROV688;Carrock;Carrock;;;Carroccia;x
 PROV689;Beorn's Hall;Beornhall;;;Sale di Beorn;x
 PROV690;Athilin;Athilin;;;Athilin;x
 PROV691;Morannon;Morannon;;;Morannon;x
 PROV692;Nykkeaear;Nykkeaear;;;Nykkeaear;x
-PROV693;Anballukhôraear;Anballukhôraear;;;Anballukhôraear;x
+PROV693;AnballukhÃ´raear;AnballukhÃ´raear;;;AnballukhÃ´raear;x
 PROV694;Narikaear;Narikaear;;;Narikaear;x
 PROV695;Dusalanaear;Dusalanaear;;;Dusalanaear;x
 PROV696;Gulf of Umbar;Baie d'Umbar;;;Golfo di Umbar;x
-PROV697;Caldûraear;Caldûraear;;;Caldûraear;x
+PROV697;CaldÃ»raear;CaldÃ»raear;;;CaldÃ»raear;x
 PROV698;Sukhaear;Sukhaear;;;Sukhaear;x
 PROV699;Shafraear;Shafraear;;;Shafraear;x
 PROV700;Abarlonaear;Abarlonaear;;;Abarlonaear;x
@@ -703,7 +703,7 @@ PROV701;Gulf of Mirlond;Golfe de Mirlond;;;Golfo di Mirlond;x
 PROV702;Harnaear;Harnaear;;;Harnaear;x
 PROV703;Methilaear;Methilaear;;;Methilaear;x
 PROV704;Gulf of Canthiriath;Golfe de Canthiriath;;;Golfo di Canthiriath;x
-PROV705;Strait of Tolfalas;Détroit de Tolfalas;;;Stretto di Tolfalas;x
+PROV705;Strait of Tolfalas;DÃ©troit de Tolfalas;;;Stretto di Tolfalas;x
 PROV706;Cape of Tolfalas;Cap de Tolfalas;;;Capo Tolfalas;x
 PROV707;Nargondaear;Nargondaear;;;Nargondaear;x
 PROV708;Dol Amroth Bay;Baie de Dol Amroth;;;Baia di Dol Amroth;x
@@ -726,7 +726,7 @@ PROV724;Lildarhdanaear;Lildarhdanaear;;;Lildarhdanaear;x
 PROV725;Lairiardhonaear;Lairiardhonaear;;;Lairiardhonaear;x
 PROV726;Ethir Lindon;Ethir Lindon;;;Ethir Lindon;x
 PROV727;Harlondaear;Harlondaear;;;Harlondaear;x
-PROV728;Strait of Mithlond;Détroit de Mithlond;;;Stretto di Mithlond;x
+PROV728;Strait of Mithlond;DÃ©troit de Mithlond;;;Stretto di Mithlond;x
 PROV729;Apariathaear;Apariathaear;;;Apariathaear;x
 PROV730;Estoriandaear;Estoriandaear;;;Estoriandaear;x
 PROV731;Landolasaear;Landolasaear;;;Landolasaear;x
@@ -750,8 +750,8 @@ PROV748;Haradaear;Haradaear;;;Haradaear;x
 PROV749;Haradaear;Haradaear;;;Haradaear;x
 PROV750;Nenuial;Nenuial;;;Nenuial;x
 PROV751;Long Lake;Long-Lac;;;Lagolungo;x
-PROV752;Sea of Núrnen;Mer de Núrnen;;;Mare di Núrnen;x
-PROV753;Sea of Rhûn;Mer de Rhûn;;;Mare di Rhûn;x
+PROV752;Sea of NÃºrnen;Mer de NÃºrnen;;;Mare di NÃºrnen;x
+PROV753;Sea of RhÃ»n;Mer de RhÃ»n;;;Mare di RhÃ»n;x
 PROV754;Celon Talsir;Celon Talsir;;;Celon Talsir;x
 PROV755;Celon Argond;Celon Argond;;;Celon Argond;x
 PROV756;Entamundo;Entamundo;;;Entamundo;x
@@ -796,12 +796,15 @@ PROV795;Meneltafornear;Meneltafornear;;;Meneltafornear;x
 PROV796;Meneltarmear;Meneltarmear;;;Meneltarmear;x
 PROV797;Meneltarma;Meneltarma;;;Meneltarma;x
 PROV798;Forovirkain;Forovirkain;;;Forovirkain;x
-PROV799;Lókosin;Lókosin;;;Lókosin;x
+PROV799;LÃ³kosin;LÃ³kosin;;;LÃ³kosin;x
 PROV800;Helkasiril;Helkasiril;;;Helkasiril;x
 PROV801;Eithel Ninglor;Eithel Ninglor;;;Eithel Ninglor;x
 PROV802;Rasroval;Rasroval;;;Rasroval;x
 PROV803;Aeglir Tongondren;Aeglir Tongondren;;;Aeglir Tongondren;x
 PROV804;Imlad Thoron;Imlad Thoron;;;Imlad Thoron;x
 PROV805;Mount Gram;Mont Gram;;;Mount Gram;x
-PROV806;Gundalók;Gundalók;;;Gundalók;x
-PROV807;Dunhîth;Dunhîth;;;Dunhîth;x
+PROV806;GundalÃ³k;GundalÃ³k;;;GundalÃ³k;x
+PROV807;DunhÃ®th;DunhÃ®th;;;DunhÃ®th;x
+PROV808;RhÃ»nwaith;RhÃ»nwaith;;;RhÃ»nwaith;x
+PROV809;Upper Forodwaith;Upper Forodwaith;;;Upper Forodwaith;x
+PROV810;Upper RhÃ»nwaith;Upper RhÃ»nwaith;;;Upper RhÃ»nwaith;x
