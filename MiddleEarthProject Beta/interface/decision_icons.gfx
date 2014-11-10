@@ -702,5 +702,34 @@ spriteTypes = {
 		name = "GFX_close_employment_decisions"
 		texturefile = "gfx\\interface\\decision_icon_close_employment_decisions.dds"
 	}
+	spriteType = {
+		name = "GFX_visit_palantir_elostirion"
+		texturefile = "gfx\\interface\\decision_icon_visit_palantir_elostirion.dds"
+	}
+	spriteType = {
+		name = "GFX_feast_of_remembrance"
+		texturefile = "gfx\\interface\\decision_icon_feast_of_remembrance.dds"
+	}
+	spriteType = {
+		name = "GFX_feast_of_starlight"
+		texturefile = "gfx\\interface\\decision_icon_feast_of_starlight.dds"
+	}
+	spriteType = {
+		name = "GFX_great_feast_orc"
+		texturefile = "gfx\\interface\\decision_icon_great_feast_orc.dds"
+	}
+	spriteType = {
+		name = "GFX_abdicate_throne_numenorean"
+		texturefile = "gfx\\interface\\decision_icon_abdicate_throne_numenorean.dds"
+	}
+	spriteType = {
+		name = "GFX_abdicate_throne_elf"
+		texturefile = "gfx\\interface\\decision_icon_abdicate_throne_elf.dds"
+	}
+	spriteType = {
+		name = "GFX_abdicate_throne_dwarves"
+		texturefile = "gfx\\interface\\decision_icon_abdicate_throne_dwarves.dds"
+	}
+	
 }
 
