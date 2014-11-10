@@ -6,9 +6,9 @@ title = c_bregnas
 # Settlements
 max_settlements = 5
 
-b_bregnas = castle
-b_aldburh = city
-b_sorhaur = city
+b_bregnas = tribal
+b_aldburh = tribal
+b_sorhaur = tribal
 #b_codravnas = city
 #b_tostivil = city
 
