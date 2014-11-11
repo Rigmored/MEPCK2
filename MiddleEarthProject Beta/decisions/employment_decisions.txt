@@ -4,6 +4,10 @@ decisions = {
 		potential = {
 			ai = no
 			is_ruler = yes
+			OR = {
+				ai = yes
+				has_character_flag = employment_decisions_open
+			}
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -34,6 +38,10 @@ decisions = {
 		potential = {
 			ai = no
 			is_ruler = yes
+			OR = {
+				ai = yes
+				has_character_flag = employment_decisions_open
+			}
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -64,6 +72,10 @@ decisions = {
 		potential = {
 			ai = no
 			is_ruler = yes
+			OR = {
+				ai = yes
+				has_character_flag = employment_decisions_open
+			}
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -94,6 +106,10 @@ decisions = {
 		potential = {
 			ai = no
 			is_ruler = yes
+			OR = {
+				ai = yes
+				has_character_flag = employment_decisions_open
+			}
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -131,6 +147,10 @@ decisions = {
 			culture_group = culture_group_easterling
 			culture = culture_black_numenorean
             culture = culture_maiar
+			}
+			OR = {
+				ai = yes
+				has_character_flag = employment_decisions_open
 			}
 		}
 		allow = {
@@ -171,6 +191,10 @@ decisions = {
 			culture_group = culture_group_easterling
 			culture = culture_black_numenorean
 			}
+			OR = {
+				ai = yes
+				has_character_flag = employment_decisions_open
+			}
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -210,6 +234,10 @@ decisions = {
 			culture_group = culture_group_easterling
 			culture = culture_black_numenorean
             culture = culture_maiar
+			}
+			OR = {
+				ai = yes
+				has_character_flag = employment_decisions_open
 			}
 		}
 		allow = {

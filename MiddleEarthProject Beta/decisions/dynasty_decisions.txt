@@ -5,6 +5,7 @@ dynasty_decisions = {
 	legitimize_bastard = {
 		from_potential = {
 			is_playable = yes
+			has_character_flag = family_decisions_open
 		}
 		
 		potential = {
@@ -91,6 +92,7 @@ dynasty_decisions = {
 					trait = elusive_shadow
 				}
 			}
+			has_character_flag = family_decisions_open
 		}
 		
 		potential = {
@@ -276,6 +278,7 @@ dynasty_decisions = {
 		from_potential = {
 			is_ruler = yes
 			has_regent = no
+			has_character_flag = family_decisions_open
 		}
 		
 		potential = {

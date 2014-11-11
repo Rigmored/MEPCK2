@@ -41,9 +41,10 @@ decisions = {
 				has_landed_title = e_gondor
 				has_landed_title = e_steward_gondor
 			}
-		age = 1
-		religion = religion_dunedain
-		NOT = { has_character_flag = councilgondor }
+			has_character_flag = special_decisions_open
+			age = 1
+			religion = religion_dunedain
+			NOT = { has_character_flag = councilgondor }
 		}
 	
 		allow = {

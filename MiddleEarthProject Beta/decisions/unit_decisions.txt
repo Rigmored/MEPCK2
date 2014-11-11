@@ -6,6 +6,7 @@ decisions = {
 			NOT = {
 				has_earmarked_regiments = conscripted_merchant_ships
 			}
+			war = yes
 			has_overseas_holdings = yes
 		}
 		allow = {

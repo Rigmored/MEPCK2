@@ -1,20 +1,20 @@
-decisions = {
-	turn_off_calendar = {
-		potential = {
-			ai = no #ai cannot use dynasty decisions	
-			NOT = { has_global_flag = calendar_events_disabled }
-		}	
-		effect = {
-			set_global_flag = calendar_events_disabled
-		}
-	}
-	turn_on_calendar = {
-		potential = {
-			ai = no #ai cannot use dynasty decisions	
-			AND = { has_global_flag = calendar_events_disabled }
-		}	
-		effect = {
-			clr_global_flag = calendar_events_disabled
-		}
-	}
-}
+#decisions = {
+#	turn_off_calendar = {
+#		potential = {
+#			ai = no #ai cannot use dynasty decisions	
+#			NOT = { has_global_flag = calendar_events_disabled }
+#		}	
+#		effect = {
+#			set_global_flag = calendar_events_disabled
+#		}
+#	}
+#	turn_on_calendar = {
+#		potential = {
+#			ai = no #ai cannot use dynasty decisions	
+#			AND = { has_global_flag = calendar_events_disabled }
+#		}	
+#		effect = {
+#			clr_global_flag = calendar_events_disabled
+#		}
+#	}
+#}

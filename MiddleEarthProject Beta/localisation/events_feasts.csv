@@ -11,7 +11,7 @@ EVTTITorcfeast.2;Orc Feast;Banquet d'Orques;;;;;;;;;;;;x
 EVTDESCorcfeast.2;This vassal has refused to come to your feast, and sends you back the head of your messenger, horribly mutiliated.;Ce vassal a refusé de participer à votre banquet, et a renvoyé la tête de votre messager, horriblement mutilée.;;;;;;;;;;;;x
 EVTOPTAorcfeast.2;I won't forget this insult...;Je n'oublierais pas cette insulte.;;;;;;;;;;;;x
 EVTTITorcfeast.5;Orc Feast;Banquet d'Orques;;;;;;;;;;;;x
-EVTDESCorcfeast.5;The food is excellent, the flesh of your enemies roasted perfectly! Your liege has outdone himself this year, who will they serve next year? Humans? Dwarves?;La nourriture est excellente, la chair de vos ennemis a été rotie avec perfection! Votre Maître s'est surpassé cette année, mais que vont-ils servir l'an prochain? Hommes? Nains?;;;;;;;;;;;;x
+EVTDESCorcfeast.5;The food is excellent, the flesh of your enemies has roasted perfectly! Your liege has outdone himself this year, who will they serve next year? Humans? Dwarves?;La nourriture est excellente, la chair de vos ennemis a été rotie avec perfection! Votre Maître s'est surpassé cette année, mais que vont-ils servir l'an prochain? Hommes? Nains?;;;;;;;;;;;;x
 EVTOPTAorcfeast.5;I will praise the chief loudly!;Je vais féliciter le cuisinier!;;;;;;;;;;;;x
 EVTOPTBorcfeast.5;Wait - this piece is slightly overcooked! It's ruined!;Attendez… Ce morceau est trop cuit!;;;;;;;;;;;;x
 EVTTITorcfeast.8;Orc Feast;Banquet d'Orques;;;;;;;;;;;;x

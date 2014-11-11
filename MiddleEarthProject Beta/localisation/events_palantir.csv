@@ -19,10 +19,6 @@ EVTOPTA900000005;We must flee!;Je devrais m'enfuir…;;;x
 EVT900000006;Terrible Visions;Vous voyez l'Œil !;;;x
 EVTDESC900000006;Slowly, forms appear in the Stone, dancing and changing. Little by little, you see different parts of the world appear within the stone. Suddenly, everything disappears, and there is only a Great Eye, looking right at you!;Lentement, des formes apparaissents dans la pierre, et petit à petit, vous finissez par voir des parties proches et éloignées du monde. Soudain, tout s'arrête, et il ne reste plus qu'un Grand Œil, qui vous fixe …;;;x
 EVTOPTA900000006;No! I can't resist!;Non! Je ne peux pas résister !;;;x
-looking_at_palantír;Look into the Palantír;Regarder dans le Palantír;;;x
-looking_at_palantír_desc;Look into the Palantír, the Seeing Stone, and see your future, the world and the destiny that is waiting for you.;;;;x
-looking_at_palantír2;Look into the Palantír again;Besoin de regarder dans le Palantír…;;;x
-looking_at_palantír2_desc;Look into the Palantír again, but be careful...;;;;x
 EVT900000007;Using the Palantír?;Utiliser le Palantír?;;;x
 EVTDESC900000007;You have already looked into the Palantír once... and it was so fascinating! In your dreams, you are looking again, and again. You are becoming obsessed. Can you resist it's powers of temptation?;Vous avez déjà regardé dans le Palantír, et c'était … si fascinant… Dans vos rêves, vous vous voyez regarder encore et encore, découvrir le monde entier. C'est devenu une véritable obsession… Allez-vous y résister?;;;x
 EVTOPTA900000007;I want to see... I must see again!;Je veux regarder … encore!;;;x
@@ -37,24 +33,6 @@ EVT900000009;A Hidden Stone;Enfermer le Palantír ?;;;x
 EVTDESC900000009;You know that looking into the Palantír again is asking for madness. Will you make the right choice, and hide the Palantír somewhere, never to speak of or use it again?;Vous comprenez maintenant que regarde encore dans le Palantír vous rendra fou. Ferez-vous le bon choix, et enfermerez-vous cette Pierre dans un lieu où vous ne l'utiliserez plus?;;;x
 EVTOPTA900000009;Yes. It is time to free my mind.;Oui. Il est temps de libérer mon esprit.;;;x
 EVTOPTB900000009;It is my right to use it, no one can take it from me!;C'EST MON DROIT DE L'UTILISER !;;;x
-looking_at_Palantír3;Look into the Palantír again...;;;;x
-looking_at_Palantír3_desc;Look into the Palantír again, but be careful...;;;;x
-locked_the_Palantír;Hide the Palantír;Enfermer le Palantír;;;x
-locked_the_Palantír_desc;Hide the Palantír in a secret place and never, never, never, look at it again.;Vous devriez enfermer le Palantír dans un coffre et ne plus jamais le regarder.;;;x
-give_palantir_ithil_to_son;Give [Root.GetFirstName] the Ithil-Stone.;Donner la Pierre d'Ithil à [Root.GetFirstName]. ;;;x
-give_palantir_sul_to_son;Give [Root.GetFirstName] the Amon Sûl-Stone.;Donner la Pierre d'Amon Sûl à [Root.GetFirstName]. ;;;x
-give_palantir_elostirion_to_son;Give [Root.GetFirstName] the Elendil-Stone.;Donner la Pierre d'Elendill à [Root.GetFirstName]. ;;;x
-give_palantir_to_son;Give [Root.GetFirstName] the Anor-Stone.;Donner la Pierre d'Anor à [Root.GetFirstName]. ;;;x
-give_palantir_orthanc_to_son;Give [Root.GetFirstName] the Orthanc-Stone.;Donner la Pierre d'Orthanc à [Root.GetFirstName]. ;;;x
-give_palantir_osgiliath_to_son;Give [Root.GetFirstName] the Osgiliath-Stone.;Donner la Pierre d'Osgiliath à [Root.GetFirstName]. ;;;x
-give_palantir_annuminas_to_son;Give [Root.GetFirstName] the Annúminas-Stone.;Donner la Pierre d'Annúminas à [Root.GetFirstName]. ;;;x
-give_palantir_ithil_to_son_desc;Yield the Ithil-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre d'Ithil à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
-give_palantir_sul_to_son_desc;Yield the Amon Sûl-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre d'Amon Sûl à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
-give_palantir_elostirion_to_son_desc;Yield the Elendil-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre d'Elendil à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
-give_palantir_to_son_desc;Yield the Anor-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre d'Anor à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
-give_palantir_orthanc_to_son_desc;Yield the Orthanc-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre d'Orthanc à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
-give_palantir_osgiliath_to_son_desc;Yield the Osgiliath-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre dOsgiliath à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
-give_palantir_annuminas_to_son_desc;Yield the Annúminas-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre d'Annúminas à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
 EVTDESCpalantir0;You are the protector of the Tower of Amon Sûl, and as such, you need to guard the Stone of Amon Sûl, one of the seven palantíri brought to Middle-earth by Elendil and the survivors of Numenor.;Vous êtes le protecteur de la Tour d'Amon Sûl, et en tant que tel, vous devez garder la Pierre d'Amon Sûl, l'un des sept Palantiri amenés en Terre-du-Milieu par Elendil et les survivants de Numenor.;;;x
 EVTOPTApalantir0;My House will guard this Stone.;Ma Maison protégera cette Pierre.;;;x
 EVTDESCpalantir1;You are the protector of the Tower of Elostirion, and as such, you need to guard the Elendil-Stone, one of the seven palantíri brought to Middle-earth by Elendil and the survivors of Numenor.;Vous êtes le protecteur de la Tour d'Elostirion, et en tant que tel, vous devez garder la Pierre d'Elendil, l'un des sept Palantiri amenés en Terre-du-Milieu par Elendil et les survivants de Numenor.;;;x
@@ -217,8 +195,7 @@ EVTOPTApalantir.50;The Amon-Sûl-Stone is back in the tower.;La Pierre d'Amon-Sûl
 EVTTITpalantir.51;The Amon-Sûl-Stone;La Pierre d'Amon-Sûl;;;x
 EVTDESCpalantir51;The Guardian of the Amon-Sûl-Stone has denied your claim, arguing that he's the legitimate protector of the Palantir. The Stone doesn't return to Amon-Sûl, for now ...;Le Gardien de la Pierre a rejeté votre demande, arguant qu'il est le protecteur légitime du Palantir. La Pierre ne revient donc pas à Amon-Sûl, pour le moment...;;;x
 EVTOPTApalantir51;I'll remember this…;Je m'en souviendrais…;;;x
-visit_palantir_elostirion;Visit the Palantir of Elostirion;Se rendre auprès du Palantir d'Elostirion;;;x
-visit_palantir_elostirion_desc;Visit the Palantir of Elostirion;Se rendre auprès du Palantir d'Elostirion;;;x
+
 obj_claim_palantir_anor_title;Claim the Anor-Stone;Réclamer la Pierre d'Anor;;;x
 obj_claim_palantir_anor_desc;You're the true Lord of Minas Tirith, but you don't holds the Anor-Stone. You should try to recover the Palantir, for the glory of your house.;Vous êtes le Seigneur de Minas Tirith, mais vous ne détenez pas la Pierre d'Anor. Vous devriez essayer de récupérer le Palantir, pour la gloire de votre maison.;;;x
 obj_claim_palantir_sul_title;Claim the Amon Sûl-Stone;Réclamer la Pierre d'Amon Sûl;;;x
@@ -235,8 +212,6 @@ obj_claim_palantir_orthanc_title;Claim the Orthanc-Stone;Réclamer la Pierre d'Or
 obj_claim_palantir_orthanc_desc;You're the true Lord of Orthanc, but you don't holds the Orthanc-Stone. You should try to recover the Palantir, for the glory of your house.;Vous êtes le Seigneur d'Orthanc, mais vous ne détenez pas la Pierre d'Orthanc. Vous devriez essayer de récupérer le Palantir, pour la gloire de votre maison.;;;x
 EVTDESCpalantir.52;The Guardians of the Palantiri are …;Les Gardiens des Palantiri sont…;;;x
 EVTOPTApalantir.52;Ok.;Ok.;;;x
-list_palantir_desc;Find out who are the living Guardians of the Palantíri.;Permet de savoir qui sont les Gardiens vivants des Palantiri.;;;x
-list_palantir;Show the Guardians of the Palantiri;Montrez les Gardiens des Palantiri.;;;x
 CURRENTANOR;The Anor-Stone;La Pierre d'Anor;;;x
 CURRENTSUL;The Amon-Sûl-Stone;La Pierre d'Amon Sûl;;;x
 CURRENTITHIL;The Ithil-Stone;La Pierre d'Ithil;;;x
@@ -290,5 +265,4 @@ EVTOPTApalantir.63;It's so hard to use…;C'est si difficile à utiliser…;;;x
 EVTTITpalantir.64;Use of the Palantir;Utilisation du Palantir;;;x
 EVTDESCpalantir.64;You have difficulty controlling the Palantir, and you use many forces when you try to use it properly. You feel your body weaken, and nothing seems to appears correctly. You're not strongh enough, and your mind is weakened…;Vous avez du mal à maitriser le Palantir, et vous utilisez de nombreuses forces à tenter de l'utiliser correctement. Vous sentez votre corps s'affaiblir, et toujours aucune image n'apparait correctement. Vous n'êtes pas assez fort pour l'utiliser, et votre esprit s'affaiblit…;;;x
 EVTOPTApalantir.64;I'm so weak…;Je suis si faible…;;;x
-use_palantir_war;Use the Palantir;Utiliser le Palantir;;;x
-use_palantir_war_desc;You're the guardian of one of the Palantíri, one of the stones of Vision brought in Middle-Earth ??by Elendil of Numenor. You should use it in this time of war.;Vous êtes le Gardien de l'un des Palantiri, l'une des pierres de Vision apportées de Numenor par Elendil. Vous devriez l'utiliser en ces temps de Guerre.;;;x
+

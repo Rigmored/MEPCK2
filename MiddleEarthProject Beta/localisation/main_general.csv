@@ -206,32 +206,32 @@ succ_gavelkind_desc;The titles of the ruler are divided among his children, with
 TITLE_DESTROY_TOOLTIP_CAN_AFFORD;Can afford to lose §Y$PRESTIGE$§! Influence;Can afford to lose §Y$PRESTIGE$§! Influence;;;x
 REVOKE_HONORARY_TITLE_INTERACTION_LONG_DESC;You can revoke honorary titles that you have awarded to characters, depriving them of the Influence and income from those titles.;You can revoke honorary titles that you have awarded to characters, depriving them of the Influence and income from those titles.;;;x
 MIL_HOLY_ORDERS;Orders;Ordres;;;x
-LOADING_MAP_SPRITES;Sprites ; ;;;x
-LOADING_GUI_DEF; GUI; ;;;x
-LOADING_DATABASES; DATABASES; ;;;x
-INIT_MAP_LOGIC; MAP LOGIC; ;;;x
-CREATING_CHKSUM; CHECKSUM; ;;;x
-LOADING_HISTORY; HISTORY; ;;;x
-LOADING_SOUNDS; SOUND; ;;;x
-PROC_FLAGS; FLAGS; ;;;x
-LOAD_FLAGS;FLAGS2 ; ;;;x
-LOAD_GFX; GFX; ;;;x
-CREATING_THE_WORLD;WORLD ; ;;;x
-CREATING_TREES; TREES; ;;;x
-CREATING_BORDERS; BORDERS; ;;;x
-CREATING_RIVERS; RIVERS; ;;;x
-MAP_PROPERLY_INIT; MAP FINISHING; ;;;x
+LOADING_MAP_SPRITES; ; ;;;x
+LOADING_GUI_DEF; ; ;;;x
+LOADING_DATABASES; ; ;;;x
+INIT_MAP_LOGIC; ; ;;;x
+CREATING_CHKSUM; ; ;;;x
+LOADING_HISTORY; ; ;;;x
+LOADING_SOUNDS; ; ;;;x
+PROC_FLAGS; ; ;;;x
+LOAD_FLAGS; ; ;;;x
+LOAD_GFX; ; ;;;x
+CREATING_THE_WORLD; ; ;;;x
+CREATING_TREES; ; ;;;x
+CREATING_BORDERS; ; ;;;x
+CREATING_RIVERS; ; ;;;x
+MAP_PROPERLY_INIT; ; ;;;x
 #CREATING_PROVINCE;Creating Province #;Création des Provinces;;;x
-CREATING_TEXTS; TEXT ; ;;;x
-LOAD_EVENTS;EVENTS ; ;;;x
-ADAPTING_HISTORY; HISTORY ADAPT; ;;;x
+CREATING_TEXTS; ; ;;;x
+LOAD_EVENTS; ; ;;;x
+ADAPTING_HISTORY; ; ;;;x
 LOAD_CITY;CITIES ; ;;;x
 CALC_PATHS;PATHS ; ;;;x
-LOAD_GFX_PDXMAP_SHADERS;SHADERS;,;;;x
-LOAD_GFX_PDXMAP_TERRAIN;TERRAIN;,;;;x
-LOAD_GFX_PDXMAP_BORDERS;BORDERS;,;;;x
-LOAD_GFX_PDXMAP_TEXTURES;TEXTURES;,;;;x
-LOAD_GFX_PDXMAP_TREES;TRESES;,;;;x
-LOAD_GFX_PDXMAP_RIVERS;RIVERS;,;;;x
-LOAD_GFX_PDXMAP_STATIC_OBJECTS;STATIC OBJECTS;,;;;x
-LOAD_INIT;INITIALISING;,;;;x
+LOAD_GFX_PDXMAP_SHADERS; ; ;;;x
+LOAD_GFX_PDXMAP_TERRAIN; ; ;;;x
+LOAD_GFX_PDXMAP_BORDERS; ; ;;;x
+LOAD_GFX_PDXMAP_TEXTURES; ; ;;;x
+LOAD_GFX_PDXMAP_TREES; ; ;;;x
+LOAD_GFX_PDXMAP_RIVERS; ; ;;;x
+LOAD_GFX_PDXMAP_STATIC_OBJECTS; ; ;;;x
+LOAD_INIT; ; ;;;x

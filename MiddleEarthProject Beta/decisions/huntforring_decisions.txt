@@ -13,6 +13,7 @@ hunt_for_the_ring = {
 		NOT = { has_global_flag = saurondefeated }
 		NOT = { year = 11363 }
 		NOT = { has_character_flag = huntforring }
+		has_character_flag = special_decisions_open
 	}
 		
 	allow = {
