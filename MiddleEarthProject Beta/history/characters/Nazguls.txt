@@ -1,4 +1,4 @@
-## The Witch King ##
+### The Witch King ##
 12223 = {
 	name="Mornar"
 	dynasty=19017
@@ -23,9 +23,9 @@
 	}
 	
 	6722.1.1={
-		name="M鹯az魊"
+		name="M没raz么r"
 		add_trait = ring_murazor
-	} #Seduced by the Witch Maegn鷕wen at Sauron's behest
+	} #Seduced by the Witch Maegn煤rwen at Sauron's behest
 	
 	6742.1.1={
 		add_trait=nazgul
@@ -41,7 +41,7 @@
 	
 }
 
-## Kh鈓ul the Easterling ##
+## Kh芒mul the Easterling ##
 
 17123 = {
 	name="Horkhudagh"
@@ -64,7 +64,7 @@
 	}
 	
 	6722.1.1={
-		name="Kham鹟"
+		name="Kham没l"
 		effect = { set_character_flag = khamul }
 		add_trait = ring_khamul
 	}
@@ -84,7 +84,7 @@
 	
 }
 
-## Akh魊ahil ##
+## Akh么rahil ##
 12418 = {
 	name="Heruaryon"
 	dynasty=19017
@@ -106,7 +106,7 @@
 	}
 	
 	6722.1.1={
-		name="Akh魊ahil"
+		name="Akh么rahil"
 		effect = { set_character_flag = akhorahil }	
 		add_trait = ring_akhorahil
 	}
@@ -124,9 +124,9 @@
 	
 }
 
-## Ad鹡aphaz魊 ##
+## Ad没naphaz么r ##
 12281 = {
-	name="And鷑ar"
+	name="And煤nar"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"
@@ -146,7 +146,7 @@
 	}
 	
 	6722.1.1={
-		name="Ad鹡aphaz魊"
+		name="Ad没naphaz么r"
 		effect = { set_character_flag = adunaphazor }
 		add_trait = ring_adunaphazor
 	}
@@ -199,9 +199,9 @@
 	} #The One Ring is destroyed
 }
 
-## Ji-Undur the Far Haradrim ##
+## J铆 Ind没r the Far Haradrim ##
 6555 = {
-	name="Ji-Undur"
+	name="J铆 Ind没r"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"	
@@ -222,6 +222,7 @@
 	
 	6722.1.1={
 		add_trait = ring_jiundur
+		name="Ind没r"
 	}	
 	
 	6742.1.1={
@@ -269,9 +270,9 @@
 }
 
 
-## Uvatha the Northman ##
+## 脹vatha the Northman ##
 99902 = {
-	name="Uvatha"
+	name="脹vatha"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"	
@@ -302,9 +303,9 @@
 	} #The One Ring is destroyed
 }
 
-## Abraz顁 ##
+## Abraz卯r ##
 99903 = {
-	name="Abraz顁"
+	name="Abraz卯r"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"	
