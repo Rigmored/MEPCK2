@@ -19,7 +19,9 @@ decisions = {
 			NOT = { trait = elf_brooch }
 			NOT = { trait = elvish_sword }
 			NOT = { trait = ancient_elvish_sword }
-			NOT = { trait = dwarvish_sword }			
+			NOT = { trait = dwarvish_sword }	
+			has_character_flag = special_decisions_open
+        }			
 		allow = {
 			prestige = 200
 			piety = 200

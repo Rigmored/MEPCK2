@@ -19,6 +19,7 @@ decisions = {
 			}
 			demesne_size = 1
 			NOT = { has_character_flag = purgingprovince }
+			has_character_flag = special_decisions_open
 	    }
 		allow = {
 			war = no
@@ -82,6 +83,7 @@ decisions = {
 			}
 			demesne_size = 1
 			NOT = { has_character_flag = purgingprovince }	
+			has_character_flag = special_decisions_open
 		}	
 	
 		allow = {

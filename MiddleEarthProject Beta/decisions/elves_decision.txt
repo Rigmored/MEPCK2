@@ -9,6 +9,7 @@ claim_noldor = {
 			culture = culture_noldor
 			NOT = { has_character_flag = hisghkingnoldor }
 			NOT = { has_landed_title = e_noldor }
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 			war = no
@@ -30,6 +31,7 @@ break_the_vow = {
 			trait = vow_of_cerin_amroth
 			year = 11380
 			NOT = { has_character_flag=vowofcerinamroth }
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 			war = no

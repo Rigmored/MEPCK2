@@ -29,9 +29,10 @@ sail_to_west = {
 				trait = possessed
 			}
 			NOT = {
-			trait = sailed_west
+				trait = sailed_west
 			}
-			}
+			has_character_flag = special_decisions_open
+		}
 		allow = {
 			piety = 200
 			age = 2500			

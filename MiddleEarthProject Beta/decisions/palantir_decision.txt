@@ -168,6 +168,7 @@ decisions = {
 			}
 			NOT = { has_character_flag = use_palantir_war }
 			NOT = { has_character_flag = palantir_locked } 
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 		    capable_only = yes

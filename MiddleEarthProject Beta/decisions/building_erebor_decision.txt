@@ -18,6 +18,7 @@ is_high_prio = yes
 			}	
 		}
 		NOT = { has_global_flag = building_erebor }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {

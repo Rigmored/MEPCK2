@@ -5,9 +5,8 @@ decisions = {
       	potential = {
 	        age = 1
 		    prisoner = no
-		    trait = spiritform			
-		    has_landed_title = e_barad_dur
-      	    religion = religion_eruhini		
+		    trait = spiritform				
+			has_character_flag = special_decisions_open
 		}
 		allow = {
 			trait = ring

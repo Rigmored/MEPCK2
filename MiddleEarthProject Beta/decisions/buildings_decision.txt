@@ -18,6 +18,7 @@ is_high_prio = yes
 			}	
 		}
 		NOT = { has_global_flag = fornost_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {
@@ -57,6 +58,7 @@ is_high_prio = yes
 			}	
 		}		
 		NOT = { has_global_flag = annuminas_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {
@@ -97,6 +99,7 @@ is_high_prio = yes
 		}
 		NOT = { has_global_flag = tharbad_bridge }
 		NOT = { has_global_flag = tharbad_bridge_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {
@@ -128,6 +131,7 @@ is_high_prio = yes
 		has_landed_title = c_west_osgiliath
 		year = 9900
 		NOT = { has_global_flag = west_osgiliath_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {
@@ -158,6 +162,7 @@ is_high_prio = yes
 		has_landed_title = c_east_osgiliath
 		year = 9900
 		NOT = { has_global_flag = east_osgiliath_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {
@@ -194,6 +199,7 @@ is_high_prio = yes
 		has_landed_title = c_edhellond
 		year = 10325
 		NOT = { has_global_flag = edhellond_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {

@@ -15,6 +15,7 @@ decisions = {
 				trait = blood_of_isildur
 				NOT = { is_alive = yes }
 			}			
+			has_character_flag = special_decisions_open
 		}
 		allow = {
 			prestige = 3000
@@ -50,6 +51,7 @@ decisions = {
 				religion = religion_moriquendi	
 				religion = religion_calaquendi					
 			}		
+			has_character_flag = special_decisions_open
 		}
 		allow = {
 			prestige = 3000
@@ -80,6 +82,7 @@ decisions = {
 				has_landed_title = k_umbar			
 			}
 			culture = culture_black_numenorean
+			has_character_flag = special_decisions_open
 		}
 		allow = {
 			prestige = 3000
@@ -113,7 +116,8 @@ decisions = {
 				has_landed_title = k_cardolan
 				has_landed_title = k_rhudaur
 			}
-			religion = religion_dunedain						
+			religion = religion_dunedain
+            has_character_flag = special_decisions_open			
 		}
 		allow = {
 			prestige = 3000

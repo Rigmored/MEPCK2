@@ -13,10 +13,10 @@ council_gondor;Reunite the Council of Gondor;Réunir le Conseil du Gondor;;;;x
 council_gondor_desc;The Council of Gondor was composed of Captains and Princes of Gondor that provided advice to the Kings and, later, to the Stewards.;Le Conseil du Gondor, qui était composé des Capitaines et des Princes du Gondor, fournit des conseils aux Rois et plus tard aux Intendants du Gondor.;;;;x
 list_artefact;Show the Holders of Artefacts;Voir les Listes des Propriétaires d'Artefacts;;;x
 list_artefact_desc;Show lists of the holders of unique weapons, rings and palantíri.;Voir les Listes des Propriétaires d'Artefacts;;;x
-use_palantir_war;Use the Palantir;Utiliser le Palantir;;;x
-use_palantir_war_desc;You're the guardian of one of the Palantíri, one of the stones of Vision brought in Middle-Earth ??by Elendil of Numenor. You should use it in this time of war.;Vous êtes le Gardien de l'un des Palantiri, l'une des pierres de Vision apportées de Numenor par Elendil. Vous devriez l'utiliser en ces temps de Guerre.;;;x
-list_palantir_desc;Find out who are the living Guardians of the Palantíri.;Permet de savoir qui sont les Gardiens vivants des Palantiri.;;;x
-list_palantir;Show the Guardians of the Palantiri;Montrez les Gardiens des Palantiri.;;;x
+use_palantir_war;Use the Palantír;Utiliser le Palantir;;;x
+use_palantir_war_desc;You are the guardian of one of the Palantíri, the stones of Vision brought in Middle-Earth by Elendil of Numenor. You can use it in times of war.;Vous êtes le Gardien de l'un des Palantiri, l'une des pierres de Vision apportées de Numenor par Elendil. Vous devriez l'utiliser en ces temps de Guerre.;;;x
+list_palantir_desc;List the living Guardians of the Palantíri.;Permet de savoir qui sont les Gardiens vivants des Palantiri.;;;x
+list_palantir;Show the Guardians of the Palantíri;Montrez les Gardiens des Palantiri.;;;x
 visit_palantir_elostirion;Visit the Palantír of Elostirion;Se rendre auprès du Palantir d'Elostirion;;;x
 visit_palantir_elostirion_desc;Journey to the Palantír of Elostirion, the Elf Tower, and try to glimpse the Undying Lands.;Se rendre auprès du Palantir d'Elostirion;;;x
 looking_at_palantír;Look into the Palantír;Regarder dans le Palantír;;;x

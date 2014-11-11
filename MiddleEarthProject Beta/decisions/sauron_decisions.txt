@@ -14,6 +14,7 @@ decisions = {
 		independent = yes
 		is_ruler = yes
 		}
+		has_character_flag = special_decisions_open
 	}
 	
 	allow = {
@@ -45,6 +46,7 @@ decisions = {
 			is_primary_war_defender = yes
 			NOT = { has_character_flag = sauroncalled_allies }
 		}
+		has_character_flag = special_decisions_open
 	}
 	
 	allow = {
@@ -80,6 +82,7 @@ command_nazgul = {
 			NOT = { has_global_flag = khamul_in_angmar }
 			NOT = { has_global_flag = numenorean_nazguls_in_angmar }
 		}
+		has_character_flag = special_decisions_open
 	}
 	
 	allow = {
