@@ -727,10 +727,8 @@ city = {
 		ai_creation_factor = 109
 		add_number_to_name = no
         	potential = {
-            		has_global_flag = building
-			FROM = { 
-				culture_group = culture_group_numenorean
-			}
+            		has_global_flag = building 
+			culture_group = culture_group_numenorean
         	}
 	}	
 	tp_numenorean_tombs = {
@@ -743,12 +741,9 @@ city = {
 		add_number_to_name = no
         	potential = {
             		has_global_flag = building
-			FROM = { 
-				culture_group = culture_group_numenorean
-			}
+			culture_group = culture_group_numenorean
         	}
 	}	
-	
 	tp_healing2 = {
 		desc = ca_healing2_desc
 		gold_cost = 300

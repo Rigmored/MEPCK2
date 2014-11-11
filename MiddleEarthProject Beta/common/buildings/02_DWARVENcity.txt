@@ -425,7 +425,7 @@ city = {
 				terrain = hills
 				terrain = mountain
 			}
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
             	}
 	}
 	ct_dwarfmines_2 = {
@@ -439,7 +439,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
             		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			OR = {
 				terrain = hills
 				terrain = mountain
@@ -458,7 +458,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
            		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			OR = {
 				terrain = hills
 				terrain = mountain
@@ -477,7 +477,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
            		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			location = { terrain = mountain	}
             	}
 	}
@@ -493,7 +493,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
            		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			location = { terrain = mountain	}
             	}
 	}
@@ -509,7 +509,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
            		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			province_id = 285 # Moria
             	}
 	}
@@ -1191,10 +1191,8 @@ ct_khazad = { ##moria for dwarves
 		ai_creation_factor = 109
 		add_number_to_name = no
         	potential = {
-            	has_global_flag = building
-			FROM = { 
-				culture_group = culture_group_dwarves
-			}
+            		has_global_flag = building
+			culture_group = culture_group_dwarves
         	}
 	}
 	tp_balin_tomb = { ### The Tomb of Balin

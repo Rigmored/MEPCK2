@@ -1066,9 +1066,10 @@ castle = {
 		tax_income = 6
 		heavy_infantry = 500
         	potential = {
-			FROMFROM = { title = b_tower_of_ecthelion }
+			FROMFROM = { title = 
+b_citadel_tirith }
 			culture_group = culture_group_numenorean
-            }
+            	}
 	}
 
 	ca_henneth_annun = { ## Henneth Annun - The Forbidden Pool

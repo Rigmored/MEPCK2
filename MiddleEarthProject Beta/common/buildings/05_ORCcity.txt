@@ -740,9 +740,7 @@ city = {
 		add_number_to_name = no
         	potential = {
             		has_global_flag = building
-			FROM = { 
-				culture_group = culture_group_melkor
-			}
-        	}
-	}	
+			culture_group = culture_group_melkor
+		   	}
+		}	
 }

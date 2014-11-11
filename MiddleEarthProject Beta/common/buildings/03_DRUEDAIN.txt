@@ -113,8 +113,8 @@ city = {
 		ai_creation_factor = 60
 		potential = {
 	   		has_global_flag = building
-			FROM = { culture = culture_druedain 
-            }
+			culture = culture_druedain 
+            	}
 	}
 }
 

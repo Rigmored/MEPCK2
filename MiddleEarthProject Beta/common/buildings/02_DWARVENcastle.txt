@@ -463,7 +463,7 @@ castle = {
 				terrain = hills
 				terrain = mountain
 			}
-	   		FROM = { culture_group = culture_group_dwarves }
+	   		culture_group = culture_group_dwarves
     		}
 	}
 	ca_dwarvenforges_2 = {
