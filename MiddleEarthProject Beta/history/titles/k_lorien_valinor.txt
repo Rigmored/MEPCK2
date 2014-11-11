@@ -1,6 +1,6 @@
 1.1.1=
 {
 liege = e_valinor
-holder =  10009 # Irmo
+holder =  0
 }
 

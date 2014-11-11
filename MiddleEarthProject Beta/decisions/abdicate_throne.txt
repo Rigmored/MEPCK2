@@ -9,6 +9,7 @@ decisions = {
 			NOT = { has_character_flag = wants_to_abdicate }
 			current_heir = { dynasty = ROOT }
 			culture_group = culture_group_numenorean
+			age = 170
 			
 			# Traits checks
 			NOT = { trait = lunatic }
@@ -82,6 +83,7 @@ decisions = {
 			capable_only = yes
 			NOT = { has_character_flag = wants_to_abdicate }
 			current_heir = { dynasty = ROOT }
+			age = 1700
 			OR = {
 				culture_group = culture_group_moriquendi
 				culture_group = culture_group_umanyar 
@@ -152,6 +154,7 @@ decisions = {
 			NOT = { has_character_flag = wants_to_abdicate }
 			current_heir = { dynasty = ROOT }
 			culture_group = culture_group_dwarves 
+			age = 200
 			
 			# Traits checks
 			NOT = { trait = lunatic }

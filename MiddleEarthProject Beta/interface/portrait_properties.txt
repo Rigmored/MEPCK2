@@ -973,6 +973,13 @@
 				trait = heresiarch
 			}
 		}
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}			
 	}
 	
 	# Royal crown/turban 1
@@ -992,6 +999,13 @@
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}	
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
 			}
 		}		
 		modifier = {
@@ -1016,6 +1030,13 @@
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
 			}
 		}		
 		modifier = {
@@ -1044,6 +1065,13 @@
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
 			}
 		}		
 		modifier = {
@@ -1074,6 +1102,13 @@
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}	
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
 			}
 		}		
 		modifier = {
@@ -1124,6 +1159,13 @@
 			}
 		}
 		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}
+		modifier = {
 			factor = 10
 			is_ruler = yes
 			is_theocracy = yes
@@ -1139,6 +1181,13 @@
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}		
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
 			}
 		}		
 		modifier = {
@@ -1173,6 +1222,13 @@
 		}
 		modifier = {
 			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}		
+		modifier = {
+			factor = 0
 			OR = {
 				trait = ring
 				trait = mouthofsauron
@@ -1199,6 +1255,13 @@
 				spouse = { real_tier = duke }
 			}
 		}
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}		
 		modifier = {
 			factor = 0
 			trait = ring
@@ -1264,6 +1327,13 @@
 		}
 		modifier = {
 			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}		
+		modifier = {
+			factor = 0
 			OR = {
 				trait = ring
 				trait = mouthofsauron
@@ -1320,6 +1390,7 @@
 				spouse = { real_tier = duke }
 			}
 		}
+		
 		modifier = {
 			factor = 0
 			OR = {
@@ -1347,6 +1418,13 @@
 		}
 		modifier = {
 			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}		
+		modifier = {
+			factor = 0
 			has_landed_title = k_papal_state
 		}
 		modifier = {
@@ -1365,6 +1443,13 @@
 			factor = 0
 			NOT = { has_landed_title = k_papal_state }
 		}
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}		
 		modifier = {
 			factor = 0
 			OR = {
@@ -1386,6 +1471,13 @@
 			NOT = { has_landed_title = k_orthodox }
 			NOT = { has_landed_title = d_miaphysite }
 		}
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}		
 		modifier = {
 			factor = 0
 			OR = {
