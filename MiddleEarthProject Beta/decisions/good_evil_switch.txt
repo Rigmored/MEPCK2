@@ -13,7 +13,8 @@ convert_to_good_side = {
 			culture_group = culture_group_melkor
 			culture = culture_maiar
 			}
-			}
+			has_character_flag = special_decisions_open
+		}
 		allow = {
 			prestige = 1000
 			piety = 1000
@@ -38,7 +39,8 @@ convert_to_evil_side = {
 			NOT = {
 			has_character_flag = switched_side
 			}
-			}
+			has_character_flag = special_decisions_open
+		}
 		allow = {
 			prestige = 1000
 			piety = 1000
