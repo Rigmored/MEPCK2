@@ -110,7 +110,7 @@ decisions = {
 	}
 	
 	##feast only for noldor religions/cultures##
-	"Hold Feast of Remembrance" = {
+	feast_of_remembrance = {
 		potential = {
 			is_ruler = yes
 			is_feudal = yes
@@ -190,7 +190,7 @@ decisions = {
 	}
 	
 	##feast only for sindar religions/cultures##
-	"Hold Feast of Starlight" = {
+	feast_of_starlight = {
 		potential = {
 			is_ruler = yes
 			is_feudal = yes
@@ -276,7 +276,7 @@ decisions = {
 	}
 	
 		##orc feasts##
-		"Hold Great Feast" = {
+		great_feast_orc = {
 		potential = {
 			is_ruler = yes
 			is_feudal = yes
