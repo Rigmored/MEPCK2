@@ -2,7 +2,7 @@ decisions = {
 
 ## Decision for a Numenorean to rebuild Fornost Erain ##
 rebuild_fornost = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
@@ -42,7 +42,7 @@ is_high_prio = yes
 
 ## Decision for a Numenorean to rebuild Annuminas ##
 rebuild_annuminas = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
@@ -82,7 +82,7 @@ is_high_prio = yes
 
 ## Decision for a Numenorean to rebuild the Bridge of Tharbad ##
 rebuild_tharbad = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
@@ -123,7 +123,7 @@ is_high_prio = yes
 
 ## Decision for a Numenorean to rebuild Osgiliath West ##
 rebuild_osgiliath_west = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
@@ -154,7 +154,7 @@ is_high_prio = yes
 }
 
 rebuild_osgiliath_east = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
@@ -186,7 +186,7 @@ is_high_prio = yes
 
 ## Decision for a Numenorean or an Elf to rebuild the Haven of Edhellond ##
 rebuild_edhellond = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		OR = {

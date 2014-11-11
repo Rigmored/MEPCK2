@@ -922,5 +922,28 @@ spriteTypes = {
 		name = "GFX_command_nazgul"
 		texturefile = "gfx\\interface\\decision_icon_command_nazgul.dds"
 	}
+	spriteType = {
+		name = "GFX_rebuild_fornost"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_fornost.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_annuminas"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_annuminas.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_tharbad"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_tharbad.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_osgiliath_west"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_osgiliath.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_osgiliath_east"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_osgiliath.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_edhellond"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_edhellond.dds"
+	}
 }
-
