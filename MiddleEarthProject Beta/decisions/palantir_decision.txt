@@ -155,7 +155,7 @@ decisions = {
 	
 #### Call another Guardian of a Palantiri to help ####
 	use_palantir_war = {
-		is_high_prio = yes
+		is_high_prio = no
 		potential = {
 			ai = no #ai cannot use dynasty decisions
 			OR = {

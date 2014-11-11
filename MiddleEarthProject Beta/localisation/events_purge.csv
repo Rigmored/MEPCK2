@@ -1,8 +1,8 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;
-purge_province;Scour the lands for remaining enemies;Scoure the lands for remaining enemies;;;;;;;;;;;;x;
-purge_province_desc;Send your martial to scout for remnants of the enemy in [Root.job_marshal.Location.GetName];Send your martial to scout for remnants of the enemy in [Root.job_marshal.Location.GetName];;;;;;;;;;;;x;
-purge_province_evil;Scour the lands for remaining enemies;Scoure the lands for remaining enemies;;;;;;;;;;;;x;
-purge_province_evil_desc;Send your martial to scout for remnants of the enemy in [Root.job_marshal.Location.GetName];Send your martial to scout for remnants of the enemy in [Root.job_marshal.Location.GetName];;;;;;;;;;;;x;
+purge_province;Scour your lands for enemies;Scoure the lands for remaining enemies;;;;;;;;;;;;x;
+purge_province_desc;Send your marshal to scout for remnants of the enemy in [Root.job_marshal.Location.GetName];Send your martial to scout for remnants of the enemy in [Root.job_marshal.Location.GetName];;;;;;;;;;;;x;
+purge_province_evil;Scour your lands for enemies;Scoure the lands for remaining enemies;;;;;;;;;;;;x;
+purge_province_evil_desc;Send your marshal to scout for remnants of the enemy in [Root.job_marshal.Location.GetName];Send your martial to scout for remnants of the enemy in [Root.job_marshal.Location.GetName];;;;;;;;;;;;x;
 EVTDESCpurge.0;Gather a small band to flush out or destroy enemy remnants in [Root.PrimaryTitle.GetName];Gather a small band to flush out or destroy enemy remnants in [Root.PrimaryTitle.GetName];;;;;;;;;;;;x;
 EVTOPTApurge.0;We will rid the land of their blight!;We will rid the land of their blight!;;;;;;;;;;;;x;
 EVTOPTBpurge.0;Perhaps now is not the best time to seek open conflict.;Perhaps now is not the best time to seek open conflict.;;;;;;;;;;;;x;

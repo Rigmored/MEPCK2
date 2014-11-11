@@ -2,7 +2,7 @@ decisions = {
 
 ##Goodies purge baddies##
 	purge_province = {
-		is_high_prio = yes
+		is_high_prio = no
 	
 		potential = {		
 			job_marshal = { is_alive = yes }
@@ -50,7 +50,7 @@ decisions = {
 
 ##Baddies purge goodies##
 	purge_province_evil = {
-		is_high_prio = yes
+		is_high_prio = no
 	
 		potential = {		
 			job_marshal = { is_alive = yes }

@@ -75,6 +75,9 @@ decisions = {
 				has_character_flag = special_decisions_open
 				has_character_flag = family_decisions_open
 			}
+			NOT = {
+			    has_character_flag = sauron
+			}
 		}
 		effect = { set_character_flag = festivity_decisions_open }
 	}
@@ -84,5 +87,15 @@ decisions = {
 			has_character_flag = festivity_decisions_open
 		}
 		effect = { clr_character_flag = festivity_decisions_open }
+	}
+	
+	
+	
+	ai_will_do = {
+		is_high_prio = no
+		potential = {
+			has_character_flag = neverwillexist
+		}
+		effect = { set_character_flag = neverwillexist }
 	}
 }

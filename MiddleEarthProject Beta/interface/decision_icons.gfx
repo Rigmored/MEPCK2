@@ -898,5 +898,29 @@ spriteTypes = {
 		name = "GFX_create_fumes"
 		texturefile = "gfx\\interface\\decision_icon_create_fumes.dds"
 	}
+	spriteType = {
+		name = "GFX_sauron_restore_form"
+		texturefile = "gfx\\interface\\decision_icon_sauron_restore_form.dds"
+	}
+	spriteType = {
+		name = "GFX_purge_province"
+		texturefile = "gfx\\interface\\decision_icon_purge_province.dds"
+	}
+	spriteType = {
+		name = "GFX_purge_province_evil"
+		texturefile = "gfx\\interface\\decision_icon_purge_province_evil.dds"
+	}
+	spriteType = {
+		name = "GFX_purge_province_evil"
+		texturefile = "gfx\\interface\\decision_icon_purge_province_evil.dds"
+	}
+	spriteType = {
+		name = "GFX_command_servants"
+		texturefile = "gfx\\interface\\decision_icon_command_servants.dds"
+	}
+	spriteType = {
+		name = "GFX_command_nazgul"
+		texturefile = "gfx\\interface\\decision_icon_command_nazgul.dds"
+	}
 }
 

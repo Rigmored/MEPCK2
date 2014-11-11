@@ -14,7 +14,7 @@ council_gondor_desc;The Council of Gondor was composed of Captains and Princes o
 list_artefact;Show the Holders of Artefacts;Voir les Listes des Propriétaires d'Artefacts;;;x
 list_artefact_desc;Show lists of the holders of unique weapons, rings and palantíri.;Voir les Listes des Propriétaires d'Artefacts;;;x
 use_palantir_war;Use the Palantír;Utiliser le Palantir;;;x
-use_palantir_war_desc;You are the guardian of one of the Palantíri, the stones of Vision brought in Middle-Earth by Elendil of Numenor. You can use it in times of war.;Vous êtes le Gardien de l'un des Palantiri, l'une des pierres de Vision apportées de Numenor par Elendil. Vous devriez l'utiliser en ces temps de Guerre.;;;x
+use_palantir_war_desc;You are the guardian of one of the Palantíri, the stones of Vision brought to Middle-Earth by Elendil of Númenor. You can use it in times of war.;Vous êtes le Gardien de l'un des Palantiri, l'une des pierres de Vision apportées de Numenor par Elendil. Vous devriez l'utiliser en ces temps de Guerre.;;;x
 list_palantir_desc;List the living Guardians of the Palantíri.;Permet de savoir qui sont les Gardiens vivants des Palantiri.;;;x
 list_palantir;Show the Guardians of the Palantíri;Montrez les Gardiens des Palantiri.;;;x
 visit_palantir_elostirion;Visit the Palantír of Elostirion;Se rendre auprès du Palantir d'Elostirion;;;x
@@ -41,3 +41,7 @@ give_palantir_to_son_desc;Yield the Anor-Stone to [Root.GetFirstName], who will 
 give_palantir_orthanc_to_son_desc;Yield the Orthanc-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre d'Orthanc à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
 give_palantir_osgiliath_to_son_desc;Yield the Osgiliath-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre dOsgiliath à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
 give_palantir_annuminas_to_son_desc;Yield the Annúminas-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre d'Annúminas à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;x
+command_servants;Command Servants;Command Servants;;;;x
+command_servants_desc;Command any rulers you have influence over to war.;Command any rulers you have influence over to war.;;;;x
+command_nazgul;Command Nazgûl;Command Nazgûl;;;;x
+command_nazgul_desc;Command the Nazgûl to do your bidding.;Command the Nazgûl to do your bidding.;;;;x

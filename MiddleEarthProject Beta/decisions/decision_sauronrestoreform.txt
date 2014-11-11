@@ -1,6 +1,6 @@
 decisions = {
     sauron_restore_form = {
-		is_high_prio = yes
+		is_high_prio = no
 		
       	potential = {
 	        age = 1
