@@ -4,7 +4,7 @@
 }
 1.1.1=
 {
-holder =  10045 # Tom Bombadil
+holder =  0
 }
 8221.1.1=
 {
