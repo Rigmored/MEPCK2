@@ -665,8 +665,8 @@
 		add_rival=10033 #Gandalf
 	} #Saruman is fully corrupted by Sauron
 	11362.3.13 ={
-   give_nickname = 0
- } #Saruma isn't the major Istari anymore
+   		give_nickname = 0
+ 	} #Saruma isn't the major Istari anymore
 	11362.11.3={
 		death="11362.11.3"
 	} #Saruman is stabbed by Wormtongue
