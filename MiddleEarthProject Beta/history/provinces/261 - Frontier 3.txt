@@ -1,13 +1,16 @@
-# c_frontier_3
+#Ramunnidon
 
 # County Title
 title = c_frontier_3
 
 # Settlements
-max_settlements = 2
+max_settlements = 5
 
 b_ramunnidon = castle
 b_aradras = city
+b_escodel = city
+#b_tyrn_rumior = city
+#b_ruminol = city
 
 # Misc
 culture = culture_arnorian

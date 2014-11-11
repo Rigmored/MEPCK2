@@ -1,13 +1,16 @@
-# c_west_formenyar
+#Formenyar
 
 # County Title
 title = c_west_formenyar
 
 # Settlements
-max_settlements = 2
+max_settlements = 5
 
-b_faranel = castle
+b_formenyar = castle
+b_faranel = city
 b_dol_formenyar = city
+#b_tulipur = city
+#b_amon_form = city
 
 # Misc
 culture = culture_arnorian
