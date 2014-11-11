@@ -1,16 +1,22 @@
-# c_faerdorbound
+#GleinfaerdoR
 
 # County Title
 title = c_faerdorbound
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 
-b_faerdorbound = castle
+b_gleinfaerdor = castle
+b_mostrardin = castle
+b_foraderol= castle
+#b_gleinastor = castle
+#b_stamostil = castle
+
+
 
 # Misc
-culture = culture_arnorian
-religion = religion_dunedain
+culture = culture_wilderness
+religion = religion_wilderness
 8222.1.1 = {
 culture = culture_arnorian
 religion = religion_dunedain
