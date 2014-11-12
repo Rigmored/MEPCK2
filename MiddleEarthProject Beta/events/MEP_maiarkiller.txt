@@ -432,10 +432,6 @@ character_event = {
     }
 	
 	option = {
-<<<<<<< HEAD
         name = "EVTOPTAmaiarkiller.5"
-=======
-        name = "EVTOPTAmaiarkill.5"
->>>>>>> df2b09d84396baff4abb1fc4d77d160d27573324
     }
 }

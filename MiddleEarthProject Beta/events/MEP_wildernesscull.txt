@@ -10,11 +10,7 @@ narrative_event = {
     trigger = {
         culture = culture_wilderness
 		is_ruler = no
-    }
-
-+	mean_time_to_happen = {
-+		days = 1
-+	}	
+    }	
 	
 	mean_time_to_happen = {
 		days = 1
