@@ -46,6 +46,7 @@ character_event = {
 	option = {
 		name = "EVTOPTBvariags.1" ## I don't need them.
 		trigger = { ai = no }
+		set_character_flag = khandhorses
 	}	
 }
 
@@ -184,7 +185,6 @@ character_event = {
 			  
 	option = {
 		name = "EVTOPTAvariags.5" ## Perfect
-		clr_character_flag = khandhorses
 	}
 }
 
@@ -323,5 +323,30 @@ character_event = {
 				casus_belli = claim_all
 			}
 		}		
+	}
+}
+
+### Sauron will be able to get the event a new time ###
+character_event = {
+    id = variags.9
+    title = "EVTTITvariags.9"
+    desc = "EVTDESCvariags.9"
+    picture = "GFX_evil"
+	hide_window = yes
+
+	trigger = {
+		has_landed_title = e_barad_dur
+		culture = culture_maiar
+		trait = evil_side
+		has_character_flag = khandhorses
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+			  
+	option = {
+		name = "EVTOPTAvariags.9" ## Ok
+		clr_character_flag = khandhorses
 	}
 }
