@@ -12,6 +12,11 @@ narrative_event = {
 		is_ruler = no
     }
 	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
 	immediate = {
         death = {
 		    death_reason = death_murder

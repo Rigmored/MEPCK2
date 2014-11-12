@@ -432,6 +432,6 @@ character_event = {
     }
 	
 	option = {
-        name = "EVTOPTAwildernesscull.0"
+        name = "EVTOPTAmaiarkill.5"
     }
 }
