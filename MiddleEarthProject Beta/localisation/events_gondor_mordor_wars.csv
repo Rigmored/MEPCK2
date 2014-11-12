@@ -1,0 +1,115 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTTITgondorwotr.0;War for Gondor;La Guerre pour le Gondor;;;;;;;;;;;;x
+EVTDESCgondorwotr.0;For too long, Gondor has successfully opposed to your power. The Men of the West have defeated you in the War of the Last Alliance, and it took you almost 3,000 years to successfully rebuild your former strength. Now it's time to take revenge from the descendants of Numenor, and launch your great war against them. First, it would be wise to take the East bank of Osgiliath, so you can prepare to establish there a beachhead to attack Minas Tirith later.;Pendant trop longtemps, le Gondor a réussi à s'opposer à votre pouvoir. Les Hommes de l'Ouest vous ont vaincus durant la Guerre de la Dernière Alliance, et il vous a fallu près de 3000 ans pour réussir à reconstruire votre puissance d'autrefois. Il est maintenant temps de vous venger des descendants de Numenor, et de lancer votre grande guerre contre eux. Tout d'abord, il serait sage de prendre la rive Est d'Osgiliath, afin de pouvoir vous préparer à y établir une tête de pont.;;;;;;;;;;;;x
+EVTOPTAgondorwotr.0;Gather our Legions!;Préparez nos Légions!;;;;;;;;;;;;x
+EVTTITgondorwotr.1;War is coming from East.;La Guerre vient de l'Est…;;;;;;;;;;;;x
+EVTDESCgondorwotr.1;The Rangers of Ithilien inform you that the legions of the enemy were seen moving. It seems that they are moving towards Osgiliath at this very moment. You should strengthen your defenses quickly and send a competent general to lead your men.;Les rôdeurs d'Ithilien vous informent que les légions de l'ennemi ont été aperçues en mouvement;;;;;;;;;;;;x
+EVTOPTAgondorwotr.1;I'll send Boromir and Faramir.;Je vais envoyer Boromir et Faramir.;;;;;;;;;;;;x
+EVTOPTBgondorwotr.1;Boromir will be able to defend the city alone!;Boromir sera capable de mener la défense seul.;;;;;;;;;;;;x
+EVTOPTCgondorwotr.1;Faramir will be able to defend the city alone!;Faramir sera capable de mener la défense seul.;;;;;;;;;;;;x
+EVTTITgondorwotr.2;The Captains of Gondor;Les Capitaines du Gondor;;;;;;;;;;;;x
+EVTDESCgondorwotr.2;Your spies report that the defense of Osgiliath will be led by the two sons of Denethor: Boromir and Faramir. That would be a great news if your troops kill them both in the battle ...;Vos espions rapportent que la défense d'Osgiliath sera menée par les deux fils de Denethor : Boromir et Faramir. Ce serait une merveilleuse nouvelle, s'ils venaient à être tués tous les deux durant les combats...;;;;;;;;;;;;x
+EVTOPTAgondorwotr.2;Attack now!;Attaquez maintenant !;;;;;;;;;;;;x
+EVTTITgondorwotr.3;The Captains of Gondor;Les Capitaines du Gondor;;;;;;;;;;;;x
+EVTDESCgondorwotr.3;Your spies report that the defense of Osgiliath will be led by the first son of Denethor: Boromir. That would be a great news if your troops kill him in the battle ...;Vos espions rapportent que la défense d'Osgiliath sera menée par le premier fils de Denethor : Boromir. Ce serait une merveilleuse nouvelle, s'il venait à être tué durant les combats...;;;;;;;;;;;;x
+EVTOPTAgondorwotr.3;Attack now!;Attaquez maintenant !;;;;;;;;;;;;x
+EVTTITgondorwotr.4;The Captains of Gondor;Les Capitaines du Gondor;;;;;;;;;;;;x
+EVTDESCgondorwotr.4;Your spies report that the defense of Osgiliath will be led by the second son of Denethor: Faramir. That would be a great news if your troops kill him in the battle ...;Vos espions rapportent que la défense d'Osgiliath sera menée par le second fils de Denethor : Faramir. Ce serait une merveilleuse nouvelle, s'il venait à être tué durant les combats...;;;;;;;;;;;;x
+EVTOPTAgondorwotr.4;Attack now!;Attaquez maintenant !;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
