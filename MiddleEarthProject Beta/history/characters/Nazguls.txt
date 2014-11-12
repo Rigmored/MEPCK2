@@ -23,9 +23,9 @@
 	}
 	
 	6722.1.1={
-		name="MÃ»razÃ´r"
+		name="Mûrazôr"
 		add_trait = ring_murazor
-	} #Seduced by the Witch MaegnÃºrwen at Sauron's behest
+	} #Seduced by the Witch Maegnúrwen at Sauron's behest
 	
 	6742.1.1={
 		add_trait=nazgul
@@ -41,7 +41,7 @@
 	
 }
 
-## KhÃ¢mul the Easterling ##
+## Khâmul the Easterling ##
 
 17123 = {
 	name="Horkhudagh"
@@ -64,7 +64,7 @@
 	}
 	
 	6722.1.1={
-		name="KhamÃ»l"
+		name="Khamûl"
 		effect = { set_character_flag = khamul }
 		add_trait = ring_khamul
 	}
@@ -84,7 +84,7 @@
 	
 }
 
-## AkhÃ´rahil ##
+## Akhôrahil ##
 12418 = {
 	name="Heruaryon"
 	dynasty=19017
@@ -106,7 +106,7 @@
 	}
 	
 	6722.1.1={
-		name="AkhÃ´rahil"
+		name="Akhôrahil"
 		effect = { set_character_flag = akhorahil }	
 		add_trait = ring_akhorahil
 	}
@@ -124,9 +124,9 @@
 	
 }
 
-## AdÃ»naphazÃ´r ##
+## Adûnaphazôr ##
 12281 = {
-	name="AndÃºnar"
+	name="Andúnar"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"
@@ -146,7 +146,7 @@
 	}
 	
 	6722.1.1={
-		name="AdÃ»naphazÃ´r"
+		name="Adûnaphazôr"
 		effect = { set_character_flag = adunaphazor }
 		add_trait = ring_adunaphazor
 	}
@@ -199,9 +199,9 @@
 	} #The One Ring is destroyed
 }
 
-## JÃ­ IndÃ»r the Far Haradrim ##
+## Jí Indûr the Far Haradrim ##
 6555 = {
-	name="JÃ­ IndÃ»r"
+	name="Jí Indûr"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"	
@@ -222,7 +222,7 @@
 	
 	6722.1.1={
 		add_trait = ring_jiundur
-		name="IndÃ»r"
+		name="Indûr"
 	}	
 	
 	6742.1.1={
@@ -270,9 +270,9 @@
 }
 
 
-## Ã›vatha the Northman ##
+## Ûvatha the Northman ##
 99902 = {
-	name="Ã›vatha"
+	name="Ûvatha"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"	
@@ -303,9 +303,9 @@
 	} #The One Ring is destroyed
 }
 
-## AbrazÃ®r ##
+## Abrazîr ##
 99903 = {
-	name="AbrazÃ®r"
+	name="Abrazîr"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"	
