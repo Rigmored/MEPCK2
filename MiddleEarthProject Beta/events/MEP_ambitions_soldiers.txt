@@ -472,4 +472,83 @@ character_event = {
 		trigger = { ai = no }
 		add_trait = craftsman
 	}	
+	
+	option = {
+		name = EVTOPTBambitions.18 ## I want to learn more from you, master.
+		add_trait = craftsman
+		wealth = -100
+		random_list = {
+			60 = {
+				character_event = { id = ambitions.19 days = 150 } ## You're a Skilled Craftsman
+			}
+			40 = {
+				character_event = { id = ambitions.21 days = 150 } ## You failed		
+			}
+		}		
+	}	
+}
+
+## You're now a Skilled Craftsman ##
+character_event = {
+	id = ambitions.19
+	title = EVTTITambitions.19
+	desc = EVTDESCambitions.19
+	picture = GFX_evt_ring_craft
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAambitions.19 ## I'll continue to train myself !
+		remove_trait = craftsman
+		add_trait = skilled_craftsman		
+		wealth = -200
+		random_list = {
+			40 = {
+				character_event = { id = ambitions.20 days = 300 } ## You're a Master Craftsman
+			}
+			60 = {
+				character_event = { id = ambitions.21 days = 300} ## You failed		
+			}
+		}		
+	}
+	option = {
+		name = EVTOPTBambitions.19 ## It's enough for me.
+		clr_character_flag = craftsman_education
+		trigger = { ai = no }
+		remove_trait = craftsman
+		add_trait = skilled_craftsman			
+	}	
+}
+
+## You're now a master Crafstman ##
+character_event = {
+	id = ambitions.20
+	title = EVTTITambitions.20
+	desc = EVTDESCambitions.20
+	picture = GFX_evt_ring_craft
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAambitions.20 ## I proud of my skills.
+		prestige = 150
+		remove_trait = skilled_craftsman
+		add_trait = master_craftsman
+		clr_character_flag = craftsman_education
+	}
+}
+
+## You can't progress more ##
+character_event = {
+	id = ambitions.21
+	title = EVTTITambitions.21
+	desc = EVTDESCambitions.21
+	picture = GFX_evt_ring_craft
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAambitions.21 ## I see.
+		clr_character_flag = craftsman_education	
+	}
 }

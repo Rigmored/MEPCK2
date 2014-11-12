@@ -13,13 +13,6 @@ decisions = {
 			age = 16
 			capable_only = yes
 			NOT = { has_character_flag = crafts_object }
-			NOT = { trait = dwarf_necklace }
-			NOT = { trait = elf_necklace }
-			NOT = { trait = dwarf_jewel }
-			NOT = { trait = elf_brooch }
-			NOT = { trait = elvish_sword }
-			NOT = { trait = ancient_elvish_sword }
-			NOT = { trait = dwarvish_sword }	
 			has_character_flag = special_decisions_open
         }			
 		allow = {
