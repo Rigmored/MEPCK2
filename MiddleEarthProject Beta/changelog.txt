@@ -1,6 +1,9 @@
--------MIDDLE-EARTH PROJECT----------
+﻿-------MIDDLE-EARTH PROJECT----------
 
 ##### 0.4b Changelog #####
+
+AMBITIONS :
+- Added the Ambition to become a craftsman (only for Noldor and Dwarves, and only for characters who don't have one of these traits : healer/musician/mariner)
 
 BUGFIX :
 - The Ambition to become a Elf Warrior is now fixed for characters more aged than 45.
@@ -105,6 +108,9 @@ MAP :
 
 MINOR TITLES :
 - You can now grant only one minor title by character in Gondor.
+
+PORTRAITS :
+- Added portraits for orcs children
 
 PROVINCES :
 - Added all the baronies and revamped provinces in the following places: 
