@@ -6,7 +6,7 @@ title = c_carras
 # Settlements
 max_settlements = 3
 
-b_carras = castle
+b_carras = tribal
 
 # Misc
 8222.1.1 = {
