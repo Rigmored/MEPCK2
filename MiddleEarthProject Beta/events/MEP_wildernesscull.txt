@@ -1,0 +1,28 @@
+namespace = wildernesscull
+#Kill landless wilderness
+narrative_event = {
+    id = wildernesscull.0
+    title = "EVTNAMEwildernesscull.0"
+    desc = "EVTDESCwildernesscull.0"
+    picture = "GFX_nazgul"
+	age = 16
+
+    trigger = {
+        culture = culture_wilderness
+		is_ruler = no
+    }
+
++	mean_time_to_happen = {
++		days = 1
++	}	
+	
+	immediate = {
+        death = {
+		    death_reason = death_murder
+		}
+    }
+	
+	option = {
+        name = "EVTOPTAwildernesscull.0"
+    }
+}
