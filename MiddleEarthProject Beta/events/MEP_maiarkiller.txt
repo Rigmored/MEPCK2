@@ -403,3 +403,35 @@ namespace = maiarkiller
 	set_graphical_culture = culture_orkish
 }
 }
+
+##Now to kill any Orc/Goblin in a Good Court ##
+character_event = {
+    id = maiarkiller.5
+    title = "You are orcish"
+    desc = "wight characters are not supposed to be randomly spawned."
+    picture = "GFX_good"
+	age = 16
+	
+	trigger = {
+		culture_group = culture_group_melkor
+		liege = { 
+			NOT = { culture_group = culture_group_melkor } 
+			NOT = { culture = culture_maiar }
+			NOT = { culture = culture_istari }
+		}
+	}
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+	
+	immediate = {
+        death = {
+		    death_reason = death_murder
+		}
+    }
+	
+	option = {
+        name = "EVTOPTAwildernesscull.0"
+    }
+}
