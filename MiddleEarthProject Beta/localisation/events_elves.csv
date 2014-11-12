@@ -1,7 +1,21 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 EVTsailedtowest.3;Sail to West?;Partir à l'Ouest?;;;;;;;;;;;;x
-EVTDESCsailedtowest.3;You're tired of the life in Middle-Earth. The wars, the pains are not what you wants to live. You're looking to the West, and you heard the call of the Sea. Will you leave the Middle-Earth and go to the Undyiang Lands of Valinor?;Vous êtes fatigué de la vie sur les Terres du Milieu. Les guerres, les peines, les souffrances ont eu raison de votre volonté. Votre regard se porte maintenant vers l'Ouest, et vous entendez l'appel de la Mer. Allez-vous quitter les Terres du Milieu pour partir vers les Terres Immortelles?;;;;;;;;;;;;
+EVTDESCsailedtowest.3;You're tired of the life in Middle-Earth. The wars, the pains are not what you wants to live. You're looking to the West, and you heard the call of the Sea. Will you leave the Middle-Earth and go to the Undyiang Lands of Valinor?;Vous êtes fatigué de la vie sur les Terres du Milieu. Les guerres, les peines, les souffrances ont eu raison de votre volonté. Votre regard se porte maintenant vers l'Ouest, et vous entendez l'appel de la Mer. Allez-vous quitter les Terres du Milieu pour partir vers les Terres Immortelles?;;;;;;;;;;;;x
 EVTOPTAsailedwest3;Yes, It's the Time of Men, we've to leave.;Oui, le temps des Hommes est venu.;;;;;;;;;;;;x
 EVTOPTBsailedwest3;Not yet, Middle-Earth needs us!;Les Terres du Milieu ont encore besoin de moi !;;;;;;;;;;;;x
 elveninfertility_de1;You can feel that this will be your last child.;Vous pouvez sentir que vous ne pourrez plus avoir d'enfants.;;;;;;;;;;;;x
 elven_infertility;You can feel that this will be your last child.;Vous pouvez sentir que vous ne pourrez plus avoir d'enfants.;;;;;;;;;;;;x
+### ELVEN CHILDHOOD ###;;;;;;;;;;;;;;
+EVTTITelfchild.0;Childhood;Enfance;;;;;;;;;;;;x
+EVTDESCelfchild.0;You're still young for an elf, and your body as your soul hasn't finished growing. You still need to wait many years before finally being considered as an adult by your kin.;Vous êtes encore jeune pour un elfe, et votre corps comme votre esprit n'ont pas fini de grandir. Vous devez encore patienter de longues années avant d'être enfin considéré comme un adulte au sein de votre peuple.;;;;;;;;;;;;x
+EVTOPTAelfchild.0;Ok.;Ok.;;;;;;;;;;;;x
+EVTTITelfchild.1;End of your Childhood;Fin de votre Enfance;;;;;;;;;;;;x
+EVTDESCelfchild.1;You have finally reached adulthood for an elf. You have become wiser, stronger, and your mind is at its peak. You can finally take part in the events of your world.;Vous avez enfin atteint l'âge adulte pour un elfe. Vous êtes devenu plus sage, plus fort, et votre esprit est à son apogée. Vous pouvez enfin prendre part aux événements de votre monde.;;;;;;;;;;;;x
+EVTOPTAelfchild.1;Finally!;Enfin!;;;;;;;;;;;;x
+EVTTITelfchild.2;Your name;Votre Nom;;;;;;;;;;;;x
+EVTDESCelfchild.2;Among elves, it is customary to receive several names during the life: first name is given by the father at birth, the Ataressë. The second, the Amilessë is given by the mother. Finally, at majority, the elf receives a third name, the Epessë or Kilmessë. What name will you get today?;Chez les elfes, il est coutume de recevoir plusieurs noms durant sa vie : le premier nom est donné par le père à la naissance, l'Ataressë. Le second, l'Amilessë, est donné par la mère. Enfin, à la majorité, l'elfe reçoit un troisième nom, l'Epessë ou Kilmessë. Quel nom allez-vous recevoir aujourd'hui?;;;;;;;;;;;;x
+EVTOPTAelfchild.2;I keep my Ataressë;Je garde mon Ataressë;;;;;;;;;;;;x
+EVTOPTBelfchild.2;I'll use my Amilessë;Je vais utiliser mon Amilessë;;;;;;;;;;;;x
+EVTOPTCelfchild.2;I'll choose my Epessë;Je vais choisir mon Epessë;;;;;;;;;;;;x
+EVTTITelfchild.3;Epessë;Epessë;;;;;;;;;;;;x
+EVTDESCelfchild.3;"Epessë, Quenya word for ""after-name"", is a nickname or honorific chosen by an elf as his or her public name later in life. It is part of the essë, or naming, of High Elves, along with the ataressë (""father-name"") and amilessë (""mother-name""). Gil-Galad epessë, for exemple, was Ereinion.";L'epessë, est un surnom ou nom honorifique choisi par un elfe comme son nom public tardivement dans sa vie. Il fait partie de la essë, ou la dénomination, chez les Hauts Elfes, avec l'ataressë (nom donné par le père) et l'amilessë (nom donné par la mère). Gil-Galad, par exemple, a choisi de se faire appeler Ereinion, ;;;;;;;;;;;;x

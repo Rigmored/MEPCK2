@@ -46,6 +46,7 @@ narrative_event = {
 			culture_group = culture_group_moriquendi
 		}
 		age = 45
+		trait = elf_childhood
 	}
 	
 	mean_time_to_happen = {
@@ -96,7 +97,7 @@ narrative_event = {
 			limit = {
 				is_female = no
 			}
-			character_event = { id = elfchild.2 }
+			 ## character_event = { id = elfchild.2 } ## Will be implemented later
 		}
 	}	
 }
@@ -110,18 +111,19 @@ narrative_event = {
     picture = "GFX_evt_elven_story"
 	is_triggered_only = yes		
 	
-	#### Keep his birth name #####	
+	#### Keep his father name #####	
 	option = {
-		name = "EVTOPTAelfchild.2" ## I keep my name	
+		name = "EVTOPTAelfchild.2" ## I keep my father name	
 		ai_chance = {
-			factor = 60 
+			factor = 50 
 		}
-	}		
+	}	
+	
 	#### Suggest a Name based on your skills #####	
 	option = {
-		name = "EVTOPTBelfchild.21" ## Suggest a Name	
+		name = "EVTOPTCelfchild.2" ## Suggest a Name	
 		ai_chance = {
-			factor = 40 
+			factor = 20 
 		}		
 		character_event = { id = elfchild.3 }		
 	}		
