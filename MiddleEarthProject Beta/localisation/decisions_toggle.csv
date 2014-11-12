@@ -4,9 +4,9 @@ open_employment_decisions_desc;Opens the list of courtier employment decisions.;
 close_employment_decisions;Hide Employment Decisions;;;;;;;;;;;;;x
 close_employment_decisions_desc;Closes the list of courtier employment decisions.;;;;;;;;;;;;;x
 open_special_decisions;Show Middle Earth Decisions;;;;;;;;;;;;;x
-open_special_decisions_desc;Opens the list of special race, trait and war based decisions.;;;;;;;;;;;;;x
+open_special_decisions_desc;Opens the list of race, item, trait, and war based decisions.;;;;;;;;;;;;;x
 close_special_decisions;Hide Middle Earth Decisions;;;;;;;;;;;;;x
-close_special_decisions_desc;Closes the list of special race or trait based decisions.;;;;;;;;;;;;;x
+close_special_decisions_desc;Closes the list of race, item, trait, and war based decisions.;;;;;;;;;;;;;x
 open_family_decisions;Show Family Decisions;;;;;;;;;;;;;x
 open_family_decisions_desc;Opens the list of family decisions, including hiding your relations, abdication and inheritance of items.;;;;;;;;;;;;;x
 close_family_decisions;Hide Family Decisions;;;;;;;;;;;;;x

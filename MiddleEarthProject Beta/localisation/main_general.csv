@@ -97,6 +97,7 @@ ent_penalty;Onodrim Malus;Onodrim Malus;;;x
 tax_of_mordor;Tributes of Mordor;Tributes of Mordor;;;x
 black_fume;Black Fumes;Black Fumes;;;x
 druedain_penalty;Drúadan Malus;Drúadan Malus;;;x
+wilderness_penalty;Wilderness Malus;Wilderness Malus;;;x
 centralization;Authority;Authority;;;x
 centralization_desc;The Authority determines the generic level privileges, rights and obligations for Vassals,;The Authority determines the generic level privileges, rights and obligations for Vassals,;;;x
 centralization_0;Autonomy;Autonomy;;;x

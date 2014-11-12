@@ -35,6 +35,15 @@ ent_penalty = {
 	icon = 31
 }
 
+wilderness_penalty = {
+	levy_size = -1000
+	levy_reinforce_rate = -1000
+	city_tax_modifier = -1000
+	castle_tax_modifier = -1000
+	icon = 31
+}
+
+
 black_fume = {
 	local_revolt_risk = 0.02
 	land_morale = -0.15

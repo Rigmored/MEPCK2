@@ -946,4 +946,12 @@ spriteTypes = {
 		name = "GFX_rebuild_edhellond"
 		texturefile = "gfx\\interface\\decision_icon_rebuild_edhellond.dds"
 	}
+	spriteType = {
+		name = "GFX_call_assembly_dwarves"
+		texturefile = "gfx\\interface\\decision_icon_call_dwarf_council.dds"
+	}
+	spriteType = {
+		name = "GFX_erebor_craft_decision"
+		texturefile = "gfx\\interface\\decision_forge_weapon.dds"
+	}
 }

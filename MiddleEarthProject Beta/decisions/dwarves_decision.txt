@@ -1,6 +1,6 @@
 decisions = {
-## Go to the tomb of Thorin Oakenshield ##
-tomb_of_thorin = {
+	## Go to the tomb of Thorin Oakenshield ##
+	tomb_of_thorin = {
 		potential = {
 			ai = no #ai cannot use dynasty decisions
 			AND = {		
@@ -10,6 +10,7 @@ tomb_of_thorin = {
 			culture_group = culture_group_dwarves
 			NOT = { has_character_flag = tombofthorin }
 			year = 11285
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 			war = no
@@ -22,12 +23,12 @@ tomb_of_thorin = {
 		effect = {
 			ROOT = { character_event = { id = erebor.1 } }
 		}
-}
+	}
 
 
-## Try to find some Mithril in the deeps of the Moria ##
-mine_moria_decision = {
-is_high_prio = yes
+	## Try to find some Mithril in the deeps of the Moria ##
+	mine_moria_decision = {
+	is_high_prio = no
 
 		potential = {	
 			has_landed_title = c_moria
@@ -35,6 +36,7 @@ is_high_prio = yes
 			NOT = { has_character_flag = mineinmoria }
 			NOT = { has_global_flag = moriaminesareclosed }
 			NOT = { year = 10324 }
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 			war = no
@@ -52,16 +54,17 @@ is_high_prio = yes
 			wealth = -150
 			piety = -150
 		}
-}
+	}
 
-## Improve the City of Erebor ##
-erebor_craft_decision = {
-is_high_prio = yes
+	## Improve the City of Erebor ##
+	erebor_craft_decision = {
+	is_high_prio = no
 
 		potential = {	
 			has_landed_title = c_erebor
 			culture_group = culture_group_dwarves
 			NOT = { has_character_flag = craftinerebor }
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 			war = no
@@ -79,15 +82,16 @@ is_high_prio = yes
 			wealth = -150
 			piety = -150
 		}
-}
+	}
 
-## Call the Assembly of the Dwarves ##
-call_assembly_dwarves = {
-is_high_prio = yes
+	## Call the Assembly of the Dwarves ##
+	call_assembly_dwarves = {
+	is_high_prio = no
 
 		potential = {	
 			culture_group = culture_group_dwarves
 			NOT = { has_global_flag = unification_dwarves }
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 			war = no
@@ -116,6 +120,5 @@ is_high_prio = yes
 			prestige = -1000
 			piety = -1000
 		}
-}
-
+	}
 }
