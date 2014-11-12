@@ -45,3 +45,7 @@ command_servants;Command Servants;Command Servants;;;;x
 command_servants_desc;Command any rulers you have influence over to war.;Command any rulers you have influence over to war.;;;;x
 command_nazgul;Command Nazgûl;Command Nazgûl;;;;x
 command_nazgul_desc;Command the Nazgûl to do your bidding.;Command the Nazgûl to do your bidding.;;;;x
+call_assembly_dwarves;Call the Kings of the Dwarves;Inviter les Rois des Nains à une Assemblée;;;x
+call_assembly_dwarves_desc;Call the Kings of the Dwarves for an Assembly;Inviter les Rois des Nains à une Assemblée;;;x
+erebor_craft_decision;Mine or Craft in Erebor;Miner ou Fabriquer des objets en Erebor;;;x
+erebor_craft_decision_desc;Mine or Craft in Erebor;Miner ou Fabriquer des objets en Erebor;;;x
