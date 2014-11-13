@@ -1066,8 +1066,7 @@ castle = {
 		tax_income = 6
 		heavy_infantry = 500
         	potential = {
-			FROMFROM = { title = 
-b_citadel_tirith }
+			FROMFROM = { title = b_citadel_tirith }
 			culture_group = culture_group_numenorean
             	}
 	}
@@ -1231,7 +1230,7 @@ b_citadel_tirith }
 ########## Dunedains Buildings ##########
 
 	ca_amon_sul = { ### Tower of Amon Sûl
-		desc = ca_fornost_erain_desc
+		desc = ca_amon_sul_desc
 		gold_cost = 850
 		build_time = 1460 #4y
 		fort_level = 5.0

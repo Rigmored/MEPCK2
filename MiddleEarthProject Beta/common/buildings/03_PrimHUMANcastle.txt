@@ -590,6 +590,7 @@ castle = {
 		ai_creation_factor = 100
 		potential = {
 	   		has_global_flag = building
+			NOT = { culture = culture_breelander }
 			OR = {	
 			culture_group = culture_group_haldadian
 			culture = culture_hillmen

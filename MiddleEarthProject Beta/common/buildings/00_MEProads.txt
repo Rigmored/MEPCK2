@@ -28,8 +28,7 @@ tribal = {
 			title = b_echad_eregion #291
 			title = b_fordirith #777
 			title = b_dunered #381
-			title = 
-b_galtrev #383
+			title = b_galtrev #383
 			title = b_fidach #385
 			title = b_talorgan #384
 			title = b_forthbrond #226
@@ -54,8 +53,7 @@ b_galtrev #383
 			title = b_echad_eregion #291
 			title = b_fordirith #777
 			title = b_dunered #381
-			title = 
-b_galtrev #383
+			title = b_galtrev #383
 			title = b_fidach #385
 			title = b_talorgan #384
 			title = b_forthbrond #226
