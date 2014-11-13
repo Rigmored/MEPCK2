@@ -67,3 +67,6 @@ EVTOPTAerebor.17;Great!;Parfait !;;;;;;;;;;;;x
 EVTTITerebor.18;Trade Erebor-Dale;Commerce Erebor-Dale;;;;;;;;;;;;x
 EVTDESCerebor.18;King Dale rejected your generous offer, and from now, trade between Dale and Erebor go down, your alliance with the inhabitants of the Lake is also disintegrating. The relationship between your two kingdoms become darker ...;Le Roi de Dale a rejeté votre généreuse proposition, et à partir de maintenant, les échanges entre Dale et Erebor vont baisser, votre alliance avec les habitants du Lac se délitant également. Les relations entre vos deux royaumes deviennent plus sombres ...;;;;;;;;;;;;x
 EVTOPTAerebor.18;Stupid King…;Un Roi bien idiot…;;;;;;;;;;;;x
+EVTDESCdwarveninfertility.2;You just got married, and there is a tradition among your people to take only one spouse during his life. Will you unite your soul to your spouse?;Vous venez de vous marier, et il est de tradition parmi votre peuple de ne prendre qu'une épouse au cours de sa vie. Allez-vous unir votre âme à votre conjoint?;;;;;;;;;;;;x
+EVTOPTAdwarveninfertility.2;I truely love her.;Je l'aime vraiment.;;;;;;;;;;;;x
+EVTOPTBdwarveninfertility.2;This is just a wife.;C'est juste une épouse.;;;;;;;;;;;;x

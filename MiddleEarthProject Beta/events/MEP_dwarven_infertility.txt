@@ -160,7 +160,7 @@ character_event = {
 	} 
 	
 	option = {
-		name = "EVTOPTAdwarveninfertility.2" # Well, that's just my wife.
+		name = "EVTOPTBdwarveninfertility.2" # Well, that's just my wife.
 		set_character_flag = notmarriedforever
 		trigger = { ai = no }
 	}	
