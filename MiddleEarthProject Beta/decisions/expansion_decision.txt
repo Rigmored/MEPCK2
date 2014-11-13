@@ -85,7 +85,6 @@ subjugate_new_land = {
 				holder_scope = { NOT = { top_liege = ROOT }
 				}
 			}
-		}
 
 		allow = {
 			war = no
@@ -102,7 +101,6 @@ subjugate_new_land = {
 		ai_will_do = {
 			factor = 100
 		}
-	}
 }
 
 
