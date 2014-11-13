@@ -240,14 +240,11 @@ b_waymeet #86
 			title = b_bywater #85
 			title = b_frogmorton #75
 			title = b_bridge_fields #76
-			title = 
-b_brandy_hills #266
+			title = b_brandy_hills #266
 			title = b_bree #267
-			title = 
-b_combe #265
+			title = b_combe #265
 			title = b_marshwaterford #268
-			title = 
-b_menegaur #305
+			title = b_menegaur #305
 			title = b_mithereithel #307
 			title = b_nenim #369
 			title = b_pinnath_tereg #297

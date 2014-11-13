@@ -667,7 +667,7 @@ castle = {
 		add_number_to_name = no
     		potential = {
         		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
     		}
 	}
 	ca_elven_forge2 = {
@@ -681,7 +681,7 @@ castle = {
 		add_number_to_name = no
     		potential = {
         		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
     		}
 	}
 	ca_elven_forge3 = {
@@ -695,7 +695,7 @@ castle = {
 		add_number_to_name = no
     		potential = {
         		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
     		}
 	}
 	ca_healing = {
@@ -707,7 +707,7 @@ castle = {
 		add_number_to_name = no
     		potential = {
 			has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
     		}
 	}
 
@@ -719,7 +719,7 @@ castle = {
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
 			OR = {
 			province_id = 234 # Imladris
 			}
@@ -735,7 +735,7 @@ castle = {
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
             	}
 	}
 	ca_rivendellha3 = {
@@ -748,7 +748,7 @@ castle = {
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
             	}
 	}
 	ca_rivendellha4 = {
@@ -761,7 +761,7 @@ castle = {
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
             	}
 	}
 	ca_rivendellha5 = {
@@ -774,7 +774,7 @@ castle = {
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
             	}
 	}
 	

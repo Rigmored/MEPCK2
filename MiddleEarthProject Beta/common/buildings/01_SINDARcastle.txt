@@ -83,7 +83,7 @@ castle = {
 	ca_Vwatchtower_1 = {
 		desc = ca_Vwatchtower_1_desc
 		
-	gold_cost = 30
+		gold_cost = 30
 		build_time = 90
 		garrison_size = 0.025
 		ai_creation_factor = 90
