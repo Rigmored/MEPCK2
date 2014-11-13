@@ -1,5 +1,6 @@
 ##### MiddleEarthProject ######
 ##racial province reinforcement modifiers##
+
 noldor_penalty = {
 	levy_reinforce_rate = -0.9
 	icon = 31

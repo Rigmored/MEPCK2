@@ -9,21 +9,20 @@ province_event = {
 	hide_window = yes
 	
 	trigger = {
-	religion_group = religion_group_eldar
-	NOT = { has_province_modifier = elvish_penalty } 
+		culture = culture_noldor
+		NOT = { has_province_modifier = noldor_penalty } 
 	}
 	
 	mean_time_to_happen = {
-	days = 1
+		days = 1
 	}
 	
 	option = {
-	name = "OK"
-	ROOT = {
-	add_province_modifier = { name = elvish_penalty duration = -1 }
-}
-}
-
+		name = "OK"
+		ROOT = {
+			add_province_modifier = { name = noldor_penalty duration = -1 }
+		}
+	}
 }
 
 #elves PROVINCES - REMOVING
@@ -35,21 +34,20 @@ province_event = {
 	hide_window = yes
 	
 	trigger = {
-	NOT = { religion_group = religion_group_eldar }
-	has_province_modifier = elvish_penalty
+		NOT = { culture = culture_noldor }
+		has_province_modifier = noldor_penalty
 	}
 	
 	mean_time_to_happen = {
-	days = 1
+		days = 1
 	}
 	
 	option = {
-	name = "OK"
-	ROOT = {
-	remove_province_modifier = elvish_penalty
-}
-}
-
+		name = "OK"
+		ROOT = {
+			remove_province_modifier = noldor_penalty
+		}
+	}
 }
 
 
@@ -62,21 +60,20 @@ province_event = {
 	hide_window = yes
 	
 	trigger = {
-	religion = religion_mahal
-	NOT = { has_province_modifier = dwarven_penalty } 
+		religion = religion_mahal
+		NOT = { has_province_modifier = dwarven_penalty } 
 	}
 	
 	mean_time_to_happen = {
-	days = 1
+		days = 1
 	}
 	
 	option = {
-	name = "OK"
-	ROOT = {
-	add_province_modifier = { name = dwarven_penalty duration = -1 }
-}
-}
-
+		name = "OK"
+		ROOT = {
+			add_province_modifier = { name = dwarven_penalty duration = -1 }
+		}
+	}
 }
 
 #DWARVEN PROVINCES - REMOVING

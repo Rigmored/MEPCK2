@@ -90,7 +90,7 @@ TRAIT_OPINION_SAME_TRAIT_SAME_REL;Racial Same Trait Opinion: $VALUE$;Racial Same
 VS_REL_ENEMY;Damage Against Racial Enemies;Damage Against Racial Enemies;;;x
 opinion_infidel;Different Race;Different Race;;;x
 dwarven_penalty;Dwarven Malus;Dwarven Malus;;;x
-elvish_penalty;Elven Malus;Elven Malus;;;x
+noldor_penalty;Noldor Malus;Noldor Malus;;;x
 gondorian_penalty;Gondorian Malus;Gondorian Malus;;;x
 dunedain_penalty;Dúnadan Malus;Dúnadan Malus;;;x
 ent_penalty;Onodrim Malus;Onodrim Malus;;;x
