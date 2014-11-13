@@ -65,6 +65,7 @@ EVENTS :
 - An eastern ruler has now the possibility to find and invite as courtisans one of the Blue Istari: Alatar and Pallando
 - When the King of Gondor is crowned, he's now able to renew the Oath of Eorl, or to try to vassalize/conquer the land for Gondor.
 - Added event to remove Ringbearer title from non-ringbearer
+- Elves can now only have one spouse in their lives. Hobbits and Dwarves can choose this option too.
 
 GFX :
 - Changed a lot of old flags
@@ -128,6 +129,7 @@ PROVINCES :
 - Deleted 2 baronies in Midgewater Marshes
 - Added new baronies in Rohirrim Eastfolde
 - Moved Brownlands capital to Talath Harroch
+- Changed the capital of the duchy of Elostirion to Elostirion (was Undertowers)
 
 TRAITS :
 - Added the Nine Rings of the Men to the Nazgul

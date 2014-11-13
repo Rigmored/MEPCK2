@@ -4956,7 +4956,7 @@ e_arnor = {
 			color={ 237 18 29 }
 			color2={ 255 255 255 }
 			
-			capital = 664 #Undertowers
+			capital = 687 #Tower Hills
 			
 			culture_group_edain = "Elostirion"
 			culture_arnorian = "Elostirion"
@@ -5002,7 +5002,13 @@ e_arnor = {
 				culture_group_quendi = "Emyn Beraid"
 				culture_group_amanyar = "Emyn Beraid"
 				culture_group_umanyar = "Emyn Beraid"
-				culture_group_moriquendi = "Emyn Beraid"				
+				culture_group_moriquendi = "Emyn Beraid"
+				culture_group_edain = "Elostirion"
+				culture_arnorian = "Elostirion"
+				culture_gondorian = "Elostirion"	
+				culture_dunedain = "Elostirion"		
+				culture_black_numenorean = "Elostirion"
+				culture_numenorean = "Elostirion"					
 		
 				b_elostirion = {	
 					holy_site = religion_calaquendi
