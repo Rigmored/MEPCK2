@@ -75,49 +75,34 @@ subjugate_new_land = {
 
 ## Try to vassalize the Shire ##
 
-vassalize_shire = {
+	vassalize_shire = {
 
-
-	potential = {
-
-		independent = yes
-
-		capable = yes
-
-		has_landed_title = { e_arnor }
-
-		k_shire = {
-
-			holder_scope = { NOT = { top_liege = ROOT }
+		potential = {
+			independent = yes
+			capable = yes
+			has_landed_title = { e_arnor }
+			k_shire = {
+				holder_scope = { NOT = { top_liege = ROOT }
+				}
 			}
-
 		}
 
-	allow = {
-
-		war = no
-
-		in_command = no
-
-		prisoner = no
-
-		age = 16
-
-		prestige = 800
-
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+			age = 16
+			prestige = 800
 		}
 
-	effect = {
-
-		character_event = { id = vassalize.0 }
- 
+		effect = {
+			character_event = { id = vassalize.0 }
 		}
 
-	ai_will_do = {
+		ai_will_do = {
 			factor = 100
 		}
-
-
+	}
 }
 
 

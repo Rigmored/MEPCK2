@@ -25,9 +25,9 @@ decisions = {
 			custom_tooltip = { 
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					NOT = { culture_group = culture_group = culture_group_forodwaith }
-					NOT = { culture_group = culture_group = culture_group_haldadian }
-            				NOT = { culture = culture = culture_druedain }
+					NOT = { culture_group = culture_group_forodwaith }
+					NOT = { culture_group = culture_group_haldadian }
+            				NOT = { culture = culture_druedain }
 				}
 			}
 		}
