@@ -203,19 +203,19 @@ capital_defenses = {
 }
 
 ##### ROADS #####
-meninaugrim = {
-	local_speed_modifier = 1.7
-	icon = 31
-}
-dirtroad = {
-	local_speed_modifier = 1.1
-	icon = 31
-}
-pavedroad = {
-	local_speed_modifier = 1.3
-	icon = 31
-}
-greatroute = {
-	local_speed_modifier = 1.5
-	icon = 31
-}
+#meninaugrim = {
+#	local_speed_modifier = 1.7
+#	icon = 31
+#}
+#dirtroad = {
+#	local_speed_modifier = 1.1
+#	icon = 31
+#}
+#pavedroad = {
+#	local_speed_modifier = 1.3
+#	icon = 31
+#}
+#greatroute = {
+#	local_speed_modifier = 1.5
+#	icon = 31
+#}
