@@ -3,7 +3,7 @@
 # EVENTS FOR LOVE, PREGNANCY AND BIRTH
 #
 #############################################
-# by Henrik Fåhraeus
+# by Henrik FÃ¥hraeus
 #############################################
 
 #############################################
@@ -41,8 +41,12 @@ character_event = {
 		NOT = { trait = infirm }
 		NOT = { trait = incapable }
 		NOT = { trait = celibate }
+		NOT = { trait = elf }
+		NOT = { trait = marriedforever }
 		liege = {
 			NOT = { character = ROOT }
+			NOT = { trait = marriedforever }
+			NOT = { trait = elf }
 			demesne_size = 1
 			NOT = { is_close_relative = ROOT }
 			OR = {
@@ -570,6 +574,8 @@ character_event = {
 	trigger = {
 		is_ruler = no
 		is_marriage_adult = yes
+		NOT = { trait = elf }
+		NOT = { trait = marriedforever }
 		OR = {
 			is_female = no
 			NOT = { age = 40 }
@@ -578,6 +584,8 @@ character_event = {
 			ai = no		# otherwise we get too many unnecessary children in the game
 			demesne_size = 1
 			any_courtier = {
+				NOT = { trait = elf }
+				NOT = { trait = marriedforever }
 				is_ruler = no	
 				NOT = { is_close_relative = ROOT }
 				OR = {
