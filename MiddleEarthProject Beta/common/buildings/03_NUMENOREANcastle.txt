@@ -1114,8 +1114,7 @@ castle = {
 		tax_income = 6
 		heavy_infantry = 500
         	potential = {
-			has_global_flag = building
-            		FROMFROM = { title = b_dome_of_the_stars }
+			FROMFROM = { title = b_dome_of_the_stars }
 			culture_group = culture_group_numenorean
 			NOT = { year=9900 }
 			NOT = { has_building = ca_osgiliath_ruins }
@@ -1149,7 +1148,7 @@ castle = {
 		ai_creation_factor = 80
 		tax_income = 6
 		heavy_infantry = 500
-        not_if_x_exists = { ca_dome_of_the_stars }
+        	not_if_x_exists = { ca_dome_of_the_stars }
 		potential = {
             FROMFROM = { title = b_dome_of_the_stars }
 			culture_group = culture_group_numenorean
@@ -1397,6 +1396,7 @@ castle = {
 		ai_creation_factor = 86
         	potential = {
 			has_global_flag = building
+			year = 9770	
 			OR = {
 				culture = culture_black_numenorean
 				culture = culture_umbareans

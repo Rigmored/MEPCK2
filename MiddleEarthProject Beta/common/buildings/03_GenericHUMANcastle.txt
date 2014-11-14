@@ -929,6 +929,7 @@ castle = {
 		galleys = 6
 		ai_creation_factor = 100
 		potential = {
+			has_global_flag = building
 			OR = {
 			culture_group = culture_group_edain
 			culture_group = culture_group_southron

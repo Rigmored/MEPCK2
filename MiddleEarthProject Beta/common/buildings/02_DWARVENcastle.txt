@@ -1115,7 +1115,7 @@ ca_khazad = { ##moria for dwarves
             }
 	}	
 	
-	ca_thorinsgate = { #Thorin's Gatem#
+	ca_thorinsgate = { #Thorin's Gate#
 		desc = ca_thorinsgate_desc
 		gold_cost = 510
 		build_time = 1825
@@ -1130,7 +1130,7 @@ ca_khazad = { ##moria for dwarves
             }
 	}
 	
-	ca_thorinsgate1 = { #Thorin's Gatem#
+	ca_thorinsgate1 = { #Thorin's Gate#
 		desc = ca_thorinsgate_desc
 		upgrades_from = ca_thorinsgate
 		gold_cost = 605
