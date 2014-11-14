@@ -37,10 +37,10 @@ ent_penalty = {
 }
 
 wilderness_penalty = {
-	levy_size = -1000
-	levy_reinforce_rate = -1000
-	city_tax_modifier = -1000
-	castle_tax_modifier = -1000
+	levy_size = -1.0
+	levy_reinforce_rate = -1.0
+	city_tax_modifier = -1.0
+	castle_tax_modifier = -1.0
 	icon = 31
 }
 
