@@ -923,7 +923,6 @@ castle = {
 	ca_Hshipyard_1 = {
 		desc = Hshipyard_desc
 		port = yes
-		
 		gold_cost = 100
 		build_time = 365
 		galleys = 6
@@ -945,7 +944,6 @@ castle = {
 	ca_Hshipyard_2 = {
 		desc = Hshipyard_desc
 		port = yes
-		
 		upgrades_from = ca_Hshipyard_1
 		gold_cost = 100
 		build_time = 730
@@ -964,7 +962,6 @@ castle = {
 			NOT = { culture = culture_druedain }			
             	}
 	}
-	
 	ca_Hshipyard_3 = {
 		desc = Hshipyard_desc
 		port = yes
