@@ -59,6 +59,44 @@ ca_Phillsmen_4;Hillsmen;Hommes des Collines;;x
 ca_Phillsmen_5;Hillsmen;Hommes des Collines;;x
 ca_Phillsmen_6;Hillsmen;Hommes des Collines;;x
 ca_Phillsmen_1_desc;These light troops are used to fighting in hills and know how to use it to their advantadge.;Ces troupes légères connaissent bien les collines et savent les utiliser à leur avantage.;;x
-
-
+tb_Pwall_1;Wooden Palisade;Palisade en bois;;x
+tb_Pwall_2;Low Stone Wall;Muret de pierre;;x  
+tb_Pwall_3;Stone Wall;Hauts murs;;x  
+tb_Pwatchtower_1;Watchtower;Tour de garde;;x
+tb_Pwatchtower_2;Watchtower;Tour de garde;;x
+tb_Pwatchtower_3;Watchtower;Tour de garde;;x
+tb_Pkeep_1;Keep;Forteresse;;x
+tb_Pkeep_2;Keep;Forteresse;;x
+tb_Pkeep_3;Keep;Forteresse;;x
+tb_Pmilitia_barracks_1;Militia;Milice;;x
+tb_Pmilitia_barracks_2;Militia;Milice;;x
+tb_Pmilitia_barracks_3;Militia;Milice;;x
+tb_Pmilitia_barracks_4;Militia;Milice;;x
+tb_Ptraining_grounds_1;Training Grounds;Zone d'entraînement;;x
+tb_Ptraining_grounds_2;Training Grounds;Zone d'entraînement;;x
+tb_Ptraining_grounds_3;Training Grounds;Zone d'entraînement;;x
+tb_Pcastleguards_1;Castle Guard;Garde du chateau;;x 
+tb_Pcastleguards_2;Castle Guard;Garde du chateau;;x 
+tb_Pcastleguards_3;Castle Guard;Garde du chateau;;x 
+tb_Ptown_1;Castle Town;Ville du chateau;;x
+tb_Ptown_2;Castle Town;Ville du chateau;;x
+tb_Ptown_3;Castle Town;Ville du chateau;;x
+tb_Pstable_1;Stables;Écurie;Ställe;Establos;;x
+tb_Pstable_2;Stables;Écurie;Ställe;Establos;;x
+tb_Pstable_3;Stables;Écurie;Ställe;Establos;;x
+tb_Pshipyard_1;Castle Shipyard;Chantier naval du château;Schloss-Werft;Astillero del Castillo;;x
+tb_Pshipyard_2;Castle Shipyard;Chantier naval du château;Schloss-Werft;Astillero del Castillo;;x
+tb_Pshipyard_3;Castle Shipyard;Chantier naval du château;Schloss-Werft;Astillero del Castillo;;x
+tb_Psnowmen_1;Snowmen;Hommes des Neiges;;x
+tb_Psnowmen_2;Snowmen;Hommes des Neiges;;x
+tb_Psnowmen_3;Snowmen;Hommes des Neiges;;x
+tb_Psnowmen_4;Snowmen;Hommes des Neiges;;x
+tb_Psnowmen_5;Snowmen;Hommes des Neiges;;x
+tb_Psnowmen_6;Snowmen;Hommes des Neiges;;x
+tb_Phillsmen_1;Hillsmen;Hommes des Collines;;x
+tb_Phillsmen_2;Hillsmen;Hommes des Collines;;x
+tb_Phillsmen_3;Hillsmen;Hommes des Collines;;x
+tb_Phillsmen_4;Hillsmen;Hommes des Collines;;x
+tb_Phillsmen_5;Hillsmen;Hommes des Collines;;x
+tb_Phillsmen_6;Hillsmen;Hommes des Collines;;x
 

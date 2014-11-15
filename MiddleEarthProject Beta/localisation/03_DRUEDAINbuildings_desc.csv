@@ -23,6 +23,12 @@ ct_Icastleguards_1;Hunters Lodge;Chasseurs de gros gibier;;x
 ct_Icastleguards_1_desc;The Hunters Lodge is a place where best hunters among this peoples gather. It also carries out the function of providing weapons, traps, instruments and the training for hunting or for the defense of the village.;Les chasseurs de gros gibier ont des lances primitives afin de tuer des animaux comme les sangliers ou les ours.;;x
 ct_Itown_1;Basketry Workshop;Vannerie;;x
 ct_Itown_1_desc;This Basketry Workshop provides baskets and various ornaments made of wicker, straw and wood for Drúedain and for some curious foreign merchants.;La vannerie permet de fabriquer des objets pour le peuple drúedain, mais aussi pour quelques curieux marchands extérieurs.;;x
+tb_Iwall_1;Wooden Palisade;Palisade en bois;;x
+tb_pukel_men;Púkel-men;Púkel-men;;;;x;;;;;;;;;
+tb_Ikeep_1;Huts;Huttes;;x
+tb_Imilitia_barracks_1;Hunting Workshop;Chasseurs cueilleurs;;x
+tb_Icastleguards_1;Hunters Lodge;Chasseurs de gros gibier;;x 
+tb_Itown_1;Basketry Workshop;Vannerie;;x
 
 
 

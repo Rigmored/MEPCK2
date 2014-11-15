@@ -121,7 +121,7 @@ tribal = {
 		ai_feudal_modifier = -10
 		ai_republic_modifier = 10
 		
-		convert_to_feudal = ca_town_1
+		convert_to_feudal = tb_town_1
 		
 		potential = {
 	    		has_global_flag = building
@@ -163,7 +163,7 @@ tribal = {
 		ai_feudal_modifier = -10
 		ai_republic_modifier = 10
 		
-		convert_to_feudal = ca_town_2
+		convert_to_feudal = tb_town_2
 		
 		potential = {
 	    		has_global_flag = building
@@ -183,7 +183,7 @@ tribal = {
 		ai_creation_factor = 96
 		ai_republic_modifier = 5
 		
-		convert_to_feudal = ca_shipyard_1
+		convert_to_feudal = tb_shipyard_1
 		convert_to_republic = ct_shipyard_1
 		
 		potential = {
@@ -205,7 +205,7 @@ tribal = {
 		ai_creation_factor = 95
 		ai_republic_modifier = 5
 		
-		convert_to_feudal = ca_shipyard_2
+		convert_to_feudal = tb_shipyard_2
 		convert_to_republic = ct_shipyard_2
 		
 		potential = {
@@ -227,7 +227,7 @@ tribal = {
 		ai_creation_factor = 94
 		ai_republic_modifier = 5
 		
-		convert_to_feudal = ca_shipyard_3
+		convert_to_feudal = tb_shipyard_3
 		convert_to_republic = ct_shipyard_3
 		
 		potential = {
@@ -249,7 +249,7 @@ tribal = {
 		ai_creation_factor = 93
 		ai_republic_modifier = 5
 		
-		convert_to_feudal = ca_shipyard_4
+		convert_to_feudal = tb_shipyard_4
 		convert_to_republic = ct_shipyard_4
 		
 		potential = {
@@ -287,7 +287,7 @@ tribal = {
 		garrison_size = 0.05
 		ai_creation_factor = 97
 		
-		convert_to_feudal = ca_keep_1
+		convert_to_feudal = tb_keep_1
 		convert_to_republic = ct_training_grounds_1
 
 		potential = {
@@ -326,7 +326,7 @@ tribal = {
 		garrison_size = 0.1
 		ai_creation_factor = 95
 		
-		convert_to_feudal = ca_keep_2
+		convert_to_feudal = tb_keep_2
 		convert_to_republic = ct_training_grounds_2
 
 		potential = {
@@ -362,7 +362,7 @@ tribal = {
 		light_infantry = 40
 		ai_creation_factor = 94
 		
-		convert_to_feudal = ca_barracks_1
+		convert_to_feudal = tb_barracks_1
 		convert_to_republic = ct_guard_1
 
 		potential = {
@@ -399,7 +399,7 @@ tribal = {
 		light_infantry = 40
 		ai_creation_factor = 92
 		
-		convert_to_feudal = ca_barracks_2
+		convert_to_feudal = tb_barracks_2
 		convert_to_republic = ct_guard_2
 
 		potential = {
@@ -435,7 +435,7 @@ tribal = {
 		archers = 15
 		ai_creation_factor = 94
 		
-		convert_to_feudal = ca_militia_barracks_1
+		convert_to_feudal = tb_militia_barracks_1
 		convert_to_republic = ct_barracks_1
 
 		potential = {
@@ -472,7 +472,7 @@ tribal = {
 		archers = 15
 		ai_creation_factor = 92
 		
-		convert_to_feudal = ca_militia_barracks_2
+		convert_to_feudal = tb_militia_barracks_2
 		convert_to_republic = ct_barracks_2
 
 		potential = {
@@ -517,7 +517,7 @@ tribal = {
             		NOT = { culture = culture_druedain }
             		}
 		
-		convert_to_feudal = ca_training_grounds_1
+		convert_to_feudal = tb_training_grounds_1
 		convert_to_republic = ct_rep_arsenal_1
 	}
 	
@@ -556,14 +556,14 @@ tribal = {
             		NOT = { culture = culture_druedain }
             		}
 		
-		convert_to_feudal = ca_training_grounds_2
+		convert_to_feudal = tb_training_grounds_2
 		convert_to_republic = ct_rep_arsenal_2
 	}
 
 ###################### Tribal buildings for Druedain culture - I code- (very primitive) all buildings limited to level 1 ###################### 
 ###################### Walls , gives fortlevel###################### 
-	ca_Iwall_1 = {
-		desc = ca_Iwall_1_desc
+	tb_Iwall_1 = {
+		desc = tb_Iwall_1_desc
 		gold_cost = 50
 		build_time = 182
 		fort_level = 0.5
@@ -573,11 +573,11 @@ tribal = {
 			culture = culture_druedain
 		}		
 		convert_to_republic = ct_Iwall_1
-		convert_to_feudal = ca_Iwall_1
+		convert_to_feudal = tb_Iwall_1
 	}
 ###################### Púkel-men (Watchtowers) give garrison size ###################### 
-	ca_pukel_men = {
-		desc = ca_pukel_men_desc
+	tb_pukel_men = {
+		desc = tb_pukel_men_desc
 		prestige_cost = 300
 		build_time = 547
 		garrison_size = 0.05
@@ -587,11 +587,11 @@ tribal = {
 			culture = culture_druedain		 
 		}
 		convert_to_republic = ct_pukel_men
-		convert_to_feudal = ca_pukel_men
+		convert_to_feudal = tb_pukel_men
 	}
 ###################### Keeps (huts), gives levy size ###################### 
-	ca_Ikeep_1 = {
-		desc = ca_Ikeep_1_desc
+	tb_Ikeep_1 = {
+		desc = tb_Ikeep_1_desc
 		prestige_cost = 300
 		build_time = 547
 		levy_size = 0.05
@@ -601,11 +601,11 @@ tribal = {
 			culture = culture_druedain
             	}
 		convert_to_republic = ct_Ikeep_1
-		convert_to_feudal = ca_Ikeep_1
+		convert_to_feudal = tb_Ikeep_1
 	}
 ##################### Provisionners giving gatherers (primitive light infantry) and game bird hunters (slingers) ########################
-	ca_Imilitia_barracks_1 = {
-		desc = ca_Imilitia_barracks_1_desc	
+	tb_Imilitia_barracks_1 = {
+		desc = tb_Imilitia_barracks_1_desc	
 		prestige_cost = 500
 		build_time = 610
 		light_infantry = 40
@@ -616,11 +616,11 @@ tribal = {
 			culture = culture_druedain
             	}
 		convert_to_republic = ct_Imilitia_barracks_1
-		convert_to_feudal = ca_Imilitia_barracks_1
+		convert_to_feudal = tb_Imilitia_barracks_1
 	}
 ####################### Big game hunters : primitive spearmen #######################
-	ca_Icastleguards_1 = {
-		desc = ca_Icastleguards_1_desc
+	tb_Icastleguards_1 = {
+		desc = tb_Icastleguards_1_desc
 		prestige_cost = 675
 		build_time = 820
 		pikemen = 45
@@ -630,11 +630,11 @@ tribal = {
 			culture = culture_druedain
             	}
 		convert_to_republic = ct_Icastleguards_1
-		convert_to_feudal = ca_Icastleguards_1
+		convert_to_feudal = tb_Icastleguards_1
 	}
 ####################### Basketwork, gives income #######################
-	ca_Itown_1 = {
-		desc = ca_Itown_1_desc
+	tb_Itown_1 = {
+		desc = tb_Itown_1_desc
 		
 		gold_cost = 100
 		build_time = 365
@@ -645,14 +645,14 @@ tribal = {
 			culture = culture_druedain
             	}
 		convert_to_republic = ct_Itown_1
-		convert_to_feudal = ca_Itown_1
+		convert_to_feudal = tb_Itown_1
 	}
 
 
 # Tribal buildings for humans group 'P" - Forodwaith and Haldadian - limited to lvl 3 #
 ###################### Walls , gives fortlevel###################### 
-	ca_Pwall_1 = {
-		desc = ca_Pwall_1_desc
+	tb_Pwall_1 = {
+		desc = tb_Pwall_1_desc
 		
 		gold_cost = 50
 		build_time = 182
@@ -666,12 +666,12 @@ tribal = {
             		}
 		}		
 		convert_to_republic = ct_Pwall_1
-		convert_to_feudal = ca_Pwall_1	
+		convert_to_feudal = tb_Pwall_1	
 	}
-	ca_Pwall_2 = {
-		desc = ca_Pwall_2_desc
+	tb_Pwall_2 = {
+		desc = tb_Pwall_2_desc
 		
-		upgrades_from = ca_Pwall_1
+		upgrades_from = tb_Pwall_1
 		gold_cost = 50
 		build_time = 182
 		fort_level = 0.5
@@ -684,12 +684,12 @@ tribal = {
             		}		 
 		}		
 		convert_to_republic = ct_Pwall_2
-		convert_to_feudal = ca_Pwall_2
+		convert_to_feudal = tb_Pwall_2
 	}
-	ca_Pwall_3 = {
-		desc = ca_Pwall_3_desc
+	tb_Pwall_3 = {
+		desc = tb_Pwall_3_desc
 		
-		upgrades_from = ca_Pwall_2
+		upgrades_from = tb_Pwall_2
 		gold_cost = 50
 		build_time = 182
 		fort_level = 0.5
@@ -702,12 +702,12 @@ tribal = {
             		}	 
 		}		
 		convert_to_republic = ct_Pwall_3
-		convert_to_feudal = ca_Pwall_3
+		convert_to_feudal = tb_Pwall_3
 	}
 	
 ###################### #Watchtowers, give garrison size ###################### 
-	ca_Pwatchtower_1 = {
-		desc = ca_Pwatchtower_1_desc
+	tb_Pwatchtower_1 = {
+		desc = tb_Pwatchtower_1_desc
 		
 		prestige_cost = 300
 		build_time = 547
@@ -721,12 +721,12 @@ tribal = {
             		}	 
 		}		
 		convert_to_republic = ct_Pwatchtower_1
-		convert_to_feudal = ca_Pwatchtower_1
+		convert_to_feudal = tb_Pwatchtower_1
 	}
-	ca_Pwatchtower_2 = {
-		desc = ca_Pwatchtower_2_desc
+	tb_Pwatchtower_2 = {
+		desc = tb_Pwatchtower_2_desc
 		
-		upgrades_from = ca_Pwatchtower_1
+		upgrades_from = tb_Pwatchtower_1
 		prestige_cost = 400
 		build_time = 730
 		garrison_size = 0.1
@@ -739,12 +739,12 @@ tribal = {
             		}	 
 		}		
 		convert_to_republic = ct_Pwatchtower_2
-		convert_to_feudal = ca_Pwatchtower_2
+		convert_to_feudal = tb_Pwatchtower_2
 	}
-	ca_Pwatchtower_3 = {
-		desc = ca_Pwatchtower_3_desc
+	tb_Pwatchtower_3 = {
+		desc = tb_Pwatchtower_3_desc
 		
-		upgrades_from = ca_Pwatchtower_2
+		upgrades_from = tb_Pwatchtower_2
 		prestige_cost = 500
 		build_time = 1095
 		garrison_size = 0.15
@@ -757,12 +757,12 @@ tribal = {
             		}		 
 		}		
 		convert_to_republic = ct_Pwatchtower_3
-		convert_to_feudal = ca_Pwatchtower_3
+		convert_to_feudal = tb_Pwatchtower_3
 	}
 
 ###################### Keeps, gives levy size ###################### 
-	ca_Pkeep_1 = {
-		desc = ca_Pkeep_1_desc
+	tb_Pkeep_1 = {
+		desc = tb_Pkeep_1_desc
 		
 		prestige_cost = 300
 		build_time = 547
@@ -776,13 +776,13 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Pbarracks_1
-		convert_to_feudal = ca_Pkeep_1
+		convert_to_feudal = tb_Pkeep_1
 	}
-	ca_Pkeep_2 = {
-		desc = ca_Pkeep_1_desc
+	tb_Pkeep_2 = {
+		desc = tb_Pkeep_1_desc
 
-		prerequisites = { ca_Pwall_1 }
-		upgrades_from = ca_Pkeep_1
+		prerequisites = { tb_Pwall_1 }
+		upgrades_from = tb_Pkeep_1
 		prestige_cost = 400
 		build_time = 730
 		levy_size = 0.1
@@ -795,13 +795,13 @@ tribal = {
             		}
 		}		
 		convert_to_republic = ct_Pbarracks_2
-		convert_to_feudal = ca_Pkeep_2
+		convert_to_feudal = tb_Pkeep_2
 	}
-	ca_Pkeep_3 = {
-		desc = ca_Pkeep_1_desc
+	tb_Pkeep_3 = {
+		desc = tb_Pkeep_1_desc
 		
-		prerequisites = { ca_Pwall_2 }
-		upgrades_from = ca_Pkeep_2
+		prerequisites = { tb_Pwall_2 }
+		upgrades_from = tb_Pkeep_2
 		prestige_cost = 500
 		build_time = 1095
 		levy_size = 0.15
@@ -814,12 +814,12 @@ tribal = {
             		}	 
 		}		
 		convert_to_republic = ct_Pbarracks_3
-		convert_to_feudal = ca_Pkeep_3
+		convert_to_feudal = tb_Pkeep_3
 	}
 	
 ####################### Militia barracks, gives light infantry and archers###################### 
-	ca_Pmilitia_barracks_1 = {
-		desc = ca_Pmilitia_barracks_1_desc
+	tb_Pmilitia_barracks_1 = {
+		desc = tb_Pmilitia_barracks_1_desc
 		
 		prestige_cost = 425
 		build_time = 520
@@ -834,13 +834,13 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Ptownmilitia_1
-		convert_to_feudal = ca_Pmilitia_barracks_1
+		convert_to_feudal = tb_Pmilitia_barracks_1
 	}
-	ca_Pmilitia_barracks_2 = {
-		desc = ca_Pmilitia_barracks_2_desc
+	tb_Pmilitia_barracks_2 = {
+		desc = tb_Pmilitia_barracks_2_desc
 
-		prerequisites = { ca_Pwall_1 }
-		upgrades_from = ca_Pmilitia_barracks_1
+		prerequisites = { tb_Pwall_1 }
+		upgrades_from = tb_Pmilitia_barracks_1
 		prestige_cost = 665
 		build_time = 910
 		light_infantry = 40
@@ -854,12 +854,12 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Ptownmilitia_2
-		convert_to_feudal = ca_Pmilitia_barracks_2
+		convert_to_feudal = tb_Pmilitia_barracks_2
 	}
-	ca_Pmilitia_barracks_3 = {
-		desc = ca_Pmilitia_barracks_3_desc
+	tb_Pmilitia_barracks_3 = {
+		desc = tb_Pmilitia_barracks_3_desc
 		
-		upgrades_from = ca_Pmilitia_barracks_2
+		upgrades_from = tb_Pmilitia_barracks_2
 		prestige_cost = 1125
 		build_time = 1640
 		light_infantry = 50
@@ -873,12 +873,12 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Ptownmilitia_3
-		convert_to_feudal = ca_Pmilitia_barracks_3
+		convert_to_feudal = tb_Pmilitia_barracks_3
 	}
-	ca_Pmilitia_barracks_4 = {
-		desc = ca_Pmilitia_barracks_4_desc
+	tb_Pmilitia_barracks_4 = {
+		desc = tb_Pmilitia_barracks_4_desc
 		
-		upgrades_from = ca_Pmilitia_barracks_3
+		upgrades_from = tb_Pmilitia_barracks_3
 		prestige_cost = 1500
 		build_time = 2740
 		light_infantry = 60
@@ -892,14 +892,14 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Ptownmilitia_4
-		convert_to_feudal = ca_Pmilitia_barracks_4
+		convert_to_feudal = tb_Pmilitia_barracks_4
 	}
 	
 ####################### Training grounds, gives morale and reinforce rate #######################
-	ca_Ptraining_grounds_1 = {
-		desc = ca_Ptraining_grounds_1_desc
+	tb_Ptraining_grounds_1 = {
+		desc = tb_Ptraining_grounds_1_desc
 		
-		prerequisites = { ca_Pwall_2 }
+		prerequisites = { tb_Pwall_2 }
 		prestige_cost = 300
 		build_time = 547
 		land_morale = 0.1
@@ -913,12 +913,12 @@ tribal = {
 			culture_group = culture_group_haldadian	
             		}
             	}		
-		convert_to_feudal = ca_Ptraining_grounds_1
+		convert_to_feudal = tb_Ptraining_grounds_1
 	}
-	ca_Ptraining_grounds_2 = {
-		desc = ca_Ptraining_grounds_1_desc
+	tb_Ptraining_grounds_2 = {
+		desc = tb_Ptraining_grounds_1_desc
 		
-		upgrades_from = ca_Ptraining_grounds_1
+		upgrades_from = tb_Ptraining_grounds_1
 		prestige_cost = 600
 		build_time = 1095
 		land_morale = 0.15
@@ -932,12 +932,12 @@ tribal = {
 			culture_group = culture_group_haldadian	
             		}
             	}		
-		convert_to_feudal = ca_Ptraining_grounds_2
+		convert_to_feudal = tb_Ptraining_grounds_2
 	}
-	ca_Ptraining_grounds_3 = {
-		desc = ca_Ptraining_grounds_1_desc
+	tb_Ptraining_grounds_3 = {
+		desc = tb_Ptraining_grounds_1_desc
 		
-		upgrades_from = ca_Ptraining_grounds_2
+		upgrades_from = tb_Ptraining_grounds_2
 		prestige_cost = 1000
 		build_time = 2190
 		land_morale = 0.2
@@ -951,12 +951,12 @@ tribal = {
 			culture_group = culture_group_haldadian	
             		}
             	}		
-		convert_to_feudal = ca_Ptraining_grounds_3
+		convert_to_feudal = tb_Ptraining_grounds_3
 	}
 	
 ####################### Castle Guard, gives heavy infantry and pikemen #######################
-	ca_Pcastleguards_1 = {
-		desc = ca_Pcastleguards_1_desc
+	tb_Pcastleguards_1 = {
+		desc = tb_Pcastleguards_1_desc
 		
 		prestige_cost = 675
 		build_time = 820
@@ -970,13 +970,13 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Pguard_1
-		convert_to_feudal = ca_Pcastleguards_1
+		convert_to_feudal = tb_Pcastleguards_1
 	}
-	ca_Pcastleguards_2 = {
-		desc = ca_Pcastleguards_1_desc
+	tb_Pcastleguards_2 = {
+		desc = tb_Pcastleguards_1_desc
 		
-		prerequisites = { ca_Pwall_1 }
-		upgrades_from = ca_Pcastleguards_1
+		prerequisites = { tb_Pwall_1 }
+		upgrades_from = tb_Pcastleguards_1
 		prestige_cost = 1100
 		build_time = 1500
 		pikemen = 55
@@ -989,13 +989,13 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Pguard_2
-		convert_to_feudal = ca_Pcastleguards_2
+		convert_to_feudal = tb_Pcastleguards_2
 	}
-	ca_Pcastleguards_3 = {
-		desc = ca_Pcastleguards_1_desc
+	tb_Pcastleguards_3 = {
+		desc = tb_Pcastleguards_1_desc
 		
-		prerequisites = { ca_Pwall_2 }
-		upgrades_from = ca_Pcastleguards_2
+		prerequisites = { tb_Pwall_2 }
+		upgrades_from = tb_Pcastleguards_2
 		prestige_cost = 1625
 		build_time = 2375
 		pikemen = 65
@@ -1008,12 +1008,12 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Pguard_3
-		convert_to_feudal = ca_Pcastleguards_3
+		convert_to_feudal = tb_Pcastleguards_3
 	}
 	
 ####################### Stable, gives light cavalry and some heavy cavalry #######################
-	ca_Pstable_1 = {
-		desc = ca_Pstable_1_desc
+	tb_Pstable_1 = {
+		desc = tb_Pstable_1_desc
 		
 		prestige_cost = 620
 		build_time = 750
@@ -1026,13 +1026,13 @@ tribal = {
 			culture_group = culture_group_haldadian	
             		}
             	}		
-		convert_to_feudal = ca_Pstable_1
+		convert_to_feudal = tb_Pstable_1
 	}
-	ca_Pstable_2 = {
-		desc = ca_Pstable_1_desc
+	tb_Pstable_2 = {
+		desc = tb_Pstable_1_desc
 		
-		prerequisites = { ca_Pwall_1 }
-		upgrades_from = ca_Pstable_1
+		prerequisites = { tb_Pwall_1 }
+		upgrades_from = tb_Pstable_1
 		prestige_cost = 1060
 		build_time = 1450
 		light_cavalry = 45
@@ -1044,13 +1044,13 @@ tribal = {
 			culture_group = culture_group_haldadian	
             		}
             	}		
-		convert_to_feudal = ca_Pstable_2
+		convert_to_feudal = tb_Pstable_2
 	}
-	ca_Pstable_3 = {
-		desc = ca_Pstable_1_desc
+	tb_Pstable_3 = {
+		desc = tb_Pstable_1_desc
 		
-		prerequisites = { ca_Pwall_2 }
-		upgrades_from = ca_Pstable_2
+		prerequisites = { tb_Pwall_2 }
+		upgrades_from = tb_Pstable_2
 		prestige_cost = 1910
 		build_time = 2790
 		light_cavalry = 55
@@ -1062,12 +1062,12 @@ tribal = {
 			culture_group = culture_group_haldadian	
             		}
             	}		
-		convert_to_feudal = ca_Pstable_3
+		convert_to_feudal = tb_Pstable_3
 	}
 	
 ####################### Castle town, gives income #######################
-	ca_Ptown_1 = {
-		desc = ca_Ptown_1_desc
+	tb_Ptown_1 = {
+		desc = tb_Ptown_1_desc
 		
 		gold_cost = 100
 		build_time = 365
@@ -1081,13 +1081,13 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Pmarketplace_1
-		convert_to_feudal = ca_Ptown_1
+		convert_to_feudal = tb_Ptown_1
 	}
-	ca_Ptown_2 = {
-		desc = ca_Ptown_2_desc
+	tb_Ptown_2 = {
+		desc = tb_Ptown_2_desc
 		
-		prerequisites = { ca_Pwall_1 }
-		upgrades_from = ca_Ptown_1
+		prerequisites = { tb_Pwall_1 }
+		upgrades_from = tb_Ptown_1
 		gold_cost = 120
 		build_time = 547
 		tax_income = 2
@@ -1100,13 +1100,13 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Pmarketplace_2
-		convert_to_feudal = ca_Ptown_2
+		convert_to_feudal = tb_Ptown_2
 	}
-	ca_Ptown_3 = {
-		desc = ca_Ptown_3_desc
+	tb_Ptown_3 = {
+		desc = tb_Ptown_3_desc
 		
-		prerequisites = { ca_Pwall_2 }
-		upgrades_from = ca_Ptown_2
+		prerequisites = { tb_Pwall_2 }
+		upgrades_from = tb_Ptown_2
 		gold_cost = 200
 		build_time = 730
 		tax_income = 2
@@ -1119,11 +1119,11 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Pmarketplace_3
-		convert_to_feudal = ca_Ptown_3 
+		convert_to_feudal = tb_Ptown_3 
 	}
 
 ####################### Shipyard, gives galleys #######################
-	ca_Pshipyard_1 = {
+	tb_Pshipyard_1 = {
 		desc = shipyard_desc
 		port = yes
 		
@@ -1139,13 +1139,13 @@ tribal = {
             		}
 		}		
 		convert_to_republic = ct_Pshipyard_1
-		convert_to_feudal = ca_Pshipyard_1
+		convert_to_feudal = tb_Pshipyard_1
 	}
-	ca_Pshipyard_2 = {
+	tb_Pshipyard_2 = {
 		desc = shipyard_desc
 		port = yes
 		
-		upgrades_from = ca_Pshipyard_1
+		upgrades_from = tb_Pshipyard_1
 		gold_cost = 100
 		build_time = 730
 		galleys = 7
@@ -1158,13 +1158,13 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Pshipyard_2
-		convert_to_feudal = ca_Pshipyard_2
+		convert_to_feudal = tb_Pshipyard_2
 	}
-	ca_Pshipyard_3 = {
+	tb_Pshipyard_3 = {
 		desc = shipyard_desc
 		port = yes
 		
-		upgrades_from = ca_Pshipyard_2
+		upgrades_from = tb_Pshipyard_2
 		gold_cost = 100
 		build_time = 1095
 		galleys = 8
@@ -1177,12 +1177,12 @@ tribal = {
             		}
             	}		
 		convert_to_republic = ct_Pshipyard_3
-		convert_to_feudal = ca_Pshipyard_3
+		convert_to_feudal = tb_Pshipyard_3
 	}
 
 ####################### Special units : snowmen/hillsmen, to lvl 4 #######################
-	ca_Psnowmen_1 = {
-		desc = ca_Psnowmen_1_desc
+	tb_Psnowmen_1 = {
+		desc = tb_Psnowmen_1_desc
 		
 		gold_cost = 100
 		build_time = 365
@@ -1193,13 +1193,13 @@ tribal = {
 	   		has_global_flag = building
 			culture = culture_lossoth
             	}		
-		convert_to_feudal = ca_Psnowmen_1
+		convert_to_feudal = tb_Psnowmen_1
 	}
-	ca_Psnowmen_2 = {
+	tb_Psnowmen_2 = {
 		desc = Psnowmen_1_desc
 
-		prerequisites = { ca_Pwall_1 }
-		upgrades_from = ca_Psnowmen_1
+		prerequisites = { tb_Pwall_1 }
+		upgrades_from = tb_Psnowmen_1
 		gold_cost = 120
 		build_time = 547
 		light_infantry = 50
@@ -1209,12 +1209,12 @@ tribal = {
             		has_global_flag = building
 	   		culture = culture_lossoth
             	}		
-		convert_to_feudal = ca_Psnowmen_2
+		convert_to_feudal = tb_Psnowmen_2
 	}
-	ca_Psnowmen_3 = {
-		desc = ca_Psnowmen_1_desc
+	tb_Psnowmen_3 = {
+		desc = tb_Psnowmen_1_desc
 		
-		upgrades_from = ca_Psnowmen_2
+		upgrades_from = tb_Psnowmen_2
 		gold_cost = 200
 		build_time = 1095
 		light_infantry = 55
@@ -1224,12 +1224,12 @@ tribal = {
             		has_global_flag = building
 	    		culture = culture_lossoth
             	}		
-		convert_to_feudal = ca_Psnowmen_3
+		convert_to_feudal = tb_Psnowmen_3
 	}
-	ca_Psnowmen_4 = {
-		desc = ca_Psnowmen_1_desc
+	tb_Psnowmen_4 = {
+		desc = tb_Psnowmen_1_desc
 		
-		upgrades_from = ca_Psnowmen_3
+		upgrades_from = tb_Psnowmen_3
 		gold_cost = 300
 		build_time = 1095
 		light_infantry = 75
@@ -1239,11 +1239,11 @@ tribal = {
             		has_global_flag = building
 	    		culture = culture_lossoth
             	}		
-		convert_to_feudal = ca_Psnowmen_4
+		convert_to_feudal = tb_Psnowmen_4
 	}
-	ca_Psnowmen_5 = {
-		desc = ca_Psnowmen_1_desc
-		upgrades_from = ca_Psnowmen_4
+	tb_Psnowmen_5 = {
+		desc = tb_Psnowmen_1_desc
+		upgrades_from = tb_Psnowmen_4
 		gold_cost = 400
 		build_time = 2190
 		light_infantry = 85
@@ -1253,11 +1253,11 @@ tribal = {
             		has_global_flag = building
 			culture = culture_lossoth
         	}		
-		convert_to_feudal = ca_Psnowmen_5
+		convert_to_feudal = tb_Psnowmen_5
 	}
-	ca_Psnowmen_6 = {
-		desc = ca_Psnowmen_1_desc
-		upgrades_from = ca_Psnowmen_5
+	tb_Psnowmen_6 = {
+		desc = tb_Psnowmen_1_desc
+		upgrades_from = tb_Psnowmen_5
 		gold_cost = 500
 		build_time = 2190
 		light_infantry = 95
@@ -1267,11 +1267,11 @@ tribal = {
             		has_global_flag = building
 			culture = culture_lossoth
         	}		
-		convert_to_feudal = ca_Psnowmen_6	
+		convert_to_feudal = tb_Psnowmen_6	
 	}
 	
-	ca_Phillsmen_1 = {
-		desc = ca_Phillsmen_1_desc
+	tb_Phillsmen_1 = {
+		desc = tb_Phillsmen_1_desc
 		
 		gold_cost = 100
 		build_time = 365
@@ -1285,13 +1285,13 @@ tribal = {
 			culture = culture_hillmen
 			}
             	}
-		convert_to_feudal = ca_Phillsmen_1
+		convert_to_feudal = tb_Phillsmen_1
 	}
-	ca_Phillsmen_2 = {
+	tb_Phillsmen_2 = {
 		desc = Phillsmen_1_desc
 
-		prerequisites = { ca_Pwall_1 }
-		upgrades_from = ca_Phillsmen_1
+		prerequisites = { tb_Pwall_1 }
+		upgrades_from = tb_Phillsmen_1
 		gold_cost = 120
 		build_time = 547
 		light_infantry = 50
@@ -1304,12 +1304,12 @@ tribal = {
 			culture = culture_hillmen
 			}
             	}		
-		convert_to_feudal = ca_Phillsmen_2
+		convert_to_feudal = tb_Phillsmen_2
 	}
-	ca_Phillsmen_3 = {
-		desc = ca_Phillsmen_1_desc
+	tb_Phillsmen_3 = {
+		desc = tb_Phillsmen_1_desc
 		
-		upgrades_from = ca_Phillsmen_2
+		upgrades_from = tb_Phillsmen_2
 		gold_cost = 200
 		build_time = 1095
 		light_infantry = 55
@@ -1322,12 +1322,12 @@ tribal = {
 			culture = culture_hillmen
 			}
             	}		
-		convert_to_feudal = ca_Phillsmen_3
+		convert_to_feudal = tb_Phillsmen_3
 	}
-	ca_Phillsmen_4 = {
-		desc = ca_Phillsmen_1_desc
+	tb_Phillsmen_4 = {
+		desc = tb_Phillsmen_1_desc
 		
-		upgrades_from = ca_Phillsmen_3
+		upgrades_from = tb_Phillsmen_3
 		gold_cost = 300
 		build_time = 1095
 		light_infantry = 75
@@ -1340,11 +1340,11 @@ tribal = {
 			culture = culture_hillmen
 			}
             	}		
-		convert_to_feudal = ca_Phillsmen_4
+		convert_to_feudal = tb_Phillsmen_4
 	}
-	ca_Phillsmen_5 = {
-		desc = ca_Phillsmen_1_desc
-		upgrades_from = ca_Phillsmen_4
+	tb_Phillsmen_5 = {
+		desc = tb_Phillsmen_1_desc
+		upgrades_from = tb_Phillsmen_4
 		gold_cost = 400
 		build_time = 2190
 		light_infantry = 85
@@ -1357,11 +1357,11 @@ tribal = {
 			culture = culture_hillmen
 			}
         	}		
-		convert_to_feudal = ca_Phillsmen_5	
+		convert_to_feudal = tb_Phillsmen_5	
 	}
-	ca_Phillsmen_6 = {
-		desc = ca_Phillsmen_1_desc
-		upgrades_from = ca_Phillsmen_5
+	tb_Phillsmen_6 = {
+		desc = tb_Phillsmen_1_desc
+		upgrades_from = tb_Phillsmen_5
 		gold_cost = 500
 		build_time = 2190
 		light_infantry = 95
@@ -1374,7 +1374,7 @@ tribal = {
 			culture = culture_hillmen
 			}
         	}		
-		convert_to_feudal = ca_Phillsmen_6	
+		convert_to_feudal = tb_Phillsmen_6	
 	}
 }
 	

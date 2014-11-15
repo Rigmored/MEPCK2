@@ -1,5 +1,5 @@
 tribal = {
-	ca_dirt_road_2 = {
+	tb_dirt_road_2 = {
 		desc = ca_dirt_road_2_desc
 		gold_cost = 45
 		build_time = 200
@@ -14,7 +14,7 @@ tribal = {
 		convert_to_feudal = ca_dirt_road_2	
 		}
 
-	ca_old_south_road_ruins = { #Ruined North-South road name from Swanfleet to Isendale
+	tb_old_south_road_ruins = { #Ruined North-South road name from Swanfleet to Isendale
 		desc = ca_old_south_road_ruins_desc
 		gold_cost = 65
 		build_time = 275
@@ -37,7 +37,7 @@ tribal = {
     		}
 		convert_to_feudal = ca_old_south_road_ruins
 	}
-	ca_old_south_road = { #North-South road name from Swanfleet to Isendale
+	tb_old_south_road = { #North-South road name from Swanfleet to Isendale
 		desc = ca_old_south_road_desc
 		upgrades_from = ca_old_south_road_ruins
 		gold_cost = 260

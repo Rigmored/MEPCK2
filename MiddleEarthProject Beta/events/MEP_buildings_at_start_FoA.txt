@@ -2337,5 +2337,89 @@ character_event = {
 			add_building = ca_dwarvenforges_2
 			add_building = ca_paved_road_3
 			}
+############################# DUNLAND ##########################	
+		b_galtrev = {
+			add_building = tb_Pwall_1 
+			add_building = tb_Pwall_2
+			add_building = tb_Pwatchtower_1 
+			add_building = tb_Pwatchtower_2
+			add_building = tb_Pkeep_1
+			add_building = tb_Pkeep_2
+			add_building = tb_Pmilitia_barracks_1
+			add_building = tb_Pmilitia_barracks_2
+			add_building = tb_Ptraining_grounds_1
+			add_building = tb_Ptraining_grounds_2
+			add_building = tb_Pcastleguards_1
+			add_building = tb_Pcastleguards_2
+			add_building = tb_Pstable_1
+			add_building = tb_Pstable_2
+			add_building = tb_Ptown_1
+			add_building = tb_Ptown_2
+			add_building = tb_Phillsmen_1 
+			add_building = tb_Phillsmen_2
+			add_building = tb_dirt_road_2 
+		}
+		b_forthbrond = {
+			add_building = tb_Pwall_1 
+			add_building = tb_Pwall_2
+			add_building = tb_Pwatchtower_1 
+			add_building = tb_Pwatchtower_2
+			add_building = tb_Pkeep_1
+			add_building = tb_Pkeep_2
+			add_building = tb_Pmilitia_barracks_1
+			add_building = tb_Pmilitia_barracks_2
+			add_building = tb_Ptraining_grounds_1
+			add_building = tb_Ptraining_grounds_2
+			add_building = tb_Pcastleguards_1
+			add_building = tb_Pcastleguards_2
+			add_building = tb_Pstable_1
+			add_building = tb_Pstable_2
+			add_building = tb_Ptown_1
+			add_building = tb_Ptown_2
+			add_building = tb_Phillsmen_1 
+			add_building = tb_Phillsmen_2
+			add_building = tb_dirt_road_2 
+		}
+		b_lond_angren = {
+			add_building = tb_Pwall_1 
+			add_building = tb_Pwall_2
+			add_building = tb_Pwatchtower_1 
+			add_building = tb_Pwatchtower_2
+			add_building = tb_Pkeep_1
+			add_building = tb_Pkeep_2
+			add_building = tb_Pmilitia_barracks_1
+			add_building = tb_Pmilitia_barracks_2
+			add_building = tb_Ptraining_grounds_1
+			add_building = tb_Ptraining_grounds_2
+			add_building = tb_Pcastleguards_1
+			add_building = tb_Pcastleguards_2
+			add_building = tb_Pstable_1
+			add_building = tb_Pstable_2
+			add_building = tb_Ptown_1
+			add_building = tb_Ptown_2
+			add_building = tb_Phillsmen_1 
+			add_building = tb_Phillsmen_2
+			add_building = tb_Pshipyard_1
+			add_building = tb_Pshipyard_2
+			add_building = tb_dirt_road_2 
+		}
+############################# OLD PUKET LAND ##########################	
+		b_druwaith_laden = {
+			add_building = tb_Iwall_1 
+			add_building = tb_pukel_men 
+			add_building = tb_Ikeep_1 
+			add_building = tb_Imilitia_barracks_1 
+			add_building = tb_Icastleguards_1 
+			add_building = tb_Itown_1 
+		}
+		b_dunlogan = {
+			add_building = tb_Iwall_1 
+			add_building = tb_pukel_men 
+			add_building = tb_Ikeep_1 
+			add_building = tb_Imilitia_barracks_1 
+			add_building = tb_Icastleguards_1 
+			add_building = tb_Itown_1 
+		}
+		
 	}
 }
