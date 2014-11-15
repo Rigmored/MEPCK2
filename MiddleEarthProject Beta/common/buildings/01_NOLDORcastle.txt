@@ -707,7 +707,12 @@ castle = {
 		add_number_to_name = no
     		potential = {
 			has_global_flag = building
-			culture = culture_noldor
+			OR = {
+				culture_group = culture_group_moriquendi
+				culture_group = culture_group_umanyar
+				culture_group = culture_group_amanyar
+				culture_group = culture_group_quendi
+				}
     		}
 	}
 
