@@ -1505,6 +1505,7 @@ castle = {
 		tax_income = 2		
 		ai_creation_factor = 106
         	potential = {
+			year = 9770
             		province_id = 539 # Dale
 			OR = {
 				culture = culture_dalemen

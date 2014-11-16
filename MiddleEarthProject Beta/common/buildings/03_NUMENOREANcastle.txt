@@ -1375,12 +1375,10 @@ castle = {
 		ai_creation_factor = 86
         	potential = {
             		province_id = 430 #Umbar
-			FROM = { 
 			OR = {
 				culture = culture_black_numenorean
 				culture = culture_umbareans
-					}
-				}
+			}
             	}
 	}
 
@@ -1472,7 +1470,7 @@ castle = {
 		add_number_to_name = no
     		potential = {
        			has_global_flag = building
-	    		FROM = { culture = culture_black_numenorean }
+	    		culture = culture_black_numenorean
     		}
 	}
 

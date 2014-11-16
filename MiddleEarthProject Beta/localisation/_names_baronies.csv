@@ -1228,6 +1228,7 @@ b_korondajtemple;Najmun;Najmun;;;Najmun;x
 b_kadar_argoncity1;Badyargon;Badyargon;;;Badyargon;x
 b_kadar_argoncity1;Kadaryar;Kadaryar;;;Kadaryar;x
 b_oud_ilazcity;Ilazar;Ilazar;;;Ilazar;x
+b_korb_chelkar;Korb Chelkar;Korb Chelkar;;;Korb Chelkar;x
 b_korb_chelkarcity;Chelkara;Chelkara;;;Chelkara;x
 b_korb_chelkartemple;Korbinzar;Korbinzar;;;Korbinzar;x
 b_bogathtemple;Bogathech;Bogathech;;;Bogathech;x
@@ -1298,7 +1299,8 @@ b_tirith_argoncity1;Desert's Gate;Porte-du-Désert;;;Desert's Gate;x
 b_tirith_argoncity2;Argonaz;Argonaz;;;Argonaz;x
 b_east_harnencity;Dor Harnen;Dor Harnen;;;Dor Harnen;x
 b_west_harnentemple;Harjaz;Harjaz;;;Harjaz;x
-b_abarlonicity;Emyn Abarloni;Emyn Abarloni;;;Emyn Abarloni;x
+b_kibas;Emyn Abarloni;Emyn Abarloni;;;Emyn Abarloni;x
+b_bar_malduin;Bar Malduin;Bar Malduin;;;Bar Malduin;x
 b_ereb_malduin;Ereb Malduin;Ereb Malduin;;;Ereb Malduin;x
 b_dor_malduin;Dor Malduin;Dor Malduin;;;Dor Malduin;x
 b_fadaycity1;Pearly-Towers;Tours-de-Nacre;;;Pearly-Towers;x
@@ -1646,6 +1648,8 @@ b_dunbog;Dunbog;Dunbog;;;Dunbog;x
 b_lhan_ros;Lhan Ros;Lhan Ros;;;Lhan Ros;x
 b_cors_avanc;Cors Avanc;Cors Avanc;;;Cors Avanc;x
 b_durgors;Durgors;Durgors;;;Durgors;x
+b_olbamarl;Olbamarl;Olbamarl;;;Olbamarl;x
+b_olbamarl_adj;Olbamarlian;Olbamarlien;;;Olbamarlian;x
 b_tafash;Tafash;Tafash;;;Tafash;x
 b_alak_eleb;Alak Eleb;Alak Eleb;;;Alak Eleb;x
 b_shafraz;Shafraz;Shafraz;;;Shafraz;x
