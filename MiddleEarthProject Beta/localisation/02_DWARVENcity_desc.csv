@@ -121,8 +121,8 @@ ct_jeweler_4;Jeweler's Shop;Joaillerie;;;;;;;;;;;;x
 ct_jeweler_5;Jeweler's Shop;Joaillerie;;;;;;;;;;;;x
 ct_jeweler_6;Jeweler's Shop;Joaillerie;;;;;;;;;;;;x
 ct_jeweler_desc;Jewelers cut gems and reveal their true value.;Les joaillers taillent les pierres précieuses et révèlent leur vraie valeur.;;;;;;;;;;;;x
-tp_dwarven_ancestrors;Halls of the Ancestrors;Salles des Ancêtres;;;;x;;;;;;;;;
-tp_dwarven_ancestrors_desc;Dwarves revere their ancestors, and in this room have carved homages of the most famous of their kin to honor them.;Les Nains vouent un culte à leurs ancêtres, et dans cette salle, ont sculpté les visages des plus célèbres d'entre eux afin de leur rendre hommage.;;;;x;;;;;;;;;
+tp_dwarven_ancestors;Halls of the Ancestors;Salles des Ancêtres;;;;x;;;;;;;;;
+tp_dwarven_ancestors_desc;Dwarves revere their ancestors, and in this room have carved homages of the most famous of their kin to honor them.;Les Nains vouent un culte à leurs ancêtres, et dans cette salle, ont sculpté les visages des plus célèbres d'entre eux afin de leur rendre hommage.;;;;x;;;;;;;;;
 tp_balin_tomb;Tomb of Balin;Tombeau de Balin;;;;x
 tp_balin_tomb_desc;Balin was killed at the hands of Moria orcs in T.A. 2994. He was promptly buried in a tomb in the center of the Chamber of Mazarbul.;Balin a été tué des mains des Orques de la Moria en 2994 TA. Il a été rapidement enterré dans un tombeau au centre de la Chambre de Mazarbul.;;;;x
 tp_durin_tomb;Tomb of Durin the Deathless;Tombeau de Durin Trompe-la-Mort;;;;x
