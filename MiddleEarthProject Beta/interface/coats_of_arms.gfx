@@ -301,7 +301,7 @@ spriteTypes = {
 		}
 	}
 	
-##### MEP ones #####
+##### MEP #####
 	CoatOfArmsType = {
 		name = "coa_plain_orcs"
 		frame = "gfx\\coats_of_arms\\frame_orcs.dds"
