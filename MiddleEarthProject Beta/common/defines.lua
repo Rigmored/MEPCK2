@@ -43,6 +43,7 @@ NDiplomacy = {
 	VASSAL_LIMIT_FAMILY_PRESTIGE_BONUS = 0.002,	-- Extra Vassal Limit from family prestige
 	VASSAL_LIMIT_DIPLOMACY_MULT = 0.3,			-- Extra Vasal Limit from ruler and spouse diplomacy
 	VASSAL_LIMIT_TRIBAL_BONUS = -10,			-- All rulers with tribal holdings as their capital have smaller demesnes
+	VASSAL_LIMIT_DECADENCE_MULTIPLIER = 0.25,	-- Negative modifier, multiplied with the current decadence.
 	VASSAL_LIMIT_LEVY_MULTIPLIER = 1,			-- Used for levy penalty calculation for being over vassal limit.
 	VASSAL_LIMIT_LEVY_BASE = 4,					-- Used for levy penalty calculation for being over vassal limit.
 	VASSAL_LIMIT_TAX_MULTIPLIER = 1,			-- Used for tax penalty calculation for being over vassal limit.
@@ -496,6 +497,11 @@ NCharacter = {
 	NOMINATE_CROWN_BISHOP_REL_AUTHORITY_CHANGE = -0.01, -- OBSOLETE
 	WRONG_GOV_FORM_TAX_MOD = -0.75,
 	WRONG_GOV_FORM_LEVY_MOD = -0.75,
+	TRIBAL_WRONG_RELIGION_REFORM_MOD = -0.10,
+	TRIBAL_WRONG_RELIGION_MOD = -0.15,
+	TRIBAL_WRONG_RELIGION_GROUP_MOD = -0.25,
+	TRIBAL_WRONG_CULTURE_MOD = -0.15,
+	TRIBAL_WRONG_CULTURE_GROUP_MOD = -0.25,
 	CHANGE_SUCC_LAW_YEARS = 10,						-- Rulers must have reigned this long before they can change succession laws
 	CHANGE_AMBITION_YEARS = 3,						-- Delay between being able to pick a new ambition of plot after cancelling
 	PRESTIGE_FROM_DYNASTY_ON_BIRTH_DIV = 5, 		-- Newly born characters get the dynasty prestige of their mother and father divided by this as their starting prestige
@@ -890,6 +896,7 @@ NMilitary = {
 	LIEGE_LEVY_COST_MULTIPLIER = 1.0,				-- The vassal will pay regular maintenance * this for the liege levy
 	LIEGE_LEVY_SUBUNIT_SIZE_CUTOFF = 3000,			-- The max size of each liege levy subunit.
 	LIEGE_LEVY_SUBUNIT_SIZE_MIN = 500,				-- The min size before liege levy subunits start splitting.
+	LIEGE_LEVY_VICE_ROYALTY_MULTIPLIER = 0.8,		-- Liege levy multiplier for viceroy vassals
 	
 	LIGHT_INFANTRY_MORALE = 3,
 	LIGHT_INFANTRY_MAINTENANCE = 1,
@@ -1007,6 +1014,7 @@ NMilitary = {
 },
 
 NTechnology = {
+	DONT_EXECUTE_TECH_BEFORE = 1,				-- Set this to your earliest starting year
 	POINTS_PER_ATTRIBUTE = 0.04,
 
 	BASE_NEIGHBOUR_SPREAD_BONUS = 0.03, 		-- bonus for each neighbour with the tech
@@ -1023,42 +1031,7 @@ NTechnology = {
 	IDEAL_YEAR_AHEAD_PENALTY_INVEST = 0.2,		-- Percent increase in cost pre level ahead of ideal date
 	
 	PAGAN_HOME_ATTRITION_REMOVAL_LEVEL = 4.0,
-	
-	-- Used to determine tech levels when starting a new game
-	
-	START_MIL_CATHOLIC  = 0.0,
-	START_ECO_CATHOLIC  = 0.0,
-	START_CUL_CATHOLIC  = 0.0,
-	END_MIL_CATHOLIC    = 0.0,
-	END_ECO_CATHOLIC    = 0.0,
-	END_CUL_CATHOLIC    = 0.0,
-	END_REN_CLOSE       = 0.0, -- Tech level at the center of the renaissance
-	END_REN_FAR         = 0.0, -- Tech level on the fringe of the renaissance
-	REN_PROVINCE        = 328, -- Province where the Renaissance is centered
-	START_MIL_MUSLIM    = 0.0,
-	START_ECO_MUSLIM    = 0.0,
-	START_CUL_MUSLIM    = 0.0,
-	END_MIL_MUSLIM      = 0.0,
-	END_ECO_MUSLIM      = 0.0,
-	END_CUL_MUSLIM      = 0.0,
-	START_MIL_INDIAN    = 0.0,
-	START_ECO_INDIAN    = 1.0,
-	START_CUL_INDIAN    = 1.0,
-	END_MIL_INDIAN   	= 4.0,
-	END_ECO_INDIAN    	= 4.0,
-	END_CUL_INDIAN    	= 4.0,
-	START_MIL_OTHER     = 0.0,
-	START_ECO_OTHER     = 0.0,
-	START_CUL_OTHER     = 0.0,
-	END_MIL_OTHER       = 0.0,
-	END_ECO_OTHER       = 0.0,
-	END_CUL_OTHER       = 0.0,
-	START_MIL_BYZANTIUM = 0.0,
-	START_ECO_BYZANTIUM = 0.0,
-	START_CUL_BYZANTIUM = 0.0,
-	END_MIL_BYZANTIUM   = 0.0,
-	END_ECO_BYZANTIUM   = 0.0,
-	END_CUL_BYZANTIUM   = 0.0
+
 },  
 
 NDisease = {
@@ -1128,6 +1101,7 @@ NAI =
 	TRIBAL_REPUBLIC_THRIFTY_CLERK_MODIFIER = 10,			-- How much the thrifty clerk trait counts toward the threshold above
 	TRIBAL_REPUBLIC_FORTUNE_BUILDER_MODIFIER = 15,			-- How much the fortune builder trait counts toward the threshold above
 	TRIBAL_REPUBLIC_MIDAS_TOUCHED_MODIFIER = 20,			-- How much the midas touched trait counts toward the threshold above
+	TRIBAL_PRESTIGE_CALL_TRESHOLD = -100, 					-- The treshold needed for the AI to start considering answering call to not take the prestige hit
 },
 
 NFrontend = 
