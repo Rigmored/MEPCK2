@@ -3,7 +3,7 @@ namespace = buildings_at_start_FoA
 ## Triggered by Fall of Arnor introduction at start ##
 
 character_event = {
-    	id = buildings_at_start_FoA.11  # ARNOR and GONDOR
+    	id = buildings_at_start_FoA.11 #HUMAN ZONES
 	hide_window = yes
 	is_triggered_only = yes		  
 
@@ -55,7 +55,35 @@ character_event = {
 			add_building = ca_paved_road_3
 			add_building = ca_great_route_4
 		}
-		b_annuminas = {
+			b_gates_norbury = {
+				add_building = ca_Nwall_1
+				add_building = ca_Nwall_2
+				add_building = ca_Nwatchtower_1 
+				add_building = ca_Nwatchtower_2 
+				add_building = ca_Nkeep_1
+				add_building = ca_Nkeep_2
+				add_building = ca_Nmilitia_barracks_1
+				add_building = ca_Nmilitia_barracks_2
+				add_building = ca_Ntraining_grounds_1
+				add_building = ca_Ntraining_grounds_2
+				add_building = ca_Ncastleguards_1
+				add_building = ca_Ncastleguards_2
+				add_building = ca_Nstable_1
+				add_building = ca_Nstable_2
+				add_building = ca_Ntown_1
+				add_building = ca_Ntown_2
+				add_building = ca_Nforge_1 
+				add_building = ca_Nforge_2
+				add_building = ca_Napothecary_1
+				add_building = ca_Napothecary_2
+				add_building = ca_Nelitetroops_1
+				add_building = ca_Nelitetroops_2
+				add_building = ca_healing2
+				add_building = ca_warning_beacons
+				add_building = ca_paved_road_3
+			}
+
+		b_annuminas = { # empire capital being depopulated
 			add_building = ca_hall_of_kings
 			add_building = ca_Nwall_1
 			add_building = ca_Nwall_2
@@ -83,6 +111,48 @@ character_event = {
 			add_building = ca_warning_beacons
 			add_building = ca_paved_road_3
 		}
+			b_adannon = { 
+				add_building = ca_Nwall_1
+				add_building = ca_Nwatchtower_1 
+				add_building = ca_Nkeep_1
+				add_building = ca_Nmilitia_barracks_1
+				add_building = ca_Ntraining_grounds_1
+				add_building = ca_Ncastleguards_1
+				add_building = ca_Nstable_1
+				add_building = ca_Ntown_1
+				add_building = ca_Nforge_1 
+				add_building = ca_Napothecary_1
+				add_building = ca_Nelitetroops_1
+				add_building = ca_healing2
+				add_building = ca_warning_beacons
+			}
+			b_ariant = { #city
+				add_building = ct_Nwall_1 
+				add_building = ct_Nwatchtower_1 
+				add_building = ct_Nbarracks_1 
+				add_building = ct_Ntownmilitia_1 
+				add_building = ct_Nguard_1 
+				add_building = ct_Nmarketplace_1 
+				add_building = tp_numenorean_archives 
+				add_building = tp_healing2 
+				add_building = tp_numenorean_tombs 
+				add_building = ct_windmills_1 
+			}
+			b_clorhir = { 
+				add_building = ca_Nwall_1
+				add_building = ca_Nwatchtower_1 
+				add_building = ca_Nkeep_1
+				add_building = ca_Nmilitia_barracks_1
+				add_building = ca_Ntraining_grounds_1
+				add_building = ca_Ncastleguards_1
+				add_building = ca_Nstable_1
+				add_building = ca_Ntown_1
+				add_building = ca_Nforge_1 
+				add_building = ca_Napothecary_1
+				add_building = ca_Nelitetroops_1
+				add_building = ca_healing2
+				add_building = ca_warning_beacons
+			}
 		b_brethyar = {
 			add_building = ca_Nwall_1
 			add_building = ca_Nwall_2

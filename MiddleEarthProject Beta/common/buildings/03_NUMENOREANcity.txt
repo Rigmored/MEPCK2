@@ -629,7 +629,7 @@ city = {
 #### SPECIAL BUILDINGS #####
 
 	ct_amon_sul = { ### Tower of Amon Sûl
-		desc = ca_fornost_erain_desc
+		desc = ct_amon_sul_desc
 		gold_cost = 850
 		build_time = 1460 #4y
 		fort_level = 5.0
@@ -644,7 +644,7 @@ city = {
 	}	
 	
 	ct_amon_sul_ruins = { ### Amon Sûl Ruins
-		desc = ca_fornost_ruins_desc
+		desc = ct_amon_sul_ruins_desc
 		gold_cost = 850
 		build_time = 1460 #4y
 		tax_income = -3	
@@ -688,7 +688,7 @@ city = {
 	}	
 
 	ct_annuminas_ruins = { ### Annuminas Ruins
-		desc = ca_fornost_ruins_desc
+		desc = ct_annuminas_ruins_desc
 		gold_cost = 850
 		build_time = 1460 #4y
 		tax_income = -3	
@@ -703,7 +703,7 @@ city = {
 	}
 	
 	ct_osgiliath_ruins = { ### Osgiliath Ruins
-		desc = ca_fornost_ruins_desc
+		desc = ct_osgiliath_ruins_desc;
 		gold_cost = 850
 		build_time = 1460 #4y
 		tax_income = -3	
