@@ -22,6 +22,9 @@ BUGFIX :
 - Fixed missing sprite for Enigma trait
 - CB icons no longer misaligned
 - Fixed a bug with the abdication decision
+- Removed Dol Amroth special troops due to crash problem
+- Removed bugged road province modifiers
+- Fixed wilderness levy + income province malus
 
 BUILDINGS :
 - Added several levels for the buildings "Khazad-Dum" and "Erebor"
@@ -49,11 +52,13 @@ CULTURES AND RACES :
 - Elves will now be children until 50-100 years old. They won't be able to marry or to lead armies during this period.
 - Added Dorwinrim culture in Dorwinion
 - Added Wights race
+- Made Haldadians, Lossoth and Druwathings tribal
 
 DECISIONS :
 - Rebuild the Cities of Edhellond, Amon Sûl and Osgiliath
 - If the Dwarves rule Erebor, Khazad-Dum and Gundabad, as King of Gundabad, call the Assembly of the Dwarves, and try to unificate all the Dwarves of Middle-Earth.
 - Use only one decision to open all the lists of holders of artefacts (rings/palantiri/weapons for now)
+- New decision system
 
 EVENTS :
 - "Call the Council of Gondor" feature, and try to gain the vote on several possibilities.
@@ -75,7 +80,9 @@ GFX :
 - Removed crosses from CB icons and changed imperial reconquest cb from LoR laurel to Arnorian crown
 - New unique portraits for Sauron with the ring and the Mouth of Sauron
 - Fixed broken religion icons and ironman selection button
-- New decision icons for most decisions
+- New decision icons and updated
+- Removed vast amount of vanilla gfx that was increasing file size
+- Minimap improved
 
 JOB ACTIONS :
 - As an Evil Character, send your emissary in a weaker realm, and threaten them to improve your own glory
@@ -88,6 +95,8 @@ LINKS :
 LOCALISATIONS :
 - Added Khuzdul names for Dwarven Realms
 - Fixed missing localisation for Anadune title
+- Many updated and mixed localisations throughout
+- Added a number to the month names to help with season/year progression awareness
 
 MAP :
 - Revamped trees map: palms in Harad, pines in the North, cyprus in Harondor and some other trees here and there to fill the map
@@ -146,6 +155,8 @@ TITLES :
 - the Witch King holds now more titles in the Fall of Arnor/Kin Strife bookmarks
 - Added Ringbearer titular duchy held by current ringbearer
 - The Tribes of Harad are now independant
+- Fixed problem with Shire titles in FoA
+- Fixed some incorrect duchy, kingdom and empire capitals
 
 #####HOTFIX#####
 

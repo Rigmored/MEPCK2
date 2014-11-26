@@ -60,7 +60,7 @@ occupied_different_religion;Recently conquered (different Race);Recently conquer
 occupied_different_religiongroup;Recently conquered (different racial group);Recently conquered (different racial group);;;x
 EDUCATE_CHARACTER_INTERACTION_LONG_DESC;At age 6, children can be assigned a guardian for a proper upbringing. The choice is important, because the mentor will tend to pass on their skills, traits, culture and type of education to the child.;At age 6, children can be assigned a guardian for a proper upbringing. The choice is important, because the mentor will tend to pass on their skills, traits, culture and type of education to the child.;;;x
 THREAT_LIEGE_RELIGION;Same Race;Same Race;;;x
-WIKIPEDIA_LINK;即tolkien Gateway Link劬;即tolkien Gateway Link劬;;;x
+WIKIPEDIA_LINK;即Tolkien Gateway Link劬;即Tolkien Gateway Link劬;;;x
 WIKIPEDIA_LINK_DESC;Opens a browser to the Tolkien Gateway page for this character;Opens a browser to the Tolkien Gateway page for this character;;;x
 WIKIPEDIA_LINK_MISSING;即This character has no Tolkien Gateway link劬;即This character has no Tolkien Gateway link劬;;;x
 WIKIPEDIA_LINK_DISABLED;Tolkien Gateway Links are disabled;Tolkien Gateway Links are disabled;;;x
