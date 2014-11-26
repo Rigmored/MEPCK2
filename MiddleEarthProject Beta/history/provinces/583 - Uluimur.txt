@@ -7,7 +7,7 @@ title = c_uluimur
 max_settlements = 6
 
 b_uluimur = castle
-b_tar_minui= city
+b_tar_minui = city
 b_thinn = castle
 b_torimur = city
 #b_althinuuil = city
