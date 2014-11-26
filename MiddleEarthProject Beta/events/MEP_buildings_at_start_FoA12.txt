@@ -403,7 +403,7 @@ character_event = {
 			add_building = ca_paved_road_3
 			add_building = ca_great_route_4 
 			}
-			b_second_hall = { 4
+			b_second_hall = { #4
 				add_building = ca_DInnerFortification_1 
 				add_building = ca_DInnerFortification_2 
 				add_building = ca_DInnerFortification_3 
@@ -437,7 +437,7 @@ character_event = {
 				add_building = ca_paved_road_3
 				add_building = ca_great_route_4
 				}
-			b_chamber_of_mazarbul = { 4 city
+			b_chamber_of_mazarbul = { #4 city
 				add_building = ct_DInnerFortification_1 
 				add_building = ct_DInnerFortification_2 
 				add_building = ct_DInnerFortification_3 
@@ -469,7 +469,7 @@ character_event = {
 				add_building = ct_paved_road_3
 				add_building = ct_great_route_4
 				}
-			b_twentyfirst_hall = { 4 city
+			b_twentyfirst_hall = { #4 city
 				add_building = ct_DInnerFortification_1 
 				add_building = ct_DInnerFortification_2 
 				add_building = ct_DInnerFortification_3 
@@ -501,7 +501,7 @@ character_event = {
 				add_building = ct_paved_road_3
 				add_building = ct_great_route_4
 			}
-			b_grand_stair = { 4
+			b_grand_stair = { #4
 				add_building = ca_DInnerFortification_1 
 				add_building = ca_DInnerFortification_2 
 				add_building = ca_DInnerFortification_3
@@ -535,7 +535,7 @@ character_event = {
 				add_building = ca_paved_road_3
 				add_building = ca_great_route_4
 				}
-			b_tomb_of_durin = { 4 city
+			b_tomb_of_durin = { #4 city
 				add_building = ct_DInnerFortification_1 
 				add_building = ct_DInnerFortification_2 
 				add_building = ct_DInnerFortification_3 
@@ -567,7 +567,7 @@ character_event = {
 				add_building = ct_paved_road_3
 				add_building = ct_great_route_4
 			}
-			b_zirak_zigil = { 4
+			b_zirak_zigil = { #4
 				add_building = ca_DInnerFortification_1 
 				add_building = ca_DInnerFortification_2 
 				add_building = ca_DInnerFortification_3
@@ -601,9 +601,23 @@ character_event = {
 				add_building = ca_paved_road_3
 				add_building = ca_great_route_4
 				}
+
 		b_gate_of_erebor = {
 		}
-		b_barak_shathur = { # 3
+			b_chamber_of_thror = { # City
+		}
+			b_hall_of_thrain = { # City
+		}
+			b_ravenhill = {
+		}
+			b_hall_of_treasure = { # City
+		}
+			b_back_door = {
+		}
+			b_erebor = { # City
+		}
+
+		b_barak_shathur = { #3
 			add_building = ca_DInnerFortification_1 
 			add_building = ca_DInnerFortification_2 
 			add_building = ca_DInnerFortification_3
@@ -630,7 +644,7 @@ character_event = {
 			add_building = ca_paved_road_3
 			add_building = ca_great_route_4 
 			}
-			b_barukkhizdin = { 2 city
+			b_barukkhizdin = { #2 city
 				add_building = ct_DInnerFortification_1 
 				add_building = ct_DInnerFortification_2 
 				add_building = ct_Dbarracks_1 
@@ -647,8 +661,26 @@ character_event = {
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
 				}
-			b_bakhuz_dum = { 2
-				add_building = ca_DInnerFortification_1
+			b_bakhuz_dum = { #2
+				add_building = ca_DInnerFortification_1 
+				add_building = ca_DInnerFortification_2 
+				add_building = ca_Dkeep_1 
+				add_building = ca_Dkeep_2
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dmilitia_barracks_2
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dtraining_grounds_2
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dcastleguards_2
+				add_building = ca_Dtown_1 
+				add_building = ca_Dtown_2
+				add_building = ca_dwarvenforges_1 
+				add_building = ca_dwarvenforges_2
+				add_building = ca_azanulimbardum1
+				add_building = ca_paved_road_3
+				}
+			b_shumul_dum = { #2
+				add_building = ca_DInnerFortification_1 
 	 			add_building = ca_DInnerFortification_2
 				add_building = ca_Dkeep_1 
 				add_building = ca_Dkeep_2
@@ -665,25 +697,8 @@ character_event = {
 				add_building = ca_azanulimbardum1
 				add_building = ca_paved_road_3
 				}
-			b_shumul_dum = { 2
-				add_building = ca_DInnerFortification_1
-	 			add_building = ca_DInnerFortification_2
-				add_building = ca_Dkeep_1 
-				add_building = ca_Dkeep_2
-				add_building = ca_Dmilitia_barracks_1 
-				add_building = ca_Dmilitia_barracks_2
-				add_building = ca_Dtraining_grounds_1 
-				add_building = ca_Dtraining_grounds_2
-				add_building = ca_Dcastleguards_1 
-				add_building = ca_Dcastleguards_2
-				add_building = ca_Dtown_1 
-				add_building = ca_Dtown_2
-				add_building = ca_dwarvenforges_1 
-				add_building = ca_dwarvenforges_2
-				add_building = ca_azanulimbardum1
-				add_building = ca_paved_road_3
-				}
-		b_nurunkhizdin = { # 3
+
+		b_nurunkhizdin = { #3
 			add_building = ca_DInnerFortification_1 
 			add_building = ca_DInnerFortification_2 
 			add_building = ca_DInnerFortification_3
@@ -710,6 +725,59 @@ character_event = {
 			add_building = ca_paved_road_3
 			add_building = ca_great_route_4 
 			}
+			b_narag_thurkul = { #2 City
+				add_building = ct_DInnerFortification_1 
+				add_building = ct_DInnerFortification_2 
+				add_building = ct_Dbarracks_1 
+				add_building = ct_Dbarracks_2
+				add_building = ct_Dtownmilitia_1 
+				add_building = ct_Dtownmilitia_2
+				add_building = ct_Dguard_1 
+				add_building = ct_Dguard_2 
+				add_building = ct_Dmarketplace_1 
+				add_building = ct_Dmarketplace_2
+				add_building = ct_dwarfmines_1 
+				add_building = ct_dwarfmines_2
+				add_building = ct_nurunkhizdin1
+				add_building = tp_dwarven_ancestors 
+				add_building = ct_paved_road_3
+				}
+			b_hudnul_kezer = { #2
+				add_building = ca_DInnerFortification_1
+	 			add_building = ca_DInnerFortification_2
+				add_building = ca_Dkeep_1 
+				add_building = ca_Dkeep_2
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dmilitia_barracks_2
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dtraining_grounds_2
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dcastleguards_2
+				add_building = ca_Dtown_1 
+				add_building = ca_Dtown_2
+				add_building = ca_dwarvenforges_1 
+				add_building = ca_dwarvenforges_2
+				add_building = ca_nurunkhizdin1
+				add_building = ca_paved_road_3
+				}
+			b_manrbul = { #2 City
+				add_building = ct_DInnerFortification_1 
+				add_building = ct_DInnerFortification_2 
+				add_building = ct_Dbarracks_1 
+				add_building = ct_Dbarracks_2
+				add_building = ct_Dtownmilitia_1 
+				add_building = ct_Dtownmilitia_2
+				add_building = ct_Dguard_1 
+				add_building = ct_Dguard_2 
+				add_building = ct_Dmarketplace_1 
+				add_building = ct_Dmarketplace_2
+				add_building = ct_dwarfmines_1 
+				add_building = ct_dwarfmines_2
+				add_building = ct_nurunkhizdin1
+				add_building = tp_dwarven_ancestors 
+				add_building = ct_paved_road_3
+				}
+
 		b_zirakdum = { # 3
 			add_building = ca_DInnerFortification_1 
 			add_building = ca_DInnerFortification_2 
@@ -737,6 +805,59 @@ character_event = {
 			add_building = ca_paved_road_3
 			add_building = ca_great_route_4 
 			}
+			b_amagur = { #2 City
+				add_building = ct_DInnerFortification_1 
+				add_building = ct_DInnerFortification_2 
+				add_building = ct_Dbarracks_1 
+				add_building = ct_Dbarracks_2
+				add_building = ct_Dtownmilitia_1 
+				add_building = ct_Dtownmilitia_2
+				add_building = ct_Dguard_1 
+				add_building = ct_Dguard_2 
+				add_building = ct_Dmarketplace_1 
+				add_building = ct_Dmarketplace_2
+				add_building = ct_dwarfmines_1 
+				add_building = ct_dwarfmines_2
+				add_building = ct_zirakdum1 
+				add_building = tp_dwarven_ancestors 
+				add_building = ct_paved_road_3
+				}
+			b_aganin = { #2
+				add_building = ca_DInnerFortification_1
+	 			add_building = ca_DInnerFortification_2
+				add_building = ca_Dkeep_1 
+				add_building = ca_Dkeep_2
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dmilitia_barracks_2
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dtraining_grounds_2
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dcastleguards_2
+				add_building = ca_Dtown_1 
+				add_building = ca_Dtown_2
+				add_building = ca_dwarvenforges_1 
+				add_building = ca_dwarvenforges_2
+				add_building = ca_zirakdum1
+				add_building = ca_paved_road_3
+				}
+			b_belhith = { #2 City
+				add_building = ct_DInnerFortification_1 
+				add_building = ct_DInnerFortification_2 
+				add_building = ct_Dbarracks_1 
+				add_building = ct_Dbarracks_2
+				add_building = ct_Dtownmilitia_1 
+				add_building = ct_Dtownmilitia_2
+				add_building = ct_Dguard_1 
+				add_building = ct_Dguard_2 
+				add_building = ct_Dmarketplace_1 
+				add_building = ct_Dmarketplace_2
+				add_building = ct_dwarfmines_1 
+				add_building = ct_dwarfmines_2
+				add_building = ct_zirakdum1 
+				add_building = tp_dwarven_ancestors 
+				add_building = ct_paved_road_3
+				}
+
 		b_thorin_hall = { # 3
 			add_building = ca_DInnerFortification_1 
 			add_building = ca_DInnerFortification_2 
@@ -764,6 +885,60 @@ character_event = {
 			add_building = ca_paved_road_3
 			add_building = ca_great_route_4 
 			}
+			b_edhelionath = { #2 City
+				add_building = ct_DInnerFortification_1 
+				add_building = ct_DInnerFortification_2 
+				add_building = ct_Dbarracks_1 
+				add_building = ct_Dbarracks_2
+				add_building = ct_Dtownmilitia_1 
+				add_building = ct_Dtownmilitia_2
+				add_building = ct_Dguard_1 
+				add_building = ct_Dguard_2 
+				add_building = ct_Dmarketplace_1 
+				add_building = ct_Dmarketplace_2
+				add_building = ct_dwarfmines_1 
+				add_building = ct_dwarfmines_2
+				add_building = ct_thorinsgate1 
+				add_building = tp_dwarven_ancestors 
+				add_building = ct_paved_road_3
+				}
+			b_rivergate_watch = { #2 
+				add_building = ca_DInnerFortification_1
+	 			add_building = ca_DInnerFortification_2
+				add_building = ca_Dkeep_1 
+				add_building = ca_Dkeep_2
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dmilitia_barracks_2
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dtraining_grounds_2
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dcastleguards_2
+				add_building = ca_Dtown_1 
+				add_building = ca_Dtown_2
+				add_building = ca_dwarvenforges_1 
+				add_building = ca_dwarvenforges_2
+				add_building = ca_thorinsgate1 
+				add_building = ca_paved_road_3
+				}
+			b_berghold  = { #2 
+				add_building = ca_DInnerFortification_1
+	 			add_building = ca_DInnerFortification_2
+				add_building = ca_Dkeep_1 
+				add_building = ca_Dkeep_2
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dmilitia_barracks_2
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dtraining_grounds_2
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dcastleguards_2
+				add_building = ca_Dtown_1 
+				add_building = ca_Dtown_2
+				add_building = ca_dwarvenforges_1 
+				add_building = ca_dwarvenforges_2
+				add_building = ca_thorinsgate1 
+				add_building = ca_paved_road_3
+				}
+
 		b_dain_halls = { # 3
 			add_building = ca_DInnerFortification_1 
 			add_building = ca_DInnerFortification_2 
@@ -789,6 +964,57 @@ character_event = {
 			add_building = ca_paved_road_3
 			add_building = ca_great_route_4 
 			}
+			b_cirith_himninond = { #2 
+				add_building = ca_DInnerFortification_1
+	 			add_building = ca_DInnerFortification_2
+				add_building = ca_Dkeep_1 
+				add_building = ca_Dkeep_2
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dmilitia_barracks_2
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dtraining_grounds_2
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dcastleguards_2
+				add_building = ca_Dtown_1 
+				add_building = ca_Dtown_2
+				add_building = ca_dwarvenforges_1 
+				add_building = ca_dwarvenforges_2
+				add_building = ca_paved_road_3
+				}
+			b_azagkhizdin = { #2 
+				add_building = ca_DInnerFortification_1
+	 			add_building = ca_DInnerFortification_2
+				add_building = ca_Dkeep_1 
+				add_building = ca_Dkeep_2
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dmilitia_barracks_2
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dtraining_grounds_2
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dcastleguards_2
+				add_building = ca_Dtown_1 
+				add_building = ca_Dtown_2
+				add_building = ca_dwarvenforges_1 
+				add_building = ca_dwarvenforges_2
+				add_building = ca_paved_road_3
+				}
+			b_thollakar = { #2 City
+				add_building = ct_DInnerFortification_1 
+				add_building = ct_DInnerFortification_2 
+				add_building = ct_Dbarracks_1 
+				add_building = ct_Dbarracks_2
+				add_building = ct_Dtownmilitia_1 
+				add_building = ct_Dtownmilitia_2
+				add_building = ct_Dguard_1 
+				add_building = ct_Dguard_2 
+				add_building = ct_Dmarketplace_1 
+				add_building = ct_Dmarketplace_2
+				add_building = ct_dwarfmines_1 
+				add_building = ct_dwarfmines_2
+				add_building = tp_dwarven_ancestors 
+				add_building = ct_paved_road_3
+				}
+
 		b_tamnogoth = { # 2
 			add_building = ca_DInnerFortification_1 
 			add_building = ca_DInnerFortification_2 
@@ -805,9 +1031,27 @@ character_event = {
 			add_building = ca_dwarvenforges_1 
 			add_building = ca_dwarvenforges_2
 			add_building = ca_tamnogoth1
-			add_building = ca_tamnogoth2 
 			add_building = ca_paved_road_3
 			}
+			b_east_luin_gate = { #1 
+				add_building = ca_DInnerFortification_1
+				add_building = ca_Dkeep_1
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dtown_1 
+				add_building = ca_dwarvenforges_1
+				}
+			b_west_luin_gate = { #1
+				add_building = ca_DInnerFortification_1
+				add_building = ca_Dkeep_1
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dtown_1 
+				add_building = ca_dwarvenforges_1
+				}
+	
 		b_thror_coomb = { # 2
 			add_building = ca_DInnerFortification_1 
 			add_building = ca_DInnerFortification_2 
@@ -825,6 +1069,34 @@ character_event = {
 			add_building = ca_dwarvenforges_2
 			add_building = ca_paved_road_3
 			}
+			b_skud_carchar = { #1 
+				add_building = ca_DInnerFortification_1
+				add_building = ca_Dkeep_1
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dtown_1 
+				add_building = ca_dwarvenforges_1
+				}
+			b_duv_corvan = { #1 City
+				add_building = ct_DInnerFortification_1 
+				add_building = ct_Dbarracks_1 
+				add_building = ct_Dtownmilitia_1 
+				add_building = ct_Dguard_1 
+				add_building = ct_Dmarketplace_1 
+				add_building = ct_dwarfmines_1 
+				add_building = tp_dwarven_ancestors
+				}
+			b_gwal_draig = { #1 City
+				add_building = ct_DInnerFortification_1 
+				add_building = ct_Dbarracks_1 
+				add_building = ct_Dtownmilitia_1 
+				add_building = ct_Dguard_1 
+				add_building = ct_Dmarketplace_1 
+				add_building = ct_dwarfmines_1 
+				add_building = tp_dwarven_ancestors
+				}
+ 
 		b_goblin_town = { # 2
 			add_building = ca_DInnerFortification_1 
 			add_building = ca_DInnerFortification_2 
@@ -842,6 +1114,34 @@ character_event = {
 			add_building = ca_dwarvenforges_2
 			add_building = ca_paved_road_3
 			}
+			b_hrimbarg = { #1
+				add_building = ca_DInnerFortification_1
+				add_building = ca_Dkeep_1
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dtown_1 
+				add_building = ca_dwarvenforges_1
+				}
+			b_vindurhal = { #1 
+				add_building = ca_DInnerFortification_1
+				add_building = ca_Dkeep_1
+				add_building = ca_Dmilitia_barracks_1 
+				add_building = ca_Dtraining_grounds_1 
+				add_building = ca_Dcastleguards_1 
+				add_building = ca_Dtown_1 
+				add_building = ca_dwarvenforges_1
+				}
+			b_cirith_daur = { #1 City
+				add_building = ct_DInnerFortification_1 
+				add_building = ct_Dbarracks_1 
+				add_building = ct_Dtownmilitia_1 
+				add_building = ct_Dguard_1 
+				add_building = ct_Dmarketplace_1 
+				add_building = ct_dwarfmines_1 
+				add_building = tp_dwarven_ancestors
+				}
+
 		b_glittering_caves = {
 		}
 ############################# ANGMAR ##########################	
