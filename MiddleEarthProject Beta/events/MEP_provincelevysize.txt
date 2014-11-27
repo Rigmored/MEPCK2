@@ -338,3 +338,27 @@ province_event = {
 		}
 	}
 }
+#WILDERNESS PENALTY - REMOVING
+province_event = {
+	id = provincelevysize.13
+	title = "Province levy penalty"
+	desc = "Wilderness penalty removed."
+	picture = "good"
+	hide_window = yes
+	
+	trigger = {
+		NOT = { culture = wilderness }
+		has_province_modifier = wilderness_penalty
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OK"
+		ROOT = {
+			remove_province_modifier = wilderness_penalty
+		}
+	}
+}
