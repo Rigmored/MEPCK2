@@ -22,6 +22,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -111,6 +114,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		NOT = {
 			lifestyle_traits = 1
 		}
@@ -203,6 +209,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -273,6 +282,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -355,6 +367,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -447,6 +462,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -496,6 +514,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -574,6 +595,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		has_lover = no
 		is_married = no
@@ -882,6 +906,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -941,6 +968,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1087,6 +1117,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1291,6 +1324,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1349,6 +1385,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1410,6 +1449,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1580,6 +1622,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1639,6 +1684,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1699,6 +1747,9 @@ character_event = {
 	
 	trigger = {
 		religion_group = sreligion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		NOT = {
 			lifestyle_traits = 1
 		}
@@ -1764,6 +1815,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_modifier = one_hedonist
 		NOT = {
 			lifestyle_traits = 1
@@ -1825,6 +1879,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_modifier = one_celibate
 		OR = {
 			trait = chaste
@@ -1886,6 +1943,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_modifier = sweet_temptation
 		NOT = {
 			lifestyle_traits = 1
@@ -1937,6 +1997,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_modifier = stay_strong
 		NOT = {
 			lifestyle_traits = 1
@@ -2118,6 +2181,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -2208,6 +2274,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
