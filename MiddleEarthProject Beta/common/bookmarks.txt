@@ -47,5 +47,5 @@ bookmark = {
    	character = 10016 # Sauron
 	character = 2038 # Aragorn II
 	character = 3003 # Lord Elrond of Fondcombe
-    character = 8079 # Frodo Baggins
+	character = 4043 # Dain II Ironfoot
 }

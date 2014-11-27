@@ -1052,6 +1052,12 @@ add_friend=4086 #Bombur
 
 	dna="dmglb0hmac0"
 	properties="km0hpobbbbb"
+
+	martial = 10
+	diplomacy = 11
+	stewardship = 7
+	intrigue = 6
+	learning = 7
 	
 	father=4031
 
@@ -1063,6 +1069,7 @@ add_friend=4086 #Bombur
 	} # Battle of Nanduhirion
 	11284.10.30 = {
 		add_trait=heir_of_durin
+		wealth = 6500
 	}		
 	11362.3.17 = {
 		death="11362.3.17"

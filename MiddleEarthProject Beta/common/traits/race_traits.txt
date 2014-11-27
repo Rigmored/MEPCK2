@@ -323,6 +323,16 @@ blood_of_anarion = {
 	vassal_opinion = 10
 	cached = yes	
 }
+heir_of_durin = {
+	health = 3.0
+	stewardship = 3
+	martial = 5
+	diplomacy = 2
+	agnatic = yes
+	customizer = no
+	vassal_opinion = 20	
+	cached = yes
+}
 nazgul = {
 	fertility = -2000.0
 	health = 100.0 #Hope to see less Nazgul deaths of old age
