@@ -19,3 +19,10 @@ EVTOPTBelfchild.2;I'll use my Amilessë;Je vais utiliser mon Amilessë;;;;;;;;;;;;
 EVTOPTCelfchild.2;I'll choose my Epessë;Je vais choisir mon Epessë;;;;;;;;;;;;x
 EVTTITelfchild.3;Epessë;Epessë;;;;;;;;;;;;x
 EVTDESCelfchild.3;"Epessë, Quenya word for ""after-name"", is a nickname or honorific chosen by an elf as his or her public name later in life. It is part of the essë, or naming, of High Elves, along with the ataressë (""father-name"") and amilessë (""mother-name""). Gil-Galad epessë, for exemple, was Ereinion.";L'epessë, est un surnom ou nom honorifique choisi par un elfe comme son nom public tardivement dans sa vie. Il fait partie de la essë, ou la dénomination, chez les Hauts Elfes, avec l'ataressë (nom donné par le père) et l'amilessë (nom donné par la mère). Gil-Galad, par exemple, a choisi de se faire appeler Ereinion, ;;;;;;;;;;;;x
+EVTTITelfchild.4;Still a Child!;Encore un Enfant!;;;;;;;;;;;;x
+EVTDESCelfchild.4;You're too young to be a councillor of your liege. Your time will come once you'll have complete your childhood, but not before. You needs to leaves the council for now.;Vous êtes trop jeune pour être le Conseiller de votre Souverain. Votre temps viendra, mais une fois votre enfance terminée, et pas avant. Vous devez quitter son Conseil pour le moment.;;;;;;;;;;;;x
+EVTOPTAelfchild.4;I'm too young for this.;Je suis trop jeune pour cela.;;;;;;;;;;;;x
+EVTTITelfchild.5;Still a Child!;Ce n'est qu'un Enfant!;;;;;;;;;;;;x
+EVTDESCelfchild.5;One of your councillor is still a child, and can't give you the advices you needs from him. He's leaving your Council for now.;L'un de vos conseillers n'est encore qu'un enfant, et est trop jeune pour vous donner les conseils que vous recherchez auprès de lui. Il quitte votre Conseil, pour le moment.;;;;;;;;;;;;x
+EVTOPTAelfchild.5;That was a mistake.;C'était une erreur.;;;;;;;;;;;;x
+ISACHILD;leaves your council;quitte votre Conseil;;;;;;;;;;;;x
