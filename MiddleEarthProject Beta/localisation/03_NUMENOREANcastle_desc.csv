@@ -83,6 +83,8 @@ ca_numenorean2;Númenorean Walls of Minas Ithil;Murs Numénoréens de Minas Ithil;;
 ca_numenorean2_desc;Minas Ithil was founded in the Second Age by the Númenorean, Isildur, son of Elendil, as a fortress city to defend Gondor from Sauron in Mordor.;Minas Ithil a été fondée au Second Age par Isildur, fils d'Elendil, pour servir de forteresse contre le Mordor.;;;;x
 ca_numenorean4;Númenorean Walls of Dol Amroth;Murs Numénoréens de Dol Amroth;;;;x
 ca_numenorean4_desc;One of the few fortresses built by the Númenoreans.;Une des quelques forteresses baties par les Númenoreéens.;;;;x
+ca_numenorean_Annuminas;Númenorean Walls;Murs Numénoréens;;;;x
+ca_numenorean_Annimunas_desc;One of the few fortresses built by the Númenoreans.;Une des quelques forteresses baties par les Númenoreéens.;;;;x
 ca_numenorean3;Haven of Umbar;Havre de Umbar;;;;x
 ca_umbar_haven;Haven of Umbar;Havre de Umbar;;;;x
 ca_umbar_haven_desc;A natural harbour of enclosing rock and a fortress of Númenor, a true haven for anyone seeking protection.;Un port naturel entouré de rochers et une forteresse de Númenor, c'est un vrai havre de protection pour ceux qui s'y trouvent.;;;;x
@@ -103,7 +105,7 @@ ca_henneth_annun_desc;Henneth Annun is a secret place, and rare are the enemies 
 ca_tharbad_bridge;The Bridge of Tharbad;Le Pont de Tharbad;;;;x
 ca_tharbad_bridge_desc;The Bridge of Tharbad a was where the North-South Road crossed the Gwathló River at the city of Tharbad.;Le pont de Tharbad permettait à la route Nord-Sud de traverser la rivière Gwathló dans la ville de Tharbad.;;;;x
 ca_fornost_erain;Fornost Erain;Fornost Erain;;;;x
-ca_fornost_erain_desc;"Fornost Erain was the capital of Arthedain. This powerful city-fortress was built in the earlier yaers of Arnor, and its name neams ""Northern Fortress of Kings.";"Fornost Erain est la capitale de l'Arthedain. Cette puissante cité-forteresse a été batie durant les premières années du Royaume d'Arnor, et son nom signifie Forteresse du Nord des Rois""";;;;x
+ca_fornost_erain_desc;Fornost Erain was the capital of Arthedain. This powerful city-fortress was built in the earlier yaers of Arnor, and its name neams "Northern Fortress of Kings.";Fornost Erain est la capitale de l'Arthedain. Cette puissante cité-forteresse a été batie durant les premières années du Royaume d'Arnor, et son nom signifie "Forteresse du Nord des Rois";;;;x
 ca_fornost_ruins;Fornost Ruins;Ruines de Fornost;;;;x
 ca_fornost_ruins_desc;Since the fall of Fornost in TA 1974, the fortress has fallen into ruin. Now known as Deadman's Pike, only the Dúnedain ever walk there.;Depuis la chute de Fornost en 1974 TA, la forteresse est tombée en ruines. Son nom a été changé en Deadman's Pike, et nul homme hormis les Dunedains n'y met les pieds.;;;;x
 ca_annuminas_ruins;The Ruins of Annúminas;Les Ruines d'Annúminas;;;;x
