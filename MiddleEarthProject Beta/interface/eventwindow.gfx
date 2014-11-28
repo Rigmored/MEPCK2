@@ -1592,6 +1592,16 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\\troll.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_middleearthmap"
+		texturefile = "gfx\\event_pictures\\middleearthmap.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_sauronreturns"
+		texturefile = "gfx\\event_pictures\\sauronreturns.tga"
+		allwaystransparent = yes
+	}
 }
 
 

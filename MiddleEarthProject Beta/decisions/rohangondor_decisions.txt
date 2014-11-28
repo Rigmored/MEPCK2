@@ -3,7 +3,7 @@ decisions = {
 ##The ancient friendship between the House of Eorl and the Lords of Gondor##
 
 ##Gondor sends the Red Arrow to Rohan##
-"Send the Red Arrow to Rohan" = {
+red_arrow_rohan = {
 	is_high_prio = yes
 		
 	potential = {
@@ -38,7 +38,7 @@ decisions = {
 }
 
 ##Rohan sends the Red Arrow to Gondor##
-"Send the Red Arrow to Gondor" = {
+red_arrow_gondor = {
 	is_high_prio = yes
 		
 	potential = {

@@ -3758,546 +3758,7 @@ e_arnor = {
 		}
 	
 		
-		d_east_farthing = {
-			color={ 237 18 18 }
-			color2={ 255 255 255 }
-			
-			capital = 75 #Frogmorton
-			
-			culture_dunedain = "Canathrhûn"
-			culture_arnorian = "Canathrhûn"
-			culture_gondorian = "Canathrhûn"
-			
-			c_frogmorton = {
-				color={ 97 177 177 }
-				color2={ 255 255 255 }
 		
-				culture_dunedain = "Caborlad"
-				culture_arnorian = "Caborlad"
-				culture_gondorian = "Caborlad"
-		
-				b_frogmorton = {
-					culture_dunedain = "Caborlad"
-					culture_arnorian = "Caborlad"
-					culture_gondorian = "Caborlad"
-				}
-				b_budgeford = {
-				}
-				b_tadpoleville = {
-				}
-				b_rivertoad = {
-				}
-				b_mirewood = {
-				}
-			}
-			c_woodyend = {
-				color={ 100 100 100 }
-				color2={ 255 255 255 }	
-
-				culture_dunedain = "Teletaur"
-				culture_arnorian = "Teletaur"
-				culture_gondorian = "Teletaur"
-				
-				b_woodhall = {
-				}
-				b_theyale = {
-				}		
-			}
-			c_the_marish = {
-				color={ 0 100 100 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Lôsad"
-				culture_arnorian = "Lôsad"
-				culture_gondorian = "Lôsad"				
-		
-				b_stock = {
-				}
-				b_bamfurlong = {
-				}
-				b_marishbury = {
-				}
-				b_ottermud = {
-				}
-				b_nutshill = {
-				}
-			}
-			c_bridge_fields = {
-				color={ 0 132 132 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Iant Parth"
-				culture_arnorian = "Iant Parth"
-				culture_gondorian = "Iant Parth"					
-		
-				b_bridge_fields = {
-					culture_dunedain = "Iant Parth"
-					culture_arnorian = "Iant Parth"
-					culture_gondorian = "Iant Parth"	
-				}
-				b_girdleyisland = {
-				}
-				b_whitfurrows = {
-				}
-				b_soapcoat = {
-				}
-				b_cherrybush = {
-				}
-			}
-			c_hills_of_scary = {
-				color={ 55 92 92 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Penneth Scary"
-				culture_arnorian = "Penneth Scary"
-				culture_gondorian = "Penneth Scary"				
-		
-				b_scary = {
-				}
-				b_brockenborings = {
-				}
-				b_quarry = {
-				}
-				b_cavehole = {
-				}
-				b_mirroriver = {
-				}
-			}
-		}
-		d_south_farthing = {
-			color={ 186 143 113 }
-			color2={ 255 255 255 }
-			
-			capital = 83 #Longbottom
-			
-			culture_dunedain = "Canatharad"
-			culture_arnorian = "Canatharad"
-			culture_gondorian = "Canatharad"			
-			
-			c_east_red_downs = {
-				color={ 200 255 200 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Thôrannan"
-				culture_arnorian = "Thôrannan"
-				culture_gondorian = "Thôrannan"			
-		
-				b_longbottom = {
-					culture_dunedain = "Thôrannan"
-					culture_arnorian = "Thôrannan"
-					culture_gondorian = "Thôrannan"	
-				}
-				b_weedbottom = {
-				}	
-				b_pipeville = {
-				}
-				b_hayville = {
-				}
-				b_strawchariot = {
-				}
-			}
-			c_overbourn_marshes = {
-				color={ 50 200 200 }
-				color2={ 255 255 255 }
-
-				culture_dunedain = "Palanlô"
-				culture_arnorian = "Palanlô"
-				culture_gondorian = "Palanlô"					
-		
-				b_deephallow = {
-				}
-				b_rushey = {
-				}
-				b_willowbottom = {
-				}
-				b_morassville = {
-				}
-				b_brownrush = {
-				}
-			}
-			c_north_far_downs = {
-				color={ 34 152 15 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Ost Rinc"
-				culture_arnorian = "Ost Rinc"
-				culture_gondorian = "Ost Rinc"					
-		
-				b_sackville = {
-					culture_dunedain = "Ost Rinc"
-					culture_arnorian = "Ost Rinc"
-					culture_gondorian = "Ost Rinc"				
-				}
-				b_budgehill = {
-				}
-				b_highgrove = {
-				}
-				b_underbridge = {
-				}
-				b_wheelroute = {
-				}
-			}
-			c_glen = {
-				color={ 0 211 139 }
-				color2={ 255 255 255 }
-
-				culture_dunedain = "Iôlost"
-				culture_arnorian = "Iôlost"
-				culture_gondorian = "Iôlost"	
-				
-				b_glen = {
-					culture_dunedain = "Iôlost"
-					culture_arnorian = "Iôlost"
-					culture_gondorian = "Iôlost"				
-				}
-				b_tinmere = {
-				}
-				b_coldpuddle = {
-				}
-				b_frozenhill = {
-				}
-				b_waterwave = {
-				}
-			}
-			
-			c_green_hill_country = {
-				color={ 124 151 124 }
-				color2={ 255 255 255 }
-				
-					culture_dunedain = "Pinnath Celin"
-					culture_arnorian = "Pinnath Celin"
-					culture_gondorian = "Pinnath Celin"				
-		
-				b_green_hill_country = {
-					culture_dunedain = "Pinnath Celin"
-					culture_arnorian = "Pinnath Celin"
-					culture_gondorian = "Pinnath Celin"					
-				}		
-				b_wellbridge = {
-				}
-				b_groce = {
-				}
-				b_leafhall = {
-				}
-				b_daisyjar = {
-				}
-			}
-		}
-		d_west_farthing = {
-			color={ 101 160 75 }
-			color2={ 255 255 255 }
-			
-			capital = 84 # Hobbiton
-			
-			culture_dunedain = "Canathdûn"
-			culture_arnorian = "Canathdûn"
-			culture_gondorian = "Canathdûn"			
-				
-			c_hobbiton = {
-				color={ 186 78 0 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Perianost"
-				culture_arnorian = "Perianost"
-				culture_gondorian = "Perianost"					
-		
-				b_hobbiton = {
-					culture_dunedain = "Perianost"
-					culture_arnorian = "Perianost"
-					culture_gondorian = "Perianost"	
-					holy_site = religion_perian				
-				}
-				b_the_mill = {
-				title = "MILLER"
-	            title_female = "HOUSEKEEPER"
-				title_prefix = "FIELDS_OF"
-				}
-				b_waymoor = {
-				}
-				b_cleanhole = {
-				}
-				b_saddleton = {
-				}
-			}
-			c_michel_delving = {
-				color={ 226 176 139 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Raudhost"
-				culture_arnorian = "Raudhost"
-				culture_gondorian = "Raudhost"					
-		
-				b_michel_delving = {
-					culture_dunedain = "Raudhost"
-					culture_arnorian = "Raudhost"
-					culture_gondorian = "Raudhost"
-					holy_site = religion_perian				
-				}
-				b_michel_delving_mathom = {
-				}
-				b_wolf_den = {
-				}
-				b_south_fields = {
-				}
-				b_whitehood = {
-				}
-				}
-			c_tuckborough ={
-				color={ 186 78 0 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Othrondost"
-				culture_arnorian = "Othrondost"
-				culture_gondorian = "Othrondost"	
-				
-				b_tuckborough = {
-					culture_dunedain = "Othrondost"
-					culture_arnorian = "Othrondost"
-					culture_gondorian = "Othrondost"
-					holy_site = religion_perian		
-				}
-				b_tuckbank = {
-				}
-				b_tuckford = {
-				}
-				b_highford = {
-				}
-				b_willowfork = {
-				}
-			}
-			c_west_north_moors = {
-			
-				color={ 223 223 223 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Caildath"
-				culture_arnorian = "Caildath"
-				culture_gondorian = "Caildath"				
-		
-				b_needlehole = {
-					culture_dunedain = "Caildath"
-					culture_arnorian = "Caildath"
-					culture_gondorian = "Caildath"					
-				}
-				b_rushockbogguard = {
-				}
-				b_willowguard = {
-				}
-				b_greenpitt = {
-				}
-				b_oldsalt = {
-				}
-			}
-			c_the_white_downs = {
-				color={ 238 134 59 }
-				color2={ 255 255 255 }				
-		
-				b_bywater = {
-					culture_dunedain = "Amon Eithel"
-					culture_arnorian = "Amon Eithel"
-					culture_gondorian = "Emon Eithel"				
-				}
-				b_white_downs = {
-				}
-				b_bywaterpool = {
-				}
-				b_frogsbog = {
-				}
-				b_longboat = {
-				}
-			}
-			c_overhill = {
-				color={ 104 91 82 }
-				color2={ 255 255 255 }
-				
-					culture_dunedain = "Thartund"
-					culture_arnorian = "Thartund"
-					culture_gondorian = "Thartund"				
-		
-				b_overhill = {
-					culture_dunedain = "Thartund"
-					culture_arnorian = "Thartund"
-					culture_gondorian = "Thartund"					
-				}
-				b_underhill = {
-					culture_dunedain = "Ditund"
-					culture_arnorian = "Ditund"
-					culture_gondorian = "Ditund"						
-				}
-				b_hotbore = {
-				}
-				b_boarshill = {
-				}
-				b_whitespot = {
-				}
-			}
-			c_west_bindbale = {
-				color={ 145 134 129 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Cadwar Nimrais"
-				culture_arnorian = "Cadwar Nimrais"
-				culture_gondorian = "Cadwar Nimrais"				
-		
-				b_whitwell = {
-					culture_dunedain = "Cadwar Nimrais"
-					culture_arnorian = "Cadwar Nimrais"
-					culture_gondorian = "Cadwar Nimrais"				
-				}
-				b_uppersmials = {
-				}
-				b_oldsmials = {
-				}
-				b_highchimney = {
-				}
-				b_coldfire = {
-				}
-			}
-			c_westwood = {
-				color={ 135 60 6 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Govadimrad"
-				culture_arnorian = "Govadimrad"
-				culture_gondorian = "Govadimrad"				
-		
-				b_waymeet = {
-					culture_dunedain = "Govadimrad"
-					culture_arnorian = "Govadimrad"
-					culture_gondorian = "Govadimrad"				
-				}
-				b_westwood = {
-				}
-				b_woodguard = {
-				}
-				b_greentrunk = {
-				}
-				b_oldbush = {
-				}
-			}
-			c_little_delving = {
-				color={ 133 84 48 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Pînothrond"
-				culture_arnorian = "Pînothrond"
-				culture_gondorian = "Pînothrond"				
-		
-				b_little_delving = {
-					culture_dunedain = "Pînothrond"
-					culture_arnorian = "Pînothrond"
-					culture_gondorian = "Pînothrond"				
-				}
-				b_greenpaddle = {
-				}
-				b_littlehole = {
-				}
-				b_blackrove = {
-				}
-				b_highorn = {
-				}
-			}
-			c_nobottle = {
-				color={ 201 143 101 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Usôg"
-				culture_arnorian = "Usôg"
-				culture_gondorian = "Usôg"				
-		
-				b_nobottle = {
-					culture_dunedain = "Usôg"
-					culture_arnorian = "Usôg"
-					culture_gondorian = "Usôg"				
-				}
-				b_gamwich = {
-				}
-				b_tightfield = {
-				}
-				b_starpool = {
-				}
-				b_skyrow = {
-				}
-			}
-		}
-		d_north_farthing = {
-			color={ 213 219 19 }
-			color2={ 255 255 255 }
-			
-			capital = 92 #Longcleeve
-			
-			culture_dunedain = "Canathforn"
-			culture_arnorian = "Canathforn"
-			culture_gondorian = "Canathforn"			
-			
-			c_north_bindbale = {
-				color={ 58 58 58 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Cîltaen"
-				culture_arnorian = "Cîltaen"
-				culture_gondorian = "Cîltaen"				
-		
-				b_longcleeve = {
-					culture_dunedain = "Cîltaen"
-					culture_arnorian = "Cîltaen"
-					culture_gondorian = "Cîltaen"					
-				}
-				b_pinecleeve = {
-				}
-				b_leafcleeve = {
-				}
-				b_coldmud = {
-				}
-				b_runepine = {
-				}
-			}
-			c_east_north_moors = {
-				color={ 0 26 25 }
-				color2={ 255 255 255 }
-				
-				culture_dunedain = "Longridh"
-				culture_arnorian = "Longridh"
-				culture_gondorian = "Longridh"					
-		
-				b_oatbarton = {
-					culture_dunedain = "Longridh"
-					culture_arnorian = "Longridh"
-					culture_gondorian = "Longridh"					
-				}	
-				b_coldwillow = {
-				}
-				b_frozenby = {
-				}
-				b_frostmist = {
-				}
-				b_whitenut = {
-				}
-			}
-			c_greenfields = {
-				color={ 255 218 191 }
-				color2={ 255 255 255 }
-		
-				culture_dunedain = "Celin Parth"
-				culture_arnorian = "Celin Parth"
-				culture_gondorian = "Celin Parth"			
-		
-				b_greenfields = {
-					culture_dunedain = "Celin Parth"
-					culture_arnorian = "Celin Parth"
-					culture_gondorian = "Celin Parth"					
-				}
-				b_greenshield = {
-				}
-				b_fearfulfire = {
-				}
-				b_moldville = {
-				}
-				b_tepidtown = {
-				}
-			}		
-		}
-	}
 	
 	k_cardolan = {
 		color={ 103 94 124 }
@@ -4950,8 +4411,546 @@ e_arnor = {
 		title = "KING"
 	    title_female = "QUEEN"
 	    title_prefix = "KING_OF"
-	
 		
+		d_east_farthing = {
+			color={ 237 18 18 }
+			color2={ 255 255 255 }
+			
+			capital = 75 #Frogmorton
+			
+			culture_dunedain = "Canathrhûn"
+			culture_arnorian = "Canathrhûn"
+			culture_gondorian = "Canathrhûn"
+			
+			c_frogmorton = {
+				color={ 97 177 177 }
+				color2={ 255 255 255 }
+		
+				culture_dunedain = "Caborlad"
+				culture_arnorian = "Caborlad"
+				culture_gondorian = "Caborlad"
+		
+				b_frogmorton = {
+					culture_dunedain = "Caborlad"
+					culture_arnorian = "Caborlad"
+					culture_gondorian = "Caborlad"
+				}
+				b_budgeford = {
+				}
+				b_tadpoleville = {
+				}
+				b_rivertoad = {
+				}
+				b_mirewood = {
+				}
+			}
+			c_woodyend = {
+				color={ 100 100 100 }
+				color2={ 255 255 255 }	
+
+				culture_dunedain = "Teletaur"
+				culture_arnorian = "Teletaur"
+				culture_gondorian = "Teletaur"
+				
+				b_woodhall = {
+				}
+				b_theyale = {
+				}		
+			}
+			c_the_marish = {
+				color={ 0 100 100 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Lôsad"
+				culture_arnorian = "Lôsad"
+				culture_gondorian = "Lôsad"				
+		
+				b_stock = {
+				}
+				b_bamfurlong = {
+				}
+				b_marishbury = {
+				}
+				b_ottermud = {
+				}
+				b_nutshill = {
+				}
+			}
+			c_bridge_fields = {
+				color={ 0 132 132 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Iant Parth"
+				culture_arnorian = "Iant Parth"
+				culture_gondorian = "Iant Parth"					
+		
+				b_bridge_fields = {
+					culture_dunedain = "Iant Parth"
+					culture_arnorian = "Iant Parth"
+					culture_gondorian = "Iant Parth"	
+				}
+				b_girdleyisland = {
+				}
+				b_whitfurrows = {
+				}
+				b_soapcoat = {
+				}
+				b_cherrybush = {
+				}
+			}
+			c_hills_of_scary = {
+				color={ 55 92 92 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Penneth Scary"
+				culture_arnorian = "Penneth Scary"
+				culture_gondorian = "Penneth Scary"				
+		
+				b_scary = {
+				}
+				b_brockenborings = {
+				}
+				b_quarry = {
+				}
+				b_cavehole = {
+				}
+				b_mirroriver = {
+				}
+			}
+		}
+		d_south_farthing = {
+			color={ 186 143 113 }
+			color2={ 255 255 255 }
+			
+			capital = 83 #Longbottom
+			
+			culture_dunedain = "Canatharad"
+			culture_arnorian = "Canatharad"
+			culture_gondorian = "Canatharad"			
+			
+			c_east_red_downs = {
+				color={ 200 255 200 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Thôrannan"
+				culture_arnorian = "Thôrannan"
+				culture_gondorian = "Thôrannan"			
+		
+				b_longbottom = {
+					culture_dunedain = "Thôrannan"
+					culture_arnorian = "Thôrannan"
+					culture_gondorian = "Thôrannan"	
+				}
+				b_weedbottom = {
+				}	
+				b_pipeville = {
+				}
+				b_hayville = {
+				}
+				b_strawchariot = {
+				}
+			}
+			c_overbourn_marshes = {
+				color={ 50 200 200 }
+				color2={ 255 255 255 }
+
+				culture_dunedain = "Palanlô"
+				culture_arnorian = "Palanlô"
+				culture_gondorian = "Palanlô"					
+		
+				b_deephallow = {
+				}
+				b_rushey = {
+				}
+				b_willowbottom = {
+				}
+				b_morassville = {
+				}
+				b_brownrush = {
+				}
+			}
+			c_north_far_downs = {
+				color={ 34 152 15 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Ost Rinc"
+				culture_arnorian = "Ost Rinc"
+				culture_gondorian = "Ost Rinc"					
+		
+				b_sackville = {
+					culture_dunedain = "Ost Rinc"
+					culture_arnorian = "Ost Rinc"
+					culture_gondorian = "Ost Rinc"				
+				}
+				b_budgehill = {
+				}
+				b_highgrove = {
+				}
+				b_underbridge = {
+				}
+				b_wheelroute = {
+				}
+			}
+			c_glen = {
+				color={ 0 211 139 }
+				color2={ 255 255 255 }
+
+				culture_dunedain = "Iôlost"
+				culture_arnorian = "Iôlost"
+				culture_gondorian = "Iôlost"	
+				
+				b_glen = {
+					culture_dunedain = "Iôlost"
+					culture_arnorian = "Iôlost"
+					culture_gondorian = "Iôlost"				
+				}
+				b_tinmere = {
+				}
+				b_coldpuddle = {
+				}
+				b_frozenhill = {
+				}
+				b_waterwave = {
+				}
+			}
+			
+			c_green_hill_country = {
+				color={ 124 151 124 }
+				color2={ 255 255 255 }
+				
+					culture_dunedain = "Pinnath Celin"
+					culture_arnorian = "Pinnath Celin"
+					culture_gondorian = "Pinnath Celin"				
+		
+				b_green_hill_country = {
+					culture_dunedain = "Pinnath Celin"
+					culture_arnorian = "Pinnath Celin"
+					culture_gondorian = "Pinnath Celin"					
+				}		
+				b_wellbridge = {
+				}
+				b_groce = {
+				}
+				b_leafhall = {
+				}
+				b_daisyjar = {
+				}
+			}
+		}
+		d_west_farthing = {
+			color={ 101 160 75 }
+			color2={ 255 255 255 }
+			
+			capital = 84 # Hobbiton
+			
+			culture_dunedain = "Canathdûn"
+			culture_arnorian = "Canathdûn"
+			culture_gondorian = "Canathdûn"			
+				
+			c_hobbiton = {
+				color={ 186 78 0 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Perianost"
+				culture_arnorian = "Perianost"
+				culture_gondorian = "Perianost"					
+		
+				b_hobbiton = {
+					culture_dunedain = "Perianost"
+					culture_arnorian = "Perianost"
+					culture_gondorian = "Perianost"	
+					holy_site = religion_perian				
+				}
+				b_the_mill = {
+				title = "MILLER"
+	            title_female = "HOUSEKEEPER"
+				title_prefix = "FIELDS_OF"
+				}
+				b_waymoor = {
+				}
+				b_cleanhole = {
+				}
+				b_saddleton = {
+				}
+			}
+			c_michel_delving = {
+				color={ 226 176 139 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Raudhost"
+				culture_arnorian = "Raudhost"
+				culture_gondorian = "Raudhost"					
+		
+				b_michel_delving = {
+					culture_dunedain = "Raudhost"
+					culture_arnorian = "Raudhost"
+					culture_gondorian = "Raudhost"
+					holy_site = religion_perian				
+				}
+				b_michel_delving_mathom = {
+				}
+				b_wolf_den = {
+				}
+				b_south_fields = {
+				}
+				b_whitehood = {
+				}
+				}
+			c_tuckborough ={
+				color={ 186 78 0 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Othrondost"
+				culture_arnorian = "Othrondost"
+				culture_gondorian = "Othrondost"	
+				
+				b_tuckborough = {
+					culture_dunedain = "Othrondost"
+					culture_arnorian = "Othrondost"
+					culture_gondorian = "Othrondost"
+					holy_site = religion_perian		
+				}
+				b_tuckbank = {
+				}
+				b_tuckford = {
+				}
+				b_highford = {
+				}
+				b_willowfork = {
+				}
+			}
+			c_west_north_moors = {
+			
+				color={ 223 223 223 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Caildath"
+				culture_arnorian = "Caildath"
+				culture_gondorian = "Caildath"				
+		
+				b_needlehole = {
+					culture_dunedain = "Caildath"
+					culture_arnorian = "Caildath"
+					culture_gondorian = "Caildath"					
+				}
+				b_rushockbogguard = {
+				}
+				b_willowguard = {
+				}
+				b_greenpitt = {
+				}
+				b_oldsalt = {
+				}
+			}
+			c_the_white_downs = {
+				color={ 238 134 59 }
+				color2={ 255 255 255 }				
+		
+				b_bywater = {
+					culture_dunedain = "Amon Eithel"
+					culture_arnorian = "Amon Eithel"
+					culture_gondorian = "Emon Eithel"				
+				}
+				b_white_downs = {
+				}
+				b_bywaterpool = {
+				}
+				b_frogsbog = {
+				}
+				b_longboat = {
+				}
+			}
+			c_overhill = {
+				color={ 104 91 82 }
+				color2={ 255 255 255 }
+				
+					culture_dunedain = "Thartund"
+					culture_arnorian = "Thartund"
+					culture_gondorian = "Thartund"				
+		
+				b_overhill = {
+					culture_dunedain = "Thartund"
+					culture_arnorian = "Thartund"
+					culture_gondorian = "Thartund"					
+				}
+				b_underhill = {
+					culture_dunedain = "Ditund"
+					culture_arnorian = "Ditund"
+					culture_gondorian = "Ditund"						
+				}
+				b_hotbore = {
+				}
+				b_boarshill = {
+				}
+				b_whitespot = {
+				}
+			}
+			c_west_bindbale = {
+				color={ 145 134 129 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Cadwar Nimrais"
+				culture_arnorian = "Cadwar Nimrais"
+				culture_gondorian = "Cadwar Nimrais"				
+		
+				b_whitwell = {
+					culture_dunedain = "Cadwar Nimrais"
+					culture_arnorian = "Cadwar Nimrais"
+					culture_gondorian = "Cadwar Nimrais"				
+				}
+				b_uppersmials = {
+				}
+				b_oldsmials = {
+				}
+				b_highchimney = {
+				}
+				b_coldfire = {
+				}
+			}
+			c_westwood = {
+				color={ 135 60 6 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Govadimrad"
+				culture_arnorian = "Govadimrad"
+				culture_gondorian = "Govadimrad"				
+		
+				b_waymeet = {
+					culture_dunedain = "Govadimrad"
+					culture_arnorian = "Govadimrad"
+					culture_gondorian = "Govadimrad"				
+				}
+				b_westwood = {
+				}
+				b_woodguard = {
+				}
+				b_greentrunk = {
+				}
+				b_oldbush = {
+				}
+			}
+			c_little_delving = {
+				color={ 133 84 48 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Pînothrond"
+				culture_arnorian = "Pînothrond"
+				culture_gondorian = "Pînothrond"				
+		
+				b_little_delving = {
+					culture_dunedain = "Pînothrond"
+					culture_arnorian = "Pînothrond"
+					culture_gondorian = "Pînothrond"				
+				}
+				b_greenpaddle = {
+				}
+				b_littlehole = {
+				}
+				b_blackrove = {
+				}
+				b_highorn = {
+				}
+			}
+			c_nobottle = {
+				color={ 201 143 101 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Usôg"
+				culture_arnorian = "Usôg"
+				culture_gondorian = "Usôg"				
+		
+				b_nobottle = {
+					culture_dunedain = "Usôg"
+					culture_arnorian = "Usôg"
+					culture_gondorian = "Usôg"				
+				}
+				b_gamwich = {
+				}
+				b_tightfield = {
+				}
+				b_starpool = {
+				}
+				b_skyrow = {
+				}
+			}
+		}
+		d_north_farthing = {
+			color={ 213 219 19 }
+			color2={ 255 255 255 }
+			
+			capital = 92 #Longcleeve
+			
+			culture_dunedain = "Canathforn"
+			culture_arnorian = "Canathforn"
+			culture_gondorian = "Canathforn"			
+			
+			c_north_bindbale = {
+				color={ 58 58 58 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Cîltaen"
+				culture_arnorian = "Cîltaen"
+				culture_gondorian = "Cîltaen"				
+		
+				b_longcleeve = {
+					culture_dunedain = "Cîltaen"
+					culture_arnorian = "Cîltaen"
+					culture_gondorian = "Cîltaen"					
+				}
+				b_pinecleeve = {
+				}
+				b_leafcleeve = {
+				}
+				b_coldmud = {
+				}
+				b_runepine = {
+				}
+			}
+			c_east_north_moors = {
+				color={ 0 26 25 }
+				color2={ 255 255 255 }
+				
+				culture_dunedain = "Longridh"
+				culture_arnorian = "Longridh"
+				culture_gondorian = "Longridh"					
+		
+				b_oatbarton = {
+					culture_dunedain = "Longridh"
+					culture_arnorian = "Longridh"
+					culture_gondorian = "Longridh"					
+				}	
+				b_coldwillow = {
+				}
+				b_frozenby = {
+				}
+				b_frostmist = {
+				}
+				b_whitenut = {
+				}
+			}
+			c_greenfields = {
+				color={ 255 218 191 }
+				color2={ 255 255 255 }
+		
+				culture_dunedain = "Celin Parth"
+				culture_arnorian = "Celin Parth"
+				culture_gondorian = "Celin Parth"			
+		
+				b_greenfields = {
+					culture_dunedain = "Celin Parth"
+					culture_arnorian = "Celin Parth"
+					culture_gondorian = "Celin Parth"					
+				}
+				b_greenshield = {
+				}
+				b_fearfulfire = {
+				}
+				b_moldville = {
+				}
+				b_tepidtown = {
+				}
+			}		
+		}
 		d_hobbitwestmarch = {
 			color={ 237 18 29 }
 			color2={ 255 255 255 }

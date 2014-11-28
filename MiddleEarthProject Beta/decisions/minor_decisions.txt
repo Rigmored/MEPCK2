@@ -523,6 +523,7 @@ decisions = {
 		potential = {
 			age = 16
 			trait = depressed
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			trait = depressed

@@ -966,4 +966,16 @@ spriteTypes = {
 		name = "GFX_claim_king_silvan_elves"
 		texturefile = "gfx\\interface\\decision_icon_claim_king_silvan.dds"
 	}
+	spriteType = {
+		name = "GFX_open_index"
+		texturefile = "gfx\\interface\\decision_icon_gondor_archives.dds"
+	}
+	spriteType = {
+		name = "GFX_red_arrow_rohan"
+		texturefile = "gfx\\interface\\decision_icon_red_arrow.dds"
+	}
+	spriteType = {
+		name = "GFX_red_arrow_gondor"
+		texturefile = "gfx\\interface\\decision_icon__red_arrow.dds"
+	}
 }

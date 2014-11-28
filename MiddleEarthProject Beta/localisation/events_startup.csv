@@ -1,10 +1,30 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-#
-EVTNAMEmepstartup.0;Welcome to the Middle Earth Project;;;;;;;;;;;;;x
-EVTDESCmepstartup.0;you are playing beta version revision 0.3.2b! \n\nNew features include x, y and z. \n\nKnown bugs include x, y and z. \n\nPlease visit our thread on the Paradox Forum to report bugs and give us your suggestions.;;;;;;;;;;;;;x
-EVTOPTAmepstartup.0;Okay;;;;;;;;;;;;;x
-#
-EVTNAMEmepstartup.1;The Middle Earth Project Beta;;;;;;;;;;;;;x
-EVTDESCmepstartup.1;Welcome to version 0.3.2b;;;;;;;;;;;;;x
-EVTOPTAmepstartup.1;Cool;;;;;;;;;;;;;x
-EVTOPTBmepstartup.1;Okay;;;;;;;;;;;;;x
+#Welcome
+EVTNAMEmepstartup.1;The Middle Earth Project;;;;;;;;;;;;;x
+EVTDESCmepstartup.1;Welcome! You are playing beta 0.4b! \n\nThis version has many new features, such as an overhauled building system, new decisions, new events and more. \n\nPlease visit our threads on the Paradox Forum to report bugs and give us your suggestions. \n\nFor information on unique features and mechanics for this mod, please continue to the index below. Alternatively, you can close this window. The index can opened at any time from your decision window, under special decisions.;;;;;;;;;;;;;x
+EVTOPTAmepstartup.1;Take me to the index!;;;;;;;;;;;;;x
+EVTOPTBmepstartup.1;Close the window, I want to play!;;;;;;;;;;;;;x
+#Contents
+EVTNAMEmepstartup.2;Index Contents;;;;;;;;;;;;;x
+EVTDESCmepstartup.2;Here you can find information on some of the gameplay mechanics and other changes from vanilla CKII. \n\nPlease choose a topic or close the index to continue.;;;;;;;;;;;;;x
+EVTOPTAmepstartup.2;Armies;;;;;;;;;;;;;x
+EVTOPTBmepstartup.2;Purging and Colonising;;;;;;;;;;;;;x
+EVTOPTCmepstartup.2;Story Events;;;;;;;;;;;;;x
+EVTOPTDmepstartup.2;Close Index;;;;;;;;;;;;;x
+#Armies
+EVTNAMEmepstartup.3;Armies;;;;;;;;;;;;;x
+EVTDESCmepstartup.3;Armies work slightly differently in Middle-Earth. First and foremost is race bonuses and maluses. \n\nDepending on the race of your troops, they will fight better or worse. Balrogs, Dragons, Eagles, Ents, Huorns and Trolls have huge combat bonuses. Noldor and Sindar Elves and the Dwarves have great bonuses. Wood Elves, Gondorians, Arnorians and the Dúnedain have good bonuses. Rohirrim and Uruk-hai have small bonuses. Hobbits and Orcs have slight maluses. All other races such as Haldadians or Northmen have standard vanilla effectiveness. \n\nThe result of this is that a huge army of Orcs can be defeated by a considerably smaller army of Noldor Elves. When playing with a weaker race make sure you account for the strength of your enemies troops.;;;;;;;;;;;;;x
+EVTOPTAmepstartup.3;Return to Contents;;;;;;;;;;;;;x
+EVTOPTBmepstartup.3;Close Index;;;;;;;;;;;;;x
+#Purging and Colonising
+EVTNAMEmepstartup.4;Purging and Colonising;;;;;;;;;;;;;x
+EVTDESCmepstartup.4;In order to spread your culture within this mod you must use the purge and colonise mechanics. \n\nMuch of the world is wilderness and in order to expand into this wilderness you must declare war with the Settle casus belli. Once you have occupied and annexed the land you must send your steward on a colonisation mission to that province, and then activate the Colonise Province decision. Be advised, colonisation is not cheap, and not entirely risk free. \n\nPurging is necessary when a foreign and hostile culture resides in your lands. You must send your marshal on a purge mission to that province, and activate the Purge decision. This is also not risk free, after all, they may not want to leave...;;;;;;;;;;;;;x
+EVTOPTAmepstartup.4;Return to Contents;;;;;;;;;;;;;x
+EVTOPTAmepstartup.4;Close Index;;;;;;;;;;;;;x
+#Story Events
+EVTNAMEmepstartup.5;Story Events;;;;;;;;;;;;;x
+EVTDESCmepstartup.5;This mod is set within the legendarium of Middle-Earth, and there are event chains designed to guide the world through the story  of this world. \n\nPlaying as the larger nations involved in the War of the Ring or Fall of Arnor, you will recieve events regarding the progress of the scenario, and your place in it. You may even be granted event troops or be drawn into wars you wanted to avoid.;;;;;;;;;;;;;x
+EVTOPTAmepstartup.5;Return to Contents;;;;;;;;;;;;;x
+EVTOPTAmepstartup.5;Close Index;;;;;;;;;;;;;x
+open_index;Open Index;;;;;;;;;;;;;x
+open_index_desc;Open the Index, where you can find information on game mechanics.;;;;;;;;;;;;;x
