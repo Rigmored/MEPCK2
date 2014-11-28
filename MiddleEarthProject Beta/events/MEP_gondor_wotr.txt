@@ -807,7 +807,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = e_steward_gondor
 			}
-			narrative_event = { id = gondorwotr.14 days = 15 }
+			narrative_event = { id = gondorwotr.15 days = 15 }
 		}
 	}	
 	
@@ -819,9 +819,9 @@ narrative_event = {
 
 #### Sauron will attack ####
 narrative_event = {
-    id = gondorwotr.14
-    title = "EVTTITgondorwotr.14"
-    desc = "EVTDESCgondorwotr.14"
+    id = gondorwotr.15
+    title = "EVTTITgondorwotr.15"
+    desc = "EVTDESCgondorwotr.15"
     picture = "GFX_gondor_guard"
 	age = 16
 	only_independent = yes
@@ -833,18 +833,18 @@ narrative_event = {
 	}	
 	
 	option = {
-		name = "EVTOPTAgondorwotr.14" ## Oh no...
+		name = "EVTOPTAgondorwotr.15" ## Oh no...
 		FROM = {
-			narrative_event = { id = gondorwotr.15 days = 50 }
+			narrative_event = { id = gondorwotr.16 days = 50 }
 		}
 	}	
 }
 
 #### WAR ! ####
 narrative_event = {
-    id = gondorwotr.15
-    title = "EVTTITgondorwotr.15"
-    desc = "EVTDESCgondorwotr.15"
+    id = gondorwotr.16
+    title = "EVTTITgondorwotr.16"
+    desc = "EVTDESCgondorwotr.16"
     picture = "GFX_gondor_guard"
 	age = 16
 	only_independent = yes
@@ -857,7 +857,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTAgondorwotr.15" ## TO WAR !!
+		name = "EVTOPTAgondorwotr.16" ## TO WAR !!
 		set_global_flag = warinosgiliath2
 		c_east_osgiliath = {
 			reverse_war = {
@@ -923,15 +923,15 @@ narrative_event = {
 				}
 			}		
 		}	
-		FROM = { character_event = { id = gondorwotr.16 } }
+		FROM = { character_event = { id = gondorwotr.17 } }
 	}	
 }
 
 ### Gondor shall resist ! ###
 narrative_event = {
-    id = gondorwotr.16
-    title = "EVTTITgondorwotr.16"
-    desc = "EVTDESCgondorwotr.16"
+    id = gondorwotr.17
+    title = "EVTTITgondorwotr.17"
+    desc = "EVTDESCgondorwotr.17"
     picture = "GFX_gondor_guard"
 	age = 16
 	only_independent = yes
@@ -940,7 +940,7 @@ narrative_event = {
 	
 	
 	option = {
-		name = "EVTOPTAgondorwotr.16" ## We shall resist !
+		name = "EVTOPTAgondorwotr.17" ## We shall resist !
 		c_east_osgiliath = {
 			reverse_war = {
 				target = ROOT
