@@ -8,10 +8,10 @@ title = c_nimrhand
 
 max_settlements = 4
 
-b_nimrhand = castle
-b_rast_amonher = city
-#b_nimrodui = city
-#b_caras_lidon = castle
+b_nimrhand = tribal
+b_rast_amonher = tribal
+#b_nimrodui = tribal
+#b_caras_lidon = tribal
 
 # Misc
 culture = culture_andrasting

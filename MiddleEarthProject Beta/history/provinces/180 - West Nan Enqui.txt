@@ -8,11 +8,11 @@ title = c_west_nan_enqui
 
 max_settlements = 5
 
-b_tharagrondost = castle
-b_lond_nornin = city
-#b_cirith_falath = city
-#b_nan_enqui = city
-#b_enquinor = city
+b_tharagrondost = tribal
+b_lond_nornin = tribal
+#b_cirith_falath = tribal
+#b_nan_enqui = tribal
+#b_enquinor = tribal
 
 # Misc
 6000.1.1 = {
