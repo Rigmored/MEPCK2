@@ -130,8 +130,10 @@ is_high_prio = no
 		capable_only = yes
 		has_landed_title = c_west_osgiliath
 		year = 9900
-		NOT = { has_global_flag = west_osgiliath_rebuilded }
+		NOT = { has_global_flag = west_osgiliath_rebuilded_finally }
 		has_character_flag = special_decisions_open
+		NOT = { has_character_flag = osgiliath_west }
+		NOT = { has_character_flag = east_osgiliath }
 	}	
 	
 	allow = {
@@ -161,8 +163,10 @@ is_high_prio = no
 		capable_only = yes
 		has_landed_title = c_east_osgiliath
 		year = 9900
-		NOT = { has_global_flag = east_osgiliath_rebuilded }
+		NOT = { has_global_flag = east_osgiliath_rebuilded_finally }
 		has_character_flag = special_decisions_open
+		NOT = { has_character_flag = osgiliath_west }
+		NOT = { has_character_flag = east_osgiliath }
 	}	
 	
 	allow = {

@@ -752,19 +752,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTAbuildings.26" ## I'll rebuild osgiliath
-		if = {
-			limit = {
-				has_character_flag = osgiliath_west
-			}
-			set_global_flag = west_osgiliath_rebuilded
-		}
-		if = {
-			limit = {
-				has_character_flag = east_sgiliath
-			}
-			set_global_flag = east_osgiliath_rebuilded
-		}		
+		name = "EVTOPTAbuildings.26" ## I'll rebuild osgiliath	
 		wealth = -150
 		FROM = {
 			character_event = { id = buildings.27 days = 20 } # Rebuilding of osgiliath - First Step
@@ -773,6 +761,8 @@ character_event = {
 	option = {
 		name = "EVTOPTBbuildings.26"
 		trigger = { ai = no }
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west		
 	}		
 }
 
@@ -803,7 +793,8 @@ character_event = {
 	option = {
 		name = "EVTOPTBbuildings.9"
 		trigger = { ai = no }
-		clr_global_flag = osgiliath_rebuilded
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west
 	}		
 }
 
@@ -850,7 +841,8 @@ character_event = {
 	option = {
 		name = "EVTOPTBbuildings.10"
 		trigger = { ai = no }
-		clr_global_flag = osgiliath_rebuilded
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west
 	}		
 }
 
@@ -865,7 +857,8 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAbuildings.29" ## Ok.
-		clr_global_flag = osgiliath_rebuilded
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west
 		random_list = {
 			80 = {
 			}
@@ -890,37 +883,39 @@ character_event = {
 		name = "EVTOPTAbuildings.30" ## Great !
 		prestige = 100
 		piety = 100
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west		
 		if = {
 			limit = {
 				has_character_flag = west_osgiliath
 				NOT = { has_global_flag = west_osgiliath_rebuilded_finally }
 			}
 			set_global_flag = west_osgiliath_rebuilded_finally	
-			b_osgiliath = {
+			b_minasnumen = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_adannon = {
+			b_golden_gate = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_ariant = {
+			b_bar_annabon = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_clorhir = {
+			b_lumbar_quays = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_gaerannon = {
+			b_rozinbarad = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}		
-			b_menelband = {
+			b_forum_of_turambar = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}	
-			b_tyl_annun = {
+			b_belthil = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}			
@@ -935,31 +930,31 @@ character_event = {
 				NOT = { has_global_flag = east_osgiliath_rebuilded_finally }
 			}
 			set_global_flag = east_osgiliath_rebuilded_finally					
-			b_osgiliath = {
+			b_dome_of_the_stars = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_adannon = {
+			b_tol_gilthoniel = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_ariant = {
+			b_gate_of_tulkas = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_clorhir = {
+			b_silver_gate = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_gaerannon = {
+			b_menelvagor_quays = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}		
-			b_menelband = {
+			b_bar_raudh = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}	
-			b_tyl_annun = {
+			b_abad_atanatar = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}			
@@ -982,7 +977,8 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAbuildings.31" ## Ok.
-		clr_global_flag = osgiliath_rebuilded
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west
 		random_list = {
 			80 = {
 			}
@@ -1009,17 +1005,6 @@ character_event = {
 		character_event = { id = buildings.30 days = 10 }		
 	}		
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
