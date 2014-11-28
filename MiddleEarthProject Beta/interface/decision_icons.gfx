@@ -954,4 +954,16 @@ spriteTypes = {
 		name = "GFX_erebor_craft_decision"
 		texturefile = "gfx\\interface\\decision_forge_weapon.dds"
 	}
+	spriteType = {
+		name = "GFX_claim_king_arnor"
+		texturefile = "gfx\\interface\\decision_icon_claim_king_arnor.dds"
+	}
+	spriteType = {
+		name = "GFX_claim_king_anadune"
+		texturefile = "gfx\\interface\\decision_icon_claim_king_anadune.dds"
+	}
+	spriteType = {
+		name = "GFX_claim_king_silvan_elves"
+		texturefile = "gfx\\interface\\decision_icon_claim_king_silvan.dds"
+	}
 }

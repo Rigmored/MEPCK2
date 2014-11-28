@@ -437,7 +437,7 @@ spriteType = {
 	}
      spriteType = {
                 name = "GFX_settlement_city_easterlinggfx"
-		texturefile = "gfx\\interface\\placeholder_city_zoroastrian.tga"
+		texturefile = "gfx\\interface\\placeholder_city_easterling.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}

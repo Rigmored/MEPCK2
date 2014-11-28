@@ -1,7 +1,7 @@
 decisions = {
 	## If the line of Isildur failed, an option for the steward to claim the crown of Gondor ##
 	claim_king_gondor = {
-		is_high_prio = yes
+		is_high_prio = no
 		
 		potential = {
 			has_dlc = "Legacy of Rome"
@@ -38,7 +38,7 @@ decisions = {
 	
 ## For the King of Mirkwood, to claim the High Kingship of the Silvan Elves ##
 	claim_king_silvan_elves = {
-		is_high_prio = yes
+		is_high_prio = no
 		
 		potential = {
 			has_dlc = "Legacy of Rome"
@@ -69,7 +69,7 @@ decisions = {
 	
 ## For the King of Bellakar, to claim the High Kingship of Anadûnê ##
 	claim_king_anadune = {
-		is_high_prio = yes
+		is_high_prio = no
 		
 		potential = {
 			has_dlc = "Legacy of Rome"
@@ -102,7 +102,7 @@ decisions = {
 	
 ## For the King of Arthedain, to claim the Kingdom of Arnor ##
 	claim_king_arnor = {
-		is_high_prio = yes
+		is_high_prio = no
 		
 		potential = {
 			has_dlc = "Legacy of Rome"
@@ -123,8 +123,8 @@ decisions = {
 			prestige = 3000
 			completely_controls = k_arthedain
 			OR = {
-			completely_controls = k_cardolan
-			completely_controls = k_rhudaur
+				has_landed_title = k_cardolan
+				has_landed_title = k_rhudaur
 			}
 		}
 		effect = {
