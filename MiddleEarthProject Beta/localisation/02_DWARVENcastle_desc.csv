@@ -49,14 +49,14 @@ ca_Dcastleguards_4;Iron Guards barracks;Garnison de Fer;;;;x
 ca_Dcastleguards_5;Elite Iron Guards Barracks;Garnison de Fer d'élite;;;;x
 ca_Dcastleguards_6;Dragonslayers Barracks;Caserne des Tueurs-de-Dragon;;;;x
 ca_Dcastleguards_1_desc;The Guard forms pikemen usually used for defense.;La garde se compose de piquiers et assure normalement un rôle défensif.;;;;x
-ca_Dtown_1;Small Dwellings Galeries;Petites Galeries d'Habitations;;;;x
-ca_Dtown_2;Large Dwellings Galeries;Grandes Galeries d'Habitations;;;;x
+ca_Dtown_1;Small Dwelling Galleries;Petites Galeries d'Habitations;;;;x
+ca_Dtown_2;Large Dwelling Galleries;Grandes Galeries d'Habitations;;;;x
 ca_Dtown_3;Small Halls;Petites Salles;;;;x
 ca_Dtown_4;Great Halls;Grandes Salles;;;;x
 ca_Dtown_5;Large Halls;Grandes Salles;;;;x
 ca_Dtown_6;Dwarven Halls;Salles des Nains;;;;x
-ca_Dtown_1_desc;The Small Dwellings Galeries of this fortress provides housing to some families of soldiers.;Les Petites galeries d'habitations de la forteresse apporte logement à certaines familles des soldats.;;;;x
-ca_Dtown_2_desc;The Large Dwellings galeries of the fortress provides housing to all the families of soldiers.;Les Grandes Galeries d'habitations de la forteresse apporte logement aux familles des soldats.;;;;x
+ca_Dtown_1_desc;The Small Dwelling Galleries of this fortress provide housing to some families of soldiers.;Les Petites galeries d'habitations de la forteresse apporte logement à certaines familles des soldats.;;;;x
+ca_Dtown_2_desc;The Large Dwelling Galleries of the fortress provide housing to all the families of soldiers.;Les Grandes Galeries d'habitations de la forteresse apporte logement aux familles des soldats.;;;;x
 ca_Dtown_3_desc;The Small Halls of the fortress provides housing to some merchants.;Les Petites Salles de la forteresse apporte un espace pour quelques marchands.;;;;x
 ca_Dtown_4_desc;The Great Halls of the fortress provides more space for merchants, and for some rich families.;Les Grandes Salles de la forteresse apportent plus d'espace pour les marchants, mais aussi pour quelques familles aisées.;;;;x
 ca_Dtown_5_desc;The Large Halls of the fortress provides more space to merchants, artisans, and for some rich families.;Les Larges Salles de la forteresse apportent plus d'espaces pour les marchants, les artisans, et pour de nombreuses riches familles.;;;;x

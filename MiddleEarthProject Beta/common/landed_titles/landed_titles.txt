@@ -3737,29 +3737,7 @@ e_arnor = {
 	religion = religion_dunedain
 	
 	religion_dunedain = 200
-	
-	k_shire = {
-		color={ 40 149 15 }
-		color2={ 125 125 142 }
-	
-		culture_dunedain = "Sûza-t"
-		culture_arnorian = "Sûza-t"
-		culture_gondorian = "Sûza-t"
-		culture_goblin = "Akashuga-uzg"
-		culture_orkish = "Akashuga-uzg"
-		culture_maiar = "Akashuga-uzg"
-	
-		capital = 95 # Michel Delving
-	
-		culture = culture_harfoot
-	
-		allow = {
-			culture_group = culture_group_halfling
-		}
-	
-		
-		
-	
+
 	k_cardolan = {
 		color={ 103 94 124 }
 		color2={ 125 125 142 }
@@ -12846,6 +12824,22 @@ k_khundolars = {
 	prestige = 100000000 }
 	
 }
+
+	k_shire = {
+		color={ 40 149 15 }
+		color2={ 125 125 142 }
+	
+		culture_dunedain = "Sûza-t"
+		culture_arnorian = "Sûza-t"
+		culture_gondorian = "Sûza-t"
+		culture_goblin = "Akashuga-uzg"
+		culture_orkish = "Akashuga-uzg"
+		culture_maiar = "Akashuga-uzg"
+	
+		capital = 95 # Michel Delving
+	
+		culture = culture_harfoot
+	}
 
 k_jangovars = {
 	color={ 127 127 150 }
