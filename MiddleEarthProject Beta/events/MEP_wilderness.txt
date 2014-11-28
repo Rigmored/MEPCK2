@@ -685,52 +685,7 @@ character_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 300
-		
-		modifier = {
-			factor = 0.95
-			learning = 12
-		}
-		modifier = {
-			factor = 0.90
-			learning = 14
-		}
-		modifier = {
-			factor = 0.85
-			learning = 15
-		}
-		modifier = {
-			factor = 0.80
-			learning = 17
-		}
-		modifier = {
-			factor = 0.95
-			owner = { stewardship = 13 }
-		}
-		modifier = {
-			factor = 0.90
-			owner = { stewardship = 15 }
-		}
-		modifier = {
-			factor = 0.85
-			owner = { stewardship = 17 }
-		}
-		modifier = {
-			factor = 0.80
-			owner = { stewardship = 19 }
-		}		
-		modifier = {
-			factor = 2
-			NOT = { learning = 5 }
-		}
-		modifier = {
-			factor = 2.5
-			NOT = { learning = 3 }
-		}
-		modifier = {
-			factor = 3.0
-			NOT = { learning = 1 }
-		}
+		months = 1200
 	}
 
 	option = {
@@ -767,52 +722,7 @@ character_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 300
-		
-		modifier = {
-			factor = 0.95
-			learning = 12
-		}
-		modifier = {
-			factor = 0.90
-			learning = 14
-		}
-		modifier = {
-			factor = 0.85
-			learning = 15
-		}
-		modifier = {
-			factor = 0.80
-			learning = 17
-		}
-		modifier = {
-			factor = 0.95
-			owner = { stewardship = 13 }
-		}
-		modifier = {
-			factor = 0.90
-			owner = { stewardship = 15 }
-		}
-		modifier = {
-			factor = 0.85
-			owner = { stewardship = 17 }
-		}
-		modifier = {
-			factor = 0.80
-			owner = { stewardship = 19 }
-		}		
-		modifier = {
-			factor = 2
-			NOT = { learning = 5 }
-		}
-		modifier = {
-			factor = 2.5
-			NOT = { learning = 3 }
-		}
-		modifier = {
-			factor = 3.0
-			NOT = { learning = 1 }
-		}
+		months = 120
 	}
 
 	option = {
