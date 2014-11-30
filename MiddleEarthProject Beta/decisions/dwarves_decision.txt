@@ -91,6 +91,7 @@ decisions = {
 		potential = {	
 			culture_group = culture_group_dwarves
 			NOT = { has_global_flag = unification_dwarves }
+			NOT = { has_global_flag = dwarvishunion }
 			has_character_flag = special_decisions_open
 		}	
 		allow = {
