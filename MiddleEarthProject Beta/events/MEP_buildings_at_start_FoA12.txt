@@ -1050,6 +1050,12 @@ character_event = {
 			add_building = ca_khazad4
 			add_building = ca_paved_road_3
 			add_building = ca_great_route_4 
+			add_building = ca_Dwater_system_1
+			add_building = ca_Dwater_system_2 
+			add_building = ca_Dstatue_1
+			add_building = ca_Dstatue_2
+			add_building = ca_Dstatue_3 
+			add_building = ca_Dstatue_4 
 			}
 			b_second_hall = { #4
 				add_building = ca_DInnerFortification_1 
@@ -1084,6 +1090,11 @@ character_event = {
 				add_building = ca_khazad3
 				add_building = ca_paved_road_3
 				add_building = ca_great_route_4
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dwater_system_2 
+				add_building = ca_Dstatue_1
+				add_building = ca_Dstatue_2
+				add_building = ca_Dstatue_3
 				}
 			b_chamber_of_mazarbul = { #4 city
 				add_building = ct_DInnerFortification_1 
@@ -1116,6 +1127,8 @@ character_event = {
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
 				add_building = ct_great_route_4
+				add_building = ct_Dwater_system_1
+				add_building = ct_Dwater_system_2 
 				}
 			b_twentyfirst_hall = { #4 city
 				add_building = ct_DInnerFortification_1 
@@ -1148,6 +1161,8 @@ character_event = {
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
 				add_building = ct_great_route_4
+				add_building = ct_Dwater_system_1
+				add_building = ct_Dwater_system_2 
 			}
 			b_grand_stair = { #4
 				add_building = ca_DInnerFortification_1 
@@ -1182,6 +1197,11 @@ character_event = {
 				add_building = ca_khazad3
 				add_building = ca_paved_road_3
 				add_building = ca_great_route_4
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dwater_system_2 
+				add_building = ca_Dstatue_1
+				add_building = ca_Dstatue_2
+				add_building = ca_Dstatue_3
 				}
 			b_tomb_of_durin = { #4 city
 				add_building = ct_DInnerFortification_1 
@@ -1214,6 +1234,8 @@ character_event = {
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
 				add_building = ct_great_route_4
+				add_building = ct_Dwater_system_1
+				add_building = ct_Dwater_system_2 
 			}
 			b_zirak_zigil = { #4
 				add_building = ca_DInnerFortification_1 
@@ -1248,6 +1270,11 @@ character_event = {
 				add_building = ca_khazad3
 				add_building = ca_paved_road_3
 				add_building = ca_great_route_4
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dwater_system_2 
+				add_building = ca_Dstatue_1
+				add_building = ca_Dstatue_2
+				add_building = ca_Dstatue_3
 				}
 
 		b_gate_of_erebor = {
@@ -1290,7 +1317,11 @@ character_event = {
 			add_building = ca_azanulimbardum1 
 			add_building = ca_azanulimbardum2 
 			add_building = ca_paved_road_3
-			add_building = ca_great_route_4 
+			add_building = ca_great_route_4
+			add_building = ca_Dwater_system_1
+			add_building = ca_Dwater_system_2 
+			add_building = ca_Dstatue_1
+			add_building = ca_Dstatue_2
 			}
 			b_barukkhizdin = { #2 city
 				add_building = ct_DInnerFortification_1 
@@ -1308,6 +1339,7 @@ character_event = {
 				add_building = ct_azanulimbardum1
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
+				add_building = ct_Dwater_system_1
 				}
 			b_bakhuz_dum = { #2
 				add_building = ca_DInnerFortification_1 
@@ -1326,6 +1358,8 @@ character_event = {
 				add_building = ca_dwarvenforges_2
 				add_building = ca_azanulimbardum1
 				add_building = ca_paved_road_3
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_shumul_dum = { #2
 				add_building = ca_DInnerFortification_1 
@@ -1344,6 +1378,8 @@ character_event = {
 				add_building = ca_dwarvenforges_2
 				add_building = ca_azanulimbardum1
 				add_building = ca_paved_road_3
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 
 		b_nurunkhizdin = { #3
@@ -1371,7 +1407,11 @@ character_event = {
 			add_building = ca_nurunkhizdin1
 			add_building = ca_nurunkhizdin2
 			add_building = ca_paved_road_3
-			add_building = ca_great_route_4 
+			add_building = ca_great_route_4
+			add_building = ca_Dwater_system_1
+			add_building = ca_Dwater_system_2 
+			add_building = ca_Dstatue_1
+			add_building = ca_Dstatue_2 
 			}
 			b_narag_thurkul = { #2 City
 				add_building = ct_DInnerFortification_1 
@@ -1389,6 +1429,7 @@ character_event = {
 				add_building = ct_nurunkhizdin1
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
+				add_building = ct_Dwater_system_1
 				}
 			b_hudnul_kezer = { #2
 				add_building = ca_DInnerFortification_1
@@ -1407,6 +1448,8 @@ character_event = {
 				add_building = ca_dwarvenforges_2
 				add_building = ca_nurunkhizdin1
 				add_building = ca_paved_road_3
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_manrbul = { #2 City
 				add_building = ct_DInnerFortification_1 
@@ -1424,6 +1467,7 @@ character_event = {
 				add_building = ct_nurunkhizdin1
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
+				add_building = ct_Dwater_system_1
 				}
 
 		b_zirakdum = { # 3
@@ -1451,7 +1495,11 @@ character_event = {
 			add_building = ca_zirakdum1 
 			add_building = ca_zirakdum2
 			add_building = ca_paved_road_3
-			add_building = ca_great_route_4 
+			add_building = ca_great_route_4
+			add_building = ca_Dwater_system_1
+			add_building = ca_Dwater_system_2 
+			add_building = ca_Dstatue_1
+			add_building = ca_Dstatue_2
 			}
 			b_amagur = { #2 City
 				add_building = ct_DInnerFortification_1 
@@ -1469,6 +1517,7 @@ character_event = {
 				add_building = ct_zirakdum1 
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
+				add_building = ct_Dwater_system_1
 				}
 			b_aganin = { #2
 				add_building = ca_DInnerFortification_1
@@ -1487,6 +1536,8 @@ character_event = {
 				add_building = ca_dwarvenforges_2
 				add_building = ca_zirakdum1
 				add_building = ca_paved_road_3
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_belhith = { #2 City
 				add_building = ct_DInnerFortification_1 
@@ -1504,6 +1555,7 @@ character_event = {
 				add_building = ct_zirakdum1 
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
+				add_building = ct_Dwater_system_1
 				}
 
 		b_thorin_hall = { # 3
@@ -1531,7 +1583,11 @@ character_event = {
 			add_building = ca_thorinsgate1 
 			add_building = ca_thorinsgate2
 			add_building = ca_paved_road_3
-			add_building = ca_great_route_4 
+			add_building = ca_great_route_4
+			add_building = ca_Dwater_system_1
+			add_building = ca_Dwater_system_2 
+			add_building = ca_Dstatue_1
+			add_building = ca_Dstatue_2
 			}
 			b_edhelionath = { #2 City
 				add_building = ct_DInnerFortification_1 
@@ -1549,6 +1605,7 @@ character_event = {
 				add_building = ct_thorinsgate1 
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
+				add_building = ct_Dwater_system_1
 				}
 			b_rivergate_watch = { #2 
 				add_building = ca_DInnerFortification_1
@@ -1567,6 +1624,8 @@ character_event = {
 				add_building = ca_dwarvenforges_2
 				add_building = ca_thorinsgate1 
 				add_building = ca_paved_road_3
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_berghold  = { #2 
 				add_building = ca_DInnerFortification_1
@@ -1585,6 +1644,8 @@ character_event = {
 				add_building = ca_dwarvenforges_2
 				add_building = ca_thorinsgate1 
 				add_building = ca_paved_road_3
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 
 		b_dain_halls = { # 3
@@ -1610,7 +1671,11 @@ character_event = {
 			add_building = ca_dwarvenforges_2
 			add_building = ca_dwarvenforges_3
 			add_building = ca_paved_road_3
-			add_building = ca_great_route_4 
+			add_building = ca_great_route_4
+			add_building = ca_Dwater_system_1
+			add_building = ca_Dwater_system_2 
+			add_building = ca_Dstatue_1
+			add_building = ca_Dstatue_2 
 			}
 			b_cirith_himninond = { #2 
 				add_building = ca_DInnerFortification_1
@@ -1628,6 +1693,8 @@ character_event = {
 				add_building = ca_dwarvenforges_1 
 				add_building = ca_dwarvenforges_2
 				add_building = ca_paved_road_3
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_azagkhizdin = { #2 
 				add_building = ca_DInnerFortification_1
@@ -1645,6 +1712,8 @@ character_event = {
 				add_building = ca_dwarvenforges_1 
 				add_building = ca_dwarvenforges_2
 				add_building = ca_paved_road_3
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_thollakar = { #2 City
 				add_building = ct_DInnerFortification_1 
@@ -1661,6 +1730,7 @@ character_event = {
 				add_building = ct_dwarfmines_2
 				add_building = tp_dwarven_ancestors 
 				add_building = ct_paved_road_3
+				add_building = ct_Dwater_system_1
 				}
 
 		b_tamnogoth = { # 2
@@ -1680,6 +1750,8 @@ character_event = {
 			add_building = ca_dwarvenforges_2
 			add_building = ca_tamnogoth1
 			add_building = ca_paved_road_3
+			add_building = ca_Dwater_system_1
+			add_building = ca_Dstatue_1
 			}
 			b_east_luin_gate = { #1 
 				add_building = ca_DInnerFortification_1
@@ -1689,6 +1761,8 @@ character_event = {
 				add_building = ca_Dcastleguards_1 
 				add_building = ca_Dtown_1 
 				add_building = ca_dwarvenforges_1
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_west_luin_gate = { #1
 				add_building = ca_DInnerFortification_1
@@ -1698,6 +1772,8 @@ character_event = {
 				add_building = ca_Dcastleguards_1 
 				add_building = ca_Dtown_1 
 				add_building = ca_dwarvenforges_1
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 	
 		b_thror_coomb = { # 2
@@ -1716,6 +1792,8 @@ character_event = {
 			add_building = ca_dwarvenforges_1 
 			add_building = ca_dwarvenforges_2
 			add_building = ca_paved_road_3
+			add_building = ca_Dwater_system_1
+			add_building = ca_Dstatue_1
 			}
 			b_skud_carchar = { #1 
 				add_building = ca_DInnerFortification_1
@@ -1725,6 +1803,8 @@ character_event = {
 				add_building = ca_Dcastleguards_1 
 				add_building = ca_Dtown_1 
 				add_building = ca_dwarvenforges_1
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_duv_corvan = { #1 City
 				add_building = ct_DInnerFortification_1 
@@ -1734,6 +1814,7 @@ character_event = {
 				add_building = ct_Dmarketplace_1 
 				add_building = ct_dwarfmines_1 
 				add_building = tp_dwarven_ancestors
+				add_building = ct_Dwater_system_1
 				}
 			b_gwal_draig = { #1 City
 				add_building = ct_DInnerFortification_1 
@@ -1743,6 +1824,7 @@ character_event = {
 				add_building = ct_Dmarketplace_1 
 				add_building = ct_dwarfmines_1 
 				add_building = tp_dwarven_ancestors
+				add_building = ct_Dwater_system_1
 				}
  
 		b_goblin_town = { # 2
@@ -1761,6 +1843,8 @@ character_event = {
 			add_building = ca_dwarvenforges_1 
 			add_building = ca_dwarvenforges_2
 			add_building = ca_paved_road_3
+			add_building = ca_Dwater_system_1
+			add_building = ca_Dstatue_1
 			}
 			b_hrimbarg = { #1
 				add_building = ca_DInnerFortification_1
@@ -1770,6 +1854,8 @@ character_event = {
 				add_building = ca_Dcastleguards_1 
 				add_building = ca_Dtown_1 
 				add_building = ca_dwarvenforges_1
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_vindurhal = { #1 
 				add_building = ca_DInnerFortification_1
@@ -1779,6 +1865,8 @@ character_event = {
 				add_building = ca_Dcastleguards_1 
 				add_building = ca_Dtown_1 
 				add_building = ca_dwarvenforges_1
+				add_building = ca_Dwater_system_1
+				add_building = ca_Dstatue_1
 				}
 			b_cirith_daur = { #1 City
 				add_building = ct_DInnerFortification_1 
@@ -1788,6 +1876,7 @@ character_event = {
 				add_building = ct_Dmarketplace_1 
 				add_building = ct_dwarfmines_1 
 				add_building = tp_dwarven_ancestors
+				add_building = ct_Dwater_system_1
 				}
 
 		b_glittering_caves = {
