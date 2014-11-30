@@ -9,31 +9,7 @@ character_event = {
 
 	is_triggered_only = yes
 	
-	option = {
-		name = "EVTOPTDerebor.19" # Increase the Size of Erebor
-		trigger = {
-			OR = {
-				NOT = { has_global_flag = erebor1 }
-				AND = {
-					has_global_flag = erebor1
-					NOT = { has_global_flag = erebor2 }
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOT = { has_global_flag = erebor1 }
-			}
-			character_event = { id = erebor.20 } ## First Step
-		}
-		if = {
-			limit = {
-				has_global_flag = erebor1
-				NOT = { has_global_flag = erebor2 }
-			}
-			character_event = { id = erebor.2 } ## Second Step
-		}		
-	}	
+
 	option = {
 		name = "EVTOPTAerebor.1" # I'll meditate on his fate
 		character_event = { id = erebor.2 }
