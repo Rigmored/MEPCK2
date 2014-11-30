@@ -1,20 +1,22 @@
-# c_northest_forlindon
-
+#Mindolhendi
 
 # County Title
 
 title = c_northest_forlindon
 
-
 # Settlements
-max_settlements = 3
+max_settlements = 4
 
-
-b_northest_forlindon = castle
-
+b_mindolhendi = castle
+b_edhelian = city
+#b_sundor = city
+#b_dolianendi = city
 
 # Misc
-8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+
+4222.1.1 = {
 culture = culture_noldor
 religion = religion_moriquendi
 }

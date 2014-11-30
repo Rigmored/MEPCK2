@@ -1,5 +1,4 @@
-# c_south_mid_forlindon
-
+#Forlond
 
 # County Title
 
@@ -9,14 +8,17 @@ title = c_south_mid_forlindon
 # Settlements
 max_settlements = 5
 
+b_forlond = castle
+b_fuinlond = city
+b_belainuir = city
+#b_nurovogir = city
+#b_morinuir = city
 
-b_south_mid_forlindon = castle
 
-b_south_mid_forlindoncity = city
-
-b_south_mid_forlindontemple = city
 # Misc
-8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+4222.1.1 = {
 culture = culture_noldor
 religion = religion_moriquendi
 }

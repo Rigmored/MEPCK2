@@ -1,4 +1,4 @@
-# c_ascahiriand
+#Ascahiriand
 
 
 # County Title
@@ -8,17 +8,17 @@ title = c_ascahiriand
 
 # Settlements
 
-max_settlements = 5
-
+max_settlements = 4
 
 b_ascahiriand = castle
-
-b_ascahiriandcastle = castle
-
-b_ascahiriandtemple = city
+b_ascahir = city
+#b_melteltarma = city
+#b_hirastil = city
 
 # Misc
-8222.1.1 = {
-culture = culture_noldor
-religion = religion_calaquendi
+culture = culture_wilderness
+religion = religion_wilderness
+4222.1.1 = {
+culture = culture_sindar
+religion = religion_moriquendi
 }

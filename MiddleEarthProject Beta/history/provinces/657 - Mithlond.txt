@@ -1,25 +1,24 @@
-# c_mithlond
-
+#Mithlond
 
 # County Title
 
 title = c_mithlond
 
-
 # Settlements
 
 max_settlements = 6
 
-
 b_mithlond = castle
+b_cirbanil = city
+b_caras_mithlond = castle
+b_gobel_cirdan = city
+#b_valinoruir = city
+#b_dol_lindon = castle
 
-b_mithlondcastle1 = castle
-
-b_mithlondcity2 = city
-b_mithlondcity1 = city
-b_mithlondtemple1 = city
 # Misc
-8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+4222.1.1 = {
 culture = culture_sindar
 religion = religion_moriquendi
 }

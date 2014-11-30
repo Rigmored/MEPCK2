@@ -1,4 +1,4 @@
-# c_harlindon_top
+#Harlond
 
 # County Title
 title = c_harlindon_top
@@ -6,12 +6,17 @@ title = c_harlindon_top
 # Settlements
 
 max_settlements = 5
-b_harlindon_top = castle
-b_harlindon_topcity = city
-b_harlindon_temple = city
 
+b_harlondd = castle
+b_dol_harlond = city
+b_uirionath = city
+#b_lond_har = city
+#b_gobel_mirliand = city
+ 
 # Misc
-8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+4222.1.1 = {
 culture = culture_sindar
 religion = religion_moriquendi
 capital = b_harlindon_topcity

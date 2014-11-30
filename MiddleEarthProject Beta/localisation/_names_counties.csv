@@ -330,25 +330,25 @@ c_deveney_adj;Deveneyrim;Deveneyrim;;;Deveneyrim;x
 c_thaendor;Thaendor;Thaendor;;;Thaendor;x
 c_thaendor_adj;Thaendorim;Thaendorim;;;Thaendorim;x
 c_seren;Seren;Seren;;;Seren;x
-c_seren_adj;Serenian;Serenian;;;Serenian;x
+c_seren_adj;Serenrim;Serenrim;;;Serenrim;x
 c_gwaelin;Gwaelin;Gwaelin;;;Gwaelin;x
-c_gwaelin_adj;Gwaelinian;Gwaelinian;;;Gwaelinian;x
+c_gwaelin_adj;Gwaelinrim;Gwaelinrim;;;Gwaelinrim;x
 c_andrath;Andrath;Andrath;;;Andrath;x
-c_andrath_adj;Andrathian;Andrathian;;;Andrathian;x
+c_andrath_adj;Andrathrim;Andrathrim;;;Andrathrim;x
 c_arnach;Arnach;Arnach;;;Arnach;x
-c_arnach_adj;Arnachian;Arnachian;;;Arnachian;x
+c_arnach_adj;Arnachrim;Arnachrim;;;Arnachrim;x
 c_thalion;Thalion;Thalion;;;Thalion;x
-c_thalion_adj;Thalionian;Thalionian;;;Thalionian;x
+c_thalion_adj;Thalionrim;Thalionrim;;;Thalionrim;x
 c_tharbad;Tharbad;Tharbad;;;Tharbad;x
-c_tharbad_adj;Tharbadian;Tharbadian;;;Tharbadian;x
-c_therwen;Therwen;Therwen;;;Therwen;x
-c_therwen_adj;Therwenian;Therwenian;;;Therwenian;x
-c_nen-i-sul;Nen-i-sul;Nen-i-sul;;;Nen-i-sul;x
-c_nen-i-sul_adj;Nen-i-sulian;Nen-i-sulian;;;Nen-i-sulian;x
+c_tharbad_adj;Tharbadrim;Tharbadrim;;;Tharbadrim;x
+c_therwen;Herwen;Herwen;;;Herwenrim;x
+c_therwen_adj;Herwenrim;Herwenrim;;;Therwenian;x
+c_nen-i-sul;Nen-i-Sul;Nen-i-Sul;;;Nen-i-Sul;x
+c_nen-i-sul_adj;Nen-i-Sulrim;Nen-i-Sulrim;;;Nen-i-Sulrim;x
 c_denerond;Denerond;Denerond;;;Denerond;x
-c_denerond_adj;Denerondian;Denerondian;;;Denerondian;x
-c_filimir;Filimir;Filimir;;;Filimir;x
-c_filimir_adj;Filimirian;Filimirian;;;Filimirian;x
+c_denerond_adj;Denerondrim;Denerondrim;;;Denerondrim;x
+c_filimir;Filimer;Filimer;;;Filimer;x
+c_filimir_adj;Filimerim;Filimerim;;;Filimerim;x
 c_faerdorbound;Gleinfaerdor;Gleinfaerdor;;;Gleinfaerdor;x
 c_faerdorbound_adj;Gleinfaerdorim;Gleinfaerdorim;;;Gleinfaerdorim;x
 c_andrast;Bar Morthil;Bar Morthil;;;Bar Morthil;x
@@ -467,8 +467,8 @@ c_imladris;Imladris;Imladris;;;Imladris;x
 c_imladris_adj;Imladrisrim;Imladrisrim;;;Imladrisrim;x
 c_lorien;Caras Galadhon;Caras Galadhon;;;Caras Galadhon;x
 c_lorien_adj;Caras Galadhonrim;Caras Galadhonrim;;;Caras Galadhonrim;x
-c_grey_havens;Mithlond;Mithlond;;;Mithlond;x
-c_grey_havens_adj;Mithlondrim;Mithlondrim;;;Mithlondrim;x
+c_mithlond;Mithlond;Mithlond;;;Mithlond;x
+c_mithlond_adj;Mithlondrim;Mithlondrim;;;Mithlondrim;x
 c_southern_range;Falathlorn;Falathlorn;;;Falathlorn;x
 c_southern_range_adj;Falathlornian;Falathlornian;;;Falathlornian;x
 c_central_range;Low Lands;Low Lands;;;Low Lands;x
@@ -664,67 +664,67 @@ c_gorgoroth_plateau_adj;Kirithgalia;Kirithgalia;;;Kirithgalia;x
 c_gap_of_nurn;Gap of Nurn;Gap of Nurn;;;Gap of Nurn;x
 c_gap_of_nurn_adj;Gap of Nurnian;Gap of Nurnian;;;Gap of Nurnian;x
 c_east_gorgoroth;Seregost;Seregost;;;Seregost;x
-c_east_gorgoroth_adj;Seregostian;Seregostian;;;Seregostian;x
-c_harlindon_top;Harlindon Top;Harlindon Top;;;Harlindon Top;x
-c_harlindon_top_adj;Harlindon Topian;Harlindon Topian;;;Harlindon Topian;x
-c_harlindon_top_mid;Harlindon Top Mid;Harlindon Top Mid;;;Harlindon Top Mid;x
-c_harlindon_top_mid_adj;Harlindon Top Midian;Harlindon Top Midian;;;Harlindon Top Midian;x
-c_harlindon_top_left;Harlindon Top Left;Harlindon Top Left;;;Harlindon Top Left;x
-c_harlindon_top_left_adj;Harlindon Top Leftian;Harlindon Top Leftian;;;Harlindon Top Leftian;x
-c_harlindon_mid_left;Harlindon Mid Left;Harlindon Mid Left;;;Harlindon Mid Left;x
-c_harlindon_mid_left_adj;Harlindon Mid Leftian;Harlindon Mid Leftian;;;Harlindon Mid Leftian;x
-c_harlindon_mid;Harlindon Mid;Harlindon Mid;;;Harlindon Mid;x
-c_harlindon_mid_adj;Harlindon Midian;Harlindon Midian;;;Harlindon Midian;x
-c_harlindon_mid_left_lower;Harlindon Mid Left Lower;Harlindon Mid Left Lower;;;Harlindon Mid Left Lower;x
-c_harlindon_mid_left_lower_adj;Harlindon Mid Left Lowerian;Harlindon Mid Left Lowerian;;;Harlindon Mid Left Lowerian;x
-c_harlindon_bottom_mid;Harlindon Bottom Mid;Harlindon Bottom Mid;;;Harlindon Bottom Mid;x
-c_harlindon_bottom_mid_adj;Harlindon Bottom Midian;Harlindon Bottom Midian;;;Harlindon Bottom Midian;x
-c_harlindon_bottom_right;Harlindon Bottom Right;Harlindon Bottom Right;;;Harlindon Bottom Right;x
-c_harlindon_bottom_right_adj;Harlindon Bottom Rightian;Harlindon Bottom Rightian;;;Harlindon Bottom Rightian;x
+c_east_gorgoroth_adj;Seregostrim;Seregostrim;;;Seregostrim;x
+c_harlindon_top;Harlond;Harlond;;;Harlond;x
+c_harlindon_top_adj;Harlondrim;Harlondrim;;;Harlondrim;x
+c_harlindon_top_mid;Anhaman;Anhaman;;;Anhaman;x
+c_harlindon_top_mid_adj;Anhamanrim;Anhamanrim;;;Anhamanrim;x
+c_harlindon_top_left;Lairiardhon;Lairiardhon;;;Lairiardhon;x
+c_harlindon_top_left_adj;Lairiardhonrim;Lairiardhonrim;;;Lairiardhonrim;x
+c_harlindon_mid_left;Lildarhdan;Lildarhdan;;;Lildarhdan;x
+c_harlindon_mid_left_adj;Lildarhdanrim;Lildarhdanrim;;;Lildarhdanrim;x
+c_harlindon_mid;Ardalyalinya;Ardalyalinya;;;Ardalyalinya;x
+c_harlindon_mid_adj;Ardalyalinyarim;Ardalyalinyarim;;;Ardalyalinyarim;x
+c_harlindon_mid_left_lower;Ardquetto;Ardquetto;;;Ardquetto;x
+c_harlindon_mid_left_lower_adj;Ardquettorim;Ardquettorim;;;Ardquettorim;x
+c_harlindon_bottom_mid;Laerglinn;Laerglinn;;;Laerglinn;x
+c_harlindon_bottom_mid_adj;Laerglinnrim;Laerglinnrim;;;Laerglinnrim;x
+c_harlindon_bottom_right;Uleineithel;Uleineithel;;;Uleineithel;x
+c_harlindon_bottom_right_adj;Uleineithelrim;Uleineithelrim;;;Uleineithelrim;x
 c_opposite_girithlin;Amon Ulein;Amon Ulein;;;Amon Ulein;x
-c_opposite_girithlin_adj;Amon Uleinian;Amon Uleinian;;;Amon Uleinian;x
+c_opposite_girithlin_adj;Uleinrim;Uleinrim;;;Uleinrim;x
 c_ered_luin_south_enclave;Belesir;Belesir;;;Belesir;x
 c_ered_luin_south_enclave_adj;Belesirim;Belesirim;;;Belesirim;x
 c_ered_luin_north_enclave;Bar Irlossiel;Bar Irlossiel;;;Bar Irlossiel;x
 c_ered_luin_north_enclave_adj;Irlossielrim;Irlossielrim;;;Irlossielrim;x
 c_lower_west_of_shire;Lond Telerion;Lond Telerion;;;Lond Telerion;x
-c_lower_west_of_shire_adj;Lond Telerionrim;Lond Telerionrim;;;Lond Telerionrim;x
+c_lower_west_of_shire_adj;Telerionrim;Telerionrim;;;Telerionrim;x
 c_mid_west_of_shire;Mid West of Shire;Mid West of Shire;;;Mid West of Shire;x
 c_mid_west_of_shire_adj;Mid West of Shireian;Mid West of Shireian;;;Mid West of Shireian;x
-c_west_grey_haven;West Grey Haven;West Grey Haven;;;West Grey Haven;x
-c_west_grey_haven_adj;West Grey Havenian;West Grey Havenian;;;West Grey Havenian;x
-c_southest_forlindon;Southest Forlindon;Southest Forlindon;;;Southest Forlindon;x
-c_southest_forlindon_adj;Southest Forlindonian;Southest Forlindonian;;;Southest Forlindonian;x
-c_south_mid_forlindon;South Mid Forlindon;South Mid Forlindon;;;South Mid Forlindon;x
-c_south_mid_forlindon_adj;South Mid Forlindonian;South Mid Forlindonian;;;South Mid Forlindonian;x
-c_south_west_forlindon;South West Forlindon;South West Forlindon;;;South West Forlindon;x
-c_south_west_forlindon_adj;South West Forlindonian;South West Forlindonian;;;South West Forlindonian;x
-c_south_mid_west_forlindon;South Mid West Forlindon;South Mid West Forlindon;;;South Mid West Forlindon;x
-c_south_mid_west_forlindon_adj;South Mid West Forlindonian;South Mid West Forlindonian;;;South Mid West Forlindonian;x
-c_south_mid_east_forlindon;South Mid East Forlindon;South Mid East Forlindon;;;South Mid East Forlindon;x
-c_south_mid_east_forlindon_adj;South Mid East Forlindonian;South Mid East Forlindonian;;;South Mid East Forlindonian;x
-c_north_mid_west_forlindon;North Mid West Forlindon;North Mid West Forlindon;;;North Mid West Forlindon;x
-c_north_mid_west_forlindon_adj;North Mid West Forlindonian;North Mid West Forlindonian;;;North Mid West Forlindonian;x
-c_north_mid_east_forlindon;North Mid East Forlindon;North Mid East Forlindon;;;North Mid East Forlindon;x
-c_north_mid_east_forlindon_adj;North Mid East Forlindonian;North Mid East Forlindonian;;;North Mid East Forlindonian;x
-c_north_neck_forlindon;North Neck Forlindon;North Neck Forlindon;;;North Neck Forlindon;x
-c_north_neck_forlindon_adj;North Neck Forlindonian;North Neck Forlindonian;;;North Neck Forlindonian;x
-c_north_west_forlindon;North West Forlindon;North West Forlindon;;;North West Forlindon;x
-c_north_west_forlindon_adj;North West Forlindonian;North West Forlindonian;;;North West Forlindonian;x
-c_northest_forlindon;Northest Forlindon;Northest Forlindon;;;Northest Forlindon;x
-c_northest_forlindon_adj;Northest Forlindonian;Northest Forlindonian;;;Northest Forlindonian;x
-c_inner_forlindon_top_west;Inner Forlindon Top West;Inner Forlindon Top West;;;Inner Forlindon Top West;x
-c_inner_forlindon_top_west_adj;Inner Forlindon Top Westian;Inner Forlindon Top Westian;;;Inner Forlindon Top Westian;x
-c_inner_forlindon_top_north;Inner Forlindon Top North;Inner Forlindon Top North;;;Inner Forlindon Top North;x
-c_inner_forlindon_top_north_adj;Inner Forlindon Top Northian;Inner Forlindon Top Northian;;;Inner Forlindon Top Northian;x
-c_inner_forlindon_top_south;Inner Forlindon Top South;Inner Forlindon Top South;;;Inner Forlindon Top South;x
-c_inner_forlindon_top_south_adj;Inner Forlindon Top Southian;Inner Forlindon Top Southian;;;Inner Forlindon Top Southian;x
+c_west_grey_haven;Lond Thalos;Lond Thalos;;;Lond Thalos;x
+c_west_grey_haven_adj;Thalosrim;Thalosrim;;;Thalosrim;x
+c_southest_forlindon;Tir Lowen;Tir Lowen;;;Tir Lowen;x
+c_southest_forlindon_adj;Tir Lowenrim;Tir Lowenrim;;;Tir Lowenrim;x
+c_south_mid_forlindon;Forlond;Forlond;;;Forlond;x
+c_south_mid_forlindon_adj;Forlondrim;Forlondrim;;;Forlondrim;x
+c_south_west_forlindon;Apariath;Apariath;;;Apariath;x
+c_south_west_forlindon_adj;Apariathrim;Apariathrim;;;Apariathrim;x
+c_south_mid_west_forlindon;Estoriand;Estoriand;;;Estoriand;x
+c_south_mid_west_forlindon_adj;Estoriandrim;Estoriandrim;;;Estoriandrim;x
+c_south_mid_east_forlindon;Olòrmindon;Olòrmindon;;;Olòrmindon;x
+c_south_mid_east_forlindon_adj;Olòrmindonrim;Olòrmindonrim;;;Olòrmindonrim;x
+c_north_mid_west_forlindon;Mänoriand;Mänoriand;;;Mänoriand;x
+c_north_mid_west_forlindon_adj;Mänoriandrim;Mänoriandrim;;;Mänoriandrim;x
+c_north_mid_east_forlindon;Sandarian;Sandarian;;;Sandarian;x
+c_north_mid_east_forlindon_adj;Sandarianrim;Sandarianrim;;;Sandarianrim;x
+c_north_neck_forlindon;Landolas;Landolas;;;Landolas;x
+c_north_neck_forlindon_adj;Landolasrim;Landolasrim;;;Landolasrim;x
+c_north_west_forlindon;Celanor;Celanor;;;Celanor;x
+c_north_west_forlindon_adj;Celanorim;Celanorim;;;Celanorim;x
+c_northest_forlindon;Mindolhendi;Mindolhendi;;;Mindolhendi;x
+c_northest_forlindon_adj;Mindolhendirim;Mindolhendirim;;;Mindolhendirim;x
+c_inner_forlindon_top_west;Aranaforn;Aranaforn;;;Aranaforn;x
+c_inner_forlindon_top_west_adj;Aranafornrim;Aranafornrim;;;Aranafornrim;x
+c_inner_forlindon_top_north;Anfagneder;Anfagneder;;;Anfagneder;x
+c_inner_forlindon_top_north_adj;Anfagnederim;Anfagnederim;;;Anfagnederim;x
+c_inner_forlindon_top_south;Annuduin;Annuduin;;;Annuduin;x
+c_inner_forlindon_top_south_adj;Annuduinrim;Annuduinrim;;;Annuduinrim;x
 c_inner_forlindon_bttom_west;Amon Mithlond;Amon Mithlond;;;Amon Mithlond;x
 c_inner_forlindon_bttom_west_adj;Amon Mithlondrim;Amon Mithlondrim;;;Amon Mithlondrim;x
-c_inner_forlindon_bttom_north;Inner Forlindon Bttom North;Inner Forlindon Bttom North;;;Inner Forlindon Bttom North;x
-c_inner_forlindon_bttom_north_adj;Inner Forlindon Bttom Northian;Inner Forlindon Bttom Northian;;;Inner Forlindon Bttom Northian;x
-c_inner_forlindon_bottom_east;Inner Forlindon Bottom East;Inner Forlindon Bottom East;;;Inner Forlindon Bottom East;x
-c_inner_forlindon_bottom_east_adj;Inner Forlindon Bottom Eastian;Inner Forlindon Bottom Eastian;;;Inner Forlindon Bottom Eastian;x
+c_inner_forlindon_bttom_north;Numeriador;Numeriador;;;Numeriador;x
+c_inner_forlindon_bttom_north_adj;Numeriadorim;Numeriadorim;;;Numeriadorim;x
+c_inner_forlindon_bottom_east;Caras Celairnen;Caras Celairnen;;;Caras Celairnen;x
+c_inner_forlindon_bottom_east_adj;Celairnenrim;Celairnenrim;;;Celairnenrim;x
 c_forlindon_top_east_bottom;Dolumarb;Dolumarb;;;Dolumarb;x
 c_forlindon_top_east_bottom_adj;Dolumarbrim;Dolumarbrim;;;Dolumarbrim;x
 c_ettendales;Grothum;Grothum;;;Grothum;x
@@ -1263,3 +1263,7 @@ c_buhr_alge;Burh Alge;Burh Alge;;;Burh Alge;x
 c_buhr_alge_adj;Burh Algerim;Burh Algerim;;;Burh Algerim;x
 c_buhr_marhlinge;Burh Marhlinge;Burh Marhlinge;;;Burh Marhlinge;x
 c_buhr_marhlinge_adj;Burh Marhlingerim;Burh Marhlingerim;;;Burh Marhlingerim;x
+c_lhun;Gobel Lhûn;Gobel Lhûn;;;Gobel Lhûn;x
+c_lhun_adj;Lhûnrim;Lhûnrim;;;Lhûnrim;x
+c_ascahiriand;Ascahiriand;Ascahiriand;;;Ascahiriand;
+c_ascahiriand_adj;Ascahiriandrim;Ascahiriandrim;;;Ascahiriandrim;

@@ -1,4 +1,4 @@
-# c_harlindon_bottom_mid
+#Laerglinn
 
 
 # County Title
@@ -8,14 +8,17 @@ title = c_harlindon_bottom_mid
 
 # Settlements
 
-max_settlements = 4
+max_settlements = 5
 
-
-b_harlindon_bottom_mid = castle
-
-b_harlindon_bottom_midcity = city
+b_laerglinn = castle
+b_ostindar = city
+b_largarin = city
+#b_mostrindagar = city
+#b_ordaquandi = city
 
 # Misc
+culture = culture_wilderness
+religion = religion_wilderness
 4222.1.1 = {
 culture = culture_sindar
 religion = religion_moriquendi

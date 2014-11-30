@@ -1,23 +1,23 @@
-# c_south_west_forlindon
-
+#Apariath
 
 # County Title
 
 title = c_south_west_forlindon
 
-
 # Settlements
 
-max_settlements = 5
+max_settlements = 4
 
-
-b_south_west_forlindon = castle
-
-b_south_west_forlindoncastle = castle
+b_apariath= castle
+b_forlostin = city
+#b_donarioth = castle
+#b_forlost = castle
 
 
 # Misc
-8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+4222.1.1 = {
 culture = culture_sindar
 religion = religion_moriquendi
 }

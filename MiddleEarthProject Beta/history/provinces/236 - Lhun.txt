@@ -1,21 +1,22 @@
-# c_lhun
+#Gobel Lhûn
 
 # County Title
 
 title = c_lhun
 
-
 # Settlements
 
-max_settlements = 6
+max_settlements = 4
 
-b_lhun = castle
-
-b_lhuncity = city
-b_lhuntemple = city
+b_gobel_lhun = castle
+b_lhunlond = city
+b_lhunuir = city
+#b_dol_lonebas = castle
 
 # Misc
-8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+4222.1.1 = {
 culture = culture_sindar
 religion = religion_moriquendi
 }
