@@ -1336,8 +1336,8 @@ ca_khazad = { ##moria for dwarves
 		build_time = 1265
 		fort_level = 1
 		tax_income = 0.5
-		change_diplomacy = 1
-		change_demesne_size = 1
+		diplomacy = 1
+		demesne_size = 1
 		heavy_infantry = 100
 		ai_creation_factor = 106
         	potential = {
@@ -1384,7 +1384,7 @@ ca_khazad = { ##moria for dwarves
 		fort_level = 0.6
 		tax_income = 0.5		
 		heavy_infantry = 60
-		change_diplomacy = 1	
+		diplomacy = 1	
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1416,7 +1416,7 @@ ca_khazad = { ##moria for dwarves
 		fort_level = 0.6
 		tax_income = 0.5		
 		heavy_infantry = 60
-		change_demesne_size = 1 
+		demesne_size = 1 
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1445,7 +1445,7 @@ ca_khazad = { ##moria for dwarves
 		build_time = 1355
 		fort_level = 1	
 		heavy_infantry = 100
-		change_martial = 1
+		martial = 1
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1474,7 +1474,7 @@ ca_khazad = { ##moria for dwarves
 		build_time = 1825
 		fort_level = 1	
 		heavy_infantry = 100
-		change_martial = 1
+		martial = 1
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1488,7 +1488,7 @@ ca_khazad = { ##moria for dwarves
 		gold_cost = 100
 		build_time = 360
 		tax_income = 2
-		change_stewardship = 1	
+		stewardship = 1	
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1502,7 +1502,7 @@ ca_khazad = { ##moria for dwarves
 		gold_cost = 120
 		build_time = 560
 		tax_income = 2
-		change_demesne_size = 1	
+		demesne_size = 1	
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1516,7 +1516,7 @@ ca_khazad = { ##moria for dwarves
 		gold_cost = 200
 		build_time = 730
 		tax_income = 2
-		change_stewardship = 1
+		stewardship = 1
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
