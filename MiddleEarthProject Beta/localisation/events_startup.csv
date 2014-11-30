@@ -20,11 +20,11 @@ EVTOPTBmepstartup.3;Close Index;;;;;;;;;;;;;x
 EVTNAMEmepstartup.4;Purging and Colonising;;;;;;;;;;;;;x
 EVTDESCmepstartup.4;In order to spread your culture within this mod you must use the purge and colonise mechanics. \n\nMuch of the world is wilderness and in order to expand into this wilderness you must declare war with the Settle casus belli. Once you have occupied and annexed the land you must send your steward on a colonisation mission to that province, and then activate the Colonise Province decision. Be advised, colonisation is not cheap, and not entirely risk free. \n\nPurging is necessary when a foreign and hostile culture resides in your lands. You must send your marshal on a purge mission to that province, and activate the Purge decision. This is also not risk free, after all, they may not want to leave...;;;;;;;;;;;;;x
 EVTOPTAmepstartup.4;Return to Contents;;;;;;;;;;;;;x
-EVTOPTAmepstartup.4;Close Index;;;;;;;;;;;;;x
+EVTOPTBmepstartup.4;Close Index;;;;;;;;;;;;;x
 #Story Events
 EVTNAMEmepstartup.5;Story Events;;;;;;;;;;;;;x
 EVTDESCmepstartup.5;This mod is set within the legendarium of Middle-Earth, and there are event chains designed to guide the world through the story  of this world. \n\nPlaying as the larger nations involved in the War of the Ring or Fall of Arnor, you will recieve events regarding the progress of the scenario, and your place in it. You may even be granted event troops or be drawn into wars you wanted to avoid.;;;;;;;;;;;;;x
 EVTOPTAmepstartup.5;Return to Contents;;;;;;;;;;;;;x
-EVTOPTAmepstartup.5;Close Index;;;;;;;;;;;;;x
+EVTOPTBmepstartup.5;Close Index;;;;;;;;;;;;;x
 open_index;Open Index;;;;;;;;;;;;;x
 open_index_desc;Open the Index, where you can find information on game mechanics.;;;;;;;;;;;;;x
