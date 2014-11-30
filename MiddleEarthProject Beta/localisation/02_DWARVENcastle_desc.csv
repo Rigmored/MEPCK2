@@ -147,3 +147,20 @@ ca_assembly_archives_1;Archives of the Assembly;Archives de l'Assemblée;;x
 ca_assembly_archives_2;Archives of the Assembly;Archives de l'Assemblée;;x
 ca_assembly_archives_3;Archives of the Assembly;Archives de l'Assemblée;;x
 ca_assembly_archives_desc;Those archives allows the elected king to rule more efficiently.;Ces archives permettent au Roi élu de gouverner plus efficacement.;;x
+ca_Dstatue_0_desc;Those halls are emtpy and any dwarf will note the absence of the most modest statue of the owner's Ancestors.;Ces salles sont terriblement vides, et n'importe quel Nain notera l'absence de la moindre statue honorant les Ancêtres.;;;x
+ca_Dstatue_0;Emtpy Halls;Salles Vides;;;x
+ca_Dstatue_1_desc;Those statues represent the Ancient Kings of the Dwarves. May their spirits guide us in the deep.;Ces statues représentent les Anciens Rois des Nains. Puissent leurs esprits nous guider dans les profondeurs.;;;x
+ca_Dstatue_1;Stone Statues;Statues de Pierre;;;x
+ca_Dstatue_2;Marble Statues;Statues de Marbre;;;x
+ca_Dstatue_3;Bronze Statues;Statues de Bronze;;;x
+ca_Dstatue_4;Golden Statues;Statues Dorées;;;x
+ca_Dstatue_5;Gold Statues with Gems;Statues d'Or incrustées de Gemmes;;;x
+ca_Dwater_system_0;No Water System;Pas d'Eau Courante;;;x
+ca_Dwater_system_0_desc;Without neither water nor sewer system, diseases come easily and the population growth is slowed.;Sans système d'apport d'eau ni d'égouts, les maladies se développent facilement et la population en souffre.;;;x
+ca_Dwater_system_1;Basic Water System;Egouts et Acqueducs;;;x
+ca_Dwater_system_2;Advanced Water System;Egouts et Acqueducs Avancés;;;x
+ca_Dwater_system_1_desc;With some sewers and water system, the population's life is easier and its growth better.;Avec un système d'égouts et d'eau courante, la vie de la population est plus simple et de meilleure qualité.;;;x
+
+
+
+

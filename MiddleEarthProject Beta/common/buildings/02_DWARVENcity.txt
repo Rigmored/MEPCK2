@@ -327,7 +327,47 @@ city = {
 			culture_group = culture_group_dwarves	
 		}
 	}
-	
+
+####################### Water system : levy reinforce rate and land organisation #######################
+	ct_Dwater_system_0 = { #no water system
+		desc = ca_Dwater_system_0_desc
+		gold_cost = 0
+		build_time = 0
+		levy_reinforce_rate = -0.1
+		fertility = -0.2
+		ai_creation_factor = 102
+		potential = {
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ct_Dwater_system_1 = {
+		desc = ca_Dwater_system_1_desc
+		prerequisites = { ct_DInnerFortification_1 }
+		upgrades_from = ct_Dwater_system_0
+		gold_cost = 85
+		build_time = 365
+		levy_reinforce_rate =  0.1
+		fertility = 0.2
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ct_Dwater_system_2 = {
+		desc = ca_Dwater_system_1_desc
+		prerequisites = { ct_DInnerFortification_3 }
+		upgrades_from = ct_Dwater_system_1
+		gold_cost = 100
+		build_time = 550
+		levy_reinforce_rate = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+
 ################## Economy : tax income - values unchanged, no port, mines added -mountain dependant ###############################
 	ct_Dmarketplace_1 = {
 		desc = ct_Dmarketplace_1_desc

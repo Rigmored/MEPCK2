@@ -127,4 +127,7 @@ tp_balin_tomb;Tomb of Balin;Tombeau de Balin;;;;x
 tp_balin_tomb_desc;Balin was killed at the hands of Moria orcs in T.A. 2994. He was promptly buried in a tomb in the center of the Chamber of Mazarbul.;Balin a été tué des mains des Orques de la Moria en 2994 TA. Il a été rapidement enterré dans un tombeau au centre de la Chambre de Mazarbul.;;;;x
 tp_durin_tomb;Tomb of Durin the Deathless;Tombeau de Durin Trompe-la-Mort;;;;x
 tp_durin_tomb_desc;The Tomb of Durin the Deathless, first King of Durin's Folk and founder of the city of Dwarrowdelf, lies deep in the mines of Khazad-Dûm.;Le Tombeau de Durin Trompe-la-Mort, premier Roi du Peuple de Durin, fondateur de la cité de Khazad-dûm, se trouve dans les profondeurs de la cité.;;;;x
+ct_Dwater_system_0;No Water System;Pas d'Eau Courante;;;x
+ct_Dwater_system_1;Basic Water System;Egouts et Acqueducs;;;x
+ct_Dwater_system_2;Advanced Water System;Egouts et Acqueducs Avancés;;;x
 

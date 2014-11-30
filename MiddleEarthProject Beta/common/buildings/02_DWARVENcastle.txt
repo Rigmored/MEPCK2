@@ -365,7 +365,129 @@ castle = {
 	}
 	
 ####################### Stable, NONE (-335 max) #######################
-	
+####################### Water system : levy reinforce rate and land organisation #######################
+	ca_Dwater_system_0 = { #no water system
+		desc = ca_Dwater_system_0_desc
+		gold_cost = 0
+		build_time = 0
+		levy_reinforce_rate = -0.1
+		fertility = -0.2
+		ai_creation_factor = 102
+		potential = {
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dwater_system_1 = {
+		desc = ca_Dwater_system_1_desc
+		prerequisites = { ca_DInnerFortification_1 }
+		upgrades_from = ca_Dwater_system_0
+		gold_cost = 85
+		build_time = 365
+		levy_reinforce_rate =  0.1
+		fertility = 0.2
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dwater_system_2 = {
+		desc = ca_Dwater_system_1_desc
+		prerequisites = { ca_DInnerFortification_3 }
+		upgrades_from = ca_Dwater_system_1
+		gold_cost = 100
+		build_time = 550
+		levy_reinforce_rate = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+
+####################### Statues of past kings, piety #######################
+	ca_Dstatue_0 = { #no statue 
+		desc = ca_Dstatue_0_desc
+		gold_cost = 0
+		build_time = 0
+		liege_piety = -0.025
+		monthly_character_piety = -0.1
+		ai_creation_factor = 102
+		potential = {
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_1 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_1 }
+		upgrades_from = ca_Dstatue_0 
+		gold_cost = 70
+		build_time = 150
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_2 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_2 }
+		upgrades_from = ca_Dstatue_1
+		gold_cost = 100
+		build_time = 220
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_3 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_3 }
+		upgrades_from = ca_Dstatue_2
+		gold_cost = 150
+		build_time = 365
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_4 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_4 }
+		upgrades_from = ca_Dstatue_3
+		gold_cost = 240
+		build_time = 660
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_5 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_5 }
+		upgrades_from = ca_Dstatue_4
+		gold_cost = 480
+		build_time = 1280
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+
 ####################### Castle town, gives income, unchanged #######################
 	ca_Dtown_1 = {
 		desc = ca_Dtown_1_desc
@@ -1214,8 +1336,8 @@ ca_khazad = { ##moria for dwarves
 		build_time = 1265
 		fort_level = 1
 		tax_income = 0.5
-		diplomacy = 1
-		demesne_size = 1
+		change_diplomacy = 1
+		change_demesne_size = 1
 		heavy_infantry = 100
 		ai_creation_factor = 106
         	potential = {
@@ -1262,7 +1384,7 @@ ca_khazad = { ##moria for dwarves
 		fort_level = 0.6
 		tax_income = 0.5		
 		heavy_infantry = 60
-		diplomacy = 1	
+		change_diplomacy = 1	
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1294,7 +1416,7 @@ ca_khazad = { ##moria for dwarves
 		fort_level = 0.6
 		tax_income = 0.5		
 		heavy_infantry = 60
-		demesne_size = 1 
+		change_demesne_size = 1 
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1323,7 +1445,7 @@ ca_khazad = { ##moria for dwarves
 		build_time = 1355
 		fort_level = 1	
 		heavy_infantry = 100
-		martial = 1
+		change_martial = 1
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1352,7 +1474,7 @@ ca_khazad = { ##moria for dwarves
 		build_time = 1825
 		fort_level = 1	
 		heavy_infantry = 100
-		martial = 1
+		change_martial = 1
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1366,7 +1488,7 @@ ca_khazad = { ##moria for dwarves
 		gold_cost = 100
 		build_time = 360
 		tax_income = 2
-		stewardship = 1	
+		change_stewardship = 1	
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1380,7 +1502,7 @@ ca_khazad = { ##moria for dwarves
 		gold_cost = 120
 		build_time = 560
 		tax_income = 2
-		demesne_size = 1	
+		change_demesne_size = 1	
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
@@ -1394,7 +1516,7 @@ ca_khazad = { ##moria for dwarves
 		gold_cost = 200
 		build_time = 730
 		tax_income = 2
-		stewardship = 1
+		change_stewardship = 1
 		ai_creation_factor = 106
         	potential = {
 			FROMFROM = { title = b_gundabad_throne_hall } 
