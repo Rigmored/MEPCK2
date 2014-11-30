@@ -606,7 +606,7 @@ city = {
 ################## Shipyard : NONE ###############################
 ###################### Special buildings : dwarven fotresses ###################### 
 
-ct_khazad = { ##moria for dwarves
+ct_khazad = { #Moria for dwarves
 		desc = ct_khazad_desc
 		gold_cost = 1475
 		build_time = 5225
@@ -616,9 +616,8 @@ ct_khazad = { ##moria for dwarves
 		tax_income = 3		
 		ai_creation_factor = 106
 		add_number_to_name = no
-        potential = {
-        	province_id = 285 # Moria
-		culture_group = culture_group_dwarves
+        	potential = {
+        		province_id = 285 # Moria
             	}
 	}	
 
@@ -835,7 +834,7 @@ ct_khazad = { ##moria for dwarves
             }
 	}
 
-		ct_azanulimbardum = { #Azanulimbar-dûm#
+	ct_azanulimbardum = { #Azanulimbar-dûm#
 		desc = ct_azanulimbardum_desc
 		gold_cost = 450
 		build_time = 1600

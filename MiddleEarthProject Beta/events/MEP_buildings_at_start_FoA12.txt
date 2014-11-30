@@ -2628,7 +2628,7 @@ character_event = {
 			add_building = ca_paved_road_3
 			add_building = ca_great_route_4
 		}
-			b_sammath_gûl = { #2 (1+1 orc stronghold)#
+			b_sammath_gûl = { #2 orc stronghold
 				add_building = ca_MOwall_1 
 				add_building = ca_MOwall_2
 				add_building = ca_MOwatchtower_1 
@@ -2649,7 +2649,8 @@ character_event = {
 				add_building = ca_MO_elite_2
 				add_building = ca_paved_road_3
 			} 
-			b_barad_guldur = { #2 City (1+1 orc stronghold)#
+
+			b_barad_guldur = { #2 City orc stronghold
 				add_building = ct_MOwall_1 
 				add_building = ct_MOwall_2
 				add_building = ct_MOwatchtower_1 
@@ -2663,9 +2664,9 @@ character_event = {
 				add_building = ct_MOorcmarketplace_1 
 				add_building = ct_MOorcmarketplace_2
 				add_building = tp_shrine_melkor
-				add_building = ca_paved_road_3
+				add_building = ct_paved_road_3
 			}
-			b_dungeons_guldur = { #2 (1+1 orc stronghold)# 
+			b_dungeons_guldur = { #2 orc stronghold
 				add_building = ca_MOwall_1 
 				add_building = ca_MOwall_2
 				add_building = ca_MOwatchtower_1 
@@ -2686,7 +2687,7 @@ character_event = {
 				add_building = ca_MO_elite_2
 				add_building = ca_paved_road_3
 			} 
-			b_fennas_guldur = { #2 City (1+1 orc stronghold)# 
+			b_fennas_guldur = { #2 City orc stronghold
 				add_building = ct_MOwall_1 
 				add_building = ct_MOwall_2
 				add_building = ct_MOwatchtower_1 
@@ -2700,7 +2701,7 @@ character_event = {
 				add_building = ct_MOorcmarketplace_1 
 				add_building = ct_MOorcmarketplace_2
 				add_building = tp_shrine_melkor
-				add_building = ca_paved_road_3
+				add_building = ct_paved_road_3
 			}
 
 ############################# MORDOR ##########################	

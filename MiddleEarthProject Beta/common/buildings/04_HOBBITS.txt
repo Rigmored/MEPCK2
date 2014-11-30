@@ -328,7 +328,7 @@ city = {
 				culture = culture_breelander
 				culture_group = culture_group_halfling
 			}
-        }
+       		}
 	}		
 
 
