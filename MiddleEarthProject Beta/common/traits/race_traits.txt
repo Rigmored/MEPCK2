@@ -328,7 +328,6 @@ heir_of_durin = {
 	stewardship = 3
 	martial = 5
 	diplomacy = 2
-	agnatic = yes
 	customizer = no
 	vassal_opinion = 20	
 	cached = yes
