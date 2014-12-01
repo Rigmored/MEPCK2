@@ -17,6 +17,7 @@ city = {
 ####################### Inner fortification (Watchtowers and walls merged), give garrison size and fort level ###################### 
 	ct_DInnerFortification_1 = {
 		desc = ct_DInnerFortification_1_desc
+		prerequisites = { ct_Dwater_system_0 }
 		not_if_x_exists = { ct_lonely_mountain }
 		gold_cost = 150
 		build_time = 545

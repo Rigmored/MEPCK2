@@ -17,6 +17,7 @@ castle = {
 ####################### Inner fortification (Watchtowers and walls merged), give garrison size and fort level ###################### 
 	ca_DInnerFortification_1 = {
 		desc = ca_DInnerFortification_1_desc
+		prerequisites = { ca_Dwater_system_0 ca_Dstatue_0 }
 		not_if_x_exists = { ca_lonely_mountain }
 		gold_cost = 150
 		build_time = 539

@@ -1259,7 +1259,7 @@ castle = {
         	potential = {
             		province_id = 659 # Annuminas
 			year = 10317
-			NOT = { has_building = ca_hall_of_kings }	
+			#NOT = { has_building = ca_hall_of_kings }	
 			NOT = { has_global_flag = annuminas_rebuilded_finally }
         		}
 	}
@@ -1282,6 +1282,7 @@ castle = {
 	}	
 	ca_amon_sul_ruins = { ### Amon Sûl Ruins
 		desc = ca_amon_sul_ruins_desc
+		not_if_x_exists = { ca_amon_sul }
 		gold_cost = 850
 		build_time = 1460 #4y
 		tax_income = -4
@@ -1289,8 +1290,8 @@ castle = {
 		ai_creation_factor = 86		
         	potential = {
             		FROMFROM = { title = b_amon_sul }
-			year = 9752
-			NOT = { has_building = ca_amon_sul }	
+			year = 9751
+			#NOT = { has_building = ca_amon_sul }	
 			NOT = { has_global_flag = amon_sul_rebuilded_finally }
        		}
 	}	
@@ -1321,8 +1322,8 @@ castle = {
 		ai_creation_factor = 86		
         	potential = {
             		province_id = 270 # Fornost Erain
-			year = 10318
-			NOT = { has_building = ca_fornost_erain }	
+			year = 10317
+			#NOT = { has_building = ca_fornost_erain }	
 			NOT = { has_global_flag = fornost_rebuilded_finally }
        			}
 	}		
