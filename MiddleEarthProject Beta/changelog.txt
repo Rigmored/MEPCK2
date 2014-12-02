@@ -54,6 +54,7 @@ CULTURES AND RACES :
 - Added Dorwinrim culture in Dorwinion
 - Added Wights race
 - Made Haldadians, Lossoth and Druwathings tribal
+- Elven childhood mechanics, an Elf won't reach adulthood until age 50
 
 DECISIONS :
 - Rebuild the Cities of Edhellond, Amon Sûl and Osgiliath
@@ -73,6 +74,8 @@ EVENTS :
 - Added event to remove Ringbearer title from non-ringbearer
 - Elves can now only have one spouse in their lives. Hobbits and Dwarves can choose this option too.
 - Added startup guide event with index
+- Added events for hobbits to hold parties and give gifts to each other
+- Added global event informing of Sauron restoring/coming to full power
 
 GFX :
 - Changed a lot of old flags
@@ -135,6 +138,7 @@ PROVINCES :
  . Taur Romen
  . Iron Hills
  . Rhovanion
+ . Lindon
 - Edhellond is now a wilderness province during the War of the Ring, and a vassal of Lindon before
 - Moved Fanuidhol province to Vales of Anduin and renamed in Burh Anduin
 - Reduced number of pre-built baronies in Vales of Anduin, Celebrant and Weather Hills
