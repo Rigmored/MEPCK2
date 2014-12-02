@@ -39,6 +39,7 @@ job_chancellor = {
 		NOT = { trait = saruman_spell }
 		NOT = { trait = huntforring }
 		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }
 		NOT = { trait = at_east }
 	}
 	gain_effect = {
@@ -106,6 +107,7 @@ job_marshal = {
 		NOT = { trait = saruman_spell }
 		NOT = { trait = huntforring }
 		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }		
 		NOT = { trait = at_east }		
 	}
 	
@@ -154,6 +156,7 @@ job_treasurer = {
 		NOT = { trait = saruman_spell }
 		NOT = { trait = huntforring }
 		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }		
 		NOT = { trait = at_east }
 	}
 	gain_effect = {
@@ -213,6 +216,7 @@ job_spymaster = {
 		NOT = { trait = saruman_spell }
 		NOT = { trait = huntforring }
 		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }		
 		NOT = { trait = at_east }
 	}
 	gain_effect = {
@@ -271,6 +275,7 @@ job_spiritual = {
 		NOT = { trait = saruman_spell }
 		NOT = { trait = huntforring }
 		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }		
 		NOT = { trait = at_east }
 		
 		OR = {
