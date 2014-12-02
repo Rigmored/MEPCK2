@@ -1,4 +1,4 @@
-500.1.1={
+od500.1.1={
 	law = agnatic_succession
 	law = succ_primogeniture
 }
@@ -209,12 +209,12 @@ holder =  8063 # Mungo
 {
 holder =  8064 # Bungo
 }
-11269.1.1=
-{
 11358.1.1=
 {
-holder =  8024 # Paladin II
+holder = 8079 # Frodo Baggins
 }
+11464.1.1=
+{
 holder = 8140 # Sam Gamgee
 }
 11425.1.1=
