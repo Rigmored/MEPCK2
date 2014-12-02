@@ -42,7 +42,7 @@ EVTOPTChobbits.8;All the Hobbits!;Tous les Hobbits!;;;x
 EVTTIThobbits.9;A Party!;Une Fête !;;;x
 EVTDESChobbits.9;[From.GetFullName] invited you to a great party organized at [From.GetHerHim] home. Will you join him ?;[From.GetFullName] vous invite à une grande fête organisée chez [From.GetHerHim]. Allez-vous vous joindre à [From.GetHerHim]?;;;x
 EVTOPTAhobbits.9;I like the parties!;J'adore les fêtes!;;;x
-EVTOPTBhobbits.8;I don't have enough time.;Je n'ai pas le temps.;;;x
+EVTOPTBhobbits.9;I don't have enough time.;Je n'ai pas le temps.;;;x
 EVTTIThobbits.10;Party's Preparations - Step Two;Organisation de la Fête - Etape Deux;;;x
 EVTDESChobbits.10;While your party approach, you need to order anything that will help you. It is time to look at the Pipe-Weed. Will you order the best ones, lower quality ones, or let your guests bring their own grass?;Alors que votre fête approche, vous devez commander tout ce qui vous sera utile. Il est temps de se pencher sur l'herbe à Pipe. Allez-vous commander la meilleure, une de moins bonne qualité, ou laisser vos invités venir avec leurs propres herbe?;;;x
 EVTOPTAhobbits.10;I'll order some Longbottom Leaves.;Je vais commander des Feuilles de Longoulet.;;;x
@@ -84,3 +84,26 @@ EVTOPTEhobbits.17;The spectacle was great!;Le Spectacle était grandiose.;;;x
 EVTOPTFhobbits.17;This was a correct party.;C'était une fête correcte.;;;x
 EVTOPTGhobbits.17;This party was a little boring.;La fête était un peu ennuyeuse.;;;x
 EVTOPTHhobbits.17;It was a really bad party.;La Fête était vraiment ratée.;;;x
+EVTTIThobbits.18;During the Party…;Pendant la Fête…;;;x
+EVTDESChobbits.18;Your child is with you at a party, and during it, he met another child. Together, they started to play, to laugh, and it seems that they could become great friends.;Votre enfant est avec vous à la fête, et pendant que vous profitez, vous le voyez en train de jouer avec un autre enfant. Ils se chamaillent, ils rient, ils semblent qu'ils pourraient devenir de vrais amis.;;;x
+EVTOPTAhobbits.18;It's good for him to meet new friends.;C'est bon pour lui de rencontrer de nouveaux amis.;;;x
+EVTOPTBhobbits.18;Come here, boy.;Viens ici, mon enfant.;;;x
+EVTTIThobbits.19;A new friend!;Un nouvel ami!;;;x
+EVTDESChobbits.19;You're in a party with your parents, and while they're talking with old peoples, you're playing with the other children. With one of them, you play a little more, and you start to feel that he can be a great friend of yours.;Vous êtes à une fête avec vos parents, et alors que ceux-ci discutent avec les vieilles personnes, vous jouez avec les autres enfants. Avec l'un d'entre eux en particulier, vous passez plus de temps, et commencez à sentir qu'il pourrait devenir un vrai ami.;;;x
+EVTOPTAhobbits.19;I hope that he likes me too.;J'espère qu'il aime ma compagnie too.;;;x
+EVTOPTBhobbits.19;I don't want to become his friend.;Je ne veux pas devenir son ami.;;;x
+EVTTIThobbits.20;A new friend!;Un nouvel ami!;;;x
+EVTDESChobbits.20;During a party, you're playing with several children. But you're playing mostly with [From.GetFullName]. After some laughs and good time, you can swear to be friends forever, if you want to.;Pendant une fête, vous jouez avec de nombreux enfants, mais encore plus avec [From.GetFullName]. Vous sentez que vous pouvez devenir de vrais amis, et si vous le désirez, vous pouvez jurer de devenir amis pour toujours avec lui.;;;x
+EVTOPTAhobbits.20;We'll be friends!;Nous serons des amis!;;;x
+EVTOPTBhobbits.20;We won't be friends.;Nous ne serons pas amis.;;;x
+EVTTIThobbits.21;A new friend!;Un nouvel ami!;;;x
+EVTDESChobbits.21;"With the other child, you swears to be ""friends forever"". It's an important moment in your life, and you've got now a true friend.";"Avec l'autre enfant, vous avez décidés de devenir ""amis pour toujours'. C'est un grand moment dans votre vie, vous avez maintenant un nouvel ami.";;;x
+EVTOPTAhobbits.21;I'm so happy!;Je suis si content!;;;x
+EVTTIThobbits.22;No Friends.;Pas amis.;;;x
+EVTDESChobbits.22;[From.GetFullName] don't want to be your friend. He's playing and laughing with you, but nothing else.;[From.GetFullName] ne veut pas devenir votre ami. Il joue et rit avec vous, mais rien de plus.;;;x
+EVTOPTAhobbits.22;So bad…;C'est si triste…;;;x
+EVTTIThobbits.23;A new friend!;Un nouvel ami!;;;x
+EVTDESChobbits.23;[From.GetFirstName] got now a new friend! No doubt that you'll see him in your hole many times. That's a good news for [From.GetFirstName].;[From.GetFirstName] a un nouvel ami! Aucun doute, vous le verrez régulièrement chez vous maintenant! C'est une bonne nouvelle pour [From.GetFirstName].;;;x
+EVTOPTAhobbits.23;I'm happy for you!;Je suis content pour toi!;;;x
+YOURCHILD;your child;votre enfant;;;x
+FRIENDCHILD;his new friend.;son nouvel ami;;;x
