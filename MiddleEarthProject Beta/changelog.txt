@@ -92,7 +92,6 @@ GFX :
 JOB ACTIONS :
 - As an Evil Character, send your emissary in a weaker realm, and threaten them to improve your own glory
 - Use your Loremaster to heal the troops and stronger your reinforce rate.
-- Use your Loremaster to search after some ancient artefacts.
 
 LINKS :
 - Added some main characters to in-game wiki links list (Tolkien Gateway)
