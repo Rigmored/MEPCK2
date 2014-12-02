@@ -1,4 +1,4 @@
-e_gondor = {
+﻿e_gondor = {
     color={ 245 245 247 }
 	color2={ 125 125 142 }
 
@@ -7820,15 +7820,22 @@ k_gundabad = {
 	religion = religion_mahal
 	
 	religion_mahal = 100 # Crusade target weight
+
+	culture_group_dwarves = "Gundubanâd"
 	
 	d_gundabad = {
 		color={ 149 186 85 }
 		color2={ 255 255 255 }		
 		capital = 642 # Gundabad
+
+
+		culture_group_dwarves = "Gundubanâd"
 			
 		c_gundabad = {
 			color={ 149 186 85 }
 			color2={ 255 255 255 }
+		
+			culture_group_dwarves = "Gundubanâd"
 		
 			b_gundabad_throne_hall = {
 				holy_site = religion_mahal

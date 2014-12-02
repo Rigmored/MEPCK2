@@ -21,7 +21,7 @@ narrative_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 60
+		days = 20
 	}	
 	
 	immediate = {
@@ -59,7 +59,7 @@ narrative_event = {
 		name = "EVTOPTAgondorwotr.1" ## I'll stronger the defenses of Osgiliath with Boromir and Faramir
 		set_global_flag = faramirboromirosgiliath
 		FROM = {
-			character_event = { id = gondorwotr.2 days = 10 }
+			character_event = { id = gondorwotr.2 days = 5 }
 		}
 	}	
 	option = {
@@ -67,7 +67,7 @@ narrative_event = {
 		trigger = { ai = no }
 		set_global_flag = boromirosgiliath
 		FROM = {
-			character_event = { id = gondorwotr.3 days = 10 }
+			character_event = { id = gondorwotr.3 days = 5 }
 		}		
 	}
 	option = {
@@ -75,7 +75,7 @@ narrative_event = {
 		trigger = { ai = no }
 		set_global_flag = faramirosgiliath
 		FROM = {
-			character_event = { id = gondorwotr.4 days = 10 }
+			character_event = { id = gondorwotr.4 days = 5 }
 		}			
 	}
 }	
@@ -117,8 +117,8 @@ character_event = {
 				disband_on_peace = yes
 				troops = {
 					light_infantry = { 10000 10000 }
-					heavy_infantry = { 7000 7000 }
-					archers = { 4000 4000 }
+					heavy_infantry = { 10000 10000 }
+					archers = { 6000 6000 }
 				}
 			}		
 		}	
@@ -135,9 +135,9 @@ character_event = {
 				province = 426 # Morgul
 				disband_on_peace = yes
 				troops = {
-					light_infantry = { 2000 2000 }
-					heavy_infantry = { 2000 2000 }
-					archers = { 1000 1000 }
+					light_infantry = { 3000 3000 }
+					heavy_infantry = { 3000 3000 }
+					archers = { 2000 2000 }
 					war_elephants = { 15 15 }
 				}
 			}		
@@ -155,9 +155,9 @@ character_event = {
 				province = 426 # Morgul
 				disband_on_peace = yes
 				troops = {
-					light_infantry = { 2000 2000 }
-					heavy_infantry = { 500 500 }
-					archers = { 1000 1000 }
+					light_infantry = { 2500 2500 }
+					heavy_infantry = { 1500 1500 }
+					archers = { 1500 1500 }
 				}
 			}		
 		}	
@@ -287,8 +287,8 @@ character_event = {
 				disband_on_peace = yes
 				troops = {
 					light_infantry = { 10000 10000 }
-					heavy_infantry = { 7000 7000 }
-					archers = { 4000 4000 }
+					heavy_infantry = { 10000 10000 }
+					archers = { 6000 6000 }
 				}
 			}		
 		}	
@@ -307,7 +307,7 @@ character_event = {
 				troops = {
 					light_infantry = { 2000 2000 }
 					heavy_infantry = { 2000 2000 }
-					archers = { 1000 1000 }
+					archers = { 1500 1500 }
 					war_elephants = { 15 15 }
 				}
 			}		
@@ -326,7 +326,7 @@ character_event = {
 				disband_on_peace = yes
 				troops = {
 					light_infantry = { 2000 2000 }
-					heavy_infantry = { 500 500 }
+					heavy_infantry = { 1000 1000 }
 					archers = { 1000 1000 }
 				}
 			}		
@@ -447,7 +447,7 @@ narrative_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 50
+		days = 10
 	}	
 	
 	immediate = {
@@ -460,7 +460,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = e_steward_gondor
 			}
-			narrative_event = { id = gondorwotr.7 days = 20 }
+			narrative_event = { id = gondorwotr.7 days = 5 }
 		}
 	}	
 }
@@ -481,13 +481,13 @@ narrative_event = {
 		trigger = { ai = no }
 		set_global_flag = faramircairandros
 		FROM = {
-			character_event = { id = gondorwotr.8 days = 10 }
+			character_event = { id = gondorwotr.8 days = 5 }
 		}
 	}	
 	option = {
 		name = "EVTOPTBgondorwotr.7" ## No need to stronger the defenses.
 		FROM = {
-			character_event = { id = gondorwotr.8 days = 10 }
+			character_event = { id = gondorwotr.8 days = 5 }
 		}		
 	}
 }	
@@ -530,9 +530,9 @@ character_event = {
 				province = 8 # Cair Andros
 				disband_on_peace = yes
 				troops = {
-					light_infantry = { 10000 10000 }
-					heavy_infantry = { 7000 7000 }
-					archers = { 4000 4000 }
+					light_infantry = { 20000 20000 }
+					heavy_infantry = { 10000 10000 }
+					archers = { 7000 7000 }
 				}
 			}		
 		}			
@@ -561,7 +561,7 @@ character_event = {
 						has_landed_title = k_umbar
 						age = 1
 					}
-					narrative_event = { id = gondorwotr.10 days = 150 } ## The Corsairs of Umbar will come !
+					narrative_event = { id = gondorwotr.10 days = 80 } ## The Corsairs of Umbar will come !
 				}
 			}
 		}
@@ -763,9 +763,9 @@ narrative_event = {
 				province = 67 # Tolfalas
 				disband_on_peace = yes
 				troops = {
-					light_infantry = { 400 400 }
-					heavy_infantry = { 200 200 }
-					archers = { 200 200 }
+					light_infantry = { 700 700 }
+					heavy_infantry = { 300 300 }
+					archers = { 400 400 }
 				}
 			}		
 		}			
@@ -791,10 +791,12 @@ narrative_event = {
 		culture = culture_maiar
 		has_landed_title = c_barad_dur
 		has_global_flag = warsincairandros
+		war = no
+		
 	}
 	
 	mean_time_to_happen = {
-		days = 200
+		days = 40
 	}	
 	
 	immediate = {
@@ -807,7 +809,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = e_steward_gondor
 			}
-			narrative_event = { id = gondorwotr.15 days = 15 }
+			narrative_event = { id = gondorwotr.15 days = 10 }
 		}
 	}	
 	
@@ -835,7 +837,7 @@ narrative_event = {
 	option = {
 		name = "EVTOPTAgondorwotr.15" ## Oh no...
 		FROM = {
-			narrative_event = { id = gondorwotr.16 days = 50 }
+			narrative_event = { id = gondorwotr.16 days = 10 }
 		}
 	}	
 }
@@ -897,9 +899,9 @@ narrative_event = {
 				province = 427 # East Osgiliath
 				disband_on_peace = yes
 				troops = {
-					light_infantry = { 2000 2000 }
+					light_infantry = { 7000 7000 }
 					heavy_infantry = { 2000 2000 }
-					archers = { 1000 1000 }
+					archers = { 3000 3000 }
 					war_elephants = { 15 15 }
 				}
 			}		
@@ -917,9 +919,9 @@ narrative_event = {
 				province = 427 # East Osgiliath
 				disband_on_peace = yes
 				troops = {
-					light_infantry = { 2000 2000 }
-					heavy_infantry = { 500 500 }
-					archers = { 1000 1000 }
+					light_infantry = { 5000 5000 }
+					heavy_infantry = { 2500 2500 }
+					archers = { 3000 3000 }
 				}
 			}		
 		}	
