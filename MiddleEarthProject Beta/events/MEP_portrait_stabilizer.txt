@@ -119,9 +119,15 @@ character_event = {
 		}	
 		if = {
 			limit = {
-				culture_group = culture_group_wilderness
+				culture = culture_wilderness
 			}		
 		set_graphical_culture = culture_wilderness
+		}
+		if = {
+			limit = {
+				culture = culture_mountains
+			}		
+		set_graphical_culture = culture_mountains
 		}
 		if = {
 			limit = {
