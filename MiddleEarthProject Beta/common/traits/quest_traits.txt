@@ -65,12 +65,11 @@ story_amroth = { # Amroth and Nimrodel are travelling
 
 journey_to_valinor = { # Journey to Valinor
 	customizer = no
+	fertility = -100.0
 	random =no
 	pilgrimage = yes # Will need a regent, but can still be guardian to children
 	cannot_marry = yes
 	cached = yes
-	monthly_character_prestige = 10.00
-	fertility = -100.0
 }
 
 at_east = { # The Character is in the unknown lands of the East

@@ -42,7 +42,10 @@ character_event = {
                    picture = "GFX_evt_grey_havens"
 
 trigger = {	
-	trait = sailed_west
+	OR = {
+		trait = sailed_west
+		trait = at_east
+	}
 	set_character_flag = sailed_west	
 }
 
