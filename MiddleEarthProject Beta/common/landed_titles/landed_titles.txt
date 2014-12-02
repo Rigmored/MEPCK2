@@ -11392,7 +11392,7 @@ e_barad_dur = {
 			color={ 158 70 164 }
 			color2={ 255 255 255 }
 			
-			capital = 558 # Lugskai
+			capital = 557 # Lugskai
 			
 			c_lugskai = {
 				color={ 166 141 97 }
