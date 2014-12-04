@@ -4,13 +4,11 @@
 title = c_tuckborough
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_tuckborough = castle
 b_tuckbank = city
-b_tuckford = city
-#b_highford = city
-#b_willowfork = city
+#b_tuckford = city
 
 # Misc
 culture = culture_wilderness

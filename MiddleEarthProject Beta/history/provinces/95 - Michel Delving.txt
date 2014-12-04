@@ -4,13 +4,12 @@
 title = c_michel_delving
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
 b_michel_delving = castle
-b_michel_delving_mathom = city
+b_michel_delving_mathom = castle
 b_wolf_den = city
 #b_south_fields = city
-#b_whitehood = city
 
 
 # Misc

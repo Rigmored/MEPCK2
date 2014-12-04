@@ -4,13 +4,12 @@
 title = c_frogmorton
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
 b_frogmorton = castle
 b_budgeford = city
 b_tadpoleville = city
 #b_rivertoad = city
-#b_mirewood = city
 
 # Misc
 culture = culture_wilderness

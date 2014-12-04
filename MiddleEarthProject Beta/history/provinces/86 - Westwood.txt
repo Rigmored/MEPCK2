@@ -4,13 +4,12 @@
 title = c_westwood
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_waymeet = castle
 b_westwood = city
-b_woodguard = city
-#b_greentrunk = city
-#b_oldbush = city
+#b_woodguard = city
+
 
 
 # Misc

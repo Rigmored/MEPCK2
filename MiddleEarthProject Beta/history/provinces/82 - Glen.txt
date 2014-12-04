@@ -4,13 +4,11 @@
 title = c_glen
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_glen = castle
 b_tinmere = city
-b_coldpuddle = city
-#b_frozenhill = city
-#b_waterwave = city
+#b_coldpuddle = city
 
 # Misc
 culture = culture_wilderness

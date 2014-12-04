@@ -4,13 +4,12 @@
 title = c_east_red_downs
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
 b_longbottom = castle
 b_weedbottom = city
 b_pipeville = city
 #b_hayville = city
-#b_strawchariot = city
 
 # Misc
 culture = culture_wilderness
