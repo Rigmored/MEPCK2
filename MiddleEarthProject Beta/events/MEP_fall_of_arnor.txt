@@ -33,10 +33,10 @@ character_event = {
 	option = {
 		name = "EVTOPTAfallofarnor.1" ## OK		
 		set_character_flag = fallofarnor_intro
-		hidden_tooltip = {
-			character_event = { id = buildings_at_start_FoA.11 }
-			character_event = { id = buildings_at_start_FoA.12 }
-		}
+		#hidden_tooltip = {
+		#	character_event = { id = buildings_at_start_FoA.11 }
+		#	character_event = { id = buildings_at_start_FoA.12 }
+		#}
 	}
 }
 

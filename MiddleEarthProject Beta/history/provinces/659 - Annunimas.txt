@@ -25,7 +25,43 @@ terrain = hills
 culture = culture_arnorian
 religion = religion_dunedain
 }
-9752.1.1 = {
+8331.1.1 = { #City Founded by Elendil
+culture = culture_arnorian
+religion = religion_dunedain
+			b_annuminas = ca_hall_of_kings
+			b_annuminas = ca_numenorean_Annuminas
+			b_annuminas = ca_Nwall_1
+			b_annuminas = ca_Nwall_2
+			b_annuminas = ca_Nwatchtower_1 
+			b_annuminas = ca_Nwatchtower_2
+			b_annuminas = ca_Nkeep_1
+			b_annuminas = ca_Nkeep_2
+			b_annuminas = ca_Nmilitia_barracks_1
+			b_annuminas = ca_Nmilitia_barracks_2
+			b_annuminas = ca_Ntraining_grounds_1
+			b_annuminas = ca_Ntraining_grounds_2
+			b_annuminas = ca_Ncastleguards_1
+			b_annuminas = ca_Ncastleguards_2
+			b_annuminas = ca_Nstable_1
+			b_annuminas = ca_Nstable_2
+			b_annuminas = ca_Ntown_1
+			b_annuminas = ca_Ntown_2
+			b_annuminas = ca_Nforge_1 
+			b_annuminas = ca_Nforge_2
+			b_annuminas = ca_Napothecary_1
+			b_annuminas = ca_Napothecary_2
+			b_annuminas = ca_Nelitetroops_1
+			b_annuminas = ca_Nelitetroops_2
+			b_annuminas = ca_healing2
+			b_annuminas = ca_warning_beacons
+			b_annuminas = ca_paved_road_3
+}		
+9204.1.1 = { #Fornost becomes capital
+culture = culture_arnorian
+religion = religion_dunedain		
+}
+
+10318.1.1 = {
 culture = culture_wilderness
 religion = religion_wilderness
 }

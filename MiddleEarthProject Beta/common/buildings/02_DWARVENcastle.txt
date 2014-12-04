@@ -850,7 +850,7 @@ ca_khazad = { ##moria for dwarves
         	potential = {
             		province_id = 292 #Erebor
 			NOT = { has_global_flag = erebor_built }
-			NOT = { year = 10000 }			
+			NOT = { year = 10342 }			
             }
 	}
 	ca_erebor = { #Erebor#

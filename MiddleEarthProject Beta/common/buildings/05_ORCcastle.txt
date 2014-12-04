@@ -902,7 +902,7 @@ castle = {
            	}
 	}
 
-	ca_barraddur = { # Barad_dur walls#
+	ca_baraddur = { # Barad_dur walls#
 		desc = ca_baraddur_desc
 		gold_cost = 150
 		build_time = 1460 #4y
@@ -1023,7 +1023,7 @@ castle = {
 		ai_creation_factor = 86
         	potential = {
             		FROMFROM = { title = b_first_hall }
-			year = 10323
+			culture_group = culture_group_melkor
         	}
 	}	
 	
