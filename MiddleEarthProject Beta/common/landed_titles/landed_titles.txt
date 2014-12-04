@@ -8965,6 +8965,33 @@ e_durins_folk = {
 		culture = culture_longbeard
 		religion = religion_mahal
 		religion_mahal = 100 # Crusade target weight
+		
+		d_thror_combe = {
+			color={ 177 170 97 }
+			color2={ 255 255 255 }
+				
+			capital = 571 # Thrór's Coomb
+			
+			c_thror_combe = {
+				color={ 138 153 36 }
+				color2={ 255 255 255 }
+				
+				b_thror_coomb = {
+				}
+				b_skud_carchar = {
+				}
+				b_duv_corvan = {
+				}
+				b_gwal_draig = {
+				}
+				b_harndirion = {
+				}
+				b_pruv_cadlus = {
+				}
+				b_sarf_cadlus = {
+				}
+			}
+		}		
 		d_moria = {
 			color={ 177 170 97 }
 			color2={ 255 255 255 }
@@ -9065,7 +9092,7 @@ e_durins_folk = {
 				}
 				b_cebirthor = {
 				}
-			}			
+			}		
 		}
 			
 		d_pass_of_eagles = {
@@ -9108,34 +9135,7 @@ e_durins_folk = {
 				b_aeglirion = {
 				}
 			}				
-		}
-		
-		d_thror_combe = {
-			color={ 177 170 97 }
-			color2={ 255 255 255 }
-				
-			capital = 571 # Thrór's Coomb
-				
-			c_thror_combe = {
-				color={ 177 170 97 }
-				color2={ 255 255 255 }
-			
-				b_thror_coomb = {
-				}
-				b_skud_carchar = {
-				}
-				b_duv_corvan = {
-				}
-				b_gwal_draig = {
-				}
-				b_harndirion = {
-				}
-				b_pruv_cadlus = {
-				}
-				b_sarf_cadlus = {
-				}
-			}
-		}
+		}		
 	}
 		
 	k_erebor = {
