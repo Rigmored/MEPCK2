@@ -5,7 +5,7 @@
 	law = investiture_law_1
 }
 1080.1.1={
-	liege=d_dol_faerdor
+	liege=d_faerdor
 }
 8221.1.1=
 {
