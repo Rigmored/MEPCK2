@@ -98,10 +98,6 @@ vassalize_shire = {
 	effect = {
 		character_event = { id = vassalize.0 }
 	}
-
-	ai_will_do = {
-		factor = 100
-	}
 }
 
 }
