@@ -1,0 +1,9 @@
+25001 = {
+	name="Peaks"
+	religion="religion_wilderness"
+	culture="culture_mountains"
+	trait = wilderness
+	500.1.1={
+		birth="500.1.1"
+	}
+}

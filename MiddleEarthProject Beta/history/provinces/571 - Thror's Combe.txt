@@ -1,4 +1,4 @@
-# 571 - ThrÃ³r's Coomb
+# 571 - Thrór's Coomb
 
 # County Title
 title = c_thror_combe
@@ -15,9 +15,9 @@ b_gwal_draig = city
 #b_sarf_cadlus = city
 
 # Misc
-culture = culture_longbeard
-religion = religion_mahal
-8222.1.1 = {
+culture = culture_mountains
+religion = religion_wilderness
+11000.1.1 = {
 culture = culture_longbeard
 religion = religion_mahal
 }
