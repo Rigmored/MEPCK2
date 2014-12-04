@@ -33,5 +33,4 @@ This is an early beta, and obviously, you'll find some bugs. Please report them 
 We're always looking for help making this mod great. 
 If you have experience scripting events, or working on 2D art/graphics, PM Redit or Lonhaldar on the Paradox Forum or on Moddb .
 
-
 Thanks to everyone who made this mod possible. You'll find the credits directly in the mod folder, don't hesitate to look at it!
