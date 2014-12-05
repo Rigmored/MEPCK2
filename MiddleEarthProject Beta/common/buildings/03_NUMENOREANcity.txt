@@ -698,11 +698,11 @@ city = {
 		archers = 150
 		ai_creation_factor = 86
         	potential = {
-			province_id = 659 # Annuminas
-			has_global_flag = building
-			culture_group = culture_group_numenorean
-			NOT = { has_building = ct_annuminas_ruins }
-            		}
+				province_id = 659 # Annuminas
+				has_global_flag = building
+				culture_group = culture_group_numenorean
+				NOT = { has_building = ct_annuminas_ruins }
+            }
 	}
 	ct_annuminas_ruins = { ### Annuminas Ruins
 		desc = ct_annuminas_ruins_desc
@@ -713,8 +713,8 @@ city = {
 		ai_creation_factor = 86		
         potential = {
             province_id = 659 # Annuminas
-			year = 1031
-			NOT = { has_building = ct_hall_of_kings }	
+			year = 10317
+			#NOT = { has_building = ct_hall_of_kings }	
 			NOT = { has_global_flag = annuminas_rebuilded_finally }
        		}
 	}

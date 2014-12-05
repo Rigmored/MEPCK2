@@ -1258,9 +1258,9 @@ castle = {
 		ai_creation_factor = 86		
         	potential = {
             		province_id = 659 # Annuminas
-			year = 10317
-			#NOT = { has_building = ca_hall_of_kings }	
-			NOT = { has_global_flag = annuminas_rebuilded_finally }
+					year = 10317
+					#NOT = { has_building = ca_hall_of_kings }	
+					NOT = { has_global_flag = annuminas_rebuilded_finally }
         		}
 	}
 
@@ -1274,10 +1274,10 @@ castle = {
 		heavy_infantry = 250
 		knights = 250		
         	potential = {
-			has_global_flag = building
+					has_global_flag = building
             		FROMFROM = { title = b_amon_sul }
-			culture_group = culture_group_numenorean
-			NOT = { has_building = ca_amon_sul_ruins }
+					culture_group = culture_group_numenorean
+					NOT = { has_building = ca_amon_sul_ruins }
         	}
 	}	
 	ca_amon_sul_ruins = { ### Amon Sûl Ruins
@@ -1290,9 +1290,9 @@ castle = {
 		ai_creation_factor = 86		
         	potential = {
             		FROMFROM = { title = b_amon_sul }
-			year = 9751
-			#NOT = { has_building = ca_amon_sul }	
-			NOT = { has_global_flag = amon_sul_rebuilded_finally }
+					year = 9751
+					#NOT = { has_building = ca_amon_sul }	
+					NOT = { has_global_flag = amon_sul_rebuilded_finally }
        		}
 	}	
 
@@ -1310,7 +1310,7 @@ castle = {
             		province_id = 270 # Fornost Erain
 			culture_group = culture_group_numenorean
 			NOT = { has_building = ca_fornost_ruins }
-        		}
+        	}
 	}	
 	
 	ca_fornost_ruins = { ### Fornost Ruins
@@ -1322,10 +1322,10 @@ castle = {
 		ai_creation_factor = 86		
         	potential = {
             		province_id = 270 # Fornost Erain
-			year = 10317
-			#NOT = { has_building = ca_fornost_erain }	
-			NOT = { has_global_flag = fornost_rebuilded_finally }
-       			}
+					year = 10317
+					#NOT = { has_building = ca_fornost_erain }	
+					NOT = { has_global_flag = fornost_rebuilded_finally }
+       		}
 	}		
 
 	ca_tharbad_bridge = { ### The Bridge of Tharbad
