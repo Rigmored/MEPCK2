@@ -713,6 +713,7 @@ city = {
 		ai_creation_factor = 86		
         potential = {
             province_id = 659 # Annuminas
+			has_global_flag = building
 			year = 10317
 			#NOT = { has_building = ct_hall_of_kings }	
 			NOT = { has_global_flag = annuminas_rebuilded_finally }

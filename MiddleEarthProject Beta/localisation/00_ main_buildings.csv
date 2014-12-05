@@ -359,4 +359,7 @@ ca_south_road;South Road;Route du Sud;;;x
 ca_south_road_desc;The South Road is the southernmost portion of an ancient road which was meant to connect Arnor with Gondor;;;;x
 ca_kings_highway;King's Highway;Grandroute du Roi;;;x
 ca_kings_highway_desc;This great road used to connect Minas Tirith, Osgiliath, and Minas Ithil;;;;x
-
+#WILDERNESS;;;;;;x
+ca_wilderness;Wilderness;Nature Sauvage;;;x
+ct_wilderness;Wilderness;Nature Sauvage;;;x
+ca_wilderness_desc;There is nothing for men, elves or dwarves here... yet.;La Nature règne sans partage ici... pour l'instant.;;;x

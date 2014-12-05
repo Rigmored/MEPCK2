@@ -1244,9 +1244,9 @@ castle = {
 		heavy_infantry = 350
         	potential = {
             		FROMFROM = { title = b_annuminas }
-			culture_group = culture_group_numenorean
-			has_global_flag = building
-			NOT = { has_building = ca_annuminas_ruins }
+					culture_group = culture_group_numenorean
+					has_global_flag = building
+					NOT = { has_building = ca_annuminas_ruins }
         	}
 	}
 	ca_annuminas_ruins = { #Annuminas Ruins
@@ -1258,6 +1258,7 @@ castle = {
 		ai_creation_factor = 86		
         	potential = {
             		province_id = 659 # Annuminas
+					has_global_flag = building
 					year = 10317
 					#NOT = { has_building = ca_hall_of_kings }	
 					NOT = { has_global_flag = annuminas_rebuilded_finally }
@@ -1289,7 +1290,8 @@ castle = {
 		garrison_size = -0.50			
 		ai_creation_factor = 86		
         	potential = {
-            		FROMFROM = { title = b_amon_sul }
+            		has_global_flag = building
+					FROMFROM = { title = b_amon_sul }
 					year = 9751
 					#NOT = { has_building = ca_amon_sul }	
 					NOT = { has_global_flag = amon_sul_rebuilded_finally }
@@ -1306,10 +1308,10 @@ castle = {
 		heavy_infantry = 250
 		knights = 250		
         	potential = {
-			has_global_flag = building
+					has_global_flag = building
             		province_id = 270 # Fornost Erain
-			culture_group = culture_group_numenorean
-			NOT = { has_building = ca_fornost_ruins }
+					culture_group = culture_group_numenorean
+					NOT = { has_building = ca_fornost_ruins }
         	}
 	}	
 	
@@ -1321,7 +1323,8 @@ castle = {
 		garrison_size = -0.2			
 		ai_creation_factor = 86		
         	potential = {
-            		province_id = 270 # Fornost Erain
+            		has_global_flag = building
+					province_id = 270 # Fornost Erain
 					year = 10317
 					#NOT = { has_building = ca_fornost_erain }	
 					NOT = { has_global_flag = fornost_rebuilded_finally }
@@ -1337,11 +1340,11 @@ castle = {
 		heavy_infantry = 150		
 		ai_creation_factor = 86		
         	potential = {
-			has_global_flag = building
+					has_global_flag = building
             		FROMFROM = { title = b_tharbad }
-			has_global_flag = tharbad_bridge
-			culture_group = culture_group_numenorean
-        		}
+					has_global_flag = tharbad_bridge
+					culture_group = culture_group_numenorean
+        	}
 	}	
 	
 	ca_hidden_halls = {

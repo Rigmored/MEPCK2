@@ -1,6 +1,0 @@
-############### OBSOLETE ###############
-
-#Elven Special Buildings#MOVED#
-#Dwarven Special Buildings#MOVED#	
-#Rohan special buildings#MOVED#
-##Halflings Special Buildings#MOVED#
