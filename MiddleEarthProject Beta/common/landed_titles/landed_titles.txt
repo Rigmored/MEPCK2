@@ -5185,8 +5185,6 @@ e_arnor = {
 				}
 				b_rivertoad = {
 				}
-				b_mirewood = {
-				}
 			}
 			c_woodyend = {
 				color={ 100 100 100 }
@@ -5215,10 +5213,6 @@ e_arnor = {
 				}
 				b_marishbury = {
 				}
-				b_ottermud = {
-				}
-				b_nutshill = {
-				}
 			}
 			c_bridge_fields = {
 				color={ 0 132 132 }
@@ -5237,10 +5231,6 @@ e_arnor = {
 				}
 				b_whitfurrows = {
 				}
-				b_soapcoat = {
-				}
-				b_cherrybush = {
-				}
 			}
 			c_hills_of_scary = {
 				color={ 55 92 92 }
@@ -5255,10 +5245,6 @@ e_arnor = {
 				b_brockenborings = {
 				}
 				b_quarry = {
-				}
-				b_cavehole = {
-				}
-				b_mirroriver = {
 				}
 			}
 		}
@@ -5291,8 +5277,6 @@ e_arnor = {
 				}
 				b_hayville = {
 				}
-				b_strawchariot = {
-				}
 			}
 			c_overbourn_marshes = {
 				color={ 50 200 200 }
@@ -5307,10 +5291,6 @@ e_arnor = {
 				b_rushey = {
 				}
 				b_willowbottom = {
-				}
-				b_morassville = {
-				}
-				b_brownrush = {
 				}
 			}
 			c_north_far_downs = {
@@ -5330,10 +5310,6 @@ e_arnor = {
 				}
 				b_highgrove = {
 				}
-				b_underbridge = {
-				}
-				b_wheelroute = {
-				}
 			}
 			c_glen = {
 				color={ 0 211 139 }
@@ -5351,10 +5327,6 @@ e_arnor = {
 				b_tinmere = {
 				}
 				b_coldpuddle = {
-				}
-				b_frozenhill = {
-				}
-				b_waterwave = {
 				}
 			}
 			
@@ -5374,10 +5346,6 @@ e_arnor = {
 				b_wellbridge = {
 				}
 				b_groce = {
-				}
-				b_leafhall = {
-				}
-				b_daisyjar = {
 				}
 			}
 		}
@@ -5414,8 +5382,6 @@ e_arnor = {
 				}
 				b_cleanhole = {
 				}
-				b_saddleton = {
-				}
 			}
 			c_michel_delving = {
 				color={ 226 176 139 }
@@ -5437,8 +5403,6 @@ e_arnor = {
 				}
 				b_south_fields = {
 				}
-				b_whitehood = {
-				}
 				}
 			c_tuckborough ={
 				color={ 186 78 0 }
@@ -5457,10 +5421,6 @@ e_arnor = {
 				b_tuckbank = {
 				}
 				b_tuckford = {
-				}
-				b_highford = {
-				}
-				b_willowfork = {
 				}
 			}
 			c_west_north_moors = {
@@ -5481,10 +5441,6 @@ e_arnor = {
 				}
 				b_willowguard = {
 				}
-				b_greenpitt = {
-				}
-				b_oldsalt = {
-				}
 			}
 			c_the_white_downs = {
 				color={ 238 134 59 }
@@ -5498,10 +5454,6 @@ e_arnor = {
 				b_white_downs = {
 				}
 				b_bywaterpool = {
-				}
-				b_frogsbog = {
-				}
-				b_longboat = {
 				}
 			}
 			c_overhill = {
@@ -5524,10 +5476,6 @@ e_arnor = {
 				}
 				b_hotbore = {
 				}
-				b_boarshill = {
-				}
-				b_whitespot = {
-				}
 			}
 			c_west_bindbale = {
 				color={ 145 134 129 }
@@ -5545,10 +5493,6 @@ e_arnor = {
 				b_uppersmials = {
 				}
 				b_oldsmials = {
-				}
-				b_highchimney = {
-				}
-				b_coldfire = {
 				}
 			}
 			c_westwood = {
@@ -5568,10 +5512,6 @@ e_arnor = {
 				}
 				b_woodguard = {
 				}
-				b_greentrunk = {
-				}
-				b_oldbush = {
-				}
 			}
 			c_little_delving = {
 				color={ 133 84 48 }
@@ -5590,10 +5530,6 @@ e_arnor = {
 				}
 				b_littlehole = {
 				}
-				b_blackrove = {
-				}
-				b_highorn = {
-				}
 			}
 			c_nobottle = {
 				color={ 201 143 101 }
@@ -5611,10 +5547,6 @@ e_arnor = {
 				b_gamwich = {
 				}
 				b_tightfield = {
-				}
-				b_starpool = {
-				}
-				b_skyrow = {
 				}
 			}
 		}
@@ -5647,8 +5579,6 @@ e_arnor = {
 				}
 				b_coldmud = {
 				}
-				b_runepine = {
-				}
 			}
 			c_east_north_moors = {
 				color={ 0 26 25 }
@@ -5667,10 +5597,6 @@ e_arnor = {
 				}
 				b_frozenby = {
 				}
-				b_frostmist = {
-				}
-				b_whitenut = {
-				}
 			}
 			c_greenfields = {
 				color={ 255 218 191 }
@@ -5688,10 +5614,6 @@ e_arnor = {
 				b_greenshield = {
 				}
 				b_fearfulfire = {
-				}
-				b_moldville = {
-				}
-				b_tepidtown = {
 				}
 			}		
 		}		

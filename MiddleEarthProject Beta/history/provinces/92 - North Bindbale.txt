@@ -4,13 +4,12 @@
 title = c_north_bindbale
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
 b_longcleeve = castle
 b_pinecleeve = city
 b_leafcleeve = city
 #b_coldmud = city
-#b_runepine = city
 
 # Misc
 culture = culture_wilderness

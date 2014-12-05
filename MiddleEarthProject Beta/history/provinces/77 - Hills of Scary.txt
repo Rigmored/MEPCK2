@@ -4,13 +4,11 @@
 title = c_hills_of_scary
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_scary = castle
 b_brockenborings = city
 #b_quarry = city
-#b_cavehole = city
-#b_mirroriver = city
 
 
 

@@ -4,13 +4,11 @@
 title = c_overhill
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_overhill = castle
 b_underhill = city
-b_hotbore = city
-#b_boarshill = city
-#b_whitespot = city
+#b_hotbore = city
 
 
 # Misc

@@ -4,13 +4,12 @@
 title = c_nobottle
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_gamwich = castle
 b_nobottle = city
-b_tightfield = city
-#b_starpool = city
-#b_skyrow = city
+#b_tightfield = city
+
 
 
 # Misc
