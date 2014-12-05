@@ -1133,7 +1133,8 @@ castle = {
 		ai_creation_factor = 80
 		not_if_x_exists = { ca_dome_of_the_stars ca_great_hall_osgiliath }	
         	potential = {
-            		OR = {
+            	has_global_flag = building
+				OR = {
 				AND = {
 					province_id=427
 					NOT = { has_global_flag = east_osgiliath_rebuilded_finally }
@@ -1143,7 +1144,7 @@ castle = {
 					NOT = { has_global_flag = west_osgiliath_rebuilded_finally }
 				}
 			}
-			year=9900
+			year=9980
 		}
 	}
 	
