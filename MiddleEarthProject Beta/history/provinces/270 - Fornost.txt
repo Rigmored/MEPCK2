@@ -1,29 +1,17 @@
 # Fornost Erain
 
-
 # County Title
-
 title = c_fornost
 
-
 # Settlements
-
 max_settlements = 6
 
-
 b_citadel_fornost = castle
-
 b_gates_norbury = castle
-
 #b_ost_nuaran = city
-
 #b_tower_of_amlaith = castle
-
 #b_hall_of_arveleg = city
-
 #b_minas_vrun = city
-
-
 
 # Misc
 culture = culture_arnorian

@@ -13,8 +13,8 @@ b_ost_laden = castle
 #b_gondrinn = city
 
 # Misc
-culture = culture_arnorian
-religion = religion_dunedain
+culture = culture_wilderness
+religion = religion_wilderness
 terrain = hills
 1.1.1 = {
 terrain = hills
