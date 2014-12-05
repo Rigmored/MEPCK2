@@ -59,7 +59,7 @@ TECH_GROUP_MILITARY = {
 TECH_GROUP_ECONOMY = {
 	TECH_CASTLE_CONSTRUCTION = { #castle buildings
 		modifier = {
-			CASTLE_TAX_MODIFIER = 0.5
+			CASTLE_TAX_MODIFIER = 0.0
 		}
 		1 = {
 		}
@@ -80,7 +80,7 @@ TECH_GROUP_ECONOMY = {
 	}
 	TECH_CITY_CONSTRUCTION = { #city buildings
 		modifier = {
-			CITY_TAX_MODIFIER = 0.5
+			CITY_TAX_MODIFIER = 0.0
 		}
 		1 = {
 		}
@@ -102,7 +102,7 @@ TECH_GROUP_ECONOMY = {
 	}
 	TECH_TEMPLE_CONSTRUCTION = { #temple buildings
 		modifier = {
-			TEMPLE_TAX_MODIFIER = 0.5
+			TEMPLE_TAX_MODIFIER = 0.0
 		}
 		1 = { 
 		}
