@@ -1098,7 +1098,23 @@ e_gondor = {
 			color={ 157 173 157 }
 			color2={ 255 255 255 }
 			
-			capital = 46 # Arandal
+			capital = 47 # Drinbar
+			
+			c_drinbar = {
+				color={ 13 193 0 }
+				color2={ 255 255 255 }
+		
+				b_drinbar = {
+				}
+				b_alustor = {
+				}
+				b_finibar = {
+				}
+				b_carach_elion = {
+				}
+				b_angebar = {
+				}
+			}
 			
 			c_arandal = {
 				color={ 130 255 121 }
@@ -1115,21 +1131,7 @@ e_gondor = {
 				b_amuntis = {
 				}
 			}
-			c_drinbar = {
-				color={ 13 193 0 }
-				color2={ 255 255 255 }
-		
-				b_drinbar = {
-				}
-				b_alustor = {
-				}
-				b_finibar = {
-				}
-				b_carach_elion = {
-				}
-				b_angebar = {
-				}
-			}
+			
 			c_finnarphen = {
 				color={ 6 86 0 }
 				color2={ 255 255 255 }
@@ -3025,12 +3027,116 @@ e_gondor = {
 		culture_maiar = "Anagropor"
 		culture_eredrim = "the Eredrim"
 
-		capital = 211 # Mornan
+		capital = 220 # Calembel
 	
 		culture = culture_gondorian_middlemen
 	    religion = religion_rhovanion
 		
 		religion_rhovanion = 100 # Crusade target weight
+	
+		d_ringlo_vale = {
+			color={ 112 63 39 }
+			color2={ 255 255 255 }
+			
+			capital = 220 #Calembel
+			
+			culture_eredrim = "Udul"
+			
+			c_giril_vale = {
+				color={ 192 166 21 }
+				color2={ 255 255 255 }
+		
+				b_cemenduril = {
+				}
+				b_spathlin = {
+				}
+				b_minas_ciril = {
+				}
+				b_dol_ciril= {
+				}
+				b_camonost = {
+				}
+			}
+			c_upper_lamedon = {
+				color={ 239 202 0 }
+				color2={ 255 255 255 }
+				
+				culture_eredrim = "Udul"
+		
+				b_calembel = {
+				}
+                b_ossarnen = {
+				}
+                b_nen_galen = {
+				}
+                b_tathrendalf = {
+				}
+                b_galengam = {
+				}
+                b_corumbel = {
+				}
+			}
+			c_west_ethring = {
+				color={ 229 209 101 }
+				color2={ 255 255 255 }
+		
+				b_ethring = {
+				}
+				b_gurenad = {
+				}  
+				b_dol_ethring = {
+				}  
+				b_cavanhod = {
+				}	
+				b_laravil = {
+				}
+			}
+			c_eredlamedon = {
+				color={ 138 117 0 }
+				color2={ 255 255 255 }
+		
+				b_dinadab = {
+				}
+				b_din_lamedon = {
+				}
+				b_curulad = {
+				}
+                b_duirrolad = {
+				}
+                b_aerlad = {
+				}
+			}
+			c_riversmouth = {
+				color={ 105 100 74 }
+				color2={ 255 255 255 }
+		
+				b_bar_elir = {
+				}
+				b_tir_earoth = {
+				}
+				b_caunlondiath = {
+				}
+				b_crildostin = {
+				}
+				b_taurdol = {
+				}
+			}
+			c_east_ethring = {
+				color={ 81 69 0 }
+				color2={ 255 255 255 }
+		
+				b_lothgobel = {
+				}
+				b_bronring = {
+				}  
+				b_eredloth = {
+				} 
+				b_athringrist = {
+				}
+				b_estadon = {
+				}
+			}
+			}
 	
 		d_mornan = {
 			color={ 41 116 23 }
@@ -3154,110 +3260,6 @@ e_gondor = {
 				}
 			}
 			}
-		d_ringlo_vale = {
-			color={ 112 63 39 }
-			color2={ 255 255 255 }
-			
-			capital = 220 #Calembel
-			
-			culture_eredrim = "Udul"
-			
-			c_giril_vale = {
-				color={ 192 166 21 }
-				color2={ 255 255 255 }
-		
-				b_cemenduril = {
-				}
-				b_spathlin = {
-				}
-				b_minas_ciril = {
-				}
-				b_dol_ciril= {
-				}
-				b_camonost = {
-				}
-			}
-			c_upper_lamedon = {
-				color={ 239 202 0 }
-				color2={ 255 255 255 }
-				
-				culture_eredrim = "Udul"
-		
-				b_calembel = {
-				}
-                b_ossarnen = {
-				}
-                b_nen_galen = {
-				}
-                b_tathrendalf = {
-				}
-                b_galengam = {
-				}
-                b_corumbel = {
-				}
-			}
-			c_west_ethring = {
-				color={ 229 209 101 }
-				color2={ 255 255 255 }
-		
-				b_ethring = {
-				}
-				b_gurenad = {
-				}  
-				b_dol_ethring = {
-				}  
-				b_cavanhod = {
-				}	
-				b_laravil = {
-				}
-			}
-			c_eredlamedon = {
-				color={ 138 117 0 }
-				color2={ 255 255 255 }
-		
-				b_dinadab = {
-				}
-				b_din_lamedon = {
-				}
-				b_curulad = {
-				}
-                b_duirrolad = {
-				}
-                b_aerlad = {
-				}
-			}
-			c_riversmouth = {
-				color={ 105 100 74 }
-				color2={ 255 255 255 }
-		
-				b_bar_elir = {
-				}
-				b_tir_earoth = {
-				}
-				b_caunlondiath = {
-				}
-				b_crildostin = {
-				}
-				b_taurdol = {
-				}
-			}
-			c_east_ethring = {
-				color={ 81 69 0 }
-				color2={ 255 255 255 }
-		
-				b_lothgobel = {
-				}
-				b_bronring = {
-				}  
-				b_eredloth = {
-				} 
-				b_athringrist = {
-				}
-				b_estadon = {
-				}
-			}
-			}
-		
 	}
 	
 	k_isengard = {
