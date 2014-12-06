@@ -113,10 +113,10 @@ city = {
 		ai_creation_factor = 60
 		potential = {
 	   		has_global_flag = building
-			FROM = { culture = culture_druedain 
-            }
+			culture = culture_druedain 
+        }
 	}
-}
+
 
 ###################### Púkel-men (Watchtowers) give garrison size ###################### 
 	ct_pukel_men = {
@@ -183,6 +183,6 @@ city = {
 		potential = {
 	    		has_global_flag = building
 			culture = culture_druedain
-            	}
+        }
 	}
 }

@@ -8,10 +8,10 @@ title = c_parth_iaur
 
 max_settlements = 4
 
-b_parth_iaur = castle
-b_an_cosa_bras = city
-#b_e_gynd = city
-#b_rast_iaur = city
+b_parth_iaur = tribal
+b_an_cosa_bras = tribal
+#b_e_gynd = tribal
+#b_rast_iaur = tribal
 
 # Misc
 culture = culture_andrasting

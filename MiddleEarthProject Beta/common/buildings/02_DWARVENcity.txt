@@ -17,6 +17,7 @@ city = {
 ####################### Inner fortification (Watchtowers and walls merged), give garrison size and fort level ###################### 
 	ct_DInnerFortification_1 = {
 		desc = ct_DInnerFortification_1_desc
+		prerequisites = { ct_Dwater_system_0 }
 		not_if_x_exists = { ct_lonely_mountain }
 		gold_cost = 150
 		build_time = 545
@@ -327,7 +328,47 @@ city = {
 			culture_group = culture_group_dwarves	
 		}
 	}
-	
+
+####################### Water system : levy reinforce rate and land organisation #######################
+	ct_Dwater_system_0 = { #no water system
+		desc = ca_Dwater_system_0_desc
+		gold_cost = 0
+		build_time = 0
+		levy_reinforce_rate = -0.1
+		fertility = -0.2
+		ai_creation_factor = 102
+		potential = {
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ct_Dwater_system_1 = {
+		desc = ca_Dwater_system_1_desc
+		prerequisites = { ct_DInnerFortification_1 }
+		upgrades_from = ct_Dwater_system_0
+		gold_cost = 85
+		build_time = 365
+		levy_reinforce_rate =  0.1
+		fertility = 0.2
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ct_Dwater_system_2 = {
+		desc = ca_Dwater_system_1_desc
+		prerequisites = { ct_DInnerFortification_3 }
+		upgrades_from = ct_Dwater_system_1
+		gold_cost = 100
+		build_time = 550
+		levy_reinforce_rate = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+
 ################## Economy : tax income - values unchanged, no port, mines added -mountain dependant ###############################
 	ct_Dmarketplace_1 = {
 		desc = ct_Dmarketplace_1_desc
@@ -425,7 +466,7 @@ city = {
 				terrain = hills
 				terrain = mountain
 			}
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
             	}
 	}
 	ct_dwarfmines_2 = {
@@ -439,7 +480,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
             		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			OR = {
 				terrain = hills
 				terrain = mountain
@@ -458,7 +499,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
            		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			OR = {
 				terrain = hills
 				terrain = mountain
@@ -477,7 +518,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
            		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			location = { terrain = mountain	}
             	}
 	}
@@ -493,7 +534,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
            		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			location = { terrain = mountain	}
             	}
 	}
@@ -509,7 +550,7 @@ city = {
 		add_number_to_name = yes
         	potential = {
            		has_global_flag = building
-	    		FROM = { culture_group = culture_group_dwarves }
+	    		culture_group = culture_group_dwarves
 			province_id = 285 # Moria
             	}
 	}
@@ -606,7 +647,7 @@ city = {
 ################## Shipyard : NONE ###############################
 ###################### Special buildings : dwarven fotresses ###################### 
 
-ct_khazad = { ##moria for dwarves
+ct_khazad = { #Moria for dwarves
 		desc = ct_khazad_desc
 		gold_cost = 1475
 		build_time = 5225
@@ -616,9 +657,8 @@ ct_khazad = { ##moria for dwarves
 		tax_income = 3		
 		ai_creation_factor = 106
 		add_number_to_name = no
-        potential = {
-        	province_id = 285 # Moria
-		culture_group = culture_group_dwarves
+        	potential = {
+        		province_id = 285 # Moria
             	}
 	}	
 
@@ -835,7 +875,7 @@ ct_khazad = { ##moria for dwarves
             }
 	}
 
-		ct_azanulimbardum = { #Azanulimbar-dûm#
+	ct_azanulimbardum = { #Azanulimbar-dûm#
 		desc = ct_azanulimbardum_desc
 		gold_cost = 450
 		build_time = 1600
@@ -1182,8 +1222,8 @@ ct_khazad = { ##moria for dwarves
 
 # Dwarven halls of the Ancestors #
 	
-	tp_dwarven_ancestrors = {
-		desc = tp_dwarven_ancestrors_desc
+	tp_dwarven_ancestors = {
+		desc = tp_dwarven_ancestors_desc
 		gold_cost = 150
 		build_time = 547
 		liege_piety = 0.05
@@ -1191,10 +1231,8 @@ ct_khazad = { ##moria for dwarves
 		ai_creation_factor = 109
 		add_number_to_name = no
         	potential = {
-            	has_global_flag = building
-			FROM = { 
-				culture_group = culture_group_dwarves
-			}
+            		has_global_flag = building
+			culture_group = culture_group_dwarves
         	}
 	}
 	tp_balin_tomb = { ### The Tomb of Balin

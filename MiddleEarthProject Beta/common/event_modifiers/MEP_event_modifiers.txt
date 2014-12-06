@@ -1,5 +1,6 @@
 ##### MiddleEarthProject ######
 ##racial province reinforcement modifiers##
+
 noldor_penalty = {
 	levy_reinforce_rate = -0.9
 	icon = 31
@@ -34,6 +35,15 @@ ent_penalty = {
 	levy_reinforce_rate = -2.0
 	icon = 31
 }
+
+wilderness_penalty = {
+	levy_size = -1.0
+	levy_reinforce_rate = -1.0
+	city_tax_modifier = -1.0
+	castle_tax_modifier = -1.0
+	icon = 31
+}
+
 
 black_fume = {
 	local_revolt_risk = 0.02
@@ -193,19 +203,19 @@ capital_defenses = {
 }
 
 ##### ROADS #####
-meninaugrim = {
-	local_speed_modifier = 1.7
-	icon = 31
-}
-dirtroad = {
-	local_speed_modifier = 1.1
-	icon = 31
-}
-pavedroad = {
-	local_speed_modifier = 1.3
-	icon = 31
-}
-greatroute = {
-	local_speed_modifier = 1.5
-	icon = 31
-}
+#meninaugrim = {
+#	local_speed_modifier = 1.7
+#	icon = 31
+#}
+#dirtroad = {
+#	local_speed_modifier = 1.1
+#	icon = 31
+#}
+#pavedroad = {
+#	local_speed_modifier = 1.3
+#	icon = 31
+#}
+#greatroute = {
+#	local_speed_modifier = 1.5
+#	icon = 31
+#}

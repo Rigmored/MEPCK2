@@ -4,13 +4,11 @@
 title = c_green_hill_country
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_green_hill_country = castle
 b_wellbridge = city
-b_groce = city
-#b_leafhall = city
-#b_daisyjar = city
+#b_groce = city
 
 # Misc
 culture = culture_wilderness

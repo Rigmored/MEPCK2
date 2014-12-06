@@ -11,6 +11,18 @@ liege=d_east_farthing
 {
 holder = 23005 # Dirhavel
 }
+8537.1.1=
+{
+holder = 12141 # Valandil
+}
+8592.1.1=
+{
+holder = 2001 # Eldacar
+}
+8682.1.1=
+{
+holder = 2433 # Agathor
+}
 11356.1.1=
 {
 holder =  8177 # Will Whitfoot

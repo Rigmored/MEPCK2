@@ -194,6 +194,7 @@ sailed_west = {
 	cannot_marry = yes
 	cannot_inherit = yes
 	ai_ambition = -100
+	fertility = -100
 	customizer = no	
 }
 dead_target = {

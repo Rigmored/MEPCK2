@@ -18,6 +18,13 @@ narrative_event = {
 			tier = DUKE
 		}
 		NOT = { has_character_flag = gandalfinrealm }
+		any_playable_ruler = {
+			any_courtier = {
+				has_character_flag = gandalf
+				age = 1
+				prisoner = no
+			}
+		}
 	}
 	
 	mean_time_to_happen = {

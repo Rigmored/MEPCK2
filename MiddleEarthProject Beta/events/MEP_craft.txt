@@ -16,11 +16,22 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.100" ## I'll forge a sword !
+		trigger = {
+			NOT = { trait = elvish_sword }
+			NOT = { trait = ancient_elvish_sword }
+			NOT = { trait = dwarvish_sword }
+		}
 		character_event = { id = craft.0 days = 10 }
 	}
 	
 	option = {
 		name = "EVTOPTBcraft.100" ## I'll create a great jewel !
+		trigger = {
+			NOT = { trait = dwarf_necklace }
+			NOT = { trait = elf_necklace }
+			NOT = { trait = dwarf_jewel }
+			NOT = { trait = elf_brooch }
+		}
 		character_event = { id = craft.12 }		
 	}	
 	
@@ -187,6 +198,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.3" ## Great !
+		clr_character_flag = crafts_object
 		add_trait = ancient_elvish_sword
 		if = {
 			limit = {
@@ -330,6 +342,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.6" ## Great !
+		clr_character_flag = crafts_object
 		add_trait = elvish_sword
 		if = {
 			limit = {
@@ -385,6 +398,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.7" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -497,6 +511,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.10" ## Great !
+		clr_character_flag = crafts_object
 		add_trait = dwarvish_sword
 		if = {
 			limit = {
@@ -556,7 +571,7 @@ character_event = {
 	}	
 }
 
-### Reforge an ancient sword - Success ###
+### Reforge an ancient sword - Failed ###
 character_event = {
 	id = craft.11
 	title = "EVTTITcraft.11"
@@ -568,6 +583,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.11" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -750,6 +766,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.16" ## So bad...
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -835,6 +852,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.18" ## Great !
+		clr_character_flag = crafts_object
 		if = {
 			limit = {
 				trait = craftsman
@@ -909,6 +927,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.19" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -996,6 +1015,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.22" ## So bad...
+		clr_character_flag = crafts_object
 	}		
 }
 
@@ -1082,6 +1102,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.24" ## A great jewel !
 		add_trait = dwarf_jewel
+		clr_character_flag = crafts_object
 		prestige = 100
 		if = {
 			limit = {
@@ -1149,6 +1170,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.25" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}		
 }
 
@@ -1236,6 +1258,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.27" ## A great jewel !
 		add_trait = elf_brooch
+		clr_character_flag = crafts_object
 		if = {
 			limit = {
 				trait = craftsman
@@ -1284,6 +1307,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.28" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}		
 }
 
@@ -1451,6 +1475,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.32" ## so bad...	
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -1467,6 +1492,7 @@ narrative_event = {
 		name = "EVTOPTAcraft.33" ## Time to recreate the brotherhood !
 		add_trait = gwaith_i_mirdain
 		set_global_flag = gwaith_mirdain_rebuilded
+		clr_character_flag = crafts_object
 		wealth = -200
 		any_courtier = {
 			limit = {
@@ -1480,5 +1506,6 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTBcraft.33" ## It's not time.
+		clr_character_flag = crafts_object
 	}	
 }

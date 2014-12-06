@@ -55,4 +55,10 @@ ct_MOshipyard_3;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero d
 ct_MOshipyard_4;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero de la Ciudad;;x
 tp_shrine_melkor;Shrine of Melkor;Temple de Melkor;;;;x;;;;;;;;;
 tp_shrine_melkor_desc;The Shrine of Melkor is a cursed place where the faithful of Melkor give an offering to the fire; prisoners, animals, or ancient trees. Thick black smoke was always seen billowing from the top of the central dome of the temple.;Le Temple de Melkor est un lieu maudit, où les fidèles de Melkor donnent en offrande au feu noir des prisonniers, des animaux, ou des arbres anciens. Une épaisse fumée noire s'échappe du sommet du dôme central du temple.;;;;;;;;;;;;x
+ct_dolguldur;Dol Guldur;Dol Guldur;;;;x
+ct_isengarduruk;Uruk Pits of Isengard;Fosses d'Uruk d'Isengard;;;;x
+ct_numenorean2up;Fortress of Minas Morgul;Forteresse de Minas Morgul;;;;x
+ct_moria;Moria;Moria;;;;x
+ct_witchking_fortress;Fortress of the Witch King;Forteresse du Roi Sorcier;;;x
+ct_Gundabad_Orc;Orc Stronghold;Forteresse Orc;;;x
 

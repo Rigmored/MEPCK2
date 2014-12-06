@@ -583,7 +583,7 @@ character_event = {
 	}	
 	
 	option = {
-		name = "EVTOPTBhobbits.13" ## Food will be enough
+		name = "EVTOPTChobbits.13" ## Food will be enough
 		set_character_flag = nogiftsparty
 	}		
 }
@@ -1128,6 +1128,7 @@ character_event = {
 		NOT = { has_character_flag = party_host }
 		num_of_children = 1
 		NOT = { has_character_flag = friendforson }
+		NOT = { has_global_flag = friendshobbits }
 	}
 	
 	mean_time_to_happen = {
@@ -1168,7 +1169,8 @@ character_event = {
 	}
 	
 	option = {
-		name = "EVTOPTHhobbits.18" ## He'll met new friends.
+		name = "EVTOPTAhobbits.18" ## He'll met new friends.
+		set_global_flag = friendshobbits
 		set_character_flag = friendforson
 		random_child = {
 			limit = {
@@ -1198,10 +1200,11 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTHhobbits.18" ## No, stay with me.
+		name = "EVTOPTBhobbits.18" ## No, stay with me.
 	}
 }
 
+## You're plaing with another child. ##
 character_event = {
 	id = hobbits.19
 	title = "EVTTIThobbits.19"
@@ -1211,12 +1214,120 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTHhobbits.19"
+		name = "EVTOPTAhobbits.19"
 		random_child = {
 			limit = {
 				NOT = { age = 33 }
+				has_character_flag = futurefriend
 			}
+			character_event = { id = hobbits.20 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTBhobbits.19"
+		trigger = { ai = no }
+		random_child = {
+			limit = {
+				NOT = { age = 33 }
+				has_character_flag = futurefriend
+			}
+			clr_character_flag = futurefriend
+		}
+		clr_global_flag = friendshobbits
+	}
+}
+
+## Will you become friends? ##
+character_event = {
+	id = hobbits.20
+	title = "EVTTIThobbits.20"
+	desc = "EVTDESChobbits.20"
+	picture = "GFX_evt_hobbitsmial"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAhobbits.20" ## Yes!
+		ai_chance = {
+			factor = 80
+		}
+		FROM = {
 			character_event = { id = hobbits.21 }
+		}
+		add_friend = FROM
+		father = {
+			character_event = { id = hobbits.23 }
+		}
+		clr_character_flag = futurefriend
+		clr_global_flag = friendshobbits
+	}
+	option = {
+		name = "EVTOPTBhobbits.20" ## No!
+		ai_chance = {
+			factor = 20
+		}
+		FROM = {
+			character_event = { id = hobbits.22 }
+		}
+		clr_character_flag = futurefriend
+		clr_global_flag = friendshobbits
+	}
+}
+
+## You're Friends! ##
+character_event = {
+	id = hobbits.21
+	title = "EVTTIThobbits.21"
+	desc = "EVTDESChobbits.21"
+	picture = "GFX_evt_hobbitsmial"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAhobbits.21" ## Great!
+		add_friend = FROM
+		father = {
+			character_event = { id = hobbits.23 }
+		}
+	}
+}
+
+## You're not Friends! ##
+character_event = {
+	id = hobbits.22
+	title = "EVTTIThobbits.22"
+	desc = "EVTDESChobbits.22"
+	picture = "GFX_evt_hobbitsmial"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAhobbits.22" ## So bad...
+		random_list = {
+			15 = { add_trait = depressed }
+			85 = { }
+		}
+	}
+}
+
+## father is informed ##
+character_event = {
+	id = hobbits.23
+	title = "EVTTIThobbits.23"
+	desc = "EVTDESChobbits.23"
+	picture = "GFX_evt_hobbitsmial"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAhobbits.23" ## Great!
+		add_friend = FROM
+		FROM = {
+			custom_tooltip = { text = YOURCHILD }
+		}
+		FROMFROM = {
+			custom_tooltip = { text = FRIENDCHILD }
 		}
 	}
 }

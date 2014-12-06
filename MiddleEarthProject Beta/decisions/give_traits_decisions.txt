@@ -9,6 +9,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = palantir_ithil }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -72,6 +73,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = palantir_sul }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -135,6 +137,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = palantir_elostirion }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -198,6 +201,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = palantir }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -261,6 +265,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = palantir_orthanc }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -324,6 +329,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = palantir_osgiliath }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -387,6 +393,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = palantir_annuminas }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -450,6 +457,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = horngondor }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -513,6 +521,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = anduril }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -576,6 +585,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = herugrim }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -639,6 +649,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = gutwhine }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -702,6 +713,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = orcrist }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -765,6 +777,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = sting }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -828,6 +841,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = glamdring }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -891,6 +905,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = elessar }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -954,6 +969,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = mithril }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -1017,6 +1033,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = barahir }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -1080,6 +1097,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = narsil }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -1143,6 +1161,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = dwarf_ring }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -1206,6 +1225,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = durin_ring }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }
@@ -1269,6 +1289,7 @@ dynasty_decisions = {
 			is_child_of = FROM
 			age = 16	
 			NOT = { trait = lesser_ring }
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			FROM = { war = no }

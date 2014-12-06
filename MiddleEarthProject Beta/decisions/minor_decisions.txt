@@ -6,6 +6,7 @@ decisions = {
 			is_ruler = yes
 			is_feudal = yes
 			prisoner = no
+			has_character_flag = festivity_decisions_open
 			OR = {
 				religion = religion_dunedain
 				religion = religion_rhovanion
@@ -110,12 +111,13 @@ decisions = {
 	}
 	
 	##feast only for noldor religions/cultures##
-	"Hold Feast of Remembrance" = {
+	feast_of_remembrance = {
 		potential = {
 			is_ruler = yes
 			is_feudal = yes
 			prisoner = no
 			culture = culture_noldor
+			has_character_flag = festivity_decisions_open
 			NOT = {
 				has_character_modifier = holding_large_feast
 			}
@@ -190,11 +192,12 @@ decisions = {
 	}
 	
 	##feast only for sindar religions/cultures##
-	"Hold Feast of Starlight" = {
+	feast_of_starlight = {
 		potential = {
 			is_ruler = yes
 			is_feudal = yes
 			prisoner = no
+			has_character_flag = festivity_decisions_open
 			OR = {
 				culture = culture_sindar
 				culture = culture_silvan
@@ -276,11 +279,12 @@ decisions = {
 	}
 	
 		##orc feasts##
-		"Hold Great Feast" = {
+		great_feast_orc = {
 		potential = {
 			is_ruler = yes
 			is_feudal = yes
 			prisoner = no
+			has_character_flag = festivity_decisions_open
 			OR = {
 				culture = culture_orkish
 				culture = culture_goblin
@@ -369,6 +373,7 @@ decisions = {
 			is_ruler = yes
 			religion_group = christian
 			prisoner = no
+			has_character_flag = festivity_decisions_open
 			NOT = {
 				has_character_modifier = holding_summer_fair
 			}
@@ -424,6 +429,7 @@ decisions = {
 			age = 16
 			is_female = no
 			prisoner = no
+			has_character_flag = festivity_decisions_open
 			OR = {
 				religion = religion_dunedain
 				religion = religion_rhovanion
@@ -517,6 +523,7 @@ decisions = {
 		potential = {
 			age = 16
 			trait = depressed
+			has_character_flag = family_decisions_open
 		}
 		allow = {
 			trait = depressed

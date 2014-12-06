@@ -8444,7 +8444,102 @@ character_event = {
 					add_trait = anglachel 
 				}
 			}
-		}			
+		}		
+	## Heir of Durin ##	
+	if = {
+			limit = { trait = heir_of_durin }
+			if = { 
+				limit = { 
+					is_ruler = yes
+					current_heir = { 
+						dynasty = ROOT 
+						is_alive = yes  
+						NOT = { trait = heir_of_durin } 
+					}
+				}
+				current_heir = {
+					add_trait = heir_of_durin 
+				}
+				add_trait = dead_target
+			}
+			if = { 
+				limit = { NOT = { trait = dead_target } is_patrician = yes }
+				family_palace = {
+					current_heir = { 
+						if = {
+							limit = { NOT = { trait = heir_of_durin  } }
+							add_trait = heir_of_durin 
+							ROOT = { add_trait = dead_target }
+						}	
+					}					
+				}				
+			}
+			if = { 
+				limit = { NOT = { trait = dead_target } }
+				random_child = {
+					limit = { dynasty = ROOT is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}	
+			}	
+			if = {
+				limit = { NOT = { trait = dead_target } }
+				random_sibling = {
+					limit = { dynasty = ROOT is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}	
+			}	
+			if = {
+				limit = { NOT = { trait = dead_target } }
+				random_dynasty_member = {
+					limit = { is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}
+			}
+			if = {
+				limit = { NOT = { trait = dead_target } }
+				random_child = {
+					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}
+			}
+			if = {
+				limit = { NOT = { trait = dead_target } }
+				random_child = {
+					limit = { is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}
+			}
+			if = {
+				limit = { 
+					NOT = { trait = dead_target }
+					spouse = { is_alive = yes NOT = { trait = heir_of_durin } }		
+				}
+				spouse = { add_trait = heir_of_durin  }
+				add_trait = dead_target
+			}
+			if = {
+				limit = { 
+					NOT = { trait = dead_target }	
+					liege = { NOT = { character = ROOT } NOT = { trait = heir_of_durin } }
+				}
+				liege = { add_trait = heir_of_durin  }
+				add_trait = dead_target
+			}
+			if = {
+				limit = { 
+					NOT = { trait = dead_target }	
+				}
+				random_vassal = { 
+					limit = { NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin 
+				}
+			}
+		}		
 		## Aragorn death ##
 		if = {
 			limit = { 
@@ -8468,7 +8563,8 @@ character_event = {
 					add_trait = dead_target
 				}
 			}			
-		}			
+		}	
+		
 	}	
 	option = {
 		name = "EVTOPTA45340"

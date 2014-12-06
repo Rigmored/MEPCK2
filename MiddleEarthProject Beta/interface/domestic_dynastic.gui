@@ -1509,13 +1509,13 @@ guiTypes = {
 			}	
 			OverlappingElementsBoxType = {
 				name = "traits"
-				position = { x = 283 y = 218 }
-				size = { x=233 y=32 }
+				position = { x = 240 y = 218 }
+				size = { x=270 y=32 }
 				format = right
 			}
 			OverlappingElementsBoxType = {
 				name = "LeadershipTraits"
-				position = { x = 277 y = 245 }
+				position = { x = 255 y = 245 }
 				size = { x = 102 y = 32 }
 				format = right
 			}

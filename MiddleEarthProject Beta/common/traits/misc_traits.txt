@@ -322,3 +322,10 @@ duel_target = {
 	customizer = no
 	random = no
 }
+
+marriedforever = {
+	customizer = yes	
+	cannot_marry = yes
+	cached = yes
+	monthly_character_piety = 1
+}

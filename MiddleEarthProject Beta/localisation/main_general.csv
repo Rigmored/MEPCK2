@@ -60,7 +60,7 @@ occupied_different_religion;Recently conquered (different Race);Recently conquer
 occupied_different_religiongroup;Recently conquered (different racial group);Recently conquered (different racial group);;;x
 EDUCATE_CHARACTER_INTERACTION_LONG_DESC;At age 6, children can be assigned a guardian for a proper upbringing. The choice is important, because the mentor will tend to pass on their skills, traits, culture and type of education to the child.;At age 6, children can be assigned a guardian for a proper upbringing. The choice is important, because the mentor will tend to pass on their skills, traits, culture and type of education to the child.;;;x
 THREAT_LIEGE_RELIGION;Same Race;Same Race;;;x
-WIKIPEDIA_LINK;§Ytolkien Gateway Link§W;§Ytolkien Gateway Link§W;;;x
+WIKIPEDIA_LINK;§YTolkien Gateway Link§W;§YTolkien Gateway Link§W;;;x
 WIKIPEDIA_LINK_DESC;Opens a browser to the Tolkien Gateway page for this character;Opens a browser to the Tolkien Gateway page for this character;;;x
 WIKIPEDIA_LINK_MISSING;§YThis character has no Tolkien Gateway link§W;§YThis character has no Tolkien Gateway link§W;;;x
 WIKIPEDIA_LINK_DISABLED;Tolkien Gateway Links are disabled;Tolkien Gateway Links are disabled;;;x
@@ -90,13 +90,14 @@ TRAIT_OPINION_SAME_TRAIT_SAME_REL;Racial Same Trait Opinion: $VALUE$;Racial Same
 VS_REL_ENEMY;Damage Against Racial Enemies;Damage Against Racial Enemies;;;x
 opinion_infidel;Different Race;Different Race;;;x
 dwarven_penalty;Dwarven Malus;Dwarven Malus;;;x
-elvish_penalty;Elven Malus;Elven Malus;;;x
+noldor_penalty;Noldor Malus;Noldor Malus;;;x
 gondorian_penalty;Gondorian Malus;Gondorian Malus;;;x
 dunedain_penalty;Dúnadan Malus;Dúnadan Malus;;;x
 ent_penalty;Onodrim Malus;Onodrim Malus;;;x
 tax_of_mordor;Tributes of Mordor;Tributes of Mordor;;;x
 black_fume;Black Fumes;Black Fumes;;;x
 druedain_penalty;Drúadan Malus;Drúadan Malus;;;x
+wilderness_penalty;Wilderness Malus;Wilderness Malus;;;x
 centralization;Authority;Authority;;;x
 centralization_desc;The Authority determines the generic level privileges, rights and obligations for Vassals,;The Authority determines the generic level privileges, rights and obligations for Vassals,;;;x
 centralization_0;Autonomy;Autonomy;;;x
@@ -206,32 +207,32 @@ succ_gavelkind_desc;The titles of the ruler are divided among his children, with
 TITLE_DESTROY_TOOLTIP_CAN_AFFORD;Can afford to lose §Y$PRESTIGE$§! Influence;Can afford to lose §Y$PRESTIGE$§! Influence;;;x
 REVOKE_HONORARY_TITLE_INTERACTION_LONG_DESC;You can revoke honorary titles that you have awarded to characters, depriving them of the Influence and income from those titles.;You can revoke honorary titles that you have awarded to characters, depriving them of the Influence and income from those titles.;;;x
 MIL_HOLY_ORDERS;Orders;Ordres;;;x
-LOADING_MAP_SPRITES;Sprites ; ;;;x
-LOADING_GUI_DEF; GUI; ;;;x
-LOADING_DATABASES; DATABASES; ;;;x
-INIT_MAP_LOGIC; MAP LOGIC; ;;;x
-CREATING_CHKSUM; CHECKSUM; ;;;x
-LOADING_HISTORY; HISTORY; ;;;x
-LOADING_SOUNDS; SOUND; ;;;x
-PROC_FLAGS; FLAGS; ;;;x
-LOAD_FLAGS;FLAGS2 ; ;;;x
-LOAD_GFX; GFX; ;;;x
-CREATING_THE_WORLD;WORLD ; ;;;x
-CREATING_TREES; TREES; ;;;x
-CREATING_BORDERS; BORDERS; ;;;x
-CREATING_RIVERS; RIVERS; ;;;x
-MAP_PROPERLY_INIT; MAP FINISHING; ;;;x
+LOADING_MAP_SPRITES; ; ;;;x
+LOADING_GUI_DEF; ; ;;;x
+LOADING_DATABASES; ; ;;;x
+INIT_MAP_LOGIC; ; ;;;x
+CREATING_CHKSUM; ; ;;;x
+LOADING_HISTORY; ; ;;;x
+LOADING_SOUNDS; ; ;;;x
+PROC_FLAGS; ; ;;;x
+LOAD_FLAGS; ; ;;;x
+LOAD_GFX; ; ;;;x
+CREATING_THE_WORLD; ; ;;;x
+CREATING_TREES; ; ;;;x
+CREATING_BORDERS; ; ;;;x
+CREATING_RIVERS; ; ;;;x
+MAP_PROPERLY_INIT; ; ;;;x
 #CREATING_PROVINCE;Creating Province #;Création des Provinces;;;x
-CREATING_TEXTS; TEXT ; ;;;x
-LOAD_EVENTS;EVENTS ; ;;;x
-ADAPTING_HISTORY; HISTORY ADAPT; ;;;x
+CREATING_TEXTS; ; ;;;x
+LOAD_EVENTS; ; ;;;x
+ADAPTING_HISTORY; ; ;;;x
 LOAD_CITY;CITIES ; ;;;x
-CALC_PATHS;PATHS ; ;;;x
-LOAD_GFX_PDXMAP_SHADERS;SHADERS;,;;;x
-LOAD_GFX_PDXMAP_TERRAIN;TERRAIN;,;;;x
-LOAD_GFX_PDXMAP_BORDERS;BORDERS;,;;;x
-LOAD_GFX_PDXMAP_TEXTURES;TEXTURES;,;;;x
-LOAD_GFX_PDXMAP_TREES;TRESES;,;;;x
-LOAD_GFX_PDXMAP_RIVERS;RIVERS;,;;;x
-LOAD_GFX_PDXMAP_STATIC_OBJECTS;STATIC OBJECTS;,;;;x
-LOAD_INIT;INITIALISING;,;;;x
+CALC_PATHS; ; ;;;x
+LOAD_GFX_PDXMAP_SHADERS; ; ;;;x
+LOAD_GFX_PDXMAP_TERRAIN; ; ;;;x
+LOAD_GFX_PDXMAP_BORDERS; ; ;;;x
+LOAD_GFX_PDXMAP_TEXTURES; ; ;;;x
+LOAD_GFX_PDXMAP_TREES; ; ;;;x
+LOAD_GFX_PDXMAP_RIVERS; ; ;;;x
+LOAD_GFX_PDXMAP_STATIC_OBJECTS; ; ;;;x
+LOAD_INIT; ; ;;;x

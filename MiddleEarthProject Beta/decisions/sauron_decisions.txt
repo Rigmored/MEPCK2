@@ -1,8 +1,8 @@
 decisions = {
 
 ##Sauron commands those rulers who have been corrupted by Darkness##
-"Command your Servants" = {
-	is_high_prio = yes
+command_servants = {
+	is_high_prio = no
 		
 	potential = {
 		AND = {
@@ -14,6 +14,7 @@ decisions = {
 		independent = yes
 		is_ruler = yes
 		}
+		has_character_flag = special_decisions_open
 	}
 	
 	allow = {
@@ -30,8 +31,8 @@ decisions = {
 }
 
 ##Some madman has attacked Mordor - Sauron should call in his minions to show them who them the folly of this!##
-"Call in Allies to the War" = {
-	is_high_prio = yes
+sauron_call_allies = {
+	is_high_prio = no
 		
 	potential = {
 		AND = {
@@ -45,6 +46,7 @@ decisions = {
 			is_primary_war_defender = yes
 			NOT = { has_character_flag = sauroncalled_allies }
 		}
+		has_character_flag = special_decisions_open
 	}
 	
 	allow = {
@@ -62,7 +64,7 @@ decisions = {
 
 ##Sauron can command his Nazguls ##
 command_nazgul = {
-	is_high_prio = yes
+	is_high_prio = no
 		
 	potential = {
 		AND = {
@@ -80,6 +82,7 @@ command_nazgul = {
 			NOT = { has_global_flag = khamul_in_angmar }
 			NOT = { has_global_flag = numenorean_nazguls_in_angmar }
 		}
+		has_character_flag = special_decisions_open
 	}
 	
 	allow = {

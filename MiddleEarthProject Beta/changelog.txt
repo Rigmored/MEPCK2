@@ -1,11 +1,14 @@
--------MIDDLE-EARTH PROJECT----------
+﻿-------MIDDLE-EARTH PROJECT----------
 
 ##### 0.4b Changelog #####
 
+AMBITIONS :
+- Added the Ambition to become a craftsman (only for Noldor and Dwarves, and only for characters who don't have one of these traits : healer/musician/mariner)
+
 BUGFIX :
-- The Ambition to become a Elf Warrior is now fixed for characters more aged than 45.
+- The Ambition to become a Elf Warrior is now fixed for characters aged more than 45.
 - Some Object-Traits can be inherited, like the Dwarven Rings.
-- Fixed a bug where the Mithril chest trait doesn't appears in game.
+- Fixed a bug where the Mithril Mail trait doesn't appear in game.
 - Fixed a bug with an event during the Kin-Strife bookmark, for the Witch-King, that pops but don't have any options to close.
 - Fixed some bugs with colonisation/purge mechanics
 - Fixed bug with an event related to the alliance system that kept to pop up
@@ -19,12 +22,16 @@ BUGFIX :
 - Fixed missing sprite for Enigma trait
 - CB icons no longer misaligned
 - Fixed a bug with the abdication decision
+- Removed Dol Amroth special troops due to crash problem
+- Removed bugged road province modifiers
+- Fixed wilderness levy + income province malus
 
 BUILDINGS :
-- Added several levels for the buildings "Khazad-Dum" and "Erebor"
-- Added specific buildings for the cities of Thorin's Gate, Azanulimbar-Dum, Tamnogoth, Zirakdum and Nurunkhizdin
-- Added new cultural buildings for all the cultures
-- Any buildings in Ruined Provinces will now be automatically destroyed
+- Major building system overhaul:
+-- Added several levels for the buildings "Khazad-Dum" and "Erebor"
+-- Added specific buildings for the cities of Thorin's Gate, Azanulimbar-Dum, Tamnogoth, Zirakdum and Nurunkhizdin
+-- Added new cultural buildings for all the cultures
+-- Any buildings in Ruined Provinces will now be automatically destroyed
 
 CHARACTERS :
 - The Sons of Aragorn and Arwen will have now the trait "Half-Elf"
@@ -46,11 +53,14 @@ CULTURES AND RACES :
 - Elves will now be children until 50-100 years old. They won't be able to marry or to lead armies during this period.
 - Added Dorwinrim culture in Dorwinion
 - Added Wights race
+- Made Haldadians, Lossoth and Druwathings tribal
+- Elven childhood mechanics, an Elf won't reach adulthood until age 50
 
 DECISIONS :
 - Rebuild the Cities of Edhellond, Amon Sûl and Osgiliath
 - If the Dwarves rule Erebor, Khazad-Dum and Gundabad, as King of Gundabad, call the Assembly of the Dwarves, and try to unificate all the Dwarves of Middle-Earth.
 - Use only one decision to open all the lists of holders of artefacts (rings/palantiri/weapons for now)
+- New decision system divides decisions into Family/Special/Employment/Festivity
 
 EVENTS :
 - "Call the Council of Gondor" feature, and try to gain the vote on several possibilities.
@@ -62,6 +72,10 @@ EVENTS :
 - An eastern ruler has now the possibility to find and invite as courtisans one of the Blue Istari: Alatar and Pallando
 - When the King of Gondor is crowned, he's now able to renew the Oath of Eorl, or to try to vassalize/conquer the land for Gondor.
 - Added event to remove Ringbearer title from non-ringbearer
+- Elves can now only have one spouse in their lives. Hobbits and Dwarves can choose this option too.
+- Added startup guide event with index
+- Added events for hobbits to hold parties and give gifts to each other
+- Added global event informing of Sauron restoring/coming to full power
 
 GFX :
 - Changed a lot of old flags
@@ -71,19 +85,23 @@ GFX :
 - Removed crosses from CB icons and changed imperial reconquest cb from LoR laurel to Arnorian crown
 - New unique portraits for Sauron with the ring and the Mouth of Sauron
 - Fixed broken religion icons and ironman selection button
-- New decision icons for most decisions
+- New decision icons for most decisions and some changed
+- Removed vast amount of vanilla gfx that was increasing file size
+- Minimap improved
 
 JOB ACTIONS :
 - As an Evil Character, send your emissary in a weaker realm, and threaten them to improve your own glory
 - Use your Loremaster to heal the troops and stronger your reinforce rate.
-- Use your Loremaster to search after some ancient artefacts.
 
 LINKS :
-- Added many main characters to in-game wiki links list
+- Added some main characters to in-game wiki links list (Tolkien Gateway)
 
 LOCALISATIONS :
 - Added Khuzdul names for Dwarven Realms
 - Fixed missing localisation for Anadune title
+- Many updated and mixed localisations throughout
+- Added a number to the month names to help with season/year progression awareness
+- Race descriptions on character view, with info on troops bonuses and maluses
 
 MAP :
 - Revamped trees map: palms in Harad, pines in the North, cyprus in Harondor and some other trees here and there to fill the map
@@ -102,9 +120,13 @@ MAP :
 - Mirkwood Forest Road now covered with trees
 - Climate snow map added, northern middle earth covered in Snow until North Shire-Rivendell-Thranduil's Halls-Esgaroth line
 - Forodwaith wasteland province divided into 4
+- Bellakar mountain range reworked
 
 MINOR TITLES :
 - You can now grant only one minor title by character in Gondor.
+
+PORTRAITS :
+- Added portraits for orcs children
 
 PROVINCES :
 - Added all the baronies and revamped provinces in the following places: 
@@ -115,6 +137,7 @@ PROVINCES :
  . Taur Romen
  . Iron Hills
  . Rhovanion
+ . Lindon
 - Edhellond is now a wilderness province during the War of the Ring, and a vassal of Lindon before
 - Moved Fanuidhol province to Vales of Anduin and renamed in Burh Anduin
 - Reduced number of pre-built baronies in Vales of Anduin, Celebrant and Weather Hills
@@ -122,11 +145,12 @@ PROVINCES :
 - Deleted 2 baronies in Midgewater Marshes
 - Added new baronies in Rohirrim Eastfolde
 - Moved Brownlands capital to Talath Harroch
+- Changed the capital of the duchy of Elostirion to Elostirion (was Undertowers)
 
 TRAITS :
 - Added the Nine Rings of the Men to the Nazgul
 - The Numenorean Helmet you can find during the Rebuilding of Fornost Erain is replaced by the Armour of Arvedui.
-- Added Spirit Form trait for Sauron before he recovers ring
+- Added Spirit Form trait for Sauron before he recovers ring, linked to new decision for Sauron 
 - Added Westernesse Dagger trait
 - Reworked a little the bonus/malus of the Hobbit trait
 - Added more chance to gain the "gardener", "charitable", "gluttonous" and "hedonist" traits for random hobbits
@@ -138,8 +162,10 @@ TITLES :
 - the Witch King holds now more titles in the Fall of Arnor/Kin Strife bookmarks
 - Added Ringbearer titular duchy held by current ringbearer
 - The Tribes of Harad are now independant
+- Fixed problem with Shire titles in FoA
+- Fixed some incorrect duchy, kingdom and empire capitals
 
-#####HOTFIX#####
+#####HOTFIX 0.3.1b#####
 
 BUGFIX:
 - Add one missing holy site for Moriquendi religion

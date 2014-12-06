@@ -1,0 +1,2481 @@
+namespace = buildings_at_start_FoA
+
+## Triggered by Fall of Arnor introduction at start ##
+
+character_event = {
+    	id = buildings_at_start_FoA.11 #HUMAN ZONES
+	hide_window = yes
+	is_triggered_only = yes		  
+
+	immediate = {
+######################## ARNOR : Shire ######################
+		b_longbottom  = {83
+		b_frogmorton = {75
+		b_longcleeve = {92
+		b_hobbiton = { 84
+		
+######################## ARNOR : Arthedain ######################
+		b_citadel_fornost = { 270 10318
+			b_annuminas = { 659
+			b_brethyar = { 244
+			b_formenyar = {250
+			b_noirinanyar = {247
+			b_elostirion = {687
+			b_bar_irlossiel = {345
+			b_iach_sarn = {79
+			b_amon_sul = {269
+			b_bree = { 267
+
+###################### ARNOR : Cardolan #########################
+		b_tyrn_gorthad = {105 8222.1.1 = {
+			b_thaendor = {166
+			b_tharbad = {172
+			b_argond = {163
+			b_minas_girithlin = {102
+			b_suduri = {156
+			b_balost = { 161
+			b_buckland = {97
+
+###################### ARNOR : Rhudaur #########################
+		b_cameth_brin = {373
+			b_ianth_methad = {296
+			b_mithereithel = {307
+			b_eldanar = { 303
+			b_magillos = { 300
+
+######################## GONDOR : Anorien ######################
+		b_dome_of_the_stars = { 427
+		b_minasnumen = { 428
+		b_citadel_tirith = { 422
+			b_bar_astirian = { 427
+			b_celerdain = { 10
+			b_cair_andros = { 8
+		
+################## GONDOR : Ithilien ####################
+		b_minas_morgul = { 426
+			b_alagdor = { 60
+			b_drinbar = { 47
+			b_usuluni = { 55
+	
+################## GONDOR : Lebennin ####################
+		b_minas_anduin = { 18
+			b_linhir = { 26
+			b_minas_arnach = { 17
+			b_minas_imduin = { 19
+			b_bar_tumladen = { 30
+
+################## GONDOR : Dor En Ernil ####################
+		b_tower_of_the_swan = { 656
+			b_gobel_tolfalas = { 367
+			b_methrast = { 37
+			b_dudhrandir = { 44
+
+################## GONDOR : Orthanc ####################
+		b_orthanc = { 225
+
+################## GONDOR : Calenardhon ####################
+		b_edoras = { 115
+			b_kingshall = { 122
+			b_aldburg = { 114
+			b_garsfeld = { 273
+			b_fangmaer = { 190
+			b_adornfold = { 121
+			b_harwick = { 278
+			b_parth_celebrant = {281
+		
+################## GONDOR : Andrast ####################
+		b_bar_morthil = { 178
+			b_tharagrondost = { 180
+	
+################## GONDOR : Lamedon - Gondorian Commoners ####################
+		b_calembel = { 220
+			b_morlad = { 214
+	
+################## GONDOR : Anfalas - Gondorian Commoners ####################
+		b_lond_galen = { 197
+			b_rondalph = { 198
+
+################## GONDOR : Pinnath Gelin - Gondorian Commoners ####################
+		b_annon_wain = { 203
+			b_dol_gwaer = { 207
+
+################## GONDOR : South Gondor- Harondorians ####################
+		b_gobel_mirlond = { 131
+			b_galadrin = { 127
+			b_amonost = { 135
+			b_abarloni = { 144
+			b_bar_malduin = { 138
+
+################## ANADUNE : Umbar - Umbareans and Black numenoreans ####################
+		b_umbar  = { #3
+			add_building = ca_Nwall_1
+			add_building = ca_Nwall_2
+			add_building = ca_Nwall_3
+			add_building = ca_Nwatchtower_1 
+			add_building = ca_Nwatchtower_2 
+			add_building = ca_Nwatchtower_3
+			add_building = ca_Nkeep_1
+			add_building = ca_Nkeep_2
+			add_building = ca_Nkeep_3
+			add_building = ca_Nmilitia_barracks_1
+			add_building = ca_Nmilitia_barracks_2
+			add_building = ca_Nmilitia_barracks_3
+			add_building = ca_Ntraining_grounds_1
+			add_building = ca_Ntraining_grounds_2
+			add_building = ca_Ntraining_grounds_3
+			add_building = ca_Ncastleguards_1
+			add_building = ca_Ncastleguards_2
+			add_building = ca_Ncastleguards_3
+			add_building = ca_Nstable_1
+			add_building = ca_Nstable_2
+			add_building = ca_Nstable_3
+			add_building = ca_Ntown_1
+			add_building = ca_Ntown_2
+			add_building = ca_Ntown_3
+			add_building = ca_Nforge_1 
+			add_building = ca_Nforge_2
+			add_building = ca_Napothecary_1
+			add_building = ca_Napothecary_2
+			add_building = ca_Nelitetroops_1
+			add_building = ca_Nelitetroops_2
+			add_building = ca_Nelitetroops_3
+			add_building = ca_healing2
+			add_building = ca_warning_beacons
+			add_building = ca_paved_road_3
+			add_building = ca_great_route_4
+			add_building = ca_Nshipyard_1 
+			add_building = ca_Nshipyard_2 
+			add_building = ca_Nshipyard_3
+		}
+			b_umbarcastle1 = { #3
+				add_building = ca_Nwall_1
+				add_building = ca_Nwall_2
+				add_building = ca_Nwatchtower_1 
+				add_building = ca_Nwatchtower_2 
+				add_building = ca_Nkeep_1
+				add_building = ca_Nkeep_2
+				add_building = ca_Nmilitia_barracks_1
+				add_building = ca_Nmilitia_barracks_2
+				add_building = ca_Ntraining_grounds_1
+				add_building = ca_Ntraining_grounds_2
+				add_building = ca_Ncastleguards_1
+				add_building = ca_Ncastleguards_2
+				add_building = ca_Nstable_1
+				add_building = ca_Nstable_2
+				add_building = ca_Ntown_1
+				add_building = ca_Ntown_2
+				add_building = ca_Nforge_1 
+				add_building = ca_Nforge_2
+				add_building = ca_Napothecary_1
+				add_building = ca_Napothecary_2
+				add_building = ca_Nelitetroops_1
+				add_building = ca_Nelitetroops_2
+				add_building = ca_healing2
+				add_building = ca_warning_beacons
+				add_building = ca_paved_road_3
+				add_building = ca_Nshipyard_1 
+				add_building = ca_Nshipyard_2 
+			}
+			b_umbarcastle2 = { #2
+				add_building = ca_Nwall_1
+				add_building = ca_Nwall_2
+				add_building = ca_Nwatchtower_1 
+				add_building = ca_Nwatchtower_2 
+				add_building = ca_Nkeep_1
+				add_building = ca_Nkeep_2
+				add_building = ca_Nmilitia_barracks_1
+				add_building = ca_Nmilitia_barracks_2
+				add_building = ca_Ntraining_grounds_1
+				add_building = ca_Ntraining_grounds_2
+				add_building = ca_Ncastleguards_1
+				add_building = ca_Ncastleguards_2
+				add_building = ca_Nstable_1
+				add_building = ca_Nstable_2
+				add_building = ca_Ntown_1
+				add_building = ca_Ntown_2
+				add_building = ca_Nforge_1 
+				add_building = ca_Nforge_2
+				add_building = ca_Napothecary_1
+				add_building = ca_Napothecary_2
+				add_building = ca_Nelitetroops_1
+				add_building = ca_Nelitetroops_2
+				add_building = ca_healing2
+				add_building = ca_warning_beacons
+				add_building = ca_paved_road_3
+				add_building = ca_Nshipyard_1 
+				add_building = ca_Nshipyard_2 
+			} 
+			b_umbarcity1 = { #city
+				add_building = ct_Nwall_1 
+				add_building = ct_Nwall_2
+				add_building = ct_Nwatchtower_1 
+				add_building = ct_Nwatchtower_2
+				add_building = ct_Nbarracks_1 
+				add_building = ct_Nbarracks_2
+				add_building = ct_Ntownmilitia_1 
+				add_building = ct_Ntownmilitia_2
+				add_building = ct_Nguard_1 
+				add_building = ct_Nguard_2 
+				add_building = ct_Nmarketplace_1 
+				add_building = ct_Nmarketplace_2
+				add_building = tp_numenorean_archives 
+				add_building = tp_healing2 
+				add_building = tp_numenorean_tombs
+				add_building = ct_paved_road_3
+				add_building = ct_Nshipyard_1
+				add_building = ct_Nshipyard_2
+				add_building = ct_Nport_1
+				add_building = ct_Nport_2
+				add_building = ct_Hfarm_1
+				add_building = ct_Hfarm_2
+			}
+			b_umbarcity2 = { #city
+				add_building = ct_Nwall_1 
+				add_building = ct_Nwall_2
+				add_building = ct_Nwatchtower_1 
+				add_building = ct_Nwatchtower_2
+				add_building = ct_Nbarracks_1 
+				add_building = ct_Nbarracks_2
+				add_building = ct_Ntownmilitia_1 
+				add_building = ct_Ntownmilitia_2
+				add_building = ct_Nguard_1 
+				add_building = ct_Nguard_2 
+				add_building = ct_Nmarketplace_1 
+				add_building = ct_Nmarketplace_2
+				add_building = tp_numenorean_archives 
+				add_building = tp_healing2 
+				add_building = tp_numenorean_tombs
+				add_building = ct_paved_road_3
+				add_building = ct_Nshipyard_1
+				add_building = ct_Nshipyard_2
+				add_building = ct_Nport_1
+				add_building = ct_Nport_2
+				add_building = ct_Hfarm_1
+				add_building = ct_Hfarm_2
+			}
+			b_umbartemple = { #city
+				add_building = ct_Nwall_1 
+				add_building = ct_Nwall_2
+				add_building = ct_Nwatchtower_1 
+				add_building = ct_Nwatchtower_2
+				add_building = ct_Nbarracks_1 
+				add_building = ct_Nbarracks_2
+				add_building = ct_Ntownmilitia_1 
+				add_building = ct_Ntownmilitia_2
+				add_building = ct_Nguard_1 
+				add_building = ct_Nguard_2 
+				add_building = ct_Nmarketplace_1 
+				add_building = ct_Nmarketplace_2
+				add_building = tp_numenorean_archives 
+				add_building = tp_healing2 
+				add_building = tp_numenorean_tombs
+				add_building = ct_paved_road_3
+				add_building = ct_Nshipyard_1
+				add_building = ct_Nshipyard_2
+				add_building = ct_Nport_1
+				add_building = ct_Nport_2
+				add_building = ct_Hfarm_1
+				add_building = ct_Hfarm_2
+			}
+
+		b_caldun  = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_Hshipyard_1
+		}
+			b_calduncastle = { #1 Southrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_Hshipyard_1
+			}
+
+		b_dusalan  = { #1 Southrons 
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_Hshipyard_1
+		}
+			b_dusalancity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1 
+				add_building = ct_Hshipyard_1
+				add_building = ct_Hport_1
+				add_building = ct_Hfarm_1
+			}
+
+############################# ANADUNE : Bellakar  ##########################
+		b_urezayan  = { #3 Black Numenoreans
+			add_building = ca_Nwall_1
+			add_building = ca_Nwall_2
+			add_building = ca_Nwall_3
+			add_building = ca_Nwatchtower_1 
+			add_building = ca_Nwatchtower_2 
+			add_building = ca_Nwatchtower_3
+			add_building = ca_Nkeep_1
+			add_building = ca_Nkeep_2
+			add_building = ca_Nkeep_3
+			add_building = ca_Nmilitia_barracks_1
+			add_building = ca_Nmilitia_barracks_2
+			add_building = ca_Nmilitia_barracks_3
+			add_building = ca_Ntraining_grounds_1
+			add_building = ca_Ntraining_grounds_2
+			add_building = ca_Ntraining_grounds_3
+			add_building = ca_Ncastleguards_1
+			add_building = ca_Ncastleguards_2
+			add_building = ca_Ncastleguards_3
+			add_building = ca_Nstable_1
+			add_building = ca_Nstable_2
+			add_building = ca_Nstable_3
+			add_building = ca_Ntown_1
+			add_building = ca_Ntown_2
+			add_building = ca_Ntown_3
+			add_building = ca_Nforge_1 
+			add_building = ca_Nforge_2
+			add_building = ca_Napothecary_1
+			add_building = ca_Napothecary_2
+			add_building = ca_Nelitetroops_1
+			add_building = ca_Nelitetroops_2
+			add_building = ca_Nelitetroops_3
+			add_building = ca_healing2
+			add_building = ca_warning_beacons
+			add_building = ca_paved_road_3
+			add_building = ca_great_route_4
+			add_building = ca_Nshipyard_1 
+			add_building = ca_Nshipyard_2 
+			add_building = ca_Nshipyard_3
+		}
+			b_kulijar = { #city
+				add_building = ct_Nwall_1 
+				add_building = ct_Nwall_2
+				add_building = ct_Nwatchtower_1 
+				add_building = ct_Nwatchtower_2
+				add_building = ct_Nbarracks_1 
+				add_building = ct_Nbarracks_2
+				add_building = ct_Ntownmilitia_1 
+				add_building = ct_Ntownmilitia_2
+				add_building = ct_Nguard_1 
+				add_building = ct_Nguard_2 
+				add_building = ct_Nmarketplace_1 
+				add_building = ct_Nmarketplace_2
+				add_building = tp_numenorean_archives 
+				add_building = tp_healing2 
+				add_building = tp_numenorean_tombs
+				add_building = ct_paved_road_3
+				add_building = ct_Nshipyard_1
+				add_building = ct_Nshipyard_2
+				add_building = ct_Nport_1 
+				add_building = ct_Nport_2
+			} 
+			b_har_shulam = { #city
+				add_building = ct_Nwall_1 
+				add_building = ct_Nwall_2
+				add_building = ct_Nwatchtower_1 
+				add_building = ct_Nwatchtower_2
+				add_building = ct_Nbarracks_1 
+				add_building = ct_Nbarracks_2
+				add_building = ct_Ntownmilitia_1 
+				add_building = ct_Ntownmilitia_2
+				add_building = ct_Nguard_1 
+				add_building = ct_Nguard_2 
+				add_building = ct_Nmarketplace_1 
+				add_building = ct_Nmarketplace_2
+				add_building = tp_numenorean_archives 
+				add_building = tp_healing2 
+				add_building = tp_numenorean_tombs
+				add_building = ct_paved_road_3
+				add_building = ct_Nshipyard_1
+				add_building = ct_Nshipyard_2
+				add_building = ct_Nport_1 
+				add_building = ct_Nport_2
+			} 
+			b_asayt_hor = { 
+				add_building = ca_Nwall_1
+				add_building = ca_Nwall_2
+				add_building = ca_Nwatchtower_1 
+				add_building = ca_Nwatchtower_2 
+				add_building = ca_Nkeep_1
+				add_building = ca_Nkeep_2
+				add_building = ca_Nmilitia_barracks_1
+				add_building = ca_Nmilitia_barracks_2
+				add_building = ca_Ntraining_grounds_1
+				add_building = ca_Ntraining_grounds_2
+				add_building = ca_Ncastleguards_1
+				add_building = ca_Ncastleguards_2
+				add_building = ca_Nstable_1
+				add_building = ca_Nstable_2
+				add_building = ca_Ntown_1
+				add_building = ca_Ntown_2
+				add_building = ca_Nforge_1 
+				add_building = ca_Nforge_2
+				add_building = ca_Napothecary_1
+				add_building = ca_Napothecary_2
+				add_building = ca_Nelitetroops_1
+				add_building = ca_Nelitetroops_2
+				add_building = ca_healing2
+				add_building = ca_Nshipyard_1 
+				add_building = ca_Nshipyard_2 
+				add_building = ca_warning_beacons
+				add_building = ca_paved_road_3
+			}
+
+		b_zimrenzil = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_joam = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1 
+			}
+			b_zimazor = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1 
+			}
+
+		b_kadar_an_balkuzor = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_kadar_an_balkuzortemple = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1 
+				add_building = ct_date_palms_1 
+			}
+			b_kadar_an_balkuzorcity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1 
+				add_building = ct_date_palms_1 
+			} 
+
+############################# ISENVALE : Enedwaith ##########################	
+		b_galtrev = {
+			add_building = tb_Pwall_1 
+			add_building = tb_Pwall_2
+			add_building = tb_Pwatchtower_1 
+			add_building = tb_Pwatchtower_2
+			add_building = tb_Pkeep_1
+			add_building = tb_Pkeep_2
+			add_building = tb_Pmilitia_barracks_1
+			add_building = tb_Pmilitia_barracks_2
+			add_building = tb_Ptraining_grounds_1
+			add_building = tb_Ptraining_grounds_2
+			add_building = tb_Pcastleguards_1
+			add_building = tb_Pcastleguards_2
+			add_building = tb_Pstable_1
+			add_building = tb_Pstable_2
+			add_building = tb_Ptown_1
+			add_building = tb_Ptown_2
+			add_building = tb_Phillsmen_1 
+			add_building = tb_Phillsmen_2
+			add_building = tb_dirt_road_2 
+		}
+			b_udrost = {
+				add_building = tb_Pwall_1 
+				add_building = tb_Pwall_2
+				add_building = tb_Pwatchtower_1 
+				add_building = tb_Pwatchtower_2
+				add_building = tb_Pkeep_1
+				add_building = tb_Pkeep_2
+				add_building = tb_Pmilitia_barracks_1
+				add_building = tb_Pmilitia_barracks_2
+				add_building = tb_Ptraining_grounds_1
+				add_building = tb_Ptraining_grounds_2
+				add_building = tb_Pcastleguards_1
+				add_building = tb_Pcastleguards_2
+				add_building = tb_Pstable_1
+				add_building = tb_Pstable_2
+				add_building = tb_Ptown_1
+				add_building = tb_Ptown_2
+				add_building = tb_Phillsmen_1 
+				add_building = tb_Phillsmen_2
+				add_building = tb_dirt_road_2 
+			}
+			b_pren_gwydh = {
+				add_building = tb_Pwall_1 
+				add_building = tb_Pwall_2
+				add_building = tb_Pwatchtower_1 
+				add_building = tb_Pwatchtower_2
+				add_building = tb_Pkeep_1
+				add_building = tb_Pkeep_2
+				add_building = tb_Pmilitia_barracks_1
+				add_building = tb_Pmilitia_barracks_2
+				add_building = tb_Ptraining_grounds_1
+				add_building = tb_Ptraining_grounds_2
+				add_building = tb_Pcastleguards_1
+				add_building = tb_Pcastleguards_2
+				add_building = tb_Pstable_1
+				add_building = tb_Pstable_2
+				add_building = tb_Ptown_1
+				add_building = tb_Ptown_2
+				add_building = tb_Phillsmen_1 
+				add_building = tb_Phillsmen_2
+				add_building = tb_dirt_road_2 
+			}
+			b_ronghut = {
+				add_building = tb_Pwall_1 
+				add_building = tb_Pwall_2
+				add_building = tb_Pwatchtower_1 
+				add_building = tb_Pwatchtower_2
+				add_building = tb_Pkeep_1
+				add_building = tb_Pkeep_2
+				add_building = tb_Pmilitia_barracks_1
+				add_building = tb_Pmilitia_barracks_2
+				add_building = tb_Ptraining_grounds_1
+				add_building = tb_Ptraining_grounds_2
+				add_building = tb_Pcastleguards_1
+				add_building = tb_Pcastleguards_2
+				add_building = tb_Pstable_1
+				add_building = tb_Pstable_2
+				add_building = tb_Ptown_1
+				add_building = tb_Ptown_2
+				add_building = tb_Phillsmen_1 
+				add_building = tb_Phillsmen_2
+				add_building = tb_dirt_road_2 
+			}
+
+		b_forthbrond = {
+			add_building = tb_Pwall_1 
+			add_building = tb_Pwall_2
+			add_building = tb_Pwatchtower_1 
+			add_building = tb_Pwatchtower_2
+			add_building = tb_Pkeep_1
+			add_building = tb_Pkeep_2
+			add_building = tb_Pmilitia_barracks_1
+			add_building = tb_Pmilitia_barracks_2
+			add_building = tb_Ptraining_grounds_1
+			add_building = tb_Ptraining_grounds_2
+			add_building = tb_Pcastleguards_1
+			add_building = tb_Pcastleguards_2
+			add_building = tb_Pstable_1
+			add_building = tb_Pstable_2
+			add_building = tb_Ptown_1
+			add_building = tb_Ptown_2
+			add_building = tb_Phillsmen_1 
+			add_building = tb_Phillsmen_2
+			add_building = tb_dirt_road_2 
+		}
+			b_athdar = {
+				add_building = tb_Pwall_1 
+				add_building = tb_Pwall_2
+				add_building = tb_Pwatchtower_1 
+				add_building = tb_Pwatchtower_2
+				add_building = tb_Pkeep_1
+				add_building = tb_Pkeep_2
+				add_building = tb_Pmilitia_barracks_1
+				add_building = tb_Pmilitia_barracks_2
+				add_building = tb_Ptraining_grounds_1
+				add_building = tb_Ptraining_grounds_2
+				add_building = tb_Pcastleguards_1
+				add_building = tb_Pcastleguards_2
+				add_building = tb_Pstable_1
+				add_building = tb_Pstable_2
+				add_building = tb_Ptown_1
+				add_building = tb_Ptown_2
+				add_building = tb_Phillsmen_1 
+				add_building = tb_Phillsmen_2
+				add_building = tb_dirt_road_2 
+			}
+			b_brontrig = {
+				add_building = tb_Pwall_1 
+				add_building = tb_Pwall_2
+				add_building = tb_Pwatchtower_1 
+				add_building = tb_Pwatchtower_2
+				add_building = tb_Pkeep_1
+				add_building = tb_Pkeep_2
+				add_building = tb_Pmilitia_barracks_1
+				add_building = tb_Pmilitia_barracks_2
+				add_building = tb_Ptraining_grounds_1
+				add_building = tb_Ptraining_grounds_2
+				add_building = tb_Pcastleguards_1
+				add_building = tb_Pcastleguards_2
+				add_building = tb_Pstable_1
+				add_building = tb_Pstable_2
+				add_building = tb_Ptown_1
+				add_building = tb_Ptown_2
+				add_building = tb_Phillsmen_1 
+				add_building = tb_Phillsmen_2
+				add_building = tb_dirt_road_2 
+			}
+		b_lond_angren = {
+			add_building = tb_Pwall_1 
+			add_building = tb_Pwall_2
+			add_building = tb_Pwatchtower_1 
+			add_building = tb_Pwatchtower_2
+			add_building = tb_Pkeep_1
+			add_building = tb_Pkeep_2
+			add_building = tb_Pmilitia_barracks_1
+			add_building = tb_Pmilitia_barracks_2
+			add_building = tb_Ptraining_grounds_1
+			add_building = tb_Ptraining_grounds_2
+			add_building = tb_Pcastleguards_1
+			add_building = tb_Pcastleguards_2
+			add_building = tb_Pstable_1
+			add_building = tb_Pstable_2
+			add_building = tb_Ptown_1
+			add_building = tb_Ptown_2
+			add_building = tb_Phillsmen_1 
+			add_building = tb_Phillsmen_2
+			add_building = tb_Pshipyard_1
+			add_building = tb_Pshipyard_2
+			add_building = tb_dirt_road_2 
+		}
+			b_angrast = {
+				add_building = tb_Pwall_1 
+				add_building = tb_Pwall_2
+				add_building = tb_Pwatchtower_1 
+				add_building = tb_Pwatchtower_2
+				add_building = tb_Pkeep_1
+				add_building = tb_Pkeep_2
+				add_building = tb_Pmilitia_barracks_1
+				add_building = tb_Pmilitia_barracks_2
+				add_building = tb_Ptraining_grounds_1
+				add_building = tb_Ptraining_grounds_2
+				add_building = tb_Pcastleguards_1
+				add_building = tb_Pcastleguards_2
+				add_building = tb_Pstable_1
+				add_building = tb_Pstable_2
+				add_building = tb_Ptown_1
+				add_building = tb_Ptown_2
+				add_building = tb_Pshipyard_1
+				add_building = tb_Pshipyard_2
+				add_building = tb_Phillsmen_1 
+				add_building = tb_Phillsmen_2
+				add_building = tb_dirt_road_2 
+			}
+			b_erynwaith = {
+				add_building = tb_Pwall_1 
+				add_building = tb_Pwall_2
+				add_building = tb_Pwatchtower_1 
+				add_building = tb_Pwatchtower_2
+				add_building = tb_Pkeep_1
+				add_building = tb_Pkeep_2
+				add_building = tb_Pmilitia_barracks_1
+				add_building = tb_Pmilitia_barracks_2
+				add_building = tb_Ptraining_grounds_1
+				add_building = tb_Ptraining_grounds_2
+				add_building = tb_Pcastleguards_1
+				add_building = tb_Pcastleguards_2
+				add_building = tb_Pstable_1
+				add_building = tb_Pstable_2
+				add_building = tb_Ptown_1
+				add_building = tb_Ptown_2
+				add_building = tb_Pshipyard_1
+				add_building = tb_Pshipyard_2
+				add_building = tb_Phillsmen_1 
+				add_building = tb_Phillsmen_2
+				add_building = tb_dirt_road_2 
+			}
+
+		b_morbet = {
+		}
+		b_south_daelmoth = {
+		}
+############################# ISENVALE : Old Puket Land ##########################	
+		b_druwaith_laden = {
+			add_building = tb_Iwall_1 
+			add_building = tb_pukel_men 
+			add_building = tb_Ikeep_1 
+			add_building = tb_Imilitia_barracks_1 
+			add_building = tb_Icastleguards_1 
+			add_building = tb_Itown_1 
+			add_building = tb_dirt_road_2 
+		}
+			b_ringorn = {
+				add_building = tb_Iwall_1 
+				add_building = tb_pukel_men 
+				add_building = tb_Ikeep_1 
+				add_building = tb_Imilitia_barracks_1 
+				add_building = tb_Icastleguards_1 
+				add_building = tb_Itown_1
+				add_building = tb_dirt_road_2 
+			}
+			b_talagan = {
+				add_building = tb_Iwall_1 
+				add_building = tb_pukel_men 
+				add_building = tb_Ikeep_1 
+				add_building = tb_Imilitia_barracks_1 
+				add_building = tb_Icastleguards_1 
+				add_building = tb_Itown_1
+				add_building = tb_dirt_road_2 
+			}
+		b_dunlogan = {
+			add_building = tb_Iwall_1 
+			add_building = tb_pukel_men 
+			add_building = tb_Ikeep_1 
+			add_building = tb_Imilitia_barracks_1 
+			add_building = tb_Icastleguards_1 
+			add_building = tb_Itown_1 
+			add_building = tb_dirt_road_2 
+		}
+			b_hwalord = {
+				add_building = tb_Iwall_1 
+				add_building = tb_pukel_men 
+				add_building = tb_Ikeep_1 
+				add_building = tb_Imilitia_barracks_1 
+				add_building = tb_Icastleguards_1 
+				add_building = tb_Itown_1
+				add_building = tb_dirt_road_2  
+			}
+			b_bar_elmar = {
+				add_building = tb_Iwall_1 
+				add_building = tb_pukel_men 
+				add_building = tb_Ikeep_1 
+				add_building = tb_Imilitia_barracks_1 
+				add_building = tb_Icastleguards_1 
+				add_building = tb_Itown_1 
+				add_building = tb_dirt_road_2 
+			}
+			
+############################# FOROCHEL ##########################	
+		b_suri_kyla = {
+			add_building = tb_Pwall_1 
+			add_building = tb_Pwall_2
+			add_building = tb_Pwatchtower_1 
+			add_building = tb_Pwatchtower_2
+			add_building = tb_Pkeep_1
+			add_building = tb_Pkeep_2
+			add_building = tb_Pmilitia_barracks_1
+			add_building = tb_Pmilitia_barracks_2
+			add_building = tb_Ptraining_grounds_1
+			add_building = tb_Ptraining_grounds_2
+			add_building = tb_Pcastleguards_1
+			add_building = tb_Pcastleguards_2
+			add_building = tb_Pstable_1
+			add_building = tb_Pstable_2
+			add_building = tb_Ptown_1
+			add_building = tb_Ptown_2
+			add_building = tb_Psnowmen_1
+			add_building = tb_Psnowmen_2
+			add_building = tb_Pshipyard_1
+			add_building = tb_Pshipyard_2
+			add_building = tb_dirt_road_2 
+		}
+			b_lodge_of_suri_kyla = {
+				add_building = tb_Pwall_1 
+				add_building = tb_Pwall_2
+				add_building = tb_Pwatchtower_1 
+				add_building = tb_Pwatchtower_2
+				add_building = tb_Pkeep_1
+				add_building = tb_Pkeep_2
+				add_building = tb_Pmilitia_barracks_1
+				add_building = tb_Pmilitia_barracks_2
+				add_building = tb_Ptraining_grounds_1
+				add_building = tb_Ptraining_grounds_2
+				add_building = tb_Pcastleguards_1
+				add_building = tb_Pcastleguards_2
+				add_building = tb_Pstable_1
+				add_building = tb_Pstable_2
+				add_building = tb_Ptown_1
+				add_building = tb_Ptown_2
+				add_building = tb_Psnowmen_1
+				add_building = tb_Psnowmen_2
+				add_building = tb_Pshipyard_1
+				add_building = tb_Pshipyard_2
+				add_building = tb_dirt_road_2 
+			}
+
+############################# NURN ##########################	
+		b_urlutsu_nurn = { #2 nurnians, easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1 
+			add_building = ca_slavers_1 
+			add_building = ca_slavers_2
+		}
+		b_emyn_burzum = { #1
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1 
+		}
+		b_lugskai = { #1
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1 
+		}
+		b_neburkha = {
+		}
+############################# VALES OF ANDUIN ##########################	
+		b_framsburg = { #2 Eotheod
+			add_building = ca_Rwall_1
+			add_building = ca_Rwall_2
+			add_building = ca_Rwatchtower_1 
+			add_building = ca_Rwatchtower_2
+			add_building = ca_Rkeep_1
+			add_building = ca_Rkeep_2
+			add_building = ca_Rmilitia_barracks_1
+			add_building = ca_Rmilitia_barracks_2
+			add_building = ca_Rtraining_grounds_1
+			add_building = ca_Rtraining_grounds_2
+			add_building = ca_Rcastleguards_1
+			add_building = ca_Rcastleguards_2
+			add_building = ca_Rstable_1
+			add_building = ca_Rstable_2
+			add_building = ca_Rtown_1
+			add_building = ca_Rtown_2
+			add_building = ca_Nforge_1
+			add_building = ca_Napothecary_1
+			add_building = ca_militia_barracks_1rohan
+			add_building = ca_militia_barracks_2rohan
+			add_building = ca_paved_road_3
+		}
+			b_oakishbuhr = { #1 city Eotheod
+				add_building = ct_Rwall_1 
+				add_building = ct_Rwatchtower_1 
+				add_building = ct_Rbarracks_1 
+				add_building = ct_Rtownmilitia_1 
+				add_building = ct_Rguard_1 
+				add_building = ct_Rmarketplace_1 
+				add_building = ct_barracks_1rohan
+				add_building = ca_Nforge_1
+				add_building = ca_Napothecary_1
+				add_building = ca_paved_road_3
+				add_building = tp_barrow_field 
+				add_building = ct_Hfarm_1
+				add_building = ct_watermill_1 
+				add_building = ct_fishermen_1 
+				add_building = ct_ferry_boat_1 
+			}
+			b_eredbut = { #1 city Eotheod
+				add_building = ct_Rwall_1 
+				add_building = ct_Rwatchtower_1 
+				add_building = ct_Rbarracks_1 
+				add_building = ct_Rtownmilitia_1 
+				add_building = ct_Rguard_1 
+				add_building = ct_Rmarketplace_1 
+				add_building = ct_barracks_1rohan
+				add_building = ca_Nforge_1
+				add_building = ca_Napothecary_1
+				add_building = ca_paved_road_3
+				add_building = tp_barrow_field 
+				add_building = ct_Hfarm_1
+				add_building = ct_watermill_1 
+				add_building = ct_fishermen_1 
+				add_building = ct_ferry_boat_1 
+			}
+
+		b_ninglorburg = { #1 Hobbits
+			add_building = ca_mushroom 
+			add_building = ca_tobacco 
+			add_building = ca_halflinginn 
+			add_building = ca_militia_barracks_1halfling 
+			add_building = ca_town_1halfling 
+		}
+			b_ninolis = { #1 city Hobbits
+				add_building = ct_mushroom 
+				add_building = ct_tobacco 
+				add_building = ct_barracks_1halfling 
+				add_building = ct_inn1 
+				add_building = ca_town_1halfling 
+			}
+
+		b_ford_carrock = { #1 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			
+		b_nan_anduin = { #1 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_carallin = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1 
+				add_building = tp_barrow_field 
+				add_building = ct_Hfarm_1
+				add_building = ct_watermill_1 
+				add_building = ct_fishermen_1 
+				add_building = ct_ferry_boat_1 
+			}
+			b_odrafburg = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field 
+				add_building = ct_Hfarm_1
+				add_building = ct_watermill_1 
+				add_building = ct_fishermen_1 
+				add_building = ct_ferry_boat_1  
+			}
+
+		b_beornhall = { #1 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_beornfields = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field 
+				add_building = ct_Hfarm_1
+				add_building = ct_watermill_1 
+				add_building = ct_fishermen_1 
+				add_building = ct_ferry_boat_1 
+			}
+
+############################# RHOVANION : Dale  ##########################
+		b_dale_king_hall = { #2 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_daleelite_1 
+			add_building = ca_daleelite_2
+		}
+			b_market_square = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field 
+			}
+			b_dale_inner_gate = { #1 Northrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_daleelite_1 
+			}
+			b_bluetower  = { #1 Northrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_daleelite_1 
+			}
+			b_dale_outer_gate  = { #1 Northrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_daleelite_1 
+			}
+
+		b_grasgard = { #1 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_grandshield = { #1 Northrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+			}
+			b_greyshire = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field 
+			}
+
+		b_orchal_carnen = { #1 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_carnenem = { #1 Northrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+			}
+
+############################# RHOVANION : Brownlands  ##########################
+		b_talath_harroch = { #2 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_daleelite_1 
+			add_building = ca_daleelite_2
+		}
+			b_minas_kor = { #1 Northrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+			}
+			b_taratesh = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field 
+			}
+ 
+		b_haradnur = { #1 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_south_undeep_pass = { #1 Northrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+			}
+			b_buhr_kilith = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field
+				add_building = ct_watermill_1 
+				add_building = ct_fishermen_1 
+				add_building = ct_ferry_boat_1 
+			}
+		b_caras_gwindor = {
+		}
+############################# RHOVANION : Dorwinion  ##########################
+		b_srzel_kain = { #2 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_kugavorold = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field
+				add_building = ct_Hfarm_1
+				add_building = ct_watermill_1 
+				add_building = ct_fishermen_1 
+				add_building = ct_ferry_boat_1 
+			}
+			b_kofkoguld = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field
+				add_building = ct_Hfarm_1
+				add_building = ct_watermill_1 
+				add_building = ct_fishermen_1 
+				add_building = ct_ferry_boat_1 
+			}
+			b_askain = { #1 Northrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+			}
+
+		b_uldonavan  = { #1 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_aldoburh = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field
+				add_building = ct_Hfarm_1
+			}
+			b_baraval = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field
+				add_building = ct_Hfarm_1
+			}
+  
+############################# RHOVANION : Rhovanion  ##########################
+		b_dor_rhovanion = { #3 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwall_3
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hwatchtower_3
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hkeep_3
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Hmilitia_barracks_3
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Htraining_grounds_3
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hcastleguards_3
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Hstable_3
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_Htown_3
+			add_building = ca_paved_road_3
+			add_building = ca_great_route_4 
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_daleelite_1 
+			add_building = ca_daleelite_2
+			add_building = ca_daleelite_3
+		}
+			b_burh_rhavan = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwall_2
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hwatchtower_2
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Hbarracks_2
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Htownmilitia_2
+				add_building = ct_Hguard_1 
+				add_building = ct_Hguard_2
+				add_building = ct_Hmarketplace_1
+				add_building = ct_Hmarketplace_2
+				add_building = tp_barrow_field
+				add_building = ct_Hfarm_1
+				add_building = ct_Hfarm_2
+				add_building = ct_paved_road_3
+			} 
+			b_dor_shatar = { #1 Northrons
+				add_building = ca_Hwall_1
+				add_building = ca_Hwall_2
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hwatchtower_2
+				add_building = ca_Hkeep_1
+				add_building = ca_Hkeep_2
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Hmilitia_barracks_2
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Htraining_grounds_2
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hcastleguards_2
+				add_building = ca_Hstable_1
+				add_building = ca_Hstable_2
+				add_building = ca_Htown_1
+				add_building = ca_Htown_2
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_daleelite_1 
+				add_building = ca_daleelite_2	
+				add_building = ca_paved_road_3
+			}
+		b_ehwathr = { #1 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_boraslov = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field
+			}
+			b_obrost = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field
+			}
+
+		b_ursh_lanna = { #1 Easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_urshalaran = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field
+			} 
+			b_fraigosha = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = tp_barrow_field
+			}
+
+############################# RHUN : Rhun  ##########################
+		b_kas_rhun = { #3 Easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwall_3
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hwatchtower_3
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hkeep_3
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Hmilitia_barracks_3
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Htraining_grounds_3
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hcastleguards_3
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Hstable_3
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_Htown_3
+			add_building = ca_paved_road_3
+			add_building = ca_great_route_4 
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_slavers_1 
+			add_building = ca_slavers_2
+			add_building = ca_slavers_3 
+		}
+			b_draliburh = { #2 city Easterlings
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwall_2
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hwatchtower_2
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Hbarracks_2
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Htownmilitia_2
+				add_building = ct_Hguard_1 
+				add_building = ct_Hguard_2
+				add_building = ct_Hmarketplace_1
+				add_building = ct_Hmarketplace_2
+				add_building = ct_paved_road_3
+			} 
+			b_akkrasvuld = { #2 city Easterlings
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwall_2
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hwatchtower_2
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Hbarracks_2
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Htownmilitia_2
+				add_building = ct_Hguard_1 
+				add_building = ct_Hguard_2
+				add_building = ct_Hmarketplace_1
+				add_building = ct_Hmarketplace_2
+				add_building = ct_paved_road_3
+			} 
+			b_kosaguv = { #2 Easterlings
+				add_building = ca_Hwall_1
+				add_building = ca_Hwall_2
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hwatchtower_2
+				add_building = ca_Hkeep_1
+				add_building = ca_Hkeep_2
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Hmilitia_barracks_2
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Htraining_grounds_2
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hcastleguards_2
+				add_building = ca_Hstable_1
+				add_building = ca_Hstable_2
+				add_building = ca_Htown_1
+				add_building = ca_Htown_2
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1	
+				add_building = ca_paved_road_3	
+				add_building = ca_slavers_1 
+				add_building = ca_slavers_2
+			}
+		b_gathod = { #1 Easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_slavers_1 
+		}
+			b_gathodpol = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_sevagothad = { #1 
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_slavers_1 
+			}
+
+		b_khurvasagh = { #1 Easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_slavers_1 
+		}
+			b_khorvaligha = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_ghorashola = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+
+		b_agasha_dag = { #1 Easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_slavers_1 
+		}
+			b_kapahn = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_bovyan = { #1 
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_slavers_1 
+			}
+
+############################# RHUN : Khand  ##########################
+		b_ammu_khand = { #2 Easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_slavers_1 
+			add_building = ca_slavers_2
+		}
+			b_ammu_feneth = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			} 
+			b_ambulidash = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_skanath = { #1 
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_slavers_1 
+			}
+
+		b_olbamarl = { #1 Easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_slavers_1 
+		}
+			b_tafash = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_alak_eleb = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+		b_laorki = { #1 Easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_slavers_1 
+		}
+			b_laorkicastle = { #1 
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_slavers_1 
+			}
+			b_laorkicity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+############################# RHUN : Nurad  ##########################
+		b_ahrul_admal = { #2 Northrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_slavers_1 
+			add_building = ca_slavers_2
+		}
+			b_kas_admal = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_lamadeh = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_khrulash = { #1 
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_slavers_1 
+			}
+
+		b_burh_harmal = { #1 Easterlings
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_slavers_1 
+		}
+			b_harmitour = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_burhaz = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_huramakla = { #1 
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_slavers_1 
+			}
+
+############################# HARAD: Chelkar  ##########################
+		b_korb_chelkar = { #2 not capital of an actual empire Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_mumakil1
+			add_building = ca_mumakil2
+			add_building = ca_serpentg_1 
+			add_building = ca_serpentg_2
+		}
+			b_korb_chelkarcity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_korb_chelkartemple = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+		b_bogath = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_bogathcity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_bogathtemple = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+
+		b_oud_ilaz = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_oud_ilazcity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+############################# HARAD : Pezarsan  ##########################
+		b_talazhan = { #2 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_mumakil1
+			add_building = ca_mumakil2
+			add_building = ca_serpentg_1 
+			add_building = ca_serpentg_2
+		}
+			b_talazhancity1 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_talazhancity2 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_talazhantemple = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+		b_ovathrac = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_ovathraccastle = { #1 
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+			}
+			b_ovathraccity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+
+		b_parzee = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_parzeecity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+############################# HARAD : Akhor  ##########################
+		b_sukh_akhor = { #2 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_Hshipyard_1
+			add_building = ca_Hshipyard_2 
+		}
+			b_sukh_akhorcity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_Hfarm_1
+				add_building = ct_Hshipyard_1
+				add_building = ct_Hport_1
+			}
+			b_sukh_akhorcity2 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_Hfarm_1
+				add_building = ct_Hshipyard_1
+				add_building = ct_Hport_1
+			}
+			
+		b_an_pharaz = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_an_pharazcity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+############################# HARAD : Haruzan  ##########################
+		b_kadar_argon = { #2 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_mumakil1
+			add_building = ca_mumakil2
+			add_building = ca_serpentg_1 
+			add_building = ca_serpentg_2
+		}
+			b_kadar_argoncity1 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			} 
+			b_kadar_argoncity2 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+		b_korondaj = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		} 
+			b_korondajcity1 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_korondajcity2 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_korondajtemple = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+
+############################# HARAD : Haradwaith  ##########################
+		b_khorsaj = { #2 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_mumakil1
+			add_building = ca_mumakil2
+			add_building = ca_serpentg_1 
+			add_building = ca_serpentg_2
+		}
+			b_khorsajcity1 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_khorsajcity2 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_khorsajtemple1 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+		b_tul_isra = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_tul_isracastle = { #1 
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+			}
+			b_tul_isracity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_tul_isratemple = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+############################# HARAD : Lurmsakun  ##########################
+		b_lurmsakun = { #2 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_lurmsakuncity = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_lurmsakuntemple = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+		b_brafenas = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+			b_brafenascity1 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+			b_brafenascity2 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+				add_building = ct_date_palms_1 
+			}
+
+############################# HARAD : Arisis  ##########################
+		b_kruk_azbanna = { #2 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwall_2
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hwatchtower_2
+			add_building = ca_Hkeep_1
+			add_building = ca_Hkeep_2
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Hmilitia_barracks_2
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Htraining_grounds_2
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hcastleguards_2
+			add_building = ca_Hstable_1
+			add_building = ca_Hstable_2
+			add_building = ca_Htown_1
+			add_building = ca_Htown_2
+			add_building = ca_paved_road_3
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+			add_building = ca_trollmen_1 
+			add_building = ca_trollmen_2
+		}
+			b_kruk_azbannacastle = { #1 
+				add_building = ca_Hwall_1
+				add_building = ca_Hwatchtower_1 
+				add_building = ca_Hkeep_1
+				add_building = ca_Hmilitia_barracks_1
+				add_building = ca_Htraining_grounds_1
+				add_building = ca_Hcastleguards_1
+				add_building = ca_Hstable_1
+				add_building = ca_Htown_1
+				add_building = ca_Napothecary_1
+				add_building = ca_Nforge_1
+				add_building = ca_trollmen_1 
+			}
+			b_kruk_azbannacity1 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+			b_kruk_azbannacity2 = { #1 city
+				add_building = ct_Hwall_1 
+				add_building = ct_Hwatchtower_1
+				add_building = ct_Hbarracks_1 
+				add_building = ct_Htownmilitia_1 
+				add_building = ct_Hguard_1 
+				add_building = ct_Hmarketplace_1
+			}
+
+		b_anrkaz = { #1 Southrons
+			add_building = ca_Hwall_1
+			add_building = ca_Hwatchtower_1 
+			add_building = ca_Hkeep_1
+			add_building = ca_Hmilitia_barracks_1
+			add_building = ca_Htraining_grounds_1
+			add_building = ca_Hcastleguards_1
+			add_building = ca_Hstable_1
+			add_building = ca_Htown_1
+			add_building = ca_Napothecary_1
+			add_building = ca_Nforge_1
+		}
+	}
+}

@@ -3061,4 +3061,11 @@ spriteType = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 }
+spriteType = {
+		name = "GFX_trait_marriedforever"
+		texturefile = "gfx/traits/marriedforever.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+}
 }

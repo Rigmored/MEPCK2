@@ -1,7 +1,7 @@
 decisions = {
 #Feed the Wargs#
 		feed_wargs = {
-		is_high_prio = yes
+		is_high_prio = no
 		potential = {
 			OR = {
 				has_landed_title = c_moria
@@ -10,6 +10,7 @@ decisions = {
 				has_landed_title = c_carn_dum
 				has_landed_title = c_gundabad
 			}
+			has_character_flag = special_decisions_open
 			prisoner = no
 			prestige = 100
 			piety = 100

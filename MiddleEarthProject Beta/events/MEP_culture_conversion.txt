@@ -9,7 +9,7 @@ namespace = cultureconversion
 #### For Men and Hobbits ####
 
 # One of your province is under your rule since a long time.
-character_event = {
+province_event = {
 	id = cultureconversion.0
 	desc = "EVTDESCcultureconversion.0"
 	picture = GFX_evt_throne_room
@@ -39,48 +39,20 @@ character_event = {
 		
 		modifier = {
 			factor = 0.95
-			learning = 12
+			prestige = 2500
 		}
 		modifier = {
 			factor = 0.90
-			learning = 14
+			prestige = 4500
 		}
 		modifier = {
 			factor = 0.85
-			learning = 15
+			prestige = 6500
 		}
 		modifier = {
 			factor = 0.80
-			learning = 17
-		}
-		modifier = {
-			factor = 0.95
-			owner = { stewardship = 13 }
-		}
-		modifier = {
-			factor = 0.90
-			owner = { stewardship = 15 }
-		}
-		modifier = {
-			factor = 0.85
-			owner = { stewardship = 17 }
-		}
-		modifier = {
-			factor = 0.80
-			owner = { stewardship = 19 }
+			prestige = 10000
 		}		
-		modifier = {
-			factor = 2
-			NOT = { learning = 5 }
-		}
-		modifier = {
-			factor = 2.5
-			NOT = { learning = 3 }
-		}
-		modifier = {
-			factor = 3.0
-			NOT = { learning = 1 }
-		}
 	}
 	
 
@@ -95,6 +67,7 @@ character_event = {
 				NOT = { has_province_flag = local_culture }
 			}
 			set_province_flag = culture_conversion
+			custom_tooltip = { text = will_maybe_be_converted }
 		}
 		set_character_flag = provinceconversion
 	}
@@ -1616,51 +1589,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		months = 1800 ## 150 years
-		
-		modifier = {
-			factor = 0.95
-			learning = 12
-		}
-		modifier = {
-			factor = 0.90
-			learning = 14
-		}
-		modifier = {
-			factor = 0.85
-			learning = 15
-		}
-		modifier = {
-			factor = 0.80
-			learning = 17
-		}
-		modifier = {
-			factor = 0.95
-			owner = { stewardship = 13 }
-		}
-		modifier = {
-			factor = 0.90
-			owner = { stewardship = 15 }
-		}
-		modifier = {
-			factor = 0.85
-			owner = { stewardship = 17 }
-		}
-		modifier = {
-			factor = 0.80
-			owner = { stewardship = 19 }
-		}		
-		modifier = {
-			factor = 2
-			NOT = { learning = 5 }
-		}
-		modifier = {
-			factor = 2.5
-			NOT = { learning = 3 }
-		}
-		modifier = {
-			factor = 3.0
-			NOT = { learning = 1 }
-		}
 	}
 	
 
@@ -1984,51 +1912,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		months = 2400 ## 200 years
-		
-		modifier = {
-			factor = 0.95
-			learning = 12
-		}
-		modifier = {
-			factor = 0.90
-			learning = 14
-		}
-		modifier = {
-			factor = 0.85
-			learning = 15
-		}
-		modifier = {
-			factor = 0.80
-			learning = 17
-		}
-		modifier = {
-			factor = 0.95
-			owner = { stewardship = 13 }
-		}
-		modifier = {
-			factor = 0.90
-			owner = { stewardship = 15 }
-		}
-		modifier = {
-			factor = 0.85
-			owner = { stewardship = 17 }
-		}
-		modifier = {
-			factor = 0.80
-			owner = { stewardship = 19 }
-		}		
-		modifier = {
-			factor = 2
-			NOT = { learning = 5 }
-		}
-		modifier = {
-			factor = 2.5
-			NOT = { learning = 3 }
-		}
-		modifier = {
-			factor = 3.0
-			NOT = { learning = 1 }
-		}
 	}
 
 
@@ -2420,50 +2303,6 @@ character_event = {
 	mean_time_to_happen = {
 		months = 2400 ## 200 years
 		
-		modifier = {
-			factor = 0.95
-			learning = 12
-		}
-		modifier = {
-			factor = 0.90
-			learning = 14
-		}
-		modifier = {
-			factor = 0.85
-			learning = 15
-		}
-		modifier = {
-			factor = 0.80
-			learning = 17
-		}
-		modifier = {
-			factor = 0.95
-			owner = { stewardship = 13 }
-		}
-		modifier = {
-			factor = 0.90
-			owner = { stewardship = 15 }
-		}
-		modifier = {
-			factor = 0.85
-			owner = { stewardship = 17 }
-		}
-		modifier = {
-			factor = 0.80
-			owner = { stewardship = 19 }
-		}		
-		modifier = {
-			factor = 2
-			NOT = { learning = 5 }
-		}
-		modifier = {
-			factor = 2.5
-			NOT = { learning = 3 }
-		}
-		modifier = {
-			factor = 3.0
-			NOT = { learning = 1 }
-		}
 	}
 
 	option = {

@@ -4,13 +4,11 @@
 title = c_the_white_downs
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_bywater = castle
 b_bywaterpool = city
-b_white_downs = city
-#b_frogsbog = city
-#b_longboat = city
+#b_white_downs = city
 
 # Misc
 culture = culture_wilderness

@@ -1,4 +1,4 @@
-# c_harlindon_top
+#Harlond
 
 # County Title
 title = c_harlindon_top
@@ -6,14 +6,93 @@ title = c_harlindon_top
 # Settlements
 
 max_settlements = 5
-b_harlindon_top = castle
-b_harlindon_topcity = city
-b_harlindon_temple = city
 
+b_harlondd = castle
+b_dol_harlond = city
+b_uirionath = city
+#b_lond_har = city
+#b_gobel_mirliand = city
+ 
 # Misc
-8222.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+
+4222.1.1 = {
 culture = culture_sindar
 religion = religion_moriquendi
-capital = b_harlindon_topcity
+
+			b_harlondd = ca_Vwall_1
+			b_harlondd = ca_Vwall_2
+			b_harlondd = ca_Vwall_3
+			b_harlondd = ca_Vwatchtower_1
+			b_harlondd = ca_Vwatchtower_2
+			b_harlondd = ca_Vwatchtower_3
+			b_harlondd = ca_Vkeep_1 
+			b_harlondd = ca_Vkeep_2
+			b_harlondd = ca_Vkeep_3 
+			b_harlondd = ca_Vmilitia_barracks_1 
+			b_harlondd = ca_Vmilitia_barracks_2 
+			b_harlondd = ca_Vmilitia_barracks_3 
+			b_harlondd = ca_Vtraining_grounds_1 
+			b_harlondd = ca_Vtraining_grounds_2 
+			b_harlondd = ca_Vtraining_grounds_3 
+			b_harlondd = ca_Vcastleguards_1 
+			b_harlondd = ca_Vcastleguards_2 
+			b_harlondd = ca_Vcastleguards_3 
+			b_harlondd = ca_Vstable_1 
+			b_harlondd = ca_Vstable_2 
+			b_harlondd = ca_Vstable_3 
+			b_harlondd = ca_Vtown_1 
+			b_harlondd = ca_Vtown_2
+			b_harlondd = ca_Vtown_3 
+			b_harlondd = ca_Vshipyard_1 
+			b_harlondd = ca_Vshipyard_2
+			b_harlondd = ca_Vshipyard_3 
+			b_harlondd = ca_Vsindar_elite_1 
+			b_harlondd = ca_Vsindar_elite_2
+			b_harlondd = ca_Vsindar_elite_3 
+			b_harlondd = ca_healing
+			b_harlondd = ca_paved_road_3
+			b_harlondd = ca_great_route_4 
+
+				b_dol_harlond = ct_Vwall_1 
+				b_dol_harlond = ct_Vwall_2 
+				b_dol_harlond = ct_Vwatchtower_1 
+				b_dol_harlond = ct_Vwatchtower_2
+				b_dol_harlond = ct_Vbarracks_1 
+				b_dol_harlond = ct_Vbarracks_2
+				b_dol_harlond = ct_Vtownmilitia_1 
+				b_dol_harlond = ct_Vtownmilitia_2
+				b_dol_harlond = ct_Vguard_1 
+				b_dol_harlond = ct_Vguard_2 
+				b_dol_harlond = ct_Vmarketplace_1 
+				b_dol_harlond = ct_Vmarketplace_2 
+				b_dol_harlond = ct_Vport_1 
+				b_dol_harlond = ct_Vport_2 
+				b_dol_harlond = ct_Vshipyard_1 
+				b_dol_harlond = ct_Vshipyard_2
+				b_dol_harlond = ct_elvenherborist_1
+				b_dol_harlond = tp_halls_remembrance
+				b_dol_harlond = ct_paved_road_3
+
+				b_uirionath = ct_Vwall_1 
+				b_uirionath = ct_Vwall_2 
+				b_uirionath = ct_Vwatchtower_1 
+				b_uirionath = ct_Vwatchtower_2
+				b_uirionath = ct_Vbarracks_1 
+				b_uirionath = ct_Vbarracks_2
+				b_uirionath = ct_Vtownmilitia_1 
+				b_uirionath = ct_Vtownmilitia_2
+				b_uirionath = ct_Vguard_1 
+				b_uirionath = ct_Vguard_2 
+				b_uirionath = ct_Vmarketplace_1 
+				b_uirionath = ct_Vmarketplace_2 
+				b_uirionath = ct_Vport_1 
+				b_uirionath = ct_Vport_2 
+				b_uirionath = ct_Vshipyard_1 
+				b_uirionath = ct_Vshipyard_2
+				b_uirionath = ct_elvenherborist_1
+				b_uirionath = tp_halls_remembrance
+				b_uirionath = ct_paved_road_3
 }
 

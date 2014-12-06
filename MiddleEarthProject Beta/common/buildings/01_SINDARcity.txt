@@ -228,7 +228,7 @@ city = {
 	}
 	ct_Vbarracks_6 = {
 		desc = ct_Vbarracks_1_desc
-		upgrades_from = ct_Vbarracks__5
+		upgrades_from = ct_Vbarracks_5
 		gold_cost = 250
 		build_time = 1100
 		levy_size = 0.15

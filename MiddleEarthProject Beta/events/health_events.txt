@@ -893,6 +893,7 @@ character_event = {
 			NOT = { trait = balrog }			
 			NOT = { trait = orkish }
 			NOT = { trait = dwarven }
+			NOT = { culture_group = culture_group_wilderness }				
 			NOT = { trait = blood_of_numenor }
 			NOT = { trait = blood_of_numenor2 }			
 			NOT = { trait = half_elf }
@@ -963,6 +964,7 @@ character_event = {
 			NOT = { trait = dwarven }
 			NOT = { trait = spider }
 			NOT = { trait = dragon }	
+			NOT = { culture_group = culture_group_wilderness }				
 			NOT = { trait = balrog }			
 			NOT = { trait = orkish }
 			NOT = { trait = dwarven }
@@ -1086,6 +1088,7 @@ character_event = {
 			NOT = { trait = balrog }			
 			NOT = { trait = orkish }
 			NOT = { trait = dwarven }
+			NOT = { culture_group = culture_group_wilderness }				
 			NOT = { trait = blood_of_numenor2 }
 			NOT = { culture_group = culture_group_eru }
 			NOT = { trait = nazgul }
@@ -1194,6 +1197,7 @@ character_event = {
 			NOT = { trait = balrog }			
 			NOT = { trait = orkish }
 			NOT = { trait = dwarven }
+			NOT = { culture_group = culture_group_wilderness }				
 			NOT = { trait = blood_of_numenor2 }
 			NOT = { culture_group = culture_group_eru }
 			NOT = { trait = nazgul }
@@ -1252,6 +1256,7 @@ character_event = {
 				NOT = { trait = elf }
 				NOT = { culture_group = culture_group_eru }
 				NOT = { trait = ent }
+				NOT = { culture_group = culture_group_wilderness }				
 				NOT = { trait = ring }
 				NOT = { trait = ringbearer1 }
 				NOT = { trait = ringbearer2 }

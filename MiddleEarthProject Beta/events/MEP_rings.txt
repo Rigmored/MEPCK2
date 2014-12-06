@@ -95,8 +95,7 @@ character_event = {
 	}	
 	
 	option = {
-		name = "EVTOPTDrings.2" ## Show me the holders of the Artefacts
-		character_event = { id = rings.4  }
+		name = "EVTOPTDrings.2" ## Nevermind...
 	}		
 
 }

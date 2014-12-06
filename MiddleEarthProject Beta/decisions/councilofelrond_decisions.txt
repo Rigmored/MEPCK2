@@ -16,7 +16,9 @@ influence_the_council = {
 			NOT = { year = 11363 }
 			year = 11360
 			}
+			has_character_flag = special_decisions_open
 		}
+		
 		allow = {
 			prestige = 500
 		}

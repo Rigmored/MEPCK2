@@ -1942,7 +1942,39 @@ spriteTypes = {
 		noOfFrames = 21
 		norefcount = yes
 		can_be_lowres = yes
-	}				
+	}		
+
+	spriteType = {
+		name = "PORTRAIT_orkgfx_child_male"
+		texturefile = "gfx\\characters\\orc_son.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_orkgfx_child_female"
+		texturefile = "gfx\\characters\\orc_daughter.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}	
+	
+	spriteType = {
+		name = "PORTRAIT_goblingfx_child_male"
+		texturefile = "gfx\\characters\\orc_son.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_goblingfx_child_female"
+		texturefile = "gfx\\characters\\orc_daughter.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}	
 	
 }	
 	

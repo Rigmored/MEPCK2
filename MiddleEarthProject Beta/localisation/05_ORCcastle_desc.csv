@@ -71,8 +71,8 @@ ca_MO_elite_5;Elite Orcs;Elite Orc;;;;x
 ca_MO_elite_desc;The best orcish troops are trained here.;Les meilleurs troupes orques sont entrainées ici.;;;;x
 ca_blackgate;Walls of the Black Gate;Murs de la Porte Noire;;;;x
 ca_blackgate_desc;Impossibly high and almost impenetrable.;Incroyablement hauts et pratiquement infranchissables;;;;x
-ca_barraddur;Walls of Barad-dúr;Murs de Barad-Dûr;;;;x
-ca_barraddur_desc;Impossibly high and almost impenetrable.;Incroyablement hauts et pratiquement infranchissables;;;;x
+ca_baraddur;Walls of Barad-dúr;Murs de Barad-Dûr;;;;x
+ca_baraddur_desc;Impossibly high and almost impenetrable.;Incroyablement hauts et pratiquement infranchissables;;;;x
 ca_dolguldur;Dol Guldur;Dol Guldur;;;;x
 ca_dolguldur_desc;A dark fortress built upon Amon Lanc, spreading corruption across southern Mirkwood.;Une Forteresse Noire qui diffuse sa corruption dans toute la Forêt Noire. Autre fois la capitale du Royaume d'Oropher, père de Thranduil.;;;;x
 ca_isengarduruk;Uruk Pits of Isengard;Fosses d'Uruk d'Isengard;;;;x
@@ -83,5 +83,8 @@ ca_watcher_lake;Watcher's Lake;Le Lac du Guetteur;;;;x
 ca_watcher_lake_desc;In the lake at the western gate of Moria, a terrifying creature dwelled. This way is impractical for an army to come, and so makes easier your defense of the East Gate.;Dans le lac situé à la porte Ouest de la Moria, une créature terrifiante se blottit. Cette entrée semble impratiquable, ce qui facilite votre défense sur la Porte Est.;;;;x
 ca_moria;Moria;Moria;;;;x
 ca_moria_desc;The Mines of Moria offer perfect protection for the orcs and other evil creatures.;Les mines de la Moria offrent une parfaite protection pour les orques et autres créatures maléfiques.;;;;x
-
-
+ca_witchking_fortress;Fortress of the Witch King;Forteresse du Roi Sorcier;;;x
+ca_witchking_fortress_desc;This strong fortress has been raised through dark arts, only creatures of darkness would dwell here.;Cette forteresse a été érigée par le moyen de la magie noire. Seules des créatures des ténèbres peuvent y résider.;;;x
+ca_Gundabad_Orc;Orc Stronghold;Forteresse Orc;;;x
+ca_Gundabad_Orc_desc;Gundabad has been an orcish stronghold since the First Age. They have strongly entrenched themselves in it.;Gundabad est un bastion des Orcs depuis le Premier Age. Ils s'y sont fortement retranchés depuis.;;;x
+ca_shrine_melkor;Shrine of Melkor;Temple de Melkor;;;;x;;;;;;;;;

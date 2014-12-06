@@ -507,7 +507,7 @@ castle = {
 		ai_creation_factor = 100
 		potential = {
 	   		has_global_flag = building
-			culture_group = culture_group_forodwaith
+			culture = culture_lossoth
             	}
 	}
 	ca_Psnowmen_2 = {
@@ -522,7 +522,7 @@ castle = {
 		ai_creation_factor = 99
         	potential = {
             		has_global_flag = building
-	   		culture_group = culture_group_forodwaith
+	   		culture = culture_lossoth
             	}
 	}
 	ca_Psnowmen_3 = {
@@ -536,7 +536,7 @@ castle = {
 		ai_creation_factor = 98
         	potential = {
             		has_global_flag = building
-	    		culture_group = culture_group_forodwaith
+	    		culture = culture_lossoth
             	}
 	}
 	ca_Psnowmen_4 = {
@@ -550,7 +550,7 @@ castle = {
 		ai_creation_factor = 98
         	potential = {
             		has_global_flag = building
-	    		culture_group = culture_group_forodwaith
+	    		culture = culture_lossoth
             	}
 	}
 	ca_Psnowmen_5 = {
@@ -563,7 +563,7 @@ castle = {
 		ai_creation_factor = 91
         	potential = {
             		has_global_flag = building
-			culture_group = culture_group_forodwaith
+			culture = culture_lossoth
         	}	
 	}
 	ca_Psnowmen_6 = {
@@ -576,7 +576,7 @@ castle = {
 		ai_creation_factor = 90
         	potential = {
             		has_global_flag = building
-			culture_group = culture_group_forodwaith
+			culture = culture_lossoth
         	}	
 	}
 	
@@ -590,7 +590,11 @@ castle = {
 		ai_creation_factor = 100
 		potential = {
 	   		has_global_flag = building
+			NOT = { culture = culture_breelander }
+			OR = {	
 			culture_group = culture_group_haldadian
+			culture = culture_hillmen
+			}
             	}
 	}
 	ca_Phillsmen_2 = {
@@ -605,7 +609,10 @@ castle = {
 		ai_creation_factor = 99
         	potential = {
             		has_global_flag = building
+			OR = {	
 			culture_group = culture_group_haldadian
+			culture = culture_hillmen
+			}
             	}
 	}
 	ca_Phillsmen_3 = {
@@ -619,7 +626,10 @@ castle = {
 		ai_creation_factor = 98
         	potential = {
             		has_global_flag = building
-	    		culture_group = culture_group_haldadian
+	    		OR = {	
+			culture_group = culture_group_haldadian
+			culture = culture_hillmen
+			}
             	}
 	}
 	ca_Phillsmen_4 = {
@@ -633,7 +643,10 @@ castle = {
 		ai_creation_factor = 98
         	potential = {
             		has_global_flag = building
-	    		culture_group = culture_group_haldadian
+	    		OR = {	
+			culture_group = culture_group_haldadian
+			culture = culture_hillmen
+			}
             	}
 	}
 	ca_Phillsmen_5 = {
@@ -646,7 +659,10 @@ castle = {
 		ai_creation_factor = 91
         	potential = {
             		has_global_flag = building
+			OR = {	
 			culture_group = culture_group_haldadian
+			culture = culture_hillmen
+			}
         	}	
 	}
 	ca_Phillsmen_6 = {
@@ -659,7 +675,10 @@ castle = {
 		ai_creation_factor = 90
         	potential = {
             		has_global_flag = building
+			OR = {	
 			culture_group = culture_group_haldadian
+			culture = culture_hillmen
+			}
         	}	
 	}
 }

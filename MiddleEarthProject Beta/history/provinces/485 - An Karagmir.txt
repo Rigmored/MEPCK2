@@ -8,9 +8,13 @@ max_settlements = 4
 
 b_an_karagmir = castle
 b_an_karagmircity = city
-b_an_karagmirtemple = city
+b_an_karagmirtemple = castle
+#b_an_karagmir4 = city
 
 # Misc
+
+culture = culture_wilderness
+religion = religion_wilderness
 8222.1.1 = {
 culture = culture_haradrim
 religion = religion_southron

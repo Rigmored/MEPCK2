@@ -628,56 +628,57 @@ city = {
 	
 #### SPECIAL BUILDINGS #####
 
-	ct_amon_sul = { ### Tower of Amon Sûl
-		desc = ca_fornost_erain_desc
-		gold_cost = 850
-		build_time = 1460 #4y
-		fort_level = 5.0
-		ai_creation_factor = 86
-		heavy_infantry = 250
-		knights = 250		
-        potential = {
-            province_id =  269 # Amon Sul
-			culture_group = culture_group_numenorean
-			NOT = { has_building = ca_amon_sul_ruins }
-        }
-	}	
-	
+#	ct_amon_sul = { ### Tower of Amon Sûl !!! ONLY IN b_amon_sul Should be removed
+#		desc = ct_amon_sul_desc
+#		not_if_x_exists = { ct_amon_sul_ruins }
+#		gold_cost = 850
+#		build_time = 1460 #4y
+#		fort_level = 5.0
+#		ai_creation_factor = 86
+#		heavy_infantry = 250
+#		knights = 250		
+#       	potential = {
+#            		province_id =  269 # Amon Sul
+#			culture_group = culture_group_numenorean
+#			NOT = { has_building = ca_amon_sul_ruins }
+#        	}
+#	}	
 	ct_amon_sul_ruins = { ### Amon Sûl Ruins
-		desc = ca_fornost_ruins_desc
+		desc = ct_amon_sul_ruins_desc
 		gold_cost = 850
 		build_time = 1460 #4y
-		tax_income = -3	
-		garrison_size = -0.2			
+		tax_income = -4
+		garrison_size = -0.5			
 		ai_creation_factor = 86		
-        potential = {
-            province_id =  269 # Amon Sul
+      		potential = {
+            	province_id =  269 # Amon Sul
 			year = 9752
 			NOT = { has_building = ca_amon_sul }	
 			NOT = { has_global_flag = amon_sul_rebuilded_finally }
-       	}
+       		}
 	}	
 
 	ct_fornost_erain = { ### Fornost Erain
 		desc = ca_fornost_erain_desc
+		not_if_x_exists = { ct_fornost_ruins }
 		gold_cost = 850
 		build_time = 1460 #4y
 		fort_level = 5.0
 		ai_creation_factor = 86
 		tax_income = 2.0
-        potential = {
-            province_id = 270 # Fornost Erain
+        	potential = {
+			has_global_flag = building
+            		province_id = 270 # Fornost Erain
 			culture_group = culture_group_numenorean
 			NOT = { has_building = ct_fornost_ruins }
         	}
 	}	
-	
 	ct_fornost_ruins = { ### Fornost Ruins
 		desc = ca_fornost_ruins_desc
 		gold_cost = 850
 		build_time = 1460 #4y
-		tax_income = -3	
-		garrison_size = -0.2			
+		tax_income = -4
+		garrison_size = -0.5			
 		ai_creation_factor = 86		
         potential = {
             province_id = 270 # Fornost Erain
@@ -686,36 +687,90 @@ city = {
 			NOT = { has_global_flag = fornost_rebuilded_finally }
        		}
 	}	
-
+	ct_numenorean_Annuminas = { #Numenorean Walls of Annuminas#
+		desc = ca_numenorean_Annimunas_desc
+		not_if_x_exists = { ct_annuminas_ruins }
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 6
+		garrison_size = 2.00
+		heavy_infantry = 150
+		archers = 150
+		ai_creation_factor = 86
+        	potential = {
+				province_id = 659 # Annuminas
+				has_global_flag = building
+				culture_group = culture_group_numenorean
+				NOT = { has_building = ct_annuminas_ruins }
+            }
+	}
 	ct_annuminas_ruins = { ### Annuminas Ruins
-		desc = ca_fornost_ruins_desc
+		desc = ct_annuminas_ruins_desc
 		gold_cost = 850
 		build_time = 1460 #4y
-		tax_income = -3	
-		garrison_size = -0.2		
+		tax_income = -4
+		garrison_size = -0.5		
 		ai_creation_factor = 86		
         potential = {
             province_id = 659 # Annuminas
-			year = 9750
-			NOT = { has_building = ct_hall_of_kings }	
+			has_global_flag = building
+			year = 10317
+			#NOT = { has_building = ct_hall_of_kings }	
 			NOT = { has_global_flag = annuminas_rebuilded_finally }
        		}
 	}
 	
 	ct_osgiliath_ruins = { ### Osgiliath Ruins
-		desc = ca_fornost_ruins_desc
+		desc = ct_osgiliath_ruins_desc;
 		gold_cost = 850
 		build_time = 1460 #4y
-		tax_income = -3	
-		garrison_size = -0.2		
+		tax_income = -4
+		garrison_size = -0.5		
 		ai_creation_factor = 86		
-        potential = {
-            province_id = 659 # Annuminas
+       	 	potential = {
+				has_global_flag = building
+           		OR = {
+				AND = {
+					province_id=427
+					NOT = { has_global_flag = east_osgiliath_rebuilded_finally }
+				}
+				AND = {
+					province_id=428
+					NOT = { has_global_flag = west_osgiliath_rebuilded_finally }
+				}
+			}
 			year = 9900
 			NOT = { has_global_flag = osgiliath_rebuilded_finally }
         	}
 	}
+	
+	ct_numenorean2 = { #Numenorean Walls of Minas Ithil#
+		desc = ca_numenorean2_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 6
+		garrison_size = 2.00
+		ai_creation_factor = 86
+		heavy_infantry = 150
+		archers = 150
+        	potential = {
+            		province_id = 426 #minas_morgul
+            }
+	}
 
+	ct_Pelargir = { #Great port of Pelargir#
+		desc = ca_Pelargir_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 2.0
+		galleys = 10
+		tax_income = 5
+		ai_creation_factor = 86
+        	potential = {
+            		province_id = 18 #Pelargir
+            	}
+	}		
+	
 # Numenoreans Archives and Tombs #
 	
 	tp_numenorean_archives = {
@@ -727,10 +782,8 @@ city = {
 		ai_creation_factor = 109
 		add_number_to_name = no
         	potential = {
-            		has_global_flag = building
-			FROM = { 
-				culture_group = culture_group_numenorean
-			}
+            		has_global_flag = building 
+			culture_group = culture_group_numenorean
         	}
 	}	
 	tp_numenorean_tombs = {
@@ -743,12 +796,9 @@ city = {
 		add_number_to_name = no
         	potential = {
             		has_global_flag = building
-			FROM = { 
-				culture_group = culture_group_numenorean
-			}
+			culture_group = culture_group_numenorean
         	}
 	}	
-	
 	tp_healing2 = {
 		desc = ca_healing2_desc
 		gold_cost = 300

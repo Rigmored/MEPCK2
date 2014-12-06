@@ -543,6 +543,126 @@ spriteTypes = {
 		name = "GFX_form_the_hre"
 		texturefile = "gfx\\interface\\decision_icon_form_the_hre.dds"
 	}
+	spriteType = {
+		name = "GFX_form_the_hre_early"
+		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_french"
+		texturefile = "gfx\\interface\\decision_icon_embrace_carolingian_renaissance.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_scottish"
+		texturefile = "gfx\\interface\\decision_icon_embrace_scottish.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_dutch"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_local_culture.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_andalusian"
+		texturefile = "gfx\\interface\\decision_icon_embrace_andalusian.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_castillan"
+		texturefile = "gfx\\interface\\decision_icon_embrace_castillan.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_catalan"
+		texturefile = "gfx\\interface\\decision_icon_embrace_catalan.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_portuguese"
+		texturefile = "gfx\\interface\\decision_icon_embrace_portuguese.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_occitan"
+		texturefile = "gfx\\interface\\decision_icon_embrace_occitan.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_italian"
+		texturefile = "gfx\\interface\\decision_icon_embrace_italian.dds"
+	}
+	spriteType = {
+		name = "GFX_hold_zun_feast"
+		texturefile = "gfx\\interface\\decision_icon_hold_zun_feast.dds"
+	}
+	spriteType = {
+		name = "GFX_renounce_iconoclasm"
+		texturefile = "gfx\\interface\\decision_icon_renounce_iconoclasm.dds"
+	}
+	spriteType = {
+		name = "GFX_go_into_hiding"
+		texturefile = "gfx\\interface\\decision_icon_go_into_hiding.dds"
+	}
+	spriteType = {
+		name = "GFX_come_out_of_hiding"
+		texturefile = "gfx\\interface\\decision_icon_come_out_of_hiding.dds"
+	}
+	spriteType = {
+		name = "GFX_send_spouse_into_hiding"
+		texturefile = "gfx\\interface\\decision_icon_go_into_hiding.dds"
+	}
+	spriteType = {
+		name = "GFX_take_spouse_out_of_hiding"
+		texturefile = "gfx\\interface\\decision_icon_come_out_of_hiding.dds"
+	}
+	spriteType = {
+		name = "GFX_send_child_into_hiding"
+		texturefile = "gfx\\interface\\decision_icon_go_into_hiding.dds"
+	}
+	spriteType = {
+		name = "GFX_take_child_out_of_hiding"
+		texturefile = "gfx\\interface\\decision_icon_come_out_of_hiding.dds"
+	}
+	spriteType = {
+		name = "GFX_adopt_feudalism"
+		texturefile = "gfx\\interface\\decision_icon_adopt_feudalism.dds"
+	}
+	spriteType = {
+		name = "GFX_adopt_republicanism"
+		texturefile = "gfx\\interface\\decision_icon_adopt_republicanism.dds"
+	}
+	spriteType = {
+		name = "GFX_form_new_empire"
+		texturefile = "gfx\\interface\\decision_icon_form_new_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_form_new_kingdom"
+		texturefile = "gfx\\interface\\decision_icon_form_new_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_ask_help_to_manage_titles"
+		texturefile = "gfx\\interface\\decision_icon_ask_help_to_manage_titles.dds"
+	}
+	spriteType = {
+		name = "GFX_offer_help_to_manage_titles"
+		texturefile = "gfx\\interface\\decision_icon_offer_help_to_manage_titles.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_lower_tribal_organization_ultimatum"
+		texturefile = "gfx\\interface\\decision_icon_lower_tribal_organization_ultimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_ecumenical_patriarchate"
+		texturefile = "gfx\\interface\\decision_icon_restore_the_ecumenical_patriarchate.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_tribal_army"
+		texturefile = "gfx\\interface\\decision_icon_raise_tribal_army.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_russian"
+		texturefile = "gfx\\interface\\decision_icon_embrace_russian.dds"
+	}
+	spriteType = {
+		name = "GFX_vassal_zun_judgement_decision"
+		texturefile = "gfx\\interface\\decision_icon_vassal_blinding_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_tribal_units"
+		texturefile = "gfx\\interface\\decision_icon_raise_tribal_army.dds"
+	}
 	spriteType = {	
 		name = "GFX_looking_at_palantir"
 		texturefile = "gfx\\interface\\decision_icon_palantir.dds"
@@ -694,5 +814,168 @@ spriteTypes = {
 		name = "GFX_council_gondor"
 		texturefile = "gfx\\interface\\decision_icon_gondor_council.dds"
 	}
+	spriteType = {
+		name = "GFX_open_employment_decisions"
+		texturefile = "gfx\\interface\\decision_icon_employment_decisions.dds"
+	}
+	spriteType = {
+		name = "GFX_close_employment_decisions"
+		texturefile = "gfx\\interface\\decision_icon_employment_decisions.dds"
+	}
+	spriteType = {
+		name = "GFX_open_special_decisions"
+		texturefile = "gfx\\interface\\decision_icon_hunt_for_the_ring.dds"
+	}
+	spriteType = {
+		name = "GFX_close_special_decisions"
+		texturefile = "gfx\\interface\\decision_icon_hunt_for_the_ring.dds"
+	}
+	spriteType = {
+		name = "GFX_open_family_decisions"
+		texturefile = "gfx\\interface\\decision_icon_family.dds"
+	}
+	spriteType = {
+		name = "GFX_close_family_decisions"
+		texturefile = "gfx\\interface\\decision_icon_family.dds"
+	}
+	spriteType = {
+		name = "GFX_open_festivity_decisions"
+		texturefile = "gfx\\interface\\decision_icon_feast.dds"
+	}
+	spriteType = {
+		name = "GFX_close_festivity_decisions"
+		texturefile = "gfx\\interface\\decision_icon_feast.dds"
+	}
+	spriteType = {
+		name = "GFX_visit_palantir_elostirion"
+		texturefile = "gfx\\interface\\decision_icon_visit_palantir_elostirion.dds"
+	}
+	spriteType = {
+		name = "GFX_feast_of_remembrance"
+		texturefile = "gfx\\interface\\decision_icon_feast_of_remembrance.dds"
+	}
+	spriteType = {
+		name = "GFX_feast_of_starlight"
+		texturefile = "gfx\\interface\\decision_icon_feast_of_starlight.dds"
+	}
+	spriteType = {
+		name = "GFX_great_feast_orc"
+		texturefile = "gfx\\interface\\decision_icon_great_feast_orc.dds"
+	}
+	spriteType = {
+		name = "GFX_abdicate_throne_numenorean"
+		texturefile = "gfx\\interface\\decision_icon_abdicate_throne_numenorean.dds"
+	}
+	spriteType = {
+		name = "GFX_abdicate_throne_elf"
+		texturefile = "gfx\\interface\\decision_icon_abdicate_throne_elf.dds"
+	}
+	spriteType = {
+		name = "GFX_abdicate_throne_dwarves"
+		texturefile = "gfx\\interface\\decision_icon_abdicate_throne_dwarves.dds"
+	}
+	spriteType = {
+		name = "GFX_list_artefact"
+		texturefile = "gfx\\interface\\decision_icon_list_artefact.dds"
+	}
+	spriteType = {
+		name = "GFX_use_vilya_war"
+		texturefile = "gfx\\interface\\decision_icon_use_vilya_war.dds"
+	}
+	spriteType = {
+		name = "GFX_release_power_vilya"
+		texturefile = "gfx\\interface\\decision_icon_release_power_vilya.dds"
+	}
+	spriteType = {
+		name = "GFX_use_nenya_war"
+		texturefile = "gfx\\interface\\decision_icon_use_nenya_war.dds"
+	}
+	spriteType = {
+		name = "GFX_release_power_nenya"
+		texturefile = "gfx\\interface\\decision_icon_release_power_nenya.dds"
+	}
+	spriteType = {
+		name = "GFX_create_fumes"
+		texturefile = "gfx\\interface\\decision_icon_create_fumes.dds"
+	}
+	spriteType = {
+		name = "GFX_sauron_restore_form"
+		texturefile = "gfx\\interface\\decision_icon_sauron_restore_form.dds"
+	}
+	spriteType = {
+		name = "GFX_purge_province"
+		texturefile = "gfx\\interface\\decision_icon_purge_province.dds"
+	}
+	spriteType = {
+		name = "GFX_purge_province_evil"
+		texturefile = "gfx\\interface\\decision_icon_purge_province_evil.dds"
+	}
+	spriteType = {
+		name = "GFX_purge_province_evil"
+		texturefile = "gfx\\interface\\decision_icon_purge_province_evil.dds"
+	}
+	spriteType = {
+		name = "GFX_command_servants"
+		texturefile = "gfx\\interface\\decision_icon_command_servants.dds"
+	}
+	spriteType = {
+		name = "GFX_command_nazgul"
+		texturefile = "gfx\\interface\\decision_icon_command_nazgul.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_fornost"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_fornost.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_annuminas"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_annuminas.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_tharbad"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_tharbad.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_osgiliath_west"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_osgiliath.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_osgiliath_east"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_osgiliath.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_edhellond"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_edhellond.dds"
+	}
+	spriteType = {
+		name = "GFX_call_assembly_dwarves"
+		texturefile = "gfx\\interface\\decision_icon_call_dwarf_council.dds"
+	}
+	spriteType = {
+		name = "GFX_erebor_craft_decision"
+		texturefile = "gfx\\interface\\decision_forge_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_claim_king_arnor"
+		texturefile = "gfx\\interface\\decision_icon_claim_king_arnor.dds"
+	}
+	spriteType = {
+		name = "GFX_claim_king_anadune"
+		texturefile = "gfx\\interface\\decision_icon_claim_king_anadune.dds"
+	}
+	spriteType = {
+		name = "GFX_claim_king_silvan_elves"
+		texturefile = "gfx\\interface\\decision_icon_claim_king_silvan.dds"
+	}
+	spriteType = {
+		name = "GFX_open_index"
+		texturefile = "gfx\\interface\\decision_icon_gondor_archives.dds"
+	}
+	spriteType = {
+		name = "GFX_red_arrow_rohan"
+		texturefile = "gfx\\interface\\decision_icon_red_arrow.dds"
+	}
+	spriteType = {
+		name = "GFX_red_arrow_gondor"
+		texturefile = "gfx\\interface\\decision_icon__red_arrow.dds"
+	}
 }
-

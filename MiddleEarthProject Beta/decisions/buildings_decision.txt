@@ -2,7 +2,7 @@ decisions = {
 
 ## Decision for a Numenorean to rebuild Fornost Erain ##
 rebuild_fornost = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
@@ -18,6 +18,7 @@ is_high_prio = yes
 			}	
 		}
 		NOT = { has_global_flag = fornost_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {
@@ -41,7 +42,7 @@ is_high_prio = yes
 
 ## Decision for a Numenorean to rebuild Annuminas ##
 rebuild_annuminas = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
@@ -57,6 +58,7 @@ is_high_prio = yes
 			}	
 		}		
 		NOT = { has_global_flag = annuminas_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {
@@ -80,7 +82,7 @@ is_high_prio = yes
 
 ## Decision for a Numenorean to rebuild the Bridge of Tharbad ##
 rebuild_tharbad = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
@@ -97,6 +99,7 @@ is_high_prio = yes
 		}
 		NOT = { has_global_flag = tharbad_bridge }
 		NOT = { has_global_flag = tharbad_bridge_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {
@@ -120,14 +123,17 @@ is_high_prio = yes
 
 ## Decision for a Numenorean to rebuild Osgiliath West ##
 rebuild_osgiliath_west = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
 		capable_only = yes
 		has_landed_title = c_west_osgiliath
 		year = 9900
-		NOT = { has_global_flag = west_osgiliath_rebuilded }
+		NOT = { has_global_flag = west_osgiliath_rebuilded_finally }
+		has_character_flag = special_decisions_open
+		NOT = { has_character_flag = osgiliath_west }
+		NOT = { has_character_flag = east_osgiliath }
 	}	
 	
 	allow = {
@@ -150,14 +156,17 @@ is_high_prio = yes
 }
 
 rebuild_osgiliath_east = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		culture_group = culture_group_numenorean
 		capable_only = yes
 		has_landed_title = c_east_osgiliath
 		year = 9900
-		NOT = { has_global_flag = east_osgiliath_rebuilded }
+		NOT = { has_global_flag = east_osgiliath_rebuilded_finally }
+		has_character_flag = special_decisions_open
+		NOT = { has_character_flag = osgiliath_west }
+		NOT = { has_character_flag = east_osgiliath }
 	}	
 	
 	allow = {
@@ -181,7 +190,7 @@ is_high_prio = yes
 
 ## Decision for a Numenorean or an Elf to rebuild the Haven of Edhellond ##
 rebuild_edhellond = {
-is_high_prio = yes
+is_high_prio = no
 
 	potential = {
 		OR = {
@@ -194,6 +203,7 @@ is_high_prio = yes
 		has_landed_title = c_edhellond
 		year = 10325
 		NOT = { has_global_flag = edhellond_rebuilded }
+		has_character_flag = special_decisions_open
 	}	
 	
 	allow = {

@@ -962,9 +962,7 @@ ct_beorningbakery_1 = {
 		add_number_to_name = no
         	potential = {
             		has_global_flag = building
-			FROM = { 
-				culture_group = culture_group_middlemen
-			}
+			culture_group = culture_group_middlemen
         	}
 	}		
 }

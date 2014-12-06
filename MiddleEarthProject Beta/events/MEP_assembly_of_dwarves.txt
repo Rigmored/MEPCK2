@@ -1152,6 +1152,7 @@ character_event = {
 		}		
 		narrative_event = { id = unificatedwarves.8 }
 		clr_global_flag = unification_dwarves
+		set_global_flag = dwarvishunion
 	}
 }
 

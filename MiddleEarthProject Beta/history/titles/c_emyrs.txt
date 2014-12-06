@@ -75,7 +75,7 @@ holder = 2088 # Tardil
 }
 9587.1.1=
 {
-holder = 2089 # Minalcar
+holder = 2389 # Duke
 }
 9688.1.1=
 {

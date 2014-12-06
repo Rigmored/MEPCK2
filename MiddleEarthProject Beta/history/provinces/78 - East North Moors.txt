@@ -4,13 +4,11 @@
 title = c_east_north_moors
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_oatbarton = castle
 b_coldwillow = city
-b_frozenby = city
-#b_frostmist = city
-#b_whitenut = city
+#b_frozenby = city
 
 # Misc
 culture = culture_wilderness

@@ -923,12 +923,12 @@ castle = {
 	ca_Hshipyard_1 = {
 		desc = Hshipyard_desc
 		port = yes
-		
 		gold_cost = 100
 		build_time = 365
 		galleys = 6
 		ai_creation_factor = 100
 		potential = {
+			has_global_flag = building
 			OR = {
 			culture_group = culture_group_edain
 			culture_group = culture_group_southron
@@ -944,7 +944,6 @@ castle = {
 	ca_Hshipyard_2 = {
 		desc = Hshipyard_desc
 		port = yes
-		
 		upgrades_from = ca_Hshipyard_1
 		gold_cost = 100
 		build_time = 730
@@ -963,7 +962,6 @@ castle = {
 			NOT = { culture = culture_druedain }			
             	}
 	}
-	
 	ca_Hshipyard_3 = {
 		desc = Hshipyard_desc
 		port = yes
@@ -1507,6 +1505,7 @@ castle = {
 		tax_income = 2		
 		ai_creation_factor = 106
         	potential = {
+			year = 9770
             		province_id = 539 # Dale
 			OR = {
 				culture = culture_dalemen

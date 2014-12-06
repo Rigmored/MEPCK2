@@ -35,6 +35,12 @@ job_chancellor = {
 		prisoner = no
 		NOT = { trait = incapable }
 		NOT = { trait = elf_childhood }
+		NOT = { trait = on_fellowshipquest }
+		NOT = { trait = saruman_spell }
+		NOT = { trait = huntforring }
+		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }
+		NOT = { trait = at_east }
 	}
 	gain_effect = {
 	}
@@ -97,6 +103,12 @@ job_marshal = {
 		NOT = { trait = staff_of_saruman }
 		NOT = { trait = staff_of_radagast }
 		NOT = { trait = elf_childhood }
+		NOT = { trait = on_fellowshipquest }
+		NOT = { trait = saruman_spell }
+		NOT = { trait = huntforring }
+		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }		
+		NOT = { trait = at_east }		
 	}
 	
 	gain_effect = {
@@ -140,6 +152,12 @@ job_treasurer = {
 		NOT = { trait = incapable }
 		NOT = { has_character_flag = guru }
 		NOT = { trait = elf_childhood }
+		NOT = { trait = on_fellowshipquest }
+		NOT = { trait = saruman_spell }
+		NOT = { trait = huntforring }
+		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }		
+		NOT = { trait = at_east }
 	}
 	gain_effect = {
 	}
@@ -194,6 +212,12 @@ job_spymaster = {
 		NOT = { trait = incapable }
 		NOT = { has_character_flag = guru }
 		NOT = { trait = elf_childhood }
+		NOT = { trait = on_fellowshipquest }
+		NOT = { trait = saruman_spell }
+		NOT = { trait = huntforring }
+		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }		
+		NOT = { trait = at_east }
 	}
 	gain_effect = {
 	}
@@ -247,6 +271,12 @@ job_spiritual = {
 		
 		NOT = { trait = incapable }
 		NOT = { trait = elf_childhood }
+		NOT = { trait = on_fellowshipquest }
+		NOT = { trait = saruman_spell }
+		NOT = { trait = huntforring }
+		NOT = { trait = journey_to_valinor }
+		NOT = { trait = sailed_west }		
+		NOT = { trait = at_east }
 		
 		OR = {
 			is_theocracy = yes

@@ -4,13 +4,12 @@
 title = c_bridge_fields
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_bridge_fields = castle
 b_girdleyisland = city
-b_whitfurrows = city
-#b_soapcoat = city
-#b_cherrybush = city
+#b_whitfurrows = city
+
 
 # Misc
 culture = culture_wilderness

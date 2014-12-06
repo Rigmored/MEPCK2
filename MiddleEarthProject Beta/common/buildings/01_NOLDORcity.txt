@@ -42,7 +42,7 @@ city = {
             	}
 	}	
 	ct_Awall_3 = {
-		desc = ca_wall_1_desc
+		desc = ca_Awall_1_desc
 		
 		upgrades_from = ct_Awall_2
 		gold_cost = 75
@@ -55,7 +55,7 @@ city = {
             	}
 	}
 	ct_Awall_4 = {
-		desc = ca_wall_1_desc
+		desc = ca_Awall_1_desc
 		
 		upgrades_from = ct_Awall_3
 		gold_cost = 190
@@ -68,7 +68,7 @@ city = {
             	}
 	}
 	ct_Awall_5 = {
-		desc = ca_wall_1_desc
+		desc = ca_Awall_1_desc
 		
 		upgrades_from = ct_Awall_4
 		gold_cost = 190
@@ -624,7 +624,7 @@ city = {
 		add_number_to_name = no
         	potential = {
             		has_global_flag = building
-	    		FROM = { culture = culture_noldor }
+	    		culture = culture_noldor
             	}
 	}
 ## Telain ##
@@ -641,15 +641,13 @@ city = {
 				OR = {
 				terrain = forest
 				terrain = woods
-			}
-			FROM = { 
-			OR = {
+				}
+				OR = {
 				culture_group = culture_group_moriquendi
 				culture_group = culture_group_umanyar
 				culture_group = culture_group_amanyar
 				culture_group = culture_group_quendi
 				}
-			}
 			}
 		}
 # Elven Halls of Remembrance #
@@ -664,14 +662,29 @@ city = {
 		add_number_to_name = no
         	potential = {
             		has_global_flag = building
-			FROM = { 
 				OR = {
 					culture_group = culture_group_moriquendi
 					culture_group = culture_group_umanyar
 					culture_group = culture_group_amanyar
 					culture_group = culture_group_quendi 
 				}
-			}
         	}
+		}
+		
+##Noldor unique Buildings##
+	ct_imladris = { #Imladris#
+		desc = ca_imladris_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 5.0
+		garrison_size = 2.00
+		heavy_infantry = 30
+		archers = 30
+		horse_archers = 20
+		ai_creation_factor = 86
+        	potential = {
+            	province_id = 234 #Imladris
+				culture = culture_noldor
+            }
 	}
 }

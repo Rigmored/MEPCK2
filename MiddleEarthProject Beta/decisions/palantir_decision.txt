@@ -12,6 +12,7 @@ decisions = {
 			NOT = { has_character_flag = renounce_to_palantir }
 			NOT = { has_character_flag = palantir_locked } 
 			year = 10345
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 		    capable_only = yes
@@ -41,6 +42,7 @@ decisions = {
 			NOT = { has_character_flag = renounce_to_palantir }
 			NOT = { has_character_flag = palantir_locked } 
 			year = 10345
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 		    capable_only = yes
@@ -68,6 +70,7 @@ decisions = {
 			NOT = { has_character_flag = renounce_to_palantir }
 			NOT = { has_character_flag = palantir_locked } 
 			year = 10345
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 		    capable_only = yes
@@ -94,6 +97,7 @@ decisions = {
 			NOT = { has_global_flag = saurondefeated }
 			NOT = { has_character_flag = palantir_locked }
 			year = 10345
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 		    capable_only = yes
@@ -122,6 +126,7 @@ decisions = {
 				culture_group = culture_group_numenorean
 			}
 			NOT = { culture = culture_black_numenorean }
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 		    capable_only = yes
@@ -150,7 +155,7 @@ decisions = {
 	
 #### Call another Guardian of a Palantiri to help ####
 	use_palantir_war = {
-		is_high_prio = yes
+		is_high_prio = no
 		potential = {
 			ai = no #ai cannot use dynasty decisions
 			OR = {
@@ -163,6 +168,7 @@ decisions = {
 			}
 			NOT = { has_character_flag = use_palantir_war }
 			NOT = { has_character_flag = palantir_locked } 
+			has_character_flag = special_decisions_open
 		}	
 		allow = {
 		    capable_only = yes
