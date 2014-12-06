@@ -7900,7 +7900,7 @@ e_harad = {
 	color={ 243 46 26 }
 	color2={ 125 125 142 }
 	
-	capital = 462
+	capital = 489 #Talazhan
 	
 	culture = culture_haradrim
     religion = religion_southron
@@ -8759,7 +8759,7 @@ e_durins_folk = {
 	    culture_blacklock = "Thaforabbad"
 	    culture_stonefoot = "Thaforabbad"
 		
-		capital = 783 #Dain's Halls
+		capital = 679 #Dain's Halls
 		
 		culture = culture_longbeard
 		religion = religion_mahal
@@ -8769,7 +8769,7 @@ e_durins_folk = {
 			color={ 136 160 156 }
 			color2={ 255 255 255 }
 				
-			capital = 783 #Dain's Halls
+			capital = 679 #Dain's Halls
 			culture_group_quendi = "Ered Mithrin"
 			culture_group_umanyar = "Ered Mithrin"
 			culture_group_moriquendi = "Ered Mithrin"
