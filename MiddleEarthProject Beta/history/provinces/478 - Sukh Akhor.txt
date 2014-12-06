@@ -4,13 +4,17 @@
 title = c_sukh_akhor
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 
 b_sukh_akhor = castle
 b_sukh_akhorcity = city
 b_sukh_akhorcity2 = city
+b_sukh_akhor4 = city
+#b_korbashal = city
 
 # Misc
+culture = culture_wilderness
+religion = religion_wilderness
 8222.1.1 = {
 culture = culture_umbareans
 religion = religion_southron

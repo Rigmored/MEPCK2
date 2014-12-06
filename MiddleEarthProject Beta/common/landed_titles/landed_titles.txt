@@ -8145,7 +8145,7 @@ e_harad = {
 		religion_southron = 100 # Crusade target weight
 	
 		d_akhor = {
-			color={ 149 186 85 }
+			color={ 150 43 41 }
 			color2={ 255 255 255 }
 			
 			capital = 478 # Sukh Akhor
@@ -8163,6 +8163,8 @@ e_harad = {
 				}  
 				b_sukh_akhor4 = {
 				}	
+				b_korbashal = {
+				}
 			}
 			c_kas_shafra = {
 				color={ 149 186 85 }
@@ -8188,10 +8190,6 @@ e_harad = {
 				b_sook_odacity2 = {
 				}  
 				b_sook_oda4 = {
-				}  
-				b_sook_oda5 = {
-				}  
-				b_sook_oda6 = {
 				}
 			}
 			c_kiba = {
@@ -8204,10 +8202,12 @@ e_harad = {
 				}
 				b_kiba3 = {
 				}
+				b_koubaly = {
+				}
 			}
 		}
 		d_pharaz = {
-			color={ 149 186 85 }
+			color={ 57 79 118 }
 			color2={ 255 255 255 }
 			
 			capital = 481 # An Pharaz
@@ -8235,6 +8235,8 @@ e_harad = {
 				}  
 				b_an_tarim3 = {
 				}
+				b_tarush = {
+				}
 			}
 			c_bur_baklin = {
 				color={ 149 186 85 }
@@ -8246,6 +8248,8 @@ e_harad = {
 				}  
 				b_bur_baklin3 = {
 				}	
+				b_baghasi = {
+				}
 			}
 			c_an_abar = {
 				color={ 149 186 85 }
@@ -8257,6 +8261,8 @@ e_harad = {
 				}  
 				b_an_abar3 = {
 				}
+				b_blisil = {
+				}
 			}
 			c_an_zalim = {
 				color={ 149 186 85 }
@@ -8267,6 +8273,8 @@ e_harad = {
 				b_an_zalimtemple = {
 				}
 				b_an_zalim3 = {
+				}
+				b_tobrak = {
 				}
 			}
 			c_an_karagmir = {
