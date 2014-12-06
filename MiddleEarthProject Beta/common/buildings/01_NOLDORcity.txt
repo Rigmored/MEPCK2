@@ -42,7 +42,7 @@ city = {
             	}
 	}	
 	ct_Awall_3 = {
-		desc = ca_wall_1_desc
+		desc = ca_Awall_1_desc
 		
 		upgrades_from = ct_Awall_2
 		gold_cost = 75
@@ -55,7 +55,7 @@ city = {
             	}
 	}
 	ct_Awall_4 = {
-		desc = ca_wall_1_desc
+		desc = ca_Awall_1_desc
 		
 		upgrades_from = ct_Awall_3
 		gold_cost = 190
@@ -68,7 +68,7 @@ city = {
             	}
 	}
 	ct_Awall_5 = {
-		desc = ca_wall_1_desc
+		desc = ca_Awall_1_desc
 		
 		upgrades_from = ct_Awall_4
 		gold_cost = 190
