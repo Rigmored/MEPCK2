@@ -96,24 +96,14 @@ terrain = plains
 9979.1.1 = { culture = culture_calending religion = religion_haldadian
 
 			b_orthanc = ca_Pwall_1
-			b_orthanc = ca_Pwall_2
 			b_orthanc = ca_Pwatchtower_1 
-			b_orthanc = ca_Pwatchtower_2
 			b_orthanc = ca_Pkeep_1
-			b_orthanc = ca_Pkeep_2
 			b_orthanc = ca_Pmilitia_barracks_1
-			b_orthanc = ca_Pmilitia_barracks_2
 			b_orthanc = ca_Ptraining_grounds_1
-			b_orthanc = ca_Ptraining_grounds_2
 			b_orthanc = ca_Pcastleguards_1
-			b_orthanc = ca_Pcastleguards_2
 			b_orthanc = ca_Pstable_1
-			b_orthanc = ca_Pstable_2
 			b_orthanc = ca_Ptown_1
-			b_orthanc = ca_Ptown_2
-			b_orthanc = ca_paved_road_3
-			b_orthanc = ca_Phillsmen_1 
-			b_orthanc = ca_Phillsmen_2
+			b_orthanc = ca_Phillsmen_1
 			
 				b_isengard_fields = ct_Pwall_1
 				b_isengard_fields = ct_Pwatchtower_1 
@@ -121,7 +111,6 @@ terrain = plains
 				b_isengard_fields = ct_Ptownmilitia_1 
 				b_isengard_fields = ct_Pguard_1 
 				b_isengard_fields = ct_Pmarketplace_1
-				b_isengard_fields = ct_sheepfarms_1 
 				
 				b_falls_of_isen = ct_Pwall_1
 				b_falls_of_isen = ct_Pwatchtower_1 
@@ -129,7 +118,6 @@ terrain = plains
 				b_falls_of_isen = ct_Ptownmilitia_1 
 				b_falls_of_isen = ct_Pguard_1 
 				b_falls_of_isen = ct_Pmarketplace_1
-				b_falls_of_isen = ct_sheepfarms_1 
 				
 				b_ring_of_isengard = ca_Pwall_1
 				b_ring_of_isengard = ca_Pwatchtower_1 
@@ -156,26 +144,16 @@ terrain = plains
 10853.1.1 = { culture = culture_rohirrim religion = religion_rhovanion
 
 			b_orthanc = ca_Rwall_1
-			b_orthanc = ca_Rwall_2
 			b_orthanc = ca_Rwatchtower_1 
-			b_orthanc = ca_Rwatchtower_2
 			b_orthanc = ca_Rkeep_1
-			b_orthanc = ca_Rkeep_2
 			b_orthanc = ca_Rmilitia_barracks_1
-			b_orthanc = ca_Rmilitia_barracks_2
 			b_orthanc = ca_Rtraining_grounds_1
-			b_orthanc = ca_Rtraining_grounds_2
 			b_orthanc = ca_Rcastleguards_1
-			b_orthanc = ca_Rcastleguards_2
 			b_orthanc = ca_Rstable_1
-			b_orthanc = ca_Rstable_2
 			b_orthanc = ca_Rtown_1
-			b_orthanc = ca_Rtown_2
 			b_orthanc = ca_Nforge_1
 			b_orthanc = ca_Napothecary_1
 			b_orthanc = ca_militia_barracks_1rohan
-			b_orthanc = ca_militia_barracks_2rohan
-			b_orthanc = ca_paved_road_3
 			
 				b_isengard_fields = ct_Rwall_1 
 				b_isengard_fields = ct_Rwatchtower_1 
@@ -189,10 +167,7 @@ terrain = plains
 				b_isengard_fields = ca_paved_road_3
 				b_isengard_fields = tp_barrow_field 
 				b_isengard_fields = ct_Hfarm_1
-				b_isengard_fields = ct_watermill_1 
-				b_isengard_fields = ct_fishermen_1 
-				b_isengard_fields = ct_ferry_boat_1
-
+				
 				b_falls_of_isen = ct_Rwall_1 
 				b_falls_of_isen = ct_Rwatchtower_1 
 				b_falls_of_isen = ct_Rbarracks_1 
@@ -205,9 +180,6 @@ terrain = plains
 				b_falls_of_isen = ca_paved_road_3
 				b_falls_of_isen = tp_barrow_field 
 				b_falls_of_isen = ct_Hfarm_1
-				b_falls_of_isen = ct_watermill_1 
-				b_falls_of_isen = ct_fishermen_1 
-				b_falls_of_isen = ct_ferry_boat_1 
 				
 				b_ring_of_isengard = ca_Rwall_1
 				b_ring_of_isengard = ca_Rwatchtower_1 
