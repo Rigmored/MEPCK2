@@ -758,6 +758,19 @@ city = {
             }
 	}
 
+	ct_Pelargir = { #Great port of Pelargir#
+		desc = ca_Pelargir_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 2.0
+		galleys = 10
+		tax_income = 5
+		ai_creation_factor = 86
+        	potential = {
+            		province_id = 18 #Pelargir
+            	}
+	}		
+	
 # Numenoreans Archives and Tombs #
 	
 	tp_numenorean_archives = {
