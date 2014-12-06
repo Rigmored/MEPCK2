@@ -1,7 +1,7 @@
 #Example: Most of Middle-Earth north of Moria.
 mild_winter = {
 	# Shire
-	78 92
+	78 92 96
 	# Rhudaur
 	366 370 371 372 373
 	# Arnor
