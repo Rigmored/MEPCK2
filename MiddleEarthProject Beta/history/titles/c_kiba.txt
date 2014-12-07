@@ -3,7 +3,7 @@
 	law = succ_gavelkind
 }
 800.1.1={
-	liege=d_pharaz
+	liege=d_akhor
 }
 
 8221.1.1=
@@ -176,37 +176,37 @@ holder =  6018 # Isalcas
 }
 11042.1.1=
 {
-holder =  6040 # Firhun
+holder =  6019 # Takfarinas
 }
 11091.1.1=
 {
-holder =  6041 # Misagenes
+holder =  6020 # Fuinur V
 }
 11135.1.1=
 {
-holder =  6042 # Urtilian
+holder =  6021 # Lacumaces II
 }
 11182.1.1=
 {
-holder =  6043 # Misibsen
+holder =  6029 # Mezwar
 }
-11226.1.1=
+11233.1.1=
 {
-holder =  6044 # Fuinur V
+holder =  6030 # Sammer
 }
-11266.1.1=
+11268.1.1=
 {
-holder =  6045 # Kenan
+holder =  6031 # Amdegh
 }
-11313.1.1=
+11318.1.1=
 {
-holder =  6046 # Suggut
+holder =  6032 # Awinagh
 }
-11336.1.1=
+11350.1.1=
 {
-holder =  6047 # Aghecher
+holder =  6033 # Mastan
 }
 11363.1.1=
 {
-holder =  6048 # Adrir
+holder =  6035 # Asirem
 }

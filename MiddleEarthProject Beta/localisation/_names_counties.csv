@@ -1265,5 +1265,25 @@ c_buhr_marhlinge;Burh Marhlinge;Burh Marhlinge;;;Burh Marhlinge;x
 c_buhr_marhlinge_adj;Burh Marhlingerim;Burh Marhlingerim;;;Burh Marhlingerim;x
 c_lhun;Gobel Lhûn;Gobel Lhûn;;;Gobel Lhûn;x
 c_lhun_adj;Lhûnrim;Lhûnrim;;;Lhûnrim;x
-c_ascahiriand;Ascahiriand;Ascahiriand;;;Ascahiriand;
-c_ascahiriand_adj;Ascahiriandrim;Ascahiriandrim;;;Ascahiriandrim;
+c_ascahiriand;Ascahiriand;Ascahiriand;;;Ascahiriand;x
+c_ascahiriand_adj;Ascahiriandrim;Ascahiriandrim;;;Ascahiriandrim;x
+c_sukh_akhor;Sukh Akhôr;Sukh Akhôr;;;Sukh Akhôr;x
+c_sukh_akhor_adj;Akhôrim;Akhôrim;;;Akhôrim;x
+c_kas_shafra;Kas Shafra;Kas Shafra;;;Kas Shafra;x
+c_kas_shafra_adj;Shafrarim;Shafrarim;;;Shafrarim;x
+c_sook_oda;Sook Oda;Sook Oda;;;Sook Oda;x
+c_sook_oda_adj;Odarim;Odarim;;;Odarim;x
+c_kiba;Kiba;Kiba;;;Kiba;x
+c_kiba_adj;Kibarim;Kibarim;;;Kibarim;x
+c_an_pharaz;An Pharaz;An Pharaz;;;An Pharaz;x
+c_an_pharaz_adj;Pharazrim;Pharazrim;;;Pharazrim;x
+c_bur_baklin;Bur Baklin;Bur Baklin;;;Bur Baklin;x
+c_bur_baklin_adj;Baklinrim;Baklinrim;;;Baklinrim;x
+c_an_tarim;An Tarim;An Tarim;;;An Tarim;x
+c_an_tarim_adj;Tarimrim;Tarimrim;;;Tarimrim;x
+c_an_abar;An Abar;An Abar;;;An Abar;x
+c_an_abar_adj;Abarim;Abarim;;;Abarim;x
+c_an_zalim;An Zalim;An Zalim;;;An Zalim;x
+c_an_zalim_adj;Zalimrim;Zalimrim;;;Zalimrim;x
+c_an_karagmir;An Karagmir;An Karagmir;;;An Karagmir;x
+c_an_karagmir_adj;Karagmirim;Karagmirim;;;Karagmirim;x
