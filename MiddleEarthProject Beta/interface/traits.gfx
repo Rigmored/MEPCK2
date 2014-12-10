@@ -3068,4 +3068,11 @@ spriteType = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 }
+spriteType = {
+		name = "GFX_trait_angmardacil"
+		texturefile = "gfx/traits/angmardacil.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

@@ -1,0 +1,51 @@
+namespace = claim_narsil
+
+########## Claim the Shards of Narsil ###########
+
+character_event = {
+	id = claim_narsil.1
+	title = "EVTTITclaim_narsil.1"
+	desc = "EVTDESCclaim_narsil.1"
+	picture = GFX_evt_monk
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAclaim_narsil.1" ## Claim it
+		add_trait = narsil
+	}
+}
+
+########## Claim victory against Angmar ###########
+character_event = {
+	id = claim_narsil.2
+	title = "EVTTITclaim_narsil.2"
+	desc = "EVTDESCclaim_narsil.2"
+	picture = GFX_evt_monk
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAclaim_narsil.2" ## Claim it
+		add_trait = angmardacil
+		e_angmar = {
+			destroy_landed_title = THIS
+		}
+	}
+}
+
+########## Reforge the Shards of Narsil ###########
+character_event = {
+	id = claim_narsil.3
+	title = "EVTTITclaim_narsil.3"
+	desc = "EVTDESCclaim_narsil.3"
+	picture = GFX_evt_monk
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAclaim_narsil.3" ## Claim it
+		add_trait = anduril
+		remove_trait = narsil
+	}
+}

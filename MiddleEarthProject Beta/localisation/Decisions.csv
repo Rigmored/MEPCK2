@@ -53,3 +53,9 @@ red_arrow_rohan;Send Red Arrow to Rohan;;;;;x
 red_arrow_rohan_desc;Gondor's need is great, war and death are at our doors. Shall we send the Red Arrow, and call for Rohan to honour the old alliance?;;;;;x
 red_arrow_gondor;Send Red Arrow to Gondor;;;;;x
 red_arrow_gondor_desc;Rohan's need is great, war and death are at our doors. Shall we send the Red Arrow, and call for Gondor to honour the old alliance?;;;;;x
+claim_narsil;Claim the shards of Narsil;Demander les fragments de Narsil;;;x
+claim_narsil_desc;Only the true king of Arnor can reclaim the sword of Elendil !;Seul le vrai roi de l'Arnor peut réclamer l'épée d'Elendil.
+claim_victory_vs_witchking;Victory against Angmar !;Victoire contre Angmar !;;;
+claim_victory_vs_witchking_desc;Claim victory against the Witch King of Angmar !;Déclarer la victoire contre le Roi Soricer d'Angmar !;;;x
+reforge_narsil;Reforge Narsil;Reforger Narsil;;;x
+reforge_narsil_desc;Only an heroic king, aknowledged by all, will dare to reforge the sword of Elendil.;Seul un Roi émérite et reconnu par tous pourra prétendre à reforger l'épée d'Elendil.;;;x 

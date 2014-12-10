@@ -422,7 +422,7 @@ city = {
         	}
 	}
 	ct_Nmarketplace_2 = {
-		desc = ct_Nmarketplace_2_desc
+		desc = ct_Nmarketplace_1_desc
 		prerequisites = { ct_Nwall_1 }
 		
 		upgrades_from = ct_Nmarketplace_1
@@ -437,7 +437,7 @@ city = {
 		}
 	}
 	ct_Nmarketplace_3 = {
-		desc = ct_Nmarketplace_3_desc
+		desc = ct_Nmarketplace_1_desc
 		
 		prerequisites = { ct_Nwall_2 }
 		upgrades_from = ct_Nmarketplace_2
@@ -452,7 +452,7 @@ city = {
         	}
 	}
 	ct_Nmarketplace_4 = {
-		desc = ct_Nmarketplace_4_desc
+		desc = ct_Nmarketplace_1_desc
 		
 		upgrades_from = ct_Nmarketplace_3
 		gold_cost = 300
@@ -466,7 +466,7 @@ city = {
 		}
 	}
 	ct_Nmarketplace_5 = {
-		desc = ct_Nmarketplace_5_desc
+		desc = ct_Nmarketplace_1_desc
 		
 		upgrades_from = ct_Nmarketplace_4
 		gold_cost = 400
@@ -480,7 +480,7 @@ city = {
 		}
 	}
 	ct_Nmarketplace_6 = {
-		desc = ct_Nmarketplace_6_desc
+		desc = ct_Nmarketplace_1_desc
 		
 		upgrades_from = ct_Nmarketplace_5
 		gold_cost = 500
