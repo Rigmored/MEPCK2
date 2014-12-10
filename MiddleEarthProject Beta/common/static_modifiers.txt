@@ -743,7 +743,7 @@ stiffbeard_culture_modifier = {
     levy_size = -0.75
 	levy_reinforce_rate = -0.95
 }
-blacklock_culture_modifier = {
+stiffbeard_culture_modifier = {
 
     light_cavalry_offensive = 4.0
     light_cavalry_defensive = 4.0

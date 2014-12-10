@@ -940,6 +940,7 @@ castle = {
 		build_time = 1460 #4y
 		fort_level = 2
 		ai_creation_factor = 86
+		tax_income = 6
 		light_infantry = 400
 		heavy_infantry = 300
 		archers = 250
