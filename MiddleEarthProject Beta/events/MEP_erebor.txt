@@ -171,7 +171,12 @@ character_event = {
 	
 	option = {
 		trigger = {
-			k_dale = { holder_scope = { is_alive = yes NOT = { trait = evil_side } } } 
+			k_dale = { 
+			holder_scope = { 
+				is_alive = yes 
+				NOT = { trait = evil_side }
+				} 
+			} 
 		}
 		name = "EVTOPTCerebor.6" ## I will trade with Dale	
 		any_playable_ruler = {

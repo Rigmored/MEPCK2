@@ -65,25 +65,32 @@ tb_Pwall_3;Stone Wall;Hauts murs;;x
 tb_Pwatchtower_1;Watchtower;Tour de garde;;x
 tb_Pwatchtower_2;Watchtower;Tour de garde;;x
 tb_Pwatchtower_3;Watchtower;Tour de garde;;x
-tb_Pkeep_1;Keep;Forteresse;;x
-tb_Pkeep_2;Keep;Forteresse;;x
-tb_Pkeep_3;Keep;Forteresse;;x
+tb_Pwatchtower_desc;Watchtowers allow more troops to defend the walls.;Des tour de guet permettent à plus de troupe de protéger les murs d'enceinte.;;;x
+tb_Pkeep_1;Tribal Keep;Forteresse Tribale;;x
+tb_Pkeep_2;Tribal Keep;Forteresse Tribale;;x
+tb_Pkeep_3;Tribal Keep;Forteresse Tribale;;x
+tb_Pkeep_1_desc;The keep allow more troops to be stationned in the town.;La forteresse permet de stationner plus de troupe dans le village.;;;x
 tb_Pmilitia_barracks_1;Militia;Milice;;x
 tb_Pmilitia_barracks_2;Militia;Milice;;x
 tb_Pmilitia_barracks_3;Militia;Milice;;x
 tb_Pmilitia_barracks_4;Militia;Milice;;x
+tb_Pmilitia_barracks_desc;Light troops trained for war.;Troupes lègères formées pour la guerre.;;x
 tb_Ptraining_grounds_1;Training Grounds;Zone d'entraînement;;x
 tb_Ptraining_grounds_2;Training Grounds;Zone d'entraînement;;x
 tb_Ptraining_grounds_3;Training Grounds;Zone d'entraînement;;x
-tb_Pcastleguards_1;Castle Guard;Garde du chateau;;x 
-tb_Pcastleguards_2;Castle Guard;Garde du chateau;;x 
-tb_Pcastleguards_3;Castle Guard;Garde du chateau;;x 
-tb_Ptown_1;Castle Town;Ville du chateau;;x
-tb_Ptown_2;Castle Town;Ville du chateau;;x
-tb_Ptown_3;Castle Town;Ville du chateau;;x
+tb_Ptraining_grounds_1_desc;Training Grounds allow replacement of fallen troups.;Ce centre d'entraînement permet de mieux remplacer les troupes perdues au combat.;;X 
+tb_Pcastleguards_1;Guard;Garde;;x 
+tb_Pcastleguards_2;Guard;Garde;;x 
+tb_Pcastleguards_3;Guard;Garde;;x 
+tb_Pcastleguards_1_desc;Tribal Guard with primitive gear;;;x
+tb_Ptown_1;Primitive Town;Village Primitif;;x
+tb_Ptown_2;Little Town;Petit Village;;x
+tb_Ptown_3;Average Town;Village de Moyenne Taille;;x
+tb_Ptown_desc;Tribal Town;Village Tribal;;x
 tb_Pstable_1;Stables;Écurie;Ställe;Establos;;x
 tb_Pstable_2;Stables;Écurie;Ställe;Establos;;x
 tb_Pstable_3;Stables;Écurie;Ställe;Establos;;x
+tb_Pstable_1_desc;Tribal stables with crude saddles;Etables tribales avec des selles primitives;;;x
 tb_Pshipyard_1;Castle Shipyard;Chantier naval du château;Schloss-Werft;Astillero del Castillo;;x
 tb_Pshipyard_2;Castle Shipyard;Chantier naval du château;Schloss-Werft;Astillero del Castillo;;x
 tb_Pshipyard_3;Castle Shipyard;Chantier naval du château;Schloss-Werft;Astillero del Castillo;;x

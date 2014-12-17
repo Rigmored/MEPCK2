@@ -44,7 +44,7 @@ temple = {
 			OR = {
 				culture_group = culture_group_numenorean
 				culture = culture_rohirrim
-				culture = culture_eothed
+				culture = culture_eotheod
 			}
         }
 	}	
@@ -59,9 +59,7 @@ temple = {
         potential = {
 			year = 11337
             FROMFROM = { title = b_chamber_of_mazarbul }
-			OR = {
-				culture_group = culture_group_dwarves
-			}
+			culture_group = culture_group_dwarves
         }
 	}		
 	tp_durin_tomb = { ### The Tomb of Durin
@@ -74,9 +72,7 @@ temple = {
 		ai_creation_factor = 86		
         potential = {
             FROMFROM = { title = b_tomb_of_durin }
-			OR = {
-				culture_group = culture_group_dwarves
-			}
+			culture_group = culture_group_dwarves
         }
 	}			
 

@@ -1,11 +1,9 @@
 #Gobel Lhûn
 
 # County Title
-
 title = c_lhun
 
 # Settlements
-
 max_settlements = 4
 
 b_gobel_lhun = castle
