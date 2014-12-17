@@ -315,7 +315,8 @@ tp_orctown_3;Large Morgul Orc Tunnels;Grand Tunnel d'orques de Morgul;;;;;;x
 tp_orctown_4;Small Morgul Orc Galleries;Petit réseau de Galeries d'orques de Morgul;;;;;;x
 tp_orctown_5;Morgul Orc Galleries;Réseau de galeries d'orques de Morgul;;;;;;x
 tp_orctown_6;Grand Morgul Orc Galleries;Grand réseau de galeries d'orques de Morgul;;;;;;x
-x;;;;;;;;x
+tp_temple_to_city;Temple to City WIP;Temple to City WIP;;;;;;x
+tp_temple_to_city_desc;Temple to City WIP;Temple to City WIP;;;;;;x
 #MEP - ROADS;;;;;;;;x
 ca_ruined_road_1;Ruined Roads;Route Abandonnée;;;Strade abbandonate;;x
 ca_ruined_road_1_desc;Ruined Roads;Route Abandonnée;;;Strade abbandonate;;x

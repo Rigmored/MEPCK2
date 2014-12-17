@@ -11,10 +11,10 @@ castle = {
 		tax_income = 1
 		ai_creation_factor = 109
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
-	    		culture_group = culture_group_halfling
-            		}
+        potential = {
+           	has_global_flag = building
+	    	culture_group = culture_group_halfling
+   		}
 	}
 
 	ca_tobacco = {
@@ -25,10 +25,10 @@ castle = {
 		tax_income = 2
 		ai_creation_factor = 109
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
-	    		culture_group = culture_group_halfling
-            		}
+        potential = {
+            has_global_flag = building
+	    	culture_group = culture_group_halfling
+       	}
 	}
 	
 	ca_halflinginn = {
@@ -62,8 +62,6 @@ castle = {
 	
 	ca_militia_barracks_2halfling = {
 		desc = ca_militia_barracks_1halfling_desc
-		
-		prerequisites = { ca_wall_1 }
 		upgrades_from = ca_militia_barracks_1halfling
 		gold_cost = 120
 		build_time = 547
@@ -91,8 +89,7 @@ castle = {
 	
 	ca_town_2halfling = {
 		desc = ca_town_1halfling_desc
-		
-		prerequisites = { ca_wall_1 }
+
 		upgrades_from = ca_town_1halfling
 		gold_cost = 120
 		build_time = 547
@@ -106,8 +103,6 @@ castle = {
 	
 	ca_town_3halfling = {
 		desc = ca_town_1halfling_desc
-		
-		prerequisites = { ca_wall_2 }
 		upgrades_from = ca_town_2halfling
 		gold_cost = 200
 		build_time = 730
@@ -168,8 +163,8 @@ castle = {
 		tax_income = 4
 		garrison_size = 1.2			
 		ai_creation_factor = 86		
-        	potential = {
-            		FROMFROM = { title = b_bree }
+        potential = {
+            FROMFROM = { title = b_bree }
 			OR = {
 				culture_group = culture_group_numenorean
 				culture = culture_breelander
@@ -190,10 +185,10 @@ city = {
 		tax_income = 1
 		ai_creation_factor = 109
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
-	    		culture_group = culture_group_halfling
-            		}
+        potential = {
+            has_global_flag = building
+	    	culture_group = culture_group_halfling
+       	}
 	}
 
 	ct_tobacco = {
@@ -225,8 +220,7 @@ city = {
 	}
 	ct_barracks_2halfling = {
 		desc = ct_barracks_1halfling_desc
-		
-		prerequisites = { ct_wall_1 }
+
 		upgrades_from = ct_barracks_1halfling
 		gold_cost = 120
 		build_time = 547
@@ -241,7 +235,6 @@ city = {
 	ct_barracks_3halfling = {
 		desc = ct_barracks_1halfling_desc
 		
-		prerequisites = { ct_wall_2 }
 		upgrades_from = ct_barracks_2halfling
 		gold_cost = 200
 		build_time = 730
@@ -263,14 +256,14 @@ city = {
 		build_time = 365
 		tax_income = 2
 		ai_creation_factor = 93
-        	potential = {
-            		has_global_flag = building
+        potential = {
+           	has_global_flag = building
 			FROM = {
 				OR = {
 					culture_group = culture_group_halfling 
 					culture = culture_breelander
 				}
-            		}
+           	}
 		}
 	}
 	ct_inn2 = {

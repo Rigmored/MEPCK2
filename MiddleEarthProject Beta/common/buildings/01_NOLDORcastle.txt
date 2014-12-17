@@ -722,12 +722,10 @@ castle = {
 		build_time = 205
 		knights = 20
 		ai_creation_factor = 85
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			culture = culture_noldor
-			OR = {
 			province_id = 234 # Imladris
-			}
 		}
 	}
 	ca_rivendellha2 = {

@@ -102,8 +102,13 @@ castle = {
 		fort_level = 1.0
 		ai_creation_factor = 76
         	potential = {
-           		has_global_flag = building
-			culture = culture_dalemen
+           	has_global_flag = building
+			year = 9770
+            province_id = 539 # Dale
+			OR = {
+				culture = culture_barding
+				culture = culture_northmen
+				}
 		}
 	}
 	
@@ -527,7 +532,7 @@ castle = {
 	
 ####################### Castle Guard, gives heavy infantry and pikemen #######################
 	ca_Hcastleguards_1 = {
-		desc = ca_castleguards_1_desc
+		desc = ca_Hcastleguards_1_desc
 		
 		gold_cost = 100
 		build_time = 365
@@ -1015,7 +1020,7 @@ castle = {
 		fort_level = 2.0	
 		garrison_size = 1.2		
 		ai_creation_factor = 106
-        	potential = {
+        potential = {
             		FROMFROM = { title = b_kas_rhun }
 			OR = {
 				culture = culture_easterling
@@ -1024,7 +1029,7 @@ castle = {
 					trait=nazgul
 				}
 			}
-        	}
+        }
 	}	
 	ca_slavers_1 = {
 		desc = ca_slavers_desc
@@ -1038,10 +1043,8 @@ castle = {
     		potential = {
 			has_global_flag = building
 			culture_group = culture_group_easterling
-			AND = { 
 				NOT = { culture = culture_balchoth }
 				NOT = { culture = culture_wainriders }
-				}
 		}
 	}
 	ca_slavers_2 = {
@@ -1057,10 +1060,8 @@ castle = {
     		potential = {
 			has_global_flag = building
 			culture_group = culture_group_easterling
-			AND = { 
-				NOT = { culture = culture_balchoth }
-				NOT = { culture = culture_wainriders }
-				}
+			NOT = { culture = culture_balchoth }
+			NOT = { culture = culture_wainriders }
 		}
 	}
 	ca_slavers_3 = {
@@ -1073,13 +1074,11 @@ castle = {
 		tax_income = 1
 		ai_creation_factor = 50
 		add_number_to_name = no
-    		potential = {
+    	potential = {
 			has_global_flag = building
 			culture_group = culture_group_easterling
-			AND = { 
-				NOT = { culture = culture_balchoth }
-				NOT = { culture = culture_wainriders }
-				}
+			NOT = { culture = culture_balchoth }
+			NOT = { culture = culture_wainriders }
 		}
 	}
 	
@@ -1229,8 +1228,8 @@ castle = {
 		heavy_infantry = 50
 		ai_creation_factor = 50
 		add_number_to_name = no
-    		potential = {
-        		has_global_flag = building
+    	potential = {
+        	has_global_flag = building
 			culture = culture_far_haradrim
 		}
 	}
@@ -1504,11 +1503,10 @@ castle = {
 		fort_level = 2.0	
 		tax_income = 2		
 		ai_creation_factor = 106
-        	potential = {
+        potential = {
 			year = 9770
             		province_id = 539 # Dale
 			OR = {
-				culture = culture_dalemen
 				culture = culture_barding
 				culture = culture_northmen
 				}
@@ -1525,7 +1523,6 @@ castle = {
         	potential = {
 			has_global_flag = building
 			OR = {
-				culture = culture_dalemen
 				culture = culture_barding
 				culture = culture_northmen
 				}
@@ -1543,7 +1540,6 @@ castle = {
         	potential = {
 			has_global_flag = building
 			OR = {
-				culture = culture_dalemen
 				culture = culture_barding
 				culture = culture_northmen
 				}
@@ -1561,7 +1557,6 @@ castle = {
         	potential = {
 			has_global_flag = building
 			OR = {
-				culture = culture_dalemen
 				culture = culture_barding
 				culture = culture_northmen
 				}
@@ -1579,7 +1574,6 @@ castle = {
         	potential = {
 			has_global_flag = building
 			OR = {
-				culture = culture_dalemen
 				culture = culture_barding
 				culture = culture_northmen
 				}

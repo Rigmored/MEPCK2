@@ -48,33 +48,6 @@ temple = {
 			}
         }
 	}	
-	tp_balin_tomb = { ### The Tomb of Balin
-		desc = tp_balin_tomb_desc
-		gold_cost = 850
-		build_time = 1460 #4y
-		liege_piety = 0.05
-		heavy_infantry = 100
-		garrison_size = 1.2			
-		ai_creation_factor = 86		
-        potential = {
-			year = 11337
-            FROMFROM = { title = b_chamber_of_mazarbul }
-			culture_group = culture_group_dwarves
-        }
-	}		
-	tp_durin_tomb = { ### The Tomb of Durin
-		desc = tp_durin_tomb_desc
-		gold_cost = 850
-		build_time = 1460 #4y
-		liege_piety = 0.05
-		heavy_infantry = 100
-		garrison_size = 1.2			
-		ai_creation_factor = 86		
-        potential = {
-            FROMFROM = { title = b_tomb_of_durin }
-			culture_group = culture_group_dwarves
-        }
-	}			
 
 	tp_meneltarma = { ### The Meneltarma
 		desc = tp_meneltarma_desc

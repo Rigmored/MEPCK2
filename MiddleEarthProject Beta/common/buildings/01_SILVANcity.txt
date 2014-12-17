@@ -523,10 +523,10 @@ city = {
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-        	}
+        }
 	}
 	ct_Smarketplace_2 = {
-		desc = ct_Smarketplace_2_desc
+		desc = ct_Smarketplace_1_desc
 		prerequisites = { ct_Swall_1 }
 		
 		upgrades_from = ct_Smarketplace_1
@@ -535,8 +535,8 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 109
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
@@ -545,7 +545,7 @@ city = {
 		}
 	}
 	ct_Smarketplace_3 = {
-		desc = ct_Smarketplace_3_desc
+		desc = ct_Smarketplace_1_desc
 		
 		prerequisites = { ct_Swall_2 }
 		upgrades_from = ct_Smarketplace_2
@@ -554,17 +554,17 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 108
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+           	has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-        	}
+        }
 	}
 	ct_Smarketplace_4 = {
-		desc = ct_Smarketplace_4_desc
+		desc = ct_Smarketplace_1_desc
 		
 		upgrades_from = ct_Smarketplace_3
 		gold_cost = 300
@@ -572,8 +572,8 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 107
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+       		has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
@@ -582,7 +582,7 @@ city = {
 		}
 	}
 	ct_Smarketplace_5 = {
-		desc = ct_Smarketplace_5_desc
+		desc = ct_Smarketplace_1_desc
 		
 		upgrades_from = ct_Smarketplace_4
 		gold_cost = 400
@@ -590,8 +590,8 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 106
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+           	has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
@@ -600,7 +600,7 @@ city = {
 		}
 	}
 	ct_Smarketplace_6 = {
-		desc = ct_Smarketplace_6_desc
+		desc = ct_Smarketplace_1_desc
 		
 		upgrades_from = ct_Smarketplace_5
 		gold_cost = 500
@@ -608,14 +608,14 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 105
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+       		has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-        	}
+        }
 	}
 	
 	ct_Sport_1 = {
