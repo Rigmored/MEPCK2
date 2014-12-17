@@ -34,7 +34,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTBclaim_narsil.2" ## Keppe name
+		name = "EVTOPTBclaim_narsil.2" ## Keep name
 		add_trait = angmardacil
 		e_angmar = {
 			destroy_landed_title = THIS
