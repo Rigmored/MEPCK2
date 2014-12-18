@@ -333,7 +333,7 @@ city = {
         	}
 	}
 	ct_Pmarketplace_2 = {
-		desc = ct_Pmarketplace_2_desc
+		desc = ct_Pmarketplace_1_desc
 		prerequisites = { ct_Pwall_1 }
 		
 		upgrades_from = ct_Pmarketplace_1
@@ -351,7 +351,7 @@ city = {
 		}
 	}
 	ct_Pmarketplace_3 = {
-		desc = ct_Pmarketplace_3_desc
+		desc = ct_Pmarketplace_1_desc
 		
 		prerequisites = { ct_Pwall_2 }
 		upgrades_from = ct_Pmarketplace_2

@@ -49,9 +49,9 @@ ct_MGport_3;Port;Port;Hafen;Puerto;;x
 ct_MGport_4;Port;Port;Hafen;Puerto;;x
 ct_MGport_5;Port;Port;Hafen;Puerto;;x
 ct_MGport_1_desc;A port that services ships coming in to load or unload cargo.;Un port qui dessert les bateaux qui viennent charger ou décharger leurs marchandises.;Ein Hafen, der Schiffen, die ihn anlaufen dazu dient, ihre Fracht zu be- oder entladen.;Puerto mercantil, utilizado para la carga y descarga de mercancías.;;x
-ct_shipyard_1;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero de la Ciudad;;x
-ct_shipyard_2;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero de la Ciudad;;x
-ct_shipyard_3;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero de la Ciudad;;x
-ct_shipyard_4;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero de la Ciudad;;x
+ct_MGshipyard_1;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero de la Ciudad;;x
+ct_MGshipyard_2;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero de la Ciudad;;x
+ct_MGshipyard_3;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero de la Ciudad;;x
+ct_MGshipyard_4;City Shipyard;Chantier naval de la ville;Stadt-Werft;Astillero de la Ciudad;;x
 
 

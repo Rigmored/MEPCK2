@@ -722,12 +722,10 @@ castle = {
 		build_time = 205
 		knights = 20
 		ai_creation_factor = 85
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			culture = culture_noldor
-			OR = {
 			province_id = 234 # Imladris
-			}
 		}
 	}
 	ca_rivendellha2 = {
@@ -865,12 +863,12 @@ castle = {
 		horse_archers = 20
 		ai_creation_factor = 86
         	potential = {
-            		province_id = 234 #Imladris
-			culture = culture_noldor
+            	province_id = 234 #Imladris
+				culture = culture_noldor
             	}
 	}
 
-	ca_gwaith_i_mirdain = { ### Gwaith i Mirdain in Ost-n-Edhil
+	ca_gwaith_i_mirdain = { ### Gwaith i Mirdain in Ost-in-Edhil
 		desc = ca_gwaith_i_mirdain_desc
 		gold_cost = 2050
 		build_time = 6460 #4y

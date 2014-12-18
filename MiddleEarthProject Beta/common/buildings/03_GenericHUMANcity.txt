@@ -617,7 +617,7 @@ city = {
         	}
 	}
 	ct_Hmarketplace_2 = {
-		desc = ct_Hmarketplace_2_desc
+		desc = ct_Hmarketplace_1_desc
 		prerequisites = { ct_Hwall_1 }
 		upgrades_from = ct_Hmarketplace_1
 		gold_cost = 120
@@ -639,7 +639,7 @@ city = {
 		}
 	}
 	ct_Hmarketplace_3 = {
-		desc = ct_Hmarketplace_3_desc
+		desc = ct_Hmarketplace_1_desc
 		prerequisites = { ct_Hwall_2 }
 		upgrades_from = ct_Hmarketplace_2
 		gold_cost = 200
@@ -661,7 +661,7 @@ city = {
         	}
 	}
 	ct_Hmarketplace_4 = {
-		desc = ct_Hmarketplace_4_desc
+		desc = ct_Hmarketplace_1_desc
 		upgrades_from = ct_Hmarketplace_3
 		gold_cost = 300
 		build_time = 1095
@@ -682,7 +682,7 @@ city = {
 		}
 	}
 	ct_Hmarketplace_5 = {
-		desc = ct_Hmarketplace_5_desc
+		desc = ct_Hmarketplace_1_desc
 		upgrades_from = ct_Hmarketplace_4
 		gold_cost = 400
 		build_time = 2190
@@ -703,7 +703,7 @@ city = {
 		}
 	}
 	ct_Hmarketplace_6 = {
-		desc = ct_Hmarketplace_6_desc
+		desc = ct_Hmarketplace_1_desc
 		upgrades_from = ct_Hmarketplace_5
 		gold_cost = 500
 		build_time = 2190
@@ -940,11 +940,12 @@ ct_beorningbakery_1 = {
 		fort_level = 2.0	
 		tax_income = 2		
 		ai_creation_factor = 106
-        	potential = {
+        potential = {
+			year = 9770
             		province_id = 539 # Dale
 			OR = {
-				culture = culture_dalemen
 				culture = culture_barding
+				culture = culture_northmen
 				}
 
 		}
@@ -960,8 +961,8 @@ ct_beorningbakery_1 = {
 		knight = 20
 		ai_creation_factor = 109
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			culture_group = culture_group_middlemen
         	}
 	}		

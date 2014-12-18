@@ -1,11 +1,9 @@
 #Burh Anduin
 
 # County Title
-
 title = c_north_of_lorien
 
 # Settlements
-
 max_settlements = 5
 
 b_burh_anduin = castle

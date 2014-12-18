@@ -460,14 +460,14 @@ city = {
 		tax_income = 1
 		ai_creation_factor = 110
 		add_number_to_name = yes
-		        potential = {
+		potential = {
 			has_global_flag = building
 			OR = {
 				terrain = hills
 				terrain = mountain
 			}
-	    		culture_group = culture_group_dwarves
-            	}
+	    	culture_group = culture_group_dwarves
+        }
 	}
 	ct_dwarfmines_2 = {
 		desc = ct_dwarfmines_1_desc
@@ -478,14 +478,14 @@ city = {
 		tax_income = 2
 		ai_creation_factor = 109
 		add_number_to_name = yes
-        	potential = {
-            		has_global_flag = building
-	    		culture_group = culture_group_dwarves
+        potential = {
+           	has_global_flag = building
+	    	culture_group = culture_group_dwarves
 			OR = {
 				terrain = hills
 				terrain = mountain
 			}
-            	}
+        }
 	}
 	ct_dwarfmines_3 = {
 		desc = ct_dwarfmines_1_desc
@@ -497,14 +497,14 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 109
 		add_number_to_name = yes
-        	potential = {
-           		has_global_flag = building
-	    		culture_group = culture_group_dwarves
+        potential = {
+           	has_global_flag = building
+	    	culture_group = culture_group_dwarves
 			OR = {
 				terrain = hills
 				terrain = mountain
 			}
-            	}
+        }
 	}
 	ct_dwarfmines_4 = {
 		desc = ct_dwarfmines_1_desc
@@ -516,11 +516,11 @@ city = {
 		tax_income = 4
 		ai_creation_factor = 109
 		add_number_to_name = yes
-        	potential = {
-           		has_global_flag = building
-	    		culture_group = culture_group_dwarves
-			location = { terrain = mountain	}
-            	}
+        potential = {
+           	has_global_flag = building
+	    	culture_group = culture_group_dwarves
+			terrain = mountain
+       	}
 	}
 	ct_dwarfmines_5 = {
 		desc = ct_dwarfmines_1_desc
@@ -532,11 +532,11 @@ city = {
 		tax_income = 5
 		ai_creation_factor = 109
 		add_number_to_name = yes
-        	potential = {
-           		has_global_flag = building
-	    		culture_group = culture_group_dwarves
-			location = { terrain = mountain	}
-            	}
+        potential = {
+           	has_global_flag = building
+	    	culture_group = culture_group_dwarves
+			terrain = mountain
+        }
 	}
 	ct_dwarfmines_6 = {
 		desc = ct_dwarfmines_6_desc
@@ -548,11 +548,11 @@ city = {
 		tax_income = 9
 		ai_creation_factor = 109
 		add_number_to_name = yes
-        	potential = {
-           		has_global_flag = building
-	    		culture_group = culture_group_dwarves
+        potential = {
+           	has_global_flag = building
+	    	culture_group = culture_group_dwarves
 			province_id = 285 # Moria
-            	}
+        }
 	}
 	ct_mithrilmines_1 = { # hidden if mithril has not been found by the character #
 		desc = ct_mithrilmines_desc
@@ -1230,10 +1230,10 @@ ct_khazad = { #Moria for dwarves
 		heavy_infantry = 40
 		ai_creation_factor = 109
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			culture_group = culture_group_dwarves
-        	}
+        }
 	}
 	tp_balin_tomb = { ### The Tomb of Balin
 		desc = tp_balin_tomb_desc
@@ -1243,14 +1243,12 @@ ct_khazad = { #Moria for dwarves
 		heavy_infantry = 100
 		garrison_size = 1.2			
 		ai_creation_factor = 86		
-        	potential = {
+        potential = {
 			year = 11337
-            		FROMFROM = { title = b_chamber_of_mazarbul }
-			OR = {
-				culture_group = culture_group_dwarves
-			}
-        	}
-	}		
+            FROMFROM = { title = b_chamber_of_mazarbul }
+			culture_group = culture_group_dwarves
+		}
+	}	
 	tp_durin_tomb = { ### The Tomb of Durin
 		desc = tp_durin_tomb_desc
 		gold_cost = 850
@@ -1259,12 +1257,10 @@ ct_khazad = { #Moria for dwarves
 		heavy_infantry = 100
 		garrison_size = 1.2			
 		ai_creation_factor = 86		
-        	potential = {
-            		FROMFROM = { title = b_tomb_of_durin }
-			OR = {
-				culture_group = culture_group_dwarves
-			}
-        	}
+        potential = {
+            FROMFROM = { title = b_tomb_of_durin }
+			culture_group = culture_group_dwarves
+        }
 	}			
 	
 }	

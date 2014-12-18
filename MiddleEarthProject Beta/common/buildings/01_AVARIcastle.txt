@@ -255,7 +255,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_2 = {
-		desc = ca_Melven_barracks_2_desc
+		desc = ca_Melven_barracks_1_desc
 
 		prerequisites = { ca_Mwall_1 }
 		upgrades_from = ca_Melven_barracks_1
@@ -270,7 +270,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_3 = {
-		desc = ca_Melven_barracks_3_desc
+		desc = ca_Melven_barracks_1_desc
 		
 		upgrades_from = ca_Melven_barracks_2
 		gold_cost = 200
@@ -284,7 +284,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_4 = {
-		desc = ca_Melven_barracks_4_desc
+		desc = ca_Melven_barracks_1_desc
 		
 		upgrades_from = ca_Melven_barracks_3
 		gold_cost = 240
@@ -298,7 +298,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_5 = {
-		desc = ca_Melven_barracks_5_desc
+		desc = ca_Melven_barracks_1_desc
 		
 		upgrades_from = ca_Melven_barracks_3
 		gold_cost = 305
@@ -312,7 +312,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_6 = {
-		desc = ca_Melven_barracks_6_desc
+		desc = ca_Melven_barracks_1_desc
 		
 		upgrades_from = ca_Melven_barracks_3
 		gold_cost = 395

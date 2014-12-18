@@ -1,0 +1,6 @@
+angmardacil = {
+	customizer = no
+	monthly_character_prestige = 1.0
+	diplomacy = 1
+	same_religion_opinion = 10
+}

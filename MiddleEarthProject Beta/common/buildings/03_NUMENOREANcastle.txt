@@ -326,10 +326,9 @@ castle = {
 		retinuesize = 20
 		ai_creation_factor = 88
 		potential = {
-            		has_global_flag = building
 	   		has_global_flag = building
 			culture_group = culture_group_numenorean
-            	}
+        }
 	}
 	ca_Ntraining_grounds_3 = {
 		desc = ca_Ntraining_grounds_1_desc
@@ -1001,7 +1000,7 @@ castle = {
 		heavy_infantry = 150
 		ai_creation_factor = 86		
         	potential = {
-            		FROMFROM = { title = b_tarlang }
+            		FROMFROM = { title = b_erech }
         	}
 	}
 	

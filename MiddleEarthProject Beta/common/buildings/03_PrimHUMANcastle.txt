@@ -511,7 +511,7 @@ castle = {
             	}
 	}
 	ca_Psnowmen_2 = {
-		desc = Psnowmen_1_desc
+		desc = ca_Psnowmen_1_desc
 
 		prerequisites = { ca_Pwall_1 }
 		upgrades_from = ca_Psnowmen_1
@@ -598,7 +598,7 @@ castle = {
             	}
 	}
 	ca_Phillsmen_2 = {
-		desc = Phillsmen_1_desc
+		desc = ca_Phillsmen_1_desc
 
 		prerequisites = { ca_Pwall_1 }
 		upgrades_from = ca_Phillsmen_1

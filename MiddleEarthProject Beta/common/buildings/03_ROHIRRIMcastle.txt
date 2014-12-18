@@ -695,7 +695,7 @@ castle = {
             	}
 	}
 	
-	caRshipyard_2 = {
+	ca_Rshipyard_2 = {
 		desc = Rshipyard_desc
 		port = yes
 		upgrades_from = ca_Rshipyard_1

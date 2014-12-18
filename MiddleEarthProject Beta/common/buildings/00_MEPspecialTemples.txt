@@ -1,7 +1,20 @@
 
 ### Temple Buildings COPIED to NUMENOREANcity and DWARVENcity -should become obsolete-###
 temple = {	
-
+	
+	tp_temple_to_city = { # Building allowing conversion to cities
+		desc = tp_temple_to_city_desc
+		gold_cost = 1
+		build_time = 1	
+		ai_creation_factor = 200		
+        potential = {
+            NOT = {
+				FROMFROM = { title = b_tomb_of_elendil }
+				FROMFROM = { title = b_meneltarma }
+			}
+		}
+	}
+	
 	tp_elendil_tomb = { ### The Tomb of Elendil
 		desc = tp_elendil_tomb_desc
 		gold_cost = 850
@@ -14,7 +27,6 @@ temple = {
             FROMFROM = { title = b_tomb_of_elendil }
 			culture_group = culture_group_numenorean
         }
-		extra_tech_building_start = 0.2
 	}	
 	
 	tp_oath_eorl = { ### The Oath of Eorl
@@ -32,44 +44,10 @@ temple = {
 			OR = {
 				culture_group = culture_group_numenorean
 				culture = culture_rohirrim
-				culture = culture_eothed
+				culture = culture_eotheod
 			}
         }
-		extra_tech_building_start = 0.2
 	}	
-	tp_balin_tomb = { ### The Tomb of Balin
-		desc = tp_balin_tomb_desc
-		gold_cost = 850
-		build_time = 1460 #4y
-		liege_piety = 0.05
-		heavy_infantry = 100
-		garrison_size = 1.2			
-		ai_creation_factor = 86		
-        potential = {
-			year = 11337
-            FROMFROM = { title = b_chamber_of_mazarbul }
-			OR = {
-				culture_group = culture_group_dwarves
-			}
-        }
-		extra_tech_building_start = 0.2
-	}		
-	tp_durin_tomb = { ### The Tomb of Durin
-		desc = tp_durin_tomb_desc
-		gold_cost = 850
-		build_time = 1460 #4y
-		liege_piety = 0.05
-		heavy_infantry = 100
-		garrison_size = 1.2			
-		ai_creation_factor = 86		
-        potential = {
-            FROMFROM = { title = b_tomb_of_durin }
-			OR = {
-				culture_group = culture_group_dwarves
-			}
-        }
-		extra_tech_building_start = 0.2
-	}			
 
 	tp_meneltarma = { ### The Meneltarma
 		desc = tp_meneltarma_desc
@@ -82,7 +60,6 @@ temple = {
         potential = {
             FROMFROM = { title = b_meneltarma }
         }
-		extra_tech_building_start = 0.2
 	}	
 	
 }

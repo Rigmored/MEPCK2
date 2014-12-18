@@ -464,10 +464,10 @@ city = {
 				culture = culture_rohirrim
 				culture = culture_eotheod
 			}
-        	}
+        }
 	}
 	ct_Rmarketplace_2 = {
-		desc = ct_Rmarketplace_2_desc
+		desc = ct_Rmarketplace_1_desc
 		prerequisites = { ct_Rwall_1 }
 		
 		upgrades_from = ct_Rmarketplace_1
@@ -476,8 +476,8 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 109
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+           	has_global_flag = building
 			OR = {
 				culture = culture_rohirrim
 				culture = culture_eotheod
@@ -485,7 +485,7 @@ city = {
 		}
 	}
 	ct_Rmarketplace_3 = {
-		desc = ct_Rmarketplace_3_desc
+		desc = ct_Rmarketplace_1_desc
 		
 		prerequisites = { ct_Rwall_2 }
 		upgrades_from = ct_Rmarketplace_2
@@ -494,8 +494,8 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 108
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+       	potential = {
+            has_global_flag = building
 			OR = {
 				culture = culture_rohirrim
 				culture = culture_eotheod
@@ -503,7 +503,7 @@ city = {
         }
 	}
 	ct_Rmarketplace_4 = {
-		desc = ct_Rmarketplace_4_desc
+		desc = ct_Rmarketplace_1_desc
 		
 		upgrades_from = ct_Rmarketplace_3
 		gold_cost = 300
@@ -511,8 +511,8 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 107
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+       	potential = {
+           	has_global_flag = building
 			OR = {
 				culture = culture_rohirrim
 				culture = culture_eotheod
@@ -520,7 +520,7 @@ city = {
 		}
 	}
 	ct_Rmarketplace_5 = {
-		desc = ct_Rmarketplace_5_desc
+		desc = ct_Rmarketplace_1_desc
 		
 		upgrades_from = ct_Rmarketplace_4
 		gold_cost = 400
@@ -528,8 +528,8 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 106
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+       	potential = {
+           	has_global_flag = building
 			OR = {
 				culture = culture_rohirrim
 				culture = culture_eotheod
@@ -537,7 +537,7 @@ city = {
 		}
 	}
 	ct_Rmarketplace_6 = {
-		desc = ct_Rmarketplace_6_desc
+		desc = ct_Rmarketplace_1_desc
 		
 		upgrades_from = ct_Rmarketplace_5
 		gold_cost = 500
@@ -545,13 +545,13 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 105
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+           	has_global_flag = building
 			OR = {
 				culture = culture_rohirrim
 				culture = culture_eotheod
 			}
-        	}
+        }
 	}
 	
 	ct_Rport_1 = {

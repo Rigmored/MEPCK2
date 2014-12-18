@@ -502,7 +502,7 @@ city = {
         	}
 	}
 	ct_MGmarketplace_2 = {
-		desc = ct_MGmarketplace_2_desc
+		desc = ct_MGmarketplace_1_desc
 		prerequisites = { ct_MGwall_1 }
 		
 		upgrades_from = ct_MGmarketplace_1
@@ -520,7 +520,7 @@ city = {
 		}
 	}
 	ct_MGmarketplace_3 = {
-		desc = ct_MGmarketplace_3_desc
+		desc = ct_MGmarketplace_1_desc
 		
 		prerequisites = { ct_MGwall_2 }
 		upgrades_from = ct_MGmarketplace_2
@@ -538,7 +538,7 @@ city = {
         	}
 	}
 	ct_MGmarketplace_4 = {
-		desc = ct_MGmarketplace_4_desc
+		desc = ct_MGmarketplace_1_desc
 		
 		upgrades_from = ct_MGmarketplace_3
 		gold_cost = 300
@@ -555,7 +555,7 @@ city = {
 		}
 	}
 	ct_MGmarketplace_5 = {
-		desc = ct_MGmarketplace_5_desc
+		desc = ct_MGmarketplace_1_desc
 		
 		upgrades_from = ct_MGmarketplace_4
 		gold_cost = 400
@@ -572,7 +572,7 @@ city = {
 		}
 	}
 	ct_MGmarketplace_6 = {
-		desc = ct_MGmarketplace_6_desc
+		desc = ct_MGmarketplace_1_desc
 		
 		upgrades_from = ct_MGmarketplace_5
 		gold_cost = 500

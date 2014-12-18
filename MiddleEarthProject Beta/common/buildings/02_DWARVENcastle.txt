@@ -639,11 +639,9 @@ castle = {
 		ai_creation_factor = 110
 		add_number_to_name = yes
 		potential = {
-        		has_global_flag = building
-			OR = {
-				terrain = mountain
-			}
-	    		culture_group = culture_group_dwarves
+        	has_global_flag = building
+			terrain = mountain
+	    	culture_group = culture_group_dwarves
     		}
 	}
 
@@ -658,11 +656,9 @@ castle = {
 		ai_creation_factor = 110
 		add_number_to_name = yes
 		potential = {
-        		has_global_flag = building
-			OR = {
-				terrain = mountain
-			}
-	    		culture_group = culture_group_dwarves
+        	has_global_flag = building
+			terrain = mountain
+	    	culture_group = culture_group_dwarves
     		}
 	}
 	ca_dwarvenforges_6 = {
@@ -1215,7 +1211,7 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 644 #Zirakdum#
+            province_id = 644 #Zirakdum#
 			culture_group = culture_group_dwarves
             }
 	}
@@ -1233,7 +1229,7 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 644 #Zirakdum#
+            province_id = 644 #Zirakdum#
 			culture_group = culture_group_dwarves
             }
 	}	
@@ -1265,10 +1261,10 @@ ca_khazad = { ##moria for dwarves
 		ai_creation_factor = 106
 		add_number_to_name = no
         potential = {
-		has_global_flag = building
-            	province_id = 239 #Thorin's Gate#
+			has_global_flag = building
+            province_id = 239 #Thorin's Gate#
 			culture_group = culture_group_dwarves
-            }
+        }
 	}
 
 	ca_thorinsgate2 = { #Thorin's Gatem#
@@ -1284,7 +1280,7 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 239 #Thorin's Gate#
+            province_id = 239 #Thorin's Gate#
 			culture_group = culture_group_dwarves
             }
 	}
@@ -1310,7 +1306,7 @@ ca_khazad = { ##moria for dwarves
 ###################### Special buildings : unique buidings ###################### 
 	
 	ca_stone_durin = { ### The Durin's Stone
-		desc = ca_durin_stone_desc
+		desc = ca_stone_durin_desc
 		gold_cost = 100
 		build_time = 360
 		tax_income = 2	

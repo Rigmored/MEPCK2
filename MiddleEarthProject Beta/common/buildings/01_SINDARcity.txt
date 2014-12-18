@@ -409,7 +409,7 @@ city = {
         	}
 	}
 	ct_Vmarketplace_2 = {
-		desc = ct_Vmarketplace_2_desc
+		desc = ct_Vmarketplace_1_desc
 		prerequisites = { ct_Vwall_1 }
 		
 		upgrades_from = ct_Vmarketplace_1
@@ -424,7 +424,7 @@ city = {
 		}
 	}
 	ct_Vmarketplace_3 = {
-		desc = ct_Vmarketplace_3_desc
+		desc = ct_Vmarketplace_1_desc
 		
 		prerequisites = { ct_Vwall_2 }
 		upgrades_from = ct_Vmarketplace_2
@@ -439,7 +439,7 @@ city = {
         	}
 	}
 	ct_Vmarketplace_4 = {
-		desc = ct_Vmarketplace_4_desc
+		desc = ct_Vmarketplace_1_desc
 		
 		upgrades_from = ct_Vmarketplace_3
 		gold_cost = 300
@@ -453,7 +453,7 @@ city = {
 		}
 	}
 	ct_Vmarketplace_5 = {
-		desc = ct_Vmarketplace_5_desc
+		desc = ct_Vmarketplace_1_desc
 		
 		upgrades_from = ct_Vmarketplace_4
 		gold_cost = 400
@@ -467,7 +467,7 @@ city = {
 		}
 	}
 	ct_Vmarketplace_6 = {
-		desc = ct_Vmarketplace_6_desc
+		desc = ct_Vmarketplace_1_desc
 		
 		upgrades_from = ct_Vmarketplace_5
 		gold_cost = 500

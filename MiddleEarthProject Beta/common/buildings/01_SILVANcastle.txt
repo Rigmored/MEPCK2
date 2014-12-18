@@ -324,10 +324,10 @@ castle = {
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-            	}
+        }
 	}
 	ca_elven_barracks_2 = {
-		desc = ca_elven_barracks_2_desc
+		desc = ca_elven_barracks_1_desc
 
 		prerequisites = { ca_Swall_1 }
 		upgrades_from = ca_elven_barracks_1
@@ -336,17 +336,17 @@ castle = {
 		light_infantry = 50
 		archers = 50
 		ai_creation_factor = 99
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-            	}
+        }
 	}
 	ca_elven_barracks_3 = {
-		desc = ca_elven_barracks_3_desc
+		desc = ca_elven_barracks_1_desc
 		
 		upgrades_from = ca_elven_barracks_2
 		gold_cost = 200
@@ -354,17 +354,17 @@ castle = {
 		light_infantry = 55
 		archers = 55
 		ai_creation_factor = 98
-        	potential = {
-            		has_global_flag = building
+        potential = {
+           	has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-            	}
+        }
 	}
 	ca_elven_barracks_4 = {
-		desc = ca_elven_barracks_4_desc
+		desc = ca_elven_barracks_1_desc
 		
 		upgrades_from = ca_elven_barracks_3
 		gold_cost = 240
@@ -372,17 +372,17 @@ castle = {
 		light_infantry = 60
 		archers = 60
 		ai_creation_factor = 98
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-            	}
+        }
 	}
 	ca_elven_barracks_5 = {
-		desc = ca_elven_barracks_5_desc
+		desc = ca_elven_barracks_1_desc
 		
 		upgrades_from = ca_elven_barracks_4
 		gold_cost = 305
@@ -400,7 +400,7 @@ castle = {
             	}
 	}
 	ca_elven_barracks_6 = {
-		desc = ca_elven_barracks_6_desc
+		desc = ca_elven_barracks_1_desc
 		
 		upgrades_from = ca_elven_barracks_5
 		gold_cost = 395
@@ -936,7 +936,7 @@ castle = {
 
 ####################### Unique buildings #######################
 	ca_thranduil = { 
-		desc = "The halls of the Woodland Realm, reminiscent of ancient Doriath in its splendors."
+		desc = ca_thranduil_desc
 		gold_cost = 150
 		build_time = 1460 #4y
 		fort_level = 4.4

@@ -176,7 +176,7 @@ city = {
 	ct_Abarracks_2 = {
 		desc = ct_Abarracks_1_desc
 		
-		prerequisites = { ct_wall_1 }
+		prerequisites = { ct_Awall_1 }
 		upgrades_from = ct_Abarracks_1
 		gold_cost = 100
 		build_time = 370
@@ -256,7 +256,7 @@ city = {
 	ct_Atownmilitia_2 = {
 		desc = ct_Atownmilitia_1_desc
 		
-		prerequisites = { ct_wall_1 }
+		prerequisites = { ct_Awall_1 }
 		upgrades_from = ct_Atownmilitia_1
 		gold_cost = 120
 		build_time = 547
@@ -271,7 +271,7 @@ city = {
 	ct_Atownmilitia_3 = {
 		desc = ct_Atownmilitia_1_desc
 		
-		prerequisites = { ct_wall_2 }
+		prerequisites = { ct_Awall_2 }
 		upgrades_from = ct_Atownmilitia_2
 		gold_cost = 200
 		build_time = 730
@@ -342,7 +342,7 @@ city = {
 	ct_Aguard_2 = {
 		desc = ct_Aguard_1_desc
 		
-		prerequisites = { ct_wall_1 }
+		prerequisites = { ct_Awall_1 }
 		upgrades_from = ct_Aguard_1
 		gold_cost = 120
 		build_time = 547
@@ -356,7 +356,7 @@ city = {
 	ct_Aguard_3 = {
 		desc = ct_Aguard_1_desc
 		
-		prerequisites = { ct_wall_2 }
+		prerequisites = { ct_Awall_2 }
 		upgrades_from = ct_Aguard_2
 		gold_cost = 200
 		build_time = 730
@@ -409,8 +409,8 @@ city = {
         	}
 	}
 	ct_Amarketplace_2 = {
-		desc = ct_Amarketplace_2_desc
-		prerequisites = { ct_wall_1 }
+		desc = ct_Amarketplace_1_desc
+		prerequisites = { ct_Awall_1 }
 		
 		upgrades_from = ct_Amarketplace_1
 		gold_cost = 120
@@ -418,29 +418,28 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 109
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			culture_group = culture_group_amanyar	
 		}
 	}
 	ct_Amarketplace_3 = {
-		desc = ct_Amarketplace_3_desc
+		desc = ct_Amarketplace_1_desc
 		
-		prerequisites = { ct_wall_2 }
+		prerequisites = { ct_Awall_2 }
 		upgrades_from = ct_Amarketplace_2
 		gold_cost = 200
 		build_time = 730
 		tax_income = 3
 		ai_creation_factor = 108
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
 			has_global_flag = building
 			culture_group = culture_group_amanyar
         	}
 	}
 	ct_Amarketplace_4 = {
-		desc = ct_Amarketplace_4_desc
+		desc = ct_Amarketplace_1_desc
 		
 		upgrades_from = ct_Amarketplace_3
 		gold_cost = 300
@@ -448,14 +447,13 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 107
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
 			has_global_flag = building
 			culture_group = culture_group_amanyar
 		}
 	}
 	ct_Amarketplace_5 = {
-		desc = ct_Amarketplace_5_desc
+		desc = ct_Amarketplace_1_desc
 		
 		upgrades_from = ct_Amarketplace_4
 		gold_cost = 400
@@ -463,13 +461,13 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 106
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			culture_group = culture_group_amanyar
 		}
 	}
 	ct_Amarketplace_6 = {
-		desc = ct_Amarketplace_6_desc
+		desc = ct_Amarketplace_1_desc
 		
 		upgrades_from = ct_Amarketplace_5
 		gold_cost = 500
@@ -477,8 +475,8 @@ city = {
 		tax_income = 3
 		ai_creation_factor = 105
 		add_number_to_name = no
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			culture_group = culture_group_amanyar
         	}
 	}
@@ -500,7 +498,7 @@ city = {
 		desc = ct_Aport_1_desc
 		port = yes
 		
-		prerequisites = { ct_wall_1 }
+		prerequisites = { ct_Awall_1 }
 		upgrades_from = ct_Aport_1
 		gold_cost = 120
 		build_time = 547
@@ -515,7 +513,7 @@ city = {
 		desc = ct_Aport_1_desc
 		port = yes
 		
-		prerequisites = { ct_wall_2 }
+		prerequisites = { ct_Awall_2 }
 		upgrades_from = ct_Aport_2
 		gold_cost = 200
 		build_time = 730
@@ -668,6 +666,23 @@ city = {
 					culture_group = culture_group_amanyar
 					culture_group = culture_group_quendi 
 				}
-        		}
+        	}
 		}
+		
+##Noldor unique Buildings##
+	ct_imladris = { #Imladris#
+		desc = ca_imladris_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 5.0
+		garrison_size = 2.00
+		heavy_infantry = 30
+		archers = 30
+		horse_archers = 20
+		ai_creation_factor = 86
+        	potential = {
+            	province_id = 234 #Imladris
+				culture = culture_noldor
+            }
+	}
 }
