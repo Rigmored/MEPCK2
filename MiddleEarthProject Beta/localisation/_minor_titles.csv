@@ -1,36 +1,36 @@
-#CODE;ENGLISH;FRENCH;GERMAN;SPANISH;ITALIAN;x
-title_captaingeneral;Captain-General;Capitaine-Général;;;Capitano-Generale;x
-title_captaingeneral_desc;Captain-General is the highest honorary title in the Kingdom of Gondor, second only to the King of Gondor. It can only be granted to close relatives, traditionally the oldest son.;Le Capitaine-Général est le second titre le plus élevé du Gondor, après l'Intendant ou le Roi lui-même. Il ne peut être donné uniquement à un proche, généralement le fils aîné.;;;Il Capitano-Generale è il più alto titolo onorifico nel Regno di Gondor, secondo, per importanza, unicamente a quello del Re o del Sovrintendente. Può essere conferito unicamente a membri della famiglia, di solito al figlio più anziano.;x
-title_wardenofthekeys;Warden of the Keys;Gardien des Clés;;;Guardiano delle Chiavi;x
-title_wardenofthekeys_desc;Warden of the Keys is a high office of Minas Tirith in Gondor. At the coronation of new a new King, the holder of the keys opens the gate to the city.;Le Gardien des Clés est un poste important à Minas Tirith. Lors du couronnement d'un Nouveau Roi, le Gardien des Clés lui ouvrira les portes de la cité;;;;x
-title_captainoffountain;Captain of Fountain Guards;Capitaine de la Garde de la Fontaine;;;Capitano delle Guardie della Fontana;x
-title_captainoffountain_desc;Commands the Fountain Guards who protect the White Tree of Gondor;Le Capitaine de la Garde de la Fontaine est en charge de la protection de l'Arbre Blanc du Gondor;;;;x
-title_captaincitadel;Captain of the Citadel Guards;Capitaine des Guardes de la Citadelle;;;;x
-title_captaincitadel_desc;Commander of the Citadel Guards.;Il commande les gardes de la Citadelle de Minas Tirith.;;;Comandante della Cittadella;x
-title_wardenofwhitetree;Warden of the White Tree;Gardien de l'Arbre Blanc;;;Guardiano dell'Albero Bianco;x
-title_admiralofpelargir;Lord of the Ships;Grand Amiral;;;Lord della Flotta;x
-title_admiralofpelargir_desc;The Admiral of Pelargir is the Commander of Gondor's Navy.;L'Amiral de Pelargir est le commandant des forces navales du Gondor.;;;;x
-title_honorarycitadelguard;Honorary Citadel Guard;Garde d'Honneur de la Citadelle;;;Guardia della Cittadella;x
-title_honorarycitadelguard_desc;Honorary member of the Citadel Guard;Garde d'Honneur de la Citadelle;;;;x
-title_lieutenantgeneral;Lieutenant-General;Lieutenant-Général;;;Luogotenente-Generale;x
-title_lieutenantgeneral_desc;Lieutenant-General is the second highest honorary title in the Kingdom of Gondor, second only to the King of Gondor and Captain-General. It can only be granted to close relatives, traditionally the oldest son of the heir.;Lieutenant-Général;;;;x
-title_master_of_the_horse;Master of the Horse;Maître des Ecuries;;;Maestro dei Cavalli;x
-title_kingcouncillor;King's Councillor;Conseiller du Roi;;;Consigliere del Re;x
-title_thirdmarshal;Third Marshal of the Riddermark;Troisième Maréchal;;;Terzo Maresciallo;x
-title_thirdmarshal_desc;The Third Marshal of the Riddermark is the third highest military rank among the Riders of Rohan.;Premier Maréchal;;;;x
-title_secondmarshal;Second Marshal of the Riddermark;Second Maréchal;;;Secondo Maresciallo;x
-title_secondmarshal_desc;The Second Marshal of the Riddermark is the second highest military rank among the Riders of Rohan.;Premier Maréchal;;;;x
-title_firstmarshal;First Marshal of the Riddermark;Premier Maréchal;;;Primo Maresciallo;x
-title_firstmarshal_desc;The First Marshal of the Riddermark is the highest military rank among the Riders of Rohan.;Premier Maréchal;;;;x
-title_LieutenantofDolGuldur;Lieutenant of Dol Guldur;Lieutenant de Dol Guldur;;;Luogotenente di Dol Guldur;x
-title_masterofslaves;Master of Slaves;Maître des Esclaves;;;Padrone Schiavista;x
-title_admiral;Admiral;Amiral;;;Ammiraglio;x
-title_astrologer;Astrologer;Astrologue;;;Astrologo;x
-title_wardenofbeacons;Warden of Beacons;Gardiens des Feux d'Alarme;;;Guardiano dei Fuochi;x
-title_wardenoferech;Warden of the Stone of Erech;Gardien de la Pierre d'Erech;;;Guardiano della Pietra di Erech;i
-title_keeperofswans;Keeper of the Swans;Gardien des Cygnes;;;Guardiano dei  Cigni;x
-title_masterbow;Master of the Bow;Maître des Archers;;;Mastro Arciere;x
-title_captainaxebearers;Captain of the Axe-Bearers;Capitaine des Porteurs d'Hache;;;Capitano degli Ascieri;x
-title_wardenrammasechor;Warden of Rammas Echor;Protecteur de Rammas Echor;;;Guardiano di Rammas Echor;x
-title_co_ruler;Co-Ruler of Gondor;Co-Régent du Gondor;;;Coreggente;x
-title_co_ruler_desc;This character shares the Rules of Gondor with one of his peers. Together, they direct the destiny of the Southern Kingdom.;Ce personnage partage le pouvoir du Gondor avec l'un de ses pairs. Ensemble, ils dirigent la destinée du Royaume du Sud.;;;;x
+#CODE;ENGLISH;FRENCH;GERMAN;SPANISH;ITALIAN;;x
+title_captaingeneral;Captain-General;Capitaine-Général;;;Capitano-Generale;;x
+title_captaingeneral_desc;Captain-General is the highest honorary title in the Kingdom of Gondor, second only to the King of Gondor. It can only be granted to close relatives, traditionally the oldest son.;Le Capitaine-Général est le second titre le plus élevé du Gondor, après l'Intendant ou le Roi lui-même. Il ne peut être donné uniquement à un proche, généralement le fils aîné.;;;Il Capitano-Generale è il più alto titolo onorifico nel Regno di Gondor, secondo, per importanza, unicamente a quello del Re o del Sovrintendente. Può essere conferito unicamente a membri della famiglia, di solito al figlio più anziano.;;x
+title_wardenofthekeys;Warden of the Keys;Gardien des Clés;;;Guardiano delle Chiavi;;x
+title_wardenofthekeys_desc;Warden of the Keys is a high office of Minas Tirith in Gondor. At the coronation of new a new King, the holder of the keys opens the gate to the city.;Le Gardien des Clés est un poste important à Minas Tirith. Lors du couronnement d'un Nouveau Roi, le Gardien des Clés lui ouvrira les portes de la cité;;;;;x
+title_captainoffountain;Captain of Fountain Guards;Capitaine de la Garde de la Fontaine;;;Capitano delle Guardie della Fontana;;x
+title_captainoffountain_desc;Commands the Fountain Guards who protect the White Tree of Gondor;Le Capitaine de la Garde de la Fontaine est en charge de la protection de l'Arbre Blanc du Gondor;;;;;x
+title_captaincitadel;Captain of the Citadel Guards;Capitaine des Guardes de la Citadelle;;;;;x
+title_captaincitadel_desc;Commander of the Citadel Guards.;Il commande les gardes de la Citadelle de Minas Tirith.;;;Comandante della Cittadella;;x
+title_wardenofwhitetree;Warden of the White Tree;Gardien de l'Arbre Blanc;;;Guardiano dell'Albero Bianco;;x
+title_admiralofpelargir;Lord of the Ships;Grand Amiral;;;Lord della Flotta;;x
+title_admiralofpelargir_desc;The Admiral of Pelargir is the Commander of Gondor's Navy.;L'Amiral de Pelargir est le commandant des forces navales du Gondor.;;;;;x
+title_honorarycitadelguard;Honorary Citadel Guard;Garde d'Honneur de la Citadelle;;;Guardia della Cittadella;;x
+title_honorarycitadelguard_desc;Honorary member of the Citadel Guard;Garde d'Honneur de la Citadelle;;;;;x
+title_lieutenantgeneral;Lieutenant-General;Lieutenant-Général;;;Luogotenente-Generale;;x
+title_lieutenantgeneral_desc;Lieutenant-General is the second highest honorary title in the Kingdom of Gondor, second only to the King of Gondor and Captain-General. It can only be granted to close relatives, traditionally the oldest son of the heir.;Lieutenant-Général;;;;;x
+title_master_of_the_horse;Master of the Horse;Maître des Ecuries;;;Maestro dei Cavalli;;x
+title_kingcouncillor;King's Councillor;Conseiller du Roi;;;Consigliere del Re;;x
+title_thirdmarshal;Third Marshal of the Riddermark;Troisième Maréchal;;;Terzo Maresciallo;;x
+title_thirdmarshal_desc;The Third Marshal of the Riddermark is the third highest military rank among the Riders of Rohan.;Premier Maréchal;;;;;x
+title_secondmarshal;Second Marshal of the Riddermark;Second Maréchal;;;Secondo Maresciallo;;x
+title_secondmarshal_desc;The Second Marshal of the Riddermark is the second highest military rank among the Riders of Rohan.;Premier Maréchal;;;;;x
+title_firstmarshal;First Marshal of the Riddermark;Premier Maréchal;;;Primo Maresciallo;;x
+title_firstmarshal_desc;The First Marshal of the Riddermark is the highest military rank among the Riders of Rohan.;Premier Maréchal;;;;;x
+title_LieutenantofDolGuldur;Lieutenant of Dol Guldur;Lieutenant de Dol Guldur;;;Luogotenente di Dol Guldur;;x
+title_masterofslaves;Master of Slaves;Maître des Esclaves;;;Padrone Schiavista;;x
+title_admiral;Admiral;Amiral;;;Ammiraglio;;x
+title_astrologer;Astrologer;Astrologue;;;Astrologo;;x
+title_wardenofbeacons;Warden of Beacons;Gardiens des Feux d'Alarme;;;Guardiano dei Fuochi;;x
+title_wardenoferech;Warden of the Stone of Erech;Gardien de la Pierre d'Erech;;;Guardiano della Pietra di Erech;;x
+title_keeperofswans;Keeper of the Swans;Gardien des Cygnes;;;Guardiano dei  Cigni;;x
+title_masterbow;Master of the Bow;Maître des Archers;;;Mastro Arciere;;x
+title_captainaxebearers;Captain of the Axe-Bearers;Capitaine des Porteurs d'Hache;;;Capitano degli Ascieri;;x
+title_wardenrammasechor;Warden of Rammas Echor;Protecteur de Rammas Echor;;;Guardiano di Rammas Echor;;x
+title_co_ruler;Co-Ruler of Gondor;Co-Régent du Gondor;;;Coreggente;;x
+title_co_ruler_desc;This character shares the Rules of Gondor with one of his peers. Together, they direct the destiny of the Southern Kingdom.;Ce personnage partage le pouvoir du Gondor avec l'un de ses pairs. Ensemble, ils dirigent la destinée du Royaume du Sud.;;;;;x
