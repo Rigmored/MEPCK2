@@ -1,5 +1,5 @@
 #CODE;ENGLISH;FRENCH;GERMAN;SPANISH;ITALIAN;;x
-nick_the_dark_lord;the Dark Lord;Dark Lord;;;l'Oscuro Signore;;x
+nick_the_dark_lord;the Dark Lord;Seigneur Ténébreux;;;l'Oscuro Signore;;x
 nick_the_white;the White;le Blanc;;;il Bianco;;x
 nick_the_young;the Young;le Jeune;;;il Giovane;;x
 nick_the_hapless;the Hapless;le Malchanceux;;;lo Sfortunato;;x
@@ -78,3 +78,5 @@ nick_steelsheen;Steelsheen;Bouclier-d'Acier;;;Bagliore d'Acciaio;;x
 nick_the_blue;the Blue;le Bleu;;;il Blu;;x
 nick_goodhost;Goodhost;Bonaccueil;;;;;x
 nick_terriblehost;Terriblehost;Malaccueil;;;;;x
+nick_isenflesc;Isenflesc;Isenflesc;;;;;x
+nick_the_traitor;the Traitor;le Traitre;;;;;x

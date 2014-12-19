@@ -113,6 +113,9 @@ nick_the_magnificient = {}
 nick_scattergold = {}
 nick_the_fair_woman = {}
 nick_headstrong = {}
+nick_isenflesc = {}
+nick_the_hapless = {}
+nick_the_traitor = {}
 
 # GIVEN BY TRAITS
 #################

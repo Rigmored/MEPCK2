@@ -2098,9 +2098,10 @@ death_reason = death_battle
 	give_nickname = nick_wormtongue
 	set_character_flag = grima
 	11319.1.1={birth="11319.1.1"}
-	11362.11.3={death = {
-death_reason = death_battle
-}}
+	11362.11.3= { death = {
+		death_reason = death_battle
+		}
+	}
 }
 
 #more wives of Kings

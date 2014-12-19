@@ -14257,7 +14257,7 @@
 	dynasty=125
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=1782
+	father=1781
 	add_trait=blood_of_numenor
 	9734.1.1={
 		birth="9734.1.1"
@@ -14291,7 +14291,7 @@
 	dynasty=110
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=1290
+	father=1783
 	mother=1782
 	add_trait=blood_of_numenor
 	9762.1.1={
@@ -14308,7 +14308,7 @@
 	dynasty=110
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=1290
+	father=1783
 	mother=1782
 	add_trait=blood_of_numenor
 	9764.1.1={
@@ -14325,7 +14325,7 @@
 	dynasty=110
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=1290
+	father=1783
 	mother=1782
 	add_trait=blood_of_numenor
 	9766.1.1={
@@ -14342,7 +14342,7 @@
 	dynasty=110
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=1290
+	father=1783
 	mother=1782
 	add_trait=twin
 	add_trait=blood_of_numenor
@@ -14360,7 +14360,7 @@
 	dynasty=110
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=1290
+	father=1783
 	mother=1782
 	add_trait=twin
 	add_trait=blood_of_numenor
@@ -14378,7 +14378,7 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor
-	father=1782
+	father=1781
 	9731.1.1={
 		birth="9731.1.1"
 	}
@@ -14746,7 +14746,7 @@
 		birth="9297.1.1"
 	}
 	9531.1.1={
-		death="9481.1.1"
+		death="9531.1.1"
 	}
 }
 

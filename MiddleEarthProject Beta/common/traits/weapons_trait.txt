@@ -94,6 +94,26 @@ staff_of_radagast = {
 	random = no	
 	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger
 }
+staff_of_pallando = {
+	stewardship = 2
+	learning = 3
+	monthly_character_piety = 0.5
+	monthly_character_prestige = 0.1
+	customizer = no
+	unique = yes
+	random = no	
+	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger
+}
+staff_of_alatar = {
+	stewardship = 2
+	learning = 3
+	monthly_character_piety = 0.5
+	monthly_character_prestige = 0.1
+	customizer = no
+	unique = yes
+	random = no	
+	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger
+}
 mithril = {
 	martial = 2
 	customizer = no
