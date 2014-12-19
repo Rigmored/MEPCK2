@@ -771,9 +771,37 @@ city = {
             		province_id = 18 #Pelargir
             	}
 	}		
-	
+	ct_numenorean3 = { #Numenorean Walls#
+		desc = ca_umbar_haven_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 4
+		garrison_size = 2.00
+		galleys = 10
+		tax_income = 3
+		ai_creation_factor = 86
+        potential = { province_id = 430 }
+	}
+	ct_umbar_haven = { #Haven of Umbar#
+		desc = ca_umbar_haven_desc
+		upgrades_from = ca_numenorean3
+		gold_cost = 150
+		build_time = 1460
+		tax_income = 3
+		fort_level = 3.0
+		heavy_infantry = 300
+		archers = 100
+		galleys = 10
+		ai_creation_factor = 86
+        potential = {
+        	province_id = 430 #Umbar
+			OR = {
+				culture = culture_black_numenorean
+				culture = culture_umbareans
+			}
+        }
+	}
 # Numenoreans Archives and Tombs #
-	
 	tp_numenorean_archives = {
 		desc = tp_numenorean_archives_desc
 		gold_cost = 150
@@ -816,48 +844,5 @@ city = {
 			}
 		}
 	}
-	tp_elendil_tomb = { ### The Tomb of Elendil
-		desc = tp_elendil_tomb_desc
-		gold_cost = 850
-		build_time = 1460 #4y
-		liege_piety = 0.05
-		heavy_infantry = 150
-		garrison_size = 1.2			
-		ai_creation_factor = 86		
-        	potential = {
-            	FROMFROM = { title = b_tomb_of_elendil }
-				culture_group = culture_group_numenorean
-        	}
-	}	
 	
-	tp_oath_eorl = { ### The Oath of Eorl
-		desc = tp_elendil_tomb_desc
-		gold_cost = 850
-		build_time = 1460 #4y
-		liege_piety = 0.05
-		heavy_infantry = 100
-		heavy_cavalry = 100
-		garrison_size = 1.2			
-		ai_creation_factor = 86		
-        	potential = {
-				year = 10853
-            	FROMFROM = { title = b_tomb_of_elendil }
-				OR = {
-					culture = culture_rohirrim
-					culture = culture_eotheod
-				}
-        	}
-	}
-	tp_meneltarma = { ### The Meneltarma
-		desc = tp_meneltarma_desc
-		gold_cost = 850
-		build_time = 1460 #4y
-		garrison_size = -100.0 # No men in this mountain			
-		ai_creation_factor = 86	
-		liege_piety = 0.5	
-		liege_prestige = 0.5			
-        	potential = {
-            	FROMFROM = { title = b_meneltarma }
-        	}
-	}	
 }

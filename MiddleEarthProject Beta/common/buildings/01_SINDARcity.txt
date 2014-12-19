@@ -677,4 +677,24 @@ city = {
 			}
         	}
 	}
+
+####################### Unique buildings #######################
+	ct_grey_havens = { ## Grey Havens
+		desc = ca_grey_havens_desc
+		gold_cost = 850
+		build_time = 1460
+		fort_level = 2.0
+		galleys = 10
+		tax_income = 5		
+		ai_creation_factor = 106
+        	potential = {
+            		province_id = 657
+			OR = {
+				culture_group = culture_group_moriquendi
+				culture_group = culture_group_umanyar
+				culture_group = culture_group_amanyar
+				culture_group = culture_group_quendi
+			}
+        	}
+	}
 }

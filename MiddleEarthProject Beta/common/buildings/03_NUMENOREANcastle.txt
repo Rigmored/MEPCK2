@@ -1372,9 +1372,7 @@ castle = {
 		galleys = 10
 		tax_income = 3
 		ai_creation_factor = 86
-        	potential = {
-            		province_id = 430 #umbar
-            		}
+        potential = { province_id = 430 }
 	}
 	ca_umbar_haven = { #Haven of Umbar#
 		desc = ca_umbar_haven_desc
@@ -1387,13 +1385,13 @@ castle = {
 		archers = 100
 		galleys = 10
 		ai_creation_factor = 86
-        	potential = {
-            		province_id = 430 #Umbar
+        potential = {
+        	province_id = 430 #Umbar
 			OR = {
 				culture = culture_black_numenorean
 				culture = culture_umbareans
 			}
-            	}
+        }
 	}
 
 	ca_corsairs_1 = { #Corsairs of Umbar#
