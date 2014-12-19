@@ -180,4 +180,3 @@ technology = {
 		culture = 4.5
 	}
 }
-}

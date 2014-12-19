@@ -4789,13 +4789,13 @@ add_friend=4085 #Bofur
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
 	11200.1.1={
-	birth=yes
+	birth="11200.1.1"
 	}
 	11228.1.1={
 	add_spouse=374
 	}
 	11275.1.1={
-	death=yes
+	death="11275.1.1"
 	}
 }
 374 = {
@@ -4804,10 +4804,10 @@ add_friend=4085 #Bofur
 	culture="culture_rohirrim"
 	female=yes
 	11210.1.1={
-	birth=yes
+	birth="11210.1.1"
 	}
 	11285.1.1={
-	death=yes
+	death="11285.1.1"
 	}
 }
 375 = {
@@ -4818,13 +4818,13 @@ add_friend=4085 #Bofur
 	father=373
 	mother=374
 	11235.1.1={
-	birth=yes
+	birth="11235.1.1"
 	}
 	11268.1.1={
 	add_spouse=376
 	}
 	11305.1.1={
-	death=yes
+	death="11305.1.1"
 	}
 }
 376 = {
@@ -4847,13 +4847,13 @@ add_friend=4085 #Bofur
 	father=375
 	mother=376
 	11275.1.1={
-	birth=yes
+	birth="11275.1.1"
 	}
 	11298.1.1={
 	add_spouse=378
 	}
 	11345.1.1={
-	death=yes
+	death="11345.1.1"
 	}
 }
 378 = {
@@ -4862,10 +4862,10 @@ add_friend=4085 #Bofur
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
 	11279.1.1={
-	birth=yes
+	birth="11279.1.1"
 	}
 	11349.1.1={
-	death=yes
+	death="11349.1.1"
 	}
 }
 379 = {
@@ -4876,13 +4876,13 @@ add_friend=4085 #Bofur
 	father=377
 	mother=378
 	11310.1.1={
-	birth=yes
+	birth="11310.1.1"
 	}
 	11338.1.1={
 	add_spouse=380
 	}
 	11395.1.1={
-	death=yes
+	death="11395.1.1"
 	}
 }
 380 = {
@@ -4891,10 +4891,10 @@ add_friend=4085 #Bofur
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
 	11318.1.1={
-	birth=yes
+	birth="11318.1.1"
 	}
 	11400.1.1={
-	death=yes
+	death="11400.1.1"
 	}
 }
 381 = {
@@ -4905,10 +4905,10 @@ add_friend=4085 #Bofur
 	father=379
 	mother=380
 	11342.1.1={
-	birth=yes
+	birth="11342.1.1"
 	}
 	11425.1.1={
-	death=yes
+	death="11425.1.1"
 	}
 }
 382 = {
@@ -4920,10 +4920,10 @@ add_friend=4085 #Bofur
 	father=379
 	mother=380
 	11346.1.1={
-	birth=yes
+	birth="11346.1.1"
 	}
 	11429.1.1={
-	death=yes
+	death="11429.1.1"
 	}
 }
 
@@ -4935,13 +4935,13 @@ add_friend=4085 #Bofur
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
 	11285.1.1={
-	birth=yes
+	birth="11285.1.1"
 	}
 	11300.1.1={
 	add_spouse=384
 	}
 	11348.1.1={
-	death=yes
+	death="11348.1.1"
 	}
 }
 384 = {
@@ -4950,10 +4950,10 @@ add_friend=4085 #Bofur
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
 	11288.1.1={
-	birth=yes
+	birth="11288.1.1"
 	}
 	11342.1.1={
-	death=yes
+	death="11342.1.1"
 	}
 }
 385 = {
@@ -4964,13 +4964,13 @@ add_friend=4085 #Bofur
 	father=383
 	mother=384
 	11301.1.1={
-	birth=yes
+	birth="11301.1.1"
 	}
 	11320.1.1={
 	add_spouse=386
 	}
 	11398.1.1={
-	death=yes
+	death="11398.1.1"
 	}
 }
 386 = {
@@ -4979,10 +4979,10 @@ add_friend=4085 #Bofur
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
 	11304.1.1={
-	birth=yes
+	birth="11304.1.1"
 	}
 	11402.1.1={
-	death=yes
+	death="11402.1.1"
 	}
 }
 387 = {
@@ -4998,10 +4998,10 @@ add_friend=4085 #Bofur
 	add_trait= temperate
 	add_trait= ambitious
 	11321.1.1={
-	birth=yes
+	birth="11321.1.1"
 	}
 	11405.1.1={
-	death=yes
+	death="11405.1.1"
 	}
 }
 388 = {
@@ -5013,10 +5013,10 @@ add_friend=4085 #Bofur
 	mother=386
 	female=yes
 	11325.1.1={
-	birth=yes
+	birth="11325.1.1"
 	}
 	11403.1.1={
-	death=yes
+	death="11403.1.1"
 	}
 }
 
@@ -5159,13 +5159,13 @@ add_friend=4085 #Bofur
 	dynasty=24008
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
-	11281.1.1= {
+	11281.1.1={
 	birth=yes
 	}
-	11320.1.1= {
+	11320.1.1={
 	add_spouse= 308
 	}
-	11334.1.1= {
+	11334.1.1={
 	death=yes
 	}
 }

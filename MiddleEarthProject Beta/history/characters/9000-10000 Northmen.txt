@@ -371,7 +371,7 @@
 		birth="10152.1.1"
 	}
 	10199.1.1={
-		culture ="culture_eothed"
+		culture ="culture_eotheod"
 	}	
 	10246.1.1={
 		death="10246.1.1"
@@ -388,7 +388,7 @@
 		birth="10189.1.1"
 	}
 	10199.1.1={
-		culture ="culture_eothed"
+		culture ="culture_eotheod"
 	}	
 	10276.1.1={
 		death="10276.1.1"
@@ -398,7 +398,7 @@
 	name="Feohtan"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9026
 	10227.1.1={
@@ -412,7 +412,7 @@
 	name="Frumgar"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9027
 	10266.1.1={
@@ -426,7 +426,7 @@
 	name="Fram"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9028
 	10266.1.1={
@@ -440,7 +440,7 @@
 	name="Colbrand"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9029
 	10304.1.1={
@@ -454,7 +454,7 @@
 	name="Éowig"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9030
 	10343.1.1={
@@ -468,7 +468,7 @@
 	name="Felaróf"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9031
 	10380.1.1={
@@ -482,7 +482,7 @@
 	name="Éobrand"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9032
 	10418.1.1={
@@ -496,7 +496,7 @@
 	name="Mædwine"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9033
 	10456.1.1={
@@ -510,7 +510,7 @@
 	name="Grimhelm"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9034
 	10493.1.1={
@@ -524,7 +524,7 @@
 	name="Waldæg"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9035
 	10529.1.1={
@@ -538,7 +538,7 @@
 	name="Cenwulf"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9036
 	10567.1.1={
@@ -552,7 +552,7 @@
 	name="Frithbéorth"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9037
 	10609.1.1={
@@ -566,7 +566,7 @@
 	name="Athelfrith"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9038
 	10647.1.1={
@@ -580,7 +580,7 @@
 	name="Waltheof"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9039
 	10684.1.1={
@@ -594,7 +594,7 @@
 	name="Ealdwine"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9040
 	10722.1.1={
@@ -608,7 +608,7 @@
 	name="Pendred"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9041
 	10765.1.1={
@@ -622,7 +622,7 @@
 	name="Léod" ## Father of Eorl the Young ##
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=good_rider
 	father=9042
 	10802.1.1={
