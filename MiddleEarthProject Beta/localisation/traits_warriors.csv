@@ -12,7 +12,7 @@ amroth_squire_desc;This character has trained with the Knights of Dol Amroth, bu
 amroth_knight;Knight of Dol Amroth;Chevalier de Dol Amroth;;;;;;;;;;;x
 amroth_knight_desc;This character is a true Knight of Dol Amroth, part of the elite cavalry commanded by the Prince of Dol Amroth himself.;Ce personnage est un Chevalier de Dol Amroth, membre de cette cavalerie d'élite au service du Prince de Dol Amroth en personne.;;;;;;;;;;;x
 weak_orc;Weak Orc;Orque Faible;;;;;;;;;;;x
-weak_ork_desc;This character is a weak orc, and is ostracized by others. They need a lot of practice to achieve competence at war, and perhaps show themselves to be a true orc.;Ce personnage est faible, et est mis au ban de la société. Il a besoin de beaucoup d'entrainement pour atteindre un meilleur niveau et enfin pouvoir se revendiquer comme un orque véritable.;;;;;;;;;;;x
+weak_orc_desc;This character is a weak orc, and is ostracized by others. They need a lot of practice to achieve competence at war, and perhaps show themselves to be a true orc.;Ce personnage est faible, et est mis au ban de la société. Il a besoin de beaucoup d'entrainement pour atteindre un meilleur niveau et enfin pouvoir se revendiquer comme un orque véritable.;;;;;;;;;;;x
 orc_warrior;Warrior Orc;Orque-Guerrier;;;;;;;;;;;x
 orc_warrior_desc;This character is a skilled warrior capable of fighting both against those of their clan and their enemies.;Ce personnage est un guerrier, capable de se battre à la fois contre ceux de son clan et ses ennemis. ;;;;;;;;;;;x
 strong_orc;Strong Orc;Orque Fort;;;;;;;;;;;x
@@ -99,7 +99,7 @@ dunedain_scout_desc;This character is a skilled tracker, and can spy on enemies 
 dunedain_ranger;Ranger of North;Rôdeur du Nord;;;;;;;;;;;x
 dunedain_ranger_desc;This character is a Dúnedain ranger tasked with repelling any enemy troops attempting to infiltrate Eriador.;Ce personnage est de repousser des troupes ennemies qui tenteraient de s'infiltrer l'Eriador.;;;;;;;;;;;x
 dunedain_captain;Dúnedain Captain;Capitaine des Dúnedain;;;;;;;;;;;x
-dunedain_captain;This character is able to lead a small band of rangers in combat. His skills in combat are rightly recognized by his peers.;Ce personnage est capable de mener une petite troupe de rodeurs au combat. Ses talents au combat sont reconnus par ses pairs.;;;;;;;;;;;x
+dunedain_captain_desc;This character is able to lead a small band of rangers in combat. His skills in combat are rightly recognized by his peers.;Ce personnage est capable de mener une petite troupe de rodeurs au combat. Ses talents au combat sont reconnus par ses pairs.;;;;;;;;;;;x
 grey_member;Grey Company Member;Membre de la Compagnie Grise;;;;;;;;;;;x
 grey_member_desc;This character is one of the most skilled in combat among the Dúnedain. They are directly descended from the noblest families of Arnor, and their talent in battle makes them a true member of the prestigious Grey Company.;Ce personnage fait partie des Dunedain les plus forts. Il descend directement des plus nobles familles d'Arnor, et son talent au combat en fait un membre à part entière de la prestigieuse Compagnie Grise.;;;;;;;;;;;x
 bowman;Bowman;Archer;;;;;;;;;;;x

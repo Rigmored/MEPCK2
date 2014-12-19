@@ -9,7 +9,6 @@ max_settlements = 6
 b_ugulai = castle
 b_aksa = castle
 b_den_loke = castle
-b_gundalok = city
 #b_ikrist = castle
 #b_mokoros = castle
 
@@ -50,12 +49,4 @@ religion = religion_orkish
 				b_den_loke = ca_MOstable_1 
 				b_den_loke = ca_MOorctown_1 
 				b_den_loke = ca_MO_elite_1 
-
-				b_gundalok = ct_MOwall_1 
-				b_gundalok = ct_MOwatchtower_1 
-				b_gundalok = ct_MOorctraining_grounds_1 
-				b_gundalok = ct_MOorcbarracks_1 
-				b_gundalok = ct_MOorcguard_1 
-				b_gundalok = ct_MOorcmarketplace_1 
-				b_gundalok = tp_shrine_melkor
 }
