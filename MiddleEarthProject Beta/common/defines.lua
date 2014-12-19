@@ -40,7 +40,6 @@ NDiplomacy = {
 	VASSAL_LIMIT_KING_MULT = 20.0, 				-- Extra Vassal Limit from the ruler's rank
 	VASSAL_LIMIT_EMPEROR_MULT = 30.0, 			-- Extra Vassal Limit from the ruler's rank
 	VASSAL_LIMIT_GREAT_DUKE_BONUS = 5.0, 		-- Extra Vassal Limit for Dukes with more than one Duchy
-	VASSAL_LIMIT_FAMILY_PRESTIGE_BONUS = 0.002,	-- Extra Vassal Limit from family prestige
 	VASSAL_LIMIT_DIPLOMACY_MULT = 0.3,			-- Extra Vasal Limit from ruler and spouse diplomacy
 	VASSAL_LIMIT_TRIBAL_BONUS = -10,			-- All rulers with tribal holdings as their capital have smaller demesnes
 	VASSAL_LIMIT_DECADENCE_MULTIPLIER = 0.25,	-- Negative modifier, multiplied with the current decadence.
@@ -504,6 +503,7 @@ NCharacter = {
 	TRIBAL_WRONG_CULTURE_GROUP_MOD = -0.25,
 	CHANGE_SUCC_LAW_YEARS = 10,						-- Rulers must have reigned this long before they can change succession laws
 	CHANGE_AMBITION_YEARS = 3,						-- Delay between being able to pick a new ambition of plot after cancelling
+	CHANGE_FOCUS_YEARS = 5,		
 	PRESTIGE_FROM_DYNASTY_ON_BIRTH_DIV = 5, 		-- Newly born characters get the dynasty prestige of their mother and father divided by this as their starting prestige
 	PRESTIGE_FROM_DYNASTY_ON_MARRIAGE_DIV = 20, 	-- Characters get the dynasty prestige of the spouse divided by this on marriage
 	NEED_GUARDIAN_AT_AGE = 6, 						-- The age at which children should be appointed a mentor/guardian
@@ -567,6 +567,8 @@ NCharacter = {
 	TRIBAL_EMPTY_HOLDING_LEVY_MULTIPLIER = 0.5,
 	TRIBAL_EMPTY_HOLDING_GARRISON_MULTIPLIER = 0.5,
 	TRIBAL_EMPTY_HOLDING_TAX_MULTIPLIER = 0.5,
+	MALE_ATTRACTION_CUTOFF = 65,					-- After this age, the sex appeal of traits no longer have any effect
+	FEMALE_ATTRACTION_CUTOFF = 45		
 },
 
 NTitle = {
@@ -650,6 +652,7 @@ NTitle = {
 	CLAIM_VASSAL_TITLE_COST_MOD = 0.75,
 	CLAIM_DE_JURE_TITLE_COST_MOD = 0.5,
 	NORMAL_LAW_CHANGE_MONTHS = 60,
+	MAX_CROWN_LAW_CHANGES = 1,
 	TITLE_USURP_COOLDOWN_MONTHS = 60,
 	DE_JURE_ASSIMILATION_YEARS = 100,			-- Duchies a under the de facto control of another kingdom will change de jure liege after this many years
 	EMPIRE_DE_JURE_ASSIMILATION_YEARS = 100,	-- Kingdoms under the de facto control of another empire will change de jure liege after this many years
@@ -1031,7 +1034,6 @@ NTechnology = {
 	IDEAL_YEAR_AHEAD_PENALTY_INVEST = 0.2,		-- Percent increase in cost pre level ahead of ideal date
 	
 	PAGAN_HOME_ATTRITION_REMOVAL_LEVEL = 4.0,
-
 },  
 
 NDisease = {
@@ -1255,7 +1257,6 @@ NLearningScenario =
 	COMBAT_EVENT = 107202,
 	AFTER_REVOLT_EVENT = 107250,
 	FABRICATE_CLAIM_EVENT = 913,
-	FABRICATE_CLAIM_CHARACTER = 20842,
 	HAS_CLAIM_EVENT = 107300,
 	WAR_EVENT = 107301,
 	SIEGE_EVENT = 107306,
