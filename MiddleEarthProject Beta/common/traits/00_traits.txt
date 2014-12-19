@@ -432,9 +432,6 @@ has_small_pox = {
 ############################
 
 crusader = {
-	potential = {
-		religion_group = christian
-	}
 	
 	martial = 2
 	
@@ -471,9 +468,6 @@ excommunicated = {
 	customizer = no
 }
 kinslayer = {
-	potential = {
-		NOT = { religion_group = muslim }
-	}
 
 	diplomacy = -3
 	
@@ -722,15 +716,9 @@ weak = {
 
 celibate = {
     potential = {
-		NOT = {
-		religion_group = religion_group_melkor 
-	    }
+		NOT = { religion_group = religion_group_melkor }
 	}
 	lifestyle = yes
-	
-	potential = {
-		religion_group = christian
-	}
 	
 	opposites =  {
 		hedonist
@@ -804,10 +792,7 @@ mystic = {
 }
 impaler = {
 	lifestyle = yes
-	
-	potential = {
-		NOT = { religion = jain }
-	}
+
     opposites =  {
 		kind
 	}
@@ -831,10 +816,6 @@ duelist = {
 }
 hunter = {
 	lifestyle = yes
-
-	potential = {
-		NOT = { religion = jain }
-	}
 	
 	martial = 1
 	
@@ -854,10 +835,6 @@ poet = {
 }
 falconer = {
 	lifestyle = yes
-	
-	potential = {
-		NOT = { religion = jain }
-	}
 
 	diplomacy = 1
 	
