@@ -291,7 +291,7 @@
 	name="Mairon"
 	dynasty=10011
 
-	religion="religion_eruhini"
+	religion="sunni"
 	culture="culture_maiar"
 
 	add_trait=maiar
@@ -329,7 +329,7 @@
 	} #Sauron comes to the Eldar under a fair guise
 	6482.1.1={
 		name="Sauron"
-		give_nickname = nick_the_dark_lord
+		give_nickname = nick_the_great
 		remove_trait = fair
 		add_trait = strong
 		add_trait = wroth
@@ -347,10 +347,11 @@
 		add_trait = ringbearer2
 		add_trait = spiritform
 	} #Sauron is defeated and loses the Ring
-	8482.1.1={
+	6482.1.1={
 		name="Necromancer"
 		dynasty = 0
-		give_nickname = nick_the_black
+		give_nickname = 0
+		
 	} #Sauron come to Dol Guldur
 	10345.1.1={
 		add_trait = palantir_ithil
@@ -362,7 +363,7 @@
 	11284.1.1={
 		name="Sauron"
 		dynasty = 10012
-		give_nickname = nick_the_dark_lord
+		give_nickname = nick_the_great
 	} #Sauron come back to Mordor after the attack of the White Council on Dol Guldur
 	11362.3.25={
 		death= "11362.3.25"
@@ -691,7 +692,7 @@
 		add_rival=10033 #Gandalf
 	} #Saruman is fully corrupted by Sauron
 	11362.3.13 ={
-   		give_nickname = nick_the_traitor
+   		give_nickname = 0
  	} #Saruma isn't the major Istari anymore
 	11362.11.3={
 		death="11362.11.3"
@@ -972,7 +973,7 @@
 }
 
 
-## Ents 10048-10060 and 10080+ (were conflicting with Eagle and Dragon IDs)##
+## Ents ##
 
 10048 = {
 	name="Treebeard"
@@ -1157,7 +1158,7 @@
 		birth="4510.1.1"
 	}
 }
-10086 = {
+10066 = {
 	name="Baillas"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1171,7 +1172,7 @@
 		birth="4530.1.1"
 	}
 }
-10087 = {
+10067 = {
 	name="Barkmaster"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1185,7 +1186,7 @@
 		birth="4550.1.1"
 	}
 }
-10088 = {
+10068 = {
 	name="Caradhrian"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1199,7 +1200,7 @@
 		birth="4580.1.1"
 	}
 }
-10089 = {
+10069 = {
 	name="Fastroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1213,7 +1214,7 @@
 		birth="4580.1.1"
 	}
 }
-10090 = {
+10070 = {
 	name="Fircomb"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1227,7 +1228,7 @@
 		birth="4588.1.1"
 	}
 }
-10091 = {
+10071 = {
 	name="Greenroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1241,7 +1242,7 @@
 		birth="4590.1.1"
 	}
 }
-10092 = {
+10072 = {
 	name="Limbkeeper"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1255,7 +1256,7 @@
 		birth="4520.1.1"
 	}
 }
-10093 = {
+10073 = {
 	name="Lindenroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1269,7 +1270,7 @@
 		birth="4510.1.1"
 	}
 }
-10094 = {
+10074 = {
 	name="Longroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1283,7 +1284,7 @@
 		birth="4512.1.1"
 	}
 }
-10095 = {
+10075 = {
 	name="Pincat"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1297,7 +1298,7 @@
 		birth="4511.1.1"
 	}
 }
-10096 = {
+10076 = {
 	name="Sharpleaf"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1311,7 +1312,7 @@
 		birth="4518.1.1"
 	}
 }
-10097 = {
+10077 = {
 	name="Stiffbranch"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1325,7 +1326,7 @@
 		birth="4518.1.1"
 	}
 }
-10098 = {
+10078 = {
 	name="Twiglate"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1339,7 +1340,7 @@
 		birth="4528.1.1"
 	}
 }
-10099 = {
+10079 = {
 	name="Wisewood"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1586,6 +1587,7 @@
 	religion="religion_eruhini"
 	culture="culture_eagles"
 	add_trait = eagle
+	add_trait = proud
 	add_trait = brave
 	add_trait = kind
 	add_trait = proud
@@ -1668,7 +1670,7 @@
 	add_trait = kind
 	add_trait = tall
 	add_trait = honest
-	add_trait = charismatic_negotiator	
+	add_trait = charismatic_negociator	
 	3250.1.1={
 		birth="3250.1.1"
 	}
