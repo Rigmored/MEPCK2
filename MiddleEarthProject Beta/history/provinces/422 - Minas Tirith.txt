@@ -263,4 +263,3 @@ religion = religion_dunedain
 				b_great_gate_tirith = ca_Nstable_3
 				b_great_gate_tirith = ca_Ntown_3
 				b_great_gate_tirith = ca_Nelitetroops_3
-}

@@ -36,10 +36,6 @@ e_angmar_adj;Angmarim;Angmarim;;;;;;;;;;;;x
 e_isenvale;Isenvale;Val d'Isen;;;;;;;;;;;;x
 e_isenvale_adj;Isenrim;Isenrim;;;;;;;;;;;;x
 e_anadune;Anadûnê;Anadûnê;;;;;;;;;;;;x
-e_anadune_adj;Anadûrim;Anadûrim;;;;;;;;;;;;x
+e_anadune_desc;Anadûrim;Anadûrim;;;;;;;;;;;;x
 e_all_mountains;the Dwarvish Union;l'Union des Peuples Nains;;;;;;;;;;;;x
 e_all_mountains_adj;Khazad;Khazad;;;;;;;;;;;;x
-e_silvan_elves;Galadhrimien;;;;;x
-e_silvan_elves_adj;Galadhrim;;;;;x
-e_pirates_adj;Pirate;;;;;x
-

@@ -7,9 +7,10 @@ title = c_enedhir
 # Settlements
 max_settlements = 5
 
-b_dol_enedhir = castle
+b_echorost = castle
+b_dol_enedhir = city
 b_garth = city
-b_bragol = city
+#b_bragol = city
 #b_enedhirost = city
 
 

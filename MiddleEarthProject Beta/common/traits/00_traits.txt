@@ -716,9 +716,7 @@ weak = {
 
 celibate = {
     potential = {
-		NOT = {
-		religion_group = religion_group_melkor 
-	    }
+		NOT = { religion_group = religion_group_melkor }
 	}
 	lifestyle = yes
 	
@@ -794,7 +792,7 @@ mystic = {
 }
 impaler = {
 	lifestyle = yes
-	
+
     opposites =  {
 		kind
 	}

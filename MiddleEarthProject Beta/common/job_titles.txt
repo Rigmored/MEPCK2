@@ -21,7 +21,13 @@ job_chancellor = {
 	allow = {
 		OR = {
 			AND = {
-				is_female = no
+				OR = {
+					is_female = no
+					AND = {
+						religion = cathar
+						liege = { religion = cathar }
+					}
+				}
 				is_adult = yes
 			}
 			has_character_flag = special_chancellor
@@ -63,7 +69,17 @@ job_marshal = {
 	allow = {
 		OR = {
 			AND = {
-				is_female = no
+				OR = {
+					is_female = no
+					AND = {
+						religion = cathar
+						liege = { religion = cathar }
+					}
+				}
+				OR = {
+					NOT = { religion = hindu }
+					trait = kshatriya
+				}
 				is_adult = yes
 			}
 			has_character_flag = special_marshal
@@ -71,6 +87,7 @@ job_marshal = {
 		
 		prisoner = no
 		NOT = { trait = incapable }
+		NOT = { has_character_flag = guru }
 		OR = {
 			AND = {
 				has_character_flag = sauron
@@ -120,7 +137,13 @@ job_treasurer = {
 	allow = {
 		OR = {
 			AND = {
-				is_female = no
+				OR = {
+					is_female = no
+					AND = {
+						religion = cathar
+						liege = { religion = cathar }
+					}
+				}
 				is_adult = yes
 			}
 			has_character_flag = special_treasurer
@@ -169,6 +192,16 @@ job_spymaster = {
 							spouse = { character = FROM }
 						}
 					}
+					AND = {
+						religion_group = pagan_group
+						liege = {
+							religion_group = pagan_group
+						}
+					}
+					AND = {
+						religion = cathar
+						liege = { religion = cathar }
+					}
 				}
 				is_adult = yes
 			}
@@ -216,7 +249,22 @@ job_spiritual = {
 		OR = {
 			AND = {
 				is_adult = yes
-				is_female = no
+				OR = {
+					is_female = no
+					AND = {
+						religion_group = pagan_group
+						NOT = { religion = aztec }
+						NOT = { religion = aztec_reformed}
+						NOT = { religion = tengri_pagan }
+						NOT = { religion = tengri_pagan_reformed}
+					}
+					religion = cathar
+					religion = bogomilist
+				}
+				OR = {
+					NOT = { religion = hindu }
+					trait = brahmin
+				}
 			}
 			has_character_flag = special_spiritual
 		}
@@ -232,6 +280,7 @@ job_spiritual = {
 		
 		OR = {
 			is_theocracy = yes
+			liege = { religion_group = muslim }
 			AND = {
 				is_ruler = no
 				has_autocephaly = no
@@ -239,6 +288,8 @@ job_spiritual = {
 		}
 		
 		OR = {
+			NOT = { religion_group = muslim }
+			NOT = { liege = { religion_group = muslim } }
 			trait = detached_priest
 			trait = martial_cleric
 			trait = scholarly_theologian
@@ -251,6 +302,7 @@ job_spiritual = {
 		opinion = { who = FROM modifier = opinion_fired_from_council }
 	}
 	dismiss_trigger = {
+		NOT = { FROM = { religion_group = muslim } }
 	}
 	
 	action = action_heal_troops

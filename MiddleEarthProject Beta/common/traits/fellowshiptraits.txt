@@ -1,3 +1,15 @@
+sam = { # Sam only
+	customizer = no
+	cached = yes
+	random = no
+}
+
+pippin = { # Pippin only
+	customizer = no
+	cached = yes
+	random = no
+}
+
 spiritform = {
     customizer = no
 	cached = yes

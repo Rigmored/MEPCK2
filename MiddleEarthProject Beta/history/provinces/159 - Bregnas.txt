@@ -8,7 +8,8 @@ max_settlements = 5
 
 b_bregnas = tribal
 b_aldburh = tribal
-b_codravnas = tribal
+b_sorhaur = tribal
+#b_codravnas = city
 #b_tostivil = city
 
 # Misc

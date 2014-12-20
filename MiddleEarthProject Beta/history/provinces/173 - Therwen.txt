@@ -7,8 +7,9 @@ title = c_therwen
 max_settlements = 5
 
 b_herwen = castle
+b_dinach = city
 b_therwenil = city
-b_minas_aedli = city 
+#b_minas_aedli = city 
 #b_murovatil = city
 
 # Misc
