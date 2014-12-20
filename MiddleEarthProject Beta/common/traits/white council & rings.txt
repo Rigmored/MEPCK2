@@ -202,7 +202,7 @@ dead_target = {
 	customizer = no
 }
 
-##### KINGS OF GONDOR TRAITS #####
+##### KINGS OF GONDOR (AND/OR ARNOR) TRAITS #####
 ship_king = {
 	customizer = no	
 	stewardship = 1
@@ -227,7 +227,12 @@ umbardacil = {
 	martial = 1
 	vassal_opinion = 10
 }
-
+angmardacil = {
+	customizer = no
+	monthly_character_prestige = 1.0
+	diplomacy = 1
+	same_religion_opinion = 10
+}
 #####################
 ##### PALANTIRI #####
 #####################
