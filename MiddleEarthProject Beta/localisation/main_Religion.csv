@@ -39,6 +39,8 @@ religion_olog;Troll;Troll;;;;;x
 religion_wilderness;Wilderness;Vie sauvage;;;Lande Selvagge;;;;;x
 religion_nurning;Núrnoth;Núrnoth;;;Núrnoth;;;;;x
 religion_wight;Wights;;;;Spettri;;x
+religion_spider;;Spiders;;;;;;;;;;;;;;x
+religion_dragons;Dragons;;;;;;;;;;;;;;x
 #RELIGIONS_DESC;;;;;;;x
 religion_eruhini_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;;x
 #Onodrim
@@ -95,11 +97,13 @@ religion_wilderness_DESC;The wilderness is uninhabited land which can be colonis
 religion_wight_DESC;Wights, also known with the Sindarin name of Gordain, are powerful Spirits which can take possession of dead bodies and often have great knowledge in Dark Sorcery.;;;;"Gli Spettri, spesso indicati col nome Sindarin ""Gordain"" sono potenti spiriti oscuri capaci di prendere possesso di cadaveri e scheletri controllando ciò che ne resta. Solitamente sono esseri guidati da potenti conoscitori della Stregoneria.";;x
 #GODS;;;;;;;x
 GOD_THE_MAIAR;The Maiar;Les Maiar;;;Maiar;;x
-GO_THE_VALAR;The Valar;Les Valar;;;Valar;;x
+GOD_THE_VALAR;The Valar;Les Valar;;;Valar;;x
 GOD_ERU;Eru Ilúvatar;Eru Ilúvatar;;;Eru Ilúvatar;;x
 GOD_MAHAL;Aulë Mahal;Aulë Mahal;;;Aulë Mahal;;x
 GOD_YAVANNA;Yavanna Kementári;Yavanna Kementári;;;Yavanna Kementári;;x
 GOD_THE_POWERS;The Powers;Les Pouvoirs;;;I Poteri;;x
+GOD_SAURON;Sauron;;;;;;;;;;;;;;x
+GOD_POWER;Power;;;;;;;;;;;;;;x
 GOD_WEALTH;Wealth;Fortune;;;Ricchezza;;x
 GOD_MORGOTH;Melkor Morgoth;Melkor Morgoth;;;Melkor Morgoth;;x
 PROPHET_SAURON;Sauron;Sauron;;;Sauron;;x

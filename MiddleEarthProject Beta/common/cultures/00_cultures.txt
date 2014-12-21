@@ -2069,8 +2069,27 @@ culture_group_halfling = {
 			Druda_Druda Eglantine_Eglantine Esmeralda_Esmeralda Estella_Estella Gerda_Gerda Gilly_Gilly Goldilocks_Goldilocks Hanna_Hannah Hilda_Hilda Hildigrim_Hildigrim Ivy_Ivy Jessamine_Jessamine Lalia_Lalia Lavender_Lavender Laura_Laura Laterose_Laterose Lily_Lily Linda_Linda Lobelia_Lobelia Malva_Malva Marigold_Marigold
 			May_May Melilot_Melilot Menegilda_Menegilda Mentha_Mentha Mimosa_Mimosa Mirabella_Mirabella Myrtle_Myrtle Nina_Nina Nora_Nora Pansy_Pansy Pearl_Pearl Peony_Peony Pervinca_Pervinca Pimpernel_Pimpernel Poppy_Poppy Primrose_Primrose Primula_Primula Prisca_Prisca Rosa_Rose Rosamunda_Rosamunda Rose_Rose Rosie_Rose
 			Rowan_Rowan Ruby_Ruby Salvia_Salvia Sapphira_Sapphira Tanta_Tanta Widow_Widow
+			
+			}
+			from_dynasty_prefix = "of "
+		
+			male_patronym = "son of "
+			female_patronym = "daughter of "
+			prefix = yes 
+			
+			# 
+			pat_grf_name_chance = 80
+			mat_grf_name_chance = 0
+			father_name_chance = 0
+			
+			# 
+			pat_grm_name_chance = 10
+			mat_grm_name_chance = 50
+			mother_name_chance = 0
+			
+			modifier = halfling_culture_modifier
 		}
-	}
+	
 }
 
 culture_group_dwarves = {
