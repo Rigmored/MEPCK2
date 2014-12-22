@@ -439,6 +439,7 @@
 	add_trait=just
 	add_trait=honest
 	add_trait=great_rider
+	add_trait=twin
 	
 11321.1.1={
 		birth=yes
@@ -495,7 +496,7 @@ death_reason = death_battle
 	}
 	11362.4.1={give_nickname = nick_eadig} #"the Blessed"
 	11364.1.4={
-		add_spouse=1907
+		add_spouse=1909 #Lothiriel
 	}
 	11427.1.1={death="11427.1.1"}
 }
@@ -538,7 +539,7 @@ death_reason = death_battle
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
 	father=27
-	mother=1907
+	mother=1909 
 	add_trait=fair
 	add_trait=cavalry_leader
 	add_trait=good_rider
@@ -597,7 +598,7 @@ death_reason = death_battle
 	culture="culture_rohirrim"
 	father=31
 	add_trait=cavalry_leader
-	10863.1.1={birth="108631.1.1"}
+	10863.1.1={birth="10863.1.1"}
 	10888.1.1={
 		add_spouse=34
 	}
@@ -718,7 +719,7 @@ death_reason = death_battle
 	add_trait=cavalry_leader
 	11031.1.1={birth="11031.1.1"}
 	11068.1.1={
-		add_spouse=330
+		add_spouse=332
 	}
 	11097.1.1={death="11097.1.1"}
 }
@@ -811,6 +812,7 @@ death_reason = death_battle
 	father=24
 	mother=30
 	add_trait=fair
+	add_trait=twin
 	11321.1.1={birth="11321.1.1"}
 	11358.1.1={death="11358.1.1"}
 }
@@ -2010,7 +2012,7 @@ death_reason = death_battle
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
 	father=123
-	10888.1.1={birth="10888.1.1"}
+	10887.1.1={birth="10887.1.1"}
 	10976.1.1={death="10976.1.1"}
 }
 
@@ -2654,7 +2656,7 @@ death_reason = death_battle
 	add_trait=cavalry_leader
 	add_trait=good_rider
 	11304.1.1={birth="11304.1.1"}
-	11335.1.1={
+	11337.1.1={
 		add_spouse=49
 	}
 	11388.1.1={death="11388.1.1"}
@@ -3921,7 +3923,7 @@ death_reason = death_battle
 	culture="culture_rohirrim"
 	father=398
 	mother=308
-	11317.1.1={birth="11317.1.1"}
+	11320.1.1={birth="11320.1.1"}
 	11336.1.1={
 		add_spouse=304
 	}
@@ -4172,7 +4174,7 @@ death_reason = death_battle
 	10852.1.1={
 	birth="10852.1.1"
 	}
-	10870.1.1={
+	10872.1.1={
 	add_spouse=9154
 	}
 	11042.1.1={
@@ -4375,7 +4377,7 @@ add_friend=4085 #Bofur
 	birth="11200.1.1"
 	}
 	11235.1.1={
-	add_spouse= 359
+	add_spouse= 356
 	}
 	11290.1.1={
 	death="11290.1.1"
@@ -4567,8 +4569,8 @@ add_friend=4085 #Bofur
 	11290.1.1={
 	add_spouse=361
 	}
-	11315.1.1={
-	death="11315.1.1"
+	11320.1.1={
+	death="11320.1.1"
 	}
 }
 360 = {
@@ -4937,7 +4939,7 @@ add_friend=4085 #Bofur
 	11285.1.1={
 	birth=yes
 	}
-	11300.1.1={
+	11301.1.1={
 	add_spouse=384
 	}
 	11348.1.1={
@@ -4949,7 +4951,7 @@ add_friend=4085 #Bofur
 	female=yes
 	religion="religion_rhovanion"
 	culture="culture_rohirrim"
-	11288.1.1={
+	11285.1.1={
 	birth=yes
 	}
 	11342.1.1={
