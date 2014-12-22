@@ -249,7 +249,7 @@ EVTTITpalantir.58;A call from a Palantir;Un appel par le Palantir;;;;;x
 EVTDESCpalantir.58;A Guardian of one of the Palantíri contacted you via the stone of vision. He's currently at war, and asks for your help in this conflict. With your stone, you see that it is indeed threatened by enemies. What will you do?;Un des gardiens des Palantiri vous a contacté via la pierre de vision. Il est actuellement en guerre, et demande votre aide dans ce conflit. Avec votre pierre, vous voyez qu'il est en effet menacé par des ennemis. Qu'allez-vous faire?;;;;;x
 EVTOPTApalantir.58;I'll send more soldiers.;Je vais envoyer plus de troupes.;;;;;x
 EVTOPTBpalantir.58;We'll join his war!;Nous nous joindrons à lui !;;;;;x
-EVTOPTApalantir.58;I can't help him.;Je ne peux pas l'aider.;;;;;x
+EVTOPTCpalantir.58;I can't help him.;Je ne peux pas l'aider.;;;;;x
 EVTTITpalantir.59;More troops;Plus de soldats;;;;;x
 EVTDESCpalantir.59;The Guardian of the Palantir you contacted responded positively to your request, and sends you new troops of his personal guard to help you in this conflict.;Le Gardien du Palantir que vous avez contacté a répondu positivement à votre demande, et vous envoie de nouvelles troupes de sa garde personnelle pour vous aider dans ce conflit.;;;;;x
 EVTOPTApalantir.59;Great!;Parfait !;;;;;x

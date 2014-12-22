@@ -68,7 +68,6 @@ ASK_TO_JOIN_WAR_INTERACTION_LONG_DESC;You can offer to join rulers of your own R
 DECLARE_WAR_INTERACTION_4;§RNearby [Recipient.Religion.GetName] rulers might ask to join [Recipient.GetTitledName] in defense of their Race.§!;§RNearby [Recipient.Religion.GetName] rulers might ask to join [Recipient.GetTitledName] in defense of their Race.§!;;;;;x
 opinion_accepted_religion;Accepted My Race;Accepted My Race;;;;;x
 opinion_wrong_religion;Wrong Race;Wrong Race;;;;;x
-CHURCH_NAME;The $RELIGION$ Race;The $RELIGION$ Race;;;;;x
 HINT_PLOT_VIEW_TEXT_2;The Decisions available to you depend on a number of factors, such as your character'sRace. There are many different Decisions that cover everything from inviting new nobles to holding grand tournaments.;The Decisions available to you depend on a number of factors, such as your character'sRace. There are many different Decisions that cover everything from inviting new nobles to holding grand tournaments.;;;;;x
 RETCAP_FROM_RELIGION;From Race: $AMOUNT$\n;From Race: $AMOUNT$\n;;;;;x
 RELIGION_UNIT_MODIFIER;Modifier to all Units and Holdings controlled by this Race:;Modifier to all Units and Holdings controlled by this Race:;;;;;x
@@ -95,7 +94,6 @@ gondorian_penalty;Gondorian Malus;Gondorian Malus;;;;;x
 dunedain_penalty;Dúnadan Malus;Dúnadan Malus;;;;;x
 ent_penalty;Onodrim Malus;Onodrim Malus;;;;;x
 tax_of_mordor;Tributes of Mordor;Tributes of Mordor;;;;;x
-black_fume;Black Fumes;Black Fumes;;;;;x
 druedain_penalty;Drúadan Malus;Drúadan Malus;;;;;x
 wilderness_penalty;Wilderness Malus;Wilderness Malus;;;;;x
 centralization;Authority;Authority;;;;;x
@@ -140,9 +138,9 @@ STAT_PRESTIGE;Influence;Influence;;;;;x
 STAT_PRESTIGE_DESC;Influence is a measure of your success and can be spent to carry out special actions. The Influence of each successive ruler you play is summed up and used to calculate your final score.;Influence is a measure of your success and can be spent to carry out special actions. The Influence of each successive ruler you play is summed up and used to calculate your final score.;;;;;x
 TITLE_CREATION_DESC;You need to control §Y$REQ_PERC$%§! of its de jure Counties to create this title. Currently, you control $PERC$ ($HELD$/§Y$ALL$§!). Creating this title would give you §G$PRESTIGE$§! Influence and cost you §R$GOLD$§! Gold.;You need to control §Y$REQ_PERC$%§! of its de jure Counties to create this title. Currently, you control $PERC$ ($HELD$/§Y$ALL$§!). Creating this title would give you §G$PRESTIGE$§! Influence and cost you §R$GOLD$§! Gold.;;;;;x
 TITLE_USURPATION_DESC;You need to control §Y$REQ_PERC$%§! of its de jure Counties to usurp this title. Currently, you control $PERC$ ($HELD$/§Y$ALL$§!). Usurping this title would give you §G$PRESTIGE$§! Influence and cost you §R$GOLD$§! Gold.;You need to control §Y$REQ_PERC$%§! of its de jure Counties to usurp this title. Currently, you control $PERC$ ($HELD$/§Y$ALL$§!). Usurping this title would give you §G$PRESTIGE$§! Influence and cost you §R$GOLD$§! Gold.;;;;;x
-TITLE_CREATION_COST_DESC;Creating this title would give you §G$PRESTIGE$§b Influence and cost you §R$GOLD$§b Gold.;Creating this title would give you §G$PRESTIGE$§b Influence and cost you §R$GOLD$§b Gold.;;;;;x
-TITLE_USURPATION_COST_DESC;Usurping this title would give you §G$PRESTIGE$§b Influence and cost you §R$GOLD$§b Gold.;Usurping this title would give you §G$PRESTIGE$§b Influence and cost you §R$GOLD$§b Gold.;;;;;x
-STAT_SCORE_DESC;The Influence and [Player.Religion.GetPietyName] of each successive character you have played is added to your score at the time of their death. Your score will determine your final rank when the game ends.;The Influence and [Player.Religion.GetPietyName] of each successive character you have played is added to your score at the time of their death. Your score will determine your final rank when the game ends.;;;;;x
+#TITLE_CREATION_COST_DESC;Creating this title would give you §G$PRESTIGE$§b Influence and cost you §R$GOLD$§b Gold.;Creating this title would give you §G$PRESTIGE$§b Influence and cost you §R$GOLD$§b Gold.;;;;;x
+TITLE_USURPATION_COST_DESC;Usurping this title would give you §G$PRESTIGE$§! Influence and cost you §R$GOLD$§! Gold.;Usurping this title would give you §G$PRESTIGE$§! Influence and cost you §R$GOLD$§! Gold.;;;;;x
+#STAT_SCORE_DESC;The Influence and [Player.Religion.GetPietyName] of each successive character you have played is added to your score at the time of their death. Your score will determine your final rank when the game ends.;The Influence and [Player.Religion.GetPietyName] of each successive character you have played is added to your score at the time of their death. Your score will determine your final rank when the game ends.;;;;;x
 MONTHLY_PRESTIGE;Monthly Influence;Monthly Influence;;;;;x
 TITLE_PRESTIGE;Monthly Influence;Monthly Influence;;;;;x
 DYNASTY_PRESTIGE_DESC;The influence of a dynasty is measured by the number and rank of titles ever held by its members, living and dead. A fraction of this sum is given to each new member of the dynasty at birth, and to anyone who marries a member of the dynasty.;The influence of a dynasty is measured by the number and rank of titles ever held by its members, living and dead. A fraction of this sum is given to each new member of the dynasty at birth, and to anyone who marries a member of the dynasty.;;;;;x
@@ -222,7 +220,7 @@ CREATING_TREES; ; ;;;;;x
 CREATING_BORDERS; ; ;;;;;x
 CREATING_RIVERS; ; ;;;;;x
 MAP_PROPERLY_INIT; ; ;;;;;x
-#CREATING_PROVINCE;Creating Province #;Création des Provinces;;;;;x
+CREATING_PROVINCE; ; ;;;;;x
 CREATING_TEXTS; ; ;;;;;x
 LOAD_EVENTS; ; ;;;;;x
 ADAPTING_HISTORY; ; ;;;;;x

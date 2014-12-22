@@ -33,7 +33,7 @@ EVTOPTAfallofarnor.9;Come to me, Men of the Hills!;Venez à moi, Hommes des Colli
 EVTOPTBfallofarnor.9;No, it's over.;Non, j'en ai fait assez.;;;;;;;;;;;;x
 EVTTITfallofarnor.10;End of a line;La fin d'une Lignée;;;;;;;;;;;;x
 EVTDESCfallofarnor.10;Your spies report that the heirs of Forodacil were killed by Ulfang. The Line of Rhudaur will be extinguished with the current king's death, and it's now time for Ulfang to conquer the land.;Vos espions rapportent que les héritiers de Forodacil ont été tués par Ulfang. La lignée du Rhudaur s'éteindra avec la mort de l'actuel Roi, et il est temps pour Ulfang de conquérir ces terres.;;;;;;;;;;;;x
-EVTOPTAfallofarnor.9;Good…;Très bien…;;;;;;;;;;;;x
+EVTOPTAfallofarnor.10;Good…;Très bien…;;;;;;;;;;;;x
 EVTTITfallofarnor.11;War in Rhudaur;La Guerre au Rhudaur;;;;;;;;;;;;x
 EVTDESCfallofarnor.11;Your spies report that just after the death of your sons, Ulfang began to gather an army. It seems clear now that he's the author of these murders, and you should go to crush his rebellion now.;Vos espions vous rapportent que juste après la mort de vos fils, Ulfang a commencé à rassembler une armée. Il semble clair maintenant qu'il est l'auteur de ces meurtres, et vous devriez aller écraser sa rebellion dès maintenant.;;;;;;;;;;;;x
 EVTOPTAfallofarnor.11;I'll crush this fool !;Je vais écraser cet avorton !;;;;;;;;;;;;x
@@ -158,8 +158,8 @@ EVTOPTBfallofarnor.41;All is lost…;Tout est perdu…;;;;;;;;;;;;x
 EVTTITfallofarnor.42;A new King of Arnor ?;Un Nouveau Roi d'Arnor ?;;;;;;;;;;;;x
 EVTDESCfallofarnor.42;You gather your council, announcing that you'll claim the crown of Arnor. Your advisors are asking you if you're going to try to reunificate Arthedain and Cardolan, or take the crown for yourself?;Vous réunissez votre conseil, annonçant que vous allez réclamer la couronne d'Arnor. Vos conseillers vous demandent alors si vous allez tenter de réunir l'Arthedain et le Cardolan, ou de prendre cette couronne pour vous-même?;;;;;;;;;;;;x
 EVTOPTAfallofarnor.42;Arthedain is the last Strong Kingdom;Arthedain est le seul Royaume qui vaille.;;;;;;;;;;;;x
-EVTOPTBfallofarnor.41;Cardolan should remains to Arnor !;Le Cardolan doit faire partie d'Arnor !;;;;;;;;;;;;x
-EVTOPTCfallofarnor.41;It as a bad idea…;C'était une mauvaise idée…;;;;;;;;;;;;x
+EVTOPTBfallofarnor.42;Cardolan should remains to Arnor !;Le Cardolan doit faire partie d'Arnor !;;;;;;;;;;;;x
+EVTOPTCfallofarnor.42;It as a bad idea…;C'était une mauvaise idée…;;;;;;;;;;;;x
 EVTTITfallofarnor.43;The King of Arnor;Le Roi d'Arnor;;;;;;;;;;;;x
 EVTDESCfallofarnor.43;A large ceremony was held in front of the palace of Annúminas. All the nobles houses of the kingdom are here, and rejoice while we put on your head the crown of Arnor.;Une grande cérémonie a lieu devant le palais d'Annuminas. Tout les nobles du Royaume sont réunis, et se réjouissent, alors que l'on pose sur votre tête la couronne d'Arnor.;;;;;;;;;;;;x
 EVTOPTAfallofarnor.43;I'm the True King !;Je suis le Roi !;;;;;;;;;;;;x

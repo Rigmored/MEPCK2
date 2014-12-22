@@ -35,7 +35,7 @@ EVTOPTAgondorwotr.9;We should resist!;Nous devons résister!;;;;;;;;;;;;x
 EVTTITgondorwotr.10;Invasion of Gondor;L'Invasion du Gondor;;;;;;;;;;;;x
 EVTDESCgondorwotr.10;The Kingdom of Gondor is at war with Sauron the Great, and called most of his men around Minas Tirith. It's maybe time to attack and reconquer the land of Castamir, the True King of Gondor!;Le Royaume du Gondor est en guerre contre Sauron le Grand, et la plupart de ses forces sont concentrées autour de Minas Tirith. Nous devrions en profiter pour attaquer, et reconquérir ces terres au nom de Castamir, le Véritable Roi du Gondor!;;;;;;;;;;;;x
 EVTOPTAgondorwotr.10;I'll test their defenses in Tolfalas.;Je vais tester leurs défenses à Tolfalas.;;;;;;;;;;;;x
-EVTOPTAgondorwotr.10;No, I can't attack them.;Non, je ne peux les attaquer.;;;;;;;;;;;;x
+EVTOPTBgondorwotr.10;No, I can't attack them.;Non, je ne peux les attaquer.;;;;;;;;;;;;x
 EVTTITgondorwotr.11;The Corsairs of Umbar;Les Corsaires d'Umbar;;;;;;;;;;;;x
 EVTDESCgondorwotr.11;You learned that in the South, the Black Fleet of Umbar is moving. This is a bad news, and you can't send all your army to defeat them, as you're fighting in the East against Sauron.;Vous apprenez que dans le Sud, la Flotte Noire d'Umbar s'est mise en mouvement. C'est une mauvaise nouvelle, et vous ne pouvez envoyer votre armée au Sud, car vous devez déjà combattre Sauron à l'Est. ;;;;;;;;;;;;x
 EVTOPTAgondorwotr.11;Wait… WHAT?;Attendez… QUOI?;;;;;;;;;;;;x
@@ -58,58 +58,3 @@ EVTOPTAgondorwotr.16;To War!;A la Guerre!;;;;;;;;;;;;x
 EVTTITgondorwotr.17;Osgiliath;Osgiliath;;;;;;;;;;;;x
 EVTDESCgondorwotr.17;In the middle of the night, yours sentinels started hearing noises, like whispers carried by the wind. Soon, they saw the boats and drawbridges. The legions of Sauron are crossing the Anduin.;Au coeur de la Nuit, vos sentinelles ont commencé à entendre des bruits, comme des murmures portés par le vent. Très vite, ils ont aperçus des embarcations ainsi que des ponts mobiles. Les légions de Sauron sont en train de traverser l'Anduin.;;;;;;;;;;;;x
 EVTOPTAgondorwotr.17;We shall resist!;Nous devons résister!;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x

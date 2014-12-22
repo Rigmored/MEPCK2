@@ -51,7 +51,7 @@ EVTOPTBholywars.13;This is folly, I will not send help.;Pas de guerre pour moi.;
 EVTTITholywars.14;Reclaim Gundabad;Reconquérir Gundabad;;;;;;;;;;;x
 EVTDESCholywars.14;You receive a response from [From.GetTitle] [From.GetFirstName]. He will join you with a war party to reclaim the Mount where Durin the Deathless awoke.;Vous recevez la réponse de [From.GetFirstName], et celle-ci est positive. Il vous rejoindra avec une partie de ses forces, pour reprendre ce Mont Saint des Nains.;;;;;;;;;;;x
 EVTOPTAholywars.14;We are stronger together!;Nous sommes plus forts!;;;;;;;;;;;x
-EVTTITholywars.14;Threatening Dwarves;Des Nains menaçants…;;;;;;;;;;;x
+EVTTITholywars.15;Threatening Dwarves;Des Nains menaçants…;;;;;;;;;;;x
 EVTDESCholywars.15;Your spies report to you that Dwarves led by [From.GetTitle] [From.GetFirstName] gather their forces, they hope to reconquer Mount Gundabad. They seem determined, and you will have to fight to defend the city.;Vos espions vous rapportent que des Nains, menés par le [From.GetTitle] [From.GetFirstName], rassemblent leurs forces, dans l'espoir de reprendre le Mont Gundabad de vos mains. Ils semblent déterminés, et il parait évident que vous devrez vous battre pour garder la cité. ;;;;;;;;;;;x
 EVTOPTAholywars.15;I will crush them.;Je les écraserais.;;;;;;;;;;;x
 EVTTITholywars.16;Reclaim Gundabad;Reconquérir Gundabad;;;;;;;;;;;x

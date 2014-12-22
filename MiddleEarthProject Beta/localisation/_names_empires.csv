@@ -39,7 +39,6 @@ e_anadune;Anadûnê;Anadûnê;;;;;;;;;;;;x
 e_anadune_adj;Anadûrim;Anadûrim;;;;;;;;;;;;x
 e_all_mountains;the Dwarvish Union;l'Union des Peuples Nains;;;;;;;;;;;;x
 e_all_mountains_adj;Khazad;Khazad;;;;;;;;;;;;x
-e_silvan_elves;Galadhrimien;;;;;x
-e_silvan_elves_adj;Galadhrim;;;;;x
-e_pirates_adj;Pirate;;;;;x
-
+e_silvan_elves;Galadhrimien;;;;;;x
+e_silvan_elves_adj;Galadhrim;;;;;;;x
+e_pirates_adj;Pirate;;;;;;;x

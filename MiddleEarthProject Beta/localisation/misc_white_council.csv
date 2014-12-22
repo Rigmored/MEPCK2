@@ -7,7 +7,6 @@ best_candidate_title_cardinal_tooltip;Of all my subjects, it is best placed to r
 PREFERATI;Next Head;Prochain Chef;;;;;;;;;;;;x
 PREFERATI_TOOLTIP;This character will be the next head of the White Council, if the current one die.;Ce personnage sera le prochain Chef du Conseil Blanc, si le Chef actuel meurt.;;;;;;;;;;;;x
 POPE;Head;Chef;;;;;;;;;;;;x
-COLLEGE_OF_CARDINALS;The White Council;Le Conseil Blanc;;;;;;;;;;;;x
 title_cardinal;Member of the White Council;Membre du Conseil Blanc;;;;;;;;;;;;x
 CURRENT_CHOICE_DESC;This is the Member's current choice for the next Head of the White Council.;Voici pour qui compte voter ce membre.;;;;;;;;;;;;x
 d_white_council;White Council;Conseil Blanc;;;;;;;;;;;;x

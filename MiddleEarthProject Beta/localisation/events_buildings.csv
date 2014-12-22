@@ -61,10 +61,10 @@ EVTOPTBbuildings.16;I can't do it by myself…;Je ne peux le faire seul…;;;;;;;;;;
 EVTTITbuildings.17;The Bridge of Tharbad;Le Pont de Tharbad;;;;;;;;;;;;x
 EVTDESCbuildings.17;With the help of your men, you've removed the rubbles and rebuilt the bridge. The City of Tharbad will regain its former glory thanks to you, and crossing the Gwathlo is once again safe.;Avec vos hommes, vous avez enlevé les gravas et reconstruit le Pont. La ville de Tharbad va retrouver sa gloire passée grâce à vous, et la traversée du Gwathlo est de nouveau sure.;;;;;;;;;;;;x
 EVTOPTAbuildings.17;I'm proud of this Bridge!;Je suis fier de ce Pont !;;;;;;;;;;;;x
-EVTTITbuildings.16;The Bridge of Tharbad;Le Pont de Tharbad;;;;;;;;;;;;x
-EVTDESCbuildings.16;The Ruins of the Bridge are more dangerous than you think, and some of your men died during construction. The work doesn't seem to move ahead, and you need to hire professional masons to achieve the construction ...;Les ruines du pont sont plus dangereuses que vous ne le pensiez, et certains de vos hommes sont morts durant les travaux. Les travaux ne semblent pas avancer, et il vous faut recruter des maçons professionnels pour avancer plus vite...;;;;;;;;;;;;x
-EVTOPTAbuildings.16;I'll hire more people!;Je vais embaucher plus de monde !;;;;;;;;;;;;x
-EVTOPTBbuildings.16;I can't do it by myself…;Je ne peux le faire seul…;;;;;;;;;;;;x
+EVTTITbuildings.18;The Bridge of Tharbad;Le Pont de Tharbad;;;;;;;;;;;;x
+EVTDESCbuildings.18;The Ruins of the Bridge are more dangerous than you think, and some of your men died during construction. The work doesn't seem to move ahead, and you need to hire professional masons to achieve the construction ...;Les ruines du pont sont plus dangereuses que vous ne le pensiez, et certains de vos hommes sont morts durant les travaux. Les travaux ne semblent pas avancer, et il vous faut recruter des maçons professionnels pour avancer plus vite...;;;;;;;;;;;;x
+EVTOPTAbuildings.18;I'll hire more people!;Je vais embaucher plus de monde !;;;;;;;;;;;;x
+EVTOPTBbuildings.18;I can't do it by myself…;Je ne peux le faire seul…;;;;;;;;;;;;x
 EVTTITbuildings.19;The Bridge of Tharbad;Le Pont de Tharbad;;;;;;;;;;;;x
 EVTDESCbuildings.19;Despite the arrival of more labor, the bridge is in too poor condition to be repaired. You still managed to put in order some pillars, and maybe next time you'll achieve this construction ...;Malgré l'arrivée de plus de main d'oeuvre, le pont est en trop mauvais état pour pouvoir être réparé. Vous avez cependant réussi à remettre en ordre certains pilliers, et peut-être que la prochaine fois, vous y arriverez...;;;;;;;;;;;;x
 EVTOPTAbuildings.19;That damned bridge ...;Ce maudit pont…;;;;;;;;;;;;x

@@ -515,8 +515,8 @@ EVTDESCvalinor.9;You are alone, and making the preparations for your last big jo
 EVTOPTAvalinor.9;This ship will be grand!;Ce Vaisseau sera énorme !;;;;;;;;;;;;x
 EVTvalinor.10;A Last Journey...;Un dernier Voyage…;;;;;;;;;;;;x
 EVTDESCvalinor.10;Your ship is ready and waiting for you to depart. You take a last look at Middle-Earth, and go to the dock. One last question overwhelms you as you board: Have I made the right choice?;Votre navire est prêt, et n'attend plus que vous pour prendre le large. Vous regardez une dernière fois la Terre du Milieu, et vous allez finalement vers le quai.  Un dernier doute vous submerge au moment de monter à bord. Faites-vous le bon choix?;;;;;;;;;;;;x
-EVTOPTAvalinor.8;Yes, I will go to Valinor!;Oui, je vais à Valinor !;;;;;;;;;;;;x
-EVTOPTBvalinor.8;No, I will stay in Middle-Earth.;Non, je resterais finalement en Terre du Milieu.;;;;;;;;;;;;x
+EVTOPTAvalinor.10;Yes, I will go to Valinor!;Oui, je vais à Valinor !;;;;;;;;;;;;x
+EVTOPTBvalinor.10;No, I will stay in Middle-Earth.;Non, je resterais finalement en Terre du Milieu.;;;;;;;;;;;;x
 EVTvalinor.11;A Last Journey...;Un dernier Voyage…;;;;;;;;;;;;x
 EVTDESCvalinor.11;You learn that a has ship left for Aman. On board, the Dwarf, Gimli son of Gloin, and the Silvan Elf, Legolas son of Thranduil. The last members of the Fellowship of the Ring. Their departure is a great loss for Middle-Earth.;Vous apprenez qu'un Navire est parti vers Aman, emmenant avec lui le nain Gimli et l'elfe Legolas, les derniers membres de la Communauté de l'Anneau. Leur départ est une grande perte pour la Terre du Milieu.;;;;;;;;;;;;x
 EVTOPTAvalinor.11;The Last Journey of the Fellowship...;Le dernier Voyage de la Communauté.;;;;;;;;;;;;x
@@ -524,11 +524,11 @@ break_the_vow;Break the Vow of Cerin Amroth;Rompre le Serment de Cerin Amroth;;;
 EVTwotr.105;The Vow of Cerin Amroth;Rompre le Serment de Cerin Amroth;;;;;;;;;;;;x
 EVTDESCwotr.105;Sauron has not yet been defeated, and the years pass. You know it will be difficult to honour your commitments to Elrond, and you cannot marry Arwen in these dark times. If you want to make sure your dynasty continues, you will have to break your vow to Arwen, allowing you marry another woman...;Sauron n'est toujours pas vaincu, et les années passent. Vous savez qu'il sera difficile d'honorer vos engagements envers Elrond, et que vous ne pourrez pas vous marier à Arwen dans ces conditions. Si vous voulez que votre dynastie perdure, vous allez devoir rompre votre serment envers Arwen, pour pouvoir épouser une autre femme...;;;;;;;;;;;;x
 EVTOPTAwotr.105;I will ask Elrond...;Je demande à Elrond…;;;;;;;;;;;;x
-EVTOPTAwotr.105;No, we will be together again.;Non, je peux encore attendre…;;;;;;;;;;;;x
+EVTOPTBwotr.105;No, we will be together again.;Non, je peux encore attendre…;;;;;;;;;;;;x
 EVTwotr.106;The Vow of Cerin Amroth;Rompre le Serment de Cerin Amroth;;;;;;;;;;;;x
 EVTDESCwotr.106;You receive a letter from Aragorn. He has failed to fulfill his obligations to you and requests that you authorize him to break his vow to Arwen. If you accept, Arwen will finally leave for the land of Aman, where she'll remain, heartbroken, until the end of this World...;Vous recevez une missive d'Aragorn. Il a échoué à remplir ces obligations envers vous, et demande à ce que vous l'autorisiez à défaire son serment envers Arwen. Si vous acceptez, Arwen pourra enfin partir pour les terres d'Aman, où elle demeurera jusqu'à la fin de ce Monde...;;;;;;;;;;;;x
 EVTOPTAwotr.106;Arwen, it is time to go West...;Arwen, il est temps d'aller à l'Ouest…;;;;;;;;;;;;x
-EVTOPTAwotr.106;No, I can't break her heart...;Non, je ne peux lui briser le cœur…;;;;;;;;;;;;x
+EVTOPTBwotr.106;No, I can't break her heart...;Non, je ne peux lui briser le cœur…;;;;;;;;;;;;x
 EVTwotr.107;Break the Vow of Cerin Amroth;Rompre le Serment de Cerin Amroth;;;;;;;;;;;;x
 EVTDESCwotr.107;Elrond's response arrived quickly. He agreed to break the vow, and tells you that Arwen is already on the road, to the land of Aman. No mortal will ever see her again. You are now free to marry another...;La réponse d'Elrond est arrivée rapidement. Il accepte de rompre le serment, et vous annonce qu'Arwen est déjà en route pour les terres d'Aman. Aucun mortel ne la reverra. Vous êtes maintenant libre d'épouser une autre femme...;;;;;;;;;;;;x
 EVTOPTAwotr.107;She will remain my only True Love...;Elle restera mon seul vrai amour…;;;;;;;;;;;;x

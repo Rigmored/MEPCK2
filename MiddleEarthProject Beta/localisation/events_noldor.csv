@@ -6,14 +6,14 @@ EVTOPTBknoldor.1;I won't claim it!;Non, ce n'est pas le moment.;;;;;;;;;;;;;x
 EVTknoldor.2;An High King for the Noldor?;Un Haut-Roi pour les Noldor?;;;;;;;;;;;;;x
 EVTDESCknoldor.2;My Lady, there's a King in Eregion now, as it was some millenary ago. He's an heir of the former High Kings, and he ask you now to allow him to take the Crown of High King of the Noldor. What will you say?;Ma Dame, il y a de nouveau un Roi en Eregion, comme il y a plusieurs millénaires de cela. Il est héritier des Rois de jadis, et souhaite que vous lui accordiez le droit de prendre la Couronne de Haut-Roi des Noldor. Qu'allez-vous lui répondre?;;;;;;;;;;;;;x
 EVTOPTAknoldor.2;He'll be a True King!;Il sera un Grand Roi!;;;;;;;;;;;;;x
-EVTOPTAknoldor.2;No more Kings for the Noldor!;Plus jamais de Rois pour les Noldor!;;;;;;;;;;;;;x
+EVTOPTBknoldor.2;No more Kings for the Noldor!;Plus jamais de Rois pour les Noldor!;;;;;;;;;;;;;x
 EVTknoldor.3;Crown of an High King!;Couronnement d'un Haut-Roi!;;;;;;;;;;;;;x
 EVTDESCknoldor.3;The last High King of the Noldor was Gil-Galad, and he was killed during the Last Alliance. Since, no elves were able to claim this title. But you came, and now, you'll restore the glory of the Noldor !;Le dernier Haut-Roi des Noldor était Gil-Galad, mais il a péri durant la Dernière Alliance. Depuis, aucun des votres n'était en position de réclamer la couronne… Mais vous êtes venu, et vous pouvez enfin restorer la Gloire des Noldor! ;;;;;;;;;;;;;x
 EVTOPTAknoldor.3;I'm the Heir of the throne of Fëanor!;Je suis l'Héritier du Trône de Fëanor!;;;;;;;;;;;;;x
 EVTknoldor.4;No crown?;Pas de couronne?;;;;;;;;;;;;;x
 EVTDESCknoldor.4;A letter came from Galadriel, and she told you that Middle-Earth don't need an High-King of the Noldor anymore. She ask you to don't claim anymore this title, for the good of all.;Une lettre est venue de Galadriel, et elle vous annonce qu'à son avis, la Terre du Milieu n'a plus besoin d'un Haut-Roi des Noldor. Elle vous demande d'abandonner cette idée, pour le bien de tous.;;;;;;;;;;;;;x
 EVTOPTAknoldor.4;I'll take the crown anyway!;Je vais me couronner malgré tout.;;;;;;;;;;;;;x
-EVTOPTAknoldor.4;No more Kings for the Noldor!;Plus jamais de Rois pour les Noldor!;;;;;;;;;;;;;x
+EVTOPTBknoldor.4;No more Kings for the Noldor!;Plus jamais de Rois pour les Noldor!;;;;;;;;;;;;;x
 EVTknoldor.8;Crown of an High King!;Couronnement d'un Haut-Roi!;;;;;;;;;;;;;x
 EVTDESCknoldor.8;The last High King of the Noldor was Gil-Galad, and he was killed during the Last Alliance. Since the departure of Galadriel from Lorien, no elves were able to claim this title. But you came, and now, you'll restore the glory of the Noldor !;Le dernier Haut-Roi des Noldor était Gil-Galad, mais il a péri durant la Dernière Alliance. Depuis le départ de Galadriel de la Lorien, aucun des votres n'était en position de réclamer la couronne… Mais vous êtes venu, et vous pouvez enfin restorer la Gloire des Noldor! ;;;;;;;;;;;;;x
 EVTOPTAknoldor.8;I'm the Heir of the throne of Fëanor!;Je suis l'Héritier du Trône de Fëanor!;;;;;;;;;;;;;x

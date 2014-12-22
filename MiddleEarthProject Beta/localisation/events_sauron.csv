@@ -39,7 +39,7 @@ EVTDESCsauron.30;Your master Sauron is sending you to Angmar, to assist the Witc
 EVTOPTAsauron.30;Yes, my Lord.;Oui, Seigneur.;;;;;;;;;;;;x
 EVTTITsauron.31;A new Nazgûl in Angmar;Un nouveau Nazgûl en Angmar;;;;;;;;;;;;x
 EVTDESCsauron.31;Your master Sauron is watching you, and has decided to send reinforcements. Another Nazgûl arrives in Angmar, with orders to assist you in your work. With his presence, you may hasten your victory...;Votre maitre Sauron vous surveille, et a décidé de vous envoyer des renforts. Un Nazgûl arrive en Angmar, avec l'ordre de vous seconder dans vos travaux. Grâce à sa présence, vous gagnerez certainement plus rapidement votre guerre...;;;;;;;;;;;;x
-EVTOPTAsauron.30;I will defeat the Dunedain for you, my Lord.;Je battrais les Dunedains en votre nom, Seigneur Sauron.;;;;;;;;;;;;x
+EVTOPTAsauron.31;I will defeat the Dunedain for you, my Lord.;Je battrais les Dunedains en votre nom, Seigneur Sauron.;;;;;;;;;;;;x
 EVTTITsauron.32;Akhôrahil, Adûnaphazôr and Abrazîr;Akhôrahil, Adûnaphazôr et Abrazîr;;;;;;;;;;;;x
 EVTDESCsauron.32;The three Nazgûl you sent for have arrived, ready to serve you. What will you command of them? To lead an invasion to regain the lands of Mordor? Or to join the Witch-king of Angmar, if he remains undefeated?;Les Trois Nazgûl se présentent devant vous, leurs épée prêtes à vous servir. Qu'allez-vous leur demander? De diriger des armées pour tenter de reprendre les terres du Mordor? Ou de rejoindre le Roi-Sorcier s'il est toujours en Angmar?;;;;;;;;;;;;x
 EVTOPTAsauron.32;You will invade and reconquer the Black Land.;Vous vous battrez pour reconquérir mes terres en Mordor.;;;;;;;;;;;;x

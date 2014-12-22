@@ -25,7 +25,7 @@ EVTOPTAshiretorivendell.05;I will find it.;;;;;;;;;;;;;x
 EVTNAMEshiretorivendell.06;The Ring of Power;;;;;;;;;;;;;x
 EVTDESCshiretorivendell.06;Your trusted friend Gandalf the Grey has asked you travel to Bree and watch for the arrival of a hobbit, Mr. Baggins, who carries the One Ring and is headed for Rivendell. You had pressing business in the north and were unable to leave sooner, and Gandalf has gone on in his own errand. Once there you will watch the roads for signs of the enemy, keep the hobbits safe, and wait for Gandalf to return.;;;;;;;;;;;;;x
 EVTOPTAshiretorivendell.06;I will leave immediately.;;;;;;;;;;;;;x
-EVTOPTAshiretorivendell.06;I don't have time for this.;;;;;;;;;;;;;x
+EVTOPTBshiretorivendell.06;I don't have time for this.;;;;;;;;;;;;;x
 #Frodo, Sam and Pippin leave Bag End and have a chance to be caught by a Black Rider
 EVTNAMEshiretorivendell.1;Three is Company;;;;;;;;;;;;;x
 EVTDESCshiretorivendell.1;You are ready to leave. Pippin and Sam have helped pack all your things and will accompany you to Crickhollow. You plan to meet Merry and Fatty Bolger in Buckland after walking cross country. Only Sam knows about the quest, and you hope Pippin does not find out, although he seems quietly suspicious. \n\nAs you look on Bag End one last time, you overhear a stranger talking to your neighbour the Old Gaffer in harsh tones. Sam's father sounds quite frightened but gives no details of your location away, you can only hope the stranger will not come in your direction...;;;;;;;;;;;;;x
