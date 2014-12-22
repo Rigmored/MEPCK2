@@ -646,7 +646,7 @@
 
 ## House of Buldar ##
 
-7351 = {
+7900 = {
 	name="Buldar"
 	dynasty=7002
 	religion="religion_haldadian"
@@ -678,7 +678,7 @@
 	dynasty=7002
 	religion="religion_haldadian"
 	culture="culture_druwaithing"
-	father=7351
+	father=7900
 	mother=7051
 	5604.1.1={
 			birth="5604.1.1"
@@ -1648,7 +1648,7 @@
 			death="9640.1.1"
 	}
 }
-7352 = {
+7901 = {
 	name="Hazad"
 	dynasty=7005
 	religion="religion_haldadian"
@@ -1666,7 +1666,7 @@
 	dynasty=7005
 	religion="religion_haldadian"
 	culture="culture_calending"
-	father=7352
+	father=7901
 	9685.1.1={
 			birth="9685.1.1"
 	}		

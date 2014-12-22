@@ -1806,14 +1806,14 @@ add_friend=4086 #Bombur
 		death="11050.1.1"
 	}
 }
-4070 = {
+4400 = {
 	name="Halgir"
 	dynasty=4001
 	religion="religion_mahal"
 	culture="culture_longbeard"
 	add_trait=dwarven
 	add_trait=strong
-	father=4069
+	father=4070
 	10909.1.1 = {
 		birth="10909.1.1"
 	}
@@ -1828,7 +1828,7 @@ add_friend=4086 #Bombur
 	culture="culture_longbeard"
 	add_trait=dwarven
 	add_trait=strong
-	father=4070
+	father=4400
 	11032.1.1 = {
 		birth="11032.1.1"
 	}

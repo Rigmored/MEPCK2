@@ -222,7 +222,7 @@
 	}
 }
 17037 = {
-	name="Boroghul"
+	name="Boroghul" #or Asgon ?#
 	dynasty=17001
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -430,7 +430,7 @@
 	}
 }
 17053 = {
-	name="Boroghul"
+	name="Boroghul" #or Oronartai?#
 	dynasty=17001
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -851,7 +851,7 @@
 	}
 }
 17084 = {
-	name="Borlach"
+	name="Borlach" #or Begter ?#
 	dynasty=17001
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -929,7 +929,7 @@
 	}
 }
 17090 = {
-	name="Borlad"
+	name="Borlad" #or Babur ?#
 	dynasty=17001
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -942,7 +942,7 @@
 	}
 }
 17091 = {
-	name="Maglor"
+	name="Maglor" #or Munglig ?#
 	dynasty=17001
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -955,7 +955,7 @@
 	}
 }
 17092 = {
-	name="Bór"
+	name="Bór" #or Usun ?#
 	dynasty=17001
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -994,7 +994,7 @@
 	}
 }
 17095 = {
-	name="Gaeraglar"
+	name="Gaeraglar" #or Jochi? #
 	dynasty=17001
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1007,7 +1007,7 @@
 	}
 }
 17200 = {
-	name="Vána"
+	name="Vána" #or Yedi?#
 	dynasty=17001
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1208,7 +1208,7 @@
 	}
 }	
 17136 = {
-	name="Ulfang"
+	name="Ulfang" #or Ukhuna?#
 	dynasty=17002
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1299,7 +1299,7 @@
 	}
 }	
 17143 = {
-	name="Ulfang"
+	name="Ulfang" #or Gughlug?#
 	dynasty=17002
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1312,7 +1312,7 @@
 	}
 }	
 17144 = {
-	name="Uldor"
+	name="Uldor" #or Khamûl?#
 	dynasty=17002
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1351,7 +1351,7 @@
 	}
 }	
 17147 = {
-	name="Ulmandir"
+	name="Ulmandir" #or Bilgeir?# 
 	dynasty=17002
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1364,7 +1364,7 @@
 	}
 }	
 17148 = {
-	name="Ulmos"
+	name="Ulmos" #or Bujeg ?#
 	dynasty=17002
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1377,7 +1377,7 @@
 	}
 }	
 17149 = {
-	name="Melkor"
+	name="Melkor" #or Oljaitu ?#
 	dynasty=17002
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1390,7 +1390,7 @@
 	}
 }	
 17150 = {
-	name="Melros"
+	name="Melros" #or Ajinai ?#
 	dynasty=17002
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1403,7 +1403,7 @@
 	}
 }	
 17151 = {
-	name="Melros"
+	name="Melros" #or Ajai ?#
 	dynasty=17002
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1653,7 +1653,7 @@
 	}
 }	
 17169 = {
-	name="Ulfang"
+	name="Ulfang" #or Bogen?#
 	dynasty=17002
 	religion="religion_easterlings"
 	culture="culture_easterling"
@@ -1875,5 +1875,3 @@
 		death="11440.1.1"
 	}
 }	
-
-## 5250 ##

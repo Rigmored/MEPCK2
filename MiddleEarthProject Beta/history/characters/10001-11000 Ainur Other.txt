@@ -329,7 +329,7 @@
 	} #Sauron comes to the Eldar under a fair guise
 	6482.1.1={
 		name="Sauron"
-		give_nickname = nick_the_great
+		give_nickname = nick_the_dark_lord
 		remove_trait = fair
 		add_trait = strong
 		add_trait = wroth
@@ -347,11 +347,10 @@
 		add_trait = ringbearer2
 		add_trait = spiritform
 	} #Sauron is defeated and loses the Ring
-	6482.1.1={
+	9343.1.1={
 		name="Necromancer"
 		dynasty = 0
-		give_nickname = 0
-		
+		give_nickname = nick_the_black
 	} #Sauron come to Dol Guldur
 	10345.1.1={
 		add_trait = palantir_ithil
@@ -363,7 +362,7 @@
 	11284.1.1={
 		name="Sauron"
 		dynasty = 10012
-		give_nickname = nick_the_great
+		give_nickname = nick_the_dark_lord
 	} #Sauron come back to Mordor after the attack of the White Council on Dol Guldur
 	11362.3.25={
 		death= "11362.3.25"
@@ -692,7 +691,7 @@
 		add_rival=10033 #Gandalf
 	} #Saruman is fully corrupted by Sauron
 	11362.3.13 ={
-   		give_nickname = 0
+   		give_nickname = nick_the_traitor
  	} #Saruma isn't the major Istari anymore
 	11362.11.3={
 		death="11362.11.3"
@@ -1144,7 +1143,7 @@
 		birth="4520.1.1"
 	}
 }
-10060 = {
+10090 = {
 	name="Chestnuts"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1158,7 +1157,7 @@
 		birth="4510.1.1"
 	}
 }
-10066 = {
+10091 = {
 	name="Baillas"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1172,7 +1171,7 @@
 		birth="4530.1.1"
 	}
 }
-10067 = {
+10092 = {
 	name="Barkmaster"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1186,7 +1185,7 @@
 		birth="4550.1.1"
 	}
 }
-10068 = {
+10093 = {
 	name="Caradhrian"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1200,7 +1199,7 @@
 		birth="4580.1.1"
 	}
 }
-10069 = {
+10094 = {
 	name="Fastroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1214,7 +1213,7 @@
 		birth="4580.1.1"
 	}
 }
-10070 = {
+10095 = {
 	name="Fircomb"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1228,7 +1227,7 @@
 		birth="4588.1.1"
 	}
 }
-10071 = {
+10096 = {
 	name="Greenroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1242,7 +1241,7 @@
 		birth="4590.1.1"
 	}
 }
-10072 = {
+10097 = {
 	name="Limbkeeper"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1256,7 +1255,7 @@
 		birth="4520.1.1"
 	}
 }
-10073 = {
+10098 = {
 	name="Lindenroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1270,7 +1269,7 @@
 		birth="4510.1.1"
 	}
 }
-10074 = {
+10099 = {
 	name="Longroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1284,7 +1283,7 @@
 		birth="4512.1.1"
 	}
 }
-10075 = {
+10100 = {
 	name="Pincat"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1298,7 +1297,7 @@
 		birth="4511.1.1"
 	}
 }
-10076 = {
+10101 = {
 	name="Sharpleaf"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1312,7 +1311,7 @@
 		birth="4518.1.1"
 	}
 }
-10077 = {
+10102 = {
 	name="Stiffbranch"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1326,7 +1325,7 @@
 		birth="4518.1.1"
 	}
 }
-10078 = {
+10103 = {
 	name="Twiglate"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1340,7 +1339,7 @@
 		birth="4528.1.1"
 	}
 }
-10079 = {
+10104 = {
 	name="Wisewood"
 	dynasty=10027
 	religion="religion_enyd"

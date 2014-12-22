@@ -5073,7 +5073,7 @@
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
-	father=3218
+	father=3217
 	mother=3211
 	2300.1.1 = {
 		birth="2300.1.1"
@@ -5098,7 +5098,7 @@
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
-	father=3218
+	father=3217
 	mother=3211
 	3066.1.1 = {
 		birth="3066.1.1"
@@ -5111,7 +5111,7 @@
 	}
 }
 
-3218 = {
+3330 = {
 	name="Vëaúyehtar"
 	dynasty=3019
 	religion="religion_calaquendi"
@@ -5120,7 +5120,7 @@
 	add_trait=fair
 	add_trait=strong
 	father=3218
-	mother=3211
+	mother=3216
 	4366.1.1 = {
 		birth="4366.1.1"
 	}
@@ -5132,7 +5132,7 @@
 	}
 }
 
-3219 = {
+3331 = {
 	name="Nucumnehtar"
 	dynasty=3019
 	religion="religion_calaquendi"
@@ -5141,7 +5141,7 @@
 	add_trait=fair
 	add_trait=strong
 	father=3218
-	mother=3211
+	mother=3216
 	4387.1.1 = {
 		birth="4387.1.1"
 	}
@@ -7053,9 +7053,9 @@
 }
 
 
-### Elves of Edhellond ###
+### Elves of Edhellond 3400+###
 
-3319 = {
+3400 = {
 	name="Gwachaedir"
 	dynasty=3067
 	religion="religion_moriquendi"
@@ -7068,13 +7068,13 @@
 		death="4900.1.1"
 	}	
 }
-3320 = {
+3401 = {
 	name="Ithilbor"
 	dynasty=3060
 	religion="religion_moriquendi"
 	culture="culture_sindar"
 	add_trait=elf	
-	father=3319
+	father=3400
 	4152.1.1 = {
 		birth="4152.1.1"
 	}
@@ -7082,13 +7082,13 @@
 		death="9587.1.1"
 	}	
 }
-3321 = {
+3402 = {
 	name="Elmagil"
 	dynasty=3060
 	religion="religion_moriquendi"
 	culture="culture_sindar"
 	add_trait=elf	
-	father=3320
+	father=3401
 	7584.1.1 = {
 		birth="7584.1.1"
 	}

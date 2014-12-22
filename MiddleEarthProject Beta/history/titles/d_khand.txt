@@ -20,11 +20,11 @@ holder =  20060 # Sauaiosos
 }
 9645.1.1=
 {
-holder =  20061 # Pêrakos
+holder =  20300 # Pêrakos
 }
 9682.1.1=
 {
-holder =  20062 # Xianphôkanos
+holder =  20061 # Xianphôkanos
 }
 9716.1.1=
 {

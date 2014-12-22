@@ -2098,7 +2098,7 @@ add_rival=339 #Beorn
 
 ## Orks of First Age ##
 
-11135 = {
+11302 = {
 	name="Balcmeg"
 	dynasty=11028
 	religion="religion_orkish"
@@ -2204,7 +2204,7 @@ add_rival=339 #Beorn
 	death="4822.1.1"
 	} ## Killed during the Fall of Gondolin
 }
-11142 = {
+11303 = {
 	name="Balog"
 	dynasty=11033
 	religion="religion_orkish"
@@ -2226,7 +2226,7 @@ add_rival=339 #Beorn
 	culture="culture_orkish" 
 	add_trait=orkish
 	add_trait=great_orc
-	father=11141
+	father=11303
 	4996.1.1={
 	birth="4996.1.1"
 	}
@@ -2291,7 +2291,7 @@ add_rival=339 #Beorn
 	religion="religion_orkish"
 	culture="culture_orkish" 
 	add_trait=orkish
-	father=11135
+	father=11302
 	4547.1.1={
 	birth="4547.1.1"
 	}
@@ -3126,7 +3126,7 @@ add_rival=339 #Beorn
 	death="11286.1.1"
 	}
 }
-11225 = {
+11300 = {
 	name="Lugdush"
 	dynasty=11031
 	religion="religion_orkish"

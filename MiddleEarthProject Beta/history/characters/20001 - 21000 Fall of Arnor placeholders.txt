@@ -856,7 +856,7 @@
 		death="9645.1.1"
 	}
 }
-20060 = {
+20300 = {
 	name="Pêrakos"
 	dynasty=5035
 	religion="religion_easterlings"
@@ -874,7 +874,7 @@
 	dynasty=5035
 	religion="religion_easterlings"
 	culture="culture_variags"
-	father=20060
+	father=20300
 	9634.1.1={
 		birth="9634.1.1"
 	}
@@ -887,7 +887,7 @@
 	dynasty=5035
 	religion="religion_easterlings"
 	culture="culture_variags"
-	father=20060
+	father=20300
 	9637.1.1={
 		birth="9637.1.1"
 	}
@@ -1339,7 +1339,7 @@
 ## Northmen of Rhovanion ##
 
 ## Dukes of Grasgard ##
-20095={
+20301={
 	name="Greimahildi"
 	female=yes
 	dna="mjfeaapdnhd"
@@ -2612,7 +2612,7 @@
 	}
 }
 
-20149={
+20302={
 	name="Diethelm"
 	dynasty=930
 	dna="dckiobfanik"
