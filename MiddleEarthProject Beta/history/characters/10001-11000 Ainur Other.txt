@@ -291,7 +291,7 @@
 	name="Mairon"
 	dynasty=10011
 
-	religion="sunni"
+	religion="religion_eruhini"
 	culture="culture_maiar"
 
 	add_trait=maiar
