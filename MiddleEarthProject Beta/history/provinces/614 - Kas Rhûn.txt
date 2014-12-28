@@ -14,9 +14,10 @@ b_akkrasvuld = city
 #b_wuldaburha = city
 
 # Misc
-8222.1.1 = {
 culture = culture_easterling
 religion = religion_easterlings
+8222.1.1 = {
+
 
 			b_kas_rhun = ca_Hwall_1
 			b_kas_rhun = ca_Hwall_2

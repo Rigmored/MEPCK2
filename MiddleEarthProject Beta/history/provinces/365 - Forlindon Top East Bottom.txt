@@ -12,7 +12,6 @@ b_marpanustryn = tribal
 #b_hyljka = city
 
 # Misc
-8222.1.1 = {
+
 culture = culture_lossoth
 religion = religion_lossoth
-}

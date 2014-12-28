@@ -14,10 +14,7 @@ b_celodimlad = castle
 
 # Misc
 terrain = forest
-8222.1.1 = {
 culture = culture_silvan
 religion = religion_moriquendi
-terrain = forest
-}
 
 

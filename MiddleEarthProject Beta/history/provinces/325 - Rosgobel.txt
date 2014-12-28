@@ -12,11 +12,9 @@ b_rhosgobel = castle
 
 # Misc
 terrain = forest
-8222.1.1 = {
-terrain = forest
 culture = culture_silvan
 religion = religion_moriquendi
-}
+
 
 10293.1.1 = {
 culture = culture_woodsmen

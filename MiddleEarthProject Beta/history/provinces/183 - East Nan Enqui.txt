@@ -16,7 +16,5 @@ b_amon_anohir = tribal
 
 
 # Misc
-6000.1.1 = {
 culture = culture_andrasting
 religion = religion_haldadian
-}

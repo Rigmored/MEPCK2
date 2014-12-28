@@ -15,13 +15,7 @@ b_cracabor = city
 culture = culture_wilderness
 religion = religion_wilderness
 terrain = plains
-1.1.1 = {
-terrain = plains
-}
-6222.1.1 = {
-culture = culture_wilderness
-religion = religion_wilderness
-}
+
 10853.1.1 = { 
 culture = culture_rohirrim
 religion = religion_rhovanion

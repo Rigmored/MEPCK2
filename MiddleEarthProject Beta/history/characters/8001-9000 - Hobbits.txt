@@ -176,6 +176,9 @@
 	11189.1.1={
 		birth="11189.1.1"
 	}
+	11232.1.1={
+		add_spouse=8031
+	}
 	11269.1.1={
 		death="11269.1.1"
 	}
@@ -232,10 +235,10 @@
 		add_trait = stressed
 		employer="3003"
 	}
-	11362.3.30={
+	11361.3.30={
 	    remove_trait = sting
 	}
-	11362.3.25 ={
+	11362.9.25 ={
 		remove_trait = ringbearer2
 		add_trait = ringbearer1
 	} #Ring destruction
@@ -497,13 +500,13 @@
 		}
 	employer="8024"
 	} #Bilbo's birthday
-	11362.10.3 ={
+	11361.10.3 ={
 		add_trait = wounded
 	} #Nazgul Assault
-	11362.3.30 ={
+	11361.3.30 ={
 		add_trait = sting
 	} #Bilbo gives Sting to Frodo
-	11362.3.25 ={
+	11362.9.25 ={
 		remove_trait = ring
 		add_trait = ringbearer1
 		remove_trait = sting
@@ -572,10 +575,10 @@
 	father=8056
 	female=yes
 	add_trait = hobbit
-	11245.1.1={
+	11249.1.1={
 		birth="11249.1.1"
 	}
-	11338.1.1={
+	11345.1.1={
 		death="11345.1.1"
 	}
 }
@@ -588,11 +591,11 @@
 	mother=8097
 	female=yes
 	add_trait = hobbit
-	11245.1.1={
-		birth="11245.1.1"
+	11247.1.1={
+		birth="11247.1.1"
 	}
 	11338.1.1={
-		death="11345.1.1"
+		death="11338.1.1"
 	}
 }
 8099 = {
@@ -620,7 +623,7 @@
 	11293.1.1={
 		birth="11293.1.1"
 	}
-	13330.1.1={
+	11330.1.1={
 		add_spouse = 8123
 	}
 	11392.1.1={
@@ -716,6 +719,7 @@
 	father=8083
 	mother=8452
 	add_trait = hobbit
+	add_trait = twin
 	11123.1.1={
 		birth="11123.1.1"
 	}
@@ -831,6 +835,7 @@
 	father=8083
 	mother=8452
 	add_trait = hobbit
+	add_trait = twin
 	11123.1.1={
 		birth="11123.1.1"
 	}
@@ -1054,8 +1059,8 @@
 	mother=8125
 	add_trait = hobbit
 	add_trait=pipe_weed_farmer
-	11285.1.1={
-		birth="11285.1.1"
+	11288.1.1={
+		birth="11288.1.1"
 	}
 	11315.1.1={
 		add_spouse = 8112
@@ -1145,8 +1150,8 @@
 	mother=8021
 	female=yes
 	add_trait = hobbit
-	11242.1.1={
-		birth="11242.1.1"
+	11245.1.1={
+		birth="11245.1.1"
 	}
 	11270.1.1={
 		add_spouse =8102
@@ -1163,8 +1168,8 @@
 	father=8116
 	mother=8021
 	add_trait = hobbit
-	11241.1.1={
-		birth="11241.1.1"
+	11245.1.1={
+		birth="11245.1.1"
 	}
 	11279.1.1={
 		add_spouse = 8297
@@ -1315,8 +1320,8 @@
 	father=8121
 	mother=8295
 	add_trait = hobbit
-	11243.1.1={
-		birth="11243.1.1"
+	11250.1.1={
+		birth="11250.1.1"
 	}
 	11290.1.1={
 		add_spouse = 8301
@@ -3244,6 +3249,9 @@
 	11195.1.1={
 		birth="11195.1.1"
 	}
+	11232.1.1={
+		add_spouse=8064
+	}
 	11277.1.1={
 		death="11277.1.1"
 	}
@@ -3260,7 +3268,7 @@
 	11203.1.1={
 		birth="11203.1.1"
 	}
-	11303.1.1={
+	11.1.1={
 		death="11303.1.1"
 	}
 }
@@ -3274,6 +3282,9 @@
 	culture="culture_hobbit"
 	add_trait = hobbit
 	add_trait=hop_farmer
+	add_trait=gluttonous
+	add_trait=charismatic_negotiator
+	give_nickname = nick_flourdumpling
 	11280.1.1={
 		birth="11280.1.1"
 	}

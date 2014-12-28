@@ -17,7 +17,6 @@ culture = culture_wilderness
 religion = religion_wilderness
 terrain = forest
 4222.1.1 = {
-terrain = forest
 culture = culture_noldor
 religion = religion_calaquendi
 }

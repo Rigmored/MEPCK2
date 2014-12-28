@@ -10,11 +10,11 @@ title = c_norther_eregion
 max_settlements = 5
 
 b_norther_eregion = castle
-
-
 b_norther_eregion_temple = city
+#b_norther_eregion3 = city
+#b_norther_eregion4 = castle
+#b_norther_eregion5 = city
+
 # Misc
-8222.1.1 = {
 culture = culture_wilderness
 religion = religion_wilderness
-}

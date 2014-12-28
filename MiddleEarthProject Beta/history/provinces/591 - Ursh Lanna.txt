@@ -16,6 +16,12 @@ b_fraigosha = city
 culture = culture_northmen
 religion = religion_rhovanion
 
+
+
+10199.1.1 = {
+culture = culture_wainriders
+religion = religion_easterlings
+
 			b_ursh_lanna = ca_Hwall_1
 			b_ursh_lanna = ca_Hwatchtower_1 
 			b_ursh_lanna = ca_Hkeep_1
@@ -42,10 +48,6 @@ religion = religion_rhovanion
 				b_fraigosha = ct_Hguard_1 
 				b_fraigosha = ct_Hmarketplace_1
 				b_fraigosha = tp_barrow_field
-
-10199.1.1 = {
-culture = culture_wainriders
-religion = religion_easterlings
 }
 11300.1.1 = {
 culture = culture_easterling

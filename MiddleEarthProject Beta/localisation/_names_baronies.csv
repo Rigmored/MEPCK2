@@ -838,7 +838,7 @@ b_slaves_dungeon;Dungeon of the Slaves;Donjon des Esclaves;;;Dungeon of the Slav
 b_barad_prison;Dark Prison;Geôles Noires;;;Dark Prison;x;
 b_halls_ringwraith_barad;Halls of the Ringwraiths;Tour des Nazguls;;;Halls of the Ringwraiths;x;
 b_dark_tower;Dark Tower;Tour Noire;;;Dark Tower;x;
-b_citadel_tirith;Citadel;Citadelle;;;Citadel;x;
+b_citadel_tirith;White Tower;Tour Blanche;;;Torre Bianca;x;
 b_rath_celerdain;Rath Celerdain;Rath Celerdain;;;Rath Celerdain;x;
 b_rath_dinen;Rath Dinen;Rath Dinen;;;Rath Dinen;x;
 b_great_gate_tirith;Great Gate;Grande Porte;;;Great Gate;x;
@@ -3358,7 +3358,7 @@ b_nenim;Nenim;Nenim;;;Nenim;x;
 b_amon_moth;Amon Moth;Amon Moth;;;Amon Moth;x;
 b_browncroft;Browncroft;Browncroft;;;Browncroft;x;
 b_the_mill;The Mill;Le Moulin;;;The Mill;x;
-b_theyale;Yale;Yale;;;Yale;x;
+b_the_yale;The Yale;Yale;;;Yale;x;
 b_drimbast;Drimbast;Drimbast;;;Drimbast;x;
 b_cofodrost;Cofodrost;Cofodrost;;;Cofodrost;x;
 b_danamrael;Danamrael;Danamrael;;;Danamrael;x;

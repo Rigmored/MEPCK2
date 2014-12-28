@@ -17,8 +17,6 @@ b_grimwood = city
 culture = culture_hillmen
 religion = religion_haldadian
 8222.1.1 = {
-culture = culture_hillmen
-religion = religion_haldadian
 
 			b_magillos = ca_Pwall_1
 			b_magillos = ca_Pwatchtower_1 

@@ -18,11 +18,12 @@ b_galadriel_garden = city
 b_cerin_amroth = city
 
 # Misc
-terrain = forest
-2222.1.1 = {
 culture = culture_silvan
 religion = religion_moriquendi
 terrain = forest
+2222.1.1 = {
+
+
 
 			b_house_of_celeborn = ca_Swall_1
 			b_house_of_celeborn = ca_Swall_2 

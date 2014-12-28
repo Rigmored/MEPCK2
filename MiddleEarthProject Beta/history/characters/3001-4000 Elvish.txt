@@ -65,9 +65,9 @@
 	add_trait=strong
 	add_trait=twin
 	add_trait=quick
-	add_trait=experimenter
 	add_trait=perceptive
 	add_trait=healer_master
+	add_trait=great_elf
 	
 	father=3001
 	mother=3002

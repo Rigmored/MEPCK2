@@ -17,12 +17,9 @@ b_hidolf = castle
 culture = culture_calending
 religion = religion_haldadian
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
+
 8222.1.1 = { 
-culture = culture_calending
-religion = religion_haldadian
+
 
 			b_edoras = ca_Pwall_1
 			b_edoras = ca_Pwall_2

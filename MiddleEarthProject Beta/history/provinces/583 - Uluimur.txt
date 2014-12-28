@@ -15,10 +15,9 @@ b_torimur = city
 
 # Misc
 terrain = forest
-8222.1.1 = {
-terrain = forest
 culture = culture_avari
 religion = religion_moriquendi
+8222.1.1 = {
 
 			b_uluimur = ca_Mwall_1 
 			b_uluimur = ca_Mwall_2

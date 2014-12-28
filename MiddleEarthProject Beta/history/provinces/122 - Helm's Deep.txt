@@ -20,7 +20,9 @@ b_helms_dike = castle
 culture = culture_calending
 religion = religion_haldadian
 
-8222.1.1 = { culture = culture_gondorian religion = religion_dunedain
+8222.1.1 = { 
+	culture = culture_gondorian 
+	religion = religion_dunedain
 
 			b_kingshall = ca_Nwall_1
 			b_kingshall = ca_Nwall_2

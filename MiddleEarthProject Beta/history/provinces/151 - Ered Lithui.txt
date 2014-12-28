@@ -8,7 +8,7 @@ max_settlements = 3
 
 b_ered_lithui = castle
 b_minas_lithui = castle
-
+b_barad_lithui = castle
 # Misc
 culture = culture_nurnim
 religion = religion_nurning

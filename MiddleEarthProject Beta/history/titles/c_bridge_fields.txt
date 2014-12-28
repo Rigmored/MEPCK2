@@ -29,9 +29,9 @@ holder = 2433 # Agathor
 10318.1.1=
 {
 holder = 0
+
+}
+11000.1.1={
+liege=k_shire
 }
 
-11356.1.1=
-{
-holder =  8177 # Will Whitfoot
-}

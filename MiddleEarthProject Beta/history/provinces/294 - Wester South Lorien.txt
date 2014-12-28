@@ -15,9 +15,10 @@ b_nimrodeliant = city
 #b_nimros = city
 
 # Misc
-2222.1.1 = {
 culture = culture_silvan
 religion = religion_moriquendi
+2222.1.1 = {
+
 
 			b_nimrodel = ca_Swall_1
 			b_nimrodel = ca_Swall_2 

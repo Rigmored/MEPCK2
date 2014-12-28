@@ -11,6 +11,7 @@ b_king_foldcastle = castle
 b_king_foldcity1 = city
 b_king_foldcity2 = city
 b_king_foldtemple = city
+b_king_fold6 = city
 
 # Misc
 culture = culture_calending

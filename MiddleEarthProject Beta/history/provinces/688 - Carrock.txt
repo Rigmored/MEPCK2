@@ -12,9 +12,9 @@ b_ford_carrock = castle
 #b_ukuluin = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_northmen
 religion = religion_rhovanion
+8222.1.1 = {
 
 			b_ford_carrock = ca_Hwall_1
 			b_ford_carrock = ca_Hwatchtower_1 

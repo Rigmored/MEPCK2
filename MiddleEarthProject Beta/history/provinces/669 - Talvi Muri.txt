@@ -17,10 +17,5 @@ b_hilje = tribal
 
 # Misc
 terrain = arctic
-1.1.1 = {
-terrain = arctic
-}
-8222.1.1 = {
 culture = culture_lossoth
 religion = religion_lossoth
-}

@@ -1,4 +1,4 @@
-# 309 - Taur Morvith
+﻿# 309 - Taur Morvith
 
 
 
@@ -10,7 +10,7 @@ title = c_south_west_mirkwood
 # Settlements
 max_settlements = 5
 b_taur_morvith = castle
-b_agar_cîl = city
+b_agar_cil = city
 b_hollengamp = castle
 #b_morivth_iaur = castle
 #b_men_i_lossen = castle
@@ -20,7 +20,6 @@ culture = culture_wilderness
 religion = religion_wilderness
 terrain = forest
 4222.1.1 = {
-terrain = forest
 culture = culture_silvan
 religion = religion_moriquendi
 }

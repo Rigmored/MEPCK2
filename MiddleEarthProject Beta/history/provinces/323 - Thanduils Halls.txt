@@ -16,10 +16,10 @@ b_great_gates_thranduil = castle
 
 # Misc
 terrain = forest
-4222.1.1 = {
-terrain = forest
 culture = culture_silvan
 religion = religion_moriquendi
+4222.1.1 = {
+
 
 			b_king_thranduil_hall = ca_Swall_1
 			b_king_thranduil_hall = ca_Swall_2 

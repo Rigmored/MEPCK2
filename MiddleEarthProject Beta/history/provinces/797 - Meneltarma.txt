@@ -12,6 +12,4 @@ b_meneltarma = temple
 culture = culture_wilderness
 religion = religion_wilderness
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
+

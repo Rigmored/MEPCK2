@@ -12,9 +12,10 @@ b_brontrig = tribal
 #b_isenstan = city
 
 # Misc
-8222.1.1 = {
 culture = culture_dunlending
 religion = religion_haldadian
+8222.1.1 = {
+
 
 			b_forthbrond = tb_Pwall_1 
 			b_forthbrond = tb_Pwall_2

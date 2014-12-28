@@ -13,9 +13,10 @@ b_hytbold = city
 #b_wyrgende = city
 
 # Misc
-8222.1.1 = {
 culture = culture_calending
 religion = religion_haldadian
+8222.1.1 = {
+
 
 			b_garsfeld = ca_Pwall_1
 			b_garsfeld = ca_Pwatchtower_1 

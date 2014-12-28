@@ -16,10 +16,10 @@ b_everholt = city
 culture = culture_wilderness
 religion = religion_wilderness
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
-8222.1.1 = { culture = culture_gondorian religion = religion_dunedain
+
+8222.1.1 = { 
+	culture = culture_gondorian 
+	religion = religion_dunedain
 
 			b_aldburg = ca_Nwall_1
 			b_aldburg = ca_Nwall_2

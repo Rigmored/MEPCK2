@@ -17,12 +17,8 @@ b_rast_hanadh = tribal
 culture = culture_andrasting
 religion = religion_haldadian
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
+
 6000.1.1 = {
-culture = culture_andrasting
-religion = religion_haldadian
 
 			b_bar_morthil = tb_Pwall_1 
 			b_bar_morthil = tb_Pwall_2

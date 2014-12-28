@@ -4,15 +4,16 @@
 title = c_parzee
 
 # Settlements
-max_settlements = 3
+max_settlements = 2
 
 b_parzee = castle
 b_parzeecity = city
 
 # Misc
-8222.1.1 = {
 culture = culture_haradrim
 religion = religion_southron
+8222.1.1 = {
+
 
 			b_parzee = ca_Hwall_1
 			b_parzee = ca_Hwatchtower_1 

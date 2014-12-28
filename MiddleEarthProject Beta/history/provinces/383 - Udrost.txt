@@ -18,9 +18,10 @@ b_ronghut = tribal
 
 
 # Misc
-8222.1.1 = {
 culture = culture_dunlending
 religion = religion_haldadian
+8222.1.1 = {
+
 
 			b_galtrev = tb_Pwall_1 
 			b_galtrev = tb_Pwall_2

@@ -12,7 +12,5 @@ b_tar_mahur = city
 #b_xamith_ufar = city
 
 # Misc
-8222.1.1 = {
 culture = culture_variags
 religion = religion_easterlings
-}

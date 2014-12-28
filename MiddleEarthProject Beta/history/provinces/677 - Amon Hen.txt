@@ -15,9 +15,7 @@ b_argonath_isildur = castle
 culture = culture_calending
 religion = religion_haldadian
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
+
 8222.1.1 = { 
 culture = culture_gondorian 
 religion = religion_dunedain

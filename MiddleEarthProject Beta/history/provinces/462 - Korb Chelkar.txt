@@ -4,16 +4,17 @@
 title = c_korb_chelkar
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 
 b_korb_chelkar = castle
 b_korb_chelkarcity = city
 b_korb_chelkartemple = city
 
 # Misc
-8222.1.1 = {
 culture = culture_haradrim
 religion = religion_southron
+8222.1.1 = {
+
 
 			b_korb_chelkar = ca_Hwall_1
 			b_korb_chelkar = ca_Hwall_2

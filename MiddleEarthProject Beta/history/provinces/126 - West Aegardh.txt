@@ -15,7 +15,5 @@ b_astagardh = city
 #b_minas_itir = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_harondorian
 religion = religion_southron
-}

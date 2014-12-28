@@ -17,10 +17,6 @@ b_adunvuld  = city
 culture = culture_northmen
 religion = religion_rhovanion
 
-8000.1.1 = {
-culture = culture_northmen
-religion = religion_rhovanion
-}
 10853.1.1 = {
 culture = culture_beorning
 religion = religion_rhovanion

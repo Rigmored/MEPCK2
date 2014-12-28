@@ -4,16 +4,17 @@
 title = c_bogath
 
 # Settlements
-max_settlements = 4
+max_settlements = 3
 
 b_bogath = castle
 b_bogathcity = city
 b_bogathtemple = city
 
 # Misc
-8222.1.1 = {
 culture = culture_haradrim
 religion = religion_southron
+8222.1.1 = {
+
 
 			b_bogath = ca_Hwall_1
 			b_bogath = ca_Hwatchtower_1 

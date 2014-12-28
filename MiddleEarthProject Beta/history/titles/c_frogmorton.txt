@@ -69,9 +69,14 @@ holder = 2443 # Herumor
 {
 holder = 2444 # Galador
 }
+9900.1.1=
+{
+liege=no
+}
 9944.1.1=
 {
 holder =  8195 # Marcho
+liege = k_shire
 }
 10028.1.1=
 {

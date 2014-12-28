@@ -5,7 +5,3 @@
 800.1.1={
 	liege=d_west_farthing
 }
-11358.1.1=
-{
-holder =  8024 # Paladin II
-}

@@ -224,7 +224,7 @@ CREATING_PROVINCE; ; ;;;;;x
 CREATING_TEXTS; ; ;;;;;x
 LOAD_EVENTS; ; ;;;;;x
 ADAPTING_HISTORY; ; ;;;;;x
-LOAD_CITY;CITIES ; ;;;;;x
+LOAD_CITY; ; ;;;;;x
 CALC_PATHS; ; ;;;;;x
 LOAD_GFX_PDXMAP_SHADERS; ; ;;;;;x
 LOAD_GFX_PDXMAP_TERRAIN; ; ;;;;;x
@@ -234,3 +234,5 @@ LOAD_GFX_PDXMAP_TREES; ; ;;;;;x
 LOAD_GFX_PDXMAP_RIVERS; ; ;;;;;x
 LOAD_GFX_PDXMAP_STATIC_OBJECTS; ; ;;;;;x
 LOAD_INIT; ; ;;;;;x
+GENERATING_COAS; ; ;;;;;;;;;;;;x
+LOADING_CALC_NAVAL; ; ;;;;;;;;;;;;x

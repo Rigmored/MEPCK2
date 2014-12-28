@@ -17,10 +17,3 @@ b_ruasin = tribal
 culture = culture_druedain
 religion = religion_druedain
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
-6000.1.1 = {
-culture = culture_druedain
-religion = religion_druedain
-}

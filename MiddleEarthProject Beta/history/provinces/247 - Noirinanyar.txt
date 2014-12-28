@@ -16,8 +16,7 @@ b_firaen = castle
 culture = culture_arnorian
 religion = religion_dunedain
 8222.1.1 = {
-culture = culture_arnorian
-religion = religion_dunedain
+
 
 			b_noirinanyar = ca_Nwall_1
 			b_noirinanyar = ca_Nwall_2

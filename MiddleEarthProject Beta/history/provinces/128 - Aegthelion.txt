@@ -14,7 +14,6 @@ b_terunnibel = castle
 #b_reminer = city
 
 # Misc
-8222.1.1 = {
+
 culture = culture_harondorian
 religion = religion_southron
-}

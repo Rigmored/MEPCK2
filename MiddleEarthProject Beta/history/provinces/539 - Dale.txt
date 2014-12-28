@@ -16,9 +16,10 @@ b_dale_outer_gate = castle
 
 
 # Misc
-8222.1.1 = {
 culture = culture_northmen
 religion = religion_rhovanion
+8222.1.1 = {
+
 
 			b_dale_king_hall = ca_Hwall_1
 			b_dale_king_hall = ca_Hwall_2

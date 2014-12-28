@@ -13,7 +13,6 @@ b_minas_tathren = city
 #b_herenil = city
 
 # Misc
-8222.1.1 = {
+
 culture = culture_gondorian
 religion = religion_dunedain
-}

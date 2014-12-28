@@ -12,8 +12,7 @@ b_esfelburg = city
 #b_amon_ascalar = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_northmen
 religion = religion_rhovanion
-}
+
 10853.1.1 = { culture = culture_beorning religion = religion_rhovanion }

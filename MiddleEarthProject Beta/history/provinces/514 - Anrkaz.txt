@@ -4,14 +4,15 @@
 title = c_anrkaz
 
 # Settlements
-max_settlements = 3
+max_settlements = 1
 
 b_anrkaz = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_far_haradrim
 religion = religion_southron
+8222.1.1 = {
+
 
 			b_anrkaz = ca_Hwall_1
 			b_anrkaz = ca_Hwatchtower_1 

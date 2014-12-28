@@ -18,8 +18,6 @@ culture = culture_breelander
 religion = religion_haldadian
 
 8222.1.1 = {
-culture = culture_breelander	
-religion = religion_haldadian
 
 			b_bree = ca_Pwall_1
 			b_bree = ca_Pwatchtower_1 

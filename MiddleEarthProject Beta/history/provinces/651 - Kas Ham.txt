@@ -14,7 +14,5 @@ b_turekostr = castle
 #b_hoshurel = city
 
 # Misc
-8222.1.1 = {
 culture = culture_nuriags
 religion = religion_easterlings
-}

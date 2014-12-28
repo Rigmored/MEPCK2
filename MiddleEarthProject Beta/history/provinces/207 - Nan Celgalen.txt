@@ -18,12 +18,7 @@ b_druabad = city
 culture = culture_gondorian_middlemen
 religion = religion_haldadian
 terrain = plains
-1.1.1 = {
-terrain = plains
-}
 8222.1.1 = {
-culture = culture_gondorian_middlemen
-religion = religion_haldadian
 
 			b_dol_gwaer = ca_Hwall_1
 			b_dol_gwaer = ca_Hwatchtower_1

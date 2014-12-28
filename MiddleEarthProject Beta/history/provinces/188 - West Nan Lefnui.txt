@@ -15,10 +15,3 @@ b_annuilos = tribal
 culture = culture_andrasting
 religion = religion_haldadian
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
-6000.1.1 = {
-culture = culture_andrasting
-religion = religion_haldadian
-}

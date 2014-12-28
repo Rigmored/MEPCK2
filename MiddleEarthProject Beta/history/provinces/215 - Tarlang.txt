@@ -15,7 +15,5 @@ b_orod_faeren = castle
 culture = culture_gondorian_middlemen
 religion = religion_rhovanion
 8222.1.1 = {
-culture = culture_gondorian_middlemen
-religion = religion_rhovanion
 b_erech = ca_stone_erech
 }

@@ -13,9 +13,10 @@ b_raenlad = city
 #b_dol_gilrain = city
 
 # Misc
-8222.1.1 = {
 culture = culture_gondorian
 religion = religion_dunedain
+8222.1.1 = {
+
 
 			b_bar_tumladen = ca_Nwall_1
 			b_bar_tumladen = ca_Nwall_2

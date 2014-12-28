@@ -16,9 +16,7 @@ b_falls_of_isen = city
 culture = culture_calending
 religion = religion_haldadian
 terrain = plains
-1.1.1 = {
-terrain = plains
-}
+
 8222.1.1 = { culture = culture_gondorian religion = religion_dunedain
 
 			b_orthanc = ca_Nwall_1

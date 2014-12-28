@@ -39,8 +39,8 @@ religion_olog;Troll;Troll;;;;;x
 religion_wilderness;Wilderness;Vie sauvage;;;Lande Selvagge;;;;;x
 religion_nurning;Núrnoth;Núrnoth;;;Núrnoth;;;;;x
 religion_wight;Wights;;;;Spettri;;x
-religion_spider;;Spiders;;;;;;;;;;;;;;x
-religion_dragons;Dragons;;;;;;;;;;;;;;x
+religion_spider;Ungolian;Ungolian;;;Ungolian;;;;;;x
+religion_dragons;Drakes;Drakes;;;Drakes;;;;;;;;;;x
 #RELIGIONS_DESC;;;;;;;x
 religion_eruhini_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;;x
 #Onodrim

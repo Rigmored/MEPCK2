@@ -14,3 +14,5 @@ evil_invasion_desc;The time of Darkness is coming. For the glory of Melkor, I wi
 CB_NAME_WILDERNESS_MOUNTAINS;Settle in the Mountains of [Title.GetBaseName];Colonisation des Montagnes de [Title.GetBaseName];;;;;x
 WAR_NAME_WILDERNESS_MOUNTAINS;$ORDER$$FIRST_ADJ$ Conquest of the Mountains of $OTHER_TITLE$;$ORDER$$FIRST_ADJ$ Conquête des Montagnes de $OTHER_TITLE$;;;;;x
 mountains_invasion_desc;You can build a new realm in these mountains.;Vous devriez installer un nouveau royaume dans ces montagnes.;;;;;x
+good_invasion;Defend Middle Earth;;;;;;x
+good_invasion_desc;Darkness descends on Middle Earth, only the Free Peoples can stop it!;;;;;;x

@@ -4,7 +4,7 @@
 title = c_bregnas
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
 b_bregnas = tribal
 b_aldburh = tribal
@@ -14,7 +14,3 @@ b_codravnas = tribal
 # Misc
 culture = culture_dunlending
 religion = religion_haldadian
-8222.1.1 = {
-culture = culture_dunlending
-religion = religion_haldadian
-}

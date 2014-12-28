@@ -7,8 +7,8 @@ title = c_harlindon_top
 
 max_settlements = 5
 
-b_harlondd = castle
-b_dol_harlond = city
+b_harlondd = city
+b_dol_harlond = castle
 b_uirionath = city
 #b_lond_har = city
 #b_gobel_mirliand = city

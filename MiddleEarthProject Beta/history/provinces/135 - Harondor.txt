@@ -15,9 +15,10 @@ b_eithelin = city
 #b_ametranis = city
 
 # Misc
-8222.1.1 = {
 culture = culture_harondorian
 religion = religion_southron
+8222.1.1 = {
+
 
 			b_amonost = ca_Hwall_1
 			b_amonost = ca_Hwatchtower_1 

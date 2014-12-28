@@ -21,13 +21,10 @@ b_tomb_of_durin = city
 b_zirak_zigil = castle
 
 # Misc
-3222.1.1 = {
 culture = culture_longbeard
 religion = religion_mahal
-}
 4892.1.1 = {
 b_tomb_of_durin = tp_durin_tomb
-
 }
 4942.1.1 = { #reinforced by dwarves from Nogrod and Belegost, could be lvl 3 before#
 			b_first_hall = ca_DInnerFortification_1 

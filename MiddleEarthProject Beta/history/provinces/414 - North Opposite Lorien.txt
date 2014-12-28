@@ -13,9 +13,10 @@ b_odrafburg = city
 #b_anduanburh = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_northmen
 religion = religion_rhovanion
+8222.1.1 = {
+
 
 			b_nan_anduin = ca_Hwall_1
 			b_nan_anduin = ca_Hwatchtower_1 

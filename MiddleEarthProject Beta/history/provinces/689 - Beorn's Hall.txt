@@ -12,9 +12,10 @@ b_beornfields = city
 #b_asgardin = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_northmen
 religion = religion_rhovanion
+8222.1.1 = {
+
 
 			b_beornhall = ca_Hwall_1
 			b_beornhall = ca_Hwatchtower_1 

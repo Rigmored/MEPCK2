@@ -4,15 +4,16 @@
 title = c_oud_ilaz
 
 # Settlements
-max_settlements = 3
+max_settlements = 2
 
 b_oud_ilaz = castle
 b_oud_ilazcity = city
 
 # Misc
-8222.1.1 = {
 culture = culture_haradrim
 religion = religion_southron
+8222.1.1 = {
+
 
 			b_oud_ilaz = ca_Hwall_1
 			b_oud_ilaz = ca_Hwatchtower_1 

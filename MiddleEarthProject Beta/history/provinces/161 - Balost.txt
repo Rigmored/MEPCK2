@@ -4,7 +4,7 @@
 title = c_balost
 
 # Settlements
-max_settlements = 6
+max_settlements = 5
 
 b_balost = castle
 b_amrelor = city
@@ -18,8 +18,7 @@ culture = culture_arnorian
 religion = religion_dunedain
 
 8222.1.1 = {
-culture = culture_arnorian
-religion = religion_dunedain
+
 
 			b_balost = ca_Nwall_1
 			b_balost = ca_Nwall_2
@@ -72,7 +71,7 @@ culture = culture_dunlending
 religion = religion_haldadian
 b_balost = tribal
 b_amrelor = tribal
-b_chalnen = tribal
+
 
 			b_balost = tb_Pwall_1 
 			b_balost = tb_Pwall_2

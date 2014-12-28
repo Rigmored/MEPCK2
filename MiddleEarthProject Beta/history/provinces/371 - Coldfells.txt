@@ -27,10 +27,6 @@ b_ost_ringdyr = city
 culture = culture_hillmen	
 religion = religion_haldadian
 
-8222.1.1 = {
-culture = culture_hillmen	
-religion = religion_haldadian
-}
 
 9752.1.1 = {
 culture = culture_troll	

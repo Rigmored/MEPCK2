@@ -3753,33 +3753,6 @@ e_arnor = {
 	title_female = "QUEEN"
 	title_prefix = "KING_OF"
         
-		d_master_buckland = {
-			color={ 50 200 200 }
-			color2={ 255 255 255 }
-			
-			capital = 97 # Buckland
-			
-			culture_wilderness = "Baranduinvale"
-			c_buckland = {
-				color={ 65 69 120 }
-				color2={ 255 255 255 }
-				culture_wilderness = "Baranduinvale"
-				
-				b_buckland = {
-					culture_wilderness = "Baranduinvale"
-					holy_site = religion_perian
-				}
-				b_brandy_hall = {
-				culture_wilderness = "Baranduinhill"
-				}
-				b_crickhollow = {
-				}
-				b_newbury = {
-				}
-				b_bucklebury_ferry = {
-				}
-			}
-		}
 		d_minhiriath = {
 			color={ 225 61 61 }
 			color2={ 125 125 142 }
@@ -3868,6 +3841,32 @@ e_arnor = {
 			culture_wilderness = "Barrow-downs"
 			culture_group_melkor = "Barrow-downs"
 			culture_wight = "Barrow-downs"
+			
+			c_buckland = {
+				color={ 65 69 120 }
+				color2={ 255 255 255 }
+				culture_wilderness = "Baranduinvale"
+				culture_dunedain = "Rawtaur"
+				culture_arnorian = "Rawtaur"
+				culture_gondorian = "Rawtaur"
+				
+				b_buckland = {
+					culture_wilderness = "Baranduinvale"
+					culture_dunedain = "Rawtaur"
+					culture_arnorian = "Rawtaur"
+					culture_gondorian = "Rawtaur"
+					holy_site = religion_perian
+				}
+				b_brandy_hall = {
+					culture_wilderness = "Baranduinhill"
+				}
+				b_crickhollow = {
+				}
+				b_newbury = {
+				}
+				b_bucklebury_ferry = {
+				}
+			}
 			
 			c_the_old_forest = {
 				color={ 228 233 100 }
@@ -5190,7 +5189,7 @@ e_arnor = {
 				
 				b_woodhall = {
 				}
-				b_theyale = {
+				b_the_yale = {
 				}		
 			}
 			c_the_marish = {
@@ -6127,7 +6126,7 @@ k_eregion = {
 		
 				b_norther_eregion = {
 				}
-				b_norther_eregiontemple = {
+				b_norther_eregion_temple = {
 				}  
 				b_norther_eregion3 = {
 				}  
@@ -7898,7 +7897,7 @@ e_harad = {
 	religion_southron = 100 # Crusade target weight
 	
 	k_chelkar = {
-		color={ 47 59 68 }
+		color={ 103 91 16 }
 		color2={ 125 125 142 }
 	
 		capital = 462 # Korb Chelkar
@@ -7908,7 +7907,7 @@ e_harad = {
 		religion_southron = 100 # Crusade target weight
 	
 		d_kajbah = {
-			color={ 149 186 85 }
+			color={ 89 78 10 }
 			color2={ 255 255 255 }
 			
 			capital = 456 # Bogath
@@ -7933,13 +7932,6 @@ e_harad = {
 				b_bogath4 = {
 				}	
 			}
-			c_mountains_of_kajbah = {
-				color={ 149 186 85 }
-				color2={ 255 255 255 }
-		
-				b_mountains_of_kajbah = {
-				}
-			}
 			c_hills_of_kajbah = {
 				color={ 149 186 85 }
 				color2={ 255 255 255 }
@@ -7947,9 +7939,16 @@ e_harad = {
 				b_hills_of_kajbah = {
 				}
 			}
+			c_ershawar = {
+				color={ 149 186 85 }
+				color2={ 255 255 255 }
+		
+				b_ershawar = {
+				}
+			}
 		}
 		d_chelkar = {
-			color={ 149 186 85 }
+			color={ 52 74 53 }
 			color2={ 255 255 255 }
 			
 			capital = 462 # Korb Chelkar
@@ -7974,11 +7973,11 @@ e_harad = {
 				b_kas_auebel = {
 				}
 			}
-			c_ershawar = {
+			c_mountains_of_kajbah = {
 				color={ 149 186 85 }
 				color2={ 255 255 255 }
 		
-				b_ershawar = {
+				b_mountains_of_kajbah = {
 				}
 			}
 			c_gizar = {
@@ -7990,7 +7989,7 @@ e_harad = {
 			}
 		}
 		d_ilaz = {
-			color={ 149 186 85 }
+			color={ 170 150 23 }
 			color2={ 255 255 255 }
 			
 			capital = 463 # Oud Ilaz
@@ -8034,7 +8033,7 @@ e_harad = {
 		religion_southron = 100 # Crusade target weight
 	
 		d_amrun = {
-			color={ 149 186 85 }
+			color={ 189 66 79 }
 			color2={ 255 255 255 }
 			
 			capital = 467 # Kadar Argon
@@ -8074,7 +8073,7 @@ e_harad = {
 			}
 		}
 		d_haruzan = {
-			color={ 149 186 85 }
+			color={ 215 121 131 }
 			color2={ 255 255 255 }
 			
 			capital = 471 # Korondaj
@@ -8997,7 +8996,7 @@ e_durins_folk = {
 				}
 				b_hrimbarg = {
 				}
-				b_drakash = {
+				b_vindurhal = {
 				}
 				b_cirith_daur = {
 				}
@@ -9134,6 +9133,8 @@ e_durins_folk = {
 				}
 				b_hamad_zaram = {
 				}
+				b_tunzelgund = {
+				}
 			}
 			c_duban_nala = {
 				color={ 216 205 35 }
@@ -9141,12 +9142,28 @@ e_durins_folk = {
 			
 				b_duban_nala = {
 				}
+				b_mekeb_farak = {
+				}
+				b_uzbad = {
+				}
+				b_bultkar = {
+				}
+				b_nalanzibar = {
+				}
 			}
 			c_baraz_duban = {
 				color={ 216 205 35 }
 				color2={ 255 255 255 }
 			
 				b_baraz_duban = {
+				}
+				b_gabilgathol = {
+				}
+				b_baraz_ghar = {
+				}
+				b_zabadgath = {
+				}
+				b_budkhul = {
 				}
 			}
 		}
@@ -9539,7 +9556,7 @@ k_dol_guldur = {
 		
 			b_taur_morvith = {
 			}
-			b_agar_cîl = {
+			b_agar_cil = {
 			}
 			b_hollengamp = {
 			}
@@ -10283,6 +10300,14 @@ e_rhovanion = {
 				color2={ 255 255 255 }
 			
 				b_ehwathr = {
+				}
+				b_boraslov = {
+				}
+				b_obrost = {
+				}
+				b_burh_ehw = {
+				}
+				b_tarev = {
 				}
 			}
 			c_south_celduin = {
@@ -12539,6 +12564,35 @@ e_anadune = {
 }
 ## TITULAR TITLES ##
 
+d_master_buckland = {
+	color={ 50 200 200 }
+	color2={ 255 255 255 }
+	
+	capital = 97 # Buckland
+	
+	culture_wilderness = "Baranduinvale"
+	culture_dunedain = "Rawtaur"
+	culture_arnorian = "Rawtaur"
+	culture_gondorian = "Rawtaur"
+	
+	title = "MASTER"
+	title_female = "MISTRESS"
+
+}
+
+d_mayor_shire = {
+	color={ 135 60 6 }
+	color2={ 255 255 255 }
+	
+	capital = 95 # Michel Delving
+	
+	title = "MAYOR"
+	title_female = "MAYORESS"
+	title_prefix = "MAYOR_OF"
+
+}
+
+
 e_noldor = {
 	color={ 92 59 213 }
 	color2={ 125 125 142 }
@@ -13168,3 +13222,4 @@ e_pirates = {
 	color={ 0 0 0 }
 	color2={ 0 0 0 }
 }
+

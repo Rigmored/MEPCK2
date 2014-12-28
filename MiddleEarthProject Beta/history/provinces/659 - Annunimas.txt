@@ -18,11 +18,7 @@ b_clorhir = castle
 culture = culture_wilderness
 religion = religion_wilderness
 terrain = hills
-1.1.1 = {
-terrain = hills
-culture = culture_wilderness
-religion = religion_wilderness
-}
+
 8222.1.1 = {
 culture = culture_arnorian
 religion = religion_dunedain

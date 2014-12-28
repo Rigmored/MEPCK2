@@ -16,12 +16,10 @@ b_slaves_dungeon = castle
 
 #Misc
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
-5902.1.1 = { 
 culture = culture_orkish 
 religion = religion_orkish
+5902.1.1 = { 
+
 
 			b_barad_dur = ca_MOwall_1 
 			b_barad_dur = ca_MOwall_2

@@ -12,7 +12,5 @@ b_rhosgoroch = city
 #b_rasraeg = city
 
 # Misc
-8222.1.1 = {
 culture = culture_far_haradrim
 religion = religion_southron
-}

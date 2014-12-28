@@ -17,8 +17,7 @@ culture = culture_hillmen
 religion = religion_angmarim
 
 8222.1.1 = {
-culture = culture_hillmen
-religion = religion_angmarim
+
 
 			b_fail_a_khro = ca_Pwall_1
 			b_fail_a_khro = ca_Pwatchtower_1 

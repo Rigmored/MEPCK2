@@ -864,6 +864,7 @@
 	add_trait = ambitious
 	add_trait = strong
 	add_trait = tall
+         	add_trait = duelist
 	
 	11321.1.1={
 		birth="11321.1.1"
@@ -907,6 +908,7 @@
 	add_trait=gregarious
 	add_trait=just
 	add_trait=tall
+	add_trait = scholar
 	
 	11326.1.1={
 		birth="11326.1.1"	

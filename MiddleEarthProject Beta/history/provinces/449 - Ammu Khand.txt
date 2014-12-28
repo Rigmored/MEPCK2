@@ -14,9 +14,10 @@ b_ambulidash = city
 #b_akka_minith = city
 
 # Misc
-8222.1.1 = {
 culture = culture_variags
 religion = religion_easterlings
+8222.1.1 = {
+
 
 			b_ammu_khand = ca_Hwall_1
 			b_ammu_khand = ca_Hwall_2

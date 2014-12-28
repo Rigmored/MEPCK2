@@ -12,7 +12,7 @@ b_baraz_ghar = city
 #b_zabadgath = city
 #b_budkhul = city
 
-culture = culture_mounatins
+culture = culture_mountains
 religion = religion_wilderness
 
 # Misc

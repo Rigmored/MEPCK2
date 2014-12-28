@@ -13,9 +13,10 @@ b_alak_eleb = city
 #b_ulebez = city
 
 # Misc
-8222.1.1 = {
 culture = culture_variags
 religion = religion_easterlings
+8222.1.1 = {
+
 
 			b_olbamarl = ca_Hwall_1
 			b_olbamarl = ca_Hwatchtower_1 

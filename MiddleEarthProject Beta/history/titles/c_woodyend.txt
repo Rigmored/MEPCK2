@@ -23,7 +23,8 @@ holder = 2001 # Eldacar
 {
 holder = 2433 # Agathor
 }
-11356.1.1=
+9000.1.1=
 {
-holder =  8177 # Will Whitfoot
+liege=k_shire
 }
+

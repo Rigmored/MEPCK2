@@ -15,9 +15,7 @@ b_snagatug = city
 culture = culture_nurnim
 religion = religion_nurning
 terrain = plains
-1.1.1 = {
-terrain = plains
-}
+
 5902.1.1 = { 
 culture = culture_orkish 
 religion = religion_orkish }

@@ -18,7 +18,3 @@ b_iaurgond = tribal
 # Misc
 culture = culture_druwaithing
 religion = religion_haldadian
-
-8222.1.1 = {
-culture = culture_druwaithing
-religion = religion_haldadian }

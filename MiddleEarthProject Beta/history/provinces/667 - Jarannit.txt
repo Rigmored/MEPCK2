@@ -16,12 +16,10 @@ b_lodge_of_suri_kyla = tribal
 
 # Misc
 terrain = arctic
-1.1.1 = {
-terrain = arctic
-}
-8222.1.1 = {
 culture = culture_lossoth
 religion = religion_lossoth
+8222.1.1 = {
+
 
 			b_suri_kyla = tb_Pwall_1 
 			b_suri_kyla = tb_Pwall_2

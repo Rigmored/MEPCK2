@@ -14,7 +14,6 @@ b_calimost = city
 #b_sarstanil = city
 
 # Misc
-8222.1.1 = {
+
 culture = culture_gondorian
 religion = religion_dunedain
-}

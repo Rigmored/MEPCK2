@@ -16,9 +16,7 @@ b_ost_laden = castle
 culture = culture_wilderness
 religion = religion_wilderness
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
+
 
 8222.1.1 = {
 culture = culture_dunedain

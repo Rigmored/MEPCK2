@@ -13,10 +13,7 @@ b_sweardun = city
 # Misc
 culture = culture_wilderness
 religion = religion_wilderness
-6222.1.1 = {
-culture = culture_wilderness
-religion = religion_wilderness
-}
+
 10853.1.1 = { 
 culture = culture_rohirrim
 religion = religion_rhovanion }

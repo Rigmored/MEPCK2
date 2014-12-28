@@ -12,8 +12,5 @@ b_druedain_village = tribal
 
 # Misc
 terrain = forest
-8222.1.1 = {
-terrain = forest
 culture = culture_druedain
 religion = religion_druedain
-}

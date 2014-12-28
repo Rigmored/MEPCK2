@@ -16,7 +16,6 @@ b_imladrim = castle
 
 
 # Misc
-8222.1.1 = {
+
 culture = culture_harondorian
 religion = religion_southron
-}

@@ -1,20 +1,16 @@
 #Enedhir
 
-
 # County Title
 title = c_enedhir
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
 b_dol_enedhir = castle
 b_garth = city
 b_bragol = city
 #b_enedhirost = city
 
-
 # Misc
-8222.1.1 = {
 culture = culture_gondorian
 religion = religion_dunedain
-}

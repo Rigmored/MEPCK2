@@ -16,9 +16,6 @@ b_astafarion = city
 culture = culture_gondorian 
 religion = religion_dunedain
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
 8222.1.1 = { 
 culture = culture_gondorian 
 religion = religion_dunedain }

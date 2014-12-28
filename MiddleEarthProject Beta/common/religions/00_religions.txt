@@ -76,7 +76,7 @@ religion_group_eldar = {
 	religion_moriquendi = {
 		graphical_culture = westerngfx
 
-		icon = 1
+		icon = 9
 		color = { 0.81 0.63 0.90 }
 		
 		god_names = {
@@ -91,7 +91,7 @@ religion_group_eldar = {
 	religion_calaquendi = {
 		graphical_culture = westerngfx
 
-		icon = 1
+		icon = 9
 		color = { 0.54 0.99 0.98 }
 		
 		god_names = {

@@ -19,8 +19,7 @@ b_talagan = tribal
 culture = culture_druedain
 religion = religion_druedain
 8222.1.1 = {
-culture = culture_druedain
-religion = religion_druedain
+
 
 			b_druwaith_laden = tb_Iwall_1 
 			b_druwaith_laden = tb_pukel_men 

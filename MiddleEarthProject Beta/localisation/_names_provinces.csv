@@ -1,6 +1,6 @@
 #PROV;ENGLISH;FRENCH;GERMAN;SPANISH;ITALIAN;;x
 PROV1;Pelennor;Pelennor;;;Pelennor;;x
-PROV2;Mindolluin;Mindolluin;;;Mindolluin;;x
+PROV2;Brandywine;Brandywine;;;Brandywine;;x
 PROV3;Amon Anwar;Amon Anwar;;;Amon Anwar;;x
 PROV4;Sindbar;Sindbar;;;Sindbar;;x
 PROV5;Dunmardo;Dunmardo;;;Dunmardo;;x
@@ -197,7 +197,7 @@ PROV195;Annulond;Annulond;;;Annulond;;x
 PROV196;Lómost;Lómost;;;Lómost;;x
 PROV197;Lond Galen;Lond Galen;;;Lond Galen;;x
 PROV198;Rondalph;Rondalph;;;Rondalph;;x
-PROV199;Lond Anfalas;Lond Anfalas;;;Lond Anfalas;;x
+PROV199;Rhûnwaith;Rhûnwaith;;;Rhûnwaith;;x
 PROV200;Haerlond;Haerlond;;;Haerlond;;x
 PROV201;Lindabad;Lindabad;;;Lindabad;;x
 PROV202;Imlad Arheledh;Imlad Arheledh;;;Imlad Arheledh;;x
@@ -808,3 +808,4 @@ PROV807;Dunhîth;Dunhîth;;;Dunhîth;;x
 PROV808;Rhûnwaith;Rhûnwaith;;;Rhûnwaith;;x
 PROV809;Upper Forodwaith;Upper Forodwaith;;;Upper Forodwaith;;x
 PROV810;Upper Rhûnwaith;Upper Rhûnwaith;;;Upper Rhûnwaith;;x
+PROV811;Brandywine;Brandywine;;;Brandywine;;x

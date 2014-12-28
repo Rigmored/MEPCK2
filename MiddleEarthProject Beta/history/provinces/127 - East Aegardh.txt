@@ -13,9 +13,10 @@ b_aegardhinn = castle
 #b_minas_erinir = city
 
 # Misc
-8222.1.1 = {
 culture = culture_harondorian
 religion = religion_southron
+8222.1.1 = {
+
 
 			b_galadrin = ca_Hwall_1
 			b_galadrin = ca_Hwatchtower_1 

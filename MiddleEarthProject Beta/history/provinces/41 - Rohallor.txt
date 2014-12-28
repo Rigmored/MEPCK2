@@ -1,12 +1,9 @@
 # Rohallor
 
-
 # County Title
-
 title = c_rohallor
 
 # Settlements
-
 max_settlements = 5
 
 b_rohallor = castle
@@ -18,7 +15,3 @@ b_dol_rohall = city
 # Misc
 culture = culture_gondorian
 religion = religion_dunedain
-8222.1.1 = {
-culture = culture_gondorian
-religion = religion_dunedain
-}

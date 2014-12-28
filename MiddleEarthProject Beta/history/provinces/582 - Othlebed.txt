@@ -6,7 +6,7 @@ title = c_othlehed
 # Settlements
 max_settlements = 5
 
-b_othlebed  = castle
+b_othlehed  = castle
 b_burh_toelar = city
 b_stortkevogol = city
 #b_pormaguld = city

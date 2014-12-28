@@ -8,6 +8,7 @@ max_settlements = 3
 
 b_barad_morgal = castle
 b_carach_lug = castle
+b_nazg_morgal = castle
 
 # Misc
 culture = culture_nurnim

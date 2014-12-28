@@ -1,11 +1,9 @@
 #Bar Tyliand
 
 # County Title
-
 title = c_tyliand
 
 # Settlements
-
 max_settlements = 5
 
 b_tyliand = castle
@@ -17,7 +15,3 @@ b_endil = castle
 # Misc
 culture = culture_gondorian
 religion = religion_dunedain
-8222.1.1 = {
-culture = culture_gondorian
-religion = religion_dunedain
-}

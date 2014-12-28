@@ -14,9 +14,6 @@ b_caras_tolfalas = city
 
 # Misc
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
 culture = culture_gondorian
 religion = religion_dunedain
 8222.1.1 = {

@@ -17,9 +17,6 @@ b_lond_methreril = city
 culture = culture_gondorian
 religion = religion_dunedain
 8222.1.1 = {
-culture = culture_gondorian
-religion = religion_dunedain
-
 			b_methrast = ca_Nwall_1
 			b_methrast = ca_Nwall_2
 			b_methrast = ca_Nwatchtower_1 

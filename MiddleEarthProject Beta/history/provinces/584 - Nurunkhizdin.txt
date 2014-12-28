@@ -14,9 +14,10 @@ b_manrbul = city
 #b_khafushûn = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_blacklock
 religion = religion_mahal
+8222.1.1 = {
+
 
 			b_nurunkhizdin = ca_DInnerFortification_1 
 			b_nurunkhizdin = ca_DInnerFortification_2 

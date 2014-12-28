@@ -4,7 +4,7 @@
 title = c_gladden_fields
 
 # Settlements
-max_settlements = 1
+max_settlements = 4
 
 b_ninglorburg = castle
 b_ninolis = city
@@ -12,9 +12,10 @@ b_ninolis = city
 #b_visporin = city
 
 # Misc
-8222.1.1 = {
 culture = culture_northmen
 religion = religion_rhovanion
+8222.1.1 = {
+
 
 			b_ninglorburg = ca_Hwall_1
 			b_ninglorburg = ca_Hwatchtower_1 

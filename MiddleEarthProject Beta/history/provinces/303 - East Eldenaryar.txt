@@ -16,8 +16,6 @@ b_acalabar = city
 culture = culture_hillmen
 religion = religion_haldadian
 8222.1.1 = {
-culture = culture_hillmen
-religion = religion_haldadian
 
 			b_eldanar = ca_Pwall_1
 			b_eldanar = ca_Pwatchtower_1 

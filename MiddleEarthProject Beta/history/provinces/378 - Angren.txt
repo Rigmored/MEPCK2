@@ -13,9 +13,10 @@ b_erynwaith = tribal
 #b_ethir_stommen = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_druwaithing
 religion = religion_haldadian
+8222.1.1 = {
+
 
 			b_lond_angren = tb_Pwall_1 
 			b_lond_angren = tb_Pwall_2

@@ -13,7 +13,5 @@ b_kebeth = city
 #b_remedek = city
 
 # Misc
-8222.1.1 = {
 culture = culture_variags
 religion = religion_easterlings
-}

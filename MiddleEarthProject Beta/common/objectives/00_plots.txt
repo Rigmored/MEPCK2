@@ -30,8 +30,8 @@ plot_gain_title = {
 			crownlaw_title = {
 				NOT = {
 					OR = {
-						has_law = centralization_3
-						has_law = centralization_4
+						has_law = crown_authority_3
+						has_law = crown_authority_4
 					}
 				}
 			}
@@ -63,7 +63,12 @@ plot_gain_title = {
 			NOT = { reverse_has_truce = FROM  }
 		}
 		OR = {
-			FROM = { is_feudal = yes }
+			FROM = {
+				OR = {
+					is_feudal = yes
+					is_tribal = yes
+				}
+			}
 			AND = {
 				FROM = { is_feudal = no }
 				lower_tier_than = KING
@@ -385,6 +390,9 @@ plot_gain_vassal_title = {
 			liege_before_war = {
 				character = FROM
 			}
+		}
+		holder_scope = {
+			NOT = { reverse_has_truce = FROM }
 		}
 	}
 	
@@ -729,6 +737,21 @@ plot_kill_character = {
 		NOT = { culture_group = culture_group_wilderness }
 		NOT = { any_spouse = { character = FROM } } # This case is covered by another plot
 		is_within_diplo_range = FROM
+		# Don't kill my lovers, or their children
+		NOT = {
+		FROM = {
+			any_lover = {
+				OR = {
+					character = ROOT
+						is_father = ROOT
+						is_mother = ROOT
+					}
+				}
+			}
+		}
+		
+		NOT = { is_friend = FROM }
+		
 		FROM = {
 			OR = {
 				# Get rid of the current heir if I'm a pretender
@@ -1038,6 +1061,9 @@ plot_kill_spouse = {
 	
 	# Target character scope
 	allow = {
+		
+		NOT = { is_lover = FROM }
+		
 		OR = {
 			# Human
 			FROM = { ai = no }
@@ -1211,6 +1237,8 @@ plot_weaken_fellow_vassal = {
 	
 	# Plotter scope
 	potential = {
+		always = no # v2.21 - Disabled - not working well
+		
 		prisoner = no
 		is_patrician = no
 		liege = { 
@@ -1232,8 +1260,8 @@ plot_weaken_fellow_vassal = {
 			crownlaw_title = {
 				NOT = {
 					OR = {
-						has_law = centralization_3
-						has_law = centralization_4
+						has_law = crown_authority_3
+						has_law = crown_authority_4
 					}
 				}
 			}
@@ -1259,6 +1287,7 @@ plot_weaken_fellow_vassal = {
 	
 	# Target scope
 	allow = {
+		is_vice_royalty = no
 		higher_tier_than = COUNT
 		is_primary_holder_title = no
 		current_heir = {
@@ -1520,7 +1549,10 @@ plot_gain_liege_title = {
 		is_playable = yes
 		prisoner = no
 		age = 16
-		is_feudal = yes
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
 		is_landed = yes
 		independent = no
 		mercenary = no
@@ -1727,7 +1759,10 @@ plot_gain_fellow_vassal_title = {
 		is_playable = yes
 		prisoner = no
 		age = 16
-		is_feudal = yes
+		OR = {
+			is_feudal = yes
+			is_tribal = yes
+		}
 		is_landed = yes
 		independent = no
 		NOT = { trait = incapable }
@@ -1738,6 +1773,7 @@ plot_gain_fellow_vassal_title = {
 	
 	# Target scope
 	allow = {
+		is_vice_royalty = no
 		NOT = { claimed_by = FROM }
 		current_heir = {
 			NOT = { character = FROM }
@@ -1757,7 +1793,10 @@ plot_gain_fellow_vassal_title = {
 		
 		holder_scope = {
 			is_ruler = yes
-			is_feudal = yes
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
+			}
 			is_landed = yes
 			independent = no
 			NOT = { is_liege_of = FROM }

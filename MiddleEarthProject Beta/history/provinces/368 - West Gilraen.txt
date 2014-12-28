@@ -13,7 +13,6 @@ b_forgamir = city
 #b_rigalin = city
 
 # Misc
-8222.1.1 = {
+
 culture = culture_gondorian
 religion = religion_dunedain
-}

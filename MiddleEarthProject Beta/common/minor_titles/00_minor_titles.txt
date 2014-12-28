@@ -268,9 +268,9 @@ title_LieutenantofDolGuldur = {
 	allow = {
 		FROM = {
 			is_feudal = yes
-			OR = {
-				has_landed_title = e_mordor
-			}
+			
+				has_landed_title = e_barad_dur
+			
 		}
 	}
 	
@@ -294,9 +294,9 @@ title_masterofslaves = {
 	allow = {
 		FROM = {
 			is_feudal = yes
-			OR = {
-				has_landed_title = e_mordor
-			}
+			
+				has_landed_title = e_barad_dur
+			
 		}
 	}
 	
@@ -331,13 +331,13 @@ title_shirrifs = {
                     tier = emperor
                 }
             }
-            OR = {
+            
                 religion_group = religion_group_periannath
-            }
+            
         }
-        OR = {
+        
             religion_group = religion_group_periannath
-        }
+        
 
     }
     
@@ -370,13 +370,13 @@ title_postmaster = {
                     tier = emperor
                 }
             }
-            OR = {
+          
                 religion_group = religion_group_periannath
-            }
+            
         }
-        OR = {
+      
             religion_group = religion_group_periannath
-        }
+        
 
     }
     
@@ -410,13 +410,13 @@ title_matriarch = {
                     tier = emperor
                 }
             }
-            OR = {
+          
                 religion_group = religion_group_periannath
-            }
+            
         }
-        OR = {
+      
             religion_group = religion_group_periannath
-        }
+        
     }
     
     gain_effect = {

@@ -15,9 +15,3 @@ b_gaer_lug = city
 culture = culture_orkish 
 religion = religion_orkish
 terrain = plains
-1.1.1 = {
-terrain = plains
-}
-5902.1.1 = { 
-culture = culture_orkish 
-religion = religion_orkish }

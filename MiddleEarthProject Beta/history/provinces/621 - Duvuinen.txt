@@ -7,8 +7,8 @@ title = c_shedun
 max_settlements = 5
 
 b_duvuinen = castle
-b_shedun = castle
 b_gram = castle
+b_maethad = castle
 #b_maethad = castle
 #b_graetdur = castle
 
@@ -30,15 +30,15 @@ religion = religion_orkish
 			b_duvuinen = ca_MOorctown_1 
 			b_duvuinen = ca_MO_elite_1 
 
-				b_shedun = ca_MOwall_1
-				b_shedun = ca_MOwatchtower_1 
-				b_shedun = ca_MOkeep_1 
-				b_shedun = ca_MOorc_militiabarracks_1 
-				b_shedun = ca_MOorctraining_grounds_1 
-				b_shedun = ca_MOorcbarracks_1 
-				b_shedun = ca_MOstable_1 
-				b_shedun = ca_MOorctown_1 
-				b_shedun = ca_MO_elite_1 
+				b_maethad = ca_MOwall_1
+				b_maethad = ca_MOwatchtower_1 
+				b_maethad = ca_MOkeep_1 
+				b_maethad = ca_MOorc_militiabarracks_1 
+				b_maethad = ca_MOorctraining_grounds_1 
+				b_maethad = ca_MOorcbarracks_1 
+				b_maethad = ca_MOstable_1 
+				b_maethad = ca_MOorctown_1 
+				b_maethad = ca_MO_elite_1 
 
 				b_gram = ca_MOwall_1
 				b_gram = ca_MOwatchtower_1 

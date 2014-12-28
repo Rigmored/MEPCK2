@@ -1,6 +1,6 @@
 province;red;green;blue;x;x
 1;194;129;255;Pelennor;x
-2;183;215;254;Ered Nimrais;x
+2;231;221;53;Ered Nimrais(Brandywine);x
 3;227;128;255;Amon Anwar;x
 4;255;67;67;Sindbar;x
 5;255;122;122;Dunmardo;x
@@ -197,7 +197,7 @@ province;red;green;blue;x;x
 196;46;73;97;Serelond;x
 197;103;137;168;Lond Galen;x
 198;35;106;173;Rondalph;x
-199;164;204;216;Lond Anfalas;x
+199;162;156;95;Lond Anfalas(Rhunwaith);x
 200;115;145;173;Cirith Iaur;x
 201;13;129;162;Lond Feren;x
 202;3;138;177;Cirith Nimrais;x
@@ -430,7 +430,7 @@ province;red;green;blue;x;x
 429;62;205;139;Edhellond;x
 430;197;41;67;Umbar;x
 431;195;114;128;Marös;x
-432;137;2;23;Caldûn;x
+432;137;2;23;Caldûr;x
 433;221;101;121;Pellardur;x
 434;157;2;27;Barazôn;x
 435;133;81;90;Isigir;x
@@ -448,7 +448,7 @@ province;red;green;blue;x;x
 447;66;85;34;Kyzilkum;x
 448;127;155;80;Upper Khand;x
 449;120;164;43;Ammu Khand;x
-450;149;206;85;Nûrad;x
+450;149;206;85;Ahrûl Admal;x
 451;55;84;5;Laorki;x
 452;153;166;130;Sturlurtsa Khand;x
 453;126;192;11;Kruk Mahur;x
@@ -466,8 +466,8 @@ province;red;green;blue;x;x
 465;72;55;49;Mountains of Kajbah;x
 466;109;89;82;Wastes of Kajbah;x
 467;200;191;94;Kadar Argon;x
-468;173;163;52;West Amrûn;x
-469;123;116;34;East Amrûn;x
+468;173;163;52;Dunamrûn;x
+469;123;116;34;Rhûn Amrûn;x
 470;46;34;30;Korb Taskral;x
 471;76;21;1;Korondaj;x
 472;92;87;23;Korb Haruzan;x
@@ -515,7 +515,7 @@ province;red;green;blue;x;x
 514;151;3;105;Anrkaz;x
 515;58;38;52;Tereze;x
 516;146;142;45;Torask;x
-517;142;65;65;Urezayân;x
+517;142;65;65;Ûrêzâyan;x
 518;126;17;35;Zimrenzîl;x
 519;167;62;62;Urud-an-Kibil;x
 520;138;31;31;Nilulondë;x
@@ -523,7 +523,7 @@ province;red;green;blue;x;x
 522;160;76;43;Zadan-an-Adûn;x
 523;114;5;5;Kadar-an-Balkuzôr;x
 524;154;71;84;Abârrûkh;x
-525;109;41;52;Anballukhôr;x
+525;109;41;52;Hazaj Tollin;x
 526;95;71;75;Nykkea;x
 527;162;95;106;Sarnak Hôr;x
 528;148;80;91;Narik-Zadan;x
@@ -568,7 +568,7 @@ province;red;green;blue;x;x
 567;109;81;116;Burh Sauthis;x
 568;63;21;74;Rumavuld;x
 569;142;121;147;Dor Rhovanion;x
-570;56;22;65;Goblintown;x
+570;56;22;65;Annerchin;x
 571;131;97;140;Thror's Combe;x
 572;177;76;140;Azanulimbar-Dûm;x
 573;48;3;32;Duban-Nâla;x
@@ -678,7 +678,7 @@ province;red;green;blue;x;x
 677;160;194;180;Amon Hen;x
 678;234;1;117;Cirith Mirhlim;x
 679;254;54;154;Cirith Himmimond;x
-680;254;107;181;Whitered Heath;x
+680;254;107;181;Sarch nia Linquelíë;x
 681;255;156;205;Cirith Auris;x
 682;145;198;108;Himling;x
 683;100;5;66;Forsteard;x
@@ -809,15 +809,17 @@ province;red;green;blue;x;x
 798;112;103;152;Forovirkain;x
 799;112;147;152;Lókosin;x
 800;122;179;21;Helkasiril;x
-801;209;157;223;Eithel Ninglor (source of Bruinen);x
-802;223;207;157;Rasroval (Peak of the great Wings);x
-803;223;255;12;Aeglir Tongondren (Big Stones Mountains);x
-804;223;80;80;Imlad Thoron (Vale of Eagles);x
+801;209;157;223;Eithel Ninglor;x
+802;223;207;157;Rasroval;x
+803;223;255;12;Aeglir Tongondren;x
+804;223;80;80;Imlad Thoron;x
 805;139;27;80;Mount Gram;x
 806;0;106;255;Gundalok;x
 807;12;255;0;Dunhîth;x
 #Divided Forodwaith
-808;162;156;95;Rhunwaith;x
+808;162;156;95;Rhûnwaith;x
 809;213;226;211;Upper Forodwaith;x
-810;103;95;29;Lower Rhunwaith;x
+810;103;95;29;Upper Rhûnwaith;x
+#Brandywine for snow
+811;231;221;53;North Brandywine;x
 

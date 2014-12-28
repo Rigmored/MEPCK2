@@ -14,7 +14,4 @@ b_stangard = castle
 # Misc
 culture = culture_wilderness
 religion = religion_wilderness
-8222.1.1 = {
-culture = culture_wilderness
-religion = religion_wilderness
-}
+

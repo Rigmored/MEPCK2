@@ -8,10 +8,9 @@ max_settlements = 3
 
 b_mithramspur = castle
 b_demon_cleft = castle
+b_demon_angren = city
 
 # Misc
 culture = culture_orkish 
 religion = religion_orkish
-5902.1.1 = { 
-culture = culture_orkish 
-religion = religion_orkish }
+

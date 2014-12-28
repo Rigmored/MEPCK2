@@ -20,8 +20,6 @@ b_tathrendalf = city
 culture = culture_gondorian_middlemen
 religion = religion_rhovanion
 8222.1.1 = {
-culture = culture_gondorian_middlemen
-religion = religion_rhovanion
 
 			b_calembel = ca_Hwall_1
 			b_calembel = ca_Hwall_2

@@ -16,10 +16,10 @@ b_cartrev_emlun = tribal
 
 
 # Misc
-8222.1.1 = {
+
 culture = culture_dunlending
 religion = religion_haldadian
-}
+
 9979.1.1 = {
 culture = culture_dunlending
 religion = religion_haldadian }

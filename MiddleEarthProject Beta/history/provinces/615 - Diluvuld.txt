@@ -13,7 +13,5 @@ b_grodaroz = city
 #b_dilbisr = city
 
 # Misc
-8222.1.1 = {
 culture = culture_wainriders
 religion = religion_easterlings
-}
