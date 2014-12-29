@@ -2071,7 +2071,7 @@ culture_group_halfling = {
 			Rowan_Rowan Ruby_Ruby Salvia_Salvia Sapphira_Sapphira Tanta_Tanta Widow_Widow
 			
 			}
-			from_dynasty_prefix = "of "
+			from_dynasty_prefix = ""
 		
 			male_patronym = "son of "
 			female_patronym = "daughter of "

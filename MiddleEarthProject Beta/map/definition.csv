@@ -89,7 +89,7 @@ province;red;green;blue;x;x
 88;201;143;101;Nobottle;x
 89;104;91;82;Overhill;x
 90;255;218;191;Greenfields;x
-91;223;223;223;West North Moors;x
+91;223;223;223;Needlehole;x
 92;58;58;58;North Bindbale;x
 93;145;134;129;West Bindbale;x
 94;124;151;124;Green Hill Country;x
@@ -243,11 +243,11 @@ province;red;green;blue;x;x
 242;190;205;153;Hyarromenyar;x
 243;74;96;22;Tarmear;x
 244;112;148;27;Brethyar;x
-245;73;95;20;Frontier 1;x
+245;73;95;20;Glandagol;x
 246;169;208;74;East Luneland;x
 247;132;32;186;Noirinanyar;x
 248;204;126;247;Ongoth;x
-249;65;50;74;Frontier 2;x
+249;65;50;74;Tirith Glann;x
 250;31;9;44;West Formenyar;x
 251;191;120;229;West Orromenyar;x
 252;151;57;198;Annumenyar;x
@@ -307,7 +307,7 @@ province;red;green;blue;x;x
 306;120;100;208;West Eredoriath;x
 307;21;8;80;East Eredoriath;x
 308;48;34;108;North Eredoriath;x
-309;92;152;219;South West Mirkwood;x
+309;92;152;219;Taur Morvith;x
 310;23;94;174;Amon Lanc;x
 311;19;70;127;South North West Mirkwood;x
 312;121;155;194;South Mirkwood;x

@@ -451,6 +451,7 @@ focus_war = {
 		is_adult = yes
 		is_playable = yes
 		NOT = { trait = incapable }
+		NOT = { religion_group = religion_group_periannath }
 	}
 	
 	allow = {

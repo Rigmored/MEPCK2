@@ -5159,6 +5159,8 @@ e_arnor = {
 			culture_arnorian = "Canathrhûn"
 			culture_gondorian = "Canathrhûn"
 			
+			title_prefix = "DISTRICT_OF"
+			
 			c_frogmorton = {
 				color={ 97 177 177 }
 				color2={ 255 255 255 }
@@ -5242,7 +5244,7 @@ e_arnor = {
 			}
 		}
 		d_south_farthing = {
-			color={ 186 143 113 }
+			color={ 101 160 75}
 			color2={ 255 255 255 }
 			
 			capital = 83 #Longbottom
@@ -5251,6 +5253,8 @@ e_arnor = {
 			culture_arnorian = "Canatharad"
 			culture_gondorian = "Canatharad"			
 			
+			title_prefix = "DISTRICT_OF"
+
 			c_east_red_downs = {
 				color={ 200 255 200 }
 				color2={ 255 255 255 }
@@ -5343,7 +5347,7 @@ e_arnor = {
 			}
 		}
 		d_west_farthing = {
-			color={ 101 160 75 }
+			color={ 186 143 113 }
 			color2={ 255 255 255 }
 			
 			capital = 84 # Hobbiton
@@ -5351,6 +5355,8 @@ e_arnor = {
 			culture_dunedain = "Canathdûn"
 			culture_arnorian = "Canathdûn"
 			culture_gondorian = "Canathdûn"			
+				
+			title_prefix = "DISTRICT_OF"	
 				
 			c_hobbiton = {
 				color={ 186 78 0 }
@@ -5377,7 +5383,7 @@ e_arnor = {
 				}
 			}
 			c_michel_delving = {
-				color={ 226 176 139 }
+				color={ 135 60 6 }
 				color2={ 255 255 255 }
 				
 				culture_dunedain = "Raudhost"
@@ -5489,7 +5495,7 @@ e_arnor = {
 				}
 			}
 			c_westwood = {
-				color={ 135 60 6 }
+				color={ 226 176 139 }
 				color2={ 255 255 255 }
 				
 				culture_dunedain = "Govadimrad"
@@ -5551,8 +5557,10 @@ e_arnor = {
 			
 			culture_dunedain = "Canathforn"
 			culture_arnorian = "Canathforn"
-			culture_gondorian = "Canathforn"			
+			culture_gondorian = "Canathforn"	
 			
+			title_prefix = "DISTRICT_OF"
+
 			c_north_bindbale = {
 				color={ 58 58 58 }
 				color2={ 255 255 255 }
@@ -12589,6 +12597,7 @@ d_mayor_shire = {
 	title = "MAYOR"
 	title_female = "MAYORESS"
 	title_prefix = "MAYOR_OF"
+	foa = "MAYOR_FOA"
 
 }
 
@@ -12941,7 +12950,7 @@ k_eagles = {
 }
 
 k_shire = {
-	color={ 40 149 15 }
+	color={ 0.83 0.78 0.54 }
 	color2={ 125 125 142 }
 	
 	culture_dunedain = "Sûza-t"

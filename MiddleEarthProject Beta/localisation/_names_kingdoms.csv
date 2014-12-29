@@ -11,7 +11,7 @@ k_fangorn;Fangorn;Fangorn;;;Fangorn;;;;;;;;;x
 k_fangorn_adj;Fangornrim;Fangornien;;;Fangornrim;;;;;;;;;x
 k_mordor;Mordor;Mordor;;;Mordor;;;;;;;;;x
 k_mordor_adj;Mordorian;Mordorien;;;Mordorim;;;;;;;;;x
-k_shire;Shire;Comté;;;Contea;;;;;;;;;x
+k_shire;the Shire;Comté;;;Contea;;;;;;;;;x
 k_shire_adj;Shire's;Hobbit;;;della Contea;;;;;;;;;x
 k_cardolan;Cardolan;Cardolan;;;Cardolan;;;;;;;;;x
 k_cardolan_adj;Cardolanian;Cardolanien;;;Cardolanrim;;;;;;;;;x
@@ -109,7 +109,7 @@ k_wainriders;Wainriders;Wainriders;;;Carrieri;;;;;;;;;x
 k_wainriders_adj;Wainriders;Wainriders;;;dei Carrieri;;;;;;;;;x
 k_hillmen;Hill-men of Rhudaur;Hommes des Collines;;;Rhudaurim delle Colline;;;;;;;;;x
 k_hillmen_adj;Rhudaurim;Hommes des Collines;;;Rhudaurim;;;;;;;;;x
-k_thain_shire;Shire;Comté;;;Contea;;;;;;;;;x
+k_thain_shire;the Shire;Comté;;;Contea;;;;;;;;;x
 k_thain_shire_adj;Shire's;Hobbits;;;Hobbit;;;;;;;;;x
 k_forochel;Forochel;Forochel;;;Forochel;;;;;;;;;x
 k_forochel;Forochelrim;Forochelrim;;;Forochelrim;;;;;;;;;x

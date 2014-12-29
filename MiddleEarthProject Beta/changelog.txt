@@ -2,6 +2,9 @@
 
 ##### 0.4.5b Changlog #####
 
+CASUS BELLI
+-Added 'Good Invasion' usable by Free Peoples against Orcs and other Creatures of Melkor
+
 CHARACTERS
 - Added gluttonous and charismatic negotiator to Will Whitfoot
 
@@ -10,8 +13,15 @@ GFX
 - Added unique icon for Eldar races
 
 LOCALISATION
-- Re-added the new descriptions and names for education traits
+- Re-added Middle Earth descriptions and names for education traits
 
+GAMEPLAY
+-Extended end date by 200 years
+
+OBJECTIVES
+-Disabled Seduction focus for Elves
+-Disabled Family focus for Creatures of Melkor
+-Disabled War focus for Hobbits
 NICKNAMES
 - Added Flourdumpling to Will Whitfoot
 - Re-added Strider to Aragorn II
@@ -19,6 +29,11 @@ NICKNAMES
 TITLES
 - Added titular mayordom of Shire held by Will Whitfoot
 - Fixed some colours on Harad titles
+- Restructed Shire, no duchy titles other than Mayordom at WotR start, no counts hold more than one township
+- Changed Thaindom of the Shire colour to beige
+
+LOCALISATION
+- Hobbit counts are now Messr
 
 ##### 0.4b Changelog #####
 

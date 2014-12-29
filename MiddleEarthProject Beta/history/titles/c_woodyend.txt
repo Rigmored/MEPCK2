@@ -25,6 +25,7 @@ holder = 2433 # Agathor
 }
 9000.1.1=
 {
+holder=no
 liege=k_shire
 }
 
