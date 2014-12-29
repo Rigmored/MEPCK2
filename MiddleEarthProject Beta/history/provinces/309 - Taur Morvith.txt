@@ -1,11 +1,7 @@
-﻿# 309 - Taur Morvith
-
-
+# 309 - Taur Morvith
 
 # County Title
 title = c_south_west_mirkwood
-
-
 
 # Settlements
 max_settlements = 5
