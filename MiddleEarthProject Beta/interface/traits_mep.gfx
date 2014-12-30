@@ -308,21 +308,21 @@ spriteType = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
-	    spriteType = {
+	spriteType = {
 		name = "GFX_trait_skin_changer"
 		texturefile = "gfx/traits/skin_changer.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
-	    spriteType = {
+	spriteType = {
 		name = "GFX_trait_orkish"
 		texturefile = "gfx/traits/orkish.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
-	}		
-		    spriteType = {
+	}	
+	spriteType = {
 		name = "GFX_trait_half_elf"
 		texturefile = "gfx/traits/half_elf.dds"
 		noOfFrames = 1

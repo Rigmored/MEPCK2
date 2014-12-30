@@ -2687,7 +2687,7 @@ culture_group_eru = {
 culture_group_melkor = {
        graphical_culture = muslimgfx
 	   
-        culture_wight = {
+	culture_wight = {
 		graphical_culture = wraithgfx
 		used_for_random = no
 		color = { 0.25 0.5 0.75 }
@@ -2701,7 +2701,7 @@ culture_group_melkor = {
 
 		modifier = default_culture_modifier
 	}
-        culture_half_orc = {
+	culture_half_orc = {
 		graphical_culture = orkgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2739,7 +2739,7 @@ culture_group_melkor = {
 
 		modifier = default_culture_modifier
 	}
-        culture_urukhai = {
+	culture_urukhai = {
 		graphical_culture = orkgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2777,7 +2777,7 @@ culture_group_melkor = {
 
 		modifier = urukhai_culture_modifier
 	}
-        culture_goblin = {
+	culture_goblin = {
 		graphical_culture = goblingfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2815,7 +2815,7 @@ culture_group_melkor = {
 
 		modifier = orkish_culture_modifier
 	}
-        culture_orkish = {
+    culture_orkish = {
 		graphical_culture = orkgfx
 		
 		color = { 0.84 0.21 0.0 }
@@ -2852,7 +2852,7 @@ culture_group_melkor = {
 
 		modifier = orkish_culture_modifier
 	}
-        culture_troll = {
+	culture_troll = {
 		graphical_culture = trollgfx
 		
 		color = { 0.84 0.21 0.0 }
@@ -2928,7 +2928,7 @@ culture_group_wilderness = {
 			Wilderness Lands Moors Heaths Heathlands Moorlands Wildlands
 		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = ""
 		
 		male_patronym = "of"
 		female_patronym = "of"
@@ -2959,7 +2959,7 @@ culture_group_wilderness = {
 			Mountains Peaks Crests Summit
 		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = ""
 		
 		male_patronym = "of"
 		female_patronym = "of"

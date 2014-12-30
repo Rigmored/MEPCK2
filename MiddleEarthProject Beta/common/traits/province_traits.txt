@@ -1,5 +1,5 @@
 wildlife = {
-	fertility = -2000.0
+	fertility = -5.0
 	immortal = yes
     inherit_chance = 100
     health = 100.0

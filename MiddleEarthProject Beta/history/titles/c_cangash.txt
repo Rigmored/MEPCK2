@@ -8,4 +8,8 @@
 holder = 12223 #The Witch King
 liege = "d_carn_dum"
 }
+10500.1.1={
+holder=no
+liege=d_nan_angmar
+}
 

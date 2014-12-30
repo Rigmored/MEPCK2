@@ -8444,7 +8444,7 @@ e_harad = {
 		religion_southron = 100 # Crusade target weight
 	
 		d_lurmsakun = {
-			color={ 149 186 85 }
+			color={ 149 200 85 }
 			color2={ 255 255 255 }
 			
 			capital = 504 # Bur Lurmsakûn
@@ -8478,11 +8478,11 @@ e_harad = {
 				b_hills_of_sand = {
 				}
 			}
-			c_gritland = {
+			c_layotam = {
 				color={ 149 186 85 }
 				color2={ 255 255 255 }
 		
-				b_gritland = {
+				b_layotam = {
 				}
 			}
 			c_dusthills = {
@@ -8499,16 +8499,16 @@ e_harad = {
 				b_dying_pass = {
 				}
 			}
-			c_torask = {
+			c_zhaneen = {
 				color={ 149 186 85 }
 				color2={ 255 255 255 }
 		
-				b_torask = {
+				b_zhaneen = {
 				}
 			}
 		}
 		d_brafenas = {
-			color={ 149 186 85 }
+			color={ 149 100 85 }
 			color2={ 255 255 255 }
 			
 			capital = 501 # Brafenas
@@ -8528,6 +8528,20 @@ e_harad = {
 				b_brafenas5 = {
 				}
 			}
+			c_gritland = {
+				color={ 149 186 85 }
+				color2={ 255 255 255 }
+		
+				b_gritland = {
+				}
+			}
+			c_torask = {
+				color={ 149 186 85 }
+				color2={ 255 255 255 }
+		
+				b_torask = {
+				}
+			}
 			c_kruk_datmen = {
 				color={ 149 186 85 }
 				color2={ 255 255 255 }
@@ -8540,20 +8554,6 @@ e_harad = {
 				color2={ 255 255 255 }
 		
 				b_lurm = {
-				}
-			}
-			c_zhaneen = {
-				color={ 149 186 85 }
-				color2={ 255 255 255 }
-		
-				b_zhaneen = {
-				}
-			}
-			c_layotam = {
-				color={ 149 186 85 }
-				color2={ 255 255 255 }
-		
-				b_layotam = {
 				}
 			}
 		}

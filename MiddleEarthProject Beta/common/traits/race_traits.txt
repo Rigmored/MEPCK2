@@ -1,5 +1,5 @@
 maiar = {	
-	fertility = -2000.0
+	fertility = -5.0
     health = 100.0
     diplomacy = 3
 	stewardship = 3
@@ -13,7 +13,7 @@ maiar = {
 }
 
 eagle = {	
-	fertility = -2000.0
+	fertility = -5.0
     	health = 100.0
    	diplomacy = 3
 	stewardship = 3
@@ -37,7 +37,7 @@ eagle = {
 }
 
 balrog = {	
-	fertility = -2000.0
+	fertility = -5.0
 	opposites = { 
 		worship_balrog 
 	}
@@ -55,7 +55,7 @@ balrog = {
 		cached = yes
 }
 spider = {	
-	fertility = -2000.0
+	fertility = -5.0
     	health = 100.0
     	diplomacy = -20
 	stewardship = -20
@@ -137,7 +137,7 @@ ent = {
     opposites = { orkish }
     opposite_opinion = -50
     same_opinion = 20	
-	fertility = -2000.0
+	fertility = -5.0
     health = 100.0
     diplomacy = 3
 	intrigue = -10
@@ -175,7 +175,7 @@ dwarven_infertility = {
 	potential = {
 		religion_group = religion_group_khazad
 	}
-    fertility = -100.0
+    fertility = -5.0
 	customizer = no	
 	cached = yes
 }
@@ -183,12 +183,12 @@ elven_infertility = {
 potential = {
 		religion_group = religion_group_eldar
 	}
-    fertility = -100.0
+    fertility = -5.0
 	customizer = no	
 	cached = yes
 }
 elf_childhood = {
-	fertility = -2000.0
+	fertility = -5.0
 	health = 100.0 #Hope to see less Nazgul deaths of old age
 	potential = {
 		religion_group = religion_group_eldar
@@ -199,7 +199,7 @@ elf_childhood = {
 	cached = yes
 }
 fea_strong = {
-	fertility = 2
+	fertility = 2.0
 	martial = 4
 	learning = 1
 	diplomacy = 2
@@ -225,7 +225,7 @@ fea_normal = {
 }
 
 fea_weak = {
-	fertility = -2
+	fertility = -2.0
 	martial = -1
 	diplomacy = -1
 	potential = {
@@ -238,7 +238,7 @@ fea_weak = {
 	cached = yes
 }
 valar = {	
-	fertility = -2000.0
+	fertility = -5.0
 	immortal = yes
     health = 100.0
 	diplomacy = 20
@@ -251,7 +251,7 @@ valar = {
 	cached = yes
 }
 enigma = {
-	fertility = -2000.0
+	fertility = -5.0
 	immortal = yes
     health = 100.0
 	customizer = no	
@@ -259,12 +259,13 @@ enigma = {
 	cached = yes
 }
 wilderness = {	
-	fertility = -2000.0
+	fertility = -5.0
 	immortal = yes
-	stewardship = -20
-	martial = -20
-	intrigue = -20
-	learning = -20
+	diplomacy = -30
+	stewardship = -30
+	martial = -30
+	intrigue = -30
+	learning = -30
    	potential = {
 		culture_group = culture_group_wilderness
 	}
@@ -333,7 +334,7 @@ heir_of_durin = {
 	cached = yes
 }
 nazgul = {
-	fertility = -2000.0
+	fertility = -5.0
 	health = 100.0 #Hope to see less Nazgul deaths of old age
 	immortal = yes
 	intrigue = 5
@@ -429,7 +430,7 @@ human_infertility = {
             culture_group = culture_group_halfling			
 		}
 	}
-    fertility = -1000.0
+    fertility = -5.0
 	customizer = no	
 	cached = yes
 }
@@ -453,7 +454,7 @@ beard_elf = {
 }
 
 wight = {
-	fertility = -2000.0
+	fertility = -5.0
 	health = 200
 	immortal = yes
 	intrigue = 4
