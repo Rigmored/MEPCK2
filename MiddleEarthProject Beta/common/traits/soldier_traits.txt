@@ -29,6 +29,7 @@ good_rider = {
 	leader = yes
 
 	martial = 2
+	combat_rating = 1
 	
 	potential = {
 		OR = {
@@ -53,6 +54,7 @@ great_rider = {
 	leader = yes
 
 	martial = 3
+	combat_rating = 2
 	
 	monthly_character_prestige = 0.05
 	vassal_opinion = 5
@@ -81,6 +83,7 @@ horse_master = {
 	leader = yes
 
 	martial = 5
+	combat_rating = 3
 	
 	monthly_character_prestige = 0.1
 	vassal_opinion = 10
@@ -110,6 +113,7 @@ amroth_squire = {
 	leader = yes
 
 	martial = 2
+	combat_rating = 1
 	
 	monthly_character_prestige = 0.02
 	sex_appeal_opinion = 5		
@@ -132,6 +136,7 @@ amroth_knight = {
 	leader = yes
 
 	martial = 4
+	combat_rating = 3
 	
 	monthly_character_prestige = 0.1
 	vassal_opinion = 10
@@ -156,6 +161,7 @@ ithilien_ranger = {
 	leader = yes
 
 	martial = 3
+	combat_rating = 2
 	
 	monthly_character_prestige = 0.2
 	vassal_opinion = 10
@@ -180,6 +186,7 @@ ithilien_captain = {
 	leader = yes
 
 	martial = 4
+	combat_rating = 3
 	
 	monthly_character_prestige = 0.3
 	vassal_opinion = 20
@@ -234,6 +241,7 @@ orc_warrior = {
 	leader = yes
 
 	martial = 2
+	combat_rating = 1
 	
 	monthly_character_prestige = 0.02
 	vassal_opinion = 5
@@ -262,6 +270,7 @@ strong_orc = {
 	leader = yes
 
 	martial = 3
+	combat_rating = 2
 	
 	monthly_character_prestige = 0.05
 	vassal_opinion = 10
@@ -291,6 +300,7 @@ great_orc = {
 	leader = yes
 
 	martial = 5
+	combat_rating = 3
 	
 	monthly_character_prestige = 0.1
 	vassal_opinion = 15
@@ -347,6 +357,7 @@ trained_elf = {
 	leader = yes
 
 	martial = 2
+	combat_rating = 1
 	
 	potential = {
 		OR = {
@@ -372,6 +383,7 @@ great_elf = {
 	leader = yes
 
 	martial = 4
+	combat_rating = 2
 	
 	potential = {
 		OR = {
@@ -398,6 +410,7 @@ legendary_warrior = {
 	leader = yes
 
 	martial = 6
+	combat_rating = 3
 	
 	potential = {
 		OR = {
@@ -443,6 +456,7 @@ mumakil_groom = {
 	leader = yes
 
 	martial = 2
+	combat_rating = 1
 	
 	potential = {
 		culture = culture_haradrim		
@@ -460,6 +474,7 @@ mumakil_rider = {
 	leader = yes
 
 	martial = 4
+	combat_rating = 2
 	
 	monthly_character_prestige = 0.1
 	vassal_opinion = 10
@@ -481,6 +496,7 @@ mumakil_commander = {
 	leader = yes
 
 	martial = 5
+	combat_rating = 3
 	
 	monthly_character_prestige = 0.2
 	vassal_opinion = 15
@@ -521,6 +537,7 @@ trained_dwarf = {
 	leader = yes
 
 	martial = 2
+	combat_rating = 1
 	
 	potential = {
 		culture_group = culture_group_dwarves		
@@ -541,6 +558,7 @@ great_axeman = {
 	leader = yes
 
 	martial = 4
+	combat_rating = 2
 	
 	monthly_character_prestige = 0.1
 	vassal_opinion = 10
@@ -565,6 +583,7 @@ dragon_slayer = {
 	leader = yes
 
 	martial = 5
+	combat_rating = 3
 	
 	monthly_character_prestige = 0.2
 	vassal_opinion = 15
@@ -608,6 +627,7 @@ dunedain_ranger = {
 	leader = yes
 
 	martial = 2
+	combat_rating = 1
 	
 	potential = {
 		culture = culture_dunedain	
@@ -629,6 +649,7 @@ dunedain_captain = {
 	leader = yes
 
 	martial = 4
+	combat_rating = 2
 	
 	monthly_character_prestige = 0.2
 	vassal_opinion = 10
@@ -661,6 +682,7 @@ grey_member = {
 	leader = yes
 
 	martial = 5
+	combat_rating = 3
 	
 	monthly_character_prestige = 0.4
 	vassal_opinion = 15
@@ -712,6 +734,7 @@ skilled_bowman = {
 	leader = yes
 
 	martial = 2
+	combat_rating = 1
 	
 	potential = {
 		culture = culture_barding	
@@ -732,6 +755,7 @@ great_bowman = {
 	leader = yes
 
 	martial = 3
+	combat_rating = 2
 	
 	monthly_character_prestige = 0.1
 	vassal_opinion = 5
@@ -756,6 +780,7 @@ master_bowman = {
 	leader = yes
 
 	martial = 4
+	combat_rating = 3
 	
 	monthly_character_prestige = 0.2
 	vassal_opinion = 10

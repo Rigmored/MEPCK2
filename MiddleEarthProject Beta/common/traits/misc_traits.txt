@@ -1,35 +1,3 @@
-ruthless = {
-    personality = yes
-    opposites =  {
-        chivalrous
-    }
-    intrigue = 2
-    opposite_opinion = -10
-    ai_rationality = 10
-    ai_honor = -20
-    ai_ambition = 25
-    
-}
-
-chivalrous = {
-    personality = yes
-    opposites = {
-        ruthless
-    }
-    potential = {
-		NOT = {
-		religion_group = religion_group_melkor 
-	    }
-	}
-    martial = 2
-    
-    opposite_opinion = -10
-    
-    ai_honor = 10
-    ai_rationality = -20
-    ai_ambition = -25
-}
-
 painter = {
 potential = {
 		NOT = {

@@ -1,27 +1,41 @@
 ﻿-------MIDDLE-EARTH PROJECT----------
 
-##### 0.4.5b Changlog #####
+##### 0.4.2b Changlog #####
 
 CASUS BELLI
--Added 'Good Invasion' usable by Free Peoples against Orcs and other Creatures of Melkor
+- Added 'Good Invasion' usable by Free Peoples against Orcs and other Creatures of Melkor
 
 CHARACTERS
 - Added gluttonous and charismatic negotiator to Will Whitfoot
 
+DIPLOMACY
+- Disabled 'demand religious conversion' diplomatic interaction
+- Disabled 'send to monastery' diplomatic interaction
+
+EVENTS
+- Fixed bugs with restrictions on who can be eaten and firing of orc feasts
+
+GAMEPLAY
+- Extended end date by 200 years
+
 GFX
 - Reworked icons for Elf Warrior, Rider and Craftsman ambitions
 - Added unique icon for Eldar races
+- New title logo
+
+LAWS
+- Updated laws
 
 LOCALISATION
 - Re-added Middle Earth descriptions and names for education traits
-
-GAMEPLAY
--Extended end date by 200 years
+- Hobbit counts are now Messr
+- Edited localisation for feast events
 
 OBJECTIVES
--Disabled Seduction focus for Elves
--Disabled Family focus for Creatures of Melkor
--Disabled War focus for Hobbits
+- Disabled Seduction focus for Elves
+- Disabled Family focus for Creatures of Melkor
+- Disabled War focus for Hobbits
+
 NICKNAMES
 - Added Flourdumpling to Will Whitfoot
 - Re-added Strider to Aragorn II
@@ -32,8 +46,8 @@ TITLES
 - Restructed Shire, no duchy titles other than Mayordom at WotR start, no counts hold more than one township
 - Changed Thaindom of the Shire colour to beige
 
-LOCALISATION
-- Hobbit counts are now Messr
+TRAITS
+- Added combat stats to soldier traits
 
 ##### 0.4b Changelog #####
 
