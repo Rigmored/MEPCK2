@@ -21,6 +21,13 @@ focus_rulership = {
 	
 	allow = {
 		prisoner = no
+		NOT = { religion_group = religion_group_enyd }
+		custom_tooltip = {
+			text = is_not_wilderness
+			hidden_tooltip = {
+				NOT = { religion_group = religion_group_wilderness }
+			}
+		}
 	}
 	
 	# AI Pick chance - based on personality, not needs!
@@ -92,6 +99,13 @@ focus_business = {
 	
 	allow = {
 		prisoner = no
+		NOT = { religion_group = religion_group_enyd }
+		custom_tooltip = {
+			text = is_not_wilderness
+			hidden_tooltip = {
+				NOT = { religion_group = religion_group_wilderness }
+			}
+		}
 	}
 	
 	# AI Pick chance
@@ -165,12 +179,11 @@ focus_seduction = {
 	allow = {
 		NOT = { trait = celibate }
 		NOT = { religion_group = religion_group_eldar }
+		NOT = { religion_group = religion_group_enyd }
 		custom_tooltip = {
-			text = is_not_ascetic
+			text = is_not_wilderness
 			hidden_tooltip = {
-				NOT = { has_character_modifier = hindu_ascetic }
-				NOT = { has_character_modifier = buddhist_ascetic }
-				NOT = { has_character_modifier = jain_naked_ascetic }
+				NOT = { religion_group = religion_group_wilderness }
 			}
 		}
 	}
@@ -295,6 +308,13 @@ focus_intrigue = {
 	
 	allow = {
 		prisoner = no
+		NOT = { religion_group = religion_group_enyd }
+		custom_tooltip = {
+			text = is_not_wilderness
+			hidden_tooltip = {
+				NOT = { religion_group = religion_group_wilderness }
+			}
+		}
 	}
 	
 	# AI Pick chance
@@ -389,6 +409,13 @@ focus_hunting = {
 	
 	allow = {
 		prisoner = no
+		NOT = { religion_group = religion_group_enyd }
+		custom_tooltip = {
+			text = is_not_wilderness
+			hidden_tooltip = {
+				NOT = { religion_group = religion_group_wilderness }
+			}
+		}
 	}
 	
 	# AI Pick chance
@@ -456,6 +483,13 @@ focus_war = {
 	
 	allow = {
 		prisoner = no
+		NOT = { religion_group = religion_group_enyd }
+		custom_tooltip = {
+			text = is_not_wilderness
+			hidden_tooltip = {
+				NOT = { religion_group = religion_group_wilderness }
+			}
+		}
 	}
 	
 	# AI Pick chance
@@ -543,17 +577,14 @@ focus_carousing = {
 	
 	allow = {
 		OR = {
-			NOT = { religion_group = muslim }
-			trait = decadent
+			NOT = { religion_group = religion_group_enyd }
 			trait = hedonist
 			trait = drunkard
-		}
-		custom_tooltip = {
-			text = is_not_ascetic
-			hidden_tooltip = {
-				NOT = { has_character_modifier = hindu_ascetic }
-				NOT = { has_character_modifier = buddhist_ascetic }
-				NOT = { has_character_modifier = jain_naked_ascetic }
+			custom_tooltip = {
+				text = is_not_wilderness
+				hidden_tooltip = {
+					NOT = { religion_group = religion_group_wilderness }
+				}
 			}
 		}
 		prisoner = no
@@ -626,6 +657,13 @@ focus_family = {
 	allow = {
 		prisoner = no
 		NOT = { religion_group = religion_group_melkor }
+		NOT = { religion_group = religion_group_enyd }
+		custom_tooltip = {
+			text = is_not_wilderness
+			hidden_tooltip = {
+				NOT = { religion_group = religion_group_wilderness }
+			}
+		}
 	}
 	
 	# AI Pick chance
@@ -733,6 +771,13 @@ focus_scholarship = {
 	
 	allow = {
 		always = yes
+		NOT = { religion_group = religion_group_enyd }
+		custom_tooltip = {
+			text = is_not_wilderness
+			hidden_tooltip = {
+				NOT = { religion_group = religion_group_wilderness }
+			}
+		}
 	}
 	
 	# AI Pick chance
@@ -822,6 +867,13 @@ focus_theology = {
 	
 	allow = {
 		always = yes
+		NOT = { religion_group = religion_group_enyd }
+		custom_tooltip = {
+			text = is_not_wilderness
+			hidden_tooltip = {
+				NOT = { religion_group = religion_group_wilderness }
+			}
+		}
 	}
 	
 	# AI Pick chance
@@ -904,5 +956,4 @@ focus_theology = {
 	
 	# MODIFIERS
 	learning = 2
-	church_opinion = 20
 }

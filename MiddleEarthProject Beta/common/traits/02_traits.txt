@@ -202,7 +202,7 @@ winter_soldier = {
 		winter_combat = 0.5
 	}	
 }
-}
+
 
 seducer = {
 	lifestyle = yes

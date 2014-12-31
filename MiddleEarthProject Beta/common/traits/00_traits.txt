@@ -494,9 +494,6 @@ has_small_pox = {
 ############################
 
 crusader = {
-	potential = {
-		religion_group = christian
-	}
 	
 	martial = 2
 	combat_rating = 1

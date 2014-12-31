@@ -91,11 +91,4 @@ decisions = {
 	
 	
 	
-	ai_will_do = {
-		is_high_prio = no
-		potential = {
-			has_character_flag = neverwillexist
-		}
-		effect = { set_character_flag = neverwillexist }
-	}
 }

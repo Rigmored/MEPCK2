@@ -139,10 +139,8 @@ character_event = {
 		prisoner = yes
 		host = { character = ROOT }
 		age = 16
-		OR = {
-				religion = religion_mahal
-			}
-			}
+		religion = religion_mahal
+		}
 		death = {
 		death_reason = death_sacrificed
 		killer = ROOT
@@ -174,10 +172,8 @@ character_event = {
 		prisoner = yes
 		host = { character = ROOT }
 		age = 16
-		OR = {
-				religion = religion_perian
-			}
-			}
+		religion = religion_perian
+		}
 		death = {
 		death_reason = death_sacrificed
 		killer = ROOT
@@ -209,10 +205,8 @@ character_event = {
 		prisoner = yes
 		host = { character = ROOT }
 		age = 16
-		OR = {
-				religion = religion_orkish
-			}
-			}
+		religion = religion_orkish
+		}
 		death = {
 		death_reason = death_sacrificed
 		killer = ROOT
@@ -334,7 +328,7 @@ letter_event = {
 		set_character_flag = coming_to_feast
 	}
 	option = {
-		name = noldorfeast.3 #Refuse
+		name = EVTOPTB72011 #Refuse
 		ai_chance = {
 			factor = 1
 			modifier  = {

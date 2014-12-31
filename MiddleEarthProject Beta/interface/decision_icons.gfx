@@ -990,4 +990,8 @@ spriteTypes = {
 		name = "GFX_claim_victory_vs_witchking"
 		texturefile = "gfx\\interface\\decision_icon_claim_king_arnor.dds"
 	}
+	spriteType = {
+		name = "GFX_feast_of_durin"
+		texturefile = "gfx\\interface\\decision_icon_dwarven_feast.dds"
+	}
 }

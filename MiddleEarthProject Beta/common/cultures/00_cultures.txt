@@ -2240,7 +2240,7 @@ culture_group_dwarves = {
 
 		modifier = ironfist_culture_modifier
 	}
-      culture_stiffbeard = {
+		culture_stiffbeard = {
 		graphical_culture = dwarfgfx
 		
 		color = { 0.25 0.5 0.75 }
