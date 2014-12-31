@@ -8,12 +8,17 @@ CASUS BELLI
 CHARACTERS
 - Added gluttonous and charismatic negotiator to Will Whitfoot
 
+DECISIONS
+- Added Dwarven feast decision
+
 DIPLOMACY
 - Disabled 'demand religious conversion' diplomatic interaction
 - Disabled 'send to monastery' diplomatic interaction
 
 EVENTS
 - Fixed bugs with restrictions on who can be eaten and firing of orc feasts
+- Fixed bug with Noldor and Silvan/Sindar feast events not firing correct event
+- Added Dwarven feasts events
 
 GAMEPLAY
 - Extended end date by 200 years
@@ -31,14 +36,20 @@ LOCALISATION
 - Hobbit counts are now Messr
 - Edited localisation for feast events
 
+NICKNAMES
+- Added Flourdumpling to Will Whitfoot
+- Re-added Strider to Aragorn II
+
 OBJECTIVES
 - Disabled Seduction focus for Elves
 - Disabled Family focus for Creatures of Melkor
 - Disabled War focus for Hobbits
+- Disabled all focuses for Wilderness
 
-NICKNAMES
-- Added Flourdumpling to Will Whitfoot
-- Re-added Strider to Aragorn II
+RELIGION
+- Added High and Evil god names for all religions
+- Added feminist = yes for Eldar and Spiders
+- Added conversion desire = 0 to all religions (races can't convert)
 
 TITLES
 - Added titular mayordom of Shire held by Will Whitfoot
@@ -47,7 +58,7 @@ TITLES
 - Changed Thaindom of the Shire colour to beige
 
 TRAITS
-- Added combat stats to soldier traits
+- Added combat stats to soldier and weapon traits
 
 ##### 0.4b Changelog #####
 
