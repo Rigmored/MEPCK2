@@ -500,7 +500,7 @@
 		}
 	employer="8024"
 	} #Bilbo's birthday
-	11361.10.3 ={
+	11361.2.1 ={
 		add_trait = wounded
 	} #Nazgul Assault
 	11361.3.30 ={
@@ -1150,6 +1150,7 @@
 	mother=8021
 	female=yes
 	add_trait = hobbit
+	add_trait = twin
 	11245.1.1={
 		birth="11245.1.1"
 	}
@@ -1168,6 +1169,7 @@
 	father=8116
 	mother=8021
 	add_trait = hobbit
+	add_trait = twin
 	11245.1.1={
 		birth="11245.1.1"
 	}
@@ -1285,9 +1287,13 @@
 	culture="culture_hobbit"
 	father=8115
 	mother=8292
+	
 	add_trait = hobbit
 	11205.1.1={
 		birth="11205.1.1"
+	}
+	11230.1.1={
+		add_matrilineal_spouse = 8341
 	}
 	11308.1.1={
 		death="11308.1.1"
@@ -1341,7 +1347,7 @@
 	11291.1.1={
 		birth="11291.1.1"
 	}
-	13330.1.1={
+	11330.1.1={
 		add_spouse = 8100
 	}
 	11385.1.1={
@@ -1373,6 +1379,7 @@
 	mother=8295
 	female = yes
 	add_trait = hobbit
+	add_trait = legit_bastard
 	11247.1.1={
 		birth="11247.1.1"
 	}
@@ -1488,7 +1495,7 @@
 	11203.1.1={
 		birth="11203.1.1"
 	}
-	11200.1.1={
+	11240.1.1={
 		give_nickname = "nick_broadbelt"
 		add_spouse = 8032
 	}		
@@ -1751,7 +1758,7 @@
 	mother=8032
 	female=yes
 	add_trait = hobbit
-	11259.1.1={
+	11263.1.1={
 		birth="11263.1.1"
 	}
 	11323.1.1={
@@ -1816,6 +1823,10 @@
 	11189.1.1={
 		birth="11189.1.1"
 		give_nickname="nick_old_gammidgy"
+	}
+	
+	11226.1.1={
+		add_spouse = 8142
 	}
 	11306.1.1={
 		death="11306.1.1"
@@ -2187,7 +2198,7 @@
 	11203.1.1={
 		birth="11203.1.1"
 	}
-	11253.1.1={
+	11244.1.1={
 	add_spouse = 8147
 	} #Rose Greenhand
 	11300.1.1={
@@ -2306,6 +2317,7 @@
 	culture="culture_hobbit"
 	father=8152
 	mother=8263
+	add_trait = twin
 	add_trait = hobbit
 	11327.1.1={
 		birth="11327.1.1"
@@ -2352,6 +2364,7 @@
 	dynasty=812
 	religion="religion_perian"
 	culture="culture_hobbit"
+	add_trait = twin
 	father=8152
 	mother = 8263
 	female=yes
@@ -2411,7 +2424,7 @@
 		birth="11364.1.1"
 		give_nickname="nick_the_fair_woman"
 	}
-	11472.1.1={
+	11478.1.1={
 		death="11478.1.1"
 	}
 }
@@ -2592,10 +2605,10 @@
 	father=8140
 	add_trait = hobbit
 	11388.1.1={
-		birth="11384.1.1"
+		birth="11388.1.1"
 	}
 	11497.1.1={
-		death="11488.1.1"
+		death="11497.1.1"
 	}
 }
 
@@ -2851,7 +2864,7 @@
 	father =8005
 	female=yes
 	add_trait = hobbit
-	11175.1.1={
+	11177.1.1={
 		birth="11177.1.1"
 	}
 	11215.1.1={
@@ -2997,8 +3010,8 @@
 	culture="culture_hobbit"
 	father =8015
 	add_trait = hobbit
-	11323.1.1={
-		birth="11312.1.1"
+	11325.1.1={
+		birth="11325.1.1"
 	}
 	11403.1.1={
 		death="11403.1.1"
@@ -3011,11 +3024,11 @@
 	culture="culture_hobbit"
 	father =8005
 	add_trait = hobbit
-	11190.1.1={
+	11192.1.1={
 		birth="11192.1.1"
 	}
-	11277.1.1={
-		death="11277.1.1"
+	11283.1.1={
+		death="11283.1.1"
 	}
 }
 8019 = {
@@ -3158,7 +3171,7 @@
 	mother=8266
 	female=yes
 	add_trait = hobbit
-	11328.1.1={
+	11327.1.1={
 		birth="11327.1.1"
 	}
 	11417.1.1={
@@ -3268,7 +3281,7 @@
 	11203.1.1={
 		birth="11203.1.1"
 	}
-	11.1.1={
+	11303.1.1={
 		death="11303.1.1"
 	}
 }
@@ -3691,7 +3704,7 @@
 	father=8251
 	add_trait = hobbit
 	10975.1.1={
-		birth="109775.1.1"
+		birth="10975.1.1"
 	}
 	11067.1.1={
 		death="11067.1.1"
@@ -4714,7 +4727,7 @@
 	11295.1.1={
 		add_spouse=8315
 	}
-	11361.1.1={
+	11362.1.1={
 		death="11362.1.1"
 	}
 }
@@ -5244,6 +5257,7 @@
 	mother=8324
 	female=yes
 	add_trait = hobbit
+	add_trait = twin
 	11297.1.1={
 		birth="11297.1.1"
 		add_trait=twin
@@ -5261,6 +5275,7 @@
 	mother=8324
 	female=yes
 	add_trait = hobbit
+	add_trait = twin
 	11297.1.1={
 		birth="11297.1.1"
 		add_trait=twin
@@ -5277,6 +5292,7 @@
 	father=8315
 	mother=8324
 	female=yes
+	add_trait = twin
 	add_trait = hobbit
 	11297.1.1={
 		birth="11297.1.1"
@@ -5294,6 +5310,7 @@
 	father=8315
 	mother=8324
 	female=yes
+	add_trait = twin
 	add_trait = hobbit
 	11297.1.1={
 		birth="11297.1.1"
@@ -5439,8 +5456,8 @@
 	11180.1.1={
 		add_spouse=8332
 	}
-	11239.1.1={
-		death="11239.1.1"
+	11241.1.1={
+		death="11241.1.1"
 	}
 }
 8332 = {
@@ -5776,7 +5793,7 @@
 	11313.1.1={
 		birth="11313.1.1"
 	}
-	11412.1.1={
+	11412.1.9={
 		death="11412.1.9"
 	}
 }
@@ -6072,6 +6089,7 @@
 		death="10449.1.1"
 	}
 }
+#Father
 8369 = {
 	name="Theobald"
 	dynasty=821
@@ -6086,13 +6104,14 @@
 		death="10395.1.1"
 	}
 }
+#Son
 8370 = {
 	name="Tobold"
 	dynasty=821
 	religion="religion_perian"
 	culture="culture_hobbit"
 	add_trait = hobbit
-	father=8369
+	father=8371
 	10264.1.1={
 		birth="10264.1.1"
 	}
@@ -6938,8 +6957,8 @@
 	father= 8425
 	add_trait = hobbit
 	female=yes
-	11342.1.1={
-		birth="11342.1.1"
+	11324.1.1={
+		birth="11324.1.1"
 	}
 	11435.1.1={
 		death="11435.1.1"
@@ -7101,7 +7120,7 @@
 		birth="11349.1.1"
 	}
 	11445.1.1={
-		death="11445.1"
+		death="11445.1.1"
 	}
 }
 
@@ -7111,14 +7130,13 @@
 	dynasty=861
 	religion="religion_perian"
 	culture="culture_hobbit"
-	father = 8434
 	add_trait = hobbit
 	female=yes
 	11118.1.1={
 		birth="11118.1.1"
 	}
 	11210.1.1={
-		death="11210.1"
+		death="11210.1.1"
 	}
 }
 
@@ -7768,7 +7786,6 @@
 	religion="religion_perian"
 	culture="culture_hobbit"
 	add_trait = hobbit
-	father=8473
 	11165.1.1={
 		birth="11165.1.1"
 	}
@@ -8259,8 +8276,8 @@
 	mother=8332
 	female=yes
 	add_trait = hobbit
-	11245.1.1={
-		birth="11245.1.1"
+	11239.1.1={
+		birth="11239.1.1"
 	}
 	11340.1.1={
 		death="11340.1.1"

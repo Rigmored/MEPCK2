@@ -1537,13 +1537,8 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\\durinday.tga"
 		allwaystransparent = yes
 	}		
-	spriteType = {
-		name = "GFX_evt_lithe"
-		texturefile = "gfx\\event_pictures\\lithe.tga"
-                allwaystransparent = yes
-         }
-         spriteType = {
-                name = "GFX_evt_durinday"
+    spriteType = {
+        name = "GFX_evt_durinday"
 		texturefile = "gfx\\event_pictures\\durinday.tga"
 		allwaystransparent = yes
 	}		
@@ -1605,6 +1600,11 @@ spriteTypes =
 	spriteType = {
 		name = "GFX_evt_sindar_feast"
 		texturefile = "gfx\\event_pictures\\sindar_feast.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_hobbitfireworks"
+		texturefile = "gfx\\event_pictures\\hobbitfireworks.tga"
 		allwaystransparent = yes
 	}
 }

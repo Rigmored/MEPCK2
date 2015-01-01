@@ -16,9 +16,9 @@ DIPLOMACY
 - Disabled 'send to monastery' diplomatic interaction
 
 EVENTS
-- Fixed bugs with restrictions on who can be eaten and firing of orc feasts
-- Fixed bug with Noldor and Silvan/Sindar feast events not firing correct event
+- Fixed bug with Orc, Human, Noldor and Silvan/Sindar feast events not firing correct events
 - Added Dwarven feasts events
+- Fixed bug where Orcs couldn't eat/sacrifice Beornings during feasts
 
 GAMEPLAY
 - Extended end date by 200 years

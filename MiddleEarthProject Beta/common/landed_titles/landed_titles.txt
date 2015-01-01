@@ -13003,7 +13003,7 @@ d_ringbearer = {
 e_valinor = {
 	color={ 194 129 255 }
 	color2={ 255 255 20 }
-	primary = yes
+
 	title = "LORD"
 	foa = "LORD_FOA"
 	title_female = "LADY"	

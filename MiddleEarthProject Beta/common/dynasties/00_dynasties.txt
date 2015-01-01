@@ -2369,9 +2369,9 @@
 	}					  				  
 }	
 804 = { 
-                  name="Sackville"
-                  culture = culture_stoor
-				   coat_of_arms = {
+	name="Sackville"
+	culture = culture_stoor
+	coat_of_arms = {
 		template = 0
 		layer = {
 			texture = 5
@@ -2384,9 +2384,9 @@
 	}
 }
 805 = { 
-                  name="Sackville-Baggins"
-                  culture = culture_stoor
-				   coat_of_arms = {
+	name="Sackville-Baggins"
+	culture = culture_stoor
+	coat_of_arms = {
 		template = 0
 		layer = {
 			texture = 5

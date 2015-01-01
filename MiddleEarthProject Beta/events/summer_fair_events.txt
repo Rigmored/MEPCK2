@@ -12,11 +12,11 @@
 # Designed by Johan Andersson
 # Written by Sara Wendel-Örtqvist
 
-#Dancing Monkey
+#Dancing Monkey - pie eating contest
 character_event = {
 	id = 74000
 	desc = "EVTDESC74000"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_lithe
 
 	min_age = 20
 	capable_only = yes
@@ -143,11 +143,11 @@ character_event = {
 	}
 }
 
-#Archery
+#Archery - vegetables contest
 character_event = {
 	id = 74005
 	desc = "EVTDESC74005"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_lithe
 
 	min_age = 20
 	capable_only = yes
@@ -247,11 +247,11 @@ character_event = {
 	}
 }
 
-#Jesters
+#Jesters - dwarvish
 character_event = {
 	id = 74010
 	desc = "EVTDESC74010"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_lithe
 
 	min_age = 20
 	capable_only = yes
@@ -352,11 +352,11 @@ character_event = {
 	}
 }
 
-#Mummers
+#Mummers 4 - smoking contest
 character_event = {
 	id = 74015
 	desc = "EVTDESC74015"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_hobbitsmial
 
 	min_age = 20
 	capable_only = yes
@@ -435,7 +435,6 @@ character_event = {
 
 	option = {
 		name = "EVTOPTD74015"
-		piety = 10
 		random_vassal = {
 			limit = { reverse_opinion = { who = ROOT value = 10 } }
 			opinion = {
@@ -464,7 +463,7 @@ character_event = {
 	}
 }
 
-#Summer Fair
+#Summer Fair - ale brewers
 character_event = {
 	id = 74020
 	desc = "EVTDESC74020"
@@ -477,11 +476,6 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = holding_summer_fair
-		any_vassal = {
-			NOT = {
-				is_priest = yes
-			}
-		}
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
 		}
@@ -541,11 +535,6 @@ character_event = {
 	option = {
 		name = "EVTOPTA74020"
 		random_vassal = {
-			limit = {
-				NOT = {
-					is_priest = yes
-				}
-			}
 			opinion = {
 				modifier = opinion_angry
 				who = ROOT
@@ -565,11 +554,11 @@ character_event = {
 	}
 }
 
-#Strolling Players
+#Strolling Players - musicians
 character_event = {
 	id = 74025
 	desc = "EVTDESC74025"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_lithe
 
 	min_age = 20
 	capable_only = yes
@@ -666,11 +655,11 @@ character_event = {
 	}
 }
 
-#Jugglers
+#jugglers - presents
 character_event = {
 	id = 74030
 	desc = "EVTDESC74030"
-	picture = "GFX_evt_jugglers"
+	picture = "GFX_evt_lithe"
 
 	min_age = 20
 	capable_only = yes
@@ -679,9 +668,6 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = holding_summer_fair
-		any_vassal = {
-			is_priest = yes
-		}
 		
 		OR = {
 			NOT = { has_character_flag = fair_event_happened }
@@ -728,15 +714,15 @@ character_event = {
 	option = {
 		name = "EVTOPTA74030"
 		prestige = 10
-		piety = -5
 	}
 
 	option = {
 		name = "EVTOPTB74030"
+		wealth = -20
+		trigger = {
+		    trait = charitable
+		}
 		random_vassal = {
-			limit = {
-				is_priest = yes
-			}
 			opinion = {
 				modifier = opinion_disapprove
 				who = ROOT
@@ -748,11 +734,7 @@ character_event = {
 	option = {
 		name = "EVTOPTD74030"
 		prestige = -5
-		piety = 10
 		random_vassal = {
-			limit = {
-				is_priest = yes
-			}
 			opinion = {
 				modifier = opinion_approves
 				who = ROOT
@@ -762,11 +744,11 @@ character_event = {
 	}
 }
 
-#Jumping Jews of Jerusalem
+#Jumping Jews of Jerusalem 8
 character_event = {
 	id = 74035
 	desc = "EVTDESC74035"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_lithe
 
 	min_age = 20
 	capable_only = yes
@@ -888,11 +870,11 @@ character_event = {
 	}
 }
 
-#Mages and Divinators visits the fair
+#Mages and Divinators visits the fair - fireworks 
 character_event = {
 	id = 74040
 	desc = "EVTDESC74040"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_hobbitfireworks
 
 	min_age = 20
 	capable_only = yes
@@ -901,9 +883,6 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = holding_summer_fair
-		any_vassal = {
-			is_priest = yes
-		}
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
 		}
@@ -948,11 +927,7 @@ character_event = {
 				NOT = { trait = zealous }
 			}
 		}		
-		piety = -5
 		random_vassal = {
-			limit = {
-				is_priest = yes
-			}
 			opinion = {
 				modifier = opinion_irritated
 				who = ROOT
@@ -966,7 +941,6 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB74040" #Banish them
-		piety = 10
 		capital_scope = {
 			add_province_modifier = {
 				name = peasants_upset
@@ -976,11 +950,11 @@ character_event = {
 	}
 }
 
-#Errant monk disturbing the fair
+#Errant monk disturbing the fair 10 - drunkard 
 character_event = {
 	id = 74042
 	desc = "EVTDESC74042"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_lithe
 
 	min_age = 20
 	capable_only = yes
@@ -989,9 +963,6 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = holding_summer_fair
-		any_vassal = {
-			is_priest = yes
-		}
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
 		}
@@ -1030,14 +1001,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA74042" #Allow him
-		trigger = {
-			NOT = { trait = zealous }
-		}
-		piety = -5
 		random_vassal = {
-			limit = {
-				is_priest = yes
-			}
 			opinion = {
 				modifier = opinion_irritated
 				who = ROOT
@@ -1047,7 +1011,6 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB74042" #Banish him
-		piety = 10
 		capital_scope = {
 			add_province_modifier = {
 				name = peasants_upset
@@ -1057,11 +1020,11 @@ character_event = {
 	}
 }
 
-#Peddler are arrested by Marshal for selling stolen goods
+#Peddler are arrested by Marshal for selling stolen goods - shiriff catches outsiders
 character_event = {
 	id = 74044
 	desc = "EVTDESC74044"
-	picture = GFX_evt_market
+	picture = GFX_evt_hobbitlithe
 
 	min_age = 20
 	capable_only = yes
@@ -1118,10 +1081,6 @@ character_event = {
 			limit = {
 				is_capital = yes
 			}
-			add_province_modifier = {
-				name = public_execution
-				duration = 1825
-			}
 		}
 		random = {
 			chance = 25
@@ -1140,11 +1099,11 @@ character_event = {
 	}
 }
 
-#Too many Peasants enter the city
+#Too many Peasants enter the city 12
 character_event = {
 	id = 74045
 	desc = "EVTDESC74045"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_lithe
 
 	min_age = 20
 	capable_only = yes
@@ -1222,11 +1181,11 @@ character_event = {
 	}
 }
 
-#The summer Fair is over
+#The Lithe Fair is over
 character_event = {
 	id = 74047
 	desc = "EVTDESC74047"
-	picture = GFX_evt_market
+	picture = GFX_evt_lithe
 
 	is_triggered_only = yes
 
@@ -1241,10 +1200,11 @@ character_event = {
 	}
 }
 
+#Fair begin
 character_event = {
 	id = 74050
 	desc = "EVTDESC74050"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_lithe
 	
 	is_triggered_only = yes
 	
@@ -1257,11 +1217,11 @@ character_event = {
 	}
 }
 
-#Satirical Puppet Show
+#Satirical Puppet Show 13 - bard
 character_event = {
 	id = 4105
 	desc = "EVTDESC4105"
-	picture = GFX_evt_jugglers
+	picture = GFX_evt_lithe
 
 	only_playable = yes
 	capable_only = yes
@@ -1379,11 +1339,11 @@ character_event = {
 	}
 }
 
-#Performing Bear
+#Performing Bear 14 - prize pig auction
 character_event = {
 	id = 4170
 	desc = "EVTDESC4170"
-	picture = "GFX_evt_jugglers"
+	picture = "GFX_evt_lithe"
 
 	only_playable = yes
 	capable_only = yes
@@ -1434,8 +1394,6 @@ character_event = {
 		name = "EVTOPTA4170"
 		trigger = {
 			NOT = { trait = proud }
-			NOT = { trait = craven }
-			NOT = { trait = brave }
 		}
 		random_courtier = {
 			limit = {
@@ -1453,17 +1411,16 @@ character_event = {
 	option = {
 		name = "EVTOPTC4170"
 		trigger = {
-			trait = craven
+			trait = greedy
 		}
-		prestige = -5
+		prestige = 25
+		wealth = -10
 	}
 
 	option = {
 		name = "EVTOPTD4170"
 		trigger = {
 			trait = proud
-			NOT = { trait = craven }
-			NOT = { trait = brave }
 		}
 		random_courtier = {
 			limit = {
@@ -1480,9 +1437,6 @@ character_event = {
 
 	option = {
 		name = "EVTOPTE4170"
-		trigger = {
-			trait = brave
-		}
 		prestige = 10
 	}
 }
