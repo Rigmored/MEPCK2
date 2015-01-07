@@ -13,5 +13,5 @@ b_ihnan = castle
 #b_ikhuritunz = castle
 
 # Misc
-culture = culture_stonefoot
+culture = culture_stiffbeard
 religion = religion_mahal

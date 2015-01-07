@@ -10,6 +10,7 @@ CHARACTERS
 
 DECISIONS
 - Added Dwarven feast decision
+- Summer Fair only available for Hobbits
 
 DIPLOMACY
 - Disabled 'demand religious conversion' diplomatic interaction
@@ -19,6 +20,7 @@ EVENTS
 - Fixed bug with Orc, Human, Noldor and Silvan/Sindar feast events not firing correct events
 - Added Dwarven feasts events
 - Fixed bug where Orcs couldn't eat/sacrifice Beornings during feasts
+- Relocalised all Summer Fair events for Hobbits
 
 GAMEPLAY
 - Extended end date by 200 years
@@ -28,6 +30,9 @@ GFX
 - Added unique icon for Eldar races
 - New title logo
 
+INTERFACE
+- New character view interface window 
+
 LAWS
 - Updated laws
 
@@ -35,6 +40,11 @@ LOCALISATION
 - Re-added Middle Earth descriptions and names for education traits
 - Hobbit counts are now Messr
 - Edited localisation for feast events
+
+MAP
+- Changed Stonefoots in Zirakdum back to Stiffbeards
+- Added province of Azanulbizar to Duchy of Moria, west of Lorien
+- Moved Redhorn/Caradhras to correct position north of Moria
 
 NICKNAMES
 - Added Flourdumpling to Will Whitfoot
@@ -50,12 +60,15 @@ RELIGION
 - Added High and Evil god names for all religions
 - Added feminist = yes for Eldar and Spiders
 - Added conversion desire = 0 to all religions (races can't convert)
+- Removed Moriquendi/Calaquendi elven racial distinction
+- Tweaked some religion names for consistency (Elven, Dwarven, Halfling, etc)
 
 TITLES
 - Added titular mayordom of Shire held by Will Whitfoot
 - Fixed some colours on Harad titles
 - Restructed Shire, no duchy titles other than Mayordom at WotR start, no counts hold more than one township
 - Changed Thaindom of the Shire colour to beige
+- Removed d_ringbearer title
 
 TRAITS
 - Added combat stats to soldier and weapon traits

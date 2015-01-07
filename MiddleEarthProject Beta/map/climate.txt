@@ -15,8 +15,8 @@ normal_winter = {
 	680
 
 ################
-	# Shire and river
-	78 92 96 2
+	# Shire
+	78 92 96 
 	811
 	# Rhudaur
 	366 370 371 372 373

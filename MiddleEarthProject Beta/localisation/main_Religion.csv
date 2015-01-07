@@ -15,25 +15,25 @@ religion_group_wilderness;Wilderness;Vie sauvage;;;;;x
 #RELIGIONS;;;;;;;x
 religion_eruhini;Ainur;Ainur;;;;;x
 religion_enyd;Onodrim;Onodrim;;;;;x
-religion_mahal;Dwarves;Nains;;;Nani;;x
-religion_moriquendi;Moriquendi;Moriquendi;;;;;x
+religion_mahal;Dwarven;Nains;;;Nani;;x
+religion_moriquendi;Elven;Elven;;;;;x
 religion_calaquendi;Calaquendi;Calaquendi;;;;;x
-religion_perian;Periannath;Periannath;;;Periannath;;x
+religion_perian;Halfling;Halfling;;;Halfling;;x
 religion_stoor;Stoor;Stoor;;;;;x
 religion_druedain;Drúedain;Drúedain;;;;;x
 religion_edain;Edain;Edain;;;;;x
 religion_dunedain;Dúnedain;Dúnedain;;;;;x
 religion_numenorean;Númenórean;Númenóreen;;;;;x
-religion_black_numenorean;Black Númenóreans;Númenóreen Noir;;;;;x
+religion_black_numenorean;Black Númenórean;Númenóreen Noir;;;;;x
 religion_rhovanion;Northmen;;;;Uomini del Nord;;;;;x
-religion_easterlings;Easterlings;Easterlings;;;Esterling;;;;;x
+religion_easterlings;Easterling;Easterling;;;Esterling;;;;;x
 religion_haldadian;Haldadian;Haldadian;;;;;x
-religion_southron;Southrons;Hommes du Sud;;;Sudroni;;;;;x
+religion_southron;Southron;Hommes du Sud;;;Sudroni;;;;;x
 religion_ishmalogim;Ishmalogim;Ishmalogim;;;;;x
 religion_lossoth;Lossoth;Lossoth;;;Lossoth;;;;;x
 religion_angmarim;Angmarim;Angmarim;;;;;x
 religion_melkor;Creature of Melkor;Créatures de Melkor;;;;;x
-religion_orkish;Orcs;Orques;;;;;x
+religion_orkish;Orkish;Orques;;;;;x
 religion_uruk;Uruk;Uruk;;;;;x
 religion_olog;Troll;Troll;;;;;x
 religion_wilderness;Wilderness;Vie sauvage;;;Lande Selvagge;;;;;x

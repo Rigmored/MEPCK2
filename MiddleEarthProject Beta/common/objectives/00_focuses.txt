@@ -580,6 +580,7 @@ focus_carousing = {
 			NOT = { religion_group = religion_group_enyd }
 			trait = hedonist
 			trait = drunkard
+			is_playable = yes
 			custom_tooltip = {
 				text = is_not_wilderness
 				hidden_tooltip = {

@@ -14,7 +14,7 @@ b_belhith = city
 #b_zirak = city
 
 # Misc
-culture = culture_stonefoot
+culture = culture_stiffbeard
 religion = religion_mahal
 8222.1.1 = {
 

@@ -6534,6 +6534,8 @@ k_anduin_vale = {
 		c_forest_gate = {
 			color={ 58 95 40 }
 			color2={ 255 255 255 }
+			
+			culture_wilderness = "Annon i-Taur"
 		
 			b_forest_gate = {
 			}
@@ -8978,6 +8980,19 @@ e_durins_folk = {
 				b_redhorn_east_gate = {
 				}
 				b_redhorn_peak = {
+				}
+			}
+			c_azanulbizar = {
+				color={ 231 221 53 }
+				color2={ 255 255 255 }
+		        
+				culture_wilderness = "Dimrill Dale"
+				
+				b_azanulbizar-dûm = {
+					culture_wilderness = "Dimrill"
+				}
+				b_kheled-zâram-dûm = {
+					culture_wilderness = "Mirrormere"
 				}
 			}
 		}
@@ -13009,9 +13024,8 @@ e_valinor = {
 	title_female = "LADY"	
 	title_prefix = "LAND_OF"
 	
-	allow = { 
-		culture = culture_valar 
-		prestige = 250000
+	allow = {
+		always = no
 	}	
 	
 	# Always exists
