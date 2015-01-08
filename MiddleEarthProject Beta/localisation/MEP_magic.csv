@@ -1,28 +1,28 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;;x
 EVTNAMEmagic.1;Magic Enlightenment;;;;;;;;;;;;;;x
-EVTDESCmagic.1;You are old, very old. You're starting to turn into a creature of many worlds...;;;;;;;;;;;;;;x
-EVTOPTAmagic.1;You've became a novice spellcaster.;;;;;;;;;;;;;;x
+EVTDESCmagic.1;You are old, very old. You are starting to turn into a creature of many worlds...;;;;;;;;;;;;;;x
+EVTOPTAmagic.1;You have become a novice spellcaster.;;;;;;;;;;;;;;x
 EVTNAMEmagic.2;Magic Enlightenment;;;;;;;;;;;;;;x
-EVTDESCmagic.2;Getting older and older your magic abilities grow stronger.;;;;;;;;;;;;;;x
-EVTOPTAmagic.2;You've became a regular spellcaster.;;;;;;;;;;;;;;x
+EVTDESCmagic.2;Getting older and older, your magic abilities grow stronger.;;;;;;;;;;;;;;x
+EVTOPTAmagic.2;You have become a regular spellcaster.;;;;;;;;;;;;;;x
 EVTNAMEmagic.3;Magic Enlightenment;;;;;;;;;;;;;;x
-EVTDESCmagic.3;Few creatures are older than you. So there are few spellcasters more powerful than you.;;;;;;;;;;;;;;x
-EVTOPTAmagic.3;You've became a powerful spellcaster.;;;;;;;;;;;;;;x
+EVTDESCmagic.3;Few creatures are older than you, so there are few spellcasters more powerful than you.;;;;;;;;;;;;;;x
+EVTOPTAmagic.3;You have become a powerful spellcaster.;;;;;;;;;;;;;;x
 EVTNAMEmagic.4;Magic Enlightenment;;;;;;;;;;;;;;x
 EVTDESCmagic.4;You are old beyond reckoning. Your magic powers become unmatched.;;;;;;;;;;;;;;x
-EVTOPTAmagic.4;You've became a legendary spellcaster.;;;;;;;;;;;;;;x
+EVTOPTAmagic.4;You have become a legendary spellcaster.;;;;;;;;;;;;;;x
 EVTNAMEmagic.11;Magic Enlightenment;;;;;;;;;;;;;;x
-EVTDESCmagic.11;Your experiments with magic brings some unexpected results.;;;;;;;;;;;;;;x
+EVTDESCmagic.11;Your experiments with magic bring some unexpected results.;;;;;;;;;;;;;;x
 EVTOPTAmagic.11;You are becoming more powerful.;;;;;;;;;;;;;;x
 magic_charm_decision;Charm;;;;;;;;;;;;;;x
 magic_charm_decision_named;Charm [Root.GetTitledFirstName];;;;;;;;;;;;;;x
 magic_charm_decision_desc;Improve [Root.GetTitledFirstName]'s opinion towards you.;;;;;;;;;;;;;;x
-caster1;Novice caster;;;;;;;;;;;;;;x
+caster1;Novice Caster;;;;;;;;;;;;;;x
 caster1_desc;This character has limited magic abilities.;;;;;;;;;;;;;;x
-caster2;Regular caster;;;;;;;;;;;;;;x
-caster2_desc;This character has normal magic abilities.;;;;;;;;;;;;;;x
-caster3;Powerful caster;;;;;;;;;;;;;;x
+caster2;Regular Caster;;;;;;;;;;;;;;x
+caster2_desc;This character has average magic abilities.;;;;;;;;;;;;;;x
+caster3;Powerful Caster;;;;;;;;;;;;;;x
 caster3_desc;This character is a powerful spellcaster.;;;;;;;;;;;;;;x
-caster4;Legendary caster;;;;;;;;;;;;;;x
+caster4;Legendary Caster;;;;;;;;;;;;;;x
 caster4_desc;This character is one of the greatest casters in known history.;;;;;;;;;;;;;;x
 opinion_magic_charmed;Charmed;;;;;;;;;;;;;;x
