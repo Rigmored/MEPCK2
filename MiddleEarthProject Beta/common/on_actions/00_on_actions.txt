@@ -1,3 +1,9 @@
+on_startup = {
+	events = {
+		toggle_startup.0
+	}
+}
+
 #character
 on_yearly_pulse = {
 	events = {
