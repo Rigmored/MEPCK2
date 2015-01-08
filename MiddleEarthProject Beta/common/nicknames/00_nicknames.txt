@@ -119,6 +119,7 @@ nick_the_numenorean = {}
 nick_the_tall = {}
 nick_fire_hammer = {}
 nick_golden_hands = {}
+nick_golden_shield = {}
 nick_sparkling_beard = {}
 nick_ruby_belt = {}
 nick_emerald_hairs = {}
