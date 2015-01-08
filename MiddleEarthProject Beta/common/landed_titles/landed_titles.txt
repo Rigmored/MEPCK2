@@ -7692,6 +7692,47 @@ k_zirakdum = {
 		}
 	}
 	
+k_stonefoot = {
+	color={ 217 178 74 }
+	color2={ 125 125 142 }
+
+	capital = 812 # Stonefoot2
+
+	culture = culture_stonefoot
+	religion = religion_mahal
+	religion_mahal = 100 # Crusade target weight
+
+	d_stonefoot = {
+		color={ 149 186 85 }
+		color2={ 255 255 255 }
+		
+		capital = 812 # Stonefoot2
+		
+		c_stonefoot1 = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+	
+			b_stonefoot11 = {
+			}		
+			b_stonefoot12 = {
+			}
+			b_stonefoot13 = {
+			}
+		}
+		c_stonefoot2 = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+	
+			b_stonefoot21 = {
+			}
+			b_stonefoot22 = {
+			}
+			b_stonefoot23 = {
+			}
+		}
+	}
+}	
+
 k_nurunkhizdin = {
 		color={ 147 42 45 }
 		color2={ 125 125 142 }
@@ -11773,7 +11814,136 @@ e_isenvale = {
 				}
 			}
 		}		
-		d_dunland = {
+		d_angren = {
+			color={ 94 132 132 }
+			color2={ 255 255 255 }
+			
+			capital = 378 #Lond Angren
+			
+			c_carras = {
+				color={ 192 81 81 }
+				color2={ 255 255 255 }
+		
+				b_carras = {
+				}
+			}
+			c_angren = {
+				color={ 240 168 168 }
+				color2={ 255 255 255 }
+		
+				b_lond_angren = {
+				}
+				b_angrast = {
+				}
+				b_erynwaith = {
+				}
+				b_tol = {
+				}
+				b_ethir_stommen = {
+				}
+			}
+			c_gwathlo_mouth = {
+				color={ 136 50 50 }
+				color2={ 255 255 255 }
+		
+				b_gwathlo_mouth = {
+				}	
+			}
+			c_isenvale = {
+				color={ 172 15 15 }
+				color2={ 255 255 255 }
+		
+				b_isenvale = {
+				}
+			}
+			c_west_enedwaith = {
+				color={ 11 74 11 }
+				color2={ 255 255 255 }
+		
+				b_west_enedwaith = {
+				}
+			}
+		}
+		d_gwathlo = {
+			color={ 57 133 23 }
+			color2={ 255 255 255 }
+			
+			capital = 375 # South Daelmoth
+			
+			c_south_daelmoth = {
+				color={ 127 68 68 }
+				color2={ 255 255 255 }
+		
+				b_south_daelmoth = {
+				}
+				b_south_daelmoth2 = {
+				}  
+				b_south_daelmoth3 = {
+				} 
+			}
+			c_gwathlo_vale = {
+				color={ 206 149 149 }
+				color2={ 255 255 255 }
+		
+				b_gwathlo_vale = {
+				}
+				b_gwathlo_vale2 = {
+				}  
+				b_gwathlo_vale3 = {
+				}	
+			}
+			c_gwathlo_basin = {
+				color={ 144 21 21 }
+				color2={ 255 255 255 }
+		
+				b_gwathlo_basin = {
+				}
+				b_gwathlo_basin2 = {
+				}  
+				b_gwathlo_basin3 = {
+				}	
+			}
+			c_wredech = {
+				color={ 43 78 43 }
+				color2={ 255 255 255 }
+		
+				b_wredech = {
+				}
+				b_wredech2 = {
+				}  
+				b_wredech3 = {
+				}	
+			}
+			c_cairill = {
+				color={ 161 210 161 }
+				color2={ 255 255 255 }
+		
+				b_cairill = {
+				}
+				b_cairill2 = {
+				}  
+				b_cairill3 = {
+				}	
+			}
+		}
+	}
+	k_dunland = {
+		color={ 160 86 31 }
+		color2={ 125 125 142 }
+	
+		culture_gondorian = "Dunfearan"
+		culture_dunedain = "Dunfearan"
+		culture_arnorian = "Dunfearan"
+		culture_rohirrim = "Dunfearan"
+	
+		capital = 383 #Galtrev
+	
+		culture = culture_dunlending
+		religion = religion_haldadian
+	
+		religion_haldadian = 100 # Crusade target weight	
+	
+			d_dunland = {
 			color={ 160 86 31 }
 			color2={ 125 125 142 }
 			
@@ -11920,120 +12090,7 @@ e_isenvale = {
 				}
 			}
 		}
-		d_angren = {
-			color={ 94 132 132 }
-			color2={ 255 255 255 }
-			
-			capital = 378 #Lond Angren
-			
-			c_carras = {
-				color={ 192 81 81 }
-				color2={ 255 255 255 }
-		
-				b_carras = {
-				}
-			}
-			c_angren = {
-				color={ 240 168 168 }
-				color2={ 255 255 255 }
-		
-				b_lond_angren = {
-				}
-				b_angrast = {
-				}
-				b_erynwaith = {
-				}
-				b_tol = {
-				}
-				b_ethir_stommen = {
-				}
-			}
-			c_gwathlo_mouth = {
-				color={ 136 50 50 }
-				color2={ 255 255 255 }
-		
-				b_gwathlo_mouth = {
-				}	
-			}
-			c_isenvale = {
-				color={ 172 15 15 }
-				color2={ 255 255 255 }
-		
-				b_isenvale = {
-				}
-			}
-			c_west_enedwaith = {
-				color={ 11 74 11 }
-				color2={ 255 255 255 }
-		
-				b_west_enedwaith = {
-				}
-			}
-		}
-		d_gwathlo = {
-			color={ 57 133 23 }
-			color2={ 255 255 255 }
-			
-			capital = 375 # South Daelmoth
-			
-			c_south_daelmoth = {
-				color={ 127 68 68 }
-				color2={ 255 255 255 }
-		
-				b_south_daelmoth = {
-				}
-				b_south_daelmoth2 = {
-				}  
-				b_south_daelmoth3 = {
-				} 
-			}
-			c_gwathlo_vale = {
-				color={ 206 149 149 }
-				color2={ 255 255 255 }
-		
-				b_gwathlo_vale = {
-				}
-				b_gwathlo_vale2 = {
-				}  
-				b_gwathlo_vale3 = {
-				}	
-			}
-			c_gwathlo_basin = {
-				color={ 144 21 21 }
-				color2={ 255 255 255 }
-		
-				b_gwathlo_basin = {
-				}
-				b_gwathlo_basin2 = {
-				}  
-				b_gwathlo_basin3 = {
-				}	
-			}
-			c_wredech = {
-				color={ 43 78 43 }
-				color2={ 255 255 255 }
-		
-				b_wredech = {
-				}
-				b_wredech2 = {
-				}  
-				b_wredech3 = {
-				}	
-			}
-			c_cairill = {
-				color={ 161 210 161 }
-				color2={ 255 255 255 }
-		
-				b_cairill = {
-				}
-				b_cairill2 = {
-				}  
-				b_cairill3 = {
-				}	
-			}
-		}
 	}
-	
 	k_druwaith_iaur = {
 		color={ 180 139 39 }
 		color2={ 125 125 142 }

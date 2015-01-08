@@ -1,0 +1,15 @@
+# 812 - Stonefoot2
+
+# County Title
+title = c_stonefoot2
+
+# Settlements
+max_settlements = 3
+
+b_stonefoot21 = castle
+b_stonefoot22 = city
+#b_stonefoot23 = city
+
+# Misc
+culture = culture_stonefoot
+religion = religion_mahal
