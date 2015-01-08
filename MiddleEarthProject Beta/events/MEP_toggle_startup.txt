@@ -2,7 +2,6 @@ namespace = toggle_startup
 
 character_event = {
 	id = toggle_startup.0
-	name = OK
 	desc = OK
 	is_triggered_only = yes
 	hide_window = yes
