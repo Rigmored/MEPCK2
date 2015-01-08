@@ -1,0 +1,70 @@
+decisions = {
+
+	imbue_item = {
+		is_high_prio = yes
+		
+		potential = {
+			age = 16
+			OR = {
+				trait = elvish_sword
+				trait = ancient_elvish_sword
+				trait = dwarvish_sword
+				trait = elf_necklace
+				trait = elf_brooch
+				trait = dwarf_jewel
+				trait = dwarf_necklace
+			}
+			OR = {
+				trait = craftsman
+				trait = master_craftsman
+				trait = legendary_craftman
+			}
+			NOT = {
+				has_character_flag = crafts_object
+			}
+			OR = {
+				AND = {
+					trait = caster2 # cannot create exceptional
+					NOT = {
+						has_character_flag = spell_cast2
+						has_character_flag = spell_cast1
+					}
+				}
+				AND = {
+					trait = caster3
+					NOT = {
+						has_character_flag = spell_cast3
+						has_character_flag = spell_cast2
+						has_character_flag = spell_cast1
+					}
+				}
+				AND = {
+					trait = caster4
+					NOT = {
+						has_character_flag = spell_cast4
+						has_character_flag = spell_cast3
+						has_character_flag = spell_cast2
+					}
+				}
+			}
+			has_character_flag = special_decisions_open
+		}
+		
+		allow = {
+			prestige = 200
+			piety = 200
+		}
+		
+		effect = {
+			set_character_flag = crafts_object
+			narrative_event = { id = magic_craft.0 }
+			prestige = -200
+			piety = -200
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+

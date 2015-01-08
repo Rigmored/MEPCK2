@@ -1,0 +1,81 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;;x
+################
+imbue_item;Imbue items with magic;;;;;;;;;;;;;;x
+imbue_item_desc;Use your magic and crafting skills to improve your items jewel.;;;;;;;;;;;;;;x
+#traits & decisions
+####elvish_sword
+elvish_sword_magic_martial;Elvish Sword of Bloodlust;;;;;;;;;;;;;;x
+elvish_sword_magic_martial_desc;An elvish blacksmith forged this sword. It was further imbued with magical abilities to increase the martial skill of its wielder.;;;;;;;;;;;;;;x
+elvish_sword_magic_combat;Elvish Sword of Finesse;;;;;;;;;;;;;;x
+elvish_sword_magic_combat_desc;An elvish blacksmith forged this sword. It was further imbued with magical abilities to increase the combat rating of its wielder.;;;;;;;;;;;;;;x
+elvish_sword_magic_exceptional;Elvish Sword of Mastery;;;;;;;;;;;;;;x
+elvish_sword_magic_exceptional_desc;An elvish blacksmith forged this sword. It was further imbued with magical abilities to increase the combat rating and the martial skill of its wielder.;;;;;;;;;;;;;;x
+####elf_necklace
+elf_necklace_magic_diplomacy;Elvish Necklace of Speech;;;;;;;;;;;;;;x
+elf_necklace_magic_diplomacy_desc;An elvish blacksmith forged this necklace. It was further imbued with magical abilities to increase the diplomacy skill of its owner.;;;;;;;;;;;;;;x
+elf_necklace_magic_learning;Elvish Necklace of Insight;;;;;;;;;;;;;;x
+elf_necklace_magic_learning_desc;An elvish blacksmith forged this necklace. It was further imbued with magical abilities to increase the learning skill of its owner.;;;;;;;;;;;;;;x
+elf_necklace_magic_exceptional;Elvish Necklace of Excellence;;;;;;;;;;;;;;x
+elf_necklace_magic_exceptional_desc;An elvish blacksmith forged this necklace. It was further imbued with magical abilities to increase the learning and the diplomacy skills of its owner.;;;;;;;;;;;;;;x
+####elf_brooch
+elf_brooch_magic_intrigue;Elvish Brooch of Shadows;;;;;;;;;;;;;;x
+elf_brooch_magic_intrigue_desc;An elvish blacksmith forged this brooch. It was further imbued with magical abilities to increase the intrigue skill of its owner.;;;;;;;;;;;;;;x
+elf_brooch_magic_stewardship;Elvish Brooch of Wealth;;;;;;;;;;;;;;x
+elf_brooch_magic_stewardship_desc;An elvish blacksmith forged this brooch. It was further imbued with magical abilities to increase the stewardship skill of its owner.;;;;;;;;;;;;;;x
+elf_brooch_magic_exceptional;Elvish Brooch of Power;;;;;;;;;;;;;;x
+elf_brooch_magic_exceptional_desc;An elvish blacksmith forged this brooch. It was further imbued with magical abilities to increase the stewardship and the intrigue skills of its owner.;;;;;;;;;;;;;;x
+####elvish_sword
+dwarvish_sword_magic_martial;Dwarvish Sword of Bloodlust;;;;;;;;;;;;;;x
+dwarvish_sword_magic_martial_desc;An dwarvish blacksmith forged this sword. It was further imbued with magical abilities to increase the martial skill of its wielder.;;;;;;;;;;;;;;x
+dwarvish_sword_magic_combat;Dwarvish Sword of Finesse;;;;;;;;;;;;;;x
+dwarvish_sword_magic_combat_desc;An dwarvish blacksmith forged this sword. It was further imbued with magical abilities to increase the combat rating of its wielder.;;;;;;;;;;;;;;x
+dwarvish_sword_magic_exceptional;Dwarvish Sword of Mastery;;;;;;;;;;;;;;x
+dwarvish_sword_magic_exceptional_desc;An dwarvish blacksmith forged this sword. It was further imbued with magical abilities to increase the combat rating and the martial skill of its wielder.;;;;;;;;;;;;;;x
+####dwarf_necklace
+dwarf_necklace_magic_diplomacy;Dwarvish Necklace of Speech;;;;;;;;;;;;;;x
+dwarf_necklace_magic_diplomacy_desc;A dwarvish blacksmith forged this necklace. It was further imbued with magical abilities to increase the diplomacy skill of its owner.;;;;;;;;;;;;;;x
+dwarf_necklace_magic_learning;Dwarvish Necklace of Insight;;;;;;;;;;;;;;x
+dwarf_necklace_magic_learning_desc;A dwarvish blacksmith forged this necklace. It was further imbued with magical abilities to increase the learning skill of its owner.;;;;;;;;;;;;;;x
+dwarf_necklace_magic_exceptional;Dwarvish Necklace of Excellence;;;;;;;;;;;;;;x
+dwarf_necklace_magic_exceptional_desc;A dwarvish blacksmith forged this necklace. It was further imbued with magical abilities to increase the learning and the diplomacy skills of its owner.;;;;;;;;;;;;;;x
+####dwarf_jewel
+dwarf_jewel_magic_intrigue;Dwarvish Jewel of Shadows;;;;;;;;;;;;;;x
+dwarf_jewel_magic_intrigue_desc;An dwarvish blacksmith forged this jewel. It was further imbued with magical abilities to increase the intrigue skill of its owner.;;;;;;;;;;;;;;x
+dwarf_jewel_magic_stewardship;Dwarvish Jewel of Wealth;;;;;;;;;;;;;;x
+dwarf_jewel_magic_stewardship_desc;An dwarvish blacksmith forged this jewel. It was further imbued with magical abilities to increase the stewardship skill of its owner.;;;;;;;;;;;;;;x
+dwarf_jewel_magic_exceptional;Dwarvish Jewel of Power;;;;;;;;;;;;;;x
+dwarf_jewel_magic_exceptional_desc;An dwarvish blacksmith forged this jewel. It was further imbued with magical abilities to increase the stewardship and the intrigue skills of its owner.;;;;;;;;;;;;;;x
+####################
+#events
+####################
+EVTNAMEmagic_craft.0;Enchant Item;;;;;;;;;;;;;;x
+EVTDESCmagic_craft.0;Your crafting and magical abilities allow you to improve your items further.;;;;;;;;;;;;;;x
+EVTOPTAmagic_craft.0;I want to enchant my elvish sword.;;;;;;;;;;;;;;x
+EVTOPTBmagic_craft.0;I want to enchant my ancient elvish sword.;;;;;;;;;;;;;;x
+EVTOPTCmagic_craft.0;I want to enchant my dwarvish sword.;;;;;;;;;;;;;;x
+EVTOPTDmagic_craft.0;I want to enchant my elvish necklace.;;;;;;;;;;;;;;x
+EVTOPTEmagic_craft.0;I want to enchant my elvish brooch.;;;;;;;;;;;;;;x
+EVTOPTFmagic_craft.0;I want to enchant my dwarvish jewel.;;;;;;;;;;;;;;x
+EVTOPTGmagic_craft.0;I want to enchant my dwarvish necklace.;;;;;;;;;;;;;;x
+EVTOPTZmagic_craft.0;I don't feel ready now. Maybe later.;;;;;;;;;;;;;;x
+EVTNAMEmagic_craft.1;Enchant Item;;;;;;;;;;;;;;x
+EVTDESCmagic_craft.1;Studying your item you have found different possibilities to improve it with magic.;;;;;;;;;;;;;;x
+EVTOPTAmagic_craft.1;I'll focus on power.;;;;;;;;;;;;;;x
+EVTOPTBmagic_craft.1;I'll focus on finesse.;;;;;;;;;;;;;;x
+EVTOPTCmagic_craft.1;I'll focus on speech.;;;;;;;;;;;;;;x
+EVTOPTDmagic_craft.1;I'll focus on insight.;;;;;;;;;;;;;;x
+EVTOPTEmagic_craft.1;I'll focus on intrigue.;;;;;;;;;;;;;;x
+EVTOPTFmagic_craft.1;I'll focus on wealth.;;;;;;;;;;;;;;x
+EVTOPTZmagic_craft.1;On a second thought, I don't feel ready yet.;;;;;;;;;;;;;;x
+EVTNAMEmagic_craft.2;Enchant Item;;;;;;;;;;;;;;x
+EVTDESCmagic_craft.2;Your study is finished, the enchantment is prepared;;;;;;;;;;;;;;x
+EVTOPTAmagic_craft.2;And...;;;;;;;;;;;;;;x
+EVTNAMEmagic_craft.3;Enchant Item;;;;;;;;;;;;;;x
+EVTDESCmagic_craft.3;It seems there are things to tough even for your skills...;;;;;;;;;;;;;;x
+EVTOPTAmagic_craft.3;Oh, no!;;;;;;;;;;;;;;x
+EVTNAMEmagic_craft.4;Enchant Item;;;;;;;;;;;;;;x
+EVTDESCmagic_craft.4;Your skills in crafting and magic bring you success! But wait! There is even more than you expected!;;;;;;;;;;;;;;x
+EVTOPTAmagic_craft.4;Oh yes, success!;;;;;;;;;;;;;;x
+EVTNAMEmagic_craft.5;Enchant Item;;;;;;;;;;;;;;x
+EVTDESCmagic_craft.5;Your skills in crafting and magic bring you success!;;;;;;;;;;;;;;x
+EVTOPTAmagic_craft.5;Nice.;;;;;;;;;;;;;;x

@@ -1,0 +1,582 @@
+namespace = magic_craft
+
+narrative_event = {
+	id = magic_craft.0
+	title = "EVTNAMEmagic_craft.0"
+	desc = "EVTDESCmagic_craft.0"
+	picture = GFX_evt_ring_craft
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmagic_craft.0"
+		trigger = {
+			trait = elvish_sword
+		}
+		hidden_tooltip = {
+			set_character_flag = imbues_elvish_sword
+			character_event = { id = magic_craft.1 days = 10 }
+		}
+	}		
+	option = {
+		name = "EVTOPTBmagic_craft.0"
+		trigger = {
+			trait = ancient_elvish_sword
+		}
+		hidden_tooltip = {
+			set_character_flag = imbues_ancient_elvish_sword
+			character_event = { id = magic_craft.1 days = 10 }
+		}
+	}	
+	option = {
+		name = "EVTOPTCmagic_craft.0"
+		trigger = {
+			trait = dwarvish_sword
+		}
+		hidden_tooltip = {
+			set_character_flag = imbues_dwarvish_sword
+			character_event = { id = magic_craft.1 days = 10 }
+		}
+	}	
+	option = {
+		name = "EVTOPTDmagic_craft.0"
+		trigger = {
+			trait = elf_necklace
+		}
+		hidden_tooltip = {
+			set_character_flag = imbues_elf_necklace
+			character_event = { id = magic_craft.1 days = 10 }
+		}
+	}
+	option = {
+		name = "EVTOPTEmagic_craft.0"
+		trigger = {
+			trait = elf_brooch
+		}
+		hidden_tooltip = {
+			set_character_flag = imbues_elf_brooch
+			character_event = { id = magic_craft.1 days = 10 }
+		}
+	}
+	option = {
+		name = "EVTOPTFmagic_craft.0"
+		trigger = {
+			trait = dwarf_jewel
+		}
+		hidden_tooltip = {
+			set_character_flag = imbues_dwarf_jewel
+			character_event = { id = magic_craft.1 days = 10 }
+		}
+	}
+	option = {
+		name = "EVTOPTGmagic_craft.0"
+		trigger = {
+			trait = dwarf_necklace
+		}
+		hidden_tooltip = {
+			set_character_flag = imbues_dwarf_necklace
+			character_event = { id = magic_craft.1 days = 10 }
+		}
+	}
+	option = {
+		name = "EVTOPTZmagic_craft.0" ## No thanks
+		hidden_tooltip = {
+			clr_character_flag = crafts_object
+			prestige = 200 ##give em back
+			piety = 200
+		}
+	}
+}
+
+character_event = {
+	id = magic_craft.1
+	title = "EVTNAMEmagic_craft.1"
+	desc = "EVTDESCmagic_craft.1"
+	picture = GFX_evt_ring_craft
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmagic_craft.1" ## martial (bloodlust)
+		trigger = {
+			OR = {
+				has_character_flag = imbues_elvish_sword
+				has_character_flag = imbues_ancient_elvish_sword
+				has_character_flag = imbues_dwarvish_sword
+			}
+		}
+		hidden_tooltip = {
+			set_character_flag = imbue_choose_martial
+			character_event = { id = magic_craft.2 days = 10 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTBmagic_craft.1" ## combat (finesse)
+		trigger = {
+			OR = {
+				has_character_flag = imbues_elvish_sword
+				has_character_flag = imbues_ancient_elvish_sword
+				has_character_flag = imbues_dwarvish_sword
+			}
+		}
+		hidden_tooltip = {
+			set_character_flag = imbue_choose_combat
+			character_event = { id = magic_craft.2 days = 10 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTCmagic_craft.1" ## speech (diplomacy)
+		trigger = {
+			OR = {
+				has_character_flag = imbues_elf_necklace
+				has_character_flag = imbues_dwarf_necklace
+			}
+		}
+		hidden_tooltip = {
+			set_character_flag = imbue_choose_diplomacy
+			character_event = { id = magic_craft.2 days = 10 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTDmagic_craft.1" ## insight (learning)
+		trigger = {
+			OR = {
+				has_character_flag = imbues_elf_necklace
+				has_character_flag = imbues_dwarf_necklace
+			}
+		}
+		hidden_tooltip = {
+			set_character_flag = imbue_choose_learning
+			character_event = { id = magic_craft.2 days = 10 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTEmagic_craft.1" ## intrigue
+		trigger = {
+			OR = {
+				has_character_flag = imbues_elf_brooch
+				has_character_flag = imbues_dwarf_jewel
+			}
+		}
+		hidden_tooltip = {
+			set_character_flag = imbue_choose_intrigue
+			character_event = { id = magic_craft.2 days = 10 }
+		}
+	}	
+	option = {
+		name = "EVTOPTFmagic_craft.1" ## wealth (stewardship)
+		trigger = {
+			OR = {
+				has_character_flag = imbues_elf_brooch
+				has_character_flag = imbues_dwarf_jewel
+			}
+		}
+		hidden_tooltip = {
+			set_character_flag = imbue_choose_stewardship
+			character_event = { id = magic_craft.2 days = 10 }
+		}
+	}
+
+	
+	option = {
+		name = "EVTOPTZmagic_craft.1" ## No thanks
+		hidden_tooltip = {
+			clr_character_flag = crafts_object
+			clr_character_flag = imbues_elvish_sword
+			clr_character_flag = imbues_ancient_elvish_sword
+			clr_character_flag = imbues_dwarvish_sword
+			clr_character_flag = imbues_elf_necklace
+			clr_character_flag = imbues_elf_brooch
+			clr_character_flag = imbues_dwarf_jewel
+			clr_character_flag = imbues_dwarf_necklace
+			prestige = 200 ##give em back
+			piety = 200
+		}
+	}
+}
+character_event = {
+	id = magic_craft.2
+	title = "EVTNAMEmagic_craft.2"
+	desc = "EVTDESCmagic_craft.2"
+	picture = GFX_evt_ring_craft
+	
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTAmagic_craft.2" ## Enchant it!
+		hidden_tooltip = {
+			if = {
+				limit = {
+					OR = {
+						trait = skilled_craftsman
+						trait = caster2
+					}
+				}		
+				random_list = {
+					45 = {
+						character_event = { id = magic_craft.3 days = 10 } ## Fail
+					}
+					55 = {
+						character_event = { id = magic_craft.5 days = 10 } ## Success
+					}
+				}
+				break = yes
+			}
+			if = {
+				limit = {
+					OR = {
+						trait = master_craftsman
+						trait = caster3
+					}
+				}		
+				random_list = {
+					25 = {
+						character_event = { id = magic_craft.3 days = 10 } ## Fail
+					}
+					10 = {
+						character_event = { id = magic_craft.4 days = 10 } ## Exceptional!
+					}
+					65 = {
+						character_event = { id = magic_craft.5 days = 10 } ## Success
+					}
+				}
+				break = yes
+			}
+			if = {
+				limit = {
+					trait = legendary_craftman
+					trait = caster4
+				}		
+				random_list = {
+					10 = {
+						character_event = { id = magic_craft.3 days = 10 } ## Fail
+					}
+					15 = {
+						character_event = { id = magic_craft.4 days = 10 } ## Exceptional!
+					}
+					75 = {
+						character_event = { id = magic_craft.5 days = 10 } ## Success
+					}
+				}
+			}
+		}
+	}
+}
+
+#enchantment Fail
+character_event = {
+	id = magic_craft.3
+	title = "EVTNAMEmagic_craft.3"
+	desc = "EVTDESCmagic_craft.3"
+	picture = GFX_evt_ring_craft
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmagic_craft.3" ## Oh no!
+		hidden_tooltip = {
+			clr_character_flag = crafts_object
+			clr_character_flag = imbues_elvish_sword
+			clr_character_flag = imbues_ancient_elvish_sword
+			clr_character_flag = imbues_dwarvish_sword
+			clr_character_flag = imbues_elf_necklace
+			clr_character_flag = imbues_elf_brooch
+			clr_character_flag = imbues_dwarf_jewel
+			clr_character_flag = imbues_dwarf_necklace
+			clr_character_flag = imbue_choose_martial
+			clr_character_flag = imbue_choose_combat
+			clr_character_flag = imbue_choose_diplomacy
+			clr_character_flag = imbue_choose_learning
+			clr_character_flag = imbue_choose_intrigue
+			clr_character_flag = imbue_choose_stewardship
+			character_event = { id = magic.102 } ## colldown 2 levels
+		}
+	}
+}
+
+#enchantment Exceptional
+character_event = {
+	id = magic_craft.4
+	title = "EVTNAMEmagic_craft.4"
+	desc = "EVTDESCmagic_craft.4"
+	picture = GFX_evt_ring_craft
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmagic_craft.4" ## YES!
+		if = {
+			limit = {
+				OR = {
+					has_character_flag = imbues_elvish_sword
+					has_character_flag = imbues_ancient_elvish_sword
+				}
+			}
+			add_trait = elvish_sword_magic_exceptional
+			hidden_tooltip = {
+				remove_trait = elvish_sword
+				remove_trait = ancient_elvish_sword
+				character_event = { id = magic_craft.9 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_dwarvish_sword
+			}
+			add_trait = dwarvish_sword_magic_exceptional
+			hidden_tooltip = {
+				remove_trait = dwarvish_sword
+				character_event = { id = magic_craft.9 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_elf_necklace
+			}
+			add_trait = elf_necklace_magic_exceptional
+			hidden_tooltip = {
+				remove_trait = elf_necklace
+				character_event = { id = magic_craft.9 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_elf_brooch
+			}
+			add_trait = elf_brooch_magic_exceptional
+			hidden_tooltip = {
+				remove_trait = elf_brooch
+				character_event = { id = magic_craft.9 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_dwarf_jewel
+			}
+			add_trait = dwarf_jewel_magic_exceptional
+			hidden_tooltip = {
+				remove_trait = dwarf_jewel
+				character_event = { id = magic_craft.9 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_dwarf_necklace
+			}
+			add_trait = dwarf_necklace_magic_exceptional
+			hidden_tooltip = {
+				remove_trait = dwarf_necklace
+				character_event = { id = magic_craft.9 }
+			}
+			break = yes
+		}
+	}
+}
+
+#enchantment Success
+character_event = {
+	id = magic_craft.5
+	title = "EVTNAMEmagic_craft.5"
+	desc = "EVTDESCmagic_craft.5"
+	picture = GFX_evt_ring_craft
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmagic_craft.5" ## YES!
+		if = {
+			limit = {
+				OR = {
+					has_character_flag = imbues_elvish_sword
+					has_character_flag = imbues_ancient_elvish_sword
+				}
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_martial
+				}
+				add_trait = elvish_sword_magic_martial
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_combat
+				}
+				add_trait = elvish_sword_magic_combat
+			}
+			hidden_tooltip = {
+				remove_trait = elvish_sword
+				remove_trait = ancient_elvish_sword
+				character_event = { id = magic_craft.8 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_dwarvish_sword
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_martial
+				}
+				add_trait = dwarvish_sword_magic_martial
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_combat
+				}
+				add_trait = dwarvish_sword_magic_combat
+			}
+			hidden_tooltip = {
+				remove_trait = dwarvish_sword
+				character_event = { id = magic_craft.8 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_elf_necklace
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_learning
+				}
+				add_trait = elf_necklace_magic_learning
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_diplomacy
+				}
+				add_trait = elf_necklace_magic_diplomacy
+			}
+			hidden_tooltip = {
+				remove_trait = elf_necklace
+				character_event = { id = magic_craft.8 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_elf_brooch
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_intrigue
+				}
+				add_trait = elf_brooch_magic_intrigue
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_stewardship
+				}
+				add_trait = elf_brooch_magic_stewardship
+			}
+			hidden_tooltip = {
+				remove_trait = elf_brooch
+				character_event = { id = magic_craft.8 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_dwarf_jewel
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_intrigue
+				}
+				add_trait = dwarf_jewel_magic_intrigue
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_stewardship
+				}
+				add_trait = dwarf_jewel_magic_stewardship
+			}
+			hidden_tooltip = {
+				remove_trait = dwarf_jewel
+				character_event = { id = magic_craft.8 }
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = imbues_dwarf_necklace
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_learning
+				}
+				add_trait = dwarf_necklace_magic_learning
+			}
+			if = {
+				limit = {
+					has_character_flag = imbue_choose_diplomacy
+				}
+				add_trait = dwarf_necklace_magic_diplomacy
+			}
+			hidden_tooltip = {
+				remove_trait = dwarf_necklace
+				character_event = { id = magic_craft.8 }
+			}
+			break = yes
+		}
+	}
+}
+
+
+#reset after regular outcome
+character_event = {
+	id = magic_craft.8
+	hide_window = yes
+	is_triggered_only = yes
+	option = {
+		clr_character_flag = crafts_object
+		clr_character_flag = imbues_elvish_sword
+		clr_character_flag = imbues_ancient_elvish_sword
+		clr_character_flag = imbues_dwarvish_sword
+		clr_character_flag = imbues_elf_necklace
+		clr_character_flag = imbues_elf_brooch
+		clr_character_flag = imbues_dwarf_jewel
+		clr_character_flag = imbues_dwarf_necklace
+		clr_character_flag = imbue_choose_martial
+		clr_character_flag = imbue_choose_combat
+		clr_character_flag = imbue_choose_diplomacy
+		clr_character_flag = imbue_choose_learning
+		clr_character_flag = imbue_choose_intrigue
+		clr_character_flag = imbue_choose_stewardship
+		character_event = { id = magic.102 } ## colldown 3 levels
+		character_event = { id = magic.10 } ## chance to improve magic skill
+	}
+}
+#reset after exceptional outcome
+character_event = {
+	id = magic_craft.9
+	hide_window = yes
+	is_triggered_only = yes
+	option = {
+		clr_character_flag = crafts_object
+		clr_character_flag = imbues_elvish_sword
+		clr_character_flag = imbues_ancient_elvish_sword
+		clr_character_flag = imbues_dwarvish_sword
+		clr_character_flag = imbues_elf_necklace
+		clr_character_flag = imbues_elf_brooch
+		clr_character_flag = imbues_dwarf_jewel
+		clr_character_flag = imbues_dwarf_necklace
+		clr_character_flag = imbue_choose_martial
+		clr_character_flag = imbue_choose_combat
+		clr_character_flag = imbue_choose_diplomacy
+		clr_character_flag = imbue_choose_learning
+		clr_character_flag = imbue_choose_intrigue
+		clr_character_flag = imbue_choose_stewardship
+		character_event = { id = magic.103 } ## colldown 3 levels
+		character_event = { id = magic.10 } ## chance to improve magic skill
+	}
+}

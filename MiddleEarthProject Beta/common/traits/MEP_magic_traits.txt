@@ -1,0 +1,42 @@
+caster1 = {
+	leader = yes
+	monthly_character_piety = 0.05
+	cached = yes
+	opposites =  {
+		caster2
+		caster3
+		caster4
+	}
+}
+caster2 = {
+	leader = yes
+	monthly_character_piety = 0.1
+	cached = yes
+	opposites =  {
+		caster1
+		caster3
+		caster4
+	}
+}
+caster3 = {
+	leader = yes
+	monthly_character_piety = 0.15
+	monthly_character_prestige = 0.05
+	cached = yes
+	opposites =  {
+		caster1
+		caster2
+		caster4
+	}
+}
+caster4 = {
+	leader = yes
+	monthly_character_piety = 0.2
+	monthly_character_prestige = 0.1
+	cached = yes
+	opposites =  {
+		caster1
+		caster2
+		caster3
+	}
+}
