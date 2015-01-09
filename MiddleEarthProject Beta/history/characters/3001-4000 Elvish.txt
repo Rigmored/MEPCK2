@@ -7096,3 +7096,32 @@
 		death="10324.1.1"
 	}	
 }
+
+#TAURIEL FROM THE HOBBIT MOVIE
+3403 = {
+	name="Tauriel"
+	female=yes
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf	
+	add_trait=fair
+	add_trait=agile
+	add_trait=proud
+	add_trait=skilled_tactician
+	
+	8510.6.5 = {
+		birth=yes
+	}
+	9500.1.1 = {
+		add_trait=trained_elf
+		employer = 3104
+		effect= {
+		add_friend = 3106
+		add_rival = 3104
+	}
+	}
+	11480.1.1 = {
+		add_trait=sailed_west
+		employer = 10001
+	}	
+}
