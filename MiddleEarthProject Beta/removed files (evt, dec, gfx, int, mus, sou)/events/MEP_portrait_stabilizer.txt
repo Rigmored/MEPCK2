@@ -1,0 +1,240 @@
+namespace = portraits
+
+#### These events will changes the portraits to the corresponding cultural ones ####
+character_event = {
+	id = portraits.1
+	title = "portraits"
+	desc = "portraitsdesc"
+	picture = "GFX_evt_elves"
+	
+	hide_window = yes
+
+	trigger = {
+		NOT = { has_character_flag = portrait }
+		age = 1
+		
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	} 
+
+	option = {
+		name = "portraits"
+		if = {
+			limit = {
+				culture_group = culture_group_amanyar
+			}		
+		set_graphical_culture = culture_noldor
+		}
+		if = {
+			limit = {
+				culture_group = culture_group_umanyar
+			}		
+		set_graphical_culture = culture_sindar
+		}	
+		if = {
+			limit = {
+				culture_group = culture_group_moriquendi
+			}		
+		set_graphical_culture = culture_avari
+		}	
+		if = {
+			limit = {
+				culture_group = culture_group_onodrim
+			}		
+		set_graphical_culture = culture_entish
+		}		
+		if = {
+			limit = {
+				culture = culture_maiar
+			}		
+		set_graphical_culture = culture_maiar
+		}
+		if = {
+			limit = {
+				culture = culture_valar
+			}		
+		set_graphical_culture = culture_valar
+		}	
+		if = {
+			limit = {
+				culture = culture_istari
+			}		
+		set_graphical_culture = culture_istari
+		}	
+		if = {
+			limit = {
+				culture = culture_wight
+			}	
+		set_graphical_culture = culture_wight
+		}
+		if = {
+			limit = {
+				culture = culture_half_orc 
+			}		
+		set_graphical_culture = culture_half_orc 
+		}	
+		if = {
+			limit = {
+				culture = culture_urukhai
+			}		
+		set_graphical_culture = culture_urukhai
+		}
+		if = {
+			limit = {
+				culture = culture_goblin
+			}		
+		set_graphical_culture = culture_goblin
+		}	
+		if = {
+			limit = {
+				culture = culture_orkish
+			}		
+		set_graphical_culture = culture_orkish
+		}
+		if = {
+			limit = {
+				culture = culture_troll
+			}		
+		set_graphical_culture = culture_troll
+		}
+		if = {
+			limit = {
+				culture = culture_balrog
+			}		
+		set_graphical_culture = culture_balrog
+		}
+		if = {
+			limit = {
+				culture = culture_dragons
+			}		
+		set_graphical_culture = culture_dragons
+		}	
+		if = {
+			limit = {
+				culture = culture_spider
+			}		
+		set_graphical_culture = culture_spider
+		}	
+		if = {
+			limit = {
+				culture = culture_wilderness
+			}		
+		set_graphical_culture = culture_wilderness
+		}
+		if = {
+			limit = {
+				culture = culture_mountains
+			}		
+		set_graphical_culture = culture_mountains
+		}
+		if = {
+			limit = {
+				culture = culture_druedain
+			}		
+		set_graphical_culture = culture_druedain
+		}
+		if = {
+			limit = {
+				OR = {
+					culture = culture_haladin
+					culture = culture_maradin					
+					culture = culture_beodin
+					culture = culture_boradin
+				}
+			}		
+		set_graphical_culture = culture_beodin
+		}
+		if = {
+			limit = {
+				culture_group = culture_group_numenorean
+			}		
+		set_graphical_culture = culture_numenorean
+		}
+		if = {
+			limit = {
+				OR = {
+					culture = culture_woodsmen
+					culture = culture_barding					
+					culture = culture_northmen
+					culture = culture_beorning
+				}
+			}		
+		set_graphical_culture = culture_northmen
+		}	
+		if = {
+			limit = {
+				OR = {
+					culture = culture_ishmalogim
+					culture = culture_gondorian_middlemen					
+				}
+			}		
+		set_graphical_culture = culture_gondorian_middlemen
+		}	
+		if = {
+			limit = {
+				OR = {
+					culture = culture_eotheod
+					culture = culture_rohirrim					
+				}
+			}		
+		set_graphical_culture = culture_rohirrim
+		}	
+		if = {
+			limit = {
+				culture_group = culture_group_forodwaith
+			}		
+		set_graphical_culture = culture_lossoth
+		}	
+		if = {
+			limit = {
+				culture_group = culture_group_haldadian
+				NOT = { culture = culture_breelander }
+			}		
+		set_graphical_culture = culture_andrasting
+		}	
+		if = {
+			limit = {
+				culture = culture_breelander
+			}		
+		set_graphical_culture = culture_breelander
+		}	
+		if = {
+			limit = {
+				culture_group = culture_group_southron
+			}		
+		set_graphical_culture = culture_haradrim
+		}	
+		if = {
+			limit = {
+				culture_group = culture_group_easterling
+			}		
+		set_graphical_culture = culture_easterling
+		}	
+		if = {
+			limit = {
+				culture_group = culture_group_halfling
+			}		
+		set_graphical_culture = culture_harfoot
+		}	
+		if = {
+			limit = {
+				culture_group = culture_group_dwarves
+			}		
+		set_graphical_culture = culture_longbeard
+		}	
+		if = {
+			limit = {
+				culture_group = culture_group_quendi
+			}		
+		set_graphical_culture = culture_minyar
+		}
+		if = {
+			limit = {
+				culture = culture_eagles
+			}		
+		set_graphical_culture = culture_eagles
+		}			
+	}
+}

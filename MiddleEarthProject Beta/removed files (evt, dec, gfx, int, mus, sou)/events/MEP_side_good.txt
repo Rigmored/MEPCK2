@@ -1,0 +1,266 @@
+namespace = goodside
+
+character_event = {
+    id = goodside.1
+    title = "EVTNAMEgoodside.1"
+    desc = "EVTDESCgoodside.1"
+    picture = "GFX_good"
+	age = 16
+	is_ruler = yes
+	only_independent = yes
+
+trigger = {
+	OR = {
+	culture_group = culture_group_edain
+	culture_group = culture_group_numenorean
+	culture_group = culture_group_middlemen
+	culture_group = culture_group_haldadian
+	culture_group = culture_group_halfling
+	culture_group = culture_group_dwarves
+	culture_group = culture_group_quendi
+	culture_group = culture_group_amanyar
+	culture_group = culture_group_umanyar
+	culture_group = culture_group_moriquendi
+}
+	
+	NOT = { culture = culture_dunlending
+			culture = culture_hillmen
+	        culture = culture_black_numenorean 	
+	        trait = evil_side 
+	        trait = good_side
+	        has_character_flag = goodsidestartup }
+			NOT = { religion_group = religion_group_melkor }
+			}
+				  
+immediate = { set_character_flag = goodsidestartup }
+
+option = {
+                  name = "EVTOPTgoodside.1"
+                  add_trait = good_side
+}
+}
+
+##Event to switch to the Good side for players only##
+character_event = {
+    id = goodside.2
+    title = "Switching Sides"
+    desc = "Elves are leaving, and there is no strength left in men. Perhaps, it would be wise to ... join the winning side and serve Sauron willingly?"
+    picture = "GFX_evil"
+	is_triggered_only = yes
+	
+trigger = {
+	        trait = good_side 
+}
+
+immediate = { set_character_flag = switched_side }
+
+option = {
+                  name = "It might indeed be wise..."				  
+                  remove_trait = good_side
+				  add_trait = evil_side
+}
+option = {
+                  name = "That would be madness!"				  
+				  piety = 10
+}
+}
+##Event for good-side vassals when ruler turns evil#
+character_event = {
+    id = goodside.3
+    title = "Corrupted Ruler"
+    desc = "Your liege-lord has submitted to Sauron! Do you declare independence, or keep to your oaths?"
+    picture = "GFX_evil"
+	only_rulers = yes
+	
+trigger = {
+AND = {
+		OR = {
+	culture_group = culture_group_edain
+	culture_group = culture_group_numenorean
+	culture_group = culture_group_middlemen
+	culture_group = culture_group_haldadian
+	culture_group = culture_group_halfling
+	culture_group = culture_group_dwarves
+	culture_group = culture_group_quendi
+	culture_group = culture_group_amanyar
+	culture_group = culture_group_umanyar
+	culture_group = culture_group_moriquendi
+	}
+		AND = {
+	   NOT = { culture = culture_black_numenorean }
+	   NOT = { has_character_flag = evil_liege }
+	   NOT = { religion_group = religion_group_melkor }
+	   NOT = { trait = evil_side }
+	   liege = { trait = evil_side } 
+	   NOT = { liege = { culture = culture_maiar } }
+	   NOT = { liege = { culture = culture_istari } }
+	   NOT = { liege = { culture_group = culture_group_melkor } }
+			}
+	}
+	}
+			
+mean_time_to_happen = { days = 180 }
+
+immediate = { set_character_flag = evil_liege }
+
+option = {
+                name = "I will not serve this traitor!"
+				set_character_flag = evil_liege
+				liege = {
+					character_event = { id = goodside.4 days = 1 }
+			}
+				set_defacto_liege = THIS
+}
+option = {
+                name = "Perhaps my liege is right..."	
+
+				trigger = {
+				OR = {
+			trait = cruel
+			trait = lunatic
+			trait = weak
+			trait = deceitful
+			trait = craven
+					}
+		}
+				set_character_flag = evil_liege
+				liege = {
+					character_event = { id = goodside.9 days = 1 }
+			}				  
+				  piety = 10
+}
+}
+
+##Ruler is informed a vassal declares independence#
+character_event = {
+    id = goodside.4
+    title = "Vassal rejects you"
+    desc = "Ally with Sauron? Your will has turned to madness, and you are faithless and accursed! I declare my bond to you broken."
+    picture = "GFX_evil"
+	is_triggered_only = yes
+	
+	
+	option = {
+                name = "I'll see you dead for this!"
+				add_trait = wroth
+}
+	option = {
+                name = "None can withstand the will of Sauron."
+				add_trait = zealous
+}
+}
+
+##Event for good-side courtiers when ruler turns evil#
+character_event = {
+    id = goodside.5
+    title = "Corrupted Ruler"
+    desc = "Your liege-lord has submitted to Sauron! Do you leave his court, or follow him into darkness?"
+    picture = "GFX_evil"
+	
+trigger = {
+		AND = {
+		OR = {
+	culture_group = culture_group_edain
+	culture_group = culture_group_numenorean
+	culture_group = culture_group_middlemen
+	culture_group = culture_group_haldadian
+	culture_group = culture_group_halfling
+	culture_group = culture_group_dwarves
+	culture_group = culture_group_quendi
+	culture_group = culture_group_amanyar
+	culture_group = culture_group_umanyar
+	culture_group = culture_group_moriquendi
+	}
+		AND = {
+	   NOT = { culture = culture_black_numenorean }
+	   NOT = { has_character_flag = evil_liege }
+	   NOT = { religion_group = religion_group_melkor }
+	   NOT = { trait = evil_side }
+	   liege = { trait = evil_side }
+	   lower_tier_than = baron	   
+			}
+	}
+			}
+			
+mean_time_to_happen = { 180 }
+
+immediate = { set_character_flag = evil_liege }
+
+option = {
+                name = "I will not serve this traitor!"
+				set_character_flag = evil_liege
+				liege = {
+					character_event = { id = goodside.6 days = 1 }
+			}
+}
+option = {
+                  name = "I will stay loyal."
+				  				trigger = {
+				OR = {
+			trait = cruel
+			trait = lunatic
+			trait = weak
+			trait = deceitful
+			trait = craven
+					}
+		}
+					set_character_flag = evil_liege				  
+				  				liege = {
+					character_event = { id = goodside.7 days = 1 }
+			}
+}
+}
+
+##Ruler is informed a courtier makes his choice to stay#
+character_event = {
+    id = goodside.6
+    title = "Courtier supports you"
+    desc = "It is not my place to question you, my Liege. You lead, and I follow."
+    picture = "GFX_evil"
+	is_triggered_only = yes
+	
+	option = {
+                name = "Excellent."
+}
+
+}
+
+##Ruler is informed a courtier makes his choice to leave#
+character_event = {
+    id = goodside.7
+    title = "Courtier leaves you"
+    desc = "You are mad, we cannot submit to Sauron!"
+    picture = "GFX_evil"
+	is_triggered_only = yes
+	
+	option = {
+                name = "Guards, seize this traitor!"
+				FROM = { imprison = ROOT }
+}
+	option = {
+            name = "Then leave, while you still can..."
+			random_independent_ruler  = {
+			limit = {
+				culture = FROM
+				num_of_vassals = 3
+			}
+			reverse_banish = FROM
+		}
+}
+
+}
+
+##Ruler is informed a vassal will stay with him#
+character_event = {
+    id = goodside.9
+    title = "Vassal stays loyal"
+    desc = "Treating with Sauron seems like madness, but if this is what it takes to ensure the survival of our people..."
+    picture = "GFX_evil"
+	is_triggered_only = yes
+	
+	option = {
+                name = "It is the only way."
+}
+
+
+}

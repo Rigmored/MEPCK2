@@ -1,0 +1,242 @@
+## The characters is an Elf ##
+
+character_event = {
+                   id = 300000
+                   title = "elvestraitevent"
+                   desc = "elvestraiteventdesc"
+                   picture = "GFX_evt_elves"
+
+trigger = {
+		OR = {
+			culture_group = culture_group_quendi
+            culture_group = culture_group_amanyar
+            culture_group = culture_group_umanyar
+            culture_group = culture_group_moriquendi	
+		}	
+	NOT = { trait = elf }
+	NOT = { trait = half_elf }
+}
+
+mean_time_to_happen = { 
+days = 7
+} 
+
+option = {
+                  name = "elvestraiteventoption"
+                  add_trait = elf
+}
+}
+
+
+
+## The character is a Dwarf ##
+character_event = {
+                   id = 300001
+                   title = "dwarvestraitevent"
+                   desc = "dwarvestraiteventdesc"
+                   picture = "GFX_evt_dwarves"
+
+trigger = {
+	culture_group = culture_group_dwarves		
+	NOT = { trait = dwarven }
+}
+
+mean_time_to_happen = { 
+days = 1 
+} 
+
+option = {
+                  name = "dwarvestraiteventoption"
+                  add_trait = dwarven
+}
+}
+
+
+
+
+## The character is born from an Elf and a Dwarf ##
+character_event = {
+                   id = 300003
+                   title = "racechoicetraitevent2"
+                   desc = "racechoicetraitevent2desc"
+                   picture = "GFX_evt_choice"
+
+		min_age = 25	   
+				   
+		trigger = {		
+		AND = {	
+		trait = elf
+		trait = dwarven	
+		}
+		NOT = { has_character_flag = made_choice }
+		}
+		mean_time_to_happen = { 
+			days = 1 
+		} 
+		
+		immediate = {
+		remove_trait = elf
+		remove_trait = dwarven
+		set_character_flag = made_choice
+		}
+		
+		option = { 
+                  name = "racechoicetraitevent2option1"  ## I'm an Eldar !
+                  add_trait = elf
+		}
+		option = {
+                  name = "racechoicetraitevent2option2"  ## I'm a Dwarf !
+                  add_trait = dwarven
+		}
+}
+
+## The characters is Wilderness ##
+
+character_event = {
+                   id = 300004
+                   title = "elvestraitevent"
+                   desc = "elvestraiteventdesc"
+                   picture = "GFX_evt_elves"
+
+trigger = {
+		OR = {
+			culture_group = culture_group_wilderness
+		}	
+	NOT = { trait = wilderness }
+}
+
+mean_time_to_happen = { 
+days = 1 
+} 
+
+option = {
+                  name = "elvestraiteventoption"
+                  add_trait = wilderness
+}
+}
+
+## The characters is an Orc ##
+
+character_event = {
+                   id = 300005
+                   title = "orctraitevent"
+                   desc = "This character is an orc"
+                   picture = "GFX_evt_coronation"
+
+trigger = {
+		OR = {
+			culture = culture_orkish
+			culture = culture_goblin
+			culture = culture_urukhai
+		}	
+	NOT = { trait = orkish }
+}
+
+mean_time_to_happen = { 
+days = 1 
+} 
+
+option = {
+                  name = "orctraiteventoption"
+                  add_trait = orkish
+}
+}
+
+## The characters is an Ent ##
+
+character_event = {
+                   id = 300006
+                   title = "enttraitevent"
+                   desc = "This character is an ent"
+                   picture = "GFX_evt_coronation"
+
+trigger = {
+AND = {
+	culture = culture_entish
+	NOT = { trait = ent }
+}
+}
+
+mean_time_to_happen = { 
+days = 1 
+} 
+
+option = {
+                  name = "OK"
+                  add_trait = ent
+}
+}
+
+## The characters is a spider ##
+
+character_event = {
+                   id = 300007
+                   title = "spidertraitevent"
+                   desc = "This character is an spider"
+                   picture = "GFX_evt_coronation"
+
+trigger = {
+AND = {
+	culture = culture_spider
+	NOT = { trait = spider }
+}
+}
+
+mean_time_to_happen = { 
+days = 1 
+} 
+
+option = {
+                  name = "OK"
+                  add_trait = spider
+}
+}
+
+
+## The character is an Hobbit ##
+character_event = {
+    id = 300008
+	title = "dwarvestraitevent"
+	desc = "dwarvestraiteventdesc"
+	picture = "GFX_evt_dwarves"
+	hide_window = yes
+
+	trigger = {
+		culture_group = culture_group_halfling		
+		NOT = { trait = hobbit }
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	} 
+
+	option = {
+		name = "dwarvestraiteventoption"
+		add_trait = hobbit
+	}
+}
+
+
+## The character is an Eagle ##
+character_event = {
+    id = 300009
+	title = "dwarvestraitevent"
+	desc = "dwarvestraiteventdesc"
+	picture = "GFX_evt_dwarves"
+	hide_window = yes
+
+	trigger = {
+		culture_group = culture_eagles	
+		NOT = { trait = eagle }
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	} 
+
+	option = {
+		name = "dwarvestraiteventoption"
+		add_trait = eagle
+	}
+}
+

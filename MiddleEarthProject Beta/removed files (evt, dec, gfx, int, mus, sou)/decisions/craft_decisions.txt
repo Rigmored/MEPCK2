@@ -1,0 +1,32 @@
+decisions = {
+	## Use abilities ##
+	use_craft_abilities = {
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				trait = craftsman
+				trait = skilled_craftsman
+				trait = master_craftsman
+				trait = legendary_craftman
+			}
+			age = 16
+			capable_only = yes
+			NOT = { has_character_flag = crafts_object }
+			has_character_flag = special_decisions_open
+        }			
+		allow = {
+			prestige = 200
+			piety = 200
+		}
+		effect = {
+			set_character_flag = crafts_object
+			narrative_event = { id = craft.100 }
+			prestige = -200
+			piety = -200
+		}
+		ai_will_do = {
+			factor = 0.001
+		}
+	}		
+}

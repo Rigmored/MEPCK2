@@ -1,0 +1,477 @@
+namespace = subjugate
+
+
+############# Subjugate another realm #############
+####### Your emissary is in the other realm capital #######
+narrative_event = {
+	id = subjugate.0
+	title = "EVTTITsubjugate.0"
+	desc = "EVTDESCsubjugate.0"
+	picture = "GFX_evil"
+
+	trigger = {
+		NOT = { has_character_flag = subjugate_realm }
+		age = 1
+		trait = evil_side
+		job_chancellor = {
+			has_job_action = action_subjugate
+			location = {
+				any_province_lord = {
+					NOT = { is_liege_of = ROOT }
+					NOT = { character = ROOT }
+					NOT = { same_realm = ROOT }
+					independent = yes
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}	
+	
+	immediate = {
+		ROOT = { set_character_flag = subjugate_realm duration = 1460 }
+	}
+	
+	option = {
+		name = "EVTOPTAsubjugate.0" ## Your emissary will ask for wealth and slaves
+		ai_chance = {
+			factor = 70
+		}
+		owner = {
+			job_chancellor = {
+				location = {
+					any_province_lord = {
+						limit = {
+							NOT = { is_liege_of = ROOT }
+							NOT = { character = ROOT }
+							NOT = { same_realm = ROOT }
+							independent = yes
+						}
+						character_event = { id = subjugate.1 days = 20 }
+					}
+				}
+			}
+		}		
+	}
+	
+	option = {
+		name = "EVTOPTBsubjugate.0" ## Your emissary will ask them to join the crown.
+		ai_chance = {
+			factor = 20
+		}		
+		trigger = {
+			OR = {
+				prestige = 800
+				trait = great_orc
+				trait = maiar
+				trait = nazgul
+			}		
+		}
+		prestige = -100
+		wealth = -200		
+		owner = {
+			job_chancellor = {
+				location = {
+					any_province_lord = {
+						limit = {
+							NOT = { is_liege_of = ROOT }
+							NOT = { character = ROOT }
+							NOT = { same_realm = ROOT }
+							independent = yes
+						}
+						character_event = { id = subjugate.4 days = 20 }
+					}
+				}
+			}
+		}		
+	}	
+	
+	option = {
+		name = "EVTOPTCsubjugate.0" ## Your emissary won't do anything.	
+		ai_chance = {
+			factor = 10
+		}			
+	}		
+}
+
+
+####### The other lord is asked to give some wealth to evil #######
+narrative_event = {
+	id = subjugate.1
+	title = "EVTTITsubjugate.1"
+	desc = "EVTDESCsubjugate.1"
+	picture = "GFX_evil"
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}	
+	
+	option = {
+		name = "EVTOPTAsubjugate.1" ### I will, Lord.
+		ai_chance = {
+			factor = 50
+		
+			modifier = {
+				factor = 2
+				trait = evil_side
+			}
+			modifier = {
+				factor = 4
+				trait = craven
+			}			
+			modifier = {
+				factor = 4
+				trait = incapable
+			}
+			modifier = {
+				factor = 1.5
+				trait = lustful
+			}
+			modifier = {
+				factor = 1.3
+				trait = slothful
+			}
+			modifier = {
+				factor = 2.5
+				trait = envious
+			}
+			modifier = {
+				factor = 3
+				trait = wroth
+			}
+			modifier = {
+				factor = 2.3
+				trait = humble 
+			}
+			modifier = {
+				factor = 3.5
+				trait = deceitful
+			}
+			modifier = {
+				factor = 1.2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 1.5
+				trait = cynical
+			}
+			modifier = {
+				factor = 5
+				trait = cruel
+			}						
+		}
+		wealth = -300
+		prestige = -100
+		any_demesne_province = {
+			limit = {
+				is_capital = yes
+			}
+			add_province_modifier = { name = tax_of_evil duration = 1460 }
+		}
+		FROM = { character_event = { id = subjugate.2 days = 30 } }
+	}
+	
+	option = {
+		name = "EVTOPTBsubjugate.1" ### I won't !
+		ai_chance = {
+			factor = 50
+		
+			modifier = {
+				factor = 2
+				trait = good_side
+			}
+			modifier = {
+				factor = 4
+				trait = strong
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = blood_of_numenor
+					trait = blood_of_numenor2
+					trait = elf
+					trait = dwarven
+					trait = ent
+					trait = eagle
+				}
+			}
+			modifier = {
+				factor = 3
+				trait = greedy
+			}
+			modifier = {
+				factor = 3
+				trait = kind
+			}
+			modifier = {
+				factor = 1.5
+				trait = patient
+			}
+			modifier = {
+				factor = 2.3
+				trait = proud
+			}
+			modifier = {
+				factor = 1.5
+				trait = honest
+			}
+			modifier = {
+				factor = 1.5
+				trait = just
+			}
+			modifier = {
+				factor = 5
+				trait = brave
+			}						
+		}
+		wealth = -500
+		FROM = { character_event = { id = subjugate.3 days = 30 } }
+	}	
+}
+
+
+# The Evil Lord is informed that the other Lord paid
+character_event = {
+	id = subjugate.2
+	desc = "EVTDESCsubjugate.2"
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_diplomacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAsubjugate.2" ## Great
+		wealth = 300
+		prestige = 150
+		any_demesne_province = {
+			limit = {
+				is_capital = yes
+			}
+			add_province_modifier = { name = evil_reinforcement duration = 1460 }
+		}		
+	}
+}
+
+# The Evil Lord is informed that the other Lord didn't paid
+character_event = {
+	id = subjugate.3
+	desc = "EVTDESCsubjugate.3"
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_diplomacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAsubjugate.3" ## What?
+		prestige = -200
+		FROM = {
+			any_demesne_title = {
+				limit = {
+					is_primary_title = yes
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+}
+
+
+
+####### The other lord is asked to join evil character #######
+narrative_event = {
+	id = subjugate.4
+	title = "EVTTITsubjugate.4"
+	desc = "EVTDESCsubjugate.4"
+	picture = "GFX_evil"
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}	
+	
+	option = {
+		name = "EVTOPTAsubjugate.4" ### I will, Lord.
+		ai_chance = {
+			factor = 50
+		
+			modifier = {
+				factor = 2
+				trait = evil_side
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { prestige = 1000 }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { prestige = 1500 }
+			}	
+			modifier = {
+				factor = 2
+				FROM = { prestige = 2000 }
+			}				
+			modifier = {
+				factor = 4
+				trait = craven
+			}			
+			modifier = {
+				factor = 4
+				trait = incapable
+			}
+			modifier = {
+				factor = 1.5
+				trait = lustful
+			}
+			modifier = {
+				factor = 1.3
+				trait = slothful
+			}
+			modifier = {
+				factor = 2.5
+				trait = envious
+			}
+			modifier = {
+				factor = 3
+				trait = wroth
+			}
+			modifier = {
+				factor = 2.3
+				trait = humble 
+			}
+			modifier = {
+				factor = 3.5
+				trait = deceitful
+			}
+			modifier = {
+				factor = 1.2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 1.5
+				trait = cynical
+			}
+			modifier = {
+				factor = 5
+				trait = cruel
+			}						
+		}
+		wealth = -500
+		FROM = { character_event = { id = subjugate.5 days = 30 } }
+	}
+	
+	option = {
+		name = "EVTOPTBsubjugate.4" ### I won't !
+		ai_chance = {
+			factor = 50
+		
+			modifier = {
+				factor = 2
+				trait = good_side
+			}
+			modifier = {
+				factor = 4
+				trait = strong
+			}
+			modifier = {
+				factor = 3
+				FROM = { prestige = 0 }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { prestige = 200 }
+			}	
+			modifier = {
+				factor = 1.3
+				FROM = { prestige = 500 }
+			}				
+			modifier = {
+				factor = 5
+				OR = {
+					trait = blood_of_numenor
+					trait = blood_of_numenor2
+					trait = elf
+					trait = dwarven
+					trait = ent
+					trait = eagle
+				}
+			}
+			modifier = {
+				factor = 3
+				trait = greedy
+			}
+			modifier = {
+				factor = 3
+				trait = kind
+			}
+			modifier = {
+				factor = 1.5
+				trait = patient
+			}
+			modifier = {
+				factor = 2.3
+				trait = proud
+			}
+			modifier = {
+				factor = 1.5
+				trait = honest
+			}
+			modifier = {
+				factor = 1.5
+				trait = just
+			}
+			modifier = {
+				factor = 5
+				trait = brave
+			}						
+		}
+		wealth = -500
+		FROM = { character_event = { id = subjugate.6 days = 30 } }
+	}	
+}
+
+
+# The Evil Lord is informed that the other Lord paid
+character_event = {
+	id = subjugate.5
+	desc = "EVTDESCsubjugate.5"
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_diplomacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAsubjugate.5" ## Great
+		FROM = {
+			set_defacto_liege = ROOT
+		}
+		prestige = 500
+	}
+}
+
+# The Evil Lord is informed that the other Lord didn't paid
+character_event = {
+	id = subjugate.6
+	desc = "EVTDESCsubjugate.6"
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_diplomacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAsubjugate.6" ## What?
+		prestige = -200
+		FROM = {
+			any_demesne_title = {
+				limit = {
+					is_primary_title = yes
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+}

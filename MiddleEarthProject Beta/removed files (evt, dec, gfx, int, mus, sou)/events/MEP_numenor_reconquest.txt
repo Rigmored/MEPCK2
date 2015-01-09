@@ -1,0 +1,279 @@
+namespace = RoN
+
+### Lost Numenorean Provinces ###
+### Gondorian ones ###
+
+# Province of Umbar
+narrative_event = {
+	id = RoN.1
+	title = EVTNAMERoN.1
+	desc = EVTDESCRoN.1
+	
+	picture = GFX_evt_gondor_kingdom
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		religion= religion_dunedain
+		NOT = { has_global_flag = umbarreconquered }
+		completely_controls = d_umbar ### WARNING: completely_controls is a very demanding trigger.
+		completely_controls = d_dusalan
+		completely_controls = d_caldur
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTARoN.1
+		set_global_flag = umbarreconquered
+		prestige = 100
+	}
+}
+
+# Province of Harondor
+narrative_event = {
+	id = RoN.2
+	title = EVTNAMERoN.2
+	desc = EVTDESCRoN.2
+	
+	picture = GFX_evt_gondor_kingdom
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		religion = religion_dunedain
+		NOT = { has_global_flag = harondorreconquered }
+		completely_controls = d_laergaladrin ### WARNING: completely_controls is a very demanding trigger.
+		completely_controls = d_mirlond
+		completely_controls = d_amonost
+		completely_controls = d_east_march	
+		completely_controls = d_harnen			
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTARoN.2
+		set_global_flag = harondorreconquered
+		prestige = 100
+	}
+}
+
+
+# Province of Calenardhon
+narrative_event = {
+	id = RoN.3
+	title = EVTNAMERoN.3
+	desc = EVTDESCRoN.3
+	
+	picture = GFX_evt_gondor_kingdom
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		religion = religion_dunedain
+		NOT = { has_global_flag = calenardhonreconquered }
+		completely_controls = d_eastfolde ### WARNING: completely_controls is a very demanding trigger.
+		completely_controls = d_kings_land	
+		completely_controls = d_celebrant	
+		completely_controls = d_westfolde	
+		completely_controls = d_westmarch	
+		completely_controls = d_west_emnet
+		completely_controls = d_east_emnet
+		completely_controls = d_the_wold		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTARoN.3
+		set_global_flag = calenardhonreconquered
+		prestige = 100
+	}
+}
+
+
+# Province of Ithilien
+narrative_event = {
+	id = RoN.4
+	title = EVTNAMERoN.4
+	desc = EVTDESCRoN.4
+	
+	picture = GFX_evt_gondor_kingdom
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		religion = religion_dunedain
+		NOT = { has_global_flag = ithilienreconquered }
+		completely_controls = d_nindalf ### WARNING: completely_controls is a very demanding trigger.
+		completely_controls = d_north_ithilduin	
+		completely_controls = d_emyn_arnen	
+		completely_controls = d_south_ithilduin		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTARoN.4
+		set_global_flag = ithilienreconquered
+		prestige = 100
+	}
+}
+
+### The Steward of Gondor claim the crown after the last heir of Isildur died ###
+
+# The Restoration of Rome
+narrative_event = {
+	id = RoN.5
+	title = EVTNAMERoN.5
+	desc = EVTDESCRoN.5
+	
+	picture = GFX_evt_gondor_kingdom
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTARoN.5
+		hidden_tooltip = {
+			primary_title = {
+				any_direct_de_jure_vassal_title = {
+					de_jure_liege = e_gondor
+				}
+			}
+		}
+		e_gondor = {
+			grant_title = ROOT
+			copy_title_laws = e_steward_gondor
+		}
+		e_steward_gondor = {
+			destroy_landed_title = THIS
+		}
+		give_nickname = nick_the_glorious
+		hidden_tooltip = {
+			activate_title = { title = e_steward_gondor status = no }
+			any_playable_ruler = {
+				limit = {
+					NOT = { has_landed_title = e_steward_gondor}
+					ai = no
+				}
+				narrative_event = { id = RoN.6 }
+			}
+		}
+	}	
+	option = {
+		name = EVTOPTBRoN.5
+	}	
+}
+
+# Informed about Restoration of Rome
+narrative_event = {
+	id = RoN.6
+	title = EVTNAMERoN.6
+	desc = EVTDESCRoN.6
+	
+	picture = GFX_evt_gondor_kingdom
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTARoN.6
+	}
+}
+
+###### ARNOR ######
+# Arthedain
+narrative_event = {
+	id = RoN.7
+	title = EVTNAMERoN.7
+	desc = EVTDESCRoN.7
+	
+	picture = GFX_evt_victory_arch_byzantine
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		religion = religion_dunedain
+		NOT = { has_global_flag = arthedainreconquered }
+		completely_controls = k_arthedain
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTARoN.7
+		set_global_flag = arthedainreconquered
+		prestige = 100
+	}
+}
+
+# Cardolan
+narrative_event = {
+	id = RoN.7
+	title = EVTNAMERoN.7
+	desc = EVTDESCRoN.7
+	
+	picture = GFX_evt_victory_arch_byzantine
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		religion = religion_dunedain
+		NOT = { has_global_flag = cardolanreconquered }
+		completely_controls = k_cardolan
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTARoN.7
+		set_global_flag = cardolanreconquered
+		prestige = 100
+	}
+}
+
+# Rhudaur
+narrative_event = {
+	id = RoN.7
+	title = EVTNAMERoN.7
+	desc = EVTDESCRoN.7
+	
+	picture = GFX_evt_victory_arch_byzantine
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		religion = religion_dunedain
+		NOT = { has_global_flag = rhudaurreconquered }
+		completely_controls = k_rhudaur
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTARoN.7
+		set_global_flag = rhudaurreconquered
+		prestige = 100
+	}
+}
