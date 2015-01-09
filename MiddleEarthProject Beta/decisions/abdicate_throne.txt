@@ -5,7 +5,6 @@ decisions = {
 			ai = no
 			is_ruler = yes
 			is_feudal = yes
-			capable_only = yes
 			NOT = { has_character_flag = wants_to_abdicate }
 			current_heir = { dynasty = ROOT }
 			culture_group = culture_group_numenorean
@@ -20,6 +19,7 @@ decisions = {
 			NOT = { trait = paranoid }
 			NOT = { trait = envious }
 			NOT = { trait = greedy }
+			NOT = {	trait = incapable }
 		}
 		allow = {
 			war = no
@@ -81,7 +81,6 @@ decisions = {
 			ai = no
 			is_ruler = yes
 			is_feudal = yes
-			capable_only = yes
 			NOT = { has_character_flag = wants_to_abdicate }
 			current_heir = { dynasty = ROOT }
 			age = 1700
@@ -101,6 +100,7 @@ decisions = {
 			NOT = { trait = paranoid }
 			NOT = { trait = envious }
 			NOT = { trait = greedy }
+			NOT = {	trait = incapable }
 		}
 		allow = {
 			war = no
@@ -152,7 +152,6 @@ decisions = {
 			ai = no
 			is_ruler = yes
 			is_feudal = yes
-			capable_only = yes
 			NOT = { has_character_flag = wants_to_abdicate }
 			current_heir = { dynasty = ROOT }
 			culture_group = culture_group_dwarves 
@@ -167,6 +166,7 @@ decisions = {
 			NOT = { trait = paranoid }
 			NOT = { trait = envious }
 			NOT = { trait = greedy }
+			NOT = {	trait = incapable }
 		}
 		allow = {
 			war = no
