@@ -1025,6 +1025,7 @@ character_event = {
 	option = {
 		name = "EVTOPTBcraft.21" ## I'll sell it !
 		wealth = 150
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -1414,7 +1415,6 @@ character_event = {
 		name = "EVTOPTAcraft.31" ## Great !
 		narrative_event = { id = craft.33 days = 20 }
 		create_character = {
-			#location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
@@ -1426,11 +1426,10 @@ character_event = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			#location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
+			age = 3207
 			trait = legendary_craftman
 			trait = elf
 		}
@@ -1438,11 +1437,10 @@ character_event = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			#location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
+			age = 4100
 			trait = skilled_craftsman
 			trait = elf
 		}
@@ -1450,11 +1448,10 @@ character_event = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			#location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
+			age = 1725
 			trait = master_craftsman
 			trait = elf
 		}
@@ -1462,11 +1459,10 @@ character_event = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			#location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
+			age = 2108
 			trait = legendary_craftman
 			trait = elf
 		}
@@ -1474,11 +1470,10 @@ character_event = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			#location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
+			age = 1887
 			trait = master_craftsman
 			trait = elf
 		}
