@@ -14,3 +14,7 @@ holder =  3104 # Thranduil
 {
 holder =  3106 # Legolas
 }
+10600.1.1=
+{
+holder =  3405 # Ohtar
+}

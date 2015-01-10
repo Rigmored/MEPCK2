@@ -7,3 +7,7 @@ holder =  3102 # Oropher
 {
 holder =  3104 # Thranduil
 }
+10250.1.1=
+{
+holder =  3404 # Camthalion
+}
