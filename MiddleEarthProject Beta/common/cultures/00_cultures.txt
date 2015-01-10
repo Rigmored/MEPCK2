@@ -2509,10 +2509,10 @@ culture_group_umanyar = {
 		color = { 0.77 0.88 0.38 }
 		
 		male_names = {
-			Amroth_Amroth Bárómir_Boromir Círdánó_Círdan Dan_Dan Daniroth_Deneroth Danitháró_Denethor Thilbáró_Ithilbor Legolas_Legolas Malgaladh_Malgalad Mírdánó_Mírdan Oropher_Oropher Seros_Saeros Thranduil_Thranduil
+			Amroth_Amroth Bárómir_Boromir Camthalion_Camthalion Círdánó_Círdan Dan_Dan Daniroth_Deneroth Danitháró_Denethor Thilbáró_Ithilbor Legolas_Legolas Malgaladh_Malgalad Mírdánó_Mírdan Oropher_Oropher Ohtar_Ohtar Seros_Saeros Thranduil_Thranduil
 		}
 		female_names = {
-			Galadhriel_Galadriel Nimbrodel_Nimrodel Tinúsel_Tinúviel
+			Galadhriel_Galadriel Nimbrodel_Nimrodel Tinúsel_Tinúviel Tauriel_Tauriel
 		}
 
 		modifier = silvan_culture_modifier
@@ -2528,10 +2528,10 @@ culture_group_moriquendi = {
 		color = { 0.25 0.5 0.75 }
 		
 		male_names = {
-			Elednil_Elendil Eöl_Eöl Kírtanô_Círdan Mírtanô_Mírdan Núkumnëhtar_Nucumnehtar Wolwê_Olue
+			Elednil_Elendil Eöl_Eöl Camthalion_Camthalion Kírtanô_Círdan Mírtanô_Mírdan Núkumnëhtar_Nucumnehtar Ohtar_Ohtar Wolwê_Olue 
 		}
 		female_names = {
-			Mírselde_Míriel Luktiênê_Lúthien Tindômiselde_Tinúviel
+			Mírselde_Míriel Luktiênê_Lúthien Tindômiselde_Tinúviel Tauriel_Tauriel
 		}
 
 		modifier = silvan_culture_modifier

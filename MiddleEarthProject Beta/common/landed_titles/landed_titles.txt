@@ -9385,7 +9385,7 @@ k_mirkwood = {
 			color2={ 255 255 255 }
 		
 			
-			b_celonduin = {
+			b_celebannon = {
 			}
 			b_elanor = {
 			}

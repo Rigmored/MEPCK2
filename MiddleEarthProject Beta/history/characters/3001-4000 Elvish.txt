@@ -7125,3 +7125,55 @@
 		employer = 10001
 	}	
 }
+
+#MERP Elf, Guardian of Athrad Laegrim
+3404 = {
+	name="Camthalion"
+	dynasty=3061
+	religion="religion_moriquendi"
+	culture="culture_avari"
+	add_trait=elf
+	add_trait=trained_elf
+	add_trait=agile
+	add_trait=intricate_webweaver
+	add_trait=quick
+	father=3311
+	9256.1.5 = {
+		birth=yes
+	}
+}
+
+#Merp Elf, Guardian of Celebannon
+3405 = {
+	name="Ohtar"
+	dynasty=3004
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	add_trait=fair
+	add_trait=trained_elf
+	add_trait=skilled_tactician
+	add_trait=duelist
+	father=3154
+	mother=3169
+	8258.1.1 = {
+		birth=yes
+	}
+}
+#Merp Elf, Guardian of Emin Duir
+3307 = {
+	name="Huinen"
+	female=yes
+	dynasty=3059
+	religion="religion_moriquendi"
+	culture="culture_noldor"
+	add_trait=elf	
+	add_trait=fair
+	add_trait=elusive_shadow
+	add_trait=genius
+	add_trait=deceitful
+	father=3306
+	9597.1.1 = {
+		birth=yes
+	}
+}
