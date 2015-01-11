@@ -47,6 +47,26 @@ character_event = {
 			}
 			add_trait = half_elf
 		}
+		
+		if = {
+			limit = {
+				
+					father = { trait = elf } # Father is
+					mother = { trait = half_elf } # mother is
+				
+			}
+			add_trait = half_elf
+		}
+		if = {
+			limit = {
+				
+					father = { trait = elf } # Father is
+					mother = { trait = half_elf } # mother is
+				
+			}
+			add_trait = half_elf
+		}
+		
 		if = {
 			limit = {
 				OR = {
@@ -154,6 +174,41 @@ character_event = {
 				}
 			}
 		}
+		
+		if = {
+			limit = {
+				
+					father = { trait =  blood_of_numenor } # Father is
+					mother = { trait =  blood_of_numenor2 } # mother is
+				
+			}
+			random_list = {
+				25 = {
+					add_trait = blood_of_numenor2
+				}
+				75 = {
+					add_trait = blood_of_numenor
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				
+					father = { trait =  blood_of_numenor2 } # Father is
+					mother = { trait =  blood_of_numenor } # mother is
+				
+			}
+			random_list = {
+				40 = {
+					add_trait = blood_of_numenor2
+				}
+				60 = {
+					add_trait = blood_of_numenor
+				}
+			}
+		}
+		
 		if = {
 			limit = {
 				OR = {

@@ -13,9 +13,6 @@ religion_group_eruhini = {
 		icon = 1
 		color = { 0.70 0.82 0.81 }
 		
-		crusade_name = "CRUSADE"
-		scripture_name = THE_BIBLE
-		
 		high_god_name = GOD_ERU
 		
 		god_names = {
@@ -24,6 +21,26 @@ religion_group_eruhini = {
 		
 		evil_god_names = {
 			GOD_MORGOTH
+		}
+
+		female_temple_holders = yes
+		
+	}
+	
+	religion_umaiar = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		color = { 0.70 0.82 0.81 }
+		
+		high_god_name = GOD_MORGOTH
+		
+		god_names = {
+			GOD_MORGOTH GOD_SAURON 
+		}
+		
+		evil_god_names = {
+			GOD_ERU
 		}
 
 		female_temple_holders = yes
@@ -123,30 +140,8 @@ religion_group_eldar = {
 		female_temple_holders = yes
 		allow_rivermovement = yes
 
-		intermarry = religion_calaquendi
 	}
-	religion_calaquendi = {
-		graphical_culture = westerngfx
-
-		icon = 9
-		color = { 0.54 0.99 0.98 }
-		
-		high_god_name = GOD_ERU
-		
-		god_names = {
-			GOD_ERU GOD_THE_VALAR GOD_THE_MAIAR
-		}
-
-		evil_god_names = {
-			GOD_MORGOTH
-		}
-		
-		feminist = yes   
-		priests_can_marry = yes
-		female_temple_holders = yes
-
-		intermarry = religion_moriquendi
-	}
+	
 }
 
 religion_group_periannath = {
@@ -648,7 +643,7 @@ religion_group_hildor = {  #Men of Darkness
 }
 
 religion_group_melkor = {
-	has_coa_on_barony_only = yes
+	has_coa_on_barony_only = no
 	graphical_culture = westerngfx
 	playable = yes
 	hostile_within_group = yes
