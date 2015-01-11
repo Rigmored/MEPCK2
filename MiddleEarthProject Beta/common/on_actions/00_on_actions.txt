@@ -848,8 +848,11 @@ on_pregnancy = {
  		401 # Pregnancy out of wedlock
  		402 # Pregnancy in matrimony, with another father!
  		410 # Pregnancy as consort
- 		412 # Pregnancy as consort, with another father!		
- 	}
+ 		412 # Pregnancy as consort, with another father!
+  		elveninfertility.0 #Elven Pregnancy, infertility starts
+		dwarveninfertility.0 #Dwarven Pregnancy, infertility starts
+ 	    humaninfertility.0 #Human Pregnancy, infertility starts
+	}
 }
 
 #character

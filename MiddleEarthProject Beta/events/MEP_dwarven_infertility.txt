@@ -1,22 +1,19 @@
 namespace = dwarveninfertility
+
 character_event = {
 	id = dwarveninfertility.0
-	desc = "elveninfertility_de1"
+	title = "EVTTITelveninfertility.0"
+	desc = "EVTDESCelveninfertility.0"
 	picture = GFX_evt_pregnancy
-	
+	is_triggered_only = yes	
 		
 	trigger = {
-		is_pregnant = yes
 		trait = dwarven
 		NOT = { has_character_flag = dwarven_infertility }
 	}
 	
-	mean_time_to_happen = {
-		days = 270
-	}
-
 	option = {
-		name = "elven_infertility" #OK
+		name = "EVTOPTAdwarveninfertility.0" #OK
 		random = { 
 			chance = 40
 			add_trait = dwarven_infertility	
@@ -28,7 +25,8 @@ character_event = {
 #### Death of the Dwarves ####
 character_event = {
 	id = dwarveninfertility.1
-	desc = "dwarveninfertility.1"
+	title = "EVTTITdwarveninfertility.1"
+	desc = "EVTDESCdwarveninfertility.1"
 	picture = GFX_evt_death
 	hide_window = yes	
 		
@@ -112,11 +110,11 @@ character_event = {
 		}	
 		modifier = {
 			factor = 2.0
-			has_landed_title = k_rudhaur
+			has_landed_title = d_moria
 		}	
 		modifier = {
 			factor = 4.0
-			has_landed_title = k_erebor
+			has_landed_title = d_erebor
 		}			
 	}
 
