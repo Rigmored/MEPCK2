@@ -199,7 +199,7 @@ castle = {
 			title = b_forest_gate #417
 			title = b_western_wood_gate
 			title = b_eastern_wood_gate
-			title = b_celonduin #328
+			title = b_celebannon #328
 			title = b_dale_king_hall #539
 			title = b_blueport #539
 				}

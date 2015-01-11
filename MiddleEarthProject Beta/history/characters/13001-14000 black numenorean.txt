@@ -6,6 +6,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=12297
+	add_trait=blood_of_numenor
 	8222.1.1={
 		birth="8222.1.1"
 	}
@@ -19,6 +20,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13001
+	add_trait=blood_of_numenor
 	8297.1.1={
 		birth="8297.1.1"
 	}
@@ -32,6 +34,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13002
+	add_trait=blood_of_numenor
 	8381.1.1={
 		birth="8381.1.1"
 	}
@@ -45,6 +48,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13003
+	add_trait=blood_of_numenor
 	8465.1.1={
 		birth="8465.1.1"
 	}
@@ -58,6 +62,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13004
+	add_trait=blood_of_numenor
 	8543.1.1={
 		birth="8543.1.1"
 	}
@@ -71,6 +76,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13005
+	add_trait=blood_of_numenor
 	8615.1.1={
 		birth="8615.1.1"
 	}
@@ -84,6 +90,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13006
+	add_trait=blood_of_numenor
 	8683.1.1={
 		birth="8683.1.1"
 	}
@@ -97,6 +104,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13007
+	add_trait=blood_of_numenor
 	8766.1.1={
 		birth="8766.1.1"
 	}
@@ -110,6 +118,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13008
+	add_trait=blood_of_numenor
 	8851.1.1={
 		birth="8851.1.1"
 	}
@@ -123,6 +132,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13009
+	add_trait=blood_of_numenor
 	8920.1.1={
 		birth="8920.1.1"
 	}
@@ -136,6 +146,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13010
+	add_trait=blood_of_numenor
 	8988.1.1={
 		birth="8988.1.1"
 	}
@@ -149,6 +160,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13011
+	add_trait=blood_of_numenor
 	9045.1.1={
 		birth="9045.1.1"
 	}
@@ -163,6 +175,7 @@
 	culture="culture_black_numenorean"
 	father=13012
 	female=yes
+	add_trait=blood_of_numenor
 	9098.1.1={
 		birth="9098.1.1"
 	}
@@ -179,6 +192,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13012
+	add_trait=blood_of_numenor
 	9094.1.1={
 		birth="9094.1.1"
 	}
@@ -192,6 +206,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13014
+	add_trait=blood_of_numenor
 	9162.1.1={
 		birth="9162.1.1"
 	}
@@ -205,6 +220,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13015
+	add_trait=blood_of_numenor
 	9244.1.1={
 		birth="9244.1.1"
 	}
@@ -218,6 +234,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13016
+	add_trait=blood_of_numenor
 	9331.1.1={
 		birth="9331.1.1"
 	}
@@ -231,6 +248,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13110
+	add_trait=blood_of_numenor
 	9425.1.1={
 		birth="9425.1.1"
 	}
@@ -244,6 +262,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13111
+	add_trait=blood_of_numenor
 	9513.1.1={
 		birth="9513.1.1"
 	}
@@ -257,6 +276,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13112
+	add_trait=blood_of_numenor
 	9617.1.1={
 		birth="9617.1.1"
 	}
@@ -270,6 +290,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13113
+	add_trait=blood_of_numenor
 	9714.1.1={
 		birth="9714.1.1"
 	}
@@ -283,6 +304,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13114
+	add_trait=blood_of_numenor
 	9785.1.1={
 		birth="9785.1.1"
 	}
@@ -296,6 +318,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13115
+	add_trait=blood_of_numenor
 	9872.1.1={
 		birth="9872.1.1"
 	}
@@ -309,6 +332,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13116
+	add_trait=blood_of_numenor
 	9965.1.1={
 		birth="9965.1.1"
 	}
@@ -322,6 +346,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13117
+	add_trait=blood_of_numenor
 	10052.1.1={
 		birth="10052.1.1"
 	}
@@ -335,6 +360,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13118
+	add_trait=blood_of_numenor
 	10136.1.1={
 		birth="10136.1.1"
 	}
@@ -348,6 +374,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13119
+	add_trait=blood_of_numenor
 	10218.1.1={
 		birth="10218.1.1"
 	}
@@ -361,6 +388,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13120
+	add_trait=blood_of_numenor
 	10311.1.1={
 		birth="10311.1.1"
 	}
@@ -374,6 +402,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13121
+	add_trait=blood_of_numenor
 	10408.1.1={
 		birth="10408.1.1"
 	}
@@ -387,6 +416,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13122
+	add_trait=blood_of_numenor
 	10501.1.1={
 		birth="10501.1.1"
 	}
@@ -400,6 +430,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13123
+	add_trait=blood_of_numenor
 	10596.1.1={
 		birth="10596.1.1"
 	}
@@ -413,6 +444,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13124
+	add_trait=blood_of_numenor
 	10684.1.1={
 		birth="10684.1.1"
 	}
@@ -426,6 +458,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13125
+	add_trait=blood_of_numenor
 	10771.1.1={
 		birth="10771.1.1"
 	}
@@ -439,6 +472,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13126
+	add_trait=blood_of_numenor
 	10866.1.1={
 		birth="10866.1.1"
 	}
@@ -452,6 +486,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13127
+	add_trait=blood_of_numenor
 	10948.1.1={
 		birth="10948.1.1"
 	}
@@ -465,6 +500,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13128
+	add_trait=blood_of_numenor
 	11016.1.1={
 		birth="11016.1.1"
 	}
@@ -478,6 +514,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13129
+	add_trait=blood_of_numenor
 	11091.1.1={
 		birth="11091.1.1"
 	}
@@ -491,6 +528,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13130
+	add_trait=blood_of_numenor
 	11159.1.1={
 		birth="11159.1.1"
 	}
@@ -504,6 +542,7 @@
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13131
+	add_trait=blood_of_numenor
 	11221.1.1={
 		birth="11221.1.1"
 	}

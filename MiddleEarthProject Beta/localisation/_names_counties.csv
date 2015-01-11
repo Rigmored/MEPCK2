@@ -642,17 +642,17 @@ c_west_forest_road_adj;West Forest Roadian;West Forest Roadian;;;West Forest Roa
 c_east_forest_road;East Forest Road;East Forest Road;;;East Forest Road;;x
 c_east_forest_road_adj;East Forest Roadian;East Forest Roadian;;;East Forest Roadian;;x
 c_thanduils_halls;Halls of Thranduil;Halls of Thranduil;;;Halls of Thranduil;;x
-c_thanduils_halls_adj;Halls of Thranduil's;Halls of Thranduil's;;;Halls of Thranduil's;;x
-c_mountains_of_mirkwood;Mountains of Mirkwood;Mountains of Mirkwood;;;Mountains of Mirkwood;;x
-c_mountains_of_mirkwood_adj;Mountains of Mirkwoodian;Mountains of Mirkwoodian;;;Mountains of Mirkwoodian;;x
+c_thanduils_halls_adj;Thranduilrim;Thranduilrim;;;Thranduilrim;;x
+c_mountains_of_mirkwood;Emyn Duir;Emyn Duir;;;Emyn Duir;;x
+c_mountains_of_mirkwood_adj;Duirim;Duirim;;;Duirim;;x
 c_rosgobel;Rosgobel;Rosgobel;;;Rosgobel;;x
-c_rosgobel_adj;Rosgobelian;Rosgobelian;;;Rosgobelian;;x
+c_rosgobel_adj;Rosgobelrim;Rosgobelrim;;;Rosgobelrim;;x
 c_north_west_mirkwood;Athrad Laegrim;Athrad Laegrim;;;Athrad Laegrim;;x
-c_north_west_mirkwood_adj;Laegrimian;Laegrimian;;;Laegrimian;;x
+c_north_west_mirkwood_adj;Laegrimrim;Laegrimrim;;;Laegrimrim;;x
 c_north_mirkwood;Taeg Dîn;Taeg Dîn;;;Taeg Dîn;;x
-c_north_mirkwood_adj;Taegdinian;Taegdinian;;;Taegdinian;;x
-c_north_east_mirkwood;Celondîn;Celondîn;;;Celondîn;;x
-c_north_east_mirkwood_adj;Celondînian;Celondînian;;;Celondînian;;x
+c_north_mirkwood_adj;Taegrim;Taegrim;;;Taegrim;;x
+c_north_east_mirkwood;Celebannon;Celebannon;;;Celebannon;;x
+c_north_east_mirkwood_adj;Celebannonrim;Celebannonrim;;;Celebannonrim;;x
 c_south_emyn_muil;Amon Lhaw;Amon Lhaw;;;Amon Lhaw;;x
 c_south_emyn_muil_adj;Amon Lhawian;Amon Lhawian;;;Amon Lhawian;;x
 c_north_emyn_muil;North Emyn Muil;North Emyn Muil;;;North Emyn Muil;;x

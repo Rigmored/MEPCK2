@@ -14,3 +14,7 @@ holder =  3104 # Thranduil
 {
 holder =  3106 # Legolas
 }
+10000.1.1=
+{
+holder =  3307 # Huinen
+}

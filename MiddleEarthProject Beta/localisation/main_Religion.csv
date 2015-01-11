@@ -14,6 +14,7 @@ religion_group_olog;Olog;Olog;;;;;x
 religion_group_wilderness;Wilderness;Vie sauvage;;;;;x
 #RELIGIONS;;;;;;;x
 religion_eruhini;Ainur;Ainur;;;;;x
+religion_umaiar;Úmaiar;Úmaiar;;;;;x
 religion_enyd;Onodrim;Onodrim;;;;;x
 religion_mahal;Dwarven;Nains;;;Nani;;x
 religion_moriquendi;Elven;Elven;;;;;x
@@ -43,6 +44,7 @@ religion_spider;Ungolian;Ungolian;;;Ungolian;;;;;;x
 religion_dragons;Drakes;Drakes;;;Drakes;;;;;;;;;;x
 #RELIGIONS_DESC;;;;;;;x
 religion_eruhini_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;;x
+religion_umaiar_DESC;The cultural traditions and beliefs of this character.;Le groupe culturel de ce personnage.;;;;;x
 #Onodrim
 religion_enyd_DESC;The Onodrim, also known as the Ents, were large sentient, humanoid beings created at the request of Yavanna to protect the trees from other creatures, particularly Dwarves, and thus were called "Shepherds of the Trees". They mainly protect the Huorns, creatures much like Ents although not truly sentient, as well as the normal trees of the forests they dwell in and wander. \n\nThey are found in Fangorn Forest, named after the oldest Ent left in Middle-Earth. \n-------------- \n§YCultural Bonuses§! \nEnt: \nTroop Combat: §G+2000.00%§! \nLevy Size: §R-75.00%§! \nLevy Reinforcement Rate: §R-100.00%§! \n\nHuorn: \nTroop Combat: §G+1500.00%§! \nLevy Size: §R-50.00%§! \nLevy Reinforcement Rate: §R-95.00%§! \n\n§YRacial Bonuses/Maluses§! \nOrganisation: §G+100.00%§! \nMorale: §G+100.00%§! \nCombat in §YForest§!: §G+20.00%§! \nCombat in §YWood§!: §G+20.00%§!;Le groupe culturel de ce personnage.;;;;;x
 #Dwarves
