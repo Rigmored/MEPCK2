@@ -24,9 +24,6 @@ narrative_event = {
 				trait = elvish_sword_magic_exceptional
 				trait = elvish_sword_magic_combat
 				trait = elvish_sword_magic_martial
-				trait = dwarvish_sword_magic_exceptional
-				trait = dwarvish_sword_magic_combat
-				trait = dwarvish_sword_magic_martial
 			}
 		}
 		character_event = { id = craft.0 days = 10 }
@@ -43,15 +40,9 @@ narrative_event = {
 				trait = elf_necklace_magic_exceptional
 				trait = elf_necklace_magic_learning
 				trait = elf_necklace_magic_diplomacy
-				trait = dwarf_necklace_magic_exceptional
-				trait = dwarf_necklace_magic_learning
-				trait = dwarf_necklace_magic_diplomacy
 				trait = elf_brooch_magic_exceptional
 				trait = elf_brooch_magic_intrigue
 				trait = elf_brooch_magic_stewardship
-				trait = dwarf_jewel_magic_exceptional
-				trait = dwarf_jewel_magic_intrigue
-				trait = dwarf_jewel_magic_stewardship
 			}
 		}
 		character_event = { id = craft.12 }		
