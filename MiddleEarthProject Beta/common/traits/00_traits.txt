@@ -989,15 +989,16 @@ impaler = {
 duelist = {
 	lifestyle = yes
 	
-	martial = 2
-	diplomacy = 1
+	martial = 3
+	combat_rating = 5
 	
 	same_opinion = 20
 }
 hunter = {
 	lifestyle = yes
 	
-	martial = 1
+	martial = 2
+	diplomacy = 1
 	
 	same_opinion = 20
 }

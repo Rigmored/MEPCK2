@@ -808,6 +808,7 @@ novice_fighter = {
 	martial = 1	
 	
 	potential = {
+	OR = {
 		culture = culture_druedain
 		culture = culture_haladin
 		culture = culture_maradin
@@ -830,6 +831,7 @@ novice_fighter = {
 		culture = culture_ethirfolk
 		culture = culture_breelander
 	}
+	}
 	
 	opposites =  {
 		adept_fighter
@@ -846,6 +848,7 @@ adept_fighter = {
 	combat_rating = 1
 	
 	potential = {
+	OR = {
 		culture = culture_druedain
 		culture = culture_haladin
 		culture = culture_maradin
@@ -868,7 +871,7 @@ adept_fighter = {
 		culture = culture_ethirfolk
 		culture = culture_breelander
 	}	
-	
+	}
 	command_modifier = {
 		light_infantry = 0.1	
 		heavy_infantry = 0.1		
@@ -892,6 +895,7 @@ skilled_fighter = {
 	sex_appeal_opinion = 5
 	
 	potential = {
+	OR = {
 		culture = culture_druedain
 		culture = culture_haladin
 		culture = culture_maradin
@@ -913,6 +917,7 @@ skilled_fighter = {
 		culture = culture_eredrim
 		culture = culture_ethirfolk
 		culture = culture_breelander
+	}
 	}
 	
 	command_modifier = {
@@ -938,6 +943,8 @@ master_fighter = {
 	sex_appeal_opinion = 10	
 	
 	potential = {
+	
+	OR = {
 		culture = culture_druedain
 		culture = culture_haladin
 		culture = culture_maradin
@@ -960,7 +967,7 @@ master_fighter = {
 		culture = culture_ethirfolk
 		culture = culture_breelander
 	}
-	
+	}
 	command_modifier = {	
 		light_infantry = 0.3	
 		heavy_infantry = 0.3				

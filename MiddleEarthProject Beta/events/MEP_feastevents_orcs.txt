@@ -90,10 +90,7 @@ character_event = {
 		prisoner = yes
 		host = { character = ROOT }
 		age = 16
-		OR = {
-				religion = religion_moriquendi
-				religion = religion_calaquendi
-			}
+		religion = religion_moriquendi
 			}
 				}
 		set_character_flag = lavishly_food
@@ -103,10 +100,7 @@ character_event = {
 		prisoner = yes
 		host = { character = ROOT }
 		age = 16
-		OR = {
-				religion = religion_moriquendi
-				religion = religion_calaquendi
-			}
+		religion = religion_moriquendi
 			}
 		death = {
 		death_reason = death_sacrificed

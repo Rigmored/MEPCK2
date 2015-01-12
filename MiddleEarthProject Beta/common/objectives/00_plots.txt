@@ -670,7 +670,6 @@ plot_kill_character = {
 				}
 				
 				# Character's child is heir or pretender to a title that I don't hold
-				AND = {
 					any_child = {
 						OR = {
 							any_pretender_title = {
@@ -682,7 +681,6 @@ plot_kill_character = {
 							}
 						}
 					}
-				}
 				
 				# Spouse is pretender to a title
 				spouse = {
@@ -983,10 +981,6 @@ plot_kill_character = {
 				ai = yes
 				top_liege = { character = father }
 			}
-			FROM = {
-				religion_group = muslim
-				top_liege = { character = father }
-			}
 		}
 		modifier = {
 			factor = 2.0
@@ -995,10 +989,6 @@ plot_kill_character = {
 				ai = yes
 				top_liege = { character = father }
 				is_landed = no
-			}
-			FROM = {
-				religion_group = muslim
-				top_liege = { character = father }
 			}
 		}
 	}

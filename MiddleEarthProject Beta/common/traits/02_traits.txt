@@ -84,6 +84,25 @@ unyielding_leader = {
 	}
 }
 
+has_aztec_disease = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	sex_appeal_opinion = -30
+	
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	learning = -1
+	
+	health = -3
+	fertility = -0.2
+	
+	combat_rating = -3
+	
+	customizer = no
+}
 
 child_of_consort = {
 	diplomacy = -1
