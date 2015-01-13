@@ -44,7 +44,6 @@ succession_laws = {
 		allow = {
 			holder_scope = {
 				is_tribal = no
-				}
 			}
 		}
 		effect = {
