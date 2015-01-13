@@ -18,7 +18,6 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 			}
@@ -44,9 +43,7 @@ succession_laws = {
 		}
 		allow = {
 			holder_scope = {
-				OR = {
-					is_tribal = no
-					NOT = { religion_group = pagan_group }
+				is_tribal = no
 				}
 			}
 		}
@@ -72,7 +69,6 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 			}
@@ -124,13 +120,8 @@ succession_laws = {
 					}
 				}
 				
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = indian_group }
-				
 				OR = {
-					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
-					religion = hellenic_pagan
 					is_patrician = yes
 				}
 				
@@ -209,12 +200,6 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
-				OR = {
-					NOT = { religion_group = pagan_group }
-					is_reformed_religion = yes
-					religion = hellenic_pagan
-				}
 				
 				is_merchant_republic = no
 				is_patrician = no
@@ -271,16 +256,8 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = indian_group }
 				is_merchant_republic = no
 				is_patrician = no
-				
-				OR = {
-					NOT = { religion_group = pagan_group }
-					is_reformed_religion = yes
-					religion = hellenic_pagan
-				}
 			}
 			OR = {
 				is_landless_type_title = no
@@ -321,10 +298,8 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
-				culture_group = celtic
 			}
 			OR = {
 				is_landless_type_title = no
@@ -365,21 +340,6 @@ succession_laws = {
 						}
 					}
 				}
-				OR = {
-					culture = mongol
-					AND = {
-						NOT = { religion = norse_pagan }
-						NOT = { religion = tengri_pagan }
-						NOT = { religion = baltic_pagan }
-						NOT = { religion = finnish_pagan }
-						NOT = { religion = aztec }
-						NOT = { religion = pagan }
-						NOT = { religion = slavic_pagan }
-						NOT = { religion = west_african_pagan }
-					}
-				}
-				
-				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 			}
@@ -438,7 +398,6 @@ succession_laws = {
 				}
 				is_republic = no
 				is_merchant_republic = no
-				religion_group = muslim
 			}
 			is_primary_type_title = no
 			is_vice_royalty = no
@@ -452,7 +411,6 @@ succession_laws = {
 	}
 	succ_papal_succession = {
 		potential = {
-			title = k_papal_state
 			is_vice_royalty = no
 		}
 		
@@ -487,7 +445,6 @@ succession_laws = {
 	
 	succ_open_elective = {
 		potential = {
-			NOT = { title = k_papal_state }
 			temporary = no
 			OR = {
 				is_primary_type_title = yes
@@ -499,29 +456,19 @@ succession_laws = {
 					tier = baron
 					OR = {
 						is_republic = yes
-						AND = {
-							is_theocracy = yes
-							NOT = { holder_scope = { religion_group = muslim } }
-						}
+						is_theocracy = yes
 					}
 				}
 				holder_scope = {
 					OR = {
 						is_republic = yes
-						AND = {
-							is_theocracy = yes
-							NOT = { religion_group = muslim }
-						}
+						is_theocracy = yes
 					}
 				}
 			}
 			OR = {
 				is_landless_type_title = yes
 				holder_scope = { is_theocracy = no }
-				holder_scope = { 
-					NOT = { religion = catholic }
-					NOT = { religion = fraticelli }
-				}
 			}
 			holder_scope = { 
 				is_patrician = no
@@ -558,10 +505,6 @@ succession_laws = {
 			}
 			
 			holder_scope = {
-				OR = {
-					religion = catholic
-					religion = fraticelli
-				}
 				is_merchant_republic = no
 				OR = {
 					independent = yes
@@ -614,9 +557,6 @@ gender_laws = {
 					}
 					is_merchant_republic = yes
 				}
-				NOT = { religion_group = muslim }
-				NOT = { religion = tengri_pagan_reformed }
-				NOT = { religion = tengri_pagan }
 				has_horde_culture = no
 				is_merchant_republic = no
 				is_patrician = no
@@ -663,9 +603,6 @@ gender_laws = {
 		
 		potential = {
 			holder_scope = { 
-				NOT = { religion_group = muslim }
-				NOT = { religion = tengri_pagan_reformed }
-				NOT = { religion = tengri_pagan }
 				has_horde_culture = no
 				is_merchant_republic = no
 				is_patrician = no
@@ -685,13 +622,7 @@ gender_laws = {
 			is_vice_royalty = no
 		}
 		allow = {
-			holder_scope = {
-				OR = {
-					culture = basque
-					religion = cathar
-					religion = messalian
-				}
-			}
+			always = yes
 		}
 		effect = {
 			gender_succ = true_cognatic

@@ -140,19 +140,6 @@ de_jure_laws = {
 		allow = {
 			holder_scope = { 
 				is_republic = no 
-				
-				custom_tooltip = { 
-					text = TT_NOT_UNREFORMED_PAGAN
-					hidden_tooltip = {
-						NOT = { religion = norse_pagan }
-						NOT = { religion = tengri_pagan }
-						NOT = { religion = baltic_pagan }
-						NOT = { religion = finnish_pagan }
-						NOT = { religion = aztec }
-						NOT = { religion = slavic_pagan }
-						NOT = { religion = west_african_pagan }
-					}
-				}
 			}
 			OR = {
 				has_law = crown_authority_1
@@ -236,18 +223,6 @@ de_jure_laws = {
 		allow = {
 			holder_scope = { 
 				is_republic = no 
-				custom_tooltip = {
-					text = TT_NOT_UNREFORMED_PAGAN
-					hidden_tooltip = {
-						NOT = { religion = norse_pagan }
-						NOT = { religion = tengri_pagan }
-						NOT = { religion = baltic_pagan }
-						NOT = { religion = finnish_pagan }
-						NOT = { religion = aztec }
-						NOT = { religion = slavic_pagan }
-						NOT = { religion = west_african_pagan }
-					}
-				}
 			}
 			OR = {
 				has_law = crown_authority_2
@@ -335,18 +310,6 @@ de_jure_laws = {
 		allow = {
 			holder_scope = { 
 				is_republic = no 
-				custom_tooltip = {
-					text = TT_NOT_UNREFORMED_PAGAN
-					hidden_tooltip = {
-						NOT = { religion = norse_pagan }
-						NOT = { religion = tengri_pagan }
-						NOT = { religion = baltic_pagan }
-						NOT = { religion = finnish_pagan }
-						NOT = { religion = aztec }
-						NOT = { religion = slavic_pagan }
-						NOT = { religion = west_african_pagan }
-					}
-				}
 			}
 			has_law = crown_authority_3
 		}
