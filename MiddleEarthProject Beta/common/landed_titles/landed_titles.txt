@@ -6056,163 +6056,7 @@ k_fangorn = {
 }
 	
 	
-k_eregion = {
-	color={ 206 224 224 }
-	color2={ 125 125 142 }		
-	        
-	culture = culture_noldor
-	religion = religion_moriquendi	
-			
-			
-	capital = 290 #Ost-in-edhil
-			
-		d_rivendell = {
-			color={ 60 122 209 }
-			color2={ 255 255 255 }
-			
-			culture_dunedain = "Rivendell"
-			culture_gondorian = "Rivendell"
-			culture_rohirrim = "Rivendell"
-			culture_dunlending = "Rivendell"
-            culture_arnorian = "Rivendell"
-			
-			capital = 234 # Imladris
-			
-			c_imladris = {
-				color={ 21 42 83 }
-				color2={ 255 255 255 }
-            
-			culture_dunedain = "Rivendell"
-			culture_gondorian = "Rivendell"
-			culture_rohirrim = "Rivendell"
-			culture_dunlending = "Rivendell"
-            culture_arnorian = "Rivendell"
-		
-				b_last_homely_house = {
-					holy_site = religion_calaquendi
-					holy_site = religion_moriquendi
-				}
-				b_forges_of_rivendell = {
-				}
-				b_gates_of_rivendell = {
-				}
-				b_bridge_of_rivendell = {
-				}
-				b_hidhuinen = {
-				}
-				b_imdolen = {
-				}
-				b_imlad_gelair = {
-				}
-			
-			}
-		}
-		d_eregion = {
-			color={ 112 197 89 }
-			color2={ 255 255 255 }
-			
-			capital = 286 # Echad Bruinen
-			
-			c_north_eregion = {
-				color={ 112 197 89 }
-				color2={ 255 255 255 }
-		
-				b_north_eregion = {
-				}
-				b_north_eregioncastle = {
-				}
-				b_north_eregion3 = {
-				}
-				b_north_eregion4 = {
-				}
-				b_north_eregion5 = {
-				}
-			}
-			c_norther_eregion = {
-				color={ 49 129 27 }
-				color2={ 255 255 255 }
-		
-				b_norther_eregion = {
-				}
-				b_norther_eregion_temple = {
-				}  
-				b_norther_eregion3 = {
-				}  
-				b_norther_eregion4 = {
-				}  
-				b_norther_eregion5 = {
-				}	
-			}
-			c_west_eregion = {
-				color={ 24 62 14 }
-				color2={ 255 255 255 }
-		
-				b_west_eregion = {
-				}
-				b_west_eregiontemple = {
-				}  
-				b_west_eregion3 = {
-				} 
-				b_west_eregion4 = {
-				} 
-				b_west_eregion5 = {
-				}	
-			}
-		}
-		d_ost_in_edhil = {	
-			color={ 57 109 105 }
-			color2={ 255 255 255 }
-			capital = 290 #Ost-in-edhil
-	
-			c_swanfleet = {
-				color={ 197 196 89 }
-				color2={ 255 255 255 }
-		
-				b_echad_eregion = {
-				}
-				b_taluinur = {
-				}
-				b_echad_amastir = {
-				}
-				b_ernetil = {
-				}
-			}
-			c_south_eregio = {
-				color={ 85 121 75 }
-				color2={ 255 255 255 }
-		
-				b_ostinedhil = {
-				 holy_site = religion_calaquendi
-				 holy_site = religion_wilderness
-				}
-                b_dor_telperion = {
-				}
-                b_amon_alamir = {
-				}
-                b_teremil = {
-				}
-                b_casarel = {
-				}
-                b_amunir = {
-				}
-			}
-			c_middle_eregion = {
-				color={ 22 76 7 }
-				color2={ 255 255 255 }
-		
-				b_middle_eregion = {
-				}
-				b_middle_eregioncastle = {
-				} 
-				b_middle_eregion3 = {
-				} 
-				b_middle_eregion4 = {
-				} 
-				b_middle_eregion5 = {
-				}
-			}
-		}
-	}
+
 	
 	k_elves = {
 		color={ 225 193 42 }
@@ -11686,8 +11530,165 @@ e_isenvale = {
 	
 	capital = 172 # Tharbad	
 
+	k_eregion = {
+		color={ 206 224 224 }
+		color2={ 125 125 142 }		
+				
+		culture = culture_noldor
+		religion = religion_moriquendi	
+				
+				
+		capital = 290 #Ost-in-edhil
+			
+		d_rivendell = {
+			color={ 60 122 209 }
+			color2={ 255 255 255 }
+			
+			culture_dunedain = "Rivendell"
+			culture_gondorian = "Rivendell"
+			culture_rohirrim = "Rivendell"
+			culture_dunlending = "Rivendell"
+            culture_arnorian = "Rivendell"
+			
+			capital = 234 # Imladris
+			
+			c_imladris = {
+				color={ 21 42 83 }
+				color2={ 255 255 255 }
+            
+			culture_dunedain = "Rivendell"
+			culture_gondorian = "Rivendell"
+			culture_rohirrim = "Rivendell"
+			culture_dunlending = "Rivendell"
+            culture_arnorian = "Rivendell"
+		
+				b_last_homely_house = {
+					holy_site = religion_calaquendi
+					holy_site = religion_moriquendi
+				}
+				b_forges_of_rivendell = {
+				}
+				b_gates_of_rivendell = {
+				}
+				b_bridge_of_rivendell = {
+				}
+				b_hidhuinen = {
+				}
+				b_imdolen = {
+				}
+				b_imlad_gelair = {
+				}
+			
+			}
+		}
+		d_eregion = {
+			color={ 112 197 89 }
+			color2={ 255 255 255 }
+			
+			capital = 286 # Echad Bruinen
+			
+			c_north_eregion = {
+				color={ 112 197 89 }
+				color2={ 255 255 255 }
+		
+				b_north_eregion = {
+				}
+				b_north_eregioncastle = {
+				}
+				b_north_eregion3 = {
+				}
+				b_north_eregion4 = {
+				}
+				b_north_eregion5 = {
+				}
+			}
+			c_norther_eregion = {
+				color={ 49 129 27 }
+				color2={ 255 255 255 }
+		
+				b_norther_eregion = {
+				}
+				b_norther_eregion_temple = {
+				}  
+				b_norther_eregion3 = {
+				}  
+				b_norther_eregion4 = {
+				}  
+				b_norther_eregion5 = {
+				}	
+			}
+			c_west_eregion = {
+				color={ 24 62 14 }
+				color2={ 255 255 255 }
+		
+				b_west_eregion = {
+				}
+				b_west_eregiontemple = {
+				}  
+				b_west_eregion3 = {
+				} 
+				b_west_eregion4 = {
+				} 
+				b_west_eregion5 = {
+				}	
+			}
+		}
+		d_ost_in_edhil = {	
+			color={ 57 109 105 }
+			color2={ 255 255 255 }
+			capital = 290 #Ost-in-edhil
+	
+			c_swanfleet = {
+				color={ 197 196 89 }
+				color2={ 255 255 255 }
+		
+				b_echad_eregion = {
+				}
+				b_taluinur = {
+				}
+				b_echad_amastir = {
+				}
+				b_ernetil = {
+				}
+			}
+			c_south_eregio = {
+				color={ 85 121 75 }
+				color2={ 255 255 255 }
+		
+				b_ostinedhil = {
+				 holy_site = religion_calaquendi
+				 holy_site = religion_wilderness
+				}
+                b_dor_telperion = {
+				}
+                b_amon_alamir = {
+				}
+                b_teremil = {
+				}
+                b_casarel = {
+				}
+                b_amunir = {
+				}
+			}
+			c_middle_eregion = {
+				color={ 22 76 7 }
+				color2={ 255 255 255 }
+		
+				b_middle_eregion = {
+				}
+				b_middle_eregioncastle = {
+				} 
+				b_middle_eregion3 = {
+				} 
+				b_middle_eregion4 = {
+				} 
+				b_middle_eregion5 = {
+				}
+			}
+		}
+	}
 	k_enedwaith = {
-		color={ 40 86 22 }
+		color={ 244 220 126 }
 		color2={ 125 125 142 }
 	
 		culture_group_melkor = "Mosgûgrun"
@@ -11696,7 +11697,7 @@ e_isenvale = {
 		culture_dunedain = "Dor 'Wathui"
 		culture_gondorian = "Dor 'Wathui"
 	
-		capital = 172 # Tharbad	
+		capital = 386 # Morbet
 
 		culture = culture_dunlending
 		religion = religion_haldadian
@@ -11730,6 +11731,105 @@ e_isenvale = {
 				b_larach = {
 				}
 			}
+			c_south_central_enedwaith = {
+				color={ 116 165 116 }
+				color2={ 255 255 255 }
+		
+				b_south_central_enedwaith = {
+				}
+			}
+		}	
+		d_gwathlo = {
+			color={ 57 133 23 }
+			color2={ 255 255 255 }
+			
+			capital = 377 # Gwathlo Vale
+			
+			c_bhainnan = {
+				color={ 135 80 51 }
+				color2={ 125 125 142 }
+		
+				b_bhainnan = {
+				}
+				b_thurm_dreng = {
+				}  
+				b_wulfcol = {
+				} 
+				b_cugleclif = {
+				}
+				b_daestir = {
+				}
+			}
+			c_gwathlo_vale = {
+				color={ 206 149 149 }
+				color2={ 255 255 255 }
+		
+				b_gwathlo_vale = {
+				}
+				b_gwathlo_vale2 = {
+				}  
+				b_gwathlo_vale3 = {
+				}	
+			}
+			c_gwathlo_basin = {
+				color={ 144 21 21 }
+				color2={ 255 255 255 }
+		
+				b_gwathlo_basin = {
+				}
+				b_gwathlo_basin2 = {
+				}  
+				b_gwathlo_basin3 = {
+				}	
+			}
+			c_wredech = {
+				color={ 43 78 43 }
+				color2={ 255 255 255 }
+		
+				b_wredech = {
+				}
+				b_wredech2 = {
+				}  
+				b_wredech3 = {
+				}	
+			}
+		
+		}
+		d_cairill = {
+			color={ 19 41 123 }
+			color2={ 255 255 255 }
+			
+			capital = 396 # Cairill
+			
+			c_cairill = {
+				color={ 161 210 161 }
+				color2={ 255 255 255 }
+		
+				b_cairill = {
+				}
+				b_cairill2 = {
+				}  
+				b_cairill3 = {
+				}	
+			}
+			c_carras = {
+				color={ 192 81 81 }
+				color2={ 255 255 255 }
+		
+				b_carras = {
+				}
+			}
+			c_south_daelmoth = {
+				color={ 127 68 68 }
+				color2={ 255 255 255 }
+		
+				b_south_daelmoth = {
+				}
+				b_south_daelmoth2 = {
+				}  
+				b_south_daelmoth3 = {
+				} 
+			}
 			c_north_central_enedwaith = {
 				color={ 98 120 98 }
 				color2={ 255 255 255 }
@@ -11737,11 +11837,210 @@ e_isenvale = {
 				b_north_central_enedwaith = {
 				}
 			}
-			c_south_central_enedwaith = {
-				color={ 116 165 116 }
+		}
+	}
+	k_dunland = {
+		color={ 160 86 31 }
+		color2={ 125 125 142 }
+	
+		culture_dunlending = "Dunland"
+	
+		capital = 383 #Galtrev
+	
+		culture = culture_dunlending
+		religion = religion_haldadian
+	
+		religion_haldadian = 100 # Crusade target weight	
+	
+		d_dunland_north = {
+			color={ 137 85 56 }
+			color2={ 125 125 142 }
+			
+			capital = 776 #Nan Laeglin
+			
+			culture_dunlending = "Ar-Dunland"
+			
+			c_souther_eregion = {
+				color={ 167 163 143 }
+				color2={ 125 125 142 }
+		
+				b_cillien = {
+				holy_site = religion_edain
+				}
+				b_echad_naeglanc = {
+				}
+				b_bonevales = {
+				}
+				b_banceaster = {
+				}
+				b_brunceosan = {
+				}
+			}
+			c_nan_laeglin = {
+				color={ 206 178 56 }
+				color2={ 125 125 142 }
+		
+				b_araniant = {
+				}
+				b_lhanuch = {
+				}
+				b_cartrev_emlun = {
+				}
+				b_cartrev_hamon = {
+				}
+				b_colven_unus = {
+				}
+			}
+			c_fordirith = {
+				color={ 204 112 57 }
+				color2={ 125 125 142 }
+		
+				b_fordirith = {
+				}
+                b_cartrev_duved = {
+				}
+                b_tol_einyr = {
+				}
+                b_min_haerchen = {
+				}
+                b_echad_dagoras = {
+				}
+			}
+		
+			c_dunered = {
+				color={ 32 78 92 }
+				color2={ 125 125 142 }
+		
+				b_dunered = {
+				}
+				b_tal_methedras = {
+				}  
+				b_tur_morva = {
+				} 
+				b_morvagil = {
+				} 
+				b_kaskdun = {
+				}
+			}
+		}
+		d_dunland_south = {
+			color={ 157 97 64 }
+			color2={ 125 125 142 }
+			
+			capital = 383 #Galtrev
+			
+			culture_dunlending = "Fer-Dunland"
+			
+			c_duncillien = {
+				color={ 56 146 172 }
+				color2={ 125 125 142 }
+		
+				b_duncillien = {
+				}
+				b_avardin = {
+				}
+				b_starkmoor = {
+				}
+				b_dunalais = {
+				}
+			}
+			c_udrost = {
+				color={ 119 89 64 }
+				color2={ 125 125 142 }
+		
+				b_galtrev = {
+					holy_site = religion_haldadian
+				}
+				b_udrost = {
+				}
+				b_pren_gwydh = {
+				}
+				b_ronghut = {
+				}
+				b_hornden = {
+				}
+			}
+			c_talorgan = {
+				color={ 198 122 55 }
+				color2={ 125 125 142 }
+		
+				b_talorgan = {
+				}  
+				b_carreglyn = {
+				}  
+				b_serentalor = {
+				}
+				b_thurbald = {
+				}
+				b_hogas = {
+				}
+			}
+			c_fidach = {
+				color={ 136 113 93 }
+				color2={ 125 125 142 }
+		
+				b_fidach = {
+				}
+				b_dunbog = {
+				}
+				b_lhan_ros = {
+				}
+				b_cors_avanc = {
+				}
+				b_durgors = {
+				}
+			}
+		}
+	}
+	k_angren = {
+		color={ 88 80 190 }
+		color2={ 125 125 142 }
+	
+		culture_dunlending = "Isen"
+	
+		capital = 378 #Lond Angren
+	
+		religion_haldadian = 100 # Crusade target weight	
+		d_angren = {
+			color={ 94 132 132 }
+			color2={ 255 255 255 }
+			
+			capital = 378 #Lond Angren
+			
+			c_angren = {
+				color={ 240 168 168 }
 				color2={ 255 255 255 }
 		
-				b_south_central_enedwaith = {
+				b_lond_angren = {
+				}
+				b_angrast = {
+				}
+				b_erynwaith = {
+				}
+				b_tol = {
+				}
+				b_ethir_stommen = {
+				}
+			}
+			c_gwathlo_mouth = {
+				color={ 136 50 50 }
+				color2={ 255 255 255 }
+		
+				b_gwathlo_mouth = {
+				}	
+			}
+			c_isenvale = {
+				color={ 172 15 15 }
+				color2={ 255 255 255 }
+		
+				b_isenvale = {
+				}
+			}
+			c_west_enedwaith = {
+				color={ 11 74 11 }
+				color2={ 255 255 255 }
+		
+				b_west_enedwaith = {
 				}
 			}
 		}
@@ -11813,300 +12112,24 @@ e_isenvale = {
 				b_isenhol = {
 				}
 			}
-		}		
-		d_angren = {
-			color={ 94 132 132 }
-			color2={ 255 255 255 }
-			
-			capital = 378 #Lond Angren
-			
-			c_carras = {
-				color={ 192 81 81 }
-				color2={ 255 255 255 }
-		
-				b_carras = {
-				}
-			}
-			c_angren = {
-				color={ 240 168 168 }
-				color2={ 255 255 255 }
-		
-				b_lond_angren = {
-				}
-				b_angrast = {
-				}
-				b_erynwaith = {
-				}
-				b_tol = {
-				}
-				b_ethir_stommen = {
-				}
-			}
-			c_gwathlo_mouth = {
-				color={ 136 50 50 }
-				color2={ 255 255 255 }
-		
-				b_gwathlo_mouth = {
-				}	
-			}
-			c_isenvale = {
-				color={ 172 15 15 }
-				color2={ 255 255 255 }
-		
-				b_isenvale = {
-				}
-			}
-			c_west_enedwaith = {
-				color={ 11 74 11 }
-				color2={ 255 255 255 }
-		
-				b_west_enedwaith = {
-				}
-			}
-		}
-		d_gwathlo = {
-			color={ 57 133 23 }
-			color2={ 255 255 255 }
-			
-			capital = 375 # South Daelmoth
-			
-			c_south_daelmoth = {
-				color={ 127 68 68 }
-				color2={ 255 255 255 }
-		
-				b_south_daelmoth = {
-				}
-				b_south_daelmoth2 = {
-				}  
-				b_south_daelmoth3 = {
-				} 
-			}
-			c_gwathlo_vale = {
-				color={ 206 149 149 }
-				color2={ 255 255 255 }
-		
-				b_gwathlo_vale = {
-				}
-				b_gwathlo_vale2 = {
-				}  
-				b_gwathlo_vale3 = {
-				}	
-			}
-			c_gwathlo_basin = {
-				color={ 144 21 21 }
-				color2={ 255 255 255 }
-		
-				b_gwathlo_basin = {
-				}
-				b_gwathlo_basin2 = {
-				}  
-				b_gwathlo_basin3 = {
-				}	
-			}
-			c_wredech = {
-				color={ 43 78 43 }
-				color2={ 255 255 255 }
-		
-				b_wredech = {
-				}
-				b_wredech2 = {
-				}  
-				b_wredech3 = {
-				}	
-			}
-			c_cairill = {
-				color={ 161 210 161 }
-				color2={ 255 255 255 }
-		
-				b_cairill = {
-				}
-				b_cairill2 = {
-				}  
-				b_cairill3 = {
-				}	
-			}
-		}
-	}
-	k_dunland = {
-		color={ 160 86 31 }
-		color2={ 125 125 142 }
-	
-		culture_gondorian = "Dunfearan"
-		culture_dunedain = "Dunfearan"
-		culture_arnorian = "Dunfearan"
-		culture_rohirrim = "Dunfearan"
-	
-		capital = 383 #Galtrev
-	
-		culture = culture_dunlending
-		religion = religion_haldadian
-	
-		religion_haldadian = 100 # Crusade target weight	
-	
-			d_dunland = {
-			color={ 160 86 31 }
-			color2={ 125 125 142 }
-			
-			capital = 383 #Galtrev
-			
-			culture_gondorian = "Dunfearan"
-			culture_dunedain = "Dunfearan"
-			culture_arnorian = "Dunfearan"
-			culture_rohirrim = "Dunfearan"
-			
-			c_souther_eregion = {
-				color={ 167 163 143 }
-				color2={ 125 125 142 }
-		
-				b_cillien = {
-				holy_site = religion_edain
-				}
-				b_echad_naeglanc = {
-				}
-				b_bonevales = {
-				}
-				b_banceaster = {
-				}
-				b_brunceosan = {
-				}
-			}
-			c_nan_laeglin = {
-				color={ 206 178 56 }
-				color2={ 125 125 142 }
-		
-				b_araniant = {
-				}
-				b_lhanuch = {
-				}
-				b_cartrev_emlun = {
-				}
-				b_cartrev_hamon = {
-				}
-				b_colven_unus = {
-				}
-			}
-			c_fordirith = {
-				color={ 204 112 57 }
-				color2={ 125 125 142 }
-		
-				b_fordirith = {
-				}
-                b_cartrev_duved = {
-				}
-                b_tol_einyr = {
-				}
-                b_min_haerchen = {
-				}
-                b_echad_dagoras = {
-				}
-			}
-			c_bhainnan = {
-				color={ 135 80 51 }
-				color2={ 125 125 142 }
-		
-				b_bhainnan = {
-					holy_site = religion_haldadian
-				}
-				b_thurm_dreng = {
-				}  
-				b_wulfcol = {
-				} 
-				b_cugleclif = {
-				}
-				b_daestir = {
-				}
-			}
-			c_dunered = {
-				color={ 32 78 92 }
-				color2={ 125 125 142 }
-		
-				b_dunered = {
-				}
-				b_tal_methedras = {
-				}  
-				b_tur_morva = {
-				} 
-				b_morvagil = {
-				} 
-				b_kaskdun = {
-				}
-			}
-			c_duncillien = {
-				color={ 56 146 172 }
-				color2={ 125 125 142 }
-		
-				b_duncillien = {
-				}
-				b_avardin = {
-				}
-				b_starkmoor = {
-				}
-				b_dunalais = {
-				}
-			}
-			c_udrost = {
-				color={ 119 89 64 }
-				color2={ 125 125 142 }
-		
-				b_galtrev = {
-				}
-				b_udrost = {
-				}
-				b_pren_gwydh = {
-				}
-				b_ronghut = {
-				}
-				b_hornden = {
-				}
-			}
-			c_talorgan = {
-				color={ 198 122 55 }
-				color2={ 125 125 142 }
-		
-				b_talorgan = {
-				}  
-				b_carreglyn = {
-				}  
-				b_serentalor = {
-				}
-				b_thurbald = {
-				}
-				b_hogas = {
-				}
-			}
-			c_fidach = {
-				color={ 136 113 93 }
-				color2={ 125 125 142 }
-		
-				b_fidach = {
-				}
-				b_dunbog = {
-				}
-				b_lhan_ros = {
-				}
-				b_cors_avanc = {
-				}
-				b_durgors = {
-				}
-			}
-		}
+		}	
 	}
 	k_druwaith_iaur = {
 		color={ 180 139 39 }
 		color2={ 125 125 142 }
-	
+
 		culture_druwaithing = "Old Púkel Land"
 		culture_druedain = "Old Púkel Land"
 		culture_group_melkor = "Gazogbrun"
 		culture_maiar = "Gazogbrun"
-	
+
 		capital = 231 # Druwaith Laden/Druwaith Iaur
-	
+
 		culture = culture_druwaithing
 		religion = religion_haldadian
-	
+
 		religion_haldadian = 100 # Crusade target weight
-	
+
 		d_west_druwaith = {
 			color={ 56 74 128 }
 			color2={ 125 125 142 }
@@ -12134,13 +12157,13 @@ e_isenvale = {
 		
 				b_abastmil = {
 				}
-                b_iaurgond = {
+				b_iaurgond = {
 				}
-                b_gorthnaut = {
+				b_gorthnaut = {
 				}
-                b_taidarn = {
+				b_taidarn = {
 				}
-                b_gurendor = {
+				b_gurendor = {
 				}
 				
 			}
@@ -12212,8 +12235,9 @@ e_isenvale = {
 				}
 			}
 		}
-	}	
+	}
 }
+
 
 e_anadune = {
 	color={ 213 230 110 }
@@ -13036,6 +13060,17 @@ k_shire = {
 	
 	allow = {
 		culture_group = culture_group_halfling
+	}
+}
+
+d_dunland = {
+	color={ 160 86 31 }
+	color2={ 125 125 142 }
+	
+	capital = 383 #Galtrev
+			
+	allow = {
+		culture = culture_dunlending
 	}
 }
 

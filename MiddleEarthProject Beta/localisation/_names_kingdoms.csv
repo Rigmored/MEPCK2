@@ -27,8 +27,10 @@ k_anfalas;Anfalas;Anfalas;;;Anfalas;;;;;;;;;x
 k_anfalas_adj;Anfalasrim;Anfalassien;;;Anfalasrim;;;;;;;;;x
 k_lamedon;Lamedon;Lamedon;;;Lamedon;;;;;;;;;x
 k_lamedon_adj;Lamedonrim;Lamedonien;;;Lamedonrim;;;;;;;;;x
-k_enedwaith;Enedwaith;Enedwaith;;;Enedwaith;;;;;;;;;x
-k_enedwaith_adj;Enedwaithrim;Enedwaithien;;;Enedwaithrim;;;;;;;;;x
+k_enedwaith;Morbet;Morbet;;;Morbet;;;;;;;;;x
+k_enedwaith_adj;Morbetrim;Morbetrim;;;Morbetrim;;;;;;;;;x
+k_angren;Angren;Angren;;;Angren;;;;;;;;;x
+k_angren_adj;Angrenrim;Angrenrim;;;Angrenrim;;;;;;;;;x
 k_elves;Lothlórien;Lothlórien;;;Lothlórien;;;;;;;;;x
 k_elves_adj;Lothlórienrim;Lothlórienien;;;Lothlórienrim;;;;;;;;;x
 k_harlindon;Harlindon;Harlindon;;;Harlindon;;;;;;;;;x
@@ -115,6 +117,8 @@ k_forochel;Forochel;Forochel;;;Forochel;;;;;;;;;x
 k_forochel;Forochelrim;Forochelrim;;;Forochelrim;;;;;;;;;x
 k_angmarim_hillmen;Hill-men of Angmar;Hommes des Collines d'Angmar;;;Angmarim delle Colline;;;;;;;;;x
 k_angmarim_hillmen_adj;Angmarim;Angmarim;;;Angmarim;;;;;;;;;x
+k_dunland;Emyn Hithui;Emyn Hithui;;;Emyn Hithui;;x
+k_dunland_adj;Emyn Hithuirim;Emyn Hithuirim;;;Emyn Hithuirim;;x
 k_grey_mountains;Grey Mountains;Montagnes Grises;;;Monti Grigi;;;;;;;;;x
 k_grey_mountains_adj;Grey Mountains;Montagnes Grises;;;dei Monti Grigi;;;;;;;;;x
 k_nogrod;Nogrod;Nogrod;;;Nogrod;;;;;;;;;x

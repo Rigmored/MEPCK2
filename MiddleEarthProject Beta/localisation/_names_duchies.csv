@@ -131,6 +131,10 @@ d_erebor;Erebor;Erebor;;;Erebor;;x
 d_erebor_adj;Erebor's;Ereborim;;;di Erebor;;x
 d_dunland;Dunland;Pays de Dun;;;Dunland;;x
 d_dunland_adj;Dunlending;Dunending;;;Dunlandiana;;x
+d_dunland_north;Nan Laegrim;Nan Laegrim;;;Nan Laegrim;;x
+d_dunland_north_adj;Nan Laegrim;Nan Laegrim;;;Nan Laegrim;;x
+d_dunland_south;Emyn Hithui;Emyn Hithui;;;Emyn Hithui;;x
+d_dunland_south_adj;Emyn Hithuirim;Emyn Hithuirim;;;Emyn Hithuirim;;x
 d_melosse;Melosse;Melosse;;;Melosse;;x
 d_melosse_adj;Melosserim;Melosserim;;;Melosserim;;x
 d_magillos;Magillos;Magillos;;;Magillos;;x
@@ -151,6 +155,8 @@ d_angren;Angren;Angren;;;Angren;;x
 d_angren_adj;Angrenrim;Angrenrim;;;Angrenrim;;x
 d_gwathlo;Gwathlo;Gwathlo;;;Gwathlo;;x
 d_gwathlo_adj;Gwathlorim;Gwathlorim;;;Gwathlorim;;x
+d_cairill;Cairill;Cairill;;;Cairill;;x
+d_cairill_adj;Cairillrim;Cairillrim;;;Cairillrim;;x
 d_enedwaith;Morbet;Morbet;;;Morbet;;x
 d_enedwaith_adj;Morbetrim;Morbetrim;;;Morbetrim;;x
 d_edhellond;Rondalph;Rondalph;;;Rondalph;;x

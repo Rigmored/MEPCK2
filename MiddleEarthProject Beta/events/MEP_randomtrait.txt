@@ -87,10 +87,7 @@ character_event = {
 	hide_window = yes
 	
 	trigger = {
-		OR = {
-			religion = religion_moriquendi
-			religion = religion_calaquendi
-		}
+		religion = religion_moriquendi
 		NOT = { num_of_traits = 5 } 
 		NOT = { year = 11363 }
 		age = 16

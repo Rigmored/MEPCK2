@@ -6,16 +6,15 @@ title = c_bhainnan
 
 # Settlements
 
-max_settlements = 5
-b_bhainnan = tribal
-b_thurm_dreng = tribal
-b_wulfcol = tribal
-#b_cugleclif = city
-#b_daestir = city
+max_settlements = 3
+b_bhainnan = castle
+#b_thurm_dreng = city
+#b_wulfcol = castle
+
 
 # Misc
 terrain = hills
 
-culture = culture_dunlending
-religion = religion_haldadian
+culture = culture_wilderness
+religion = religion_wilderness
 
