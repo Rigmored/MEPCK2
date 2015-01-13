@@ -52,6 +52,8 @@ MAP
 - Changed Stonefoots in Zirakdum back to Stiffbeards
 - Added province of Azanulbizar to Duchy of Moria, west of Lorien
 - Moved Redhorn/Caradhras to correct position north of Moria
+- Better borders in West Gondor and Enedwaith
+- Overhauled Enedwaith landed_titles
 
 NICKNAMES
 - Added Flourdumpling to Will Whitfoot
@@ -67,8 +69,9 @@ RELIGION
 - Added High and Evil god names for all religions
 - Added feminist = yes for Eldar and Spiders
 - Added conversion desire = 0 to all religions (races can't convert)
-- Removed Moriquendi/Calaquendi elven racial distinction
+- Removed Moriquendi/Calaquendi elven racial distinction + removed Calaquendi religion
 - Tweaked some religion names for consistency (Elven, Dwarven, Halfling, etc)
+- Added Umaiar religion for Sauron, Morgoth, Balrogs, etc
 
 TITLES
 - Added a bunch of new holders characters in Northern Mirkwood
@@ -79,7 +82,8 @@ TITLES
 
 TRAITS
 - Added combat stats to soldier and weapon traits
-
+- Added generic combat skill traits for all other races
+- Added more conditions for passing on Elf Blood/Blood of Numenor in special cases
 
 
 ##### 0.4b Changelog #####
