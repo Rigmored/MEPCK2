@@ -5,13 +5,13 @@
 }
 11204.1.1=
 {
-holder =  338 # Beorn
+holder =  339 # Beorn
 }
 11320.1.1=
 {
-holder =  339 # Grimbeorn the Old
+holder =  340 # Grimbeorn the Old
 }
 11385.1.1=
 {
-holder =  340 # Beornward
+holder =  341 # Sterkist
 }

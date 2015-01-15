@@ -4259,6 +4259,11 @@ death_reason = death_battle
 	culture="culture_beorning"
 	father=338
 	add_trait=skin_changer
+	add_trait=skilled_tactician
+	add_trait=strong
+	add_trait=hunter
+	add_trait=wroth
+	add_trait=brave
 	11172.1.1={
 	birth="11172.1.1"
 	}
@@ -4291,6 +4296,11 @@ add_friend=4085 #Bofur
 	culture="culture_beorning"
 	father=339
 	add_trait=skin_changer
+	add_trait=skilled_tactician
+	add_trait=strong
+	add_trait=hunter
+	add_trait=proud
+	
 	11252.1.1={
 	birth="11252.1.1"
 	}
@@ -4302,12 +4312,16 @@ add_friend=4085 #Bofur
 	}
 }
 341 = {
-	name="Beornward"
+	name="Sterkist"
 	dynasty=17
 	religion="religion_rhovanion"
 	culture="culture_beorning"
 	father=340
 	add_trait=skin_changer
+	add_trait=tough_soldier
+	add_trait=strong
+	add_trait=hunter
+	add_trait=brave
 	11336.1.1={
 	birth="11336.1.1"
 	}
@@ -5165,3 +5179,123 @@ add_friend=4085 #Bofur
 	11320.1.1={add_spouse= 308}
 	11334.1.1={death=yes}
 }
+
+#ADDICTIONAL LINE OF BEORN CHARACTERS
+
+399 = {
+	name="Alstan"
+	dynasty=17
+	religion="religion_rhovanion"
+	culture="culture_beorning"
+	father=337
+	add_trait=skin_changer
+	add_trait=tough_soldier
+	add_trait=strong
+	add_trait=patient
+	add_trait=humble
+	11115.1.1={
+	birth=yes
+	}
+	11245.1.1={
+	death=yes
+	}
+}
+
+400 = {
+	name="Beornwulf"
+	dynasty=17
+	religion="religion_rhovanion"
+	culture="culture_beorning"
+	father=399
+	add_trait=skin_changer
+	add_trait=tough_soldier
+	add_trait=strong
+	add_trait=brave
+	add_trait=duelist
+	11170.1.1={
+	birth=yes
+	}
+	11295.1.1={
+	death=yes
+	}
+}
+
+401 = {
+	name="Beornsige"
+	dynasty=17
+	religion="religion_rhovanion"
+	culture="culture_beorning"
+	father=399
+	add_trait=skin_changer
+	add_trait=tough_soldier
+	add_trait=strong
+	add_trait=ugly
+	add_trait=greedy
+	11230.1.1={
+	birth=yes
+	}
+	11320.1.1={
+	death=yes
+	}
+}
+
+402 = {
+	name="Ofolmóth"
+	dynasty=17
+	religion="religion_rhovanion"
+	culture="culture_beorning"
+	father=401
+	add_trait=skin_changer
+	add_trait=tough_soldier
+	add_trait=strong
+	add_trait=brave
+	add_trait=temperate
+	11290.1.1={
+	birth=yes
+	}
+	11400.1.1={
+	death=yes
+	}
+}
+
+403 = {
+	name="Varthmath"
+	dynasty=17
+	religion="religion_rhovanion"
+	culture="culture_beorning"
+	father=401
+    add_trait=skin_changer
+	add_trait=tough_soldier
+	add_trait=strong
+	add_trait=brave
+	add_trait=just
+	11300.1.1={
+	birth=yes
+	}
+	11410.1.1={
+	death=yes
+	}
+}
+
+#Childern of Grimbeorn the Old
+
+404 = {
+	name="Langhár"
+	dynasty=17
+	religion="religion_rhovanion"
+	culture="culture_beorning"
+	father=340
+	female=yes
+	add_trait=skin_changer
+	add_trait=tough_soldier
+	add_trait=agile
+	add_trait=gardener
+	add_trait=proud
+	11336.1.1={
+	birth="11336.1.1"
+	}
+	11470.1.1={
+	death="11470.1.1"
+	}
+}
+
