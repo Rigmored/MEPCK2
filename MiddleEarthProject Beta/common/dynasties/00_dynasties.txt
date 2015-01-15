@@ -2911,6 +2911,10 @@
 930 = { 
                   name="Audawulfsson"
                   culture = culture_northmen
+}
+931 = { 
+                  name="Gustavusson"
+                  culture = culture_northmen
 }	
   
 #Other

@@ -824,3 +824,178 @@
 		death="11420.1.1"
 	}
 }
+
+#### Masters of Laketown ####
+
+19039 = {
+	name="Barnabas" ## 1st Master, 11113 - 11130
+	culture=culture_barding
+	religion=religion_rhovanion
+	11072.1.1 ={
+		birth="11072.1.1"
+	}
+	11140.1.1={
+		death="11140.1.1"
+	}
+}
+19040 = {
+	name="Agustus" ## 2nd Master, 11130 - 11148
+	culture=culture_barding
+	religion=religion_rhovanion
+	11090.1.1 ={
+		birth="11090.1.1"
+	}
+	11166.1.1={
+		death="11166.1.1"
+	}
+}
+19041 = {
+	name="Humfrey" ## 3rd Master, 11148 - 11170
+	culture=culture_barding
+	religion=religion_rhovanion
+	11106.1.1 ={
+		birth="11106.1.1"
+	}
+	11184.1.1={
+		death="11184.1.1"
+	}
+}
+19042 = {
+	name="Olbert" ## 4th Master, 11170 - 11194
+	culture=culture_barding
+	religion=religion_rhovanion
+	11129.1.1 ={
+		birth="11129.1.1"
+	}
+	11212.1.1={
+		death="11212.1.1"
+	}
+}
+19044 = {
+	name="Ebermund" ## 5th Master, 11194 - 11217
+	culture=culture_barding
+	religion=religion_rhovanion
+	11143.1.1 ={
+		birth="11143.1.1"
+	}
+	11230.1.1={
+		death="11230.1.1"
+	}
+}
+19045 = {
+	name="Ewald" ## 6th Master, 11217 - 11235
+	culture=culture_barding
+	religion=religion_rhovanion
+	11152.1.1 ={
+		birth="11152.1.1"
+	}
+	11235.1.1={
+		death="11235.1.1"
+	}
+}
+19046 = {
+	name="Amandus" ## 7th Master, 11235 - 11259
+	culture=culture_barding
+	religion=religion_rhovanion
+	11178.1.1 ={
+		birth="11178.1.1"
+	}
+	11262.1.1={
+		death="11262.1.1"
+	}
+}
+19047 = {
+	name="Volhard" ## 8th Master, 11259 - 11284 ## THE Master
+	culture=culture_barding
+	religion=religion_rhovanion
+	add_trait = cruel
+	add_trait = envious
+	add_trait = gluttonous
+	add_trait = proud
+	11223.1.1 ={
+		birth="111223.1.1"
+	}
+	11284.1.1={
+		death="11284.1.1"
+	}
+}
+19048 = {
+	name="Gustavus" ## 9th Master, 11284 - 11305
+	dynasty = 931
+	culture=culture_barding
+	religion=religion_rhovanion
+	add_trait = kind
+	add_trait = generous
+	add_trait = honest
+	11237.1.1 ={
+		birth="111237.1.1"
+	}
+	11305.1.1={
+		death="11305.1.1"
+	}
+}
+19049 = {
+	name="Dagomar" ## 10th Master, 11305 - 11320
+	dynasty = 931
+	culture=culture_barding
+	religion=religion_rhovanion
+	father=19048
+	11275.1.1 ={
+		birth="111275.1.1"
+	}
+	11338.1.1={
+		death="11338.1.1"
+	}
+}
+19050 = {
+	name="Bernold" ## 11th Master, 11320 - 11350
+	dynasty = 931
+	culture=culture_barding
+	religion=religion_rhovanion
+	father=19049
+	11295.1.1 ={
+		birth="111295.1.1"
+	}
+	11371.1.1={
+		death="11371.1.1"
+	}
+}
+19051 = {
+	name="Osred" ## 12th Master, 11350 - 11365
+	dynasty = 931
+	culture=culture_barding
+	religion=religion_rhovanion
+	father=19050
+	11320.1.1 ={
+		birth="11320.1.1"
+	}
+	11394.1.1={
+		death="11394.1.1"
+	}
+}
+19052 = {
+	name="Barnabas"
+	dynasty = 931
+	culture=culture_barding
+	religion=religion_rhovanion
+	father=19051
+	11350.1.1 ={
+		birth="11350.1.1"
+	}
+	11433.1.1={
+		death="11433.1.1"
+	}
+}
+19053 = {
+	name="Lazarus"
+	dynasty = 931
+	culture=culture_barding
+	religion=religion_rhovanion
+	father=19051
+	11353.1.1 ={
+		birth="11353.1.1"
+	}
+	11437.1.1={
+		death="11437.1.1"
+	}
+}

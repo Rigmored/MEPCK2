@@ -3,7 +3,7 @@
 	law = succ_gavelkind
 }
 800.1.1={
-	liege=d_dale
+	liege=k_dale
 }
 9600.1.1=
 {
@@ -114,7 +114,7 @@ holder = 19047 ## Volhard the Master
 11284.1.1=
 {
 holder = 19048 ## Gustavus
-liege=d_esgaroth
+liege=k_dale
 }
 11305.1.1=
 {

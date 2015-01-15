@@ -8533,6 +8533,35 @@ e_rhovanion = {
 		religion = religion_rhovanion
 	
 		religion_rhovanion = 100
+
+		d_esgaroth = {
+			color={ 80 99 179 }
+			color2={ 255 255 255 }
+			
+			capital = 540 # Esgaroth
+
+			allow = {
+				is_republic = yes
+			}
+
+			c_esgaroth = {
+				color={ 11 154 115 }
+				color2={ 255 255 255 }
+
+				b_esgaroth = {
+				}
+				b_lakebridge = {
+				}
+				b_blueport = {
+				}
+				b_deepford = {
+				}
+				b_coralpier = {
+				}
+				b_seaweedbury  = {
+				}
+			}
+		}
 	
 		d_dale = {
 			color={ 80 99 179 }
@@ -8561,26 +8590,6 @@ e_rhovanion = {
 				b_girion_hill = {
 				}
 				b_market_square = {
-				}
-			}
-			c_esgaroth = {
-				color={ 11 154 115 }
-				color2={ 255 255 255 }
-			
-				allow = {
-				is_republic = yes
-				}
-				b_esgaroth = {
-				}
-				b_lakebridge = {
-				}
-				b_blueport = {
-				}
-				b_deepford = {
-				}
-				b_coralpier = {
-				}
-				b_seaweedbury  = {
 				}
 			}
 			c_withibord = {
@@ -13310,6 +13319,11 @@ b_ciryatan = {
 b_mireatan = {
 	religion="religion_moriquendi"
     culture ="culture_sindar"
+}
+
+b_gustavusson = {
+	religion="religion_rhovanion"
+    culture ="culture_barding"
 }
 
 # Black Fleet - Umbar #
