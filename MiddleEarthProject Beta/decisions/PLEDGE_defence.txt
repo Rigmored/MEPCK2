@@ -82,12 +82,7 @@ decisions = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.06
-				factor = 1.0
-			}
-			
+		factor = 1	
 			modifier = {
 				factor = 0
 				NOT = {
@@ -123,19 +118,6 @@ decisions = {
 				liege = {culture = ROOT}
 			}
 			
-			
-			
-			modifier = {
-				factor = 1.1
-				trait = viking
-				
-			}
-			
-			modifier = {
-				factor = 1.1
-				trait = crusader
-			}
-			
 			modifier = {
 				factor = 1.1
 				trait = brave
@@ -160,11 +142,6 @@ decisions = {
 			modifier = {
 				factor = 1.5
 				trait = charitable
-			}
-			
-			modifier = {
-				factor = 1.2
-				trait = berserker
 			}
 			
 			modifier = {
