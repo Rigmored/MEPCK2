@@ -8288,6 +8288,11 @@ k_mirkwood = {
 		color2={ 255 255 255 }
 			
 		capital = 319 #Cell Angol
+		
+		culture_group_quendi = "Eryn Lasgalen"
+		culture_group_amanyar = "Eryn Lasgalen"
+		culture_group_umanyar = "Eryn Lasgalen"
+		culture_group_moriquendi = "Eryn Lasgalen"
 	
 		c_the_narrows = {
 			color={ 76 88 101 }
@@ -8403,6 +8408,11 @@ k_dol_guldur = {
 	color2={ 255 255 255 }
 	      
 	capital = 310 #Amon Lanc
+	
+	culture_group_quendi = "Rhûn Lórien"
+	culture_group_amanyar = "Rhûn Lórien"
+	culture_group_umanyar = "Rhûn Lórien"
+	culture_group_moriquendi = "Rhûn Lórien"
 		  
 	c_amon_lanc = {
 		color={ 23 94 174 }

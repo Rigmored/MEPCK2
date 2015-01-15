@@ -152,7 +152,7 @@ character_event = {
 ##Dale asks Dwarves of Erebor for aid##
 character_event = {
     id = alliancesystem.5
-    title = EVTalliancesystem.5
+    title = EVTTITalliancesystem.5
     desc = EVTDESCalliancesystem.5
     picture = "GFX_good"
 	
@@ -267,7 +267,7 @@ character_event = {
 
 character_event = {
     id = alliancesystem.8
-    title = EVTTITAalliancesystem.8 
+    title = EVTTITalliancesystem.8 
     desc = EVTDESCalliancesystem.8
     picture = "GFX_good"
 	only_independent = yes
