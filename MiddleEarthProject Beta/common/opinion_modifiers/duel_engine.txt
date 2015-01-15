@@ -40,3 +40,8 @@ opinion_tournament_spectator = {
 opinion_frightened = {
 	opinion = 100
 }
+
+opinion_diplo_duel_target = {
+	opinion = -10
+	months = 2400
+}
