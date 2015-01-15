@@ -193,7 +193,12 @@ character_event = {
 	}
 }
 
-## The characters is an Orc ##
+
+
+## The characters is an Ent ##
+character_event = {
+	id = racetrait.6
+	title = EVTNAMEracetrait.1## The characters is an Orc ##
 character_event = {
    id = racetrait.5
    title = EVTNAMEracetrait.1
@@ -219,11 +224,6 @@ character_event = {
 	    add_trait = orkish
 	}
 }
-
-## The characters is an Ent ##
-character_event = {
-	id = racetrait.6
-	title = EVTNAMEracetrait.1
 	desc = EVTDESCracetrait.1
 	picture = "GFX_evt_coronation"
 
@@ -310,3 +310,93 @@ character_event = {
 	}
 }
 
+## The characters is an Orc, but don't have any of the orcs warriors traits at beginning ##
+character_event = {
+	id = racetrait.10
+	title = EVTNAMEracetrait.10
+	desc = EVTDESCracetrait.10
+	picture = "GFX_evt_coronation"
+	hide_window = yes 
+
+	trigger = {
+		OR = {
+			culture = culture_orkish
+			culture = culture_goblin
+			culture = culture_urukhai
+		}
+		NOT = { trait = weak_orc }
+		NOT = { trait = orc_warrior }
+		NOT = { trait = strong_orc }
+		NOT = { trait = great_orc }
+		age = 16
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	} 
+
+	option = {
+	    name = EVTOPTAracetrait.1
+		trigger = {
+			culture = culture_goblin
+		}
+	    random_list = {
+			70 = {
+				add_trait = weak_orc
+			}
+			15 = {
+				add_trait = orc_warrior
+			}	
+			10 = {
+				add_trait = strong_orc
+			}
+			5 = {
+				add_trait = great_orc
+			}	
+		}
+	}
+	
+	option = {
+	    name = EVTOPTAracetrait.1
+		trigger = {
+			culture = culture_orkish
+		}
+	    random_list = {
+			40 = {
+				add_trait = weak_orc
+			}
+			30 = {
+				add_trait = orc_warrior
+			}	
+			20 = {
+				add_trait = strong_orc
+			}
+			10 = {
+				add_trait = great_orc
+			}	
+		}
+	}	
+	
+	option = {
+	    name = EVTOPTAracetrait.1
+		trigger = {
+			culture = culture_urukhai
+		}
+	    random_list = {
+			20 = {
+				add_trait = weak_orc
+			}
+			30 = {
+				add_trait = orc_warrior
+			}	
+			30 = {
+				add_trait = strong_orc
+			}
+			20 = {
+				add_trait = great_orc
+			}	
+		}
+	}	
+}
+	
+	
