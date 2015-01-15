@@ -7884,7 +7884,7 @@ e_durins_folk = {
 				}
 			}
 			c_azanulbizar = {
-				color={ 231 221 53 }
+				color={ 200 200 200 }
 				color2={ 255 255 255 }
 		        
 				culture_wilderness = "Dimrill Dale"
@@ -8535,7 +8535,7 @@ e_rhovanion = {
 		religion_rhovanion = 100
 
 		d_esgaroth = {
-			color={ 80 99 179 }
+			color={ 11 154 115 }
 			color2={ 255 255 255 }
 			
 			capital = 540 # Esgaroth
@@ -11875,7 +11875,7 @@ e_isenvale = {
 		religion_haldadian = 100 # Crusade target weight	
 	
 		d_dunland_north = {
-			color={ 137 85 56 }
+			color={ 185 122 87 }
 			color2={ 125 125 142 }
 			
 			capital = 776 #Nan Laeglin
