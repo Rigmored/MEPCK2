@@ -16,6 +16,9 @@ CASUS BELLI
 CHARACTERS
 - Added gluttonous and charismatic negotiator to Will Whitfoot
 - Added Tauriel as courtisan in Thranduil's Halls
+- Added a bunch of new holders characters in Northern Mirkwood
+- Added Beorning characters from LOTRO
+- Added traits to some historic characters
 
 DECISIONS
 - Added Dwarven feast decision
@@ -24,6 +27,7 @@ DECISIONS
 DIPLOMACY
 - Disabled 'demand religious conversion' diplomatic interaction
 - Disabled 'send to monastery' diplomatic interaction
+- Integrated new version of Pledge Mod v4 (thanks Hoony)
 
 EVENTS
 - Added Dwarven feasts events
@@ -69,14 +73,16 @@ RELIGION
 - Added High and Evil god names for all religions
 - Added feminist = yes for Eldar and Spiders
 - Added conversion desire = 0 to all religions (races can't convert)
-- Removed Moriquendi/Calaquendi elven racial distinction + removed Calaquendi religion
+- Removed Moriquendi/Calaquendi elven racial distinction and removed Calaquendi
 - Tweaked some religion names for consistency (Elven, Dwarven, Halfling, etc)
 - Added Umaiar religion for Sauron, Morgoth, Balrogs, etc
 
 TITLES
-- Added a bunch of new holders characters in Northern Mirkwood
+- Assigned some Northern Mirkwood's titles
+- Assigned some Vales of Anduin titles
+- Reworked Vales of Anduin titles, less power to Beornings, more wilderness lands to colonize
 - Added titular Mayordom of Shire held by Will Whitfoot
-- Restructed Shire, no duchy titles other than Mayordom at WotR start, no counts hold more than one township
+- Restructured Shire, no duchy titles other than Mayordom at WotR start, no counts hold more than one township
 - Changed Thaindom of the Shire colour to beige
 - Removed d_ringbearer title
 

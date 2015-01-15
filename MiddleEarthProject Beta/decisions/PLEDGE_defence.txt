@@ -1,0 +1,245 @@
+
+decisions = {	
+	help_liege_defend = {
+		is_high_prio = yes
+		
+		potential = {
+			is_playable = yes
+			is_ruler = yes
+			independent = no
+			war = no
+			mercenary = no
+			OR = {
+				is_feudal = yes
+				AND = {
+					is_tribal = yes
+					liege = {
+						is_tribal = no
+					}
+				}
+			}
+			OR = {
+				ai = no
+				is_councillor = no
+			}
+			NOT = {has_character_modifier = pledge}
+			liege = {
+				
+				war = yes
+				is_primary_war_defender = yes
+				is_tribal = no
+			}
+		}
+		
+		allow = {
+			in_faction = no
+			capital_holding = {
+				is_occupied = no
+				has_siege = no
+			}
+			
+			
+		}
+		
+		effect = {
+
+			
+			
+			if = {
+				limit = {liege = {has_character_modifier = has_pledge_defender}}
+				
+				liege = {
+					letter_event = { id = PLG.104 tooltip = PLGT104}
+				}
+			}
+			
+			if = {
+				limit = {NOT = {liege = {has_character_modifier = has_pledge_defender}}}
+				
+				liege = {
+					letter_event = { id = PLG.204 tooltip = PLGT104}
+					add_character_modifier = {
+						name = has_pledge_defender
+						duration = 720
+						hidden = yes
+					}
+				}
+				
+			}
+			
+			hidden_tooltip = {
+				add_character_modifier = {name = pledge duration = 720}
+				opinion = {
+					modifier = opinion_very_grateful
+					who = liege
+					years = 3
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.06
+				factor = 1.0
+			}
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					liege = {
+						any_war = {
+							defender = { character = PREVPREV }
+							war_score = 35
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				trait = greedy			
+			}
+			
+			
+			modifier = {
+				factor = 1.5
+				is_close_relative = liege
+				
+			}
+			
+			modifier = {
+				factor = 0
+				NOT = {liege = {religion = ROOT}}
+			}
+			
+			
+			modifier = {
+				factor = 1.15
+				liege = {culture = ROOT}
+			}
+			
+			
+			
+			modifier = {
+				factor = 1.1
+				trait = viking
+				
+			}
+			
+			modifier = {
+				factor = 1.1
+				trait = crusader
+			}
+			
+			modifier = {
+				factor = 1.1
+				trait = brave
+				
+			}
+			modifier = {
+				factor = 1.1
+				martial = 15
+			}
+			
+			modifier = {
+				factor = 1.1
+				trait = strong
+				
+			}
+			
+			modifier = {
+				factor = 1.2
+				trait = kind
+			}
+			
+			modifier = {
+				factor = 1.5
+				trait = charitable
+			}
+			
+			modifier = {
+				factor = 1.2
+				trait = berserker
+			}
+			
+			modifier = {
+				factor = 1.1
+				trait = proud
+				
+			}
+
+			modifier = {
+				factor = 1.2
+				trait = just
+				
+			}
+
+			modifier = {
+				factor = 1.2
+				relative_power_to_liege = 0.3
+			}
+			
+			modifier = {
+				factor = 1.2
+				relative_power_to_liege = 0.7
+			}
+			
+
+			
+			modifier = {
+				factor = 0
+				NOT = {opinion = { who = liege value =  0 }}
+			}
+			
+			modifier = {
+				factor = 1.05
+				opinion = { who = liege value =  40 }
+			}
+			
+			modifier = {
+				factor = 1.1
+				opinion = { who = liege value =  60 }
+			}
+			
+			modifier = {
+				factor = 1.2
+				opinion = { who = liege value =  80 }
+			}
+			modifier = {
+				factor = 0.25
+				trait = cruel
+			}
+			modifier = {
+				factor = 0.5
+				trait = deceitful
+			}
+			modifier = {
+				factor = 0.5
+				trait = paranoid
+			}
+			modifier = {
+				factor = 0.5
+				trait = depressed
+			}
+			modifier = {
+				factor = 0.5
+				trait = stressed
+			}
+			modifier = {
+				factor = 0.005
+				trait = envious
+			}
+
+			modifier = {
+				factor = 0.005
+				trait = craven
+			}
+		}
+		
+	}
+}
