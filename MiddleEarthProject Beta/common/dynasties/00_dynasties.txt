@@ -1005,8 +1005,8 @@
 		coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 3
+			texture = 7
+			texture_internal = 0
 			emblem = 0
 			color = 0
 			color = 0
@@ -1027,8 +1027,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 6
+			texture = 7
+			texture_internal = 2
 			emblem = 0
 			color = 0
 			color = 0
@@ -1043,8 +1043,8 @@
 		coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 7
+			texture = 7
+			texture_internal = 3
 			emblem = 0
 			color = 0
 			color = 0
@@ -1060,8 +1060,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 8
+			texture = 7
+			texture_internal = 4
 			emblem = 0
 			color = 0
 			color = 0
@@ -1076,8 +1076,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 4
+			texture = 7
+			texture_internal = 1
 			emblem = 0
 			color = 0
 			color = 0
@@ -1093,8 +1093,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 9
+			texture = 7
+			texture_internal = 5
 			emblem = 0
 			color = 0
 			color = 0
@@ -1104,13 +1104,13 @@
 }
 
 3009 = { 
-                  name="Nos Elwë"
-                  culture = culture_sindar
+	name="Nos Elwë"
+	culture = culture_sindar
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 10
+			texture = 7
+			texture_internal = 6
 			emblem = 0
 			color = 0
 			color = 0
@@ -1141,8 +1141,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 11
+			texture = 7
+			texture_internal = 7
 			emblem = 0
 			color = 0
 			color = 0
@@ -1162,8 +1162,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 12
+			texture = 7
+			texture_internal = 8
 			emblem = 0
 			color = 0
 			color = 0
@@ -1213,8 +1213,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 27
+			texture = 7
+			texture_internal = 10
 			emblem = 0
 			color = 0
 			color = 0
@@ -1254,8 +1254,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 26
+			texture = 7
+			texture_internal = 9
 			emblem = 0
 			color = 0
 			color = 0
