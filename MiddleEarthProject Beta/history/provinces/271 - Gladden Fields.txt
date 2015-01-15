@@ -12,34 +12,8 @@ b_ninolis = city
 #b_visporin = city
 
 # Misc
-culture = culture_northmen
-religion = religion_rhovanion
-8222.1.1 = {
-
-
-			b_ninglorburg = ca_Hwall_1
-			b_ninglorburg = ca_Hwatchtower_1 
-			b_ninglorburg = ca_Hkeep_1
-			b_ninglorburg = ca_Hmilitia_barracks_1
-			b_ninglorburg = ca_Htraining_grounds_1
-			b_ninglorburg = ca_Hcastleguards_1
-			b_ninglorburg = ca_Hstable_1
-			b_ninglorburg = ca_Htown_1
-			b_ninglorburg = ca_Napothecary_1
-			b_ninglorburg = ca_Nforge_1
-			
-				b_ninolis = ct_Hwall_1 
-				b_ninolis = ct_Hwatchtower_1
-				b_ninolis = ct_Hbarracks_1 
-				b_ninolis = ct_Htownmilitia_1 
-				b_ninolis = ct_Hguard_1 
-				b_ninolis = ct_Hmarketplace_1
-				b_ninolis = tp_barrow_field 
-				b_ninolis = ct_Hfarm_1
-				b_ninolis = ct_watermill_1 
-				b_ninolis = ct_fishermen_1 
-				b_ninolis = ct_ferry_boat_1 
-}
+culture = culture_wilderness
+religion = religion_wilderness
 9393.1.1 = {
 culture = culture_stoor
 religion = religion_perian
@@ -49,16 +23,13 @@ religion = religion_perian
 			b_ninglorburg = ca_halflinginn 
 			b_ninglorburg = ca_militia_barracks_1halfling 
 			b_ninglorburg = ca_town_1halfling 
-			
-				b_ninolis = ct_mushroom 
-				b_ninolis = ct_tobacco 
-				b_ninolis = ct_barracks_1halfling 
-				b_ninolis = ct_inn1 
-				b_ninolis = ca_town_1halfling 
+			b_ninolis = ct_mushroom 
+			b_ninolis = ct_tobacco 
+			b_ninolis = ct_barracks_1halfling 
+			b_ninolis = ct_inn1 
+			b_ninolis = ca_town_1halfling 
 }
-10873.1.1 = {
-culture = culture_beorning
-religion = religion_rhovanion
-
-				b_ninolis = ct_beorningbakery_1
+10900.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
 }

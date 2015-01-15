@@ -84,16 +84,3 @@ holder = 9043 # Léod
 holder = 0
 liege = 0
 }
-11284.1.1=
-{
-holder =  338 # Beorn
-liege=d_carrock
-}
-11320.1.1=
-{
-holder =  339 # Grimbeorn the Old
-}
-11385.1.1=
-{
-holder =  340 # Beornward
-}
