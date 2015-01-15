@@ -16,5 +16,5 @@ holder =  3106 # Legolas
 }
 10000.1.1=
 {
-holder =  3307 # Huinen
+holder =  3406 # Huinen
 }

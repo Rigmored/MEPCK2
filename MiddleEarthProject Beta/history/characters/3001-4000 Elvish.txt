@@ -7161,7 +7161,7 @@
 	}
 }
 #Merp Elf, Guardian of Emin Duir
-3307 = {
+3406 = {
 	name="Huinen"
 	female=yes
 	dynasty=3059
