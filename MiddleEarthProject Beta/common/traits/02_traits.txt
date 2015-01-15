@@ -84,26 +84,6 @@ unyielding_leader = {
 	}
 }
 
-has_aztec_disease = {
-	is_epidemic = yes
-	is_illness = yes
-	
-	sex_appeal_opinion = -30
-	
-	diplomacy = -1
-	stewardship = -1
-	martial = -1
-	intrigue = -1
-	learning = -1
-	
-	health = -3
-	fertility = -0.2
-	
-	combat_rating = -3
-	
-	customizer = no
-}
-
 child_of_consort = {
 	diplomacy = -1
 
@@ -142,20 +122,6 @@ berserker = {
 	male_compliment = COMPL_BERSERKER
 }
 
-# Christian pilgrim while doing pilgrimage
-on_pilgrimage = {
-	potential = {
-		NOT = { trait = pilgrim }
-	}
-	
-	cached = yes    # Keep a cache of all trait holders, to use with the corresponding event trigger 
-	
-	monthly_character_piety = 0.2
-	same_religion_opinion = 10
-	
-	pilgrimage = yes    # Will need a regent, but can still be guardian to children
-	customizer = no
-}
 # Babies can be born sickly
 sickly = {
 	is_health = yes
@@ -220,54 +186,6 @@ winter_soldier = {
 		winter_supply = 4
 		winter_combat = 0.5
 	}	
-}
-
-
-seducer = {
-	lifestyle = yes
-	
-	opposites =  {
-		celibate
-		seductress
-	}
-	
-	potential = {
-		is_female = no
-	}
-	
-	intrigue = 2
-	diplomacy = 1
-	
-	sex_appeal_opinion = 50
-	
-	male_insult = INSULT_WHOREMONGER
-	male_insult_adj = INSULT_WHORING
-	male_compliment = COMPL_SEDUCER
-	male_compliment_adj = COMPL_CHARMING
-	
-}
-
-seductress = {
-	lifestyle = yes
-	
-	opposites =  {
-		celibate
-		seducer
-	}
-	
-	potential = {
-		is_female = yes
-	}
-	
-	intrigue = 2
-	diplomacy = 1
-	
-	sex_appeal_opinion = 50
-	
-	female_insult = INSULT_TEMPTRESS
-	female_insult_adj = INSULT_DEBASED
-	female_compliment = COMPL_ENCHANTRESS
-	female_compliment_adj = COMPL_RAVISHING
 }
 
 administrator = {

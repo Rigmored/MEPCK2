@@ -4,12 +4,6 @@
 
 #THE OTHER HAVE BEEN REMOVED SINCE ARE COMPLETELY USELESS FOR THE MOD
 
-# Christian who has completed a Pilgrimage
-pilgrim = {
-	same_religion_opinion = 5
-	monthly_character_piety = 0.1
-}
-
 # The character is visibly scarred from an old wound
 scarred = {
 	monthly_character_prestige = 0.1

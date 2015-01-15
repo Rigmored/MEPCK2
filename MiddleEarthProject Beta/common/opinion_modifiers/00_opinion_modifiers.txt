@@ -2606,10 +2606,6 @@ opinion_favorite = {
 	opinion = 30
 }
 
-opinion_renounced_iconoclasm = {
-	opinion = 20
-}
-
 opinion_idolater = {
 	opinion = 20
 }
