@@ -11,6 +11,7 @@ decisions = {
 				trait = legendary_craftman
 			}
 			age = 16
+			capable_only = yes
 			NOT = { has_character_flag = crafts_object }
 			has_character_flag = special_decisions_open
         }			
