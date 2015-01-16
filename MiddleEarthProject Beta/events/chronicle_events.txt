@@ -498,62 +498,6 @@ character_event = {
 	}
 }
 
-# Aztec first contact
-character_event = {
-	id = CM.10018
-	
-	hide_window = yes
-
-	is_triggered_only = yes
-	
-	immediate = {
-		any_playable_ruler = {
-			limit = {
-				ai = no
-				capital_scope = {
-					NOT = { empire = { title = e_rajastan } }
-					NOT = { empire = { title = e_bengal } }
-					NOT = { empire = { title = e_deccan } }
-					NOT = { empire = { title = e_india } }
-					NOT = { empire = { title = e_abyssinia } }
-				}
-			}
-			character_event = { id = CM.10019 }
-		}
-	}
-}
-
-character_event = {
-	id = CM.10019
-	
-	hide_window = yes
-
-	is_triggered_only = yes
-	
-	immediate = {
-		chronicle = {
-			entry = CHRONICLE_AZTECS_FIRST_CONTACT
-			portrait = [From.GetID]
-		}
-	}
-}
-
-# Aztec Invasion
-character_event = {
-	id = CM.10020
-	
-	hide_window = yes
-
-	is_triggered_only = yes
-	
-	immediate = {
-		chronicle = {
-			entry = CHRONICLE_AZTEC_INVASION
-			portrait = [From.GetID]
-		}
-	}
-}
-
 # Creates new higher level title
 	# On create title - ROOT is the creating character, FROM is the title
 character_event = {
@@ -1079,26 +1023,19 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			FROM = { title = b_roma }
-			FROM = { title = b_constantinople }
-			FROM = { title = b_bagdad }
-			FROM = { title = b_indraprastha }
-			FROM = { title = b_jerusalem }
-			FROM = { title = b_mecca }
-			FROM = { title = b_alexandria }
-			FROM = { title = b_cordoba }
-			AND = {
-				year = 900
-				FROM = { title = b_venezia }
-			}
-			AND = {
-				year = 1164
-				FROM = { title = b_koln }
-			}
-			AND = {
-				year = 1200
-				FROM = { title = b_paris }
-			}
+			FROM = { title = b_citadel_tirith }
+			FROM = { title = b_dome_of_the_stars } #osgiliath
+			FROM = { title = b_minas_morgul }
+			FROM = { title = b_orthanc }
+			FROM = { title = b_edoras }
+			FROM = { title = b_amon_lanc } # dol guldur
+			FROM = { title = b_gundabad_throne_hall }
+			FROM = { title = b_hall_of_thrain } # erebor
+			FROM = { title = b_last_homely_house } # rivendell
+			FROM = { title = b_annuminas }
+			FROM = { title = b_house_of_celeborn } #lorien
+			FROM = { title = b_mithlond }
+			FROM = { title = b_first_hall } #moria
 		}
 	}
 
@@ -1132,26 +1069,19 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			FROM = { title = b_roma }
-			FROM = { title = b_constantinople }
-			FROM = { title = b_bagdad }
-			FROM = { title = b_indraprastha }
-			FROM = { title = b_jerusalem }
-			FROM = { title = b_mecca }
-			FROM = { title = b_alexandria }
-			FROM = { title = b_cordoba }
-			AND = {
-				year = 900
-				FROM = { title = b_venezia }
-			}
-			AND = {
-				year = 1164
-				FROM = { title = b_koln }
-			}
-			AND = {
-				year = 1200
-				FROM = { title = b_paris }
-			}
+			FROM = { title = b_citadel_tirith }
+			FROM = { title = b_dome_of_the_stars } #osgiliath
+			FROM = { title = b_minas_morgul }
+			FROM = { title = b_orthanc }
+			FROM = { title = b_edoras }
+			FROM = { title = b_amon_lanc } # dol guldur
+			FROM = { title = b_gundabad_throne_hall }
+			FROM = { title = b_hall_of_thrain } # erebor
+			FROM = { title = b_last_homely_house } # rivendell
+			FROM = { title = b_annuminas }
+			FROM = { title = b_house_of_celeborn } #lorien
+			FROM = { title = b_mithlond }
+			FROM = { title = b_first_hall } #moria
 		}
 	}
 
@@ -1271,26 +1201,6 @@ character_event = {
 	}
 }
 
-# Divorce
-character_event = {
-	id = CM.10037
-	
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	trigger = {
-		ai = no
-	}
-
-	immediate = {
-		chronicle = {
-			entry = CHRONICLE_DIVORCED
-			portrait = [Spouse.GetID]
-		}
-	}
-}
-
 # Peace, attacker won
 character_event = {
 	id = CM.10038
@@ -1345,7 +1255,7 @@ character_event = {
 			}
 			chronicle = {
 				entry = CHRONICLE_INHERIT_MAJOR_TITLE
-				PICTURE = GFX_evt_throne_room
+				picture = GFX_evt_throne_room
 			}
 		}
 	}
