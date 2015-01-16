@@ -921,7 +921,7 @@
 }
 19048 = {
 	name="Gustavus" ## 9th Master, 11284 - 11305
-	dynasty = 931
+	dynasty = 932
 	culture=culture_barding
 	religion=religion_rhovanion
 	add_trait = kind
@@ -936,7 +936,7 @@
 }
 19049 = {
 	name="Dagomar" ## 10th Master, 11305 - 11320
-	dynasty = 931
+	dynasty = 932
 	culture=culture_barding
 	religion=religion_rhovanion
 	father=19048
@@ -949,7 +949,7 @@
 }
 19050 = {
 	name="Bernold" ## 11th Master, 11320 - 11350
-	dynasty = 931
+	dynasty = 932
 	culture=culture_barding
 	religion=religion_rhovanion
 	father=19049
@@ -962,7 +962,7 @@
 }
 19051 = {
 	name="Osred" ## 12th Master, 11350 - 11365
-	dynasty = 931
+	dynasty = 932
 	culture=culture_barding
 	religion=religion_rhovanion
 	father=19050
@@ -975,7 +975,7 @@
 }
 19052 = {
 	name="Barnabas"
-	dynasty = 931
+	dynasty = 932
 	culture=culture_barding
 	religion=religion_rhovanion
 	father=19051
@@ -988,7 +988,7 @@
 }
 19053 = {
 	name="Lazarus"
-	dynasty = 931
+	dynasty = 932
 	culture=culture_barding
 	religion=religion_rhovanion
 	father=19051
