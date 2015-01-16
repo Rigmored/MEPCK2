@@ -62,14 +62,12 @@ decisions = {
 			
 			modifier = {
 				factor = 0.01
-				AND = {
-					NOT = {
-						trait = ambitious
-						liege = {
-							any_war = {
-								attacker = { character = PREVPREV }
-								NOT = {war_score = -40}
-							}
+				NOT = {
+					trait = ambitious
+					liege = {
+						any_war = {
+							attacker = { character = PREVPREV }
+							NOT = {war_score = -40}
 						}
 					}
 				}
@@ -77,8 +75,7 @@ decisions = {
 			
 			modifier = {
 				factor = 1.5
-				is_close_relative = liege
-				
+				liege = { is_close_relative = yes }
 			}
 			
 			

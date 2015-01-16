@@ -631,10 +631,6 @@ letter_event = {
 		}
 		FROM = {
 			letter_event = { id = 8100 days = 3 tooltip = "EVTTOOLTIP8100" }
-			tooltip = {
-				any_plot_backer = {
-				}
-			}
 		}
 	}
 }

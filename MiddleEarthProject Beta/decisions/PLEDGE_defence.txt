@@ -35,10 +35,10 @@ decisions = {
 			in_faction = no
 			capital_holding = {
 				is_occupied = no
+			}
+			capital_scope = {
 				has_siege = no
 			}
-			
-			
 		}
 		
 		effect = {
@@ -103,7 +103,7 @@ decisions = {
 			
 			modifier = {
 				factor = 1.5
-				is_close_relative = liege
+				liege = { is_close_relative = yes }
 				
 			}
 			

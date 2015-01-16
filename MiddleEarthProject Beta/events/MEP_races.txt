@@ -198,7 +198,26 @@ character_event = {
 ## The characters is an Ent ##
 character_event = {
 	id = racetrait.6
-	title = EVTNAMEracetrait.1## The characters is an Orc ##
+	title = EVTNAMEracetrait.1
+	desc = EVTDESCracetrait.1
+	picture = "GFX_evt_coronation"
+
+	trigger = {
+		culture = culture_entish
+		NOT = { trait = ent }
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	} 
+
+	option = {
+	name = EVTOPTAracetrait.1
+	add_trait = ent
+	}
+}
+
+## The characters is an Orc ##
 character_event = {
    id = racetrait.5
    title = EVTNAMEracetrait.1
@@ -222,23 +241,6 @@ character_event = {
 	option = {
 	    name = EVTOPTAracetrait.1
 	    add_trait = orkish
-	}
-}
-	desc = EVTDESCracetrait.1
-	picture = "GFX_evt_coronation"
-
-	trigger = {
-		culture = culture_entish
-		NOT = { trait = ent }
-	}
-
-	mean_time_to_happen = { 
-		days = 1 
-	} 
-
-	option = {
-	name = EVTOPTAracetrait.1
-	add_trait = ent
 	}
 }
 

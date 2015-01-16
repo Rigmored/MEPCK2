@@ -1,0 +1,65 @@
+###########################################
+# Charlemagne various events              #
+#                                         #
+# ID CM.2000-CM.3999                      #
+# ID CM.5000-CM.5999                      #
+###########################################
+
+# Written by Tobias Bodlund
+
+namespace = CM
+
+###########################################
+# Hero knight appears                     #
+###########################################
+
+character_event = {
+	id = CM.2000
+	desc = EVTDESC_CM_2000
+	picture = GFX_evt_emissary
+
+	ai = no
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_dlc = "Charlemagne"
+		OR = {
+			primary_title = { tier = EMPEROR }
+			primary_title = { tier = KING }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2000
+	}
+	
+	option = {
+		name = EVTOPTA_CM_2000
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			age = 35
+			trait = brave
+			trait = strong
+			trait = skilled_tactician
+			attributes = {
+				martial = 10
+			}
+		}
+		new_character = {
+			set_character_flag = hero_knight
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_CM_2000
+		prestige = 10
+	}
+}

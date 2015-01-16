@@ -1,8 +1,12 @@
 # Dynasty decisions are listed for each living dynasty member. The ruler is in the FROM scope.
-
-dynasty_decisions = {
+# 6NGB note: the node below makes the validator crash. I changed it to targetted_decisions cuz it has the same FROM as described above. Hopefully these decisions will work.
+# dynasty_decisions = {
+targetted_decisions = {
 
 	legitimize_bastard = {
+		ai_target_filter = court
+		filter = court
+
 		from_potential = {
 			is_playable = yes
 			has_character_flag = family_decisions_open
@@ -79,7 +83,10 @@ dynasty_decisions = {
      
 	
 	send_child_into_hiding = {
-	
+
+		ai_target_filter = dynasty
+		filter = dynasty
+		
 		from_potential = {
 			is_ruler = yes
 			has_regent = no
@@ -152,20 +159,6 @@ dynasty_decisions = {
 					any_plotter = {
 						target = ROOT
 						limit = {
-							NOT = { has_character_flag = murder_in_motion }
-							NOT = { character = FROM }
-							OR = {
-								has_plot = plot_kill_character
-								has_plot = plot_kill_spouse
-							}
-						}
-						character_event = { id = CM.6004 }
-					}
-				}
-				ROOT = {
-					any_plotter = {
-						target = ROOT
-						limit = {
 							has_character_flag = murder_in_motion
 							OR = {
 								has_plot = plot_kill_character
@@ -174,58 +167,6 @@ dynasty_decisions = {
 						}
 						character_event = { id = CM.6180 }
 					}
-				}
-				ROOT = {
-					any_plotter = {
-						target = ROOT
-						limit = {
-							OR = {
-								has_plot = plot_kill_character
-								has_plot = plot_kill_spouse
-							}
-						}
-						any_plot_backer = {
-							character_event = { id = CM.6004 }
-						}
-					}
-				}
-				father = {
-					if = {
-						limit = {
-							NOT = { character = FROM }
-							NOT = { plot_target_char = { character = ROOT } }
-							NOT = { any_backed_character = { plot_target_char = { character = ROOT } } }
-							NOT = { is_rival = ROOT }
-						}
-						character_event = { id = CM.6004 }
-					}
-				}
-				mother = {
-					if = {
-						limit = {
-							NOT = { character = FROM }
-							NOT = { plot_target_char = { character = ROOT } }
-							NOT = { any_backed_character = { plot_target_char = { character = ROOT } } }
-							NOT = { is_rival = ROOT }
-						}
-						character_event = { id = CM.6004 }
-					}
-				}
-				any_sibling = {
-					limit = {
-						NOT = { plot_target_char = { character = ROOT } }
-						NOT = { any_backed_character = { plot_target_char = { character = ROOT } } }
-						NOT = { is_rival = ROOT }
-					}
-					character_event = { id = CM.6004 }
-				}
-				any_rival = {
-					limit = {
-						NOT = { character = FROM }
-						NOT = { plot_target_char = { character = ROOT } }
-						NOT = { any_backed_character = { plot_target_char = { character = ROOT } } }
-					}
-					character_event = { id = CM.6004 }
 				}
 			}
 		}
@@ -274,7 +215,10 @@ dynasty_decisions = {
 	}
 	
 	take_child_out_of_hiding = {
-	
+
+		ai_target_filter = dynasty
+		filter = dynasty
+		
 		from_potential = {
 			is_ruler = yes
 			has_regent = no
@@ -303,45 +247,6 @@ dynasty_decisions = {
 				name = went_out_of_hiding_timer
 				duration = 180
 				hidden = yes
-			}
-			hidden_tooltip = {
-				ROOT = {
-					any_plotter = {
-						target = ROOT
-						limit = {
-							NOT = { character = FROM }
-							OR = {
-								has_plot = plot_kill_character
-								has_plot = plot_kill_spouse
-							}
-						}
-						character_event = { id = CM.6005 }
-					}
-				}
-				father = {
-					if = {
-						limit = {
-							NOT = { character = FROM }
-						}
-						character_event = { id = CM.6005 }
-					}
-				}
-				mother = {
-					if = {
-						limit = {
-							NOT = { character = FROM }
-						}
-						character_event = { id = CM.6005 }
-					}
-				}
-				any_sibling = {
-					limit = {
-						ROOT = {
-							NOT = { is_plot_target_of = THIS }
-						}
-					}
-					character_event = { id = CM.6005 }
-				}
 			}
 		}
 		

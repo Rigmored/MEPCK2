@@ -46,7 +46,6 @@ character_event = {
 		}
 		
 		
-		set_defacto_liege = THIS
 		join_attacker_wars = FROM
 		set_defacto_liege = FROM
 	}

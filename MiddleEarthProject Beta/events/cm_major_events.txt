@@ -1,0 +1,14 @@
+
+###########################################
+#                                         #
+# Charlemagne Major Events                #             
+#                                         #
+# ID CM.500-CM.999                        #
+#                                         #
+###########################################
+
+# Written by Tobias Bodlund
+
+namespace = CM
+
+#OBSOLETE

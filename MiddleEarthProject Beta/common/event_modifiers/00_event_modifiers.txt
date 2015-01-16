@@ -1608,3 +1608,9 @@ known_witch  = {
 	general_opinion = -50
 	global_revolt_risk = 0.02
 }
+
+suspected_murder_plot = {
+	icon = 1
+}
+
+went_out_of_hiding_timer = { icon = 1 }
