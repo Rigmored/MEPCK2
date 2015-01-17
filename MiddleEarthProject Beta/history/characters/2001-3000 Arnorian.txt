@@ -1658,7 +1658,7 @@
 2101 = {
 	name="Lúthien"
 	female=yes
-	dynasty=2001
+	dynasty=2109
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	father=2090
@@ -1676,7 +1676,7 @@
 2102 = {
 	name="Tinúviel"
 	female=yes
-	dynasty=2001
+	dynasty=2109
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	father=2090
@@ -3130,7 +3130,7 @@
 
 2193 = {
 	name="Arador"
-	dynasty=2001
+	dynasty=2109
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	father=2090
@@ -3147,7 +3147,7 @@
 }
 2194 = {
 	name="Borothor"
-	dynasty=2001
+	dynasty=2109
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	father=2193
@@ -3163,7 +3163,7 @@
 }
 2195 = {
 	name="Farandil"
-	dynasty=2001
+	dynasty=2109
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	father=2194
