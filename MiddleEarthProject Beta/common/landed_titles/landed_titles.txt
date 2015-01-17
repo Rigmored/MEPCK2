@@ -4167,7 +4167,7 @@ e_arnor = {
 				}
 				b_chetwood  = {
 			culture_arnorian = "Eryn Chetil"
-			titleprefix = "WOOD_OF"
+			title_prefix = "WOOD_OF"
 				} 
 				b_mendriyar = {
 				}	
@@ -5368,7 +5368,7 @@ k_fangorn = {
 	
 	religion_enyd = 100 # Crusade target weight
 	
-	titleprefix = "FOREST_OF"
+	title_prefix = "FOREST_OF"
 	
 	d_fangorn = {
 		color={ 67 129 52 }
@@ -5381,7 +5381,7 @@ k_fangorn = {
 			
 		capital = 65 #Derndingle
 		
-		titleprefix = "FOREST_OF"
+		title_prefix = "FOREST_OF"
 			
 		c_fangorn = {
 			color={ 92 166 101 }
@@ -5392,7 +5392,7 @@ k_fangorn = {
 			culture_group_melkor = "Morgaath"
 			culture_maiar = "Morgaath"
 			
-			titleprefix = "DEEPS_OF"
+			title_prefix = "DEEPS_OF"
 			
 			b_fangorn_deeps = {
 			holy_site = religion_enyd
@@ -5409,7 +5409,7 @@ k_fangorn = {
 			culture_group_melkor = "Morgropor"
 			culture_maiar = "Morgropor"
 		    
-			titleprefix = "VALE_OF"
+			title_prefix = "VALE_OF"
 			
 			b_derndingle = {
 				culture_group_melkor = "Morgropor"
@@ -7884,7 +7884,7 @@ e_durins_folk = {
 				}
 			}
 			c_azanulbizar = {
-				color={ 200 200 200 }
+				color={ 231 221 53 }
 				color2={ 255 255 255 }
 		        
 				culture_wilderness = "Dimrill Dale"
@@ -8288,11 +8288,6 @@ k_mirkwood = {
 		color2={ 255 255 255 }
 			
 		capital = 319 #Cell Angol
-		
-		culture_group_quendi = "Eryn Lasgalen"
-		culture_group_amanyar = "Eryn Lasgalen"
-		culture_group_umanyar = "Eryn Lasgalen"
-		culture_group_moriquendi = "Eryn Lasgalen"
 	
 		c_the_narrows = {
 			color={ 76 88 101 }
@@ -8408,11 +8403,6 @@ k_dol_guldur = {
 	color2={ 255 255 255 }
 	      
 	capital = 310 #Amon Lanc
-	
-	culture_group_quendi = "Rhûn Lórien"
-	culture_group_amanyar = "Rhûn Lórien"
-	culture_group_umanyar = "Rhûn Lórien"
-	culture_group_moriquendi = "Rhûn Lórien"
 		  
 	c_amon_lanc = {
 		color={ 23 94 174 }
@@ -11885,7 +11875,7 @@ e_isenvale = {
 		religion_haldadian = 100 # Crusade target weight	
 	
 		d_dunland_north = {
-			color={ 185 122 87 }
+			color={ 137 85 56 }
 			color2={ 125 125 142 }
 			
 			capital = 776 #Nan Laeglin
