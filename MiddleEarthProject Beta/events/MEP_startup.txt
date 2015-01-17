@@ -78,7 +78,10 @@ narrative_event = {
 			limit = {
 				year = 9643
 				NOT = { year = 10318 }
-				has_landed_title = e_angmar
+				OR = {
+					has_landed_title = e_angmar
+					has_landed_title = k_angmar
+				}
 			}
 			hidden_tooltip = {
 				b_carn_dum = { province_capital = yes }
