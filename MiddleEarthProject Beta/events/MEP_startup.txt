@@ -32,6 +32,49 @@ narrative_event = {
 	
 	picture = "GFX_evt_middleearthmap"
 	
+	immediate = {
+		## FORNOST is capital of Arthedain
+		if = {
+			limit = {
+				year = 9204
+				NOT = { year = 11362 }
+				has_landed_title = k_arthedain
+				has_landed_title = c_fornost
+			}
+			hidden_tooltip = {
+				b_citadel_fornost = { province_capital = yes }
+				ROOT = {
+					b_citadel_fornost = {
+							usurp_title = PREV
+						}
+					}
+				b_citadel_fornost = { 
+					ROOT = { capital = PREV }
+				}
+			}			
+		}
+		## Annuminas is the capital of Arnor
+		if = {
+			limit = {
+				year = 8343
+				NOT = { year = 9204 }
+				has_landed_title = e_arnor
+				has_landed_title = c_annuminas
+			}
+			hidden_tooltip = {
+				b_annuminas = { province_capital = yes }
+				ROOT = {
+					b_annuminas = {
+							usurp_title = PREV
+						}
+					}
+				b_annuminas = { 
+					ROOT = { capital = PREV }
+				}
+			}			
+		}		
+	}
+	
 	option = {
 		name = "EVTOPTAmepstartup.1"
 		piety = 15
