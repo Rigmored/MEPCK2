@@ -68,7 +68,7 @@ decisions = {
 			set_character_flag = wants_to_abdicate
 			
 			current_heir = {
-				character_event = { id = ABDICATE.001 days = 3 random = 3 tooltip = "abd_ask" }
+				character_event = { id = ABDICATE.001 days = 3 tooltip = "abd_ask" }
 			}
 		}
 		ai_will_do = {
