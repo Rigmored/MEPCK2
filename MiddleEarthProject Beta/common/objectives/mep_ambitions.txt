@@ -1,4 +1,4 @@
-obj_become_a_rider = {
+﻿obj_become_a_rider = {
 	type = character
 	allow = {
 		OR = {
@@ -104,7 +104,7 @@ obj_become_a_rider = {
 obj_become_a_craftsman = {
 	type = character
 	allow = {
-		OR = {
+		AND = {
 			is_female = no
 			OR = {
 				culture = culture_noldor
