@@ -22,29 +22,23 @@ plot_decisions = {
 		AND = {
 		ROOT = { in_faction = faction_succ_seniority }
 		liege = { dynasty = 2004 } ##Telcontar##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } }
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture  = culture_gondorian_middlemen } }
-		}
 		}		
 		AND = {
 		ROOT = { in_faction = faction_succ_seniority }
 		liege = { dynasty = 100 } ##Hurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } }
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture  = culture_gondorian_middlemen } }
 		}
-		}
 		AND = {
 		ROOT = { in_faction = faction_succ_seniority }
 		liege = { dynasty = 2001 } ##Isildurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } } 
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-		}
 		}
 		AND = {
 		ROOT = { in_faction = faction_succ_seniority }
@@ -143,14 +137,13 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
+#								NOT = { using_cb = succession_on_liege }
+#								NOT = { using_cb = other_succession_on_liege }
 							}
 							AND = {
 								attacker = { character = PREV }
 								OR = {
 									using_cb = invasion
-									using_cb = religious
 									using_cb = tribal_invasion
 									using_cb = muslim_invasion
 									using_cb = viking_invasion
@@ -188,29 +181,23 @@ plot_decisions = {
 		AND = {
 		ROOT = { in_faction = faction_succ_primogeniture }
 		liege = { dynasty = 100 } ##Hurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } }
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture  = culture_gondorian_middlemen } }
 		}
-		}
 		AND = {
 		ROOT = { in_faction = faction_succ_primogeniture }
 		liege = { dynasty = 2001 } ##Isildurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } } 
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-		}
 		}
 		AND = {
 		ROOT = { in_faction = faction_succ_primogeniture }
 		liege = { dynasty = 2004 } ##Telcontar##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } } 
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-		}
 		}		
 		AND = {
 		ROOT = { in_faction = faction_succ_primogeniture }
@@ -309,14 +296,13 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
+#								NOT = { using_cb = succession_on_liege }
+#								NOT = { using_cb = other_succession_on_liege }
 							}
 							AND = {
 								attacker = { character = PREV }
 								OR = {
 									using_cb = invasion
-									using_cb = religious
 									using_cb = tribal_invasion
 									using_cb = muslim_invasion
 									using_cb = viking_invasion
@@ -355,29 +341,23 @@ plot_decisions = {
 		AND = {
 		ROOT = { in_faction = faction_succ_feudal_elective }
 		liege = { dynasty = 100 } ##Hurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } }
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture  = culture_gondorian_middlemen } }
 		}
-		}
 		AND = {
 		ROOT = { in_faction = faction_succ_feudal_elective }
 		liege = { dynasty = 2001 } ##Isildurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } } 
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-		}
 		}
 		AND = {
 		ROOT = { in_faction = faction_succ_feudal_elective }
 		liege = { dynasty = 2004 } ##Telcontar##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } } 
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-		}
 		}		
 		AND = {
 		ROOT = { in_faction = faction_succ_feudal_elective }
@@ -475,14 +455,13 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
+#								NOT = { using_cb = succession_on_liege }
+#								NOT = { using_cb = other_succession_on_liege }
 							}
 							AND = {
 								attacker = { character = PREV }
 								OR = {
 									using_cb = invasion
-									using_cb = religious
 									using_cb = tribal_invasion
 									using_cb = muslim_invasion
 									using_cb = viking_invasion
@@ -511,14 +490,12 @@ plot_decisions = {
 		allow = {
 			war = no
 			prisoner = no
-		AND = {
-		ROOT = { in_faction = faction_succ_gavelkind }
-		liege = { NOT = { dynasty = 10012 } } ##Melkondili Sauron##
-		liege = { NOT = { dynasty = 12005 } } ##WitchKing##
-		ROOT = { NOT = { trait = elf } }
-		ROOT = { NOT = { culture_group = culture_group_halfling } }
-		}
-		liege = {
+			ROOT = { in_faction = faction_succ_gavelkind }
+			liege = { NOT = { dynasty = 10012 } } ##Melkondili Sauron##
+			liege = { NOT = { dynasty = 12005 } } ##WitchKing##
+			ROOT = { NOT = { trait = elf } }
+			ROOT = { NOT = { culture_group = culture_group_halfling } }
+			liege = {
 				NOT = { war_with = ROOT }
 				NOT = { reverse_has_truce = ROOT }
 			}
@@ -587,14 +564,13 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
+#								NOT = { using_cb = succession_on_liege }
+#								NOT = { using_cb = other_succession_on_liege }
 							}
 							AND = {
 								attacker = { character = PREV }
 								OR = {
 									using_cb = invasion
-									using_cb = religious
 									using_cb = tribal_invasion
 									using_cb = muslim_invasion
 									using_cb = viking_invasion
@@ -632,29 +608,23 @@ plot_decisions = {
 		AND = {
 		ROOT = { in_faction = faction_lower_crown_authority }
 		liege = { dynasty = 100 } ##Hurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } }
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture  = culture_gondorian_middlemen } }
 		}
-		}
 		AND = {
 		ROOT = { in_faction = faction_lower_crown_authority }
 		liege = { dynasty = 2001 } ##Isildurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } } 
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-		}
 		}
 		AND = {
 		ROOT = { in_faction = faction_lower_crown_authority }
 		liege = { dynasty = 2004 } ##Telcontar##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } } 
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-		}
 		}		
 		AND = {
 		ROOT = { in_faction = faction_lower_crown_authority }
@@ -765,14 +735,13 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
+#								NOT = { using_cb = succession_on_liege }
+#								NOT = { using_cb = other_succession_on_liege }
 							}
 							AND = {
 								attacker = { character = PREV }
 								OR = {
 									using_cb = invasion
-									using_cb = religious
 									using_cb = tribal_invasion
 									using_cb = muslim_invasion
 									using_cb = viking_invasion
@@ -813,29 +782,23 @@ plot_decisions = {
 				AND = {
 				ROOT = { in_faction = faction_lower_crown_authority }
 				liege = { dynasty = 100 } ##Hurionath##
-				AND = {
 				ROOT = { NOT = { culture = culture_dunedain } }
 				ROOT = { NOT = { culture = culture_gondorian } }
 				ROOT = { NOT = { culture  = culture_gondorian_middlemen } }
 				}
-				}
 				AND = {
 				ROOT = { in_faction = faction_lower_crown_authority }
 				liege = { dynasty = 2001 } ##Isildurionath##
-				AND = {
 				ROOT = { NOT = { culture = culture_dunedain } } 
 				ROOT = { NOT = { culture = culture_gondorian } }
 				ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-				}
 				}
 				AND = {
 				ROOT = { in_faction = faction_lower_crown_authority }
 				liege = { dynasty = 2004 } ##Telcontar##
-				AND = {
 				ROOT = { NOT = { culture = culture_dunedain } } 
 				ROOT = { NOT = { culture = culture_gondorian } }
 				ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-				}
 				}		
 				AND = {
 				ROOT = { in_faction = faction_lower_crown_authority }
@@ -924,7 +887,6 @@ plot_decisions = {
 							AND = {
 								defender = { character = PREV }
 								OR = {
-									using_cb = religious
 									using_cb = muslim_invasion
 									using_cb = viking_invasion
 									using_cb = crusade
@@ -1006,29 +968,23 @@ faction_claimant_ultimatum = {
 		AND = {
 		ROOT = { in_faction = faction_claimant }
 		liege = { dynasty = 100 } ##Hurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } }
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture  = culture_gondorian_middlemen } }
 		}
-		}
 		AND = {
 		ROOT = { in_faction = faction_claimant }
 		liege = { dynasty = 2001 } ##Isildurionath##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } } 
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-		}
 		}
 		AND = {
 		ROOT = { in_faction = faction_claimant }
 		liege = { dynasty = 2004 } ##Telcontar##
-		AND = {
 		ROOT = { NOT = { culture = culture_dunedain } } 
 		ROOT = { NOT = { culture = culture_gondorian } }
 		ROOT = { NOT = { culture = culture_gondorian_middlemen } } 
-		}
 		}		
 		AND = {
 		ROOT = { in_faction = faction_claimant }
@@ -1189,8 +1145,8 @@ faction_claimant_ultimatum = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
+#								NOT = { using_cb = succession_on_liege }
+#								NOT = { using_cb = other_succession_on_liege }
 								thirdparty_title_scope = {
 									ROOT = {
 										supported_claimant_title = {
@@ -1224,7 +1180,6 @@ faction_claimant_ultimatum = {
 									}
 								}
 								OR = {
-									using_cb = religious
 									using_cb = crusade
 									using_cb = muslim_invasion
 									using_cb = viking_invasion
@@ -1240,93 +1195,6 @@ faction_claimant_ultimatum = {
 		}
 	}
 }
-	
-	faction_antiking_ultimatum = {
-		is_high_prio = yes
-		
-		potential = {
-			leads_faction = faction_antiking
-			OR = {
-				NOT = { has_character_flag = faction_install_antiking_ultimatum_taken }
-				had_character_flag = { flag = faction_install_antiking_ultimatum_taken days = 7 }
-			}
-		}
-		allow = {
-			war = no
-			prisoner = no
-			liege = {
-				NOT = { war_with = ROOT }
-				NOT = { reverse_has_truce = ROOT }
-			}
-			capital_holding = {
-				controller = {
-					character = ROOT
-				}
-			}
-		}
-		
-		effect = {
-			liege = {
-				letter_event = { id = 8200 days = 3 tooltip = EVTTOOLTIP8005 }
-			}
-			hidden_tooltip = {
-				set_character_flag = faction_install_antiking_ultimatum_taken
-			}
-		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { 
-					faction_power = 
-					{
-						faction = faction_antiking
-						power = 0.5
-					}
-				}
-			}
-			
-			modifier = {
-				factor = 0.5 # Slow it down a bit
-			}
-			
-			modifier = {
-				factor = 0
-				liege = {
-					any_war = {
-						OR = {
-							AND = {
-								defender = { character = PREV }
-								NOT = { using_cb = depose_liege }
-								NOT = { using_cb = overthrow_ruler }
-								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
-							}
-							AND = {
-								attacker = { character = PREV }
-								OR = {
-									using_cb = invasion
-									using_cb = religious
-									using_cb = tribal_invasion
-									using_cb = muslim_invasion
-									using_cb = viking_invasion
-									using_cb = claim_all
-									using_cb = claim
-									using_cb = other_claim
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
 }
 
 
