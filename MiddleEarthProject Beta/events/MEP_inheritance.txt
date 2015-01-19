@@ -99,7 +99,7 @@ character_event = {
 	
 	option = { ## A Wonderful stone !
 		name = "EVTOPTA250301"
-		character_event = { id = 4000015 }		
+#		character_event = { id = 4000015 }		
 	}
 }	
 

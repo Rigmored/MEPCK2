@@ -224,9 +224,9 @@ narrative_event = {
 
 # Cardolan
 narrative_event = {
-	id = RoN.7
-	title = EVTNAMERoN.7
-	desc = EVTDESCRoN.7
+	id = RoN.8
+	title = EVTNAMERoN.8
+	desc = EVTDESCRoN.8
 	
 	picture = GFX_evt_victory_arch_byzantine
 	
@@ -244,7 +244,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = EVTOPTARoN.7
+		name = EVTOPTARoN.8
 		set_global_flag = cardolanreconquered
 		prestige = 100
 	}
@@ -252,9 +252,9 @@ narrative_event = {
 
 # Rhudaur
 narrative_event = {
-	id = RoN.7
-	title = EVTNAMERoN.7
-	desc = EVTDESCRoN.7
+	id = RoN.9
+	title = EVTNAMERoN.9
+	desc = EVTDESCRoN.9
 	
 	picture = GFX_evt_victory_arch_byzantine
 	
@@ -272,7 +272,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = EVTOPTARoN.7
+		name = EVTOPTARoN.9
 		set_global_flag = rhudaurreconquered
 		prestige = 100
 	}

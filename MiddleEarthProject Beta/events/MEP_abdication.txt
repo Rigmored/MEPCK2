@@ -924,8 +924,8 @@ character_event = {
 ### Death of an abdicated character ###
 character_event = {
 	id = ABDICATE.003
-	title = "EVTITABDICATE.003"
-	desc = "EVTDESCABDICATE.003"
+	title = OK
+	desc = OK
 	picture = GFX_evt_death
 	
 	hide_window = yes	

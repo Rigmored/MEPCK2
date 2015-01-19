@@ -216,7 +216,7 @@ character_event = {
 	picture = "GFX_evt_middleearthmap"
 
 	option = {
-		name = "EVTOPTAmepstart.0"
+		name = "EVTOPTAmepstart.1"
 		e_valinor = {
 			holder_scope = { ROOT = { move_character = PREV } }
 		}		

@@ -13,7 +13,7 @@ namespace = buildings
 ## Event that will unlock all the buildings after 10000 ##
 character_event = {
 	id = buildings.0
-	desc = EVTDESChidden
+	desc = OK
 	picture = GFX_good
 	hide_window = yes	
 

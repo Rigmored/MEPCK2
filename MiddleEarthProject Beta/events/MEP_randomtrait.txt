@@ -3,7 +3,7 @@ namespace = randomtraits
 ##for dunedain##
 character_event = {
 	id = randomtraits.0
-	desc = "Not supposed to see this, but it assigns random traits at mod start"
+	desc = OK
 	picture = "GFX_evt_coronation"
 	age = 16
 	
@@ -80,7 +80,7 @@ character_event = {
 ##for elves##
 character_event = {
 	id = randomtraits.1
-	desc = "Not supposed to see this, but it assigns random traits at mod start"
+	desc = OK
 	picture = "GFX_evt_coronation"
 	age = 16
 	
@@ -161,7 +161,7 @@ character_event = {
 ##for dwarves##
 character_event = {
 	id = randomtraits.2
-	desc = "Not supposed to see this, but it assigns random traits at mod start"
+	desc = OK
 	picture = "GFX_evt_coronation"
 	age = 16
 	
@@ -246,7 +246,7 @@ character_event = {
 ##for orcs/melkor religions##
 character_event = {
 	id = randomtraits.3
-	desc = "Not supposed to see this, but it assigns random traits at mod start"
+	desc = OK
 	picture = "GFX_evt_coronation"
 	age = 16
 	
@@ -327,7 +327,7 @@ character_event = {
 #for black numenoreans#
 character_event = {
 	id = randomtraits.4
-	desc = "Not supposed to see this, but it assigns random traits at mod start"
+	desc = OK
 	picture = "GFX_evt_coronation"
 	age = 16
 	
@@ -404,7 +404,7 @@ character_event = {
 #for hobbits#
 character_event = {
 	id = randomtraits.5
-	desc = "Not supposed to see this, but it assigns random traits at mod start"
+	desc = OK
 	picture = "GFX_evt_coronation"
 	age = 16
 	
@@ -501,7 +501,7 @@ character_event = {
 #for easterlings and southrons and others#
 character_event = {
 	id = randomtraits.6
-	desc = "Not supposed to see this, but it assigns random traits at mod start"
+	desc = OK
 	picture = "GFX_evt_coronation"
 	age = 16
 	
@@ -584,7 +584,7 @@ character_event = {
 		#for rhovanion and haldadian#
 character_event = {
 	id = randomtraits.7
-	desc = "Not supposed to see this, but it assigns random traits at mod start"
+	desc = OK
 	picture = "GFX_evt_coronation"
 	age = 16
 	
@@ -665,7 +665,7 @@ character_event = {
 ## Blood of Numenor randomly given to characters ##
 character_event = {
 	id = randomtraits.8
-	desc = "Not supposed to see this, but it assigns random traits at mod start"
+	desc = OK
 	picture = "GFX_evt_coronation"
 	
 	hide_window = yes
