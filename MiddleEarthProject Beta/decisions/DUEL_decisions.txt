@@ -31,10 +31,14 @@ targetted_decisions = {
 				ROOT = { is_female = no }
 				FROM = { is_female = yes }
 			}
+			NOT = { trait = incapable }
 		}
 		
 		allow = {
 			is_within_diplo_range = ROOT
+			FROM = {
+				is_foe = ROOT
+			}
 		}
 		
 		effect = {
