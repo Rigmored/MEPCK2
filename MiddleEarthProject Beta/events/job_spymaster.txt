@@ -545,7 +545,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA9000"
-		liege = { character_event = { id = 9001 days = 7 tooltip = EVTTOOLTIP9001 } }
+		liege = { letter_event = { id = 9001 days = 7 tooltip = EVTTOOLTIP9001 } }
 	}
 }
 
@@ -564,12 +564,10 @@ letter_event = {
 			any_vassal = {
 				has_character_flag = faction_member
 				OR = {
-					trait = homosexual
 					trait = impaler
 					trait = lustful
 					trait = drunkard
 					trait = hedonist
-					trait = syphilitic
 				}
 			}
 		}
@@ -578,7 +576,7 @@ letter_event = {
 		}
 		random_vassal = {
 			limit = { has_character_flag = faction_member }
-			character_event = { id = 9002 days = 7 tooltip = EVTTOOLTIP9002 }
+			letter_event = { id = 9002 days = 7 tooltip = EVTTOOLTIP9002 }
 		}	
 	}
 	option = { # Legalism
@@ -600,7 +598,7 @@ letter_event = {
 		}
 		random_vassal = {
 			limit = { has_character_flag = faction_member }
-			character_event = { id = 9005 days = 7 tooltip = EVTTOOLTIP9005 }
+			letter_event = { id = 9005 days = 7 tooltip = EVTTOOLTIP9005 }
 		}	
 	}
 	option = { # Threaten
@@ -622,7 +620,7 @@ letter_event = {
 		}
 		random_vassal = {
 			limit = { has_character_flag = faction_member }
-			character_event = { id = 9008 days = 7 tooltip = EVTTOOLTIP9008 }
+			letter_event = { id = 9008 days = 7 tooltip = EVTTOOLTIP9008 }
 		}	
 	}
 	option = { # Ask Nicely
@@ -642,12 +640,10 @@ letter_event = {
 						trait = trusting
 						trait = content
 						trait = kind
-						trait = homosexual
 						trait = impaler
 						trait = lustful
 						trait = drunkard
 						trait = hedonist
-						trait = syphilitic
 					}
 				}
 			}
@@ -657,7 +653,7 @@ letter_event = {
 		}
 		random_vassal = {
 			limit = { has_character_flag = faction_member }
-			character_event = { id = 9003 days = 7 tooltip = EVTTOOLTIP9023 }
+			letter_event = { id = 9003 days = 7 tooltip = EVTTOOLTIP9023 }
 		}	
 	}
 	option = { # Do Nothing
@@ -680,27 +676,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
-	
-	option = { # Agree (Homosexual)
-		name = "EVTOPTA9002"
-		tooltip_info = homosexual
-		trigger = { trait = homosexual }
-		FROM = {
-			opinion = {
-				modifier = opinion_pleased
-				who = ROOT
-				years = 2
-			}
-		}
-		custom_tooltip = {
-			text = EVTTOOLTIP9004
-			hidden_tooltip = {
-				FROM = {
-					character_event = { id = 9004 days = 7 }
-				}
-			}
-		}
-	}
+
 	option = { # Agree (Impaler)
 		name = "EVTOPTB9002"
 		tooltip_info = impaler
@@ -716,7 +692,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9004 days = 7 }
+					letter_event = { id = 9004 days = 7 }
 				}
 			}
 		}
@@ -736,7 +712,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9004 days = 7 }
+					letter_event = { id = 9004 days = 7 }
 				}
 			}
 		}
@@ -756,7 +732,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9004 days = 7 }
+					letter_event = { id = 9004 days = 7 }
 				}
 			}
 		}
@@ -776,31 +752,12 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9004 days = 7 }
+					letter_event = { id = 9004 days = 7 }
 				}
 			}
 		}
 	}
-	option = { # Agree (Syphilis)
-		name = "EVTOPTF9002"
-		tooltip_info = syphilitic
-		trigger = { trait = syphilitic }
-		FROM = {
-			opinion = {
-				modifier = opinion_pleased
-				who = ROOT
-				years = 2
-			}
-		}
-		custom_tooltip = {
-			text = EVTTOOLTIP9004
-			hidden_tooltip = {
-				FROM = {
-					character_event = { id = 9004 days = 7 }
-				}
-			}
-		}
-	}
+
 }
 
 # Faction Member Confronted: Ask Nicely
@@ -825,7 +782,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9007 days = 7 }
+					letter_event = { id = 9007 days = 7 }
 				}
 			}
 		}
@@ -843,7 +800,7 @@ letter_event = {
 			text = EVTTOOLTIP9003
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9006 days = 7 }
+					letter_event = { id = 9006 days = 7 }
 				}
 			}
 		}
@@ -896,7 +853,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9007 days = 7 }
+					letter_event = { id = 9007 days = 7 }
 				}
 			}
 		}
@@ -916,7 +873,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9007 days = 7 }
+					letter_event = { id = 9007 days = 7 }
 				}
 			}
 		}
@@ -936,7 +893,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9007 days = 7 }
+					letter_event = { id = 9007 days = 7 }
 				}
 			}
 		}
@@ -956,7 +913,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9007 days = 7 }
+					letter_event = { id = 9007 days = 7 }
 				}
 			}
 		}
@@ -976,7 +933,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9007 days = 7 }
+					letter_event = { id = 9007 days = 7 }
 				}
 			}
 		}
@@ -1051,7 +1008,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9010 days = 7 }
+					letter_event = { id = 9010 days = 7 }
 				}
 			}
 		}
@@ -1071,7 +1028,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9010 days = 7 }
+					letter_event = { id = 9010 days = 7 }
 				}
 			}
 		}
@@ -1091,7 +1048,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9010 days = 7 }
+					letter_event = { id = 9010 days = 7 }
 				}
 			}
 		}
@@ -1111,7 +1068,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9010 days = 7 }
+					letter_event = { id = 9010 days = 7 }
 				}
 			}
 		}
@@ -1131,7 +1088,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9010 days = 7 }
+					letter_event = { id = 9010 days = 7 }
 				}
 			}
 		}
@@ -1247,7 +1204,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA9020"
-		liege = { character_event = { id = 9021 days = 7 tooltip = EVTTOOLTIP9001 } }
+		liege = { letter_event = { id = 9021 days = 7 tooltip = EVTTOOLTIP9001 } }
 	}
 }
 
@@ -1267,12 +1224,10 @@ letter_event = {
 				any_vassal = {
 					has_character_flag = faction_recruit
 					OR = {
-						trait = homosexual
 						trait = impaler
 						trait = lustful
 						trait = drunkard
 						trait = hedonist
-						trait = syphilitic
 					}
 				}
 			}
@@ -1280,7 +1235,7 @@ letter_event = {
 		liege = {
 			any_vassal = {
 				limit = { has_character_flag = faction_recruit }
-				character_event = { id = 9022 days = 7 tooltip = EVTTOOLTIP9022 }
+				letter_event = { id = 9022 days = 7 tooltip = EVTTOOLTIP9022 }
 			}
 		}
 	}
@@ -1303,7 +1258,7 @@ letter_event = {
 		liege = {
 			any_vassal = {
 				limit = { has_character_flag = faction_recruit }
-				character_event = { id = 9028 days = 7 tooltip = EVTTOOLTIP9028 }
+				letter_event = { id = 9028 days = 7 tooltip = EVTTOOLTIP9028 }
 			}
 		}
 	}
@@ -1320,12 +1275,10 @@ letter_event = {
 							trait = cynical
 							trait = humble
 							trait = slothful
-							trait = homosexual
 							trait = impaler
 							trait = lustful
 							trait = drunkard
 							trait = hedonist
-							trait = syphilitic
 						}
 					}
 				}
@@ -1334,7 +1287,7 @@ letter_event = {
 		liege = {
 			any_vassal = {
 				limit = { has_character_flag = faction_recruit }
-				character_event = { id = 9023 days = 7 tooltip = EVTTOOLTIP9023 }
+				letter_event = { id = 9023 days = 7 tooltip = EVTTOOLTIP9023 }
 			}
 		}
 	}
@@ -1358,26 +1311,6 @@ letter_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Agree (Homosexual)
-		name = "EVTOPTA9002"
-		tooltip_info = homosexual
-		trigger = { trait = homosexual }
-		FROM = {
-			opinion = {
-				modifier = opinion_pleased
-				who = ROOT
-				years = 2
-			}
-		}
-		custom_tooltip = {
-			text = EVTTOOLTIP9004
-			hidden_tooltip = {
-				FROM = {
-					character_event = { id = 9024 days = 7 }
-				}
-			}
-		}
-	}
 	option = { # Agree (Impaler)
 		name = "EVTOPTB9002"
 		tooltip_info = impaler
@@ -1393,7 +1326,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9024 days = 7 }
+					letter_event = { id = 9024 days = 7 }
 				}
 			}
 		}
@@ -1413,7 +1346,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9024 days = 7 }
+					letter_event = { id = 9024 days = 7 }
 				}
 			}
 		}
@@ -1433,7 +1366,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9024 days = 7 }
+					letter_event = { id = 9024 days = 7 }
 				}
 			}
 		}
@@ -1453,27 +1386,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9024 days = 7 }
-				}
-			}
-		}
-	}
-	option = { # Agree (Syphilis)
-		name = "EVTOPTF9002"
-		tooltip_info = syphilitic
-		trigger = { trait = syphilitic }
-		FROM = {
-			opinion = {
-				modifier = opinion_pleased
-				who = ROOT
-				years = 2
-			}
-		}
-		custom_tooltip = { 
-			text = EVTTOOLTIP9004
-			hidden_tooltip = {
-				FROM = {
-					character_event = { id = 9024 days = 7 }
+					letter_event = { id = 9024 days = 7 }
 				}
 			}
 		}
@@ -1500,7 +1413,7 @@ letter_event = {
 		}
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = 9027 days = 7 }
+				letter_event = { id = 9027 days = 7 }
 			}
 		}
 	}
@@ -1515,7 +1428,7 @@ letter_event = {
 		}
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = 9026 days = 7 }
+				letter_event = { id = 9026 days = 7 }
 			}
 		}
 	}
@@ -1611,7 +1524,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9030 days = 7 }
+					letter_event = { id = 9030 days = 7 }
 				}
 			}
 		}
@@ -1631,7 +1544,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9030 days = 7 }
+					letter_event = { id = 9030 days = 7 }
 				}
 			}
 		}
@@ -1651,7 +1564,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9030 days = 7 }
+					letter_event = { id = 9030 days = 7 }
 				}
 			}
 		}
@@ -1671,7 +1584,7 @@ letter_event = {
 			text = EVTTOOLTIP9004
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = 9030 days = 7 }
+					letter_event = { id = 9030 days = 7 }
 				}
 			}
 		}
@@ -1949,599 +1862,6 @@ letter_event = {
 # JOB: action_organize_spies
 ##############################
 
-# 935: Vicious Rumors Spread
-character_event = {
-	id = 935
-	title = "EVTNAME935"
-	desc = "EVTDESC935"
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_intrigue
-
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		has_job_action = action_organize_spies
-		location = {
-			any_province_lord = {
-				NOT = { is_liege_of = ROOT }
-				NOT = { character = ROOT }
-				ROOT = {
-					liege = {
-						NOT = { opinion = { who = PREVPREV value = 0 } }
-					}
-				}
-				num_of_vassals = 1
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-		
-		modifier = {
-			factor = 1.25
-			NOT = { intrigue = 2 }
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { intrigue = 3 }
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { intrigue = 4 }
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { intrigue = 5 }
-		}
-		modifier = {
-			factor = 0.75
-			intrigue = 10
-		}
-		modifier = {
-			factor = 0.75
-			intrigue = 11
-		}
-		modifier = {
-			factor = 0.75
-			intrigue = 12
-		}
-		modifier = {
-			factor = 0.75
-			intrigue = 13
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA935"
-		hidden_tooltip = {
-			location = {
-				random_province_lord = {
-					limit = {
-						NOT = { is_liege_of = ROOT }
-						NOT = { character = ROOT }
-						ROOT = {
-							liege = {
-								NOT = { opinion = { who = PREVPREV value = 0 } }
-							}
-						}
-						trait = homosexual
-						is_female = no
-						num_of_vassals = 1
-					}
-					set_character_flag = vicious_rumor
-				}
-			}
-			liege = { letter_event = { id = 20350 days = 7 } }
-		}
-	}
-}
-
-# 20350 - Liege is informed
-letter_event = {
-	id = 20350
-	desc = "EVTDESC20350"
-	border = GFX_event_letter_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20350"
-		ai_chance = { factor = 30 }
-		hidden_tooltip = {
-			FROM = {
-				character_event = { id = 20351 days = 7 }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB20350"
-		ai_chance = { factor = 70 }
-		hidden_tooltip = {
-			FROM = {
-				character_event = { id = 20352 days = 7 }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTC20350"
-		ai_chance = { factor = 0 }
-		hidden_tooltip = {
-			FROM = {
-				character_event = { id = 20353 days = 7 }
-			}
-		}
-	}
-}
-
-#20351 - Blackmail him
-character_event = {
-	id = 20351
-	desc = "EVTDESC20351"
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20351"
-		hidden_tooltip = {
-			location = {
-				random_province_lord = {
-					limit = {
-						NOT = { is_liege_of = ROOT }
-						NOT = { character = ROOT }
-						ROOT = {
-							liege = {
-								NOT = { opinion = { who = PREVPREV value = 0 } }
-							}
-						}
-						trait = homosexual
-						is_female = no
-						num_of_vassals = 1
-						has_character_flag = vicious_rumor
-					}
-					set_character_flag = vicious_rumor_blackmail
-					character_event = { id = 20354 days = 7 }
-				}
-			}
-		}
-	}
-}
-
-#20352 - Spread rumors
-character_event = {
-	id = 20352
-	desc = "EVTDESC20352"
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20352"
-		hidden_tooltip = {
-			location = {
-				random_province_lord = {
-					limit = {
-						NOT = { is_liege_of = ROOT }
-						NOT = { character = ROOT }
-						ROOT = {
-							liege = {
-								NOT = { opinion = { who = PREVPREV value = 0 } }
-							}
-						}
-						trait = homosexual
-						is_female = no
-						num_of_vassals = 1
-						has_character_flag = vicious_rumor
-					}
-					set_character_flag = vicious_rumor_spread
-					character_event = { id = 20355 days = 7 }
-				}
-			}
-		}
-	}
-}
-
-#20353 - Do nothing
-character_event = {
-	id = 20353
-	desc = "EVTDESC20353"
-	picture = GFX_evt_throne_room
-	border = GFX_event_normal_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20353"
-		hidden_tooltip = {
-			random_province_lord = {
-				limit = {
-					NOT = { is_liege_of = ROOT }
-					NOT = { character = ROOT }
-					ROOT = {
-						liege = {
-							NOT = { opinion = { who = PREVPREV value = 0 } }
-						}
-					}
-					trait = homosexual
-					is_female = no
-					num_of_vassals = 1
-					has_character_flag = vicious_rumor
-				}
-				clr_character_flag = vicious_rumor
-			}
-		}
-	}
-}
-
-#20354 - The noble responds to blackmail
-character_event = {
-	id = 20354
-	desc = "EVTDESC20354"
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_intrigue
-
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20354"
-		ai_chance = { factor = 40 }
-		scaled_wealth = -0.25
-		hidden_tooltip = {
-			FROM = {
-				character_event = { id = 20359 days = 1 }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB20354"
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 3.0
-				OR = {
-					trait = wroth
-					trait = paranoid
-				}
-			}
-		}
-		random_list = {
-			50 = {
-				FROM = {
-					set_character_flag = spymaster_attacked
-					character_event = { id = 20356 days = 1 tooltip = "EVTTOOLTIPSPYMASTERATTACK" }
-				}
-				hidden_tooltip = {
-					character_event = { id = 20364 days = 1 }
-				}
-			}
-			50 = {
-				FROM = {
-					set_character_flag = spymaster_killed
-					character_event = { id = 20356 days = 1 tooltip = "EVTTOOLTIPSPYMASTERKILLED" }
-				}
-				hidden_tooltip = {
-					character_event = { id = 20365 days = 1 }
-				}
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTC20354"
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 3.0
-				OR = {
-					trait = proud
-					trait = honest
-					trait = brave
-				}
-			}
-		}
-		prestige = 25
-		hidden_tooltip = {
-			FROM = {
-				character_event = { id = 20361 days = 1 }
-			}
-		}
-	}
-}
-
-#20355 - The noble responds to rumor
-character_event = {
-	id = 20355
-	desc = "EVTDESC20355"
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_intrigue
-
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20355"
-		random_list = {
-			50 = {
-				FROM = {
-					set_character_flag = spymaster_attacked
-					character_event = { id = 20356 days = 1 tooltip = "EVTTOOLTIPSPYMASTERATTACK" }
-				}
-				hidden_tooltip = {
-					character_event = { id = 20364 days = 1 }
-				}
-			}
-			50 = {
-				FROM = {
-					set_character_flag = spymaster_killed
-					character_event = { id = 20356 days = 1 tooltip = "EVTTOOLTIPSPYMASTERKILLED" }
-				}
-				hidden_tooltip = {
-					character_event = { id = 20365 days = 1 }
-				}
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB20355"
-		prestige = 25
-		hidden_tooltip = {
-			FROM = {
-				character_event = { id = 20361 days = 1 }
-			}
-		}
-	}
-}
-
-#20364 - Spymaster gets away
-character_event = {
-	id = 20364
-	desc = "EVTDESC20364"
-	picture = GFX_evt_spymaster
-	border = GFX_event_normal_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20364"
-		prestige = -10
-	}
-}
-
-#20365 - Spymaster is killed
-character_event = {
-	id = 20365
-	desc = "EVTDESC20365"
-	picture = GFX_evt_death
-	border = GFX_event_normal_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EXCELLENT"
-	}
-}
-
-#20356 - Spymaster is attacked
-character_event = {
-	id = 20356
-	desc = "EVTDESC20356"
-	picture = GFX_evt_peasants
-	border = GFX_event_normal_frame_intrigue
-
-	hide_from = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA20356"
-		trigger = { has_character_flag = spymaster_attacked }
-		hidden_tooltip = {
-			liege = { letter_event = { id = 20357 days = 1 } }
-		}
-		clr_character_flag = spymaster_attacked
-	}
-	option = {
-		name = "EVTOPTB20356"
-		trigger = { has_character_flag = spymaster_killed }
-		hidden_tooltip = {
-			liege = { character_event = { id = 20358 days = 1 } }
-		}
-		clr_character_flag = spymaster_killed
-		death = {
-			death_reason = death_murder_unknown
-			killer = FROM
-		}
-	}
-}
-
-#20357 - Inform the Liege about attack
-letter_event = {
-	id = 20357
-	desc = "EVTDESC20357"
-	border = GFX_event_letter_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20357"
-		hidden_tooltip = {
-			FROM = {
-				FROM = {
-					character_event = { id = 20363 days = 1 }
-				}
-			}
-		}
-	}
-}
-
-#20358 - Inform the Liege about death
-character_event = {
-	id = 20358
-	desc = "EVTDESC20358"
-	picture = GFX_evt_death
-	border = GFX_event_normal_frame_intrigue
-
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20358"
-		prestige = -15
-		hidden_tooltip = {
-			FROM = {
-				FROM = {
-					clr_character_flag = vicious_rumor
-				}
-			}
-		}
-	}
-}
-
-#20359 - Blackmail succeeds
-character_event = {
-	id = 20359
-	desc = "EVTDESC20359"
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_intrigue
-
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20359"
-		hidden_tooltip = {
-			liege = { letter_event = { id = 20360 days = 1 } }
-		}
-	}
-}
-
-#20360 - Liege is informed that blackmail succeeded
-letter_event = {
-	id = 20360
-	desc = "EVTDESC20360"
-	border = GFX_event_letter_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EXCELLENT"
-		wealth = 100
-		hidden_tooltip = {
-			FROM = {
-				FROM = {
-					clr_character_flag = vicious_rumor
-					clr_character_flag = vicious_rumor_blackmail
-				}
-			}
-		}
-	}
-}
-
-#20361 - The noble does not care about the rumor
-character_event = {
-	id = 20361
-	desc = "EVTDESC20361"
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_intrigue
-
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20361"
-		hidden_tooltip = {
-			liege = {
-				letter_event = { id = 20362 days = 1 }
-			}
-		}
-	}
-}
-
-#20362 - Inform the liege that the noble does not care about the rumor
-letter_event = {
-	id = 20362
-	desc = "EVTDESC20362"
-	border = GFX_event_letter_frame_intrigue
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA20362"
-		hidden_tooltip = {
-			FROM = {
-				FROM = {
-					character_event = { id = 20363 days = 1 }
-				}
-			}
-		}
-	}
-}
-
-#20363 - The noble is informed that the rumor has been spread
-character_event = {
-	id = 20363
-	desc = "EVTDESC20363"
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_intrigue
-
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_tooltip = {
-			any_vassal = {
-				limit = {
-					NOT = { opinion = { who = ROOT value = 0 } }
-					NOT = { trait = homosexual }
-				}
-				set_character_flag = opinion_liege_homosexual
-			}
-			any_courtier = {
-				limit = {
-					NOT = { opinion = { who = ROOT value = 0 } }
-					NOT = { trait = homosexual }
-				}
-				set_character_flag = opinion_liege_homosexual
-			}		
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA20363"
-		any_vassal = {
-			limit = {
-				has_character_flag = opinion_liege_homosexual
-			}
-			opinion = {
-				modifier = opinion_homosexual
-				who = ROOT
-				years = 2
-			}
-			clr_character_flag = opinion_liege_homosexual
-		}
-		any_courtier = {
-			limit = {
-				has_character_flag = opinion_liege_homosexual
-			}
-			opinion = {
-				modifier = opinion_homosexual
-				who = ROOT
-				years = 2
-			}
-			clr_character_flag = opinion_liege_homosexual
-		}
-	}
-}
 
 # 936: Corruption Uncovered
 character_event = {
@@ -2840,13 +2160,6 @@ letter_event = {
 	
 	option = {
 		name = "EVTOPTA20377"
-		hidden_tooltip = {
-			FROM = {
-				FROM = {
-					character_event = { id = 20363 days = 1 }
-				}
-			}
-		}
 	}
 }
 
@@ -2903,5 +2216,4 @@ letter_event = {
 		wealth = 50
 	}
 }
-
 

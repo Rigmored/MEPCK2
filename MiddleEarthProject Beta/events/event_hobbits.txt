@@ -620,7 +620,7 @@ narrative_event = {
 	option = {
 		name = "EVTOPTAhobbits.15" ## My Friends will come!
 		set_global_flag = hobbit_party_started
-		character_event = { id = hobbits.17 days = 50 }
+		narrative_event = { id = hobbits.17 days = 50 }
 		any_dynasty_member = {
 			limit = {
 				OR = {
@@ -689,7 +689,7 @@ character_event = {
 		}
 		add_friend = FROM
 		wealth = 40
-		opinion = { modifier = goodgift who = FROM years = 7 }
+		opinion = { modifier = hobbit_good_gift who = FROM years = 7 }
 	}	
 	
 	option = {
@@ -700,7 +700,7 @@ character_event = {
 			}
 		}
 		wealth = 20
-		opinion = { modifier = littlegift who = FROM years = 5 }
+		opinion = { modifier = hobbit_little_gift who = FROM years = 5 }
 	}	
 
 	option = {
@@ -712,7 +712,7 @@ character_event = {
 		}
 		remove_friend = FROM
 		wealth = 20
-		opinion = { modifier = nogift who = FROM years = 5 }
+		opinion = { modifier = hobbit_no_gift who = FROM years = 5 }
 	}		
 }
 
@@ -1152,7 +1152,7 @@ character_event = {
 		}	
 		modifier = {
 			factor = 0.1
-			trait = charismatic_negociator
+			trait = charismatic_negotiator
 		}		
 		modifier = {
 			factor = 0.7
@@ -1187,14 +1187,14 @@ character_event = {
 					has_character_flag = owners_party
 					has_character_flag = family_party
 				}
-				random_child = {
-					limit = {
-						NOT = { age = 33 }
-						is_female = no
-					}
-					character_event = { id = hobbits.19 }
-					set_character_flag = futurefriend
+			}
+			random_child = {
+				limit = {
+					NOT = { age = 33 }
+					is_female = no
 				}
+				character_event = { id = hobbits.19 }
+				set_character_flag = futurefriend
 			}
 		}		
 	}

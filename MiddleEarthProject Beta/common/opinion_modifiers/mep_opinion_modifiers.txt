@@ -42,13 +42,13 @@ opinion_refused_to_trade = {
 
 ### Hobbits Gifts ###
 
-littlegift = {
+hobbit_little_gift = {
 	opinion = 10
 }
-goodgift = {
+hobbit_good_gift = {
 	opinion = 30
 }
-nogift = {
+hobbit_no_gift = {
 	opinion = -25
 }
 

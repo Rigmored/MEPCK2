@@ -1,0 +1,43 @@
+##############################
+# LORD SPIRITUAL
+#
+# Job: action_inquisition
+# 	900: County Religion Converted
+# 	901: Subject Religion Converted
+# 	902: Heathens Attack the Lord Spiritual
+# 	903: Heretic Noble
+#
+# Job: action_improve_rel_relations
+# 	906: The Lord Spiritual attempts to improve relations with a priest
+# 	907: The Lord Spiritual attempts to sabotage the relations of a priest towards the official head of the religion
+#
+# Job: action_advance_cul_tech
+# 	926: A Great Inventor offers his help: Random Culture Tech increases
+# 	927: Lord Spiritual = heretic
+#
+##############################
+
+
+##############################
+# LORD SPIRITUAL
+# JOB: action_inquisition
+##############################
+#OBSOLETE
+
+##############################
+# LORD SPIRITUAL
+# JOB: action_improve_rel_relations
+##############################
+#OBSOLETE
+
+##############################
+# LORD SPIRITUAL
+# JOB: action_advance_cul_tech
+##############################
+#OBSOLETE
+
+##############################
+# MUSLIM LORD SPIRITUAL (Mufti)
+# JOB: action_charity
+##############################
+#OBSOLETE

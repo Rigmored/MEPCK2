@@ -30,8 +30,6 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		NOT = { religion_group = muslim }
-		NOT = { religion_group = jewish_group }
 		OR = {
 			trait = greedy
 			trait = midas_touched
@@ -105,7 +103,6 @@ character_event = {
 		in_command = no
 		piety = 50
 		tier = count
-		religion_group = christian
 		NOT = {
 			has_character_modifier = church_unfunny
 		}
@@ -174,91 +171,6 @@ character_event = {
 	}
 }
 
-### Blasphemy! - Muslim ###
-character_event = {
-	id = 4041
-	desc = EVTDESC4041
-	picture = GFX_evt_bishop
-	
-	is_triggered_only = yes
-	
-	only_playable = yes
-	min_age = 20
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		war = no
-		in_command = no
-		piety = 50
-		tier = count
-		religion_group = muslim
-		NOT = {
-			has_character_modifier = church_unfunny
-		}
-		job_spiritual = {
-			is_priest = yes
-			OR = {
-				piety = 50
-				trait = zealous
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 3
-			trait = just
-		}
-		modifier = {
-			factor = 0.66
-			trait = arbitrary
-		}
-	}
-	
-	option = { 
-		name = EVTOPTA4040 #Ignore
-		add_character_modifier = {
-			name = unfunny_imam
-			duration = 90
-		}
-	}
-	
-	option = {
-		name = EVTOPTB4040 #Imprisonment
-		add_character_modifier = {
-			name = imprison_lawbreakers
-			duration = 60
-		}
-	}
-	
-	option = {
-		name = EVTOPTC4040 #Punish cook
-		tooltip_info = arbitrary
-		trigger = {
-			trait = arbitrary
-		}
-		add_character_modifier = {
-			name = punish_cook
-			duration = 60
-		}
-	}
-	
-	option = {
-		name = EVTOPTD4040 #Hanged
-		tooltip_info = zealous
-		trigger = {
-			trait = zealous
-		}
-		add_character_modifier = {
-			name = kill_lawbreakers
-			duration = 60
-		}
-	}
-}
-
 #Wolf hunting - Luparii
 character_event = {
 	id = 4085
@@ -275,8 +187,6 @@ character_event = {
 	
 	trigger = {
 		war = no
-		NOT = {	religion_group = muslim }
-		NOT = {	religion_group = jewish_group }
 		in_command = no
 		tier = count
 		NOT = {
@@ -475,11 +385,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4035 #Cut off hands
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		add_character_modifier = {
 			name = the_cruel
 			duration = 180
@@ -488,11 +393,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTC4035 #Kill!
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		add_character_modifier = {
 			name = kill_lawbreakers
 			duration = 180
@@ -592,11 +492,6 @@ character_event = {
 				trait = wroth
 			}
 		}
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		prestige = 15
 		any_courtier = {
 			limit = {
@@ -627,11 +522,6 @@ character_event = {
 			NOT = {
 				trait = cruel
 			}
-		}
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		add_trait = cruel
 	}
@@ -889,11 +779,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4050 #Behead him!
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		add_character_modifier = {
 			name = the_ruthless
 			duration = 180
@@ -930,11 +815,6 @@ character_event = {
 				trait = arbitrary
 			}
 		}
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		add_character_modifier = {
 			name = the_strong
 			duration = 180
@@ -946,11 +826,6 @@ character_event = {
 		tooltip_info = wroth
 		trigger = {
 			trait = wroth
-		}
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		add_character_modifier = {
 			name = the_cruel
@@ -1240,11 +1115,6 @@ character_event = {
 				trait = just
 			}
 		}
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		FROM = {
 			set_character_flag = dead_poachers
 			character_event = {
@@ -1263,11 +1133,6 @@ character_event = {
 			NOT = {
 				trait = arbitrary
 			}
-		}
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		FROM = {
 			set_character_flag = ears_off
@@ -1319,11 +1184,6 @@ character_event = {
 		trigger = {
 			has_character_flag = ears_off
 		}
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		clr_character_flag = ears_off
 		FROM = {
 			character_event = {
@@ -1362,11 +1222,6 @@ character_event = {
 		name = EVTOPTF4023 #Bad
 		trigger = {
 			has_character_flag = dead_poachers
-		}
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		clr_character_flag = dead_poachers
 		FROM = {
@@ -1532,11 +1387,6 @@ character_event = {
 			trait = arbitrary
 		}
 		ai_chance = { factor = 20 }
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		FROM = {
 			set_character_flag = heads_up
 			character_event = {
@@ -1554,11 +1404,6 @@ character_event = {
 			trait = wroth
 		}
 		ai_chance = { factor = 30 }
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		FROM = {
 			set_character_flag = hands_off
 			character_event = {
@@ -1614,11 +1459,6 @@ character_event = {
 			has_character_flag = hands_off
 		}
 		ai_chance = { factor = 30 }
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		clr_character_flag = hands_off
 		FROM = {
 			character_event = {
@@ -1634,11 +1474,6 @@ character_event = {
 			has_character_flag = hands_off
 		}
 		ai_chance = { factor = 70 }
-		if = {
-			limit = { religion = jain }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
 		clr_character_flag = hands_off
 		FROM = {
 			character_event = {
@@ -2013,7 +1848,6 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		NOT = { religion = jain }
 		OR = {
 			trait = falconer
 			trait = hunter
@@ -2589,7 +2423,6 @@ character_event = {
 		is_female = no
 		num_of_rivals = 1
 		num_of_friends = 1
-		religion_group = christian
 		any_courtier = {
 			martial = 15
 			reverse_opinion = { who = ROOT value = 25 }
@@ -2708,7 +2541,6 @@ character_event = {
 		in_command = no
 		martial = 15
 		intrigue = 10
-		religion_group = christian
 		OR = {
 			tier = duke
 			tier = count
@@ -3228,7 +3060,6 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		religion_group = christian
 		father = {
 			is_alive = no
 		}
@@ -3346,7 +3177,6 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		religion_group = christian
 		NOT = {
 			has_character_modifier = the_sullen
 		}
