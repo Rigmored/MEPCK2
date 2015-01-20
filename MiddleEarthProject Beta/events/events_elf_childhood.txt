@@ -97,7 +97,7 @@ narrative_event = {
 			limit = {
 				is_female = no
 			}
-			 ## character_event = { id = elfchild.2 } ## Will be implemented later
+			narrative_event = { id = elfchild.2 } ## TODO: Will be implemented later
 		}
 	}	
 }
@@ -125,7 +125,7 @@ narrative_event = {
 		ai_chance = {
 			factor = 20 
 		}		
-		character_event = { id = elfchild.3 }		
+		narrative_event = { id = elfchild.3 }		
 	}		
 }	
 
@@ -140,257 +140,217 @@ narrative_event = {
 	option = {
 		name = "EVTOPTAelfchild.3" ## I want to be called "Amroth"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = agile
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = agile
 		}
 		set_name = "Amroth"
 	}	
 	option = {
 		name = "EVTOPTBelfchild.3" ## I want to be called "Amdir"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = perceptive
-				trait = kind
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = perceptive
+			trait = kind
 		}
 		set_name = "Amdír"
 	}	
 	option = {
 		name = "EVTOPTCelfchild.3" ## I want to be called "Bladorthin"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = charitable
-				trait = proud
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = charitable
+			trait = proud
 		}
 		set_name = "Bladorthin"
 	}		
 	option = {
-		name = "EVTOPTCelfchild.3" ## I want to be called "Annael"
+		name = "EVTOPTDelfchild.3" ## I want to be called "Annael"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = ambidextrous
-				trait = brave
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = ambidextrous
+			trait = brave
 		}
 		set_name = "Annael"
 	}	
 	option = {
-		name = "EVTOPTDelfchild.3" ## I want to be called "Beleg"
+		name = "EVTOPTEelfchild.3" ## I want to be called "Beleg"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = ambidextrous
-				trait = brave
-				trait = fea_strong
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = ambidextrous
+			trait = brave
+			trait = fea_strong
 		}
 		set_name = "Beleg"
 	}	
 	option = {
-		name = "EVTOPTEelfchild.3" ## I want to be called "Círdan"
+		name = "EVTOPTFelfchild.3" ## I want to be called "Círdan"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				stewardship = 15
-				trait = kind
-				trait = brave
-				trait = fea_strong
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			stewardship = 15
+			trait = kind
+			trait = brave
+			trait = fea_strong
 		}
 		set_name = "Círdan"
 	}		
 	option = {
-		name = "EVTOPTFelfchild.3" ## I want to be called "Daeron"
+		name = "EVTOPTGelfchild.3" ## I want to be called "Daeron"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = tall
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = tall
 		}
 		set_name = "Daeron"
 	}	
 	option = {
-		name = "EVTOPTGelfchild.3" ## I want to be called "Galadhon"
+		name = "EVTOPTHelfchild.3" ## I want to be called "Galadhon"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = just
-				trait = fea_strong
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = just
+			trait = fea_strong
 		}
 		set_name = "Galadhon"
 	}	
 	option = {
-		name = "EVTOPTHelfchild.3" ## I want to be called "Galathil"
+		name = "EVTOPTIelfchild.3" ## I want to be called "Galathil"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = honest
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = honest
 		}
 		set_name = "Galathil"
 	}	
 	option = {
-		name = "EVTOPTHelfchild.3" ## I want to be called "Galdor"
+		name = "EVTOPTJelfchild.3" ## I want to be called "Galdor"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = temperate
-				trait = honest
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = temperate
+			trait = honest
 		}
 		set_name = "Galdor"
 	}		
 	option = {
-		name = "EVTOPTIelfchild.3" ## I want to be called "Voronwë"
+		name = "EVTOPTKelfchild.3" ## I want to be called "Voronwë"
 		trigger = {
-			AND = {
-				OR = {
-					culture = culture_silvan
-					culture = culture_sindar
-				}
-				trait = fair
+			OR = {
+				culture = culture_silvan
+				culture = culture_sindar
 			}
+			trait = fair
 		}
 		set_name = "Voronwë"
 	}			
 	option = {
-		name = "EVTOPTJelfchild.3" ## I want to be called "Arminas"
+		name = "EVTOPTLelfchild.3" ## I want to be called "Arminas"
 		trigger = {
-			AND = {
-				trait = tall
-				trait = brave
-			}
+			trait = tall
+			trait = brave
 		}
 		set_name = "Arminas"
 	}	
 	option = {
-		name = "EVTOPTKelfchild.3" ## I want to be called "Auredhir"
+		name = "EVTOPTMelfchild.3" ## I want to be called "Auredhir"
 		trigger = {
-			AND = {
-				trait = just
-				trait = fair
-				trait = kind
-			}
+			trait = just
+			trait = fair
+			trait = kind
 		}
 		set_name = "Auredhir"
 	}		
 	option = {
-		name = "EVTOPTLelfchild.3" ## I want to be called "Amnon"
+		name = "EVTOPTNelfchild.3" ## I want to be called "Amnon"
 		trigger = {
-			AND = {
-				trait = perceptive
-				learning = 12
-			}
+			trait = perceptive
+			learning = 12
 		}
 		set_name = "Amnon"
 	}	
 	option = {
-		name = "EVTOPTMelfchild.3" ## I want to be called "Ausir"
+		name = "EVTOPTOelfchild.3" ## I want to be called "Ausir"
 		trigger = {
-			AND = {
-				trait = greedy
-				wealth = 150
-			}
+			trait = greedy
+			wealth = 150
 		}
 		set_name = "Ausir"
 	}		
 	option = {
-		name = "EVTOPTNelfchild.3" ## I want to be called "Eglathron"
+		name = "EVTOPTPelfchild.3" ## I want to be called "Eglathron"
 		trigger = {
-			AND = {
-				trait = bastard
-				trait = just
-			}
+			trait = bastard
+			trait = just
 		}
 		set_name = "Eglathron"
 	}			
 	option = {
-		name = "EVTOPTOelfchild.3" ## I want to be called "Erestor"
+		name = "EVTOPTQelfchild.3" ## I want to be called "Erestor"
 		trigger = {
-			AND = {
-				trait = brave
-				trait = charismatic_negociator
-			}
+			trait = brave
+			trait = charismatic_negotiator
 		}
 		set_name = "Erestor"
 	}	
 	option = {
-		name = "EVTOPTPelfchild.3" ## I want to be called "Elfriniol"
+		name = "EVTOPTRelfchild.3" ## I want to be called "Elfriniol"
 		trigger = {
-			AND = {
-				trait = kind
-				trait = charitable
-				trait = just
-			}
+			trait = kind
+			trait = charitable
+			trait = just
 		}
 		set_name = "Elfriniol"
 	}
 	option = {
-		name = "EVTOPTQelfchild.3" ## I want to be called "Ingilmo"
+		name = "EVTOPTSelfchild.3" ## I want to be called "Ingilmo"
 		trigger = {
-			AND = {
-				trait = master_craftsman
-				trait = proud
-				trait = just
-			}
+			trait = master_craftsman
+			trait = proud
+			trait = just
 		}
 		set_name = "Ingilmo"
 	}	
 	option = {
-		name = "EVTOPTRelfchild.3" ## I want to be called "Inglor"
+		name = "EVTOPTTelfchild.3" ## I want to be called "Inglor"
 		trigger = {
-			AND = {
-				trait = fea_strong
-				trait = proud
-				OR = {
-					trait = charismatic_negotiator
-					trait = grey_eminence
-					trait = midas_touched 
-					trait = fortune_builder
-				}
+			trait = fea_strong
+			trait = proud
+			OR = {
+				trait = charismatic_negotiator
+				trait = grey_eminence
+				trait = midas_touched 
+				trait = fortune_builder
 			}
 		}
 		set_name = "Inglor"
 	}	
 	option = {
-		name = "EVTOPTSelfchild.3" ## I want to be called "Gelion"
+		name = "EVTOPTUelfchild.3" ## I want to be called "Gelion"
 		trigger = {
 			OR = {
 				trait = composer
@@ -401,7 +361,7 @@ narrative_event = {
 		set_name = "Gelion"
 	}		
 	option = {
-		name = "EVTOPTTelfchild.3" ## I want to be called "Elemmírë"
+		name = "EVTOPTVelfchild.3" ## I want to be called "Elemmírë"
 		trigger = {
 			OR = {
 				trait = composer
@@ -412,121 +372,91 @@ narrative_event = {
 		set_name = "Elemmírë"
 	}	
 	option = {
-		name = "EVTOPTUelfchild.3" ## I want to be called "Lenwë"
+		name = "EVTOPTWelfchild.3" ## I want to be called "Lenwë"
 		trigger = {
-			AND = {
-				trait = tall
-				trait = perceptive
-			}
+			trait = tall
+			trait = perceptive
 		}
 		set_name = "Lenwë"
 	}	
 	option = {
-		name = "EVTOPTVelfchild.3" ## I want to be called "Denethor"
+		name = "EVTOPTXelfchild.3" ## I want to be called "Denethor"
 		trigger = {
-			AND = {
-				trait = proud
-				trait = cynical
-			}
+			trait = proud
+			trait = cynical
 		}
 		set_name = "Denethor"
 	}	
 	option = {
-		name = "EVTOPTWelfchild.3" ## I want to be called "Galion"
+		name = "EVTOPTYelfchild.3" ## I want to be called "Galion"
 		trigger = {
-			AND = {
-				trait = just
-				trait = brave
-				trait = ship_builder
-			}
+			trait = just
+			trait = brave
+			trait = ship_builder
 		}
 		set_name = "Galion"
 	}			
 	option = {
-		name = "EVTOPTXelfchild.3" ## I want to be called "Haldir"
+		name = "EVTOPTZelfchild.3" ## I want to be called "Haldir"
 		trigger = {
-			AND = {
-				trait = brave
-				OR = {
-					trait = great_elf
-					trait = legendary_warrior
-				}
+			trait = brave
+			OR = {
+				trait = great_elf
+				trait = legendary_warrior
 			}
 		}
 		set_name = "Haldir"
 	}		
 	option = {
-		name = "EVTOPTXelfchild.3" ## I want to be called "Ithilbor"
+		name = "EVTOPTAAelfchild.3" ## I want to be called "Ithilbor"
 		trigger = {
-			AND = {
-				trait = just
-				OR = {
-					trait = grey_eminence
-					trait = charismatic_negotiator
-				}
+			trait = just
+			OR = {
+				trait = grey_eminence
+				trait = charismatic_negotiator
 			}
 		}
 		set_name = "Ithilbor"
 	}	
 	option = {
-		name = "EVTOPTYelfchild.3" ## I want to be called "Orophin"
+		name = "EVTOPTABelfchild.3" ## I want to be called "Orophin"
 		trigger = {
-			AND = {
-				trait = brave
-				OR = {
-					trait = tough_soldier
-					trait = skilled_tactician
-					trait = brilliant_strategist
-				}
+			trait = brave
+			OR = {
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
 			}
 		}
 		set_name = "Orophin"
 	}	
 	option = {
-		name = "EVTOPTYelfchild.3" ## I want to be called "Saeros"
+		name = "EVTOPTACelfchild.3" ## I want to be called "Saeros"
 		trigger = {
-			AND = {
-				trait = brave
-				trait = fea_strong
-				OR = {
-					trait = tough_soldier
-					trait = skilled_tactician
-					trait = brilliant_strategist
-				}
+			trait = brave
+			trait = fea_strong
+			OR = {
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
 			}
 		}
 		set_name = "Saeros"
 	}		
 	option = {
-		name = "EVTOPTZelfchild.3" ## I want to be called "Belenthrond"
+		name = "EVTOPTADelfchild.3" ## I want to be called "Belenthrond"
 		trigger = {
-			AND = {
-				trait = fea_weak
-				OR = {
-					trait = tough_soldier
-					trait = skilled_tactician
-					trait = brilliant_strategist
-				}
+			trait = fea_weak
+			OR = {
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
 			}
 		}
 		set_name = "Belenthrond"
 	}		
 	option = {
-		name = "EVTOPTAAelfchild.3" ## I want to be called "Belenthrond"
-		trigger = {
-			AND = {
-				trait = fea_weak
-				OR = {
-					trait = tough_soldier
-					trait = skilled_tactician
-					trait = brilliant_strategist
-				}
-			}
-		}
-		set_name = "Belenthrond"
-	}		
-	option = {
-		name = "EVTOPTABelfchild.3" ## I'll keep my name.
+		name = "EVTOPTAEelfchild.3" ## I'll keep my name.
 	}		
 }
 
@@ -541,10 +471,8 @@ character_event = {
     picture = "GFX_evt_elven_story"
 	
 	trigger = {
-		AND = {
-			trait = elf
-			trait = elf_childhood
-		}
+		trait = elf
+		trait = elf_childhood
 		OR = {
 			has_job_title = job_chancellor
 			has_job_title = job_marshal

@@ -25,3 +25,35 @@ EVTTITelfchild.5;Still a Child!;Ce n'est qu'un Enfant!;;;;;;;;;;;;x
 EVTDESCelfchild.5;One of your councillor is still a child, and cannot give you the counsel you need from him. He is leaving his position for now.;L'un de vos conseillers n'est encore qu'un enfant, et est trop jeune pour vous donner les conseils que vous recherchez auprès de lui. Il quitte votre Conseil, pour le moment.;;;;;;;;;;;;x
 EVTOPTAelfchild.5;That was a mistake.;C'était une erreur.;;;;;;;;;;;;x
 ISACHILD;leaves your council;quitte votre Conseil;;;;;;;;;;;;x
+#
+EVTOPTAelfchild.3;I want to be called "Amroth".;;;;;;;;;;;;;x
+EVTOPTBelfchild.3;I want to be called "Amdir".;;;;;;;;;;;;;x
+EVTOPTCelfchild.3;I want to be called "Bladorthin".;;;;;;;;;;;;;x
+EVTOPTDelfchild.3;I want to be called "Annael".;;;;;;;;;;;;;x
+EVTOPTEelfchild.3;I want to be called "Beleg".;;;;;;;;;;;;;x
+EVTOPTFelfchild.3;I want to be called "Círdan".;;;;;;;;;;;;;x
+EVTOPTGelfchild.3;I want to be called "Daeron".;;;;;;;;;;;;;x
+EVTOPTHelfchild.3;I want to be called "Galadhon".;;;;;;;;;;;;;x
+EVTOPTIelfchild.3;I want to be called "Galathil".;;;;;;;;;;;;;x
+EVTOPTJelfchild.3;I want to be called "Galdor".;;;;;;;;;;;;;x
+EVTOPTKelfchild.3;I want to be called "Voronwë".;;;;;;;;;;;;;x
+EVTOPTLelfchild.3;I want to be called "Arminas".;;;;;;;;;;;;;x
+EVTOPTMelfchild.3;I want to be called "Auredhir".;;;;;;;;;;;;;x
+EVTOPTNelfchild.3;I want to be called "Amnon".;;;;;;;;;;;;;x
+EVTOPTOelfchild.3;I want to be called "Ausir".;;;;;;;;;;;;;x
+EVTOPTPelfchild.3;I want to be called "Eglathron".;;;;;;;;;;;;;x
+EVTOPTQelfchild.3;I want to be called "Erestor".;;;;;;;;;;;;;x
+EVTOPTRelfchild.3;I want to be called "Elfriniol".;;;;;;;;;;;;;x
+EVTOPTSelfchild.3;I want to be called "Ingilmo".;;;;;;;;;;;;;x
+EVTOPTTelfchild.3;I want to be called "Inglor".;;;;;;;;;;;;;x
+EVTOPTUelfchild.3;I want to be called "Gelion".;;;;;;;;;;;;;x
+EVTOPTVelfchild.3;I want to be called "Elemmírë".;;;;;;;;;;;;;x
+EVTOPTWelfchild.3;I want to be called "Lenwë".;;;;;;;;;;;;;x
+EVTOPTXelfchild.3;I want to be called "Denethor".;;;;;;;;;;;;;x
+EVTOPTYelfchild.3;I want to be called "Galion".;;;;;;;;;;;;;x
+EVTOPTZelfchild.3;I want to be called "Haldir".;;;;;;;;;;;;;x
+EVTOPTAAelfchild.3;I want to be called "Ithilbor".;;;;;;;;;;;;;x
+EVTOPTABelfchild.3;I want to be called "Orophin".;;;;;;;;;;;;;x
+EVTOPTACelfchild.3;I want to be called "Saeros".;;;;;;;;;;;;;x
+EVTOPTADelfchild.3;I want to be called "Belenthrond".;;;;;;;;;;;;;x
+EVTOPTAEelfchild.3;I want to be called "I'll keep my name.;;;;;;;;;;;;;x
