@@ -64,6 +64,14 @@ character_event = {
 			trait = pneumonic
 		}
 		modifier = {
+			factor = 1.25
+			trait = syphilitic
+		}
+		modifier = {
+			factor = 2.0
+			trait = leper
+		}
+		modifier = {
 			factor = 1.15
 			trait = wounded
 		}
@@ -161,6 +169,7 @@ character_event = {
 	
 	trigger = {
 		is_married = yes
+		religion = catholic
 		num_of_children = 1
 		any_child = {
 			is_primary_heir = yes
@@ -461,6 +470,11 @@ character_event = {
 				modifier = opinion_poisonous_woman
 				who = ROOT
 				years = 5
+			}
+			character_event = { #I was pardoned!
+				id = 3010
+				days = 10
+				tooltip = "EVTTOOLTIP3010"
 			}
 		}
 	}
@@ -776,6 +790,13 @@ character_event = {
 				years = 5
 			}
 		}
+		FROM = {
+			character_event = { #I was pardoned!
+				id = 3010
+				days = 10
+				tooltip = "EVTTOOLTIP3010"
+			}
+		}
 	}
 }
 
@@ -869,6 +890,13 @@ character_event = {
 				years = 5
 			}
 		}
+		spouse = {
+			character_event = { #I was pardoned!
+				id = 3010
+				days = 10
+				tooltip = "EVTTOOLTIP3010"
+			}
+		}
 	}
 }
 
@@ -900,6 +928,7 @@ character_event = {
 		OR = {
 			trait = ill
 			trait = infirm
+			trait = syphilitic
 			trait = paranoid
 		}	
 	}
@@ -951,6 +980,245 @@ character_event = {
 			reverse_opinion = {
 				modifier = opinion_betrayed
 				who = ROOT
+			}
+		}
+		spouse = {
+			character_event = { #I was pardoned!
+				id = 3010
+				days = 10
+				tooltip = "EVTTOOLTIP3010"
+			}
+		}
+	}
+}
+
+#Homosexual spouse
+character_event = {
+	id = 30025
+	desc = "EVTDESC30025"
+	picture = "GFX_evt_bad_news"
+	
+	only_women = yes
+	age = 20
+	capable_only = yes
+	prisoner = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			trait = ambitious
+			trait = diligent
+			trait = elusive_shadow
+			trait = intricate_webweaver
+
+		}
+		any_child = {
+			OR = {
+				mother = {
+					character = ROOT
+				}
+				father = {
+					character = ROOT
+				}
+			}
+			OR = {
+				is_primary_heir = yes
+				is_pretender = yes
+			}
+		}
+		spouse = {
+			trait = homosexual
+			prisoner = no
+			is_alive = yes
+			is_abroad = no
+			at_location = ROOT
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = charismatic_negotiator
+		}
+		
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA30025"
+		ai_chance = { factor = 100 }
+		piety = 15
+	}
+	
+	option = {
+		name = "EVTOPTB30025"
+		spouse = {
+			character_event = {
+				id = 30026
+				days = 14
+				tooltip = "EVTTOOLTIP30026"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC30025" 
+		spouse = {
+			character_event = {
+				id = 30027
+				days = 14
+				tooltip = "EVTTOOLTIP30027"
+			}
+		}
+	}
+}
+
+# Spouse spreads evil rumors
+character_event = {
+	id = 30026
+	desc = "EVTDESC30026"
+	picture = "GFX_evt_quarrel"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA30026"
+		FROM = {
+			reverse_opinion = {
+				modifier = opinion_betrayed
+				who = ROOT
+				years = 3
+			}
+			character_event = {
+				id = 30029
+				tooltip = "EVTTOOLTIP30029"
+			}
+		}
+	}
+}
+
+# Spouse asks husband/wife to spend more time
+character_event = {
+	id = 30027
+	desc = "EVTDESC30027"
+	picture = "GFX_evt_quarrel"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA30027" #Yes
+		ai_chance = { 
+			factor = 60 
+		
+			modifier = {
+				factor = 1.5
+				FROM = {
+					reverse_opinion = { who = ROOT value = 20 }
+				}
+			}
+		}
+		FROM = {
+			set_character_flag = spouse_said_yes
+			character_event = {
+				id = 30028
+				days = 14
+				tooltip = "EVTTOOLTIPA30028"
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB30027" #No
+		ai_chance = { 
+			factor = 40 
+			
+			modifier = {
+				factor = 2
+				FROM = {
+					NOT = {
+						reverse_opinion = { who = ROOT value = 20 }
+					}
+				}
+			}
+		}
+		FROM = {
+			set_character_flag = spouse_said_no
+			character_event = {
+				id = 30028
+				days = 14
+				tooltip = "EVTTOOLTIPB30028"
+			}
+		}
+	}
+}
+
+# Spouse gets answer
+character_event = {
+	id = 30028
+	desc = "EVTDESC30028"
+	picture = "GFX_evt_bad_news"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA30028"
+		trigger = {
+			has_character_flag = spouse_said_yes
+		}
+		FROM = {
+			reverse_opinion = {
+				modifier = opinion_delighted
+				who = ROOT
+				years = 2
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB30028"
+		trigger = {
+			has_character_flag = spouse_said_no
+		}
+		FROM = {
+			reverse_opinion = {
+				modifier = opinion_disappointed
+				who = ROOT
+				years = 2
+			}
+		}		
+	}
+}
+
+#Spouse chastisies spouse about rumors
+character_event = {
+	id = 30029
+	desc = "EVTDESC30029"
+	picture = "GFX_evt_bad_news"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_tooltip = {
+			FROM = {
+				remove_opinion = {
+					modifier = opinion_betrayed
+					who = ROOT
+				} 
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA30029"
+		FROM = {
+			opinion = {
+				modifier = opinion_betrayed
+				who = ROOT
+				years = 3
 			}
 		}
 	}
@@ -2407,6 +2675,9 @@ character_event = {
 		NOT = {
 			has_character_modifier = learning_advice
 		}
+		NOT = {
+			religion_group = muslim
+		}
 		spouse = {
 			learning = 10
 			prisoner = no
@@ -2495,7 +2766,7 @@ character_event = {
 		}
 		any_courtier = {
 			OR = {
-				is_lover = prev
+				lover = { character = prev }
 				reverse_opinion = { who = ROOT value = 40 }
 			}
 			is_councillor = no
@@ -2556,7 +2827,7 @@ character_event = {
 		random_courtier = {
 			limit = {
 				OR = {
-					is_lover = prev
+					lover = { character = prev }
 					reverse_opinion = { who = ROOT value = 40 }
 				}
 				is_councillor = no
@@ -2690,7 +2961,7 @@ character_event = {
 		independent = no
 		any_courtier = {
 			OR = {
-				is_lover = prev
+				lover = { character = prev }
 				reverse_opinion = { who = ROOT value = 40 }
 			}
 			is_councillor = no
@@ -2749,7 +3020,7 @@ character_event = {
 		random_courtier = {
 			limit = {
 				OR = {
-				is_lover = prev
+				lover = { character = prev }
 					reverse_opinion = { who = ROOT value = 40 }
 				}
 				is_councillor = no
@@ -2883,7 +3154,7 @@ character_event = {
 		independent = no
 		any_courtier = {
 			OR = {
-				is_lover = prev
+				lover = { character = prev }
 				reverse_opinion = { who = ROOT value = 40 }
 			}
 			is_councillor = no
@@ -2944,7 +3215,7 @@ character_event = {
 		random_courtier = {
 			limit = {
 				OR = {
-					is_lover = prev
+					lover = { character = prev }
 					reverse_opinion = { who = ROOT value = 40 }
 				}
 				is_councillor = no
@@ -3076,7 +3347,7 @@ character_event = {
 		independent = no
 		any_courtier = {
 			OR = {
-				is_lover = prev
+				lover = { character = prev }
 				reverse_opinion = { who = ROOT value = 40 }
 			}
 			is_councillor = no
@@ -3137,7 +3408,7 @@ character_event = {
 		random_courtier = {
 			limit = {
 				OR = {
-					is_lover = prev
+					lover = { character = prev }
 					reverse_opinion = { who = ROOT value = 40 }
 				}
 				is_councillor = no
@@ -3268,10 +3539,18 @@ character_event = {
 		NOT = {
 			demesne_size = 1
 		}
+		NOT = {
+			religion_group = muslim
+		}
+		spouse = {
+			NOT = {
+				religion_group = muslim
+			}
+		}
 		independent = no
 		any_courtier = {
 			OR = {
-				is_lover = prev
+				lover = { character = prev }
 				reverse_opinion = { who = ROOT value = 40 }
 			}
 			is_councillor = no
@@ -3332,7 +3611,7 @@ character_event = {
 		random_courtier = {
 			limit = {
 				OR = {
-				is_lover = prev
+				lover = { character = prev }
 					reverse_opinion = { who = ROOT value = 40 }
 				}
 				is_councillor = no
@@ -3476,7 +3755,7 @@ character_event = {
 		any_courtier = {
 			is_female = no
 			OR = {
-				is_lover = prev
+				lover = { character = prev }
 				reverse_opinion = { who = ROOT value = 40 }
 			}
 		}
@@ -3520,11 +3799,14 @@ character_event = {
 					trait = celibate
 				}
 				NOT = {
+					trait = homosexual
+				}
+				NOT = {
 					family = ROOT
 				}
 				is_close_relative = no
 				OR = {
-					is_lover = prev
+					lover = { character = prev }
 					reverse_opinion = { who = ROOT value = 40 }
 				}
 			}
@@ -3971,13 +4253,13 @@ character_event = {
 #Courtier
 character_event = {
 	id = 30087
-	desc = "EVTDESC30087"
+	desc = "New Friend"
 	picture = GFX_evt_courtiers_talking
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA30087"
+		name = "Great!"
 		set_character_flag = new_friend
 		FROM = {
 			character_event = {
@@ -4385,13 +4667,13 @@ character_event = {
 #Courtier: Perfect activity
 character_event = {
 	id = 30093
-	desc = "EVTDESC30093"
+	desc = "Perfect Activity"
 	picture = GFX_evt_courtiers_talking
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA30093"
+		name = "Friends forever!"
 		ai_chance = {
 			factor = 10
 			
@@ -4420,7 +4702,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB30093"
+		name = "Let's try again!"
 		ai_chance = { factor = 90 }
 		FROM = {
 			character_event = {
@@ -4433,13 +4715,13 @@ character_event = {
 #Courtier: Failed Activity
 character_event = {
 	id = 30094
-	desc = "EVTDESC30094"
+	desc = "Failed Activity"
 	picture = GFX_evt_courtiers_talking
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA30094"
+		name = "Too bad!"
 		ai_chance = {
 			factor = 10
 			
@@ -4467,7 +4749,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB30094"
+		name = "Let's try again!"
 		ai_chance = { factor = 90 }
 		FROM = {
 			character_event = {
@@ -5042,5 +5324,92 @@ character_event = {
 	option = {
 		name = "EVTOPTB30105"
 		piety = 10
+	}
+}
+
+### Wife offers advice - Muslim: Learning ###
+character_event = {
+	id = 30110
+	desc = "EVTDESC30110"
+	picture = GFX_evt_council
+	
+	age = 20
+	only_men = yes
+	prisoner = no
+	capable_only = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		is_councillor = no
+		NOT = {
+			learning = 8
+		}
+		NOT = {
+			has_character_modifier = learning_advice
+		}
+		religion_group = muslim
+		spouse = {
+			learning = 10
+			prisoner = no
+			is_alive = yes
+			is_abroad = no
+			at_location = ROOT
+			NOT = {
+				trait = slow
+			}
+			NOT = {
+				trait = imbecile
+			}
+			NOT = {	
+				has_opinion_modifier = { who = ROOT modifier = opinion_denied_advice }
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			spouse = { trait = diligent }
+		}
+		modifier = {
+			factor = 0.5
+			spouse = { trait = content }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA30110"
+		add_character_modifier = {
+			name = learning_advice
+			duration = 1825
+		}
+		random_list = {
+			20 = {
+				change_learning = 1
+			}
+			80 = {
+				add_trait = content
+				hidden_tooltip = {
+					character_event = {
+						id = 38279 #Notify Content
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB30110"
+		prestige = 10
+		spouse = {
+			opinion = {
+				modifier = opinion_denied_advice
+				who = ROOT
+				years = 2
+			}
+		}
 	}
 }
