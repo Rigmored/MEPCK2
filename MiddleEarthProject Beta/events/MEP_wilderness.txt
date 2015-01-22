@@ -24,38 +24,32 @@ province_event = {
 		}		
 		random_list = {
 			20 = {
-				FROM = {
-					province_event = { id = colonisation.4 days = 30 } # A disease in the encampment
-				}
+				province_event = { id = colonisation.4 days = 30 } # A disease in the encampment
 			}
 			20 = {
-				FROM = {
-					province_event = { id = colonisation.8 days = 15 } # Wolves attack
-				}
+				province_event = { id = colonisation.8 days = 15 } # Wolves attack
 			}		
 			40 = {
-				FROM = {
-					province_event = { id = colonisation.15 days = 45 } # Settlers in former fortress
-				}
+				province_event = { id = colonisation.15 days = 45 } # Settlers in former fortress
 			}			
 		}	
 	}
 	
 	option = {
 		name = "colonisation0opt2" #Not now !
-		trigger = { ai = no }
+		trigger = { owner = { ai = no } }
 	}
 } 
 
 ##Sauron colonizes with orcs##
 province_event = {
 	id = colonisation.1
-	desc = "There are emptly lands where the people have fled before your armies, should we send in orcs to settle it?"
+	desc = "EVTDESCcolonisation.1"
 	picture = "GFX_shadows_coming"
 	is_triggered_only = yes
 
 	option = {
-		name = "Send in the orcs!" #Let's go!
+		name = "EVTOPTAcolonisation.1" #Let's go!
 		owner = {
 			job_treasurer = {
 				location = {					
@@ -74,20 +68,20 @@ province_event = {
 	}
 	
 	option = {
-		name = "Not yet." #Not now !
-		trigger = { ai = no }
+		name = "colonisation0opt2" #Not now !
+		trigger = { owner = { ai = no } }
 	}
 } 
 
 ##Saruman colonizes with Uruks##
 province_event = {
 	id = colonisation.2
-	desc = "There are empty lands where the people have fled before your armies, should we send in Uruk-Hai to settle it?"
+	desc = EVTDESCcolonisation.2
 	picture = "GFX_shadows_coming"
 	is_triggered_only = yes
 
 	option = {
-		name = "Send in the Uruks!" #Let's go!
+		name = EVTOPTAcolonisation.2 #Let's go!
 		owner = {
 			job_treasurer = {
 				location = {					
@@ -100,14 +94,16 @@ province_event = {
 					}
 				}
 			}
-		}		
-		wealth = -100
-		prestige = -50
+		}
+		owner = {		
+			wealth = -100
+			prestige = -50
+		}
 	}
 	
 	option = {
-		name = "Not yet." #Not now !
-		trigger = { ai = no }
+		name = "colonisation0opt2" #Not now !
+		trigger = { owner = { ai = no } }
 	}
 } 
 
@@ -121,7 +117,7 @@ province_event = {
 
 	option = {
 		name = "colonisation4optA" # I'll send more supplies to help them !
-		wealth = -50
+		owner = { wealth = -50 }
 		random_list = {
 			85 = {
 				owner = {
@@ -138,7 +134,7 @@ province_event = {
 	
 	option = {
 		name = "colonisation4optB" # I can't do anything...
-		trigger = { ai = no }
+		trigger = { owner = { ai = no } }
 		random_list = {
 			40 = {
 				owner = {
@@ -165,7 +161,10 @@ character_event = {
 	option = {
 		name = "colonisation5optA" # Perfect, they can work again!
 		FROM = {
-			character_event = { id = colonisation.15 days = 20 } # Go to work once again!
+			any_demesne_province = {
+				limit = { has_province_modifier = being_colonised }
+				province_event = { id = colonisation.15 days = 20 } # Go to work once again!
+			}
 		}
 	}	
 } 
@@ -189,9 +188,7 @@ character_event = {
 		}
 		random = {
 			chance = 10
-			FROM = {
-				add_trait = depressed
-			}
+			add_trait = depressed
 		}				
 	}	
 } 
@@ -207,7 +204,10 @@ character_event = {
 		name = "colonisation7optA" # Perfect, they can work again!
 		prestige = -40
 		FROM = {
-			character_event = { id = colonisation.15 days = 30 } # Go to work once again!
+			any_demesne_province = {
+				limit = { has_province_modifier = being_colonised }
+				province_event = { id = colonisation.15 days = 30 } # Go to work once again!
+			}
 		}		
 	}
 } 
@@ -239,7 +239,7 @@ province_event = {
 	
 	option = {
 		name = "colonisation8optB" # There's some good warriors with them!
-		trigger = { ai = no }
+		trigger = { owner = { ai = no } }
 		random_list = {
 			60 = {
 				owner = {
@@ -256,7 +256,7 @@ province_event = {
 	
 	option = {
 		name = "colonisation8optC" # They must come back!
-		trigger = { ai = no }
+		trigger = { owner = { ai = no } }
 		random_list = {
 			70 = {
 				owner = {
@@ -285,14 +285,10 @@ character_event = {
 		prestige = 50
 		random_list = {
 			20 = {
-				owner = {
-					character_event = { id = colonisation.13 } # You were beaten by a wolf
-				}
+				character_event = { id = colonisation.13 } # You were beaten by a wolf
 			}
 			80 = {
-				owner = {
-					character_event = { id = colonisation.14 } # You're a true hero!
-				}
+				character_event = { id = colonisation.14 } # You're a true hero!
 			}			
 		}
 	}	
@@ -318,9 +314,9 @@ character_event = {
 		}	
 		random = {
 			chance = 10
-			FROM = {
+			FROM = { owner = {
 				add_trait = depressed
-			}
+			} }
 		}			
 	}	
 } 
@@ -336,13 +332,13 @@ character_event = {
 		name = "colonisation11optA" # Perfect!
 		prestige = -40
 			FROM = {
-					character_event = { id = colonisation.15 days = 30 } # They needs more supplies!
-			}			
+					province_event = { id = colonisation.15 days = 30 } # They needs more supplies!
+			}	
 			random = {
 				chance = 30
-					FROM = {
+					FROM = { owner = {
 						add_trait = craven
-					}
+					} }
 			}
 			random = {
 				chance = 20
@@ -373,7 +369,7 @@ character_event = {
 		name = "colonisation12optA" # Oh no...
 		prestige = -50
 		clr_character_flag = colonizationwilderness	
-		random_demesne_province = {
+		any_demesne_province = {
 			limit = {
 				has_province_modifier = being_colonised
 			}
@@ -381,9 +377,9 @@ character_event = {
 		}	
 		random = {
 			chance = 33
-			FROM = {
+			FROM = { owner = {
 				add_trait = craven
-			}
+			} }
 		}		
 	}	
 } 
@@ -395,17 +391,15 @@ character_event = {
 	picture = GFX_evt_colonisation
 	is_triggered_only = yes
 
-	mean_time_to_happen = {
-		days = 1
-	}
-
-
 	option = {
 		name = "colonisation13optA" # It hurts!
 			add_trait = wounded
 			FROM = {
-					character_event = { id = colonisation.15 days = 20 } ## They needs more supplies!
-			}				
+				any_demesne_province = {
+					limit = { has_province_modifier = being_colonised }
+					province_event = { id = colonisation.15 days = 20 } ## They needs more supplies!
+				}
+			}
 			random = {
 				chance = 33
 					FROM = {
@@ -425,9 +419,9 @@ character_event = {
 	option = {
 		name = "colonisation14optA" # They needs to do the job now!
 		prestige = 100	
-			FROM = {
-					character_event = { id = colonisation.15 days = 20 } # They needs more supplies!
-			}		
+			FROM = { location = {
+					province_event = { id = colonisation.15 days = 20 } # They needs more supplies!
+			} }		
 			hidden_tooltip = {
 			random = {
 				chance = 70
@@ -456,7 +450,7 @@ province_event = {
 
 	option = {
 		name = "colonisation15optA" # I'll send them more supplies
-		wealth = -100
+		owner = { wealth = -100 }
 		hidden_tooltip = {
 		random_list = {
 			60 = {
@@ -465,9 +459,7 @@ province_event = {
 				}
 			}
 			20 = {
-				owner = {
-					province_event = { id = colonisation.20 days = 100 } # More supplies !
-				}
+				province_event = { id = colonisation.20 days = 100 } # More supplies !
 			}
 			20 = {
 				owner = {
@@ -487,9 +479,7 @@ province_event = {
 				}
 			}
 			20 = {
-				owner = {
-					province_event = { id = colonisation.20 days = 100 } # More supplies !
-				}
+				province_event = { id = colonisation.20 days = 100 } # More supplies !
 			}
 			40 = {
 				owner = {
@@ -517,10 +507,7 @@ character_event = {
 			limit = {
 				job_treasurer = {
 					location = {
-						add_province_modifier = {
-							name = being_colonised
-							duration = -1
-						}
+						has_province_modifier = being_colonised
 					}
 				}
 			}
@@ -610,7 +597,9 @@ province_event = {
 
 	option = {
 		name = "colonisation20optA" # I'll send them more supplies
-		wealth = -50
+		owner = {
+			wealth = -50
+		}
 		hidden_tooltip = {
 			random_list = {
 				60 = {
@@ -664,7 +653,7 @@ province_event = {
 
 character_event = {
 	id = colonisation.100
-	desc = "EVTDESCcultureconversion.100"
+	desc = "EVTDESCcolonisation.100"
 	picture = GFX_evt_throne_room
 	
 	trigger = {
@@ -708,7 +697,7 @@ character_event = {
 
 character_event = {
 	id = colonisation.101
-	desc = "EVTDESCcultureconversion.101"
+	desc = "EVTDESCcolonisation.101"
 	picture = GFX_evt_throne_room
 	
 	trigger = {

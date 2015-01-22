@@ -42,3 +42,15 @@ being_colonised;Being Settled;Colonisation;;;;;;;;;;;;x
 colonisation_de20;Your settlers continue to have hardships at need your continued material support.;Vos colons ont des difficultés et ont besoin d'un soutien matériel.;;;;;;;;;;;;x
 colonisation20optA;This better pay off.;Je vais leur envoyer.;;;;;;;;;;;;x
 colonisation20optB;They'll have to fend for themselves.;Ils doivent se débrouiller.;;;;;;;;;;;;x
+EVTDESCcolonisation.100;Successful colonisation!;;;;;;;;;;;;;x
+EVTOPTAcolonisation.100;This land is ours now!;;;;;;;;;;;;;x
+EVTDESCcolonisation.101;Colonisation end.;;;;;;;;;;;;;x
+EVTOPTAcolonisation.101;OK;;;;;;;;;;;;;x
+EVTDESCcolonisation.1;There are emptly lands where the people have fled before your armies, should we send in orcs to settle it?;;;;;;;;;;;;;x
+EVTOPTAcolonisation.1;Send in the orcs!;;;;;;;;;;;;;x
+EVTDESCcolonisation.2;There are empty lands where the people have fled before your armies, should we send in Uruk-Hai to settle it?;;;;;;;;;;;;;x
+EVTOPTAcolonisation.2;Send in the Uruks!;;;;;;;;;;;;;x
+colonize_with_orcs;Colonize with orcs;;;;;;;;;;;;;x
+colonize_with_orcs_desc;Colonize with orcs.;;;;;;;;;;;;;x
+colonize_with_uruk_hai;Colonize with uruk hai;;;;;;;;;;;;;x
+colonize_with_uruk_hai_desc;Colonize with uruk hai.;;;;;;;;;;;;;x

@@ -37,9 +37,9 @@ decisions = {
 		}
 	
 		effect = {
-			FROM = {					
+			job_treasurer = { location = {				
 				province_event = { id ="colonisation.0" } 					
-			}
+			} }
 		}
 	
 	
@@ -51,7 +51,7 @@ decisions = {
 
 
 ##Sauron's Colonization Decision##
-"Colonize with Orcs"  = {		
+colonize_with_orcs  = {		
 	is_high_prio = no
 	potential = {			
 		job_treasurer = { is_alive = yes }
@@ -85,9 +85,9 @@ decisions = {
 	}
 	
 	effect = {
-		FROM = {
+		job_treasurer = { location = {				
 			province_event = { id ="colonisation.1" } 		
-		}	
+		} }
 	}
 		
 	ai_will_do = {
@@ -99,7 +99,7 @@ decisions = {
 
 
 	##Evil Saruman's Colonization Decision##
-	"Colonize with Uruk-Hai"  = {		
+	colonize_with_uruk_hai  = {		
 		is_high_prio = no
 	
 		potential = {
@@ -134,9 +134,9 @@ decisions = {
 		}
 	
 		effect = {
-			FROM = {
+			job_treasurer = { location = {				
 				province_event = { id ="colonisation.2" } 
-			}	
+			} }
 		}
 		
 		ai_will_do = {
