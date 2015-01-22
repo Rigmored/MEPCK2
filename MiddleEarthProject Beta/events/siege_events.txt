@@ -1106,10 +1106,6 @@ narrative_event = {
 		siege = {
 			is_attacker = no
 		}
-		religion_group = christian
-		enemy = {
-			religion_group = pagan_group
-		}
 	}
 
 	weight_multiplier = {
@@ -1210,10 +1206,6 @@ narrative_event = {
 	trigger = {
 		siege = {
 			is_attacker = no
-		}
-		religion_group = christian
-		enemy = {
-			religion_group = muslim
 		}
 	}
 
@@ -1316,10 +1308,6 @@ narrative_event = {
 	trigger = {
 		siege = {
 			is_attacker = no
-		}
-		religion_group = muslim
-		enemy = {
-			NOT = { religion_group = muslim }
 		}
 	}
 
@@ -1427,10 +1415,6 @@ character_event = {
 		NOT = {	trait = cynical	}
 		NOT = {	trait = maimed	}
 		NOT = {	trait = wounded	}
-		religion_group = christian 
-		enemy = {
-			NOT = { religion_group = christian }
-		}		
 	}
 
 	weight_multiplier = {
@@ -1526,8 +1510,6 @@ character_event = {
 		OR = {
 			trait = ill
 			trait = pneumonic
-			trait = leper
-			trait = syphilitic
 		}
 		NOT = {
 			trait = craven
@@ -1663,14 +1645,6 @@ character_event = {
 		new_character = {
 			NOT = { has_landed_title = e_rebels }
 			rebel = no
-			NOT = { # Handled by SSI.61
-				OR = {
-					has_landed_title = e_mexikha
-					any_liege = {
-						has_landed_title = e_mexikha
-					}
-				}
-			}
 		}
 		
 		OR = {
@@ -1725,12 +1699,6 @@ character_event = {
 		modifier = {
 			factor = 2
 			is_female = yes
-			new_character = {
-				OR = {
-					religion_group = pagan_group
-					religion_group = zoroastrian_group
-				}
-			}
 		}
 		modifier = {
 			factor = 4 # Free prisoner
