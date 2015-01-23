@@ -955,6 +955,19 @@
 		}
 		modifier = {
 			factor = 0
+			culture = culture_wraith
+			OR = {
+				NOT = { has_landed_title = e_angmar }
+				NOT = { has_landed_title = e_barad_dur }
+			}
+		}	
+		modifier = {
+			factor = 5000
+			culture = culture_wraith
+			trait = ring_murazor
+		}		
+		modifier = {
+			factor = 0
 			is_feudal = no
 		}
 		modifier = {
@@ -994,6 +1007,18 @@
 			factor = 0
 			is_feudal = no
 		}
+		modifier = {
+			factor = 5000
+			culture = culture_wraith
+			trait = ring_khamul
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wraith
+			NOT = {
+				trait = ring_khamul
+			}
+		}			
 		modifier = {
 			factor = 0
 			OR = {
