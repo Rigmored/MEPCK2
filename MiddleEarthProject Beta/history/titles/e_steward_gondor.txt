@@ -2,6 +2,11 @@
 	law = agnatic_succession
 	law = succ_primogeniture
 	law = centralization_3
+    law = crown_authority_3
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 10393.1.1=
 {
@@ -47,7 +52,7 @@ holder = 1926 # Denethor I
 {
 holder = 1927 # Boromir
 }
-10820.1.1=
+10832.1.1=
 {
 holder = 1928 # Cirion
 }

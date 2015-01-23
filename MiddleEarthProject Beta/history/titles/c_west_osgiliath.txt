@@ -78,7 +78,7 @@ holder = 1926 # Denethor I
 {
 holder = 1927 # Boromir
 }
-10820.1.1=
+10832.1.1=
 {
 holder = 1928 # Cirion
 }

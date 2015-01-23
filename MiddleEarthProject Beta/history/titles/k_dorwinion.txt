@@ -1,8 +1,13 @@
 500.1.1=
 {
 law = agnatic_succession
-law = succ_primogeniture
-law = centralization_2
+	law = succ_primogeniture
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 4771.1.1=
 {
@@ -20,6 +25,14 @@ holder = 0
 {
 holder = 9009 # Vidugavia
 liege = e_rhovanion
+law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 9637.1.1=
 {
@@ -88,6 +101,14 @@ liege = 0
 10215.1.1=
 {
 holder = 9105 # Osred
+law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 10249.1.1=
 {

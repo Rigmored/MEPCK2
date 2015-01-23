@@ -1,7 +1,12 @@
 500.1.1={
 	law = succ_feudal_elective
 	law = agnatic_succession
-	law = centralization_4
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 8221.1.1=
 {
@@ -30,6 +35,14 @@ holder =  0
 9011.1.1=
 {
 holder =  13042 # Adunabar 
+law = succ_feudal_elective
+	law = agnatic_succession
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 9068.1.1=
 {
@@ -58,6 +71,14 @@ holder =  0
 9757.1.1=
 {
 holder =  13085 # Arukhuran
+law = succ_feudal_elective
+	law = agnatic_succession
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 9855.1.1=
 {
@@ -94,6 +115,14 @@ holder =  0
 10468.1.1=
 {
 holder =  6008 # Haidar II
+law = succ_feudal_elective
+	law = agnatic_succession
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 10524.1.1=
 {

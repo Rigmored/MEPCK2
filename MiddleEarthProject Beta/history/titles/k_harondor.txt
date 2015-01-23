@@ -2,7 +2,6 @@
 	law = agnatic_succession
 	law = succ_primogeniture
 	law = centralization_3
-	law = investiture_law_1
 }
 6720.1.1=
 {
@@ -170,7 +169,7 @@ holder =  20022 # Tarandor
 }
 9790.1.1=
 {
-liege=""
+liege=0
 } # Harondor and Umbar secede from Gondor following the Kin-strife
 9817.1.1=
 {
