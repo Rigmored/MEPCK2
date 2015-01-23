@@ -27,5 +27,12 @@ EVTOPTA30093;Friends forever!;;;;;;;;;;;;;x
 EVTOPTB30093;Let's try again!;;;;;;;;;;;;;x
 EVTDESC30087;A new courtier friend.;;;;;;;;;;;;;x
 EVTOPTA30087;Great!;;;;;;;;;;;;;x
+EVTOPTD3602;OK;;;;;;;;;;;;;x
+NotShown;NotShown;;;;;;;;;;;;;x
+EVTDESC45340;Death of a dynasty member.;;;;;;;;;;;;;x
+EVTOPTA45340;OK;;;;;;;;;;;;;x
+EVTDESC209;A gift is sent.;;;;;;;;;;;;;x
+A;A;;;;;;;;;;;;;x
+B;B;;;;;;;;;;;;;x
 #that's a cool event debug thingy imo
 DEBUGDESC;EVENT = $EVENT$,\nROOT = [Root.GetBestName] ([Root.GetID]),\nTHIS = [This.GetBestName] ([This.GetID]),\nFROM = [From.GetBestName] ([From.GetID]),\nFROMFROM = [FromFrom.GetBestName] ([FromFrom.GetID]);;;;;;x

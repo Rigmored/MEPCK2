@@ -543,3 +543,9 @@ EVTTITarnorgondor.9;The Dunedain;Les Dunedains;;;;;;;;;;;;x
 EVTDESCarnorgondor.9;You are now the King of one of the ancients Numenorian's Kingdoms in Exile. The title of Chief of the Dunedain of North is no more interesting for you, and you should abandon it to keep only the one that counts: the title of King! What do you think?;Vous êtes maintenant le Roi d'un des anciens royaumes Numénoréens en Exil. Le titre de chef des Dunedains du Nord ne vous est plus d'aucun interêt, et vous devriez l'abandonner pour ne garder que celui qui compte : le titre de Roi! Qu'en pensez-vous?;;;;;;;;;;;;x
 EVTOPTAarnorgondor.9;I don't need to hold this title anymore.;Je n'ai plus besoin de ce titre.;;;;;;;;;;;;x
 EVTOPTBarnorgondor.9;This is the title of my family!;C'est le titre de ma lignée !;;;;;;;;;;;;x
+EVTvalinor.14;Ringbearers depart;;;;;;;;;;;;;;x
+EVTDESCvalinor.14;Ringbearers depart;;;;;;;;;;;;;;x
+EVTOPTAvalinor.14;Do you want to join the Ringbearergbearers depart;;;;;;;;;;;;;;x
+EVTvalinor.12;Aragorn is dead...;;;;;;;;;;;;;;x
+EVTDESCvalinor.12;Aragorn is dead...;;;;;;;;;;;;;;x
+EVTOPTAvalinor.12;I'll die too...;;;;;;;;;;;;;;x
