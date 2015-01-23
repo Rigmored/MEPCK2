@@ -1,8 +1,13 @@
 500.1.1=
 {
 law = agnatic_succession
-law = succ_primogeniture
-law = centralization_2
+	law = succ_primogeniture
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }9600.1.1=
 {
 holder = 20053
@@ -88,6 +93,14 @@ holder = 0 # Smaug is in Erebor
 11287.1.1=
 {
 holder = 9905 # Bard I
+law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 11320.1.1=
 {
