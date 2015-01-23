@@ -4,7 +4,7 @@ decisions = {
 	
 		potential = {		
 			job_treasurer = { is_alive = yes }
-			any_demesne_province = {
+			any_realm_province = {
 				OR = {
 					religion = religion_wilderness
 					culture = culture_wilderness
@@ -37,11 +37,8 @@ decisions = {
 		}
 	
 		effect = {
-			job_treasurer = { location = {				
-				province_event = { id ="colonisation.0" } 					
-			} }
+			character_event = { id ="colonisation.0" } 					
 		}
-	
 	
 		ai_will_do = {
 			factor = 100	
@@ -85,9 +82,7 @@ colonize_with_orcs  = {
 	}
 	
 	effect = {
-		job_treasurer = { location = {				
-			province_event = { id ="colonisation.1" } 		
-		} }
+		character_event = { id ="colonisation.1" } 		
 	}
 		
 	ai_will_do = {
@@ -134,9 +129,7 @@ colonize_with_orcs  = {
 		}
 	
 		effect = {
-			job_treasurer = { location = {				
-				province_event = { id ="colonisation.2" } 
-			} }
+			character_event = { id ="colonisation.2" } 
 		}
 		
 		ai_will_do = {

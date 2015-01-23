@@ -50,7 +50,11 @@ EVTDESCcolonisation.1;There are emptly lands where the people have fled before y
 EVTOPTAcolonisation.1;Send in the orcs!;;;;;;;;;;;;;x
 EVTDESCcolonisation.2;There are empty lands where the people have fled before your armies, should we send in Uruk-Hai to settle it?;;;;;;;;;;;;;x
 EVTOPTAcolonisation.2;Send in the Uruks!;;;;;;;;;;;;;x
-colonize_with_orcs;Colonize with orcs;;;;;;;;;;;;;x
-colonize_with_orcs_desc;Colonize with orcs.;;;;;;;;;;;;;x
-colonize_with_uruk_hai;Colonize with uruk hai;;;;;;;;;;;;;x
-colonize_with_uruk_hai_desc;Colonize with uruk hai.;;;;;;;;;;;;;x
+colonize_with_orcs;Colonise with orcs;;;;;;;;;;;;;x
+colonize_with_orcs_desc;Colonise with orcs.;;;;;;;;;;;;;x
+colonize_with_uruk_hai;Colonise with uruk hai;;;;;;;;;;;;;x
+colonize_with_uruk_hai_desc;Colonise with uruk hai.;;;;;;;;;;;;;x
+opinion_colonizes_my_province;Colonises my province;;;;;;;;;;;;;x
+opinion_colonized_my_province;Colonised my province;;;;;;;;;;;;;x
+opinion_colonizes_my_province_wrong;Colonises my province;;;;;;;;;;;;;x
+opinion_colonized_my_province_wrong;Colonised my province;;;;;;;;;;;;;x

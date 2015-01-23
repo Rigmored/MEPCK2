@@ -1,6 +1,6 @@
 namespace = colonisation
 
-province_event = {
+character_event = {
 	id = colonisation.0
 	desc = "colonisation_de1"
 	picture = GFX_evt_colonisation
@@ -9,40 +9,85 @@ province_event = {
 	option = {
 		name = "colonisation0opt1" #Let's go!
 		
-		owner = {
-			job_treasurer = {
-				location = {
-					add_province_modifier = {
-						name = being_colonised
-						duration = -1
+		job_treasurer = {
+			location = {
+				add_province_modifier = {
+					name = being_colonised
+					duration = -1
+				}
+			}
+		}
+		wealth = -100
+		if = {
+			limit = {
+				job_treasurer = {
+					location = {
+						owner = {
+							is_liege_or_above = ROOT
+							culture = ROOT
+							religion = ROOT
+						}
 					}
 				}
 			}
-			
-			wealth = -100
-			set_character_flag = colonizationwilderness
-		}		
+			job_treasurer = {
+				location = {
+					owner = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_colonizes_my_province
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				job_treasurer = {
+					location = {
+						owner = {
+							is_liege_or_above = ROOT
+							OR = {
+								NOT = { culture = ROOT }
+								NOT = { religion = ROOT }
+							}
+						}
+					}
+				}
+			}
+			job_treasurer = {
+				location = {
+					owner = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_colonizes_my_province_wrong
+						}
+					}
+				}
+			}
+		}
+		set_character_flag = colonizationwilderness
 		random_list = {
 			20 = {
-				province_event = { id = colonisation.4 days = 30 } # A disease in the encampment
+				character_event = { id = colonisation.4 days = 30 } # A disease in the encampment
 			}
 			20 = {
-				province_event = { id = colonisation.8 days = 15 } # Wolves attack
+				character_event = { id = colonisation.8 days = 15 } # Wolves attack
 			}		
 			40 = {
-				province_event = { id = colonisation.15 days = 45 } # Settlers in former fortress
+				character_event = { id = colonisation.15 days = 45 } # Settlers in former fortress
 			}			
 		}	
 	}
 	
 	option = {
 		name = "colonisation0opt2" #Not now !
-		trigger = { owner = { ai = no } }
+		trigger = { ai = no }
 	}
 } 
 
 ##Sauron colonizes with orcs##
-province_event = {
+character_event = {
 	id = colonisation.1
 	desc = "EVTDESCcolonisation.1"
 	picture = "GFX_shadows_coming"
@@ -50,31 +95,29 @@ province_event = {
 
 	option = {
 		name = "EVTOPTAcolonisation.1" #Let's go!
-		owner = {
-			job_treasurer = {
-				location = {					
-					culture = culture_orkish
-					if = {
-						limit = {
-							NOT = { religion = ROOT }
-						}
-						religion = religion_orkish
+		job_treasurer = {
+			location = {					
+				culture = culture_orkish
+				if = {
+					limit = {
+						NOT = { religion = ROOT }
 					}
+					religion = religion_orkish
 				}
 			}
-			wealth = -100
-			prestige = -50
 		}
+		wealth = -100
+		prestige = -50
 	}
 	
 	option = {
 		name = "colonisation0opt2" #Not now !
-		trigger = { owner = { ai = no } }
+		trigger = { ai = no }
 	}
 } 
 
 ##Saruman colonizes with Uruks##
-province_event = {
+character_event = {
 	id = colonisation.2
 	desc = EVTDESCcolonisation.2
 	picture = "GFX_shadows_coming"
@@ -82,34 +125,30 @@ province_event = {
 
 	option = {
 		name = EVTOPTAcolonisation.2 #Let's go!
-		owner = {
-			job_treasurer = {
-				location = {					
-					culture = culture_urukhai
-					if = {
-						limit = {
-							NOT = { religion = ROOT }
-						}
-						religion = religion_orkish
+		job_treasurer = {
+			location = {					
+				culture = culture_urukhai
+				if = {
+					limit = {
+						NOT = { religion = ROOT }
 					}
+					religion = religion_orkish
 				}
 			}
 		}
-		owner = {		
-			wealth = -100
-			prestige = -50
-		}
+		wealth = -100
+		prestige = -50
 	}
 	
 	option = {
 		name = "colonisation0opt2" #Not now !
-		trigger = { owner = { ai = no } }
+		trigger = { ai = no }
 	}
 } 
 
 ## Your colons are decimed by a desease ##
 
-province_event = {
+character_event = {
 	id = colonisation.4
 	desc = "colonisation_de4"
 	picture = GFX_evt_colonisation
@@ -117,34 +156,26 @@ province_event = {
 
 	option = {
 		name = "colonisation4optA" # I'll send more supplies to help them !
-		owner = { wealth = -50 }
+		wealth = -50
 		random_list = {
 			85 = {
-				owner = {
-					character_event = { id = colonisation.5 days = 20 } # You saved them!
-				}
+				character_event = { id = colonisation.5 days = 20 } # You saved them!
 			}
 			15 = {
-				owner = {
-					character_event = { id = colonisation.6 days = 30 } # The Colony is lost
-				}
+				character_event = { id = colonisation.6 days = 30 } # The Colony is lost
 			}
 		}
 	}
 	
 	option = {
 		name = "colonisation4optB" # I can't do anything...
-		trigger = { owner = { ai = no } }
+		trigger = { ai = no }
 		random_list = {
 			40 = {
-				owner = {
-					character_event = { id = colonisation.7 days = 20 } # The epidemic has ended
-				}
+				character_event = { id = colonisation.7 days = 20 } # The epidemic has ended
 			}
 			60 = {
-				owner = {
-					character_event = { id = colonisation.6 days = 30 } # The Colony is lost
-				}
+				character_event = { id = colonisation.6 days = 30 } # The Colony is lost
 			}
 		}		
 	}
@@ -160,11 +191,8 @@ character_event = {
 
 	option = {
 		name = "colonisation5optA" # Perfect, they can work again!
-		FROM = {
-			any_demesne_province = {
-				limit = { has_province_modifier = being_colonised }
-				province_event = { id = colonisation.15 days = 20 } # Go to work once again!
-			}
+		hidden_tooltip = {
+			character_event = { id = colonisation.15 days = 20 } # Go to work once again!
 		}
 	}	
 } 
@@ -179,12 +207,14 @@ character_event = {
 	option = {
 		name = "colonisation6optA" # Damn!
 		prestige= -100
-		clr_character_flag = colonizationwilderness	
-		random_demesne_province = {
-			limit = {
-				has_province_modifier = being_colonised
+		hidden_tooltip = {
+			clr_character_flag = colonizationwilderness	
+			any_realm_province = {
+				limit = {
+					has_province_modifier = being_colonised
+				}
+				remove_province_modifier = being_colonised
 			}
-			remove_province_modifier = being_colonised
 		}
 		random = {
 			chance = 10
@@ -203,19 +233,16 @@ character_event = {
 	option = {
 		name = "colonisation7optA" # Perfect, they can work again!
 		prestige = -40
-		FROM = {
-			any_demesne_province = {
-				limit = { has_province_modifier = being_colonised }
-				province_event = { id = colonisation.15 days = 30 } # Go to work once again!
-			}
-		}		
+		hidden_tooltip = {
+			character_event = { id = colonisation.15 days = 30 } # Go to work once again!
+		}
 	}
 } 
 
 
 ## Your colons are attacked by wolves ! ##
 
-province_event = {
+character_event = {
 	id = colonisation.8
 	desc = "colonisation_de8"
 	picture = GFX_evt_colonisation
@@ -225,48 +252,36 @@ province_event = {
 		name = "colonisation8optA" # I'll go to help them!
 		random_list = {
 			80 = {
-				owner = {
-					character_event = { id = colonisation.9 days = 4 } # You saved them!
-				}
+				character_event = { id = colonisation.9 days = 4 } # You saved them!
 			}
 			20 = {
-				owner = {
-					character_event = { id = colonisation.10 days = 4 } # All the colons were killed when you came...
-				}
+				character_event = { id = colonisation.10 days = 4 } # All the colons were killed when you came...
 			}
 		}
 	}
 	
 	option = {
 		name = "colonisation8optB" # There's some good warriors with them!
-		trigger = { owner = { ai = no } }
+		trigger = { ai = no }
 		random_list = {
 			60 = {
-				owner = {
-					character_event = { id = colonisation.11 days = 7 } # They saved themselves!
-				}
+				character_event = { id = colonisation.11 days = 7 } # They saved themselves!
 			}
 			40 = {
-				owner = {
-					character_event = { id = colonisation.6 days = 12 } # The Colony is lost
-				}
+				character_event = { id = colonisation.6 days = 12 } # The Colony is lost
 			}
 		}		
 	}
 	
 	option = {
 		name = "colonisation8optC" # They must come back!
-		trigger = { owner = { ai = no } }
+		trigger = { ai = no }
 		random_list = {
 			70 = {
-				owner = {
-					character_event = { id = colonisation.6 days = 12 } # The colony is lost
-				}
+				character_event = { id = colonisation.6 days = 12 } # The colony is lost
 			}
 			30 = {
-				owner = {
-					character_event = { id = colonisation.12 days = 8 } # Your colons were killed during the travel...
-				}
+				character_event = { id = colonisation.12 days = 8 } # Your colons were killed during the travel...
 			}
 		}		
 	}	
@@ -305,18 +320,18 @@ character_event = {
 	option = {
 		name = "colonisation10optA" # I was too long...
 		prestige = -100
-		clr_character_flag = colonizationwilderness	
-		random_demesne_province = {
-			limit = {
-				has_province_modifier = being_colonised
+		hidden_tooltip = {
+			clr_character_flag = colonizationwilderness	
+			any_realm_province = {
+				limit = {
+					has_province_modifier = being_colonised
+				}
+				remove_province_modifier = being_colonised
 			}
-			remove_province_modifier = being_colonised
-		}	
+		}
 		random = {
 			chance = 10
-			FROM = { owner = {
-				add_trait = depressed
-			} }
+			add_trait = depressed
 		}			
 	}	
 } 
@@ -331,30 +346,26 @@ character_event = {
 	option = {
 		name = "colonisation11optA" # Perfect!
 		prestige = -40
-			FROM = {
-					province_event = { id = colonisation.15 days = 30 } # They needs more supplies!
+		character_event = { id = colonisation.15 days = 30 } # They needs more supplies!
+		random = {
+			chance = 30
+			add_trait = craven
+		}
+		random = {
+			chance = 20
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 30
+				attributes = {
+					martial = 8
+				}
+				trait = tough_soldier
 			}	
-			random = {
-				chance = 30
-					FROM = { owner = {
-						add_trait = craven
-					} }
-			}
-			random = {
-				chance = 20
-				create_character = {
-					random_traits = yes
-					dynasty = random
-					religion = ROOT
-					culture = ROOT
-					female = no
-					age = 30
-					attributes = {
-						martial = 8
-					}
-					trait = tough_soldier
-				}	
-			}			
+		}			
 	}	
 } 
 
@@ -368,18 +379,15 @@ character_event = {
 	option = {
 		name = "colonisation12optA" # Oh no...
 		prestige = -50
-		clr_character_flag = colonizationwilderness	
-		any_demesne_province = {
-			limit = {
-				has_province_modifier = being_colonised
+		hidden_tooltip = {
+			clr_character_flag = colonizationwilderness	
+			any_realm_province = {
+				remove_province_modifier = being_colonised
 			}
-			remove_province_modifier = being_colonised
-		}	
+		}
 		random = {
 			chance = 33
-			FROM = { owner = {
-				add_trait = craven
-			} }
+			add_trait = craven
 		}		
 	}	
 } 
@@ -393,19 +401,12 @@ character_event = {
 
 	option = {
 		name = "colonisation13optA" # It hurts!
-			add_trait = wounded
-			FROM = {
-				any_demesne_province = {
-					limit = { has_province_modifier = being_colonised }
-					province_event = { id = colonisation.15 days = 20 } ## They needs more supplies!
-				}
-			}
-			random = {
-				chance = 33
-					FROM = {
-						add_trait = brave
-					}
-			}				
+		add_trait = wounded
+		character_event = { id = colonisation.15 days = 20 } ## They needs more supplies!
+		random = {
+			chance = 33
+			add_trait = brave
+		}				
 	}	
 } 
 
@@ -419,30 +420,24 @@ character_event = {
 	option = {
 		name = "colonisation14optA" # They needs to do the job now!
 		prestige = 100	
-			FROM = { location = {
-					province_event = { id = colonisation.15 days = 20 } # They needs more supplies!
-			} }		
-			hidden_tooltip = {
+		character_event = { id = colonisation.15 days = 20 } # They needs more supplies!
+		hidden_tooltip = {
 			random = {
 				chance = 70
-					FROM = {
-						add_trait = brave
-					}
+				add_trait = brave
 			}		
 			random = {
 				chance = 15
-					FROM = {
-						give_nickname = nick_wolfhunter
-					}
+				give_nickname = nick_wolfhunter
 			}
-			}			
+		}			
 	}	
 } 
 
 
 ## Your colons needs more supplies ! ##
 
-province_event = {
+character_event = {
 	id = colonisation.15
 	desc = "colonisation_de15"
 	picture = GFX_evt_colonisation
@@ -450,43 +445,35 @@ province_event = {
 
 	option = {
 		name = "colonisation15optA" # I'll send them more supplies
-		owner = { wealth = -100 }
+		wealth = -100
 		hidden_tooltip = {
-		random_list = {
-			60 = {
-				owner = {
+			random_list = {
+				60 = {
 					character_event = { id = colonisation.16 days = 100 } # They success !
 				}
-			}
-			20 = {
-				province_event = { id = colonisation.20 days = 100 } # More supplies !
-			}
-			20 = {
-				owner = {
-					character_event = { id = colonisation.17 days = 100 } # They Failed
+				20 = {
+					character_event = { id = colonisation.20 days = 100 } # More supplies !
 				}
-			}			
-		}
+				20 = {
+					character_event = { id = colonisation.17 days = 100 } # They Failed
+				}			
+			}
 		}		
 	}
 	option = {
 		name = "colonisation15optB" # I won't send them more supplies
 		hidden_tooltip = {
-		random_list = {
-			40 = {
-				owner = {
+			random_list = {
+				40 = {
 					character_event = { id = colonisation.16 days = 100 } # They success !
 				}
-			}
-			20 = {
-				province_event = { id = colonisation.20 days = 100 } # More supplies !
-			}
-			40 = {
-				owner = {
-					character_event = { id = colonisation.18 days = 100 } # They failed !
+				20 = {
+					character_event = { id = colonisation.20 days = 100 } # More supplies !
 				}
-			}			
-		}
+				40 = {
+					character_event = { id = colonisation.18 days = 100 } # They failed !
+				}			
+			}
 		}		
 	}	
 }
@@ -513,19 +500,21 @@ character_event = {
 			}
 			job_treasurer = {
 				location = {
-					if = {
-						limit = {
-							NOT = { culture = ROOT }
-						}
-						culture = ROOT
+					culture = ROOT
+					religion = ROOT
+					hidden_tooltip = {
+						remove_province_modifier = being_colonised
 					}
-					if = {
-						limit = {
-							NOT = { religion = ROOT }
+					owner = {
+						if = {
+							limit = { has_opinion_modifier = { who = ROOT modifier = opinion_colonizes_my_province }}
+							opinion = { who = ROOT modifier = opinion_colonized_my_province }
 						}
-						religion = ROOT				
+						if = {
+							limit = { has_opinion_modifier = { who = ROOT modifier = opinion_colonizes_my_province_wrong }}
+							opinion = { who = ROOT modifier = opinion_colonized_my_province_wrong }
+						}
 					}
-					remove_province_modifier = being_colonised
 				}	
 			}
 		}
@@ -558,12 +547,12 @@ character_event = {
 	option = {
 		name = "colonisation17optA" # So bad!
 		prestige = -100
-		clr_character_flag = colonizationwilderness	
-		random_demesne_province = {
-			limit = {
-				has_province_modifier = being_colonised
+		hidden_tooltip = {
+			clr_character_flag = colonizationwilderness	
+			any_realm_province = {
+				limit = { has_province_modifier = being_colonised }
+				remove_province_modifier = being_colonised
 			}
-			remove_province_modifier = being_colonised
 		}
 	}	
 } 
@@ -578,18 +567,18 @@ character_event = {
 	option = {
 		name = "colonisation18optA" # So bad!
 		prestige = -100
-		clr_character_flag = colonizationwilderness	
-		random_demesne_province = {
-			limit = {
-				has_province_modifier = being_colonised
+		hidden_tooltip = {
+			clr_character_flag = colonizationwilderness	
+			any_realm_province = {
+				limit = { has_province_modifier = being_colonised }
+				remove_province_modifier = being_colonised
 			}
-			remove_province_modifier = being_colonised
-		}	
+		}
 	}	
 } 
 
 
-province_event = {
+character_event = {
 	id = colonisation.20
 	desc = "colonisation_de20"
 	picture = GFX_evt_colonisation
@@ -597,25 +586,17 @@ province_event = {
 
 	option = {
 		name = "colonisation20optA" # I'll send them more supplies
-		owner = {
-			wealth = -50
-		}
+		wealth = -50
 		hidden_tooltip = {
 			random_list = {
 				60 = {
-					owner = {
-						character_event = { id = colonisation.16 days = 100 } # They success !
-					}
+					character_event = { id = colonisation.16 days = 100 } # They success !
 				}
 				20 = {
-					FROM = {
-						province_event = { id = colonisation.20 days = 100 } # More supplies !
-					}
+					character_event = { id = colonisation.20 days = 100 } # More supplies !
 				}
 				20 = {
-					owner = {
-						character_event = { id = colonisation.17 days = 100 } # They Failed
-					}
+					character_event = { id = colonisation.17 days = 100 } # They Failed
 				}			
 			}
 		}		
@@ -625,19 +606,13 @@ province_event = {
 		hidden_tooltip = {
 			random_list = {
 				40 = {
-					owner = {
-						character_event = { id = colonisation.16 days = 100 } # They success !
-					}
+					character_event = { id = colonisation.16 days = 100 } # They success !
 				}
 				20 = {
-					FROM = {
-						province_event = { id = colonisation.20 days = 100 } # More supplies !
-					}
+					character_event = { id = colonisation.20 days = 100 } # More supplies !
 				}
 				40 = {
-					owner = {
-						character_event = { id = colonisation.18 days = 100 } # They failed !
-					}
+					character_event = { id = colonisation.18 days = 100 } # They failed !
 				}			
 			}
 		}		
