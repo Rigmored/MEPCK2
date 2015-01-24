@@ -1482,6 +1482,10 @@
 	name="Bit Álar"
 	culture = culture_longbeard
 }	
+4010 = {
+	name="Bit Balfor"
+	culture = culture_stonefoot
+}	
 
 ## Easterlings ##
 5001 = { 
@@ -2762,6 +2766,10 @@
 863 = { 
                   name="of Long Cleeve"
                   culture = culture_stoor
+}
+864 = { 
+                  name="Underhill"
+                  culture = culture_fallohide
 }
 
 ## Northmen ##
