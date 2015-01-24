@@ -127,9 +127,17 @@ action_colonize_province = {
 	trigger = {
 		OR = {		
 			owner = { top_liege = { character = FROM } }
+			owner = { liege = { liege = { character = FROM } } }
 			owner = { liege = { character = FROM } }
 			owner = { character = FROM }
-			
+		}
+		NOT = {
+			OR = {
+				owner = { has_character_flag = colonizationwilderness}
+				owner = { liege = { has_character_flag = colonizationwilderness} }
+				owner = { liege = { liege = { has_character_flag = colonizationwilderness} } }
+				owner = { top_liege = { has_character_flag = colonizationwilderness} }
+			}
 		}
 		OR = {		
 			religion = religion_wilderness
