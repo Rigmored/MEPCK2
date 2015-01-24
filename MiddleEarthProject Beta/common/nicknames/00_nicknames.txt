@@ -148,6 +148,9 @@ nick_isenflesc = {}
 nick_the_traitor = {}
 nick_strider = {}
 nick_flourdumpling = {}
+nick_alcarin = {}
+nick_falastur = {}
+nick_greymantle = {}
 
 
 # GIVEN BY TRAITS
