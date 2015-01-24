@@ -6,9 +6,9 @@ claim_narsil = {
 		has_landed_title = e_arnor
 		trait = blood_of_isildur 
 		age = 16
-		capable_only = yes
 		war = no
 		prisoner = no
+		NOT = { trait = incapable }
 		NOT = { trait = narsil } 
 		NOT = { trait = anduril } 		
 		}
@@ -48,9 +48,9 @@ claim_victory_vs_witchking = {
 		has_landed_title = e_arnor
 		trait = blood_of_isildur 
 		age = 16
-		capable_only = yes
 		war = no
 		prisoner = no
+		NOT = { trait = incapable }
 		NOT = { trait = angmardacil } 
 		any_playable_ruler = {
 				trait = ring_murazor
@@ -93,9 +93,9 @@ reforge_narsil = {
 		has_landed_title = e_arnor
 		trait = blood_of_isildur 
 		age = 16
-		capable_only = yes
 		war = no
 		prisoner = no
+		NOT = { trait = incapable }
 		NOT = { trait = anduril } 	
 		trait = narsil
 		}

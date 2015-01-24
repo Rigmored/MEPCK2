@@ -47,10 +47,7 @@ decisions = {
 			NOT = { trait = incapable }
 			NOT = { has_global_flag = highkingsilvanelves }
 			has_landed_title = k_mirkwood
-			OR = {
-				religion = religion_moriquendi	
-				religion = religion_calaquendi					
-			}		
+			religion_group = religion_group_eldar
 			has_character_flag = special_decisions_open
 		}
 		allow = {

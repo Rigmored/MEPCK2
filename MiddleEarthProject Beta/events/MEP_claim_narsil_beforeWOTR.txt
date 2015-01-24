@@ -2,7 +2,7 @@ namespace = claim_narsil
 
 ########## Claim the Shards of Narsil ###########
 
-character_event = {
+narrative_event = {
 	id = claim_narsil.1
 	title = "EVTTITclaim_narsil.1"
 	desc = "EVTDESCclaim_narsil.1"
@@ -17,7 +17,7 @@ character_event = {
 }
 
 ########## Claim victory against Angmar ###########
-character_event = {
+narrative_event = {
 	id = claim_narsil.2
 	title = "EVTTITclaim_narsil.2"
 	desc = "EVTDESCclaim_narsil.2"
@@ -43,7 +43,7 @@ character_event = {
 }
 
 ########## Reforge the Shards of Narsil ###########
-character_event = {
+narrative_event = {
 	id = claim_narsil.3
 	title = "EVTTITclaim_narsil.3"
 	desc = "EVTDESCclaim_narsil.3"

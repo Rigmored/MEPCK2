@@ -53,7 +53,7 @@ decisions = {
 		}
 	
 		effect = {
-			ROOT = { character_event = { id = councilgondor.0 } }
+			ROOT = { narrative_event = { id = councilgondor.0 } }
 			set_character_flag = councilgondor	
 		}
 	}

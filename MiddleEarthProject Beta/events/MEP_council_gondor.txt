@@ -17,7 +17,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_anorien
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor1
 		}
@@ -25,7 +25,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_lebennin
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor2
 		}	
@@ -33,7 +33,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_belfalas
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor3			
 		}	
@@ -41,7 +41,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_ithilien
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor4				
 		}	
@@ -49,7 +49,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_rohan
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor5		
 		}	
@@ -57,7 +57,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_harondor
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor6				
 		}
@@ -65,7 +65,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_andrast
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor7
 		}	
@@ -73,7 +73,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_anfalas
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor8
 		}	
@@ -81,7 +81,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_pinnath_gelin
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor9
 		}
@@ -89,7 +89,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_lamedon
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor10
 		}	
@@ -97,7 +97,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_isengard
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor11
 		}		
@@ -105,7 +105,7 @@ narrative_event = {
 			limit = {
 				has_minor_title = title_captaingeneral
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor12
 		}	
@@ -113,7 +113,7 @@ narrative_event = {
 			limit = {
 				has_minor_title = title_admiralofpelargir
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 			}
 			set_character_flag = councillor13
 		}	
@@ -121,7 +121,7 @@ narrative_event = {
 			limit = {
 				is_female = no
 				religion = religion_dunedain
-				capable_only = yes
+				NOT = { trait = incapable }
 				age = 16
 				NOT = { 
 					has_character_flag = councillor13
@@ -157,7 +157,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 }
+			narrative_event = { id = councilgondor.1 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -165,7 +165,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 1 }
+			narrative_event = { id = councilgondor.1 days = 1 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -173,7 +173,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 2 }
+			narrative_event = { id = councilgondor.1 days = 2 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -181,7 +181,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 3 }
+			narrative_event = { id = councilgondor.1 days = 3 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -189,7 +189,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 4 }
+			narrative_event = { id = councilgondor.1 days = 4 }
 		}		
 		any_playable_ruler = {
 			limit = {
@@ -197,7 +197,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 5 }
+			narrative_event = { id = councilgondor.1 days = 5 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -205,7 +205,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 6 }
+			narrative_event = { id = councilgondor.1 days = 6 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -213,7 +213,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 7 }
+			narrative_event = { id = councilgondor.1 days = 7 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -221,7 +221,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 8 }
+			narrative_event = { id = councilgondor.1 days = 8 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -229,7 +229,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 9 }
+			narrative_event = { id = councilgondor.1 days = 9 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -237,7 +237,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 10 }
+			narrative_event = { id = councilgondor.1 days = 10 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -245,7 +245,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 11 }
+			narrative_event = { id = councilgondor.1 days = 11 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -253,7 +253,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 12 }
+			narrative_event = { id = councilgondor.1 days = 12 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -261,7 +261,7 @@ narrative_event = {
 				age = 1
 				religion = religion_dunedain
 			}
-			character_event = { id = councilgondor.1 days = 13 }
+			narrative_event = { id = councilgondor.1 days = 13 }
 		}			
 		character_event = { id = councilgondor.4 days = 15 }
 	}
@@ -1201,26 +1201,24 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0membercouncil
-							has_character_flag = 1membercouncil
-							has_character_flag = 2membercouncil
-							has_character_flag = 3membercouncil
-							has_character_flag = 4membercouncil
-							has_character_flag = 5membercouncil
-							has_character_flag = 6membercouncil
-							has_character_flag = 7membercouncil
-							has_character_flag = 8membercouncil
-							has_character_flag = 9membercouncil
-							has_character_flag = 10membercouncil
-							has_character_flag = 11membercouncil
-							has_character_flag = 12membercouncil
-							has_character_flag = 13membercouncil
-							has_character_flag = 14membercouncil
-						}
-						has_character_flag = vote0
+					OR = {
+						has_character_flag = 0membercouncil
+						has_character_flag = 1membercouncil
+						has_character_flag = 2membercouncil
+						has_character_flag = 3membercouncil
+						has_character_flag = 4membercouncil
+						has_character_flag = 5membercouncil
+						has_character_flag = 6membercouncil
+						has_character_flag = 7membercouncil
+						has_character_flag = 8membercouncil
+						has_character_flag = 9membercouncil
+						has_character_flag = 10membercouncil
+						has_character_flag = 11membercouncil
+						has_character_flag = 12membercouncil
+						has_character_flag = 13membercouncil
+						has_character_flag = 14membercouncil
 					}
+					has_character_flag = vote0
 				}
 			}
 			FROM = { character_event = { id = councilgondor.9 } } ## The Vote is lost
@@ -1228,23 +1226,21 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 3membercouncil
-							has_character_flag = 4membercouncil
-							has_character_flag = 5membercouncil
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 3membercouncil
+						has_character_flag = 4membercouncil
+						has_character_flag = 5membercouncil
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote1
 				}
 			}
 			FROM = { character_event = { id = councilgondor.9 } } ## The Vote is lost
@@ -1252,21 +1248,19 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						} 
-						has_character_flag = vote2
-					}
+					OR = {
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
+					} 
+					has_character_flag = vote2
 				}
 			}
 			FROM = { character_event = { id = councilgondor.9 } } ## The Vote is lost
@@ -1274,19 +1268,17 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9membercouncil
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9membercouncil
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote3
 				}
 			}
 			FROM = { character_event = { id = councilgondor.9 } } ## The Vote is lost
@@ -1294,17 +1286,15 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote4
+					OR = {
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote4
 				}
 			}
 			FROM = { character_event = { id = councilgondor.9 } } ## The Vote is lost
@@ -1312,15 +1302,13 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote5
+					OR = {
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote5
 				}
 			}
 			FROM = { character_event = { id = councilgondor.9 } } ## The Vote is lost
@@ -1328,13 +1316,11 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote6
+					OR = {
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote6
 				}
 			}
 			FROM = { character_event = { id = councilgondor.9 } } ## The Vote is lost
@@ -1342,10 +1328,8 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					AND = {
-						has_character_flag = 14membercouncil
-						has_character_flag = vote7
-					}
+					has_character_flag = 14membercouncil
+					has_character_flag = vote7
 				}
 			}
 			FROM = { character_event = { id = councilgondor.9 } } ## The Vote is lost
@@ -1355,33 +1339,31 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						OR = {
-							has_character_flag = vote14 
-							has_character_flag = vote13 
-							has_character_flag = vote12 
-							has_character_flag = vote11 
-							has_character_flag = vote10 
-							has_character_flag = vote9 
-							has_character_flag = vote8 
-						}
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
+					}
+					OR = {
+						has_character_flag = vote14 
+						has_character_flag = vote13 
+						has_character_flag = vote12 
+						has_character_flag = vote11 
+						has_character_flag = vote10 
+						has_character_flag = vote9 
+						has_character_flag = vote8 
 					}
 				}
 			}
@@ -1390,25 +1372,23 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-						}
-						has_character_flag = vote7
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
 					}
+					has_character_flag = vote7
 				}
 			}
 			FROM = { character_event = { id = councilgondor.10 } } ## The Vote is won
@@ -1416,24 +1396,22 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-						}
-						has_character_flag = vote6
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
 					}
+					has_character_flag = vote6
 				}
 			}
 			FROM = { character_event = { id = councilgondor.10 } } ## The Vote is won
@@ -1441,22 +1419,20 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-						}
-						has_character_flag = vote5
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
 					}
+					has_character_flag = vote5
 				}
 			}
 			FROM = { character_event = { id = councilgondor.10 } } ## The Vote is won
@@ -1464,20 +1440,18 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-						}
-						has_character_flag = vote4
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
 					}
+					has_character_flag = vote4
 				}
 			}
 			FROM = { character_event = { id = councilgondor.10} } ## The Vote is won
@@ -1485,18 +1459,16 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
 					}
+					has_character_flag = vote3
 				}
 			}
 			FROM = { character_event = { id = councilgondor.10 } } ## The Vote is won
@@ -1504,16 +1476,14 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-						}
-						has_character_flag = vote2
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
 					}
+					has_character_flag = vote2
 				}
 			}
 			FROM = { character_event = { id = councilgondor.10 } } ## The Vote is won
@@ -1521,14 +1491,12 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = { 
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
 					}
+					has_character_flag = vote1
 				}
 			}
 			FROM = { character_event = { id = councilgondor.10 } } ## The Vote is won
@@ -1684,9 +1652,9 @@ character_event = {
 	option = {
 		name = EVTOPTAcouncilgondor.11 ## Umbar is my target
 		trigger = {
-			k_umbar = {
+			k_umbar = { holder_scope = {
 				NOT = { liege = { character = ROOT } }
-			}
+			} }
 		}			
 		set_character_flag = gondorumbarcouncil
 		k_umbar = {
@@ -1833,9 +1801,9 @@ character_event = {
 	option = {
 		name = EVTOPTBcouncilgondor.11 ## Harondor is my target
 		trigger = {
-			k_harondor = {
+			k_harondor = { holder_scope = {
 				NOT = { liege = { character = ROOT } }
-			}	
+			} }
 		}		
 		set_character_flag = gondorharondorcouncil
 		k_harondor = {
@@ -1994,12 +1962,12 @@ character_event = {
 	option = {
 		name = EVTOPTCcouncilgondor.11 ## Near-Harad is my target
 		trigger = {
-			k_akhor = {
+			k_akhor = { holder_scope = {
 				NOT = { liege = { character = ROOT } }
-			}
-			k_chelkar = {
+			} }
+			k_chelkar = { holder_scope = {
 				NOT = { liege = { character = ROOT } }
-			}
+			} }
 		}		
 		set_character_flag = gondornearharadcouncil
 		k_chelkar = {
@@ -2158,18 +2126,18 @@ character_event = {
 	option = {
 		name = EVTOPTDcouncilgondor.11 ## Middle-Harad is my target
 		trigger = {
-			k_akhor = {
+			k_akhor = { holder_scope = {
 				liege = { character = ROOT }
-			}
-			k_chelkar = {
+			} }
+			k_chelkar = { holder_scope = {
 				liege = { character = ROOT }
-			}
-			k_haradwaith = {
+			} }
+			k_haradwaith = { holder_scope = {
 				NOT = { liege = { character = ROOT } }
-			}
-			k_haruzan = {
+			} }
+			k_haruzan = { holder_scope = {
 				NOT = { liege = { character = ROOT } }
-			}
+			} }
 		}
 		k_haruzan = {
 			add_claim = ROOT
@@ -2323,24 +2291,24 @@ character_event = {
 	option = {
 		name = EVTOPTEcouncilgondor.11 ## Far-Harad is my target
 		trigger = {
-			k_akhor = {
+			k_akhor = { holder_scope = {
 				liege = { character = ROOT } 
-			}
-			k_chelkar = {
+			} }
+			k_chelkar = { holder_scope = {
 				liege = { character = ROOT } 
-			}		
-			k_haradwaith = {
+			} }
+			k_haradwaith = { holder_scope = {
 				liege = { character = ROOT } 
-			}
-			k_haruzan = {
+			} }
+			k_haruzan = { holder_scope = {
 				liege = { character = ROOT } 
-			}
-			k_lurmsakun = {
+			} }
+			k_lurmsakun = { holder_scope = {
 				NOT = { liege = { character = ROOT } }
-			}
-			k_pezarsan = {
+			} }
+			k_pezarsan = { holder_scope = {
 				NOT = { liege = { character = ROOT } }
-			}			
+			} }			
 		}
 		k_pezarsan = {
 			add_claim = ROOT
@@ -2497,9 +2465,9 @@ character_event = {
 	option = {
 		name = EVTOPTFcouncilgondor.11 ## Mordor is my target
 		trigger = {
-			k_mordor = {
+			k_mordor = { holder_scope = {
 				NOT = { liege = { character = ROOT } }
-			}
+			} }
 		}
 		k_mordor = {
 			add_claim = ROOT
@@ -2648,30 +2616,28 @@ character_event = {
 	option = {
 		name = EVTOPTAcouncilgondor.8 ## Then
 		
-		### Vote Losted ###
+		### Vote Lost ###
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0membercouncil
-							has_character_flag = 1membercouncil
-							has_character_flag = 2membercouncil
-							has_character_flag = 3membercouncil
-							has_character_flag = 4membercouncil
-							has_character_flag = 5membercouncil
-							has_character_flag = 6membercouncil
-							has_character_flag = 7membercouncil
-							has_character_flag = 8membercouncil
-							has_character_flag = 9membercouncil
-							has_character_flag = 10membercouncil
-							has_character_flag = 11membercouncil
-							has_character_flag = 12membercouncil
-							has_character_flag = 13membercouncil
-							has_character_flag = 14membercouncil
-						}
-						has_character_flag = vote0
+					OR = {
+						has_character_flag = 0membercouncil
+						has_character_flag = 1membercouncil
+						has_character_flag = 2membercouncil
+						has_character_flag = 3membercouncil
+						has_character_flag = 4membercouncil
+						has_character_flag = 5membercouncil
+						has_character_flag = 6membercouncil
+						has_character_flag = 7membercouncil
+						has_character_flag = 8membercouncil
+						has_character_flag = 9membercouncil
+						has_character_flag = 10membercouncil
+						has_character_flag = 11membercouncil
+						has_character_flag = 12membercouncil
+						has_character_flag = 13membercouncil
+						has_character_flag = 14membercouncil
 					}
+					has_character_flag = vote0
 				}
 			}
 			FROM = { character_event = { id = councilgondor.13 } } ## The Vote is lost
@@ -2679,23 +2645,21 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 3membercouncil
-							has_character_flag = 4membercouncil
-							has_character_flag = 5membercouncil
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 3membercouncil
+						has_character_flag = 4membercouncil
+						has_character_flag = 5membercouncil
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote1
 				}
 			}
 			FROM = { character_event = { id = councilgondor.13 } } ## The Vote is lost
@@ -2703,21 +2667,19 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						} 
-						has_character_flag = vote2
-					}
+					OR = {
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
+					} 
+					has_character_flag = vote2
 				}
 			}
 			FROM = { character_event = { id = councilgondor.13 } } ## The Vote is lost
@@ -2725,19 +2687,17 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9membercouncil
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9membercouncil
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote3
 				}
 			}
 			FROM = { character_event = { id = councilgondor.13 } } ## The Vote is lost
@@ -2745,17 +2705,15 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote4
+					OR = {
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote4
 				}
 			}
 			FROM = { character_event = { id = councilgondor.13 } } ## The Vote is lost
@@ -2763,15 +2721,13 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote5
+					OR = {
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote5
 				}
 			}
 			FROM = { character_event = { id = councilgondor.13 } } ## The Vote is lost
@@ -2779,13 +2735,11 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote6
+					OR = {
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote6
 				}
 			}
 			FROM = { character_event = { id = councilgondor.13 } } ## The Vote is lost
@@ -2793,10 +2747,8 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					AND = {
-						has_character_flag = 14membercouncil
-						has_character_flag = vote7
-					}
+					has_character_flag = 14membercouncil
+					has_character_flag = vote7
 				}
 			}
 			FROM = { character_event = { id = councilgondor.13 } } ## The Vote is lost
@@ -2806,33 +2758,31 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						OR = {
-							has_character_flag = vote14 
-							has_character_flag = vote13 
-							has_character_flag = vote12 
-							has_character_flag = vote11 
-							has_character_flag = vote10 
-							has_character_flag = vote9 
-							has_character_flag = vote8 
-						}
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
+					}
+					OR = {
+						has_character_flag = vote14 
+						has_character_flag = vote13 
+						has_character_flag = vote12 
+						has_character_flag = vote11 
+						has_character_flag = vote10 
+						has_character_flag = vote9 
+						has_character_flag = vote8 
 					}
 				}
 			}
@@ -2841,25 +2791,23 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-						}
-						has_character_flag = vote7
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
 					}
+					has_character_flag = vote7
 				}
 			}
 			FROM = { character_event = { id = councilgondor.14 } } ## The Vote is won
@@ -2867,24 +2815,22 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-						}
-						has_character_flag = vote6
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
 					}
+					has_character_flag = vote6
 				}
 			}
 			FROM = { character_event = { id = councilgondor.14 } } ## The Vote is won
@@ -2892,22 +2838,20 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-						}
-						has_character_flag = vote5
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
 					}
+					has_character_flag = vote5
 				}
 			}
 			FROM = { character_event = { id = councilgondor.14 } } ## The Vote is won
@@ -2915,20 +2859,18 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-						}
-						has_character_flag = vote4
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
 					}
+					has_character_flag = vote4
 				}
 			}
 			FROM = { character_event = { id = councilgondor.14 } } ## The Vote is won
@@ -2936,18 +2878,16 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
 					}
+					has_character_flag = vote3
 				}
 			}
 			FROM = { character_event = { id = councilgondor.14 } } ## The Vote is won
@@ -2955,16 +2895,14 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-						}
-						has_character_flag = vote2
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
 					}
+					has_character_flag = vote2
 				}
 			}
 			FROM = { character_event = { id = councilgondor.14 } } ## The Vote is won
@@ -2972,14 +2910,12 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = { 
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
 					}
+					has_character_flag = vote1
 				}
 			}
 			FROM = { character_event = { id = councilgondor.14 } } ## The Vote is won
@@ -3615,30 +3551,28 @@ character_event = {
 	option = {
 		name = EVTOPTAcouncilgondor.8 ## Then
 		
-		### Vote Losted ###
+		### Vote Lost ###
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0membercouncil
-							has_character_flag = 1membercouncil
-							has_character_flag = 2membercouncil
-							has_character_flag = 3membercouncil
-							has_character_flag = 4membercouncil
-							has_character_flag = 5membercouncil
-							has_character_flag = 6membercouncil
-							has_character_flag = 7membercouncil
-							has_character_flag = 8membercouncil
-							has_character_flag = 9membercouncil
-							has_character_flag = 10membercouncil
-							has_character_flag = 11membercouncil
-							has_character_flag = 12membercouncil
-							has_character_flag = 13membercouncil
-							has_character_flag = 14membercouncil
-						}
-						has_character_flag = vote0
+					OR = {
+						has_character_flag = 0membercouncil
+						has_character_flag = 1membercouncil
+						has_character_flag = 2membercouncil
+						has_character_flag = 3membercouncil
+						has_character_flag = 4membercouncil
+						has_character_flag = 5membercouncil
+						has_character_flag = 6membercouncil
+						has_character_flag = 7membercouncil
+						has_character_flag = 8membercouncil
+						has_character_flag = 9membercouncil
+						has_character_flag = 10membercouncil
+						has_character_flag = 11membercouncil
+						has_character_flag = 12membercouncil
+						has_character_flag = 13membercouncil
+						has_character_flag = 14membercouncil
 					}
+					has_character_flag = vote0
 				}
 			}
 			FROM = { character_event = { id = councilgondor.17 } } ## The Vote is lost
@@ -3646,23 +3580,21 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 3membercouncil
-							has_character_flag = 4membercouncil
-							has_character_flag = 5membercouncil
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 3membercouncil
+						has_character_flag = 4membercouncil
+						has_character_flag = 5membercouncil
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote1
 				}
 			}
 			FROM = { character_event = { id = councilgondor.17 } } ## The Vote is lost
@@ -3670,21 +3602,19 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						} 
-						has_character_flag = vote2
-					}
+					OR = {
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
+					} 
+					has_character_flag = vote2
 				}
 			}
 			FROM = { character_event = { id = councilgondor.17 } } ## The Vote is lost
@@ -3692,19 +3622,17 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9membercouncil
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9membercouncil
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote3
 				}
 			}
 			FROM = { character_event = { id = councilgondor.17 } } ## The Vote is lost
@@ -3712,17 +3640,15 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote4
+					OR = {
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote4
 				}
 			}
 			FROM = { character_event = { id = councilgondor.17 } } ## The Vote is lost
@@ -3730,15 +3656,13 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote5
+					OR = {
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote5
 				}
 			}
 			FROM = { character_event = { id = councilgondor.17 } } ## The Vote is lost
@@ -3746,13 +3670,11 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote6
+					OR = {
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote6
 				}
 			}
 			FROM = { character_event = { id = councilgondor.17 } } ## The Vote is lost
@@ -3760,10 +3682,8 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					AND = {
-						has_character_flag = 14membercouncil
-						has_character_flag = vote7
-					}
+					has_character_flag = 14membercouncil
+					has_character_flag = vote7
 				}
 			}
 			FROM = { character_event = { id = councilgondor.17 } } ## The Vote is lost
@@ -3773,33 +3693,31 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						OR = {
-							has_character_flag = vote14 
-							has_character_flag = vote13 
-							has_character_flag = vote12 
-							has_character_flag = vote11 
-							has_character_flag = vote10 
-							has_character_flag = vote9 
-							has_character_flag = vote8 
-						}
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
+					}
+					OR = {
+						has_character_flag = vote14 
+						has_character_flag = vote13 
+						has_character_flag = vote12 
+						has_character_flag = vote11 
+						has_character_flag = vote10 
+						has_character_flag = vote9 
+						has_character_flag = vote8 
 					}
 				}
 			}
@@ -3808,25 +3726,23 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-						}
-						has_character_flag = vote7
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
 					}
+					has_character_flag = vote7
 				}
 			}
 			FROM = { character_event = { id = councilgondor.18 } } ## The Vote is won
@@ -3834,24 +3750,22 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-						}
-						has_character_flag = vote6
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
 					}
+					has_character_flag = vote6
 				}
 			}
 			FROM = { character_event = { id = councilgondor.18 } } ## The Vote is won
@@ -3859,22 +3773,20 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-						}
-						has_character_flag = vote5
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
 					}
+					has_character_flag = vote5
 				}
 			}
 			FROM = { character_event = { id = councilgondor.18 } } ## The Vote is won
@@ -3882,20 +3794,18 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-						}
-						has_character_flag = vote4
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
 					}
+					has_character_flag = vote4
 				}
 			}
 			FROM = { character_event = { id = councilgondor.18 } } ## The Vote is won
@@ -3903,18 +3813,16 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
 					}
+					has_character_flag = vote3
 				}
 			}
 			FROM = { character_event = { id = councilgondor.18 } } ## The Vote is won
@@ -3922,16 +3830,14 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-						}
-						has_character_flag = vote2
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
 					}
+					has_character_flag = vote2
 				}
 			}
 			FROM = { character_event = { id = councilgondor.18 } } ## The Vote is won
@@ -3939,14 +3845,12 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = { 
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
 					}
+					has_character_flag = vote1
 				}
 			}
 			FROM = { character_event = { id = councilgondor.18 } } ## The Vote is won
@@ -4054,10 +3958,7 @@ character_event = {
 			clr_character_flag = joinedcouncil
 			clr_character_flag = voted
 		}	
-		any_demesne_province = {
-			limit = {
-				is_capital = yes
-			}
+		capital_scope = {
 			add_province_modifier = { name = capital_defenses duration = 730 }
 		}
 		spawn_unit = {
@@ -4235,26 +4136,24 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0membercouncil
-							has_character_flag = 1membercouncil
-							has_character_flag = 2membercouncil
-							has_character_flag = 3membercouncil
-							has_character_flag = 4membercouncil
-							has_character_flag = 5membercouncil
-							has_character_flag = 6membercouncil
-							has_character_flag = 7membercouncil
-							has_character_flag = 8membercouncil
-							has_character_flag = 9membercouncil
-							has_character_flag = 10membercouncil
-							has_character_flag = 11membercouncil
-							has_character_flag = 12membercouncil
-							has_character_flag = 13membercouncil
-							has_character_flag = 14membercouncil
-						}
-						has_character_flag = vote0
+					OR = {
+						has_character_flag = 0membercouncil
+						has_character_flag = 1membercouncil
+						has_character_flag = 2membercouncil
+						has_character_flag = 3membercouncil
+						has_character_flag = 4membercouncil
+						has_character_flag = 5membercouncil
+						has_character_flag = 6membercouncil
+						has_character_flag = 7membercouncil
+						has_character_flag = 8membercouncil
+						has_character_flag = 9membercouncil
+						has_character_flag = 10membercouncil
+						has_character_flag = 11membercouncil
+						has_character_flag = 12membercouncil
+						has_character_flag = 13membercouncil
+						has_character_flag = 14membercouncil
 					}
+					has_character_flag = vote0
 				}
 			}
 			FROM = { character_event = { id = councilgondor.22 } } ## The Vote is lost
@@ -4262,23 +4161,21 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 3membercouncil
-							has_character_flag = 4membercouncil
-							has_character_flag = 5membercouncil
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 3membercouncil
+						has_character_flag = 4membercouncil
+						has_character_flag = 5membercouncil
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote1
 				}
 			}
 			FROM = { character_event = { id = councilgondor.22 } } ## The Vote is lost
@@ -4286,21 +4183,19 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						} 
-						has_character_flag = vote2
-					}
+					OR = {
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
+					} 
+					has_character_flag = vote2
 				}
 			}
 			FROM = { character_event = { id = councilgondor.22 } } ## The Vote is lost
@@ -4308,19 +4203,17 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9membercouncil
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9membercouncil
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote3
 				}
 			}
 			FROM = { character_event = { id = councilgondor.22 } } ## The Vote is lost
@@ -4328,17 +4221,15 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote4
+					OR = {
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote4
 				}
 			}
 			FROM = { character_event = { id = councilgondor.22 } } ## The Vote is lost
@@ -4346,15 +4237,13 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote5
+					OR = {
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote5
 				}
 			}
 			FROM = { character_event = { id = councilgondor.22 } } ## The Vote is lost
@@ -4362,13 +4251,11 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						has_character_flag = vote6
+					OR = {
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
 					}
+					has_character_flag = vote6
 				}
 			}
 			FROM = { character_event = { id = councilgondor.22 } } ## The Vote is lost
@@ -4376,10 +4263,8 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					AND = {
-						has_character_flag = 14membercouncil
-						has_character_flag = vote7
-					}
+					has_character_flag = 14membercouncil
+					has_character_flag = vote7
 				}
 			}
 			FROM = { character_event = { id = councilgondor.22 } } ## The Vote is lost
@@ -4389,33 +4274,31 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-							has_character_flag = 14councilmember
-						}
-						OR = {
-							has_character_flag = vote14 
-							has_character_flag = vote13 
-							has_character_flag = vote12 
-							has_character_flag = vote11 
-							has_character_flag = vote10 
-							has_character_flag = vote9 
-							has_character_flag = vote8 
-						}
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
+						has_character_flag = 14councilmember
+					}
+					OR = {
+						has_character_flag = vote14 
+						has_character_flag = vote13 
+						has_character_flag = vote12 
+						has_character_flag = vote11 
+						has_character_flag = vote10 
+						has_character_flag = vote9 
+						has_character_flag = vote8 
 					}
 				}
 			}
@@ -4424,25 +4307,23 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-							has_character_flag = 13councilmember
-						}
-						has_character_flag = vote7
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
+						has_character_flag = 13councilmember
 					}
+					has_character_flag = vote7
 				}
 			}
 			FROM = { character_event = { id = councilgondor.23 } } ## The Vote is won
@@ -4450,24 +4331,22 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-							has_character_flag = 11councilmember
-							has_character_flag = 12councilmember
-						}
-						has_character_flag = vote6
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
+						has_character_flag = 11councilmember
+						has_character_flag = 12councilmember
 					}
+					has_character_flag = vote6
 				}
 			}
 			FROM = { character_event = { id = councilgondor.23 } } ## The Vote is won
@@ -4475,22 +4354,20 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-							has_character_flag = 9councilmember
-							has_character_flag = 10councilmember
-						}
-						has_character_flag = vote5
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
+						has_character_flag = 9councilmember
+						has_character_flag = 10councilmember
 					}
+					has_character_flag = vote5
 				}
 			}
 			FROM = { character_event = { id = councilgondor.23 } } ## The Vote is won
@@ -4498,20 +4375,18 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-							has_character_flag = 7councilmember
-							has_character_flag = 8councilmember
-						}
-						has_character_flag = vote4
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
+						has_character_flag = 7councilmember
+						has_character_flag = 8councilmember
 					}
+					has_character_flag = vote4
 				}
 			}
 			FROM = { character_event = { id = councilgondor.23 } } ## The Vote is won
@@ -4519,18 +4394,16 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-							has_character_flag = 5councilmember
-							has_character_flag = 6councilmember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
+						has_character_flag = 5councilmember
+						has_character_flag = 6councilmember
 					}
+					has_character_flag = vote3
 				}
 			}
 			FROM = { character_event = { id = councilgondor.23 } } ## The Vote is won
@@ -4538,16 +4411,14 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-							has_character_flag = 3councilmember
-							has_character_flag = 4councilmember
-						}
-						has_character_flag = vote2
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
+						has_character_flag = 3councilmember
+						has_character_flag = 4councilmember
 					}
+					has_character_flag = vote2
 				}
 			}
 			FROM = { character_event = { id = councilgondor.23 } } ## The Vote is won
@@ -4555,14 +4426,12 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = { 
-						OR = {
-							has_character_flag = 0councilmember
-							has_character_flag = 1councilmember
-							has_character_flag = 2councilmember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 0councilmember
+						has_character_flag = 1councilmember
+						has_character_flag = 2councilmember
 					}
+					has_character_flag = vote1
 				}
 			}
 			FROM = { character_event = { id = councilgondor.23 } } ## The Vote is won
@@ -4845,7 +4714,7 @@ narrative_event = {
 				trait = craven
 			}		
 		}
-		FROM = { narrative_event = { id = councilgondor.28 days = 50 } } ## He said NO!
+		FROM = { character_event = { id = councilgondor.28 days = 50 } } ## He said NO!
 	}	
 }
 
@@ -4886,7 +4755,7 @@ narrative_event = {
 		c_east_osgiliath = {
 			grant_title = FROM
 		}
-		add_trait = annuminas
+		#add_trait = annuminas
 		FROM = { character_event = { id = councilgondor.29 } }
 	}
 }
@@ -4919,9 +4788,12 @@ character_event = {
 		e_gondor = { 
 			grant_title = ROOT 
 			copy_title_laws = e_steward_gondor
-			transfer_vassals = e_steward_gondor
+			#transfer_vassals = e_steward_gondor
 		}
 		e_steward_gondor = {
+			any_vassal = {
+				set_defacto_liege = e_gondor
+			}		
 			destroy_landed_title = THIS
 		}		
 		recalc_succession = yes
@@ -4929,10 +4801,10 @@ character_event = {
 			limit = {
 				independent = yes
 			}
-			narrative_event = { id = councilgondor.30 days = 2 }
+			character_event = { id = councilgondor.30 days = 2 }
 		}
 		any_vassal = {
-			narrative_event = { id = councilgondor.31 days = 2 }
+			character_event = { id = councilgondor.31 days = 2 }
 		}		
 	}
 }

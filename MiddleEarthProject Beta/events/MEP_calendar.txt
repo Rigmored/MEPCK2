@@ -30,8 +30,8 @@ narrative_event = {
 		}				
 		month = 10
 		NOT = { month = 11 }
-		day = 29
-		NOT = { day = 30 }
+		#day = 29
+		#NOT = { day = 30 }
 		NOT = { has_global_flag = not_durin_day }
 	}
 
@@ -55,11 +55,8 @@ narrative_event = {
 		    religion_group = religion_group_khazad
 			religion = religion_mahal
 		}
-		immediate = {
 		clr_global_flag = durin_day
 		set_global_flag = not_durin_day
-		
-	}
 	}
 	
 	
@@ -99,8 +96,8 @@ narrative_event = {
 		}				
 		month = 6
 		NOT = { month = 7 }
-		day = 29
-		NOT = { day = 30 }
+		#day = 29
+		#NOT = { day = 30 }
 		NOT = { has_global_flag = lithe }
 	}
 
@@ -156,8 +153,8 @@ narrative_event = {
 			}
 		}				
 		month = 12
-		day = 29
-		NOT = { day = 30 }
+		#day = 29
+		#NOT = { day = 30 }
 		NOT = { has_global_flag = yule }
 	}
 

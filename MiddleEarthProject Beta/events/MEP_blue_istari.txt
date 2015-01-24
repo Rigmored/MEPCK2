@@ -98,7 +98,7 @@ narrative_event = {
 					age = 1
 					prisoner = no
 				}
-				move_character = FROM
+				move_character = ROOT
 			}
 		}
 		set_character_flag = blueistariatcourt
@@ -261,7 +261,7 @@ narrative_event = {
 					age = 1
 					prisoner = no
 				}
-				move_character = FROM
+				move_character = ROOT
 			}
 		}
 		set_character_flag = blueistariatcourt
