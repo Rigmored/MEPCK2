@@ -30,6 +30,7 @@ decisions = {
 					OR = {
 						religion = religion_wilderness
 						culture = culture_wilderness
+						culture = culture_mountains
 					}					
 				}
 				has_job_action = action_colonize_province					
@@ -75,6 +76,7 @@ colonize_with_orcs  = {
 				OR = {
 					religion = religion_wilderness
 					culture = culture_wilderness
+					culture = culture_mountains
 				}					
 			}	
 			has_job_action = action_colonize_province	
@@ -122,6 +124,7 @@ colonize_with_orcs  = {
 					OR = {
 						religion = religion_wilderness
 						culture = culture_wilderness
+						culture = culture_mountains
 					}					
 				}	
 				has_job_action = action_colonize_province	
