@@ -253,7 +253,6 @@
 	add_trait=brave
 	add_trait=charitable
 	add_trait=proud
-	add_trait=charismatic_negociator
 	9487.1.1={
 		birth="9487.1.1"
 	}
@@ -1459,7 +1458,6 @@
 	add_trait=proud
 	add_trait=just
 	add_trait=kind
-	add_trait=charismatic_negociator
 	11258.1.1={
 		birth="11258.1.1"
 	}
@@ -1665,11 +1663,11 @@
 	mother=2082
 	add_trait=blood_of_isildur
 	add_trait=twin
-	9735.1.1={
-		birth="9735.1.1"
+	9646.1.1={
+		birth="9646.1.1"
 	}	
-	9898.1.1={
-		death="9898.1.1"
+	9871.1.1={
+		death="9871.1.1"
 	}
 }
 
@@ -1683,8 +1681,8 @@
 	mother=2082
 	add_trait=blood_of_isildur
 	add_trait=twin
-	9735.1.1={
-		birth="9735.1.1"
+	9646.1.1={
+		birth="9646.1.1"
 	}	
 	9866.1.1={
 		death="9866.1.1"
@@ -2010,15 +2008,15 @@
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	father=2034
-	mother=2120
+	mother=1120
 	add_trait=blood_of_isildur
 	add_trait=grey_member	
 	11129.1.1={
 		birth="11129.1.1"
 	}
-	11193.1.1={
-		death="11193.1.1"
-	} # Captured by Orcs and taken prisoner to Dol Guldur, not to be seen again
+	#11193.1.1={
+	#	death="11193.1.1"
+	#} # Captured by Orcs and taken prisoner to Dol Guldur, not to be seen again
 	11194.1.1={
 		add_trait=at_east
 	} # Escapes from Dol Guldur into the East
@@ -2034,7 +2032,7 @@
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	father=2034
-	mother=2120
+	mother=1120
 	add_trait=blood_of_isildur
 	11137.1.1={
 		birth="11137.1.1"
@@ -2098,7 +2096,7 @@
 	dynasty=2002
 	religion="religion_dunedain"
 	culture="culture_dunedain"
-	add_trait=bood_of_numenor
+	add_trait=blood_of_numenor
 	add_trait=grey_member	
 	father=2125
 	11233.1.1={
@@ -2269,8 +2267,8 @@
 	11276.1.1={
 		add_spouse=2141
 	}
-	11276.1.1={
-		death="11276.1.1"
+	11278.1.1={
+		death="11278.1.1"
 	}
 }
 
@@ -2492,8 +2490,8 @@
 	11241.1.1={
 		birth="11241.1.1"
 	}
-	11255.1.1={
-		death="11255.1.1"
+	11380.1.1={
+		death="11380.1.1"
 	}
 }
 
@@ -2950,7 +2948,7 @@
 	add_trait=blood_of_numenor	
 	father=2179
 	10202.1.1={
-		birth="10205.1.1"
+		birth="10202.1.1"
 	}
 	10391.1.1={
 		death="10391.1.1"
@@ -3138,11 +3136,11 @@
 	add_trait=blood_of_isildur	
 	add_trait=blood_of_numenor
 	add_trait=grey_member
-	9735.1.1={
-		birth="9735.1.1"
+	9645.1.1={
+		birth="9645.1.1"
 	}	
-	9892.1.1={
-		death="9892.1.1" 
+	9822.1.1={
+		death="9822.1.1" 
 	}
 }
 2194 = {
@@ -9148,7 +9146,7 @@
 	add_trait=just
 	add_trait=patient
 	add_trait=melodious_voice
-	add_trit=tough_soldier
+	add_trait=tough_soldier
 	9621.1.1={
 		birth="9621.1.1"
 		effect = {
