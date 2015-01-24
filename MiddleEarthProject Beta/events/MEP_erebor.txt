@@ -3,7 +3,7 @@ namespace = erebor
 ##  Visit the Tomb of Thorin Oakenshield
 character_event = {
 	id = erebor.1
-	name = "EVTerebor.1"
+	title = "EVTerebor.1"
 	desc = "EVTDESCerebor.1"
 	picture = GFX_evt_dwarves_hall
 
@@ -16,14 +16,14 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTBerebor.1" # The Arkenstone should be on the hands of a King
-		limit = { 
+		trigger = { 
 			NOT = { has_global_flag = arkenstonealive }
 		}	
 		character_event = { id = erebor.3 }
 	}
 	option = {
 		name = "EVTOPTCerebor.1" # Orcrist can't be let in dust...
-			limit = { 
+		trigger = { 
 			NOT = { has_global_flag = orcristalive }
 		}		
 		character_event = { id = erebor.4 }
@@ -33,7 +33,7 @@ character_event = {
 ## You meditate on the fate of Thorin Oakenshield
 character_event = {
 	id = erebor.2
-	name = "EVTerebor.2"
+	title = "EVTerebor.2"
 	desc = "EVTDESCerebor.2"
 	picture = GFX_evt_dwarves_hall
 
@@ -65,7 +65,7 @@ character_event = {
 ## Will you take the Arkenstone?
 character_event = {
 	id = erebor.3
-	name = "EVTerebor.3"
+	title = "EVTerebor.3"
 	desc = "EVTDESCerebor.3"
 	picture = GFX_evt_dwarves_hall
 
@@ -73,14 +73,14 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAerebor.3" # It's my right!
-				limit = { 
-						NOT = { has_global_flag = arkenstonealive }
-					}
-				add_trait = arkenstone
-				set_global_flag = arkenstonealive
-				set_character_flag=tombofthorin
-				prestige = -100
-				character_event = { id = erebor.5 }				
+		trigger = { 
+			NOT = { has_global_flag = arkenstonealive }
+		}
+		add_trait = arkenstone
+		set_global_flag = arkenstonealive
+		set_character_flag=tombofthorin
+		prestige = -100
+		character_event = { id = erebor.5 }				
 	}	
 	option = {
 		name = "EVTOPTBerebor.3" # Too many troubles will come with this stone!
@@ -90,7 +90,7 @@ character_event = {
 ## Will you take Orcrist?
 character_event = {
 	id = erebor.4
-	name = "EVTerebor.4"
+	title = "EVTerebor.4"
 	desc = "EVTDESCerebor.4"
 	picture = GFX_evt_dwarves_hall
 
@@ -98,13 +98,13 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAerebor.4" # An usefull sword...
-				limit = { 
-						NOT = { has_global_flag = orcristalive }
-					}
-				add_trait = orcrist
-				set_global_flag = orcristalive
-				set_character_flag=tombofthorin
-				prestige = -50
+		trigger = { 
+			NOT = { has_global_flag = orcristalive }
+		}
+		add_trait = orcrist
+		set_global_flag = orcristalive
+		set_character_flag=tombofthorin
+		prestige = -50
 	}	
 	option = {
 		name = "EVTOPTBerebor.4" # it's the Sword of Thorin, not mine!
@@ -114,7 +114,7 @@ character_event = {
 ## The Arkenstone
 character_event = {
 	id = erebor.5
-	name = "EVTerebor.5"
+	title = "EVTerebor.5"
 	desc = "EVTDESCerebor.5"
 	picture = GFX_evt_dwarves_hall
 
@@ -153,7 +153,7 @@ character_event = {
 #### Will you increase the ressources of Erebor? ####
 character_event = {
 	id = erebor.6
-	name = "EVTTITerebor.6"
+	title = "EVTTITerebor.6"
 	desc = "EVTDESCerebor.6"
 	picture = GFX_evt_dwarves_mines
 
@@ -199,7 +199,7 @@ character_event = {
 #### What will you find in the mines? ####
 character_event = {
 	id = erebor.7
-	name = "EVTTITerebor.7"
+	title = "EVTTITerebor.7"
 	desc = "EVTDESCerebor.7"
 	picture = GFX_evt_dwarves_mines
 
@@ -232,7 +232,7 @@ character_event = {
 #### Gold in the Mines ! ####
 character_event = {
 	id = erebor.8
-	name = "EVTTITerebor.8"
+	title = "EVTTITerebor.8"
 	desc = "EVTDESCerebor.8"
 	picture = GFX_evt_dwarves_mines
 
@@ -260,7 +260,7 @@ character_event = {
 #### A Strange Stone... ####
 narrative_event = {
 	id = erebor.9
-	name = "EVTTITerebor.9"
+	title = "EVTTITerebor.9"
 	desc = "EVTDESCerebor.9"
 	picture = GFX_evt_dwarves_mines
 
@@ -276,7 +276,7 @@ narrative_event = {
 #### Nothing in the mines ####
 character_event = {
 	id = erebor.10
-	name = "EVTTITerebor.10"
+	title = "EVTTITerebor.10"
 	desc = "EVTDESCerebor.10"
 	picture = GFX_evt_dwarves_mines
 
@@ -291,7 +291,7 @@ character_event = {
 #### Iron and Cupper in the Mines ! ####
 character_event = {
 	id = erebor.11
-	name = "EVTTITerebor.11"
+	title = "EVTTITerebor.11"
 	desc = "EVTDESCerebor.11"
 	picture = GFX_evt_dwarves_mines
 
@@ -309,7 +309,7 @@ character_event = {
 #### New Weapons Craft in Erebor ####
 character_event = {
 	id = erebor.12
-	name = "EVTTITerebor.12"
+	title = "EVTTITerebor.12"
 	desc = "EVTDESCerebor.12"
 	picture = GFX_evt_dwarves_mines
 
@@ -342,7 +342,7 @@ character_event = {
 #### You made some spears ####
 character_event = {
 	id = erebor.13
-	name = "EVTTITerebor.13"
+	title = "EVTTITerebor.13"
 	desc = "EVTDESCerebor.13"
 	picture = GFX_evt_dwarves_mines
 
@@ -358,7 +358,7 @@ character_event = {
 #### You made some armors ####
 character_event = {
 	id = erebor.14
-	name = "EVTTITerebor.14"
+	title = "EVTTITerebor.14"
 	desc = "EVTDESCerebor.14"
 	picture = GFX_evt_dwarves_mines
 
@@ -374,7 +374,7 @@ character_event = {
 #### You made some armors ####
 character_event = {
 	id = erebor.15
-	name = "EVTTITerebor.15"
+	title = "EVTTITerebor.15"
 	desc = "EVTDESCerebor.15"
 	picture = GFX_evt_dwarves_mines
 
@@ -383,14 +383,14 @@ character_event = {
 	option = {
 		name = "EVTOPTAerebor.15" ## Useless craftmen.
 		prestige = -50
-		cash = -50
+		wealth = -50
 	}	
 }
 
 #### The holder of Dale is asked to trade with Erebor ####
 character_event = {
 	id = erebor.16
-	name = "EVTTITerebor.16"
+	title = "EVTTITerebor.16"
 	desc = "EVTDESCerebor.16"
 	picture = GFX_evt_dwarves_mines
 
@@ -415,7 +415,7 @@ character_event = {
 #### The holder of Dale agreed to trade with Erebor ####
 character_event = {
 	id = erebor.17
-	name = "EVTTITerebor.17"
+	title = "EVTTITerebor.17"
 	desc = "EVTDESCerebor.17"
 	picture = GFX_evt_dwarves_mines
 
@@ -428,8 +428,10 @@ character_event = {
 		FROM = {
 			capital_scope = {
 				c_erebor = {
-					add_province_modifier = { name = trade_erebor_dale duration = 3650 }
-				}	
+					location = {
+						add_province_modifier = { name = trade_erebor_dale duration = 3650 }
+					}
+				}
 			}
 		}
 		capital_scope = {
@@ -441,7 +443,7 @@ character_event = {
 #### The holder of Dale refused to trade with Erebor ####
 character_event = {
 	id = erebor.18
-	name = "EVTTITerebor.18"
+	title = "EVTTITerebor.18"
 	desc = "EVTDESCerebor.18"
 	picture = GFX_evt_dwarves_mines
 

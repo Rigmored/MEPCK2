@@ -3,10 +3,8 @@ decisions = {
 	tomb_of_thorin = {
 		potential = {
 			ai = no #ai cannot use dynasty decisions
-			AND = {		
 			has_landed_title = c_erebor
 			has_landed_title = k_erebor
-			}
 			culture_group = culture_group_dwarves
 			NOT = { has_character_flag = tombofthorin }
 			year = 11285
@@ -43,7 +41,7 @@ decisions = {
 			in_command = no
 			prisoner = no
 			age = 16
-			cash = 150
+			wealth = 150
 			piety = 150
 		}
 		effect = {
@@ -71,7 +69,7 @@ decisions = {
 			in_command = no
 			prisoner = no
 			age = 16
-			cash = 150
+			wealth = 150
 			piety = 150
 		}
 		effect = {
@@ -108,7 +106,7 @@ decisions = {
 		}
 		effect = {
 			ROOT = { 
-				character_event = { id = unificatedwarves.0} 
+				narrative_event = { id = unificatedwarves.0} 
 			}
 			prestige = -1000
 			piety = -1000

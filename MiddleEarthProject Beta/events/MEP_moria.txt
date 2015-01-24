@@ -66,7 +66,9 @@ character_event = {
 	
 	immediate = {
 		c_moria = {
-			add_province_modifier = { name = mithril_moria duration = 730 }
+			location = {
+				add_province_modifier = { name = mithril_moria duration = 730 }
+			}
 		}
 		add_trait = mithril_found
 	}
@@ -250,7 +252,7 @@ narrative_event = {
 			name = "Nameless Terror"
 			random_traits = no
 			dynasty=10018
-			religion = religion_maiar
+			religion = religion_umaiar
 			culture = culture_balrog
 			female = no
 			age = 8500
@@ -262,7 +264,7 @@ narrative_event = {
 			trait = evil_side
 			trait = wroth
 			trait = cruel
-			trait = agressive_leader
+			trait = aggressive_leader
 			trait = patient
 		}
 		new_character = {
@@ -276,7 +278,7 @@ narrative_event = {
 			name = "Nameless Terror"
 			random_traits = no
 			dynasty=10018
-			religion = religion_maiar
+			religion = religion_umaiar
 			culture = culture_balrog
 			female = no
 			age = 8500
@@ -288,7 +290,7 @@ narrative_event = {
 			trait = evil_side
 			trait = wroth
 			trait = cruel
-			trait = agressive_leader
+			trait = aggressive_leader
 			trait = patient
 		}
 		new_character = {
@@ -566,10 +568,6 @@ character_event = {
 				FROM = { trait = pneumonic }
 			}
 			modifier = {
-				factor = 8
-				FROM = { trait = leper }
-			}
-			modifier = {
 				factor = 4
 				FROM = { trait = infirm }
 			}
@@ -582,7 +580,6 @@ character_event = {
 					FROM = { trait = has_bubonic_plague }
 					FROM = { trait = has_measles }
 					FROM = { trait = has_small_pox }
-					FROM = { trait = has_aztec_disease }
 				}
 			}
 			modifier = {
@@ -792,10 +789,6 @@ character_event = {
 				FROMFROM = { trait = pneumonic }
 			}
 			modifier = {
-				factor = 8
-				FROMFROM = { trait = leper }
-			}
-			modifier = {
 				factor = 4
 				FROMFROM = { trait = infirm }
 			}
@@ -808,7 +801,6 @@ character_event = {
 					FROMFROM = { trait = has_bubonic_plague }
 					FROMFROM = { trait = has_measles }
 					FROMFROM = { trait = has_small_pox }
-					FROMFROM = { trait = has_aztec_disease }
 				}
 			}
 			
@@ -1038,11 +1030,11 @@ character_event = {
 		}	
 		if = {
 			limit = {
-				is_marshal = yes
+				has_job_title = job_marshal
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			any_playable_character = {
+			any_playable_ruler = {
 				limit = {
 					OR = {
 						has_landed_title = e_durins_folk
@@ -1085,30 +1077,6 @@ character_event = {
 	}	
 }
 
-#### Death of your Liege ####
-character_event = {
-	id = moria.17
-	desc = "EVTDESCmoria.17"
-	picture = GFX_evt_dwarves_mines
-
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTAmoria.17" ## We'll leave the land!.
-		narrative_event = { id = moria.14 }
-	}	
-	option = {
-		name = "EVTOPTBmoria.17" ## I'll avenge him !
-		any_courtier = {
-			limit = { 
-				has_character_flag = moriabalrog
-				age = 1
-			}
-			character_event = { id = moria.11 }
-		}
-	}	
-}
-
 
 ##### EVENT TO CLEAR THE CHARACTER FLAG ######
 
@@ -1123,7 +1091,7 @@ character_event = {
 		
 	trigger = {
 		has_landed_title = c_moria
-		set_character_flag = mineinmoria
+		has_character_flag = mineinmoria
 		age = 1
 	}
 	
