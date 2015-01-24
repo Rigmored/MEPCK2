@@ -276,6 +276,7 @@
 	add_trait=strong
 	add_trait=patient
 	add_trait=proud
+	add_trait=chivalrous
 	add_trait=tough_soldier
 	add_trait=amroth_knight
 	
@@ -337,6 +338,7 @@
 	add_trait=tall
 	add_trait=fair
 	add_trait=skilled_tactician
+	add_trait=chivalrous
 	add_trait=amroth_knight
 	
 	father=1908
@@ -570,8 +572,8 @@
 	10753.1.1={
 		birth="10753.1.1"
 	}
-	10820.1.1={
-		death="10820.1.1"
+	10832.1.1={
+		death="10832.1.1"
 	}
 }
 1928 = {
@@ -1033,11 +1035,11 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor
-	10353.1.1={
-		birth="10353.1.1"
+	10461.1.1={
+		birth="10461.1.1"
 	}
-	10457.1.1={
-		death="10457.1.1"
+	10546.1.1={
+		death="10546.1.1"
 	}
 }
 
@@ -2185,7 +2187,7 @@
 	father=1403
 	add_trait=blood_of_numenor2
 	11235.1.1={
-		birth="11235.1.1"
+		birth="11241.1.1"
 	}
 	11336.1.1={
 		death="11336.1.1"
@@ -2675,7 +2677,7 @@
 	father=1606
 	add_trait=blood_of_numenor2
 	11244.1.1={
-		birth="11244.1.1"
+		birth="11242.1.1"
 	}
 	11340.1.1={
 		death="11340.1.1"
@@ -2709,12 +2711,13 @@
 	add_trait=mystic
 	add_trait=tough_soldier
 	add_trait=patient
+	add_trait=chivalrous
 	
 	11330.1.1={
-		birth="11330.1.1"
+		birth="11354.1.1"
 	}
 	11362.3.15={
-		death="11362.3.15"
+		death="11462.3.15"
 	}
 }
 
@@ -2969,11 +2972,11 @@
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor2
 	father=1574
-	11073.1.1={
-		birth="11073.1.1"
+	11142.1.1={
+		birth="11142.1.1"
 	}
-	11200.1.1={
-		death="11200.1.1"
+	11240.1.1={
+		death="11240.1.1"
 	}
 }
 1576 = {
@@ -3039,7 +3042,7 @@
 	properties="kl0lgabebbb"	
 	
 	11330.1.1={
-		birth="11330.1.1"
+		birth="11323.1.1"
 	}
 	11415.1.1={
 		death="11415.1.1"
@@ -3109,7 +3112,7 @@
 	add_trait=blood_of_numenor
 	father=1539
 	10257.1.1={
-		birth="10257.1.1"
+		birth="10260.1.1"
 	}
 	10364.1.1={
 		death="10364.1.1"
@@ -3126,7 +3129,7 @@
 		birth="10298.1.1"
 	}
 	10364.1.1={
-		death="10364.1.1"
+		death="10399.1.1"
 	}
 }
 1612 = {
@@ -3140,7 +3143,7 @@
 		birth="10347.1.1"
 	}
 	10454.1.1={
-		death="10454.1.1"
+		death="10459.1.1"
 	}
 }
 1613 = {
@@ -3476,6 +3479,7 @@
 	add_trait=temperate
 	add_trait=slothful
 	add_trait=painter
+	add_trait=chivalrous
 	
 	father=1633
 	
@@ -3568,7 +3572,7 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor2
-	father=1632
+	fahter=1632
 	11244.1.1={
 		birth="11244.1.1"
 	}
@@ -4194,10 +4198,10 @@
 	add_trait=blood_of_numenor2
 	father=1516
 	11260.1.1={
-		birth="11260.1.1"
+		birth="11244.1.1"
 	}
 	11370.1.1={
-		death="11370.1.1"
+		death="11340.1.1"
 	}
 }
 1563 = {
@@ -4215,6 +4219,7 @@
 	add_trait=brave
 	add_trait=patient
 	add_trait=trickster
+	add_trait=though_soldier
 	add_trait = ithilien_ranger
 	
 	dna="cmick0bjab0"
@@ -5479,7 +5484,7 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor
-	father=12132
+	mother=12132
 	8254.1.1={
 		birth="8254.1.1"
 	}
@@ -5967,8 +5972,8 @@
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor2
 	father=1047
-	10301.1.1={
-		birth="10301.1.1"
+	10323.1.1={
+		birth="10323.1.1"
 	}
 	10432.1.1={
 		death="10432.1.1"
@@ -6607,7 +6612,7 @@
 		birth="10673.1.1"
 	}
 	10713.1.1={
-		add_spouse=1925
+		add_spouse=1927
 	}
 	10765.1.1={
 		death="10765.1.1"
@@ -6975,7 +6980,7 @@
 		birth="11361.1.1"
 	}
 	11473.1.1={
-		death="11473.1.1"
+		death="11483.1.1"
 	}
 }
 
@@ -7395,8 +7400,8 @@
 	father=1819
 	mother=1695
 	add_trait=twin
-	9940.1.1={
-		birth="9940.1.1"
+	9876.1.1={
+		birth="9876.1.1"
 	}
 	10062.1.1={
 		death="10062.1.1"
@@ -7413,8 +7418,8 @@
 	mother=1695
 	add_trait=twin
 	add_trait=blood_of_numenor
-	9940.1.1={
-		birth="9940.1.1"
+	9876.1.1={
+		birth="9876.1.1"
 	}
 	10064.1.1={
 		death="10064.1.1"
@@ -7466,8 +7471,8 @@
 	10015.1.1={
 		birth="10015.1.1"
 	}
-	10120.1.1={
-		death="10120.1.1"
+	10103.1.1={
+		death="10103.1.1"
 	}
 }
 
@@ -7636,7 +7641,7 @@
 		birth="10067.1.1"
 	}
 	10116.1.1={
-		add_spouse=1153
+		add_spouse=1053
 	}
 	10153.1.1={
 		death="10153.1.1"
@@ -7849,7 +7854,7 @@
 	add_trait=blood_of_numenor
 	father=1232
 	10543.1.1={
-		birth="10543.1.1"
+		birth="10510.1.1"
 	}
 	10668.1.1={
 		death="10668.1.1"
@@ -7880,7 +7885,7 @@
 		birth="10603.1.1"
 	}
 	10724.1.1={
-		death="10724.1.1"
+		death="10729.1.1"
 	}
 }
 1236 = {
@@ -8266,7 +8271,7 @@
 		birth="8330.1.1"
 	}
 	8375.1.1={
-		add_spouse=1299
+		add_wife=1299
 	}
 	8525.1.1={
 		death="8525.1.1"
@@ -9194,10 +9199,10 @@
   	properties="ic0jcgbabbb"
 	
 	11308.1.1={
-		birth="11308.1.1"
+		birth="11295.1.1"
 	}
 	11417.1.1={
-		death="11417.1.1"
+		death="11407.1.1"
 	}
 }
 1475 = {
@@ -9239,6 +9244,7 @@
 	add_trait=tall
 	add_trait=agile
 	add_trait=honorable
+	add_trait=chivalrous
 	add_trait=fortune_builder
 	
 	11337.1.1={
@@ -9260,6 +9266,7 @@
 	add_trait=temperate
 	add_trait=kind
 	add_trait=honorable
+	add_trait=chivalrous
 	add_trait=underhanded_rogue
 	
 	11344.1.1={
@@ -9827,10 +9834,10 @@
 	add_trait=blood_of_numenor2
 	father=1556
 	11260.1.1={
-		birth="11260.1.1"
+		birth="11244.1.1"
 	}
 	11370.1.1={
-		death="11370.1.1"
+		death="11340.1.1"
 	}
 }
 1558 = {
@@ -9852,13 +9859,13 @@
   	properties="ki0aeabebbb"
 	
 	11321.1.1={
-		birth="11321.1.1"
+		birth="11286.1.1"
 	}
 	11361.1.1={
 		add_spouse=16207
 	}
 	11427.1.1={
-		death="11427.1.1"
+		death="11381.1.1"
 	}
 }
 1561 = {
@@ -10124,7 +10131,7 @@
     dynasty=111
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=1312
+	father=1314
 	add_trait=blood_of_numenor
 	8975.1.1={
 		birth="8975.1.1"
@@ -10876,10 +10883,10 @@
 	add_trait=tough_soldier
 	
 	11308.1.1={
-		birth="11308.1.1"
+		birth="11313.1.1"
 	}
 	11417.1.1={
-		death="11417.1.1"
+		death="11419.1.1"
 	}
 }
 1367 = {
@@ -11418,7 +11425,7 @@
 		birth="9863.1.1"
 	}
 	9975.1.1={
-		death="9975.1.1"
+		death="9974.1.1"
 	}
 }
 1295 = {
@@ -11957,9 +11964,7 @@
 		add_spouse=1664
 	}
 	9492.1.1={
-		effect = {
-			give_nickname = nick_alcarin
-		}
+		give_nickname = nick_alcarin
 	}
 	9569.1.1={
 		death="9569.1.1"
@@ -12110,7 +12115,7 @@
 	9537.1.1={
 		birth="9537.1.1"
 	}
-	9598.1.1={
+	9597.1.1={
 		add_spouse=9255
 	}
 	9775.1.1={
@@ -12928,8 +12933,8 @@
 	mother=1708
 	add_trait=blood_of_numenor
 	add_trait=blood_of_anarion
-	10029.1.1={
-		birth="10029.1.1"
+	10027.1.1={
+		birth="10027.1.1"
 	}
 	10117.1.1={
 		add_spouse=1152
@@ -13399,6 +13404,7 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor
+	father=1803
 	9538.1.1={
 		birth="9538.1.1"
 	}
@@ -13727,7 +13733,7 @@
 	9934.1.1={
 		birth="9934.1.1"
 	}
-	9973.1.1={
+	10026.1.1={
 		add_spouse=1061
 	}
 	10085.1.1={
@@ -13772,14 +13778,14 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	father=16002
-	9981.1.1={
-		birth="9981.1.1"
+	9881.1.1={
+		birth="9881.1.1"
 	}
-	10033.1.1={
+	9933.1.1={
 		add_spouse=1758
 	}
-	10139.1.1={
-		death="10139.1.1"
+	10063.1.1={
+		death="10063.1.1"
 	}
 }
 
@@ -13805,6 +13811,9 @@
 	mother=1753
 	9935.1.1={
 		birth="9935.1.1"
+	}
+	9978.1.1={
+		add_spouse=1756
 	}
 	9979.1.1={
 		death="9979.1.1"
@@ -14011,8 +14020,8 @@
 	culture="culture_gondorian"
 	father=1799
 	mother=1778
-	9948.1.1={
-		birth="9948.1.1"
+	9946.1.1={
+		birth="9946.1.1"
 	}
 	10075.1.1={
 		death="10075.1.1"
@@ -14188,8 +14197,8 @@
 	9902.1.1={
 		birth="9902.1.1"
 	}
-	9949.1.1={
-		death="9949.1.1"
+	9946.1.1={
+		death="9946.1.1"
 	}
 }
 
@@ -14499,7 +14508,7 @@
 	dynasty=125
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=1781
+	father=1782
 	9721.1.1={
 		birth="9721.1.1"
 	}

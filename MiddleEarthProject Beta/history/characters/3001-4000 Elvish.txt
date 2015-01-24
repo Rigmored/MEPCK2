@@ -415,7 +415,7 @@
 	75.1.1 = {
 		birth="75.1.1"
 	}
-	93.1.1 = {
+	90.1.1 = {
 		add_spouse=3013
 	}
 }
@@ -445,7 +445,7 @@
 	75.1.2 = {
 		birth="75.1.2"
 	}
-	93.1.1 = {
+	90.1.1 = {
 		add_spouse=3015
 	}
 }
@@ -475,7 +475,7 @@
 	75.1.3 = {
 		birth="75.1.3"
 	}
-	93.1.1 = {
+	90.1.1 = {
 		add_spouse=3017		
 	}
 }
@@ -505,7 +505,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3019
 	}
 }
@@ -535,7 +535,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3021
 	}
 }
@@ -565,7 +565,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3023
 	}
 }
@@ -595,7 +595,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3025
 	}
 }
@@ -625,7 +625,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3027
 	}
 }
@@ -655,7 +655,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3029
 	}
 }
@@ -685,7 +685,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3031
 	}
 }
@@ -715,7 +715,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3033
 	}
 }
@@ -745,7 +745,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3035
 	}
 }
@@ -775,7 +775,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3037
 	}
 }
@@ -805,7 +805,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3039
 	}
 }
@@ -835,7 +835,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3041
 	}
 }
@@ -865,7 +865,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3043
 	}
 }
@@ -895,7 +895,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3045
 	}
 }
@@ -925,7 +925,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3047
 	}
 }
@@ -955,7 +955,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3049
 	}
 }
@@ -985,7 +985,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3051
 	}
 }
@@ -1015,7 +1015,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	93.1.1 = {
+	91.1.1 = {
 		add_spouse=3053
 	}
 }
@@ -1112,7 +1112,7 @@
 	name="Elwë Singollo"
 	dynasty=3012
 	religion="religion_moriquendi"
-	culture="culture_nelyar"
+	culture="culture_nelya"
 
 	add_trait=elf
 	add_trait=fair
@@ -1373,7 +1373,7 @@
 	add_trait=perceptive
 	add_trait=charismatic_negotiator
 	add_trait=ship_builder
-	add_trait=beard_elf
+	add_trait=bearded_elf
 
 	father=3028
 	mother=3029
@@ -2357,7 +2357,6 @@
 	add_trait=fair
 	father=3040
 	mother=3041
-	female=yes
 	364.1.1 = {
 		birth="364.1.1"
 	}
@@ -2691,10 +2690,10 @@
   	dna="bmhaj0mgac0"
   	properties="ja0eefbebbb"
 
-	4712.1.1 = {
-		birth="4712.1.1"
+	4782.1.1 = {
+		birth="4782.1.1"
 	}
-	4780.1.1 = {
+	3809.1.1 = {
 		add_spouse=3125
 	}
 	4818.1.1={
@@ -2735,8 +2734,8 @@
 	add_trait=twin
 	father=3116
 	mother=3125
-	4782.1.1 = {
-		birth="4782.1.1"
+	4812.1.1 = {
+		birth="4812.1.1"
 	}
 	4869.1.1 = {
 		add_spouse=3185
@@ -2882,8 +2881,8 @@
 	add_trait=elf
 	add_trait=fair
 	father=3124
-	3322.1.1 = {
-		birth="3322.1.1"
+	4782.1.1 = {
+		birth="2782.1.1"
 	}
 	4818.1.1={
 		death="4818.1.1"
@@ -3177,7 +3176,7 @@
 	4312.1.1 = {
 		name="Argon"
 		remove_trait=sailed_west
-		death="4312.1.1"
+		death="4822.1.1"
 	} #Slain in the Battle of the Lammoth
 }
 
@@ -4096,13 +4095,13 @@
 	dynasty=3029
 	female=yes
 	religion="religion_moriquendi"
-	culture="culture_sindar"
+	culture="culture_silvan"
 	father=3107
 	mother=3113
 	add_trait=elf
 	add_trait=fair
-	6580.1.1 = {
-		birth="6580.1.1"
+	10325.1.1 = {
+		birth="10325.1.1"
 	}
 } # Wandering southern Ithilien alone
 
@@ -4848,7 +4847,7 @@
 	}
 	8343.1.1={
 		employer=3003
-		give_job_title = job_marshal
+		give_job_title = job_marshall
 	}
 }
 
@@ -5013,6 +5012,9 @@
 		remove_trait=sailed_west
 		add_trait=at_east
 	} # Taken back to Endor by Oromë
+	4814.1.1 = {
+		add_spouse=3219
+	}
 }
 
 3216 = {
@@ -5076,11 +5078,11 @@
 	2300.1.1 = {
 		birth="2300.1.1"
 	}
-	4312.1.1 = {
-		remove_trait=sailed_west
-	}	
 	4365.1.1 = {
 		add_spouse=3216
+	}
+	4312.1.1 = {
+		remove_trait=sailed_west
 	}
 	4787.1.1 = {
 		add_trait=at_east
@@ -5160,11 +5162,13 @@
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
-	add_trait=at_east
-	father=3331
-	mother=3162
-	5020.1.1 = {
-		birth="5020.1.1"
+	father=3218
+	mother=3211
+	4420.1.1 = {
+		birth="4420.1.1"
+	}
+	4787.1.1 = {
+		add_trait=at_east
 	}
 }
 
@@ -5178,7 +5182,7 @@
 	add_trait=strong
 	add_trait=twin
 	add_trait=at_east
-	father=3331
+	father=3219
 	mother=3162
 	5413.1.1 = {
 		birth="5413.1.1"
@@ -5196,7 +5200,7 @@
 	add_trait=strong
 	add_trait=twin
 	add_trait=at_east
-	father=3331
+	father=3219
 	mother=3162
 	5413.1.1 = {
 		birth="5413.1.1"
@@ -5630,6 +5634,7 @@
 	4282.1.1 = {
 		name="Fëanor"
 		remove_trait=sailed_west
+		add_trait=agressive_leader
 		add_trait=ambitious
 		add_trait=zealous
 		add_trait=oath_of_feanor
@@ -5876,7 +5881,6 @@
 	add_trait=chaste
 	add_trait=perceptive
 	add_trait=legendary_warrior
-	add_trait = twin
 
 	martial=16
 	diplomacy=5
@@ -5917,7 +5921,6 @@
 	add_trait=chaste
 	add_trait=perceptive
 	add_trait=legendary_warrior
-	add_trait = twin
 
 	martial=16
 	diplomacy=5
@@ -6041,7 +6044,7 @@
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
-	add_trait=charismatic_negotiator
+	add_trait=charismatic_negociator
 	add_trait=poet
 	add_trait=chaste
 	add_trait=kind
