@@ -543,9 +543,38 @@ EVTTITarnorgondor.9;The Dunedain;Les Dunedains;;;;;;;;;;;;x
 EVTDESCarnorgondor.9;You are now the King of one of the ancients Numenorian's Kingdoms in Exile. The title of Chief of the Dunedain of North is no more interesting for you, and you should abandon it to keep only the one that counts: the title of King! What do you think?;Vous êtes maintenant le Roi d'un des anciens royaumes Numénoréens en Exil. Le titre de chef des Dunedains du Nord ne vous est plus d'aucun interêt, et vous devriez l'abandonner pour ne garder que celui qui compte : le titre de Roi! Qu'en pensez-vous?;;;;;;;;;;;;x
 EVTOPTAarnorgondor.9;I don't need to hold this title anymore.;Je n'ai plus besoin de ce titre.;;;;;;;;;;;;x
 EVTOPTBarnorgondor.9;This is the title of my family!;C'est le titre de ma lignée !;;;;;;;;;;;;x
-EVTvalinor.14;Ringbearers depart;;;;;;;;;;;;;;x
-EVTDESCvalinor.14;Ringbearers depart;;;;;;;;;;;;;;x
-EVTOPTAvalinor.14;Do you want to join the Ringbearergbearers depart;;;;;;;;;;;;;;x
-EVTvalinor.12;Aragorn is dead...;;;;;;;;;;;;;;x
-EVTDESCvalinor.12;Aragorn is dead...;;;;;;;;;;;;;;x
-EVTOPTAvalinor.12;I'll die too...;;;;;;;;;;;;;;x
+EVTvalinor.14;@FIXME@Ringbearers depart;@FIXME@Ringbearers depart;;;;;;;;;;;;;x
+EVTDESCvalinor.14;@FIXME@ Ringbearers depart;@FIXME@ Ringbearers depart;;;;;;;;;;;;;x
+EVTOPTAvalinor.14;@FIXME@ Do you want to join the Ringbearergbearers depart;@FIXME@ Do you want to join the Ringbearergbearers depart;;;;;;;;;;;;;x
+EVTvalinor.12;@FIXME@ Aragorn is dead...;@FIXME@ Aragorn is dead...;;;;;;;;;;;;;x
+EVTDESCvalinor.12;@FIXME@ Aragorn is dead...;@FIXME@ Aragorn is dead...;;;;;;;;;;;;;x
+EVTOPTAvalinor.12;@FIXME@ I'll die too...;@FIXME@ I'll die too...;;;;;;;;;;;;;;x
+EVTTITarnorgondor.1;Realm Tensions;@FIXME@ Realm Tensions;;;;;;;;;;;;;;x
+EVTDESCarnorgondor.1;It is hard to effectively rule both Arnor and Gondor. Even Elendil himself saw the truth of this, and divided his realm into two. Many suggest giving one of your children either Arnor or Gondor to rule directly.;@FIXME@ It is hard to effectively rule both Arnor and Gondor. Even Elendil himself saw the truth of this, and divided his realm into two. Many suggest giving one of your children either Arnor or Gondor to rule directly.;;;;;;;;;;;;;;x
+EVTOPTAarnorgondor.1;It may be wise, yes.;@FIXME@ It may be wise, yes.;;;;;;;;;;;;;;x
+EVTOPTBarnorgondor.1;No, the Kingdom will stay united.;@FIXME@ No, the Kingdom will stay united.;;;;;;;;;;;;;;x
+EVTTITarnorgondor.2;Realm Tensions;@FIXME@ Realm Tensions;;;;;;;;;;;;;;x
+EVTDESCarnorgondor.2;Your nobles seem to accept the decision to keep the realm intact, but many are simply taking local decisions into their own hands now, since they grow tired of constantly having to await word from your distant capital.;@FIXME@ Your nobles seem to accept the decision to keep the realm intact, but many are simply taking local decisions into their own hands now, since they grow tired of constantly having to await word from your distant capital.;;;;;;;;;;;;;;x
+EVTOPTAarnorgondor.2;Hmm... alright, we divide the realm then!;@FIXME@ Hmm... alright, we divide the realm then!;;;;;;;;;;;;;;x
+EVTOPTBarnorgondor.2;Fine, but we still stay united as one realm.;@FIXME@ Fine, but we still stay united as one realm.;;;;;;;;;;;;;;x
+EVTTITarnorgondor.3;Realm Tensions;@FIXME@ Realm Tensions;;;;;;;;;;;;;;x
+EVTDESCarnorgondor.3;The High King has refused to split Arnor and Gondor between his heirs, and insists on holding both titles for himself. He can not possibly rule two such large and distant realms effectively. Still, his wish is our command...;@FIXME@ The High King has refused to split Arnor and Gondor between his heirs, and insists on holding both titles for himself. He can not possibly rule two such large and distant realms effectively. Still, his wish is our command...;;;;;;;;;;;;;;x
+EVTOPTAarnorgondor.3;We'll just have to make do.;@FIXME@ We'll just have to make do.;;;;;;;;;;;;;;x
+EVTTITarnorgondor.4;Dividing the Realm;@FIXME@ Dividing the Realm;;;;;;;;;;;;;;x
+EVTDESCarnorgondor.4;You have decided to divide the realm. Do you want to do it yourself (give away one either Arnor or Gondor title within 30 days) or do you want it to be done automatically now?;@FIXME@ You have decided to divide the realm. Do you want to do it yourself (give away one either Arnor or Gondor title within 30 days) or do you want it to be done automatically now?;;;;;;;;;;;;;;x
+EVTOPTAarnorgondor.4;I'll do it myself right now.;@FIXME@ I'll do it myself right now.;;;;;;;;;;;;;;x
+EVTOPTBarnorgondor.4;Give my non-heir child Arnor automatically.;@FIXME@ Give my non-heir child Arnor automatically.;;;;;;;;;;;;;;x
+EVTOPTCarnorgondor.4;I changed my mind, we stay United!;@FIXME@ I changed my mind, we stay United!;;;;;;;;;;;;;;x
+EVTTITarnorgondor.5;Arnor is Yours;@FIXME@ Arnor is Yours;;;;;;;;;;;;;;x
+EVTDESCarnorgondor.5;You father the High King has decided to give you the rule of Arnor, to hold in his name. It is a daunting task, but one which you must accept and fulfill to the best of your ability.;@FIXME@ You father the High King has decided to give you the rule of Arnor, to hold in his name. It is a daunting task, but one which you must accept and fulfill to the best of your ability.;;;;;;;;;;;;;;x
+EVTOPTAarnorgondor.5;I will not let him down!;@FIXME@ I will not let him down!;;;;;;;;;;;;;;x
+EVTTITarnorgondor.6;Dividing the Realm;@FIXME@ Dividing the Realm;;;;;;;;;;;;;;x
+EVTDESCarnorgondor.6;You have broken your promise, and have not split the realm immediately as you said you would. Your vassals are not amused.;@FIXME@ You have broken your promise, and have not split the realm immediately as you said you would. Your vassals are not amused.;;;;;;;;;;;;;;x
+EVTOPTAarnorgondor.6;I was just getting to it!;@FIXME@ I was just getting to it!;;;;;;;;;;;;;;x
+EVTTITarnorgondor.7;The Reunited Kingdom;@FIXME@ The Reunited Kingdom;;;;;;;;;;;;;;x
+EVTDESCarnorgondor.7;Arnor and Gondor have split, as it was nearly impossible to rule such realms from one location. They remain kin however, and have sworn oaths of abiding friendship and aid in need.;@FIXME@ Arnor and Gondor have split, as it was nearly impossible to rule such realms from one location. They remain kin however, and have sworn oaths of abiding friendship and aid in need.;;;;;;;;;;;;;;x
+EVTOPTAarnorgondor.7;Interesting...;@FIXME@ Interesting...;;;;;;;;;;;;;;x
+EVTTITarnorgondor.8;Arnor;@FIXME@ Arnor;;;;;;;;;;;;;;x
+EVTDESCarnorgondor.8;A new realm is rising, and it is quickly developing its own culture apart from that of Gondor. A mix of Dunedain, Bree-lander, hillsfolk and simple isolated fishing villages. Do you want to embrace this new culture?;@FIXME@ A new realm is rising, and it is quickly developing its own culture apart from that of Gondor. A mix of Dunedain, Bree-lander, hillsfolk and simple isolated fishing villages. Do you want to embrace this new culture?;;;;;;;;;;;;;;x
+EVTOPTAarnorgondor.8;I do feel like an Arnorian!;@FIXME@ I do feel like an Arnorian!;;;;;;;;;;;;;;x
+EVTOPTBarnorgondor.8;No, I'll stay what I am.;@FIXME@ No, I'll stay what I am.;;;;;;;;;;;;;;x

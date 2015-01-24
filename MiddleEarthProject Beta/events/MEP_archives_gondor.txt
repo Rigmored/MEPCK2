@@ -11,7 +11,7 @@ character_event = {
 	
 	option = {
 		name = "OPTAarchivesgondor.0" # Notable Past Kings of Gondor
-		any_ruler = {
+		any_independent_ruler = {
 			limit = { 
 				is_alive = no
 				has_landed_title = e_gondor
@@ -88,7 +88,7 @@ character_event = {
 					NOT = { liege = { character = PREV } } 
 					NOT = { liege = { liege = { character = PREV } } }
 				}
-				custom_tooltip = { text = TOOLTIPKGMEMDURINGKING  }#during the reign of [This.Liege.GetTitledFirstName] of the House [This.Liege.GetOnlyDynastyName]
+				custom_tooltip = { text = TOOLTIPMEMDURINGKING  }#during the reign of [This.Liege.GetTitledFirstName] of the House [This.Liege.GetOnlyDynastyName]
 			}	
 			if = {
 				limit = {
@@ -291,7 +291,7 @@ character_event = {
 					NOT = { liege = { character = PREV } } 
 					NOT = { liege = { liege = { character = PREV } } }
 				}
-				custom_tooltip = { text = TOOLTIPGMEMDURINGKING  }#during the reign of [This.Liege.GetTitledFirstName] of the House [This.Liege.GetOnlyDynastyName]
+				custom_tooltip = { text = TOOLTIPMEMDURINGKING  }#during the reign of [This.Liege.GetTitledFirstName] of the House [This.Liege.GetOnlyDynastyName]
 			}	
 			if = {
 				limit = {
@@ -354,7 +354,7 @@ character_event = {
 					trait = strong
 					NOT = { trait = fair }
 				}
-				custom_tooltip = { text = TOOLTIPKGstrong }
+				custom_tooltip = { text = TOOLTIPstrong }
 			}
 			if = {
 				limit = {
@@ -362,7 +362,7 @@ character_event = {
 					NOT = { trait = fair }
 					NOT = { trait = strong }
 				}
-				custom_tooltip = { text = TOOLTIPKGtall }
+				custom_tooltip = { text = TOOLTIPtall }
 			}
 		}	
 	}	

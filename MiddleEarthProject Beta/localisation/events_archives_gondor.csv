@@ -4,9 +4,9 @@ OPTAarchivesgondor.0;The Kings of Gondor;Les Rois du Gondor;;;;;;x
 OPTBarchivesgondor.0;Rangers of Ithilien;Les Rangers de l'Ithilien;;;;;;x
 OPTCarchivesgondor.0;Knights of Dol Amroth;Les Chevaliers de Dol Amroth;;;;;;x
 OPTDarchivesgondor.0;Captain-Generals of Gondor;Les Capitaines-Général du Gondor;;;;;;x
-TOOLTIPKGMEMDURINGKING;during the reign of [This.Liege.GetTitledFirstName] of the House [This.Liege.GetOnlyDynastyName];durant le règne de [This.Liege.GetTitledFirstName], de la maison [This.Liege.GetOnlyDynastyName];;;;;;x
+TOOLTIPMEMDURINGKING;during the reign of [This.Liege.GetTitledFirstName] of the House [This.Liege.GetOnlyDynastyName];durant le règne de [This.Liege.GetTitledFirstName], de la maison [This.Liege.GetOnlyDynastyName];;;;;;x
 TOOLTIPKNIGHTAMROTH;Knight [This.GetFirstName] [This.GetOnlyDynastyName];Chevalier [This.GetFirstName] [This.GetOnlyDynastyName];;;;;;x
-TOOLTIPKGKNOWNNICK;also known as  [This.GetBestName],;surnommé [This.GetBestName],;;;;;;x
+TOOLTIPKNOWNNICK;also known as  [This.GetBestName],;surnommé [This.GetBestName],;;;;;;x
 TOOLTIPBRAVE; who was known to be most courageous; qui était connu pour être courageux;;;;;;x
 TOOLTIPDILIGENT; and was unyielding in their devotion to their vows; et resta inflexible quant au respect de ses vœux;;;;;;x
 TOOLTIPKIND; who was known to be compassionate; qui était connu pour sa compassion;;;;;;x

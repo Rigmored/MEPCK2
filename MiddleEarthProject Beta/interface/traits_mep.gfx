@@ -1315,7 +1315,7 @@ spriteType = {
 	}
 
 	spriteType = {
-			name = "GFX_trait_amroth_love"
+			name = "GFX_trait_love_amroth"
 			texturefile = "gfx/traits/amroth_love.dds"
 			noOfFrames = 1
 			norefcount = yes

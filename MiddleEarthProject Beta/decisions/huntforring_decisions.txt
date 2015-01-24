@@ -22,7 +22,6 @@ hunt_for_the_ring = {
 
 	effect = {
 		ROOT = { character_event = { id = huntforring.0 } }
-		set_character_flag = huntforring
 	}
 
 	ai_will_do = {

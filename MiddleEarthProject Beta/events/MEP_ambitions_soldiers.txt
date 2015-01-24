@@ -343,7 +343,7 @@ character_event = {
 		}		
 	}
 	option = {
-		name = EVTOPTBambitions.4 ## It's enough for me.
+		name = EVTOPTBambitions.12 ## It's enough for me.
 		clr_character_flag = elf_warrior_education
 		trigger = { ai = no }
 		remove_trait = trained_elf

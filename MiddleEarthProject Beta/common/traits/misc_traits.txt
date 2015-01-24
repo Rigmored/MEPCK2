@@ -1,3 +1,16 @@
+ruthless = {
+    personality = yes
+    opposites =  {
+        chivalrous
+    }
+    intrigue = 2
+    opposite_opinion = -10
+    ai_rationality = 10
+    ai_honor = -20
+    ai_ambition = 25
+    
+}
+
 painter = {
 potential = {
 		NOT = {

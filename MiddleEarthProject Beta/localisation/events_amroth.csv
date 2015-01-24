@@ -21,6 +21,7 @@ EVTTITamroth.5;The Asking of Amroth;La Demande d'Amroth;;;;;;x
 EVTDESCamroth.5;Amroth was able to find you, while you were at the entrance to the forest of Fangorn. He confessed his love for you, and said he would do anything to marry you. What will you answer him?;Amroth a réussi à vous rattraper, alors que vous étiez à l'entrée de la forêt de Fangorn. Il vous a avoué son amour, et dit qu'il serait prêt à tout pour vous épouser. Qu'allez-vous lui répondre?;;;;;;x
 EVTOPTAamroth.5;I agree, if you find a Kingdom without wars.;J'accepte, si vous trouvez un Royaume sans Guerres.;;;;;;x
 EVTOPTBamroth.5;I refuse.;Je refuse.;;;;;;x
+EVTOPTCamroth.5;;;;;;;;x
 EVTTITamroth.6;The Answer of Nimrodel;La Réponse de Nimrodel;;;;;;x
 EVTDESCamroth.6;Nimrodel agrees to marry you, but raises an important condition. You must find a kingdom where you can live happily, and where no war will disturb your happiness. You understand that only a journey towards the West and the Lands of Valinor can meet this requirement. You know you'll give up your Kingdom and your people, but your heart tells you to follow this path.;Nimrodel accepte de vous épouser, mais pose une condition importante. Vous devez trouver un Royaume où vous pourrez vivre heureux, et où aucune guerre ne viendra troubler votre bonheur. Vous comprenez que seul un départ vers l'Ouest et les Terres de Valinor peut remplir cette condition. Vous savez que vous abandonnerez votre Royaume, mais votre coeur vous dicte de suivre ce chemin.;;;;;;x
 EVTOPTAamroth.6;I know where we'll go.;Je sais où nous irons.;;;;;;x
@@ -80,3 +81,5 @@ EVTOPTAamroth.29;His name will be Galador;Son nom sera Galador;;;;;;x
 EVTDESCamroth.30;A lineage elven blood appeared on the land of Belfalas. Will you let this dynasty take control of the territory, for the greatness of your people?;Une lignée au sang elfique est apparue sur les terres du Belfalas. Allez-vous laisser cette dynastie prendre les commandes de ce territoire, pour la grandeur de votre peuple?;;;;;;x
 EVTOPTAamroth.30;The Children of Imrazor are so prestigious!;Les Enfants d'Imrazôr sont si prestigieux !;;;;;;x
 EVTOPTBamroth.30;No, Mithrellas was only a maid.;Non, Mithrellas n'était qu'une servante.;;;;;;x
+EVTDESCamroth.31;@FIXME@: Amroth don't find Nimrodel in the first events, or she refuse to marry him;@FIXME@: Amroth don't find Nimrodel in the first events, or she refuse to marry him;;;;;;x
+EVTOPTAamroth.31;@FIXME@: He's nobliest than me.;@FIXME@: He's nobliest than me.;;;;;;x

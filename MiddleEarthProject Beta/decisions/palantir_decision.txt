@@ -15,15 +15,15 @@ decisions = {
 			has_character_flag = special_decisions_open
 		}	
 		allow = {
-		    capable_only = yes
 			in_command = no
 			prisoner = no
 			age = 16
 			prestige = 300
             piety = 200
+		    NOT = { trait = incapable }
 		}
 		effect = {
-			ROOT = { character_event = { id = 900000001 } }
+			ROOT = { character_event = { id = palantir_use.1 } }
 			prestige = -300
 			piety = -200
 		}
@@ -45,15 +45,15 @@ decisions = {
 			has_character_flag = special_decisions_open
 		}	
 		allow = {
-		    capable_only = yes
 			in_command = no
 			prisoner = no
 			age = 16
 			prestige = 300
             piety = 200
+		    NOT = { trait = incapable }
 		}
 		effect = {
-			ROOT = { character_event = { id = 900000007 } }
+			ROOT = { character_event = { id = palantir_use.7 } }
 			prestige = -300
 			piety = -200
 		}
@@ -73,15 +73,15 @@ decisions = {
 			has_character_flag = special_decisions_open
 		}	
 		allow = {
-		    capable_only = yes
 			in_command = no
 			prisoner = no
 			age = 16
 			prestige = 300
             piety = 200
+		    NOT = { trait = incapable }
 		}
 		effect = {
-			ROOT = { character_event = { id = 900000008 } }
+			ROOT = { character_event = { id = palantir_use.8 } }
 			prestige = -300
 			piety = -200
 		}
@@ -100,15 +100,15 @@ decisions = {
 			has_character_flag = special_decisions_open
 		}	
 		allow = {
-		    capable_only = yes
 			in_command = no
 			prisoner = no
 			age = 16
 			prestige = 100
             piety = 100
+		    NOT = { trait = incapable }
 		}
 		effect = {
-			ROOT = { character_event = { id = 900000009 } }
+			ROOT = { character_event = { id = palantir_use.9 } }
 			prestige = -100
 			piety = -100
 		}
@@ -129,9 +129,9 @@ decisions = {
 			has_character_flag = special_decisions_open
 		}	
 		allow = {
-		    capable_only = yes
 			in_command = no
 			prisoner = no
+		    NOT = { trait = incapable }
 			OR = {
 				culture_group = culture_group_amanyar
 				culture_group = culture_group_quendi
@@ -171,12 +171,12 @@ decisions = {
 			has_character_flag = special_decisions_open
 		}	
 		allow = {
-		    capable_only = yes
 			war = yes
 			prisoner = no
 			age = 16
 			prestige = 300
-           		 piety = 200
+			piety = 200
+		    NOT = { trait = incapable }
 		}
 		effect = {
 			ROOT = { character_event = { id = palantir.53 } }
