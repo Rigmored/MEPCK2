@@ -894,11 +894,11 @@
 	add_trait=dwarven
 	add_trait=strong
 	father=4028
-	10800.1.1 = {
-		birth="10800.1.1"
+	11090.1.1 = {
+		birth="11090.1.1"
 	}
-	10932.11.29 = {
-		death="10932.11.29"
+	11337.11.29 = {
+		death="11337.11.29"
 	} # Slain in the Battle of the Second Hall
 }
 
@@ -910,11 +910,11 @@
 	add_trait=dwarven
 	add_trait=strong
 	father=4028
-	10800.1.1 = {
-		birth="10800.1.1"
+	11093.1.1 = {
+		birth="11093.1.1"
 	}
-	10932.11.29 = {
-		death="10932.11.29"
+	11337.11.29 = {
+		death="11337.11.29"
 	} # Slain in the Battle of the Second Hall
 }
 
@@ -926,11 +926,11 @@
 	add_trait=dwarven
 	add_trait=strong
 	father=4028
-	10800.1.1 = {
-		birth="10800.1.1"
+	11094.1.1 = {
+		birth="11094.1.1"
 	}
-	10932.11.29 = {
-		death="10932.11.29"
+	11337.11.29 = {
+		death="11337.11.29"
 	} # Slain in the Battle of the Second Hall
 }
 
@@ -4471,7 +4471,6 @@ add_friend=4085 #Bofur
 	religion="religion_mahal"
 	culture="culture_broadbeam"	
 	add_trait=dwarven	
-	add_trait=twin
 	father=4236
 	11359.1.1 = {
 		birth="11359.1.1"

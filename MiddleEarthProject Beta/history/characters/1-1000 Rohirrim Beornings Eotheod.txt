@@ -1241,9 +1241,13 @@ death_reason = death_battle
 	add_trait=temperate
 	add_trait=good_rider
 	
-	set_character_flag = elfhelm
 	
-	11315.1.1={birth="11315.1.1"}
+	11315.1.1={
+		birth="11315.1.1"
+		effect = {
+			set_character_flag = elfhelm
+		}
+	}
 	11334.1.1={
 		add_spouse=239
 	}
@@ -2097,12 +2101,22 @@ death_reason = death_battle
 	add_trait=greedy
 	add_trait=envious
 	add_trait=deceitful
-	give_nickname = nick_wormtongue
-	set_character_flag = grima
-	11319.1.1={birth="11319.1.1"}
-	11362.11.3={death = {
-death_reason = death_battle
-}}
+	11319.1.1={
+		birth="11319.1.1"
+		effect = {
+			set_character_flag = grima
+		}
+	}
+	11350.1.1= {
+		effect = {
+			give_nickname = nick_wormtongue
+		}	
+	}
+	11362.11.3={
+		death = {
+			death_reason = death_battle
+		}
+	}
 }
 
 #more wives of Kings
@@ -4264,29 +4278,30 @@ death_reason = death_battle
 	add_trait=hunter
 	add_trait=wroth
 	add_trait=brave
+	
 	11172.1.1={
-	birth="11172.1.1"
+		birth="11172.1.1"
 	}
 	11284.1.1={
-effect={
-add_friend=8065 #Bilbo
-add_friend=10033 #Gandalf
-add_friend=4040 #Thorin
-add_friend=4044 #Balin
-add_friend=4045 #Dwalin
-add_friend=4048 #Fili
-add_friend=4049 #Kili
-add_friend=4052 #Dori
-add_friend=4053 #Nori
-add_friend=4054 #Ori
-add_friend=4046 #Oin
-add_friend=4047 #Gloin
-add_friend=4081 #Bifur
-add_friend=4085 #Bofur
-}
-}
+		effect={
+			add_friend=8065 #Bilbo
+			add_friend=10033 #Gandalf
+			add_friend=4040 #Thorin
+			add_friend=4044 #Balin
+			add_friend=4045 #Dwalin
+			add_friend=4048 #Fili
+			add_friend=4049 #Kili
+			add_friend=4052 #Dori
+			add_friend=4053 #Nori
+			add_friend=4054 #Ori
+			add_friend=4046 #Oin
+			add_friend=4047 #Gloin
+			add_friend=4081 #Bifur
+			add_friend=4085 #Bofur
+		}
+	}
 	11330.1.1={
-	death="11330.1.1"
+		death="11330.1.1"
 	}
 }
 340 = {

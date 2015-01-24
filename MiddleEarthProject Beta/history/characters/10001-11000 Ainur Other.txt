@@ -319,7 +319,6 @@
 	} #Mairon is corrupted by Melkor
 	4120.1.1={
 		name="Gorthaur"
-		add_trait = ruthless
 	} #Gothmog and Thû begin to restore Angband, Thû is called Gorthaur by the Sindar
 	4769.1.1={
 		name="Sauron"
@@ -699,7 +698,9 @@
 		religion="religion_umaiar"
 		add_trait = cruel
 		add_trait = ring_saruman
-		add_rival = 10033 #Gandalf
+		effect = {
+			add_rival = 10033 #Gandalf
+		}
 	} #Saruman is fully corrupted by Sauron
 	11362.3.13 ={
    		give_nickname = nick_the_traitor
