@@ -151,6 +151,8 @@ nick_flourdumpling = {}
 nick_alcarin = {}
 nick_falastur = {}
 nick_greymantle = {}
+nick_longbeard = {}
+nick_the_accursed = {}
 
 
 # GIVEN BY TRAITS
