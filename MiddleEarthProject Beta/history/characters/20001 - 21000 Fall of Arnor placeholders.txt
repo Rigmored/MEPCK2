@@ -149,7 +149,7 @@
 	add_trait=blood_of_numenor2
 	father=20010
 	9824.1.1={
-		birth="9821.1.1"
+		birth="9824.1.1"
 	}
 	9935.1.1={
 		death=yes
@@ -1374,7 +1374,7 @@
 		birth=yes
 	}
 	9628.8.27 = {
-		add_spouse=20095
+		add_spouse=20301
 	}
 	9685.8.8={
 		death=yes
@@ -1394,7 +1394,7 @@
 	trait="trusting"
 	trait="greedy"
 	father=20096
-	mother=20095
+	mother=20301
 	9631.8.4={
 		birth=yes
 	}
@@ -1417,7 +1417,7 @@
 	trait="just"
 	trait="lustful"
 	father=20096
-	mother=20095
+	mother=20301
 	9634.5.14={
 		birth=yes
 	}
@@ -1437,7 +1437,7 @@
 	trait="wroth"
 	trait="cruel"
 	father=20096
-	mother=20095
+	mother=20301
 	9635.12.4={
 		birth=yes
 	}
@@ -1953,7 +1953,7 @@
 	trait="trusting"
 	trait="gregarious"
 	trait="charitable"
-	9612.7.8={
+	9611.7.8={
 		birth=yes
 	}
 	9663.9.9={
@@ -2032,7 +2032,7 @@
 	trait="humble"
 	trait="diligent"
 	trait="honest"
-	9634.4.2={
+	9633.4.2={
 		birth=yes
 	}
 	9738.9.19={
@@ -2102,7 +2102,7 @@
 	trait="charitable"
 	trait="deceitful"
 	trait="arbitrary"
-	9601.10.9={
+	9600.10.9={
 		birth=yes
 	}
 	9686.5.30={
@@ -2377,7 +2377,7 @@
 	trait="charitable"
 	trait="ambitious"
 	trait="proud"
-	9634.8.12={
+	9633.8.12={
 		birth=yes
 	}
 	9723.8.13={
@@ -2420,7 +2420,7 @@
 	trait="wroth"
 	trait="zealous"
 	trait="honest"
-	9584.1.1={
+	9583.1.1={
 		birth=yes
 	}
 	9604.10.28 = {
@@ -2446,7 +2446,7 @@
 	trait="arbitrary"
 	trait="deceitful"
 	trait="trusting"
-	9589.2.3={
+	9588.2.3={
 		birth=yes
 	}
 	9688.2.26={
@@ -2571,15 +2571,11 @@
 	intrigue=3
 	learning=6
 	trait="skilled_tactician"
-	trait="deceitful"
 	trait="cruel"
 	trait="lustful"
 	trait="deceitful"
-	9611.2.5={
+	9610.2.5={
 		birth=yes
-	}
-	9626.12.6 = {
-		add_spouse=20146
 	}
 	9675.10.6={
 		death=yes
@@ -2627,7 +2623,6 @@
 	trait="greedy"
 	trait="trusting"
 	trait="envious"
-	trait="greedy"
 	father=20146
 	mother=20147
 	9634.6.30={
@@ -2908,7 +2903,7 @@
 	trait="cruel"
 	trait="just"
 	trait="lustful"
-	9525.1.28={
+	9524.1.28={
 		birth=yes
 	}
 	9675.7.11={
@@ -3017,11 +3012,8 @@
 	trait="humble"
 	trait="deceitful"
 	trait="patient"
-	9528.3.5={
+	9527.3.5={
 		birth=yes
-	}
-	9543.7.7 = {
-		add_spouse=20161
 	}
 	9660.11.18={
 		death=yes
@@ -3353,7 +3345,7 @@
 	intrigue=0
 	learning=5
 	
-	add_trait=charismatic_negociator
+	add_trait=charismatic_negotiator
 	add_trait=gregarious
 	add_trait=just
 	add_trait=proud
@@ -3396,7 +3388,7 @@
 	
 	father=1287	
 	
-	9601.7.9={
+	9600.7.9={
 		birth=yes
 	}
 	9700.1.20={
@@ -3553,7 +3545,7 @@
 	father=20178
 	mother=20177
 	
-	9646.3.6={
+	9645.3.6={
 		birth=yes
 	}
 	9662.1.28 = {
@@ -3586,11 +3578,8 @@
 
 	father=1036
 	
-	9646.4.26={
+	9645.4.26={
 		birth=yes
-	}
-	9662.1.28 = {
-		add_spouse=20181
 	}
 	9795.10.19={
 		death=yes
@@ -3679,7 +3668,7 @@
 	intrigue=5
 	learning=4
 	
-	add_trait=charismatic_negociator
+	add_trait=charismatic_negotiator
 	add_trait=poet
 	add_trait=humble
 	add_trait=craven

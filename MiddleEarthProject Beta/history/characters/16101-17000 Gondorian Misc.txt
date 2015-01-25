@@ -1530,10 +1530,10 @@
 	add_trait=genius
 	employer = 1943
 	11338.1.1={
-		birth="11318.1.1"
+		birth="11338.1.1"
 	}
 	11420.1.1={
-		death="11450.1.1"
+		death="11420.1.1"
 	}	
 }
 
@@ -1573,7 +1573,7 @@
 	female=yes
 	add_trait=blood_of_numenor
 	11338.1.1={
-		birth="11341.1.1"
+		birth="11338.1.1"
 	}
 	11420.1.1={
 		death="11420.1.1"

@@ -489,10 +489,10 @@
 	culture="culture_haradrim"
 	father=6024
 	11258.1.1={
-		birth="11271.1.1"
+		birth="11258.1.1"
 	}
 	11336.1.1={
-		death="11342.1.1"
+		death="11336.1.1"
 	}
 }
 6037 = {
@@ -502,7 +502,7 @@
 	culture="culture_haradrim"
 	father=6036
 	11303.1.1={
-		birth="11318.1.1"
+		birth="11303.1.1"
 	}
 	11363.1.1={
 		death="11363.1.1"
@@ -1149,7 +1149,7 @@
 	culture="culture_haradrim"
 	father=6082
 	female=yes
-	11353.1.1={
+	11343.1.1={
 		birth="11343.1.1"
 	}
 	11421.1.1={
@@ -1449,8 +1449,8 @@
 	culture="culture_haradrim"
 	father=6105
 	female=yes
-	11353.1.1={
-		birth="11343.1.1"
+	11354.1.1={
+		birth="11354.1.1"
 	}
 	11421.1.1={
 		death="11421.1.1"
@@ -1598,7 +1598,7 @@
 	culture="culture_haradrim"
 	father=6117
 	11326.1.1={
-		birth="11309.1.1"
+		birth="11326.1.1"
 	}
 	11363.1.1={
 		death="11363.1.1"
@@ -1611,10 +1611,10 @@
 	culture="culture_haradrim"
 	father=6118
 	11353.1.1={
-		birth="11340.1.1"
+		birth="11353.1.1"
 	}
 	11437.1.1={
-		death="11409.1.1"
+		death="11437.1.1"
 	} 
 }
 
@@ -1751,7 +1751,7 @@
 	culture="culture_haradrim"
 	father=6127
 	10166.1.1={
-		birth="10168.1.1"
+		birth="10166.1.1"
 	}
 	10265.1.1={
 		death="10265.1.1"
@@ -2665,7 +2665,7 @@
 	culture="culture_haradrim"
 	father=6191
 	11232.1.1={
-		birth="11234.1.1"
+		birth="11232.1.1"
 	}
 	11300.1.1={
 		death="11300.1.1"
@@ -2718,7 +2718,7 @@
 	father=6198
 	female=yes
 	11343.1.1={
-		birth="11344.1.1"
+		birth="11343.1.1"
 	}
 	11420.1.1={
 		death="11420.1.1"
@@ -2734,7 +2734,7 @@
 	culture="culture_haradrim"
 	father=6192
 	11279.1.1={
-		birth="11285.1.1"
+		birth="11279.1.1"
 	}
 	11338.1.1={
 		death="11338.1.1"
@@ -2748,7 +2748,7 @@
 	father=6202
 	add_trait=mumakil_rider
 	11324.1.1={
-		birth="11330.1.1"
+		birth="11324.1.1"
 	}
 	11385.1.1={
 		death="11385.1.1"
@@ -2808,7 +2808,7 @@
 		birth="11340.1.1"
 	}
 	11390.1.1={
-		death="11392.1.1"
+		death="11390.1.1"
 	} 
 }
 6207 = {
@@ -2847,10 +2847,10 @@
 	culture="culture_haradrim"
 	father=6208
 	11340.1.1={
-		birth="11334.1.1"
+		birth="11340.1.1"
 	}
 	11390.1.1={
-		death="11392.1.1"
+		death="11390.1.1"
 	} 
 }
 6210 = {
@@ -2861,7 +2861,7 @@
 	father=6208
 	female=yes
 	11344.1.1={
-		birth="11339.1.1"
+		birth="11344.1.1"
 	}
 	11415.1.1={
 		death="11415.1.1"
@@ -3296,7 +3296,7 @@
 	culture="culture_haradrim"
 	father=6244
 	11232.1.1={
-		birth="11243.1.1"
+		birth="11232.1.1"
 	}
 	11300.1.1={
 		death="11300.1.1"
@@ -3336,7 +3336,7 @@
 	dynasty=6029
 	religion="religion_southron"
 	culture="culture_haradrim"
-	father=6245
+	father=6246
 	11317.1.1={
 		birth="11317.1.1"
 	}
@@ -3419,7 +3419,7 @@
 	culture="culture_haradrim"
 	father=6253
 	11232.1.1={
-		birth="11243.1.1"
+		birth="11232.1.1"
 	}
 	11300.1.1={
 		death="11300.1.1"
@@ -3829,7 +3829,7 @@
 	religion="religion_southron"
 	culture="culture_far_haradrim"
 	11329.1.1={
-		birth="11300.1.1"
+		birth="11329.1.1"
 	}
 	11363.1.1={
 		death="11363.1.1"
@@ -3857,7 +3857,7 @@
 	religion="religion_southron"
 	culture="culture_far_haradrim"
 	11329.1.1={
-		birth="11300.1.1"
+		birth="11329.1.1"
 	}
 	11363.1.1={
 		death="11363.1.1"
@@ -3885,7 +3885,7 @@
 	religion="religion_southron"
 	culture="culture_far_haradrim"
 	11329.1.1={
-		birth="11300.1.1"
+		birth="11329.1.1"
 	}
 	11363.1.1={
 		death="11363.1.1"
@@ -4033,7 +4033,7 @@
 	dynasty=6037
 	religion="religion_southron"
 	culture="culture_far_haradrim"
-	father=6297
+	father=6298
 	11358.1.1={
 		birth="11358.1.1"
 	}
@@ -6604,7 +6604,7 @@
 	religion="religion_southron"
 	culture="culture_haradrim"
 	add_trait=mumakil_rider
-	father=6489
+	father=6488
 	9700.1.1={
 		birth="9700.1.1"
 	}

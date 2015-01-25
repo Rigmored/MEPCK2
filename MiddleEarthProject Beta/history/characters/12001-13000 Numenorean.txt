@@ -293,7 +293,7 @@
 	religion="religion_numenorean"
 	culture="culture_numenorean"
 	add_trait=blood_of_numenor	
-	father=12011
+	father=12016
 	mother=12167
 	5602.1.1={
 		birth="5602.1.1"
@@ -678,7 +678,6 @@
 	culture="culture_numenorean"
 	add_trait=blood_of_numenor	
 	father=12038
-	add_trait=twin
 	7611.1.1={
 		birth="7611.1.1"
 	}
@@ -940,8 +939,8 @@
 		name="Zimrathôr"
 		culture="culture_adunaic"
 	}
-	7786.1.1={
-		death="7786.1.1"
+	7886.1.1={
+		death="7886.1.1"
 	}
 }
 
@@ -1064,8 +1063,8 @@
 	father=12057
 	mother=12058
 	add_trait=blood_of_numenor	
-	5113.1.1={
-		birth="5113.1.1"
+	5233.1.1={
+		birth="5233.1.1"
 	}
 	5475.1.1={
 		add_spouse=12061
@@ -1432,7 +1431,7 @@
 	5112.1.1={
 		birth="5112.1.1"
 	}
-	5333.1.1={
+	5533.1.1={
 		death="5533.1.1"
 	}
 }
@@ -1681,13 +1680,14 @@
 12095 = {
 	name="Calissë"
 	female=yes
+	dynasty=12004	
 	religion="religion_numenorean"
 	culture="culture_numenorean"
 	add_trait=bastard
-	add_trait=twin
 	add_trait=blood_of_numenor	
+	add_trait=twin
 	father=12207
-	mother=12025
+	mother=12094
 	6376.1.1={
 		birth="6376.1.1"
 	}
@@ -1699,6 +1699,7 @@
 12096 = {
 	name="Ingloissë"
 	female=yes
+	dynasty=12004
 	religion="religion_numenorean"
 	culture="culture_numenorean"
 	add_trait=bastard
@@ -1991,10 +1992,9 @@
 	culture="culture_numenorean"
 	father=12038
 	add_trait=blood_of_numenor	
-	add_trait=twin
 	add_trait=fair
-	7611.1.1={
-		birth="7611.1.1"
+	7605.1.1={
+		birth="7605.1.1"
 	}
 	7833.1.1={
 		death="7833.1.1"
@@ -4053,7 +4053,7 @@
 		birth="5627.1.1"
 	}
 	5767.1.1={
-		add_spouse=12002
+		add_spouse=12202
 	}
 	6025.1.1={
 		death="6025.1.1"

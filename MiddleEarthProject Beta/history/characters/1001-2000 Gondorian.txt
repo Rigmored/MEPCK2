@@ -7360,7 +7360,7 @@
 	9937.1.1={
 		birth="9937.1.1"
 	}
-	9953.1.1={
+	9956.1.1={
 		add_spouse=1138
 	}
 	10111.1.1={
@@ -7479,8 +7479,8 @@
 	add_trait=blood_of_numenor
 	father=1136
 	mother=1138
-	9954.1.1={
-		birth="9954.1.1"
+	9957.1.1={
+		birth="9957.1.1"
 	}
 	10033.1.1={
 		add_spouse=1143
@@ -13771,11 +13771,11 @@
 	dynasty=121
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=16002
-	9981.1.1={
-		birth="9981.1.1"
+	father=1752
+	9881.1.1={
+		birth="9881.1.1"
 	}
-	10033.1.1={
+	9933.1.1={
 		add_spouse=1758
 	}
 	10139.1.1={
@@ -13860,16 +13860,13 @@
 1758 = {
 	name="Ivorwen"
 	female=yes
-	dynasty=121
 	religion="religion_dunedain"
 	culture="culture_gondorian"
-	father=16008
-	mother=16009
-	9996.1.1={
-		birth="9996.1.1"
+	9894.1.1={
+		birth="9894.1.1"
 	}
-	10119.1.1={
-		death="10119.1.1"
+	10019.1.1={
+		death="10019.1.1"
 	}
 }
 

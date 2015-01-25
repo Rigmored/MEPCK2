@@ -571,7 +571,7 @@
 	dna="dkbfb0jkac0"
 	properties="jg0gbhbebbb"
 	
-	father=19006
+	father=19026
   
 	9547.1.1={
 		birth="9547.1.1"
@@ -594,7 +594,7 @@
 	dna="dkbfb0jkac0"
 	properties="jm0gbhbebbb"
 	
-	father=19006
+	father=19026
   
 	9852.1.1={
 		birth="9852.1.1"
@@ -913,7 +913,7 @@
 	add_trait = gluttonous
 	add_trait = proud
 	11223.1.1 ={
-		birth="111223.1.1"
+		birth="11223.1.1"
 	}
 	11284.1.1={
 		death="11284.1.1"
@@ -925,10 +925,9 @@
 	culture=culture_barding
 	religion=religion_rhovanion
 	add_trait = kind
-	add_trait = generous
 	add_trait = honest
 	11237.1.1 ={
-		birth="111237.1.1"
+		birth="11237.1.1"
 	}
 	11305.1.1={
 		death="11305.1.1"
@@ -941,7 +940,7 @@
 	religion=religion_rhovanion
 	father=19048
 	11275.1.1 ={
-		birth="111275.1.1"
+		birth="11275.1.1"
 	}
 	11338.1.1={
 		death="11338.1.1"
@@ -954,7 +953,7 @@
 	religion=religion_rhovanion
 	father=19049
 	11295.1.1 ={
-		birth="111295.1.1"
+		birth="11295.1.1"
 	}
 	11371.1.1={
 		death="11371.1.1"

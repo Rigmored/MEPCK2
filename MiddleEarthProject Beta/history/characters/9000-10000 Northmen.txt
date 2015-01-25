@@ -2296,7 +2296,7 @@
 	dynasty=910
 	religion="religion_rhovanion"
 	culture="culture_barding"
-	father=9902
+	father=9903
 	11207.1.1={
 		birth="11207.1.1"
 	}
@@ -3272,7 +3272,7 @@
 	dynasty=921
 	religion="religion_rhovanion"
 	culture="culture_northmen"
-	father=9240
+	father=9241
 	10805.1.1={
 		birth="10805.1.1"
 	}	

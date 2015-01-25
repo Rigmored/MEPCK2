@@ -1068,7 +1068,7 @@
 		birth="9232.1.1"
 	}
 	9367.1.1={
-		death="9372.1.1"
+		death="9367.1.1"
 	}
 }
 13071 = {
@@ -1214,7 +1214,7 @@
 		birth="8141.1.1"
 	}
 	8221.1.1={
-		culture="black_numenorean"
+		culture="culture_black_numenorean"
 	}	
 	8344.1.1={
 		death="8344.1.1"
@@ -1786,7 +1786,7 @@
 		birth="8075.1.1"
 	}
 	8221.1.1={
-		culture="black_numenorean"
+		culture="culture_black_numenorean"
 	}	
 	8282.1.1={
 		death="8282.1.1"
@@ -1803,7 +1803,7 @@
 		birth="8179.1.1"
 	}
 	8221.1.1={
-		culture="black_numenorean"
+		culture="culture_black_numenorean"
 	}	
 	8343.1.1={
 		death="8343.1.1"
@@ -2027,7 +2027,7 @@
 	culture="culture_black_numenorean"
 	father=13045
 	9203.1.1={
-		birth="9221.1.1"
+		birth="9203.1.1"
 	}
 	9278.1.1={
 		add_spouse=13030
@@ -2286,7 +2286,7 @@
 	dynasty=13010
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
-	11170.1.1={
+	11188.1.1={
 		birth="11188.1.1"
 	}
 	11230.1.1={
@@ -2461,7 +2461,7 @@
 	11092.1.1={
 		birth="11092.1.1"
 	}
-	11213.1.1={
+	11201.1.1={
 		death="11201.1.1"
 	}
 }
@@ -2474,9 +2474,9 @@
 		birth="11074.1.1"
 	}
 	11115.1.1={
-		add_spouse=13177
+		add_spouse=13176
 	}	
-	11208.1.1={
+	11187.1.1={
 		death="11187.1.1"
 	}
 }
@@ -2870,7 +2870,7 @@
 	11343.1.1={
 		birth="11343.1.1"
 	}
-	11438.1.1={
+	11438.5.1={
 		death="11438.5.1"
 	}
 }
@@ -2883,7 +2883,7 @@
 	11345.1.1={
 		birth="11345.1.1"
 	}
-	11442.1.1={
+	11442.5.1={
 		death="11442.5.1"
 	}
 }
@@ -3145,7 +3145,7 @@
 	11343.1.1={
 		birth="11343.1.1"
 	}
-	11438.1.1={
+	11438.5.1={
 		death="11438.5.1"
 	}
 }
@@ -3158,7 +3158,7 @@
 	11345.1.1={
 		birth="11345.1.1"
 	}
-	11442.1.1={
+	11442.5.1={
 		death="11442.5.1"
 	}
 }
@@ -3217,8 +3217,7 @@
 		effect = { 
 			give_minor_title = title_lieutenantofbaraddur
 		}
-		add_trait = mouthofsauron	
-		} ## Agânbênzigûr enter Mordor after Thorongil defeats Umbar, and loses his name.
+	} ## Agânbênzigûr enter Mordor after Thorongil defeats Umbar, and loses his name.
 	11362.5.1={
 		death="11362.5.1"
 	} ## Killed during the Battle of the Morannon

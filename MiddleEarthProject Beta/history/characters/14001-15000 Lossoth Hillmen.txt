@@ -295,7 +295,7 @@
 	dynasty=14002
 	religion="religion_lossoth"
 	culture="culture_lossoth"
-	father=14021
+	father=14022
 	11171.1.1={
 	birth="11171.1.1"
 	}
@@ -990,8 +990,8 @@
 	religion="religion_angmarim"
 	culture="culture_hillmen"
 	father=14074
-	10311.1.1={
-		birth="10311.1.1"
+	10308.1.1={
+		birth="10308.1.1"
 	}
 	10324.1.1={
 		add_spouse=14050
@@ -1961,7 +1961,7 @@
 	dynasty=14014
 	religion="religion_angmarim"
 	culture="culture_hillmen"
-	father=14125
+	father=14145
 	9823.1.1={
 		birth="9823.1.1"
 	}	
