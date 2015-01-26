@@ -883,11 +883,9 @@ character_event = {
 		name = "EVTOPTAbuildings.30" ## Great !
 		prestige = 100
 		piety = 100
-		clr_character_flag = east_osgiliath
-		clr_character_flag = osgiliath_west		
 		if = {
 			limit = {
-				has_character_flag = west_osgiliath
+				has_character_flag = osgiliath_west
 				NOT = { has_global_flag = west_osgiliath_rebuilded_finally }
 			}
 			set_global_flag = west_osgiliath_rebuilded_finally	
@@ -920,8 +918,10 @@ character_event = {
 				remove_building = ct_osgiliath_ruins
 			}			
 			c_west_osgiliath = {
-				culture = ROOT
-				religion = ROOT
+				location = {
+					culture = ROOT
+					religion = ROOT
+				}
 			}
 		}
 		if = {
@@ -959,10 +959,14 @@ character_event = {
 				remove_building = ct_osgiliath_ruins
 			}			
 			c_east_osgiliath = {
-				culture = ROOT
-				religion = ROOT
+				location = {
+					culture = ROOT
+					religion = ROOT
+				}
 			}
 		}		
+		clr_character_flag = osgiliath_west		
+		clr_character_flag = east_osgiliath
 	}		
 }
 
