@@ -1,7 +1,7 @@
 namespace = frodo
 
-    ##Frodo goes east with Sam##
-	character_event = {
+##Frodo goes east with Sam##
+character_event = {
     id = frodo.1
     title = "EVTTITfrodo.1"
     desc = "EVTDESCfrodo.1"
@@ -9,29 +9,29 @@ namespace = frodo
 	age = 16
 	
 	trigger = {
-	has_global_flag = ringleaveslorien
-	has_global_flag = frodogoestomordor
-	age = 30
-	NOT = { age = 60 }
-	NOT = { year = 11368 }
-	NOT = { has_character_flag = frodo1 }
-	NOT = { has_global_flag = boromirhasring }
-	dynasty = 803
+		has_global_flag = ringleaveslorien
+		has_global_flag = frodogoestomordor
+		age = 30
+		NOT = { age = 60 }
+		NOT = { year = 11368 }
+		NOT = { has_character_flag = frodo1 }
+		NOT = { has_global_flag = boromirhasring }
+		dynasty = 803
 	}
 	
-		mean_time_to_happen = {
-	days = 120
+	mean_time_to_happen = {
+		days = 120
 	}
 	
-			option = {
+	option = {
         name = "EVTOPTAfrodo.1"
 		set_character_flag = frodo1
-		}
+	}
 		
-		}
+}
 		
-	##Frodo Reaches the Black Gate##
-		character_event = {
+##Frodo Reaches the Black Gate##
+character_event = {
     id = frodo.2
     title = "EVTTITfrodo.2"
     desc = "EVTDESCfrodo.2"
@@ -39,28 +39,28 @@ namespace = frodo
 	age = 16
 	
 	trigger = {
-	has_global_flag = ringleaveslorien
-	has_global_flag = frodogoestomordor
-	has_character_flag = frodo1
-	age = 30
-	NOT = { age = 60 }
-	NOT = { has_character_flag = frodo2 }
-	dynasty = 803
+		has_global_flag = ringleaveslorien
+		has_global_flag = frodogoestomordor
+		has_character_flag = frodo1
+		age = 30
+		NOT = { age = 60 }
+		NOT = { has_character_flag = frodo2 }
+		dynasty = 803
 	}
 	
-		mean_time_to_happen = {
-	days = 120
+	mean_time_to_happen = {
+		days = 120
 	}
 	
-			option = {
+	option = {
         name = "EVTOPTAfrodo.2"
 		set_character_flag = frodo2
-		}
+	}
 		
-		}
+}
 		
-		##Frodo in Ithilien##
-		character_event = {
+##Frodo in Ithilien##
+character_event = {
     id = frodo.3
     title = "EVTTITfrodo.3"
     desc = "EVTDESCfrodo.3"
@@ -68,29 +68,29 @@ namespace = frodo
 	age = 16
 	
 	trigger = {
-	has_global_flag = ringleaveslorien
-	has_global_flag = frodogoestomordor
-	has_character_flag = frodo2
-	age = 30
-	NOT = { age = 60 }
-	year = 11367
-	NOT = { has_character_flag = frodo3 }
-	dynasty = 803
+		has_global_flag = ringleaveslorien
+		has_global_flag = frodogoestomordor
+		has_character_flag = frodo2
+		age = 30
+		NOT = { age = 60 }
+		year = 11367
+		NOT = { has_character_flag = frodo3 }
+		dynasty = 803
 	}
 	
-		mean_time_to_happen = {
-	days = 120
+	mean_time_to_happen = {
+		days = 120
 	}
 	
-			option = {
+	option = {
         name = "EVTOPTAfrodo.3"
 		set_character_flag = frodo3
-		}
+	}
 		
-		}
+}
 		
-	##If Aragorn is King, Frodo gets told of him seeing armies of mordor defeated - first Aragorn gets an event, this is for when he won##
-	character_event = {
+##If Aragorn is King, Frodo gets told of him seeing armies of mordor defeated - first Aragorn gets an event, this is for when he won##
+character_event = {
     id = frodo.4
     title = "EVTTITfrodo.4"
     desc = "EVTDESCfrodo.4"
@@ -98,29 +98,29 @@ namespace = frodo
 	age = 16
 	
 	trigger = {
-	has_global_flag = ringleaveslorien
-	has_global_flag = frodogoestomordor
-	NOT = { has_global_flag = gondor_restoreddefeat }
-	NOT = { has_global_flag = boromirhasring }
-	NOT = { has_global_flag = frodo4 }
-	has_global_flag = gondor_restored
-	year = 11367
-	has_landed_title = e_gondor
+		has_global_flag = ringleaveslorien
+		has_global_flag = frodogoestomordor
+		NOT = { has_global_flag = gondor_restoreddefeat }
+		NOT = { has_global_flag = boromirhasring }
+		NOT = { has_global_flag = frodo4 }
+		has_global_flag = gondor_restored
+		year = 11367
+		has_landed_title = e_gondor
 	}
 	
 	mean_time_to_happen = {
-	days = 30
+		days = 30
 	}
 	
 	option = {
-	name = "EVTOPTAfrodo.4"
-	set_global_flag = frodo4
-	character_event = { id = frodo.5 days = 7 }
+		name = "EVTOPTAfrodo.4"
+		set_global_flag = frodo4
+		character_event = { id = frodo.5 days = 7 }
 	}
-	}
+}
 	
-	##Aragorn's War Council##
-	character_event = {
+##Aragorn's War Council##
+character_event = {
     id = frodo.5
     title = "EVTTITfrodo.5"
     desc = "EVTDESCfrodo.5"
@@ -130,30 +130,28 @@ namespace = frodo
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.5"
-	set_global_flag = invademordor
-	add_claim = k_ithilien
-	add_claim = c_morgul
-	add_claim = d_dagorlad
+		name = "EVTOPTAfrodo.5"
+		set_global_flag = invademordor
+		add_claim = k_ithilien
+		add_claim = c_morgul
+		add_claim = d_dagorlad
 	}
 	
 	option = {
-	name = "EVTOPTBfrodo.5"
-	trigger = { ai = no }
-	any_playable_ruler = {
+		name = "EVTOPTBfrodo.5"
+		trigger = { ai = no }
+		any_playable_ruler = {
 			limit = {
-			AND = {
 				is_alive=yes
 				trait = ring
-				}
 			}
 			character_event = { id = frodo.6 days = 30}
 		}
-		}
-		}
+	}
+}
 		
-	##event for frodo if aragorn sends scouts##
-		character_event = {
+##event for frodo if aragorn sends scouts##
+character_event = {
     id = frodo.6
     title = "EVTTITfrodo.6"
     desc = "EVTDESCfrodo.6"
@@ -163,22 +161,20 @@ namespace = frodo
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.6"
-	imprison = FROM
+		name = "EVTOPTAfrodo.6"
+		imprison = FROM
 		any_independent_ruler = {
 			limit = {
-			AND = {
 				trait = blood_of_isildur
 				age = 16
-				}
 			}
 			character_event = { id = frodo.25 }
 		}
 	}
-	}
+}
 	
-	##Aragorn is told that Frodo is safe##
-	character_event = {
+##Aragorn is told that Frodo is safe##
+character_event = {
     id = frodo.25
     title = "EVTTITfrodo.25"
     desc = "EVTDESCfrodo.25"
@@ -188,13 +184,13 @@ namespace = frodo
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.25"
-	add_trait = hunter
+		name = "EVTOPTAfrodo.25"
+		add_trait = hunter
 	}
-	}
+}
 	
-	##Now backtrack, for when a successful King Aragorn decides to attack Mordor##
-		character_event = {
+##Now backtrack, for when a successful King Aragorn decides to attack Mordor##
+character_event = {
     id = frodo.7
     title = "EVTTITfrodo.7"
     desc = "EVTDESCfrodo.7"
@@ -202,46 +198,44 @@ namespace = frodo
 	age = 16
 	
 	trigger = {
-	has_global_flag = ringleaveslorien
-	has_global_flag = frodogoestomordor
-	NOT = { has_global_flag = gondor_restoreddefeat }
-	NOT = { has_global_flag = boromirhasring }
-	has_global_flag = gondor_restored
-	has_global_flag = invademordor
-	NOT = { has_global_flag = frodo7 }
-	year = 11367
-	has_landed_title = e_gondor
+		has_global_flag = ringleaveslorien
+		has_global_flag = frodogoestomordor
+		NOT = { has_global_flag = gondor_restoreddefeat }
+		NOT = { has_global_flag = boromirhasring }
+		has_global_flag = gondor_restored
+		has_global_flag = invademordor
+		NOT = { has_global_flag = frodo7 }
+		year = 11367
+		has_landed_title = e_gondor
 	}
 	
 	mean_time_to_happen = {
-	days = 30
+		days = 30
 	}
 	
 	option = {
-	name = "EVTOPTAfrodo.7"
-	set_global_flag = frodo7
-	k_mordor = {
-	reverse_war = {
-	target = ROOT
-	casus_belli = claim_all
+		name = "EVTOPTAfrodo.7"
+		set_global_flag = frodo7
+		k_mordor = {
+			reverse_war = {
+			target = ROOT
+			casus_belli = claim_all
 			}
-			}
-			any_independent_ruler = {
+		}
+		any_independent_ruler = {
 			limit = {
-			AND = {
 				dynasty = 5
 				has_landed_title = k_rohan
 				has_landed_title = c_kings_land
 				NOT = { has_landed_title = c_orthanc }
-				}
 			}
 			character_event = { id = frodo.8 days = 30 }
 		}
-			}
-			}
+	}
+}
 			
-	###Rohan joins the war###
-		character_event = {
+###Rohan joins the war###
+character_event = {
     id = frodo.8
     title = "EVTTITfrodo.8"
     desc = "EVTDESCfrodo.8"
@@ -251,51 +245,51 @@ namespace = frodo
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.8"
-	ROOT = {
-	join_attacker_wars = FROM
-				}
+		name = "EVTOPTAfrodo.8"
+		ROOT = {
+			join_attacker_wars = FROM
+		}
 	}
 	
-		option = {
-	name = "EVTOPTBfrodo.8"
-	trigger = { ai = no }
-	add_trait = craven
+	option = {
+		name = "EVTOPTBfrodo.8"
+		trigger = { ai = no }
+		add_trait = craven
 	}
-	}
+}
 	
-	###Now Frodo is told that Aragorn is marching on Mordor, and makes a run for it##
-	character_event = {
+###Now Frodo is told that Aragorn is marching on Mordor, and makes a run for it##
+character_event = {
     id = frodo.9
     title = "EVTTITfrodo.9"
     desc = "EVTDESCfrodo.9"
     picture = "GFX_good"
 	age = 16
 	
-trigger = {
-has_global_flag = ringleaveslorien
-has_global_flag = frodogoestomordor
-has_global_flag = invademordor
-age = 30
-NOT = { age = 80 }
-NOT = { has_global_flag = frodo9 }
-NOT = { has_global_flag = boromirhasring }
-dynasty = 803
-trait = ring
-}
+	trigger = {
+		has_global_flag = ringleaveslorien
+		has_global_flag = frodogoestomordor
+		has_global_flag = invademordor
+		age = 30
+		NOT = { age = 80 }
+		NOT = { has_global_flag = frodo9 }
+		NOT = { has_global_flag = boromirhasring }
+		dynasty = 803
+		trait = ring
+	}
 	
 	mean_time_to_happen = { days = 30 }
 	
 	option = {
-	name = "EVTOPTAfrodo.9"
-	set_global_flag = frodo9
-	character_event = { id = frodo.10 days = 30 }
+		name = "EVTOPTAfrodo.9"
+		set_global_flag = frodo9
+		character_event = { id = frodo.10 days = 30 }
 	}
 	
-	}
+}
 	
 ###Frodo crosses into mordor###
-	character_event = {
+character_event = {
     id = frodo.10
     title = "EVTTITfrodo.10"
     desc = "EVTDESCfrodo.10"
@@ -305,20 +299,20 @@ trait = ring
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.10"
-	 random_list = {
-                  10 = { 
-					character_event = { id = frodo.11 }
-                          }
-                90 = {
-                    character_event = { id = frodo.12 }
-                }
-				}
-				}
+		name = "EVTOPTAfrodo.10"
+		random_list = {
+			10 = { 
+				character_event = { id = frodo.11 }
+			}
+			90 = {
+				character_event = { id = frodo.12 }
+			}
+		}
 	}
+}
 	
-	###Sam is killed while trying to rescue Frodo, Sauron gets the ring###
-	character_event = {
+###Sam is killed while trying to rescue Frodo, Sauron gets the ring###
+character_event = {
     id = frodo.11
     title = "EVTTITfrodo.11"
     desc = "EVTDESCfrodo.11"
@@ -328,29 +322,27 @@ trait = ring
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.11"
-	remove_trait = ring
-	death = {
-	death_reason = death_battle
-				}
-	any_independent_ruler  = {
+		name = "EVTOPTAfrodo.11"
+		remove_trait = ring
+		death = {
+			death_reason = death_battle
+		}
+		any_independent_ruler  = {
 			limit = {
-			AND = {
-			OR = {
-				has_landed_title = k_mordor
-				has_landed_title = c_barad_dur
+				OR = {
+					has_landed_title = k_mordor
+					has_landed_title = c_barad_dur
 				}
-			dynasty = 10012	
-				}
+				dynasty = 10012	
 			}
 			character_event = { id = frodo.21 days = 7 }
 		}
-}
+	}
 
 }
 
-	###Sam saves frodo##
-	character_event = {
+###Sam saves frodo##
+character_event = {
     id = frodo.12
     title = "EVTTITfrodo.12"
     desc = "EVTDESCfrodo.12"
@@ -360,14 +352,14 @@ trait = ring
 	is_triggered_only = yes		
 	
 	option = {
-	name = "EVTOPTAfrodo.12"
-	character_event = { id = frodo.13 days = 60 }
+		name = "EVTOPTAfrodo.12"
+		character_event = { id = frodo.13 days = 60 }
 	}
-	}
+}
 	
 	
-	###They reach Mt.Doom##
-	character_event = {
+###They reach Mt.Doom##
+character_event = {
     id = frodo.13
     title = "EVTTITfrodo.13"
     desc = "EVTDESCfrodo.13"
@@ -377,20 +369,20 @@ trait = ring
 	is_triggered_only = yes	
 	
 	option = {
-	name = "EVTOPTAfrodo.13"
-		 random_list = {
-                  80 = { 
-					character_event = { id = frodo.14 }
-                          }
-                20 = {
-                    character_event = { id = frodo.15 }
-                }
-				}
+		name = "EVTOPTAfrodo.13"
+		random_list = {
+			80 = { 
+				character_event = { id = frodo.14 }
+			}
+			20 = {
+				character_event = { id = frodo.15 }
+			}
+		}
 	}
-	}
+}
 	
-	###They reach Mt.Doom##
-	character_event = {
+###They reach Mt.Doom##
+character_event = {
     id = frodo.14
     title = "EVTTITfrodo.14"
     desc = "EVTDESCfrodo.14"
@@ -400,26 +392,24 @@ trait = ring
 	is_triggered_only = yes	
 	
 	option = {
-	name = "EVTOPTAfrodo.14"
-	remove_trait = ring
-	add_trait = ringbearer1
+		name = "EVTOPTAfrodo.14"
+		remove_trait = ring
+		add_trait = ringbearer1
 		any_independent_ruler  = {
 			limit = {
-			AND = {
-			OR = {
-				has_landed_title = e_mordor
-				has_landed_title = c_barad_dur
+				OR = {
+					has_landed_title = k_mordor
+					has_landed_title = c_barad_dur
 				}
-			dynasty = 10012	
-				}
+				dynasty = 10012	
 			}
 			character_event = { id = frodo.16 }
 		}
 	}
-	}
+}
 	
-		###They reach Mt.Doom##
-	character_event = {
+###They reach Mt.Doom##
+character_event = {
     id = frodo.15
     title = "EVTTITfrodo.15"
     desc = "EVTDESCfrodo.15"
@@ -428,26 +418,24 @@ trait = ring
 	
 	is_triggered_only = yes
 
-		option = {
-	name = "EVTOPTAfrodo.15"
-	remove_trait = ring
-			death = {
-	death_reason = death_suicide
-				}
-			any_independent_ruler  = {
+	option = {
+		name = "EVTOPTAfrodo.15"
+		remove_trait = ring
+		death = {
+			death_reason = death_suicide
+		}
+		any_independent_ruler  = {
 			limit = {
-			AND = {
-			OR = {
-				has_landed_title = k_mordor
-				has_landed_title = c_barad_dur
+				OR = {
+					has_landed_title = k_mordor
+					has_landed_title = c_barad_dur
 				}
-			dynasty = 10012	
-				}
+				dynasty = 10012	
 			}
 			character_event = { id = frodo.24 }
 		}			
-				}
-				}
+	}
+}
 	
 ##Sauron is destroyed##
 character_event = {
@@ -485,28 +473,22 @@ character_event = {
 		}
 		any_playable_ruler  = {
 			limit = {
-				AND = {
-					has_landed_title = k_mirkwood
-					age = 1
-				}
+				has_landed_title = k_mirkwood
+				age = 1
 			}
 			character_event = { id = frodo.40 }
 		}		
 		any_playable_ruler  = {
 			limit = {
-				AND = {
-					has_character_flag = celeborn
-					age = 1
-				}
+				has_character_flag = celeborn
+				age = 1
 			}
 			character_event = { id = frodo.41 }
 		}				
 		any_playable_ruler  = {
 			limit = {
-				AND = {
-					has_landed_title = e_gondor
-					age = 1
-				}
+				has_landed_title = e_gondor
+				age = 1
 			}
 			character_event = { id = frodo.29 days = 2}
 		}	
@@ -520,8 +502,8 @@ character_event = {
 	}
 }
 		
-	##Mordor's vassals are rebelling##
-	character_event = {
+##Mordor's vassals are rebelling##
+character_event = {
     id = frodo.17
     title = "EVTTITfrodo.17"
     desc = "EVTDESCfrodo.17"
@@ -531,13 +513,13 @@ character_event = {
 	is_triggered_only = yes	
 	
 	option = {
-	name = "EVTOPTAfrodo.17"
-	set_defacto_liege = THIS
+		name = "EVTOPTAfrodo.17"
+		set_defacto_liege = THIS
 	}
-	}
+}
 	
-	##Nazgul die##
-	character_event = {
+##Nazgul die##
+character_event = {
     id = frodo.18
     title = "EVTTITfrodo.18"
     desc = "EVTDESCfrodo.18"
@@ -547,15 +529,15 @@ character_event = {
 	is_triggered_only = yes	
 	
 	option = {
-	name = "EVTOPTAfrodo.18"
-	death = {
-	death_reason = death_battle
-				}
+		name = "EVTOPTAfrodo.18"
+		death = {
+			death_reason = death_battle
+		}
 	}
-	}
+}
 	
-	##The world is informed##
-	character_event = {
+##The world is informed##
+character_event = {
     id = frodo.19
     title = "EVTTITfrodo.19"
     desc = "EVTDESCfrodo.19"
@@ -565,14 +547,14 @@ character_event = {
 	is_triggered_only = yes	
 	
 	option = {
-	name = "EVTOPTAfrodo.19"	
+		name = "EVTOPTAfrodo.19"	
 	}
 	
 	option = {
-	name = "EVTOPTBfrodo.19"
-	trigger = { trait = evil_side }
+		name = "EVTOPTBfrodo.19"
+		trigger = { trait = evil_side }
 	}
-	}
+}
 	
 ##fellowship disbands##
 character_event = {
@@ -583,8 +565,8 @@ character_event = {
 	age = 16
 	
 	trigger = {
-	trait = on_fellowshipquest
-	has_global_flag = saurondefeated
+		trait = on_fellowshipquest
+		has_global_flag = saurondefeated
 	}
 	
 	option = {
@@ -594,7 +576,7 @@ character_event = {
 }
 	
 ##Now backtrack - for when Frodo loses##
-		character_event = {
+character_event = {
     id = frodo.21
     title = "EVTTITfrodo.21"
     desc = "EVTDESCfrodo.21"
@@ -604,17 +586,17 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.21"
-	set_global_flag = sauronhasring
-	add_trait = ring
-				any_independent_ruler  = {
-		character_event = { id = frodo.22 }
-			}
+		name = "EVTOPTAfrodo.21"
+		set_global_flag = sauronhasring
+		add_trait = ring
+		any_independent_ruler  = {
+			character_event = { id = frodo.22 }
+		}
 	}
-	}
+}
 	
 ##rulers are informed that sauron has his ring##
-		character_event = {
+character_event = {
     id = frodo.22
     title = "EVTTITfrodo.22"
     desc = "EVTDESCfrodo.22"
@@ -624,17 +606,17 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.22"
+		name = "EVTOPTAfrodo.22"
 	}
 	
-		option = {
-	name = "EVTOPTBfrodo.22"
-	trigger = { trait = evil_side }
+	option = {
+		name = "EVTOPTBfrodo.22"
+		trigger = { trait = evil_side }
 	}
-	}
+}
  
-  ##fellowship disbands##
- 	character_event = {
+##fellowship disbands##
+character_event = {
     id = frodo.23
     title = "EVTTITfrodo.23"
     desc = "EVTDESCfrodo.23"
@@ -642,15 +624,15 @@ character_event = {
 	age = 16
 	
 	trigger = {
-	trait = on_fellowshipquest
-	has_global_flag = sauronhasring
+		trait = on_fellowshipquest
+		has_global_flag = sauronhasring
 	}
 	
 	option = {
-	name = "EVTOPTAfrodo.23"
-	remove_trait = on_fellowshipquest
+		name = "EVTOPTAfrodo.23"
+		remove_trait = on_fellowshipquest
 	}
-	}
+}
 	
 ##now backtrack again, for if gollum gets the ring##
 ##Now backtrack - for when Frodo loses##
@@ -664,14 +646,14 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.24"
-	set_global_flag = sauronhasring
-	add_trait = ring
-				any_independent_ruler  = {
-		character_event = { id = frodo.22 }
-			}
+		name = "EVTOPTAfrodo.24"
+		set_global_flag = sauronhasring
+		add_trait = ring
+		any_independent_ruler  = {
+			character_event = { id = frodo.22 }
+		}
 	}
-	}
+}
 	
 #####################################################################
 ##backtrack even more, now for the questline where gondor has lost###
@@ -688,25 +670,25 @@ character_event = {
 	age = 16
 	
 	trigger = {
-	has_global_flag = ringleaveslorien
-	has_global_flag = frodogoestomordor
-	has_global_flag = gondor_restoreddefeat
-	age = 30
-	NOT = { age = 80 }
-	NOT = { has_global_flag = frodo26 }
-	NOT = { has_global_flag = boromirhasring }
-	dynasty = 803
+		has_global_flag = ringleaveslorien
+		has_global_flag = frodogoestomordor
+		has_global_flag = gondor_restoreddefeat
+		age = 30
+		NOT = { age = 80 }
+		NOT = { has_global_flag = frodo26 }
+		NOT = { has_global_flag = boromirhasring }
+		dynasty = 803
 	}
 	
 	mean_time_to_happen = { days = 30 }
 	
 	option = {
-	name = "EVTOPTAfrodo.26"
-	set_global_flag = frodo26
-	character_event = { id = frodo.27 days = 30 }
+		name = "EVTOPTAfrodo.26"
+		set_global_flag = frodo26
+		character_event = { id = frodo.27 days = 30 }
 	}
 	
-	}
+}
 	
 ###Frodo crosses into mordor though it is full of orcs###
 character_event = {
@@ -719,38 +701,37 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-	name = "EVTOPTAfrodo.27"
-	 random_list = {
-                  90 = { 
-					character_event = { id = frodo.11 }
-                          }
-                10 = {
-                    character_event = { id = frodo.12 }
-                }
-				}
-				}
+		name = "EVTOPTAfrodo.27"
+		random_list = {
+			90 = { 
+				character_event = { id = frodo.11 }
+			}
+			10 = {
+				character_event = { id = frodo.12 }
+			}
+		}
 	}
+}
 	
 
 	
 ###nazgul lose nazgul trait after sauron is defeated###
-
-	character_event = {
+character_event = {
     id = frodo.28
     title = "EVTTITfrodo.28"
-    desc = "With Sauron destroyed, the power of your own ring fades - you are no longer a Nazgul, and you are no longer immortal either!"
+    desc = "EVTDESCfrodo.28"
     picture = "GFX_good"
 	age = 16
 	
 	trigger = {
-	culture = culture_wight
-	trait = nazgul
-	has_global_flag = saurondefeated
+		culture = culture_wight
+		trait = nazgul
+		has_global_flag = saurondefeated
 	}
 	
 	option = {
-	name = "EVTOPTAfrodo.28"
-	remove_trait = nazgul
+		name = "EVTOPTAfrodo.28"
+		remove_trait = nazgul
 	}
 	
 }
@@ -917,10 +898,8 @@ character_event = {
 		has_landed_title = e_durins_folk
 		NOT = { has_global_flag = gimli_aglarond }
 		any_courtier = {
-		AND = {
 			has_character_flag = gimli
 			age = 1
-		}
 		}
 	}
 	
@@ -931,11 +910,9 @@ character_event = {
 		set_global_flag = gimli_aglarond 
 		any_independent_ruler = {
 			limit = {
-			AND = {
 				age = 1
 				has_landed_title = k_rohan
 				culture = culture_rohirrim
-			}
 			}
 			character_event = { id = frodo.32 }
 		}		
@@ -986,10 +963,8 @@ character_event = {
 		name = "EVTOPTAfrodo.33" ## Go, Gimli son of Gloin, lord of the Glittering Caves!
 		random_dynasty_member = {
 			limit = {
-			AND = {
 				has_character_flag = gimli
 				age = 1
-			}
 			}
 			character_event = { id = frodo.34 }
 		}
@@ -1028,7 +1003,7 @@ character_event = {
 				grant_title = ROOT
 				copy_title_laws = e_durins_folk
 			}	
-		set_defacto_liege = FROM			
+			set_defacto_liege = FROM			
 		}		
 	}
 }
@@ -1099,10 +1074,8 @@ character_event = {
 		name = "EVTOPTAfrodo.37" ## Go, Legolas, my son!
 		random_dynasty_member = {
 			limit = {
-			AND = {
 				has_character_flag = legolas
 				age = 1
-			}
 			}
 			character_event = { id = frodo.38 }
 		}
@@ -1169,14 +1142,14 @@ character_event = {
 				grant_title = ROOT
 				copy_title_laws = e_gondor
 			}				
-		set_defacto_liege = e_gondor	
-		prestige = 200
-		any_independent_ruler = {
-			limit = {
-				has_landed_title = e_gondor
-			}
-			character_event = { id = frodo.39 }
-		}	
+			set_defacto_liege = e_gondor	
+			prestige = 200
+			any_independent_ruler = {
+				limit = {
+					has_landed_title = e_gondor
+				}
+				character_event = { id = frodo.39 }
+			}	
 		}		
 	}
 }
@@ -1184,7 +1157,7 @@ character_event = {
 ##  All the vassals of Aragorn get a better opinion during some years ##
 character_event = {
 	id = frodo.39
-	name = "EVTfrodo.39"
+	title = "EVTfrodo.39"
 	desc = "EVTDESCfrodo.39"
 	picture = GFX_evt_grey_havens
 
@@ -1204,7 +1177,7 @@ character_event = {
 ##  Mirkwood become Eryn Lasgalen ##
 character_event = {
 	id = frodo.40
-	name = "EVTfrodo.40"
+	title = "EVTfrodo.40"
 	desc = "EVTDESCfrodo.40"
 	picture = "GFX_elf_meeting"
 
@@ -1221,7 +1194,7 @@ character_event = {
 ## Celeborn is now the leader of East Lorien ##
 character_event = {
 	id = frodo.41
-	name = "EVTfrodo.41"
+	title = "EVTfrodo.41"
 	desc = "EVTDESCfrodo.41"
 	picture = "GFX_elf_meeting"
 

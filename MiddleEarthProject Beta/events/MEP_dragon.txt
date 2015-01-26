@@ -232,10 +232,10 @@ character_event = {
 				factor = 5
 				FROMFROM = { trait = great_axeman }
 			}
-			modifier = {
-				factor = 7
-				FROMFROM = { trait = cold_drake_slayer }
-			}	
+#			modifier = {
+#				factor = 7
+#				FROMFROM = { trait = cold_drake_slayer }
+#			}	
 			modifier = {
 				factor = 5
 				FROMFROM = { trait = defensive_leader }
@@ -358,10 +358,6 @@ character_event = {
 				FROM = { trait = pneumonic }
 			}
 			modifier = {
-				factor = 8
-				FROM = { trait = leper }
-			}
-			modifier = {
 				factor = 4
 				FROM = { trait = infirm }
 			}
@@ -374,7 +370,6 @@ character_event = {
 					FROM = { trait = has_bubonic_plague }
 					FROM = { trait = has_measles }
 					FROM = { trait = has_small_pox }
-					FROM = { trait = has_aztec_disease }
 				}
 			}
 			modifier = {
@@ -461,10 +456,10 @@ character_event = {
 				factor = 5
 				FROM = { trait = great_axeman }
 			}
-			modifier = {
-				factor = 7
-				FROM = { trait = cold_drake_slayer }
-			}
+#			modifier = {
+#				factor = 7
+#				FROM = { trait = cold_drake_slayer }
+#			}
 			modifier = {
 				factor = 5
 				FROM = { trait = defensive_leader }
@@ -588,10 +583,6 @@ character_event = {
 				FROMFROM = { trait = pneumonic }
 			}
 			modifier = {
-				factor = 8
-				FROMFROM = { trait = leper }
-			}
-			modifier = {
 				factor = 4
 				FROMFROM = { trait = infirm }
 			}
@@ -604,7 +595,6 @@ character_event = {
 					FROMFROM = { trait = has_bubonic_plague }
 					FROMFROM = { trait = has_measles }
 					FROMFROM = { trait = has_small_pox }
-					FROMFROM = { trait = has_aztec_disease }
 				}
 			}
 			
@@ -696,7 +686,7 @@ character_event = {
 		}	
 		if = {
 			limit = {
-				is_marshal = yes
+				has_job_title = job_marshal
 				age = 1
 				culture_group = culture_group_dwarves
 				OR = {
@@ -903,7 +893,7 @@ character_event = {
 				hidden_tooltip = { e_rebels = { holder_scope = { character_event = { id = dragon.16 } } } }	## You failed to escape, second duel
 			}
 			55 = {
-				character_event = { id = dragon.9 } ## You escape
+				narrative_event = { id = dragon.9 } ## You escape
 			}			
 		}	
 	}		
@@ -956,10 +946,10 @@ character_event = {
 				factor = 5
 				FROMFROM = { trait = great_axeman }
 			}
-			modifier = {
-				factor = 7
-				FROMFROM = { trait = cold_drake_slayer }
-			}	
+#			modifier = {
+#				factor = 7
+#				FROMFROM = { trait = cold_drake_slayer }
+#			}	
 			modifier = {
 				factor = 5
 				FROMFROM = { trait = defensive_leader }
@@ -1082,10 +1072,6 @@ character_event = {
 				FROM = { trait = pneumonic }
 			}
 			modifier = {
-				factor = 8
-				FROM = { trait = leper }
-			}
-			modifier = {
 				factor = 4
 				FROM = { trait = infirm }
 			}
@@ -1098,7 +1084,6 @@ character_event = {
 					FROM = { trait = has_bubonic_plague }
 					FROM = { trait = has_measles }
 					FROM = { trait = has_small_pox }
-					FROM = { trait = has_aztec_disease }
 				}
 			}
 			modifier = {
@@ -1185,10 +1170,10 @@ character_event = {
 				factor = 5
 				FROM = { trait = great_axeman }
 			}
-			modifier = {
-				factor = 7
-				FROM = { trait = cold_drake_slayer }
-			}	
+#			modifier = {
+#				factor = 7
+#				FROM = { trait = cold_drake_slayer }
+#			}	
 			modifier = {
 				factor = 5
 				FROM = { trait = defensive_leader }
@@ -1312,10 +1297,6 @@ character_event = {
 				FROMFROM = { trait = pneumonic }
 			}
 			modifier = {
-				factor = 8
-				FROMFROM = { trait = leper }
-			}
-			modifier = {
 				factor = 4
 				FROMFROM = { trait = infirm }
 			}
@@ -1328,7 +1309,6 @@ character_event = {
 					FROMFROM = { trait = has_bubonic_plague }
 					FROMFROM = { trait = has_measles }
 					FROMFROM = { trait = has_small_pox }
-					FROMFROM = { trait = has_aztec_disease }
 				}
 			}
 			

@@ -7,10 +7,8 @@ narrative_event = {
     picture = "GFX_evt_abandoned_lands"
 
 	trigger = {
-		AND = {
-			year = 9978
-			NOT = { year = 10180 }
-		}
+		year = 9978
+		NOT = { year = 10180 }
 		NOT = { has_global_flag = great_plague }
 		has_landed_title = c_uldovhar
 	}

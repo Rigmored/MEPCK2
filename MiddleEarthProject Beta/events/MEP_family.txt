@@ -31,13 +31,11 @@ character_event = {
 			is_close_relative = ROOT
 			any_demesne_title = {
 				can_be_given_away = yes
-				AND = {
-					tier = count
-					is_feudal = yes
-					location = {
-						is_capital = no
-					}						
-				}
+				tier = count
+				is_feudal = yes
+				location = {
+					is_capital = no
+				}						
 			}
 		}
 		NOT = { has_character_flag = flag_denied_title }
@@ -113,20 +111,9 @@ character_event = {
 	}
 	
 	option = {
-		name = EVTOPTC37001 # Mention a Church career...
-		tooltip_info = diplomacy
-		trigger = {
-			religion_group = christian
-			diplomacy = 8
-		}
-		FROM = { character_event = { id = 37003 tooltip = EVTTOOLTIP37003 } }
-	}
-	
-	option = {
 		name = EVTOPTD37001 # Diplomatically refuse
 		tooltip_info = diplomacy
 		trigger = {
-			NOT = { religion_group = christian }
 			diplomacy = 8
 		}
 		FROM = { character_event = { id = 37003 tooltip = EVTTOOLTIP37003 } }
@@ -253,10 +240,6 @@ character_event = {
 				trait = ambitious
 			}
 			modifier = {
-				factor = 5.0
-				religion_group = muslim
-			}
-			modifier = {
 				factor = 0.25
 				trait = slothful
 			}
@@ -294,13 +277,11 @@ character_event = {
 		liege = {
 			any_demesne_title = {
 				can_be_given_away = yes
-				AND = {
-					tier = count
-					is_feudal = yes
-					location = {
-						is_capital = no
-					}				
-				}
+				tier = count
+				is_feudal = yes
+				location = {
+					is_capital = no
+				}				
 			}
 		}
 	}
@@ -330,12 +311,10 @@ character_event = {
 		random_demesne_title = {
 			limit = {
 				can_be_given_away = yes
-				AND = {
-					tier = count
-					is_feudal = yes
-					location = {
-						is_capital = no
-					}
+				tier = count
+				is_feudal = yes
+				location = {
+					is_capital = no
 				}
 			}
 			grant_title = FROM
@@ -405,10 +384,6 @@ character_event = {
 				trait = ambitious
 			}
 			modifier = {
-				factor = 5.0
-				religion_group = muslim
-			}
-			modifier = {
 				factor = 0.25
 				trait = slothful
 			}
@@ -465,7 +440,7 @@ character_event = {
 	}
 	
 	option = {
-		name = EVTOPTA37010
+		#name = EVTOPTA37010
 		liege = {
 			capital_scope = {
 				random_independent_ruler = {

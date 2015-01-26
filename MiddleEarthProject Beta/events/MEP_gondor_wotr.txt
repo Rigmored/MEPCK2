@@ -145,7 +145,7 @@ character_event = {
 		create_random_soldier = {
 			random_traits = yes
 			dynasty = none
-			religion = religion_easterling
+			religion = religion_easterlings
 			culture = culture_easterling
 			female = no
 			age = 33
@@ -161,7 +161,7 @@ character_event = {
 				}
 			}		
 		}	
-		FROM = { character_event = { id = gondorwotr.5 } }
+		FROM = { narrative_event = { id = gondorwotr.5 } }
 	}	
 }
 
@@ -230,7 +230,7 @@ character_event = {
 		create_random_soldier = {
 			random_traits = yes
 			dynasty = none
-			religion = religion_easterling
+			religion = religion_easterlings
 			culture = culture_easterling
 			female = no
 			age = 33
@@ -246,7 +246,7 @@ character_event = {
 				}
 			}		
 		}	
-		FROM = { character_event = { id = gondorwotr.5 } }
+		FROM = { narrative_event = { id = gondorwotr.5 } }
 	}	
 }
 
@@ -315,7 +315,7 @@ character_event = {
 		create_random_soldier = {
 			random_traits = yes
 			dynasty = none
-			religion = religion_easterling
+			religion = religion_easterlings
 			culture = culture_easterling
 			female = no
 			age = 33
@@ -331,7 +331,7 @@ character_event = {
 				}
 			}		
 		}	
-		FROM = { character_event = { id = gondorwotr.5 } }
+		FROM = { narrative_event = { id = gondorwotr.5 } }
 	}	
 }
 
@@ -656,7 +656,7 @@ narrative_event = {
 	option = {
 		name = "EVTOPTAgondorwotr.11" ## Wait WHAT?
 		FROM = {
-			character_event = { id = gondorwotr.12 days = 40 }
+			narrative_event = { id = gondorwotr.12 days = 40 }
 		}
 	}	
 }
@@ -681,7 +681,7 @@ narrative_event = {
 	option = {
 		name = "EVTOPTAgondorwotr.12" ## Attack !
 		FROM = {
-			character_event = { id = gondorwotr.13 days = 40 }
+			narrative_event = { id = gondorwotr.13 days = 40 }
 		}
 		set_global_flag = corsairsintolfalas
 		d_tolfalas = {
@@ -909,7 +909,7 @@ narrative_event = {
 		create_random_soldier = {
 			random_traits = yes
 			dynasty = none
-			religion = religion_easterling
+			religion = religion_easterlings
 			culture = culture_easterling
 			female = no
 			age = 33
@@ -925,7 +925,7 @@ narrative_event = {
 				}
 			}		
 		}	
-		FROM = { character_event = { id = gondorwotr.17 } }
+		FROM = { narrative_event = { id = gondorwotr.17 } }
 	}	
 }
 

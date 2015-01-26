@@ -18,12 +18,10 @@ character_event = {
     picture = "GFX_good"
 
 	trigger = {
-		AND = {
-			year = 9651
-			NOT = { year = 9652 }
-			is_ruler = yes
-			NOT = { has_character_flag = fallofarnor_intro }
-		}
+		year = 9651
+		NOT = { year = 9652 }
+		is_ruler = yes
+		NOT = { has_character_flag = fallofarnor_intro }
 	}
 	
 	mean_time_to_happen = {
@@ -83,7 +81,7 @@ character_event = {
 	option = {
 		name = "EVTOPTBfallofarnor.2" ## No, they're wise rulers.
 		trigger = { ai = no }
-		any_independant_ruler = {
+		any_independent_ruler = {
 			limit = {
 				OR = {
 					NOT = { has_character_flag = witchking }
@@ -219,7 +217,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTBfallofarnor.6" ## No, Forodacil and his heir are great kings.
-		any_independant_ruler = {
+		any_independent_ruler = {
 			limit = {
 				OR = {
 					NOT = { has_character_flag = witchking }
@@ -324,7 +322,7 @@ character_event = {
 	}	
 	option = {
 		name = "EVTOPTBfallofarnor.9" ## No, it's over for me.
-		any_independant_ruler = {
+		any_independent_ruler = {
 			limit = {
 				OR = {
 					NOT = { has_character_flag = witchking }
@@ -541,7 +539,7 @@ character_event = {
 			}
 			character_event = { id = fallofarnor.18 }	## Ulfang is informed that the Witch-King joined him
 		}	
-		any_independant_ruler = {
+		any_independent_ruler = {
 			limit = {
 				OR = {
 					NOT = { has_character_flag = witchking }
@@ -694,7 +692,7 @@ character_event = {
 			}
 			character_event = { id = fallofarnor.23 days = 10 }	## A diplomatic issue.
 		}	
-		any_independant_ruler = {
+		any_independent_ruler = {
 			limit = {
 				OR = {
 					NOT = { has_character_flag = witchking }

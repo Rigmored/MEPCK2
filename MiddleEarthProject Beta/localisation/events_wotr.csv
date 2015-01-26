@@ -437,6 +437,9 @@ EVTDESCgaladrielring.8;Rumors reach you that Galadriel is now preparing to move 
 EVTOPTAgaladrielring.8;Let's hope she does not turn to darkness.;Esperons qu'elle ne bascule pas dans les ténèbres…;;;;;;;;;;;;x
 EVTOPTBgaladrielring.8;She better stay away from my borders!;Elle ferait mieux de rester loin de mes frontières !;;;;;;;;;;;;x
 EVTOPTCgaladrielring.8;Cursed elves!;Maudits Elfes !;;;;;;;;;;;;x
+EVTTITgaladrielring.9;Expand your Realm;@FIXME@ Expand your Realm;;;;;;;;;;;;x
+EVTDESCgaladrielring.9;The wood elves of Mirkwood must be added to your growing realm before they are overwhelmed by their enemies. You should send your armies there to protect them, and organize their levies for the future war against Sauron.;@FIXME@ The wood elves of Mirkwood must be added to your growing realm before they are overwhelmed by their enemies. You should send your armies there to protect them, and organize their levies for the future war against Sauron.;;;;;;;;;;;;x
+EVTOPTAgaladrielring.9;Expand your Realm;@FIXME@ Expand your Realm;;;;;;;;;;;;x
 EVTTITwotr.92;Aragorn or Elessar?;Aragorn ou Elessar?;;;;;;;;;;;;x
 EVTDESCwotr.92;You're now the King of Gondor and Arnor, as foreseen. You can now change your regnal name to Elessar, but fo you want it?;Vous êtes maintenant le Roi d'Arnor et du Gondor, comme votre destinée le prévoyait. Vous pouvez prendre comme nom de règne Elessar, mais le voulez-vous vraiment?;;;;;;;;;;;;x
 EVTOPTAwotr.92;I'm the King Elessar !;Je suis le Roi Elessar !;;;;;;;;;;;;x

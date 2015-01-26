@@ -1084,7 +1084,7 @@ character_event = {
 # The Holder of Nenya can use once again nenya #
 character_event = {
 	id = moria.18
-	title = EVTNAMEmoria.18
+	title = EVTTITmoria.18
 	desc = EVTDESCmoria.18
 	picture = "GFX_good"
 	hide_window = yes

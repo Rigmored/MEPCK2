@@ -92,3 +92,7 @@ opinion_colonized_my_province_wrong = {
 	opinion = -20
 	months = 60
 }
+
+diplomatic_rhudaur = {
+	opinion = 10
+}
