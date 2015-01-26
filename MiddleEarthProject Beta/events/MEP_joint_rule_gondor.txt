@@ -18,7 +18,7 @@ character_event = {
 		current_heir = {
 			character_event = { id = rulegondor.1 days = 2 }
 		}
-		character_event = { id = rulegondor.2 days = 4 }
+#		character_event = { id = rulegondor.2 days = 4 }
 	}
 	
 	option = {

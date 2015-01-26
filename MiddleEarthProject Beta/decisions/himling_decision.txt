@@ -1,13 +1,11 @@
-dynasty_decisions = {
+decisions = {
 
 explore_himling_ruins = {
 		potential = {
 			ai = no #ai cannot use dynasty decisions		
 			has_landed_title = c_himling
-			AND = {
-				NOT = { trait = himling_armour }
-				NOT = { trait = himling_sword }
-			}
+			NOT = { trait = himling_armour }
+			NOT = { trait = himling_sword }
 			NOT = { has_character_flag = explorer_of_himling }
 			OR = {
 				NOT = {
@@ -39,7 +37,7 @@ explore_himling_ruins = {
 			wealth = 150
 		}
 		effect = {
-		ROOT = { character_event = { id = 400004 } }
+		ROOT = { character_event = { id = himling.4 } }
 		}
 }
 }
