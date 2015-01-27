@@ -3,8 +3,8 @@ namespace = portraits
 #### These events will changes the portraits to the corresponding cultural ones ####
 character_event = {
 	id = portraits.1
-	title = "portraits"
-	desc = "portraitsdesc"
+	title = "OK"
+	desc = "OK"
 	picture = "GFX_evt_elves"
 	
 	hide_window = yes
@@ -20,120 +20,120 @@ character_event = {
 	} 
 
 	option = {
-		name = "portraits"
+		name = "OK"
 		if = {
 			limit = {
 				culture_group = culture_group_amanyar
 			}		
-		set_graphical_culture = culture_noldor
+		set_graphical_culture = elfgfx
 		}
 		if = {
 			limit = {
 				culture_group = culture_group_umanyar
 			}		
-		set_graphical_culture = culture_sindar
+		set_graphical_culture = elfgfx
 		}	
 		if = {
 			limit = {
 				culture_group = culture_group_moriquendi
 			}		
-		set_graphical_culture = culture_avari
+		set_graphical_culture = elfgfx
 		}	
 		if = {
 			limit = {
 				culture_group = culture_group_onodrim
 			}		
-		set_graphical_culture = culture_entish
+		set_graphical_culture = wildernessgfx
 		}		
 		if = {
 			limit = {
 				culture = culture_maiar
 			}		
-		set_graphical_culture = culture_maiar
+		set_graphical_culture = maiargfx
 		}
 		if = {
 			limit = {
 				culture = culture_valar
 			}		
-		set_graphical_culture = culture_valar
+		set_graphical_culture = westerngfx
 		}	
 		if = {
 			limit = {
 				culture = culture_istari
 			}		
-		set_graphical_culture = culture_istari
+		set_graphical_culture = istarigfx
 		}	
 		if = {
 			limit = {
 				culture = culture_wight
 			}	
-		set_graphical_culture = culture_wight
+		set_graphical_culture = wraithgfx
 		}
 		if = {
 			limit = {
 				culture = culture_half_orc 
 			}		
-		set_graphical_culture = culture_half_orc 
+		set_graphical_culture = orkgfx 
 		}	
 		if = {
 			limit = {
 				culture = culture_urukhai
 			}		
-		set_graphical_culture = culture_urukhai
+		set_graphical_culture = orkgfx
 		}
 		if = {
 			limit = {
 				culture = culture_goblin
 			}		
-		set_graphical_culture = culture_goblin
+		set_graphical_culture = goblingfx
 		}	
 		if = {
 			limit = {
 				culture = culture_orkish
 			}		
-		set_graphical_culture = culture_orkish
+		set_graphical_culture = orkgfx
 		}
 		if = {
 			limit = {
 				culture = culture_troll
 			}		
-		set_graphical_culture = culture_troll
+		set_graphical_culture = trollgfx
 		}
 		if = {
 			limit = {
 				culture = culture_balrog
 			}		
-		set_graphical_culture = culture_balrog
+		set_graphical_culture = balroggfx
 		}
 		if = {
 			limit = {
 				culture = culture_dragons
 			}		
-		set_graphical_culture = culture_dragons
+		set_graphical_culture = dragongfx
 		}	
 		if = {
 			limit = {
 				culture = culture_spider
 			}		
-		set_graphical_culture = culture_spider
+		set_graphical_culture = spidergfx
 		}	
 		if = {
 			limit = {
 				culture = culture_wilderness
 			}		
-		set_graphical_culture = culture_wilderness
+		set_graphical_culture = wildernessgfx
 		}
 		if = {
 			limit = {
 				culture = culture_mountains
 			}		
-		set_graphical_culture = culture_mountains
+		set_graphical_culture = mountainsgfx
 		}
 		if = {
 			limit = {
 				culture = culture_druedain
 			}		
-		set_graphical_culture = culture_druedain
+		set_graphical_culture = druedaingfx
 		}
 		if = {
 			limit = {
@@ -144,13 +144,13 @@ character_event = {
 					culture = culture_boradin
 				}
 			}		
-		set_graphical_culture = culture_beodin
+		set_graphical_culture = hillmengfx
 		}
 		if = {
 			limit = {
 				culture_group = culture_group_numenorean
 			}		
-		set_graphical_culture = culture_numenorean
+		set_graphical_culture = gondoriangfx
 		}
 		if = {
 			limit = {
@@ -161,7 +161,7 @@ character_event = {
 					culture = culture_beorning
 				}
 			}		
-		set_graphical_culture = culture_northmen
+		set_graphical_culture = rhovaniongfx
 		}	
 		if = {
 			limit = {
@@ -170,7 +170,7 @@ character_event = {
 					culture = culture_gondorian_middlemen					
 				}
 			}		
-		set_graphical_culture = culture_gondorian_middlemen
+		set_graphical_culture = hillmengfx
 		}	
 		if = {
 			limit = {
@@ -179,62 +179,62 @@ character_event = {
 					culture = culture_rohirrim					
 				}
 			}		
-		set_graphical_culture = culture_rohirrim
+		set_graphical_culture = rohirricgfx
 		}	
 		if = {
 			limit = {
 				culture_group = culture_group_forodwaith
 			}		
-		set_graphical_culture = culture_lossoth
+		set_graphical_culture = lossothgfx
 		}	
 		if = {
 			limit = {
 				culture_group = culture_group_haldadian
 				NOT = { culture = culture_breelander }
 			}		
-		set_graphical_culture = culture_andrasting
+		set_graphical_culture = hillmengfx
 		}	
 		if = {
 			limit = {
 				culture = culture_breelander
 			}		
-		set_graphical_culture = culture_breelander
+		set_graphical_culture = rhovaniongfx
 		}	
 		if = {
 			limit = {
 				culture_group = culture_group_southron
 			}		
-		set_graphical_culture = culture_haradrim
+		set_graphical_culture = nearharadrimgfx
 		}	
 		if = {
 			limit = {
 				culture_group = culture_group_easterling
 			}		
-		set_graphical_culture = culture_easterling
+		set_graphical_culture = easterlinggfx
 		}	
 		if = {
 			limit = {
 				culture_group = culture_group_halfling
 			}		
-		set_graphical_culture = culture_harfoot
+		set_graphical_culture = hobbitsgfx
 		}	
 		if = {
 			limit = {
 				culture_group = culture_group_dwarves
 			}		
-		set_graphical_culture = culture_longbeard
+		set_graphical_culture = dwarfgfx
 		}	
 		if = {
 			limit = {
 				culture_group = culture_group_quendi
 			}		
-		set_graphical_culture = culture_minyar
+		set_graphical_culture = elfgfx
 		}
 		if = {
 			limit = {
 				culture = culture_eagles
 			}		
-		set_graphical_culture = culture_eagles
+		set_graphical_culture = eaglegfx
 		}			
 	}
 }

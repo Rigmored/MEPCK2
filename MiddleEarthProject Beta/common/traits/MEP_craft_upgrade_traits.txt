@@ -1,13 +1,6 @@
 ancient = {
-	leader = yes
 	monthly_character_piety = 0.2
 	monthly_character_prestige = 0.1
-	cached = yes
-	opposites =  {
-		caster1
-		caster2
-		caster3
-	}
 }
 
 elvish_sword_magic_martial = {

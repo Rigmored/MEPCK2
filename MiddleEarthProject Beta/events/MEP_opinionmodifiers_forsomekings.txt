@@ -3,9 +3,9 @@ namespace = opinionmodifier
 
 ##  All the vassals of The Kings of Cardolan/Rhudaur/Arthedain/Angmar get a better opinion during some years ##
 character_event = {
-	id = opinionmodifier
-	name = "opinionmodifier.1"
-	desc = "opinionmodifier.1"
+	id = opinionmodifier.0
+	title = "OK"
+	desc = "OK"
 	picture = GFX_evt_grey_havens
 	hide_window = yes
 
@@ -44,11 +44,13 @@ character_event = {
 	}
 	
 	option = {
-		name = "opinionmodifier.1" # I'll die..
+		name = "OK" # I'll die..
 		set_character_flag = stabilizermodifier
 		any_vassal = {
 			opinion = { modifier = true_king who = ROOT years = 40 }
 		}
-		set_the_kings_full_peace = yes	
+		crownlaw_title = {
+			set_the_kings_full_peace = yes	
+		}
 	}
 }

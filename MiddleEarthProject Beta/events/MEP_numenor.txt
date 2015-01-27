@@ -13,7 +13,7 @@ narrative_event = {
 	option = {
 		name = "EVTOPTAnumenor.0" ## I'll search for it.
 		prestige = -1000
-		character_event = { id = numenor.1 days = 2 }
+		narrative_event = { id = numenor.1 days = 2 }
 	}
 	
 	option = {
@@ -37,14 +37,14 @@ narrative_event = {
 		set_character_flag = great_ship
 		prestige = 100
 		wealth = -450
-		character_event = { id = numenor.3 days = 250 }
+		narrative_event = { id = numenor.3 days = 250 }
 	}
 	
 	option = {
 		name = "EVTOPTBnumenor.1" ## I'll use one of my own ships.
 		set_character_flag = normal_ship
 		prestige = -10
-		character_event = { id = numenor.4 days = 120 }		
+		narrative_event = { id = numenor.4 days = 120 }		
 	}	
 }
 
@@ -65,8 +65,7 @@ narrative_event = {
 		spawn_fleet = {
 			province = closest # closest sea zone
 			owner = ROOT
-			troops =
-			{
+			troops = {
 				galleys = { 50 50 }
 			}
 		}
@@ -89,8 +88,7 @@ narrative_event = {
 		spawn_fleet = {
 			province = closest # closest sea zone
 			owner = ROOT
-			troops =
-			{
+			troops = {
 				galleys = { 15 15 }
 			}
 		}
@@ -114,19 +112,25 @@ narrative_event = {
 		OR = {
 			any_playable_ruler = {
 				in_command = yes
-				OR = {
-					is_located_in = 795
-					is_located_in = 796
+				location  = {
+					OR = {
+						province_id = 795
+						province_id = 796
+					}
 				}
+				count = 1
 			}
 			any_playable_ruler = {
 				any_courtier = {
 					in_command = yes
-					OR = {
-						is_located_in = 795
-						is_located_in = 796
+					location  = {
+						OR = {
+							province_id = 795
+							province_id = 796
+						}
 					}
 				}
+				count = 1
 			}			
 		}
 	}
@@ -165,7 +169,7 @@ narrative_event = {
 				}
 				trait = barahir
 			}
-			character_event = { id = numenor.6 days = 2 } ## He'll survive
+			narrative_event = { id = numenor.6 days = 2 } ## He'll survive
 		}	
 		if = { 
 			limit = { ## The King of Gondor or Arnor, not direct heir of Elendil.
@@ -178,28 +182,25 @@ narrative_event = {
 					trait = blood_of_isildur
 					trait = blood_of_anarion
 				}	
-				AND = {
-					OR = {
-						NOT = { trait = narsil }
-						NOT = { trait = anduril }
-					}
-					NOT = { trait = barahir }
+				OR = {
+					NOT = { trait = narsil }
+					NOT = { trait = anduril }
 				}
+				NOT = { trait = barahir }
 			}
 			random_list = {
 				70 = {				
-					character_event = { id = numenor.9 days = 2 } ## He'll survive
+					narrative_event = { id = numenor.9 days = 2 } ## He'll survive
 				}
 				30 = {
-					character_event = { id = numenor.7 days = 2 } ## He'll die
+					narrative_event = { id = numenor.7 days = 2 } ## He'll die
 				}
 			}
 		}
 		if = { 
 			limit = { ## Isn't a dunedain, an ainur or an elf - good side
 				NOT = { religion = religion_dunedain }		
-				NOT = { religion = religion_calaquendi }
-				NOT = { religion = religion_moriquendi }
+				NOT = { religion_group = religion_group_eldar}
 				NOT = { culture = culture_maiar }
 				NOT = { culture = culture_valar }
 				NOT = { culture = culture_istari }
@@ -209,10 +210,10 @@ narrative_event = {
 			}
 			random_list = {
 				15 = {				
-					character_event = { id = numenor.9 days = 2 } ## He'll survive
+					narrative_event = { id = numenor.9 days = 2 } ## He'll survive
 				}
 				85 = {
-					character_event = { id = numenor.7 days = 2 } ## He'll die
+					narrative_event = { id = numenor.7 days = 2 } ## He'll die
 				}
 			}
 		}
@@ -226,54 +227,47 @@ narrative_event = {
 			}
 			random_list = {
 				80 = {				
-					character_event = { id = numenor.69 days = 2 } ## He'll survive
+					narrative_event = { id = numenor.9 days = 2 } ## He'll survive
 				}
 				20 = {
-					character_event = { id = numenor.7 days = 2 } ## He'll die
+					narrative_event = { id = numenor.7 days = 2 } ## He'll die
 				}
 			}
 		}	
 		if = { 
 			limit = { ## Is an elf - good side
-				OR = {
-					religion = religion_calaquendi
-					religion = religion_moriquendi
-				}
+				religion_group = religion_group_eldar
 				NOT = { 
 					trait = evil_side
 				}
 			}
 			random_list = {
 				60 = {				
-					character_event = { id = numenor.9 days = 2 } ## He'll survive
+					narrative_event = { id = numenor.9 days = 2 } ## He'll survive
 				}
 				40 = {
-					character_event = { id = numenor.7 days = 2 } ## He'll die
+					narrative_event = { id = numenor.7 days = 2 } ## He'll die
 				}
 			}
 		}	
 		if = { 
 			limit = { ## Is an elf - evil side
-				OR = {
-					religion = religion_calaquendi
-					religion = religion_moriquendi
-				}
+				religion_group = religion_group_eldar
 				trait = evil_side
 			}
 			random_list = {
 				10 = {				
-					character_event = { id = numenor.9 days = 2 } ## He'll survive
+					narrative_event = { id = numenor.9 days = 2 } ## He'll survive
 				}
 				90 = {
-					character_event = { id = numenor.7 days = 2 } ## He'll die
+					narrative_event = { id = numenor.7 days = 2 } ## He'll die
 				}
 			}
 		}
 		if = { 
 			limit = { ## Isn't a dunedain, an ainur or an elf - evil side
 				NOT = { religion = religion_dunedain }		
-				NOT = { religion = religion_calaquendi }
-				NOT = { religion = religion_moriquendi }
+				NOT = { religion_group = religion_group_eldar }
 				NOT = { culture = culture_maiar }
 				NOT = { culture = culture_valar }
 				NOT = { culture = culture_istari }
@@ -281,10 +275,10 @@ narrative_event = {
 			}
 			random_list = {
 				1 = {				
-					character_event = { id = numenor.9 days = 2 } ## He'll survive
+					narrative_event = { id = numenor.9 days = 2 } ## He'll survive
 				}
 				99 = {
-					character_event = { id = numenor.7 days = 2 } ## He'll die
+					narrative_event = { id = numenor.7 days = 2 } ## He'll die
 				}
 			}
 		}
@@ -297,10 +291,10 @@ narrative_event = {
 			}
 			random_list = {
 				25 = {				
-					character_event = { id = numenor.9 days = 2 } ## He'll survive
+					narrative_event = { id = numenor.9 days = 2 } ## He'll survive
 				}
 				75 = {
-					character_event = { id = numenor.7 days = 2 } ## He'll die
+					narrative_event = { id = numenor.7 days = 2 } ## He'll die
 				}
 			}
 		}	
@@ -311,10 +305,10 @@ narrative_event = {
 			}
 			random_list = {
 				2 = {				
-					character_event = { id = numenor.9 days = 2 } ## He'll survive
+					narrative_event = { id = numenor.9 days = 2 } ## He'll survive
 				}
 				98 = {
-					character_event = { id = numenor.7 days = 2 } ## He'll die
+					narrative_event = { id = numenor.7 days = 2 } ## He'll die
 				}
 			}
 		}		
@@ -365,7 +359,7 @@ narrative_event = {
 		death = {
 			death_reason = death_accident
 		}
-		liege = { character_event = { id = numenor.8 days = 50 } }
+		liege = { narrative_event = { id = numenor.8 days = 50 } }
 	}
 }
 

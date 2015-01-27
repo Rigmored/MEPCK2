@@ -96,3 +96,7 @@ opinion_colonized_my_province_wrong = {
 diplomatic_rhudaur = {
 	opinion = 10
 }
+
+opinion_castamirusurper = {
+	opinion = -20
+}
