@@ -955,15 +955,14 @@
 		}
 		modifier = {
 			factor = 0
-			culture = culture_wraith
+			culture = culture_wight
 			OR = {
-				NOT = { has_landed_title = e_angmar }
-				NOT = { has_landed_title = e_barad_dur }
+				NOT = { trait = ring_murazor }
 			}
 		}	
 		modifier = {
 			factor = 5000
-			culture = culture_wraith
+			culture = culture_wight
 			trait = ring_murazor
 		}		
 		modifier = {
@@ -999,26 +998,26 @@
 	1 = {
 		factor = 1
 		modifier = {
-			factor = 0
+			factor = 0.002
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
 		}
 		modifier = {
-			factor = 0
+			factor = 0.002
 			is_feudal = no
 		}
 		modifier = {
-			factor = 5000
-			culture = culture_wraith
+			factor = 50000
+			culture = culture_wight
 			trait = ring_khamul
 		}	
 		modifier = {
 			factor = 0
-			culture = culture_wraith
+			culture = culture_wight
 			NOT = {
 				trait = ring_khamul
 			}
-		}			
+		}		
 		modifier = {
 			factor = 0
 			OR = {
@@ -1046,7 +1045,7 @@
 	2 = {
 		factor = 1
 		modifier = {
-			factor = 0
+			factor = 0.002
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
 		}
@@ -1063,13 +1062,24 @@
 				trait = elf_childhood
 				trait = elf
 			}
-		}		
+		}	
+		modifier = {
+			factor = 100000
+			trait = ring_akhorahil
+		}	
 		modifier = {
 			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_akhorahil
+			}
+		}			
+		modifier = {
+			factor = 0.002
 			is_feudal = no
 		}
 		modifier = {
-			factor = 0
+			factor = 0.002
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
@@ -1081,7 +1091,7 @@
 	3 = {
 		factor = 1
 		modifier = {
-			factor = 0
+			factor = 0.002
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
 		}
@@ -1098,13 +1108,24 @@
 				trait = elf_childhood
 				trait = elf
 			}
-		}		
+		}	
+		modifier = {
+			factor = 100000
+			trait = ring_adunaphazor
+		}	
 		modifier = {
 			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_adunaphazor
+			}
+		}				
+		modifier = {
+			factor = 0.002
 			is_feudal = no
 		}
 		modifier = {
-			factor = 0
+			factor = 0.002
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
@@ -1116,7 +1137,7 @@
 	4 = {
 		factor = 1
 		modifier = {
-			factor = 0
+			factor = 0.002
 			is_feudal = yes
 			NOT = { real_tier = duke }
 			NOT = { spouse = { real_tier = duke } }
@@ -1134,6 +1155,17 @@
 			AND = {
 				trait = elf_childhood
 				trait = elf
+			}
+		}	
+		modifier = {
+			factor = 50000
+			trait = ring_dwar
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_dwar
 			}
 		}		
 		modifier = {
@@ -1191,6 +1223,18 @@
 			}
 		}
 		modifier = {
+			factor = 5000
+			culture = culture_wight
+			trait = ring_uvatha
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_uvatha
+			}
+		}			
+		modifier = {
 			factor = 10
 			is_ruler = yes
 			is_theocracy = yes
@@ -1214,6 +1258,18 @@
 				trait = elf_childhood
 				trait = elf
 			}
+		}		
+		modifier = {
+			factor = 5000
+			culture = culture_wight
+			trait = ring_ren
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_ren
+			}
 		}			
 		modifier = {
 			factor = 0
@@ -1233,7 +1289,7 @@
 	7 = {
 		factor = 1
 		modifier = {
-			factor = 0
+			factor = 0.002
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
@@ -1258,9 +1314,20 @@
 				trait = ring
 				trait = mouthofsauron
 			}
+		}	
+		modifier = {
+			factor = 100000
+			trait = ring_abrazir
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_abrazir
+			}
 		}		
 		modifier = {
-			factor = 10000
+			factor = 100000
 			trait = staff_of_gandalf
 		}		
 	}
@@ -1288,11 +1355,23 @@
 			}
 		}		
 		modifier = {
+			factor = 50000
+			culture = culture_wight
+			trait = ring_jiundur
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_jiundur
+			}
+		}			
+		modifier = {
 			factor = 0
 			trait = ring
 		}		
 		modifier = {
-			factor = 10000
+			factor = 100000
 			trait = staff_of_radagast
 		}			
 	}
