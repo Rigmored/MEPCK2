@@ -8,14 +8,11 @@ use_vilya_war = {
 		age = 16
 		prisoner = no
 		NOT = { trait = incapable }		
-		AND = {
-			NOT = { has_character_flag = vilya_released }
-			NOT = { has_character_flag = vilya_power }
-		}
+		NOT = { has_character_flag = vilya_released }
+		NOT = { has_character_flag = vilya_power }
 		trait = vilya
 		OR = {
-			religion = religion_calaquendi
-			religion = religion_moriquendi
+			religion_group = religion_group_eldar
 			religion = religion_eruhini
 		}
 		has_character_flag = special_decisions_open
@@ -85,14 +82,11 @@ use_nenya_war = {
 		age = 16
 		prisoner = no
 		NOT = { trait = incapable }		
-		AND = {
-			NOT = { has_character_flag = nenya_released }
-			NOT = { has_character_flag = nenya_power }
-		}
+		NOT = { has_character_flag = nenya_released }
+		NOT = { has_character_flag = nenya_power }
 		trait = nenya
 		OR = {
-			religion = religion_calaquendi
-			religion = religion_moriquendi
+			religion_group = religion_group_eldar
 			religion = religion_eruhini
 		}
 		has_character_flag = special_decisions_open

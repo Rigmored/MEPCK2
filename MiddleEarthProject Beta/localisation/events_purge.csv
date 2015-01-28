@@ -15,6 +15,7 @@ EVTDESCpurge.3;The rabble has rallied into a formidable host.;The rabble has ral
 EVTOPTApurge.3;They cannot resist the might of [Root.Holder.PrimaryTitle.GetName]!;They cannot resist the might of [Root.Holder.PrimaryTitle.GetName]!;;;;;;;;;;;;x;
 EVTDESCpurge.4;An army has arison to challenge our lord's sovereignty.;An army has arison to challenge our lord's sovereignty.;;;;;;;;;;;;x;
 EVTOPTApurge.4;They will fall.;They will fall.;;;;;;;;;;;;x
+EVTOPTBpurge.4;They will fall.;They will fall.;;;;;;;;;;;;x
 EVTDESCpurge.5;More men have come to aid in the war against us.;More men have come to aid in the war against us.;;;;;;;;;;;;x
 EVTOPTApurge.5;They will not be enough to tip the scales.;They will not be enough to tip the scales.;;;;;;;;;;;x;
 EVTDESCpurge.6;Warriors flock to the uprising against [Liege.GetTitledName];Warriors flock to the uprising against [Liege.GetTitledName];;;;;;;;;;;;x

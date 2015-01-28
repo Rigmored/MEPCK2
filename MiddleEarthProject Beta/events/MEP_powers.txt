@@ -102,13 +102,8 @@ namespace = powers
 			name=EVTOPTApowers.4
 			trigger = {
 				NOT = {
-					OR = {
-						religion = religion_calaquendi
-						religion = religion_moriquendi
-					}
+					religion_group = religion_group_eldar
 				}
-			}
-			limit = { 
 				in_command = yes
 				prisoner = no
 			}
@@ -117,12 +112,7 @@ namespace = powers
 		option={
 			name=EVTOPTBpowers.4
 			trigger = {
-				OR = {
-					religion = religion_calaquendi
-					religion = religion_moriquendi
-				}			
-			}
-			limit = { 
+				religion_group = religion_group_eldar
 				in_command = yes
 				prisoner = no
 			}
@@ -133,8 +123,8 @@ namespace = powers
 # The Holder of Vilya can use once again vilya #
 	character_event = {
 		id = powers.5
-		title = EVTNAMEpowers.5
-		desc = EVTDESCpowers.5
+		title = OK
+		desc = OK
 		picture = "GFX_good"
 		hide_window = yes
 		
@@ -149,7 +139,7 @@ namespace = powers
 		}	
 		
 		option={
-			name=EVTOPTApowers.5
+			name=OK
 			clr_character_flag = vilya_released
 		}
 	}	
@@ -168,6 +158,11 @@ namespace = powers
 		option={
 			name=EVTOPTApowers.6 ## Stronger the defenses of Rivendell
 			character_event = { id = powers.7 }
+		}
+
+		option={
+			name=EVTOPTCpowers.6 ## Spawn help
+			character_event = { id = powers.8 }
 		}
 		
 		option={
@@ -275,13 +270,8 @@ namespace = powers
 			name=EVTOPTApowers.9
 			trigger = {
 				NOT = {
-					OR = {
-						religion = religion_calaquendi
-						religion = religion_moriquendi
-					}
+					religion_group = religion_group_eldar
 				}
-			}
-			limit = { 
 				in_command = yes
 				prisoner = no
 			}
@@ -290,12 +280,7 @@ namespace = powers
 		option={
 			name=EVTOPTBpowers.9
 			trigger = {
-				OR = {
-					religion = religion_calaquendi
-					religion = religion_moriquendi
-				}			
-			}
-			limit = { 
+				religion_group = religion_group_eldar
 				in_command = yes
 				prisoner = no
 			}
@@ -306,8 +291,8 @@ namespace = powers
 # The Holder of Nenya can use once again nenya #
 	character_event = {
 		id = powers.10
-		title = EVTNAMEpowers.10
-		desc = EVTDESCpowers.10
+		title = OK
+		desc = OK
 		picture = "GFX_good"
 		hide_window = yes
 		
@@ -322,7 +307,7 @@ namespace = powers
 		}	
 		
 		option={
-			name=EVTOPTApowers.10
+			name=OK
 			clr_character_flag = nenya_released
 		}
 	}	

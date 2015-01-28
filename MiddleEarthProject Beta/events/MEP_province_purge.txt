@@ -7,28 +7,30 @@ province_event = {
 	
 	is_triggered_only = yes
 
-	mean_time_to_happen = {
-		days = 1
-	}			
-
 	option = {
 		name = EVTOPTApurge.0	
 		if = {
 			limit = {
-				job_marshal = {			
-					location = {				
-						culture_group = culture_group_melkor					
+				FROM = {
+					job_marshal = {			
+						location = {				
+							culture_group = culture_group_melkor					
+						}
 					}
 				}
 			}
-			job_marshal = {			
-				location = {
-					add_province_modifier = { name = being_purged duration = -1 }
+			FROM = {
+				job_marshal = {			
+					location = {
+						add_province_modifier = { name = being_purged duration = -1 }
+					}
 				}
 			}
 		}					
-		FROM = { set_character_flag = purgingprovince }
-		character_event = { id = purge.1 days = 100}			
+		FROM = {
+			set_character_flag = purgingprovince
+			character_event = { id = purge.1 days = 100}			
+		}
 	}
 
 	option = { 	
@@ -146,10 +148,6 @@ character_event = {
 	desc = "EVTDESCpurge.2"
 	picture = GFX_battle_scene
 	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 3
-	}
 
 	option = {
 		name = EVTOPTApurge.2
@@ -445,13 +443,13 @@ character_event = {
 	option = {
 		name = EVTOPTApurge.4
 		trigger = {
-			owner = { religion_group = FROM }
+			THIS = { religion_group = FROM }
 		}
 	}
 	option = {
 		name = EVTOPTBpurge.4
 		trigger = {
-			owner = { NOT = { religion_group = FROM	} }
+			THIS = { NOT = { religion_group = FROM	} }
 		}
 	}
 }
@@ -462,7 +460,7 @@ province_event = {
 	picture = GFX_war_at_north
 	border = GFX_event_normal_frame_war
 	
-	is_triggered_only = yes
+	#is_triggered_only = yes
 
 	trigger = {				
 		owner = {
@@ -480,6 +478,10 @@ province_event = {
 				}
 			}
 		}
+	}
+	
+	mean_time_to_happen = {
+		days = 20
 	}
 	
 	immediate = {
@@ -762,18 +764,24 @@ province_event = {
 		name = EVTOPTApurge.7
 		if = {
 			limit = {
-				any_realm_province = {							
-					culture_group = culture_group_melkor
-					has_province_modifier = being_purged									
+				owner = {
+					any_realm_province = {							
+						culture_group = culture_group_melkor
+						has_province_modifier = being_purged									
+					}
 				}
 			}
-			any_realm_province = {			
-				culture = culture_wilderness
-				religion = religion_wilderness
-				remove_province_modifier = being_purged
+			owner = {
+				any_realm_province = {			
+					culture = culture_wilderness
+					religion = religion_wilderness
+					remove_province_modifier = being_purged
+				}
 			}
 		}
-		clr_character_flag = purgingprovince
-		clr_character_flag=resistancewar
+		owner = {
+			clr_character_flag = purgingprovince
+			clr_character_flag=resistancewar
+		}
 	}		
 }		

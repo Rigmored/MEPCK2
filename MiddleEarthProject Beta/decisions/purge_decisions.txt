@@ -33,13 +33,15 @@ decisions = {
 						religion_group = religion_group_melkor 					
 					}
 				}
-				has_action = action_purge_province
+				has_job_action = action_purge_province
 			}
 		}
 	
 		effect = {
-			FROM = {
-				province_event = { id = purge.0 } 
+			job_marshal = {			
+				location = {
+					province_event = { id = purge.0 } 
+				}
 			}
 		}
 	
@@ -57,8 +59,7 @@ decisions = {
 			any_realm_province = {
 				OR = {
 					religion = religion_dunedain	
-					religion = religion_moriquendi		
-					religion = religion_calaquendi		
+					religion_group = religion_group_eldar	
 					religion = religion_mahal		
 					religion = religion_rhovanion		
 					religion = religion_haldadian		
@@ -95,8 +96,7 @@ decisions = {
 				location = {				
 					OR = {
 						religion = religion_dunedain	
-						religion = religion_moriquendi		
-						religion = religion_calaquendi		
+						religion_group = religion_group_eldar		
 						religion = religion_mahal		
 						religion = religion_rhovanion		
 						religion = religion_haldadian		
@@ -106,13 +106,15 @@ decisions = {
 						culture = culture_entish
 					}					
 				}
-				has_action = action_purge_province				
+				has_job_action = action_purge_province				
 			}				
 		}
 	
 		effect = {
-			FROM = {
-				province_event = { id = purge.0 }					
+			job_marshal = {			
+				location = {				
+					province_event = { id = purge.0 }
+				}
 			}
 		}
 	

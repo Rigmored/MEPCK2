@@ -15,8 +15,7 @@ character_event = {
 		any_realm_lord  = { 	
 			OR = {		
 				religion = religion_dunedain		
-				religion = religion_moriquendi		
-				religion = religion_calaquendi		
+				religion_group = religion_group_eldar
 				religion = religion_mahal		
 				religion = religion_rhovanion		
 			}		
@@ -34,8 +33,7 @@ character_event = {
 			limit = {		
 				OR = {		
 					religion = religion_dunedain		
-					religion = religion_moriquendi		
-					religion = religion_calaquendi		
+					religion_group = religion_group_eldar	
 					religion = religion_mahal		
 					religion = religion_rhovanion		
 				}		
@@ -74,12 +72,10 @@ character_event = {
 	option = {	
 		name = "EVTOPTBconflict.8"
 		trigger = { 	
-			AND = {	
-				is_ruler = yes	
-				age = 16	
-			}	
+			is_ruler = yes	
+			age = 16	
 		}	
-		add_prestige = 250	
+		prestige = 250	
 		add_trait = brave	
 		any_demesne_title = {	
 			usurp_title = FROM		
@@ -124,8 +120,7 @@ character_event = {
 		any_realm_lord  = { 	
 			OR = {		
 				religion = religion_dunedain		
-				religion = religion_moriquendi		
-				religion = religion_calaquendi		
+				religion_group = religion_group_eldar		
 				religion = religion_mahal		
 				religion = religion_rhovanion
 			}		
@@ -143,8 +138,7 @@ character_event = {
 			limit = {	
 				OR = {		
 					religion = religion_dunedain		
-					religion = religion_moriquendi		
-					religion = religion_calaquendi		
+					religion_group = religion_group_eldar		
 					religion = religion_mahal		
 					religion = religion_rhovanion		
 				}		
@@ -183,12 +177,10 @@ character_event = {
 	option = {	
 		name = "EVTOPTBconflict.10"	
 		trigger = { 	
-			AND = {	
-				is_ruler = yes	
-				age = 16	
-			}	
+			is_ruler = yes	
+			age = 16	
 		}	
-		add_prestige = 250	
+		prestige = 250	
 		add_trait = brave
 		any_demesne_title = {		
 			usurp_title = FROM		
@@ -225,8 +217,7 @@ character_event = {
 	trigger = {		
 		OR = {		
 			religion = religion_dunedain		
-			religion = religion_moriquendi		
-			religion = religion_calaquendi		
+			religion_group = religion_group_eldar		
 			religion = religion_mahal		
 			religion = religion_rhovanion		
 			religion = religion_haldadian		
@@ -306,12 +297,10 @@ character_event = {
 	option = {	
 		name = "EVTOPTBconflict.12"	
 		trigger = { 	
-			AND = {	
-				is_ruler = yes	
-				age = 16	
-			}	
-		}	
-		add_prestige = 250	
+			is_ruler = yes	
+			age = 16	
+		}
+		prestige = 250	
 		add_trait = brave	
 		any_demesne_title = {	
 			usurp_title = FROM		
@@ -342,8 +331,8 @@ character_event = {
 ##orcs flee from goodies##		
 character_event = {
 	id = conflict.13
-	title = "EVTTITconflict.13"	
-	desc = "EVTDESCconflict.13"		
+	title = OK
+	desc = OK	
 	picture = "GFX_shadows_coming"
 	hide_window = yes
 		
@@ -360,7 +349,7 @@ character_event = {
 	}	
 
 	option = {
-		name = "EVTOPTAconflict.13"
+		name = OK
 		any_realm_character = { 
 			limit = {			
 				religion = religion_wilderness	
@@ -377,14 +366,14 @@ character_event = {
 ##evil characters are informed##
 character_event = {	
 	id = conflict.14
-	title = "EVTTITconflict.14"	
-	desc = "EVTDESCconflict.14"		
+	title = OK
+	desc = OK		
 	picture = "GFX_shadows_coming"		
 	is_triggered_only = yes
 	hide_window=yes
 	
 	option = {	
-		name = "EVTOPTAconflict.14"			
+		name = OK		
 		trigger = { is_ruler = yes }	
 		any_demesne_title = {		
 			usurp_title = FROM		

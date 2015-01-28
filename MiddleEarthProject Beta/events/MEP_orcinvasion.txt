@@ -152,14 +152,14 @@ character_event = {
 
 character_event = {
 	id = TOG.1201
-	desc = "You hear word that an orc raid is being prepared against you. Strengthen the defenses!"
+	desc = "EVTDESCtog.1201"#You hear word that an orc raid is being prepared against you. Strengthen the defenses!"
 	picture = "GFX_war_at_north"
 
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "I hate orcs!"
+		name = "EVTOPTAtog.1201"#I hate orcs!
 	}
 }
 
@@ -527,7 +527,7 @@ character_event = {
 
 character_event = {
 	id = TOG.1203
-	desc = "An orc warlord from your court is preparing an army to invade a foreign realm."
+	desc = "EVTDESCtog.1203"#An orc warlord from your court is preparing an army to invade a foreign realm.
 	picture = "GFX_war_at_north"
 	border = GFX_event_normal_frame_war
 	
@@ -546,13 +546,13 @@ character_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_TOG_1203"
+		name = "EVTOPTAtog.1203"
 	}
 }
 
 character_event = {
 	id = TOG.1204
-	desc = EVTDESC_TOG_1204
+	desc = "EVTDESCtog.1204"
 	picture = "GFX_war_at_north"
 	border = GFX_event_normal_frame_war
 	
@@ -561,7 +561,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA_TOG_1203"
+		name = "EVTOPTAtog.1204"
 	}
 }
 
@@ -702,17 +702,9 @@ character_event = {
 				independent = yes
 				NOT = { is_vassal_or_below = ROOT }
 				any_realm_province = {
-					OR = {
-						AND = {
-							ROOT = {
-								NOT = { culture_group = altaic }
-								NOT = { culture = hungarian }
-							}
-						}
-						any_neighbor_province = {
-							owner = {
-								same_realm = ROOT
-							}
+					any_neighbor_province = {
+						owner = {
+							same_realm = ROOT
 						}
 					}
 					NOT = {
@@ -725,17 +717,9 @@ character_event = {
 			
 			random_realm_province = {
 				limit = {
-					OR = {
-						AND = {
-							ROOT = {
-								NOT = { culture_group = altaic }
-								NOT = { culture = hungarian }
-							}
-						}
-						any_neighbor_province = {
-							owner = {
-								same_realm = ROOT
-							}
+					any_neighbor_province = {
+						owner = {
+							same_realm = ROOT
 						}
 					}
 					NOT = {
@@ -777,14 +761,14 @@ character_event = {
 
 character_event = {
 	id = TOG.1211
-	desc = "You receive word that a massive orc horde is preparing to march against your lands. Let us hope we have the strength to repel them!"
+	desc = "EVTDESCtog.1211"#You receive word that a massive orc horde is preparing to march against your lands. Let us hope we have the strength to repel them!
 	picture = "GFX_war_at_north"
 	border = GFX_event_normal_frame_war
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "I hate orcs..."
+		name = "EVTOPTAtog.1211"#I hate orcs...
 	}
 }
 
@@ -819,17 +803,9 @@ character_event = {
 			independent = yes
 			NOT = { is_vassal_or_below = ROOT }
 			any_realm_province = {
-				OR = {
-					AND = {
-						ROOT = {
-							NOT = { culture_group = altaic }
-							NOT = { culture = hungarian }
-						}
-					}
-					any_neighbor_province = {
-						owner = {
-							same_realm = ROOT
-						}
+				any_neighbor_province = {
+					owner = {
+						same_realm = ROOT
 					}
 				}
 			}
@@ -859,17 +835,9 @@ character_event = {
 						independent = yes
 						NOT = { is_vassal_or_below = ROOT }
 						any_realm_province = {
-							OR = {
-								AND = {
-									ROOT = {
-										NOT = { culture_group = altaic }
-										NOT = { culture = hungarian }
-									}
-								}
-								any_neighbor_province = {
-									owner = {
-										same_realm = ROOT
-									}
+							any_neighbor_province = {
+								owner = {
+									same_realm = ROOT
 								}
 							}
 						}
@@ -880,17 +848,9 @@ character_event = {
 					}
 					random_realm_province = {
 						limit = {
-							OR = {
-								AND = {
-									ROOT = {
-										NOT = { culture_group = altaic }
-										NOT = { culture = hungarian }
-									}
-								}
-								any_neighbor_province = {
-									owner = {
-										same_realm = ROOT
-									}
+							any_neighbor_province = {
+								owner = {
+									same_realm = ROOT
 								}
 							}
 						}
@@ -973,21 +933,13 @@ character_event = {
 			age = 25
 		}
 		
-		if  = {
-			limit = {
-				NOT = { culture_group = altaic }
-				NOT = { culture = hungarian }
-			}
-			
-			# Create a fleet, just to be sure
-			spawn_fleet = {
-				province = closest # closest sea zone
-				owner = ROOT
-				disband_on_peace = yes
-				troops =
-				{
-					galleys = { 200 200 }
-				}
+		spawn_fleet = {
+			province = closest # closest sea zone
+			owner = ROOT
+			disband_on_peace = yes
+			troops =
+			{
+				galleys = { 200 200 }
 			}
 		}
 	}
@@ -999,7 +951,7 @@ character_event = {
 
 character_event = {
 	id = TOG.1213
-	desc = "One of your warlords has gathered a large horde, and is preparing to lead it out for pillage and slaughter."
+	desc = "EVTDESCtog.1213"# One of your warlords has gathered a large horde, and is preparing to lead it out for pillage and slaughter.
 	picture = "GFX_war_at_north"
 	border = GFX_event_normal_frame_war
 	
@@ -1018,13 +970,13 @@ character_event = {
 	}
 	
 	option = {
-		name = "We need more of his kind!"
+		name = "EVTOPTAtog.1213"#We need more of his kind!
 	}
 }
 
 character_event = {
 	id = TOG.1214
-	desc = EVTDESC_TOG_1214
+	desc = "EVTDESCtog.1214"
 	picture = GFX_war_at_north
 	border = GFX_event_normal_frame_war
 	
@@ -1033,6 +985,6 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA_TOG_1203"
+		name = "EVTOPTAtog.1214"
 	}
 }

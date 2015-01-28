@@ -5,8 +5,8 @@ namespace = orcmarriage
 #someone discovers what their wife really looks like#
 character_event = {
     id = orcmarriage.1
-    title = "You've married a Monster"
-    desc = "By all that is holy, your new wife is a monster! Not the fair maid you were promised... what cruel joke is this?"
+    title = "EVTTITorcmarriage.1"#You've married a Monster
+    desc = "EVTDESCorcmarriage.1"#By all that is holy, your new wife is a monster! Not the fair maid you were promised... what cruel joke is this?
     picture = "GFX_war_at_north"
 	age = 16
 	
@@ -39,7 +39,7 @@ character_event = {
 	mean_time_to_happen = { days = 1 }
 	
 	option = {
-		name = "Kill it! Kill it with fire!"
+		name = "EVTOPTAorcmarriage.1"#Kill it! Kill it with fire!
 			any_spouse = {
 				limit = {
 					is_landed = no
@@ -60,7 +60,7 @@ character_event = {
 	}
 	
 	option = {
-		name = "Actually, I kind of like her..."
+		name = "EVTOPTBorcmarriage.1"#Actually, I kind of like her...
 		trigger = { ai = no }
 		set_character_flag = orcmarriage1
 	}	
@@ -69,42 +69,40 @@ character_event = {
 #and now spawn some melkor brides, so the poor bastards wont have to marry orcs!#
 character_event = {
     id = orcmarriage.2
-    title = "Brides of Melkor"
-    desc = "A few women have joined your inner circle, and have become devout worshippers of the Dark Lord!"
+    title = "EVTTITorcmarriage.2"#Brides of Melkor
+    desc = "EVTDESCorcmarriage.2"#A few women have joined your inner circle, and have become devout worshippers of the Dark Lord!
     picture = "GFX_death"
 	age = 16
-	is_independent = yes
+	only_independent = yes
 	
 	trigger = {
-	AND = {
-	OR = {
-	culture_group = culture_group_edain
-	culture_group = culture_group_numenorean
-	culture_group = culture_group_middlemen
-	culture_group = culture_group_forodwaith
-	culture_group = culture_group_haldadian
-	culture_group = culture_group_southron
-	culture_group = culture_group_easterling
-	}
-	trait = evil_side
-	NOT = { has_character_flag = orcmarriage2 }
-	is_ruler = yes
-	NOT = { year = 11363 }
-	}
+		OR = {
+			culture_group = culture_group_edain
+			culture_group = culture_group_numenorean
+			culture_group = culture_group_middlemen
+			culture_group = culture_group_forodwaith
+			culture_group = culture_group_haldadian
+			culture_group = culture_group_southron
+			culture_group = culture_group_easterling
+		}
+		trait = evil_side
+		NOT = { has_character_flag = orcmarriage2 }
+		is_ruler = yes
+		NOT = { year = 11363 }
 	}
 
 	mean_time_to_happen = { days = 1 }
 		
 	option = {
-	name = "Excellent..."
-	trigger = { 
-	OR = {
-	NOT = { trait = blood_of_numenor }  
-	NOT = { trait = blood_of_numenor2 }
-	}
-	}
-	set_character_flag = orcmarriage2
-	create_random_soldier = {
+		name = "EVTOPTAorcmarriage.2"#Excellent...
+		trigger = { 
+			OR = {
+				NOT = { trait = blood_of_numenor }  
+				NOT = { trait = blood_of_numenor2 }
+			}
+		}
+		set_character_flag = orcmarriage2
+		create_random_soldier = {
 			dynasty = none
 			religion = ROOT
 			culture = ROOT
@@ -117,13 +115,12 @@ character_event = {
 			trait = proud
 			trait = cruel
 			trait = evil_side
-			trait = attractive
 			trait = envious
 			trait = deceitful
 			trait = ambitious
 			trait = impaler
 		}
-			create_random_soldier = {
+		create_random_soldier = {
 			dynasty = none
 			religion = ROOT
 			culture = ROOT
@@ -131,14 +128,13 @@ character_event = {
 			age = 23
 			health = 6
 			fertility = 0.7
-			trait = attractive
 			trait = envious
 			trait = deceitful
 			trait = ambitious
 			trait = lustful
 			trait = craven
 		}
-			create_random_soldier = {
+		create_random_soldier = {
 			dynasty = none
 			religion = ROOT
 			culture = ROOT
@@ -146,7 +142,6 @@ character_event = {
 			age = 26
 			health = 6
 			fertility = 0.7
-			trait = attractive
 			trait = envious
 			trait = deceitful
 			trait = ambitious
@@ -154,18 +149,18 @@ character_event = {
 			trait = impaler
 			trait = cruel
 		}
-		}
+	}
 
-		option = {
-	name = "Excellent..."
-	trigger = { 
-	OR = {
-	trait = blood_of_numenor 
-	trait = blood_of_numenor2 
-	}
-	}
-	set_character_flag = orcmarriage2
-			create_random_soldier = {
+	option = {
+		name = "EVTOPTBorcmarriage.2"#Excellent...
+		trigger = { 
+			OR = {
+				trait = blood_of_numenor 
+				trait = blood_of_numenor2 
+			}
+		}
+		set_character_flag = orcmarriage2
+		create_random_soldier = {
 			dynasty = none
 			religion = ROOT
 			culture = ROOT
@@ -178,14 +173,13 @@ character_event = {
 			trait = proud
 			trait = cruel
 			trait = evil_side
-			trait = attractive
 			trait = envious
 			trait = deceitful
 			trait = ambitious
 			trait = impaler
 			trait = blood_of_numenor2
 		}
-			create_random_soldier = {
+		create_random_soldier = {
 			dynasty = none
 			religion = ROOT
 			culture = ROOT
@@ -193,7 +187,6 @@ character_event = {
 			age = 23
 			health = 6
 			fertility = 0.7
-			trait = attractive
 			trait = envious
 			trait = deceitful
 			trait = ambitious
@@ -201,7 +194,7 @@ character_event = {
 			trait = craven
 			trait = blood_of_numenor2
 		}
-			create_random_soldier = {
+		create_random_soldier = {
 			dynasty = none
 			religion = ROOT
 			culture = ROOT
@@ -209,7 +202,6 @@ character_event = {
 			age = 26
 			health = 6
 			fertility = 0.7
-			trait = attractive
 			trait = envious
 			trait = deceitful
 			trait = ambitious
@@ -218,5 +210,5 @@ character_event = {
 			trait = cruel
 			trait = blood_of_numenor2
 		}
-		}		
-		}
+	}		
+}

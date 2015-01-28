@@ -5,7 +5,7 @@ namespace = numenor
 narrative_event = {
 	id = numenor.0
 	title = "EVTNAMEnumenor.0"
-	desc = "EVTDESCnumenor.0"
+	desc = "EVTDESCnumenor.0"
 	picture = GFX_evt_gondor_kingdom
 	
 	is_triggered_only = yes
@@ -27,7 +27,7 @@ narrative_event = {
 narrative_event = {
 	id = numenor.1
 	title = "EVTNAMEnumenor.1"
-	desc = "EVTDESCnumenor.1"
+	desc = "EVTDESCnumenor.1"
 	picture = GFX_evt_gondor_kingdom
 	
 	is_triggered_only = yes
@@ -53,7 +53,7 @@ narrative_event = {
 narrative_event = {
 	id = numenor.3
 	title = "EVTNAMEnumenor.3"
-	desc = "EVTDESCnumenor.3"
+	desc = "EVTDESCnumenor.3"
 	picture = GFX_evt_gondor_kingdom
 	
 	is_triggered_only = yes
@@ -76,7 +76,7 @@ narrative_event = {
 narrative_event = {
 	id = numenor.4
 	title = "EVTNAMEnumenor.4"
-	desc = "EVTDESCnumenor.4"
+	desc = "EVTDESCnumenor.4"
 	picture = GFX_evt_gondor_kingdom
 	
 	is_triggered_only = yes
@@ -105,7 +105,7 @@ narrative_event = {
 narrative_event = {
 	id = numenor.5
 	title = "EVTNAMEnumenor.5"
-	desc = "EVTDESCnumenor.5"
+	desc = "EVTDESCnumenor.5"
 	picture = GFX_evt_gondor_kingdom
 	
 	trigger = {
@@ -329,7 +329,7 @@ narrative_event = {
 narrative_event = {
 	id = numenor.6
 	title = "EVTNAMEnumenor.6"
-	desc = "EVTDESCnumenor.6"
+	desc = "EVTDESCnumenor.6"
 	picture = GFX_evt_gondor_kingdom
 	
 	is_triggered_only = yes
@@ -344,7 +344,7 @@ narrative_event = {
 narrative_event = {
 	id = numenor.7
 	title = "EVTNAMEnumenor.7"
-	desc = "EVTDESCnumenor.7"
+	desc = "EVTDESCnumenor.7"
 	picture = GFX_evt_gondor_kingdom
 	
 	is_triggered_only = yes
@@ -367,7 +367,7 @@ narrative_event = {
 narrative_event = {
 	id = numenor.8
 	title = "EVTNAMEnumenor.8"
-	desc = "EVTDESCnumenor.8"
+	desc = "EVTDESCnumenor.8"
 	picture = GFX_evt_gondor_kingdom
 	
 	is_triggered_only = yes
@@ -382,7 +382,7 @@ narrative_event = {
 narrative_event = {
 	id = numenor.9
 	title = "EVTNAMEnumenor.9"
-	desc = "EVTDESCnumenor.9"
+	desc = "EVTDESCnumenor.9"
 	picture = GFX_evt_gondor_kingdom
 	
 	is_triggered_only = yes

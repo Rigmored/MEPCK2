@@ -1,0 +1,21 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESCtog.1201;You hear word that an orc raid is being prepared against you. Strengthen the defenses!;@FIXME@ You hear word that an orc raid is being prepared against you. Strengthen the defenses!;;;;;;;;;;;;x
+EVTOPTAtog.1201;I hate orcs!;@FIXME@ I hate orcs!;;;;;;;;;;;;x
+EVTDESCtog.1203;An orc warlord from your court is preparing an army to invade a foreign realm.;@FIXME@ An orc warlord from your court is preparing an army to invade a foreign realm.;;;;;;;;;;;;x
+EVTOPTAtog.1203;@FIXME@ OK;@FIXME@ OK;;;;;;;;;;;;x
+EVTDESCtog.1204;@FIXME@ OK;@FIXME@ OK;;;;;;;;;;;;x
+EVTOPTAtog.1204;@FIXME@ OK;@FIXME@ OK;;;;;;;;;;;;x
+EVTDESCtog.1211;You receive word that a massive orc horde is preparing to march against your lands. Let us hope we have the strength to repel them!;@FIXME@ You receive word that a massive orc horde is preparing to march against your lands. Let us hope we have the strength to repel them!;;;;;;;;;;;;x
+EVTOPTAtog.1211;I hate orcs!;@FIXME@ I hate orcs!;;;;;;;;;;;;x
+EVTDESCtog.1213;One of your warlords has gathered a large horde, and is preparing to lead it out for pillage and slaughter.;@FIXME@ One of your warlords has gathered a large horde, and is preparing to lead it out for pillage and slaughter.;;;;;;;;;;;;x
+EVTOPTAtog.1213;We need more of his kind!;@FIXME@ We need more of his kind!;;;;;;;;;;;;x
+EVTDESCtog.1214;@FIXME@ OK;@FIXME@ OK;;;;;;;;;;;;x
+EVTOPTAtog.1214;@FIXME@ OK;@FIXME@ OK;;;;;;;;;;;;x
+EVTTITorcmarriage.1;You've married a Monster;@FIXME@ You've married a Monster;;;;;;;;;;;;x
+EVTDESCorcmarriage.1;By all that is holy, your new wife is a monster! Not the fair maid you were promised... what cruel joke is this?;@FIXME@ By all that is holy, your new wife is a monster! Not the fair maid you were promised... what cruel joke is this?;;;;;;;;;;;;x
+EVTOPTAorcmarriage.1;Kill it! Kill it with fire!;@FIXME@ Kill it! Kill it with fire!;;;;;;;;;;;;x
+EVTOPTBorcmarriage.1;Actually, I kind of like her...;@FIXME@ Actually, I kind of like her...;;;;;;;;;;;;x
+EVTTITorcmarriage.2;Brides of Melkor;@FIXME@ Brides of Melkor;;;;;;;;;;;;x
+EVTDESCorcmarriage.2;A few women have joined your inner circle, and have become devout worshippers of the Dark Lord!;@FIXME@ A few women have joined your inner circle, and have become devout worshippers of the Dark Lord!;;;;;;;;;;;;x
+EVTOPTAorcmarriage.2;Excellent...;@FIXME@ Excellent...;;;;;;;;;;;;x
+EVTOPTBorcmarriage.2;Excellent...;@FIXME@ Excellent...;;;;;;;;;;;;x
