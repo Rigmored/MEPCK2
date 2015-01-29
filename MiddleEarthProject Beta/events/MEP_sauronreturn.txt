@@ -9,14 +9,12 @@ character_event = {
 	age = 16
 
 	trigger = {
-		AND = {
-			has_character_flag = sauron
-			NOT = { has_character_flag = sauronreturn1 }
-			NOT = { has_character_flag = sauronreturn2 }
-			age = 1
-			year = 9343
-			NOT = { year = 9344 }
-		}
+		has_character_flag = sauron
+		NOT = { has_character_flag = sauronreturn1 }
+		NOT = { has_character_flag = sauronreturn2 }
+		age = 1
+		year = 9343
+		NOT = { year = 9344 }
 	}
 
 	mean_time_to_happen = {
@@ -109,15 +107,13 @@ character_event = {
 	age = 16
 
 	trigger = {
-		AND = {
-			has_character_flag = sauron
-			has_character_flag = sauronreturn1
-			NOT = { has_character_flag = sauronreturn2 }
-			age = 1
-			year = 9393
-			NOT = { year = 9394 }
-			has_landed_title = k_dol_guldur
-		}
+		has_character_flag = sauron
+		has_character_flag = sauronreturn1
+		NOT = { has_character_flag = sauronreturn2 }
+		age = 1
+		year = 9393
+		NOT = { year = 9394 }
+		has_landed_title = k_dol_guldur
 	}
 
 	mean_time_to_happen = {

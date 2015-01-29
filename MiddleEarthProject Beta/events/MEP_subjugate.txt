@@ -10,7 +10,7 @@ narrative_event = {
 	picture = "GFX_evil"
 
 	trigger = {
-		NOT = { has_character_flag = subjugate_realm }
+		NOT = { has_character_modifier = subjugate_realm }
 		age = 1
 		trait = evil_side
 		job_chancellor = {
@@ -31,7 +31,7 @@ narrative_event = {
 	}	
 	
 	immediate = {
-		ROOT = { set_character_flag = subjugate_realm duration = 1460 }
+		ROOT = { add_character_modifier = { name = subjugate_realm duration = 1460 } }
 	}
 	
 	option = {
@@ -39,7 +39,7 @@ narrative_event = {
 		ai_chance = {
 			factor = 70
 		}
-		owner = {
+		ROOT = {
 			job_chancellor = {
 				location = {
 					any_province_lord = {
@@ -49,7 +49,7 @@ narrative_event = {
 							NOT = { same_realm = ROOT }
 							independent = yes
 						}
-						character_event = { id = subjugate.1 days = 20 }
+						narrative_event = { id = subjugate.1 days = 20 }
 					}
 				}
 			}
@@ -71,7 +71,7 @@ narrative_event = {
 		}
 		prestige = -100
 		wealth = -200		
-		owner = {
+		ROOT = {
 			job_chancellor = {
 				location = {
 					any_province_lord = {
@@ -81,7 +81,7 @@ narrative_event = {
 							NOT = { same_realm = ROOT }
 							independent = yes
 						}
-						character_event = { id = subjugate.4 days = 20 }
+						narrative_event = { id = subjugate.4 days = 20 }
 					}
 				}
 			}
@@ -105,10 +105,6 @@ narrative_event = {
 	picture = "GFX_evil"
 
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}	
 	
 	option = {
 		name = "EVTOPTAsubjugate.1" ### I will, Lord.
@@ -166,10 +162,7 @@ narrative_event = {
 		}
 		wealth = -300
 		prestige = -100
-		any_demesne_province = {
-			limit = {
-				is_capital = yes
-			}
+		capital_scope = {
 			add_province_modifier = { name = tax_of_evil duration = 1460 }
 		}
 		FROM = { character_event = { id = subjugate.2 days = 30 } }
@@ -247,10 +240,7 @@ character_event = {
 		name = "EVTOPTAsubjugate.2" ## Great
 		wealth = 300
 		prestige = 150
-		any_demesne_province = {
-			limit = {
-				is_capital = yes
-			}
+		capital_scope = {
 			add_province_modifier = { name = evil_reinforcement duration = 1460 }
 		}		
 	}
@@ -271,7 +261,7 @@ character_event = {
 		FROM = {
 			any_demesne_title = {
 				limit = {
-					is_primary_title = yes
+					is_primary_holder_title = yes
 				}
 				add_claim = ROOT
 			}
@@ -289,10 +279,6 @@ narrative_event = {
 	picture = "GFX_evil"
 
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}	
 	
 	option = {
 		name = "EVTOPTAsubjugate.4" ### I will, Lord.
@@ -468,7 +454,7 @@ character_event = {
 		FROM = {
 			any_demesne_title = {
 				limit = {
-					is_primary_title = yes
+					is_primary_holder_title = yes
 				}
 				add_claim = ROOT
 			}

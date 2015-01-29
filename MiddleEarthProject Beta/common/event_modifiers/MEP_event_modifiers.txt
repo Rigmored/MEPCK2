@@ -224,3 +224,5 @@ capital_defenses = {
 #	local_speed_modifier = 1.5
 #	icon = 31
 #}
+
+subjugate_realm = {}
