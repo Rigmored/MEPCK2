@@ -7,6 +7,9 @@ EVTTITrohanisengard.1;Gandalf the Grey;Gandalf le Gris;;;;;;;;;;;;x
 EVTDESCrohanisengard.1;Gandalf the Grey, a member of the Istari, comes to the Tower of Orthanc to ask your advice in these troubled times. It tells you that the One Ring, the symbol of the power of Sauron the Great, has been found and is in the hands of an insignificant hobbit! It's now time to reveal your choice: Will you help the Hobbits in their quest, at the Free Peoples side? Or will you ask Gandalf the Grey to join you, and lead this world with Sauron the Great?;;;;;;;;;;;;;x
 EVTOPTArohanisengard.1;Gandalf, you shall join me!;Gandalf, vous devez me rejoindre!;;;;;;;;;;;;x
 EVTOPTBrohanisengard.1;We should helps the Ringbearer !;Nous devons aider le Porteur de l'Anneau.;;;;;;;;;;;;x
+EVTTITrohanisengard.2;The Choice of Gandalf;Le Choix de Gandalf;;;;;;;;;;;;x
+EVTDESCrohanisengard.2;@FIXME@ Gandalf will choose to follow Saruman, or not;@FIXME@ Gandalf will choose to follow Saruman, or not;;;;;;;;;;;;x
+EVTOPTArohanisengard.2;You're an idiot, Saruman!;@FIXME@ You're an idiot, Saruman !;;;;;;;;;;;;x
 EVTTITrohanisengard.3;The Choice of Gandalf;Le Choix de Gandalf;;;;;;;;;;;;x
 EVTDESCrohanisengard.3;Gandalf the Grey looks at you with awe and amazement, when you make your proposal. He refuses to join the forces of Sauron, and judge you harshly. You will never make him an ally, as he prefers to remain faithful to the Valar.;Gandalf le Gris vous regarde avec effroi et stupéfaction, alors que vous lui faites votre proposition. Il refuse de joindre les forces de Sauron, et vous juge avec sévérité. Vous ne ferez jamais de lui un allié, lui qui préfère rester fidèle aux Valar.;;;;;;;;;;;;x
 EVTOPTArohanisengard.3;So, you choose to suffer…;Alors, vous avez choisi la souffrance…;;;;;;;;;;;;x

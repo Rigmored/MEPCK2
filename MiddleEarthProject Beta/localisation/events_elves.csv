@@ -1,9 +1,14 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 EVTsailedtowest.3;Sail to West?;Partir à l'Ouest?;;;;;;;;;;;;x
 EVTDESCsailedtowest.3;You are tired of life in Middle-Earth. The wars and pains are not how you would like to live. You are looking to the West, and you have heard the call of the Sea. Will you leave Middle-Earth and go to the Undying Lands of Valinor?;Vous êtes fatigué de la vie sur les Terres du Milieu. Les guerres, les peines, les souffrances ont eu raison de votre volonté. Votre regard se porte maintenant vers l'Ouest, et vous entendez l'appel de la Mer. Allez-vous quitter les Terres du Milieu pour partir vers les Terres Immortelles?;;;;;;;;;;;;x
-EVTOPTAsailedwest3;Yes, it is the Time of Men, we must leave.;Oui, le temps des Hommes est venu.;;;;;;;;;;;;x
-EVTOPTBsailedwest3;Not yet, Middle-Earth needs us!;Les Terres du Milieu ont encore besoin de moi !;;;;;;;;;;;;x
+EVTOPTAsailedwest.3;Yes, it is the Time of Men, we must leave.;Oui, le temps des Hommes est venu.;;;;;;;;;;;;x
+EVTOPTBsailedwest.3;Not yet, Middle-Earth needs us!;Les Terres du Milieu ont encore besoin de moi !;;;;;;;;;;;;x
 elveninfertility_de1;You can feel that this will be your last child.;Vous pouvez sentir que vous ne pourrez plus avoir d'enfants.;;;;;;;;;;;;x
+EVTsailedtowest.4;@FIXME@ Sail to West;@FIXME@ Partir à l'Ouest;;;;;;;;;;;;x
+EVTDESCsailedtowest.4;@FIXME@ The character sailed to Valinor;@FIXME@ The character sailed to Valinor;;;;;;;;;;;;x
+EVTOPTAsailedwest.4;@FIXME@ OK;@FIXME@ OK;;;;;;;;;;;;x
+sail_to_west;Sail to West;Partir à l'Ouest;;;;;;;;;;;;x
+sail_to_west_desc;@FIXME@ Sail to West;@FIXME@ Partir à l'Ouest;;;;;;;;;;;;x
 ### ELVEN CHILDHOOD ###;;;;;;;;;;;;;;
 EVTTITelfchild.0;Childhood;Enfance;;;;;;;;;;;;x
 EVTDESCelfchild.0;You're young for an elf, and your body and soul have not finished growing. You still need to wait many years before finally being considered as an adult by your kin.;Vous êtes encore jeune pour un elfe, et votre corps comme votre esprit n'ont pas fini de grandir. Vous devez encore patienter de longues années avant d'être enfin considéré comme un adulte au sein de votre peuple.;;;;;;;;;;;;x

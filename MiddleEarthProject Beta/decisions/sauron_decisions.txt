@@ -5,15 +5,13 @@ command_servants = {
 	is_high_prio = no
 		
 	potential = {
-		AND = {
-			OR = {
-				has_landed_title = c_barad_dur
-				has_landed_title = e_barad_dur
-			}
+		OR = {
+			has_landed_title = c_barad_dur
+			has_landed_title = e_barad_dur
+		}
 		dynasty = 10012
 		independent = yes
 		is_ruler = yes
-		}
 		has_character_flag = special_decisions_open
 	}
 	
@@ -35,17 +33,15 @@ sauron_call_allies = {
 	is_high_prio = no
 		
 	potential = {
-		AND = {
-			OR = {
-				has_landed_title = c_barad_dur
-				has_landed_title = e_barad_dur
-			}	
-			dynasty = 10012
-			independent = yes
-			is_ruler = yes
-			is_primary_war_defender = yes
-			NOT = { has_character_flag = sauroncalled_allies }
-		}
+		OR = {
+			has_landed_title = c_barad_dur
+			has_landed_title = e_barad_dur
+		}	
+		dynasty = 10012
+		independent = yes
+		is_ruler = yes
+		is_primary_war_defender = yes
+		NOT = { has_character_flag = sauroncalled_allies }
 		has_character_flag = special_decisions_open
 	}
 	
@@ -67,21 +63,17 @@ command_nazgul = {
 	is_high_prio = no
 		
 	potential = {
-		AND = {
-			OR = {
-				has_landed_title = c_amon_lanc
-				has_landed_title = k_dol_guldur
-			}
-			NOT = { has_landed_title = e_barad_dur }
-			dynasty = 10012
-			independent = yes
-			is_ruler = yes
+		OR = {
+			has_landed_title = c_amon_lanc
+			has_landed_title = k_dol_guldur
 		}
+		NOT = { has_landed_title = e_barad_dur }
+		dynasty = 10012
+		independent = yes
+		is_ruler = yes
 		NOT = { has_character_flag = call_his_nazguls }
-		AND = {
-			NOT = { has_global_flag = khamul_in_angmar }
-			NOT = { has_global_flag = numenorean_nazguls_in_angmar }
-		}
+		NOT = { has_global_flag = khamul_in_angmar }
+		NOT = { has_global_flag = numenorean_nazguls_in_angmar }
 		has_character_flag = special_decisions_open
 	}
 	

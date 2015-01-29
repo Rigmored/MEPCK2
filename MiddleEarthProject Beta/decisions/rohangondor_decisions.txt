@@ -1,5 +1,4 @@
 decisions = {
-
 ##The ancient friendship between the House of Eorl and the Lords of Gondor##
 
 ##Gondor sends the Red Arrow to Rohan##
@@ -7,21 +6,19 @@ red_arrow_rohan = {
 	is_high_prio = yes
 		
 	potential = {
-		AND = {
-			OR = {
-				has_landed_title = e_gondor
-				has_landed_title = e_steward_gondor
-			}
-			OR = {	
-				dynasty = 100
-				dynasty = 2001
-			}
-			independent = yes
-			is_ruler = yes
-			is_primary_war_defender = yes
-			NOT = { has_character_flag = oath_of_eorl }
-			NOT = { has_global_flag = rohan_threatened }
+		OR = {
+			has_landed_title = e_gondor
+			has_landed_title = e_steward_gondor
 		}
+		OR = {	
+			dynasty = 100
+			dynasty = 2001
+		}
+		independent = yes
+		is_ruler = yes
+		is_primary_war_defender = yes
+		NOT = { has_character_flag = oath_of_eorl }
+		NOT = { has_global_flag = rohan_threatened }
 	}
 
 	allow = {
@@ -42,15 +39,13 @@ red_arrow_gondor = {
 	is_high_prio = yes
 		
 	potential = {
-		AND = {
-			has_landed_title = k_rohan
-			dynasty = 5
-			independent = yes
-			is_ruler = yes
-			is_primary_war_defender = yes
-			NOT = { has_character_flag = oath_of_eorl }
-			NOT = { has_global_flag = gondor_threatened }
-		}
+		has_landed_title = k_rohan
+		dynasty = 5
+		independent = yes
+		is_ruler = yes
+		is_primary_war_defender = yes
+		NOT = { has_character_flag = oath_of_eorl }
+		NOT = { has_global_flag = gondor_threatened }
 	}
 
 	allow = {
