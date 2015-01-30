@@ -322,18 +322,6 @@ nick_the_blind = {
 	}
 }
 
-nick_the_leper = {
-	allow = {
-		age = 20
-		trait = leper
-		NOT = { culture_group = culture_group_wilderness }
-		NOT = { culture_group = culture_group_eru }	
-	}
-	chance = {
-		factor = 1
-	}
-}
-
 nick_the_gentle = {
 	allow = {
 		age = 20

@@ -248,30 +248,6 @@ focus_seduction = {
 			factor = 5.0
 			trait = lustful
 		}
-		modifier = {
-			factor = 4.0
-			OR = {
-				AND = {
-					OR = {
-						is_female = yes
-						AND = {
-							has_polygamy = no
-							has_concubinage = no
-						}
-					}
-					any_spouse = {
-						trait = homosexual
-					}
-				}
-				AND = {
-					OR = {
-						is_married = yes
-						is_consort = yes
-					}
-					trait = homosexual
-				}
-			}
-		}
 	}
 	
 	# Focuses have no success conditions

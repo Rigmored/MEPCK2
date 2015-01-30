@@ -893,10 +893,6 @@ obj_get_married = {
 		factor = 100
 		
 		modifier = {
-			factor = 0.2
-			trait = homosexual
-		}
-		modifier = {
 			factor = 0.5
 			trait = shy
 		}
@@ -938,7 +934,6 @@ obj_get_married = {
 			trait = celibate
 			trait = incapable
 			trait = eunuch
-			trait = homosexual
 		}
 	}
 	abort_effect = {

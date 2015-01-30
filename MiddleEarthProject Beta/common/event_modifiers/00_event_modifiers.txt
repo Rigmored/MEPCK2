@@ -1614,3 +1614,5 @@ suspected_murder_plot = {
 }
 
 went_out_of_hiding_timer = { icon = 1 }
+
+faction_lower_TO_ultimatum_timer = { icon = 1 }
