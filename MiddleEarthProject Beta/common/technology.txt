@@ -19,14 +19,14 @@ TECH_GROUP_MILITARY = {
 		modifier = {
 			LIGHT_CAVALRY_OFFENSIVE  = 0.6
 			KNIGHTS_OFFENSIVE = 0.6
-			horse_archers_OFFENSIVE = 0.6
-			camel_cavalry_OFFENSIVE = 0.6
+			HORSE_ARCHERS_OFFENSIVE = 0.6
+			# camel_cavalry_OFFENSIVE = 0.6
 			LIGHT_CAVALRY_DEFENSIVE = 0.6
-			war_elephants_OFFENSIVE = 0.6
+			# war_elephants_OFFENSIVE = 0.6
 			KNIGHTS_DEFENSIVE = 0.6
-			horse_archers_DEFENSIVE = 0.6
-			camel_cavalry_DEFENSIVE = 0.6
-			war_elephants_DEFENSIVE = 0.6
+			# horse_archers_DEFENSIVE = 0.6
+			# camel_cavalry_DEFENSIVE = 0.6
+			# war_elephants_DEFENSIVE = 0.6
 		}
 	}
 	TECH_SIEGE_EQUIPMENT = {
@@ -228,14 +228,14 @@ TECH_GROUP_CULTURE = {
 		6 = {
 			add_decision = feudal_tax_3
 			add_decision = city_tax_3
-			add_decision = temple_tax_3
-			add_decision = iqta_tax_3
+			# add_decision = temple_tax_3
+			# add_decision = iqta_tax_3
 		}
 		7 = {
 			add_decision = feudal_contract_3
 			add_decision = city_contract_3
-			add_decision = temple_contract_3
-			add_decision = iqta_contract_3
+			# add_decision = temple_contract_3
+			# add_decision = iqta_contract_3
 		}
 		8 = {
 			add_decision = vice_royalty_2

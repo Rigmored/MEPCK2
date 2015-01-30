@@ -134,3 +134,11 @@ ithilien_ranger;Ranger of Ithilien;Rodeur d'Ithilien;;;;;;;;;;;x
 ithilien_ranger_desc;This character is a true ranger of Ithilien, able to move silently, shoot quickly and attack any unprepared enemy venturing into the eastern lands of Gondor.;Ce personnage est un véritable rodeur d'Ithilien, capable de se déplacer sans bruits et d'attaquer n'importe quelle troupe s'aventurant sur ses terres.;;;;;;;;;;;x
 ithilien_captain;Captain of the Rangers of Ithilien;Capitaine des Rodeurs d'Ithilien;;;;;;;;;;;x
 ithilien_captain_desc;This character is a captain of the Rangers of Ithilien, and is able to lead effective stealth and guerilla warfare against enemy troops.;Ce personnage est un capitaine des Rodeurs d'Ithilien, et est capable de mener des assauts furtifs contre des troupes ennemies.;;;;;;;;;;;x
+master_fighter;@FIXME@ Master Fighter;@FIXME@ Master Fighter;;;;;;;;;;;x
+master_fighter_desc;@FIXME@ Master Fighter;@FIXME@ Master Fighter;;;;;;;;;;;x
+skilled_fighter;@FIXME@ Skilled Fighter;@FIXME@ Skilled Fighter;;;;;;;;;;;x
+skilled_fighter_desc;@FIXME@ Skilled Fighter;@FIXME@ Skilled Fighter;;;;;;;;;;;x
+adept_fighter;@FIXME@ Adept Fighter;@FIXME@ Adept Fighter;;;;;;;;;;;x
+adept_fighter_desc;@FIXME@ Adept Fighter;@FIXME@ Adept Fighter;;;;;;;;;;;x
+novice_fighter;@FIXME@ Novice Fighter;@FIXME@ Novice Fighter;;;;;;;;;;;x
+novice_fighter_desc;@FIXME@ Novice Fighter;@FIXME@ Novice Fighter;;;;;;;;;;;x

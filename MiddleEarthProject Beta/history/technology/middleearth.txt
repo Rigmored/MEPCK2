@@ -48,7 +48,7 @@ technology = {
 		d_south_farthing  
 		d_west_farthing  
 		d_north_farthing  
-		d_master_buckland  
+		# d_master_buckland  
 		d_minhiriath  
 		d_tyrn_gorthad  
 		d_girithlin  
@@ -82,7 +82,6 @@ technology = {
 		d_beorncrofts  
 		d_gladden_fields  
 		d_nan_anduin  
-		d_langwed_vale  
 		d_langwed_vale  
 		d_carrock  
 		d_rhun  
@@ -156,7 +155,7 @@ technology = {
 	    d_sauron_shadow  
 	    d_enedwaith  
 	    d_isenmarch  
-	    d_dunland  
+	    # d_dunland  
 	    d_angren  
 	    d_gwathlo  
 	    d_west_druwaith  
@@ -167,6 +166,11 @@ technology = {
 	    d_mardruak  
 	    d_kes_arik
 	    d_ashatur
+		d_cairill
+		d_dunland_south
+		d_dunland_north
+		d_esgaroth
+		d_stonefoot
 	}
 	769 = {
 		military = 1.2

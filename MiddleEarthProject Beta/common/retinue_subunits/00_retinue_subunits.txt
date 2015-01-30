@@ -592,8 +592,8 @@ morgulguards =
     second_amount = 125
     culture = culture_orkish
 	potential = {
-	culture = culture_maiar
-	trait = evil_side
+		culture = culture_maiar
+		owner = { trait = evil_side }
 	}
     modifier = {
         archers_offensive = 1.0
@@ -611,8 +611,8 @@ ologhaielite =
     first_amount = 75
     culture = culture_orkish
 	potential = {
-	culture = culture_maiar
-	trait = evil_side
+		culture = culture_maiar
+		owner = { trait = evil_side }
 	}
     modifier = {
         knights_offensive = 5.0
@@ -631,8 +631,8 @@ isengardguards =
     second_amount = 125
     culture = culture_urukhai
 	potential = {
-	culture = culture_istari
-	trait = evil_side
+		culture = culture_istari
+		owner = { trait = evil_side }
 	}
     modifier = {
         archers_offensive = 1.0
@@ -650,8 +650,8 @@ urukhaipikes =
     first_amount = 100
     culture = culture_urukhai
 	potential = {
-	culture = culture_istari
-	trait = evil_side
+		culture = culture_istari
+		owner = { trait = evil_side }
 	}
     modifier = {
         pikemen_offensive = 1.0
@@ -783,8 +783,8 @@ orcsarchers =
 # 250 Wargs Riders #
 wargriders =
 {
-    second_type = 4
-    second_amount = 250
+    first_type = 4
+    first_amount = 250
     culture =  culture_orkish
 	potential = {
 		OR = {
@@ -834,8 +834,8 @@ urukarchers =
 # 50 Wargs Riders #
 urukwargriders =
 {
-    second_type = 4
-    second_amount = 50
+    first_type = 4
+    first_amount = 50
     culture =  culture_urukhai
 	potential = {
 		culture = culture_urukhai
@@ -850,8 +850,8 @@ urukwargriders =
 # 250 Light Cavalry #
 variagslightcavalry =
 {
-    second_type = 3
-    second_amount = 250
+    first_type = 3
+    first_amount = 250
     culture =  culture_variags
 	potential = {
 		culture = culture_variags
