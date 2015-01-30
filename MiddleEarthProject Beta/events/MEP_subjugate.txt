@@ -3,7 +3,7 @@ namespace = subjugate
 
 ############# Subjugate another realm #############
 ####### Your emissary is in the other realm capital #######
-narrative_event = {
+character_event = {
 	id = subjugate.0
 	title = "EVTTITsubjugate.0"
 	desc = "EVTDESCsubjugate.0"

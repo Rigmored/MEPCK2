@@ -1,0 +1,59 @@
+decisions = {
+## Subjugate new lands as an evil character ##
+
+subjugate_new_land = {
+	potential = {
+		trait = evil_side
+		independent = yes
+		NOT = { trait = incapable }
+		any_realm_province = {
+			any_neighbor_province = {
+				owner = {
+					independent = yes
+					primary_title = { lower_tier_than = ROOT }
+					NOT = { is_liege_or_above = ROOT }
+				}
+			}
+		}
+	}
+
+	allow = {
+		war = no
+		in_command = no
+		prisoner = no
+		age = 16
+		prestige = 1000
+		piety = 800
+	}
+
+	effect = {
+		character_event = { id = subjugate.0 }
+	}
+}
+## Try to vassalize the Shire ##
+
+vassalize_shire = {
+
+	potential = {
+		independent = yes
+		NOT = { trait = incapable }
+		has_landed_title = e_arnor
+		k_shire = {
+			holder_scope = { NOT = { is_liege_or_above = ROOT } }
+		}
+	}
+
+	allow = {
+		war = no
+		in_command = no
+		prisoner = no
+		age = 16
+		prestige = 800
+	}
+
+	effect = {
+		character_event = { id = subjugate.0 }
+	}
+}
+
+}

@@ -54,7 +54,7 @@ action_subjugate = {
 	potential = {
 		FROM = {
 			prestige = 100
-			cash = 100
+			wealth = 100
 			trait = evil_side
 		}
 	}
@@ -194,7 +194,7 @@ action_organize_spies = {
 	
 	assassinate_chance_modifier = 0.005
 	
-	events = { 935 936 }
+	events = { 936 }
 }
 
 # Marshal
