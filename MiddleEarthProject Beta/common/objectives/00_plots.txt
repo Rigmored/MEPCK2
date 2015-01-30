@@ -210,18 +210,16 @@ plot_gain_title = {
 		}
 		modifier = {
 			factor = 4.0
-			AND = {
-				is_primary_holder_title = no
-				is_primary_holder_title_tier = yes
-				is_titular = no
-				holder_scope = {
-					overlord_of = FROM
-				}
-				FROM = {
-					primary_title = {
-						kingdom = {
-							title = PREVPREVPREV
-						}
+			is_primary_holder_title = no
+			is_primary_holder_title_tier = yes
+			is_titular = no
+			holder_scope = {
+				overlord_of = FROM
+			}
+			FROM = {
+				primary_title = {
+					kingdom = {
+						title = PREVPREVPREV
 					}
 				}
 			}
@@ -330,25 +328,23 @@ plot_gain_vassal_title = {
 			AND = {
 				tier = DUKE
 				holder_scope = {
-					AND = {
-						NOT = {
+					NOT = {
+						any_demesne_title = {
+							tier = COUNT
+							location = {
+								duchy = {
+									title = ROOT
+								}
+							}
+						}
+					}
+					NOT = {
+						any_vassal = {
 							any_demesne_title = {
 								tier = COUNT
 								location = {
 									duchy = {
 										title = ROOT
-									}
-								}
-							}
-						}
-						NOT = {
-							any_vassal = {
-								any_demesne_title = {
-									tier = COUNT
-									location = {
-										duchy = {
-											title = ROOT
-										}
 									}
 								}
 							}
@@ -525,25 +521,23 @@ plot_gain_vassal_title = {
 					AND = {
 						tier = DUKE
 						holder_scope = {
-							AND = {
-								NOT = {
+							NOT = {
+								any_demesne_title = {
+									tier = COUNT
+									location = {
+										duchy = {
+											title = ROOT
+										}
+									}
+								}
+							}
+							NOT = {
+								any_vassal = {
 									any_demesne_title = {
 										tier = COUNT
 										location = {
 											duchy = {
 												title = ROOT
-											}
-										}
-									}
-								}
-								NOT = {
-									any_vassal = {
-										any_demesne_title = {
-											tier = COUNT
-											location = {
-												duchy = {
-													title = ROOT
-												}
 											}
 										}
 									}
@@ -846,7 +840,7 @@ plot_kill_character = {
 				# A lover of spouse...
 				spouse = {
 					has_lover = yes
-					lover = {
+					any_lover = {
 						character = ROOT
 					}
 					OR = {
@@ -1095,7 +1089,7 @@ plot_kill_spouse = {
 			# Spouse has a lover...
 			AND = {
 				has_lover = yes
-				lover = {
+				any_lover = {
 					NOT = { character = FROM }
 				}
 			}

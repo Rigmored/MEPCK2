@@ -104,13 +104,11 @@
 obj_become_a_craftsman = {
 	type = character
 	allow = {
-		AND = {
-			is_female = no
-			OR = {
-				culture = culture_noldor
-				culture_group = culture_group_dwarves
-			}
-		}	
+		is_female = no
+		OR = {
+			culture = culture_noldor
+			culture_group = culture_group_dwarves
+		}
 		is_adult = yes
 		stewardship = 7
 		age = 60
