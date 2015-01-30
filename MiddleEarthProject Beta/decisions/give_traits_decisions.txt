@@ -1,4 +1,5 @@
-dynasty_decisions = {
+#dynasty_decisions = {
+decisions = {
 
 	give_palantir_ithil_to_son = {
 		from_potential = {
@@ -6,20 +7,20 @@ dynasty_decisions = {
 			trait = palantir_ithil
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = palantir_ithil }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = palantir_ithil }
+			ROOT = { remove_trait = palantir_ithil }
 			add_trait = palantir_ithil
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_palantir_to_me
 				months = 360
 			}
@@ -34,7 +35,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
 				}									
@@ -70,20 +71,20 @@ dynasty_decisions = {
 			trait = palantir_sul
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = palantir_sul }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = palantir_sul }
+			ROOT = { remove_trait = palantir_sul }
 			add_trait = palantir_sul
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_palantir_to_me
 				months = 360
 			}
@@ -98,7 +99,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
 				}									
@@ -134,20 +135,20 @@ dynasty_decisions = {
 			trait = palantir_elostirion
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = palantir_elostirion }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = palantir_elostirion }
+			ROOT = { remove_trait = palantir_elostirion }
 			add_trait = palantir_elostirion
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_palantir_to_me
 				months = 360
 			}
@@ -162,7 +163,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
 				}									
@@ -198,20 +199,20 @@ dynasty_decisions = {
 			trait = palantir
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = palantir }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = palantir }
+			ROOT = { remove_trait = palantir }
 			add_trait = palantir
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_palantir_to_me
 				months = 360
 			}
@@ -226,7 +227,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
 				}									
@@ -262,20 +263,20 @@ dynasty_decisions = {
 			trait = palantir_orthanc
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = palantir_orthanc }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = palantir_orthanc }
+			ROOT = { remove_trait = palantir_orthanc }
 			add_trait = palantir_orthanc
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_palantir_to_me
 				months = 360
 			}
@@ -290,7 +291,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
 				}									
@@ -326,20 +327,20 @@ dynasty_decisions = {
 			trait = palantir_osgiliath
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = palantir_osgiliath }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = palantir_osgiliath }
+			ROOT = { remove_trait = palantir_osgiliath }
 			add_trait = palantir_osgiliath
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_palantir_to_me
 				months = 360
 			}
@@ -354,7 +355,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
 				}									
@@ -390,20 +391,20 @@ dynasty_decisions = {
 			trait = palantir_annuminas
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = palantir_annuminas }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = palantir_annuminas }
+			ROOT = { remove_trait = palantir_annuminas }
 			add_trait = palantir_annuminas
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_palantir_to_me
 				months = 360
 			}
@@ -418,7 +419,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
 				}									
@@ -454,20 +455,20 @@ dynasty_decisions = {
 			trait = horngondor
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = horngondor }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = horngondor }
+			ROOT = { remove_trait = horngondor }
 			add_trait = horngondor
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -482,7 +483,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -518,20 +519,20 @@ dynasty_decisions = {
 			trait = anduril
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = anduril }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = anduril }
+			ROOT = { remove_trait = anduril }
 			add_trait = anduril
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -546,7 +547,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -582,20 +583,20 @@ dynasty_decisions = {
 			trait = herugrim
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = herugrim }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = herugrim }
+			ROOT = { remove_trait = herugrim }
 			add_trait = herugrim
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -610,7 +611,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -646,20 +647,20 @@ dynasty_decisions = {
 			trait = gutwhine
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = gutwhine }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = gutwhine }
+			ROOT = { remove_trait = gutwhine }
 			add_trait = gutwhine
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -674,7 +675,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -710,20 +711,20 @@ dynasty_decisions = {
 			trait = orcrist
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = orcrist }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = orcrist }
+			ROOT = { remove_trait = orcrist }
 			add_trait = orcrist
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -738,7 +739,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -774,20 +775,20 @@ dynasty_decisions = {
 			trait = sting
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = sting }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = sting }
+			ROOT = { remove_trait = sting }
 			add_trait = sting
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -802,7 +803,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -838,20 +839,20 @@ dynasty_decisions = {
 			trait = glamdring
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = glamdring }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = glamdring }
+			ROOT = { remove_trait = glamdring }
 			add_trait = glamdring
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -866,7 +867,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -902,20 +903,20 @@ dynasty_decisions = {
 			trait = elessar
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = elessar }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = elessar }
+			ROOT = { remove_trait = elessar }
 			add_trait = elessar
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -930,7 +931,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -966,20 +967,20 @@ dynasty_decisions = {
 			trait = mithril
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = mithril }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = mithril }
+			ROOT = { remove_trait = mithril }
 			add_trait = mithril
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -994,7 +995,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -1030,20 +1031,20 @@ dynasty_decisions = {
 			trait = barahir
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = barahir }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = barahir }
+			ROOT = { remove_trait = barahir }
 			add_trait = barahir
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -1058,7 +1059,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -1094,20 +1095,20 @@ dynasty_decisions = {
 			trait = narsil
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = narsil }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = narsil }
+			ROOT = { remove_trait = narsil }
 			add_trait = narsil
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -1122,7 +1123,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -1158,20 +1159,20 @@ dynasty_decisions = {
 			trait = dwarf_ring
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = dwarf_ring }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = dwarf_ring }
+			ROOT = { remove_trait = dwarf_ring }
 			add_trait = dwarf_ring
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -1186,7 +1187,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -1222,20 +1223,20 @@ dynasty_decisions = {
 			trait = durin_ring
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = durin_ring }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = durin_ring }
+			ROOT = { remove_trait = durin_ring }
 			add_trait = durin_ring
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -1250,7 +1251,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									
@@ -1286,20 +1287,20 @@ dynasty_decisions = {
 			trait = lesser_ring
 		}
 		potential = {
-			is_child_of = FROM
+			is_child_of = ROOT
 			age = 16	
 			NOT = { trait = lesser_ring }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
-			FROM = { war = no }
-			FROM = { NOT = { trait = incapable } }
+			ROOT = { war = no }
+			ROOT = { NOT = { trait = incapable } }
 		}			
 		effect = {
-			FROM = { remove_trait = lesser_ring }
+			ROOT = { remove_trait = lesser_ring }
 			add_trait = lesser_ring
 			opinion = {
-				who = FROM
+				who = ROOT
 				modifier = opinion_gave_object_to_me
 				months = 360
 			}
@@ -1314,7 +1315,7 @@ dynasty_decisions = {
 					}
 				}
 				opinion = {
-					who = FROM
+					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
 				}									

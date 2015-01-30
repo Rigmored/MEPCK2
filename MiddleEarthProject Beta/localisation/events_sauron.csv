@@ -157,3 +157,22 @@ EVTTITsauron.41;Eregion;L'Eregion;;;;;;;;;;;;x
 EVTDESCsauron.41;You have gathered your forces, according to the Master's orders from Dol Guldur. You are now ready to invade Eregion, and root out the Elf scum.;Vous avez rassemblé vos forces, suivant les ordres émanant de Dol Guldur. Vous êtes maintenant prêt à envahir l'Eregion, et à y installer votre domination.;;;;;;;;;;;;x
 EVTOPTAsauron.41;New lands for my clan!;De nouvelles terres pour mon Peuple!;;;;;;;;;;;;x
 command_Nazgûl;Command the Nazgûl;Commander les Nazgûl;;;;;;;;;;;;x
+EVTTITsauronreturn.1;@FIXME@ Sauron come to the ruins of Amon Lanc;@FIXME@ Sauron come to the ruins of Amon Lanc;;;;;;;;;;;;x
+EVTDESCsauronreturn.1;@FIXME@ Sauron come to the ruins of Amon Lanc;@FIXME@ Sauron come to the ruins of Amon Lanc;;;;;;;;;;;;x
+EVTOPTAsauronreturn.1;@FIXME@ Excellent!;@FIXME@ Excellent!;;;;;;;;;;;;x
+EVTTITsauronreturn.2;@FIXME@ The "Good" Rulers are informed;@FIXME@ The "Good" Rulers are informed;;;;;;;;;;;;x
+EVTDESCsauronreturn.2;@FIXME@ The "Good" Rulers are informed;@FIXME@ The "Good" Rulers are informed;;;;;;;;;;;;x
+EVTOPTAsauronreturn.2;@FIXME@ That's not good;@FIXME@ That's not good;;;;;;;;;;;;x
+EVTTITsauronreturn.3;@FIXME@ The "Evil" Rulers are informed;@FIXME@ The "Evil" Rulers are informed;;;;;;;;;;;;x
+EVTDESCsauronreturn.3;@FIXME@ The "Evil" Rulers are informed;@FIXME@ The "Evil" Rulers are informed;;;;;;;;;;;;x
+EVTOPTAsauronreturn.3;@FIXME@ Excellent!;@FIXME@ Excellent!;;;;;;;;;;;;x
+EVTTITsauronreturn.4;@FIXME@ The king of Mirkwood is informed;@FIXME@ The king of Mirkwood is informed;;;;;;;;;;;;x
+EVTDESCsauronreturn.4;@FIXME@ The king of Mirkwood is informed;@FIXME@ The king of Mirkwood is informed;;;;;;;;;;;;x
+EVTOPTAsauronreturn.4;@FIXME@ That's not good;@FIXME@ That's not good;;;;;;;;;;;;x
+EVTTITsauronreturn.5;@FIXME@ Sauron start to corrupt Eryn Galen;@FIXME@ Sauron start to corrupt Eryn Galen;;;;;;;;;;;;x
+EVTDESCsauronreturn.5;@FIXME@ Sauron start to corrupt Eryn Galen;@FIXME@ Sauron start to corrupt Eryn Galen;;;;;;;;;;;;x
+EVTOPTAsauronreturn.5;@FIXME@ Excellent!;@FIXME@ Excellent!;;;;;;;;;;;;x
+EVTOPTBsauronreturn.5;@FIXME@ Not now;@FIXME@ Not now;;;;;;;;;;;;x
+EVTTITsauronreturn.6;@FIXME@ The king of Mirkwood is informed;@FIXME@ The king of Mirkwood is informed;;;;;;;;;;;;x
+EVTDESCsauronreturn.6;@FIXME@ The king of Mirkwood is informed;@FIXME@ The king of Mirkwood is informed;;;;;;;;;;;;x
+EVTOPTAsauronreturn.6;@FIXME@ That's not good;@FIXME@ That's not good;;;;;;;;;;;;x

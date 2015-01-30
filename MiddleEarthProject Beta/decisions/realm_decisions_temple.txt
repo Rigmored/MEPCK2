@@ -16,7 +16,7 @@ decisions = {
 							limit = {
 								has_building = tp_temple_to_city
 							}
-							convert_to_feudal = yes
+							convert_to_city = yes
 						}
 					}
 				}

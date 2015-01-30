@@ -6,5 +6,4 @@
 # Written by Henrik Fåhraeus
 ###########################################
 
-decisions = {
-}
+#OBSOLETE

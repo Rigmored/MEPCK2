@@ -135,41 +135,39 @@ decisions = {
 
 ### NOT USED FOR NOW ###	
 ## For the King of Arnor or Gondor to claim the Reunited Kingdom ## 
-#	claim_reunited_kingdom = {
-#		is_high_prio = yes
-#		
-#		potential = {
-#			has_dlc = "Legacy of Rome"
-#			age = 16
-#			prisoner = no
-#			NOT = { trait = incapable }
-#			NOT = { has_global_flag = reunited_kingdom }
-#			NOT = { has_landed_title = e_reunited_kingdom }
-#			AND = {
-#				has_landed_title = e_gondor
-#				has_landed_title = e_arnor
-#			}
-#			religion = religion_dunedain						
-#		}
-#		allow = {
-#			prestige = 3000
-#			OR = {
-#				completely_controls = k_arthedain
-#				completely_controls = k_cardolan
-#			}
-#			completely_controls = k_anorien
-#			completely_controls = k_ithilien
-#			completely_controls = k_lamedon
-#			completely_controls = k_belfalas
-#			completely_controls = k_lebennin
-#			completely_controls = k_anfalas
-#		}
-#		effect = {
-#			set_global_flag = reunited_kingdom
-#			narrative_event = { id = claimtitles.7 }
-#		}
-#		ai_will_do = {
-#			factor = 0.2
-#		}
-#	}	
+	claim_reunited_kingdom = {
+		is_high_prio = yes
+		
+		potential = {
+			has_dlc = "Legacy of Rome"
+			age = 16
+			prisoner = no
+			NOT = { trait = incapable }
+			NOT = { has_global_flag = reunited_kingdom }
+			NOT = { has_landed_title = e_reunited_kingdom }
+			has_landed_title = e_gondor
+			has_landed_title = e_arnor
+			religion = religion_dunedain						
+		}
+		allow = {
+			prestige = 3000
+			OR = {
+				completely_controls = k_arthedain
+				completely_controls = k_cardolan
+			}
+			completely_controls = k_anorien
+			completely_controls = k_ithilien
+			completely_controls = k_lamedon
+			completely_controls = k_belfalas
+			completely_controls = k_lebennin
+			completely_controls = k_anfalas
+		}
+		effect = {
+			set_global_flag = reunited_kingdom
+			narrative_event = { id = claimtitles.7 }
+		}
+		ai_will_do = {
+			factor = 0.2
+		}
+	}	
 }

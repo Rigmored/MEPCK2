@@ -103,7 +103,7 @@ character_event = {
 			is_female = yes
 			OR = {
 				culture = culture_rohirrim
-				culture = culture_eothed
+				culture = culture_eotheod
 			}
 		}
 		
@@ -217,7 +217,7 @@ character_event = {
 			is_female = yes
 			OR = {
 				culture = culture_rohirrim
-				culture = culture_eothed
+				culture = culture_eotheod
 			}
 		}
 	}
@@ -330,7 +330,7 @@ character_event = {
 			is_female = yes
 			OR = {
 				culture = culture_rohirrim
-				culture = culture_eothed
+				culture = culture_eotheod
 			}
 		}
 	}
@@ -439,7 +439,7 @@ character_event = {
 			is_female = yes
 			OR = {
 				culture = culture_rohirrim
-				culture = culture_eothed
+				culture = culture_eotheod
 			}
 		}
 	}
@@ -460,7 +460,7 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	option = { name = "Ok" }
+	option = { name = OK }
 }
 
 
@@ -580,9 +580,7 @@ character_event = {
 		# Mentor Effects
 		modifier = {
 			factor = 0.85
-			OR = {
-				guardian = { trait = amroth_knight }
-			}
+			guardian = { trait = amroth_knight }
 		}
 
 		# Personality Effects
@@ -657,7 +655,7 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	option = { name = "Ok" }
+	option = { name = OK }
 }
 
 
@@ -1090,7 +1088,7 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	option = { name = "Ok" }
+	option = { name = OK }
 }
 
 
@@ -1527,7 +1525,7 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	option = { name = "Ok" }
+	option = { name = OK }
 }
 
 #### Learning to fight from your guardian - Harad #####
@@ -1943,7 +1941,7 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	option = { name = "Ok" }
+	option = { name = OK }
 }
 
 #### Learning to fight from your guardian - Dwarves #####
@@ -2359,7 +2357,7 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	option = { name = "Ok" }
+	option = { name = OK }
 }
 
 
@@ -3333,9 +3331,7 @@ character_event = {
 		# Mentor Effects
 		modifier = {
 			factor = 0.85
-			OR = {
-				guardian = { trait = ithilien_captain }
-			}
+			guardian = { trait = ithilien_captain }
 		}
 
 		# Personality Effects

@@ -36,7 +36,7 @@ character_event = {
 			limit = {
 				has_landed_title = k_khand
 				age = 1
-				only_capable = yes
+				NOT = { trait = incapable}
 			}
 			character_event = { id = variags.2 days = 10 }
 			set_character_flag = khandhorses
@@ -157,7 +157,7 @@ character_event = {
 			  
 	option = {
 		name = "EVTOPTAvariags.4" ## Perfect
-		any_realm_title = {
+		any_realm_province = {
 			add_province_modifier = { name = tax_of_mordor duration = 730 }			
 		}
 	}
@@ -180,7 +180,7 @@ character_event = {
 	}
 	
 	mean_time_to_happen = {
-		monthes = 24
+		months = 24
 	}
 			  
 	option = {

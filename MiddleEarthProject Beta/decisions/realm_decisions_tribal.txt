@@ -9,7 +9,7 @@ decisions = {
 		allow = {
 			capital_scope = { # Ensure capital is upgraded first, if not already upgraded
 				OR = {
-					is_feudal = yes
+					owner = { is_feudal = yes }
 					AND = {
 						is_tribal = yes
 						has_building = tb_hillfort_4
@@ -17,7 +17,7 @@ decisions = {
 				}
 			}
 			any_demesne_title = { # Have atleast one available title for upgrade (could be, but does not have to be capital)
-				is_tribal = yes
+				owner = { is_tribal = yes }
 				has_any_building = tb_hillfort_4
 			}
 			liege = { is_tribal = no }
@@ -35,13 +35,17 @@ decisions = {
 			custom_tooltip = {
 				text = adopt_feudalism_tooltip_1
 				hidden_tooltip = {
+					capital_scope = {
+						convert_to_castle = yes
+						refill_holding_levy = yes
+					}
 					any_demesne_title = {
 						if = {
 							limit = {
 								is_tribal = yes
 								has_building = tb_hillfort_4
 							}
-							convert_to_feudal = yes
+							convert_to_castle = yes
 						}
 					}
 				}
@@ -85,7 +89,7 @@ decisions = {
 		allow = {
 			capital_scope = { # Ensure capital is upgraded first, if not already upgraded
 				OR = {
-					is_republic = yes
+					owner = { is_republic = yes }
 					AND = {
 						is_tribal = yes
 						has_building = tb_market_town_4
@@ -99,18 +103,6 @@ decisions = {
 			OR = {
 				liege = { is_tribal = no }
 				primary_title = { has_law = tribal_organization_4 }
-			}
-			custom_tooltip = { 
-				text = TT_NOT_UNREFORMED_PAGAN
-				hidden_tooltip = {
-					NOT = { religion = norse_pagan }
-					NOT = { religion = tengri_pagan }
-					NOT = { religion = baltic_pagan }
-					NOT = { religion = finnish_pagan }
-					NOT = { religion = aztec }
-					NOT = { religion = slavic_pagan }
-					NOT = { religion = west_african_pagan }
-				}
 			}
 		}
 		effect = {
@@ -158,13 +150,17 @@ decisions = {
 			custom_tooltip = {
 				text = adopt_republicanism_tooltip_1
 				hidden_tooltip = {
+					capital_scope = {
+						convert_to_city = yes
+						refill_holding_levy = yes
+					}
 					any_demesne_title = {
 						if = {
 							limit = {
 								is_tribal = yes
 								has_building = tb_market_town_4
 							}
-							convert_to_republic = yes
+							convert_to_city = yes
 						}
 					}
 				}

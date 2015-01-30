@@ -24,7 +24,7 @@ claim_throne_orcs = {
 		NOT = { is_female = yes	}
 		NOT = { trait = blinded }
 		NOT = { trait = craven }
-		capable_only = yes
+		NOT = { trait = incapable }
 	}	
 	
 	allow = {

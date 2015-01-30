@@ -11,18 +11,16 @@ character_event = {
 	only_independent = yes
 
 	trigger = {
-		AND = {
-			is_ruler = yes
-			trait = good_side
-			year = 11362
-			NOT = { year = 11363 } 
-			NOT = { has_character_flag = intro_event }
-			NOT = { has_global_flag = disabledwotr }
-		}
+		is_ruler = yes
+		trait = good_side
+		year = 11362
+		NOT = { year = 11363 } 
+		NOT = { has_character_flag = intro_event }
+		NOT = { has_global_flag = disabledwotr }
 	}
 
 	mean_time_to_happen = {
-				days = 1
+		days = 1
 	}
 				  
 	option = {
@@ -100,15 +98,13 @@ character_event = {
 	only_independent = yes
 
 	trigger = {
-		AND = {
-			trait = evil_side
-			year = 11362 
-			NOT = { year = 11363 }
-			NOT = { has_character_flag = intro_event }
-			NOT = { has_landed_title = c_barad_dur }
-			NOT = { has_landed_title = d_isengard }
-			NOT = { has_global_flag = disabledwotr }
-		}
+		trait = evil_side
+		year = 11362 
+		NOT = { year = 11363 }
+		NOT = { has_character_flag = intro_event }
+		NOT = { has_landed_title = c_barad_dur }
+		NOT = { has_landed_title = d_isengard }
+		NOT = { has_global_flag = disabledwotr }
 	}
 
 	mean_time_to_happen = {
@@ -128,8 +124,10 @@ character_event = {
     title = "EVTTITwarofthering.92"
     desc = "EVTDESCwarofthering.92"
     picture = "GFX_shadows_coming"
-	is_triggered_only = yes
 	
+	mean_time_to_happen = {
+		days = 7
+	}
 		
 	option = {
         name = "EVTOPTAwarofthering.92"
@@ -150,17 +148,15 @@ character_event = {
     picture = "GFX_war_gondor"
 	age = 16
 	only_independent = yes
-	war = yes
 
 	trigger = {
-		AND = {
-			year = 11364
-			NOT = { year = 11366 }
-			trait = evil_side
-			has_landed_title = c_barad_dur
-			any_realm_lord = { NOT = { has_landed_title = c_east_osgiliath } }
-			NOT = { has_character_flag = warofthering9 }
-		}
+		war = yes
+		year = 11364
+		NOT = { year = 11366 }
+		trait = evil_side
+		has_landed_title = c_barad_dur
+		any_realm_lord = { NOT = { has_landed_title = c_east_osgiliath } }
+		NOT = { has_character_flag = warofthering9 }
 	}
 
 	mean_time_to_happen = {
@@ -175,14 +171,12 @@ character_event = {
 		set_character_flag = warofthering9
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					OR = {
-						culture_group = culture_group_easterling
-						culture_group = culture_group_southron
-						culture = culture_black_numenorean
-					}
-					trait = evil_side
+				OR = {
+					culture_group = culture_group_easterling
+					culture_group = culture_group_southron
+					culture = culture_black_numenorean
 				}
+				trait = evil_side
 			}
 			character_event = { id = warofthering.10 }
 		}
@@ -213,13 +207,11 @@ character_event = {
 		}
 		any_independent_ruler  = {
 			limit = {
-				AND = {
 				OR = {
-						has_landed_title = e_mordor
+						has_landed_title = k_mordor
 						has_landed_title = c_barad_dur
 				}
 				dynasty = 10012	
-				}
 			}
 			character_event = { id = sauron.16 days = 7 }
 		}				
@@ -247,13 +239,11 @@ character_event = {
 	only_independent = yes
 
 	trigger = {
-		AND = {
-			year = 11363
-			NOT = { year = 11365 }
-			trait = evil_side
-			has_landed_title = c_barad_dur
-			NOT = { has_character_flag = warofthering11 }
-		}
+		year = 11363
+		NOT = { year = 11365 }
+		trait = evil_side
+		has_landed_title = c_barad_dur
+		NOT = { has_character_flag = warofthering11 }
 	}
 
 	immediate = {
@@ -295,13 +285,9 @@ character_event = {
 		set_global_flag = nazgul_hunting
 	}
 		
-	mean_time_to_happen = {
-		days = 1
-	}
-		
 	option = {
-            name = "EVTOPTAwarofthering.12"
-			add_trait = huntforring
+		name = "EVTOPTAwarofthering.12"
+		add_trait = huntforring
 	}		
 }
 	
@@ -315,13 +301,11 @@ character_event = {
 	age = 16
 
 	trigger = {
-		AND = {
-			year = 11363
-			NOT = { year = 11365 }
-			trait = ring
-			dynasty = 803
-			NOT = { has_global_flag = fellowshipquest }
-		}
+		year = 11363
+		NOT = { year = 11365 }
+		trait = ring
+		dynasty = 803
+		NOT = { has_global_flag = fellowshipquest }
 	}
 	
 	immediate = {
@@ -337,10 +321,8 @@ character_event = {
 		add_trait = on_fellowshipquest
 		any_realm_character  = {
 			limit = {
-				AND = {
-					dynasty=814
-					NOT = { age = 50 }
-				}
+				dynasty=814
+				NOT = { age = 50 }
 			}
 			character_event = { id = warofthering.14 }
 		}
@@ -383,7 +365,6 @@ character_event = {
 	title = "EVTTITwarofthering.94"
 	desc = "EVTDESCwarofthering.94"
 	picture = "GFX_good"
-	is_triggered_only = yes
 	only_playable = yes
 	
 	mean_time_to_happen = {
@@ -405,13 +386,11 @@ character_event = {
 	only_independent = yes
 	
 	trigger = {
-		AND = {
-			year = 11363
-			NOT = { year = 11365 }
-			age = 30
-			trait = blood_of_isildur
-			NOT = { has_character_flag = warofthering17 }
-		}
+		year = 11363
+		NOT = { year = 11365 }
+		age = 30
+		trait = blood_of_isildur
+		NOT = { has_character_flag = warofthering17 }
 	}
 
 	
@@ -444,14 +423,12 @@ character_event = {
 	age = 16
 
 	trigger = {
-		AND = {
-			year = 11363
-			NOT = { year = 11365 }
-			trait = blood_of_isildur
-			has_global_flag = aragornactive
-			has_global_flag = fellowshipquest
-			NOT = { has_character_flag = warofthering18 }
-		}
+		year = 11363
+		NOT = { year = 11365 }
+		trait = blood_of_isildur
+		has_global_flag = aragornactive
+		has_global_flag = fellowshipquest
+		NOT = { has_character_flag = warofthering18 }
 	}
 	
 	mean_time_to_happen = {
@@ -490,8 +467,8 @@ character_event = {
 ##Fellowship disbands if Aragorn takes the Ring##
 	character_event = {
     id = warofthering.26
-    title = "Aragorn took the ring"
-    desc = "The strange man you met at Bree has taken the ring from you by force, and left! There is nothing you can do now... your quest has failed before it even began."
+    title = "EVTTITwarofthering.26"#Aragorn took the ring
+    desc = "EVTDESCwarofthering.26"#The strange man you met at Bree has taken the ring from you by force, and left! There is nothing you can do now... your quest has failed before it even began.
     picture = "GFX_shadows_coming"
 	age = 16
 	
@@ -568,11 +545,9 @@ character_event = {
 	age = 16		
 	
 	trigger = {
-		AND = {
-			has_character_flag = warofthering20_1
-			year = 11362
-			NOT = { year = 11380 }
-		}
+		has_character_flag = warofthering20_1
+		year = 11362
+		NOT = { year = 11380 }
 	}
 	
 	mean_time_to_happen = {
@@ -589,10 +564,8 @@ character_event = {
 		}
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					trait = blood_of_isildur
-					age = 16
-				}
+				trait = blood_of_isildur
+				age = 16
 			}
 			character_event = { id = warofthering.97 }
 		}
@@ -608,11 +581,9 @@ character_event = {
 	age = 16		
 	
 	trigger = {
-		AND = {
-			has_character_flag = warofthering20_2
-			year = 11362
-			NOT = { year = 11380 }
-		}
+		has_character_flag = warofthering20_2
+		year = 11362
+		NOT = { year = 11380 }
 	}
 	
 	immediate = {
@@ -627,9 +598,9 @@ character_event = {
 		name = "EVTOPTAwarofthering.96"
 		any_independent_ruler = {
 			limit = {
-			OR = {
-				age = 1
-				is_alive=yes 
+				OR = {
+					age = 1
+					is_alive=yes 
 				}
 			}
 			character_event = { id = warofthering.23 }
@@ -640,7 +611,7 @@ character_event = {
 				limit = {
 					has_landed_title = d_rivendell
 				}
-			character_event = { id = wotr.3 days = 7}
+				character_event = { id = wotr.3 days = 7}
 			}
 			any_independent_ruler  = {
 			limit = {
@@ -692,14 +663,12 @@ character_event = {
 	age = 16
 	
 	trigger = {
-		AND = {
-			has_global_flag = nazgul_hunting
-			has_global_flag = nazgulsuccess
-			has_landed_title = c_barad_dur
-			culture = culture_maiar
-			NOT = { year = 11365 }
-			NOT = { has_character_flag = warofthering21 }
-		}
+		has_global_flag = nazgul_hunting
+		has_global_flag = nazgulsuccess
+		has_landed_title = c_barad_dur
+		culture = culture_maiar
+		NOT = { year = 11365 }
+		NOT = { has_character_flag = warofthering21 }
 	}
 	
 	mean_time_to_happen = {
@@ -713,9 +682,9 @@ character_event = {
 		remove_trait = ringbearer2
 		any_playable_ruler = {
 			limit = {
-			OR = {
-				age = 1
-				is_alive=yes 
+				OR = {
+					age = 1
+					is_alive=yes 
 				}
 			}
 			character_event = { id = warofthering.22 }
@@ -750,7 +719,7 @@ character_event = {
 		}
 	}
 	
-		option = {
+	option = {
 		name = "EVTOPTBwarofthering.22"
 		trigger = { trait = evil_side }
 	}

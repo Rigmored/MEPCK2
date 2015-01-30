@@ -105,6 +105,8 @@ EVTOPTBwarofthering.24;Send Faramir.;Envoyez Faramir.;;;;;;;;;;;;x
 EVTTITwarofthering.25;Ill news;Etrange nouvelles…;;;;;;;;;;;;x
 EVTDESCwarofthering.25;The creature gollum has escaped, while we were distracted by an orc raid! We fear the enemy planned this. I must send Legolas to inform the White Council...;La créature Gollum s'est échappée, alors que nous étions occupé par un assaut d'Orques. Nous craignons que l'ennemi ait organisé ceci. Je devrais envoyer Legolas pour prévenir le Conseil Blanc…;;;;;;;;;;;;x
 EVTOPTAwarofthering.25;Safe journeys, my son.;Bon voyage, mon fils.;;;;;;;;;;;;x
+EVTTITwarofthering.26;Aragorn took the ring;@FIXME@ Aragorn took the ring;;;;;;;;;;;;x
+EVTDESCwarofthering.26;The strange man you met at Bree has taken the ring from you by force, and left! There is nothing you can do now... your quest has failed before it even began.;@FIXME@ The strange man you met at Bree has taken the ring from you by force, and left! There is nothing you can do now... your quest has failed before it even began.;;;;;;;;;;;;x
 ## wotr2_events.txt ##;;;;;;;;;;;;;;
 EVTTITwotr.1;Bilbo is in danger;Bilbon est en danger!;;;;;;;;;;;;x
 EVTDESCwotr.1;Agents of the enemy have approached us, asking about 'Baggins' and 'Shire'. We told them nothing, of course, but he should be warned.;"Des Agents de l'Ennemi nous ont approchés, nous demandant des informations à propos de ""Sacquet"" et ""Comté"". Nous ne leur avons rien dit, mais il devrait être averti…";;;;;;;;;;;;x
@@ -126,6 +128,8 @@ EVTDESCwotr.6;A secret council is being held in Rivendell, but they cannot agree
 EVTOPTAwotr.6;The ring must be destroyed in the Flames of Orodruin!;L'Anneau doit être détruit!;;;;;;;;;;;;x
 EVTOPTBwotr.6;Throw that damn Ring in the Great Sea!;Jetez le dans la Mer!;;;;;;;;;;;;x
 EVTOPTCwotr.6;Someone should protect the Ringbearer…;Je protégerais Frodon.;;;;;;;;;;;;x
+influence_the_council;@FIXME@ Influence the council;@FIXME@ Influence the council;;;;;;;;;;;;x
+influence_the_council_desc;@FIXME@ Influence the council;@FIXME@ Influence the council;;;;;;;;;;;;x
 EVTTITwotr.7;Council of Elrond;Le Conseil d'Elrond;;;;;;;;;;;;x
 EVTDESCwotr.7;The Council has been persuaded to throw the ring into the sea. It will be lost for another age. The Fellowship has done it's duty, and will now disband.;Le Conseil a été persuadé de jeter l'Anneau dans la Mer. Il sera perdu pour un Âge supplémentaire, au moins. La Communauté a fait son devoir, et est maintenant dissoute.;;;;;;;;;;;;x
 EVTOPTAwotr.7;OK;OK;;;;;;;;;;;;x
@@ -539,6 +543,8 @@ EVTOPTAwotr.107;She will remain my only True Love...;Elle restera mon seul vrai 
 EVTwotr.108;Break the Vow of Cerin Amroth;Rompre le Serment de Cerin Amroth;;;;;;;;;;;;x
 EVTDESCwotr.108;Elrond's response arrived quickly. He does not agree with your choice to break the vow, and tells you that there is still hope. You must do your best to save Middle-Earth.;La réponse d'Elrond est arrivée rapidement. Il n'accepte pas de rompre le serment, et vous dit qu'il y a encore de l'espoir… Vous devez faire de votre mieux pour chasser le Mal de ces terres…;;;;;;;;;;;;x
 EVTOPTAwotr.108;For you, my love...;Pour toi, mon amour…;;;;;;;;;;;;x
+EVTwotr.109;Break the Vow of Cerin Amroth;Rompre le Serment de Cerin Amroth;;;;;;;;;;;;x
+EVTDESCwotr.109;@FIXME@ After ten years, Aragorn can ask once again;@FIXME@ After ten years, Aragorn can ask once again;;;;;;;;;;;;x
 EVTvalinor.13;Death of the King;La Mort du Roi;;;;;;;;;;;;x
 EVTDESCvalinor.13;Aragorn, the last son of the Dúnedain, King of Gondor and Arnor, former member of the Fellowship of the Ring, is dead. He has restored the Power of the Kings of past, and the Royal House of Telcontar is as glorious as those of his ancestors. He truly brought a new Age of Prosperity for Men.;Aragorn, le dernier des Dúnedains, devenu Roi de Gondor et d'Arnor, et membre de la Communauté de l'Anneau, est mort. Il a redoré la puissance des Rois de Jadis, et la Maison Royale de Telcontar est aussi glorieuse que celles de ses ancêtres. Avec lui, un nouvel âge de prospérité est arrivé pour les Hommes.;;;;;;;;;;;;x
 EVTOPTAvalinor.13;The greatest King of our Time.;Le plus grand Roi de notre Temps.;;;;;;;;;;;;x

@@ -30,7 +30,7 @@ character_event = {
 				dynasty = 4001
 				age = 139
 				has_character_flag=gimli
-				}
+			}
 			add_trait = on_fellowshipquest 
 		}
 		any_playable_ruler ={
@@ -38,7 +38,7 @@ character_event = {
 				dynasty = 4001
 				age = 139
 				has_character_flag=gimli
-				}
+			}
 			add_trait = on_fellowshipquest 
 		}		
 	}
@@ -63,11 +63,9 @@ character_event = {
 	set_global_flag = councilofelrond
 	any_independent_ruler = {
 			limit = {
-			AND = {
 				age = 1
 				is_alive=yes
 				trait = good_side
-				}
 			}
 			character_event = { id = wotr.5 }
 		}
@@ -129,21 +127,17 @@ character_event = {
 		prestige = -100
 		any_playable_ruler = {
 			limit = {
-				AND = {
-					is_alive=yes
-					trait = ring
-				}
+				is_alive=yes
+				trait = ring
 			}
 			remove_trait = ring
 			add_trait = ringbearer1
 		}
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					trait = blood_of_isildur
-					age = 16
-					}
-				}
+				trait = blood_of_isildur
+				age = 16
+			}
 			character_event = { id = wotr.11 }
 		}
 	}
@@ -155,19 +149,15 @@ character_event = {
 		prestige = -100
 		any_playable_ruler = {
 			limit = {
-				AND = {
-					is_alive=yes
-					trait = ring
-				}
+				is_alive=yes
+				trait = ring
 			}
 			character_event = { id = wotr.9 }
 		}
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					trait = blood_of_isildur
-					age = 16
-				}
+				trait = blood_of_isildur
+				age = 16
 			}
 			character_event = { id = wotr.11 }
 		}
@@ -233,10 +223,8 @@ character_event = {
 		imprison = FROM
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					trait = blood_of_isildur
-					age = 16
-				}
+				trait = blood_of_isildur
+				age = 16
 			}
 			character_event = { id = wotr.11 }
 		}
@@ -279,19 +267,15 @@ character_event = {
 		set_global_flag = frodosafe
 		any_playable_ruler = {
 			limit = {
-			AND = {
 				is_alive=yes
 				trait = ring
-				}
 			}
 			character_event = { id = wotr.9 }
 		}
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					trait = blood_of_isildur
-					age = 16
-				}
+				trait = blood_of_isildur
+				age = 16
 			}
 			character_event = { id = wotr.11 }
 		}
@@ -338,11 +322,9 @@ character_event = {
 		age = 30
 		NOT = { year = 11367 }
 		NOT = { has_character_flag = wotr12 }
-		AND = {
-			OR = {
-				dynasty = 2001
-				dynasty = 803
-			}
+		OR = {
+			dynasty = 2001
+			dynasty = 803
 		}
 	}
 	
@@ -436,7 +418,7 @@ character_event = {
 	option = {
 		add_claim = c_wester_north_lorien
 		add_claim = c_lorien
-		k_lorien = {
+		k_elves = {
 			reverse_war = {
 				target = ROOT
 				casus_belli = claim_all
@@ -468,7 +450,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAwotr.16"
 		set_character_flag = ringinlorien
-		set_character_Flag = wotr16
+		set_character_flag = wotr16
 	}
 }
 	
@@ -680,10 +662,8 @@ character_event = {
 		remove_trait = on_fellowshipquest
 		any_independent_ruler = {
 			limit = {
-			AND = {
 				trait = blood_of_isildur
 				age = 30				
-				}
 			}
 			character_event = { id = wotr.41 }
 		}
@@ -706,10 +686,8 @@ character_event = {
 		set_global_flag = aragornwar
 			any_independent_ruler = {
 			limit = {
-			AND = {
 				age = 1
 				is_alive = yes				
-				}
 			}
 			character_event = { id = wotr.42 days = 90 }
 		}
@@ -1044,7 +1022,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAwotr.31"
 	    death = {
-			death_reason = death_illness
+			death_reason = death_natural
 		}
 	}
 }
@@ -1260,10 +1238,8 @@ character_event = {
 		}			
 		any_independent_ruler = {
 			limit = {
-			AND = {
 				trait = blood_of_isildur
 				age = 30				
-				}
 			}
 			character_event = { id = wotr.35 }
 		}	
@@ -1602,7 +1578,7 @@ character_event = {
 	age = 16
 	
 	trigger = {
-		has_landed_title = e_eastern_osgiliath
+		has_landed_title = c_east_osgiliath
 		dynasty = 100
 		NOT = { has_character_flag = wotr47 }
 		year = 11364
@@ -1628,7 +1604,7 @@ character_event = {
 	age = 16
 	
 	trigger = {
-		NOT = { has_landed_title = e_eastern_osgiliath }
+		NOT = { has_landed_title = c_east_osgiliath }
 		dynasty = 100
 		NOT = { has_character_flag = wotr48 }
 		year = 11365
@@ -1639,7 +1615,7 @@ character_event = {
 	}
 	
 	option = {
-		name = "We need more men..."
+		name = "EVTOPTAwotr.48"#We need more men...
 		set_character_flag = wotr48
 	}
 }
@@ -1777,14 +1753,12 @@ character_event = {
 	set_global_flag = wotr53
 	any_independent_ruler = {
 			limit = {
-			AND = {
-			OR = {
-				culture_group = culture_group_easterling
-				culture_group = culture_group_southron
-				culture = culture_black_numenorean
+				OR = {
+					culture_group = culture_group_easterling
+					culture_group = culture_group_southron
+					culture = culture_black_numenorean
 				}
 				trait = evil_side
-				}
 			}
 			character_event = { id = warofthering.10 days = 90 }
 		}
@@ -1875,10 +1849,8 @@ character_event = {
 	set_global_flag = wotr56
 	any_independent_ruler = {
 			limit = {
-			AND = {
 				trait = blood_of_isildur
 				age = 30
-				}
 			}
 			character_event = { id = wotr.57 days = 45 }
 		}
@@ -1889,10 +1861,8 @@ character_event = {
 	set_global_flag = wotr56
 		any_independent_ruler = {
 			limit = {
-			AND = {
 				trait = blood_of_isildur
 				age = 30
-				}
 			}
 			character_event = { id = wotr.57 days = 45 }
 		}
@@ -2052,10 +2022,8 @@ character_event = {
 	set_character_flag = wotr60
 	any_independent_ruler = {
 			limit = {
-			AND = {
 				culture = culture_rohirrim
 				has_landed_title = k_rohan
-				}
 			}
 			character_event = { id = wotr.61 days = 120 }
 		}
@@ -2084,10 +2052,8 @@ character_event = {
 				}
 			any_independent_ruler = {
 			limit = {
-			AND = {
 				dynasty = 5
 				has_landed_title = c_minas_tirith
-				}
 			}
 			character_event = { id = wotr.68 days = 7 }
 		}
@@ -2108,13 +2074,13 @@ character_event = {
 	age = 16
 	
 	trigger = {
-	has_landed_title = e_steward_gondor
-	has_global_flag = greatwar1
-	NOT = { has_character_flag = wotr62 }
-	year = 11369
-	year = { NOT = 11370 }
-	war = yes
-	age = 1
+		has_landed_title = e_steward_gondor
+		has_global_flag = greatwar1
+		NOT = { has_character_flag = wotr62 }
+		year = 11369
+		NOT = { year = 11370 }
+		war = yes
+		age = 1
 	}
 	
 	mean_time_to_happen = {
@@ -2126,10 +2092,8 @@ character_event = {
 	set_character_flag = wotr62
 	any_independent_ruler = {
 	limit = {
-	AND = {
-	trait = blood_of_isildur
-	age = 30
-	}
+		trait = blood_of_isildur
+		age = 30
 			}
 			character_event = { id = wotr.63 }
 		}
@@ -2286,7 +2250,7 @@ character_event = {
 			random_traits = yes
 			dynasty = random
 			religion = religion_southron
-			culture = culture_variag
+			culture = culture_variags
 			female = no
 			age = 30
 			attributes = {
@@ -2389,15 +2353,15 @@ character_event = {
 	age = 16
 	
 	trigger = {
-	has_landed_title = e_steward_gondor
-	has_global_flag = greatwar1
-	has_global_flag = boromirdeath
-	NOT = { has_character_flag = wotr71 }
-	year = 11368
-	dynasty = 100
-	age = 60
-	year = { NOT = 11370 }
-	war = yes
+		has_landed_title = e_steward_gondor
+		has_global_flag = greatwar1
+		has_global_flag = boromirdeath
+		NOT = { has_character_flag = wotr71 }
+		year = 11368
+		dynasty = 100
+		age = 60
+		NOT = { year = 11370 }
+		war = yes
 	}
 	
 		mean_time_to_happen = {
@@ -2472,10 +2436,8 @@ character_event = {
 	set_global_flag = wotr73
 		any_independent_ruler = {
 	limit = {
-	AND = {
-	trait = blood_of_isildur
-	age = 30
-	}
+		trait = blood_of_isildur
+		age = 30
 			}
 			character_event = { id = wotr.74 }
 		}
@@ -2484,21 +2446,17 @@ character_event = {
 	option = {
 	name = "EVTOPTBwotr.73"
 	trigger = {
-	AND = {
-	dynasty = 100
-	ai = no
-	}
+		dynasty = 100
+		ai = no
 	}
 	set_global_flag = wotr73
 	clr_global_flag = gondor_threatened
 	character_event = { id = wotr.81 days = 30 }
 	any_independent_ruler = {
-	limit = {
-	AND = {
-	trait = blood_of_isildur
-	age = 30
-	}
-			}
+		limit = {
+			trait = blood_of_isildur
+			age = 30
+		}
 			character_event = { id = wotr.74 }
 		}
 	}
@@ -2547,7 +2505,7 @@ character_event = {
 		e_gondor = {
 			grant_title = ROOT
 			copy_title_laws = e_steward_gondor
-			transfer_vassals = e_steward_gondor
+			#transfer_vassals = e_steward_gondor
 		}
 		e_arnor = {
 			grant_title = ROOT
@@ -2564,10 +2522,10 @@ character_event = {
 			grant_title = ROOT
 			copy_title_laws = e_steward_gondor
 		}	
-		c_ered_nimrais = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
+		# c_ered_nimrais = {
+			# grant_title = ROOT
+			# copy_title_laws = e_steward_gondor
+		# }	
 		c_fornost = {
 			grant_title = ROOT
 			copy_title_laws = e_steward_gondor
@@ -2596,7 +2554,7 @@ character_event = {
 			grant_title = ROOT
 			copy_title_laws = e_steward_gondor
 		}	
-		c_annumenyar = {
+		c_annuminas = {
 			grant_title = ROOT
 			copy_title_laws = e_steward_gondor
 		}	
@@ -2628,11 +2586,11 @@ character_event = {
 			grant_title = ROOT
 			copy_title_laws = e_steward_gondor
 		}			
-		holder_scope = {
-			gain_settlements_under_title = {
-					title = k_arthedain
-					}
-				}		
+		# holder_scope = {
+			# gain_settlements_under_title = {
+					# title = k_arthedain
+					# }
+				# }
 		hidden_tooltip = {
 			activate_title = { title = e_steward_gondor status = no }
 			any_playable_ruler = {
@@ -2641,6 +2599,12 @@ character_event = {
 					ai = no
 				}
 			}
+		}
+		e_steward_gondor = {
+			any_vassal = {
+				set_defacto_liege = e_gondor
+			}		
+			destroy_landed_title = THIS
 		}
 		any_independent_ruler = {
 			limit = {
@@ -2709,10 +2673,8 @@ character_event = {
 	set_global_flag = wotr77
 		any_independent_ruler = {
 	limit = {
-	AND = {
-	trait = blood_of_isildur
-	age = 30
-	}
+		trait = blood_of_isildur
+		age = 30
 	}
 	character_event = { id = wotr.78 }
 			}
@@ -2723,10 +2685,8 @@ character_event = {
 	set_global_flag = wotr77
 		any_independent_ruler = {
 	limit = {
-	AND = {
-	trait = blood_of_isildur
-	age = 30
-	}
+		trait = blood_of_isildur
+		age = 30
 	}
 	character_event = { id = wotr.79 }
 			}
@@ -2773,43 +2733,45 @@ character_event = {
 	
 	}
 	
-	##Aragorn gets his king titles even though gondor lost##
-	character_event = {
-    id = wotr.80
-    title = "EVTTITwotr.80"
-    desc = "EVTDESCwotr.80"
-    picture = "GFX_good"
+##Aragorn gets his king titles even though gondor lost##
+character_event = {
+	id = wotr.80
+	title = "EVTTITwotr.80"
+	desc = "EVTDESCwotr.80"
+	picture = "GFX_good"
 	age = 16
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
-	name = "EVTOPTAwotr.80"
-	clr_global_flag = gondor_threatened
-	set_global_flag = gondor_restoreddefeat
+		name = "EVTOPTAwotr.80"
+		clr_global_flag = gondor_threatened
+		set_global_flag = gondor_restoreddefeat
 		add_trait = annunimas
 		remove_trait = on_fellowshipquest
 		character_event = { id = wotr.91 }
 		e_gondor = {
 			grant_title = ROOT
 			copy_title_laws = e_steward_gondor
-			transfer_vassals = e_steward_gondor
+#			transfer_vassals = e_steward_gondor
 		}
 		e_arnor = {
 			grant_title = ROOT
 			copy_title_laws = e_steward_gondor
 		}		
 		e_steward_gondor = {
+			any_vassal = {
+				set_defacto_liege = e_gondor
+			}		
 			destroy_landed_title = THIS
 		}
-		holder_scope = {
-		gain_settlements_under_title = {
-		title = k_arthedain
-					}
-				}
-		}
-		
-		}
+		# holder_scope = {
+			# gain_settlements_under_title = {
+				# title = k_arthedain
+			# }
+		# }
+	}
+}
 		
 	##The steward chose to not welcome Aragorn, and instead bide his time to plot against him##
 	character_event = {
@@ -2874,10 +2836,8 @@ character_event = {
 		imprison = FROM
 	any_independent_ruler = {
 			limit = {
-			AND = {
 				trait = blood_of_isildur
 				age = 25
-				}
 			}
 			character_event = { id = wotr.84 }
 		}
@@ -3301,7 +3261,7 @@ character_event = {
 				female = no
 				age = 0
 				dna="dmgmd0kffa0"
-				properties="gc0ehdbebbb"				
+				#properties="gc0ehdbebbb"				
 				attributes = {
 					martial = 5
 					stewardship = 5
@@ -3365,7 +3325,7 @@ character_event = {
 				female = yes
 				age = 0
 				dna="dmmmd0kfaa0"
-				properties="gc0ehdbebbb"		
+				#properties="gc0ehdbebbb"		
 				attributes = {
 					martial = 3
 					stewardship = 3
@@ -3427,7 +3387,7 @@ character_event = {
 				female = yes
 				age = 0
 				dna="dkmcd0lfgc0"
-				properties="gm0cbkbebbb"
+				#properties="gm0cbkbebbb"
 				attributes = {
 					martial = 3
 					stewardship = 3
@@ -3487,7 +3447,7 @@ character_event = {
 				female = yes
 				age = 0
 				dna="ddagd0mfdc0"
-				properties="gb0ebkbebbb"
+				#properties="gb0ebkbebbb"
 				attributes = {
 					martial = 3
 					stewardship = 3
@@ -3514,7 +3474,7 @@ character_event = {
 ##  Sauron is not defeated, and you can't marry Arwen... ##
 character_event = {
 	id = wotr.105
-	name = "EVTwotr.105"
+	title = "EVTwotr.105"
 	desc = "EVTDESCwotr.105"
 	picture = GFX_evt_grey_havens
 
@@ -3538,7 +3498,7 @@ character_event = {
 ##  Elrond receive a message from Aragorn ##
 character_event = {
 	id = wotr.106
-	name = "EVTwotr.106"
+	title = "EVTwotr.106"
 	desc = "EVTDESCwotr.106"
 	picture = GFX_evt_grey_havens
 
@@ -3578,7 +3538,7 @@ character_event = {
 ##  Elrond give his answer to Aragorn - Arwen leaves for Aman ##
 character_event = {
 	id = wotr.107
-	name = "EVTwotr.107"
+	title = "EVTwotr.107"
 	desc = "EVTDESCwotr.107"
 	picture = GFX_evt_grey_havens
 
@@ -3594,7 +3554,7 @@ character_event = {
 ##  Elrond give his answer to Aragorn - He'll wait again for you ##
 character_event = {
 	id = wotr.108
-	name = "EVTwotr.108"
+	title = "EVTwotr.108"
 	desc = "EVTDESCwotr.108"
 	picture = GFX_evt_grey_havens
 
@@ -3610,7 +3570,7 @@ character_event = {
 ##  After ten years, Aragorn can ask once again ##
 character_event = {
 	id = wotr.109
-	name = "EVTwotr.109"
+	title = "EVTwotr.109"
 	desc = "EVTDESCwotr.109"
 	picture = GFX_evt_grey_havens
 
