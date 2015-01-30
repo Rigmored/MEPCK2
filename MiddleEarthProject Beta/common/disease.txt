@@ -135,26 +135,3 @@ small_pox = {
 	}
 }
 
-syphilis = {
-	contagiousness = 0.4
-	outbreak_chance = 0.16
-	effect = {
-		city_tax_modifier = -0.5
-		supply_limit = -4
-		max_attrition = 0.05
-	}
-	icon = 6
-	tooltip = AZTEC_DISEASE_INFO
-	months = 5
-	trait = has_aztec_disease
-	always_get_message = no
-	
-	active = no
-	
-	timeperiod = {
-		start_date = 867.1.1
-		end_date = 1452.1.1
-
-		one_only = no
-	}
-}

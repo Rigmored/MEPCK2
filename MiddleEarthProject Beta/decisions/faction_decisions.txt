@@ -889,7 +889,6 @@ plot_decisions = {
 								OR = {
 									using_cb = muslim_invasion
 									using_cb = viking_invasion
-									using_cb = crusade
 								}
 							}
 							AND = {
@@ -1180,7 +1179,6 @@ faction_claimant_ultimatum = {
 									}
 								}
 								OR = {
-									using_cb = crusade
 									using_cb = muslim_invasion
 									using_cb = viking_invasion
 									using_cb = invasion

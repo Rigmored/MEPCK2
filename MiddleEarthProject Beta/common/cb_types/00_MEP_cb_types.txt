@@ -42,11 +42,8 @@ imperial_reconquest = {
 			NOT = { same_realm = FROM }
 		}
 		FROM = {
-		AND = {
-		NOT = { religion = religion_moriquendi }
-		NOT = { religion = religion_calaquendi }
-		NOT = { religion = religion_mahal }
-		}
+			NOT = { religion_group = religion_group_eldar }
+			NOT = { religion = religion_mahal }
 		}
 	}
 	
@@ -101,24 +98,12 @@ imperial_reconquest = {
 			limit = { character = FROM }
 			participation_scaled_piety = 100
 			participation_scaled_prestige = 200
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				participation_scaled_decadence = -10
-			}
 		}
 		any_defender = {
 			limit = { NOT = { character = FROM } }
 			hidden_tooltip = { 
 				participation_scaled_piety = 100
 				participation_scaled_prestige = 200
-				if = {
-					limit = {
-						religion_group = muslim
-					}
-					participation_scaled_decadence = -10
-				}
 			}
 		}
 	}
@@ -144,6 +129,7 @@ wilderness = {
 	name = CB_NAME_WILDERNESS
 	war_name = WAR_NAME_WILDERNESS
 	sprite = 9
+	truce_days = 1825
 	is_permanent = yes
 	check_de_jure_tier = DUKE # this scans all dejure duchies for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
 	apply_short_occ_mod = no
@@ -151,19 +137,18 @@ wilderness = {
 	can_use_gui = {
 		ROOT = {
 		NOT = {
-		culture = culture_druedain
-		culture = culture_lossoth
-		culture = culture_valar
-		culture = culture_enigma
-		culture = culture_eagles
-		culture = culture_wight
-		culture = culture_troll
-		culture = culture_balrog
-		culture = culture_dragons
-		culture = culture_spider
+			culture = culture_druedain
+			culture = culture_lossoth
+			culture = culture_valar
+			culture = culture_enigma
+			culture = culture_eagles
+			culture = culture_wight
+			culture = culture_troll
+			culture = culture_balrog
+			culture = culture_dragons
+			culture = culture_spider
 		}
-		 AND = {
-			OR = {
+		OR = {
 			culture_group = culture_group_edain
 			culture_group = culture_group_numenorean
 			culture_group = culture_group_middlemen
@@ -175,7 +160,6 @@ wilderness = {
 			}
 			prestige = 300
 		}
-		}
 	}
 	on_add = {
 		ROOT = { prestige = -300 }
@@ -185,7 +169,7 @@ wilderness = {
 		FROM = {
 			religion_group = religion_group_wilderness
 			location = {
-				NOT = { terrain = mountains }
+				NOT = { culture = culture_mountains }
 			}
 		}
 	}
@@ -259,9 +243,7 @@ wilderness = {
 				NOT = { religion_group = FROM }
 				is_heresy_of = FROM
 				is_parent_religion = FROM
-				AND = {
-					NOT = { religion = FROM }
-				}
+				NOT = { religion = FROM }
 			}
 			top_liege = {
 				NOT = { religion = FROM }
@@ -350,24 +332,12 @@ wilderness = {
 			limit = { character = FROM }
 			participation_scaled_piety = 200
 			participation_scaled_prestige = 100
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				participation_scaled_decadence = -10
-			}
 		}
 		any_defender = {
 			limit = { NOT = { character = FROM } }
 			hidden_tooltip = { 
 				participation_scaled_piety = 200
 				participation_scaled_prestige = 100
-				if = {
-					limit = {
-						religion_group = muslim
-					}
-					participation_scaled_decadence = -10
-				}
 			}
 		}
 		ROOT = { 
@@ -405,6 +375,7 @@ orkish_invasion = {
 	name = CB_NAME_ORKISH
 	war_name = WAR_NAME_ORKISH
 	sprite = 9
+	truce_days = 1825
 	is_permanent = yes
 	can_call_allies = yes
 	can_call_vassals = yes	
@@ -477,9 +448,7 @@ orkish_invasion = {
 							}
 							AND = {
 								is_land = no
-								OR = {
-									year = 1100
-								}
+								year = 1100
 								any_neighbor_province = {
 									OR = {
 										AND = {
@@ -525,9 +494,7 @@ orkish_invasion = {
 				NOT = { religion_group = FROM }
 				is_heresy_of = FROM
 				is_parent_religion = FROM
-				AND = {
-					NOT = { religion = FROM }
-				}
+				NOT = { religion = FROM }
 			}
 			top_liege = {
 				NOT = { religion = FROM }
@@ -604,24 +571,12 @@ orkish_invasion = {
 			limit = { character = FROM }
 			participation_scaled_piety = 200
 			participation_scaled_prestige = 100
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				participation_scaled_decadence = -10
-			}
 		}
 		any_defender = {
 			limit = { NOT = { character = FROM } }
 			hidden_tooltip = { 
 				participation_scaled_piety = 200
 				participation_scaled_prestige = 100
-				if = {
-					limit = {
-						religion_group = muslim
-					}
-					participation_scaled_decadence = -10
-				}
 			}
 		}
 		ROOT = { 
@@ -764,24 +719,12 @@ ring_conquest = {
 			limit = { character = FROM }
 			participation_scaled_piety = 100
 			participation_scaled_prestige = 200
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				participation_scaled_decadence = -10
-			}
 		}
 		any_defender = {
 			limit = { NOT = { character = FROM } }
 			hidden_tooltip = { 
 				participation_scaled_piety = 100
 				participation_scaled_prestige = 200
-				if = {
-					limit = {
-						religion_group = muslim
-					}
-					participation_scaled_decadence = -10
-				}
 			}
 		}
 	}
@@ -1307,22 +1250,21 @@ mountains_invasion = {
 	can_attack_vassals = no
 	apply_short_occ_mod = no
 	other_de_jure_claim = no # Optimization for de jure claims of vassals
+	truce_days = 3650
 
 	can_use_gui = {
 		ROOT = {
-			AND = {
-				OR = {
-					culture_group = culture_group_dwarves
-					culture = culture_urukhai
-					culture = culture_goblin
-					culture = culture_orkish
-					culture = culture_troll
-					culture = culture_balrog
-					culture = culture_dragons
-					culture = culture_spider
-				}
-				prestige = 100
+			OR = {
+				culture_group = culture_group_dwarves
+				culture = culture_urukhai
+				culture = culture_goblin
+				culture = culture_orkish
+				culture = culture_troll
+				culture = culture_balrog
+				culture = culture_dragons
+				culture = culture_spider
 			}
+			prestige = 100
 		}
 	}
 	on_add = {
@@ -1345,10 +1287,7 @@ mountains_invasion = {
 		FROM = {
 			NOT = { culture_group = ROOT }
 			location = {
-				OR = {
-						culture = culture_mountains
-						terrain = mountain
-				}
+				culture = culture_mountains
 			}
 		}
 	}
@@ -1358,10 +1297,7 @@ mountains_invasion = {
 		FROM = {
 			NOT = { culture_group = ROOT }
 			location = {
-				OR = {
-						culture = culture_mountains
-						terrain = mountain
-				}
+				culture = culture_mountains
 			}
 		}
 	}
@@ -1373,9 +1309,7 @@ mountains_invasion = {
 				NOT = { religion_group = FROM }
 				is_heresy_of = FROM
 				is_parent_religion = FROM
-				AND = {
-					NOT = { religion = FROM }
-				}
+				NOT = { religion = FROM }
 			}
 			top_liege = {
 				NOT = { religion = FROM }
@@ -1464,24 +1398,12 @@ mountains_invasion = {
 			limit = { character = FROM }
 			participation_scaled_piety = 200
 			participation_scaled_prestige = 100
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				participation_scaled_decadence = -10
-			}
 		}
 		any_defender = {
 			limit = { NOT = { character = FROM } }
 			hidden_tooltip = { 
 				participation_scaled_piety = 200
 				participation_scaled_prestige = 100
-				if = {
-					limit = {
-						religion_group = muslim
-					}
-					participation_scaled_decadence = -10
-				}
 			}
 		}
 		ROOT = { 
