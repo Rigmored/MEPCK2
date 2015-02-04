@@ -1,33 +1,21 @@
 decisions = {
-
-explore_himling_ruins = {
+	explore_himling_ruins = {
 		potential = {
-			ai = no #ai cannot use dynasty decisions		
+			ai = no
+			#ai cannot use dynasty decisions
 			has_landed_title = c_himling
 			NOT = { trait = himling_armour }
 			NOT = { trait = himling_sword }
 			NOT = { has_character_flag = explorer_of_himling }
 			OR = {
-				NOT = {
-					culture_group = culture_group_wilderness
-				}
-				NOT = {
-					culture_group = culture_group_onodrim
-				}
-				NOT = {
-					culture_group = culture_group_halfling
-				}
-				NOT = {
-					culture = culture_wight
-				}
-				NOT = {
-					culture = culture_goblin
-				}
-				NOT = {
-					culture = culture_spider
-				}
+				NOT = { culture_group = culture_group_wilderness }
+				NOT = { culture_group = culture_group_onodrim }
+				NOT = { culture_group = culture_group_halfling }
+				NOT = { culture = culture_wight }
+				NOT = { culture = culture_goblin }
+				NOT = { culture = culture_spider }
 			}
-		}	
+		}
 		allow = {
 			war = no
 			in_command = no
@@ -37,7 +25,9 @@ explore_himling_ruins = {
 			wealth = 150
 		}
 		effect = {
-		ROOT = { character_event = { id = himling.4 } }
+			ROOT = {
+				character_event = { id = himling.4 }
+			}
 		}
-}
+	}
 }

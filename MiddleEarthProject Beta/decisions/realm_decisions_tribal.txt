@@ -1,13 +1,14 @@
 decisions = {
-	
 	adopt_feudalism = {
 		is_high_prio = yes
 		potential = {
+			ai = no
 			is_republic = no
 			any_demesne_title = { is_tribal = yes }
 		}
 		allow = {
-			capital_scope = { # Ensure capital is upgraded first, if not already upgraded
+			capital_scope = {
+				# Ensure capital is upgraded first, if not already upgraded
 				OR = {
 					owner = { is_feudal = yes }
 					AND = {
@@ -16,18 +17,18 @@ decisions = {
 					}
 				}
 			}
-			any_demesne_title = { # Have atleast one available title for upgrade (could be, but does not have to be capital)
+			any_demesne_title = {
+				# Have atleast one available title for upgrade (could be, but does not have to be capital)
 				owner = { is_tribal = yes }
 				has_any_building = tb_hillfort_4
 			}
 			liege = { is_tribal = no }
-
-			custom_tooltip = { 
+			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
 					NOT = { culture_group = culture_group_forodwaith }
 					NOT = { culture_group = culture_group_haldadian }
-            				NOT = { culture = culture_druedain }
+					NOT = { culture = culture_druedain }
 				}
 			}
 		}
@@ -50,31 +51,21 @@ decisions = {
 					}
 				}
 			}
-			custom_tooltip = {
-				text = adopt_feudalism_tooltip_2
-			}
+			custom_tooltip = { text = adopt_feudalism_tooltip_2 }
 			set_character_flag = achievement_not_a_tribe
 			if = {
-				limit = {
-					ai = no
-				}
+				limit = { ai = no }
 				chronicle = {
 					entry = CHRONICLE_ADOPTED_FEUDALISM
 					picture = GFX_evt_castle_construction
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1 # On average ca 1 year before taken
-		}
 	}
-	
 	adopt_republicanism = {
 		is_high_prio = yes
 		potential = {
+			ai = no
 			is_feudal = no
 			is_female = no
 			any_demesne_title = { is_tribal = yes }
@@ -87,7 +78,8 @@ decisions = {
 			}
 		}
 		allow = {
-			capital_scope = { # Ensure capital is upgraded first, if not already upgraded
+			capital_scope = {
+				# Ensure capital is upgraded first, if not already upgraded
 				OR = {
 					owner = { is_republic = yes }
 					AND = {
@@ -96,7 +88,8 @@ decisions = {
 					}
 				}
 			}
-			any_demesne_title = { # Have atleast one available title for upgrade (could be, but does not have to be capital)
+			any_demesne_title = {
+				# Have atleast one available title for upgrade (could be, but does not have to be capital)
 				is_tribal = yes
 				has_any_building = tb_market_town_4
 			}
@@ -107,11 +100,11 @@ decisions = {
 		}
 		effect = {
 			hidden_tooltip = {
-				if = { # Republic setup
-					limit = { 
-						is_tribal = yes
-					}
-					if = { # create duchy if holder does not have one
+				if = {
+					# Republic setup
+					limit = { is_tribal = yes }
+					if = {
+						# create duchy if holder does not have one
 						limit = {
 							NOT = { higher_tier_than = COUNT }
 						}
@@ -128,7 +121,8 @@ decisions = {
 						}
 					}
 					create_family_palace = yes
-					any_unique_dynasty_vassal = { # gives random vassals a family palace
+					any_unique_dynasty_vassal = {
+						# gives random vassals a family palace
 						count = 4
 						limit = {
 							is_female = no
@@ -139,9 +133,7 @@ decisions = {
 							prisoner = no
 							NOT = { trait = incapable }
 							is_adult = yes
-							NOT = { 
-								dynasty = none 
-							}
+							NOT = { dynasty = none }
 						}
 						create_family_palace = yes
 					}
@@ -165,34 +157,15 @@ decisions = {
 					}
 				}
 			}
-			custom_tooltip = {
-				text = adopt_republicanism_tooltip_2
-			}
+			custom_tooltip = { text = adopt_republicanism_tooltip_2 }
 			set_character_flag = achievement_res_publica
 			if = {
-				limit = {
-					ai = no
-				}
+				limit = { ai = no }
 				chronicle = {
 					entry = CHRONICLE_FOUNDED_MERCHANT_REPUBLIC
 					picture = GFX_evt_busy_trading_dock_republic
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0.5 # On average ca 1 year before taken
-			modifier = {
-				factor = 2.0
-				stewardship = 10
-			}
-			modifier = {
-				factor = 2.0
-				is_republic = yes
-			}
-		}
 	}
 }
-

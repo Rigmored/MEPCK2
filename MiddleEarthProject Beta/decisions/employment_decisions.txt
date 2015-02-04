@@ -1,5 +1,4 @@
 decisions = {
-
 	employ_chancellor = {
 		potential = {
 			ai = no
@@ -19,21 +18,14 @@ decisions = {
 				random_traits = yes
 				dynasty = random
 				female = no
-			}				
+			}
 			add_character_modifier = {
 				name = employment_timer
 				duration = 1
 				hidden = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
-
 	employ_marshal = {
 		potential = {
 			ai = no
@@ -53,21 +45,14 @@ decisions = {
 				random_traits = yes
 				dynasty = random
 				female = no
-			}				
+			}
 			add_character_modifier = {
 				name = employment_timer
 				duration = 1
 				hidden = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
-
 	employ_steward = {
 		potential = {
 			ai = no
@@ -87,21 +72,14 @@ decisions = {
 				random_traits = yes
 				dynasty = random
 				female = no
-			}			
+			}
 			add_character_modifier = {
 				name = employment_timer
 				duration = 1
 				hidden = yes
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
-
 	employ_spymaster = {
 		potential = {
 			ai = no
@@ -121,18 +99,12 @@ decisions = {
 				random_traits = yes
 				dynasty = random
 				female = no
-			}				
+			}
 			add_character_modifier = {
 				name = employment_timer
 				duration = 1
 				hidden = yes
 			}
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	present_female_slave = {
@@ -142,11 +114,11 @@ decisions = {
 			is_ruler = yes
 			age = 16
 			OR = {
-			culture_group = culture_group_melkor
-			culture_group = culture_group_southron
-			culture_group = culture_group_easterling
-			culture = culture_black_numenorean
-            culture = culture_maiar
+				culture_group = culture_group_melkor
+				culture_group = culture_group_southron
+				culture_group = culture_group_easterling
+				culture = culture_black_numenorean
+				culture = culture_maiar
 			}
 			OR = {
 				ai = yes
@@ -172,12 +144,6 @@ decisions = {
 			}
 			set_character_flag = employed_debutante
 		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
 	present_male_slave = {
 		potential = {
@@ -186,10 +152,10 @@ decisions = {
 			is_ruler = yes
 			age = 16
 			OR = {
-			culture_group = culture_group_melkor
-			culture_group = culture_group_southron
-			culture_group = culture_group_easterling
-			culture = culture_black_numenorean
+				culture_group = culture_group_melkor
+				culture_group = culture_group_southron
+				culture_group = culture_group_easterling
+				culture = culture_black_numenorean
 			}
 			OR = {
 				ai = yes
@@ -215,12 +181,6 @@ decisions = {
 			}
 			set_character_flag = employed_debutante
 		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
 	present_debutante = {
 		potential = {
@@ -229,11 +189,11 @@ decisions = {
 			is_ruler = yes
 			age = 16
 			NOT = {
-			culture_group = culture_group_melkor
-			culture_group = culture_group_southron
-			culture_group = culture_group_easterling
-			culture = culture_black_numenorean
-            culture = culture_maiar
+				culture_group = culture_group_melkor
+				culture_group = culture_group_southron
+				culture_group = culture_group_easterling
+				culture = culture_black_numenorean
+				culture = culture_maiar
 			}
 			OR = {
 				ai = yes
@@ -258,12 +218,6 @@ decisions = {
 				hidden = yes
 			}
 			set_character_flag = employed_debutante
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 }

@@ -1,6 +1,6 @@
 decisions = {
-    #Employment
-    open_employment_decisions = {
+	#Employment
+	open_employment_decisions = {
 		potential = {
 			ai = no
 			NOT = {
@@ -15,6 +15,7 @@ decisions = {
 	close_employment_decisions = {
 		is_high_prio = yes
 		potential = {
+			ai = no
 			has_character_flag = employment_decisions_open
 		}
 		effect = { clr_character_flag = employment_decisions_open }
@@ -24,7 +25,7 @@ decisions = {
 		potential = {
 			ai = no
 			NOT = {
-			    has_character_flag = employment_decisions_open
+				has_character_flag = employment_decisions_open
 				has_character_flag = festivity_decisions_open
 				has_character_flag = special_decisions_open
 				has_character_flag = family_decisions_open
@@ -35,6 +36,7 @@ decisions = {
 	close_special_decisions = {
 		is_high_prio = yes
 		potential = {
+			ai = no
 			has_character_flag = special_decisions_open
 		}
 		effect = { clr_character_flag = special_decisions_open }
@@ -44,7 +46,7 @@ decisions = {
 		potential = {
 			ai = no
 			NOT = {
-			    has_character_flag = employment_decisions_open
+				has_character_flag = employment_decisions_open
 				has_character_flag = festivity_decisions_open
 				has_character_flag = special_decisions_open
 				has_character_flag = family_decisions_open
@@ -61,6 +63,7 @@ decisions = {
 	close_family_decisions = {
 		is_high_prio = yes
 		potential = {
+			ai = no
 			has_character_flag = family_decisions_open
 		}
 		effect = { clr_character_flag = family_decisions_open }
@@ -70,25 +73,21 @@ decisions = {
 		potential = {
 			ai = no
 			NOT = {
-			    has_character_flag = employment_decisions_open
+				has_character_flag = employment_decisions_open
 				has_character_flag = festivity_decisions_open
 				has_character_flag = special_decisions_open
 				has_character_flag = family_decisions_open
 			}
-			NOT = {
-			    has_character_flag = sauron
-			}
+			NOT = { has_character_flag = sauron }
 		}
 		effect = { set_character_flag = festivity_decisions_open }
 	}
 	close_festivity_decisions = {
 		is_high_prio = yes
 		potential = {
+			ai = no
 			has_character_flag = festivity_decisions_open
 		}
 		effect = { clr_character_flag = festivity_decisions_open }
 	}
-	
-	
-	
 }

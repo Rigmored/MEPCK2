@@ -1,8 +1,8 @@
 decisions = {
 	colonisation_wilderness = {
 		is_high_prio = no
-	
-		potential = {		
+		potential = {
+			ai = no
 			job_treasurer = { is_alive = yes }
 			any_realm_province = {
 				OR = {
@@ -10,133 +10,109 @@ decisions = {
 					culture = culture_wilderness
 					culture = culture_mountains
 				}
-				NOT = { has_province_modifier = being_colonised }	
+				NOT = { has_province_modifier = being_colonised }
 			}
 			NOT = { culture = culture_maiar }
 			NOT = { culture = culture_istari }
 			demesne_size = 1
-			NOT = { has_character_flag = colonizationwilderness }	
+			NOT = { has_character_flag = colonizationwilderness }
 			has_character_flag = special_decisions_open
-		}	
-	
+		}
 		allow = {
 			war = no
 			prisoner = no
 			age = 16
 			prestige = 500
 			wealth = 200
-			job_treasurer = {			
-				location = {				
+			job_treasurer = {
+				location = {
 					OR = {
 						religion = religion_wilderness
 						culture = culture_wilderness
 						culture = culture_mountains
-					}					
+					}
 				}
-				has_job_action = action_colonize_province					
-			}				
+				has_job_action = action_colonize_province
+			}
 		}
-	
 		effect = {
-			character_event = { id ="colonisation.0" } 					
-		}
-	
-		ai_will_do = {
-			factor = 100	
-		}	
-}
-
-
-
-##Sauron's Colonization Decision##
-colonize_with_orcs  = {		
-	is_high_prio = no
-	potential = {			
-		job_treasurer = { is_alive = yes }
-		any_demesne_province = {
-				OR = {
-					religion = religion_wilderness
-					culture = culture_wilderness
-					culture = culture_mountains
-				}			
-			NOT = { has_province_modifier = being_colonised }	
-		}
-		NOT = { culture = culture_istari }
-		trait = evil_side
-		demesne_size = 1
-		has_character_flag = special_decisions_open
-	}
-		
-	allow = {		
-		age = 16
-		prestige = 500
-		wealth = 200
-		job_treasurer = {			
-			location = {				
-				OR = {
-					religion = religion_wilderness
-					culture = culture_wilderness
-					culture = culture_mountains
-				}					
-			}	
-			has_job_action = action_colonize_province	
+			character_event = { id = "colonisation.0" }
 		}
 	}
-	
-	effect = {
-		character_event = { id ="colonisation.1" } 		
-	}
-		
-	ai_will_do = {
-		factor = 1			
-	}	
-}
-
-
-
-
-	##Evil Saruman's Colonization Decision##
-	colonize_with_uruk_hai  = {		
+	##Sauron's Colonization Decision##
+	colonize_with_orcs = {
 		is_high_prio = no
-	
 		potential = {
+			ai = no
 			job_treasurer = { is_alive = yes }
 			any_demesne_province = {
 				OR = {
 					religion = religion_wilderness
 					culture = culture_wilderness
 					culture = culture_mountains
-				}		
-				NOT = { has_province_modifier = being_colonised }	
-			}			
-			demesne_size = 1			
-			culture = culture_istari
+				}
+				NOT = { has_province_modifier = being_colonised }
+			}
+			NOT = { culture = culture_istari }
 			trait = evil_side
+			demesne_size = 1
 			has_character_flag = special_decisions_open
 		}
-		
-		allow = {			
-			age = 16			
-			prestige = 500			
+		allow = {
+			age = 16
+			prestige = 500
 			wealth = 200
-			job_treasurer = {			
-				location = {				
+			job_treasurer = {
+				location = {
 					OR = {
 						religion = religion_wilderness
 						culture = culture_wilderness
 						culture = culture_mountains
-					}					
-				}	
-				has_job_action = action_colonize_province	
+					}
+				}
+				has_job_action = action_colonize_province
 			}
 		}
-	
 		effect = {
-			character_event = { id ="colonisation.2" } 
+			character_event = { id = "colonisation.1" }
 		}
-		
-		ai_will_do = {
-			factor = 1
+	}
+	##Evil Saruman's Colonization Decision##
+	colonize_with_uruk_hai = {
+		is_high_prio = no
+		potential = {
+			ai = no
+			job_treasurer = { is_alive = yes }
+			any_demesne_province = {
+				OR = {
+					religion = religion_wilderness
+					culture = culture_wilderness
+					culture = culture_mountains
+				}
+				NOT = { has_province_modifier = being_colonised }
+			}
+			demesne_size = 1
+			culture = culture_istari
+			trait = evil_side
+			has_character_flag = special_decisions_open
 		}
-	} 
+		allow = {
+			age = 16
+			prestige = 500
+			wealth = 200
+			job_treasurer = {
+				location = {
+					OR = {
+						religion = religion_wilderness
+						culture = culture_wilderness
+						culture = culture_mountains
+					}
+				}
+				has_job_action = action_colonize_province
+			}
+		}
+		effect = {
+			character_event = { id = "colonisation.2" }
+		}
+	}
 }

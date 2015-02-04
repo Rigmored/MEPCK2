@@ -1,11 +1,11 @@
 decisions = {
-    sauron_restore_form = {
+	sauron_restore_form = {
 		is_high_prio = no
-		
-      	potential = {
-	        age = 1
-		    prisoner = no
-		    trait = spiritform				
+		potential = {
+			ai = no
+			age = 1
+			prisoner = no
+			trait = spiritform
 			has_character_flag = special_decisions_open
 		}
 		allow = {
@@ -15,9 +15,5 @@ decisions = {
 		effect = {
 			character_event = { id = sauronrestoreform.0 }
 		}
-		ai_will_do = {
-			factor = 100
-		}
 	}
-
 }

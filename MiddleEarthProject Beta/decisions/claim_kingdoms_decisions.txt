@@ -2,8 +2,8 @@ decisions = {
 	## If the line of Isildur failed, an option for the steward to claim the crown of Gondor ##
 	claim_king_gondor = {
 		is_high_prio = no
-		
 		potential = {
+			ai = no
 			has_dlc = "Legacy of Rome"
 			age = 16
 			prisoner = no
@@ -14,7 +14,7 @@ decisions = {
 			any_playable_ruler = {
 				trait = blood_of_isildur
 				NOT = { is_alive = yes }
-			}			
+			}
 			has_character_flag = special_decisions_open
 		}
 		allow = {
@@ -31,16 +31,12 @@ decisions = {
 			set_global_flag = steward_king_gondor
 			narrative_event = { id = RoN.5 }
 		}
-		ai_will_do = {
-			factor = 0.2
-		}
 	}
-	
-## For the King of Mirkwood, to claim the High Kingship of the Silvan Elves ##
+	## For the King of Mirkwood, to claim the High Kingship of the Silvan Elves ##
 	claim_king_silvan_elves = {
 		is_high_prio = no
-		
 		potential = {
+			ai = no
 			has_dlc = "Legacy of Rome"
 			age = 16
 			prisoner = no
@@ -59,16 +55,12 @@ decisions = {
 			set_global_flag = highkingsilvanelves
 			narrative_event = { id = claimtitles.1 }
 		}
-		ai_will_do = {
-			factor = 0.2
-		}
-	}	
-	
-## For the King of Bellakar, to claim the High Kingship of Anadûnê ##
+	}
+	## For the King of Bellakar, to claim the High Kingship of Anadï¿½nï¿½ ##
 	claim_king_anadune = {
 		is_high_prio = no
-		
 		potential = {
+			ai = no
 			has_dlc = "Legacy of Rome"
 			age = 16
 			prisoner = no
@@ -76,7 +68,7 @@ decisions = {
 			NOT = { has_global_flag = highkingsilvanelves }
 			OR = {
 				has_landed_title = k_bellakar
-				has_landed_title = k_umbar			
+				has_landed_title = k_umbar
 			}
 			culture = culture_black_numenorean
 			has_character_flag = special_decisions_open
@@ -91,17 +83,12 @@ decisions = {
 			set_global_flag = highkingsilvanelves
 			narrative_event = { id = claimtitles.3 }
 		}
-		ai_will_do = {
-			factor = 0.2
-		}
-	}		
-	
-	
-## For the King of Arthedain, to claim the Kingdom of Arnor ##
+	}
+	## For the King of Arthedain, to claim the Kingdom of Arnor ##
 	claim_king_arnor = {
 		is_high_prio = no
-		
 		potential = {
+			ai = no
 			has_dlc = "Legacy of Rome"
 			age = 16
 			prisoner = no
@@ -114,7 +101,7 @@ decisions = {
 				has_landed_title = k_rhudaur
 			}
 			religion = religion_dunedain
-            has_character_flag = special_decisions_open			
+			has_character_flag = special_decisions_open
 		}
 		allow = {
 			prestige = 3000
@@ -128,17 +115,13 @@ decisions = {
 			set_global_flag = highkingarnor
 			narrative_event = { id = claimtitles.5 }
 		}
-		ai_will_do = {
-			factor = 0.2
-		}
-	}	
-
-### NOT USED FOR NOW ###	
-## For the King of Arnor or Gondor to claim the Reunited Kingdom ## 
+	}
+	### NOT USED FOR NOW ###	
+## For the King of Arnor or Gondor to claim the Reunited Kingdom ##
 	claim_reunited_kingdom = {
 		is_high_prio = yes
-		
 		potential = {
+			ai = no
 			has_dlc = "Legacy of Rome"
 			age = 16
 			prisoner = no
@@ -147,7 +130,7 @@ decisions = {
 			NOT = { has_landed_title = e_reunited_kingdom }
 			has_landed_title = e_gondor
 			has_landed_title = e_arnor
-			religion = religion_dunedain						
+			religion = religion_dunedain
 		}
 		allow = {
 			prestige = 3000
@@ -166,8 +149,5 @@ decisions = {
 			set_global_flag = reunited_kingdom
 			narrative_event = { id = claimtitles.7 }
 		}
-		ai_will_do = {
-			factor = 0.2
-		}
-	}	
+	}
 }

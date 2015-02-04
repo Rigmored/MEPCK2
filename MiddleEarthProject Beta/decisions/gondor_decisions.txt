@@ -1,41 +1,34 @@
 decisions = {
-
 	# Give the Rule of Gondor to two of your children ##
 	joint_rule_gondor = {
-		
 		is_high_prio = yes
-		
 		potential = {
+			ai = no
 			culture_group = culture_group_numenorean
 			has_landed_title = e_gondor
 			has_landed_title = e_arnor
 			num_of_children = 2
 			NOT = { has_character_flag = joint_rule_gondor }
 		}
-		
 		allow = {
 			prestige = 1000
 			wealth = 1000
 			piety = 1000
 		}
-		
 		effect = {
-			ROOT = { character_event = { id = rulegondor.0 } }
+			ROOT = {
+				character_event = { id = rulegondor.0 }
+			}
 			prestige = -1000
 			wealth = -1000
 			piety = -1000
-			set_character_flag = joint_rule_gondor 
-		}
-		
-		ai_will_do = {
-			factor = 2
+			set_character_flag = joint_rule_gondor
 		}
 	}
-
-
-    council_gondor = {
-	    potential = {	
-		    OR = {
+	council_gondor = {
+		potential = {
+			ai = no
+			OR = {
 				has_landed_title = e_gondor
 				has_landed_title = e_steward_gondor
 			}
@@ -44,15 +37,15 @@ decisions = {
 			religion = religion_dunedain
 			NOT = { has_character_flag = councilgondor }
 		}
-	
 		allow = {
 			prestige = 500
 			piety = 500
 		}
-	
 		effect = {
-			ROOT = { narrative_event = { id = councilgondor.0 } }
-			set_character_flag = councilgondor	
+			ROOT = {
+				narrative_event = { id = councilgondor.0 }
+			}
+			set_character_flag = councilgondor
 		}
 	}
 }

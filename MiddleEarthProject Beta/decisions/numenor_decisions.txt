@@ -1,20 +1,20 @@
 decisions = {
 	search_for_numenor = {
 		is_high_prio = yes
-		
 		potential = {
+			ai = no
 			age = 16
 			prisoner = no
 			NOT = { trait = incapable }
 			NOT = { has_global_flag = meneltarma_found }
-			NOT = { has_character_flag = search_for_numenor }			
+			NOT = { has_character_flag = search_for_numenor }
 			OR = {
 				has_landed_title = e_steward_gondor
 				has_landed_title = e_gondor
 				has_landed_title = e_arnor
-				has_landed_title = k_arthedain					
+				has_landed_title = k_arthedain
 			}
-			religion = religion_dunedain		
+			religion = religion_dunedain
 		}
 		allow = {
 			prestige = 1000
@@ -33,9 +33,5 @@ decisions = {
 			set_character_flag = search_for_numenor
 			narrative_event = { id = numenor.0 }
 		}
-		ai_will_do = {
-			factor = 0.0001
-		}
 	}
-
 }

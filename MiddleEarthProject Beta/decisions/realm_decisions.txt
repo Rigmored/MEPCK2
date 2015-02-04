@@ -1,8 +1,8 @@
 decisions = {
-
-demand_liege_title = {
+	demand_liege_title = {
 		is_high_prio = yes
 		potential = {
+			ai = no
 			NOT = { has_character_flag = requested_de_jure_title }
 			liege = {
 				NOT = { character = ROOT }
@@ -31,16 +31,20 @@ demand_liege_title = {
 		}
 		effect = {
 			set_character_flag = requested_de_jure_title
-			liege = { letter_event = { id = 63041 days = 4 tooltip = "EVTTOOLTIP63041" } } # "vassal_request_events.txt"
-		}
-		ai_will_do = {
-			factor = 0 # The AI is limited to the similar event 63040
+			liege = {
+				letter_event = {
+					id = 63041
+					days = 4
+					tooltip = "EVTTOOLTIP63041"
+				}
+			}
+			# "vassal_request_events.txt"
 		}
 	}
-	
 	petition_doge_for_tp = {
 		is_high_prio = yes
 		potential = {
+			ai = no
 			is_merchant_republic = no
 			is_patrician = yes
 			liege = { is_merchant_republic = yes }
@@ -77,17 +81,18 @@ demand_liege_title = {
 		effect = {
 			set_character_flag = petition_doge_for_tp_taken
 			liege = {
-				letter_event = { id = REP.500 days = 5 tooltip = EVTTOOLTIP_REP_500 }
+				letter_event = {
+					id = REP.500
+					days = 5
+					tooltip = EVTTOOLTIP_REP_500
+				}
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
 	}
-	
 	usurp_tp = {
 		is_high_prio = yes
 		potential = {
+			ai = no
 			is_merchant_republic = yes
 			is_patrician = yes
 			NOT = { has_character_flag = usurp_tp_taken }
@@ -108,9 +113,7 @@ demand_liege_title = {
 				}
 			}
 		}
-		allow = {
-			is_merchant_republic = yes
-		}
+		allow = { is_merchant_republic = yes }
 		effect = {
 			set_character_flag = usurp_tp_taken
 			if = {
@@ -133,7 +136,11 @@ demand_liege_title = {
 						}
 					}
 					set_character_flag = target_patrician_doge
-					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
+					letter_event = {
+						id = REP.510
+						days = 5
+						tooltip = EVTTOOLTIP_REP_510
+					}
 				}
 			}
 			if = {
@@ -150,12 +157,13 @@ demand_liege_title = {
 						num_of_trade_posts = 10
 					}
 					set_character_flag = target_patrician_doge
-					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
+					letter_event = {
+						id = REP.510
+						days = 5
+						tooltip = EVTTOOLTIP_REP_510
+					}
 				}
 			}
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 }

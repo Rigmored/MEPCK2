@@ -2,17 +2,15 @@
 # 6NGB note: the node below makes the validator crash. I changed it to targetted_decisions cuz it has the same FROM as described above. Hopefully these decisions will work.
 # dynasty_decisions = {
 targetted_decisions = {
-
 	legitimize_bastard = {
 		ai_target_filter = court
 		filter = court
-
 		from_potential = {
 			is_playable = yes
 			has_character_flag = family_decisions_open
 		}
-		
 		potential = {
+			ai = no
 			trait = bastard
 			is_child_of = FROM
 			is_liege_or_above = FROM
@@ -33,7 +31,6 @@ targetted_decisions = {
 				}
 				imprison = no
 			}
-			
 			mother = {
 				opinion = {
 					who = FROM
@@ -46,9 +43,7 @@ targetted_decisions = {
 					if = {
 						limit = {
 							NOT = {
-								any_child = {
-									character = ROOT
-								}	
+								any_child = { character = ROOT }
 							}
 						}
 						opinion = {
@@ -72,21 +67,10 @@ targetted_decisions = {
 				}
 			}
 		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
-     
-	
 	send_child_into_hiding = {
-
 		ai_target_filter = dynasty
 		filter = dynasty
-		
 		from_potential = {
 			is_ruler = yes
 			has_regent = no
@@ -101,8 +85,8 @@ targetted_decisions = {
 			}
 			has_character_flag = family_decisions_open
 		}
-		
 		potential = {
+			ai = no
 			is_ruler = no
 			liege = { character = FROM }
 			NOT = { is_plot_target_of = FROM }
@@ -121,7 +105,6 @@ targetted_decisions = {
 			NOT = { has_character_modifier = went_out_of_hiding_timer }
 			NOT = { has_character_flag = do_not_disturb }
 		}
-		
 		allow = {
 			in_command = no
 			prisoner = no
@@ -170,62 +153,17 @@ targetted_decisions = {
 				}
 			}
 		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.1
-			}
-			modifier = {
-				factor = 0.5
-				NOT = { 
-					FROM = { 
-						trait = in_hiding 
-					} 
-				}
-			}
-			modifier = {
-				factor = 0.5
-				NOT = {
-					reverse_opinion = {
-						who = FROM
-						value = -24
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				reverse_opinion = {
-					who = FROM
-					value = 25
-				}
-			}
-			modifier = {
-				factor = 5
-				FROM = { trait = in_hiding }
-			}
-			modifier = {
-				factor = 10
-				FROM = { trait = paranoid }
-			}					
-		}
 	}
-	
 	take_child_out_of_hiding = {
-
 		ai_target_filter = dynasty
 		filter = dynasty
-		
 		from_potential = {
 			is_ruler = yes
 			has_regent = no
 			has_character_flag = family_decisions_open
 		}
-		
 		potential = {
+			ai = no
 			trait = in_hiding
 			is_ruler = no
 			liege = { character = FROM }
@@ -235,10 +173,7 @@ targetted_decisions = {
 			}
 			prisoner = no
 		}
-		
-		allow = {
-			trait = in_hiding
-		}
+		allow = { trait = in_hiding }
 		effect = {
 			custom_tooltip = { text = come_out_of_hiding_info_tooltip }
 			remove_trait = in_hiding
@@ -249,34 +184,5 @@ targetted_decisions = {
 				hidden = yes
 			}
 		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.1
-				FROM = { trait = paranoid }
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					has_character_modifier = suspected_murder_plot
-					FROM = {
-						any_known_plotter = {
-							target = PREV
-							OR = {
-								has_plot = plot_kill_character
-								has_plot = plot_kill_spouse
-							}
-						}
-					}
-				}
-			}		
-		}
 	}
 }
-	
-
-

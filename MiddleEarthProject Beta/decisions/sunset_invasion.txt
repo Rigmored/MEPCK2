@@ -1,2 +1,1 @@
-vassal_decisions = {
-}
+vassal_decisions = {}

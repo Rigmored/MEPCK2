@@ -1,10 +1,8 @@
 targetted_decisions = {
 	duel_decision = {
 		is_high_prio = yes
-		
 		filter = rivals
 		ai_target_filter = rivals
-		
 		from_potential = {
 			is_adult = yes
 			prisoner = no
@@ -21,8 +19,8 @@ targetted_decisions = {
 			}
 			NOT = { has_character_modifier = diplo_fight }
 		}
-		
 		potential = {
+			ai = no
 			is_adult = yes
 			prisoner = no
 			NOT = { character = FROM }
@@ -33,23 +31,14 @@ targetted_decisions = {
 			}
 			NOT = { trait = incapable }
 		}
-		
 		allow = {
 			is_within_diplo_range = ROOT
-			FROM = {
-				is_foe = ROOT
-			}
+			FROM = { is_foe = ROOT }
 		}
-		
 		effect = {
-			FROM = { character_event = { id = duel_diplo.1000 } }
-		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0.01
+			FROM = {
+				character_event = { id = duel_diplo.1000 }
+			}
 		}
 	}
 }

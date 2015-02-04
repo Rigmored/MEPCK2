@@ -1,21 +1,23 @@
 #dynasty_decisions = {
 decisions = {
-
 	give_palantir_ithil_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = palantir_ithil
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = palantir_ithil }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = palantir_ithil }
 			add_trait = palantir_ithil
@@ -31,55 +33,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-	
 	give_palantir_sul_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = palantir_sul
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = palantir_sul }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = palantir_sul }
 			add_trait = palantir_sul
@@ -95,55 +77,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
-				}									
+				}
 			}
 		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}	
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
-			}
-		}
-	}	
-	
+	}
 	give_palantir_elostirion_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = palantir_elostirion
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = palantir_elostirion }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = palantir_elostirion }
 			add_trait = palantir_elostirion
@@ -159,55 +121,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_palantir_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = palantir
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = palantir }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = palantir }
 			add_trait = palantir
@@ -223,55 +165,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}			
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_palantir_orthanc_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = palantir_orthanc
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = palantir_orthanc }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = palantir_orthanc }
 			add_trait = palantir_orthanc
@@ -287,55 +209,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_palantir_osgiliath_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = palantir_osgiliath
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = palantir_osgiliath }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = palantir_osgiliath }
 			add_trait = palantir_osgiliath
@@ -351,55 +253,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_palantir_annuminas_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = palantir_annuminas
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = palantir_annuminas }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = palantir_annuminas }
 			add_trait = palantir_annuminas
@@ -415,55 +297,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_palantir_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_horngondor_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = horngondor
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = horngondor }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = horngondor }
 			add_trait = horngondor
@@ -479,55 +341,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-	
 	give_anduril_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = anduril
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = anduril }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = anduril }
 			add_trait = anduril
@@ -543,55 +385,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
+				}
 			}
 		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
-			}
-		}
-	}	
-	
+	}
 	give_herugrim_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = herugrim
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = herugrim }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = herugrim }
 			add_trait = herugrim
@@ -607,55 +429,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_gutwhine_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = gutwhine
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = gutwhine }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = gutwhine }
 			add_trait = gutwhine
@@ -671,55 +473,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}			
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_orcrist_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = orcrist
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = orcrist }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = orcrist }
 			add_trait = orcrist
@@ -735,55 +517,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_sting_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = sting
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = sting }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = sting }
 			add_trait = sting
@@ -799,55 +561,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}	
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_glamdring_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = glamdring
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = glamdring }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = glamdring }
 			add_trait = glamdring
@@ -863,55 +605,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_elessar_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = elessar
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = elessar }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = elessar }
 			add_trait = elessar
@@ -927,55 +649,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}	
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_mithril_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = mithril
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = mithril }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = mithril }
 			add_trait = mithril
@@ -991,55 +693,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_barahir_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = barahir
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = barahir }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = barahir }
 			add_trait = barahir
@@ -1055,55 +737,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}		
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_narsil_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = narsil
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = narsil }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = narsil }
 			add_trait = narsil
@@ -1119,55 +781,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
+				}
 			}
 		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}			
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
-			}
-		}
-	}	
-	
+	}
 	give_dwarf_ring_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = dwarf_ring
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = dwarf_ring }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = dwarf_ring }
 			add_trait = dwarf_ring
@@ -1183,55 +825,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
-			}
-		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}			
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
+				}
 			}
 		}
 	}
-
 	give_durin_ring_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = durin_ring
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = durin_ring }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = durin_ring }
 			add_trait = durin_ring
@@ -1247,55 +869,35 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
+				}
 			}
 		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}			
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
-			}
-		}
-	}	
-	
+	}
 	give_lesser_ring_to_son = {
 		from_potential = {
 			is_ruler = yes
 			trait = lesser_ring
 		}
 		potential = {
+			ai = no
 			is_child_of = ROOT
-			age = 16	
+			age = 16
 			NOT = { trait = lesser_ring }
 			has_character_flag = family_decisions_open
 		}
 		allow = {
 			ROOT = { war = no }
-			ROOT = { NOT = { trait = incapable } }
-		}			
+			ROOT = {
+				NOT = { trait = incapable }
+			}
+		}
 		effect = {
 			ROOT = { remove_trait = lesser_ring }
 			add_trait = lesser_ring
@@ -1311,37 +913,15 @@ decisions = {
 						AND = {
 							martial = 10
 							is_female = no
-						}	
+						}
 					}
 				}
 				opinion = {
 					who = ROOT
 					modifier = opinion_didnt_give_object_to_me
 					months = 36
-				}									
+				}
 			}
 		}
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 0.001 # Slow it down a bit
-			}
-			modifier = {
-				factor = 1.5
-				is_primary_heir = yes
-			}
-			modifier = {
-				factor = 0
-				is_landed = no ## Not going to give it to unlanded children
-			}			
-			modifier = {
-				factor = 0.2
-				is_female = yes
-			}
-			modifier = {
-				factor = 0.2
-				trait = bastard
-			}
-		}
-	}	
+	}
 }
