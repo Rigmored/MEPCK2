@@ -131,23 +131,39 @@ holder = 5272 # Mitrofan I
 {
 holder = 5273 # Volodar VII
 }
+10323.1.1=
+{
+holder = 1826 # Marwen
+}
 10345.1.1=
 {
-liege= e_barad_dur
+holder = 1820 # Talion
+}
+10348.1.1=
+{
+holder = 1827 # Lithariel
+}
+10352.1.1=
+{
+holder = 1828 # Tirion
+}
+10384.1.1=
+{
+liege=e_barad_dur
 }
 10384.1.1=
 {
 holder = 5274 # Briachis
 }
-10452.1.1=
+10419.1.1=
 {
 holder = 5275 # Sudis II
 }
-10508.1.1=
+10440.1.1=
 {
 holder = 5276 # Mitrofan II
 }
-10568.1.1=
+10468.1.1=
 {
 holder = 5277 # Ingvar II
 }

@@ -912,15 +912,22 @@
 	add_trait = envious
 	add_trait = gluttonous
 	add_trait = proud
+	add_trait=deceitful
+	add_trait=craven
+	add_trait=flamboyant_schemer
+	add_trait=arbitrary
+	add_trait=cynical
+	add_trait=paranoid
+	add_trait=selfish
 	11223.1.1 ={
 		birth="11223.1.1"
 	}
-	11284.1.1={
-		death="11284.1.1"
+	11285.1.1={
+		death="11285.1.1"
 	}
 }
 19048 = {
-	name="Gustavus" ## 9th Master, 11284 - 11305
+	name="Percy" ## 9th Master, 11284 - 11305 (Changed to a character in the Hobbit films)
 	dynasty = 932
 	culture=culture_barding
 	religion=religion_rhovanion
@@ -939,8 +946,11 @@
 	culture=culture_barding
 	religion=religion_rhovanion
 	father=19048
-	11275.1.1 ={
-		birth="11275.1.1"
+	11270.1.1 ={
+		birth="11270.1.1"
+	}
+	11290.1.1 ={
+		add_spouse=9272
 	}
 	11338.1.1={
 		death="11338.1.1"
@@ -952,6 +962,7 @@
 	culture=culture_barding
 	religion=religion_rhovanion
 	father=19049
+	mother=9272
 	11295.1.1 ={
 		birth="11295.1.1"
 	}

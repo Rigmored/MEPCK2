@@ -1,13 +1,9 @@
 4992.1.1=
 {
-liege="d_mirkwood"
+liege="d_north_mirkwood"
 holder =  3102 # Oropher
 }
 8336.1.1=
-{
-holder =  3104 # Thranduil
-}
-10250.1.1=
 {
 holder =  3404 # Camthalion
 }

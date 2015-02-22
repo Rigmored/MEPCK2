@@ -111,9 +111,9 @@ holder = 19046 ## Amandus
 {
 holder = 19047 ## Volhard the Master
 }
-11284.1.1=
+11285.1.1=
 {
-holder = 19048 ## Gustavus
+holder = 19048 ## Percy
 liege=d_esgaroth
 }
 11305.1.1=

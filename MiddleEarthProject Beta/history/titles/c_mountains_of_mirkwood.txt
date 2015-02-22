@@ -4,17 +4,13 @@
 	law = centralization_3
 	law = investiture_law_1
 liege="d_emyn_lasgalen"
-holder =  3102 # Oropher
+holder =  3406 # Huinen
 }
-8336.1.1=
+9500.1.1=
 {
 holder =  3104 # Thranduil
 }
-9600.1.1=
+11284.11.10=
 {
-holder =  3106 # Legolas
-}
-10000.1.1=
-{
-holder =  3406 # Huinen
+holder =  3403 # Tauriel
 }

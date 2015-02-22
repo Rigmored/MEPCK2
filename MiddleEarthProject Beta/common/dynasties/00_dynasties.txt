@@ -526,6 +526,14 @@
                   name="Pen-Arduin"
                   culture = culture_gondorian
 }
+183 = { 
+                  name="Talionath"
+                  culture = culture_gondorian_middlemen
+}
+184 = { 
+                  name="Hirgonionath"
+                  culture = culture_gondorian
+}
 
 #Arnorian
 
@@ -2921,8 +2929,16 @@
                   culture = culture_northmen
 }
 932 = { 
-                  name="Gustavusson"
-                  culture = culture_northmen
+                  name="Percysson"
+                  culture = culture_barding
+}	
+933 = { 
+                  name="Corwinsson"
+                  culture = culture_barding
+}	
+934 = { 
+                  name="Lickspittle"
+                  culture = culture_barding
 }	
   
 #Other

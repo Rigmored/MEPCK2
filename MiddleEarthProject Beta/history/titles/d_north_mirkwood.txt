@@ -1,6 +1,5 @@
 4992.1.1=
 {
-liege="d_north_mirkwood"
+liege="k_mirkwood"
 holder =  3177 # Gelluír
 }
-

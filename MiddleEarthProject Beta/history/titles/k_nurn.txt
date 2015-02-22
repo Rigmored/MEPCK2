@@ -138,6 +138,22 @@ holder = 5272 # Mitrofan I
 {
 holder = 5273 # Volodar VII
 }
+10323.1.1=
+{
+holder = 1826 # Marwen
+}
+10345.1.1=
+{
+holder = 1820 # Talion
+}
+10348.1.1=
+{
+holder = 1827 # Lithariel
+}
+10352.1.1=
+{
+holder = 1828 # Tirion
+}
 10384.1.1=
 {
 holder=0

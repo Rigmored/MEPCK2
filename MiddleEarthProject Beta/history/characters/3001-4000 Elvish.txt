@@ -6027,6 +6027,9 @@
 		remove_trait=sailed_west
 		add_trait=light_valinor
 	}
+	4765.1.1 = {
+		add_spouse=3409
+	}
 	6599.1.1 = {
 		death="6599.1.1"
 	} #Slain in the War of the Elves and Sauron
@@ -7097,6 +7100,7 @@
 #TAURIEL FROM THE HOBBIT MOVIE
 3403 = {
 	name="Tauriel"
+	dynasty=3014
 	female=yes
 	religion="religion_moriquendi"
 	culture="culture_silvan"
@@ -7105,8 +7109,9 @@
 	add_trait=agile
 	add_trait=proud
 	add_trait=skilled_tactician
-	
-	8510.6.5 = {
+	father=3406
+	mother=3407
+	9497.6.5 = {
 		birth=yes
 	}
 	9500.1.1 = {
@@ -7115,27 +7120,34 @@
 		effect= {
 		add_friend = 3106
 		add_rival = 3104
+		}
 	}
+	11284.10.1={
+		effect={
+			add_friend=4049 #Kili
+		} #Becomes friends with Kili
 	}
+	11284.11.10 = { employer = 3403 } #Thranduil gives her the keys to Ceber Fanuin, where she can grieve the death of Kili
 	11480.1.1 = {
 		add_trait=sailed_west
 		employer = 10001
-	}	
+	}
 }
 
 #MERP Elf, Guardian of Athrad Laegrim
 3404 = {
 	name="Camthalion"
-	dynasty=3061
+	dynasty=3021
 	religion="religion_moriquendi"
-	culture="culture_avari"
+	culture="culture_silvan"
 	add_trait=elf
 	add_trait=trained_elf
 	add_trait=agile
 	add_trait=intricate_webweaver
 	add_trait=quick
-	father=3311
-	9256.1.5 = {
+	father=3168
+	mother=3166
+	6500.1.1 = {
 		birth=yes
 	}
 }
@@ -7143,25 +7155,24 @@
 #Merp Elf, Guardian of Celebannon
 3405 = {
 	name="Ohtar"
-	dynasty=3004
+	dynasty=3034
 	religion="religion_moriquendi"
-	culture="culture_silvan"
+	culture="culture_sindar"
 	add_trait=elf
 	add_trait=fair
 	add_trait=trained_elf
 	add_trait=skilled_tactician
 	add_trait=duelist
-	father=3154
-	mother=3169
-	8258.1.1 = {
+	father=3081
+	mother=3084
+	3348.1.1 = {
 		birth=yes
 	}
 }
 #Merp Elf, Guardian of Emin Duir
 3406 = {
 	name="Huinen"
-	female=yes
-	dynasty=3059
+	dynasty=3014
 	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf	
@@ -7169,8 +7180,91 @@
 	add_trait=elusive_shadow
 	add_trait=genius
 	add_trait=deceitful
-	father=3306
-	9597.1.1 = {
+	add_trait=sailed_west
+	father=3068
+	mother=3087
+	2250.1.1 = {
+		birth="2250.1.1"
+	}
+	4312.1.1 = {
+		remove_trait=sailed_west
+		add_trait=light_valinor
+	}
+	9495.1.1 = { add_spouse = 3407 } #The Necromancer sends Anoril to discover secrets from Huinen, but she falls in love with him instead
+	9500.1.1 = { death = yes } #Killed by the Necromancer along with his wife
+}
+3407 = {
+	name="Anoril"
+	female=yes
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf	
+	add_trait=fair
+	add_trait=elusive_shadow
+	add_trait=genius
+	add_trait=deceitful
+	8350.1.1 = {
+		birth="8350.1.1"
+	}
+	9500.1.1 = { death = yes } #Possessed by the Necromancer to kill Huinen, but manages to overcome his possession, and both are killed by his Orcs
+}
+3408 = {
+	name="Narmirë"
+	female=yes
+	dynasty=3021
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	add_trait=fair
+	add_trait=agile
+	add_trait=fashionable
+	father=3404
+	9800.1.1 = {
 		birth=yes
 	}
+}
+
+#Family of Celebrimbor
+
+3409 = {
+	name="Astariel"
+	female=yes
+	dynasty=3004
+	religion="religion_moriquendi"
+	culture="culture_noldor"
+	add_trait=elf
+	add_trait=fair
+	add_trait=fashionable
+	add_trait=sailed_west
+	father=3151
+	mother=3152
+	3690.1.1 = {
+		birth="3690.1.1"
+	}
+	4312.1.1 = {
+		name="Astoriel"
+		remove_trait=sailed_west
+		add_trait=light_valinor
+	}
+	6599.1.1 = {
+		death="6599.1.1"
+	} #Slain in the War of the Elves and Sauron
+}
+
+3410 = {
+	name="Istiel"
+	dynasty=3007
+	religion="religion_moriquendi"
+	culture="culture_noldor"
+	add_trait=elf
+	add_trait=fair
+	add_trait=fashionable
+	father=3248
+	mother=3409
+	4780.1.1 = {
+		birth="4780.1.1"
+	}
+	6599.1.1 = {
+		death="6599.1.1"
+	} #Slain in the War of the Elves and Sauron
 }

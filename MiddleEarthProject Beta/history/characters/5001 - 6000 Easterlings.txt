@@ -3567,11 +3567,14 @@
 	religion="religion_nurning"
 	culture="culture_nurnim"
 	father=5272
-	10285.1.1={
-		birth="10285.1.1"
+	10280.1.1={
+		birth="10280.1.1"
 	}
-	10384.1.1={
-		death="10384.1.1"
+	10303.1.1={
+		add_spouse=1826
+	}
+	10323.1.1={
+		death="10323.1.1"
 	}	
 }
 5274 = {
@@ -3579,12 +3582,16 @@
 	dynasty=5028
 	religion="religion_nurning"
 	culture="culture_nurnim"
+	add_trait=child_of_consort
 	father=5273
-	10349.1.1={
-		birth="10349.1.1"
+	10322.1.1={
+		birth="10322.1.1"
 	}
-	10452.1.1={
-		death="10452.1.1"
+	10341 .1.1={
+		add_spouse=1829
+	}
+	10419.1.1={
+		death="10419.1.1"
 	}	
 }
 5275 = {
@@ -3593,11 +3600,15 @@
 	religion="religion_nurning"
 	culture="culture_nurnim"
 	father=5274
-	10411.1.1={
-		birth="10411.1.1"
+	mother=1829
+	10343.1.1={
+		birth="10343.1.1"
 	}
-	10508.1.1={
-		death="10508.1.1"
+	10365.1.1={
+		add_spouse=1830
+	}
+	10440.1.1={
+		death="10440.1.1"
 	}	
 }
 5276 = {
@@ -3606,11 +3617,12 @@
 	religion="religion_nurning"
 	culture="culture_nurnim"
 	father=5275
-	10470.1.1={
-		birth="10470.1.1"
+	mother=1830
+	10370.1.1={
+		birth="10370.1.1"
 	}
-	10568.1.1={
-		death="10568.1.1"
+	10468.1.1={
+		death="10468.1.1"
 	}	
 }
 5277 = {
@@ -3619,8 +3631,8 @@
 	religion="religion_nurning"
 	culture="culture_nurnim"
 	father=5276
-	10532.1.1={
-		birth="10532.1.1"
+	10467.1.1={
+		birth="10467.1.1"
 	}
 	10628.1.1={
 		death="10628.1.1"
