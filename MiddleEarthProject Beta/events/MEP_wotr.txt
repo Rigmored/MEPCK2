@@ -124,6 +124,10 @@ character_event = {
     title = "EVTTITwarofthering.92"
     desc = "EVTDESCwarofthering.92"
     picture = "GFX_shadows_coming"
+	trigger = {
+		year = 11363
+		NOT = { year = 11365 }
+        }
 	
 	mean_time_to_happen = {
 		days = 7
@@ -366,6 +370,11 @@ character_event = {
 	desc = "EVTDESCwarofthering.94"
 	picture = "GFX_good"
 	only_playable = yes
+    
+	trigger = {
+		year = 11363
+		NOT = { year = 11365 }
+        }
 	
 	mean_time_to_happen = {
 		months = 1
