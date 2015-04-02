@@ -18,11 +18,13 @@ bookmark = {
 	date = 9651.1.1
 	
 	character = 2013 # King Marvegil of Arthedain
-	character = 2089 # King Minalcar of Cardolan
-	character = 2097 # King Forodacil of Rudhaur
 	character = 1668 # King Romendacil II of Gondor	
 	character = 12223 # The Witch-King of Angmar
 	character = 9010 # King Fulkahari of Rhovanion
+	character = 4097 # King Dor of Durin's Folk - Khazad-Dum
+	character = 3104 # King Oropher of Mirkwood
+	character = 2089 # King Minalcar of Cardolan
+	character = 2097 # King Forodacil of Rudhaur
 }
 
 bookmark = {
