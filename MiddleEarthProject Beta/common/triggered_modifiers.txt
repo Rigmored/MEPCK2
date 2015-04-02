@@ -20,3 +20,23 @@ negative_money = {
 	
 	active = no
 }
+
+#Gold for Orc Armies
+orc_army = {
+	potential = {
+		is_ruler = yes
+		war = yes
+		OR = {
+			culture_group = culture_group_melkor
+			AND = {
+				culture_group = culture_group_melkor
+				trait = evil_side
+			}
+		}
+		NOT = { wealth = 500 }
+	}	
+	trigger = {
+		always = yes
+	}
+	global_tax_modifier = 20
+}
