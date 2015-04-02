@@ -820,6 +820,7 @@ d_sakalai_peoples = {
 	mercenary_type = sakalai_mercenaries
 }
 
+
 d_eredrim_peoples = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
@@ -949,6 +950,28 @@ d_umlir_tribes = {
 
 
 #HARAD MERCENARIES
+
+
+d_black_serpent = {
+	color = { 102 90 90 }
+	color2 = {  0 0 0 }
+    capital = 533 # Khôrsaj
+	mercenary = yes
+	title = "Head"
+	foa = "myhead"
+	culture = culture_haradrim
+	religion = religion_southron
+	landless = yes
+	primary = yes
+	independent = yes
+	allow = {
+		AND = {
+			any_realm_title = { title = e_harad }
+			culture_group = culture_group_southron
+		}
+	}
+	mercenary_type = black_serpent_mercenaries
+}
 
 d_eraguk_tribes = {
 	color = { 102 90 90 }

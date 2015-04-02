@@ -8672,3 +8672,32 @@
 		death="9711.1.1"
 	} 
 }
+
+
+### Commandant of the Legion of the Black Serpent ###
+
+6644 = {
+	name="Mazwar" ## Brother of the King of Haruzan
+	dynasty=6019
+
+	religion="religion_southron"
+	culture="culture_haradrim"
+
+	father=6193
+
+	add_trait = mumakil_commander
+	add_trait = strong
+	add_trait = tall
+	add_trait = brave
+	add_trait = cruel
+
+	11331.1.1={
+		birth="11331.1.1"
+	}
+	11360.1.1={
+		give_nickname = nick_black_serpent
+	}
+	11363.1.1={
+		death="11363.1.1"
+	} 
+}

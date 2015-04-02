@@ -1366,3 +1366,14 @@ nick_erebor_founder = {
 		trait = erebor_founder
 	}
 }
+
+
+### Founder of Erebor ###
+nick_black_serpent = {
+	allow = {
+		has_landed_title = d_black_serpent
+	}
+	chance = {
+		factor = 100
+	}	
+}

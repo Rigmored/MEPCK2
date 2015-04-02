@@ -979,3 +979,34 @@ master_fighter = {
 	}
 cached = yes		
 }
+
+
+
+
+##### The Black Serpent #####
+
+black_serpent = {
+	leader = yes
+
+	martial = 4
+	combat_rating = 3
+	
+	monthly_character_prestige = 1.7
+	monthly_character_piety = 0.1
+	sex_appeal_opinion = 10	
+	
+	cannot_inherit = yes
+	
+	liege_opinion = 60
+	
+	potential = {
+		culture = culture_haradrim
+	}
+	command_modifier = {	
+		knights = 0.4
+		light_cavalry = 0.2
+		war_elephants  = 0.1
+	}
+	
+	cached = yes		
+}

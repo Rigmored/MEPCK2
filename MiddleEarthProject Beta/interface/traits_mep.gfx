@@ -1735,4 +1735,11 @@ spriteType = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_black_serpent"
+		texturefile = "gfx/traits/black_serpent.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
 }

@@ -117,8 +117,8 @@ k_forochel;Forochel;Forochel;;;Forochel;;;;;;;;;x
 k_forochel;Forochelrim;Forochelrim;;;Forochelrim;;;;;;;;;x
 k_angmarim_hillmen;Hill-men of Angmar;Hommes des Collines d'Angmar;;;Angmarim delle Colline;;;;;;;;;x
 k_angmarim_hillmen_adj;Angmarim;Angmarim;;;Angmarim;;;;;;;;;x
-k_dunland;Emyn Hithui;Emyn Hithui;;;Emyn Hithui;;x
-k_dunland_adj;Emyn Hithuirim;Emyn Hithuirim;;;Emyn Hithuirim;;x
+k_dunland;Emyn Hithui;Emyn Hithui;;;Emyn Hithui;;x;;;;;;;
+k_dunland_adj;Emyn Hithuirim;Emyn Hithuirim;;;Emyn Hithuirim;;x;;;;;;;
 k_grey_mountains;Grey Mountains;Montagnes Grises;;;Monti Grigi;;;;;;;;;x
 k_grey_mountains_adj;Grey Mountains;Montagnes Grises;;;dei Monti Grigi;;;;;;;;;x
 k_nogrod;Nogrod;Nogrod;;;Nogrod;;;;;;;;;x
@@ -167,3 +167,4 @@ k_meneltarma_desc;Meneltarmarim;Meneltarmarim;;;Meneltarmarim;;;;;;;;;x
 k_eagles;the Eagles;des Aigles;;;Le Aquile;;;;;;;;;x
 k_eagles_adj;Thoronrim;Thoronrim;;;Thoronrim;;;;;;;;;x
 k_eredrim;The Eredrim;les Eredrim;;;;;;;;;;;;x
+k_black_serpent;Legion of the Black Serpent;Légion du Serpent Noir;;;;;;;;;;;;x

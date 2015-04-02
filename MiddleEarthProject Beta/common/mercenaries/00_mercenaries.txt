@@ -210,6 +210,11 @@ waldingas_mercenaries = {
 	archers = 100
 	light_cavalry = 400
 }
+black_serpent_mercenaries = {
+	levy_size = 1
+	knights = 800
+	war_elephants = 13
+}
 ### FOR ORCS ###
 snaga_mercenaries1 = {
 	levy_size = 1

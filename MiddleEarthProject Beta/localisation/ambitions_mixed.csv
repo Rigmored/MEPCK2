@@ -1,4 +1,4 @@
-#CODE;ENGLISH;FRENCH;GERMAN;SPANISH;x
+#CODE;ENGLISH;FRENCH;GERMAN;SPANISH;x;;
 obj_become_a_rider_title;Become a Rider;Devenir un Cavalier;;;;;x
 obj_become_a_rider_desc;Your people are known for their horsemanship, but you haven't received any training in the art of riding. You can try to fill this gap.;Vous êtes membre d'un peuple de cavaliers, mais vous n'avez pas reçu une éducation vous permettant de monter à cheval. Vous devriez tenter de combler ce manque.;;;;;x
 EVTTITambitions.0;A Rider in the Fields;Un Cavalier dans les Plaines;;;;;x
@@ -77,3 +77,9 @@ EVTTITambitions.11;You're now a Trained Elf;@FIXME@ You're now a Trained Elf;;;;
 EVTDESCambitions.11;You're now a Trained Elf;@FIXME@ You're now a Trained Elf;;;;;x
 EVTOPTAambitions.11;I'll continue to train!;Je vais continuer de m'entrainer !;;;;;x
 EVTOPTBambitions.11;It's enough for me.;C'est suffisant pour moi.;;;;;x
+focus_theology_title;Genealogy;Généalogie;;;;;x
+focus_theology_desc;[This.GetTitledFirstName] seeks to know more about his origins, his ancestors, and doesn't hesitate to delve into the most ancient archives.;[This.GetTitledFirstName] cherche à en savoir plus sur ses origines, ses ancêtres, et n'hésite pas à fouiller dans les plus anciennes archives.;;;;;x
+GENEALOGY_FOCUS;Genealogy Focus;Intérêt en Généalogie;;;;;x
+is_not_wilderness;is not wilderness.;N'est pas une Terre Sauvage.;;;;;x
+EVTDESC_GENEALOGY_0;After some research in several books relating the history of your family, you discover that one of your ancestors had some elven blood in him! He's certainly a prestigious ancestor, and you can be proud of him. And with a little luck, you also have some elven blood in you.;Après de nombreuses recherches dans des archives relatant l'histoire de votre famille, vous découvrez que l'un de vos ancêtres au moins avait du sang elfique en lui! Voila certainement une chose que vous devriez faire connaitre autour de vous pour acquérir plus de prestige. Et avec un peu de chance, il se pourrait que vous possédiez aussi une part de ce sang elfique...;;;;;x
+EVTOPTA_GENEALOGY_0;I am a descendant of the Eldar!;Je suis un descendant des Eldar!;;;;;x

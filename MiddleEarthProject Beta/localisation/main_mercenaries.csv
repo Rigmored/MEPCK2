@@ -78,21 +78,24 @@ d_dryhtenas_adj;Dryhtena;;;;Dryhtena;;x
 d_eoedreas;Tribe of Eoedreas;;;;Tribù degli Eoedrea;;x
 d_eoedreas_adj;Eoedrea;;;;Eoedrea;;x
 d_padricas;Tribe of Padricas;;;;Tribù dei Padrica;;x
-d_padricas_adj;Padrica;;;;Padrica;;x
-d_waldingas;Tribe of Waldingas;;;;Tribù dei Waldinga;;x
-d_waldingas_adj;Waldinga;;;;Waldinga;;x
+d_padricas_adj;Padrica;;;;Padrica;;x;;;;;
+d_waldingas;Tribe of Waldingas;;;;Tribù dei Waldinga;;x;;;;;
+d_waldingas_adj;Waldinga;;;;Waldinga;;x;;;;;
 #FLEETS;;x;;x;;x;;x;;x;;x
-d_corsairs_of_umbar;Corsairs of Umbar;;;;Corsari di Umbar;;x
-d_corsairs_of_umbar_adj;Umbarim;;;;Umbarim;;x
-d_raiders_of_bellakar;Raiders of Bellakar;;;;Razziatori del Bellakar;;x
-d_raiders_of_bellakar_adj;Bellakarim;;;;Bellakarim;;x
-d_pirates_of_mirlond;Pirates of Mirlond;;;;Pirati del Mirlond;;x
-d_pirates_of_mirlond_adj;Mirlondrim;;;;Mirlondrim;;x
-d_pelargir_company;Pelargir Shipping Company;;;;Compagnia di Trasporto di Pelargir;;x
-d_pelargir_company_adj;Pelargirim;;;;Pelargirim;;x
-d_dol_amroth_company;Dol Amroth Shipping Company;;;;Compagnia di Trasporto di Dol Amroth;;x
-d_dol_amroth_company_adj;Amrothrim;;;;Amrothrim;;x
-d_tolfalas_company;Tolfalas Shipping Company;;;;Compagnia di Trasporto di Tolfalas;;x
-d_tolfalas_company_adj;Tolfalasrim;;;;Tolfalasrim;;x
+d_corsairs_of_umbar;Corsairs of Umbar;;;;Corsari di Umbar;;x;;;;;
+d_corsairs_of_umbar_adj;Umbarim;;;;Umbarim;;x;;;;;
+d_raiders_of_bellakar;Raiders of Bellakar;;;;Razziatori del Bellakar;;x;;;;;
+d_raiders_of_bellakar_adj;Bellakarim;;;;Bellakarim;;x;;;;;
+d_pirates_of_mirlond;Pirates of Mirlond;;;;Pirati del Mirlond;;x;;;;;
+d_pirates_of_mirlond_adj;Mirlondrim;;;;Mirlondrim;;x;;;;;
+d_pelargir_company;Pelargir Shipping Company;;;;Compagnia di Trasporto di Pelargir;;x;;;;;
+d_pelargir_company_adj;Pelargirim;;;;Pelargirim;;x;;;;;
+d_dol_amroth_company;Dol Amroth Shipping Company;;;;Compagnia di Trasporto di Dol Amroth;;x;;;;;
+d_dol_amroth_company_adj;Amrothrim;;;;Amrothrim;;x;;;;;
+d_tolfalas_company;Tolfalas Shipping Company;;;;Compagnia di Trasporto di Tolfalas;;x;;;;;
+d_tolfalas_company_adj;Tolfalasrim;;;;Tolfalasrim;;x;;;;;
 d_mithlond_company;Mithlond Shipping Company;;;;Compagnia di Trasporto di Mithlond;;x
 d_mithlond_company_adj;Mithlondrim;;;;Mithlondrim;;x
+##;x;x;x;x;x;x;x
+Head;;;;;;;x
+myhead;;;;;;;x
