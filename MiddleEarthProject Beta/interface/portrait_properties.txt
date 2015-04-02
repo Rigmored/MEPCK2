@@ -1849,13 +1849,6 @@
 				NOT = { trait = mouthofsauron }
 				culture = culture_black_numenorean
 			}
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				has_character_flag = sauron
-				trait = ring
-			}
 		}		
 		modifier = {
 			factor = 200
