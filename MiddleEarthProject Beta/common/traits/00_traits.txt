@@ -362,6 +362,13 @@ incapable = {
 	is_health = yes
 	
 	incapacitating = yes # Will need a regent
+ 	potential = {
+	    	NOT = { culture = culture_wight }
+		NOT = { culture = culture_balrog }
+		NOT = { culture = culture_dragons }
+		NOT = { culture_group = culture_group_wilderness }
+		NOT = { culture_group = culture_group_eru }
+  	}
 	
 	diplomacy = -6
 	intrigue = -6

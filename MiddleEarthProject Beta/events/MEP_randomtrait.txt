@@ -1532,3 +1532,34 @@ character_event = {
 		set_global_flag = randomtraits
 	}
 }
+
+
+## Removing incapacity for immortal characters ##
+character_event = {
+	id = randomtraits.1001
+	desc = OK
+	picture = "GFX_evt_coronation"
+	age = 16
+	
+	hide_window = yes	
+	
+	trigger = {
+		trait = incapable
+		OR = {
+			culture = culture_wight
+			culture = culture_balrog
+			culture = culture_dragons
+			culture_group = culture_group_wilderness
+			culture_group = culture_group_eru
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+		
+	option = {
+		name = "OK"
+		remove_trait = incapable
+	}
+}
