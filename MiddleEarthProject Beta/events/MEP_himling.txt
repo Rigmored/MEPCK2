@@ -1,5 +1,7 @@
 ## By Decision ##
 
+namespace = himling
+
 ##  Explore the Ruins of Himling?
 character_event = {
 	id = himling.4
@@ -11,7 +13,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAhimling.4" # Yes, i'll explore it!
-		character_event = { id = himling.5 }
+		character_event = { id = himling.5 days = 30}
 	}
 	option = {
 		name = "EVTOPTBhimling.4" # Not now
@@ -32,12 +34,12 @@ character_event = {
 		random_list = {
 			15 = {
 				FROM = {
-					character_event = { id = himling.6 } # You found something...
+					character_event = { id = himling.6 days = 15 } # You found something...
 				}
 			}
 			85 = {
 				FROM = {
-					character_event = { id = himling.10 } # You found nothing...
+					character_event = { id = himling.10 days = 30 } # You found nothing...
 				}
 			}
 		}
@@ -63,7 +65,7 @@ character_event = {
 							NOT = { has_character_flag = explorer_of_himling }
 							NOT = { himling_sword = { is_alive = yes } }
 						}
-						character_event = { id = himling.7 } # A sword of First Age!
+						character_event = { id = himling.7 days = 2 } # A sword of First Age!
 					}
 				}
 			}
@@ -74,13 +76,13 @@ character_event = {
 							NOT = { has_character_flag = explorer_of_himling }
 							NOT = { himling_armour = { is_alive = yes } }
 						}
-						character_event = { id = himling.8 } # An Armour of First Age!
+						character_event = { id = himling.8 days = 2 } # An Armour of First Age!
 					}
 				}
 			}
 			70 = {
 				FROM = {
-					character_event = { id = himling.9 } # Only old texts... So disappointing...
+					character_event = { id = himling.9 days = 2} # Only old texts... So disappointing...
 				}
 			}			
 		}

@@ -28,6 +28,9 @@ decisions = {
 			ROOT = {
 				character_event = { id = himling.4 }
 			}
+			wealth = -75
+			prestige = -100
+			piety = -50
 		}
 	}
 }
