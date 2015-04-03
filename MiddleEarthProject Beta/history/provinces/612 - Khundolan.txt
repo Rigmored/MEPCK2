@@ -15,3 +15,4 @@ b_ashvili = city
 # Misc
 culture = culture_easterling
 religion = religion_easterlings
+
