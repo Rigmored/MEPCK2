@@ -1,11 +1,7 @@
 # 674 - Farakudum
 
-
-
 # County Title
 title = c_farakudum
-
-
 
 # Settlements
 max_settlements = 4

@@ -1,11 +1,7 @@
 # 673 - Zirakzinbar
 
-
-
 # County Title
 title = c_zirakzinbar
-
-
 
 # Settlements
 max_settlements = 4

@@ -1,8 +1,6 @@
 500.1.1={
 	law = agnatic_succession
 	law = succ_primogeniture
-	law = centralization_3
-	law = investiture_law_1
 }
 9450.1.1 =
 {
@@ -10,7 +8,6 @@ holder = 11051 # Nûzu
 }
 9643.1.1={
 holder = 12223 #The Witch King
-liege = "d_carn_dum"
 }
 10318.1.1={
 holder = 0

@@ -8,11 +8,11 @@ liege=d_celanoriand
 }
 8221.1.1=
 {
-holder = 3302
+holder = 3286
 }
-9688.1.1=
+9857.1.1=
 {
-holder = 3303
+holder = 3287
 }
 9978.1.1=
 {
@@ -21,5 +21,4 @@ holder = 3304
 10987.1.1=
 {
 holder = 0 
-liege = 0
-}
+liege
