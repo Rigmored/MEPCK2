@@ -36,7 +36,16 @@ orc_army = {
 		NOT = { wealth = 500 }
 	}	
 	trigger = {
-		always = yes
+		is_ruler = yes
+		war = yes
+		OR = {
+			culture_group = culture_group_melkor
+			AND = {
+				culture_group = culture_group_melkor
+				trait = evil_side
+			}
+		}
+		NOT = { wealth = 500 }
 	}
-	global_tax_modifier = 20
+	global_tax_modifier = 10
 }
