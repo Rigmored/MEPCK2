@@ -1519,7 +1519,76 @@ ca_khazad = { ##moria for dwarves
 			FROMFROM = { title = b_gundabad_throne_hall } 
 			culture_group = culture_group_dwarves
         	}
-	}	
+	}
+	#StoneFoot
+	ca_stonefoot = { #Stonefoot#
+		desc = ca_stonefoot_desc
+		gold_cost = 510
+		build_time = 1825
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+           	province_id = 811 #Stonefoot#
+            }
+	}
+	
+	ca_stonefoot1 = { #Stonefoot#
+		desc = ca_stonefoot_desc
+		upgrades_from = ca_stonefoot
+		gold_cost = 525
+		build_time = 2055
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+		has_global_flag = building
+            	province_id = 811 #Stonefoot#
+			culture_group = culture_group_dwarves
+            }
+	}
+
+	ca_stonefoot2 = { #Stonefoot#
+		desc = ca_stonefoot_desc
+		upgrades_from = ca_stonefoot1
+		gold_cost = 605
+		build_time = 2380
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+		has_global_flag = building
+            province_id = 811 #Stonefoot#
+			culture_group = culture_group_dwarves
+            }
+	}
+
+	ca_stonefoot3 = { #Stonefoot#
+		desc = ca_stonefoot_desc
+		upgrades_from = ca_stonefoot2
+		gold_cost = 765
+		build_time = 3020
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+		has_global_flag = building
+            province_id = 811 #Stonefoot#
+			culture_group = culture_group_dwarves
+            }
+	}
 }
 
 

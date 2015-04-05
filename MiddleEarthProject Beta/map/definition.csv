@@ -1,4 +1,4 @@
-锘縫rovince;red;green;blue;x;x
+province;red;green;blue;x;x
 1;194;129;255;Pelennor;x
 2;231;221;53;Azanulbizar;x
 3;227;128;255;Amon Anwar;x
@@ -609,7 +609,7 @@
 608;109;68;14;Agasha Dag;x
 609;190;113;13;Mispar;x
 610;191;149;94;Nuruvan;x
-611;217;217;217;N没rad;x
+611;217;217;217;N鹯ad;x
 612;112;44;6;Khundolan;x
 613;189;22;22;Rhunavuld;x
 614;189;81;22;Kas Rhun;x
@@ -641,8 +641,8 @@
 640;121;95;67;Neburkha;x
 641;30;19;141;Valley of the Fellbeasts;x
 642;26;50;84;Gundabad;x
-643;18;124;15;Ikh没rirk没l;x
-644;86;147;32;Zirakd没m;x
+643;18;124;15;Ikhurirkul;x
+644;86;147;32;Zirakdum;x
 645;13;45;13;Ered Harmal;x
 646;66;106;65;Buhr Harmal;x
 647;76;132;106;Janprok;x
@@ -747,7 +747,7 @@
 745;35;43;131;W.Belegaer3;x
 746;132;138;223;S.Belegaer5;x
 747;137;148;224;S.Belegaer6;x
-748;132;143;225;S.Be貌egaer7;x
+748;132;143;225;S.Be騟gaer7;x
 749;115;129;221;S.Belegaer8;x
 750;113;147;166;Annuminas;x
 #Lakes and Inland Seas;x;x;x;x;x
@@ -816,10 +816,10 @@
 805;139;27;80;Mount Gram;x
 806;0;106;255;Gundalok;x
 807;12;255;0;Dunhith;x
-#Divided Forodwaith
-808;162;156;95;Rh没nwaith;x
+#Divided Forodwaith;x;x;x;x;x
+808;162;156;95;Rh鹡waith;x
 809;213;226;211;Upper Forodwaith;x
-810;103;95;29;Upper Rh没nwaith;x
-#Brandywine for snow
-811;137;115;15;Stonefoot1;x
-812;197;172;55;Stonefoot1;x
+810;103;95;29;Upper Rh鹡waith;x
+811;197;172;55;Stonefoot;x
+812;113;67;8;Lower Stonefoot;x
+#Brandywine for snow;x;x;x;x;x

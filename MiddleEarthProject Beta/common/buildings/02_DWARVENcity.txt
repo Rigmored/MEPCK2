@@ -1262,5 +1262,73 @@ ct_khazad = { #Moria for dwarves
 			culture_group = culture_group_dwarves
         }
 	}			
+	#Stonefoot
+	ct_stonefoot = { #Stonefoot#
+		desc = ct_stonefoot_desc
+		gold_cost = 450
+		build_time = 1600
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+           	province_id = 811 #Stonefoot#
+            }
+	}
 	
+	ct_stonefoot1 = { #Stonefoot#
+		desc = ct_stonefoot_desc
+		upgrades_from = ct_stonefoot
+		gold_cost = 460
+		build_time = 1800
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+		has_global_flag = building
+            	province_id = 811 #Stonefoot#
+			culture_group = culture_group_dwarves
+            }
+	}
+
+	ct_stonefoot2 = { #Stonefoot#
+		desc = ct_stonefoot_desc
+		upgrades_from = ct_stonefoot1
+		gold_cost = 530
+		build_time = 1920
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+		has_global_flag = building
+            	province_id = 811 #Stonefoot#
+			culture_group = culture_group_dwarves
+            }
+	}
+
+	ct_stonefoot3 = { #Stonefoot#
+		desc = ct_stonefoot_desc
+		upgrades_from = ct_stonefoot2
+		gold_cost = 670
+		build_time = 2745
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+		has_global_flag = building
+            	province_id = 811 #Stonefoot#
+			culture_group = culture_group_dwarves
+            }
+	}
 }	

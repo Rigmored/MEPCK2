@@ -91,7 +91,7 @@ ca_zirakdum;Zirakdum; Zirakdum;;;;;;;;;;;;;x
 ca_zirakdum1;Zirakdum; Zirakdum;;;;;;;;;;;;;x
 ca_zirakdum2;Zirakdum; Zirakdum;;;;;;;;;;;;;x
 ca_zirakdum3;Zirakdum; Zirakdum;;;;;;;;;;;;;x
-ca_zirakdum_desc;Although lesser than Khazad-dûm or Erebor, the great halls of the Stonefoot and Stiffbeards Dwarves are nevertheless imposing.;Bien que moins célèbres que la Moria ou Erebor, les grandes salles des nains Barbes Drues n'en sont pas moins imposantes.;;;;;;;;;;;;x
+ca_zirakdum_desc;Although lesser than Khazad-dûm or Erebor, the great halls of the Stiffbeards Dwarves are nevertheless imposing.;Bien que moins célèbres que la Moria ou Erebor, les grandes salles des nains Barbes Drues n'en sont pas moins imposantes.;;;;;;;;;;;;x
 ca_thorinsgate;Thorin's Gate;Porte de Thorin;;;;;;;;;;;;;x
 ca_thorinsgate1;Thorin's Gate;Porte de Thorin;;;;;;;;;;;;;x
 ca_thorinsgate2;Thorin's Gate;Porte de Thorin;;;;;;;;;;;;;x
@@ -160,7 +160,9 @@ ca_Dwater_system_0_desc;Without neither water nor sewer system, diseases come ea
 ca_Dwater_system_1;Basic Water System;Egouts et Acqueducs;;;;;x
 ca_Dwater_system_2;Advanced Water System;Egouts et Acqueducs Avancés;;;;;x
 ca_Dwater_system_1_desc;With some sewers and water system, the population's life is easier and its growth better.;Avec un système d'égouts et d'eau courante, la vie de la population est plus simple et de meilleure qualité.;;;;;x
-
-
-
+ca_stonefoot;Stonefoot;;;;;;;;;;;;;x
+ca_stonefoot1;Stonefoot;;;;;;;;;;;;x
+ca_stonefoot2;Stonefoot;;;;;;;;;;;;x
+ca_stonefoot3;Stonefoot;;;;;;;;;;;;x
+ca_stonefoot_desc;Although lesser than Khazad-dûm or Erebor, the great halls of the Stonefoot Dwarves are nevertheless imposing.;;;;;;;;;;;;;x
 

@@ -6556,7 +6556,7 @@ k_stonefoot = {
 	color={ 217 178 74 }
 	color2={ 125 125 142 }
 
-	capital = 812 # Stonefoot2
+	capital = 811 # Upper Stone Foot
 
 	culture = culture_stonefoot
 	religion = religion_mahal
@@ -6568,26 +6568,34 @@ k_stonefoot = {
 		
 		capital = 812 # Stonefoot2
 		
-		c_stonefoot1 = {
+		c_stonefoot = {
 			color={ 149 186 85 }
 			color2={ 255 255 255 }
 	
-			b_stonefoot11 = {
+			b_stonefoot = {
 			}		
-			b_stonefoot12 = {
+			b_loni_halls = {
 			}
-			b_stonefoot13 = {
+			b_loni_market = {
+			}
+			b_loni_tomb = {
+			}
+			b_skavar_halls = {
+			}
+			b_hersir_halls = {
 			}
 		}
-		c_stonefoot2 = {
+		c_lower_stonefoot = {
 			color={ 149 186 85 }
 			color2={ 255 255 255 }
 	
-			b_stonefoot21 = {
+			b_lower_stonefoot = {
 			}
-			b_stonefoot22 = {
+			b_thorod_halls = {
 			}
-			b_stonefoot23 = {
+			b_fengur_market = {
+			}
+			b_dalwin_halls = {
 			}
 		}
 	}

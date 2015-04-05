@@ -130,4 +130,8 @@ tp_durin_tomb_desc;The Tomb of Durin the Deathless, first King of Durin's Folk a
 ct_Dwater_system_0;No Water System;Pas d'Eau Courante;;;;;x
 ct_Dwater_system_1;Basic Water System;Egouts et Acqueducs;;;;;x
 ct_Dwater_system_2;Advanced Water System;Egouts et Acqueducs Avancés;;;;;x
-
+ct_stonefoot;Stonefoot;;;;;;;;;;;;;x
+ct_stonefoot1;Stonefoot;;;;;;;;;;;;x
+ct_stonefoot2;Stonefoot;;;;;;;;;;;;x
+ct_stonefoot3;Stonefoot;;;;;;;;;;;;x
+ct_stonefoot_desc;Although lesser than Khazad-dûm or Erebor, the great halls of the Stonefoot Dwarves are nevertheless imposing.;;;;;;;;;;;;;x
