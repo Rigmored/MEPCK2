@@ -4,6 +4,7 @@ decisions = {
 			ai = no
 			#ai cannot use dynasty decisions
 			NOT = { has_global_flag = calendar_events_disabled }
+			has_character_flag = special_decisions_open
 		}
 		effect = { set_global_flag = calendar_events_disabled }
 	}
@@ -12,6 +13,7 @@ decisions = {
 			ai = no
 			#ai cannot use dynasty decisions
 			has_global_flag = calendar_events_disabled
+			has_character_flag = special_decisions_open
 		}
 		effect = { clr_global_flag = calendar_events_disabled }
 	}

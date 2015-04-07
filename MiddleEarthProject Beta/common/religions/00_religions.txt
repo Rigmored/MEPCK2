@@ -26,26 +26,7 @@ religion_group_eruhini = {
 		female_temple_holders = yes
 		
 	}
-	
-	religion_umaiar = {
-		graphical_culture = westerngfx
 
-		icon = 3
-		color = { 0.70 0.82 0.81 }
-		
-		high_god_name = GOD_MORGOTH
-		
-		god_names = {
-			GOD_MORGOTH GOD_SAURON 
-		}
-		
-		evil_god_names = {
-			GOD_ERU
-		}
-
-		female_temple_holders = yes
-		
-	}
 }
 
 religion_group_enyd = {
@@ -650,6 +631,26 @@ religion_group_melkor = {
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0	# never try to convert
+	
+	religion_umaiar = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		color = { 0.70 0.82 0.81 }
+		
+		high_god_name = GOD_MORGOTH
+		
+		god_names = {
+			GOD_MORGOTH GOD_SAURON 
+		}
+		
+		evil_god_names = {
+			GOD_ERU
+		}
+
+		female_temple_holders = yes
+		
+	}
 	
 	religion_wight = {
 		graphical_culture = westerngfx
