@@ -4,9 +4,12 @@
 title = c_west_amrun
 
 # Settlements
-max_settlements = 1
+max_settlements = 4
 
 b_kas_amrun = castle
+#b_basnoha = city
+#b_tasrobel = city
+#b_kadar_suladan = castle
 
 # Misc
 
