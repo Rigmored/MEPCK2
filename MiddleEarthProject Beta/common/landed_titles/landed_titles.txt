@@ -6982,6 +6982,12 @@ e_harad = {
 		
 				b_kas_amrun = {
 				}
+				b_basnoha = {
+				}
+				b_tasrobel = {
+				}
+				b_kadar_suladan = {
+				}
 			}
 			c_korb_taskral = {
 				color={ 149 186 85 }
