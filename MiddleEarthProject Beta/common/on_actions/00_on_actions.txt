@@ -163,8 +163,8 @@ on_yearly_pulse = {
 		100 = 78030
 		
 		#Hobbit Party
-		10 = hobbits.5
-		5000 = hobbits.6
+		5 = hobbits.5
+		2500 = hobbits.6
 		10000 = hobbits.7
 		
 		5000 = 0 # Chance of no yearly event

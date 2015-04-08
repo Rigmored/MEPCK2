@@ -193,6 +193,13 @@ character_event = {
 	prisoner = no
 	is_triggered_only = yes
 	
+	trigger = {
+		culture_group = culture_group_halfling
+		NOT = { age = 33 }
+		is_ruler = yes
+		NOT = { has_global_flag = hobbit_party }
+	}
+	
 	option = {
 		name = "EVTOPTAhobbits.5" ## Of course i will !
 		character_event = { id = hobbits.8 }
@@ -390,25 +397,25 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAhobbits.10" ## Longbottom Leaves!
-		wealth = -50
+		wealth = -3
 		set_character_flag = greatpipeweed
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -40
+			wealth = -2
 		}			
 	}	
 	
 	option = {
 		name = "EVTOPTBhobbits.10" ## Common Leaves
-		wealth = -20
+		wealth = -2
 		set_character_flag = lowerpipeweed
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -15
+			wealth = -1
 		}			
 	}	
 	
@@ -688,7 +695,7 @@ character_event = {
 			}
 		}
 		add_friend = FROM
-		wealth = 40
+		wealth = 10
 		opinion = { modifier = hobbit_good_gift who = FROM years = 7 }
 	}	
 	
@@ -699,7 +706,7 @@ character_event = {
 				has_character_flag = smallgiftsparty
 			}
 		}
-		wealth = 20
+		wealth = 5
 		opinion = { modifier = hobbit_little_gift who = FROM years = 5 }
 	}	
 
@@ -711,7 +718,6 @@ character_event = {
 			}
 		}
 		remove_friend = FROM
-		wealth = 20
 		opinion = { modifier = hobbit_no_gift who = FROM years = 5 }
 	}		
 }
