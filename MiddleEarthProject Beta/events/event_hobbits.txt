@@ -198,6 +198,7 @@ character_event = {
 		NOT = { age = 33 }
 		is_ruler = yes
 		NOT = { has_global_flag = hobbit_party }
+		NOT = { flag = had_character_flag = party_host days = 365 }
 	}
 	
 	option = {
@@ -649,7 +650,7 @@ narrative_event = {
 					has_character_flag = family_party
 				}
 				NOT = { character = ROOT }
-				NOT = { family = ROOT }
+				NOT = { dynasty = ROOT }
 				NOT = { has_character_flag = comingtoparty }
 			}
 			set_character_flag = shire_party
@@ -663,6 +664,7 @@ narrative_event = {
 						has_character_flag = family_party
 					}
 					NOT = { character = ROOT }
+					NOT = { character = PREV }
 					NOT = { has_character_flag = comingtoparty }					
 				}
 				character_event = { id = hobbits.16 }
