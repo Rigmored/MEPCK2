@@ -11,6 +11,7 @@ send_son_black_serpent = {
 		potential = {
 			is_child_of = FROM
 			is_female = no
+			is_primary_heir = no
 			culture = culture_haradrim		
 			NOT = { trait = black_serpent }
 		}
@@ -67,6 +68,7 @@ decisions = {
 		potential = {
 			has_landed_title = e_harad
 			NOT = { has_global_flag = black_serpent_initialising }
+			NOT = { has_global_flag = legionblackserpent }
 		}
 		allow = {
 			has_landed_title = e_harad
