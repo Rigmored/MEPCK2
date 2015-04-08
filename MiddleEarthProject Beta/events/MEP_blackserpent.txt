@@ -1398,7 +1398,8 @@ character_event = {
 		if = {
 			limit = { has_global_flag = black_serpent_initialising }
 			clr_global_flag = black_serpent_initialising
-		}	
+		}
+		set_global_flag = legionblackserpent	
 		FROM = {
 			prestige = 100
 			opinion = {
@@ -1414,6 +1415,38 @@ character_event = {
 					FROM = { move_character = PREV }
 				}	
 				give_nickname = nick_black_serpent
+				create_random_soldier = {
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					martial = 10
+					trait = black_serpent
+				}
+				create_random_soldier = {
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					martial = 12
+					trait = black_serpent
+				}	
+				create_random_soldier = {
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					martial = 14
+					trait = black_serpent
+				}	
+				create_random_soldier = {
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					martial = 8
+					trait = black_serpent
+				}					
 			}
 		}
 	}
@@ -1438,7 +1471,7 @@ character_event = {
 
 
 
-#Nightswatch is open elective
+#BS is open elective
 character_event = {
 	id = blackserpent.10
 	desc = "EVTDESCblackserpent.10"
