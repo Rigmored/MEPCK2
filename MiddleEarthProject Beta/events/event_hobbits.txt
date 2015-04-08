@@ -397,25 +397,25 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAhobbits.10" ## Longbottom Leaves!
-		wealth = -3
+		wealth = -50
 		set_character_flag = greatpipeweed
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -2
+			wealth = -40
 		}			
 	}	
 	
 	option = {
 		name = "EVTOPTBhobbits.10" ## Common Leaves
-		wealth = -2
+		wealth = -20
 		set_character_flag = lowerpipeweed
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -1
+			wealth = -15
 		}			
 	}	
 	
