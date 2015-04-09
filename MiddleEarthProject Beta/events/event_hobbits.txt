@@ -684,7 +684,11 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	is_triggered_only = yes
-		
+	
+	immediate = {
+		clr_character_flag = comingtoparty
+	}
+	
 	option = {
 		name = "EVTOPTAhobbits.16" ## What a wonderful gift!
 		trigger = {
