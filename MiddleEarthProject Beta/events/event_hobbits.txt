@@ -195,7 +195,6 @@ character_event = {
 	
 	trigger = {
 		culture_group = culture_group_halfling
-		NOT = { age = 33 }
 		is_ruler = yes
 		NOT = { has_global_flag = hobbit_party }
 		NOT = { flag = had_character_flag = party_host days = 365 }
@@ -336,7 +335,7 @@ character_event = {
 		any_playable_ruler = {
 			limit = {
 				culture_group = culture_group_halfling
-				NOT = { family = ROOT }
+				NOT = { dynasty = ROOT }
 				NOT = { has_character_flag = invitation }
 			}
 			set_character_flag = shire_party
@@ -344,9 +343,11 @@ character_event = {
 			character_event = { id = hobbits.9 days = 1 }
 			any_dynasty_member = {
 				limit = {
+					NOT = { character = PREV }
 					NOT = { has_character_flag = invitation }
 				}
 				set_character_flag = shire_party
+				set_character_flag = invitation
 				character_event = { id = hobbits.9 days = 1 }
 			}
 		}		
@@ -398,25 +399,25 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAhobbits.10" ## Longbottom Leaves!
-		wealth = -50
+		wealth = -20
 		set_character_flag = greatpipeweed
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -40
+			wealth = -10
 		}			
 	}	
 	
 	option = {
 		name = "EVTOPTBhobbits.10" ## Common Leaves
-		wealth = -20
+		wealth = -10
 		set_character_flag = lowerpipeweed
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -15
+			wealth = -5
 		}			
 	}	
 	
@@ -443,36 +444,36 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAhobbits.11" ## All the food i can find!
-		wealth = -60
+		wealth = -30
 		set_character_flag = greatfood
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -40
+			wealth = -15
 		}			
 	}	
 	
 	option = {
 		name = "EVTOPTBhobbits.11" ## More beers than foods.
-		wealth = -30
+		wealth = -20
 		set_character_flag = beersforparty
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -20
+			wealth = -10
 		}			
 	}	
 	
 	option = {
 		name = "EVTOPTChobbits.11" ## More foods than beers
-		wealth = -30
+		wealth = -10
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -20
+			wealth = -5
 		}			
 		set_character_flag = foodforparty
 	}		
@@ -495,31 +496,30 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAhobbits.12" ## Musiciens and Fireworks!
-		wealth = -50
+		wealth = -20
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -40
+			wealth = -10
 		}		
 		set_character_flag = greatspectacle
 	}	
 	
 	option = {
 		name = "EVTOPTBhobbits.12" ## Musiciens only!
-		wealth = -20
+		wealth = -10
 		if = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -15
+			wealth = -5
 		}		
 		set_character_flag = musicforparty
 	}	
 	
 	option = {
 		name = "EVTOPTChobbits.12" ## Food will be enough
-		wealth = -10
 		set_character_flag = onlyfoodinparty
 	}		
 }
@@ -546,21 +546,21 @@ character_event = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -350
+			wealth = -100
 			set_character_flag = greatgiftsparty
 		}
 		if = {
 			limit = {
 				has_character_flag = owners_party
 			}
-			wealth = -300
+			wealth = -75
 			set_character_flag = greatgiftsparty
 		}
 		if = {
 			limit = {
 				has_character_flag = family_party
 			}
-			wealth = -250
+			wealth = -50
 			set_character_flag = greatgiftsparty
 		}		
 	}	
@@ -571,21 +571,21 @@ character_event = {
 			limit = {
 				has_character_flag = shire_party
 			}
-			wealth = -200
+			wealth = -75
 			set_character_flag = smallgiftsparty
 		}
 		if = {
 			limit = {
 				has_character_flag = owners_party
 			}
-			wealth = -150
+			wealth = -50
 			set_character_flag = smallgiftsparty
 		}
 		if = {
 			limit = {
 				has_character_flag = family_party
 			}
-			wealth = -100
+			wealth = -25
 			set_character_flag = smallgiftsparty
 		}	
 	}	
@@ -684,11 +684,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	is_triggered_only = yes
-	
-	immediate = {
-		clr_character_flag = comingtoparty
-	}
-	
+		
 	option = {
 		name = "EVTOPTAhobbits.16" ## What a wonderful gift!
 		trigger = {
@@ -751,7 +747,7 @@ narrative_event = {
 		}
 		prestige = 500
 		random = { chance = 25 give_nickname = nick_goodhost }	
-		any_playable_ruler = {
+		any_dynasty_member = {
 			limit = {
 				OR = {
 					has_character_flag = shire_party
@@ -760,7 +756,22 @@ narrative_event = {
 				}
 				NOT = { character = ROOT }
 			}
-			opinion = { modifier = hobbit_greatparty who = ROOT years = 10 }
+			opinion = { modifier = hobbit_greatparty who = ROOT years = 7 }
+			clr_character_flag = shire_party
+			clr_character_flag = owners_party
+			clr_character_flag = family_party
+		}
+		any_playable_ruler = {
+			limit = {
+				OR = {
+					has_character_flag = shire_party
+					has_character_flag = owners_party
+					has_character_flag = family_party
+				}
+				NOT = { character = ROOT }
+				NOT = { dynasty = ROOT }
+			}
+			opinion = { modifier = hobbit_greatparty who = ROOT years = 7 }
 			clr_character_flag = shire_party
 			clr_character_flag = owners_party
 			clr_character_flag = family_party
@@ -771,9 +782,10 @@ narrative_event = {
 						has_character_flag = owners_party
 						has_character_flag = family_party
 					}
-					NOT = { character = ROOT }				
+					NOT = { character = ROOT }	
+					NOT = { character = PREV }
 				}
-				opinion = { modifier = hobbit_greatparty who = ROOT years = 20 }
+				opinion = { modifier = hobbit_greatparty who = ROOT years = 7 }
 				clr_character_flag = shire_party
 				clr_character_flag = owners_party
 				clr_character_flag = family_party
@@ -803,7 +815,7 @@ narrative_event = {
 			}
 		}
 		prestige = 350
-		any_playable_ruler = {
+		any_dynasty_member = {
 			limit = {
 				OR = {
 					has_character_flag = shire_party
@@ -812,7 +824,22 @@ narrative_event = {
 				}
 				NOT = { character = ROOT }
 			}
-			opinion = { modifier = hobbit_greatparty who = ROOT years = 10 }
+			opinion = { modifier = hobbit_greatparty who = ROOT years = 5 }
+			clr_character_flag = shire_party
+			clr_character_flag = owners_party
+			clr_character_flag = family_party
+		}
+		any_playable_ruler = {
+			limit = {
+				OR = {
+					has_character_flag = shire_party
+					has_character_flag = owners_party
+					has_character_flag = family_party
+				}
+				NOT = { character = ROOT }
+				NOT = { dynasty = ROOT }
+			}
+			opinion = { modifier = hobbit_greatparty who = ROOT years = 5 }
 			clr_character_flag = shire_party
 			clr_character_flag = owners_party
 			clr_character_flag = family_party
@@ -823,9 +850,10 @@ narrative_event = {
 						has_character_flag = owners_party
 						has_character_flag = family_party
 					}
-					NOT = { character = ROOT }				
+					NOT = { character = ROOT }	
+					NOT = { character = PREV }
 				}
-				opinion = { modifier = hobbit_greatparty who = ROOT years = 10 }
+				opinion = { modifier = hobbit_greatparty who = ROOT years = 5 }
 				clr_character_flag = shire_party
 				clr_character_flag = owners_party
 				clr_character_flag = family_party
@@ -849,7 +877,7 @@ narrative_event = {
 			}
 		}
 		prestige = 200
-		any_playable_ruler = {
+		any_dynasty_member = {
 			limit = {
 				OR = {
 					has_character_flag = shire_party
@@ -858,7 +886,22 @@ narrative_event = {
 				}
 				NOT = { character = ROOT }
 			}
-			opinion = { modifier = hobbit_goodparty who = ROOT years = 10 }
+			opinion = { modifier = hobbit_goodparty who = ROOT years = 7 }
+			clr_character_flag = shire_party
+			clr_character_flag = owners_party
+			clr_character_flag = family_party
+		}
+		any_playable_ruler = {
+			limit = {
+				OR = {
+					has_character_flag = shire_party
+					has_character_flag = owners_party
+					has_character_flag = family_party
+				}
+				NOT = { character = ROOT }
+				NOT = { dynasty = ROOT }
+			}
+			opinion = { modifier = hobbit_goodparty who = ROOT years = 7 }
 			clr_character_flag = shire_party
 			clr_character_flag = owners_party
 			clr_character_flag = family_party
@@ -869,9 +912,10 @@ narrative_event = {
 						has_character_flag = owners_party
 						has_character_flag = family_party
 					}
-					NOT = { character = ROOT }				
+					NOT = { character = ROOT }	
+					NOT = { character = PREV }
 				}
-				opinion = { modifier = hobbit_goodparty who = ROOT years = 5 }
+				opinion = { modifier = hobbit_goodparty who = ROOT years = 7 }
 				clr_character_flag = shire_party
 				clr_character_flag = owners_party
 				clr_character_flag = family_party
@@ -895,7 +939,7 @@ narrative_event = {
 			}
 		}
 		prestige = 170
-		any_playable_ruler = {
+		any_dynasty_member = {
 			limit = {
 				OR = {
 					has_character_flag = shire_party
@@ -904,7 +948,22 @@ narrative_event = {
 				}
 				NOT = { character = ROOT }
 			}
-			opinion = { modifier = hobbit_goodparty who = ROOT years = 10 }
+			opinion = { modifier = hobbit_goodparty who = ROOT years = 5 }
+			clr_character_flag = shire_party
+			clr_character_flag = owners_party
+			clr_character_flag = family_party
+		}
+		any_playable_ruler = {
+			limit = {
+				OR = {
+					has_character_flag = shire_party
+					has_character_flag = owners_party
+					has_character_flag = family_party
+				}
+				NOT = { character = ROOT }
+				NOT = { dynasty = ROOT }
+			}
+			opinion = { modifier = hobbit_goodparty who = ROOT years = 5 }
 			clr_character_flag = shire_party
 			clr_character_flag = owners_party
 			clr_character_flag = family_party
@@ -915,7 +974,8 @@ narrative_event = {
 						has_character_flag = owners_party
 						has_character_flag = family_party
 					}
-					NOT = { character = ROOT }				
+					NOT = { character = ROOT }	
+					NOT = { character = PREV }
 				}
 				opinion = { modifier = hobbit_goodparty who = ROOT years = 5 }
 				clr_character_flag = shire_party
@@ -941,7 +1001,7 @@ narrative_event = {
 			}
 		}
 		prestige = 180
-		any_playable_ruler = {
+		any_dynasty_member = {
 			limit = {
 				OR = {
 					has_character_flag = shire_party
@@ -950,7 +1010,22 @@ narrative_event = {
 				}
 				NOT = { character = ROOT }
 			}
-			opinion = { modifier = hobbit_goodparty who = ROOT years = 10 }
+			opinion = { modifier = hobbit_goodparty who = ROOT years = 3 }
+			clr_character_flag = shire_party
+			clr_character_flag = owners_party
+			clr_character_flag = family_party
+		}
+		any_playable_ruler = {
+			limit = {
+				OR = {
+					has_character_flag = shire_party
+					has_character_flag = owners_party
+					has_character_flag = family_party
+				}
+				NOT = { character = ROOT }
+				NOT = { dynasty = ROOT }
+			}
+			opinion = { modifier = hobbit_goodparty who = ROOT years = 3 }
 			clr_character_flag = shire_party
 			clr_character_flag = owners_party
 			clr_character_flag = family_party
@@ -961,9 +1036,10 @@ narrative_event = {
 						has_character_flag = owners_party
 						has_character_flag = family_party
 					}
-					NOT = { character = ROOT }				
+					NOT = { character = ROOT }	
+					NOT = { character = PREV }
 				}
-				opinion = { modifier = hobbit_goodparty who = ROOT years = 5 }
+				opinion = { modifier = hobbit_goodparty who = ROOT years = 3 }
 				clr_character_flag = shire_party
 				clr_character_flag = owners_party
 				clr_character_flag = family_party
@@ -993,7 +1069,7 @@ narrative_event = {
 			}
 		}
 		prestige = 100
-		any_playable_ruler = {
+		any_dynasty_member = {
 			limit = {
 				OR = {
 					has_character_flag = shire_party
@@ -1002,7 +1078,22 @@ narrative_event = {
 				}
 				NOT = { character = ROOT }
 			}
-			opinion = { modifier = hobbit_goodparty who = ROOT years = 10 }
+			opinion = { modifier = hobbit_goodparty who = ROOT years = 1 }
+			clr_character_flag = shire_party
+			clr_character_flag = owners_party
+			clr_character_flag = family_party
+		}
+		any_playable_ruler = {
+			limit = {
+				OR = {
+					has_character_flag = shire_party
+					has_character_flag = owners_party
+					has_character_flag = family_party
+				}
+				NOT = { character = ROOT }
+				NOT = { dynasty = ROOT }
+			}
+			opinion = { modifier = hobbit_goodparty who = ROOT years = 1 }
 			clr_character_flag = shire_party
 			clr_character_flag = owners_party
 			clr_character_flag = family_party
@@ -1013,9 +1104,10 @@ narrative_event = {
 						has_character_flag = owners_party
 						has_character_flag = family_party
 					}
-					NOT = { character = ROOT }				
+					NOT = { character = ROOT }	
+					NOT = { character = PREV }
 				}
-				opinion = { modifier = hobbit_goodparty who = ROOT years = 5 }
+				opinion = { modifier = hobbit_goodparty who = ROOT years = 1 }
 				clr_character_flag = shire_party
 				clr_character_flag = owners_party
 				clr_character_flag = family_party
@@ -1045,7 +1137,7 @@ narrative_event = {
 			}
 		}
 		prestige = -50
-		any_playable_ruler = {
+		any_dynasty_member = {
 			limit = {
 				OR = {
 					has_character_flag = shire_party
@@ -1054,7 +1146,22 @@ narrative_event = {
 				}
 				NOT = { character = ROOT }
 			}
-			opinion = { modifier = hobbit_boringparty who = ROOT years = 15 }
+			opinion = { modifier = hobbit_boringparty who = ROOT years = 7 }
+			clr_character_flag = shire_party
+			clr_character_flag = owners_party
+			clr_character_flag = family_party
+		}
+		any_playable_ruler = {
+			limit = {
+				OR = {
+					has_character_flag = shire_party
+					has_character_flag = owners_party
+					has_character_flag = family_party
+				}
+				NOT = { character = ROOT }
+				NOT = { dynasty = ROOT }
+			}
+			opinion = { modifier = hobbit_boringparty who = ROOT years = 7 }
 			clr_character_flag = shire_party
 			clr_character_flag = owners_party
 			clr_character_flag = family_party
@@ -1065,14 +1172,15 @@ narrative_event = {
 						has_character_flag = owners_party
 						has_character_flag = family_party
 					}
-					NOT = { character = ROOT }				
+					NOT = { character = ROOT }	
+					NOT = { character = PREV }
 				}
-				opinion = { modifier = hobbit_boringparty who = ROOT years = 10 }
+				opinion = { modifier = hobbit_boringparty who = ROOT years = 7 }
 				clr_character_flag = shire_party
 				clr_character_flag = owners_party
 				clr_character_flag = family_party
 			}
-		}		
+		}	
 	}	
 	
 	option = {
@@ -1085,7 +1193,9 @@ narrative_event = {
 		prestige = -150
 		random = { chance = 25 give_nickname = nick_terriblehost }	
 		random = { chance = 80 add_trait = greedy }	
-		any_playable_ruler = {
+		
+		
+		any_dynasty_member = {
 			limit = {
 				OR = {
 					has_character_flag = shire_party
@@ -1094,7 +1204,22 @@ narrative_event = {
 				}
 				NOT = { character = ROOT }
 			}
-			opinion = { modifier = hobbit_badparty who = ROOT years = 25 }
+			opinion = { modifier = hobbit_badparty who = ROOT years = 7 }
+			clr_character_flag = shire_party
+			clr_character_flag = owners_party
+			clr_character_flag = family_party
+		}
+		any_playable_ruler = {
+			limit = {
+				OR = {
+					has_character_flag = shire_party
+					has_character_flag = owners_party
+					has_character_flag = family_party
+				}
+				NOT = { character = ROOT }
+				NOT = { dynasty = ROOT }
+			}
+			opinion = { modifier = hobbit_badparty who = ROOT years = 7 }
 			clr_character_flag = shire_party
 			clr_character_flag = owners_party
 			clr_character_flag = family_party
@@ -1105,9 +1230,10 @@ narrative_event = {
 						has_character_flag = owners_party
 						has_character_flag = family_party
 					}
-					NOT = { character = ROOT }				
+					NOT = { character = ROOT }	
+					NOT = { character = PREV }
 				}
-				opinion = { modifier = hobbit_badparty who = ROOT years = 15 }
+				opinion = { modifier = hobbit_badparty who = ROOT years = 7 }
 				clr_character_flag = shire_party
 				clr_character_flag = owners_party
 				clr_character_flag = family_party
