@@ -786,6 +786,41 @@ d_silvan_tribes = {
 
 #GONDOR MERCENARIES
 
+d_swan_knights = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 656 # Dol Amroth
+	
+	allow = {
+		OR = {
+			any_realm_title = { title = k_belfalas }
+			any_realm_title = { title = e_gondor }
+		}
+		culture = culture_gondorian
+	}	
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = swan_knights_mercenaries
+	
+	culture = culture_gondorian
+	religion = religion_dunedain
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+
 d_sakalai_peoples = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
@@ -956,9 +991,9 @@ d_black_serpent = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
     capital = 533 # Khôrsaj
-	mercenary = yes
-	title = "Head"
-	foa = "myhead"
+	holy_order = yes
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
 	culture = culture_haradrim
 	religion = religion_southron
 	landless = yes
