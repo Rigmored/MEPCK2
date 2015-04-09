@@ -40,7 +40,7 @@ EVTOPTAhobbits.8;My family only.;Ma famille seulement.;;;;;x
 EVTOPTBhobbits.8;The notable Hobbits;Les Notables;;;;;x
 EVTOPTChobbits.8;All the Hobbits!;Tous les Hobbits!;;;;;x
 EVTTIThobbits.9;A Party!;Une Fête !;;;;;x
-EVTDESChobbits.9;[From.GetFullName] invited you to a great party organized at [From.GetHerHim] home. Will you attend?;[From.GetFullName] vous invite à une grande fête organisée chez [From.GetHerHim]. Allez-vous vous joindre à [From.GetHerHim]?;;;;;x
+EVTDESChobbits.9;[From.GetFullName] invited you to a great party organized at their home. Will you attend?;[From.GetFullName] vous invite à une grande fête organisée chez [From.GetHerHim]. Allez-vous vous joindre à [From.GetHerHim]?;;;;;x
 EVTOPTAhobbits.9;Yes, I like parties!;J'adore les fêtes!;;;;;x
 EVTOPTBhobbits.9;I don't have enough time.;Je n'ai pas le temps.;;;;;x
 EVTTIThobbits.10;Party Preparations - Step Two;Organisation de la Fête - Etape Deux;;;;;x
