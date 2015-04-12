@@ -1736,8 +1736,22 @@ spriteType = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
-		name = "GFX_black_serpent"
-		texturefile = "gfx/traits/black_serpent.tga"
+		name = "GFX_trait_black_serpent"
+		texturefile = "gfx/traits/black_serpent.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_numenorean"
+		texturefile = "gfx/traits/numenorean.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_prince_numenor"
+		texturefile = "gfx/traits/prince_numenor.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
