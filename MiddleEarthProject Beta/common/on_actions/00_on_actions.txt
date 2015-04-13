@@ -7,6 +7,9 @@ on_startup = {
 #character
 on_yearly_pulse = {
 	events = {	
+		#Hobbit Party
+		hobbits.7
+		hobbits.8
 	}
 	random_events = {
 		
@@ -163,9 +166,8 @@ on_yearly_pulse = {
 		100 = 78030
 		
 		#Hobbit Party
-		5 = hobbits.5	
-		10000 = hobbits.6
-		10000 = hobbits.7
+		100 = hobbits.0
+		20 = hobbits.6	
 		
 		5000 = 0 # Chance of no yearly event
 	}
