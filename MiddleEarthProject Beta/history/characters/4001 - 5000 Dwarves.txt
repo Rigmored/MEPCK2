@@ -942,8 +942,8 @@
 	add_trait=dwarven
 	add_trait=strong
 	father=4029
-	10997.1.1 = {
-		birth="10997.1.1"
+	10895.1.1 = {
+		birth="10895.1.1"
 	}
 	11142.1.1 = {
 		death="11142.1.1"
@@ -1030,8 +1030,8 @@ add_friend=4086 #Bombur
 	11103.1.1 = {
 		birth="11103.1.1"
 	}
-	11275.1.1 = {
-		death="11275.1.1"
+	11315.1.1 = {
+		death="11315.1.1"
 	}
 }
 
@@ -3632,7 +3632,7 @@ add_friend=4085 #Bofur
 }
 
 
-## Broadbeams - Ered Luin - Line of Azaghâl ##
+## Broadbeams - Ered Luin - Line of Azaghâl - Belegost ##
 
 4188 = {
 	name="Avar"
@@ -3767,7 +3767,7 @@ add_friend=4085 #Bofur
 	}
 }
 4195 = {
-	name="Nýr"
+	name="Bodruith"
 	dynasty=4002
 	religion="religion_mahal"
 	culture="culture_broadbeam"	
@@ -6701,3 +6701,482 @@ add_friend=4085 #Bofur
 		death="11582.1.1"
 	}
 }
+
+
+
+#### Dynasty of Narvi, Craftsman of Khazad-Dum ####
+
+4400 = {
+	name="Númi" # Grand-Father of Narvi
+	dynasty=4001
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	add_trait=strong
+	father=4089
+	5235.1.1 = {
+		birth="5235.1.1"
+	}
+	5647.1.1 = {
+		death="5647.1.1"
+	}
+}
+4401 = {
+	name="Náli" # Father of Narvi
+	dynasty=4001
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	add_trait=strong
+	father=4400
+	5439.1.1 = {
+		birth="5439.1.1"
+	}
+	5824.1.1 = {
+		death="5824.1.1"
+	}
+}
+4402 = {
+	name="Narvi" # Builder of the Doors of Durin in Khazad-Dum
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	add_trait=strong
+	add_trait=legendary_craftman
+	father=4401
+	5670.1.1 = {
+		birth="5670.1.1"
+	}
+	6066.1.1 = {
+		death="6066.1.1"
+	}
+}
+4403 = {
+	name="Níli"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	add_trait=strong
+	add_trait=master_craftman
+	father=4402
+	5867.1.1 = {
+		birth="5867.1.1"
+	}
+	6221.1.1 = {
+		death="6221.1.1"
+	}
+}
+4404 = {
+	name="Nýr"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4403
+	6052.1.1 = {
+		birth="6052.1.1"
+	}
+	6380.1.1 = {
+		death="6380.1.1"
+	}
+}
+4405 = {
+	name="Niri"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4404
+	6195.1.1 = {
+		birth="6195.1.1"
+	}
+	6494.1.1 = {
+		death="6494.1.1"
+	}
+}
+4406 = {
+	name="Morór"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4405
+	6344.1.1 = {
+		birth="6344.1.1"
+	}
+	6639.1.1 = {
+		death="6639.1.1"
+	}
+}
+4407 = {
+	name="Nossur"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4406
+	6520.1.1 = {
+		birth="6520.1.1"
+	}
+	6830.1.1 = {
+		death="6830.1.1"
+	}
+}
+4408 = {
+	name="Noní"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4407
+	6679.1.1 = {
+		birth="6679.1.1"
+	}
+	6966.1.1 = {
+		death="6966.1.1"
+	}
+}
+4409 = {
+	name="Noxír"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4408
+	6837.1.1 = {
+		birth="6837.1.1"
+	}
+	7123.1.1 = {
+		death="7123.1.1"
+	}
+}
+4410 = {
+	name="Norvar"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4409
+	6990.1.1 = {
+		birth="6990.1.1"
+	}
+	7275.1.1 = {
+		death="7275.1.1"
+	}
+}
+4411 = {
+	name="Norin"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4410
+	7139.1.1 = {
+		birth="7139.1.1"
+	}
+	7418.1.1 = {
+		death="7418.1.1"
+	}
+}
+4412 = {
+	name="Nossur"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4411
+	7283.1.1 = {
+		birth="7283.1.1"
+	}
+	7558.1.1 = {
+		death="7558.1.1"
+	}
+}
+4413 = {
+	name="Noggur"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4412
+	7426.1.1 = {
+		birth="7426.1.1"
+	}
+	7709.1.1 = {
+		death="7709.1.1"
+	}
+}
+4414 = {
+	name="Nolir"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4413
+	7571.1.1 = {
+		birth="7571.1.1"
+	}
+	7844.1.1 = {
+		death="7844.1.1"
+	}
+}
+4415 = {
+	name="Nulffur"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4414
+	7714.1.1 = {
+		birth="7714.1.1"
+	}
+	7986.1.1 = {
+		death="7986.1.1"
+	}
+}
+4416 = {
+	name="Nultan"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4415
+	7852.1.1 = {
+		birth="7852.1.1"
+	}
+	8119.1.1 = {
+		death="8119.1.1"
+	}
+}
+4417 = {
+	name="Unnár"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4416
+	7989.1.1 = {
+		birth="7989.1.1"
+	}
+	8253.1.1 = {
+		death="8253.1.1"
+	}
+}
+4418 = {
+	name="Bávor"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4417
+	8121.1.1 = {
+		birth="8121.1.1"
+	}
+	8379.1.1 = {
+		death="8379.1.1"
+	}
+}
+4419 = {
+	name="Bivur"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4417
+	8135.1.1 = {
+		birth="8135.1.1"
+	}
+	8393.1.1 = {
+		death="8393.1.1"
+	}
+}
+4420 = {
+	name="Núni"
+	dynasty=4011
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	father=4419
+	8272.1.1 = {
+		birth="8272.1.1"
+	}
+	8529.1.1 = {
+		death="8529.1.1"
+	}
+}
+
+#### Line of Fangluin, a Dwarf of Nogrod ####
+
+4450 = {
+	name="Fáir"
+	dynasty=4012
+	religion="religion_mahal"
+	culture="culture_firebeard"
+	
+	add_trait=dwarven
+	
+	father=4003
+	4391.1.1 = {
+		birth="4391.1.1"
+	}
+	4703.1.1 = {
+		death="4703.1.1"
+	}
+}
+4451 = {
+	name="Fandur"
+	dynasty=4012
+	religion="religion_mahal"
+	culture="culture_firebeard"
+	
+	add_trait=dwarven
+	
+	father=4450
+	4553.1.1 = {
+		birth="4553.1.1"
+	}
+	4812.1.1 = {
+		death="4812.1.1"
+	}
+}
+4452 = {
+	name="Fangluin"
+	dynasty=4012
+	religion="religion_mahal"
+	culture="culture_firebeard"
+	
+	add_trait=dwarven
+	add_trait=zealous
+	add_trait=proud
+	add_trait=cynical
+	add_trait=charismatic_negociator
+	add_trait=cruel
+	
+	father=4450
+	4543.1.1 = {
+		birth="4543.1.1"
+	}
+	4825.1.1 = {
+		death="4825.1.1"
+	}
+}
+4453 = {
+	name="Fandri"
+	dynasty=4012
+	religion="religion_mahal"
+	culture="culture_firebeard"
+	
+	add_trait=dwarven
+	
+	father=4452
+	4682.1.1 = {
+		birth="4682.1.1"
+	}
+	4958.1.1 = {
+		death="4958.1.1"
+	}
+}
+
+
+#### House of Mîm - Petty-Dwarves from East ####
+
+4500 = {
+	name="Anîr"
+	dynasty=4007
+	religion="religion_mahal"
+	culture="culture_blacklock"
+	
+	add_trait=dwarven
+	father = 4007
+	
+	4258.1.1 = {
+		birth="4258.1.1"
+	}
+	4570.1.1 = {
+		death="4570.1.1"
+	}
+}
+
+4501 = {
+	name="Arnîm"
+	dynasty=4013
+	religion="religion_mahal"
+	culture="culture_petty_dwarves"
+	
+	add_trait=dwarven
+	father = 4500
+	
+	4393.1.1 = {
+		birth="4393.1.1"
+	}
+	4661.1.1 = {
+		death="4661.1.1"
+	}
+}
+4502 = {
+	name="Mîm"
+	dynasty=4013
+	religion="religion_mahal"
+	culture="culture_petty_dwarves"
+	
+	add_trait=dwarven
+	father = 4501
+	
+	4521.1.1 = {
+		birth="4521.1.1"
+	}
+	4814.1.1 = {
+		death="4814.1.1"
+	} ## Killed after the sack of Nargothrond
+}
+4503 = {
+	name="Gladhîm"
+	dynasty=4013
+	religion="religion_mahal"
+	culture="culture_petty_dwarves"
+	
+	add_trait=dwarven
+	father = 4501
+	
+	4525.1.1 = {
+		birth="4525.1.1"
+	}
+	4752.1.1 = {
+		death="4752.1.1"
+	}
+}
+4504 = {
+	name="Khîm" ## Son of Mîm
+	dynasty=4013
+	religion="religion_mahal"
+	culture="culture_petty_dwarves"
+	
+	add_trait=dwarven
+	father = 4502
+	
+	4660.1.1 = {
+		birth="4660.1.1"
+	}
+	4798.1.1 = {
+		death="4798.1.1"
+	} ## Died in the House of Ransom
+}
+4505 = {
+	name="Ibun" ## Son of Mîm
+	dynasty=4013
+	religion="religion_mahal"
+	culture="culture_petty_dwarves"
+	
+	add_trait=dwarven
+	father = 4502
+	
+	4657.1.1 = {
+		birth="4657.1.1"
+	}
+	4810.1.1 = {
+		death="4810.1.1"
+	} ## Died before Mîm
+}
+

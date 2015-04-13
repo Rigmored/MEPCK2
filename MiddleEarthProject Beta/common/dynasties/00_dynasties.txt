@@ -1494,6 +1494,18 @@
 	name="Bit Balfor"
 	culture = culture_stonefoot
 }	
+4011 = {
+	name="Bit Narvi"
+	culture = culture_longbeard
+}	
+4012 = {
+	name="Bit Fáir"
+	culture = culture_firebeard
+}
+4013 = {
+	name="Bit Arnîm"
+	culture = culture_blacklock
+}
 
 ## Easterlings ##
 5001 = { 
