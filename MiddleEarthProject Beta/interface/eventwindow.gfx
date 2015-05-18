@@ -1607,6 +1607,26 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\\hobbitfireworks.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_harad_serpent_guards"
+		texturefile = "gfx\\event_pictures\\harad_serpent_guards.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_harad_market"
+		texturefile = "gfx\\event_pictures\\harad_market.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_harad_fortress"
+		texturefile = "gfx\\event_pictures\\harad_fortress.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_harad_mumakil"
+		texturefile = "gfx\\event_pictures\\harad_mumakil.tga"
+		allwaystransparent = yes
+	}		
 }
 
 

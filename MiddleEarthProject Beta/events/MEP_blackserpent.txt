@@ -13,7 +13,7 @@ namespace = blackserpent
 narrative_event = {
 	id = blackserpent.0
 	desc = "EVTDESCblackserpent.0"
-	picture = "GFX_old_new_wife"
+	picture = "GFX_harad_serpent_guards"
 	
 	is_triggered_only = yes
 	
@@ -34,7 +34,7 @@ narrative_event = {
 narrative_event = {
 	id = blackserpent.1
 	desc = "EVTDESCblackserpent.1"
-	picture = "GFX_old_new_wife"
+	picture = "GFX_harad_serpent_guards"
 	
 	is_triggered_only = yes
 	
@@ -254,7 +254,7 @@ narrative_event = {
 character_event = {
 	id = blackserpent.2
 	desc = "EVTDESCblackserpent.2"
-	picture = "GFX_kingsguard"
+	picture = "GFX_harad_serpent_guards"
 	
 	is_triggered_only = yes
 
@@ -578,7 +578,7 @@ character_event = {
 character_event = {
 	id = blackserpent.3
 	desc = "EVTDESCblackserpent.3"
-	picture = "GFX_kingsguard"
+	picture = "GFX_harad_serpent_guards"
 	
 	is_triggered_only = yes
 
@@ -884,7 +884,7 @@ character_event = {
 character_event = {
 	id = blackserpent.4
 	desc = "EVTDESCblackserpent.4"
-	picture = "GFX_kingsguard"
+	picture = "GFX_harad_serpent_guards"
 	
 	is_triggered_only = yes
 
@@ -1185,7 +1185,7 @@ character_event = {
 character_event = {
 	id = blackserpent.5
 	desc = "EVTDESCblackserpent.5"
-	picture = "GFX_kingsguard"
+	picture = "GFX_harad_serpent_guards"
 	
 	is_triggered_only = yes
 	
@@ -1389,7 +1389,7 @@ character_event = {
 character_event = {
 	id = blackserpent.6
 	desc = "EVTDESCblackserpent.6"
-	picture = "GFX_kingsguard"
+	picture = "GFX_harad_serpent_guards"
 	
 	is_triggered_only = yes
 	
@@ -1456,7 +1456,7 @@ character_event = {
 character_event = {
 	id = blackserpent.7
 	desc = "EVTDESCblackserpent.7"
-	picture = "GFX_kingsguard"
+	picture = "GFX_harad_serpent_guards"
 	
 	is_triggered_only = yes
 	
@@ -1475,7 +1475,7 @@ character_event = {
 character_event = {
 	id = blackserpent.10
 	desc = "EVTDESCblackserpent.10"
-	picture = GFX_old_new_wife
+	picture = GFX_harad_serpent_guards
 	
 	only_rulers = yes
 	hide_window = yes
@@ -1528,7 +1528,7 @@ character_event = {
 character_event = {
 	id = blackserpent.20
 	desc = "EVTDESCblackserpent.20"
-	picture = GFX_evt_council
+	picture = GFX_harad_fortress
 	border = GFX_event_normal_frame_religion
 	
 	trigger = {
@@ -1633,7 +1633,7 @@ letter_event = {
 province_event = {
 	id = blackserpent.22
 	desc = "EVTDESCblackserpent.22"
-	picture = "GFX_evt_castle_construction"
+	picture = "GFX_harad_fortress"
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1678,7 +1678,7 @@ narrative_event = {
 	id = blackserpent.23
 	title = "EVTNAMEblackserpent.23"
 	desc = "EVTDESCblackserpent.23"
-	picture = "GFX_evt_crusaders"
+	picture = "GFX_harad_fortress"
 	border = "GFX_event_narrative_frame_religion"
 	
 	only_rulers = yes
@@ -1730,7 +1730,7 @@ narrative_event = {
 character_event = {
 	id = blackserpent.100
 	desc = "EVTDESCblackserpent.100"
-	picture = "GFX_old_new_wife"
+	picture = "GFX_harad_serpent_guards"
 	
 	is_triggered_only = yes
 	
