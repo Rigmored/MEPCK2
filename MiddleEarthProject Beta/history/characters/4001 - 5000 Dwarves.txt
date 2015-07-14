@@ -134,6 +134,7 @@
 	add_trait=strong
 	add_trait=dragon_slayer
 	add_trait=heir_of_durin
+	add_trait=durin_reincarnation
 	father=4001
 	3540.1.1 = {
 		birth="3540.1.1"
@@ -150,6 +151,7 @@
 	add_trait=dwarven
 	add_trait=strong
 	add_trait=dragon_slayer
+	add_trait=durin_reincarnation	
 	father=4089
 	5138.1.1 = {
 		birth="5138.1.1"
@@ -172,6 +174,7 @@
 	add_trait=dwarven
 	add_trait=strong
 	add_trait=dragon_slayer
+	add_trait=durin_reincarnation	
 	father=4090
 	6954.1.1 = {
 		birth="6954.1.1"
@@ -250,6 +253,7 @@
 	add_trait=dwarven
 	add_trait=strong
 	add_trait=dragon_slayer
+	add_trait=durin_reincarnation	
 	father=4094
 	8883.1.1 = {
 		birth="8883.1.1"
@@ -388,6 +392,7 @@
 	add_trait=dwarven
 	add_trait=strong
 	add_trait=dragon_slayer
+	add_trait=durin_reincarnation	
 	father=4101
 	10074.1.1 = {
 		birth="10074.1.1"
@@ -1522,7 +1527,7 @@ add_friend=4086 #Bombur
 	}		
 	11495.1.1 = {
 		death="11495.1.1"
-	} # Slain in the Battle of Dale
+	}
 }
 
 4057 = {
@@ -1598,18 +1603,15 @@ add_friend=4086 #Bombur
 }
 
 4060 = {
-	name="Durin" #VII
+	name="Nain"
 	dynasty=4001
 	religion="religion_mahal"
 	culture="culture_longbeard"
 
 	add_trait=dwarven
-	add_trait=brave
-	add_trait=imposing
 	add_trait=strong
 	add_trait=proud
 	add_trait=just
-	add_trait=mountain_terrain_leader
 	add_trait=midas_touched
 	add_trait=dragon_slayer
 

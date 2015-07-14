@@ -1,3 +1,6 @@
+
+
+
 namespace = alliancesystem
 
 #Imladris asks Dunedain of North for aid##
@@ -488,4 +491,320 @@ character_event = {
         name = EVTOPTAalliancesystem.12
 	}				
 }				
-						
+		
+
+
+
+##### If Good is at war with Sauron #####
+
+### An AI good faction should ask the White Council to gather Free Peoples ###	
+narrative_event = {
+    id = alliancesystem.20
+    title = EVTTITalliancesystem.20
+    desc = EVTDESCalliancesystem.20
+	picture = "GFX_good"
+
+	trigger = {
+		ai = yes
+		war = yes
+		any_current_enemy = {
+			has_character_flag = sauron
+			age = 16
+		}
+		trait = good_side
+		NOT = { has_global_flag = alliancevssauron }
+		NOT = { has_global_flag = noalliancevssauron }	
+		any_playable_ruler = {
+			trait = leader_whitecouncil
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30 
+	}
+			
+	option = {
+        name = EVTOPTAalliancesystem.20
+		ai_chance = {
+			factor = 15
+		}
+		any_playable_ruler = {
+			limit = {
+				trait = leader_whitecouncil
+			}
+			narrative_event = { id = alliancesystem.21 days = 10 }
+		}
+		set_global_flag = alliancevssauron
+	}	
+	
+	option = {
+        name = EVTOPTBalliancesystem.20
+		ai_chance = {
+			factor = 85
+		}
+	}	
+}		
+
+
+narrative_event = {
+    id = alliancesystem.21
+    title = EVTTITalliancesystem.21
+    desc = EVTDESCalliancesystem.21
+	picture = "GFX_good"
+
+	is_triggered_only = yes
+			
+	option = {
+        name = EVTOPTAalliancesystem.21 ## Call all the Free People to help this Lord!
+		ai_chance = {
+			factor = 45
+		}	
+		FROM = { 
+			set_character_flag = leaderalliancevssauron 
+			character_event = { id = alliancesystem.24 days = 8 }
+		}
+		any_playable_ruler = {
+			limit = {
+				trait = good_side
+				independent = yes
+				NOT = { has_character_flag = leaderalliancevssauron }
+				NOT = { trait = white_council }
+			}
+			narrative_event = { id = alliancesystem.22 days = 10 }
+		}		
+		set_global_flag = alliancevssauron
+	}	
+	
+	option = {
+        name = EVTOPTBalliancesystem.21 ## We can't do this.
+		ai_chance = {
+			factor = 55
+		}
+		set_global_flag = noalliancevssauron
+		clr_global_flag = alliancevssauron
+	}	
+}				
+
+narrative_event = {
+    id = alliancesystem.22
+    title = EVTTITalliancesystem.22
+    desc = EVTDESCalliancesystem.22
+	picture = "GFX_good"
+
+	is_triggered_only = yes
+			
+	option = {
+        name = EVTOPTAalliancesystem.22 ## I'll join them!
+		ai_chance = {
+			factor = 40
+		}
+		FROMFROM = {
+			character_event = { id = alliancesystem.23 days = 2 }
+		}
+	}	
+	
+	option = {
+        name = EVTOPTBalliancesystem.22 ## I can't do it.
+		ai_chance = {
+			factor = 60
+		}
+		remove_trait = good_side
+		random = {
+			chance = 40
+			add_trait = craven
+		}
+		random = {
+			chance = 10
+			add_trait = paranoid
+		}		
+	}	
+}				
+
+character_event = {
+    id = alliancesystem.23
+    title = EVTTITalliancesystem.23
+    desc = EVTDESCalliancesystem.23
+	picture = "GFX_good"
+
+	is_triggered_only = yes
+			
+	option = {
+        name = EVTOPTAalliancesystem.23 ## Great!
+		FROM = {
+			join_defender_wars = ROOT
+			join_attacker_wars = ROOT
+		}
+	}	
+}	
+
+character_event = { ## The White Council will join you
+    id = alliancesystem.24
+    title = EVTTITalliancesystem.24
+    desc = EVTDESCalliancesystem.24
+	picture = "GFX_good"
+
+	is_triggered_only = yes
+			
+	option = {
+        name = EVTOPTAalliancesystem.23 ## Great !
+		FROM = {
+			join_defender_wars = ROOT
+			join_attacker_wars = ROOT
+		}
+		any_playable_ruler = {
+			limit = {
+				trait = white_council
+			}
+			join_defender_wars = ROOT
+			join_attacker_wars = ROOT
+		}
+		any_playable_ruler = {
+			limit = {
+				has_character_flag = sauron
+				age = 16
+			}
+			narrative_event = { id = alliancesystem.27 days = 10 } ## Sauron is alerted
+		}
+	}	
+}	
+
+
+character_event = {
+    id = alliancesystem.25
+    title = EVTTITalliancesystem.25
+    desc = EVTDESCalliancesystem.25
+	picture = "GFX_good"
+	#hide_window = yes
+
+	trigger = {
+		ai = no
+		war = yes
+		any_current_enemy = {
+			has_character_flag = sauron
+			age = 16
+		}
+		trait = good_side
+		NOT = { has_global_flag = alliancevssauron }
+		NOT = { has_global_flag = noalliancevssauron }	
+		any_playable_ruler = {
+			trait = leader_whitecouncil
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+			
+	option = {
+        name = EVTOPTAalliancesystem.25
+		random = {
+			chance = 18		
+			narrative_event = { id = alliancesystem.26 days = 30 }
+		}
+	}	
+
+}	
+
+
+character_event = { ## The White Council will join you
+    id = alliancesystem.26
+    title = EVTTITalliancesystem.26
+    desc = EVTDESCalliancesystem.26
+	picture = "GFX_good"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+		war = yes
+		any_current_enemy = {
+			has_character_flag = sauron
+			age = 16
+		}
+		trait = good_side
+		NOT = { has_global_flag = alliancevssauron }
+		NOT = { has_global_flag = noalliancevssauron }	
+		any_playable_ruler = {
+			trait = leader_whitecouncil
+		}
+	}	
+	
+	option = {
+        name = EVTOPTAalliancesystem.26
+		any_playable_ruler = {
+			limit = {
+				trait = leader_whitecouncil
+			}
+			narrative_event = { id = alliancesystem.21 days = 10 }
+		}
+		set_global_flag = alliancevssauron
+	}	
+	
+	option = {
+        name = EVTOPTBalliancesystem.26
+	}		
+}
+
+
+character_event = { ## Sauron is alerted
+    id = alliancesystem.27
+    title = EVTTITalliancesystem.27
+    desc = EVTDESCalliancesystem.27
+	picture = "GFX_good"
+
+	is_triggered_only = yes
+	
+	option = {
+        name = EVTOPTAalliancesystem.27
+		ai_chance = {
+			factor = 35
+		}
+		any_playable_ruler = {
+			limit = {
+				trait = evil_side
+				independant = yes
+			}
+			narrative_event = { id = alliancesystem.28 days = 10 }
+		}
+	}	
+	
+	option = {
+        name = EVTOPTBalliancesystem.27
+		ai_chance = {
+			factor = 65
+		}		
+	}		
+}
+
+character_event = { ## The Evil Forces don't have any choice.
+    id = alliancesystem.28
+    title = EVTTITalliancesystem.28
+    desc = EVTDESCalliancesystem.28
+	picture = "GFX_good"
+
+	is_triggered_only = yes
+	
+	option = {
+        name = EVTOPTAalliancesystem.28
+		FROM = {
+			character_event = { id = alliancesystem.29 days = 10 }
+		}
+	}	
+}
+
+character_event = { ## The Evil Forces don't have any choice.
+    id = alliancesystem.29
+    title = EVTTITalliancesystem.29
+    desc = EVTDESCalliancesystem.29
+	picture = "GFX_good"
+
+	is_triggered_only = yes
+	
+	option = {
+        name = EVTOPTAalliancesystem.29
+		FROM = {
+			join_defender_wars = ROOT
+			join_attacker_wars = ROOT		
+		}
+	}	
+}

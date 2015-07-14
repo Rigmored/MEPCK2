@@ -2,6 +2,11 @@
 # Also remember to tell the landed title to use this mercenary type instead.
 # Several titles can refer to the same type as well now.
 
+iron_guard_mercenaries = {
+	levy_size = 1
+	archers = 150
+	heavy_infantry = 500
+	}
 blackwolds_mercenaries = {
 	levy_size = 1
 	light_infantry = 100

@@ -62,6 +62,35 @@ d_ruffians = {
 }
 
 #DWARVES
+d_iron_guard = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx	
+	capital = 285 # Moria
+	
+	allow = {
+		religion_group = religion_group_khazad
+	}	
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = iron_guard_mercenaries
+	
+	culture = culture_longbeard
+	religion = religion_mahal
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+}
 d_nargubraz = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }

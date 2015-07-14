@@ -6,10 +6,7 @@ on_startup = {
 
 #character
 on_yearly_pulse = {
-	events = {	
-		#Hobbit Party
-		hobbits.7
-		hobbits.8
+	events = {
 	}
 	random_events = {
 		
@@ -166,8 +163,9 @@ on_yearly_pulse = {
 		100 = 78030
 		
 		#Hobbit Party
-		100 = hobbits.0
-		20 = hobbits.6	
+		5 = hobbits.5
+		2500 = hobbits.6
+		10000 = hobbits.7
 		
 		5000 = 0 # Chance of no yearly event
 	}
@@ -828,7 +826,7 @@ on_birth = {
 		CM.10011 # Chronicle entry
 	}
 	random_events = {
-		200 = 0
+		10 = dwarvenevents.0 # The child is the reincarnation of Durin the Deathless.
 	}
 }
 

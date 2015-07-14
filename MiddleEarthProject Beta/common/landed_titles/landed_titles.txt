@@ -12717,8 +12717,8 @@ k_black_serpent = {
 	
     capital = 533 # Khôrsaj
 	
-	title = "Head"
-	foa = "myhead"
+	title = ""
+	foa = ""
 	
 	culture = culture_haradrim
 	religion = religion_southron
@@ -13306,30 +13306,6 @@ k_tulkas = {
 ## Republics ##
 # Guild of Venturers - Gondor #	
 
-b_eambarionath = {
-	culture = culture_gondorian
-	religion = religion_dunedain
-}
-
-b_veanturionath = {
-	culture = culture_gondorian
-	religion = religion_dunedain
-}
-
-b_gaerdonionath = {
-	culture = culture_gondorian
-	religion = religion_dunedain
-}
-
-b_ithilborionath = {
-	culture = culture_gondorian
-	religion = religion_dunedain
-}
-
-b_mireadurionath = {
-	culture = culture_gondorian
-	religion = religion_dunedain
-}
 
 # Sindar Mariners - Lindon #
 d_sindar_mariners = {
@@ -13340,35 +13316,6 @@ d_sindar_mariners = {
 		is_republic = yes
 	}	
 }
-b_aerendil = {
-	religion="religion_moriquendi"
-    culture ="culture_sindar"
-}
-
-b_saeros = {
-	religion="religion_moriquendi"
-    culture ="culture_sindar"
-}
-
-b_gwachaedir = {
-	religion="religion_moriquendi"
-    culture ="culture_sindar"
-}
-
-b_ciryatan = {
-	religion="religion_moriquendi"
-    culture ="culture_sindar"
-}
-
-b_mireatan = {
-	religion="religion_moriquendi"
-    culture ="culture_sindar"
-}
-
-b_gustavusson = {
-	religion="religion_rhovanion"
-    culture ="culture_barding"
-}
 
 # Black Fleet - Umbar #
 d_blackfleet_umbar = {
@@ -13378,10 +13325,6 @@ d_blackfleet_umbar = {
 	allow = {
 		is_republic = yes
 	}	
-}
-b_anabattarik = {
-	religion="religion_black_numenorean"
-	culture="culture_black_numenorean"
 }
 
 e_rebels = {
