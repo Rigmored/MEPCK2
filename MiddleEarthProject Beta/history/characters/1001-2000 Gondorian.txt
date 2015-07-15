@@ -15031,7 +15031,7 @@
 	add_trait=agile
 	add_trait=tough_soldier
 	add_trait=flanker
-	add_triat=ithilien_ranger
+	add_trait=ithilien_ranger
 	add_trait=child_of_consort
 	father=1820
 	mother=1827
@@ -15063,7 +15063,7 @@
 	add_trait=agile
 	add_trait=tough_soldier
 	add_trait=flanker
-	add_triat=ithilien_ranger
+	add_trait=ithilien_ranger
 	add_trait=child_of_consort
 	father=1820
 	mother=1826
@@ -15093,7 +15093,7 @@
 	add_trait=agile
 	add_trait=tough_soldier
 	add_trait=flanker
-	add_triat=ithilien_ranger
+	add_trait=ithilien_ranger
 	father=1828
 	mother=1825
 	10345.1.1={

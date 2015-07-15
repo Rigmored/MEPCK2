@@ -10,26 +10,28 @@ title_shirrifs = {
     monthly_salary = 0.5
     monthly_prestige = 0.3
     
-    allow = {
+    allowed_to_hold = {
         is_adult = yes
         is_female = no
-        FROM = {
-            is_feudal = yes
-            primary_title = {
-                OR = {
-                    tier = king
-                    tier = emperor
-                }
+		religion_group = religion_group_periannath
+	}
+    allowed_to_grant = {
+        is_feudal = yes
+        primary_title = {
+            OR = {
+                tier = king
+                tier = emperor
             }
-            
-                religion_group = religion_group_periannath
-            
+		religion_group = religion_group_periannath
         }
+    }
+                
+            
+
         
-            religion_group = religion_group_periannath
+            
         
 
-    }
     
     gain_effect = {
     }
@@ -49,10 +51,12 @@ title_postmaster = {
     monthly_salary = 1.5
     monthly_prestige = 0.3
     
-    allow = {
+    allowed_to_hold = {
         is_adult = yes
         is_female = no
-        FROM = {
+		religion_group = religion_group_periannath
+		}
+        allowed_to_grant = {
             is_feudal = yes
             primary_title = {
                 OR = {
@@ -65,10 +69,10 @@ title_postmaster = {
             
         }
       
-            religion_group = religion_group_periannath
+            
         
 
-    }
+    
     
     gain_effect = {
     }
@@ -88,11 +92,13 @@ title_matriarch = {
     monthly_salary = 1.0
     monthly_prestige = 0.9
     
-    allow = {
+    allowed_to_hold = {
         is_adult = yes
         is_female = yes
+		religion_group = religion_group_periannath
         ROOT = { is_close_relative = FROM }
-        FROM = {
+		}
+        allowed_to_grant = {
             is_feudal = yes
             primary_title = {
                 OR = {
@@ -105,9 +111,9 @@ title_matriarch = {
             
         }
       
-            religion_group = religion_group_periannath
+            
         
-    }
+    
     
     gain_effect = {
     }
@@ -129,10 +135,12 @@ title_co_ruler = {
 	monthly_salary = 1.0
 	monthly_prestige = 1.0
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_ruler_gondor }
-		FROM = {
-			is_feudal = yes
+		allowed_to_grant = {
+		has_character_flag = coruler
+		is_feudal = yes
+		}
 			ROOT = {
 			is_close_relative = FROM
 			}
@@ -144,8 +152,8 @@ title_co_ruler = {
 				has_landed_title = k_cardolan
 			}
 		}
-		has_character_flag = coruler
-	}
+		
+	
 	
 	gain_effect = { 
 		prestige = 20
@@ -165,10 +173,12 @@ title_ruler_gondor = {
 	monthly_salary = 3.0
 	monthly_prestige = 3.0
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_co_ruler }
 		NOT = { has_minor_title = title_ruler_arnor }
-		FROM = {
+		has_character_flag = ruler_gondor
+		}
+		allowed_to_grant = {
 			is_feudal = yes
 			ROOT = { is_close_relative = FROM }
 			OR = {
@@ -178,8 +188,8 @@ title_ruler_gondor = {
 				}
 			}
 		}
-		has_character_flag = ruler_gondor
-	}
+		
+	
 	
 	gain_effect = { 
 		prestige = 200
@@ -199,10 +209,12 @@ title_ruler_arnor = {
 	monthly_salary = 3.0
 	monthly_prestige = 3.0
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_co_ruler }
 		NOT = { has_minor_title = title_ruler_gondor }
-		FROM = {
+		has_character_flag = ruler_gondor
+		}
+		allowed_to_grant = {
 			is_feudal = yes
 			ROOT = { is_close_relative = FROM }
 			OR = {
@@ -213,8 +225,8 @@ title_ruler_arnor = {
 				has_landed_title = e_reunited_kingdom
 			}
 		}
-		has_character_flag = ruler_gondor
-	}
+		
+	
 	
 	gain_effect = { 
 		prestige = 200
@@ -236,7 +248,7 @@ title_captaingeneral = {
 	monthly_salary = 0.5
 	monthly_prestige = 0.5
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain }
 		NOT = { has_minor_title = title_captaincitadel }
@@ -251,8 +263,9 @@ title_captaingeneral = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }			
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = e_steward_gondor
@@ -262,7 +275,7 @@ title_captaingeneral = {
 				has_landed_title = k_cardolan
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -282,7 +295,7 @@ title_wardenofthekeys = {
 	monthly_salary = 0.5
 	monthly_prestige = 0.3
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_captainoffountain }
 		NOT = { has_minor_title = title_captaincitadel }
@@ -297,15 +310,16 @@ title_wardenofthekeys = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }		
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = e_steward_gondor
 				has_landed_title = e_gondor
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -325,7 +339,7 @@ title_captainoffountain = {
 	monthly_salary = 0.2
 	monthly_prestige = 0.2
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captaincitadel }
@@ -340,15 +354,16 @@ title_captainoffountain = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }		
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = e_steward_gondor
 				has_landed_title = e_gondor
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -367,7 +382,7 @@ title_captaincitadel = {
 	monthly_salary = 0.2
 	monthly_prestige = 0.2
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -382,15 +397,16 @@ title_captaincitadel = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }			
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = e_steward_gondor
 				has_landed_title = e_gondor
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -409,7 +425,7 @@ title_wardenofwhitetree = {
 	monthly_salary = 0.5
 	monthly_prestige = 0.4
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -424,15 +440,16 @@ title_wardenofwhitetree = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }			
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = e_steward_gondor
 				has_landed_title = e_gondor
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -451,7 +468,7 @@ title_admiralofpelargir = {
 	monthly_salary = 0.4
 	monthly_prestige = 0.3
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -466,15 +483,16 @@ title_admiralofpelargir = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }			
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = e_steward_gondor
 				has_landed_title = e_gondor
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -493,7 +511,7 @@ title_honorarycitadelguard = {
 	monthly_salary = 0.1
 	monthly_prestige = 0.1
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -508,15 +526,16 @@ title_honorarycitadelguard = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }			
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = e_steward_gondor
 				has_landed_title = e_gondor
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -535,7 +554,7 @@ title_lieutenantgeneral = {
 	monthly_salary = 0.2
 	monthly_prestige = 0.3
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -550,8 +569,9 @@ title_lieutenantgeneral = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }		
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = e_steward_gondor
@@ -561,7 +581,7 @@ title_lieutenantgeneral = {
 				has_landed_title = k_cardolan
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -580,7 +600,7 @@ title_keeperofswans = {
 	monthly_salary = 0.2
 	monthly_prestige = 0.1
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -595,12 +615,13 @@ title_keeperofswans = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }		
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			has_landed_title = k_belfalas
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -619,7 +640,7 @@ title_admiral = {
 	monthly_salary = 0.2
 	monthly_prestige = 0.1
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -634,8 +655,9 @@ title_admiral = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_keeperofswans }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		NOT = { has_minor_title = title_wardenoferech }		
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = k_belfalas
@@ -646,7 +668,7 @@ title_admiral = {
 				has_landed_title = e_arnor
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -665,7 +687,7 @@ title_wardenofbeacons = {
 	monthly_salary = 0.2
 	monthly_prestige = 0.1
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -680,12 +702,13 @@ title_wardenofbeacons = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_keeperofswans }	
 		NOT = { has_minor_title = title_admiral }	
-		NOT = { has_minor_title = title_wardenoferech }			
-		FROM = {
+		NOT = { has_minor_title = title_wardenoferech }		
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			has_landed_title = k_anorien
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -704,7 +727,7 @@ title_wardenoferech = {
 	monthly_salary = 0.2
 	monthly_prestige = 0.1
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -719,12 +742,13 @@ title_wardenoferech = {
 		NOT = { has_minor_title = title_masterbow }	
 		NOT = { has_minor_title = title_keeperofswans }	
 		NOT = { has_minor_title = title_admiral }	
-		NOT = { has_minor_title = title_wardenofbeacons }		
-		FROM = {
+		NOT = { has_minor_title = title_wardenofbeacons }
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			has_landed_title = d_mornan
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -743,7 +767,7 @@ title_masterbow = {
 	monthly_salary = 0.1
 	monthly_prestige = 0.1
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -758,8 +782,9 @@ title_masterbow = {
 		NOT = { has_minor_title = title_wardenoferech }	
 		NOT = { has_minor_title = title_keeperofswans }	
 		NOT = { has_minor_title = title_admiral }	
-		NOT = { has_minor_title = title_wardenofbeacons }		
-		FROM = {
+		NOT = { has_minor_title = title_wardenofbeacons }	
+}		
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = d_mornan
@@ -767,7 +792,7 @@ title_masterbow = {
 				has_landed_title = k_pinnath_gelin
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -786,7 +811,7 @@ title_captainaxebearers = {
 	monthly_salary = 0.1
 	monthly_prestige = 0.1
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -802,7 +827,8 @@ title_captainaxebearers = {
 		NOT = { has_minor_title = title_keeperofswans }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }		
-		FROM = {
+		}
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = d_mornan
@@ -812,7 +838,7 @@ title_captainaxebearers = {
 				has_landed_title = k_ered_luin
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -831,7 +857,7 @@ title_wardenrammasechor = {
 	monthly_salary = 0.1
 	monthly_prestige = 0.1
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -847,11 +873,12 @@ title_wardenrammasechor = {
 		NOT = { has_minor_title = title_keeperofswans }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		FROM = {
+		}
+		allowed_to_grant = {
 			is_feudal = yes
             has_landed_title = d_royal_demesne
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -870,7 +897,7 @@ title_astrologer = {
 	monthly_salary = 0.1
 	monthly_prestige = 0.1
 	
-	allow = {
+	allowed_to_hold = {
 		NOT = { has_minor_title = title_captaingeneral }
 		NOT = { has_minor_title = title_wardenofthekeys }
 		NOT = { has_minor_title = title_captainoffountain}
@@ -886,14 +913,15 @@ title_astrologer = {
 		NOT = { has_minor_title = title_keeperofswans }	
 		NOT = { has_minor_title = title_admiral }	
 		NOT = { has_minor_title = title_wardenofbeacons }	
-		FROM = {
+		}
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				culture_group = culture_group_numenorean
 				religion_group = religion_group_eldar
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -915,12 +943,12 @@ title_firstmarshal = {
 	monthly_salary = 0.4
 	monthly_prestige = 0.4
 	
-	allow = {
-		FROM = {
+	allowed_to_hold = { }
+		allowed_to_grant = {
 			is_feudal = yes
 			has_landed_title = k_rohan
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -939,12 +967,12 @@ title_secondmarshal = {
 	monthly_salary = 0.3
 	monthly_prestige = 0.3
 	
-	allow = {
-		FROM = {
+	allowed_to_hold = {}
+		allowed_to_grant = {
 			is_feudal = yes
 			has_landed_title = k_rohan
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -963,12 +991,12 @@ title_thirdmarshal = {
 	monthly_salary = 0.3
 	monthly_prestige = 0.3
 	
-	allow = {
-		FROM = {
+	allowed_to_hold = {}
+		allowed_to_grant = {
 			is_feudal = yes
 			has_landed_title = k_rohan
 			}
-		}
+		
 	
 	gain_effect = {
 	}
@@ -987,12 +1015,12 @@ title_kingcouncillor = {
 	monthly_salary = 0.2
 	monthly_prestige = 0.2
 	
-	allow = {
-		FROM = {
+	allowed_to_hold = {}
+		allowed_to_grant = {
 			is_feudal = yes
 			tier = king
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -1012,8 +1040,8 @@ title_master_of_the_horse = {
 	monthly_salary = 0.2
 	monthly_prestige = 0.2
 	
-	allow = {
-		FROM = {
+	allowed_to_hold = {}
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				has_landed_title = k_rohan
@@ -1022,7 +1050,7 @@ title_master_of_the_horse = {
 				culture_group = culture_group_easterling
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -1045,12 +1073,12 @@ title_LieutenantofDolGuldur = {
 	monthly_salary = 0.4
 	monthly_prestige = 0.4
 	
-	allow = {
-		FROM = {
+	allowed_to_hold = {}
+		allowed_to_grant = {
 			is_feudal = yes
 				has_landed_title = e_barad_dur
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -1069,8 +1097,8 @@ title_masterofslaves = {
 	monthly_salary = 0.6
 	monthly_prestige = 0.1
 	
-	allow = {
-		FROM = {
+	allowed_to_hold = {}
+		allowed_to_grant = {
 			is_feudal = yes
 			OR = {
 				culture_group = culture_group_melkor
@@ -1079,7 +1107,7 @@ title_masterofslaves = {
 				trait = evil_side
 			}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
@@ -1099,8 +1127,8 @@ title_lieutenantofbaraddur = {
 	monthly_salary = 0.8
 	monthly_prestige = 0.9
 	
-	allow = {
-		FROM = {
+	allowed_to_hold = {}
+		allowed_to_grant = {
 			is_feudal = yes
 			has_landed_title = e_barad_dur
 			ROOT = {
@@ -1108,7 +1136,7 @@ title_lieutenantofbaraddur = {
 			has_landed_title = c_amon_lanc
 		}
 		}
-	}
+	
 	
 	gain_effect = {
 	}
