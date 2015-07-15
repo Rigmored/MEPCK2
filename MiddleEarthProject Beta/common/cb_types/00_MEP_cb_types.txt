@@ -1,4 +1,5 @@
 #### Isildur Heir reconquest
+#### Anarion Heir reconquest
 #### Wilderness Colonisation
 #### Orkish Invasion
 #### Ring War
@@ -24,14 +25,12 @@ isildur_reconquest = {
 		}
 		FROM = {
 			NOT = { religion = religion_wilderness }
+			NOT = { religion_group = religion_group_periannath }
 		}
 	}
 
 	can_use_title = {
 		OR = {
-			de_jure_liege_or_above = k_arthedain
-			de_jure_liege_or_above = k_cardolan
-			de_jure_liege_or_above = k_rhudaur
 			de_jure_liege_or_above = e_arnor
 		}
 	}
@@ -141,13 +140,12 @@ anarion_reconquest = {
 		}
 		FROM = {
 			NOT = { religion = religion_wilderness }
+			NOT = { religion_group = religion_group_periannath }
 		}
 	}
 
 	can_use_title = {
 		OR = {
-			de_jure_liege_or_above = k_anorien
-			de_jure_liege_or_above = k_ithilien
 			de_jure_liege_or_above = e_gondor
 		}
 	}
