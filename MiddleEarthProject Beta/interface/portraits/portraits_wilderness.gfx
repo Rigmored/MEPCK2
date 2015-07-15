@@ -34,6 +34,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"                    #20
 			"GFX_empty:p6"                       #21
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -83,6 +84,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"                    #20
 			"GFX_empty:p6"                       #21
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -132,6 +134,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"                    #20
 			"GFX_empty:p6"                       #21
+			"GFX_player_overlay:p11"
 		}
 
 		
@@ -189,6 +192,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"
 			"GFX_empty:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -242,6 +246,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"
 			"GFX_empty:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -296,6 +301,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"
 			"GFX_empty:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -381,6 +387,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"
 			"GFX_empty:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -434,6 +441,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"
 			"GFX_empty:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -488,6 +496,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"
 			"GFX_empty:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -544,6 +553,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"                    #20
 			"GFX_empty:p6"                       #21
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -595,6 +605,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"                    #20
 			"GFX_empty:p6"                       #21
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -647,6 +658,7 @@ spriteTypes = {
 			"GFX_empty:p10"
 			"GFX_empty:p5:c5"                    #20
 			"GFX_empty:p6"                       #21
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
