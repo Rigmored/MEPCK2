@@ -1,0 +1,19 @@
+#Meneliand
+
+# County Title
+title = c_meneliand
+
+# Settlements
+max_settlements = 3
+
+b_meneliand = castle
+b_barad_menel = castle
+b_menelcara = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

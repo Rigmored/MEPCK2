@@ -1,0 +1,13 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+4318.1.1=
+{
+holder = 3242 # Caranthir
+liege = e_oath_of_feanor
+}
+4784.1.1=
+{
+holder = 0
+}

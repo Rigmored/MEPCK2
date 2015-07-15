@@ -42,7 +42,7 @@ give_palantir_orthanc_to_son_desc;Yield the Orthanc-Stone to [Root.GetFirstName]
 give_palantir_osgiliath_to_son_desc;Yield the Osgiliath-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre dOsgiliath à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;;;;x
 give_palantir_annuminas_to_son_desc;Yield the Annúminas-Stone to [Root.GetFirstName], who will protect her, as you did it yourself.;Cédez la Pierre d'Annúminas à [Root.GetFirstName], qui se chargera de la protéger, comme vous l'avez fait vous-même.;;;;;;x
 command_servants;Command Servants;Command Servants;;;;;;;x
-command_servants_desc;Command any rulers you have influence over to war.;Command any rulers you have influence over to war.;;;;;;;x
+command_servants_desc;Command any rulers you have influence over to go to war.;Command any rulers you have influence over to war.;;;;;;;x
 command_nazgul;Command Nazgûl;Command Nazgûl;;;;;;;x
 command_nazgul_desc;Command the Nazgûl to do your bidding.;Command the Nazgûl to do your bidding.;;;;;;;x
 call_assembly_dwarves;Assemble the Seven Kingdoms;Inviter les Rois des Nains à une Assemblée;;;;;;x
@@ -55,8 +55,8 @@ red_arrow_gondor;Send Red Arrow to Gondor;;;;;;;;;x
 red_arrow_gondor_desc;Rohan's need is great, war and death are at our doors. Shall we send the Red Arrow, and call for Gondor to honour the old alliance?;;;;;;;;;x
 claim_narsil;Claim the shards of Narsil;Demander les fragments de Narsil;;;;;;x
 claim_narsil_desc;Only the true king of Arnor can reclaim the sword of Elendil !;Seul le vrai roi de l'Arnor peut réclamer l'épée d'Elendil.;;;;;x
-claim_victory_vs_witchking;Victory against Angmar !;Victoire contre Angmar !;;;;;x
-claim_victory_vs_witchking_desc;Claim victory against the Witch King of Angmar !;Déclarer la victoire contre le Roi Soricer d'Angmar !;;;;;;x
+claim_victory_vs_witchking;Victory against Angmar!;Victoire contre Angmar !;;;;;x
+claim_victory_vs_witchking_desc;Claim victory against the Witch King of Angmar!;Déclarer la victoire contre le Roi Soricer d'Angmar !;;;;;;x
 reforge_narsil;Reforge Narsil;Reforger Narsil;;;;;;x
 reforge_narsil_desc;Only an heroic king, acknowledged by all, will dare to reforge the sword of Elendil.;Seul un Roi émérite et reconnu par tous pourra prétendre à reforger l'épée d'Elendil.;;;;;;x 
 rebuild_tharbad;Rebuild Tharbad;Reconstruire Tharbad.;;;;;;x 
@@ -65,9 +65,9 @@ change_temple;@FIXME@ Convert to City;@FIXME@ Convert to City;;;;;;x
 change_temple_desc;@FIXME@ Convert to City;@FIXME@ Convert to City;;;;;;x
 receive_gundabad;@FIXME@ Receive Gundabad;@FIXME@ Receive Gundabad;;;;;;x 
 receive_gundabad_desc;@FIXME@ Receive Gundabad;@FIXME@ Receive Gundabad;;;;;;x
-claim_reunited_kingdom;@FIXME@ Claim Reunited Kingdom;@FIXME@ Claim Reunited Kingdom;;;;;;x 
-claim_reunited_kingdom_desc;@FIXME@ Claim Reunited Kingdom;@FIXME@ Claim Reunited Kingdom;;;;;;x
+claim_reunited_kingdom;Claim Reunited Kingdom;@FIXME@ Claim Reunited Kingdom;;;;;;x 
+claim_reunited_kingdom_desc;Claim the Reunited Kingdom of Arnor and Gondor.;@FIXME@ Claim Reunited Kingdom;;;;;;x
 subjugate_new_land;Subjugate New Land;@FIXME@ Subjugate New Land;;;;;;x
-subjugate_new_land_desc;Subjugate New Land;@FIXME@ Subjugate New Land;;;;;;x
+subjugate_new_land_desc;You can invade new lands to expand your realm.;@FIXME@ Subjugate New Land;;;;;;x
 vassalize_shire;Vassalize the Shire;@FIXME@ Vassalize the Shire;;;;;;x
-vassalize_shire_desc;Vassalize the Shire;@FIXME@ Vassalize the Shire;;;;;;x
+vassalize_shire_desc;Send the Hobbits of the Shire the option to be peacefully vassalised under the Kingdom of Arnor, as it was in past times.;@FIXME@ Vassalize the Shire;;;;;;x

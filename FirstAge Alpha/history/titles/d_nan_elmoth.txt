@@ -1,0 +1,17 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+977.1.1=
+{
+holder = 3056 # Elu Thingol
+liege = k_doriath
+}
+4210.1.1= {
+holder = 3098 # Eöl
+liege = 0
+}
+4712.1.1=
+{
+holder = 3056
+}

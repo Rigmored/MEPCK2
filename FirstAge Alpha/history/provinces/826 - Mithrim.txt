@@ -1,0 +1,19 @@
+#Mithrim
+
+# County Title
+title = c_mithrim
+
+# Settlements
+max_settlements = 3
+
+b_mithrim = castle
+b_minasrim = castle
+b_caras_mithrim = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

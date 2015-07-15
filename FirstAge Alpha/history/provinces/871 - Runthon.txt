@@ -1,0 +1,15 @@
+#Runthôniath
+
+# County Title
+title = c_runthoniath
+
+# Settlements
+max_settlements = 3
+
+b_runthoniath = castle
+b_minthoniand = castle
+b_ostrunthon = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

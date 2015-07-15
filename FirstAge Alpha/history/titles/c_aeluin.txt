@@ -1,0 +1,30 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+4318.1.1=
+{
+holder = 3146 # Finrod Felagund
+liege = d_ladros
+}
+4720.1.1=
+{
+holder = 15117 ## Boromir
+}
+4744.1.1=
+{
+holder = 15122 ## Bregor
+}
+4760.1.1=
+{
+holder = 15132 ## Bregolas
+}
+4767.1.1=
+{
+holder = 15134 ## Barahir
+}
+4772.1.1=
+{
+holder = 0
+liege = 0
+}

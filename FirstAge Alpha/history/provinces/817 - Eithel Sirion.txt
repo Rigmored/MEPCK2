@@ -1,0 +1,19 @@
+#Eithel Sirion
+
+# County Title
+title = c_eithel_sirion
+
+# Settlements
+max_settlements = 4
+b_eithel_sirion = castle
+b_barad_eithel = castle
+b_lorindol = city
+#b_dor_fingon = castle
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

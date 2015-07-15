@@ -1,0 +1,19 @@
+#Fennas Aglon
+
+# County Title
+title = c_fennas_aglon
+
+# Settlements
+max_settlements = 3
+
+b_aglon = castle
+b_baradlon = castle
+b_ost_in_aglon = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

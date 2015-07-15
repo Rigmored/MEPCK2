@@ -1,0 +1,15 @@
+#Ladros
+
+# County Title
+title = c_ladros
+
+# Settlements
+max_settlements = 3
+
+b_minas_ladros = castle
+b_baradros = castle
+b_ostdrun = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

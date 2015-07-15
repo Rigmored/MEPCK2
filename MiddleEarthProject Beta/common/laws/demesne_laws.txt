@@ -23,7 +23,6 @@ laws = {
 		}
 		potential = {
 			higher_tier_than = count
-			is_nomadic = no
 		}
 		revoke_allowed = {
 			always = no
@@ -99,7 +98,6 @@ laws = {
 		}
 		potential = {
 			higher_tier_than = count
-			is_nomadic = no
 		}
 		revoke_allowed = {
 			always = no
@@ -175,7 +173,6 @@ laws = {
 		}
 		potential = {
 			higher_tier_than = count
-			is_nomadic = no
 		}
 		revoke_allowed = {
 			always = no
@@ -247,7 +244,6 @@ laws = {
 		}
 		potential = {
 			higher_tier_than = count
-			is_nomadic = no
 		}
 		revoke_allowed = {
 			always = no
@@ -308,9 +304,7 @@ laws = {
 		allow = {
 			has_law = centralization_3
 			OR = {
-				OR = {
-					has_law = tribal_organization_4
-				}
+				has_law = tribal_organization_4
 				holder_scope = {
 					is_tribal = no
 				}
@@ -318,7 +312,6 @@ laws = {
 		}
 		potential = {
 			higher_tier_than = count
-			is_nomadic = no
 		}
 		revoke_allowed = {
 			always = no
@@ -381,7 +374,7 @@ laws = {
 		group = tribal_organization
 		default = yes
 		
-		unreformed_tribal_opinion = 5
+		tribal_opinion = 5
 		
 		allow = {
 			OR = {
@@ -398,7 +391,7 @@ laws = {
 		potential = {
 			holder_scope = {
 				is_tribal = yes
-				higher_tier_than = count
+				independent = yes
 			}
 		}
 		revoke_allowed = {
@@ -440,14 +433,6 @@ laws = {
 				revoke_law = tribal_organization_2
 				revoke_law = tribal_organization_3
 				revoke_law = tribal_organization_4
-				revoke_law = tribal_contract_0
-				revoke_law = tribal_contract_1
-				revoke_law = tribal_contract_2
-				revoke_law = tribal_contract_3
-				revoke_law = tribal_tax_0
-				revoke_law = tribal_tax_1
-				revoke_law = tribal_tax_2
-				revoke_law = tribal_tax_3
 				if = {
 					limit = {
 						OR = {
@@ -464,9 +449,7 @@ laws = {
 			set_allow_free_infidel_revokation = no
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_1
-					}
+					has_law = tribal_organization_1
 				}
 				custom_tooltip = {
 					text = disables_centralization_1
@@ -474,9 +457,7 @@ laws = {
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_2
-					}
+					has_law = tribal_organization_2
 				}
 				custom_tooltip = {
 					text = disables_centralization_2
@@ -484,25 +465,15 @@ laws = {
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_3
-					}
+					has_law = tribal_organization_3
 				}
 				custom_tooltip = {
 					text = disables_centralization_3
 				}
-				custom_tooltip = {
-					text = disables_tribal_levy_laws
-				}
-				custom_tooltip = {
-					text = disables_tribal_tax_laws
-				}
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_centralization_4
@@ -512,9 +483,7 @@ laws = {
 			set_tribal_vassal_tax_income = no
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disallows_change_government
@@ -526,7 +495,7 @@ laws = {
 	tribal_organization_1 = {
 		group = tribal_organization
 		
-		unreformed_tribal_opinion = -5
+		tribal_opinion = -5
 		
 		allow = {
 			OR = {
@@ -537,7 +506,7 @@ laws = {
 		potential = {
 			holder_scope = {
 				is_tribal = yes
-				higher_tier_than = count
+				independent = yes
 			}
 		}
 		revoke_allowed = {
@@ -622,14 +591,6 @@ laws = {
 				revoke_law = tribal_organization_2
 				revoke_law = tribal_organization_3
 				revoke_law = tribal_organization_4
-				revoke_law = tribal_contract_0
-				revoke_law = tribal_contract_1
-				revoke_law = tribal_contract_2
-				revoke_law = tribal_contract_3
-				revoke_law = tribal_tax_0
-				revoke_law = tribal_tax_1
-				revoke_law = tribal_tax_2
-				revoke_law = tribal_tax_3
 				if = {
 					limit = {
 						OR = {
@@ -644,9 +605,7 @@ laws = {
 			set_allow_title_revokation = yes
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_0
-					}
+					has_law = tribal_organization_0
 				}
 				custom_tooltip = {
 					text = enables_centralization_1
@@ -654,9 +613,7 @@ laws = {
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_2
-					}
+					has_law = tribal_organization_2
 				}
 				custom_tooltip = {
 					text = disables_centralization_2
@@ -664,25 +621,15 @@ laws = {
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_3
-					}
+					has_law = tribal_organization_3
 				}
 				custom_tooltip = {
 					text = disables_centralization_3
 				}
-				custom_tooltip = {
-					text = disables_tribal_levy_laws
-				}
-				custom_tooltip = {
-					text = disables_tribal_tax_laws
-				}
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_centralization_4
@@ -693,9 +640,7 @@ laws = {
 			set_tribal_vassal_tax_income = no
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disallows_change_government
@@ -707,7 +652,7 @@ laws = {
 	tribal_organization_2 = {
 		group = tribal_organization
 		
-		unreformed_tribal_opinion = -10
+		tribal_opinion = -10
 		
 		allow = {
 			OR = {
@@ -718,7 +663,7 @@ laws = {
 		potential = {
 			holder_scope = {
 				is_tribal = yes
-				higher_tier_than = count
+				independent = yes
 			}
 		}
 		revoke_allowed = {
@@ -803,14 +748,6 @@ laws = {
 				revoke_law = tribal_organization_2
 				revoke_law = tribal_organization_3
 				revoke_law = tribal_organization_4
-				revoke_law = tribal_contract_0
-				revoke_law = tribal_contract_1
-				revoke_law = tribal_contract_2
-				revoke_law = tribal_contract_3
-				revoke_law = tribal_tax_0
-				revoke_law = tribal_tax_1
-				revoke_law = tribal_tax_2
-				revoke_law = tribal_tax_3
 				if = {
 					limit = {
 						OR = {
@@ -836,25 +773,15 @@ laws = {
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_3
-					}
+					has_law = tribal_organization_3
 				}
 				custom_tooltip = {
 					text = disables_centralization_3
 				}
-				custom_tooltip = {
-					text = disables_tribal_levy_laws
-				}
-				custom_tooltip = {
-					text = disables_tribal_tax_laws
-				}
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_centralization_4
@@ -864,9 +791,7 @@ laws = {
 			set_tribal_vassal_tax_income = no
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disallows_change_government
@@ -878,7 +803,7 @@ laws = {
 	tribal_organization_3 = {
 		group = tribal_organization
 		
-		unreformed_tribal_opinion = -20
+		tribal_opinion = -20
 		
 		allow = {
 			OR = {
@@ -889,7 +814,7 @@ laws = {
 		potential = {
 			holder_scope = {
 				is_tribal = yes
-				higher_tier_than = count
+				independent = yes
 			}
 		}
 		revoke_allowed = {
@@ -964,6 +889,7 @@ laws = {
 							}
 						}
 					}
+					add_law = centralization_0
 				}
 			}
 		}
@@ -976,9 +902,7 @@ laws = {
 				revoke_law = tribal_organization_4
 				if = {
 					limit = {
-						OR = {
-							has_law = centralization_4
-						}
+						has_law = centralization_4
 					}
 					add_law = centralization_3
 				}
@@ -996,24 +920,12 @@ laws = {
 					}
 				}
 				custom_tooltip = {
-					text = enables_tribal_levy_laws
-				}
-				custom_tooltip = {
-					text = enables_tribal_tax_laws
-				}
-				hidden_tooltip = {
-					add_law = tribal_contract_0
-					add_law = tribal_tax_0
-				}
-				custom_tooltip = {
 					text = enables_centralization_3
 				}
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disables_centralization_4
@@ -1021,9 +933,7 @@ laws = {
 			}
 			if = {
 				limit = { 
-					OR = {
-						has_law = tribal_organization_4
-					}
+					has_law = tribal_organization_4
 				}
 				custom_tooltip = {
 					text = disallows_change_government
@@ -1035,7 +945,7 @@ laws = {
 	tribal_organization_4 = {
 		group = tribal_organization
 		
-		unreformed_tribal_opinion = -30
+		tribal_opinion = -30
 		
 		allow = {
 			has_law = tribal_organization_3
@@ -1043,7 +953,7 @@ laws = {
 		potential = {
 			holder_scope = {
 				is_tribal = yes
-				higher_tier_than = count
+				independent = yes
 			}
 		}
 		revoke_allowed = {
@@ -1129,25 +1039,6 @@ laws = {
 						has_law = tribal_organization_0
 						has_law = tribal_organization_1
 						has_law = tribal_organization_2
-					}
-				}
-				custom_tooltip = {
-					text = enables_tribal_levy_laws
-				}
-				custom_tooltip = {
-					text = enables_tribal_tax_laws
-				}
-				hidden_tooltip = {
-					add_law = tribal_contract_0
-					add_law = tribal_tax_0
-				}
-			}
-			if = {
-				limit = { 
-					OR = {
-						has_law = tribal_organization_0
-						has_law = tribal_organization_1
-						has_law = tribal_organization_2
 						has_law = tribal_organization_3
 					}
 				}
@@ -1177,7 +1068,22 @@ laws = {
 			always = no
 		}			
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						AND = {
+							has_law = vice_royalty_1
+							over_vassal_limit = 1
+						}
+						AND = {
+							has_law = vice_royalty_2
+							over_vassal_limit = 6
+						}		
+					}
+				}
+			}
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -1211,13 +1117,12 @@ laws = {
 			modifier = {
 				factor = 0
 				has_law = vice_royalty_2
+				over_vassal_limit = 1
 			}
 			modifier = {
 				factor = 0
-				AND = {
-					has_law = vice_royalty_0
-					over_vassal_limit = -5
-				}
+				has_law = vice_royalty_0
+				over_vassal_limit = -5
 			}
 		}
 		ai_will_revoke = {
@@ -1253,17 +1158,13 @@ laws = {
 			factor = 3
 			modifier = {
 				factor = 0
-				AND = {
-					has_law = vice_royalty_0
-					over_vassal_limit = -10
-				}
+				has_law = vice_royalty_0
+				over_vassal_limit = -10
 			}
 			modifier = {
 				factor = 0
-				AND = {
-					has_law = vice_royalty_1
-					over_vassal_limit = -5
-				}
+				has_law = vice_royalty_1
+				over_vassal_limit = -5
 			}
 		}
 		ai_will_revoke = {
@@ -1291,7 +1192,7 @@ laws = {
 			higher_tier_than = king
 			holder_scope = {
 				independent = yes
-				is_feudal = yes
+				is_tribal = no
 			}
 		}
 		revoke_allowed = {
@@ -1308,18 +1209,6 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = imperial_administration
 			}
-			if = {
-				limit = { 
-					NOT = { has_dlc = "Charlemagne" } 
-				}
-				set_allow_free_duchy_revokation = no
-			}
-			if = {
-				limit = { 
-					has_dlc = "Charlemagne" 
-				}
-				set_allow_free_vice_royalty_revokation = no
-			}
 		}
 	}
 	
@@ -1334,7 +1223,7 @@ laws = {
 			higher_tier_than = king
 			holder_scope = {
 				independent = yes
-				is_feudal = yes
+				is_tribal = no
 			}
 		}
 		revoke_allowed = {
@@ -1351,18 +1240,11 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = feudal_administration
 			}
-			if = {
-				limit = { 
-					NOT = { has_dlc = "Charlemagne" } 
-				}
-				set_allow_free_duchy_revokation = yes
-			}
 			if  = {
 				limit = {
 					has_dlc = "Charlemagne"
 				}
 				add_law = vice_royalty_2
-				set_allow_free_vice_royalty_revokation = yes
 			}
 		}
 		
@@ -1383,7 +1265,6 @@ laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			NOT = { holder_scope = { religion_group = muslim } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1415,7 +1296,6 @@ laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			NOT = { holder_scope = { religion_group = muslim } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1447,7 +1327,6 @@ laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			NOT = { holder_scope = { religion_group = muslim } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1479,7 +1358,6 @@ laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			NOT = { holder_scope = { religion_group = muslim } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1511,7 +1389,6 @@ laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			NOT = { holder_scope = { religion_group = muslim } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1542,7 +1419,6 @@ laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			NOT = { holder_scope = { religion_group = muslim } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1574,7 +1450,6 @@ laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			NOT = { holder_scope = { religion_group = muslim } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1604,7 +1479,6 @@ laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			NOT = { holder_scope = { religion_group = muslim } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1621,265 +1495,6 @@ laws = {
 				revoke_law = feudal_tax_1
 				revoke_law = feudal_tax_2
 				revoke_law = feudal_tax_3
-			}
-		}
-		
-		castle_vassal_tax_modifier = 0.3
-	}
-	
-##############################
-	# MUSLIM FEUDAL LAWS
-	##############################
-	
-	# IQTA VASSAL LEVY SIZE LAWS
-	##############################
-	
-	iqta_contract_0 = {
-		group = iqta_contract
-		feudal_opinion = 10
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			holder_scope = { religion_group = muslim }
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = iqta_contract_0
-				revoke_law = iqta_contract_1
-				revoke_law = iqta_contract_2
-				revoke_law = iqta_contract_3
-			}
-		}
-		
-		castle_vassal_max_levy = -0.4
-	}
-	
-	iqta_contract_1 = {
-		group = iqta_contract
-		feudal_opinion = 5
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			holder_scope = { religion_group = muslim }
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = iqta_contract_0
-				revoke_law = iqta_contract_1
-				revoke_law = iqta_contract_2
-				revoke_law = iqta_contract_3
-			}
-		}
-		castle_vassal_max_levy = -0.3
-	}
-	
-	iqta_contract_2 = {
-		group = iqta_contract
-		feudal_opinion = 0
-		default = yes
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			holder_scope = { religion_group = muslim }
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = iqta_contract_0
-				revoke_law = iqta_contract_1
-				revoke_law = iqta_contract_2
-				revoke_law = iqta_contract_3
-			}
-		}
-		
-		castle_vassal_max_levy = -0.2
-	}
-	
-	iqta_contract_3 = {
-		group = iqta_contract
-		feudal_opinion = -5
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			holder_scope = { religion_group = muslim }
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			revoke_law = iqta_contract_0
-			revoke_law = iqta_contract_1
-			revoke_law = iqta_contract_2
-		}
-	}
-	
-	
-	# FEUDAL VASSAL TAX SIZE LAWS
-	##############################
-	
-	iqta_tax_0 = {
-		group = iqta_tax
-		feudal_opinion = 10
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			holder_scope = { religion_group = muslim }
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = iqta_tax_0
-				revoke_law = iqta_tax_1
-				revoke_law = iqta_tax_2
-				revoke_law = iqta_tax_3
-			}
-		}
-		castle_vassal_tax_modifier = 0.0
-	}
-
-	iqta_tax_1 = {
-		group = iqta_tax
-		default = yes
-		feudal_opinion = -0
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			holder_scope = { religion_group = muslim }
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = iqta_tax_0
-				revoke_law = iqta_tax_1
-				revoke_law = iqta_tax_2
-				revoke_law = iqta_tax_3
-			}
-		}
-		
-		castle_vassal_tax_modifier = 0.1
-	}
-	
-	iqta_tax_2 = {
-		group = iqta_tax
-		feudal_opinion = -10
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			holder_scope = { religion_group = muslim }
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = iqta_tax_0
-				revoke_law = iqta_tax_1
-				revoke_law = iqta_tax_2
-				revoke_law = iqta_tax_3
-			}
-		}
-		castle_vassal_tax_modifier = 0.2
-	}
-	
-	iqta_tax_3 = {
-		group = iqta_tax
-		feudal_opinion = -20
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			holder_scope = { religion_group = muslim }
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = iqta_tax_0
-				revoke_law = iqta_tax_1
-				revoke_law = iqta_tax_2
-				revoke_law = iqta_tax_3
 			}
 		}
 		
@@ -2134,579 +1749,4 @@ laws = {
 		
 		city_vassal_tax_modifier = 0.45
 	}
-	
-	# TEMPLE VASSAL LEVY SIZE LAWS
-	##############################
-	
-	temple_contract_0 = {
-		group = temple_contract
-		temple_opinion = 10
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = temple_contract_0
-				revoke_law = temple_contract_1
-				revoke_law = temple_contract_2
-				revoke_law = temple_contract_3
-			}
-		}
-		
-		temple_vassal_max_levy = -0.5
-		
-	}
-
-	temple_contract_1 = {
-		group = temple_contract
-		temple_opinion = 0
-		default = yes
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = temple_contract_0
-				revoke_law = temple_contract_1
-				revoke_law = temple_contract_2
-				revoke_law = temple_contract_3
-			}
-		}
-		temple_vassal_max_levy = -0.4
-	}
-	
-	temple_contract_2 = {
-		group = temple_contract
-		temple_opinion = -10
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = temple_contract_0
-				revoke_law = temple_contract_1
-				revoke_law = temple_contract_2
-				revoke_law = temple_contract_3
-			}
-		}
-		temple_vassal_max_levy = -0.3
-	}
-	
-	temple_contract_3 = {
-		group = temple_contract
-		temple_opinion = -20
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = temple_contract_0
-				revoke_law = temple_contract_1
-				revoke_law = temple_contract_2
-				revoke_law = temple_contract_3
-			}
-		}
-		temple_vassal_max_levy = -0.2
-	}
-	
-	
-	
-	# TEMPLE VASSAL TAX SIZE LAWS
-	##############################
-	
-	temple_tax_0 = {
-		group = temple_tax
-		temple_opinion = 20
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = temple_tax_0
-				revoke_law = temple_tax_1
-				revoke_law = temple_tax_2
-				revoke_law = temple_tax_3
-			}
-		}
-		
-		temple_vassal_tax_modifier = 0.0
-		
-	}
-
-	temple_tax_1 = {
-		group = temple_tax
-		temple_opinion = 0
-		default = yes
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = temple_tax_0
-				revoke_law = temple_tax_1
-				revoke_law = temple_tax_2
-				revoke_law = temple_tax_3
-			}
-		}
-		temple_vassal_tax_modifier = 0.35
-	}
-	
-	temple_tax_2 = {
-		group = temple_tax
-		temple_opinion = -10
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = temple_tax_0
-				revoke_law = temple_tax_1
-				revoke_law = temple_tax_2
-				revoke_law = temple_tax_3
-			}
-		}
-		temple_vassal_tax_modifier = 0.45
-	}
-	
-	temple_tax_3 = {
-		group = temple_tax
-		temple_opinion = -20
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = temple_tax_0
-				revoke_law = temple_tax_1
-				revoke_law = temple_tax_2
-				revoke_law = temple_tax_3
-			}
-		}
-		temple_vassal_tax_modifier = 0.55
-	}
-	
-	# TRIBAL VASSAL LEVY SIZE LAWS
-	##############################
-	
-	tribal_contract_0 = {
-		group = tribal_contract
-		tribal_opinion = 0
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			OR = {
-				holder_scope = {
-					is_tribal = no
-				}
-				OR = {
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = tribal_contract_0
-				revoke_law = tribal_contract_1
-				revoke_law = tribal_contract_2
-				revoke_law = tribal_contract_3
-			}
-		}
-		
-		tribal_vassal_max_levy = -0.5
-		
-	}
-
-	tribal_contract_1 = {
-		group = tribal_contract
-		tribal_opinion = -10
-		default = yes
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			OR = {
-				holder_scope = {
-					is_tribal = no
-				}
-				OR = {
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = tribal_contract_0
-				revoke_law = tribal_contract_1
-				revoke_law = tribal_contract_2
-				revoke_law = tribal_contract_3
-			}
-		}
-		tribal_vassal_max_levy = -0.4
-	}
-	
-	tribal_contract_2 = {
-		group = tribal_contract
-		tribal_opinion = -20
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			OR = {
-				holder_scope = {
-					is_tribal = no
-				}
-				OR = {
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = tribal_contract_0
-				revoke_law = tribal_contract_1
-				revoke_law = tribal_contract_2
-				revoke_law = tribal_contract_3
-			}
-		}
-		tribal_vassal_max_levy = -0.3
-	}
-	
-	tribal_contract_3 = {
-		group = tribal_contract
-		tribal_opinion = -30
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			OR = {
-				holder_scope = {
-					is_tribal = no
-				}
-				OR = {
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = tribal_contract_1
-				revoke_law = tribal_contract_2
-				revoke_law = tribal_contract_3
-				revoke_law = tribal_contract_4
-			}
-		}
-		tribal_vassal_max_levy = -0.2
-	}
-	
-	
-	
-	# TRIBAL VASSAL TAX SIZE LAWS
-	##############################
-	
-	tribal_tax_0 = {
-		group = tribal_tax
-		tribal_opinion = 0
-		default = yes
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			OR = {
-				holder_scope = {
-					is_tribal = no
-				}
-				OR = {
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 1
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = tribal_tax_0
-				revoke_law = tribal_tax_1
-				revoke_law = tribal_tax_2
-				revoke_law = tribal_tax_3
-			}
-		}
-		
-		tribal_vassal_tax_modifier = 0
-		
-	}
-
-	tribal_tax_1 = {
-		group = tribal_tax
-		tribal_opinion = -10
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			OR = {
-				holder_scope = {
-					is_tribal = no
-				}
-				OR = {
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = tribal_tax_0
-				revoke_law = tribal_tax_1
-				revoke_law = tribal_tax_2
-				revoke_law = tribal_tax_3
-			}
-		}
-		tribal_vassal_tax_modifier = 0.1
-	}
-	
-	tribal_tax_2 = {
-		group = tribal_tax
-		tribal_opinion = -20
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			OR = {
-				holder_scope = {
-					is_tribal = no
-				}
-				OR = {
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = tribal_tax_0
-				revoke_law = tribal_tax_1
-				revoke_law = tribal_tax_2
-				revoke_law = tribal_tax_3
-			}
-		}
-		tribal_vassal_tax_modifier = 0.2
-	}
-	
-	tribal_tax_3 = {
-		group = tribal_tax
-		tribal_opinion = -30
-		
-		potential = {
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			OR = {
-				holder_scope = {
-					is_tribal = no
-				}
-				OR = {
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-			hidden_tooltip = {
-				revoke_law = tribal_tax_0
-				revoke_law = tribal_tax_1
-				revoke_law = tribal_tax_2
-				revoke_law = tribal_tax_3
-			}
-		}
-		tribal_vassal_tax_modifier = 0.3
-	}
-
 }

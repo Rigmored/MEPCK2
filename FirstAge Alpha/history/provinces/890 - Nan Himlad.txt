@@ -1,0 +1,19 @@
+#Nan Himlad
+
+# County Title
+title = c_nan_himlad
+
+# Settlements
+max_settlements = 3
+
+b_minas_himlad = castle
+b_minas_curufin = castle
+b_atarincost = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

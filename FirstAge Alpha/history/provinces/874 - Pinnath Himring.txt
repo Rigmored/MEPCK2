@@ -1,0 +1,19 @@
+#Pinnath Himring
+
+# County Title
+title = c_pinnath_himring
+
+# Settlements
+max_settlements = 3
+
+b_pinnath_himring = castle
+b_garth_himring = castle
+b_cararing = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

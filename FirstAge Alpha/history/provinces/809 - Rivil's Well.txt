@@ -1,0 +1,15 @@
+#Rivil's Well
+
+# County Title
+title = c_rivil_well
+
+# Settlements
+max_settlements = 3
+
+b_rivil_ethraid = castle
+b_dor_rivil = castle
+b_amon_ethraid = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

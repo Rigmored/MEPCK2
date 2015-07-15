@@ -1,0 +1,15 @@
+#Eryd Orgorath
+
+# County Title
+title = c_eryd_orgorath
+
+# Settlements
+max_settlements = 3
+
+b_eryd_orgorath = castle
+b_orodfuin = castle
+b_bair_gorgoroth = castle
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

@@ -1,0 +1,24 @@
+# 682 - Himling
+
+# County Title
+title = c_himling
+
+# Settlements
+max_settlements = 6
+
+b_himling = castle
+b_minas_maedhros = castle
+b_caras_aleth = city
+b_caras_him = city
+b_minas_russandol = castle
+b_garth_nelyo = castle
+
+# Misc
+4312.1.1 = {
+culture = culture_noldor
+religion = religion_calaquendi
+}
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

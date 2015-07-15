@@ -10,15 +10,14 @@ tree_definition = "trees.bmp"
 continent = "continent.txt"
 adjacencies = "adjacencies.csv"
 climate = "climate.txt"
-region = "region.txt"
+region = "island_region.txt"
+geographical_region = "geographical_region.txt"
 static = "static.txt"
 seasons = "seasons.txt"
 
 sea_zones = { 692 775 }
 sea_zones = { 778 782 }
 sea_zones = { 787 796 }
-
-
 ocean_region = {
 	sea_zones = { 1 2 3 }
 }

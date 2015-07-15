@@ -20,6 +20,7 @@ towerguardcompany =
 	
 	potential = {		
 		culture = culture_gondorian
+		is_nomadic = no		
 	}
     modifier = {
         archers_offensive = 0.1
@@ -38,6 +39,7 @@ gondorianheavycavalry =
     culture = culture_gondorian
 	potential = {
 		culture = culture_gondorian
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 0.1
@@ -55,6 +57,7 @@ swanknights =
     culture = culture_gondorian
 	potential = {
 		culture = culture_gondorian
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 0.2
@@ -71,6 +74,7 @@ blackvalearchers =
     culture = culture_gondorian
 	potential = {
 		culture = culture_gondorian
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 0.1
@@ -89,8 +93,9 @@ dunedainelitecompany =
     second_type = 1
     second_amount = 50
     culture = culture_dunedain
-		potential = {
+	potential = {
 		culture = culture_dunedain
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 0.1
@@ -111,6 +116,7 @@ knightsofannuminas =
 			culture = culture_dunedain
 			culture = culture_arnorian
 		}
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 0.3
@@ -124,8 +130,9 @@ knightsofdolamroth =
     first_type = 4
     first_amount = 50
     culture = culture_dunedain
-		potential = {
+	potential = {
 		culture = culture_dunedain
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 0.1
@@ -145,6 +152,7 @@ royalguardcompany =
 			culture = culture_dunedain
 			culture = culture_arnorian
 		}
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 0.1
@@ -164,8 +172,9 @@ sindarroyalguard =
     second_type = 1
     second_amount = 50
     culture = culture_sindar
-		potential = {
+	potential = {
 		culture = culture_sindar
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 0.1
@@ -186,6 +195,7 @@ noldoreliteguard =
     culture = culture_noldor
 	potential = {
 		culture = culture_noldor
+		is_nomadic = no
 	}
     modifier = {
         heavy_infantry_defensive = 0.1
@@ -202,6 +212,7 @@ noldorhorsearchers =
     culture = culture_noldor
 	potential = {
 		culture = culture_noldor
+		is_nomadic = no
 	}
     modifier = {
         archers_defensive = 0.1
@@ -219,6 +230,7 @@ dwarvengatewardens =
     culture = culture_longbeard
 	potential = {
 		culture = culture_longbeard
+		is_nomadic = no
 	}
     modifier = {
         heavy_infantry_defensive = 0.1
@@ -235,6 +247,7 @@ gatewardens =
     culture = culture_broadbeam
 	potential = {
 		culture = culture_broadbeam
+		is_nomadic = no
 	}
     modifier = {
         heavy_infantry_defensive = 0.1
@@ -252,6 +265,7 @@ redserpentguard =
     culture = culture_haradrim
 	potential = {
 		culture = culture_haradrim
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 1.5
@@ -271,6 +285,7 @@ blacknumenoreanknights =
     culture = culture_black_numenorean
 	potential = {
 		culture = culture_black_numenorean
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 3.0
@@ -289,6 +304,7 @@ tookarchers =
     culture = culture_fallohide
 	potential = {
 		culture = culture_fallohide
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -305,6 +321,7 @@ halflingsheriffs =
     culture = culture_harfoot
 	potential = {
 		culture = culture_harfoot
+		is_nomadic = no
 	}
     modifier = {
         light_infantry_offensive = 0.2
@@ -322,6 +339,7 @@ knightsofdale =
     culture = culture_barding
 	potential = {
 		culture = culture_barding
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 1.5
@@ -340,6 +358,7 @@ bardingmenatarms =
     culture = culture_barding
 	potential = {
 		culture = culture_barding
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -362,6 +381,7 @@ greenwaysentinels =
     culture = culture_breelander
 	potential = {
     culture = culture_breelander
+	is_nomadic = no
 }
     modifier = {
         knights_offensive = 1.5
@@ -380,6 +400,7 @@ breemenatarms =
     culture = culture_breelander
 	potential = {
     culture = culture_breelander
+	is_nomadic = no
 }
     modifier = {
         archers_offensive = 1.0
@@ -399,6 +420,7 @@ guardsofthegates =
     culture = culture_breelander
 	potential = {
     culture = culture_breelander
+	is_nomadic = no
 }
     modifier = {
        archers_offensive = 1.0
@@ -418,6 +440,7 @@ northmenskirmishers =
     culture = culture_northmen
 	potential = {
 		culture = culture_northmen
+		is_nomadic = no
 	}
     modifier = {
 
@@ -435,6 +458,7 @@ northmenroyalguard =
     culture = culture_northmen
 	potential = {
 		culture = culture_northmen
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -457,6 +481,7 @@ forestwardens =
     culture = culture_woodsmen
 	potential = {
 		culture = culture_woodsmen
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -479,6 +504,7 @@ beorningguards =
     culture = culture_beorning
 	potential = {
 		culture = culture_beorning
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -497,6 +523,7 @@ beorningskinchangers =
     culture = culture_beorning
 	potential = {
 		culture = culture_beorning
+		is_nomadic = no
 	}
     modifier = {
      heavy_infantry_defensive = 2.5
@@ -516,6 +543,7 @@ balchothchiefguard =
     culture = culture_balchoth
 	potential = {
 		culture = culture_balchoth
+		is_nomadic = no
 	}
     modifier = {
     light_cavalry_offensive = 1.0
@@ -534,6 +562,7 @@ chieftainsguard =
     culture = culture_dunlending
 	potential = {
 		culture = culture_dunlending
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -554,6 +583,7 @@ eoredofrohan =
     culture = culture_rohirrim
 	potential = {
 		culture = culture_rohirrim
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 1.0
@@ -572,6 +602,7 @@ rohaneliteguard =
     culture = culture_rohirrim
 	potential = {
 		culture = culture_rohirrim
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -594,6 +625,7 @@ morgulguards =
 	potential = {
 		culture = culture_maiar
 		owner = { trait = evil_side }
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -613,6 +645,7 @@ ologhaielite =
 	potential = {
 		culture = culture_maiar
 		owner = { trait = evil_side }
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 5.0
@@ -633,6 +666,7 @@ isengardguards =
 	potential = {
 		culture = culture_istari
 		owner = { trait = evil_side }
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -652,6 +686,7 @@ urukhaipikes =
 	potential = {
 		culture = culture_istari
 		owner = { trait = evil_side }
+		is_nomadic = no
 	}
     modifier = {
         pikemen_offensive = 1.0
@@ -674,6 +709,7 @@ arnorianmenatarms =
 			culture = culture_dunedain
 			culture = culture_arnorian
 		}
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -695,6 +731,7 @@ annuminasroyalguard =
 			culture = culture_dunedain
 			culture = culture_arnorian
 		}
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 3.0
@@ -714,9 +751,10 @@ avariroyalguard =
     second_type = 1
     second_amount = 25
     culture = culture_avari
-potential = {
-culture = culture_avari
-}
+	potential = {
+		culture = culture_avari
+		is_nomadic = no
+	}
     modifier = {
         archers_offensive = 0.1
         archers_defensive = 0.1
@@ -731,9 +769,10 @@ avarihousearchers = {
     first_type = 3
     first_amount = 25
     culture = culture_avari
-potential = {
-culture = culture_avari
-}
+	potential = {
+		culture = culture_avari
+		is_nomadic = no
+	}
     modifier = {
         archers_defensive = 0.1
         archers_offensive = 0.1
@@ -754,6 +793,7 @@ orcspikes =
 			culture = culture_orkish
 			culture = culture_goblin
 		}
+		is_nomadic = no
 	}
     modifier = {
         pikemen_offensive = 1.0
@@ -772,6 +812,7 @@ orcsarchers =
 			culture = culture_orkish
 			culture = culture_goblin
 		}
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -791,6 +832,7 @@ wargriders =
 			culture = culture_orkish
 			culture = culture_goblin
 		}
+		is_nomadic = no
 	}
     modifier = {
 		light_cavalry_offensive = 1.0 
@@ -808,6 +850,7 @@ urukpikes =
     culture =  culture_urukhai
 	potential = {
 		culture = culture_urukhai
+		is_nomadic = no
 	}
     modifier = {
         pikemen_offensive = 1.0
@@ -823,6 +866,7 @@ urukarchers =
     culture =  culture_urukhai
 	potential = {
 		culture = culture_urukhai
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -839,6 +883,7 @@ urukwargriders =
     culture =  culture_urukhai
 	potential = {
 		culture = culture_urukhai
+		is_nomadic = no
 	}
     modifier = {
 		light_cavalry_offensive = 1.0 
@@ -855,6 +900,7 @@ variagslightcavalry =
     culture =  culture_variags
 	potential = {
 		culture = culture_variags
+		is_nomadic = no
 	}
     modifier = {
 		light_cavalry_offensive = 1.0 

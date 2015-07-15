@@ -1,0 +1,813 @@
+k_gondolin = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 808 # Gondolin
+	
+	culture = culture_noldor
+	religion = religion_calaquendi
+		
+	d_gondolin = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+			
+		capital = 808 # Gondolin
+		
+		c_gondolin = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_tower_turgon = {
+			}
+			b_gar_ainion = {
+			}
+			b_fountain_south = {
+			}
+			b_arch_ingwe = {
+			}
+			b_main_gate = {
+			}
+			b_amon_gwareth = {
+			}
+			b_caragdur = {
+			}			
+		}
+		c_tumladen_gondolin = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_tumladen = {
+			}
+			b_echoriath = {
+			}
+			b_nin_tumladen = {
+			}	
+		}	
+		c_orfalch_echor = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_gate_of_steel = {
+			}
+			b_gate_of_gold = {
+			}
+			b_gate_of_silver = {
+			}	
+			b_gate_of_iron = {
+			}	
+			b_gate_of_bronze = {
+			}	
+			b_gate_of_stone = {
+			}	
+			b_gate_of_wood = {
+			}				
+		}		
+	}
+}
+
+k_dorthonion = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 811 # Dorthonion
+	
+	culture_orkish = "Taur-nu-Fuin"
+	
+	d_eryn_gorgoroth = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 810 # Pass of Aeglin
+		
+		c_rivil_well = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_rivil_ethraid = {
+			}
+			b_dor_rivil = {
+			}
+			b_amon_ethraid = {
+			}		
+		}	
+		c_cil_anach = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_cil_anach = {
+			}
+			b_din_fuin = {
+			}
+			b_aglontaur = {
+			}		
+		}		
+		c_eryd_gorgoroth = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_eryd_gorgoroth = {
+			}
+			b_orodfuin = {
+			}
+			b_bair_gorgoroth = {
+			}		
+		}
+	}
+	
+	d_dorthonion = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 811 # Dorthonion
+		
+		c_dorthonion = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_beraid_angrod = {
+			}
+			b_dorthaun = {
+			}
+			b_osthon = {
+			}
+			b_bar_i_toss = {
+			}
+			b_minas_thonion = {
+			}			
+		}	
+		c_dunthaun = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_dunthaun = {
+			}
+			b_din_fuin = {
+			}
+			b_aglontaur = {
+			}		
+		}		
+		c_runthoniath = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_runthoniath = {
+			}
+			b_minthoniand = {
+			}
+			b_ostrunthon = {
+			}		
+		}
+	}	
+	
+	d_ladros = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 813 # Ladros
+		
+		c_aeluin = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_nin_aeluin = {
+			}
+			b_minas_aeluin = {
+			}
+			b_ostluin = {
+			}		
+		}	
+		c_ladros = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_ladros = {
+			}
+			b_baradros = {
+			}
+			b_ostdrun = {
+			}		
+		}
+	}
+}		
+
+
+k_march_of_maedhros = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 682 # Himring
+	
+	d_himring = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 682 # Himring
+		
+		c_fennas_aglon = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_aglon = {
+			}
+			b_baradlon = {
+			}
+			b_ost_in_aglon = {
+			}		
+		}	
+		c_himling = {
+			color={ 7 36 60 }
+			color2={ 255 255 255 }
+			
+			b_himling = {
+			}
+			b_minas_maedhros = {
+			}
+			b_caras_him = {
+			}
+			b_caras_aleth = {
+			}
+			b_minas_russandol = {
+			}
+			b_garth_nelyo = {
+			}			
+		}	
+		c_niben_gelion = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_niben_gelion = {
+			}
+			b_haranelyo = {
+			}
+			b_caraniben = {
+			}		
+		}
+	}
+	
+	d_marches_maedhros = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 815 # March of Maedhros
+		
+		c_march_maedhros = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_tirmaedhros = {
+			}
+			b_tirith_noldor = {
+			}
+			b_ost_i_pada = {
+			}		
+		}	
+		c_padadun = {
+			color={ 7 36 60 }
+			color2={ 255 255 255 }
+			
+			b_padadun = {
+			}
+			b_minastor = {
+			}
+			b_ostiriel = {
+			}		
+		}	
+		c_pinnath_himring = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_pinnath_himring = {
+			}
+			b_garth_himring = {
+			}
+			b_cararing = {
+			}		
+		}
+	}	
+}
+
+
+k_gap_of_maglor = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 682 # Himring
+	
+	d_din_maglor = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 816 # Dîn Maglor
+		
+		c_din_maglor = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_minas_maglor = {
+			}
+			b_dingarth = {
+			}
+			b_gobelaure = {
+			}	
+			b_ost_gandel = {
+			}
+			b_minas_minlamad = {
+			}
+			b_minas_lammen = {
+			}			
+		}	
+		c_thond_rerir = {
+			color={ 7 36 60 }
+			color2={ 255 255 255 }
+			
+			b_thond_rerir = {
+			}
+			b_garth_rerir = {
+			}
+			b_caras_rerir = {
+			}	
+		}	
+		c_tharb_gelion = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_tharb_gelion = {
+			}
+			b_minas_govad = {
+			}
+			b_ost_i_govad = {
+			}		
+		}
+	}
+}
+
+k_thargelion = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 878 # Dor Caranthir
+	
+	d_dor_caranthir = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 878 # Dor Caranthir
+		
+		c_helevorn = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_helevorn = {
+			}
+			b_garth_helevorn = {
+			}
+			b_tarn_helevorn = {
+			}				
+		}	
+		c_dor_caranthir = {
+			color={ 7 36 60 }
+			color2={ 255 255 255 }
+			
+			b_dol_caranthir = {
+			}
+			b_othrondir = {
+			}
+			b_gobel_caranthir = {
+			}	
+			b_minas_carnistir = {
+			}			
+		}	
+		c_morigelion = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_morigelion = {
+			}
+			b_dolmori = {
+			}	
+		}
+	}
+	
+	d_talath_runen = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 881 # Talath Runen
+		
+		c_dormoriand = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_dormoriand = {
+			}
+			b_morigarth = {
+			}
+			b_gobelmori = {
+			}				
+		}	
+		c_talath_rhunen = {
+			color={ 7 36 60 }
+			color2={ 255 255 255 }
+			
+			b_minas_rhunen = {
+			}
+			b_dor_ascar = {
+			}
+			b_ost_i_rhunen = {
+			}				
+		}	
+		c_anglennaug = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_anglennaug = {
+			}
+			b_barad_naugrim = {
+			}	
+			b_gobel_naugrim = {
+			}
+		}
+	}	
+}
+
+k_estolad = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 878 # Dor Caranthir
+	
+	d_forn_estolad = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 884 # Orchad Estolad
+		
+		c_orchad_estolad = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_minas_orchad = {
+			}
+			b_dor_estol = {
+			}
+			b_echad_amrod = {
+			}				
+		}
+		c_meneliand = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_meneliand = {
+			}
+			b_barad_menel = {
+			}
+			b_menelcara = {
+			}				
+		}	
+		c_odhelliand = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_odhelliand = {
+			}
+			b_minas_odhel = {
+			}
+			b_odhellost = {
+			}				
+		}		
+	}
+	
+	d_tofnestolad = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 888 # Gwelestol
+		
+		c_gwelestol = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_minas_gwelin = {
+			}
+			b_amrasost = {
+			}
+			b_echad_gwelin = {
+			}		
+			b_minas_amras = {
+			}					
+		}
+		c_rhuven_estolad = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_rhuven_estolad = {
+			}
+			b_bargelion = {
+			}			
+		}	
+		c_taurain_angol = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_taurain_angol = {
+			}
+			b_minas_angol = {
+			}
+			b_echadang = {
+			}				
+		}		
+	}	
+}
+
+k_himlad = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 890 # Nan Himlad
+	
+	d_himlad = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 890 # Nan Himlad
+		
+		c_nan_himlad = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_minas_himlad = {
+			}
+			b_minas_curufin = {
+			}
+			b_atarincost = {
+			}				
+		}
+		c_arossiach = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_aros_fords = {
+			}
+			b_minaross = {
+			}
+			b_siachost = {
+			}				
+		}
+		c_celoniand = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_celoniand = {
+			}
+			b_barad_celon = {
+			}
+			b_nin_i_celon = {
+			}				
+		}		
+	}
+}
+
+k_hithlum = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 817 ## Barad Eithel (Eithel Sirion)
+	
+	d_eithel_sirion = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 817 # Eithel Sirion
+		
+		c_eithel_sirion = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_barad_eithel = {
+			}
+			b_eithel_sirion = {
+			}
+			b_lorindol = {
+			}	
+			b_dor_fingon = {
+			}
+		}
+		c_fen_of_serech = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_fen_of_serech = {
+			}
+			b_barad_serech = {
+			}			
+		}
+		c_tol_sirion = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_tol_sirion = {
+			}
+			b_minas_tirith = {
+			}	
+			b_ostitir = {
+			}				
+		}		
+	}
+	d_mithrim = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 826 # Mithrim
+		
+		c_mithrim = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_mithrim  = {
+			}
+			b_minasrim = {
+			}
+			b_caras_mithrim = {
+			}				
+		}
+		c_ered_mithrim = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_ered_mithrim = {
+			}
+			b_mitherost = {
+			}			
+		}
+		c_nin_mithrim = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_nin_mithrim = {
+			}
+			b_cararim = {
+			}	
+			b_barad_fingolfin = {
+			}				
+		}		
+	}	
+	
+	d_hithlum = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 893 # Central Land
+		
+		c_rhunhithlum = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_runhelch  = {
+			}
+			b_ostirun = {
+			}			
+		}
+		c_ennor_hithlum = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_ennor_hithlum = {
+			}
+			b_ennorost = {
+			}			
+		}
+		c_hithludun = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_hithludun = {
+			}
+			b_dunarith = {
+			}					
+		}	
+		c_hithlum = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_minas_hithlum = {
+			}
+			b_caraslum = {
+			}					
+		}
+		c_orchallum = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_hithludun = {
+			}					
+		}		
+	}		
+}
+
+
+k_dorlomin = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 878 # Dor Caranthir
+	
+	d_dorlomin = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 837 # Caves of Angrod
+		
+		c_annon_y_gelydh = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_gate_of_noldor = {
+			}
+			b_minas_gelydh = {
+			}
+			b_gelydhost = {
+			}				
+		}
+		c_angroth = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_cave_of_angrod = {
+			}
+			b_minas_angroth = {
+			}
+			b_angrothost = {
+			}	
+		}
+		c_dorlomin = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_dorlomin = {
+			}
+			b_lomindor = {
+			}
+			b_lominost = {
+			}	
+		}	
+		c_amon_darthir = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_amon_darthir = {
+			}
+			b_nen_lalaith = {
+			}
+		}	
+		c_ered_withrin = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_minas_withrin = {
+			}
+			b_ered_withrin = {
+			}
+		}	
+	}
+}
+
+
+k_doriath = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }
+	
+	capital = 878 # Dor Caranthir
+	
+	d_nan_elmoth = {
+		color={ 236 236 236 }
+		color2={ 255 255 255 }
+		
+		capital = 883 # Nan Elmoth
+		
+		c_nan_elmoth = {
+			color={ 194 129 255 }
+			color2={ 255 255 255 }
+		
+			b_gladuial = {
+			}
+			b_minas_elmoth = {
+			}
+			b_tarn_helevorn = {
+			}				
+		}	
+	}
+}
+
+### Titular Titles ###
+
+## House of Beor ##
+k_beor = {
+	color={ 198 198 198 }
+	color2={ 125 125 142 }	
+}
+
+e_oath_of_feanor = {
+	color={ 182 41 41 }
+	color2={ 255 255 255 }	
+}
+	

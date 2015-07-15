@@ -1,0 +1,19 @@
+#Niben Gelion
+
+# County Title
+title = c_niben_gelion
+
+# Settlements
+max_settlements = 3
+
+b_niben_gelion = castle
+b_haranelyo = castle
+b_caraniben = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}
