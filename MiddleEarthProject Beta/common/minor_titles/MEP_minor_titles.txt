@@ -137,10 +137,11 @@ title_co_ruler = {
 	
 	allowed_to_hold = {
 		NOT = { has_minor_title = title_ruler_gondor }
+		}
 		allowed_to_grant = {
 		has_character_flag = coruler
 		is_feudal = yes
-		}
+		
 			ROOT = {
 			is_close_relative = FROM
 			}
