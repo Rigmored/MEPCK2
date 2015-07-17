@@ -5,7 +5,7 @@ guiTypes = {
 		name = "load_screen"
 		backGround =""
 		position = { x = 0 y = 0 }
-		size = { x = 1024 y = 768 }
+		size = { x = 1600 y = 800 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
@@ -18,6 +18,20 @@ guiTypes = {
 			name ="frame_bar_left_upper"
 			spriteType = "GFX_loadingscreen_bar_Left"
 			position = { x= 0 y = 100 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="frame_bar_left_upper_extension_1"
+			spriteType = "GFX_loadingscreen_bar_Left"
+			position = { x= 0 y = 674 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="frame_bar_left_upper_extension_2"
+			spriteType = "GFX_loadingscreen_bar_Left"
+			position = { x= 0 y = 1248 }
 			Orientation = "UPPER_LEFT"
 		}	
 		
@@ -36,17 +50,24 @@ guiTypes = {
 		}	
 		
 		iconType = {
+			name ="frame_bar_right_upper_extension_1"
+			spriteType = "GFX_loadingscreen_bar_Right"
+			position = { x= -67 y = 674 }
+			Orientation = "UPPER_RIGHT"
+		}
+		
+		iconType = {
+			name ="frame_bar_right_upper_extension_2"
+			spriteType = "GFX_loadingscreen_bar_Right"
+			position = { x= -67 y = 1248 }
+			Orientation = "UPPER_RIGHT"
+		}	
+		
+		iconType = {
 			name ="frame_bar_right_lower"
 			spriteType = "GFX_loadingscreen_bar_Right"
 			position = { x= -67 y = -668 }
 			Orientation = "LOWER_RIGHT"
-		}
-		
-		iconType = {
-			name ="frame_bar_upper_right"
-			spriteType = "GFX_loadingscreen_bar_Upper"
-			position = { x= -1107 y = -1 }
-			Orientation = "UPPER_RIGHT"
 		}	
 		
 		iconType = {
@@ -54,14 +75,28 @@ guiTypes = {
 			spriteType = "GFX_loadingscreen_bar_Upper"
 			position = { x= 81 y = -1 }
 			Orientation = "UPPER_LEFT"
-		}	
+		}
 		
 		iconType = {
-			name ="frame_bar_lower_right"
-			spriteType = "GFX_loadingscreen_bar_Lower"
-			position = { x= -1107 y = -82 }
-			Orientation = "LOWER_RIGHT"
-		}	
+			name ="frame_bar_upper_left_extension_1"
+			spriteType = "GFX_loadingscreen_bar_Upper"
+			position = { x= 1118 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="frame_bar_upper_left_extension_2"
+			spriteType = "GFX_loadingscreen_bar_Upper"
+			position = { x= 2155 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="frame_bar_upper_right"
+			spriteType = "GFX_loadingscreen_bar_Upper"
+			position = { x= -1107 y = -1 }
+			Orientation = "UPPER_RIGHT"
+		}		
 		
 		iconType = {
 			name ="frame_bar_lower_left"
@@ -70,8 +105,26 @@ guiTypes = {
 			Orientation = "LOWER_LEFT"
 		}	
 		
+		iconType = {
+			name ="frame_bar_lower_left_extension_1"
+			spriteType = "GFX_loadingscreen_bar_Lower"
+			position = { x= 1118 y = -82 }
+			Orientation = "LOWER_LEFT"
+		}
+
+		iconType = {
+			name ="frame_bar_lower_left_extension_2"
+			spriteType = "GFX_loadingscreen_bar_Lower"
+			position = { x= 2155 y = -82 }
+			Orientation = "LOWER_LEFT"
+		}			
 		
-		
+		iconType = {
+			name ="frame_bar_lower_right"
+			spriteType = "GFX_loadingscreen_bar_Lower"
+			position = { x= -1107 y = -82 }
+			Orientation = "LOWER_RIGHT"
+		}
 		
 		
 		iconType = {
