@@ -20,7 +20,10 @@ feudal_governments = {
 				controls_religion = yes
 				NOT = { religion_group = muslim }
 				NOT = { religion = norse_pagan_reformed }
+				
 			}
+			NOT = { religion = religion_wilderness }
+			NOT = { religion = easterlings }
 			NOT = {	religion_group = muslim	}
 			is_patrician = no
 		}
@@ -64,6 +67,7 @@ feudal_governments = {
 				NOT = { religion = norse_pagan_reformed }
 			}
 			religion_group = muslim
+			NOT = { religion = religion_wilderness }
 			is_patrician = no
 		}
 		
@@ -84,5 +88,5 @@ feudal_governments = {
 			tribal_government
 		}
 	}
-	
+
 }

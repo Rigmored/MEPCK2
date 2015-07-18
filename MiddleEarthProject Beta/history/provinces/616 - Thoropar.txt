@@ -6,8 +6,8 @@ title = c_thoropar
 # Settlements
 max_settlements = 5
 
-b_thoropar = castle
-b_ug_thoras = castle
+b_thoropar = tribal
+b_ug_thoras = tribal
 b_moriapor = city
 #b_karpataer = city
 #b_moravik = city

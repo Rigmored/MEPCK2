@@ -6,8 +6,8 @@ title = c_diluvuld
 # Settlements
 max_settlements = 5
 
-b_diluvuld = castle
-b_grodaroz = city
+b_diluvuld = tribal
+b_grodaroz = tribal
 #b_garduvuld = city
 #b_marushkraz = city
 #b_dilbisr = city

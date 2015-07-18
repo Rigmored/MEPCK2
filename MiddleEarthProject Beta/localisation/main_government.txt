@@ -1,0 +1,4 @@
+#CODE;ENGLISH;FRENCH;GERMAN;SPANISH;ITALIAN;x
+#Wilderness;;;;;;x
+wilderness_government;Wilderness;FRENCH;;;ITALIAN;x
+

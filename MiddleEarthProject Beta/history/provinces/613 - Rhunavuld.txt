@@ -6,8 +6,8 @@ title = c_rhunavuld
 # Settlements
 max_settlements = 5
 
-b_rhunavuld = castle
-b_othabuld = city
+b_rhunavuld = tribal
+b_othabuld = tribal
 #b_oldavolra = city 
 #b_groznya = city
 #b_rhoshavora = city
