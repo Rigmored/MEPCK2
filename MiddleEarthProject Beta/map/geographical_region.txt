@@ -11,3 +11,203 @@
 #	These groups are mutually exclusive on the same tier
 ###########################################################################
 
+#Rhovanion
+
+##Mirkwood
+
+world_rhovanion_mirkwood = {
+	duchies = {
+		d_mirkwood d_north_mirkwood d_emyn_lasgalen d_cell_angol d_emyn_guldur
+	}
+}
+
+#############
+
+
+
+#Mordor
+
+custom_gorgoroth = {
+	duchies = {
+		d_mordor d_north_gorgoroth
+	}
+}
+
+custom_nurn = {
+	duchies = {
+		d_lugskai d_nurn d_emyn_burzum
+	}
+}
+
+
+
+
+custom_mordor = {
+	regions = {
+		custom_gorgoroth custom_nurn
+	}
+}
+
+#############
+
+
+
+
+#Lindon
+
+custom_mithlond = {
+	duchies = {
+		d_mithlond
+	}
+}
+
+custom_harlindon = {
+	duchies = {
+		d_harlond d_laerglinn
+	}
+}
+
+custom_forlindon = {
+	duchies = {
+		d_forlond d_belegaer d_celanoriand
+	}
+}
+
+
+
+custom_lindon = {
+	regions = {
+		custom_mithlond custom_harlindon custom_forlindon
+	}
+}
+
+#############
+
+
+
+#Eriador
+
+
+##Angmar
+
+custom_angmar = {
+	duchies = {
+		d_nan_angmar d_carn_dum d_gorothlad
+	}
+}
+
+
+##Forochel
+
+custom_forochel = {
+	duchies = {
+		d_forochel
+	}
+}
+
+
+##Numeriador
+
+custom_numeriador = {
+	duchies = {
+		d_numeriador
+	}
+}
+
+
+##Arnor
+
+###Arthedain
+
+custom_tower_lands = {
+	duchies = {
+		d_hobbitwestmarch d_brandyvale d_siragale
+	}
+}
+
+custom_the_farthings = {
+	duchies = {
+		d_east_farthing d_south_farthing d_west_farthing d_north_farthing
+	}
+}
+
+custom_lands_of_evendim = {
+	duchies = {
+		d_noirinanyar d_formenyar d_evendim d_brethyar
+	}
+}
+
+custom_emyn_fornrim = {
+	duchies = {
+		d_weather_hills d_bree-land d_fornost
+	}
+}
+
+custom_arthedain = {
+	regions = {
+		custom_tower_lands custom_the_farthings custom_lands_of_evendim custom_emyn_fornrim
+	}
+}
+
+###Cardolan
+
+custom_minhiarath = {
+	duchies = {
+		d_minhiarath d_saralain d_girithlin
+	}
+}
+
+custom_south_downs = {
+	duchies = {
+		d_tyrn_gorthad d_dol_caladir d_dol_tiinereb d_faerdor
+	}
+}
+
+custom_cardolan = {
+	regions = {
+		custom_minhiarath custom_south_downs
+	}
+}
+
+###Rhudaur
+
+custom_trollshaws = {
+	duchies = {
+		d_melosse d_rhudaur d_eredoriath
+	}
+}
+
+custom_ettenmoors = {
+	duchies = {
+		d_eldenaryar d_magillos
+	}
+}
+
+custom_rhudaur = {
+	regions = {
+		custom_trollshaws custom_ettenmoors
+	}
+}
+
+world_eriador_arnor = {
+	regions = {
+		custom_arthedain custom_cardolan custom_rhudaur
+	}
+}
+
+
+
+world_eriador = {
+	regions = {
+		custom_numeriador custom_forochel custom_angmar world_eriador_arnor
+	}
+}
+
+#############
+
+
+
+
+
+
+
