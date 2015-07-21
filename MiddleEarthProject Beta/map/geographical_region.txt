@@ -79,7 +79,7 @@ custom_gorgoroth = {
 
 custom_nurn = {
 	duchies = {
-		d_lugskai d_nurn d_emyn_burzum
+		d_lugskai d_nurn d_emyn_burzum d_neburkha
 	}
 }
 
@@ -236,5 +236,84 @@ world_eriador_arnor = {
 world_eriador = {
 	regions = {
 		custom_numeriador custom_forochel custom_angmar world_eriador_arnor
+	}
+}
+
+#############
+
+
+
+#Enedwaith
+
+
+##Vales of the Isen
+
+
+custom_vales_isen = {
+	duchies = {
+		d_isenmarch
+	}
+	counties = {
+		c_isenvale
+	}
+}
+
+
+##Barren Coastlands
+
+custom_barren_coastlands = {
+	counties = {
+		c_angren c_gwathlo_mouth c_carras
+	}
+}
+
+
+##The Gwathlo Shores
+
+custom_gwathlo_shores = {
+	counties = {
+		c_north_central_enedwaith c_gwathlo_basin c_gwathlo_vale c_swanfleet
+	}
+}
+
+
+##Greenlands of the Bruinen
+
+custom_bruinen_greenlands = {
+	duchies = {
+		d_eregion
+	}
+}
+
+
+##Foothills of the Misty Mountains
+
+custom_misty_foothills = {
+	duchies = {
+		d_dunland_north d_dunland_south
+	}
+	counties = {
+		c_south_eregio c_middle_eregion
+	}
+}
+
+
+##The Wild Fenlands
+
+custom_wild_fenlands = {
+	duchies = {
+		d_enedwaith
+	}
+	counties = {
+		c_bhainnan c_wredech c_cairill c_south_daelmoth c_west_enedwaith
+	}
+}
+
+
+
+world_enedwaith = {
+	regions = {
+		custom_vales_isen custom_barren_coastlands custom_gwathlo_shores
+		custom_bruinen_greenlands custom_misty_foothills custom_wild_fenlands
 	}
 }
