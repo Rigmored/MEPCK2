@@ -169,13 +169,13 @@ custom_the_farthings = {
 
 custom_lands_of_evendim = {
 	duchies = {
-		d_noirinanyar d_formenyar d_evendim d_brethyar
+		d_noirinanyar d_evendim d_brethyar
 	}
 }
 
 custom_emyn_fornrim = {
 	duchies = {
-		d_weather_hills d_bree-land d_fornost
+		d_weather_hills d_bree-land d_fornost d_formenyar
 	}
 }
 
