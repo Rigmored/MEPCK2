@@ -272,7 +272,7 @@ custom_barren_coastlands = {
 
 custom_gwathlo_shores = {
 	counties = {
-		c_north_central_enedwaith c_gwathlo_basin c_gwathlo_vale c_swanfleet
+		c_south_daelmoth c_gwathlo_basin c_gwathlo_vale c_swanfleet
 	}
 }
 
@@ -305,7 +305,7 @@ custom_wild_fenlands = {
 		d_enedwaith
 	}
 	counties = {
-		c_bhainnan c_wredech c_cairill c_south_daelmoth c_west_enedwaith
+		c_bhainnan c_wredech c_cairill c_north_central_enedwaith c_west_enedwaith
 	}
 }
 
