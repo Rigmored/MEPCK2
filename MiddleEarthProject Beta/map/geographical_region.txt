@@ -1,4 +1,4 @@
-# Geographical regions
+# Geographical regions 
 # Regions can be declared with one or more of the following fields:
 #	duchies = { }, takes duchy title names declared in landed_titles.txt
 #	counties = { }, takes county title names declared in landed_titles.txt
@@ -21,9 +21,53 @@ world_rhovanion_mirkwood = {
 	}
 }
 
-#############
+## South - Harad and Anadune
+world_south = {
+	duchies = {
+		d_kajbah d_chelkar d_ilaz d_amrun d_haruzan d_akhor d_pharaz d_mikarin d_parzee d_ovathrac d_lurmsakun d_brafenas d_arysis d_anrkaz d_belabar d_isra d_dusalan d_umbar d_caldur d_mardruak d_kes_arik d_ashatur d_laergaladrin d_mirlond d_amonost d_east_march d_harnen
+	}
+}
 
+## East - Rhun, Wainriders, Khand, Avari, Eastern Dwarves
+world_east = {
+	duchies = {
+		d_rhun d_sagathavuld d_gathod d_agasha_dag d_khand d_laorki d_ubesesh d_nurad d_harmal d_zirakdum d_stonefoot c_uluimur
+	}
+}
 
+###########################################################################
+# Custom Regions
+###########################################################################
+
+custom_harondor = {
+	duchies = {
+		d_laergaladrin d_mirlond d_amonost d_east_march d_harnen
+	}
+}
+
+custom_bellakar = {
+	duchies = {
+		d_mardruak d_kes_arik d_ashatur
+	}
+}
+
+custom_umbar = {
+	duchies = {
+		d_dusalan d_umbar d_caldur
+	}
+}
+
+custom_khand = {
+	duchies = {
+		d_khand d_laorki d_ubesesh
+	}
+}
+
+custom_anadune = {
+	duchies = {
+		d_dusalan d_umbar d_caldur d_mardruak d_kes_arik d_ashatur
+	}
+}
 
 #Mordor
 
@@ -39,19 +83,11 @@ custom_nurn = {
 	}
 }
 
-
-
-
 custom_mordor = {
 	regions = {
 		custom_gorgoroth custom_nurn
 	}
 }
-
-#############
-
-
-
 
 #Lindon
 
@@ -202,12 +238,3 @@ world_eriador = {
 		custom_numeriador custom_forochel custom_angmar world_eriador_arnor
 	}
 }
-
-#############
-
-
-
-
-
-
-

@@ -1,0 +1,44 @@
+#CODE;ENGLISH;FRENCH;GERMAN;SPANISH;ITALIAN;x
+#World
+world_south;Southern Middle-Earth;FRE;;;;;x
+world_east;Eastern Middle-Earth;FRE;;;;;x
+world_rhovanion_mirkwood;Mirkwood;FRE;;;;;x
+#Harondor
+custom_harondor;Harondor;Harondor;;;;;x
+#Bellakar
+custom_bellakar;Bellakar;Bellakar;;;;;x
+#Umbar
+custom_umbar;Umbar;Umbar;;;;;x
+#Khand
+custom_khand;Khand;Khand;;;;;x
+#Anadûnê
+custom_anadune;Anadûnê;Anadûnê;;;;;x
+#Mordor
+custom_gorgoroth;Gorgoroth;Gorgoroth;;;;;x
+custom_nurn;Nurn;Nurn;;;;;x
+custom_mordor;Mordor;Mordor;;;;;x
+#Lindon
+custom_mithlond;Mithlond;Mithlond;;;;;x
+custom_harlindon;Harlindon;Harlindon;;;;;x
+custom_forlindon;Forlindon;Forlindon;;;;;x
+custom_lindon;Lindon;Lindon;;;;;x
+#Angmar
+custom_angmar;Angmar;Angmar;;;;;x
+#Forochel
+custom_forochel;Forochel;Forochel;;;;;x
+#Numeriador
+custom_numeriador;Numeriador;Numeriador;;;;;x
+#Arnor
+custom_tower_lands;Tower Lands;FRE;;;;;x
+custom_the_farthings;The Farthings;FRE;;;;;x
+custom_lands_of_evendim;Lands of Evendim;FRE;;;;;x
+custom_emyn_fornrim;Emyn Fornrim;Emyn Fornrim;;;;;x
+custom_arthedain;Arthedain;Arthedain;;;;;x
+custom_minhiarath;Minhiriath;Minhiriath;;;;;x
+custom_south_downs;South Downs;FRE;;;;;x
+custom_cardolan;Cardolan;FRE;;;;;x
+custom_trollshaws;Trollshaws;FRE;;;;;x
+custom_ettenmoors;Ettenmoors;FRE;;;;;x
+custom_rhudaur;Rhudaur;Rhudaur;;;;;x
+world_eriador_arnor;Arnor;Arnor;;;;;x
+world_eriador;Eriador;Eriador;;;;;x
