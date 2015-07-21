@@ -189,7 +189,7 @@ custom_arthedain = {
 
 custom_minhiarath = {
 	duchies = {
-		d_minhiarath d_saralain d_girithlin
+		d_minhiriath d_saralainn d_girithlin
 	}
 }
 
