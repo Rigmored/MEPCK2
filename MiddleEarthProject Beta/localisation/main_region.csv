@@ -22,23 +22,45 @@ custom_mithlond;Mithlond;Mithlond;;;;;x
 custom_harlindon;Harlindon;Harlindon;;;;;x
 custom_forlindon;Forlindon;Forlindon;;;;;x
 custom_lindon;Lindon;Lindon;;;;;x
+
+### ERIADOR ###
 #Angmar
 custom_angmar;Angmar;Angmar;;;;;x
 #Forochel
 custom_forochel;Forochel;Forochel;;;;;x
 #Numeriador
 custom_numeriador;Numeriador;Numeriador;;;;;x
-#Arnor
+#Arthedain
 custom_tower_lands;Tower Lands;FRE;;;;;x
 custom_the_farthings;The Farthings;FRE;;;;;x
 custom_lands_of_evendim;Lands of Evendim;FRE;;;;;x
 custom_emyn_fornrim;Emyn Fornrim;Emyn Fornrim;;;;;x
 custom_arthedain;Arthedain;Arthedain;;;;;x
+#Cardolan
 custom_minhiarath;Minhiriath;Minhiriath;;;;;x
 custom_south_downs;South Downs;FRE;;;;;x
 custom_cardolan;Cardolan;FRE;;;;;x
+#Rhudaur
 custom_trollshaws;Trollshaws;FRE;;;;;x
 custom_ettenmoors;Ettenmoors;FRE;;;;;x
 custom_rhudaur;Rhudaur;Rhudaur;;;;;x
+##Arnor
 world_eriador_arnor;Arnor;Arnor;;;;;x
+###Eriador
 world_eriador;Eriador;Eriador;;;;;x
+
+### ENEDWAITH ###
+#Vales of the Isen
+custom_vales_isen;Vales of the Isen;FRE;;;;;x
+#Barren Coastlands
+custom_barren_coastlands;Barren Coastlands;FRE;;;;;x
+#The Gwathlo Shores
+custom_gwathlo_shores;The Gwathlo Shores;FRE;;;;;x
+#Greenlands of the Bruinen
+custom_bruinen_greenlands;Greenlands of the Bruinen;FRE;;;;;x
+#Foothills of the Misty Mountains
+custom_misty_foothills;Foothills of the Misty Mountains;FRE;;;;;x
+#The Wild Fenlands
+custom_wild_fenlands;The Wild Fenlands;FRE;;;;;x
+###Enedwaith
+world_enedwaith;Enedwaith;Enedwaith;;;;;x

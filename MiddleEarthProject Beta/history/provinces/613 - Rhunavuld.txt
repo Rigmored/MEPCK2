@@ -7,10 +7,10 @@ title = c_rhunavuld
 max_settlements = 5
 
 b_rhunavuld = tribal
-b_othabuld = tribal
-#b_oldavolra = city 
-#b_groznya = city
-#b_rhoshavora = city
+#b_othabuld =
+#b_oldavolra = 
+#b_groznya = 
+#b_rhoshavora = 
 
 # Misc
 culture = culture_wainriders

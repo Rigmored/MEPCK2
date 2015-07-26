@@ -31,6 +31,7 @@ nomadic_governments = {
 			}
 			is_patrician = no
 			NOT = { religion = religion_wilderness }
+			religion = religion_easterlings
 			mercenary = no
 			holy_order = no
 		}

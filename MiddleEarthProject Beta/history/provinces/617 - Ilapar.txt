@@ -7,10 +7,10 @@ title = c_ilapar
 max_settlements = 5
 
 b_ilapar = tribal
-b_sibavirol = tribal
-#b_pulvuld = city
-#b_burh_moshareva = city
-#b_mergutov = city
+#b_sibavirol = 
+#b_pulvuld = 
+#b_burh_moshareva =
+#b_mergutov = 
 
 # Misc
 culture = culture_wainriders
