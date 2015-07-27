@@ -376,7 +376,7 @@ character_event = {
 	}
 }		
 
-##Now to kill any Maiar that is below the age of 100 - killing was buggy, change culture instead##
+##Now to kill any Wight that is below the age of 100 - killing was buggy, change culture instead##
 character_event = {
     id = maiarkiller.4
     title = "EVTTITmaiarkiller.4"#You are orcish
@@ -430,5 +430,33 @@ character_event = {
 	
 	option = {
         name = "EVTOPTAmaiarkiller.5"#Goodbye, cruel world!
+    }
+}
+
+##Now to kill any wilderness who is landless ##
+character_event = {
+    id = maiarkiller.6
+    title = "EVTTITmaiarkiller.6"#You are wilderness
+    desc = "EVTDESCmaiarkiller.6"#Wilderness are not meant to be landless
+    picture = "GFX_good"
+	age = 16
+	
+	trigger = {
+		religion = religion_wilderness
+		is_ruler = no
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+        death = {
+		    death_reason = death_murder
+		}
+    }
+	
+	option = {
+        name = "EVTOPTAmaiarkiller.6"#Goodbye, cruel world!
     }
 }
