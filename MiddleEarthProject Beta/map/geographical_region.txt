@@ -39,6 +39,8 @@ world_east = {
 # Custom Regions
 ###########################################################################
 
+##Harondor (Southern Gondor)
+
 custom_harondor = {
 	duchies = {
 		d_laergaladrin d_mirlond d_amonost d_east_march d_harnen
@@ -317,3 +319,95 @@ world_enedwaith = {
 		custom_bruinen_greenlands custom_misty_foothills custom_wild_fenlands
 	}
 }
+
+#############
+
+#Gondor
+
+##Anórien
+
+custom_anorien = {
+	duchies = {
+		d_royal_demesne d_danorien d_lossarnach d_entyn-i-onodlo
+	}
+}
+
+##Lebennin
+
+custom_lebennin = {
+	duchies = {
+		d_arnach d_pelargir d_celosien d_lebennivet d_gilrain
+	}
+}
+
+##Belfalas
+
+custom_belfalas = {
+	duchies = {
+		d_dudhrandir d_vilyatil-merhast d_dol_amroth d_tolfalas
+	}
+}
+
+##Ithilien
+
+custom_ithilien = {
+	duchies = {
+		d_nindalf d_north_ithilduin d_emyn_arnen d_south_ithilduin
+	}
+}
+
+##Andrast
+
+custom_andrast = {
+	duchies = {
+		d_outer_andrast d_inner_andrast 
+	}
+}
+
+##Anfalas
+
+custom_anfalas = {
+	duchies = {
+		d_anfalas d_edhellond 
+	}
+}
+
+##Pinnath_gelin
+
+custom_pinnath_gelin = {
+	duchies = {
+		d_west_pinnath d_east_pinnath
+	}
+}
+
+##Lamedon
+
+custom_lamedon = {
+	duchies = {
+		d_ringlo_vale d_mornan
+	}
+}
+
+###
+
+world_gondor = {
+	regions = {
+		custom_anorien custom_lebennin custom_belfalas custom_ithilien
+		custom_andrast custom_anfalas custom_pinnath_gelin custom_lamedon
+	}
+}
+
+#############
+
+#Rohan and areas around it
+
+##Rohan (Includes Fangorn, because it's too small to justify it's own region)
+
+custom_rohan = {
+	duchies = {
+		d_eastfolde d_kings_land d_celebrant d_westfolde d_westmarch
+		d_west_emnet d_east_emnet d_the_wold d_fangorn
+	}
+}
+
+
