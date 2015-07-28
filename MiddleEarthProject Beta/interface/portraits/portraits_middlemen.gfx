@@ -36,7 +36,7 @@ spriteTypes = {
 			"GFX_empty:p3:c4"
 			"GFX_rohirric_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 	hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -89,7 +89,7 @@ spriteTypes = {
 			"GFX_empty:p3:c4"
 			"GFX_rohirric_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -139,7 +139,7 @@ spriteTypes = {
 			"GFX_empty:p3:c4"
 			"GFX_rohirric_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -198,7 +198,7 @@ spriteTypes = {
 			"GFX_empty:p3:c4"									#19
 			"GFX_western_female_headgear:p5:c5"                 #20
 			"GFX_character_imprisoned:p6"                       #21
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -248,7 +248,7 @@ spriteTypes = {
 			"GFX_empty:p3:c4"
 			"GFX_rohirric_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -298,7 +298,7 @@ spriteTypes = {
 			"GFX_empty:p3:c4"
 			"GFX_rohirric_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		
@@ -1033,7 +1033,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_rhovanion_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 	hair_color_index = 8
 		hair_color = { # dark, base, highlight
@@ -1086,7 +1086,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_rhovanion_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -1136,7 +1136,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_rhovanion_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -1191,7 +1191,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_rhovanion_female_headgear:p5:c5"                    #20
 			"GFX_character_imprisoned:p6"                       #21
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -1241,7 +1241,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_rhovanion_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -1291,7 +1291,7 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_rhovanion_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		

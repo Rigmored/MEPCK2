@@ -35,7 +35,7 @@ spriteTypes = {
 			"GFX_empty:p9"
 			"GFX_empty:p10"
 			"GFX_character_imprisoned:p6"	
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -89,7 +89,7 @@ spriteTypes = {
 			"GFX_empty:p9"
 			"GFX_empty:p10"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -144,7 +144,7 @@ spriteTypes = {
 			"GFX_empty:p9"
 			"GFX_empty:p10"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -201,7 +201,7 @@ spriteTypes = {
 			"GFX_empty:p9"
 			"GFX_empty:p10"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -253,7 +253,7 @@ spriteTypes = {
 			"GFX_empty:p9"
 			"GFX_empty:p10"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -306,7 +306,7 @@ spriteTypes = {
 			"GFX_empty:p9"
 			"GFX_empty:p10"
 			"GFX_character_imprisoned:p6"
-			"GFX_player_overlay:p11"			
+			"GFX_empty:p11"			
 		}
 
 		hair_color_index = 8
