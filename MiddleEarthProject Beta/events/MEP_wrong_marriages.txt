@@ -15,7 +15,7 @@ character_event = {
 		ROOT = {
 			culture_group = culture_group_dwarves
 		}
-		NOT = { has_character_flag = wrongmarriage1 }
+		NOT = { has_character_flag = wrongmarriage }
 	}
 	
 	mean_time_to_happen = { days = 1 }
@@ -54,7 +54,7 @@ character_event = {
 		ROOT = {
 			trait = elf
 		}
-		NOT = { has_character_flag = wrongmarriage1 }
+		NOT = { has_character_flag = wrongmarriage }
 		NOT = { has_character_flag = elfhumanmarriage }
 	}
 	
@@ -95,7 +95,7 @@ character_event = {
 		ROOT = {
 			trait = orkish
 		}
-		NOT = { has_character_flag = wrongmarriage1 }
+		NOT = { has_character_flag = wrongmarriage }
 		NOT = { has_character_flag = orchumanmarriage }
 	}
 	
@@ -136,7 +136,7 @@ character_event = {
 		ROOT = {
 			trait = wight
 		}
-		NOT = { has_character_flag = wrongmarriage1 }
+		NOT = { has_character_flag = wrongmarriage }
 		NOT = { has_character_flag = orchumanmarriage }
 	}
 	
