@@ -435,6 +435,31 @@ tribal = {
 	land_organisation = 0.2
 }
 
+
+nomad = {
+	tax_income = 0
+	fort_level = 1
+	levy_size = -3
+	light_infantry = 160
+	heavy_infantry = 40
+	levy_reinforce_rate = 0
+	land_organisation = 0
+}
+
+fort = {
+	tax_income = 0
+	fort_level = 2
+	levy_size = 0
+	build_cost_modifier = 20
+	build_time_modifier = 20
+	light_infantry = 30
+	heavy_infantry = 75
+	light_cavalry = 7
+	levy_reinforce_rate = 2
+	land_organisation = 0.2
+}
+
+
 ##########################################################################
 # Culture Static Modifiers
 ##########################################################################
