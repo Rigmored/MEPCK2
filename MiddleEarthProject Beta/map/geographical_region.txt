@@ -39,14 +39,6 @@ world_east = {
 # Custom Regions
 ###########################################################################
 
-##Harondor (Southern Gondor)
-
-custom_harondor = {
-	duchies = {
-		d_laergaladrin d_mirlond d_amonost d_east_march d_harnen
-	}
-}
-
 custom_bellakar = {
 	duchies = {
 		d_mardruak d_kes_arik d_ashatur
@@ -356,6 +348,14 @@ custom_ithilien = {
 	}
 }
 
+##Harondor (Southern Gondor)
+
+custom_harondor = {
+	duchies = {
+		d_laergaladrin d_mirlond d_amonost d_east_march d_harnen
+	}
+}
+
 ##Andrast
 
 custom_andrast = {
@@ -392,7 +392,7 @@ custom_lamedon = {
 
 world_gondor = {
 	regions = {
-		custom_anorien custom_lebennin custom_belfalas custom_ithilien
+		custom_anorien custom_lebennin custom_belfalas custom_ithilien custom_harondor
 		custom_andrast custom_anfalas custom_pinnath_gelin custom_lamedon
 	}
 }
@@ -410,4 +410,52 @@ custom_rohan = {
 	}
 }
 
+#############
+
+#Mountains
+
+##The Grey Mountains
+
+custom_grey_mountains = {
+	duchies = {
+		d_grey_mountains
+	}
+}
+
+##The Misty Mountains
+
+custom_misty_mountains = {
+	duchies = {
+		d_thror_combe d_moria d_misty_mountains d_pass_of_eagles
+	}
+}
+
+##Erebor is only one province
+
+##Northern Misty Mountains
+
+custom_northern_misty_mountains = {
+	duchies = {
+		d_gram
+	}
+	counties = {
+		c_gundabad
+	}
+}
+
+##The Iron Mountains
+
+custom_iron_mountains = {
+	duchies = {
+		d_iron_mountains
+	}
+}
+
+##The Blue Mountains
+
+custom_blue_mountains = {
+	duchies = {
+		d_north_luin d_south_luin
+	}
+}
 
