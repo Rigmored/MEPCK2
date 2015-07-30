@@ -64,3 +64,26 @@ custom_misty_foothills;Foothills of the Misty Mountains;FRE;;;;;x
 custom_wild_fenlands;The Wild Fenlands;FRE;;;;;x
 ###Enedwaith
 world_enedwaith;Enedwaith;Enedwaith;;;;;x
+
+### GONDOR ###
+#Anorien
+custom_anorien;Anórien;Anórien;;;;;x
+#Lebennin
+custom_lebennin;Lebennin;Lebennin;;;;;x
+#Belfalas
+custom_belfalas;Belfalas;Belfalas;;;;;x
+#Ithilien
+custom_ithilien;Ithilien;Ithilien;;;;;x
+#Andrast
+custom_andrast;Andrast;Andrast;;;;;x
+#Anfalas
+custom_anfalas;Anfalas;Anfalas;;;;;x
+#Pinnath Gelin
+custom_pinnath_gelin;Pinnath Gelin;Pinnath Gelin;;;;;x
+#Lamedon
+custom_lamedon;Lamedon;Lamedon;;;;;x
+###Gondor
+world_gondor;Gondor;Gondor;;;;;x
+
+### ROHAN ###
+custom_rohan;Rohan;Rohan;;;;;x

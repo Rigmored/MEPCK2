@@ -444,6 +444,9 @@ character_event = {
 	trigger = {
 		religion = religion_wilderness
 		is_ruler = no
+		year = 11361
+		NOT = { year = 11362 }
+		NOT = { has_global_flag = wilderness_cull }
 	}
 	
 	mean_time_to_happen = {
@@ -454,6 +457,7 @@ character_event = {
         death = {
 		    death_reason = death_murder
 		}
+		set_global_flag = wilderness_cull
     }
 	
 	option = {

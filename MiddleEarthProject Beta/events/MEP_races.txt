@@ -190,6 +190,32 @@ character_event = {
 		remove_trait =selfish
 		remove_trait =light_foot_leader
 		remove_trait =heavy_infantry_leader
+		remove_trait =administrator
+		remove_trait =architect
+		remove_trait =strategist
+		remove_trait =socializer
+		remove_trait =schemer
+		remove_trait =theologian
+		remove_trait =gamer
+		remove_trait =numenorean
+		remove_trait =animal_lover
+		remove_trait =nature_lover
+		remove_trait =torturer
+		remove_trait =blood_thirsty
+		remove_trait =good_speaker
+		remove_trait =wizard_friend
+		remove_trait =animal_tongue
+		remove_trait =gold_fewer
+		remove_trait =dreamer
+		remove_trait =resolute_leader
+		remove_trait =elf_friend
+		remove_trait =dwarf_friend
+		remove_trait =hobbit_friend
+		remove_trait =pipe_smoker
+		remove_trait =warg_breeder
+		remove_trait =empathic
+		remove_trait =scholar
+		wealth = -100
 	}
 }
 
