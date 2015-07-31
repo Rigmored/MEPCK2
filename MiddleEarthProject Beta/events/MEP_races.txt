@@ -197,7 +197,6 @@ character_event = {
 		remove_trait =schemer
 		remove_trait =theologian
 		remove_trait =gamer
-		remove_trait =numenorean
 		remove_trait =animal_lover
 		remove_trait =nature_lover
 		remove_trait =torturer

@@ -942,10 +942,11 @@ castle = {
 		fort_level = 4.4
 		garrison_size = 2.50
 		heavy_infantry = 500
-		archers = 1000
+		pikemen = 1500
+		archers = 1500
 		ai_creation_factor = 100
         	potential = {
-            		province_id = 323 #thranduil#
+            		FROMFROM = { has_landed_title = b_king_thranduil_hall }
 		}
 	}
 
@@ -977,10 +978,11 @@ castle = {
 		garrison_size = 2.00
 		heavy_infantry = 1250
 		archers = 1000
+		light_infantry = 1000
 		horse_archers = 250
 		ai_creation_factor = 86
         	potential = {
-            		province_id = 235 #Lorien
+            		FROMFROM = { has_landed_title = b_house_of_celeborn }
 		}
 	}	
 }

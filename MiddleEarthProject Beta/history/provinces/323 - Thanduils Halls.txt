@@ -51,6 +51,7 @@ religion = religion_moriquendi
 			b_king_thranduil_hall = ca_healing
 			b_king_thranduil_hall = ca_paved_road_3
 			b_king_thranduil_hall = ca_great_route_4 
+			b_king_thranduil_hall = ca_thranduil
 
 				b_green_halls = ca_Swall_1
 				b_green_halls = ca_Swall_2 

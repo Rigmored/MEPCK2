@@ -1,12 +1,15 @@
 on_startup = {
 	events = {
 		toggle_startup.0
+		population.0
 	}
 }
 
 #character
 on_yearly_pulse = {
 	events = {
+	#MEP events
+	population.3
 	}
 	random_events = {
 		
@@ -380,7 +383,7 @@ on_bi_yearly_pulse = {
 		10 = 3685
 		10 = 3690
 		10 = 3700
-		
+
 		2000 = 0 # Chance of no bi-yearly event
 	}
 }

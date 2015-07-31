@@ -433,8 +433,9 @@ tribal = {
 	archers = 20
 	levy_reinforce_rate = 1.5
 	land_organisation = 0.2
+	build_cost_modifier = 25 # cost per empty holding slot
+	build_time_modifier = 365
 }
-
 
 nomad = {
 	tax_income = 0
@@ -458,7 +459,6 @@ fort = {
 	levy_reinforce_rate = 2
 	land_organisation = 0.2
 }
-
 
 ##########################################################################
 # Culture Static Modifiers

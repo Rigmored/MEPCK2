@@ -764,11 +764,13 @@ city = {
 		gold_cost = 150
 		build_time = 1460 #4y
 		fort_level = 2.0
-		galleys = 10
+		galleys = 100
+		light_infantry = 500
+		archers = 500
 		tax_income = 5
 		ai_creation_factor = 86
         	potential = {
-            		province_id = 18 #Pelargir
+            		FROMFROM = { has_landed_title = b_pelargir }
             	}
 	}		
 	ct_numenorean3 = { #Numenorean Walls#

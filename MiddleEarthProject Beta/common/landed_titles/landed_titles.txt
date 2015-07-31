@@ -7964,10 +7964,10 @@ e_durins_folk = {
 		        
 				culture_wilderness = "Dimrill Dale"
 				
-				b_azanulbizar-dûm = {
+				b_azanulbizar-dum = {
 					culture_wilderness = "Dimrill"
 				}
-				b_kheled-zâram-dûm = {
+				b_kheled-zaram-dum = {
 					culture_wilderness = "Mirrormere"
 				}
 			}
@@ -8175,18 +8175,16 @@ k_aglarond = {
 	color={ 121 172 40 }
 	color2={ 125 125 142 }
 	
-	capital = 323
+	capital = 670 #Glittering Caves
 	
 	culture = culture_longbeard
     religion = religion_mahal
-	
-	religion_moriquendi = 100 # Crusade target weight
-	
+
 	d_aglarond = {
 	    color={ 145 145 106 }
 		color2={ 255 255 255 }
 	      
-		capital = 310 #Amon Lanc
+		capital = 670 #Glittering Caves
 		
 		culture = culture_longbeard
 		religion = religion_mahal
@@ -8281,13 +8279,13 @@ k_mirkwood = {
 		
 			b_taeg_din = {
 			}
-			b_gelir_hûb = {
+			b_gelir_hub = {
 			}
 			b_gobel_gorf = {
 			}
-			b_gobel_tîn = {
+			b_gobel_tin = {
 			}
-			b_maeg_thôn = {
+			b_maeg_thon = {
 			}
 		}
 		c_north_west_mirkwood = {
@@ -8379,7 +8377,7 @@ k_mirkwood = {
 			color={ 76 88 101 }
 			color2={ 255 255 255 }
 		
-			b_rad_angálaladh = {
+			b_rad_angalaladh = {
 			}
 			b_narrowford = {
 			}
@@ -8503,7 +8501,7 @@ k_dol_guldur = {
 				culture_group_melkor = "Dol Guldur"
 				culture_maiar = "Dol Guldur"
 			}
-			b_sammath_gûl = {
+			b_sammath_gul = {
 			}
 			b_barad_guldur = {
 			}
@@ -8539,11 +8537,11 @@ k_dol_guldur = {
 			}
 			b_toss_iaur = {
 			}
-			b_calendôl = {
+			b_calendol = {
 			}
 			b_gwathradaw = {
 			}
-			b_doll_ûl = {
+			b_doll_ul = {
 			}
 		}
 		c_south_north_east_mirkwood = {
@@ -8552,7 +8550,7 @@ k_dol_guldur = {
 		
 			b_imlad_aras = {
 			}
-			b_gwaur_dû = {
+			b_gwaur_du = {
 			}
 			b_glamdel = {
 			}
@@ -8584,9 +8582,9 @@ k_dol_guldur = {
 			}
 			b_amon_asgal = {
 			}
-			b_agor_gûl = {
+			b_agor_gul = {
 			}
-			b_ara_dúlinn = {
+			b_ara_dulinn = {
 			}
 			b_dul_gald = {
 			}

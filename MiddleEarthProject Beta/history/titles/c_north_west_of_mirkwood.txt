@@ -84,3 +84,12 @@ holder = 9043 # Léod
 holder = 0
 liege = 0
 }
+
+11322.1.1=
+{
+holder =  340 # Grimbeorn the Old
+}
+11385.1.1=
+{
+holder =  341 # Sterkist
+}

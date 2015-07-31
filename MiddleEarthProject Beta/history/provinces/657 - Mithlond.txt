@@ -63,6 +63,7 @@ religion = religion_moriquendi
 			b_mithlond = ca_healing
 			b_mithlond = ca_paved_road_3
 			b_mithlond = ca_great_route_4
+			b_mithlond = ca_grey_havens_desc
 
 				b_cirbanil = ct_Vwall_1 
 				b_cirbanil = ct_Vwall_2 

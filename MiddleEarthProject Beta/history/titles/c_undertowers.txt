@@ -90,3 +90,8 @@ liege = d_hobbitwestmarch
 {
 holder = 8163 # Elfstan
 }
+
+11300.1.1={
+holder = 8177
+liege=k_shire
+}

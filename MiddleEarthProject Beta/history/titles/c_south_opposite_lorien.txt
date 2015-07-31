@@ -156,3 +156,11 @@ holder = 9204 # Tacsony
 {
 holder = 9205 # Orban
 }
+11322.1.1=
+{
+holder =  340 # Grimbeorn the Old
+}
+11385.1.1=
+{
+holder =  341 # Sterkist
+}

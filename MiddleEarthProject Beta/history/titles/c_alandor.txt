@@ -80,6 +80,12 @@ holder = 2512 # Romendur
 holder = 0
 liege  = 0
 }
+
+11301.1.1=
+{
+holder = 25002
+}
+
 11362.5.1=
 {
 holder = 2038 # Aragorn II ## First King of the Reunited Kingdom

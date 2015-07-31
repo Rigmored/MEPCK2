@@ -93,7 +93,7 @@ character_event = {
 				trait = gregarious
 			}
 			modifier = {
-				factor = -4
+				factor = 0.3
 				trait = shy
 			}
 			modifier = {
@@ -123,7 +123,7 @@ character_event = {
 				trait = gregarious
 			}
 			modifier = {
-				factor = -4
+				factor = 0.3
 				trait = shy
 			}
 		}
@@ -147,7 +147,7 @@ character_event = {
 				trait = gregarious
 			}
 			modifier = {
-				factor = -4
+				factor = 0.24
 				trait = shy
 			}
 			modifier = {
@@ -155,7 +155,7 @@ character_event = {
 				trait = greedy
 			}
 			modifier = {
-				factor = -3
+				factor = 0.3
 				trait = charitable
 			}
 		}
@@ -170,7 +170,7 @@ character_event = {
 				trait = shy
 			}
 			modifier = {
-				factor = -4
+				factor = 0.2
 				trait = gregarious
 			}
 		}

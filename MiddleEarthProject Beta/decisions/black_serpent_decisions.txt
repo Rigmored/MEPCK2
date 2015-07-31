@@ -1,4 +1,4 @@
-dynasty_decisions = {
+targetted_decisions = {
 
 send_son_black_serpent = {
 		ai_target_filter = dynasty

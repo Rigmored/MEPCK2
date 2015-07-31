@@ -7,3 +7,31 @@
 		birth="500.1.1"
 	}
 }
+
+#cardolan wilderness so aragorn doesnt hold it
+25002 = {
+	name="Wilderness"
+	religion="religion_wilderness"
+	culture="culture_wilderness"
+	trait = wilderness
+	11300.1.1={
+		birth="11300.1.1"
+	}
+	11400.1.1={
+		death="11400.1.1"
+	}
+}
+
+#annunimas wilderness so aragorn doesnt hold it
+25003 = {
+	name="Wilderness"
+	religion="religion_wilderness"
+	culture="culture_wilderness"
+	trait = wilderness
+	11300.1.1={
+		birth="11300.1.1"
+	}
+	11400.1.1={
+		death="11400.1.1"
+	}
+}

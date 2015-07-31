@@ -299,7 +299,8 @@ wilderness = {
 }
 
 numenorean = {
-    	health = 15.0
+	random = no
+    health = 15.0
 	intrigue = 2
 	martial = 1
 	diplomacy = 2
@@ -321,7 +322,8 @@ numenorean = {
 }
 
 prince_numenor = {
-    	health = 20.0
+	random = no
+    health = 20.0
 	intrigue = 3
 	martial = 2
 	diplomacy = 3

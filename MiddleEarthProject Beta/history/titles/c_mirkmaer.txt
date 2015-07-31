@@ -96,3 +96,12 @@ holder =  401 #Beornsige
 {
 holder =  402 #Ofolmóth
 }
+
+11322.1.1=
+{
+holder =  340 # Grimbeorn the Old
+}
+11385.1.1=
+{
+holder =  341 # Sterkist
+}

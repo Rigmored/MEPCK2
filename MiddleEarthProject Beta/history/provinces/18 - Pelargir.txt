@@ -58,6 +58,7 @@ religion = religion_dunedain
 			b_minas_anduin = ca_Nshipyard_1 
 			b_minas_anduin = ca_Nshipyard_2 
 			b_minas_anduin = ca_Nshipyard_3
+			b_minas_anduin = ca_Pelargir
 			
 				b_admirality = ca_Nwall_1
 				b_admirality = ca_Nwall_2

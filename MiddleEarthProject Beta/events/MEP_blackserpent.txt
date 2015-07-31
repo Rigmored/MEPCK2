@@ -1323,7 +1323,6 @@ character_event = {
 				factor = 10
 				OR = {
 					trait = blinded
-					trait = blinded_age
 					trait = infirm
 					trait = maimed
 				}
@@ -1420,7 +1419,6 @@ character_event = {
 					religion = ROOT
 					culture = ROOT
 					female = no
-					martial = 10
 					trait = black_serpent
 				}
 				create_random_soldier = {
@@ -1428,7 +1426,6 @@ character_event = {
 					religion = ROOT
 					culture = ROOT
 					female = no
-					martial = 12
 					trait = black_serpent
 				}	
 				create_random_soldier = {
@@ -1436,7 +1433,6 @@ character_event = {
 					religion = ROOT
 					culture = ROOT
 					female = no
-					martial = 14
 					trait = black_serpent
 				}	
 				create_random_soldier = {
@@ -1444,7 +1440,6 @@ character_event = {
 					religion = ROOT
 					culture = ROOT
 					female = no
-					martial = 8
 					trait = black_serpent
 				}					
 			}
@@ -1710,10 +1705,13 @@ narrative_event = {
 	option = {
 		name = "EVTOPTDblackserpent.23"
 		trigger = {
+			OR = {
 			religion_group = religion_group_hildor
 			religion_group = religion_group_melkor
+			}
 			NOT = { religion = religion_southron }
 		}
+		
 	}
 }
 

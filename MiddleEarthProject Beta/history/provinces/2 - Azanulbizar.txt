@@ -6,8 +6,8 @@ title = c_azanulbizar
 # Settlements
 max_settlements = 2
 
-b_azanulbizar-dûm = castle
-b_kheled-zâram-dûm = city
+b_azanulbizar-dum = castle
+b_kheled-zaram-dum = city
 
 # Misc
 culture = culture_longbeard

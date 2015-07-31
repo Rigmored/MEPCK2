@@ -31,7 +31,8 @@ holder = 2433 # Agathor
 holder = 0
 
 }
-11000.1.1={
+11300.1.1={
+holder = 8024
 liege=k_shire
 }
 

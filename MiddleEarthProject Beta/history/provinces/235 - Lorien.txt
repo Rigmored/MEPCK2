@@ -55,6 +55,7 @@ terrain = forest
 			b_house_of_celeborn = ca_healing
 			b_house_of_celeborn = ca_paved_road_3
 			b_house_of_celeborn = ca_great_route_4 
+			b_house_of_celeborn = ca_lorien 
 
 				b_celurlin = ct_Swall_1
 				b_celurlin = ct_Swall_2 

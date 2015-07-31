@@ -858,12 +858,12 @@ castle = {
 		build_time = 1460 #4y
 		fort_level = 5.0
 		garrison_size = 2.00
-		heavy_infantry = 30
-		archers = 30
-		horse_archers = 20
+		heavy_infantry = 100
+		archers = 100
+		horse_archers = 100
 		ai_creation_factor = 86
         	potential = {
-            	province_id = 234 #Imladris
+            	FROMFROM = { has_landed_title = b_last_homely_house }
 				culture = culture_noldor
             	}
 	}

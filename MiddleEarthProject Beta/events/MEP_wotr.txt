@@ -119,24 +119,24 @@ character_event = {
 
 
 #Gondor is informed Rohan's borders are under attack#	
-character_event = {
-    id = warofthering.92
-    title = "EVTTITwarofthering.92"
-    desc = "EVTDESCwarofthering.92"
-    picture = "GFX_shadows_coming"
-	trigger = {
-		year = 11363
-		NOT = { year = 11365 }
-        }
-	
-	mean_time_to_happen = {
-		days = 7
-	}
-		
-	option = {
-        name = "EVTOPTAwarofthering.92"
-	}				
-}
+#character_event = {
+#   id = warofthering.92
+#   title = "EVTTITwarofthering.92"
+#   desc = "EVTDESCwarofthering.92"
+#   picture = "GFX_shadows_coming"
+#   trigger = {
+#		year = 11363
+#		NOT = { year = 11365 }
+#       }
+#	
+#	mean_time_to_happen = {
+#		days = 7
+#	}
+#		
+#	option = {
+#       name = "EVTOPTAwarofthering.92"
+#	}				
+#}
 
 				
 #Saruman's forces try to kill Theodred - make id 6.1##	
@@ -364,26 +364,26 @@ character_event = {
 
 		
 ##Players are informed that the fellowship has set out from the Shire##
-character_event = {
-	id = warofthering.94
-	title = "EVTTITwarofthering.94"
-	desc = "EVTDESCwarofthering.94"
-	picture = "GFX_good"
-	only_playable = yes
-    
-	trigger = {
-		year = 11363
-		NOT = { year = 11365 }
-        }
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "EVTOPTAwarofthering.94"
-	}
-}
+#character_event = {
+#	id = warofthering.94
+#	title = "EVTTITwarofthering.94"
+#	desc = "EVTDESCwarofthering.94"
+#	picture = "GFX_good"
+#	only_playable = yes
+#    
+#	trigger = {
+#		year = 11363
+#		NOT = { year = 11365 }
+#        }
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	option = {
+#		name = "EVTOPTAwarofthering.94"
+#	}
+#}
 	
 ##Aragorn is concerned at no word of Gandalf, decides to go to Bree##
 character_event = {

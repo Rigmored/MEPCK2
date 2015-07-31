@@ -55,6 +55,7 @@ terrain = hills
 			b_last_homely_house = ca_rivendellha3
 			b_last_homely_house = ca_paved_road_3
 			b_last_homely_house = ca_great_route_4 
+			b_last_homely_house = ca_imladris 
 
 				b_forges_of_rivendell = ca_Awall_1
 				b_forges_of_rivendell = ca_Awall_2 

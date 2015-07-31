@@ -11,7 +11,7 @@ title = c_south_north_east_mirkwood
 max_settlements = 5
 
 b_imlad_aras = castle
-b_gwaur_dû = castle
+b_gwaur_du = castle
 b_glamdel = city
 #b_gaer_muil = castle
 #b_amrun_glamor = city

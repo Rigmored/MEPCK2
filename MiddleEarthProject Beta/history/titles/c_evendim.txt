@@ -111,6 +111,12 @@ holder = 2022 # Arvedui
 holder = 0
 liege=0
 }
+
+11300.1.1=
+{
+holder = 25003
+}
+
 11362.5.1=
 {
 holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
