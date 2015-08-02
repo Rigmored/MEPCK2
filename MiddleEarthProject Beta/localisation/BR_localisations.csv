@@ -29,3 +29,8 @@ densely_populated_by_dwarves;Densely populated by dwarves;;;;;;;;;;;;x
 densely_populated_by_dwarves_desc;The dwarves here are prospering, and though they will never reach the numbers that men and orcs can field, this land is well guarded and the population is steadily increasing.;;;;;;;;;;;;x
 population12desc;Though Elves replenish their numbers slowly, during times of plenty you can expend gold and influence to encourage your people to have more children. You should see results within twenty years. NOTE: There is no point doing so in a densely populated province.;;;;;;;;;;;;x
 population18desc;Though Dwarves replenish their numbers slowly, during times of plenty you can expend gold and influence to encourage your people to have more children. You should see results within twenty years. NOTE: There is no point doing so in a densely populated province..;;;;;;;;;;;;x
+purge0desc;There are hostile creatures in your realm, they must be purged and the threat removed. It might take a decade to destroy them fully, so it's time to send in the troops...;;;;;;;;;;;;x
+purge0A;Yes, send them at once!;;;;;;;;;;;;x
+purge1desc;Your land has been purged of enemies, and now the time will come to settle the new wilderness with your people.;;;;;;;;;;;;x
+purge3desc;There are enemies living in your demesne who will never submit to you. It's time to send in the troops and get rid of them once and for all.;;;;;;;;;;;;x
+purge4desc;Your land has been purged of enemies, and now orcs are swarming in to settle the abandoned places.;;;;;;;;;;;;x

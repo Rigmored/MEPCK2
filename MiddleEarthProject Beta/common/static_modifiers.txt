@@ -100,22 +100,22 @@ no_adjacent_controlled = {
 
 # Another culture in the same culture group
 same_culture_group = {
-	local_revolt_risk = 0.01
+	local_revolt_risk = 0.00
 }
 
 # A culture in another culture group
 non_accepted_culture = {
-	local_revolt_risk = 0.02
+	local_revolt_risk = 0.005
 }
 
 # A religion in another religion group
 different_religion = {
-	local_revolt_risk = 0.04
+	local_revolt_risk = 0.01
 }
 
 # Another religion in the same religion group
 same_religion_group = {
-	local_revolt_risk = 0.02
+	local_revolt_risk = 0.00
 }
 
 # County vs Count is heresy vs parent religion
@@ -125,7 +125,7 @@ county_heresy = {
 
 # Isolated county
 county_isolated = {
-	local_revolt_risk = 0.04
+	local_revolt_risk = 0.01
 }
 
 new_administration = {
@@ -200,7 +200,7 @@ revolt_risk = {
 }
 
 foreign_rebels = {
-	local_revolt_risk = 0.05
+	local_revolt_risk = 0.01
 	icon = 1
 }
 

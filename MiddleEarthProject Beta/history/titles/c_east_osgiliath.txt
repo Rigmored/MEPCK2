@@ -138,10 +138,6 @@ holder = 1942 # Ecthelion II
 {
 holder = 1943 # Denethor II
 }
-11350.1.1=
-{
-holder = 1944 # Boromir II
-}
 11363.1.1=
 {
 holder =  12223 # Nazgul

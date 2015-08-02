@@ -8179,7 +8179,8 @@ k_aglarond = {
 	
 	culture = culture_longbeard
     religion = religion_mahal
-
+	
+	
 	d_aglarond = {
 	    color={ 145 145 106 }
 		color2={ 255 255 255 }

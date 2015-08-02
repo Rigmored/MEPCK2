@@ -22,7 +22,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	days = 1	
+	months = 240	
 	}
 	
 
@@ -126,7 +126,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	days = 1	
+	months = 240	
 	}
 	
 	option = {
@@ -148,14 +148,12 @@ province_event = {
 	
 	trigger = {
 	culture_group = culture_group_numenorean
-	NOT = {
 	AND = {
-	has_province_modifier = lightly_populated_by_dunedain
-	has_province_modifier = populated_by_dunedain
-	has_province_modifier = densely_populated_by_dunedain
+	NOT = {	has_province_modifier = lightly_populated_by_dunedain }
+	NOT = {	has_province_modifier = populated_by_dunedain }
+	NOT = {	has_province_modifier = densely_populated_by_dunedain }
 	}
 	}
-	}	
 	
 	mean_time_to_happen = {
 	months = 6
@@ -268,7 +266,7 @@ character_event = {
 	has_province_modifier = populated_by_dunedain
 	}
 	}
-	province_event = { id = population.6 days = 1 }
+	ROOT = { province_event = { id = population.6 months = 240 } }
 	}
 	}
 	
@@ -279,7 +277,7 @@ character_event = {
 	prestige = -500	
 	any_courtier = {
 	limit = { has_job_title = job_treasurer }
-	location = { province_event = { id = population.6 days = 1 } }
+	location = { province_event = { id = population.6 months = 240 } }
 	}
 	}
 	
@@ -296,6 +294,13 @@ province_event = {
 	
 	option = {
 	name = population6A #Good tidings!
+	random_realm_province = {
+	limit = {
+	OR = {
+	has_province_modifier = lightly_populated_by_dunedain
+	has_province_modifier = populated_by_dunedain
+	}
+	}
 	if = { 
 	limit = { has_province_modifier = populated_by_dunedain }
 	remove_province_modifier = populated_by_dunedain
@@ -305,6 +310,7 @@ province_event = {
 	limit = { has_province_modifier = lightly_populated_by_dunedain }
 	remove_province_modifier = lightly_populated_by_dunedain
 	add_province_modifier = { name = populated_by_dunedain duration = -1 }
+	}
 	}
 	}
 
@@ -335,7 +341,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	days = 1	
+	months = 240	
 	}
 	
 
@@ -400,7 +406,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	days = 1	
+	months = 240	
 	}
 	
 	option = {
@@ -421,13 +427,16 @@ province_event = {
 	hide_window = yes
 	
 	trigger = {
-	culture_group = culture_group_numenorean
-	NOT = {
-	AND = {
-	has_province_modifier = lightly_populated_by_elves
-	has_province_modifier = populated_by_elves
-	has_province_modifier = densely_populated_by_elves
+	OR = {
+	culture_group = culture_group_amanyar
+	culture_group = culture_group_quendi
+	culture_group = culture_group_umanyar
+	culture_group = culture_group_moriquendi
 	}
+	AND = {
+	NOT = {	has_province_modifier = lightly_populated_by_elves }
+	NOT = {	has_province_modifier = populated_by_elves }
+	NOT = {	has_province_modifier = densely_populated_by_elves }
 	}
 	}	
 	
@@ -526,7 +535,7 @@ province_event = {
 	has_province_modifier = populated_by_elves
 	}
 	}
-	province_event = { id = population.13 days = 1 }
+	province_event = { id = population.13 months = 240 }
 	}
 	}
 	
@@ -537,7 +546,7 @@ province_event = {
 	prestige = -500	
 	any_courtier = {
 	limit = { has_job_title = job_treasurer }
-	location = { province_event = { id = population.6 days = 1 } }
+	location = { province_event = { id = population.6 months = 240 } }
 	}
 	}
 	
@@ -554,6 +563,13 @@ province_event = {
 	
 	option = {
 	name = population6A #Good tidings!
+	random_realm_province = {
+	limit = {
+	OR = {
+	has_province_modifier = lightly_populated_by_elves
+	has_province_modifier = populated_by_elves
+	}
+	}
 	if = { 
 	limit = { has_province_modifier = populated_by_elves }
 	remove_province_modifier = populated_by_elves
@@ -563,6 +579,7 @@ province_event = {
 	limit = { has_province_modifier = lightly_populated_by_elves }
 	remove_province_modifier = lightly_populated_by_elves
 	add_province_modifier = { name = populated_by_elves duration = -1 }
+	}
 	}
 	}
 
@@ -588,7 +605,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	days = 1	
+	months = 240	
 	}
 	
 
@@ -648,7 +665,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	days = 1	
+	months = 240	
 	}
 	
 	option = {
@@ -670,12 +687,10 @@ province_event = {
 	
 	trigger = {
 	culture_group = culture_group_dwarves
-	NOT = {
 	AND = {
-	has_province_modifier = lightly_populated_by_dwarves
-	has_province_modifier = populated_by_dwarves
-	has_province_modifier = densely_populated_by_dwarves
-	}
+	NOT = {	has_province_modifier = lightly_populated_by_dwarves }
+	NOT = {	has_province_modifier = populated_by_dwarves }
+	NOT = {	has_province_modifier = densely_populated_by_dwarves }
 	}
 	}	
 	
@@ -769,7 +784,7 @@ province_event = {
 	has_province_modifier = populated_by_dwarves
 	}
 	}
-	province_event = { id = population.13 days = 1 }
+	province_event = { id = population.13 months = 240 }
 	}
 	}
 	
@@ -780,7 +795,7 @@ province_event = {
 	prestige = -500	
 	any_courtier = {
 	limit = { has_job_title = job_treasurer }
-	location = { province_event = { id = population.6 days = 1 } }
+	location = { province_event = { id = population.19 months = 240 } }
 	}
 	}
 	
@@ -797,6 +812,13 @@ province_event = {
 	
 	option = {
 	name = population6A #Good tidings!
+	random_realm_province = {
+	limit = {
+	OR = {
+	has_province_modifier = lightly_populated_by_dwarves
+	has_province_modifier = populated_by_dwarves
+	}
+	}
 	if = { 
 	limit = { has_province_modifier = populated_by_dwarves }
 	remove_province_modifier = populated_by_dwarves
@@ -806,6 +828,7 @@ province_event = {
 	limit = { has_province_modifier = lightly_populated_by_dwarves }
 	remove_province_modifier = lightly_populated_by_dwarves
 	add_province_modifier = { name = populated_by_dwarves duration = -1 }
+	}
 	}
 	}
 

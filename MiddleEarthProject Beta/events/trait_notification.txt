@@ -968,17 +968,17 @@ character_event = {
 }
 
 #I am Celibate
-# character_event = {
-	# id = 38285
-	# desc = EVTDESC38285
-	# picture = GFX_evt_bishop
+character_event = {
+	id = 38285
+	desc = EVTDESC38285
+	picture = GFX_evt_bishop
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-	# }
-# }
+	option = {
+		name = OK
+	}
+}
 
 #I am a Drunkard
 character_event = {
@@ -994,17 +994,17 @@ character_event = {
 }
 
 #I am a Kinslayer
-# character_event = {
-	# id = 38287
-	# desc = EVTDESC38287
-	# picture = GFX_evt_lunatic
+character_event = {
+	id = 38287
+	desc = EVTDESC38287
+	picture = GFX_evt_lunatic
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-	# }
-# }
+	option = {
+		name = OK
+	}
+}
 
 #Child is depressed
 #character_event = {
@@ -1228,204 +1228,204 @@ character_event = {
 }
 
 #I am no longer Chaste
-# character_event = {
-	# id = 38303
-	# desc = EVTDESC38303
-	# picture = GFX_evt_knight_kneeling
+character_event = {
+	id = 38303
+	desc = EVTDESC38303
+	picture = GFX_evt_knight_kneeling
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# remove_trait = chaste
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			remove_trait = chaste
+		}
+	}
+}
 
 #I am A LUNATIC!
-# character_event = {
-	# id = 38304
-	# desc = EVTDESC38304
-	# picture = GFX_evt_lunatic
-	# border = GFX_event_normal_frame_intrigue
+character_event = {
+	id = 38304
+	desc = EVTDESC38304
+	picture = GFX_evt_lunatic
+	border = GFX_event_normal_frame_intrigue
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# add_trait = lunatic
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			add_trait = lunatic
+		}
+	}
+}
 
 #I am no longer Paranoid
-# character_event = {
-	# id = 38305
-	# desc = EVTDESC38305
-	# picture = GFX_evt_shadow
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = 38305
+	desc = EVTDESC38305
+	picture = GFX_evt_shadow
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# remove_trait = paranoid
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			remove_trait = paranoid
+		}
+	}
+}
 
 #I am no longer Trusting
-# character_event = {
-	# id = 38306
-	# desc = EVTDESC38306
-	# picture = GFX_evt_whispers
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = 38306
+	desc = EVTDESC38306
+	picture = GFX_evt_whispers
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# remove_trait = trusting
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			remove_trait = trusting
+		}
+	}
+}
 
 #I am no longer Kind
-# character_event = {
-	# id = 38307
-	# desc = EVTDESC38307
-	# picture = GFX_evt_torture
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = 38307
+	desc = EVTDESC38307
+	picture = GFX_evt_torture
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# remove_trait = kind
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			remove_trait = kind
+		}
+	}
+}
 
 #I am Scarred
-# character_event = {
-	# id = 38308
-	# desc = EVTDESC38308
-	# picture = GFX_evt_ill
-	# border = GFX_event_normal_frame_war
+character_event = {
+	id = 38308
+	desc = EVTDESC38308
+	picture = GFX_evt_ill
+	border = GFX_event_normal_frame_war
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# add_trait = scarred
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			add_trait = scarred
+		}
+	}
+}
 
 #I am no longer a lunatic
-# character_event = {
-	# id = 38309
-	# desc = EVTDESC38309
-	# picture = GFX_evt_recovery
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = 38309
+	desc = EVTDESC38309
+	picture = GFX_evt_recovery
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# remove_trait = lunatic
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			remove_trait = lunatic
+		}
+	}
+}
 
 #I am no longer zealous
-# character_event = {
-	# id = 38310
-	# desc = EVTDESC38310
-	# picture = GFX_evt_knight_kneeling
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = 38310
+	desc = EVTDESC38310
+	picture = GFX_evt_knight_kneeling
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# remove_trait = zealous
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			remove_trait = zealous
+		}
+	}
+}
 
 #I am no longer honest
-# character_event = {
-	# id = 38311
-	# desc = EVTDESC38311
-	# picture = GFX_evt_whispers
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = 38311
+	desc = EVTDESC38311
+	picture = GFX_evt_whispers
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# remove_trait = honest
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			remove_trait = honest
+		}
+	}
+}
 
 #I am no longer Humble
-# character_event = {
-	# id = 38312
-	# desc = EVTDESC38312
-	# picture = GFX_evt_family
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = 38312
+	desc = EVTDESC38312
+	picture = GFX_evt_family
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = OK
-		# tooltip = {
-			# remove_trait = humble
-		# }
-	# }
-# }
+	option = {
+		name = OK
+		tooltip = {
+			remove_trait = humble
+		}
+	}
+}
 
 #I am no longer Stressed
-# character_event = {
-	# id = 38313
-	# desc = EVTDESC38313
-	# picture = GFX_evt_family
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = 38313
+	desc = EVTDESC38313
+	picture = GFX_evt_family
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = EXCELLENT
-		# tooltip = {
-			# remove_trait = stressed
-		# }
-	# }
-# }
+	option = {
+		name = EXCELLENT
+		tooltip = {
+			remove_trait = stressed
+		}
+	}
+}
 
 #I am no longer Depressed
-# character_event = {
-	# id = 38314
-	# desc = EVTDESC38314
-	# picture = GFX_evt_family
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = 38314
+	desc = EVTDESC38314
+	picture = GFX_evt_family
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = EXCELLENT
-		# tooltip = {
-			# remove_trait = depressed
-		# }
-	# }
-# }
+	option = {
+		name = EXCELLENT
+		tooltip = {
+			remove_trait = depressed
+		}
+	}
+}

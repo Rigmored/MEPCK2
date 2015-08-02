@@ -1283,8 +1283,8 @@ character_event = {
 			spawn_unit = {
 				province = 115 #Edoras
 				troops = {
-					knights = { 2200 2200 }
-					light_infantry = { 1800 1800 }
+					knights = { 500 500 }
+					light_cavalry = { 500 500 }
 					horse_archers = { 400 400 }
 				}
 			}
@@ -2526,66 +2526,6 @@ character_event = {
 			# grant_title = ROOT
 			# copy_title_laws = e_steward_gondor
 		# }	
-		c_fornost = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}
-		c_annuminas = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_evendim = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_west_emenyar = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}
-		c_east_emenyar = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_eketyar = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_west_orromenyar = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_annuminas = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		d_evendim = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}
-		d_fornost = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_fornost = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_oronyar = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_celephyar = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_maenthirost = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}	
-		c_esteldin = {
-			grant_title = ROOT
-			copy_title_laws = e_steward_gondor
-		}			
 		# holder_scope = {
 			# gain_settlements_under_title = {
 					# title = k_arthedain

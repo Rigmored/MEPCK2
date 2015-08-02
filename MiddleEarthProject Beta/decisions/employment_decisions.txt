@@ -62,8 +62,8 @@ decisions = {
 			OR = {
 				ai = yes
 				has_character_flag = employment_decisions_open
+				NOT = { religion = religion_wilderness }
 			}
-			NOT = { religion = religion_wilderness }
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -90,8 +90,8 @@ decisions = {
 			OR = {
 				ai = yes
 				has_character_flag = employment_decisions_open
+				NOT = { religion = religion_wilderness }
 			}
-			NOT = { religion = religion_wilderness }
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }

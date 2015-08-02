@@ -318,7 +318,6 @@ numenorean = {
 		blood_of_anarion
 	}
 	cached = yes
-	personality = yes
 }
 
 prince_numenor = {
@@ -342,7 +341,6 @@ prince_numenor = {
 		blood_of_anarion
 	}
 	cached = yes
-	personality = yes
 }
 
 blood_of_numenor = {

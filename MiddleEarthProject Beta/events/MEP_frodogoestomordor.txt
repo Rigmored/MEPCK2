@@ -213,6 +213,10 @@ character_event = {
 		days = 30
 	}
 	
+	immediate = {
+	add_claim = k_ithilien
+	}
+	
 	option = {
 		name = "EVTOPTAfrodo.7"
 		set_global_flag = frodo7

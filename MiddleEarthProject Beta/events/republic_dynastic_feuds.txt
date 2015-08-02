@@ -116,7 +116,7 @@ character_event = {
 narrative_event = {
 	id = REP.101
 	title = EVTNAME_REP_101
-	desc = EVTDESC_REP_101
+	desc = EVTDESC_REP_101
 	picture = GFX_evt_courtiers_talking
 	
 	is_triggered_only = yes
@@ -139,7 +139,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.102
 	title = EVTNAME_REP_102
-	desc = EVTDESC_REP_102
+	desc = EVTDESC_REP_102
 	picture = GFX_evt_scandal
 	
 	hide_from = yes
@@ -247,7 +247,7 @@ character_event = {
 narrative_event = {
 	id = REP.104
 	title = EVTNAME_REP_104
-	desc = EVTDESC_REP_104
+	desc = EVTDESC_REP_104
 	picture = GFX_evt_courtiers_talking
 	
 	hide_from = yes
@@ -274,7 +274,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.105
 	title = EVTNAME_REP_105
-	desc = EVTDESC_REP_105
+	desc = EVTDESC_REP_105
 	picture = GFX_evt_family_feud_republic
 	
 	hide_from = yes
@@ -465,6 +465,7 @@ character_event = {
 					ai = no
 					has_dynasty_flag = the_victims
 					NOT = { has_dynasty_flag = flagship_feud }
+					is_patrician = yes
 					age = 16
 					in_command = no
 					prisoner = no
@@ -531,7 +532,7 @@ character_event = {
 narrative_event = {
 	id = REP.151
 	title = EVTNAME_REP_151
-	desc = EVTDESC_REP_151
+	desc = EVTDESC_REP_151
 	picture = GFX_evt_busy_trading_dock_republic
 	
 	is_triggered_only = yes
@@ -545,7 +546,24 @@ narrative_event = {
 		hidden_tooltip = {
 			random_list = {
 				70 = {
-					narrative_event = { id = REP.153 days = 46 }
+					if = {
+						limit = {
+							liege = { has_landed_title = k_venice }
+							liege = { religion = catholic }
+							religion = catholic
+						}
+						narrative_event = { id = REP.152 days = 46 }
+					}
+					if = {
+						limit = {
+							OR = {
+								liege = { NOT = { has_landed_title = k_venice }}
+								liege = { NOT = { religion = catholic }}
+								NOT = { religion = catholic }
+							}
+						}
+						narrative_event = { id = REP.153 days = 46 }
+					}
 				}
 				30 = {
 					narrative_event = { id = REP.155 days = 46 }
@@ -563,11 +581,37 @@ narrative_event = {
 	}
 }
 
+# Marriage of the Sea (Venice Only)
+narrative_event = {
+	id = REP.152
+	title = EVTNAME_REP_152
+	desc = EVTDESC_REP_152
+	picture = GFX_evt_merchant_ship_at_sea_republic
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_REP_152
+		prestige = 50
+		FROMFROM = { prestige = -100 }
+		religion_head = {
+			opinion = {
+				modifier = opinion_furious
+				who = FROMFROM
+				years = 5
+			}
+		}
+		set_dynasty_flag = feud_phase_two
+	}
+}
+
 # The Ship is Launched
 narrative_event = {
 	id = REP.153
 	title = EVTNAME_REP_153
-	desc = EVTDESC_REP_153
+	desc = EVTDESC_REP_153
 	picture = GFX_evt_merchant_ship_at_sea_republic
 	
 	hide_from = yes
@@ -586,7 +630,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.154
 	title = EVTNAME_REP_154
-	desc = EVTDESC_REP_154
+	desc = EVTDESC_REP_154
 	picture = GFX_evt_merchant_ship_at_sea_republic
 	
 	hide_from = yes
@@ -605,7 +649,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.155
 	title = EVTNAME_REP_155
-	desc = EVTDESC_REP_155
+	desc = EVTDESC_REP_155
 	picture = GFX_evt_family_feud_republic
 	
 	hide_from = yes
@@ -649,6 +693,7 @@ character_event = {
 		age = 15
 		NOT = { 
 			age = 30 
+			trait = homosexual
 			trait = infirm
 			trait = incapable
 			trait = eunuch
@@ -677,6 +722,7 @@ character_event = {
 						NOT = { 
 							trait = incapable
 							trait = infirm
+							trait = homosexual
 						}
 						NOT = { trait = in_hiding }
 					}
@@ -701,6 +747,7 @@ character_event = {
 							NOT = { 
 								trait = incapable
 								trait = infirm
+								trait = homosexual
 							}
 							NOT = { trait = in_hiding }
 						}
@@ -770,7 +817,7 @@ character_event = {
 narrative_event = {
 	id = REP.161
 	title = EVTNAME_REP_161
-	desc = EVTDESC_REP_161
+	desc = EVTDESC_REP_161
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -800,6 +847,7 @@ narrative_event = {
 				NOT = { 
 					trait = incapable
 					trait = infirm
+					trait = homosexual
 				}
 			}
 			set_character_flag = julia
@@ -828,6 +876,7 @@ narrative_event = {
 				NOT = { 
 					trait = incapable
 					trait = infirm
+					trait = homosexual
 				}
 			}
 			set_character_flag = julia
@@ -862,6 +911,7 @@ character_event = {
 		age = 15
 		NOT = { 
 			age = 30 
+			trait = homosexual
 			trait = incapable
 		}
 		NOT = { trait = in_hiding }
@@ -881,6 +931,7 @@ character_event = {
 						is_female = no
 						NOT = { 
 							age = 30 
+							trait = homosexual
 							trait = infirm
 							trait = incapable
 							trait = eunuch
@@ -907,6 +958,7 @@ character_event = {
 							is_female = no
 							NOT = { 
 								age = 30 
+								trait = homosexual
 								trait = infirm
 								trait = incapable
 								trait = eunuch
@@ -976,7 +1028,7 @@ character_event = {
 narrative_event = {
 	id = REP.163
 	title = EVTNAME_REP_161
-	desc = EVTDESC_REP_163
+	desc = EVTDESC_REP_163
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -1002,6 +1054,7 @@ narrative_event = {
 				is_female = no
 				NOT = { 
 					age = 30 
+					trait = homosexual
 					trait = infirm
 					trait = incapable
 					trait = eunuch
@@ -1032,6 +1085,7 @@ narrative_event = {
 				is_female = no
 				NOT = { 
 					age = 30 
+					trait = homosexual
 					trait = infirm
 					trait = incapable
 					trait = eunuch
@@ -1050,7 +1104,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.164
 	title = EVTNAME_REP_164
-	desc = EVTDESC_REP_164
+	desc = EVTDESC_REP_164
 	picture = GFX_evt_family_feud_republic
 	
 	hide_from = yes
@@ -1060,7 +1114,7 @@ narrative_event = {
 	option = {
 		name = EVTOPTA_REP_164
 		hidden_tooltip = {
-			character_event = { id = REP.167 days = 14 }
+			narrative_event = { id = REP.167 days = 14 }
 		}
 		set_dynasty_flag = feud_peace_1
 		FROMFROM = {
@@ -1090,7 +1144,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.165
 	title = EVTNAME_REP_164
-	desc = EVTDESC_REP_165
+	desc = EVTDESC_REP_165
 	picture = GFX_evt_family_feud_republic
 	
 	hide_from = yes
@@ -1100,7 +1154,7 @@ narrative_event = {
 	option = {
 		name = EVTOPTA_REP_164
 		hidden_tooltip = {
-			character_event = { id = REP.167 days = 14 }
+			narrative_event = { id = REP.167 days = 14 }
 		}
 		set_dynasty_flag = feud_peace_1
 		FROMFROM = {
@@ -1130,7 +1184,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.166
 	title = EVTNAME_REP_166
-	desc = EVTDESC_REP_166
+	desc = EVTDESC_REP_166
 	picture = GFX_evt_marriage
 	
 	hide_from = yes
@@ -1245,7 +1299,7 @@ character_event = {
 narrative_event = {
 	id = REP.168
 	title = EVTNAME_REP_168
-	desc = EVTDESC_REP_168
+	desc = EVTDESC_REP_168
 	picture = GFX_evt_death
 	
 	is_triggered_only = yes
@@ -1434,7 +1488,7 @@ character_event = {
 narrative_event = {
 	id = REP.182
 	title = EVTNAME_REP_182
-	desc = EVTDESC_REP_182
+	desc = EVTDESC_REP_182
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -1508,7 +1562,7 @@ character_event = {
 narrative_event = {
 	id = REP.185
 	title = EVTNAME_REP_185
-	desc = EVTDESC_REP_185
+	desc = EVTDESC_REP_185
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -1529,7 +1583,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.186
 	title = EVTNAME_REP_186
-	desc = EVTDESC_REP_186
+	desc = EVTDESC_REP_186
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -1686,7 +1740,7 @@ character_event = {
 narrative_event = {
 	id = REP.191
 	title = EVTNAME_REP_191
-	desc = EVTDESC_REP_191
+	desc = EVTDESC_REP_191
 	picture = GFX_evt_busy_trading_dock_republic
 	
 	is_triggered_only = yes
@@ -1716,7 +1770,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.192
 	title = EVTNAME_REP_192
-	desc = EVTDESC_REP_192
+	desc = EVTDESC_REP_192
 	picture = GFX_evt_kraken
 	
 	is_triggered_only = yes
@@ -1758,7 +1812,7 @@ character_event = {
 narrative_event = {
 	id = REP.194
 	title = EVTNAME_REP_194
-	desc = EVTDESC_REP_194
+	desc = EVTDESC_REP_194
 	picture = GFX_evt_trade_post_republic
 	
 	is_triggered_only = yes
@@ -1785,7 +1839,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.195
 	title = EVTNAME_REP_195
-	desc = EVTDESC_REP_195
+	desc = EVTDESC_REP_195
 	picture = GFX_evt_merchant_ship_at_sea_republic
 	
 	is_triggered_only = yes
@@ -1858,7 +1912,7 @@ character_event = {
 narrative_event = {
 	id = REP.201
 	title = EVTNAME_REP_201
-	desc = EVTDESC_REP_201
+	desc = EVTDESC_REP_201
 	picture = GFX_evt_doge_republic
 	
 	is_triggered_only = yes
@@ -1918,7 +1972,7 @@ character_event = {
 narrative_event = {
 	id = REP.203
 	title = EVTNAME_REP_201
-	desc = EVTDESC_REP_203
+	desc = EVTDESC_REP_203
 	picture = GFX_evt_doge_republic
 	
 	is_triggered_only = yes
@@ -1959,6 +2013,7 @@ character_event = {
 					is_patrician = yes
 					ai = no
 					has_dynasty_flag = the_victims
+					is_patrician = yes
 				}
 			}
 		}
@@ -2012,7 +2067,7 @@ character_event = {
 narrative_event = {
 	id = REP.206
 	title = EVTNAME_REP_206
-	desc = EVTDESC_REP_206
+	desc = EVTDESC_REP_206
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes

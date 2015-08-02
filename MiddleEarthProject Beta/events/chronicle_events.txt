@@ -253,8 +253,14 @@ character_event = {
 					ai = no
 					OR = {
 						NOT = { num_of_children = 2 }
-						NOT = {
-							any_child = { is_female = no }
+						AND = {
+							FROM = { is_female = no }
+							NOT = {
+								any_child = {
+									NOT = { character = FROM }
+									is_female = no
+								}
+							}
 						}
 					}
 				}
@@ -270,8 +276,14 @@ character_event = {
 					ai = no
 					OR = {
 						NOT = { num_of_children = 2 }
-						NOT = {
-							any_child = { is_female = no }
+						AND = {
+							FROM = { is_female = no }
+							NOT = {
+								any_child = {
+									NOT = { character = FROM }
+									is_female = no
+								}
+							}
 						}
 					}
 				}
@@ -498,6 +510,59 @@ character_event = {
 	}
 }
 
+# Aztec first contact
+character_event = {
+	id = CM.10018
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				capital_scope = {
+					NOT = { region = world_india }
+					NOT = { region = world_africa_east }
+				}
+			}
+			character_event = { id = CM.10019 }
+		}
+	}
+}
+
+character_event = {
+	id = CM.10019
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		chronicle = {
+			entry = CHRONICLE_AZTECS_FIRST_CONTACT
+			portrait = [From.GetID]
+		}
+	}
+}
+
+# Aztec Invasion
+character_event = {
+	id = CM.10020
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		chronicle = {
+			entry = CHRONICLE_AZTEC_INVASION
+			portrait = [From.GetID]
+		}
+	}
+}
+
 # Creates new higher level title
 	# On create title - ROOT is the creating character, FROM is the title
 character_event = {
@@ -508,8 +573,8 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		ai = no
 		ROOT = {
+			ai = no
 			any_demesne_title = {
 				NOT = { title = FROM }
 				FROM = {
@@ -573,9 +638,9 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				mother_even_if_dead = { always = yes }
-				OR = {
-					new_character = {
+				new_character = {
+					mother_even_if_dead = { always = yes }
+					OR = {
 						father_even_if_dead = {
 							PREV = {
 								mother_even_if_dead = {
@@ -583,8 +648,8 @@ character_event = {
 								}
 							}
 						}
+						NOT = { father_even_if_dead = { always = yes } }
 					}
-					NOT = { father_even_if_dead = { always = yes } }
 				}
 			}
 			FROM = {
@@ -596,9 +661,9 @@ character_event = {
 		}
 		if = {
 			limit = {
-				father_even_if_dead = { always = yes }
-				OR = {
-					new_character = {
+				new_character = {
+					father_even_if_dead = { always = yes }
+					OR = {
 						father_even_if_dead = {
 							PREV = {
 								mother_even_if_dead = {
@@ -606,8 +671,8 @@ character_event = {
 								}
 							}
 						}
+						NOT = { mother_even_if_dead = { always = yes } }
 					}
-					NOT = { mother_even_if_dead = { always = yes } }
 				}
 			}
 			FROM = {
@@ -835,9 +900,12 @@ character_event = {
 			limit = {
 				any_vassal = { ai = no }
 			}
-			chronicle = {
-				entry = CHRONICLE_LIEGE_CONVERTED_RELIGION
-				portrait = [Root.GetID]
+			any_vassal = {
+				limit = { ai = no }
+				chronicle = {
+					entry = CHRONICLE_LIEGE_CONVERTED_RELIGION
+					portrait = [Root.GetID]
+				}
 			}
 		}
 		if = {
@@ -1023,19 +1091,26 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			FROM = { title = b_citadel_tirith }
-			FROM = { title = b_dome_of_the_stars } #osgiliath
-			FROM = { title = b_minas_morgul }
-			FROM = { title = b_orthanc }
-			FROM = { title = b_edoras }
-			FROM = { title = b_amon_lanc } # dol guldur
-			FROM = { title = b_gundabad_throne_hall }
-			FROM = { title = b_hall_of_thrain } # erebor
-			FROM = { title = b_last_homely_house } # rivendell
-			FROM = { title = b_annuminas }
-			FROM = { title = b_house_of_celeborn } #lorien
-			FROM = { title = b_mithlond }
-			FROM = { title = b_first_hall } #moria
+			FROM = { title = b_roma }
+			FROM = { title = b_constantinople }
+			FROM = { title = b_bagdad }
+			FROM = { title = b_indraprastha }
+			FROM = { title = b_jerusalem }
+			FROM = { title = b_mecca }
+			FROM = { title = b_alexandria }
+			FROM = { title = b_cordoba }
+			AND = {
+				year = 900
+				FROM = { title = b_venezia }
+			}
+			AND = {
+				year = 1164
+				FROM = { title = b_koln }
+			}
+			AND = {
+				year = 1200
+				FROM = { title = b_paris }
+			}
 		}
 	}
 
@@ -1069,19 +1144,26 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			FROM = { title = b_citadel_tirith }
-			FROM = { title = b_dome_of_the_stars } #osgiliath
-			FROM = { title = b_minas_morgul }
-			FROM = { title = b_orthanc }
-			FROM = { title = b_edoras }
-			FROM = { title = b_amon_lanc } # dol guldur
-			FROM = { title = b_gundabad_throne_hall }
-			FROM = { title = b_hall_of_thrain } # erebor
-			FROM = { title = b_last_homely_house } # rivendell
-			FROM = { title = b_annuminas }
-			FROM = { title = b_house_of_celeborn } #lorien
-			FROM = { title = b_mithlond }
-			FROM = { title = b_first_hall } #moria
+			FROM = { title = b_roma }
+			FROM = { title = b_constantinople }
+			FROM = { title = b_bagdad }
+			FROM = { title = b_indraprastha }
+			FROM = { title = b_jerusalem }
+			FROM = { title = b_mecca }
+			FROM = { title = b_alexandria }
+			FROM = { title = b_cordoba }
+			AND = {
+				year = 900
+				FROM = { title = b_venezia }
+			}
+			AND = {
+				year = 1164
+				FROM = { title = b_koln }
+			}
+			AND = {
+				year = 1200
+				FROM = { title = b_paris }
+			}
 		}
 	}
 
@@ -1128,9 +1210,9 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				mother_even_if_dead = { always = yes }
-				OR = {
-					new_character = {
+				new_character = {
+					mother_even_if_dead = { always = yes }
+					OR = {
 						father_even_if_dead = {
 							PREV = {
 								mother_even_if_dead = {
@@ -1138,8 +1220,8 @@ character_event = {
 								}
 							}
 						}
+						NOT = { father_even_if_dead = { always = yes } }
 					}
-					NOT = { father_even_if_dead = { always = yes } }
 				}
 			}
 			any_playable_ruler = {
@@ -1155,9 +1237,9 @@ character_event = {
 		}
 		if = {
 			limit = {
-				father_even_if_dead = { always = yes }
-				OR = {
-					new_character = {
+				new_character = {
+					father_even_if_dead = { always = yes }
+					OR = {
 						father_even_if_dead = {
 							PREV = {
 								mother_even_if_dead = {
@@ -1165,8 +1247,8 @@ character_event = {
 								}
 							}
 						}
+						NOT = { mother_even_if_dead = { always = yes } }
 					}
-					NOT = { mother_even_if_dead = { always = yes } }
 				}
 			}
 			any_playable_ruler = {
@@ -1195,6 +1277,77 @@ character_event = {
 				chronicle = {
 					entry = CHRONICLE_MARRIED_NO_PARENT
 					portrait = [New.GetID]
+				}
+			}
+		}
+	}
+}
+
+# Divorce
+character_event = {
+	id = CM.10037
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			ai = no
+			FROM = { 
+				ai = no 
+			}
+		}
+	}
+
+	immediate = {
+		# Chronicle entries with a religious head
+		if = {
+			limit = {
+				new_character = {
+					always = yes 
+				}
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				chronicle = {
+					entry = CHRONICLE_DIVORCED
+					portrait = [From.GetID]
+				}
+			}
+			FROM = {
+				if = {
+					limit = {
+						ai = no
+					}
+					chronicle = {
+						entry = CHRONICLE_DIVORCED
+						portrait = [From.GetID]
+					}
+				}
+			}
+			break = yes
+		}
+		 # Chronicle entries without a religious head
+		if = {
+			limit = {
+				ai = no
+			}
+			chronicle = {
+				entry = CHRONICLE_DIVORCED_NO_HEAD
+				portrait = [From.GetID]
+			}
+		}
+		FROM = {
+			if = {
+				limit = {
+					ai = no
+				}
+				chronicle = {
+					entry = CHRONICLE_DIVORCED_NO_HEAD
+					portrait = [From.GetID]
 				}
 			}
 		}

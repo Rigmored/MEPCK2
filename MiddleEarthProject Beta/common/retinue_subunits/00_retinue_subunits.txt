@@ -203,7 +203,7 @@ noldoreliteguard =
     modifier = {
         heavy_infantry_defensive = 5.0
         heavy_infantry_offensive = 5.0
-        heavy_infantry_morale = 1.1
+        heavy_infantry_morale = 1.1       
     }
 }
 
@@ -220,7 +220,7 @@ noldorhorsearchers =
     modifier = {
         archers_defensive = 5.0
         archers_offensive = 5.0
-        archers_morale = 1.1      
+        archers_morale = 1.1       
     }
 }
 #Dwarven Retinues

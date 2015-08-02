@@ -245,28 +245,6 @@ action_assist_arrest = {
 	events = {  }
 }
 
-action_purge_province = {
-	attribute = martial
-
-	trigger = {		
-		OR = {		
-			owner = { top_liege = { character = FROM } }
-			owner = { liege = { character = FROM } }
-			owner = { character = FROM }
-			
-		}
-		OR = {		
-			NOT = { religion = FROM }
-			NOT = { culture = FROM }
-		}	
-		OR = {
-			NOT = { religion = religion_wilderness }
-			NOT = { culture = culture_wilderness }
-		}
-	}
-	
-	events = { }
-}
 
 #### Court Chaplain
 

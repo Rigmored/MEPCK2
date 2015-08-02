@@ -378,6 +378,12 @@ character_event = {
 				casus_belli = claim_all
 			}
 		}
+		k_erebor = {
+			reverse_war = {
+				target = ROOT
+				casus_belli = claim_all
+			}
+		}
 		create_random_soldier = {
 			random_traits = yes
 			dynasty = none

@@ -116,7 +116,7 @@ holder =  1047 # Vírinehtar
 holder = 0
 liege= 0
 }
-11355.1.1=
+11364.1.1=
 {
 holder = 1945 # Faramir
 liege= d_royal_demesne

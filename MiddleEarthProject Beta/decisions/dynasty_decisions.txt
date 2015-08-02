@@ -70,6 +70,7 @@ targetted_decisions = {
 				}
 				imprison = no
 			}
+			
 			mother = {
 				opinion = {
 					who = FROM
@@ -84,7 +85,7 @@ targetted_decisions = {
 							NOT = {
 								any_child = {
 									character = ROOT
-								}
+								}	
 							}
 						}
 						opinion = {
@@ -199,6 +200,7 @@ targetted_decisions = {
 			}
 			has_character_flag = family_decisions_open
 		}
+		
 		potential = {
 			is_ruler = no
 			liege = { character = FROM }
@@ -217,6 +219,7 @@ targetted_decisions = {
 			}
 			NOT = { has_character_modifier = went_out_of_hiding_timer }
 		}
+		
 		allow = {
 			in_command = no
 			prisoner = no
@@ -394,7 +397,7 @@ targetted_decisions = {
 			}					
 		}
 	}
-
+	
 	take_child_out_of_hiding = {
 		is_high_prio = yes
 		
@@ -406,6 +409,7 @@ targetted_decisions = {
 			has_regent = no
 			has_character_flag = family_decisions_open
 		}
+		
 		potential = {
 			trait = in_hiding
 			is_ruler = no

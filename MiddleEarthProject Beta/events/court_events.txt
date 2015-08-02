@@ -59,6 +59,14 @@ character_event = {
 			trait = pneumonic
 		}
 		modifier = {
+			factor = 0.8
+			trait = syphilitic
+		}
+		modifier = {
+			factor = 0.5
+			trait = leper
+		}
+		modifier = {
 			factor = 0.9
 			trait = wounded
 		}
@@ -203,7 +211,109 @@ character_event = {
 			months = 12
 		}		
 	}
-}
+	option = {
+		name = EVTOPTC73001 # These are books created by satan!
+		trigger = {
+			religion_group = christian
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT= { trait = zealous }
+			}
+		}
+		if = {
+			limit = {
+				spouse = {
+					NOT = {
+						religion_group = muslim
+					}
+				}
+			}
+			spouse = { add_trait = chaste }
+		}
+		piety = 10
+	}
+	option = {
+		name = EVTOPTD73001 # These are books created by Shaytan!
+		trigger = {
+			religion_group = muslim
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT= { trait = zealous }
+			}
+		}
+		if = {
+			limit = {
+				spouse = {
+					NOT = {
+						religion_group = muslim
+					}
+				}
+			}
+			spouse = { add_trait = chaste }
+		}
+		piety = 10
+	}
+}	
+
+#The Church wants to organise a Miracle play for a local saint
+character_event = {
+	id = 73002
+	desc = EVTDESC73002
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_playable = yes
+	prisoner = no
+	
+	trigger = {
+		religion = catholic
+		in_command = no
+		any_vassal = {
+			tier = baron
+			is_theocracy = yes
+			NOT = {
+				has_opinion_modifier = { who = ROOT modifier = ignores_local_saints }
+			}
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.1
+			trait = cynical
+		}
+	}	
+	
+	option = {
+		name = EVTOPTA73002 # It is for the glory of God!
+		scaled_wealth = -0.20
+		piety = 10
+	}	
+	option = {
+		name = EVTOPTB73002 # If the Church wants it, the Church pays for it
+		random_vassal = {
+			limit = {
+				tier = baron
+				is_theocracy = yes
+			}
+			opinion = {
+				who = ROOT
+				modifier = ignores_local_saints
+				years = 2
+			}				
+		}
+	}	
+}	
 
 #The Peasants wants to organise a great carnival and ask for your funding
 character_event = {
@@ -218,6 +328,7 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
+		religion_group = christian
 		in_command = no
 		tier = count
 		wealth = 50
@@ -251,7 +362,7 @@ character_event = {
 	}	
 }	
 
-#A famous writer proposes to compose your family chronicles
+#A famous writer proposes to compose your family chronicles ## A talented artist proposes to paint a portrait of your father
 character_event = {
 	id = 73004
 	desc = EVTDESC73004
@@ -353,6 +464,14 @@ character_event = {
 			trait = pneumonic
 		}
 		modifier = {
+			factor = 0.8
+			trait = syphilitic
+		}
+		modifier = {
+			factor = 0.5
+			trait = leper
+		}
+		modifier = {
 			factor = 0.9
 			trait = wounded
 		}
@@ -437,6 +556,7 @@ character_event = {
 	id = 73006
 	desc = EVTDESC73006
 	picture = GFX_evt_pregnancy
+	border = GFX_event_normal_frame_intrigue
 	
 	is_triggered_only = yes
 	
@@ -513,6 +633,11 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTC73006 #Give him a beating for messing with inferiors
+		if = {
+			limit = { religion = jain }
+			piety = -20
+			custom_tooltip = { text = jain_ahimsa_tooltip }
+		}
 		random_child = {
 			limit = { has_character_flag = knock_up_maid }
 			opinion = {
@@ -522,6 +647,31 @@ character_event = {
 			}
 			add_trait = wroth
 			add_trait = ambitious
+			clr_character_flag = knock_up_maid
+		}
+	}
+	option = {
+		name = EVTOPTD73006 #Send him to confess his sins
+		trigger = {
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+			}
+		}
+		random_child = {
+			limit = { has_character_flag = knock_up_maid }
+			if = {
+				limit = {
+					religion_group = christian
+				}
+				add_trait = chaste
+			}
+			if = {
+				limit = {
+					religion_group = muslim
+				}
+				piety = -10
+			}
 			clr_character_flag = knock_up_maid
 		}
 	}
@@ -586,6 +736,19 @@ character_event = {
 		}
 		add_trait = charitable
 		character_event = { id = 73005 days = 10 tooltip = EVTTOOLTIP73005 }
+	}	
+	option = {
+		name = EVTOPTB73007 #Let's go to the church instead, darling
+		trigger = {
+			religion_group = christian
+		}
+		if = {
+			limit = { trait = cynical }
+			prestige = -5
+		}
+		add_trait = zealous
+		spouse = { add_trait = zealous }
+		
 	}	
 	option = {
 		name = EVTOPTC73007 #Shoo, this is my money you're talking about
@@ -705,6 +868,14 @@ character_event = {
 			trait = pneumonic
 		}
 		modifier = {
+			factor = 0.8
+			trait = syphilitic
+		}
+		modifier = {
+			factor = 0.5
+			trait = leper
+		}
+		modifier = {
 			factor = 0.9
 			trait = wounded
 		}
@@ -787,6 +958,233 @@ character_event = {
 
 }
 
+#I've been readin 'Ars Moriendi', and it claims that death is not something to be afraid of. 
+character_event = {
+	id = 73010
+	desc = EVTDESC73010
+	picture = GFX_evt_library
+	
+	min_age = 55
+	only_playable = yes
+	prisoner = no
+	capable_only = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 1415
+		OR = {
+			religion = catholic
+			religion = cathar
+			religion = fraticelli
+			religion = waldensian
+			religion = lollard
+		}
+		NOT = { has_character_flag = ars_moriendi }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.5
+			age = 58
+		}
+		modifier = {
+			factor = 2.0
+			age = 62
+		}
+		modifier = {
+			factor = 100.0
+			age = 65
+		}
+		modifier = {
+			factor = 5.0
+			trait = zealous
+		}
+		
+		
+		modifier = {
+			factor = 1.25
+			trait = stressed
+		}
+		modifier = {
+			factor = 1.25
+			trait = depressed
+		}
+		modifier = {
+			factor = 1.5
+			trait = lunatic
+		}
+		modifier = {
+			factor = 1.5
+			trait = possessed
+		}
+		modifier = {
+			factor = 1.1
+			trait = ill
+		}
+		modifier = {
+			factor = 1.25
+			trait = pneumonic
+		}
+		modifier = {
+			factor = 1.25
+			trait = syphilitic
+		}
+		modifier = {
+			factor = 2.0
+			trait = leper
+		}
+		modifier = {
+			factor = 1.15
+			trait = wounded
+		}
+		modifier = {
+			factor = 1.25
+			trait = maimed
+		}
+		modifier = {
+			factor = 2.0
+			trait = infirm
+		}
+		modifier = {
+			factor = 3.0
+			trait = incapable
+		}
+		modifier = {
+			factor = 1.1
+			trait = drunkard
+		}
+		modifier = {
+			factor = 1.1
+			trait = has_tuberculosis
+		}
+		modifier = {
+			factor = 1.1
+			trait = has_typhoid_fever
+		}
+		modifier = {
+			factor = 1.5
+			trait = has_typhus
+		}
+		modifier = {
+			factor = 1.5
+			trait = has_bubonic_plague
+		}
+		modifier = {
+			factor = 1.1
+			trait = has_measles
+		}		
+		modifier = {
+			factor = 1.1
+			trait = has_small_pox
+		}		
+	}
+	
+	immediate = {
+		set_character_flag = ars_moriendi
+	}
+	
+	option = {
+		name = EVTOPTA73011 #I am avoiding tempration.
+		trigger = {
+			NOT = { trait = cynical }
+			NOT = { trait = lustful }
+			NOT = { trait = gluttonous }
+			NOT = { trait = greedy }
+			NOT = { trait = slothful }
+			NOT = { trait = envious }
+			NOT = { trait = wroth }
+			NOT = { trait = proud }
+
+		}
+		health = -1
+		piety = 100
+	}
+	option = {
+		name = EVTOPTB73011 #Forgive me father, for I have sinned.
+		trigger = {
+			NOT = { trait = cynical }
+			OR = {
+				trait = lustful
+				trait = gluttonous
+				trait = greedy
+				trait = slothful
+				trait = envious
+				trait = wroth
+				trait = proud
+			}
+		}
+		if = {
+			limit = {
+				trait = lustful
+			}
+			remove_trait = lustful
+			piety = -20
+		}
+		if = {
+			limit = {
+				trait = gluttonous
+			}
+			remove_trait = gluttonous
+			piety = -20
+		}
+		if = {
+			limit = {
+				trait = greedy
+			}
+			remove_trait = greedy
+			piety = -20
+		}		
+		if = {
+			limit = {
+				trait = slothful
+			}
+			remove_trait = slothful
+			piety = -20
+		}		
+		if = {
+			limit = {
+				trait = envious
+			}
+			remove_trait = envious
+			piety = -20
+		}		
+		if = {
+			limit = {
+				trait = wroth
+			}
+			remove_trait = wroth
+			piety = -20
+		}
+		if = {
+			limit = {
+				trait = proud
+			}
+			remove_trait = proud
+			piety = -20
+		}				
+	}
+	option = {
+		name = EVTOPTC73011 	#I do not fear death...
+		tooltip_info = cynical
+		trigger = { 
+			trait = cynical 
+			NOT = { trait = craven }
+		}
+		piety = -5
+		prestige = 5
+		health = -2
+	}
+	option = {
+		name = EVTOPTD73011 #I am just a poor sinner..
+		piety = -10
+		health = -2
+	}
+}
+
+
+
 #####################################
 # Ask for a job if I am good!
 #####################################
@@ -797,8 +1195,8 @@ character_event = {
 	id = 73200
 	desc = EVTDESC73200	#I want to be marshal, I am better...
 	picture = GFX_evt_spymaster
+	border = GFX_event_normal_frame_war
 	
-	only_men = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -816,6 +1214,7 @@ character_event = {
 				NOT = { has_minor_title = title_regent }
 			}
 		}
+		can_hold_title = job_marshal
 	}
 	
 	mean_time_to_happen = {
@@ -841,7 +1240,7 @@ character_event = {
 letter_event = {
 	id = 73201
 	desc = EVTDESC73201
-	picture = GFX_evt_spymaster
+	border = GFX_event_letter_frame_war
 	
 	is_triggered_only = yes
 
@@ -896,6 +1295,7 @@ letter_event = {
 	id = 73202
 	desc = EVTDESC73202
 	picture = GFX_evt_spymaster
+	border = GFX_event_letter_frame_war
 	
 	is_triggered_only = yes
 
@@ -927,6 +1327,7 @@ character_event = {
 	id = 73203
 	desc = EVTDESC73203
 	picture = GFX_evt_spymaster
+	border = GFX_event_normal_frame_war
 	
 	prisoner = no
 	capable_only = yes
@@ -936,8 +1337,10 @@ character_event = {
 	trigger = {
 		has_character_flag = asked_for_job
 		independent = no
+		is_councillor = no
 		NOT = { has_job_title = job_marshal }
 		liege = {
+			NOT = { character = ROOT }
 			job_marshal = { 
 				NOT = { martial = prev } 
 				same_liege = ROOT
@@ -961,6 +1364,7 @@ letter_event = {
 	id = 73204
 	desc = EVTDESC73204
 	picture = GFX_evt_spymaster
+	border = GFX_event_letter_frame_war
 	
 	is_triggered_only = yes
 
@@ -1002,6 +1406,7 @@ letter_event = {
 	id = 73205
 	desc = EVTDESC73205
 	picture = GFX_evt_spymaster
+	border = GFX_event_letter_frame_war
 	
 	is_triggered_only = yes
 
@@ -1016,8 +1421,8 @@ character_event = {
 	id = 73210
 	desc = EVTDESC73210	#I want to be spymaster, I am better...
 	picture = GFX_evt_spymaster
+	border = GFX_event_normal_frame_intrigue
 	
-	only_men = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -1035,6 +1440,7 @@ character_event = {
 				NOT = { has_minor_title = title_regent }
 			}
 		}
+		can_hold_title = job_spymaster
 	}
 	
 	mean_time_to_happen = {
@@ -1158,8 +1564,10 @@ character_event = {
 	trigger = {
 		has_character_flag = asked_for_job
 		independent = no
+		is_councillor = no
 		NOT = { has_job_title = job_spymaster }
 		liege = {
+			NOT = { character = ROOT }
 			job_spymaster = {
 				NOT = { intrigue = prev }
 				same_liege = ROOT
@@ -1238,7 +1646,6 @@ character_event = {
 	desc = EVTDESC73220	#I want to be treasurer, I am better...
 	picture = GFX_evt_spymaster
 
-	only_men = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -1256,6 +1663,7 @@ character_event = {
 				NOT = { has_minor_title = title_regent }
 			}
 		}
+		can_hold_title = job_treasurer
 	}
 	
 	mean_time_to_happen = {
@@ -1374,8 +1782,10 @@ character_event = {
 	trigger = {
 		has_character_flag = asked_for_job
 		independent = no
+		is_councillor = no
 		NOT = { has_job_title = job_treasurer }
 		liege = {
+			NOT = { character = ROOT }
 			job_treasurer = { 
 				NOT = { stewardship = prev }
 				same_liege = ROOT
@@ -1455,15 +1865,23 @@ character_event = {
 	desc = EVTDESC73230	#I want to be lord_spiritual, I am better...
 	picture = GFX_evt_spymaster
 
-	only_men = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
 	trigger = {
+		NOT = {
+			religion_group = muslim
+		}
 		OR = {
 			is_theocracy = yes
-			is_ruler = no
+			AND = {
+				is_ruler = no
+				NOT = { religion = orthodox }
+				NOT = { is_heresy_of = orthodox }
+				NOT = { religion = miaphysite }
+				NOT = { is_heresy_of = miaphysite }
+			}
 		}
 		independent = no
 		is_councillor = no
@@ -1475,6 +1893,7 @@ character_event = {
 				same_liege = ROOT
 				NOT = { learning = ROOT }
 				NOT = { has_minor_title = title_regent }
+				NOT = { ROOT = { religion_head = { character = PREVPREV } } }  # Won't claim to be a better chaplain than your religious head...
 			}
 			religion = ROOT
 			NOT = {
@@ -1483,6 +1902,7 @@ character_event = {
 				}
 			}
 		}
+		can_hold_title = job_spiritual
 	}
 	
 	mean_time_to_happen = {
@@ -1500,7 +1920,14 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA73230
-		liege = { letter_event = { id = 73231 tooltip = EVTTOOLTIP73231 } }
+		if = {
+			limit = {
+				NOT = {
+					religion_group = muslim
+				}
+			}
+			liege = { letter_event = { id = 73231 tooltip = EVTTOOLTIP73231 } }
+		}
 	}
 }
 
@@ -1602,6 +2029,7 @@ character_event = {
 	trigger = {
 		has_character_flag = asked_for_job
 		independent = no
+		is_councillor = no
 		NOT = { has_job_title = job_spiritual }
 		liege = {
 			NOT = { character = ROOT }
@@ -1686,7 +2114,6 @@ character_event = {
 	desc = EVTDESC73240	#I want to be Chancellor, I am better...
 	picture = GFX_evt_spymaster
 	
-	only_men = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -1704,6 +2131,7 @@ character_event = {
 				NOT = { has_minor_title = title_regent }
 			}
 		}
+		can_hold_title = job_chancellor
 	}
 	
 	mean_time_to_happen = {
@@ -1822,8 +2250,10 @@ character_event = {
 	trigger = {
 		has_character_flag = asked_for_job
 		independent = no
+		is_councillor = no
 		NOT = { has_job_title = job_chancellor }
 		liege = {
+			NOT = { character = ROOT }
 			job_chancellor = { 
 				NOT = { diplomacy = prev } 
 				same_liege = ROOT

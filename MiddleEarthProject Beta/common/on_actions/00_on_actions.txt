@@ -10,6 +10,8 @@ on_yearly_pulse = {
 	events = {
 	#MEP events
 	population.3
+	purge.0
+	purge.3
 	}
 	random_events = {
 		
@@ -146,15 +148,15 @@ on_yearly_pulse = {
 		# 100 = 39230
 		
 		#Bastard Events
-		# 100 = 76000
-		# 100 = 76005
-		# 100 = 76010
-		# 100 = 76015
-		# 100 = 76020
-		# 100 = 76025
-		# 100 = 76030
-		# 100 = 76035
-		# 100 = 76040
+		100 = 76000
+		100 = 76005
+		100 = 76010
+		100 = 76015
+		100 = 76020
+		100 = 76025
+		100 = 76030
+		100 = 76035
+		100 = 76040
 		
 		#Ward Events
 		100 = 78000
@@ -164,12 +166,108 @@ on_yearly_pulse = {
 		100 = 78020
 		100 = 78025
 		100 = 78030
+		100 = HL.10610
+
+# Effects of being in hiding
+		100 = CM.6100
+		100 = CM.6102
+		100 = CM.6104
+		100 = CM.6106
+		100 = CM.6108
+		100 = CM.6110
+		100 = CM.6112
+		100 = CM.6114
+		100 = CM.6116
+		100 = CM.6118
+		100 = CM.6120
+		100 = CM.6122
+		100 = CM.6124
+		100 = CM.6126
+		100 = CM.6128
+		100 = CM.6130
+		100 = CM.6132
 		
+		# Meddling mother events
+		100 = CM.1150
+		100 = CM.1160
+		100 = CM.1170
+		100 = CM.1180
+		100 = CM.1190
+		
+		# Other Charlemagne/Carloman
+		100 = CM.1130
+		
+		# Way of Life Theology focus
+		1000 = WoL.7000
+		1000 = WoL.7010
+		1000 = WoL.7020
+		1000 = WoL.7030
+		1000 = WoL.7040
+		1000 = WoL.7050
+		1000 = WoL.7060
+		1000 = WoL.7070
+
+		# Way of Life Hunting focus
+		2000 = WoL.5000 # Epic Hunt chain start
+		2000 = WoL.5200 # Receive hunting dog
+		1000 = WoL.5210 # Dog makes you happy
+		1000 = WoL.5211 # Dog makes you popular
+		1000 = WoL.5220 # Train your dog?
+		1000 = WoL.5230 # Bad dog kills other dog
+		1000 = WoL.5231 # Bad dog kills or wounds courtier
+
+		# Horse Lords Mercenary Events
+		300 = HL.10100
+		300 = HL.10200
+		300 = HL.10210
+		300 = HL.10220
+		300 = HL.10230
+		300 = HL.10240
+		300 = HL.10250
+		300 = HL.10260
+		300 = HL.10270
+		300 = HL.10400
+		100 = HL.10410
+		300 = HL.10500
+		300 = HL.10510
+		300 = HL.10530
+		300 = HL.10600
+		
+		# Wolf's Blood events
+		100 = HL.1010 # Wolf Child found in woods
+		100 = HL.1020 # Child lost in woods and is rescued by wolves
+		500 = HL.1200 # Call of the Wolves
+		500 = HL.1300 # The Lost Cub
+		150 = HL.1400 # Werewolf first occurrence
+		1500 = HL.1401 # Werewolf subsequent occurrences
+		
+		300 = HL.1500 # Become cannibal
+		300 = HL.1510 # Howl at the moon
+		300 = HL.1520 # Hunter instinct strikes unexpectedly (and awkwardly) at court
+		300 = HL.1530 # Hunter instincts in martial training (upgrade martial education)
+		300 = HL.1540 # Become strong
+		300 = HL.1550 # Cunning as a wolf (quick)
+		300 = HL.1560 # Animal instincts take over... (lustful)
+		300 = HL.1570 # Pack instinct (gregarious)
+		300 = HL.1580 # Wolf is brave (brave)
+		300 = HL.1590 # Animal cruelty (cruel)
+		300 = HL.1610 # Rabid wolf (wroth)
+		300 = HL.1620 # Wolf-face (ugly)
+		300 = HL.1630 # Animal mind (lower learning trait level) 
+		300 = HL.1640 # Really howl at the moon! (lunatic)
+		
+		# Horse Lords Horse Events
+		800 = HL.6010 # Ward can't ride yet
+		100 = HL.6020 # Dangerous river crossing - save spouse or favorite horse?
+		100 = HL.6030 # A loyal retinue warrior's family have lost their horses to sickness
+		100 = HL.6510 # Your horse gets bitten by another horse
+		100 = HL.6520 # Foreign portrait painter offers his services
+				
 		#Hobbit Party
 		5 = hobbits.5
 		2500 = hobbits.6
 		10000 = hobbits.7
-		
+
 		5000 = 0 # Chance of no yearly event
 	}
 }
@@ -383,7 +481,8 @@ on_bi_yearly_pulse = {
 		10 = 3685
 		10 = 3690
 		10 = 3700
-
+		
+		
 		2000 = 0 # Chance of no bi-yearly event
 	}
 }
@@ -823,10 +922,12 @@ on_birth = {
 		300 # A Bastard is born
 		312 # The child of a consort is born		
 		318 # A Bastard is born, but is not recognized as such by the mother's spouse (cuckoo!)
-		# TOG.3206 # Child Perceived to be Demon Born
-		# 706 # Full House achievement
-		# 707 # Keeping it in the Family achievement
+		TOG.3206 # Child Perceived to be Demon Born
+		706 # Full House achievement
+		707 # Keeping it in the Family achievement
 		CM.10011 # Chronicle entry
+		HL.1000 # Child born with Wolf's Blood
+		HL.1700 # Wolf's Blood inheritance
 	}
 	random_events = {
 		10 = dwarvenevents.0 # The child is the reincarnation of Durin the Deathless.
@@ -1042,13 +1143,13 @@ on_loot_settlement = {
 
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT_EVENT = {
 	events = {
-		# 202
+		202
 	}
 }
 
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE_EVENT = {
 	events = {
-		# 203
+		203
 	}
 }
 
@@ -1064,9 +1165,11 @@ REVOKE_TITLE_INTERACTION_DECLINE_EVENT = {
 	}
 }
 
+# FROM is character receiving peace proposal. ROOT is character sending peace proposal.
 OFFER_PEACE_INTERACTION_ACCEPT_EVENT = {
 	events = {
 		206
+		CM.1407 # Charlemagne in Spain
 	}
 }
 
@@ -1090,37 +1193,37 @@ SEND_GIFT_INTERACTION_DECLINE_EVENT = {
 
 ASK_FOR_MONEY_INTERACTION_ACCEPT_EVENT = {
 	events = {
-		# SoA.3100
+		SoA.3100
 	}
 }
 
 ASK_FOR_MONEY_INTERACTION_DECLINE_EVENT = {
 	events = {
-		# SoA.3101
+		SoA.3101
 	}
 }
 
 ASK_FOR_CLAIM_INTERACTION_ACCEPT_EVENT = {
 	events = {
-		# SoA.3104
+		SoA.3104
 	}
 }
 
 ASK_FOR_CLAIM_INTERACTION_DECLINE_EVENT = {
 	events = {
-		# SoA.3105
+		SoA.3105
 	}
 }
 
 NOMINATE_BISHOP_TO_POPE_INTERACTION_ACCEPT_EVENT = {
 	events = {
-		# SoA.3102
+		SoA.3102
 	}
 }
 
 NOMINATE_BISHOP_TO_POPE_INTERACTION_DECLINE_EVENT = {
 	events = {
-		# SoA.3103
+		SoA.3103
 	}
 }
 
@@ -1281,10 +1384,10 @@ ASK_FOR_INVASION_INTERACTION_DECLINE_EVENT = {
 	}
 }
 
+#
 ASK_FOR_DIVORCE_INTERACTION_ACCEPT_EVENT = {
 	events = {
 		234
-		# 717 # Achievement
 	}
 }
 
@@ -1308,14 +1411,16 @@ ASK_FOR_EXCOMMUNICATION_INTERACTION_DECLINE_EVENT = {
 
 CALL_ALLY_INTERACTION_ACCEPT_EVENT = {
 	events = {
-		238
+		238 # Ally accepts
+		41000 # Vassal accepts
 		CM.10014
 	}
 }
 
 CALL_ALLY_INTERACTION_DECLINE_EVENT = {
 	events = {
-		239
+		239 # Ally 
+		41001 # Vassal
 	}
 }
 
@@ -1386,6 +1491,19 @@ ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_EVENT = {
 	}
 }
 
+SETTLE_ADVENTURER_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		288
+		725
+	}
+}
+
+SETTLE_ADVENTURER_INTERACTION_DECLINE_EVENT = {
+	events = {
+		289
+	}
+}
+
 ASK_TO_JOIN_WAR_INTERACTION_ACCEPT_EVENT = {
 	events = {
 		293
@@ -1423,6 +1541,54 @@ MAKE_CONSORT_INTERACTION_DECLINE_EVENT = {
 	}
 }
 
+ABSORB_CLAN_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		503
+	}
+}
+
+ABSORB_CLAN_INTERACTION_DECLINE_EVENT = {
+	events = {
+		504
+	}
+}
+
+SPLIT_CLAN_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		509
+	}
+}
+
+SPLIT_CLAN_INTERACTION_DECLINE_EVENT = {
+	events = {
+		510
+	}
+}
+
+FORM_BLOOD_OATH_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		505
+	}
+}
+
+FORM_BLOOD_OATH_INTERACTION_DECLINE_EVENT = {
+	events = {
+		506
+	}
+}
+
+SETTLE_FEUD_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		507
+	}
+}
+
+SETTLE_FEUD_INTERACTION_DECLINE_EVENT = {
+	events = {
+		508
+	}
+}
+
 # never triggered, but reserved for CB use
 on_warleader_death = {
 	events = {
@@ -1450,14 +1616,16 @@ on_approve_de_jure_law = {
 on_rebel_revolt = {
 	events = {
 		600 		# Only valid without "The Old Gods" DLC
-		# TOG.1030 	# Heretic rebels reinforced
-		# TOG.1020	# Heretic rebels rise up
-		# TOG.1050 	# Nationalist rebels reinforced
-		# TOG.1040	# Nationalist rebels rise up
-		# TOG.1070 	# Religious rebels reinforced
-		# TOG.1060	# Religious rebels rise up
-		# TOG.1010 	# Peasant rebels reinforced
-		# TOG.1000 	# Peasant rebels rise up
+		TOG.1030 	# Heretic rebels reinforced
+		TOG.1020	# Heretic rebels rise up
+		TOG.1050 	# Nationalist rebels reinforced
+		TOG.1040	# Nationalist rebels rise up
+		TOG.1070 	# Religious rebels reinforced
+		TOG.1060	# Religious rebels rise up
+		TOG.1010 	# Peasant rebels reinforced
+		TOG.1000 	# Peasant rebels rise up
+		HL.2010		# Minor Clan rebels reinforced
+		HL.2000		# Minor Clan rebels rise up
 	}
 }
 
@@ -1530,7 +1698,7 @@ on_heresy_takeover = {
 # Fires for a newly elected Doge. FROM is the previous (dying or abdicating) doge.
 on_become_doge = {
 	events = {
-		# 701
+		701
 	}
 }
 
@@ -1542,7 +1710,7 @@ on_elective_gavelkind_succession = {
 # Fires when a navy moves into a port. Starts in unit scope, FROM is the owner.
 on_entering_port = {
 	events = {
-		# 700
+		700
 	}
 }
 
