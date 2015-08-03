@@ -545,6 +545,8 @@ focus_war = {
 			factor = 2.0
 			is_tribal = yes
 		}
+		modifier = {
+			factor = 2.0
 			is_nomadic = yes
 		}
 		modifier = {
