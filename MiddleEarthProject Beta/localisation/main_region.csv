@@ -2,7 +2,6 @@
 #World
 world_south;Southern Middle-Earth;FRE;;;;;x
 world_east;Eastern Middle-Earth;FRE;;;;;x
-world_rhovanion_mirkwood;Mirkwood;FRE;;;;;x
 #Harondor
 custom_harondor;Harondor;Harondor;;;;;x
 #Bellakar
@@ -11,8 +10,8 @@ custom_bellakar;Bellakar;Bellakar;;;;;x
 custom_umbar;Umbar;Umbar;;;;;x
 #Khand
 custom_khand;Khand;Khand;;;;;x
-#Anadûnê
-custom_anadune;Anadûnê;Anadûnê;;;;;x
+#Anadï¿½nï¿½
+custom_anadune;Anadï¿½nï¿½;Anadï¿½nï¿½;;;;;x
 #Mordor
 custom_gorgoroth;Gorgoroth;Gorgoroth;;;;;x
 custom_nurn;Nurn;Nurn;;;;;x
@@ -67,7 +66,7 @@ world_enedwaith;Enedwaith;Enedwaith;;;;;x
 
 ### GONDOR ###
 #Anorien
-custom_anorien;Anórien;Anórien;;;;;x
+custom_anorien;Anï¿½rien;Anï¿½rien;;;;;x
 #Lebennin
 custom_lebennin;Lebennin;Lebennin;;;;;x
 #Belfalas
@@ -87,3 +86,6 @@ world_gondor;Gondor;Gondor;;;;;x
 
 ### ROHAN ###
 custom_rohan;Rohan;Rohan;;;;;x
+
+### RHOVANION ###
+custom_mirkwood;Mirkwood;FRE;;;;;x
