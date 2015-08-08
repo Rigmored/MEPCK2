@@ -8,6 +8,10 @@
 			factor = 0
 			NOT = { religion_group = christian }
 		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+		}
 	}
 
 	1 = { #throne room
@@ -16,6 +20,11 @@
 			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			is_tribal = yes
 		}
 	}
 
@@ -33,6 +42,14 @@
 			factor = 0
 			religion_group = muslim
 		}
+		modifier = {
+			factor = 0.01
+			is_nomadic = yes
+		}
+		modifier = {
+			factor = 10
+			is_tribal = yes
+		}
 	}
 
 	4 = { # bed
@@ -43,7 +60,7 @@
 			NOT = { trait = infirm }
 		}
 		modifier = {
-			factor = 0.01
+			factor = 0.02
 			trait = infirm
 		}
 	}
@@ -75,14 +92,27 @@
 		}
 	}
 	7 = { # Dolmen
-		factor = 1
+		factor = 5
 		modifier = {
 			factor = 0
 			NOT = { religion_group = pagan_group }
 		}
+		modifier = {
+			factor = 2
+			is_priest = yes
+		}
 	}
 	8 = { # Gallows
-		factor = 0
+			factor = 5
+		modifier = {
+			factor = 0
+			NOT = { trait = cruel }
+			NOT = { trait = impaler }
+		}
+		modifier = {
+			factor = 20
+			trait = impaler
+		}
 	}
 	9 = { # Church
 		factor = 100
@@ -92,11 +122,6 @@
 		}
 		modifier = {
 			factor = 0
-			is_ruler = no
-			
-			}
-		modifier = {
-			factor = 0
 			OR = {
 				is_ruler = no
 				is_theocracy = no
@@ -104,10 +129,10 @@
 		}
 	}
 	10 = { # Desert
-		factor = 1
+		factor = 5
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
+			NOT = { culture_group = culture_group_southron }
 			#NOT = { capital_scope = { terrain = desert } }
 			#NOT = { capital_scope = { terrain = coastal_desert } }
 		}
@@ -116,28 +141,30 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			#NOT = { capital_scope = { terrain = steppe } }
-			#NOT = { capital_scope = { terrain = plains } }
-			NOT = { culture_group = altaic }
+
+			NOT = { culture_group = culture_group_easterling }
 		}
 		modifier = {
 			factor = 10
-			culture_group = altaic
-			NOT = { culture = turkish }
+			culture_group = culture_group_easterling
+		}
+		modifier = {
+			factor = 10
+			is_nomadic = yes
 		}
 	}
 	12 = { # Ocean w ships
-		factor = 0
-		#modifier = {
-			#factor = 0
-			#NOT = { location = { terrain = ocean } }
-		#}
+		factor = 10
+		modifier = {
+			factor = 0
+			is_patrician = no
+		}
 	}
 	13 = { # Muslim interior
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
+			NOT = { culture_group = culture_group_southron }
 		}
 	}
 	14 = { # Harem
@@ -146,9 +173,16 @@
 			factor = 0
 			NOT = { religion_group = muslim }
 		}
+		modifier = {
+			factor = 100
+			OR = {
+				trait = lustful
+				trait = hedonist
+			}
+		}
 	}
 	15 = { # Muslim interior 2
-		factor = 1
+		factor = 5
 		modifier = {
 			factor = 0
 			NOT = { religion_group = muslim }
@@ -191,11 +225,6 @@
 
 		modifier = {
 			factor = 0
-			is_ruler = no
-			
-			}
-		modifier = {
-			factor = 0
 			OR = {
 				is_ruler = no
 				is_theocracy = no
@@ -207,7 +236,11 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = pagan_group }
+			NOT = { religion_group = religion_group_melkor }
+		}
+		modifier = {
+			factor = 10
+			is_priest = yes
 		}
 	}
 }
@@ -998,12 +1031,12 @@
 	1 = {
 		factor = 1
 		modifier = {
-			factor = 0.002
+			factor = 0
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
 		}
 		modifier = {
-			factor = 0.002
+			factor = 0
 			is_feudal = no
 		}
 		modifier = {
@@ -1045,7 +1078,7 @@
 	2 = {
 		factor = 1
 		modifier = {
-			factor = 0.002
+			factor = 0
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
 		}
@@ -1091,7 +1124,7 @@
 	3 = {
 		factor = 1
 		modifier = {
-			factor = 0.002
+			factor = 0
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
 		}
@@ -1137,7 +1170,7 @@
 	4 = {
 		factor = 1
 		modifier = {
-			factor = 0.002
+			factor = 0
 			is_feudal = yes
 			NOT = { real_tier = duke }
 			NOT = { spouse = { real_tier = duke } }
@@ -1289,7 +1322,7 @@
 	7 = {
 		factor = 1
 		modifier = {
-			factor = 0.002
+			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
@@ -1538,160 +1571,10 @@
 					any_demesne_title = {
 						real_tier = baron
 					}
-					NOT = {
-						primary_title = {
-							OR = {
-								mercenary = yes
-								title = d_knights_hospitaler
-								title = d_knights_templar
-								title = d_teutonic_order
-							}
-						}
-					}
 				}
 				trait = elf
 			}
 		}			
-		modifier = {
-			factor = 0
-			OR = {
-				trait = ring
-				trait = mouthofsauron
-			}
-		}		
-	}
-
-	# Catholic mitre
-	12 = {
-		factor = 20
-		modifier = {
-			factor = 0
-			NOT = { religion = catholic }
-			NOT = { is_heresy_of = catholic }
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = no
-				is_theocracy = no
-			}
-			NOT = { has_job_title  = job_spiritual }
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				trait = elf_childhood
-				trait = elf
-			}
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				NOT = { age = 150 }
-				trait = elf
-			}
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				NOT = { has_job_title  = job_marshal }	
-				NOT = { has_job_title  = job_spiritual }	
-				NOT = { has_job_title  = job_spymaster }	
-				NOT = { has_job_title  = job_treasurer }	
-				NOT = { has_job_title  = job_chancellor }	
-				trait = elf
-			}
-		}			
-		modifier = {
-			factor = 0
-			AND = {
-				OR = {
-					real_tier = king
-					real_tier = emperor
-				}
-				AND = {
-					real_tier = duke
-					any_demesne_title = {
-						real_tier = baron
-					}
-					NOT = {
-						primary_title = {
-							OR = {
-								mercenary = yes
-								title = d_knights_hospitaler
-								title = d_knights_templar
-								title = d_teutonic_order
-							}
-						}
-					}
-				}
-				trait = elf
-			}
-		}		
-		modifier = {
-			factor = 0
-			has_landed_title = k_papal_state
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = ring
-				trait = mouthofsauron
-			}
-		}		
-	}
-
-	# Papal tiara
-	13 = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { has_landed_title = k_papal_state }
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				trait = elf_childhood
-				trait = elf
-			}
-		}		
-		modifier = {
-			factor = 0
-			OR = {
-				trait = ring
-				trait = mouthofsauron
-			}
-		}		
-	}
-	
-	# Orthodox mitre
-	14 = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { religion = orthodox }
-			NOT = { is_heresy_of = orthodox }
-			NOT = { religion = miaphysite }
-			NOT = { is_heresy_of = miaphysite }
-			NOT = { has_landed_title = k_orthodox }
-			NOT = { has_landed_title = d_miaphysite }
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				trait = elf_childhood
-				trait = elf
-			}
-		}		
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = no
-				is_theocracy = no
-
-			}
-			NOT = { has_job_title  = job_spiritual }
-		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -1898,6 +1781,31 @@
 			factor = 0
 			NOT = {
 				trait = blinded
+			}
+		}
+	}
+}
+
+# p11 player
+11 = {
+	0 = { # blank
+		factor = 100
+		modifier = {
+			factor = 0
+			AND = {
+				ai = no
+				multiplayer = yes
+			}
+		}
+	}
+
+	1 = { # player
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				ai = yes
+				multiplayer = no
 			}
 		}
 	}
