@@ -1015,6 +1015,8 @@ obj_get_married = {
 		NOT = { trait = celibate }
 		NOT = { trait = incapable }
 		NOT = { trait = eunuch }
+		NOT = { trait = monk }
+		NOT = { trait = nun }
 		NOT = { culture_group = culture_group_onodrim }
 		NOT = { culture_group = culture_group_wilderness }
 		NOT = { culture_group = culture_group_eru }
@@ -1282,8 +1284,10 @@ obj_have_a_son = {
 	allow = {
 		prisoner = no
 		is_marriage_adult = yes
-		is_married = yes
-		is_consort = yes
+		OR = {
+			is_married = yes
+			is_consort = yes
+		}
 		NOT = { culture_group = culture_group_onodrim }
 		NOT = { culture_group = culture_group_wilderness }
 		NOT = { culture_group = culture_group_eru }
@@ -1375,6 +1379,9 @@ obj_wants_landed_title = {
 		NOT = { trait = eunuch }
 		NOT = { culture_group = culture_group_onodrim }
 		NOT = { culture_group = culture_group_wilderness }
+		NOT = { trait = monk }
+		NOT = { trait = nun }
+		NOT = { has_minor_title = title_guru }
 		liege = {
 			OR = {
 				is_feudal = yes
@@ -1483,7 +1490,7 @@ obj_wants_landed_title = {
 obj_become_heir = {
 	type = character
 	
-	allow = {
+	potential = {
 		prisoner = no
 		is_adult = yes
 		is_primary_heir = no

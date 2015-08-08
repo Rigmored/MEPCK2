@@ -119,28 +119,7 @@ character_event = {
 		modifier = {
 			factor = 0.7
 				trait = stressed
-		}		
-		#### Titles Modifier ####
-		modifier = {
-			factor = 4.0
-			has_landed_title = e_gondor
-		}	
-		modifier = {
-			factor = 2.0
-			has_landed_title = e_steward_gondor
-		}	
-		modifier = {
-			factor = 4.0
-			has_landed_title = e_arnor
-		}	
-		modifier = {
-			factor = 3.0
-			OR = {
-				has_landed_title = k_arthedain
-				has_landed_title = k_cardolan
-				has_landed_title = k_rhudaur
-			}
-		}			
+		}					
 	}
 
 	option = {

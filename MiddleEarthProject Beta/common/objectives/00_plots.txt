@@ -718,8 +718,13 @@ plot_kill_character = {
 		NOT = { culture = culture_dragons }
 		NOT = { culture = culture_spider }
 		NOT = { culture_group = culture_group_wilderness }	
+		NOT = { has_blood_oath_with = FROM }
 	}
 	
+	target_potential = {
+		NOT = { any_spouse = { character = FROM } } # This case is covered by another plot
+	}
+
 	# Target character scope
 	allow = {
 		NOT = { is_child_of = FROM } # Not my own children

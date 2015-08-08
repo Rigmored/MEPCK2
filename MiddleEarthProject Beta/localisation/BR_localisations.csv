@@ -34,3 +34,41 @@ purge0A;Yes, send them at once!;;;;;;;;;;;;x
 purge1desc;Your land has been purged of enemies, and now the time will come to settle the new wilderness with your people.;;;;;;;;;;;;x
 purge3desc;There are enemies living in your demesne who will never submit to you. It's time to send in the troops and get rid of them once and for all.;;;;;;;;;;;;x
 purge4desc;Your land has been purged of enemies, and now orcs are swarming in to settle the abandoned places.;;;;;;;;;;;;x
+sending_colonists_desc;This province is responsible for building a new colony in unsettled lands, and a large amount of treasure and troops are used for this process. Hence, a tax and levy penalty applies.;;;;;;;;;;;;x
+sending_colonists;Sending Colonists.;;;;;;;;;;;;x
+colonisation0desc;Do you want to colonize this province? It can take up to 20 years, and one of your demesne provinces will suffer tax and levy penalties while it expends its resources in the new lands.;;;;;;;;;;;;x
+colonisation0A;Yes, our people need new lands to settle.;;;;;;;;;;;;x
+colonisation0opt2;No, not now.;;;;;;;;;;;;x
+colonisation1desc;This province has been colonised, and will now start paying taxes and contributing troops to your realm. The wilderness has given way to settlements, and your people will surely prosper here.;;;;;;;;;;;;x
+colonisation_wilderness_with_dwarves;Colonise Wilderness with Dwarves;;;;;;;;;;;;x
+being_colonised_with_dwarves;Being colonised with Dwarves;;;;;;;;;;;;x
+colonisation2desc;A dwarf noble is in your court. It will be extremely costly, but you can send him to convince some of his people to settle in a new province, while you start building the infrastructure and clearing the lands of enemies.;;;;;;;;;;;;x
+colonisation2A;Yes, dwarves will live in this province.;;;;;;;;;;;;x
+colonisation3desc;This province has been settled by dwarves, who will be a valuable addition to your realm.;;;;;;;;;;;;x
+being_colonised_with_elves;Being colonised with Elves;;;;;;;;;;;;x
+colonisation4desc;An elven noble is in your court. It will be extremely costly, but you can send him to convince some of his people to settle in a new province, while you start building the infrastructure and clearing the lands of enemies.;;;;;;;;;;;;x
+colonisation4A;Yes, elves will live in this province.;;;;;;;;;;;;x
+colonisation5desc;This province has been settled by elves, who will be a valuable addition to your realm.;;;;;;;;;;;;x
+colonisation_wilderness_with_halflings;Colonize Wilderness with Halflings;;;;;;;;;;;;x
+colonisation_wilderness_with_elves;Colonize Wilderness with Elves;;;;;;;;;;;;x
+colonisation4A;Yes, elves will live in this province.;;;;;;;;;;;;x
+colonisation4desc;An elven noble is in your court. It will be extremely costly, but you can send him to convince some of his people to settle in a new province, while you start building the infrastructure and clearing the lands of enemies.;;;;;;;;;;;;x
+colonisation5desc;This province has been settled by elves, who will be a valuable addition to your realm.;;;;;;;;;;;;x
+being_colonised_with_halflings;Being colonised with Halflings;;;;;;;;;;;;x
+colonisation_wilderness_with_halflings;Colonise wilderness with halflings;;;;;;;;;;;;x
+colonisation6desc;An influential halfing is in your court. It will be very costly, but you can send him to convince some of his people to settle in a new province, while you start building the infrastructure and clearing the lands of enemies.;;;;;;;;;;;;x
+colonisation6A;Yes, halflings will live in this province.;;;;;;;;;;;;x
+colonisation7desc;This province has been settled by halflings, who will be a valuable addition to your realm;;;;;;;;;;;;x
+being_colonised_with_gondorian_middlemen;Being colonised with Gondorian Middle Men;;;;;;;;;;;;x
+being_colonised_with_arnorian_middlemen;Being colonised with Arnorian Middle Men;;;;;;;;;;;;x
+being_colonised_with_southrons;Being colonised with Southrons;;;;;;;;;;;;x
+colonisation8desc;It will be very expensive to settle these lands with those of Dunedain ancestry, as their numbers are few. Do you want to settle with middle men instead?;;;;;;;;;;;;x
+colonisation8A;No, this province will be for the High Men.;;;;;;;;;;;;x
+colonisation8B;Yes, send in some Gondorian Middle-Men.;;;;;;;;;;;;x
+colonisation8C;Yes, send in some Arnorian Middle-Men.;;;;;;;;;;;;x
+colonisation8D;Yes, send in some Southrons instead.;;;;;;;;;;;;x
+colonisation9desc;This province has been settled by Gondorian Middle Men, who will be a valuable addition to your realm.;;;;;;;;;;;;x
+colonisation10desc;This province has been settled by Arnorian Middle Men, who will be a valuable addition to your realm.;;;;;;;;;;;;x
+colonisation11desc;This province has been settled by Southrons, who will be a valuable addition to your realm.;;;;;;;;;;;;x
+population_increasing;Population Increasing;;;;;;;;;;;;x
+population_increasing_desc;Though elves, dunedain, and dwarves grow their populations slowly, in this province a lot of effort has been expended to increase the population, and within 20 years results should be shown.;;;;;;;;;;;;x

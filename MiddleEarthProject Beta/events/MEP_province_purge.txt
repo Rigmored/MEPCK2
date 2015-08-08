@@ -20,7 +20,6 @@ character_event = {
 	religion_group = religion_group_eldar
 	religion_group = religion_group_periannath
 	religion_group = religion_group_edain
-	religion_group = religion_group_eruhini
 	}
 	any_realm_province = {
 	religion_group = religion_group_melkor
@@ -31,7 +30,7 @@ character_event = {
 	name = purge0A #Yes, send them at once!
 	set_character_flag = purge_in_progress
 	ROOT = { character_event = { id = purge.1 days = 3650 } }
-	ROOT = { character_event = { id = purge.2 days = 3651 } }
+	ROOT = { character_event = { id = purge.2 days = 3690 } }
 	any_realm_province = {
 	limit = {
 	religion_group = religion_group_melkor
@@ -42,7 +41,7 @@ character_event = {
 	
 	}
 	
-province_event = {
+character_event = {
 	id = purge.1
 	desc = purge1desc #Your land has been purged of enemies, and now the time will come to settle the new wilderness with your people.
 	picture = GFX_abandoned_lands	
@@ -53,7 +52,10 @@ province_event = {
 	name = OK
 	any_realm_province = {
 	limit = {
+	AND = {
 	religion_group = religion_group_melkor
+	has_province_modifier = being_purged
+	}
 	}
 	culture = culture_wilderness
 	religion = religion_wilderness
@@ -92,16 +94,13 @@ character_event = {
 	NOT = { has_character_flag = purge_in_progress } 
 	NOT = { has_character_flag = very_tolerant_of_good } 
 	religion_group = religion_group_melkor
-	any_realm_province = {
 	OR = {
-	religion_group = religion_group_eruhini
-	religion_group = religion_group_enyd
-	religion_group = religion_group_khazad
-	religion_group = religion_group_eldar
-	religion_group = religion_group_periannath
-	religion_group = religion_group_edain
-	religion_group = religion_group_eruhini
-	}
+	any_realm_province = { 	religion_group = religion_group_edain 	}
+	any_realm_province = { 	religion_group = religion_group_enyd }
+	any_realm_province = { 	religion_group = religion_group_khazad }
+	any_realm_province = { 	religion_group = religion_group_eldar }
+	any_realm_province = { 	religion_group = religion_group_periannath }
+	any_realm_province = { 	religion_group = religion_group_eruhini }
 	}
 	}
 	
@@ -109,16 +108,15 @@ character_event = {
 	name = purge0A #Yes, send them at once!
 	set_character_flag = purge_in_progress
 	ROOT = { character_event = { id = purge.4 days = 3650 } }
-	ROOT = { character_event = { id = purge.5 days = 3651 } }
+	ROOT = { character_event = { id = purge.5 days = 3690 } }
 	any_realm_province = {
 	limit = {
 	OR = {
-	religion_group = religion_group_eruhini
+	religion_group = religion_group_edain 
 	religion_group = religion_group_enyd
 	religion_group = religion_group_khazad
 	religion_group = religion_group_eldar
 	religion_group = religion_group_periannath
-	religion_group = religion_group_edain
 	religion_group = religion_group_eruhini
 	}
 	}
@@ -128,7 +126,7 @@ character_event = {
 	
 	}
 	
-province_event = {
+character_event = {
 	id = purge.4
 	desc = purge4desc #Your land has been purged of enemies, and now orcs are swarming in to settle the abandoned places.
 	picture = GFX_abandoned_lands	
@@ -139,14 +137,19 @@ province_event = {
 	name = OK
 	any_realm_province = {
 	limit = {
+	AND = {
+	has_province_modifier = being_purged
+	}
 	OR = {
 	religion_group = religion_group_eruhini
 	religion_group = religion_group_enyd
 	religion_group = religion_group_khazad
 	religion_group = religion_group_eldar
 	religion_group = religion_group_periannath
-	religion_group = religion_group_edain
-	religion_group = religion_group_eruhini
+	AND = { 
+	religion_group = religion_group_edain 
+	NOT = { culture = culture_nurnim }
+	}
 	}
 	}
 	culture = culture_orkish

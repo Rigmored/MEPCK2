@@ -303,3 +303,58 @@ densely_populated_by_dwarves = {
 	temple_tax_modifier = 0.5
 	icon = 7
 }
+
+sending_colonists = {
+	levy_size = -0.5
+	levy_reinforce_rate = -0.5
+	city_tax_modifier = -0.5
+	castle_tax_modifier = -0.5
+	temple_tax_modifier = -0.5
+	icon = 31
+}
+
+being_colonised_with_dwarves = {
+	city_tax_modifier = -0.5
+	castle_tax_modifier = -0.5
+	temple_tax_modifier = -0.5
+	icon = 22
+}
+
+being_colonised_with_elves = {
+	city_tax_modifier = -0.5
+	castle_tax_modifier = -0.5
+	temple_tax_modifier = -0.5
+	icon = 22
+}
+
+being_colonised_with_halflings = {
+	city_tax_modifier = -0.5
+	castle_tax_modifier = -0.5
+	temple_tax_modifier = -0.5
+	icon = 22
+}
+
+being_colonised_with_gondorian_middlemen = {
+	city_tax_modifier = -0.5
+	castle_tax_modifier = -0.5
+	temple_tax_modifier = -0.5
+	icon = 22
+}
+
+being_colonised_with_arnorian_middlemen = {
+	city_tax_modifier = -0.5
+	castle_tax_modifier = -0.5
+	temple_tax_modifier = -0.5
+	icon = 22
+}
+
+being_colonised_with_southrons = {
+	city_tax_modifier = -0.5
+	castle_tax_modifier = -0.5
+	temple_tax_modifier = -0.5
+	icon = 22
+}
+
+population_increasing = {
+	icon = 7
+}

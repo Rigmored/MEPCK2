@@ -19,9 +19,7 @@ character_event = {
 		NOT = { has_character_flag = arnorgondor1 }
 	}
 	
-	mean_time_to_happen = {
-		days = 180
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAarnorgondor.1"#It may be wise, yes.
@@ -55,9 +53,7 @@ character_event = {
 		has_character_flag = realmunited
 	}
 	
-	mean_time_to_happen = {
-		days = 360
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAarnorgondor.2"#Hmm... alright, we divide the realm then!
@@ -116,9 +112,7 @@ character_event = {
 		has_character_flag = dividerealm
 	}
 	
-	mean_time_to_happen = {
-		days = 360
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAarnorgondor.4"#I'll do it myself right now.
@@ -261,9 +255,7 @@ character_event = {
 		has_character_flag = promisedtosplit
 	}
 	
-	mean_time_to_happen = {
-		days = 360
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAarnorgondor.6"#I was just getting to it!
@@ -311,9 +303,7 @@ character_event = {
 		NOT = { has_character_flag = arnorgondor8 }
 	}
 	
-	mean_time_to_happen = {
-		days = 360
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAarnorgondor.8"#I do feel like an Arnorian!
@@ -323,6 +313,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTBarnorgondor.8"#No, I'll stay what I am.
+		trigger = { ai = no }
 		set_character_flag = arnorgondor8
 	}
 }
@@ -347,9 +338,7 @@ character_event = {
 		NOT = { has_character_flag = dunedainking }
 	}
 	
-	mean_time_to_happen = {
-		days = 100
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAarnorgondor.9" ## I don't need to hold this.

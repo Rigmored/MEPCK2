@@ -1,7 +1,8 @@
 on_startup = {
 	events = {
 		toggle_startup.0
-		population.0
+		population.
+		waning.0
 	}
 }
 
@@ -11,7 +12,36 @@ on_yearly_pulse = {
 	#MEP events
 	population.3
 	purge.0
+	ABDICATE.003
 	purge.3
+	elfchild.0
+	elfchild.1
+	elfchild.4
+	indarnorgondor.0
+	amroth.0
+	amroth.1
+	amroth.24
+	arnorgondor.1
+	arnorgondor.2
+	arnorgondor.4
+	arnorgondor.6
+	arnorgondor.8
+	arnorgondor.9
+	mepclaims.0
+	mepclaims.1
+	mepclaims.2
+	mepclaims.3
+	mepclaims.4
+	fallofarnor.1
+	galadrielring.0
+	galadrielring.1
+	galadrielring.2
+	galadrielring.4
+	galadrielring.9
+	gandalf.1
+	gandalf.2
+	opinionmodifier.0
+	waning.1
 	}
 	random_events = {
 		
@@ -265,9 +295,26 @@ on_yearly_pulse = {
 				
 		#Hobbit Party
 		5 = hobbits.5
-		2500 = hobbits.6
-		10000 = hobbits.7
-
+		100 = hobbits.6
+		200 = hobbits.7
+		100 = blueistari.1
+		100 = blueistari.2
+		25 = dragon.0
+		25 = dunedaincourtier.0
+		25 = dunedaincourtier.1
+		25 = dunedaincourtier.3
+		25 = rohirrimcourtier.0
+		25 = rohirrimcourtier.1
+		25 = rohirrimcourtier.3
+		25 = bardingcourtier.0
+		25 = bardingcourtier.1
+		25 = bardingcourtier.3
+		25 = sindarcourtier.0
+		25 = sindarcourtier.1
+		25 = sindarcourtier.3
+		25 = sindarcourtier.4
+		
+		
 		5000 = 0 # Chance of no yearly event
 	}
 }
@@ -489,6 +536,14 @@ on_bi_yearly_pulse = {
 
 #character
 on_five_year_pulse = {
+
+	events = {
+	ambitions.0
+	ambitions.8
+	ambitions.15
+	mepclaims.6
+	}
+	
 	random_events = {
 		#----  misc traits needing revision below...
 
@@ -618,6 +673,9 @@ on_five_year_pulse = {
 
 #character
 on_decade_pulse = {
+events = {
+greatplague.0
+}
 
 }
 

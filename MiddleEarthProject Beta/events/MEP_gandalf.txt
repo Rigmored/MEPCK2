@@ -27,9 +27,7 @@ narrative_event = {
 		}
 	}
 	
-	mean_time_to_happen = {
-		months = 20
-	}	
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAgandalf.1 ## His help will be appreciate !
@@ -182,9 +180,7 @@ character_event = {
 		NOT = { has_character_flag = coming_of_gandalf }
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAgandalf.2 ## Good.

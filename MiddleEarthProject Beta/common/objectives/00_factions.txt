@@ -30,6 +30,7 @@ faction_succ_seniority = {
 		NOT = { culture_group = culture_group_melkor }
 		NOT = { culture_group = culture_group_wilderness }
 		liege = { 
+			is_vice_royalty = no
 			is_feudal = yes 
 			OR = {
 				year = 1350
@@ -121,7 +122,7 @@ faction_succ_seniority = {
 			NOT = { trait = incapable }
 			prisoner = no
 			
-			
+			NOT = { religion_group = muslim }	
 			NOT = { culture_group = culture_group_onodrim }
 		    NOT = { culture_group = culture_group_melkor }
 		    NOT = { culture_group = culture_group_wilderness }
@@ -725,7 +726,7 @@ faction_succ_primogeniture = {
 			is_adult = yes
 			NOT = { trait = incapable }
 			prisoner = no
-			
+			NOT = { religion_group = muslim }			
 			NOT = { culture_group = culture_group_onodrim }
 		    NOT = { culture_group = culture_group_melkor }
 		    NOT = { culture_group = culture_group_wilderness }	
@@ -1327,10 +1328,10 @@ faction_succ_gavelkind = {
 			is_adult = yes
 			NOT = { trait = incapable }
 			prisoner = no
-			
+			NOT = { religion_group = muslim }			
 			NOT = { culture_group = culture_group_onodrim }
-		NOT = { culture_group = culture_group_melkor }
-		NOT = { culture_group = culture_group_wilderness }
+			NOT = { culture_group = culture_group_melkor }
+			NOT = { culture_group = culture_group_wilderness }
 			NOT = { in_faction = faction_succ_seniority }
 			NOT = { in_faction = faction_succ_primogeniture }
 			NOT = { in_faction = faction_succ_feudal_elective }
@@ -1931,10 +1932,10 @@ faction_succ_feudal_elective = {
 			is_adult = yes
 			NOT = { trait = incapable }
 			prisoner = no
-			
+			NOT = { religion_group = muslim }				
 			NOT = { culture_group = culture_group_onodrim }
-		NOT = { culture_group = culture_group_melkor }
-		NOT = { culture_group = culture_group_wilderness }
+			NOT = { culture_group = culture_group_melkor }
+			NOT = { culture_group = culture_group_wilderness }
 			NOT = { in_faction = faction_succ_seniority }
 			NOT = { in_faction = faction_succ_primogeniture }
 			NOT = { in_faction = faction_succ_gavelkind }

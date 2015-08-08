@@ -308,39 +308,6 @@ religion_group_edain = {
 		intermarry = religion_angmarim
 	}
 
-
-	religion_nurning = {
-		graphical_culture = norsegfx
-
-		icon = 3
-		color = { 0.29 0.37 0.32 }
-		
-		high_god_name = GOD_THE_POWERS
-		
-		god_names = {
-			GOD_THE_POWERS
-		}
-		
-		evil_god_names = {
-			GOD_THE_POWERS
-		}
-		
-		priests_can_marry = yes
-		allow_looting = yes
-		allow_rivermovement = yes
-		pc_marriage = yes
-		bs_marriage = yes
-
-		intermarry = religion_dunedain
-		intermarry = religion_black_numenorean
-		intermarry = religion_rhovanion
-		intermarry = religion_easterlings
-		intermarry = religion_haldadian
-		intermarry = religion_southron
-		intermarry = religion_ishmalogim
-		intermarry = religion_angmarim
-	}
-
 	religion_haldadian = {
 		graphical_culture = celticgfx
 
@@ -493,6 +460,38 @@ religion_group_hildor = {  #Men of Darkness
 	
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0	# never try to convert
+	
+	religion_nurning = {
+		graphical_culture = norsegfx
+
+		icon = 3
+		color = { 0.29 0.37 0.32 }
+		
+		high_god_name = GOD_THE_POWERS
+		
+		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
+			GOD_THE_POWERS
+		}
+		
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		pc_marriage = yes
+		bs_marriage = yes
+
+		intermarry = religion_dunedain
+		intermarry = religion_black_numenorean
+		intermarry = religion_rhovanion
+		intermarry = religion_easterlings
+		intermarry = religion_haldadian
+		intermarry = religion_southron
+		intermarry = religion_ishmalogim
+		intermarry = religion_angmarim
+	}
 	
 	religion_southron = {
 		graphical_culture = muslimgfx

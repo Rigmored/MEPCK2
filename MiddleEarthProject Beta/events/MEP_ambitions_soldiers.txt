@@ -17,9 +17,7 @@ character_event = {
 		NOT = { has_character_flag = rider_education }
 	}
 	
-	mean_time_to_happen = {
-		months = 280
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAambitions.0 ## I'll try to be a true rider !
@@ -232,9 +230,7 @@ character_event = {
 		age = 150
 	}
 	
-	mean_time_to_happen = {
-		months = 280
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAambitions.8 ## I'll try to be a true rider !
@@ -402,9 +398,7 @@ character_event = {
 		age = 100
 	}
 	
-	mean_time_to_happen = {
-		months = 60
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAambitions.15 ## I'll try to be a true rider !

@@ -861,9 +861,10 @@ castle = {
 		heavy_infantry = 100
 		archers = 100
 		horse_archers = 100
+		knights = 100
 		ai_creation_factor = 86
         	potential = {
-            	FROMFROM = { has_landed_title = b_last_homely_house }
+            	FROMFROM = { title = b_last_homely_house }
 				culture = culture_noldor
             	}
 	}

@@ -219,7 +219,7 @@ holder =  1556 # Elenalcar III
 {
 holder =  1557 # Calihmetar
 }
-11340.1.1=
+11360.1.1=
 {
 holder =  1558 # Arciryas
 }

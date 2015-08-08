@@ -14,9 +14,7 @@ character_event = {
 		year = 11370
 	}
 		  
-	mean_time_to_happen = {
-				days = 90
-			      }
+	is_triggered_only = yes
 
 	option = {
 		name = "mepclaims0a" #Yes!
@@ -44,9 +42,7 @@ character_event = {
 		any_vassal = { NOT = { has_landed_title = c_umbar } }
 	}
 		  
-	mean_time_to_happen = {
-				days = 90
-			      }
+	is_triggered_only = yes
 
 	option = {
 		name = "mepclaims1a" #Yes!
@@ -75,9 +71,7 @@ character_event = {
 		NOT = { has_character_flag = claimzeroasked }
 	}
 		  
-	mean_time_to_happen = {
-				days = 90
-			      }
+	is_triggered_only = yes
 
 	option = {
 		name = "mepclaims2a" #Yes!
@@ -102,9 +96,7 @@ character_event = {
 		NOT = { has_global_flag = dunlendingclaim }
 	}
 		  
-	mean_time_to_happen = {
-				days = 90
-			      }
+	is_triggered_only = yes
 
 	option = {
 		name = "mepclaims3a" #Yes!
@@ -137,6 +129,8 @@ character_event = {
 		has_global_flag = saurondefeated
 		is_female = no	
 	}
+	
+	is_triggered_only = yes
 	
 	option = {
 		name = "mepclaims4a"
@@ -198,9 +192,7 @@ character_event = {
 		is_female = no	
 	}
 
-	mean_time_to_happen = {
-				days = 3650
-			      }
+	is_triggered_only = yes
 	
 	option = {
 		name = "mepclaims6a"

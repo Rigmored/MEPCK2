@@ -22,7 +22,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	months = 240	
+	days = 1	
 	}
 	
 
@@ -92,7 +92,7 @@ province_event = {
 	province_id = 422 #minas tirith
 	province_id = 656 # Dol Amroth
 	province_id = 17 #Minas Arnach
-	province_id = 1 #pelennor
+	province_id = 18 #Pelargir
 	province_id = 270 #Fornost
 	province_id = 659 # Annunimas
 	province_id = 105 # Barrow Downs/Tyrn Gorthad capital of cardolan
@@ -126,7 +126,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	months = 240	
+	days = 1	
 	}
 	
 	option = {
@@ -266,7 +266,7 @@ character_event = {
 	has_province_modifier = populated_by_dunedain
 	}
 	}
-	ROOT = { province_event = { id = population.6 months = 240 } }
+	add_province_modifier = { name = population_increasing duration = -1 }
 	}
 	}
 	
@@ -277,7 +277,7 @@ character_event = {
 	prestige = -500	
 	any_courtier = {
 	limit = { has_job_title = job_treasurer }
-	location = { province_event = { id = population.6 months = 240 } }
+	location = { add_province_modifier = { name = population_increasing duration = -1 } }
 	}
 	}
 	
@@ -289,18 +289,17 @@ province_event = {
 	desc = population6desc #The population in this province, with the expenditure of a great amount of wealth and influence, has grown greatly in the last 20 years.
 	picture = GFX_good
 	
-	is_triggered_only = yes
+	trigger = {
+	has_province_modifier = population_increasing
+	}
 	
+	mean_time_to_happen = {
+	months = 240
+	}
 	
 	option = {
 	name = population6A #Good tidings!
-	random_realm_province = {
-	limit = {
-	OR = {
-	has_province_modifier = lightly_populated_by_dunedain
-	has_province_modifier = populated_by_dunedain
-	}
-	}
+	remove_province_modifier = population_increasing
 	if = { 
 	limit = { has_province_modifier = populated_by_dunedain }
 	remove_province_modifier = populated_by_dunedain
@@ -310,7 +309,6 @@ province_event = {
 	limit = { has_province_modifier = lightly_populated_by_dunedain }
 	remove_province_modifier = lightly_populated_by_dunedain
 	add_province_modifier = { name = populated_by_dunedain duration = -1 }
-	}
 	}
 	}
 
@@ -341,7 +339,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	months = 240	
+	days = 1	
 	}
 	
 
@@ -406,7 +404,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	months = 240	
+	days = 1	
 	}
 	
 	option = {
@@ -535,7 +533,7 @@ province_event = {
 	has_province_modifier = populated_by_elves
 	}
 	}
-	province_event = { id = population.13 months = 240 }
+	add_province_modifier = { name = population_increasing duration = -1 }
 	}
 	}
 	
@@ -546,7 +544,7 @@ province_event = {
 	prestige = -500	
 	any_courtier = {
 	limit = { has_job_title = job_treasurer }
-	location = { province_event = { id = population.6 months = 240 } }
+	location = { add_province_modifier = { name = population_increasing duration = -1 } }
 	}
 	}
 	
@@ -558,11 +556,18 @@ province_event = {
 	desc = population6desc #The population in this province, with the expenditure of a great amount of wealth and influence, has grown greatly in the last 20 years.
 	picture = GFX_good
 	
-	is_triggered_only = yes
+	trigger = {
+	has_province_modifier = population_increasing
+	}
+	
+	mean_time_to_happen = {
+	months = 240
+	}
 	
 	
 	option = {
 	name = population6A #Good tidings!
+	remove_province_modifier = population_increasing
 	random_realm_province = {
 	limit = {
 	OR = {
@@ -605,7 +610,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	months = 240	
+	days = 1	
 	}
 	
 
@@ -665,7 +670,7 @@ province_event = {
 	}	
 	
 	mean_time_to_happen = {
-	months = 240	
+	days = 1
 	}
 	
 	option = {
@@ -784,7 +789,7 @@ province_event = {
 	has_province_modifier = populated_by_dwarves
 	}
 	}
-	province_event = { id = population.13 months = 240 }
+	add_province_modifier = { name = population_increasing duration = -1 }
 	}
 	}
 	
@@ -795,7 +800,7 @@ province_event = {
 	prestige = -500	
 	any_courtier = {
 	limit = { has_job_title = job_treasurer }
-	location = { province_event = { id = population.19 months = 240 } }
+	location = { add_province_modifier = { name = population_increasing duration = -1 } }
 	}
 	}
 	
@@ -807,11 +812,18 @@ province_event = {
 	desc = population6desc #The population in this province, with the expenditure of a great amount of wealth and influence, has grown greatly in the last 20 years.
 	picture = GFX_good
 	
-	is_triggered_only = yes
+	trigger = {
+	has_province_modifier = population_increasing
+	}
+	
+	mean_time_to_happen = {
+	months = 240
+	}
 	
 	
 	option = {
 	name = population6A #Good tidings!
+	remove_province_modifier = population_increasing
 	random_realm_province = {
 	limit = {
 	OR = {

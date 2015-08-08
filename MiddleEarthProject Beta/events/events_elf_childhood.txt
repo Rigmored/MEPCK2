@@ -20,9 +20,7 @@ narrative_event = {
 		NOT = { age = 60 }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-	}	
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAelfchild.0" ## Ok.
@@ -49,46 +47,7 @@ narrative_event = {
 		trait = elf_childhood
 	}
 	
-	mean_time_to_happen = {
-		years = 50
-		
-		modifier = {
-			factor = 1.2
-			trait = slow
-		}
-		modifier = {
-			factor = 1.5
-			trait = imbecile
-		}	
-		modifier = {
-			factor = 1.7
-			trait = weak
-		}	
-		modifier = {
-			factor = 0.01
-			trait = genius
-		}	
-		modifier = {
-			factor = 0.1
-			trait = strong
-		}	
-		modifier = {
-			factor = 0.3
-			trait = tall
-		}	
-		modifier = {
-			factor = 0.0001
-			trait = fea_strong
-		}
-		modifier = {
-			factor = 0.3
-			trait = fea_normal
-		}	
-		modifier = {
-			factor = 1.1
-			trait = fea_weak
-		}		
-	}	
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAelfchild.1" ## Ok.
@@ -481,6 +440,8 @@ character_event = {
 			has_job_title = job_spiritual
 		}
 	}
+	
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAelfchild.4" ## I'm too young for this!

@@ -24,9 +24,7 @@ character_event = {
 		NOT = { has_character_flag = fallofarnor_intro }
 	}
 	
-	mean_time_to_happen = {
-		days = 0
-	}
+	is_triggered_only = yes
 			  
 	option = {
 		name = "EVTOPTAfallofarnor.1" ## OK		

@@ -256,9 +256,9 @@ character_event = {
 				province = 310 #Amon Lanc
 				disband_on_peace = no
 				troops = {
-					light_infantry = { 16000 16000 }
-					heavy_infantry = { 4000 4000 }
-					archers = { 4000 4000 }
+					light_infantry = { 10000 10000 }
+					heavy_infantry = { 500 500 }
+					archers = { 1000 1000 }
 				}
 			}		
 		}
@@ -275,9 +275,8 @@ character_event = {
 				province = 310 #Amon Lanc
 				disband_on_peace = no
 				troops = {
-					light_infantry = { 8000 8000 }
-					heavy_infantry = { 1000 1000 }
-					archers = { 1000 1000 }
+					light_infantry = { 4000 4000 }
+					archers = { 500 500 }
 				}
 			}		
 		}		
@@ -398,7 +397,7 @@ character_event = {
 				disband_on_peace = no
 				troops = {
 					light_cavalry = { 4000 4000 }
-					horse_archers = { 4000 4000 }
+					horse_archers = { 500 500 }
 				}
 			}		
 		}
@@ -415,7 +414,7 @@ character_event = {
 				province = 590 #Thrumav
 				disband_on_peace = no
 				troops = {
-					light_infantry = { 12000 12000 }
+					light_infantry = { 4000 4000 }
 					archers = { 4000 4000 }
 				}
 			}
@@ -433,7 +432,7 @@ character_event = {
 				province = 590 #Thrumav
 				disband_on_peace = no
 				troops = {
-					light_infantry = { 6000 6000 }
+					light_infantry = { 2000 2000 }
 					heavy_infantry = { 4000 4000 }
 				}
 			}		
@@ -552,8 +551,8 @@ character_event = {
 				province = 310 #Amon Lanc
 				disband_on_peace = no
 				troops = {
-					light_infantry = { 13000 13000 }
-					heavy_infantry = { 4000 4000 }
+					light_infantry = { 10000 10000 }
+					heavy_infantry = { 1000 1000 }
 					archers = { 4000 4000 }
 				}
 			}		
@@ -571,8 +570,8 @@ character_event = {
 				province = 642 # Gundabad
 				disband_on_peace = no
 				troops = {
-					light_infantry = { 12000 12000 }
-					archers = { 4000 4000 }
+					light_infantry = { 7000 7000 }
+					archers = { 1000 1000 }
 				}
 			}		
 		}
@@ -672,6 +671,7 @@ character_event = {
 					heavy_infantry = { 4000 4000 }
 					archers = { 2000 2000 }
 					light_cavalry = { 500 500 }
+					knights = { 250 250 }
 				}
 			}		
 		}

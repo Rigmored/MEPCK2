@@ -19,9 +19,10 @@ character_event = {
 				religion = religion_mahal		
 				religion = religion_rhovanion		
 			}		
-			NOT = { trait = evil_side }		
-		}		
-	}		
+			NOT = { trait = evil_side }	
+			is_patrician = no #to prevent you from becoming a republic if you gain a republic title from a banished ruler#
+			any_close_relative = { is_patrician = no } }			
+		}				
 
 	mean_time_to_happen = {
 		days = 7	
@@ -30,19 +31,24 @@ character_event = {
 	option = {
 		name = "EVTOPTAconflict.7"	
 		any_realm_character = { 	
-			limit = {		
+			limit = {
+				AND = {
 				OR = {		
 					religion = religion_dunedain		
 					religion_group = religion_group_eldar	
 					religion = religion_mahal		
 					religion = religion_rhovanion		
 				}		
-				NOT = { trait = evil_side }	
-			}	
+				NOT = { trait = evil_side }
+				is_patrician = no #to prevent you from becoming a republic if you gain a republic title from a banished ruler#
+				any_close_relative = { is_patrician = no } 
+				}
+			}
 			character_event = { id = conflict.8 }	
 		}	
-	}	
-}
+	}
+
+}	
 	
 ##good side characters are informed##
 character_event = {
@@ -124,9 +130,11 @@ character_event = {
 				religion = religion_mahal		
 				religion = religion_rhovanion
 			}		
-			NOT = { trait = evil_side }		
+			NOT = { trait = evil_side }	
+			is_patrician = no #to prevent you from becoming a republic if you gain a republic title from a banished ruler#
+			any_close_relative = { is_patrician = no } 
+			}			
 		}		
-	}
 	
 	mean_time_to_happen = {		
 		days = 7	
@@ -135,19 +143,24 @@ character_event = {
 	option = {	
 		name = "EVTOPTAconflict.9"
 		any_realm_character = { 
-			limit = {	
+			limit = {
+				AND = {
 				OR = {		
 					religion = religion_dunedain		
 					religion_group = religion_group_eldar		
 					religion = religion_mahal		
 					religion = religion_rhovanion		
 				}		
-				NOT = { trait = evil_side }		
-			}			
+				NOT = { trait = evil_side }	
+				is_patrician = no #to prevent you from becoming a republic if you gain a republic title from a banished ruler#
+				any_close_relative = { is_patrician = no } 
+				}
+				}			
 			character_event = { id = conflict.10 }	
 		}	
-	}	
-}
+	}
+
+}	
 	
 ##good side characters are informed##
 character_event = {	
@@ -227,7 +240,9 @@ character_event = {
 			culture = culture_entish				
 		}		
 		NOT = { trait = evil_side }		
-		any_realm_lord  = {			
+		any_realm_lord  = {
+			is_patrician = no #to prevent you from becoming a republic if you gain a republic title from a banished ruler#
+			any_close_relative = { is_patrician = no }		
 			OR = {		
 				religion = religion_orkish		
 				religion = religion_wilderness		
@@ -249,6 +264,9 @@ character_event = {
 		name = "EVTOPTAconflict.11"
 		any_realm_character = { 
 			limit = {
+			AND = {
+			is_patrician = no #to prevent you from becoming a republic if you gain a republic title from a banished ruler#
+			any_close_relative = { is_patrician = no }
 				OR = {				
 					religion = religion_orkish
 					culture = culture_orkish
@@ -258,7 +276,8 @@ character_event = {
 					culture = culture_urukhai				
 					culture = culture_spider
 					culture = culture_troll						
-				}		
+				}
+				}
 			}			
 			character_event = { id = conflict.12 }		
 		}	
@@ -328,7 +347,7 @@ character_event = {
 
 
 
-##orcs flee from goodies##		
+##wilderness flee from all##		
 character_event = {
 	id = conflict.13
 	title = OK

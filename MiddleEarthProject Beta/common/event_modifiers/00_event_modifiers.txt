@@ -1566,7 +1566,7 @@ owns_relic = {
 }
 
 crushed_revolt = {
-	global_revolt_risk = -0.04
+	global_revolt_risk = -0.50
 	icon = 13
 }
 

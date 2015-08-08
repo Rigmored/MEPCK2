@@ -30,7 +30,10 @@ culture_gondorian;Men of Gondor;Gondorien;;;Uomini di Gondor;;x
 culture_black_numenorean;Black Númenóreans;Númenóreen Noir;;;N. Neri;;x
 culture_dunedain;Dúnedain;Dúnedain;;;Dúnedain;;x
 culture_woodsmen;Woodsmen;Hommes des Bois;;;Boscaioli;;x
-culture_gondorian_middlemen;Gondorian Commoners;Gondorien Commun;;;Gondoriani Comuni;;x
+culture_gondorian_middlemen;Gondorian Middlemen;Gondorien Commun;;;Gondoriani Comuni;;x
+culture_gondorian_middlemen_desc;Gondorian middle men are of mixed ancestry, with both hillmen ancestors and traces of numenorean blood, though they no longer have the strength and long life of their dunedain ancestors.;;x
+culture_arnorian_middlemen;Arnorian Middlemen;Gondorien Commun;;;Gondoriani Comuni;;x
+culture_arnorian_middlemen_desc;Arnorian middle men are of mixed ancestry, with both hillmen and Haladin ancestors and traces of numenorean blood, though they no longer have the strength and long life of their dunedain ancestors.;;x
 culture_barding;Bardings;Barding;;;Bardini;;x
 culture_northmen;Northrons;Hommes du Nord;;;Nordroni;;x
 culture_eotheod;Éothéod;Éothéod;;;Éothéod;;x

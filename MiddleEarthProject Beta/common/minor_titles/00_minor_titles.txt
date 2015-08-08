@@ -156,7 +156,6 @@ title_commander = {
 	
 	monthly_salary = 0.05
 	monthly_prestige = 0.005
-	grant_limit = 10
 	
 	allowed_to_hold = {
 	
@@ -164,7 +163,6 @@ title_commander = {
 			is_female = no
 			is_adult = yes
 		}
-		has_character_flag = special_marshal
 	
 		prisoner = no
 		NOT = { trait = incapable }

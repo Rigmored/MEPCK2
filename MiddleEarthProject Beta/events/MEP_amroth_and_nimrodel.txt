@@ -18,9 +18,7 @@ narrative_event = {
 		NOT = { has_character_flag = amroth_intro }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAamroth.0 ## I'll only love her !
@@ -55,9 +53,7 @@ narrative_event = {
 		has_global_flag = moriaminesareclosed
 	}
 	
-	mean_time_to_happen = {
-		days = 200
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAamroth.1 ## I need to leave my river !
@@ -607,9 +603,7 @@ narrative_event = {
 		NOT = { has_global_flag = mithrellas_imrazor_events }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAamroth.24 ## I'll welcome her.

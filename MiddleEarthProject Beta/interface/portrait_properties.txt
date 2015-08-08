@@ -1793,15 +1793,15 @@
    	}
 }
 
-# p8 "elvish beards"
+# p8 red dots
 8 = {
 	0 = { # blank
 		factor = 100
 		modifier = {
 			factor = 0
-			trait = elf
-			NOT = {
-				trait = beard_elf
+			OR = {
+				trait = has_measles
+				trait = has_small_pox
 			}
 		}
  	}
@@ -1810,8 +1810,12 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			trait = elf
-			trait = beard_elf
+			OR = {
+				NOT = {
+					trait = has_measles
+					trait = has_small_pox
+				}
+			}
 		}
   	}
 }

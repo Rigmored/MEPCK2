@@ -26,9 +26,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 20
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAdunedaincourtier.0"#We shall honor him!
@@ -94,9 +92,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 35
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAdunedaincourtier.1"#That was ill-done.
@@ -174,9 +170,7 @@ character_event = {
 		is_female = no
 	}
 
-	mean_time_to_happen = {
-		years = 50
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAdunedaincourtier.3"#Send a small force to end the threat.
@@ -270,9 +264,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 20
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTArohirrimcourtier.0"#We shall honor him!
@@ -336,9 +328,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 35
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTArohirrimcourtier.1"#That was ill-done.
@@ -414,9 +404,7 @@ character_event = {
 		is_female = no
 	}
 
-	mean_time_to_happen = {
-		years = 50
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTArohirrimcourtier.3"#Send a small force to end the threat.
@@ -503,9 +491,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 20
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAbardingcourtier.0"#We shall honor him!
@@ -569,9 +555,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 35
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAbardingcourtier.1"#That was ill-done.
@@ -647,9 +631,7 @@ character_event = {
 		is_female = no
 	}
 
-	mean_time_to_happen = {
-		years = 50
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAbardingcourtier.3"#Send a small force to end the threat.
@@ -733,9 +715,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 20
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAsindarcourtier.0"#We shall honor him!
@@ -800,9 +780,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 35
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAsindarcourtier.1"#That was ill-done.
@@ -877,9 +855,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 20
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAsindarcourtier.3"#Let them go - but warn them not to return.
@@ -966,9 +942,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		years = 50
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = "EVTOPTAsindarcourtier.4"#It reminds me of the first light of a winter moon!

@@ -745,10 +745,10 @@ character_event = {
 		
 		OR = { # Only these for now
 			culture = culture_black_numenorean
-			culture_group = culture_barding
-			culture_group = culture_northmen
-			culture = culture_eotheod
-			culture = culture_rohirrim
+			#culture = culture_barding
+			#culture = culture_northmen
+			#culture = culture_eotheod
+			#culture = culture_rohirrim
 			culture = culture_hillmen
 			culture = culture_umbareans
 			has_character_flag = demon_child_non_pagan

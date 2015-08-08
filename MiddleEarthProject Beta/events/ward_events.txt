@@ -651,7 +651,7 @@ character_event = {
 			NOT = {
 				age = 16
 			}
-			NOT = {trait = incapable }
+			NOT = { trait = incapable }
 			OR = {
 				trait = shy
 				trait = craven
@@ -835,7 +835,7 @@ character_event = {
 			}
 		}
 	}
-
+	
 	weight_multiplier = {
 		factor = 1
 	}

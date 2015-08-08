@@ -937,7 +937,7 @@ castle = {
 ####################### Unique buildings #######################
 	ca_thranduil = { 
 		desc = ca_thranduil_desc
-		gold_cost = 150
+		gold_cost = 3000
 		build_time = 1460 #4y
 		fort_level = 4.4
 		garrison_size = 2.50
@@ -946,13 +946,13 @@ castle = {
 		archers = 1500
 		ai_creation_factor = 100
         	potential = {
-            		FROMFROM = { has_landed_title = b_king_thranduil_hall }
+            		FROMFROM = { title = b_king_thranduil_hall }
 		}
 	}
 
 	ca_amon_lanc = { ### The Rebuilded Amon Lanc, city of Oropher
 		desc = ca_amon_lanc_desc
-		gold_cost = 550
+		gold_cost = 1000
 		build_time = 1460 #4y
 		fort_level = 1.0
 		ai_creation_factor = 86
@@ -972,7 +972,7 @@ castle = {
 	
 	ca_lorien = { #Lorien#
 		desc = ca_lorien_desc
-		gold_cost = 150
+		gold_cost = 1500
 		build_time = 1460 #4y
 		fort_level = 6.0
 		garrison_size = 2.00
@@ -982,7 +982,7 @@ castle = {
 		horse_archers = 250
 		ai_creation_factor = 86
         	potential = {
-            		FROMFROM = { has_landed_title = b_house_of_celeborn }
+            		FROMFROM = { title = b_house_of_celeborn }
 		}
 	}	
 }

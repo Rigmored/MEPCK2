@@ -22,9 +22,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
 		}
@@ -153,9 +153,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
 		any_vassal = {
 			age = 20
 		}
@@ -257,9 +257,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
 		}
@@ -362,9 +362,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
 		any_vassal = { reverse_opinion = { who = ROOT value = 10 } }
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
@@ -435,6 +435,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTD74015"
+		piety = 10
 		random_vassal = {
 			limit = { reverse_opinion = { who = ROOT value = 10 } }
 			opinion = {
@@ -473,9 +474,14 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
+		any_vassal = {
+			NOT = {
+				is_priest = yes
+			}
+		}
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
 		}
@@ -535,6 +541,11 @@ character_event = {
 	option = {
 		name = "EVTOPTA74020"
 		random_vassal = {
+			limit = {
+				NOT = {
+					is_priest = yes
+				}
+			}
 			opinion = {
 				modifier = opinion_angry
 				who = ROOT
@@ -564,9 +575,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
 		is_married = yes
 		learning = 10
 		any_vassal = {
@@ -665,9 +676,12 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
+		any_vassal = {
+			is_priest = yes
+		}
 		
 		OR = {
 			NOT = { has_character_flag = fair_event_happened }
@@ -714,15 +728,15 @@ character_event = {
 	option = {
 		name = "EVTOPTA74030"
 		prestige = 10
+		piety = -5
 	}
 
 	option = {
 		name = "EVTOPTB74030"
-		wealth = -20
-		trigger = {
-		    trait = charitable
-		}
 		random_vassal = {
+			limit = {
+				is_priest = yes
+			}
 			opinion = {
 				modifier = opinion_disapprove
 				who = ROOT
@@ -734,7 +748,11 @@ character_event = {
 	option = {
 		name = "EVTOPTD74030"
 		prestige = -5
+		piety = 10
 		random_vassal = {
+			limit = {
+				is_priest = yes
+			}
 			opinion = {
 				modifier = opinion_approves
 				who = ROOT
@@ -754,9 +772,10 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
+	religion = catholic
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
 		any_vassal = {
 			trait = gregarious
 		}
@@ -880,9 +899,12 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
+		any_vassal = {
+			is_priest = yes
+		}
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
 		}
@@ -927,7 +949,11 @@ character_event = {
 				NOT = { trait = zealous }
 			}
 		}		
+		piety = -5
 		random_vassal = {
+			limit = {
+				is_priest = yes
+			}
 			opinion = {
 				modifier = opinion_irritated
 				who = ROOT
@@ -941,6 +967,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB74040" #Banish them
+		piety = 10
 		capital_scope = {
 			add_province_modifier = {
 				name = peasants_upset
@@ -960,9 +987,12 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
+		any_vassal = {
+			is_priest = yes
+		}
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
 		}
@@ -1001,7 +1031,14 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA74042" #Allow him
+		trigger = {
+			NOT = { trait = zealous }
+		}
+		piety = -5
 		random_vassal = {
+			limit = {
+				is_priest = yes
+			}
 			opinion = {
 				modifier = opinion_irritated
 				who = ROOT
@@ -1011,6 +1048,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB74042" #Banish him
+		piety = 10
 		capital_scope = {
 			add_province_modifier = {
 				name = peasants_upset
@@ -1030,9 +1068,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
 		job_marshal = {
 			martial = 12
 		}
@@ -1081,6 +1119,10 @@ character_event = {
 			limit = {
 				is_capital = yes
 			}
+			add_province_modifier = {
+				name = public_execution
+				duration = 1825
+			}
 		}
 		random = {
 			chance = 25
@@ -1109,9 +1151,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	only_rulers = yes
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
-		has_character_modifier = holding_summer_fair
 		any_vassal = {
 			tier = baron
 		}
@@ -1226,11 +1268,11 @@ character_event = {
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
 		war = no
 		in_command = no
-		has_character_modifier = holding_summer_fair
 		any_vassal = {
 			war = no
 			prisoner = no
@@ -1348,11 +1390,11 @@ character_event = {
 	only_playable = yes
 	capable_only = yes
 	prisoner = no
+	has_character_modifier = holding_summer_fair
 
 	trigger = {
 		war = no
 		in_command = no
-		has_character_modifier = holding_summer_fair
 		any_courtier = {
 			prisoner = no
 			is_female = no
@@ -1394,6 +1436,8 @@ character_event = {
 		name = "EVTOPTA4170"
 		trigger = {
 			NOT = { trait = proud }
+			NOT = { trait = craven }
+			NOT = { trait = brave }
 		}
 		random_courtier = {
 			limit = {
@@ -1411,16 +1455,17 @@ character_event = {
 	option = {
 		name = "EVTOPTC4170"
 		trigger = {
-			trait = greedy
+			trait = craven
 		}
-		prestige = 25
-		wealth = -10
+		prestige = -5
 	}
 
 	option = {
 		name = "EVTOPTD4170"
 		trigger = {
 			trait = proud
+			NOT = { trait = craven }
+			NOT = { trait = brave }
 		}
 		random_courtier = {
 			limit = {
@@ -1437,6 +1482,9 @@ character_event = {
 
 	option = {
 		name = "EVTOPTE4170"
+		trigger = {
+			trait = brave
+		}
 		prestige = 10
 	}
 }
