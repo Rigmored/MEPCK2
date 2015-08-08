@@ -295,7 +295,6 @@ obj_become_elf_warrior = {
 			has_character_flag = abort_obj
 			has_character_flag = not_elf_warrior
 			trait = incapable
-			age = 45
 			NOT = { martial = 5 }
 		}
 	}
