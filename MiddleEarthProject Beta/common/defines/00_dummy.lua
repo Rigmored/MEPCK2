@@ -8,6 +8,18 @@ NDefines.NDiplomacy.SHORT_REIGN_YEARS_END = 20
 NDefines.NDiplomacy.LONG_REIGN_YEARS_START = 10000
 NDefines.NDiplomacy.SHORT_REIGN_OPINION_MULT = 1				-- Opinion penalty multiplier to short reign years
 
+NDefines.NDiplomacy.DEMESNE_BASE_MAX_SIZE = 1.0				-- Base Max Demesne Size
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_BARON_MULT = 1.0 			-- Extra Max Demesne Size from the ruler's rank
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_COUNT_MULT = 1.0 			-- Extra Max Demesne Size from the ruler's rank
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_DUKE_MULT = 1.0			-- Extra Max Demesne Size from the ruler's rank
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_KING_MULT = 1.5			-- Extra Max Demesne Size from the ruler's rank
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_EMPEROR_MULT = 2.0		-- Extra Max Demesne Size from the ruler's rank
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_GREAT_DUKE_BONUS = 1.0	-- Extra Max Demesne Size for Dukes with more than one Duchy
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_STEWARDSHIP_MULT = 0.15	-- Extra Max Demesne Size from ruler and spouse stewardship
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_PATRICIAN = 1.0			-- Extra Max Demesne Size for Patricians (Tier effects do no not apply to Patricians!)
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_PATRICIAN_DOGE = 1.0		-- Extra Max Demesne Size for a Patrician Doge (Tier effects do no not apply to Patricians!)
+NDefines.NDiplomacy.GAVELKIND_MAX_SIZE_BONUS = 0.30			-- Max demesne size bonus from Gavelkind
+
 NDefines.NDiplomacy.PAGAN_PEACE_MONTHS = 120					-- Months before the Peace Prestige loss kicks in for certain Pagan religions
 NDefines.NDiplomacy.PAGAN_PEACE_MONTHLY_PRESTIGE_LOSS = 1.0	-- Prestige loss for being at peace, for certain Pagan religions
 NDefines.NDiplomacy.PRESTIGE_OPINION_DIV = 100					-- Divider for prestige to vassal opinion (5x higher effect for negative prestige)
