@@ -15,5 +15,5 @@ liege="d_mordor"
 }
 11284.1.1=
 {
-holder = 12281
+holder = 10016
 }
