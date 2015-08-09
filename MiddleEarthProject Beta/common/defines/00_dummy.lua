@@ -5,8 +5,15 @@
 ----- NDiplomacy -----
 
 NDefines.NDiplomacy.SHORT_REIGN_YEARS_END = 20
-NDefines.NDiplomacy.LONG_REIGN_YEARS_START = 8000
+NDefines.NDiplomacy.LONG_REIGN_YEARS_START = 10000
 NDefines.NDiplomacy.SHORT_REIGN_OPINION_MULT = 1				-- Opinion penalty multiplier to short reign years
+
+NDefines.NDiplomacy.PAGAN_PEACE_MONTHS = 120					-- Months before the Peace Prestige loss kicks in for certain Pagan religions
+NDefines.NDiplomacy.PAGAN_PEACE_MONTHLY_PRESTIGE_LOSS = 1.0	-- Prestige loss for being at peace, for certain Pagan religions
+NDefines.NDiplomacy.PRESTIGE_OPINION_DIV = 100					-- Divider for prestige to vassal opinion (5x higher effect for negative prestige)
+NDefines.NDiplomacy.PRESTIGE_OPINION_MAX = 50					-- Max opinion impact of prestige (positive OR negative)
+NDefines.NDiplomacy.PIETY_OPINION_DIV = 25						-- Divider for piety to church opinion
+NDefines.NDiplomacy.PIETY_OPINION_MAX = 50	
 
 NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_PIETY = 50
 NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_PRESTIGE = 250
