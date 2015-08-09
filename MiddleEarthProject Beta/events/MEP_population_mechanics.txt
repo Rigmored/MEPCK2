@@ -291,6 +291,10 @@ province_event = {
 	
 	trigger = {
 	has_province_modifier = population_increasing
+	OR = {
+	has_province_modifier = lightly_populated_by_dunedain
+	has_province_modifier = populated_by_dunedain
+	}
 	}
 	
 	mean_time_to_happen = {
@@ -558,6 +562,10 @@ province_event = {
 	
 	trigger = {
 	has_province_modifier = population_increasing
+	OR = {
+	has_province_modifier = lightly_populated_by_elves
+	has_province_modifier = populated_by_elves
+	}
 	}
 	
 	mean_time_to_happen = {
@@ -568,13 +576,6 @@ province_event = {
 	option = {
 	name = population6A #Good tidings!
 	remove_province_modifier = population_increasing
-	random_realm_province = {
-	limit = {
-	OR = {
-	has_province_modifier = lightly_populated_by_elves
-	has_province_modifier = populated_by_elves
-	}
-	}
 	if = { 
 	limit = { has_province_modifier = populated_by_elves }
 	remove_province_modifier = populated_by_elves
@@ -584,7 +585,6 @@ province_event = {
 	limit = { has_province_modifier = lightly_populated_by_elves }
 	remove_province_modifier = lightly_populated_by_elves
 	add_province_modifier = { name = populated_by_elves duration = -1 }
-	}
 	}
 	}
 
@@ -814,6 +814,10 @@ province_event = {
 	
 	trigger = {
 	has_province_modifier = population_increasing
+	OR = {
+	has_province_modifier = lightly_populated_by_dwarves
+	has_province_modifier = populated_by_dwarves
+	}
 	}
 	
 	mean_time_to_happen = {
@@ -824,13 +828,6 @@ province_event = {
 	option = {
 	name = population6A #Good tidings!
 	remove_province_modifier = population_increasing
-	random_realm_province = {
-	limit = {
-	OR = {
-	has_province_modifier = lightly_populated_by_dwarves
-	has_province_modifier = populated_by_dwarves
-	}
-	}
 	if = { 
 	limit = { has_province_modifier = populated_by_dwarves }
 	remove_province_modifier = populated_by_dwarves
@@ -840,7 +837,6 @@ province_event = {
 	limit = { has_province_modifier = lightly_populated_by_dwarves }
 	remove_province_modifier = lightly_populated_by_dwarves
 	add_province_modifier = { name = populated_by_dwarves duration = -1 }
-	}
 	}
 	}
 

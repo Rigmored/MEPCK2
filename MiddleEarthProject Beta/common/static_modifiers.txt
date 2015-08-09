@@ -55,7 +55,7 @@ very_hard_ai = {
 ##########################################################################
 
 province_base_values = {
-	supply_limit = 80 # 80K troops
+	supply_limit = 15 # 15K troops - previously 80 - changed to reduce doomstacking...
 }
 
 coastal = {
@@ -68,31 +68,31 @@ coastal_sea = {
 }
 
 sea_zone = {
-	max_attrition = 0.01
+	max_attrition = 0.02
 }
 
 land_province = {
-	max_attrition = 0.01
+	max_attrition = 0.02
 }
 
 mild_winter = {
-	supply_limit = -2
-	max_attrition = 0.1
+	supply_limit = -4
+	max_attrition = 0.2
 }
 
 normal_winter = {
-	supply_limit = -3
-	max_attrition = 0.15
+	supply_limit = -6
+	max_attrition = 0.3
 }
 
 severe_winter = {
-	supply_limit = -5
-	max_attrition = 0.2
+	supply_limit = -10
+	max_attrition = 0.4
 }
 
 out_of_supply = 
 {
-	max_attrition = 0.1
+	max_attrition = 0.2
 }
 
 no_adjacent_controlled = {
@@ -347,7 +347,7 @@ static_martial_mod = {
 }
 
 static_learning_mod = {
-	monthly_character_piety = 0.02
+	monthly_character_piety = 0.05
 }
 
 ##########################################################################
@@ -372,32 +372,37 @@ pretender_modifier = {
 ##########################################################################
 
 castle = {
-	tax_income = 4
+	tax_income = 1
 	fort_level = 3
 	build_cost_modifier = 500
 	build_time_modifier = 730
-	light_infantry = 60
-	heavy_infantry = 150
-	light_cavalry = 15
+	light_infantry = 50
+	heavy_infantry = 25
+	pikemen = 50
+	archers = 50
+	light_cavalry = 20
+	heavy_cavalry = 10
 	levy_reinforce_rate = 1.25
 	land_organisation = 0.2
 }
 
 city = {
-	tax_income = 12
-	fort_level = 0
-	light_infantry = 75
+	tax_income = 3
+	fort_level = 1
+	light_infantry = 40
+	pikemen = 40
 	archers = 40
+	light_cavalry = 15
 	build_cost_modifier = 500
 	build_time_modifier = 730
 	land_organisation = 0.2
 }
 
 temple = {
-	tax_income = 8
-	heavy_infantry = 45
-	light_infantry = 45
-	archers = 40
+	tax_income = 0	#temple holdings are now ruins
+	heavy_infantry = 1 #previously 45
+	light_infantry = 1 #previously 45
+	archers = 1 #previously 40
 	build_cost_modifier = 500
 	build_time_modifier = 730
 	levy_reinforce_rate = 0.25
@@ -405,11 +410,13 @@ temple = {
 }
 
 trade_post = {
-	tax_income = 6
+	tax_income = 2
 	fort_level = 0
 	levy_size = 0
-	light_infantry = 50
-	archers = 50
+	light_infantry = 10
+	pikemen = 10
+	archers = 10
+	light_cavalry = 5
 	build_cost_modifier = 150
 	build_time_modifier = 365
 	land_organisation = 0.2
@@ -427,10 +434,13 @@ family_palace = {
 
 tribal = {
 	tax_income = 0.5
-	fort_level = 1
-	light_infantry = 100
-	heavy_infantry = 5
-	archers = 20
+	fort_level = 2
+	light_infantry = 60
+	heavy_infantry = 20
+	pikemen = 20
+	archers = 45
+	light_cavalry = 10
+	heavy_cavalry = 5
 	levy_reinforce_rate = 1.5
 	land_organisation = 0.2
 	build_cost_modifier = 25 # cost per empty holding slot
@@ -441,8 +451,10 @@ nomad = {
 	tax_income = 0
 	fort_level = 1
 	levy_size = -3
-	light_infantry = 160
-	heavy_infantry = 40
+	light_infantry = 100
+	archers = 60
+	heavy_infantry = 20
+	light_cavalry = 20
 	levy_reinforce_rate = 0
 	land_organisation = 0
 }
@@ -454,8 +466,10 @@ fort = {
 	build_cost_modifier = 20
 	build_time_modifier = 20
 	light_infantry = 30
-	heavy_infantry = 75
-	light_cavalry = 7
+	heavy_infantry = 15
+	pikemen = 20
+	archers = 20
+	light_cavalry = 15
 	levy_reinforce_rate = 2
 	land_organisation = 0.2
 }
