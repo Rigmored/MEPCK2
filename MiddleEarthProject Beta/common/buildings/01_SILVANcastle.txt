@@ -937,13 +937,13 @@ castle = {
 ####################### Unique buildings #######################
 	ca_thranduil = { 
 		desc = ca_thranduil_desc
-		gold_cost = 3000
+		gold_cost = 2000
 		build_time = 1460 #4y
 		fort_level = 4.4
 		garrison_size = 2.50
 		heavy_infantry = 500
-		pikemen = 1500
-		archers = 1500
+		pikemen = 1000
+		archers = 1000
 		ai_creation_factor = 100
         	potential = {
             		FROMFROM = { title = b_king_thranduil_hall }
