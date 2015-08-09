@@ -1,4 +1,5 @@
-maiar = {	
+maiar = {
+	vassal_opinion = 100	#Sauron stopgag measure...
 	fertility = -5.0
     health = 100.0
     diplomacy = 3
@@ -557,7 +558,7 @@ uruloke = {
 	ai_honor = -100 #Influences the likelihood the AI will honor relationships and alliances, and the chance of attacking despite such relations. Also affects its likelihood of joining plots.
 	cached = yes
 }
-## Ringlókë
+## RinglÃ³kÃ«
 cold_drake = {	
        	opposites = {
 			eagle
@@ -578,7 +579,7 @@ cold_drake = {
 	cached = yes
 }
 
-## Penrámalókë
+## PenrÃ¡malÃ³kÃ«
 long_worms = {	
        	opposites = {
 		eagle
