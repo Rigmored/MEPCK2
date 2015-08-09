@@ -10,8 +10,8 @@ custom_bellakar;Bellakar;Bellakar;;;;;x
 custom_umbar;Umbar;Umbar;;;;;x
 #Khand
 custom_khand;Khand;Khand;;;;;x
-#Anadï¿½nï¿½
-custom_anadune;Anadï¿½nï¿½;Anadï¿½nï¿½;;;;;x
+#Anad?n?
+custom_anadune;Anadûnê;Anadûnê;;;;;x
 #Mordor
 custom_gorgoroth;Gorgoroth;Gorgoroth;;;;;x
 custom_nurn;Nurn;Nurn;;;;;x
@@ -66,7 +66,7 @@ world_enedwaith;Enedwaith;Enedwaith;;;;;x
 
 ### GONDOR ###
 #Anorien
-custom_anorien;Anï¿½rien;Anï¿½rien;;;;;x
+custom_anorien;Anórien;Anórien;;;;;x
 #Lebennin
 custom_lebennin;Lebennin;Lebennin;;;;;x
 #Belfalas
@@ -89,3 +89,35 @@ custom_rohan;Rohan;Rohan;;;;;x
 
 ### RHOVANION ###
 custom_mirkwood;Mirkwood;FRE;;;;;x
+
+custom_rohan;Rohan;Rohan;;;;;x
+custom_fangorn;Fangorn;Fangorn;;;;;x
+custom_isengard;Isengard;Isengard;;;;;x
+custom_druwaith_iaur;Druiwaith Iaur;Druiwaith Iaur;;;;;x
+custom_grey_mountains;Grey Mountains;FRE;;;;;x
+custom_misty_mountains;Misty Mountains;FRE;;;;;x
+custom_erebor;Erebor;Erebor;;;;;x
+custom_northern_misty_mountains;Northern Misty Mountains;FRE;;;;;x
+custom_iron_mountains;Iron Mountains;FRE;;;;;x
+custom_blue_mountains;Blue Mountains;FRE;;;;;x
+custom_east_mountains;East Mountains;FRE;;;;;x
+custom_nurunkhizdin;Nurunkhizdin;Nurunkhizdin;;;;;x
+custom_aglarond;Aglarond;Aglarond;;;;;x
+custom_western_isles;Western Isles;FRE;;;;;x
+custom_eregion;Eregion;Eregion;;;;;x
+custom_dale;Dale;Dale;;;;;x
+custom_dorwinion;Dorwinion;Dorwinion;;;;;x
+custom_rhovanion_kingdom;Rhovanion;FRE;;;;;x
+custom_brownlands;Brownlands;FRE;;;;;x
+custom_anduin_vale;Anduin Vale;FRE;;;;;x
+custom_lorien;Lorien;Lorien;;;;;x
+world_rhovanion;Rhovanion;Rhovanion;;;;;x
+custom_forochel;Forochel;Forochel;;;;;x
+custom_angmar;Angmar;Angmar;;;;;x
+custom_numeriador;Numeriador;Numeriador;;;;;x
+
+
+
+
+
+
