@@ -2,6 +2,14 @@
 --
 -- NDefines.NDiplomacy.DEMESNE_BASE_MAX_SIZE = 2.0
 
+----- NDiplomacy -----
+
+NDefines.NDiplomacy.SHORT_REIGN_YEARS_END = 20,
+NDefines.NDiplomacy.LONG_REIGN_YEARS_START = 15000,
+NDefines.NDiplomacy.SHORT_REIGN_OPINION_MULT = 1,				-- Opinion penalty multiplier to short reign years
+
+
+----- NTitle -----
 
  -- Monthly prestige from vassals
 NDefines.NTitle.BARON_AS_VASSAL_PRESTIGE = 0.01 -- previously 0.025
