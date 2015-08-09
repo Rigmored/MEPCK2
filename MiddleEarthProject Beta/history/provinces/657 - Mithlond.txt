@@ -8,8 +8,8 @@ title = c_mithlond
 
 max_settlements = 6
 
+b_cirbanil = castle
 b_mithlond = castle
-b_cirbanil = city
 b_caras_mithlond = castle
 b_gobel_cirdan = city
 #b_valinoruir = city
