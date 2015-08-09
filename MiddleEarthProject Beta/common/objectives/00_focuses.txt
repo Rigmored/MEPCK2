@@ -178,7 +178,6 @@ focus_seduction = {
 		is_adult = yes
 		NOT = { trait = incapable }
 		NOT = { trait = celibate }
-		NOT = { religion_group = religion_group_eldar }
 		NOT = { religion_group = religion_group_enyd }
 		custom_tooltip = {
 			text = is_not_wilderness
