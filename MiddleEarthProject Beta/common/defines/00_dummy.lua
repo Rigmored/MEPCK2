@@ -15,10 +15,6 @@ NDefines.NDiplomacy.PRESTIGE_OPINION_MAX = 50					-- Max opinion impact of prest
 NDefines.NDiplomacy.PIETY_OPINION_DIV = 25						-- Divider for piety to church opinion
 NDefines.NDiplomacy.PIETY_OPINION_MAX = 50	
 
-NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_PIETY = 50
-NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_PRESTIGE = 250
-NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_THRESHOLD_FOR_NO = 0
-NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_THRESHOLD_FOR_YES = 100
 
 ----- NTitle -----
 
