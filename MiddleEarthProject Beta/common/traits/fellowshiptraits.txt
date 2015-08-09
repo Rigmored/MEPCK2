@@ -7,4 +7,5 @@ spiritform = {
 	martial = -15
 	intrigue = -15
 	learning = -15
+	demesne_size = -2
 }
