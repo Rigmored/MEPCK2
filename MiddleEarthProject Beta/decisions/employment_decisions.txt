@@ -3,11 +3,11 @@ decisions = {
 		potential = {
 			ai = no
 			is_ruler = yes
+			has_character_flag = employment_decisions_open
 			OR = {
 				ai = yes
-				has_character_flag = employment_decisions_open
+				NOT = { religion = religion_wilderness }
 			}
-			NOT = { religion = religion_wilderness }
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -31,11 +31,11 @@ decisions = {
 		potential = {
 			ai = no
 			is_ruler = yes
+			has_character_flag = employment_decisions_open
 			OR = {
 				ai = yes
-				has_character_flag = employment_decisions_open
+				NOT = { religion = religion_wilderness }
 			}
-			NOT = { religion = religion_wilderness }
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -59,9 +59,9 @@ decisions = {
 		potential = {
 			ai = no
 			is_ruler = yes
+			has_character_flag = employment_decisions_open
 			OR = {
 				ai = yes
-				has_character_flag = employment_decisions_open
 				NOT = { religion = religion_wilderness }
 			}
 		}
@@ -87,9 +87,9 @@ decisions = {
 		potential = {
 			ai = no
 			is_ruler = yes
+			has_character_flag = employment_decisions_open
 			OR = {
 				ai = yes
-				has_character_flag = employment_decisions_open
 				NOT = { religion = religion_wilderness }
 			}
 		}
@@ -117,6 +117,7 @@ decisions = {
 			is_female = no
 			is_ruler = yes
 			age = 16
+			has_character_flag = employment_decisions_open
 			OR = {
 				culture_group = culture_group_melkor
 				culture_group = culture_group_southron
@@ -126,9 +127,8 @@ decisions = {
 			}
 			OR = {
 				ai = yes
-				has_character_flag = employment_decisions_open
+				NOT = { religion = religion_wilderness }
 			}
-			NOT = { religion = religion_wilderness }
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -161,12 +161,12 @@ decisions = {
 				culture_group = culture_group_southron
 				culture_group = culture_group_easterling
 				culture = culture_black_numenorean
+				has_character_flag = employment_decisions_open
 			}
 			OR = {
 				ai = yes
-				has_character_flag = employment_decisions_open
+				NOT = { religion = religion_wilderness }
 			}
-			NOT = { religion = religion_wilderness }
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }
@@ -194,6 +194,7 @@ decisions = {
 			is_female = no
 			is_ruler = yes
 			age = 16
+			has_character_flag = employment_decisions_open
 			NOT = {
 				culture_group = culture_group_melkor
 				culture_group = culture_group_southron
@@ -203,9 +204,8 @@ decisions = {
 			}
 			OR = {
 				ai = yes
-				has_character_flag = employment_decisions_open
+				NOT = { religion = religion_wilderness }
 			}
-			NOT = { religion = religion_wilderness }
 		}
 		allow = {
 			NOT = { has_character_modifier = employment_timer }

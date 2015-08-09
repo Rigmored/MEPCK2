@@ -77,3 +77,8 @@ holder = 14037 # Algirdas
 {
 holder = 0 # Rhudaur is now part of Angmar
 }
+10319.1.1=
+{
+holder=25022
+liege=0
+}

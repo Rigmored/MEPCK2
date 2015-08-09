@@ -31,7 +31,7 @@ normal_winter = {
 	# Anduin Vale
 	403 404 417 688 689
 	# Mirkwood
-	323 324 327 328 418 538
+	#323# 324 #327# 328 #418 #538
 	# Erebor
 	292 539
 	# Lakes

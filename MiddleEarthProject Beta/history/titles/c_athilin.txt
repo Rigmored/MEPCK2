@@ -79,6 +79,11 @@ holder = 14037 # Algirdas
 holder = 0 # Rhudaur is now part of Angmar
 liege = 0
 }
+10319.1.1=
+{
+holder=25021
+liege=0
+}
 11362.5.1=
 {
 holder = 2038 # Aragorn II ## First King of the Reunited Kingdom

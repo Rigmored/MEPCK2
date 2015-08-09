@@ -80,6 +80,11 @@ holder = 2248 # Calmacil
 holder = 0
 liege = 0
 }
+10350.1.1=
+{
+holder = 8600
+liege = 0
+}
 11396.1.1=
 {
 holder = 8162 # Fastred Fairbairn and Elanor Gamgee
@@ -90,7 +95,3 @@ liege = d_hobbitwestmarch
 holder = 8163 # Elfstan
 }
 
-11300.1.1={
-holder = 8177
-liege=k_shire
-}

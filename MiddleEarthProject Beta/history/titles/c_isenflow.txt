@@ -2,5 +2,8 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-
-
+11350.1.1=
+{
+holder = 7590
+liege=0
+}

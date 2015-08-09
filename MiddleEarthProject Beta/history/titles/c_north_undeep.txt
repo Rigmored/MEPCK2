@@ -81,3 +81,8 @@ holder = 5095 # Uturgur
 {
 liege = k_balchoths
 }
+11350.1.1=
+{
+holder = 5147 # Dömötör
+liege = k_balchoths
+}

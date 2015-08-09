@@ -86,3 +86,8 @@ holder = 2090 # Ostoher
 holder = 0
 liege  = 0
 }
+11350.1.1=
+{
+holder = 7550
+liege=0
+}

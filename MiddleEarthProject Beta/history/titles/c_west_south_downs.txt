@@ -94,7 +94,7 @@ holder = 2195 # Farandil
 }
 9979.1.1=
 {
-holder = 0
+holder = 25006
 liege=0
 law = centralization_3
 }

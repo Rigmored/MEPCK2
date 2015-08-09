@@ -5,6 +5,6 @@ liege=d_celebrant
 }
 8336.1.1 =
 {
-holder = 0
+holder = 25020
 liege = 0
 }

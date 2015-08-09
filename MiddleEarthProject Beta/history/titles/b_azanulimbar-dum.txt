@@ -14,6 +14,12 @@ holder = 4025 # Grór
 11148.1.1=
 {
 holder = 4043 # Dain II Ironfoot
+
+}
+10324.1.1=
+{
+holder = 25042
+liege=0
 }
 11362.3.17=
 {

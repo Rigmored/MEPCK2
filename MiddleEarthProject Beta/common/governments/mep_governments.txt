@@ -106,9 +106,7 @@ wilderness_government = {
 
 	preferred_holdings = { CASTLE }
 	allowed_holdings = {
-	
 		CASTLE
-		CITY
 	}
 	allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 	

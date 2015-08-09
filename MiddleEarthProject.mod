@@ -1,4 +1,4 @@
-name = "MEP 0.4.2b ~INTERNAL~"
+name = "MEP 0.5b ~INTERNAL~"
 path = "mod/MiddleEarthProject Beta"
 user_dir = "Middleearthproject"
 replace_path = "common/buildings"

@@ -135,8 +135,8 @@ d_dunland_north;Nan Laegrim;Nan Laegrim;;;Nan Laegrim;;x
 d_dunland_north_adj;Nan Laegrim;Nan Laegrim;;;Nan Laegrim;;x
 d_dunland_south;Emyn Hithui;Emyn Hithui;;;Emyn Hithui;;x
 d_dunland_south_adj;Emyn Hithuirim;Emyn Hithuirim;;;Emyn Hithuirim;;x
-d_melosse;Melosse;Melosse;;;Melosse;;x
-d_melosse_adj;Melosserim;Melosserim;;;Melosserim;;x
+d_melosse;Melösse;Melösse;;;Melösse;;x
+d_melosse_adj;Melösserim;Melösserim;;;Melösserim;;x
 d_magillos;Magillos;Magillos;;;Magillos;;x
 d_magillos_adj;Magillosrim;Magillosrim;;;Magillosrim;;x
 d_eldenaryar;Eldenaryar;Eldenaryar;;;Eldenaryar;;x
@@ -299,7 +299,7 @@ d_east_pinnath;Rhûnen Pinnath;Pinnath Oriental;;;Rhûnen Pinnath;;x
 d_east_pinnath_adj;Rhûnen-Pinnathrim;Pinnatien;;;Rhûnen-Pinnathrim;;x
 d_hobbitwestmarch;West March;Marches Occidentales;;;Marche Occidentali;;x
 d_hobbitwestmarch_adj;West March's;Hobbits;;;delle Marche Occidentali;;x
-d_noirinanyar;Norinanyar;Norinanyar;;;Norinanyar;;x
+d_noirinanyar;Noirinanyar;Noirinanyar;;;Noirinanyar;;x
 d_noirinanyar_adj;Noirinanyarim;Noirinanyarien;;;Noirinanyarim;;x
 d_miniriath;Miniriath;Miniriath;;;Miniriath;;x
 d_miniriath_adj;Miniriathrim;Miniriathese;;;Miniriathrim;;x
@@ -377,3 +377,48 @@ d_esgaroth;Esgaroth;Esgaroth;;;Esgaroth;;x
 d_esgaroth_adj;Lake-men;Hommes du Lac;;;;;x
 d_black_serpent;Legion of the Black Serpent;Légion du Serpent Noir;;;;;x
 d_stonefoot;Stonefoot;Stonefoot;;;;;;;;;;;;x
+#WildernessDuchies;Stonefoot;Stonefoot;;;;;;;;;;;;x
+d_wild_tinereb;Dol Tinereb;Dol Tinereb;;;;;;;;;;;;x
+d_wild_caladir;Dol Caladir;Dol Caladir;;;;;;;;;;;;x
+d_wild_gorthad;Tyrn Gorthad;Tyrn Gorthad;;;;;;;;;;;;x
+d_wild_girithlin;Girithlin;Girithlin;;;;;;;;;;;;x
+d_wild_faerdor;Faerdor;Faerdor;;;;;;;;;;;;x
+d_wild_brandyvale;Sarn Ford;FRE;;;;;;;;;;;;x
+d_wild_laerglinn;Laerglinn;Laerglinn;;;;;;;;;;;;x
+d_wild_weather_hills;Weather Hills;FRE;;;;;;;;;;;;x
+d_wild_noirinanyar;Noirinanyar;Noirinanyar;;;;;;;;;;;;x
+d_wild_annuminas;Annúminas;Annúminas;;;;;;;;;;;;x
+d_wild_fornost;Fornost;Fornost;;;;;;;;;;;;x
+d_wild_brethyar;Brethyar;Brethyar;;;;;;;;;;;;x
+d_wild_numeriador;Numeriador;Numeriador;;;;;;;;;;;;x
+d_wild_celanoriand;Celanoriand;Celanoriand;;;;;;;;;;;;x
+d_wild_harlond;Harlond;Harlond;;;;;;;;;;;;x
+d_wild_formenyar;Formenyar;Formenyar;;;;;;;;;;;;x
+d_wild_magillos;Magillos;Magillos;;;;;;;;;;;;x
+d_wild_eredoriath;Eredoriath;Eredoriath;;;;;;;;;;;;x
+d_wild_melosse;Melösse;Melösse;;;;;;;;;;;;x
+d_wild_eldenaryar;Eldenaryar;Eldenaryar;;;;;;;;;;;;x
+d_wild_celebrant;Celebrant;Celebrant;;;;;;;;;;;;x
+d_wild_emyn_muil;Emyn Muil;Emyn Muil;;;;;;;;;;;;x
+d_wild_tol_fuin;Tol Fuin;Tol Fuin;;;;;;;;;;;;x
+d_wild_bruinen;Bruinen;Bruinen;;;;;;;;;;;;x
+d_wild_ost_edhil;Ost-in-Edhil;Ost-in-Edhil;;;;;;;;;;;;x
+d_wild_morbet;Morbet;Morbet;;;;;;;;;;;;x
+d_wild_angren;Angren;Angren;;;;;;;;;;;;x
+d_wild_gwathlo;Gwathlo;Gwathlo;;;;;;;;;;;;x
+d_wild_cairill;Cairill;Cairill;;;;;;;;;;;;x
+d_wild_nan_loke;Nan Lòke;Nan Lòke;;;;;;;;;;;;x
+d_wild_gundabad;Gundabad;Gundabad;;;;;;;;;;;;x
+d_wild_carrock;Carrock;Carrock;;;;;;;;;;;;x
+d_wild_ronen_anduin;Rónen-in-Anduin;Rónen-in-Anduin;;;;;;;;;;;;x
+d_wild_dale;Dale;Dale;;;;;;;;;;;;x
+d_wild_gladden_fields;Gladden Fields;FRE;;;;;;;;;;;;x
+d_wild_meneltarma;Meneltarma;Meneltarma;;;;;;;;;;;;x
+d_wild_west_march;West March;FRE;;;;;;;;;;;;x
+d_wild_east_emnet;East Emnet;FRE;;;;;;;;;;;;x
+d_wild_redhorn;Moria;FRE;;;;;;;;;;;;x
+
+
+
+
+
