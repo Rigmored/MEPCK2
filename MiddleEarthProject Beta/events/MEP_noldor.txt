@@ -79,6 +79,7 @@ character_event = {
 		name = "EVTOPTAknoldor.3" # I'm the heir of Gil-Galad!
 		clr_character_flag=claimcrownnoldor
 		set_character_flag = hisghkingnoldor
+		activate_title = { title = e_noldor status = yes }
 		e_noldor = {
 			grant_title = ROOT
 		}
@@ -105,6 +106,7 @@ character_event = {
 		name = "EVTOPTAknoldor.4" # I'll take the crown anyway!
 		clr_character_flag=claimcrownnoldor
 		set_character_flag = hisghkingnoldor
+		activate_title = { title = e_noldor status = yes }
 		e_noldor = {
 			grant_title = ROOT
 		}
@@ -220,6 +222,7 @@ character_event = {
 		name = "EVTOPTAknoldor.3" # I'm the heir of Gil-Galad!
 		clr_character_flag=claimcrownnoldor
 		set_character_flag = hisghkingnoldor
+		activate_title = { title = e_noldor status = yes }
 		e_noldor = {
 			grant_title = ROOT
 		}

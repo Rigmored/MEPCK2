@@ -28,6 +28,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAgaladrielring.0"
 		set_character_flag = galadrielring0
+		activate_title = { title = e_noldor status = yes }
 		e_noldor = {
 			grant_title = ROOT
 		}	
