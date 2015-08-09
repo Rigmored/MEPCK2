@@ -60,9 +60,9 @@ dwarven_infertility;Dwarven Infertility;Infertilité des Nains;;;;;x
 dwarven_infertility_desc;This dwarf has reached the capacity for having children.;Ce nain n'a plus la capacité d'avoir des enfants.;;;;;x
 #Wilderness;;;;;;;
 wilderness;Wilderness;Territoire Sauvage;;;;;x
-wilderness_desc;This land is ruled by no man, elf, dwarf or orc, Only the wilderness can be see here.;Ce territoire n'est habité par aucun homme, elf, nain, ou orc.;;;;;x
+wilderness_desc;This land is ruled by no man, elf, dwarf or orc. Only wilderness can be see here.;Ce territoire n'est habité par aucun homme, elf, nain, ou orc.;;;;;x
 wildlife;Wilderness;Territoire Sauvage;;;;;x
-wildlife_desc;This land is ruled by no man, elf, dwarf or orc, and only wilderness can be see here.;Ce territoire n'est habité par aucun homme, elf, nain, ou orc.;;;;;x
+wildlife_desc;This land is ruled by no man, elf, dwarf or orc. Only wilderness can be see here.;Ce territoire n'est habité par aucun homme, elf, nain, ou orc.;;;;;x
 #Men;;;;;;;
 human_infertility;Human Infertility;Infertilité des Hommes;;;;;x
 human_infertility_desc;This human has reached the capacity for having children.;Cette Femme a atteint un âge avancé, et n'est désormais plus en mesure d'avoir des enfants.;;;;;x

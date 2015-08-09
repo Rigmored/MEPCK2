@@ -46,6 +46,7 @@ wilderness_penalty = {
 	levy_reinforce_rate = -1.0
 	city_tax_modifier = -1.0
 	castle_tax_modifier = -1.0
+	local_revolt_risk = -1.0
 	icon = 31
 }
 
