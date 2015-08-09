@@ -8,6 +8,10 @@ NDefines.NDiplomacy.SHORT_REIGN_YEARS_END = 20
 NDefines.NDiplomacy.LONG_REIGN_YEARS_START = 8000
 NDefines.NDiplomacy.SHORT_REIGN_OPINION_MULT = 1				-- Opinion penalty multiplier to short reign years
 
+NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_PIETY = 20,
+NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_PRESTIGE = 100,
+NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_THRESHOLD_FOR_NO = 5,
+NDefines.NDiplomacy.REVOKE_TITLE_INTERACTION_THRESHOLD_FOR_YES = 95,
 
 ----- NTitle -----
 
