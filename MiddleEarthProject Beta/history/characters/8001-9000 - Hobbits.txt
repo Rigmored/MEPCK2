@@ -9113,3 +9113,64 @@
 		death=yes
 	}
 }
+
+
+
+
+### Rulers in Cardolan ###
+8600 = {
+	name="Dinodas"
+	dynasty=865
+	religion="religion_perian"
+	culture="culture_hobbit"
+	add_trait = hobbit
+	11300.1.1={
+		birth=yes
+	}
+	11395.1.1={
+		death=yes
+	}
+}
+8601 = {
+	name="Gruffo"
+	dynasty=865
+	father=8600
+	religion="religion_perian"
+	culture="culture_hobbit"
+	add_trait = hobbit
+	11342.1.1={
+		birth=yes
+	}
+	11432.1.1={
+		death=yes
+	}
+}
+8602 = {
+	name="Adelard"
+	dynasty=865
+	father=8600
+	religion="religion_perian"
+	culture="culture_hobbit"
+	add_trait = hobbit
+	11344.1.1={
+		birth=yes
+	}
+	11436.1.1={
+		death=yes
+	}
+}
+8603 = {
+	name="May"
+	female=yes
+	dynasty=865
+	father=8600
+	religion="religion_perian"
+	culture="culture_hobbit"
+	add_trait = hobbit
+	11346.1.1={
+		birth=yes
+	}
+	11437.1.1={
+		death=yes
+	}
+}

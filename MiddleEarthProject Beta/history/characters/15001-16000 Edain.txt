@@ -4199,3 +4199,32 @@
 			death="9785.1.1"
 	}
 }
+
+
+### Rulers during WoTR ###
+
+15300 = {
+	name="Ôrgrin"
+	dynasty=15011
+	religion="religion_druedain"
+	culture="culture_druedain"
+	11314.1.1={
+			birth="11314.1.1"
+	}
+	11407.1.1={
+			death="11407.1.1"
+	}
+}
+15301 = {
+	name="Ogû"
+	father=15300
+	dynasty=15011
+	religion="religion_druedain"
+	culture="culture_druedain"
+	11340.1.1={
+			birth="11340.1.1"
+	}
+	11432.1.1={
+			death="11432.1.1"
+	}
+}

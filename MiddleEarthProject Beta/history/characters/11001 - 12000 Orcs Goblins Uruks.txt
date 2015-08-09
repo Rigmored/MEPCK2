@@ -3597,3 +3597,37 @@ add_rival=339 #Beorn
 		death="11573.1.1"
 	}
 }
+
+
+
+#### Trolls of WoTR ####
+
+11250 = {
+	name="Kadak"
+	dynasty=11066
+	religion="religion_olog"
+	culture="culture_troll"
+	add_trait=orkish
+	add_trait=strong
+	11314.1.1={
+	birth="11314.1.1"
+	}
+	11402.1.1={
+	death="11402.1.1"
+	}
+}
+11251 = {
+	name="Brök"
+	dynasty=11066
+	father=11250
+	religion="religion_olog"
+	culture="culture_troll"
+	add_trait=orkish
+	add_trait=strong
+	11345.1.1={
+	birth="11345.1.1"
+	}
+	11438.1.1={
+	death="11438.1.1"
+	}
+}

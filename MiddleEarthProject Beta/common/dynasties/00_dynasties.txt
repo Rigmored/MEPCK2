@@ -2322,6 +2322,35 @@
                   name="map Dafrig"
                   culture = culture_dunlending
 }
+7157 = { 
+                  name="map Lorcán"
+                  culture = culture_dunlending
+}
+7158 = { 
+                  name="map Mórda"
+                  culture = culture_dunlending
+}
+7159 = { 
+                  name="map Edern"
+                  culture = culture_dunlending
+}
+7160 = { 
+                  name="map Róen"
+                  culture = culture_dunlending
+}
+7161 = { 
+                  name="map Nai"
+                  culture = culture_dunlending
+}
+7162 = { 
+                  name="map Fychan"
+                  culture = culture_dunlending
+}
+7163 = { 
+                  name="map Ruad"
+                  culture = culture_dunlending
+}
+
 
 #Druwaith Iaur
 
@@ -2341,6 +2370,22 @@
 }
 7060 = { 
                   name="Bogablod"
+                  culture = culture_druwaithing
+}
+7061 = { 
+                  name="Gregorod"
+                  culture = culture_druwaithing
+}
+7062 = { 
+                  name="Heranalan"
+                  culture = culture_druwaithing
+}
+7063 = { 
+                  name="Aodredan"
+                  culture = culture_druwaithing
+}
+7064 = { 
+                  name="Ildutan"
                   culture = culture_druwaithing
 }
 
@@ -2790,6 +2835,10 @@
 864 = { 
                   name="Underhill"
                   culture = culture_fallohide
+}
+865 = { 
+                  name="Merryflower"
+                  culture = culture_hobbit
 }
 
 ## Northmen ##
@@ -3724,6 +3773,10 @@
                   name="Tuktereg"
                   culture = culture_troll
 }
+11066 = { 
+                  name="Kadakereg"
+                  culture = culture_troll
+}
 ## Arnorian ##
 
 
@@ -4049,6 +4102,10 @@
 15010 = { 
                   name="of Ulfang"
                   culture = culture_boradin
+}
+15011 = { 
+                  name="ân-Ôrgrin"
+                  culture = culture_druedain
 }
 
 ## Easterlings ##
