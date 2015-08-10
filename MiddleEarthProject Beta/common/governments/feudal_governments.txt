@@ -16,16 +16,11 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-			NAND = {
-				controls_religion = yes
-				NOT = { religion_group = muslim }
-				NOT = { religion = norse_pagan_reformed }
-				
+			NOR = {
+				religion = religion_wilderness
+				religion = religion_dunedain
+				religion = easterlings
 			}
-			NOT = { religion = religion_dunedain }
-			NOT = { religion = religion_wilderness }
-			NOT = { religion = easterlings }
-			NOT = {	religion_group = muslim	}
 			NAND = { 
 				religion = umaiar
 				
