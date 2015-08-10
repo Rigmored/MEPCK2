@@ -534,6 +534,10 @@
                   name="Hirgonionath"
                   culture = culture_gondorian
 }
+185 = { 
+                  name="Mittaliath"
+                  culture = culture_gondorian
+}
 
 #Arnorian
 
@@ -3776,6 +3780,26 @@
 11066 = { 
                   name="Kadakereg"
                   culture = culture_troll
+}
+11070 = { 
+                  name="Gimûb-Shakh"
+                  culture = culture_orkish
+}
+11071 = { 
+                  name="Kaka-Shakh"
+                  culture = culture_orkish
+}
+11072 = { 
+                  name="Bolg-Shakh"
+                  culture = culture_orkish
+}
+11073 = { 
+                  name="Lûgnak-Shakh"
+                  culture = culture_orkish
+}
+11074 = { 
+                  name="Rûkdûg-Shakh"
+                  culture = culture_orkish
 }
 ## Arnorian ##
 

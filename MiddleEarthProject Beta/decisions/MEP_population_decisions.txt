@@ -1,7 +1,6 @@
 decisions = {
 	## ##
 	increase_pop_dunedain = {
-	is_high_prio = yes
 	
 		potential = {
 		culture_group = culture_group_numenorean
@@ -11,6 +10,7 @@ decisions = {
 		has_province_modifier = populated_by_dunedain
 		}
 		}
+		has_character_flag = special_decisions_open
 		}
 		
 
@@ -27,7 +27,6 @@ decisions = {
 	}
 	
 	increase_pop_elves = {
-	is_high_prio = yes
 	
 		potential = {
 		OR = {
@@ -42,6 +41,7 @@ decisions = {
 		has_province_modifier = populated_by_elves
 		}
 		}
+		has_character_flag = special_decisions_open
 		}
 		
 
@@ -58,7 +58,6 @@ decisions = {
 	}
 
 	increase_pop_dwarves = {
-	is_high_prio = yes
 	
 		potential = {
 		culture_group = culture_group_dwarves
@@ -68,6 +67,7 @@ decisions = {
 		has_province_modifier = populated_by_dwarves
 		}
 		}
+		has_character_flag = special_decisions_open
 		}
 		
 

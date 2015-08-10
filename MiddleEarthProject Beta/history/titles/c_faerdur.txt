@@ -113,8 +113,8 @@ holder =  1047 # Vírinehtar
 }
 10345.1.1=
 {
-holder = 0
-liege= 0
+holder = 1831 #Elrohir
+liege= d_royal_demesne
 }
 11364.1.1=
 {

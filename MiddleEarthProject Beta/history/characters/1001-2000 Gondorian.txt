@@ -15107,3 +15107,21 @@
 		death=yes
 	}
 }
+
+1831 = {
+	name="Elrohir"
+	dynasty=185
+	religion="religion_dunedain"
+	culture="culture_gondorian"
+	add_trait=skilled_tactician
+	add_trait=perceptive
+	add_trait=brave
+	add_trait=agile
+	add_trait=ithilien_captain
+	11338.1.1={
+		birth=yes
+	}
+	11402.1.1={
+		death=yes
+	}
+}

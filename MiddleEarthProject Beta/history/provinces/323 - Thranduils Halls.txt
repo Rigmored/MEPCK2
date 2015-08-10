@@ -1,7 +1,7 @@
 # 323 - Thranduil's Halls
 
 # County Title
-title = c_thanduils_halls
+title = c_thranduils_halls
 
 # Settlements
 max_settlements = 7

@@ -83,6 +83,7 @@ colonisation_wilderness = { #for players only
 				NOT = { has_province_modifier = being_colonised }
 			}
 			}
+			has_character_flag = special_decisions_open
 			NOT = { culture = culture_maiar }
 			NOT = { culture = culture_istari }
 			demesne_size = 1
@@ -139,6 +140,7 @@ colonisation_wilderness = { #for players only
 				NOT = { has_province_modifier = being_colonised }
 			}
 			}
+			has_character_flag = special_decisions_open
 			NOT = { culture = culture_maiar }
 			NOT = { culture = culture_istari }
 			demesne_size = 1
@@ -199,6 +201,7 @@ colonisation_wilderness = { #for players only
 				NOT = { has_province_modifier = being_colonised }
 			}
 			}
+			has_character_flag = special_decisions_open
 			NOT = { culture = culture_maiar }
 			NOT = { culture = culture_istari }
 			demesne_size = 1

@@ -3631,3 +3631,80 @@ add_rival=339 #Beorn
 	death="11438.1.1"
 	}
 }
+
+#### Orcs WotR Grey Mountains ####
+
+11260 = {
+	name="Gimûb"
+	dynasty=11070
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11321.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}
+
+11261 = {
+	name="Hûra"
+	dynasty=11071
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11302.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}
+
+11262 = {
+	name="Dûsh"
+	dynasty=11072
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11297.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}
+
+11263 = {
+	name="Ûkbûk"
+	dynasty=11073
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11317.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}
+
+11264 = {
+	name="Nákra"
+	dynasty=11074
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11311.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}

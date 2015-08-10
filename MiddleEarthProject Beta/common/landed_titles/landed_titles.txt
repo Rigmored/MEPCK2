@@ -7785,7 +7785,7 @@ e_durins_folk = {
 			}
 			
 	         c_cirith_auris = {
-				color={ 200 182 112 }
+				color={ 185 122 87 }
 				color2={ 255 255 255 }
 				
 				b_zeleg_ubraz = {
@@ -7800,7 +7800,7 @@ e_durins_folk = {
 				}
 			}
 			c_withered_heath = {
-				color={ 167 126 68 }
+				color={ 128 64 0 }
 				color2={ 255 255 255 }
 				
 				culture_wilderness = "Withered Heath"
@@ -7818,7 +7818,7 @@ e_durins_folk = {
 				}
 			}
 			c_cirith_himmimond = {
-				color={ 167 126 133 }
+				color={ 105 65 44 }
 				color2={ 255 255 255 }
 				
 				culture_group_dwarves = "Dain-dûm"	
@@ -7838,7 +7838,7 @@ e_durins_folk = {
 				}
 			}
 			c_cirith_mirhlim = {
-				color={ 167 179 133 }
+				color={ 224 197 182 }
 				color2={ 255 255 255 }
 				
 				b_tuwurdrog = {
@@ -8230,7 +8230,7 @@ k_mirkwood = {
 			
 		capital = 323 # Thranduil
 			
-		c_thanduils_halls = {
+		c_thranduils_halls = {
 			color={ 73 131 10 }
 			color2={ 255 255 255 }
 			
