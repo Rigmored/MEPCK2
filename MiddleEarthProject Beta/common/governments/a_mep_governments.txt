@@ -9,25 +9,28 @@ dunedain_monarchy = {
 	}
 	allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 	
-		TRIBAL​
+		TRIBAL
 	}
 	accepts_liege_governments = { # Gets the wrong religion modifier instead
 	
-		dunedain_stewardship​
+		dunedain_stewardship
 	}
 	free_revoke_on_tiers = {
 
-		duke​
+		duke
 	}
 	free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 
-		tribal_government​
+		tribal_government
 	}
 	potential = {
-
-		religion = religion_dunedain
+	
 		NOT = { religion = religion_wilderness }
-		is_patrician = no​
+		religion = religion_dunedain
+
+		NOT = { has_trait = stewardscept }
+		
+		is_patrician = no
 	}
 
 	color = { 255 255 255 }
@@ -36,20 +39,15 @@ dunedain_monarchy = {
 
 	dukes_called_kings = yes
 	barons_need_dynasty = no
-	can_imprison_without_reason = no
-	can_revoke_without_reason = no
-	can_usurp_kingdoms_and_empires = no
-	have_gender_laws = no
 	can_grant_kingdoms_and_empires_to_other_government = yes
-	allows_matrilineal_marriage = no
 
 	can_build_tribal = no
 	can_build_temple = no
 
 	ignore_in_vassal_limit_calculation = {
 
-		tribal_government​
-	}​
+		tribal_government
+	}
 }
 
 dunedain_stewardship = {
@@ -62,21 +60,25 @@ dunedain_stewardship = {
 	}
 	allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 
-		TRIBAL​
+		TRIBAL
 	}
 	accepts_liege_governments = { # Gets the wrong religion modifier instead
 
-		dunedain_monarchy​
+		dunedain_monarchy
 	}
 	free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 
-		tribal_government​
+		tribal_government
 	}
 	potential = {
-		
+
 		NOT = { religion = religion_wilderness }
 		religion = religion_dunedain
-		is_patrician = no​
+		
+		independent = yes
+		has_trait = stewardscept
+		
+		is_patrician = no
 	}
 
 	color = { 255 255 255 }
@@ -85,12 +87,7 @@ dunedain_stewardship = {
 
 	dukes_called_kings = yes
 	barons_need_dynasty = no
-	can_imprison_without_reason = no
-	can_revoke_without_reason = no
-	can_usurp_kingdoms_and_empires = no
-	have_gender_laws = no
 	can_grant_kingdoms_and_empires_to_other_government = yes
-	allows_matrilineal_marriage = no
 
 	ignores_de_jure_laws = yes
 	can_build_tribal = no
@@ -98,8 +95,8 @@ dunedain_stewardship = {
 
 	ignore_in_vassal_limit_calculation = {
 
-		tribal_government​
-	}​
+		tribal_government
+	}
 }
 
 wilderness_government = {
@@ -110,7 +107,7 @@ wilderness_government = {
 	}
 	allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 	
-		TRIBAL​
+		TRIBAL
 	}
 	accepts_liege_governments = { # Gets the wrong religion modifier instead
 	
@@ -118,16 +115,16 @@ wilderness_government = {
 	}
 	free_revoke_on_tiers = {
 
-		duke​
+		duke
 	}
 	free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 
-		tribal_government​
+		tribal_government
 	}
 	potential = {
 
 		religion = religion_wilderness
-		is_patrician = no​
+		is_patrician = no
 	}
 
 	color = { 50 50 50 }
