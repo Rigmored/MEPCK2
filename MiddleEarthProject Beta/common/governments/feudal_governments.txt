@@ -22,6 +22,7 @@ feudal_governments = {
 				NOT = { religion = norse_pagan_reformed }
 				
 			}
+			NOT = { religion = religion_dunedain }
 			NOT = { religion = religion_wilderness }
 			NOT = { religion = easterlings }
 			NOT = {	religion_group = muslim	}
@@ -68,6 +69,7 @@ feudal_governments = {
 			}
 			religion_group = muslim
 			NOT = { religion = religion_wilderness }
+			NOT = { religion = religion_dunedain }
 			is_patrician = no
 		}
 		
