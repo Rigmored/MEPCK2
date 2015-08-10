@@ -28,7 +28,7 @@ dunedain_monarchy = {
 		NOT = { religion = religion_wilderness }
 		religion = religion_dunedain
 
-		NOT = { has_trait = stewardscept }
+		NOT = { ROOT = { has_trait = stewardscept } }
 		
 		is_patrician = no
 	}
@@ -76,7 +76,7 @@ dunedain_stewardship = {
 		religion = religion_dunedain
 		
 		independent = yes
-		has_trait = stewardscept
+		ROOT = { has_trait = stewardscept }
 		
 		is_patrician = no
 	}
