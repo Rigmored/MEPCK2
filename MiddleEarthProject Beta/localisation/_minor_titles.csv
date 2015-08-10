@@ -36,8 +36,8 @@ title_wardenoferech;Warden of the Stone of Erech;Gardien de la Pierre d'Erech;;;
 title_wardenoferech_desc;;;;;;x
 title_keeperofswans;Keeper of the Swans;Gardien des Cygnes;;;Guardiano dei  Cigni;x
 title_keeperofswans_desc;;;;;;x
-title_ruler_gondor;;;;;;
-title_ruler_gondor_desc;;;;;;
+title_ruler_gondor;Ruler of Gondor;Souverain du Gondor;;;;x
+title_ruler_gondor_desc;;;;;;x
 #ROHAN;;;;;;x
 title_kingcouncillor;King's Councillor;Conseiller du Roi;;;Consigliere del Re;x
 title_kingcouncillor_desc;;;;;;x
@@ -56,10 +56,10 @@ title_LieutenantofDolGuldur;Lieutenant of Dol Guldur;Lieutenant de Dol Guldur;;;
 title_LieutenantofDolGuldur_desc;The Lieutenant of Dol Guldur is one of the most important servants of the Dark Lord, guarding the Fortress of Dol Guldur.;;;;;x
 title_lieutenantofbaraddur;Mouth of Sauron;;;;;x
 title_lieutenantofbaraddur_desc;The Mouth of Sauron, also known as Lieutenant of the Tower of Barad-dûr is the title of an important commander in the land of Mordor. He's one of the most important servants of the Dark Lord and his personal Messenger.;;;;;x
-#HOBBIT;;;;;;
-title_matriarch;Matriarch;;;;;
-title_matriarch_desc;;;;;;
-;;;;;;
-;;;;;;
+#HOBBIT;;;;;;x
+title_matriarch;Matriarch;Matriarche;;;;x
+title_matriarch_desc;;;;;;x
+
+
 title_ruler_arnor;;;;;;
-title_ruler_arnor_desc;;;;;;
+title_ruler_arnor_desc
