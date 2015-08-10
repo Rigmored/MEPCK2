@@ -29,6 +29,7 @@ republic_governments = {
 			}
 			NOT = { religion = religion_wilderness }
 			NOT = { religion = easterlings }
+			NOT = { religion = religion_dunedain }
 			is_female = no
 			OR = {
 				AND = {
@@ -108,6 +109,8 @@ republic_governments = {
 				NOT = { religion = norse_pagan_reformed }
 			}
 			NOT = { religion = religion_wilderness }
+			NOT = { religion = easterlings }
+			NOT = { religion = religion_dunedain }
 			NOT = { is_government_potential = merchant_republic_government }
 		}
 		
