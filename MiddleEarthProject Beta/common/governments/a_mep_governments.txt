@@ -16,21 +16,22 @@ feudal_governments = {
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 		
 			dunedain_stewardship
+			feudal_government
 		}
 		free_revoke_on_tiers = {
 	
 			duke
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
-	
+			dark_despotate
+			nazgul_despotate	
 			tribal_government
 		}
 		potential = {
 		
-			NOT = { religion = religion_wilderness }
 			religion = religion_dunedain
 	
-			NOT = {trait = stewardscept }
+			NOT = { trait = stewardscept }
 			
 			is_patrician = no
 		}
@@ -67,14 +68,16 @@ feudal_governments = {
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 	
 			dunedain_monarchy
+			feudal_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
-	
+
+			dark_despotate
+			nazgul_despotate	
 			tribal_government
 		}
 		potential = {
 	
-			NOT = { religion = religion_wilderness }
 			religion = religion_dunedain
 			
 			independent = yes
@@ -92,6 +95,114 @@ feudal_governments = {
 		can_grant_kingdoms_and_empires_to_other_government = yes
 	
 		ignores_de_jure_laws = yes
+		can_build_tribal = no
+		can_build_temple = no
+	
+		ignore_in_vassal_limit_calculation = {
+	
+			tribal_government
+		}
+	}
+
+	#DARK LORD
+	dark_despotate = {
+	
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+		
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		
+			feudal_government
+		}
+		free_revoke_on_tiers = {
+	
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			dunedain_monarchy
+			dunedain_stewardship	
+			tribal_government
+		}
+		potential = {
+		
+			religion = umaiar
+			
+			OR = {
+				trait = spiritform
+				trait = ring
+				trait = ring_saruman
+			}
+			
+			is_patrician = no
+		}
+	
+		color = { 255 255 255 }
+	
+		uses_piety_for_law_change = no
+	
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+	
+		can_build_tribal = no
+		can_build_temple = no
+	
+		ignore_in_vassal_limit_calculation = {
+	
+			tribal_government
+		}
+	}
+
+	#NAZGUL
+	nazgul_despotate = {
+	
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+		
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		
+			feudal_government
+		}
+		free_revoke_on_tiers = {
+	
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			dunedain_monarchy
+			dunedain_stewardship	
+			tribal_government
+		}
+		potential = {
+		
+			religion = wight
+	
+			trait = nazgul
+			
+			is_patrician = no
+		}
+	
+		color = { 255 255 255 }
+	
+		uses_piety_for_law_change = no
+	
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+	
 		can_build_tribal = no
 		can_build_temple = no
 	
