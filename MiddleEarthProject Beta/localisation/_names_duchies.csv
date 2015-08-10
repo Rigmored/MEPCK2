@@ -366,26 +366,26 @@ d_meneltarma_desc;Meneltarmarim;Meneltarmarim;;;Meneltarmarim;;x
 d_kes_arik;Kes Arik;Kes Arik;;;Kes Arik;;x
 d_kes_arik_adj;Kes Arikrim;Kes Arikrim;;;Kes Arikrim;;x
 d_nan_loke;Nan Lóke;Nan Lóke;;;Nan Lóke;;x
-d_nan_loke_adj;Lókerim;Lókerim;;;Lókerim;;x
-d_pass_of_eagles;Cîlthoron;Cîlthoron;;;Cîlthoron;;x
-d_pass_of_eagles_adj;Cîlthoronrim;Cîlthoronrim;;;Cîlthoronrim;;x
-d_gram;Gram Mountains;Monts de Gram;;;Monti Gram;;x
-d_gram_adj;Gramrim;Gramrim;;;Gramrim;;x
-d_ringbearer;Ringbearer;Porteur de l'Anneau;;;Portatore dell'Anello;;x
-d_ringbearer_adj;Ringbear;Porteur de l'Anneau;;;del Portatore;;x
-d_esgaroth;Esgaroth;Esgaroth;;;Esgaroth;;x
-d_esgaroth_adj;Lake-men;Hommes du Lac;;;;;x
-d_black_serpent;Legion of the Black Serpent;Légion du Serpent Noir;;;;;x
+d_nan_loke_adj;Lókerim;Lókerim;;;Lókerim;;x;;;;;;;
+d_pass_of_eagles;Cîlthoron;Cîlthoron;;;Cîlthoron;;x;;;;;;;
+d_pass_of_eagles_adj;Cîlthoronrim;Cîlthoronrim;;;Cîlthoronrim;;x;;;;;;;
+d_gram;Gram Mountains;Monts de Gram;;;Monti Gram;;x;;;;;;;
+d_gram_adj;Gramrim;Gramrim;;;Gramrim;;x;;;;;;;
+d_ringbearer;Ringbearer;Porteur de l'Anneau;;;Portatore dell'Anello;;x;;;;;;;
+d_ringbearer_adj;Ringbear;Porteur de l'Anneau;;;del Portatore;;x;;;;;;;
+d_esgaroth;Esgaroth;Esgaroth;;;Esgaroth;;x;;;;;;;
+d_esgaroth_adj;Lake-men;Hommes du Lac;;;;;x;;;;;;;
+d_black_serpent;Legion of the Black Serpent;Légion du Serpent Noir;;;;;x;;;;;;;
 d_stonefoot;Stonefoot;Stonefoot;;;;;;;;;;;;x
-#WildernessDuchies;Stonefoot;Stonefoot;;;;;;;;;;;;x
+#WildernessDuchies;x;x;;;;;;;;;;;;x
 d_wild_tinereb;Dol Tinereb;Dol Tinereb;;;;;;;;;;;;x
 d_wild_caladir;Dol Caladir;Dol Caladir;;;;;;;;;;;;x
 d_wild_gorthad;Tyrn Gorthad;Tyrn Gorthad;;;;;;;;;;;;x
 d_wild_girithlin;Girithlin;Girithlin;;;;;;;;;;;;x
 d_wild_faerdor;Faerdor;Faerdor;;;;;;;;;;;;x
-d_wild_brandyvale;Sarn Ford;FRE;;;;;;;;;;;;x
+d_wild_brandyvale;Sarn Ford;Sarn Ford;;;;;;;;;;;;x
 d_wild_laerglinn;Laerglinn;Laerglinn;;;;;;;;;;;;x
-d_wild_weather_hills;Weather Hills;FRE;;;;;;;;;;;;x
+d_wild_weather_hills;Weather Hills;Monts Venteux;;;;;;;;;;;;x
 d_wild_noirinanyar;Noirinanyar;Noirinanyar;;;;;;;;;;;;x
 d_wild_annuminas;Annúminas;Annúminas;;;;;;;;;;;;x
 d_wild_fornost;Fornost;Fornost;;;;;;;;;;;;x
@@ -412,13 +412,10 @@ d_wild_gundabad;Gundabad;Gundabad;;;;;;;;;;;;x
 d_wild_carrock;Carrock;Carrock;;;;;;;;;;;;x
 d_wild_ronen_anduin;Rónen-in-Anduin;Rónen-in-Anduin;;;;;;;;;;;;x
 d_wild_dale;Dale;Dale;;;;;;;;;;;;x
-d_wild_gladden_fields;Gladden Fields;FRE;;;;;;;;;;;;x
+d_wild_gladden_fields;Gladden Fields;Champs-aux-Iris;;;;;;;;;;;;x
 d_wild_meneltarma;Meneltarma;Meneltarma;;;;;;;;;;;;x
-d_wild_west_march;West March;FRE;;;;;;;;;;;;x
-d_wild_east_emnet;East Emnet;FRE;;;;;;;;;;;;x
-d_wild_redhorn;Moria;FRE;;;;;;;;;;;;x
+d_wild_west_march;West March;Marche de l'Est;;;;;;;;;;;;x
+d_wild_east_emnet;East Emnet;Estemnet;;;;;;;;;;;;x
+d_wild_redhorn;Moria;Moria;;;;;;;;;;;;x
 d_wild_siragale;Siragale;Siragale;;;;;;;;;;;;x
 d_north_mirkwood;Laeg;Laeg;;;;;;;;;;;;x
-
-
-

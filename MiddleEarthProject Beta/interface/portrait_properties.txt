@@ -601,6 +601,14 @@
 			factor = 200
 			has_landed_title = e_valinor
 		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	1 = { # Royal clothes 2
@@ -624,6 +632,14 @@
 			factor = 200
 			has_landed_title = k_ulmo
 		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	2 = { # Royal clothes 3
@@ -646,7 +662,15 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_aule
-		}			
+		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	3 = { # Noble clothes 1
@@ -671,7 +695,18 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_orome
-		}			
+		}	
+		modifier = {
+			factor = 500
+			trait = staff_of_saruman
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	4 = { # Noble clothes 2
@@ -696,7 +731,18 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_orome
+		}		
+		modifier = {
+			factor = 500
+			trait = staff_of_gandalf
 		}			
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+			}
+		}		
 	}
 	
 	5 = { # Noble clothes 3
@@ -722,6 +768,17 @@
 			factor = 200
 			has_landed_title = k_mandos
 		}			
+		modifier = {
+			factor = 500
+			trait = staff_of_radagast
+		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	6 = { # Modest clothes 1
@@ -747,7 +804,15 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_lorien_valinor
-		}			
+		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	7 = { # Modest clothes 2
 		factor = 1
@@ -763,6 +828,14 @@
 				spouse = { real_tier = duke }
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	8 = { # Modest clothes 3
@@ -782,7 +855,15 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_tulkas
-		}			
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	9 = { # Shady clothes
 		factor = 3
@@ -803,6 +884,14 @@
 		}
 		modifier = {
 			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}			
+		modifier = {
+			factor = 0
 			NOT = { has_job_title = job_spymaster }
 			OR = {
 				real_tier = duke
@@ -812,6 +901,14 @@
 		modifier = {
 			factor = 200
 			trait = angainor
+		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
 		}		
 	}
 	
@@ -972,7 +1069,7 @@
 				graphical_culture = southerngfx
 				graphical_culture = byzantinegfx
 			}
-		}
+		}	
 	}
 }
 
@@ -1164,6 +1261,14 @@
 				trait = heresiarch
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 
 	# Simple golden band/turban
@@ -1224,6 +1329,14 @@
 				trait = heresiarch
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 
 	# Common headgear 1 - hood
@@ -1273,6 +1386,14 @@
 			is_theocracy = yes
 			religion_group = pagan_group
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	# Common headgear 2 - hood
@@ -1360,9 +1481,16 @@
 			}
 		}		
 		modifier = {
-			factor = 100000
+			factor = 10000
 			trait = staff_of_gandalf
-		}		
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+			}
+		}				
 	}
 	
 	# Common headgear 4 - hood
@@ -1404,9 +1532,16 @@
 			trait = ring
 		}		
 		modifier = {
-			factor = 100000
+			factor = 10000
 			trait = staff_of_radagast
-		}			
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 
 	# Shady headgear
@@ -1449,6 +1584,14 @@
 				NOT = { intrigue = 10 }
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 
 	# Martial headgear
@@ -1481,6 +1624,14 @@
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
 			}
 		}		
 		modifier = {
@@ -1522,6 +1673,14 @@
 	# Blank
 	11 = {
 		factor = 3
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 		modifier = {
 			factor = 0
 			OR = {
@@ -1676,15 +1835,15 @@
    	}
 }
 
-# p8 red dots
+# p8 "elvish beards"
 8 = {
 	0 = { # blank
 		factor = 100
 		modifier = {
 			factor = 0
-			OR = {
-				trait = has_measles
-				trait = has_small_pox
+			trait = elf
+			NOT = {
+				trait = beard_elf
 			}
 		}
  	}
@@ -1693,12 +1852,8 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			OR = {
-				NOT = {
-					trait = has_measles
-					trait = has_small_pox
-				}
-			}
+			trait = elf
+			trait = beard_elf
 		}
   	}
 }

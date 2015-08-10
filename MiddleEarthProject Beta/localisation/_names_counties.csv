@@ -1278,17 +1278,17 @@ c_kiba_adj;Kibarim;Kibarim;;;Kibarim;;x
 c_an_pharaz;An Pharaz;An Pharaz;;;An Pharaz;;x
 c_an_pharaz_adj;Pharazrim;Pharazrim;;;Pharazrim;;x
 c_bur_baklin;Bur Baklin;Bur Baklin;;;Bur Baklin;;x
-c_bur_baklin_adj;Baklinrim;Baklinrim;;;Baklinrim;;x
-c_an_tarim;An Tarim;An Tarim;;;An Tarim;;x
-c_an_tarim_adj;Tarimrim;Tarimrim;;;Tarimrim;;x
-c_an_abar;An Abar;An Abar;;;An Abar;;x
-c_an_abar_adj;Abarim;Abarim;;;Abarim;;x
-c_an_zalim;An Zalim;An Zalim;;;An Zalim;;x
-c_an_zalim_adj;Zalimrim;Zalimrim;;;Zalimrim;;x
-c_an_karagmir;An Karagmir;An Karagmir;;;An Karagmir;;x
-c_an_karagmir_adj;Karagmirim;Karagmirim;;;Karagmirim;;x
-c_towerhills;Tower Hills;Tower Hills;;;Tower Hills;;x
-c_forestweb;Forest Web;Forest Web;;;Forest Web;;x
-c_carrock;Carrock;Carrock;;;Carrock;;x
-c_stonefoot;Lôni;Lôni;;;;;;;;;;;;x
-c_lower_stonefoot;Fengûr;Fengûr;;;;;;;;;;;;x
+c_bur_baklin_adj;Baklinrim;Baklinrim;;;Baklinrim;;x;;;;;;;
+c_an_tarim;An Tarim;An Tarim;;;An Tarim;;x;;;;;;;
+c_an_tarim_adj;Tarimrim;Tarimrim;;;Tarimrim;;x;;;;;;;
+c_an_abar;An Abar;An Abar;;;An Abar;;x;;;;;;;
+c_an_abar_adj;Abarim;Abarim;;;Abarim;;x;;;;;;;
+c_an_zalim;An Zalim;An Zalim;;;An Zalim;;x;;;;;;;
+c_an_zalim_adj;Zalimrim;Zalimrim;;;Zalimrim;;x;;;;;;;
+c_an_karagmir;An Karagmir;An Karagmir;;;An Karagmir;;x;;;;;;;
+c_an_karagmir_adj;Karagmirim;Karagmirim;;;Karagmirim;;x;;;;;;;
+c_towerhills;Tower Hills;Tower Hills;;;Tower Hills;;x;;;;;;;
+c_forestweb;Forest Web;Forest Web;;;Forest Web;;x;;;;;;;
+c_carrock;Carrock;Carrock;;;Carrock;;x;;;;;;;
+c_stonefoot;Lôni;Lôni;;;;;x;;;;;;;x
+c_lower_stonefoot;Fengûr;Fengûr;;;;;x;;;;;;;x

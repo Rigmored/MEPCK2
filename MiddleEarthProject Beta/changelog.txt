@@ -1,5 +1,117 @@
 ﻿-------MIDDLE-EARTH PROJECT----------
 
+##### 0.5b Changelog #####
+
+TLDR:
+- WoL and HL features integrated
+- Perfomance massively increased
+- Many bug fixes and tweaks
+- Population mechanics added
+- Colonisation tweaked
+- Wilderness overhauled
+- Playable holy orders (Swan Knights, Black Serpent)
+- Map changes, Mirkwood appearance overhauled
+
+-Removed buggy and recurring events from wotr informing that hobbits have left, and that rohan is under attack
+-Deleted file MEP_Narsil, it was causing CTD with aragorn and I dont see why narsil should be so easily reforged anyways
+-Removed all those wilderness holdings from Aragorn, had to give them to new wilderness chars, since he always got them even though holder was set to 0 due to inheritance i suppose
+-Deleted events buildings 100, 101, and 102. They were buggy and kept repeating endlessly when holding any of those, aragorn kept getting them in the WOTR bookmark
+-Changed end date to 99999 in hopes of fixing the CTD on load/resign (if a character has a death date beyond the mod end date, it will cause this crash) but it didnt work so the problem is somewhere else in /history folder
+-Fixed rather annoying load/resign CTD. The problem was that someone had used those special dwarven/elven letters in both landes_titles and history/provinces. That causes problems - special characters like that should only be used in localisation, not directly in game files.
+-Removed MEP_gondor_wotr events: They re good flavor, but it means that AI Gondor will always lose the main war because it uses up its levies in battles vs event armies before the main assault
+-Fixed title history so that Rohan no longer holds half the Vale of Anduin
+
+*Added population mechanics for Dunedain/Numenorean Group, Elves, and Dwarves.
+-Their lands are either lightly populated, populated, or densely populated
+-Set up starting event to populate the major areas
+-When you get a new province in-game to your culture, it'll automatically be lightly populated with a -66% penalty to troops and income
+-Populations can be increased via a decision, which is very costly and takes 20 years
+-When a province is occupied by enemies, there is a MTTH event of 5 years which lowers the population level by one (from dense to normal, from normal to light)
+
+-Removed shire provinces from Aragorn, it makes no sense to have the hobbits attack him with dejure cb
+-Changed retinue values. Seems they no longer stack with culture, so some dunedain and elven/dwarven ones needed a stat boost
+-Nerfed Isengard Uruk pits. Saruman had 45k troops, it was crazy.
+-Removed file MEP_alliance.txt from events, it was all unlocalised and therefore useless until someone localises it
+-Deleted orcs_decisions since it was a duplicate of MEP_orcs_decisions
+-Copied over vanilla dynasty_decisions.txt, since ours was out of date and possibly not working
+-Removed all special troops for now. They cause CTDs when seen on the map since a recent patch if they are not all individualy graphically defined (which I don't know how to do)
+-Quite a few event and decision validator errors fixed
+-Made it so that the special buildings, at least in many cases, are only in the barony where theyre supposed to be, not the whole province and sub-baronies
+-Removed coat_of_arms.txt from /interface. Something in there was causing a CTD when a certain army in that region was spotted, most likely related to Rivendells Banner/COA
+-Retinues were vastly overpowered, Gondor could raise something like 30,000 troops in retinues alone if at full strength. Brought them back in line with vanilla values, except that reinforce cost is still half of vanilla.
+-Did some balancing of realm power by editing some buildings, it might still need some work but seems better now. Before, Saruman and Sauron won 99% of the time.
+-Fixed crash with CTD on checking fort tab
+
+-Integrated events/decisions from Way of Life and Horselords
+-Updated some event files with more recent vanilla versions where I could see there was no custom content in ours
+-For the event file adventures_the_old_gods.txt these cultures can spawn adventurers to take on a duchy title (orcs already have another mechanic in-game):
+culture = culture_black_numenorean
+culture_group = culture_barding
+culture_group = culture_northmen
+culture = culture_eotheod
+culture = culture_rohirrim
+culture = culture_hillmen
+culture = culture_umbareans
+-In the same event file, any character with a claim to a king title can try to take it via an adventure army (vanilla mechanic)
+-Brought back the Old Gods rebel events, not sure why they were removed.
+-I now know why they were removed. They're annoying as hell for a large empire. Kept the event, but reduced frequency by 75%
+-Tweaked the Aragorn coronation event so he doesnt just automatically gain the extra provinces in the north. This is unfair to players who have expand that far, suddenly their lands are just taken away by event.
+-Small fix for MEP_population_mechanics regarding new elven provinces not getting the lightly populated modifier. 
+-Bigger fix for MEP population mechanics, it should work properly now
+-Removed personalty = yes from Numenorean traits, they got randomly assigned because of it
+-Restricted some Way of Life seductions so that you cant go around seducing Sauron, Eagles, Balrogs, ents, or orcs etc
+
+*Couldnt figure out why purge province job action didn't work, so I re-did the whole thing. Now if there are hostile cultures in your realm, you get an event asking if you want to purge your land of enemies. The hostile cultured provinces get a modifier for 10 years with a +5% revolt risk, and after that, the province becomes wilderness and must be colonised again. To prevent maiar and such cultured provinces when Sauron or Saruman takes over, those provinces are immediately turned orcish, instead of wilderness. I removed the job action purge province and the purge decision - it might have worked once, but I played 50 years, and Ithilien was still full of orcs in my Aragorn game so something is clearly not working anymore.
+
+-Removed the events giving both types of Blood of Numenor to random courtiers. It should be rare in the 3rd Age, and if there are too few, the solution is rather to give the trait to more starting nobles rather than just have a random courtier appear with a bloodline as powerful as Denethor or Aragorn...
+-On that note, also changed localisation from "Drops of Numenorean Blood" to "Strong Traces of Numenorean Blood" and the strongest one is now "True Blood of Numenor"". Everyone in Gondor and Arnor have "drops", the 2nd trait is still meant to be something special.
+-Reduced number of event troops Aragorn gets when he joins Rohan. Those 2.5k heavy cavalry smashes Sarumans army too easily.
+-Took away lands from Boromir and Faramir. If landed, they ll often marry commoners, which many players wont like - myself included :p
+
+-Code optimization. Moved all events that could be, to on_actions instead of MTTH.
+-I m afraid I had to delete the calender events entirely - with this as MTTH:
+mean_time_to_happen = {
+days = 1
+modifier = {
+factor = 0.00001
+always = yes
+}
+}
+It is extremely resource intensive, and not worth the drain on performance for just that small yearly event notification.
+-Also deleted MEP_numenor_reconquest.txt. It uses these triggers several times:
+completely_controls = d_umbar ### WARNING: completely_controls is a very demanding trigger.
+-Incidentally, this was the cause of the 20 day slowdown of the mod, together with the other MEP_Numenor file which inexplicably also caused huge lag.
+-Deleted event where Sauron gets 1000 gold from the Variags every few months while at war. It is quite unbalancing, and there is no way that the Variags are that rich.
+
+*Remake of colonization system. Sorry Lon, but I got too annoyed trying to colonize Annunimas and nothing happening 3 times in a row, and its always easier rebuilding an event from scratch than fixing someone else's
+Features:
+-Special mechanics for dunedain, you can choose to colonise with middle men at a lower cost
+-If you have an elf, dwarf, or a halfling in your court you can at higher cost colonise a province with these cultures
+
+
+-Changed localisation of Gondorian Commoners back to Gondorian Middlemen. It doesn't make sense to call them commoners, as they can also be nobles. Middlemen is a more accurate term, describing their lack of Dunedain "High Men" ancestry.
+-Added Arnorian Middle men culture also.
+-Fixed issue with commanders not working properly
+-Removed these # groups from the Duchy adventure old gods event, we don't want Rohirrim and such attacking Gondor or Bardings attacking the elves and dwarves
+OR = { # Only these for now
+culture = culture_black_numenorean
+#culture = culture_barding
+#culture = culture_northmen
+#culture = culture_eotheod
+#culture = culture_rohirrim
+culture = culture_hillmen
+culture = culture_umbareans
+has_character_flag = demon_child_non_pagan
+}
+-Temporary fix: Patricians and their families no longer get banished when good/evil side conquers and banishes the nobles of another side. This is to prevent Mordor from getting the Pelargir republic and becoming a republic himself. Placeholder fix until better one is found.
+
+*New Blood of Numenor mechanics
+-At start up, before the kinstrife bookmark, everyone of gondorian, arnorian, dunedain etc culture gets the lesser trait blood of numenor if they dont have it
+-After the kinstrife, only 70% of Gondorians and Arnorians get it, while 100% of dunedain still get it
+-If you lose the trait, Dunedain and Arnorians become Arnorian middle men, and Gondorians become Gondorian Middle men. Black Numenoreans can remain black numenorean cultured even if losing the trait, as there is no real need for a "black numenorean middle men" culture, and they shouldn't switch portraits to haradrim either :p
+
+-Temporary fix. Internal version has patrician portrait bug with elves and possibly some others, i m reverting the elven, hobbit, and dwarf portrait sets to thsoe from Birthright, which do not have the patrician portrait bug - at least until Lonhaldar comes back and fixes the current versions.
+
 ##### 0.4.2b Changlog #####
 
 
