@@ -26,22 +26,24 @@ feudal_governments = {
 			NOT = { religion = religion_wilderness }
 			NOT = { religion = easterlings }
 			NOT = {	religion_group = muslim	}
-			NOT = {
-				AND = { 
-					religion = umaiar
-					OR = {
-						trait = spiritform
-						trait = ring
-						trait = ring_saruman
-					}
-				}
-			}
-			NOT = {
-				AND = { 
-					religion = wight
-					trait = nazgul
-				}
-			}
+		#	NOT = {
+		#		AND = { 
+		#			religion = umaiar
+		#			OR = {
+		#				trait = spiritform
+		#				trait = ring
+		#				trait = ring_saruman
+		#			}
+		#		}
+		#	}
+		#	NOT = {
+		#		AND = { 
+		#			religion = wight
+		#			trait = nazgul
+		#		}
+		#	}
+			NOT = { religion = umaiar }
+			NOT = { religion = wight }
 			is_patrician = no
 		}
 		
