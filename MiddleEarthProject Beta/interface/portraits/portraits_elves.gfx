@@ -3,7 +3,7 @@ spriteTypes = {
 
 	### elf MALE ####
 spriteType = {
-		name = 	"GFX_male_elves_boils"
+		name = 	"GFX_male_elves_child"
 		texturefile = "gfx\\characters\\elf_male\\elvenchildhood.dds"
 		noOfFrames = 2
 		norefcount = yes
@@ -11,7 +11,7 @@ spriteType = {
 	}		
 	
 	spriteType = {
-		name = 	"GFX_female_elves_boils"
+		name = 	"GFX_female_elves_child"
 		texturefile = "gfx\\characters\\elf_female\\elvenchildhood.dds"
 		noOfFrames = 2
 		norefcount = yes
@@ -406,12 +406,12 @@ spriteType = {
 		   	"GFX_elf_male_hair:p1:h:y"
 			"GFX_elf_male_clothes_infront:p3:c4"
 			"GFX_character_scars:p7"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
+			"GFX_elves_reddots:p8"
+			"GFX_male_elves_child:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_elf_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_character_monster:p8"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -461,12 +461,12 @@ spriteType = {
 		   	"GFX_elf_male_hair:p1:h:y"
 			"GFX_elf_male_clothes_infront:p3:c4"
 			"GFX_character_scars:p7"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
+			"GFX_elves_reddots:p8"
+			"GFX_male_elves_child:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_elf_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_character_monster:p8"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -516,12 +516,12 @@ spriteType = {
 		   	"GFX_elf_male_hair:p1:h:y"
 			"GFX_elf_male_clothes_infront:p3:c4"
 			"GFX_character_scars:p7"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
+			"GFX_elves_reddots:p8"
+			"GFX_male_elves_child:p9"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_elf_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_character_monster:p8"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -571,13 +571,13 @@ spriteType = {
 			"GFX_elf_female_headgear_mid:p5:c3"
 			"GFX_elf_female_hair:p1:h:y"
 			"GFX_character_scars:p7"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
+			"GFX_empty:p8"
+			"GFX_female_elves_child:p9"
 			":p3:c4"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_elf_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_character_monster:p8"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -624,13 +624,13 @@ spriteType = {
 			"GFX_elf_female_headgear_mid:p5:c3"
 			"GFX_elf_female_hair:p1:h:y"
 			"GFX_character_scars:p7"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
+			"GFX_empty:p8"
+			"GFX_female_elves_child:p9"
 			":p3:c4"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_elf_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_character_monster:p8"
+			"GFX_empty:p11"
 		}
 
 		hair_color_index = 8
@@ -677,13 +677,13 @@ spriteType = {
 			"GFX_elf_female_headgear_mid:p5:c3"
 			"GFX_elf_female_hair:p1:h:y"
 			"GFX_character_scars:p7"
-			"GFX_character_reddots:p8"
-			"GFX_character_boils:p9"
+			"GFX_empty:p8"
+			"GFX_female_elves_child:p9"
 			":p3:c4"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_elf_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
-			"GFX_character_monster:p8"
+			"GFX_empty:p11"
 		}
 
 		

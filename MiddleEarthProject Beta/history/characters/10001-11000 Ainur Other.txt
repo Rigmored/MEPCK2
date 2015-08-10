@@ -775,7 +775,10 @@
 		}
 	}
 	#Glamdring, Orcrist and Sting recovered from the Troll-hoard
-	
+
+	11300.1.1={
+		employer = 10031
+	}# Gandalf in the court of radagast to prevent him to be with Saruman
 	11362.3.13 ={
 		remove_trait = charismatic_negotiator
 		add_trait = grey_eminence
