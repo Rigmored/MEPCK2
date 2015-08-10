@@ -26,6 +26,8 @@ theocracy_governments = {
 		potential = {
 			NOT = {	religion_group = muslim	}
 			NOT = { religion = religion_wilderness }
+			NOT = { religion = easterlings }
+			NOT = { religion = religion_dunedain }
 			is_patrician = no
 		}
 		
