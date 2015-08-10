@@ -134,11 +134,11 @@ feudal_governments = {
 		
 			religion = umaiar
 			
-			OR = {
-				trait = spiritform
-				trait = ring
-				trait = ring_saruman
-			}
+		#	OR = {
+		#		trait = spiritform
+		#		trait = ring
+		#		trait = ring_saruman
+		#	}
 			
 			is_patrician = no
 		}
@@ -190,7 +190,7 @@ feudal_governments = {
 		
 			religion = wight
 	
-			trait = nazgul
+		#	trait = nazgul
 			
 			is_patrician = no
 		}
