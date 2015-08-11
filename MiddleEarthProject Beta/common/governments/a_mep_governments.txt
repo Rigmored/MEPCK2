@@ -1,7 +1,7 @@
-﻿feudal_governments = {
+feudal_governments = {
 
 	#DUNEDAIN
-	dunedain_monarchy = {
+	dunedain_monarchy_government = {
 	
 		preferred_holdings = { CASTLE }
 		allowed_holdings = {
@@ -15,7 +15,7 @@
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 		
-			dunedain_stewardship
+			dunedain_stewardship_government
 			feudal_government
 		}
 		free_revoke_on_tiers = {
@@ -23,8 +23,8 @@
 			duke
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
-			dark_despotate
-			nazgul_despotate	
+			dark_despotate_government
+			nazgul_despotate_government
 			tribal_government
 		}
 		potential = {
@@ -53,7 +53,7 @@
 		}
 	}
 	
-	dunedain_stewardship = {
+	dunedain_stewardship_government = {
 	
 		preferred_holdings = { CASTLE }
 		allowed_holdings = {
@@ -67,13 +67,13 @@
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 	
-			dunedain_monarchy
+			dunedain_monarchy_government
 			feudal_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 
-			dark_despotate
-			nazgul_despotate	
+			dark_despotate_government
+			nazgul_despotate_government
 			tribal_government
 		}
 		potential = {
@@ -105,7 +105,7 @@
 	}
 
 	#DARK LORD
-	dark_despotate = {
+	dark_despotate_government = {
 	
 		preferred_holdings = { CASTLE }
 		allowed_holdings = {
@@ -126,8 +126,8 @@
 			duke
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
-			dunedain_monarchy
-			dunedain_stewardship	
+			dunedain_monarchy_government
+			dunedain_stewardship_government
 			tribal_government
 		}
 		potential = {
@@ -161,7 +161,7 @@
 	}
 
 	#NAZGUL
-	nazgul_despotate = {
+	nazgul_despotate_government = {
 	
 		preferred_holdings = { CASTLE }
 		allowed_holdings = {
@@ -182,8 +182,8 @@
 			duke
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
-			dunedain_monarchy
-			dunedain_stewardship	
+			dunedain_monarchy_government
+			dunedain_stewardship_government	
 			tribal_government
 		}
 		potential = {
@@ -258,7 +258,7 @@
 	
 		ignore_in_vassal_limit_calculation = {
 	
-			tribal_government​
+			tribal_government
 		}
 	}
 
