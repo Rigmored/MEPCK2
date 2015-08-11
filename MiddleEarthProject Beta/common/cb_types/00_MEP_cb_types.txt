@@ -408,23 +408,26 @@ wilderness = {
 	}
 
 	on_success_title = {
-		custom_tooltip = {
-			text = religious_cb_succ_tip
-			hidden_tooltip = {
-				ROOT = {
-					vassalize_or_take_under_title = {
-						title = PREV
-						enemy = FROM
-						same_religion = yes # Only vassalize rulers of my religion
-					}
-	#				gain_settlements_under_title = {
-	#					title = PREV
-	#					enemy = FROM
-	#				}
-				}
-			}
-		}
-	}
+       		usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
+      	
+       		any_de_jure_vassal_title = { # take all baronies too
+          		 limit = {
+               			has_holder = yes
+               			holder_scope = {
+                   			OR = {
+                        			character = FROM
+                        			is_liege_or_above = FROM
+                        		AND = {
+                           			is_liege_or_above = ROOT
+                           			NOT = { culture = ROOT }
+                            			NOT = { religion = ROOT }
+                        		}		
+                   		}
+                	}
+            	}
+
+            	usurp_title = ROOT
+        }
 
 	on_fail = {
 		ROOT = { 
