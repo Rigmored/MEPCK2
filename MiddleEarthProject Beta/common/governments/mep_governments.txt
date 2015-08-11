@@ -272,7 +272,7 @@ feudal_governments = {
 		}
 	}
 
-orkish_despotism_government = { #WILL BE TRIBAL WHEN HOLDINGS AND BUILDINGS GET SORTED OUT...
+	orkish_thraldom_government = { #WILL BE TRIBAL WHEN HOLDINGS AND BUILDINGS GET SORTED OUT...
 	
 		preferred_holdings = { CASTLE }
 		allowed_holdings = {
