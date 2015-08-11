@@ -1,4 +1,4 @@
-feudal_governments = {
+﻿feudal_governments = {
 
 	#DUNEDAIN
 	dunedain_monarchy = {
@@ -132,7 +132,7 @@ feudal_governments = {
 		}
 		potential = {
 		
-			religion = umaiar
+			religion = religion_umaiar
 			
 		#	OR = {
 		#		trait = spiritform
@@ -188,7 +188,7 @@ feudal_governments = {
 		}
 		potential = {
 		
-			religion = wight
+			religion = religion_wight
 	
 		#	trait = nazgul
 			

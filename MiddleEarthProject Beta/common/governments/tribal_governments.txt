@@ -36,7 +36,7 @@ tribal_governments = {
 			NOT = { religion = easterlings }
 			NOT = { religion = religion_dunedain }
 			NAND = { 
-				religion = umaiar
+				religion = religion_umaiar
 				
 				OR = {
 					trait = spiritform
@@ -45,7 +45,7 @@ tribal_governments = {
 				}
 			}
 			NAND = { 
-				religion = wight
+				religion = religion_wight
 	
 				trait = nazgul
 			}

@@ -20,22 +20,22 @@ feudal_governments = {
 				religion = religion_wilderness
 				religion = religion_dunedain
 				religion = easterlings
-				religion = umaiar
-				religion = wight
+				religion = religion_umaiar
+				religion = religion_wight
 			}
-		#	NAND = { 
-		#		religion = umaiar
-		#		
-		#		OR = {
-		#			trait = spiritform
-		#			trait = ring
-		#			trait = ring_saruman
-		#		}
-		#	}
-		#	NAND = { 
-		#		religion = wight
-		#		trait = nazgul
-		#	}
+			NAND = { 
+				religion = religion_umaiar
+				
+				OR = {
+					trait = spiritform
+					trait = ring
+					trait = ring_saruman
+				}
+			}
+			NAND = { 
+				religion = religion_wight
+				trait = nazgul
+			}
 			is_patrician = no
 		}
 		
