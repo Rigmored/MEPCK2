@@ -135,11 +135,11 @@ feudal_governments = {
 		
 			religion = religion_umaiar
 			
-			OR = {
-				trait = spiritform
-				trait = ring
-				trait = ring_saruman
-			}
+		#	OR = {
+		#		trait = spiritform
+		#		trait = ring
+		#		trait = ring_saruman
+		#	}
 		}
 	
 		color = { 255 255 255 }
@@ -166,7 +166,6 @@ feudal_governments = {
 		allowed_holdings = {
 		
 			CASTLE
-			CITY
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 		
@@ -184,6 +183,7 @@ feudal_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			dunedain_monarchy_government
 			dunedain_stewardship_government
+			orkish_despotism_government
 			orc_thraldom_government
 			tribal_government
 		}
@@ -244,9 +244,9 @@ feudal_governments = {
 				NOR = {
 					independent = yes
 					liege  = { religion = religion_umaiar }
-					top_lige = { religion = religion_umaiar }
+					top_liege = { religion = religion_umaiar }
 					liege  = { trait = nazgul }
-					top_lige = { trait = nazgul }
+					top_liege = { trait = nazgul }
 				}
 			}	
 			religion = religion_orkish
