@@ -325,6 +325,224 @@ feudal_governments = {
 		}
 	}
 
+	#URUKS
+	uruk_despotism_government = { #WILL BE TRIBAL WHEN HOLDINGS AND BUILDINGS GET SORTED OUT...
+	
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+		
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		
+			dark_dominion_government
+			nazgul_tyranny_government
+			feudal_government
+		}
+		free_revoke_on_tiers = {
+	
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			dunedain_monarchy_government
+			dunedain_stewardship_government	
+			tribal_government
+		}
+		potential = {
+		
+			OR = {
+				independent = yes
+				NOR = {
+					independent = yes
+					liege  = { religion = religion_umaiar }
+					top_liege = { religion = religion_umaiar }
+					liege  = { trait = nazgul }
+					top_liege = { trait = nazgul }
+				}
+			}	
+			religion = religion_uruk
+		}
+	
+		color = { 255 255 255 }
+	
+		uses_piety_for_law_change = no
+	
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+	
+		can_build_tribal = no
+		can_build_temple = no
+	
+		ignore_in_vassal_limit_calculation = {
+	
+			tribal_government
+		}
+	}
+
+	uruk_thraldom_government = {
+	
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+		
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		
+			dark_dominion_government
+			nazgul_tyranny_government
+			feudal_government
+		}
+		free_revoke_on_tiers = {
+	
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			dunedain_monarchy_government
+			dunedain_stewardship_government	
+			tribal_government
+		}
+		potential = {
+		
+			independent = no
+			OR = {
+				liege  = { religion = religion_umaiar }
+				top_liege = { religion = religion_umaiar }
+				liege  = { trait = nazgul }
+				top_liege = { trait = nazgul }
+			}
+			religion = religion_uruk
+		}
+	
+		color = { 255 255 255 }
+	
+		uses_piety_for_law_change = no
+	
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+	
+		can_build_tribal = no
+		can_build_temple = no
+	
+		ignore_in_vassal_limit_calculation = {
+	
+			tribal_government
+		}
+	}
+
+	#SOUTHRON
+	southron_despotism_government = { #WILL BE TRIBAL WHEN HOLDINGS AND BUILDINGS GET SORTED OUT...
+	
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+		
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		
+			dark_dominion_government
+			nazgul_tyranny_government
+			feudal_government
+		}
+		free_revoke_on_tiers = {
+	
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			dunedain_monarchy_government
+			dunedain_stewardship_government	
+			tribal_government
+		}
+		potential = {
+
+			is_tribal = no	
+			religion = religion_southron
+		}
+	
+		color = { 255 255 255 }
+	
+		uses_piety_for_law_change = no
+	
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+	
+		can_build_tribal = no
+		can_build_temple = no
+	
+		ignore_in_vassal_limit_calculation = {
+	
+			tribal_government
+		}
+	}
+
+	#EASTERLINGS
+	easterling_despotism_government = { #WILL BE TRIBAL WHEN HOLDINGS AND BUILDINGS GET SORTED OUT...
+	
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+		
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		
+			dark_dominion_government
+			nazgul_tyranny_government
+			feudal_government
+		}
+		free_revoke_on_tiers = {
+	
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			dunedain_monarchy_government
+			dunedain_stewardship_government	
+			tribal_government
+		}
+		potential = {
+
+			is_tribal = no
+			religion = religion_easterlings
+		}
+	
+		color = { 255 255 255 }
+	
+		uses_piety_for_law_change = no
+	
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+	
+		can_build_tribal = no
+		can_build_temple = no
+	
+		ignore_in_vassal_limit_calculation = {
+	
+			tribal_government
+		}
+	}
+
 	wilderness_government = {
 	
 		preferred_holdings = { CASTLE }
