@@ -1166,6 +1166,7 @@ NDisease = {
 	SMALL_TOWN_INCOME = 11.0, -- A coastal town with this income has no chance of starting an outbreak
 	BIG_TOWN_INCOME = 30.0, -- A coastal town with this income is always a candidate for starting an outbreak
 	MIN_OUTBREAK_CHANCE = 0.1, -- Min chance that an outbreak will happen in a particular town
+	CROWDED_THRESHOLD_MODIFIER = 50, -- How many courtiers in a court to make it crowded and increase chance for disease.
 },
 
 NGraphics = {
@@ -1184,6 +1185,9 @@ NEngine = {
 	EVENT_PROCESS_OFFSET = 20, 	-- Events are checked every X day per character or province (1 is ideal, but CPU heavy)
 	POPULATION_BASELINE = 20000, -- The baseline of what would be considered normal amount of population
 	COURTIERS_MTTTH_EVENTS = 1,  -- Toggles if courtiers are allowed to run MTTH events or not
+	MISSING_SCRIPTED_SUCCESSOR_ERROR_CUTOFF_YEAR = 11361, -- The missing scripted successor error will not be shown before this date
+	MISSING_SCRIPTED_SUCCESSOR_ERROR_CUTOFF_MONTH = 1,
+	MISSING_SCRIPTED_SUCCESSOR_ERROR_CUTOFF_DAY = 1,
 },
 
 NAI =
@@ -1407,6 +1411,7 @@ NLearningScenario =
 	TOG_REVOLT_EVENT = 107200,
 	COMBAT_EVENT = 107202,
 	AFTER_REVOLT_EVENT = 107250,
+	FABRICATE_CLAIM_PROVINCE = 849,
 	FABRICATE_CLAIM_EVENT = 913,
 	HAS_CLAIM_EVENT = 107300,
 	WAR_EVENT = 107301,
