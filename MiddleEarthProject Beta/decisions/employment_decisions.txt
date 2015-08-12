@@ -1,12 +1,16 @@
 decisions = {
 	employ_chancellor = {
 		potential = {
-			ai = no
-			is_ruler = yes
-			has_character_flag = employment_decisions_open
 			OR = {
-				ai = yes
-				NOT = { religion = religion_wilderness }
+				AND = {
+					ai = no
+					is_ruler = yes
+					has_character_flag = employment_decisions_open
+				}
+				AND = {
+					ai = yes
+					NOT = { religion = religion_wilderness }
+				}
 			}
 		}
 		allow = {
@@ -29,12 +33,16 @@ decisions = {
 	}
 	employ_marshal = {
 		potential = {
-			ai = no
-			is_ruler = yes
-			has_character_flag = employment_decisions_open
 			OR = {
-				ai = yes
-				NOT = { religion = religion_wilderness }
+				AND = {
+					ai = no
+					is_ruler = yes
+					has_character_flag = employment_decisions_open
+				}
+				AND = {
+					ai = yes
+					NOT = { religion = religion_wilderness }
+				}
 			}
 		}
 		allow = {
@@ -57,12 +65,16 @@ decisions = {
 	}
 	employ_steward = {
 		potential = {
-			ai = no
-			is_ruler = yes
-			has_character_flag = employment_decisions_open
 			OR = {
-				ai = yes
-				NOT = { religion = religion_wilderness }
+				AND = {
+					ai = no
+					is_ruler = yes
+					has_character_flag = employment_decisions_open
+				}
+				AND = {
+					ai = yes
+					NOT = { religion = religion_wilderness }
+				}
 			}
 		}
 		allow = {
@@ -85,12 +97,16 @@ decisions = {
 	}
 	employ_spymaster = {
 		potential = {
-			ai = no
-			is_ruler = yes
-			has_character_flag = employment_decisions_open
 			OR = {
-				ai = yes
-				NOT = { religion = religion_wilderness }
+				AND = {
+					ai = no
+					is_ruler = yes
+					has_character_flag = employment_decisions_open
+				}
+				AND = {
+					ai = yes
+					NOT = { religion = religion_wilderness }
+				}
 			}
 		}
 		allow = {
@@ -113,21 +129,25 @@ decisions = {
 	}
 	present_female_slave = {
 		potential = {
-			ai = no
 			is_female = no
-			is_ruler = yes
 			age = 16
-			has_character_flag = employment_decisions_open
 			OR = {
 				culture_group = culture_group_melkor
 				culture_group = culture_group_southron
 				culture_group = culture_group_easterling
 				culture = culture_black_numenorean
-				culture = culture_maiar
+				religion_group = religion_group_melkor
 			}
 			OR = {
-				ai = yes
-				NOT = { religion = religion_wilderness }
+				AND = {
+					ai = no
+					is_ruler = yes
+					has_character_flag = employment_decisions_open
+				}
+				AND = {
+					ai = yes
+					NOT = { religion = religion_wilderness }
+				}
 			}
 		}
 		allow = {
@@ -152,20 +172,25 @@ decisions = {
 	}
 	present_male_slave = {
 		potential = {
-			ai = no
 			is_female = yes
-			is_ruler = yes
 			age = 16
 			OR = {
 				culture_group = culture_group_melkor
 				culture_group = culture_group_southron
 				culture_group = culture_group_easterling
 				culture = culture_black_numenorean
-				has_character_flag = employment_decisions_open
+				religion_group = religion_group_melkor
 			}
 			OR = {
-				ai = yes
-				NOT = { religion = religion_wilderness }
+				AND = {
+					ai = no
+					is_ruler = yes
+					has_character_flag = employment_decisions_open
+				}
+				AND = {
+					ai = yes
+					NOT = { religion = religion_wilderness }
+				}
 			}
 		}
 		allow = {
@@ -190,21 +215,25 @@ decisions = {
 	}
 	present_debutante = {
 		potential = {
-			ai = no
 			is_female = no
-			is_ruler = yes
 			age = 16
-			has_character_flag = employment_decisions_open
-			NOT = {
+			NOR = {
 				culture_group = culture_group_melkor
 				culture_group = culture_group_southron
 				culture_group = culture_group_easterling
 				culture = culture_black_numenorean
-				culture = culture_maiar
+				religion_group = religion_group_melkor
 			}
 			OR = {
-				ai = yes
-				NOT = { religion = religion_wilderness }
+				AND = {
+					ai = no
+					is_ruler = yes
+					has_character_flag = employment_decisions_open
+				}
+				AND = {
+					ai = yes
+					NOT = { religion = religion_wilderness }
+				}
 			}
 		}
 		allow = {
