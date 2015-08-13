@@ -28,6 +28,13 @@ NDefines.NDiplomacy.PIETY_OPINION_DIV = 25						-- Divider for piety to church o
 NDefines.NDiplomacy.PIETY_OPINION_MAX = 50	
 
 
+----- NCharacter -----
+
+NDefines.NCharacter.TRIBAL_EMPTY_HOLDING_LEVY_MULTIPLIER = 0 -- previously 0.5
+NDefines.NCharacter.TRIBAL_EMPTY_HOLDING_GARRISON_MULTIPLIER = 0 -- previously 0.5
+NDefines.NCharacter.TRIBAL_EMPTY_HOLDING_TAX_MULTIPLIER = 0 -- previously 0.5
+
+
 ----- NTitle -----
 
  -- Monthly prestige from vassals
