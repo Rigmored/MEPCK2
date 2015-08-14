@@ -43,24 +43,44 @@ NDefines.NTitle.COUNT_AS_VASSAL_PRESTIGE = 0.025 -- previously 0.1
 NDefines.NTitle.DUKE_AS_VASSAL_PRESTIGE = 0.1 -- previously 0.4
 NDefines.NTitle.KING_AS_VASSAL_PRESTIGE = 0.4 -- previously 1.6
 NDefines.NTitle.EMPEROR_AS_VASSAL_PRESTIGE = 3.2     -- Impossible, but needs to be here
- 
  -- Monthly prestige from held titles
 NDefines.NTitle.BARON_TITLE_PRESTIGE = 0.001  -- previously 0.025
 NDefines.NTitle.COUNT_TITLE_PRESTIGE = 0.025 -- previously 0.1
 NDefines.NTitle.DUKE_TITLE_PRESTIGE = 0.05 -- previously 0.2
 NDefines.NTitle.KING_TITLE_PRESTIGE = 0.2 -- previously 0.8
 NDefines.NTitle.EMPEROR_TITLE_PRESTIGE = 0.4 -- previously 1.6
-
  -- Monthly prestige LOSS from each unlanded adult son
 NDefines.NTitle.BARON_LANDLESS_SON_PRESTIGE = 0.01 -- previously 0.025
 NDefines.NTitle.COUNT_LANDLESS_SON_PRESTIGE = 0.05 -- previously 0.1
 NDefines.NTitle.DUKE_LANDLESS_SON_PRESTIGE = 0.2 -- previously 0.4
 NDefines.NTitle.KING_LANDLESS_SON_PRESTIGE = 0.4 -- previously 0.8
 NDefines.NTitle.EMPEROR_LANDLESS_SON_PRESTIGE = 0.5 -- previously 1.0
- 
  -- Dynasty Prestige is the sum of current and previous holdings of all living and dead members of a dynasty
 NDefines.NTitle.BARON_TITLE_DYNASTY_PRESTIGE = 1 -- previously 1
 NDefines.NTitle.COUNT_TITLE_DYNASTY_PRESTIGE = 3 -- previously 5
 NDefines.NTitle.DUKE_TITLE_DYNASTY_PRESTIGE = 6 -- previously 10
 NDefines.NTitle.KING_TITLE_DYNASTY_PRESTIGE = 10 -- previously 20
 NDefines.NTitle.EMPEROR_TITLE_DYNASTY_PRESTIGE = 15 -- previously 40
+
+
+----- NNomad -----
+
+NDefines.NNomad.MANPOWER_LOW_SENTIMENT_INCREASE_MULTIPLIER = 0 -- The manpower effect of a negative Clan Sentiment vs the ruling Clan. At a value of 2, -100 Sentiment is 200% faster manpower regrowth.
+NDefines.NNomad.POPULATION_TAX_MULTIPLIER = 0.001			-- Monthly tax income determined by the current population
+
+NDefines.NNomad.UNITS_FOR_OCCUPATION = 500						-- Number of hostile units needing to stand on settlement-less nomad provinces to be considered occupied
+
+NDefines.NNomad.MERCENARY_CREATE_MANPOWER_RATIO = 0.25			-- Amount of manpower taken when a nomad creates a mercenary band
+NDefines.NNomad.CLAN_GRAZING_LAND_MALUS_TRESHHOLD = 0.90 		-- When we've reached 75% of our max population we want more grazing land
+NDefines.NNomad.CLAN_GRAZING_LAND_MALUS = 50 					-- Base value for the malus opinion modifier
+
+NDefines.NNomad.HISTORICAL_NOMAD_VASSAL_TRIBUTARY_PERCENTAGE = 0.50 -- The tributary percentage of scripted nomad vassals of other cultures (as they become independent on starting a new game)
+
+NDefines.NNomad.HORDE_REINFORCE_MULTIPLIER = 2					-- Increased speed of reinforcing hordes
+	
+NDefines.NNomad.STEPPE_DESERT_PLAINS_HORSE_OFFENSIVE_MOD = 0.2 -- Light cavalry, heavy cavalry and special units offensive modifier for having a nomad capital in steppe, desert or plains provinces
+NDefines.NNomad.STEPPE_DESERT_PLAINS_HORSE_DEFENSIVE_MOD = 0.1 -- Light cavalry, heavy cavalry and special units defensive modifier for having a nomad capital in mountains, hills or arctic provinces
+NDefines.NNomad.CAPITAL_AT_OWN_HOLY_SITE_PIETY = 1				-- Monthly Piety for having the capital in the holy site of your own religion
+NDefines.NNomad.CAPITAL_AT_OTHER_HOLY_SITE_PRESTIGE = 1		-- Monthly Prestige for having the capital in the holy site of other religions
+	
+NDefines.NNomad.MAX_HOLDINGS_IN_NOMADIC_PROVINCE = 5			-- Counties with this number of holdings or less are counted as a nomadic province that clans can demand
