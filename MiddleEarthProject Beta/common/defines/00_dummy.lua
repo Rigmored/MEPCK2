@@ -84,3 +84,23 @@ NDefines.NNomad.CAPITAL_AT_OWN_HOLY_SITE_PIETY = 1				-- Monthly Piety for havin
 NDefines.NNomad.CAPITAL_AT_OTHER_HOLY_SITE_PRESTIGE = 1		-- Monthly Prestige for having the capital in the holy site of other religions
 	
 NDefines.NNomad.MAX_HOLDINGS_IN_NOMADIC_PROVINCE = 5			-- Counties with this number of holdings or less are counted as a nomadic province that clans can demand
+
+
+----- NMilitary -----
+
+NDefines.NMilitary.LOOTED_MODIFIER_MONTHS = 60			-- How long pagan looting lasts
+NDefines.NMilitary.LOOT_TAX_MULTIPLIER = 2			-- Base gold looted from raided holdings is (tax * LOOT_TAX_MULTIPLIER) + (total building value * LOOT_BUILDING_MULTIPLIER)
+NDefines.NMilitary.LOOT_BUILDING_MULTIPLIER = 0.2		-- Extra gold looted from raided holdings, from buildings (LOOT_BUILDING_MULTIPLIER * building built cost)
+
+NDefines.NMilitary.LOOT_HOLDING_DESTRUCTION_ODDS = 0		-- a holding with less than LOOT_HOLDING_DEST_MIN_SAFE buildings will be destroyed by looting
+NDefines.NMilitary.LOOT_HOLDING_BUILDING_DEST_ODDS = 1		-- there is a 1 in this chance a random building is destroyed when looted
+NDefines.NMilitary.SETTLED_ADVENTURER_MODIFIER_YEARS = 5	-- How long provinces are spared from raiding after settling a raider adventurer.
+	
+NDefines.NMilitary.RETINUE_FROM_REALMSIZE = 1.0
+
+NDefines.NMilitary.RETINUE_INCREASE_PER_TECH = 1
+NDefines.NMilitary.RETINUE_HIRE_COST_MULTIPLIER = 0.25		-- Retinues are free to hire atm, but they cost a lot to reinforce
+NDefines.NMilitary.RETINUE_REINFORCE_RATE = 0.01
+NDefines.NMilitary.RETINUE_REINFORCE_COST = 2			-- Retinues cost while reinforcing.
+NDefines.NMilitary.RETINUE_CONSTANT_COST =  0.5			-- Retinues cost at all times.
+	
