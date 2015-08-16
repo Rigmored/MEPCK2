@@ -186,12 +186,12 @@ character_event = {
 				has_character_flag = forodacil				
 				age = 1
 			}
-			character_event = { id = fallofarnor.25 days = 15 }	## Angmar is alerted that Ulfman don't do his job.
+			character_event = { id = fallofarnor.25 days = 15 }	## Angmar is alerted that Ulfman doesn't do his job.
 		}			
 	}		
 }
 
-## Ulfang the Hillman begin to plot against Forodacil of Rhudaur - Forodacil keep on eye on him ##
+## Ulfang the Hillman begins to plot against Forodacil of Rhudaur - Forodacil keeps an eye on him ##
 character_event = {
     id = fallofarnor.6
     title = "EVTTITfallofarnor.6"
@@ -571,7 +571,7 @@ character_event = {
 	}	
 	option = {
 		name = "EVTOPTBfallofarnor.17" ## That's not my War !
-		trigger = { ai=no }
+		trigger = { ai = no }
 	}		
 }
 
@@ -812,11 +812,11 @@ character_event = {
 	}	
 	option = {
 		name = "EVTOPTBfallofarnor.25" ## All is doomed...
-		trigger = { ai=no }
+		trigger = { ai = no }
 	}		
 }
 
-## Forodacil is imprisonned by your men ! ##
+## Forodacil is imprisoned by your men ! ##
 character_event = {
     id = fallofarnor.26
     title = "EVTTITfallofarnor.26"
@@ -853,7 +853,7 @@ character_event = {
 	}	
 	option = {
 		name = "EVTOPTBfallofarnor.26" ## The Prison seems good for him...
-		trigger = { ai=no }
+		trigger = { ai = no }
 		k_rhudaur = {
 			grant_title = ROOT
 		}
@@ -944,7 +944,7 @@ character_event = {
 	}	
 	option = {
 		name = "EVTOPTBfallofarnor.28" ## No... it's not time...
-		trigger = { ai=no }
+		trigger = { ai = no }
 	}		
 }
 
@@ -980,7 +980,7 @@ character_event = {
 	}	
 	option = {
 		name = "EVTOPTBfallofarnor.29" ## No... I'll wait...
-		trigger = { ai=no }
+		trigger = { ai = no }
 	}		
 }
 
@@ -1025,7 +1025,7 @@ character_event = {
 	option = {
 		name = "EVTOPTBfallofarnor.30" ## I'm a KING !
 		clr_global_flag = civilwar_rhudaur		
-		trigger = { ai=no }
+		trigger = { ai = no }
 	}		
 }
 
@@ -1046,7 +1046,7 @@ character_event = {
 	}	
 }
 
-### If Ulfang failed to take the crown after the war against Rhudaur - Fires in 9658 ##
+### If Ulfang failed to take the crown after the war against Rhudaur - Fires likely in 9658 ##
 character_event = {
     id = fallofarnor.32
     title = "EVTTITfallofarnor.32"
@@ -1056,10 +1056,9 @@ character_event = {
 	trigger = {
 		has_character_flag = witchking
 		has_global_flag = civilwar_rhudaur
-		year = 9658
+		NOT = { year = 9657 }
 		any_realm_lord = { NOT = { has_landed_title = k_rhudaur } }
 		NOT = { has_global_flag = angmarattackonrhudaur }
-		war=no
 	}
 	
 	mean_time_to_happen = {
@@ -1076,7 +1075,6 @@ character_event = {
 		any_playable_ruler = {
 			limit = { 
 				has_landed_title = k_rhudaur
-				trait = blood_of_isildur
 				age = 1
 			}
 			character_event = { id = fallofarnor.27 days = 20 }	## It's War !
@@ -1084,7 +1082,7 @@ character_event = {
 	}	
 	option = {
 		name = "EVTOPTBfallofarnor.32" ## 
-		trigger = { ai=no }
+		trigger = { ai = no }
 	}		
 }
 
@@ -1110,13 +1108,13 @@ character_event = {
 		}
 		new_character = {
 			spawn_unit = {
-				province = 624 # Carn D鹠
+				province = 624 # Carn D没m
 				disband_on_peace = yes
 				troops =
 				{
-					light_infantry = { 3000 3000 }
-					heavy_infantry = { 5000 5000 }
-					archers = { 2500 2500 }
+					light_infantry = { 4000 4000 }
+					heavy_infantry = { 1000 1000 }
+					archers = { 2000 2000 }
 				}
 			}		
 		}
@@ -1131,11 +1129,11 @@ character_event = {
 		}
 		new_character = {
 			spawn_unit = {
-				province = 624 # Carn D鹠
+				province = 624 # Carn D没m
 				disband_on_peace = yes
 				troops =
 				{
-					heavy_infantry = { 300 300 }
+					heavy_infantry = { 100 100 }
 				}
 			}		
 		}	
@@ -1150,13 +1148,13 @@ character_event = {
 		}
 		new_character = {
 			spawn_unit = {
-				province = 624 # Carn D鹠
+				province = 624 # Carn D没m
 				disband_on_peace = yes
 				troops =
 				{
-					light_infantry = { 3000 3000 }
+					light_infantry = { 2000 2000 }
 					heavy_infantry = { 500 500 }
-					archers = { 2000 2000 }
+					archers = { 1000 1000 }
 				}
 			}		
 		}			
@@ -1173,13 +1171,13 @@ character_event = {
 		}
 		new_character = {
 			spawn_unit = {
-				province = 624 # Carn D鹠
+				province = 624 # Carn D没m
 				disband_on_peace = yes
 				troops =
 				{
-					light_infantry = { 4000 4000 }
-					heavy_infantry = { 7000 7000 }
-					archers = { 4500 4500 }
+					light_infantry = { 8000 8000 }
+					heavy_infantry = { 2000 2000 }
+					archers = { 4000 4000 }
 				}
 			}		
 		}	
@@ -1196,20 +1194,20 @@ character_event = {
 		}
 		new_character = {
 			spawn_unit = {
-				province = 624 # Carn D鹠
+				province = 624 # Carn D没m
 				disband_on_peace = yes
 				troops =
 				{
-					light_infantry = { 6200 6200 }
-					heavy_infantry = { 800 800 }
-					archers = { 4500 4500 }
+					light_infantry = { 4000 4000 }
+					heavy_infantry = { 1000 1000 }
+					archers = { 2000 2000 }
 				}
 			}		
 		}	
 	}		
 	option = {
 		name = "EVTOPTBfallofarnor.33" ## No
-		trigger = { ai=no }
+		trigger = { ai = no }
 	}		
 }
 
@@ -1264,7 +1262,10 @@ character_event = {
 		any_playable_ruler = {
 			limit = { 
 				has_landed_title = k_cardolan
-				trait= blood_of_isildur
+				OR = {
+					religion = religion_dunedain
+					religion = religion_numenorean
+				}
 				age = 1
 			}
 			character_event = { id = fallofarnor.36 days = 10 }	## Ostoher of Cardolan is alerted that the Witch-King is looking for his kingdom now.
@@ -1298,7 +1299,10 @@ character_event = {
 		any_playable_ruler = {
 			limit = { 
 				has_landed_title = k_arthedain
-				trait = blood_of_isildur
+				OR = {
+					religion = religion_dunedain
+					religion = religion_numenorean
+				}
 				age = 1
 			}			
 			character_event = { id = fallofarnor.40 days = 15 }	## The King of Arthedain is alerted of the next war
@@ -1309,7 +1313,10 @@ character_event = {
 		any_playable_ruler = {
 			limit = { 
 				has_landed_title = k_arthedain
-				trait = blood_of_isildur
+				OR = {
+					religion = religion_dunedain
+					religion = religion_numenorean
+				}
 				age = 1
 			}	
 			character_event = { id = fallofarnor.41 days = 15 }	
@@ -1354,7 +1361,10 @@ character_event = {
 		any_playable_ruler = {
 			limit = { 
 				has_landed_title = k_cardolan
-				trait= blood_of_isildur
+				OR = {
+					religion = religion_dunedain
+					religion = religion_numenorean
+				}
 				age = 1
 			}
 			character_event = { id = fallofarnor.38 }	## Ostoher of Cardolan is alerted that the Witch-King is attacking !
@@ -1382,7 +1392,10 @@ character_event = {
 		any_playable_ruler = {
 			limit = { 
 				has_landed_title = k_arthedain
-				trait = blood_of_isildur
+				OR = {
+					religion = religion_dunedain
+					religion = religion_numenorean
+				}
 				age = 1
 			}			
 			character_event = { id = fallofarnor.39 days = 2 }	## The King of Arthedain is call to aid
@@ -1401,7 +1414,10 @@ character_event = {
 		any_playable_ruler = {
 			limit = { 
 				has_landed_title = k_arthedain
-				trait = blood_of_isildur
+				OR = {
+					religion = religion_dunedain
+					religion = religion_numenorean
+				}
 				age = 1
 			}			
 			character_event = { id = fallofarnor.39 days = 2 }	## The King of Arthedain is call to aid
@@ -1501,7 +1517,10 @@ character_event = {
 		any_playable_ruler = {
 			limit = { 
 				has_landed_title = k_cardolan
-				trait= blood_of_isildur
+				OR = {
+					religion = religion_dunedain
+					religion = religion_numenorean
+				}
 				age = 1
 			}
 			character_event = { id = fallofarnor.45 days = 1 }	## Ostoher of Cardolan is alerted that the Witch-King is attacking !
@@ -1557,7 +1576,10 @@ character_event = {
 		any_playable_ruler = {
 			limit = { 
 				has_landed_title = k_cardolan
-				trait= blood_of_isildur
+				OR = {
+					religion = religion_dunedain
+					religion = religion_numenorean
+				}
 				age = 1
 			}
 			character_event = { id = fallofarnor.38 }	## Ostoher of Cardolan is alerted that the Witch-King is attacking !
@@ -1687,7 +1709,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTAfallofarnor.49" ## I'll command myself, from Amon S鹟.
+		name = "EVTOPTAfallofarnor.49" ## I'll command myself, from Amon S没l.
 		c_weather_hills = {
 			grant_title = ROOT
 		}		
@@ -1725,7 +1747,7 @@ character_event = {
 	}		
 }
 
-## The King of Arnor is in Amon S鹟 - The Witch-King is alerted ##
+## The King of Arnor is in Amon S没l - The Witch-King is alerted ##
 character_event = {
     id = fallofarnor.50
     title = "EVTTITfallofarnor.50"
@@ -1742,7 +1764,7 @@ character_event = {
 				trait = blood_of_isildur
 				age = 1
 			}			
-			character_event = { id = fallofarnor.51 days = 50 }	## The King of Arnor will be alerted of hillmen near to Amon S鹟.
+			character_event = { id = fallofarnor.51 days = 50 }	## The King of Arnor will be alerted of hillmen near to Amon S没l.
 		}		
 	}	
 	option = {
@@ -1751,7 +1773,7 @@ character_event = {
 	}		
 }
 
-## The King of Arnor is in Amon S鹟 - Hillmen are attacking ##
+## The King of Arnor is in Amon S没l - Hillmen are attacking ##
 character_event = {
     id = fallofarnor.51
     title = "EVTTITfallofarnor.51"
@@ -1800,7 +1822,7 @@ character_event = {
 	}		
 }
 
-## The King of Arnor is killed in battle near to Amon S鹟 ##
+## The King of Arnor is killed in battle near to Amon S没l ##
 character_event = {
     id = fallofarnor.52
     title = "EVTTITfallofarnor.52"
@@ -1861,7 +1883,7 @@ character_event = {
 	}		
 }
 
-## The King of Arnor is not in Amon S鹟 - Witch King is alerted ##
+## The King of Arnor is not in Amon S没l - Witch King is alerted ##
 character_event = {
     id = fallofarnor.55
     title = "EVTTITfallofarnor.55"

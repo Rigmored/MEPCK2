@@ -1124,7 +1124,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_22_black"
 				borderSize = {x = 0 y = 0}
-				text = "§WJulius Caesar"	
+				text = "Â§WJulius Caesar"	
 				maxWidth = 325
 				maxHeight = 24	
 				fixedsize = yes
@@ -1179,7 +1179,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
-				text = "af Stenkilsätten"
+				text = "af StenkilsÃ¤tten"
 				fixedsize = yes
 				maxWidth = 135
 				maxHeight = 20	
@@ -1260,6 +1260,23 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "demesnesize"
+				position = { x = 450 y = 89 }
+				textureFile = ""
+				font = "vic_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "1/1"
+				maxWidth = 60
+				maxHeight = 20	
+				format = right
+			}
+			iconType = {
+				name ="icon_populationsize"
+				spriteType = "GFX_nomadview_pop_icon"
+				position = { x= 428 y = 84 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "populationsize"
 				position = { x = 450 y = 89 }
 				textureFile = ""
 				font = "vic_18_black"
@@ -1522,18 +1539,31 @@ guiTypes = {
 				fixedsize = yes
 				format = left
 			}
+#			instantTextBoxType = {
+#				name = "diplomatic_relations_label"
+#				position = { x = 36 y = 277 }
+#				textureFile = ""
+#				font = "vic_18_black"
+#				borderSize = {x = 0 y = 0}
+#				text = "CHARVIEW_DIPLOMATIC_RELATIONS"
+#				maxWidth = 100
+#				maxHeight = 20
+#				fixedsize = yes
+#				format = left
+#			}
 			instantTextBoxType = {
-				name = "diplomatic_relations_label"
-				position = { x = 36 y = 277 }
+				name = "traits_label"
+				position = { x = 36 y = 278 }
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
-				text = "CHARVIEW_DIPLOMATIC_RELATIONS"
+				text = "CHARVIEW_TRAITS"
 				maxWidth = 100
 				maxHeight = 20
 				fixedsize = yes
 				format = left
 			}
+			
 			
 			OverlappingElementsBoxType = {
 				name = "titles"
@@ -1544,38 +1574,57 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "claims"
-				position = { x = 71 y = 243 }
-				size = { x=169 y=32 }
+				position = { x = 90 y = 243 }
+				size = { x=215 y=32 }
 				format = right
 			}
+			
 			OverlappingElementsBoxType = {
 				name = "diplomatic_relations"
-				position = { x = 71 y = 270 }
-				size = { x=169 y=32 }
+				position = { x = 320 y = 234 }
+				size = { x=195 y=32 }
 				format = right
 			}
 			iconType = {
 				name ="icon_commandmodifier"
 				spriteType = "GFX_commandmodifier_icon"
-				position = { x = 245 y = 267 }
+				position = { x= 333 y = 267 }
 				Orientation = "UPPER_LEFT"
 			}	
+#			OverlappingElementsBoxType = {
+#				name = "traits"
+#				position = { x = 320 y = 244 }
+#				size = { x=195 y=32 }
+#				format = right
+#			}
+#			OverlappingElementsBoxType = {
+#				name = "LeadershipTraits"
+#				position = { x = 367 y = 271 }
+#				size = { x = 60 y = 32 }
+#				format = left
+#			}
+#			OverlappingElementsBoxType = {
+#				name = "modifiers"
+#				position = { x = 417 y = 271 }
+#				size = { x=100 y=32 }
+#				format = right
+#			}
 			OverlappingElementsBoxType = {
 				name = "traits"
-				position = { x = 240 y = 244 }
-				size = { x=270 y=32 }
+				position = { x = 60 y = 272 }
+				size = { x=250 y=32 }
 				format = right
 			}
 			OverlappingElementsBoxType = {
 				name = "LeadershipTraits"
-				position = { x = 255 y = 271 }
-				size = { x = 102 y = 32 }
+				position = { x = 353 y = 272 }
+				size = { x = 60 y = 32 }
 				format = right
 			}
 			OverlappingElementsBoxType = {
 				name = "modifiers"
-				position = { x = 380 y = 271 }
-				size = { x= 140 y= 32 }
+				position = { x = 417 y = 271 }
+				size = { x= 100 y= 32 }
 				format = right
 			}
 		}
@@ -1927,4 +1976,3 @@ guiTypes = {
 	}
 
 }
-		

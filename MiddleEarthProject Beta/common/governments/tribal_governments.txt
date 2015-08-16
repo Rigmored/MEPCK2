@@ -25,16 +25,14 @@ tribal_governments = {
 		frame_suffix = "_tribal"
 		title_prefix = "tribal_"
 		potential = {
-			NAND = {
-				controls_religion = yes
-				NOT = { religion_group = muslim }
-				NOT = { religion = norse_pagan_reformed }
-				
+			NOR = {
+				religion = religion_wilderness
+				religion = religion_dunedain
+				religion = easterlings
+				religion = religion_umaiar
+				religion = religion_wight
+				religion = religion_orkish
 			}
-			is_patrician = no
-			NOT = { religion = religion_wilderness }
-			NOT = { religion = easterlings }
-			NOT = { religion = religion_dunedain }
 			NAND = { 
 				religion = religion_umaiar
 				
@@ -46,7 +44,6 @@ tribal_governments = {
 			}
 			NAND = { 
 				religion = religion_wight
-	
 				trait = nazgul
 			}
 			mercenary = no
