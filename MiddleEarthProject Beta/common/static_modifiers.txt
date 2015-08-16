@@ -123,6 +123,12 @@ county_heresy = {
 	local_revolt_risk = 0.04
 }
 
+# Nomads: Pressure from minor Clans to form another Major Clan
+# Multiplied by the number counties held above the required proportion (see define MIN_CLAN_LAND_PROPORTION)
+nomad_ruling_clan_too_powerful = {
+	local_revolt_risk = 0.04
+}
+
 # Isolated county
 county_isolated = {
 	local_revolt_risk = 0.01
@@ -182,6 +188,13 @@ looted_modifier = {
 	icon = 24
 }
 
+maintaining_mercenary_band = {
+	levy_size = -0.1
+	max_manpower_mult = -0.1
+	manpower_growth = -0.1
+	icon = 31
+}
+
 occupied_tutorial = {
 	icon = 19
 	levy_size = -2
@@ -207,6 +220,10 @@ foreign_rebels = {
 jizya_tax = {
 	local_tax_modifier = 0.25
 	icon = 4
+}
+
+settled_adventurer = {
+	icon = 1
 }
 
 ##########################################################################
