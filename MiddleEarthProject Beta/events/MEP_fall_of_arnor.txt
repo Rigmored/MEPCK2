@@ -81,10 +81,7 @@ character_event = {
 		trigger = { ai = no }
 		any_independent_ruler = {
 			limit = {
-				OR = {
-					NOT = { has_character_flag = witchking }
-					NOT = { has_character_flag = ulfang }
-				}
+				has_character_flag = witchking 
 			}
 			character_event = { id = fallofarnor.25 days = 20 }	## The Witch-King is informed that Ulfang failed.
 		}			
@@ -182,9 +179,7 @@ character_event = {
 		trigger = { ai = no }
 		any_playable_ruler = {
 			limit = { 
-				has_landed_title = k_rhudaur
-				has_character_flag = forodacil				
-				age = 1
+				has_character_flag = witchking 
 			}
 			character_event = { id = fallofarnor.25 days = 15 }	## Angmar is alerted that Ulfman doesn't do his job.
 		}			
@@ -217,10 +212,7 @@ character_event = {
 		name = "EVTOPTBfallofarnor.6" ## No, Forodacil and his heir are great kings.
 		any_independent_ruler = {
 			limit = {
-				OR = {
-					NOT = { has_character_flag = witchking }
-					NOT = { has_character_flag = ulfang }
-				}
+				has_character_flag = witchking 
 			}
 			character_event = { id = fallofarnor.25 days = 20 }	## The Witch-King is informed that Ulfang failed.
 		}			
@@ -322,10 +314,7 @@ character_event = {
 		name = "EVTOPTBfallofarnor.9" ## No, it's over for me.
 		any_independent_ruler = {
 			limit = {
-				OR = {
-					NOT = { has_character_flag = witchking }
-					NOT = { has_character_flag = ulfang }
-				}
+				has_character_flag = witchking 
 			}
 			character_event = { id = fallofarnor.25 days = 20 }	## The Witch-King is informed that Ulfang failed.
 		}			
@@ -692,10 +681,7 @@ character_event = {
 		}	
 		any_independent_ruler = {
 			limit = {
-				OR = {
-					NOT = { has_character_flag = witchking }
-					NOT = { has_character_flag = ulfang }
-				}
+				has_character_flag = witchking 
 			}
 			character_event = { id = fallofarnor.25 days = 20 }	## The Witch-King is informed that Ulfang failed.
 		}			
