@@ -71,3 +71,5 @@ subjugate_new_land;Subjugate New Land;@FIXME@ Subjugate New Land;;;;;;x
 subjugate_new_land_desc;You can invade new lands to expand your realm.;@FIXME@ Subjugate New Land;;;;;;x
 vassalize_shire;Vassalize the Shire;@FIXME@ Vassalize the Shire;;;;;;x
 vassalize_shire_desc;Send the Hobbits of the Shire the option to be peacefully vassalised under the Kingdom of Arnor, as it was in past times.;@FIXME@ Vassalize the Shire;;;;;;x
+create_orc;Create Orc;@FIXME@ Create Orc;;;;;;x
+create_orc_desc;Create a new orc to add to your court.;@FIXME@ Create Orc;;;;;;x
