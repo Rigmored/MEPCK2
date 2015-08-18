@@ -104,3 +104,7 @@ NDefines.NMilitary.RETINUE_REINFORCE_RATE = 0.01
 NDefines.NMilitary.RETINUE_REINFORCE_COST = 2			-- Retinues cost while reinforcing.
 NDefines.NMilitary.RETINUE_CONSTANT_COST =  0.5			-- Retinues cost at all times.
 	
+
+----- NAI -----
+
+NDefines.NAI.RAID_AGGRESSION = 9	-- General frequency of raids. A LOWER number means more often!
