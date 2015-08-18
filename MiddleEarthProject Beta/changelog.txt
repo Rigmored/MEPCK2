@@ -1,5 +1,15 @@
 ﻿-------MIDDLE-EARTH PROJECT----------
 
+##### 0.5.1b Patch Changelog ##### 
+
+- Fixed game breaking bugs after 2.4.3 
+- Race traits now check real_father instead of father
+- Evil rulers now have the 'create orc' decision
+- Fixed broken trigger for fall of arnor event chain
+- Tweaked raiding frequency
+- Integrated horse lords static modifiers
+- Fixed some localisations for population modifiers, titles, etc
+
 ##### 0.5b Changelog #####
 
 TLDR:
