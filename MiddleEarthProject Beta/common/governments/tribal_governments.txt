@@ -25,27 +25,15 @@ tribal_governments = {
 		frame_suffix = "_tribal"
 		title_prefix = "tribal_"
 		potential = {
-			NOR = {
-				religion = religion_wilderness
-				religion = religion_dunedain
-				religion = easterlings
-				religion = religion_umaiar
-				religion = religion_wight
-				religion = religion_orkish
-			}
-			NAND = { 
-				religion = religion_umaiar
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = muslim }
+				NOT = { religion = norse_pagan_reformed }
 				
-				OR = {
-					trait = spiritform
-					trait = ring
-					trait = ring_saruman
-				}
 			}
-			NAND = { 
-				religion = religion_wight
-				trait = nazgul
-			}
+			is_patrician = no
+			NOT = { religion = religion_wilderness }
+			NOT = { religion = easterlings }
 			mercenary = no
 			holy_order = no
 		}
@@ -76,7 +64,7 @@ tribal_governments = {
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 		
-			TRIBAL
+			TRIBAL​
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 		
@@ -84,16 +72,16 @@ tribal_governments = {
 		}
 		free_revoke_on_tiers = {
 
-			duke
+			duke​
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 
-			tribal_government
+			tribal_government​
 		}
 		potential = {
 
 			religion = religion_wilderness
-			is_patrician = no
+			is_patrician = no​
 		}
 
 		color = { 50 50 50 }
@@ -114,7 +102,7 @@ tribal_governments = {
 
 		ignore_in_vassal_limit_calculation = {
 
-			tribal_government
-		}
+			tribal_government​
+		}​
 	}
 }

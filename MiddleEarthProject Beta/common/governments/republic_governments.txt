@@ -21,27 +21,14 @@ republic_governments = {
 		frame_suffix = "_merchantrepublic"
 		title_prefix = "city_"
 		potential = {
-			NOR = {
-				religion = religion_wilderness
-				religion = religion_dunedain
-				religion = easterlings
-				religion = religion_umaiar
-				religion = religion_wight
-				religion = religion_orkish
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = muslim }
+				NOT = { religion = norse_pagan_reformed }
+			
 			}
-			NAND = { 
-				religion = religion_umaiar
-				
-				OR = {
-					trait = spiritform
-					trait = ring
-					trait = ring_saruman
-				}
-			}
-			NAND = { 
-				religion = religion_wight
-				trait = nazgul
-			}
+			NOT = { religion = religion_wilderness }
+			NOT = { religion = easterlings }
 			is_female = no
 			OR = {
 				AND = {
@@ -115,27 +102,12 @@ republic_governments = {
 		frame_suffix = "_republic"
 		title_prefix = "city_"
 		potential = {
-			NOR = {
-				religion = religion_wilderness
-				religion = religion_dunedain
-				religion = easterlings
-				religion = religion_umaiar
-				religion = religion_wight
-				religion = religion_orkish
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = muslim }
+				NOT = { religion = norse_pagan_reformed }
 			}
-			NAND = { 
-				religion = religion_umaiar
-				
-				OR = {
-					trait = spiritform
-					trait = ring
-					trait = ring_saruman
-				}
-			}
-			NAND = { 
-				religion = religion_wight
-				trait = nazgul
-			}
+			NOT = { religion = religion_wilderness }
 			NOT = { is_government_potential = merchant_republic_government }
 		}
 		
