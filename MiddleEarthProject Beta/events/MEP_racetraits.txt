@@ -17,7 +17,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait = elf } # Father is
+					real_father = { trait = elf } # real_father is
 					mother = { trait = elf } # mother is
 				
 			}
@@ -27,11 +27,11 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						father = { trait = elf } # Father is
+						real_father = { trait = elf } # real_father is
 						NOT = { mother = { trait = elf } } # mother is not
 					}
 					AND = {
-						NOT = { father = { trait = elf } } # Father is not
+						NOT = { real_father = { trait = elf } } # real_father is not
 						mother = { trait = elf } # mother is
 					}
 				}
@@ -41,7 +41,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait = half_elf } # Father is
+					real_father = { trait = half_elf } # real_father is
 					mother = { trait = half_elf } # mother is
 				
 			}
@@ -51,7 +51,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait = elf } # Father is
+					real_father = { trait = elf } # real_father is
 					mother = { trait = half_elf } # mother is
 				
 			}
@@ -60,7 +60,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait = elf } # Father is
+					real_father = { trait = elf } # real_father is
 					mother = { trait = half_elf } # mother is
 				
 			}
@@ -71,11 +71,11 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						father = { trait = half_elf } # Father is
+						real_father = { trait = half_elf } # real_father is
 						NOT = { mother = { trait = half_elf } } # mother is not
 					}
 					AND = {
-						NOT = { father = { trait = half_elf } } # Father is not
+						NOT = { real_father = { trait = half_elf } } # real_father is not
 						mother = { trait = half_elf } # mother is
 					}
 				}
@@ -85,7 +85,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait = elven_blood } # Father is
+					real_father = { trait = elven_blood } # real_father is
 					mother = { trait = elven_blood } # mother is
 				
 			}
@@ -95,13 +95,13 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						father = { trait = elven_blood } # Father is
+						real_father = { trait = elven_blood } # real_father is
 						NOT = { mother = { trait = elven_blood } } # mother is not from elven blood
 						NOT = { mother = { trait = elf } } # mother is not an elf
 					}
 					AND = {
-						NOT = { father = { trait = elven_blood } } # Father is not from elven blood
-						NOT = { father = { trait = elf } } # father is not an elf
+						NOT = { real_father = { trait = elven_blood } } # real_father is not from elven blood
+						NOT = { real_father = { trait = elf } } # real_father is not an elf
 						mother = { trait = elven_blood } # mother is
 					}
 				}
@@ -118,7 +118,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait = blood_of_numenor } # Father is
+					real_father = { trait = blood_of_numenor } # real_father is
 					mother = { trait = blood_of_numenor } # mother is
 				
 			}
@@ -135,13 +135,13 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						father = { trait = blood_of_numenor } # Father is
+						real_father = { trait = blood_of_numenor } # real_father is
 						NOT = { mother = { trait = blood_of_numenor } } # mother is not
 						NOT = { mother = { trait = blood_of_numenor2 } } # mother is not - weaken					
 					}
 					AND = {
-						NOT = { father = { trait = blood_of_numenor } } # Father is not
-						NOT = { father = { trait = blood_of_numenor } } # Father is not - weaken				
+						NOT = { real_father = { trait = blood_of_numenor } } # real_father is not
+						NOT = { real_father = { trait = blood_of_numenor } } # real_father is not - weaken				
 						mother = { trait = blood_of_numenor } # mother is
 					}
 				}
@@ -158,7 +158,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait =  blood_of_numenor2 } # Father is
+					real_father = { trait =  blood_of_numenor2 } # real_father is
 					mother = { trait =  blood_of_numenor2 } # mother is
 				
 			}
@@ -178,7 +178,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait =  blood_of_numenor } # Father is
+					real_father = { trait =  blood_of_numenor } # real_father is
 					mother = { trait =  blood_of_numenor2 } # mother is
 				
 			}
@@ -195,7 +195,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait =  blood_of_numenor2 } # Father is
+					real_father = { trait =  blood_of_numenor2 } # real_father is
 					mother = { trait =  blood_of_numenor } # mother is
 				
 			}
@@ -213,11 +213,11 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						father = { trait =  blood_of_numenor2 } # Father is
+						real_father = { trait =  blood_of_numenor2 } # real_father is
 						NOT = { mother = { trait =  blood_of_numenor2 } } # mother is not
 					}
 					AND = {
-						NOT = { father = { trait =  blood_of_numenor2 } } # Father is not
+						NOT = { real_father = { trait =  blood_of_numenor2 } } # real_father is not
 						mother = { trait =  blood_of_numenor2 } # mother is
 					}
 				}
@@ -237,7 +237,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait = orkish } # Father is
+					real_father = { trait = orkish } # real_father is
 					mother = { trait = orkish } # mother is
 				
 			}
@@ -247,11 +247,11 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						father = { trait = orkish } # Father is
+						real_father = { trait = orkish } # real_father is
 						NOT = { mother = { trait = orkish } } # mother is not
 					}
 					AND = {
-						NOT = { father = { trait = orkish } } # Father is not
+						NOT = { real_father = { trait = orkish } } # real_father is not
 						mother = { trait = orkish } # mother is
 					}
 				}
@@ -261,7 +261,7 @@ character_event = {
 		if = {
 			limit = {
 				
-					father = { trait = half_orc } # Father is
+					real_father = { trait = half_orc } # real_father is
 					mother = { trait = half_orc } # mother is
 				
 			}
@@ -271,11 +271,11 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						father = { trait = half_orc } # Father is
+						real_father = { trait = half_orc } # real_father is
 						NOT = { mother = { trait = half_orc } } # mother is not
 					}
 					AND = {
-						NOT = { father = { trait = half_orc } } # Father is not
+						NOT = { real_father = { trait = half_orc } } # real_father is not
 						mother = { trait = half_orc } # mother is
 					}					
 				}
