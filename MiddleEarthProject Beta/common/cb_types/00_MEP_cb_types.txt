@@ -415,76 +415,77 @@ wilderness = {
                			has_holder = yes
                			holder_scope = {
                    			OR = {
-                        			character = FROM
-                        			is_liege_or_above = FROM
-                        		AND = {
-                           			is_liege_or_above = ROOT
-                           			NOT = { culture = ROOT }
-                            			NOT = { religion = ROOT }
-                        		}		
-                   		}
-                	}
-            	}
+								character = FROM
+								is_liege_or_above = FROM
+								AND = {
+									is_liege_or_above = ROOT
+									NOT = { culture = ROOT }
+                            		NOT = { religion = ROOT }
+								}		
+							}
+						}
+					}
 
             	usurp_title = ROOT
-        }
+			}	
 
-	on_fail = {
-		ROOT = { 
-			piety = -50 
-			prestige = -100
-		}
-	}
-
-	on_reverse_demand = {
-		ROOT = {
-			transfer_scaled_wealth = {
-				to = FROM
-				value = 4.0
+		on_fail = {
+			ROOT = { 
+				piety = -50 
+				prestige = -100
 			}
-			piety = -75
-			prestige = -150
 		}
-		any_defender = {
-			limit = { character = FROM }
-			participation_scaled_piety = 200
-			participation_scaled_prestige = 100
-		}
-		any_defender = {
-			limit = { NOT = { character = FROM } }
-			hidden_tooltip = { 
+
+		on_reverse_demand = {
+			ROOT = {
+				transfer_scaled_wealth = {
+					to = FROM
+					value = 4.0
+				}
+				piety = -75
+				prestige = -150
+			}
+			any_defender = {
+				limit = { character = FROM }
 				participation_scaled_piety = 200
 				participation_scaled_prestige = 100
 			}
-		}
-		ROOT = { 
-			religion_authority = {
-				modifier = lost_holy_war
-				years = 20
+			any_defender = {
+				limit = { NOT = { character = FROM } }
+				hidden_tooltip = { 
+					participation_scaled_piety = 200
+					participation_scaled_prestige = 100
+				}
+			}
+			ROOT = { 
+				religion_authority = {
+					modifier = lost_holy_war
+					years = 20
+				}
+			}
+			FROM = { 
+				religion_authority = {
+					modifier = won_holy_war
+					years = 20
+				}		
 			}
 		}
-		FROM = { 
-			religion_authority = {
-				modifier = won_holy_war
-				years = 20
-			}		
+
+		attacker_ai_victory_worth = {
+			factor = -1 # always accept
 		}
-	}
-
-	attacker_ai_victory_worth = {
-		factor = -1 # always accept
-	}
 	
-	attacker_ai_defeat_worth = {
-		factor = 100
-	}
+		attacker_ai_defeat_worth = {
+			factor = 100
+		}
 
-	defender_ai_victory_worth = {
-		factor = -1 # always accept
-	}
+		defender_ai_victory_worth = {
+			factor = -1 # always accept
+		}
 	
-	defender_ai_defeat_worth = {
-		factor = 100
+		defender_ai_defeat_worth = {
+			factor = 100
+		}
 	}
 }
 
