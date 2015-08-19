@@ -763,7 +763,7 @@ NReligion = {
 	AUTHORITY_FROM_IMMORAL_HEAD = -0.1,				-- Authority from having an immoral religious head
 	AUTHORITY_FROM_RELHEAD_DIPLOMACY = 0.05,		-- Authority from each 10 diplomacy of religious head
 	AUTHORITY_FROM_RELHEAD_HOLY_SITE = 0.05,		-- Authority from religious head controlling a holy site (does not stack)
-	AUTHORITY_FROM_ORG_RELIGION = 0.2,				-- Authority from being an organized religion§ki§
+	AUTHORITY_FROM_ORG_RELIGION = 0.2,				-- Authority from being an organized religionÂ§kiÂ§
 	DIVINE_BLOOD_FERTILITY_MULT = 0.25,				-- Fertility multiplier in a religious close kin marriage
 	ELECTOR_TITLE_CAMPAIGN_FUND_FACTOR = 1,			-- The effect of money in the Campaign Fund when the Pope is choosing a new Cardinal (money * factor)
 	ELECTOR_TITLE_OPINION_FACTOR = 3.5,
@@ -1399,9 +1399,9 @@ NRulerDesigner =
 
 NLearningScenario = 
 {
-	START_YEAR = 1066,
-	START_MONTH = 8,
-	START_DAY = 14,
+	START_YEAR = 8222,
+	START_MONTH = 1,
+	START_DAY = 1,
 	START_CHARACTER = 108500,
 	FIRST_EVENT = 107000,
 	HAS_WIFE_EVENT = 107100,
