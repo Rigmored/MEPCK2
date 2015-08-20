@@ -97,6 +97,8 @@ religion_olog_DESC;Trolls, also named Torog or Olog, are large monsters of limit
 religion_wilderness_DESC;The wilderness is uninhabited land which can be colonised by certain races. Wilderness provinces have no levies or income.;Le groupe culturel de ce personnage.;;;;;x
 #Wights
 religion_wight_DESC;Wights, also known with the Sindarin name of Gordain, are powerful Spirits which can take possession of dead bodies and often have great knowledge in Dark Sorcery.;;;;"Gli Spettri, spesso indicati col nome Sindarin ""Gordain"" sono potenti spiriti oscuri capaci di prendere possesso di cadaveri e scheletri controllando ciò che ne resta. Solitamente sono esseri guidati da potenti conoscitori della Stregoneria.";;x
+#Spiders
+religion_spider_DESC;The Great Spiders are the descendents of Ungoliant, a beast of ancient evil with unknown origins. The spiders are intelligent, capable of communicating with others and devising strategies to capture their next meal through use of paralyzing poisons.;;;;;;;x
 #GODS;;;;;;;x
 GOD_THE_MAIAR;The Maiar;Les Maiar;;;Maiar;;x
 GOD_THE_VALAR;The Valar;Les Valar;;;Valar;;x
