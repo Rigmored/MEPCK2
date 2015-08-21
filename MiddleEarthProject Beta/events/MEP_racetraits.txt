@@ -575,7 +575,8 @@ character_event = {
 				}
 			}
 		}
-	} } } 
+	}
+	}  
 	
 	
 	option = {
