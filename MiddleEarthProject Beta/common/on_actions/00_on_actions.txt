@@ -1,7 +1,7 @@
 on_startup = {
 	events = {
 		toggle_startup.0
-		population.
+		population.0 
 		waning.0
 	}
 }
