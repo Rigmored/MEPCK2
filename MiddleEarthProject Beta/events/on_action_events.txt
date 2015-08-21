@@ -8,7 +8,7 @@ letter_event = {
 	id = 1
 
 	is_triggered_only = yes
-	hide_window = yes
+
 
 	desc = "A"
 }
@@ -17,7 +17,7 @@ character_event = {
 	id = 2
 
 	is_triggered_only = yes
-	hide_window = yes
+
 
 	desc = "B"
 }
