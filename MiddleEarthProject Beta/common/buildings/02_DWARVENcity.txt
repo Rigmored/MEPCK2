@@ -758,7 +758,7 @@ ct_khazad = { #Moria for dwarves
 		gold_cost = 10
 		build_time = 10
 		garrison_size = -2
-		tax_income = -10
+		tax_income = -3
 		ai_creation_factor = 110
 		add_number_to_name = no
         	potential = {
@@ -875,7 +875,7 @@ ct_khazad = { #Moria for dwarves
             }
 	}
 
-	ct_azanulimbardum = { #Azanulimbar-d鹠#
+	ct_azanulimbardum = { #Azanulimbar-d没m#
 		desc = ct_azanulimbardum_desc
 		gold_cost = 450
 		build_time = 1600
@@ -886,11 +886,11 @@ ct_khazad = { #Moria for dwarves
 		ai_creation_factor = 106
 		add_number_to_name = no
         potential = {
-            province_id = 572 #Azanulimbar-d鹠#
+            province_id = 572 #Azanulimbar-d没m#
             }
 	}
 	
-	ct_azanulimbardum1 = { #Azanulimbar-d鹠#
+	ct_azanulimbardum1 = { #Azanulimbar-d没m#
 		desc = ct_azanulimbardum_desc
 		upgrades_from = ct_azanulimbardum
 		gold_cost = 460
@@ -903,12 +903,12 @@ ct_khazad = { #Moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 572 #Azanulimbar-d鹠#
+            	province_id = 572 #Azanulimbar-d没m#
 			culture_group = culture_group_dwarves
             }
 	}
 
-	ct_azanulimbardum2 = { #Azanulimbar-d鹠#
+	ct_azanulimbardum2 = { #Azanulimbar-d没m#
 		desc = ct_azanulimbardum_desc
 		upgrades_from = ct_azanulimbardum1
 		gold_cost = 530
@@ -921,12 +921,12 @@ ct_khazad = { #Moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 572 #Azanulimbar-d鹠#
+            	province_id = 572 #Azanulimbar-d没m#
 			culture_group = culture_group_dwarves
             }
 	}
 
-	ct_azanulimbardum3 = { #Azanulimbar-d鹠#
+	ct_azanulimbardum3 = { #Azanulimbar-d没m#
 		desc = ct_azanulimbardum_desc
 		upgrades_from = ct_azanulimbardum2
 		gold_cost = 670
@@ -939,7 +939,7 @@ ct_khazad = { #Moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 572 #Azanulimbar-d鹠#
+            	province_id = 572 #Azanulimbar-d没m#
 			culture_group = culture_group_dwarves
             }
 	}	
