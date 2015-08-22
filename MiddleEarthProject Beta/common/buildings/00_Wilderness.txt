@@ -9,7 +9,7 @@ castle = {
 		garrison_size = -0.5
 		fort_level = -3
 		levy_size = -0.5
-		tax_income = -4
+		tax_income = -1
 		potential = { culture_group = culture_group_wilderness }
 	}
 }
@@ -21,7 +21,7 @@ city = {
 		ai_creation_factor = 110
 		garrison_size = -0.5
 		levy_size = -0.5
-		tax_income = -12
+		tax_income = -3
 		potential = { culture_group = culture_group_wilderness }
 	}
 }
