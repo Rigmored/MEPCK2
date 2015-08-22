@@ -840,7 +840,7 @@ ca_khazad = { ##moria for dwarves
 		gold_cost = 10
 		build_time = 10
 		garrison_size = -2
-		tax_income = -10
+		tax_income = -1
 		ai_creation_factor = 110
 		add_number_to_name = no
         	potential = {
@@ -956,7 +956,7 @@ ca_khazad = { ##moria for dwarves
             }
 	}
 
-	ca_azanulimbardum = { #Azanulimbar-d鹠#
+	ca_azanulimbardum = { #Azanulimbar-d没m#
 		desc = ca_azanulimbardum_desc
 		gold_cost = 510
 		build_time = 1825
@@ -967,12 +967,12 @@ ca_khazad = { ##moria for dwarves
 		ai_creation_factor = 106
 		add_number_to_name = no
         potential = {
-            province_id = 572 #Azanulimbar-d鹠#
+            province_id = 572 #Azanulimbar-d没m#
 			
             }
 	}
 	
-	ca_azanulimbardum1 = { #Azanulimbar-d鹠#
+	ca_azanulimbardum1 = { #Azanulimbar-d没m#
 		desc = ca_azanulimbardum_desc
 		upgrades_from = ca_azanulimbardum
 		gold_cost = 525
@@ -985,12 +985,12 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 572 #Azanulimbar-d鹠#
+            	province_id = 572 #Azanulimbar-d没m#
 			culture_group = culture_group_dwarves
             }
 	}
 
-	ca_azanulimbardum2 = { #Azanulimbar-d鹠#
+	ca_azanulimbardum2 = { #Azanulimbar-d没m#
 		desc = ca_azanulimbardum_desc
 		upgrades_from = ca_azanulimbardum1
 		gold_cost = 605
@@ -1003,12 +1003,12 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 572 #Azanulimbar-d鹠#
+            	province_id = 572 #Azanulimbar-d没m#
 			culture_group = culture_group_dwarves
             }
 	}
 
-	ca_azanulimbardum3 = { #Azanulimbar-d鹠#
+	ca_azanulimbardum3 = { #Azanulimbar-d没m#
 		desc = ca_azanulimbardum_desc
 		upgrades_from = ca_azanulimbardum2
 		gold_cost = 765
@@ -1021,7 +1021,7 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 572 #Azanulimbar-d鹠#
+            	province_id = 572 #Azanulimbar-d没m#
 			culture_group = culture_group_dwarves
             }
 	}	
