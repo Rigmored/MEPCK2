@@ -818,16 +818,17 @@ city = {
 	
 	ct_lorien = { #Lorien#
 		desc = ca_lorien_desc
-		gold_cost = 150
+		gold_cost = 1500
 		build_time = 1460 #4y
 		fort_level = 6.0
 		garrison_size = 2.00
-		heavy_infantry = 1250
+		heavy_infantry = 1000
 		archers = 1000
+		light_infantry = 500
 		horse_archers = 250
 		ai_creation_factor = 86
         	potential = {
-            		province_id = 235 #Lorien
+            		FROMFROM = { title = b_galadriel_garden }
 		}
 	}	
 }
