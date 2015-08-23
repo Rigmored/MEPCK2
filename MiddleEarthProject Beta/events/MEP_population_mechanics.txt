@@ -617,10 +617,11 @@ province_event = {
 	
 	option = {
 	name = "OK"
-	#the provinces that are not majorly settled all get the lightly populated one
+	#the provinces that are not majorly settled all get the medium populated one
 	if = { 
 	limit = {
 	AND = {
+	NOT = { province_id = 285 } # Khazad-Dum
 	NOT = { province_id = 292 } # Erebor  
 	NOT = { province_id = 644 } # Zirakdum 
 	NOT = { province_id = 812 } # Stonefoot2
@@ -628,7 +629,7 @@ province_event = {
 	}
 	}
 	ROOT = {
-	add_province_modifier = { name = lightly_populated_by_dwarves duration = -1 }
+	add_province_modifier = { name = populated_by_dwarves duration = -1 }
 	}
 	}
 	
@@ -636,10 +637,11 @@ province_event = {
 	if = { 
 	limit = {
 	OR = {
-    province_id = 292  # Erebor  
+	province_id = 285  # Khazad-Dum
+	province_id = 292  # Erebor  
 	province_id = 644  # Zirakdum 
 	province_id = 812  # Stonefoot2
-	province_id = 679   #Dain's Halls
+	province_id = 679  # Dain's Halls
 	}
 	}
 	ROOT = {
