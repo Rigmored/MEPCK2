@@ -1574,57 +1574,40 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "claims"
-				position = { x = 90 y = 243 }
-				size = { x=215 y=32 }
+				position = { x = 71 y = 243 }
+				size = { x=169 y=32 }
 				format = right
 			}
 			
 			OverlappingElementsBoxType = {
 				name = "diplomatic_relations"
-				position = { x = 320 y = 234 }
-				size = { x=195 y=32 }
+				position = { x = 71 y = 270 }
+				size = { x=169 y=32 }
 				format = right
 			}
 			iconType = {
 				name ="icon_commandmodifier"
 				spriteType = "GFX_commandmodifier_icon"
-				position = { x= 333 y = 267 }
+				position = { x= 245 y = 267 }
 				Orientation = "UPPER_LEFT"
 			}	
-#			OverlappingElementsBoxType = {
-#				name = "traits"
-#				position = { x = 320 y = 244 }
-#				size = { x=195 y=32 }
-#				format = right
-#			}
-#			OverlappingElementsBoxType = {
-#				name = "LeadershipTraits"
-#				position = { x = 367 y = 271 }
-#				size = { x = 60 y = 32 }
-#				format = left
-#			}
-#			OverlappingElementsBoxType = {
-#				name = "modifiers"
-#				position = { x = 417 y = 271 }
-#				size = { x=100 y=32 }
-#				format = right
-#			}
+
 			OverlappingElementsBoxType = {
 				name = "traits"
-				position = { x = 60 y = 272 }
-				size = { x=250 y=32 }
+				position = { x = 240 y = 244 }
+				size = { x=270 y=32 }
 				format = right
 			}
 			OverlappingElementsBoxType = {
 				name = "LeadershipTraits"
-				position = { x = 353 y = 272 }
-				size = { x = 60 y = 32 }
+				position = { x = 255 y = 271 }
+				size = { x = 102 y = 32 }
 				format = right
 			}
 			OverlappingElementsBoxType = {
 				name = "modifiers"
-				position = { x = 417 y = 271 }
-				size = { x= 100 y= 32 }
+				position = { x = 380 y = 271 }
+				size = { x= 140 y= 32 }
 				format = right
 			}
 		}
