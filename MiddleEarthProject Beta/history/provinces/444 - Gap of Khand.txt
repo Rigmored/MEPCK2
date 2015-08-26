@@ -10,8 +10,8 @@ title = c_gap_of_khand
 # Settlements
 max_settlements = 5
 
-b_vest_ak_khand = castle
-b_kalikazut = city
+#b_vest_ak_khand = castle
+#b_kalikazut = city
 #b_askatmar = city
 #b_tedesh = city
 #b_ifilkimm = city

@@ -7,6 +7,7 @@
     law = feudal_tax_1
     law = city_contract_2
     law = city_tax_1
+	historical_nomad = yes
 }
 10250.1.1=
 {

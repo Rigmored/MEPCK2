@@ -8,6 +8,7 @@
     law = city_contract_2
     law = city_tax_1
 	holder = 5375
+	historical_nomad = yes
 }
 11260.1.1={
 	holder = 5377

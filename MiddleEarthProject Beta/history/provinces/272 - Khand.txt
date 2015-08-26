@@ -12,11 +12,11 @@ title = c_khand
 
 max_settlements = 5
 
-b_ordugh = castle
+#b_ordugh = castle
 
-b_khandcastle = castle
+#b_khandcastle = castle
 
-b_khandcity = city
+#b_khandcity = city
 
 #b_khandtemple = city
 

@@ -6,9 +6,9 @@ title = c_sagath
 # Settlements
 max_settlements = 5
 
-b_sagath = castle
-b_qasgaroth = castle
-b_murbalunka = city
+#b_sagath = castle
+#b_qasgaroth = castle
+#b_murbalunka = city
 #b_burh_sagola = castle
 #b_strolkoga = castle
 

@@ -30,6 +30,7 @@ holder =  12347 # Mámandil
 8221.1.1=
 {
 liege="e_gondor"
+de_jure_liege="e_gondor"
 }
 8259.1.1=
 {
@@ -187,6 +188,7 @@ liege="e_steward_gondor"
 10853.1.1=
 {
 liege=0
+de_jure_liege="e_anduin"
 holder = 1 # Eorl
 law = agnatic_succession
 law = succ_primogeniture

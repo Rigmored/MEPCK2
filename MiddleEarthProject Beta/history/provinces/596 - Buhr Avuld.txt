@@ -6,8 +6,8 @@ title = c_buhr_avuld
 # Settlements
 max_settlements = 5
 
-b_burh_avuld = castle
-b_sharkolenka = city
+#b_burh_avuld = castle
+#b_sharkolenka = city
 #b_matrabulda = castle
 #b_ospolar = castle
 #b_naspoliburh = castle

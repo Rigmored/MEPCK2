@@ -8,8 +8,8 @@ title = c_ubesesh
 # Settlements
 max_settlements = 5
 
-b_ubesesh = castle
-b_telemek = city
+#b_ubesesh = castle
+#b_telemek = city
 #b_kobarj = city
 #b_ubes_akhorz = city
 #b_milikith = city

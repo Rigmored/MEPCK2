@@ -10,253 +10,169 @@ liege=d_gathod
 }
 8343.1.1=
 {
-holder = 17039 # Ogodei I
+holder = 17141 # Aguchu
 }
-8374.1.1=
+8477.1.1=
 {
-holder = 17040 # Khorilartai
+holder = 17142 # Ajinai
 }
-8427.1.1=
+8551.1.1=
 {
-holder = 17041 # Taghai
+holder = 17143 # Ulfang I
 }
-8486.1.1=
+8635.1.1=
 {
-holder = 17042 # Ghazan
+holder = 17144 # Uldor
 }
-8543.1.1=
+8714.1.1=
 {
-holder = 17043 # Khachigun
+holder = 17145 # Ulfast
 }
-8613.1.1=
+8811.1.1=
 {
-holder = 17044 # Yokhunan I
+holder = 17146 # Ulmanor
 }
-8661.1.1=
+8879.1.1=
 {
-holder = 17045 # Kadan
+holder = 17147 # Ulmandir
 }
-8709.1.1=
+8970.1.1=
 {
-holder = 17046 # Godan
+holder = 17148 # Ulmos
 }
-8765.1.1=
+9045.1.1=
 {
-holder = 17047 # Khudu
+holder = 17149 # Melkor
 }
-8822.1.1=
+9095.1.1=
 {
-holder = 17048 # Guyug
+holder = 17150 # Melros I
 }
-8897.1.1=
+9205.1.1=
 {
-holder = 17049 # Ghunan
+holder = 17151 # Melros II
 }
-8963.1.1=
+9289.1.1=
 {
-holder = 17050 # Khadagh
+holder = 17190 # Nogai
 }
-9020.1.1=
+9358.1.1=
 {
-holder = 17051 # Nayaga I
+holder = 17152 # Tokhtamis I
 }
-9086.1.1=
+9463.1.1=
 {
-holder = 17052 # Bolkhadar I
+holder = 17153 # Dodai
 }
-9148.1.1=
+9536.1.1=
 {
-holder = 17053 # Boroghul
+holder = 17154 # Yeke
 }
-9216.1.1=
+9629.1.1=
 {
-holder = 17054 # Targhutai I
+holder = 17155 # Torolchi
 }
-9273.1.1=
+9733.1.1=
 {
-holder = 17055 # Arkhai I
+holder = 17156 # Tolui
 }
-9335.1.1=
+9814.1.1=
 {
-holder = 17056 # Dagun
+holder = 17157 # Narin
 }
-9416.1.1=
+9895.1.1=
 {
-holder = 17057 # Alagh
+holder = 17158 # Kogsegu
 }
-9469.1.1=
+9975.1.1=
 {
-holder = 17058 # Bartan
+holder = 17159 # Ukhuna
 }
-9553.1.1=
+10059.1.1=
 {
-holder = 17059 # Okhotur
+holder = 17160 # Tokhtamis II
 }
-9618.1.1=
+10143.1.1=
 {
-holder = 17060 # Khabichi
+holder = 17161 # Horkhudagh
 }
-9679.1.1=
+10219.1.1=
 {
-holder = 17061 # Subetei
+holder = 17163 # Bala
 }
-9739.1.1=
+10285.1.1=
 {
-holder = 17062 # Morokha
+holder = 17164 # Tumen
 }
-9798.1.1=
+10380.1.1=
 {
-holder = 17063 # Usun the Old
+holder = 17165 # Yesugei
 }
-9872.1.1=
+10470.1.1=
 {
-holder = 17064 # Todogen
+holder = 17166 # Megetu
 }
-9926.1.1=
+10556.1.1=
 {
-holder = 17065 # Hulegu
+holder = 17167 # Eljigedei
 }
-9982.1.1=
+10631.1.1=
 {
-holder = 17066 # Chormakhan I
+holder = 17168 # Khamûl I
 }
-10043.1.1=
+10722.1.1=
 {
-holder = 17067 # Bolkhadar II
+holder = 17169 # Ulfang II
 }
-10100.1.1=
+10806.1.1=
 {
-holder = 17068 # Begter
+holder = 17170 # Targhutai
 }
-10164.1.1=
+10895.1.1=
 {
-holder = 5092 # Tokhtaman I the Usurper
+holder = 17171 # Alagh
 }
-10199.1.1=
+10951.1.1=
 {
-holder = 5093 # Kundaçiq
+holder = 17172 # Khaidu
 }
-10233.1.1=
+11013.1.1=
 {
-holder = 5094 # Iltabar
+holder = 17173 # Husun
 }
-10242.1.1=
+11070.1.1=
 {
-holder = 5095 # Uturgur
+holder = 17174 # Hulegu
 }
-10287.1.1=
+11124.1.1=
 {
-holder = 5097 # Asparukh
+holder = 17175 # Iturgen
 }
-10359.1.1=
+11173.1.1=
 {
-holder = 5098 # Odolgan
+holder = 17176 # Khamûl II
 }
-10398.1.1=
+11226.1.1=
 {
-holder = 5099 # Khagatai
+holder = 17177 # Badai
 }
-10440.1.1=
+11257.1.1=
 {
-holder = 5100 # Arkhai II
+holder = 17178 # Babur
 }
-10477.1.1=
+11290.1.1=
 {
-holder = 5101 # Yokhunan II
+holder = 17179 # Bugidai
 }
-10531.1.1=
+11325.1.1=
 {
-holder = 5102 # Barghujin
+holder = 17180 # Khamûl III
 }
-10551.1.1=
+11351.1.1=
 {
-holder = 5103 # Chormakhan II
+holder = 17181 # Arkhai
 }
-10597.1.1=
+11363.1.1=
 {
-holder = 5104 # Horkhudagh
-}
-10632.1.1=
-{
-holder = 5105 # Arkhai III
-}
-10671.1.1=
-{
-holder = 5106 # Nagaya II
-}
-10711.1.1=
-{
-holder = 5107 # Khuyildar I
-}
-10745.1.1=
-{
-holder = 5108 # Targhutai II
-}
-10786.1.1=
-{
-holder = 5109 # Tokhtaman II
-}
-10817.1.1=
-{
-holder = 5110 # Bulughan
-}
-10855.1.1=
-{
-holder = 5111 # Chormakhan III
-}
-10887.1.1=
-{
-holder = 5112 # Arasen
-}
-10928.1.1=
-{
-holder = 5113 # Tokhtaman III
-}
-10969.1.1=
-{
-holder = 5114 # Odchigin
-}
-10999.1.1=
-{
-holder = 5115 # Shiraghul I
-}
-11034.1.1=
-{
-holder = 5116 # Khuyildar II the Old
-}
-11091.1.1=
-{
-holder = 5117 # Iturgen
-}
-11123.1.1=
-{
-holder = 5118 # Khal
-}
-11163.1.1=
-{
-holder = 5119 # Jamugha
-}
-11188.1.1=
-{
-holder = 5120 # Toghoril
-}
-11231.1.1=
-{
-holder = 5121 # Ukhuna
-}
-11258.1.1=
-{
-holder = 5122 # Tokhtaman IV
-}
-11294.1.1=
-{
-holder = 5123 # Shiraghul II
-}
-11336.1.1=
-{
-holder = 5211 # Alchidai
-}
-11375.1.1=
-{
-holder = 5212 # Ajinai
+holder = 17185 # Khamûl IV
 }

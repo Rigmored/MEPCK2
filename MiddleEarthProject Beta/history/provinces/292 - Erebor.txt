@@ -15,7 +15,7 @@ b_back_door = castle
 b_erebor = city
 
 # Misc
-culture = culture_wilderness
+culture = culture_mountains
 religion = religion_wilderness
 
 10342.1.1 = { 

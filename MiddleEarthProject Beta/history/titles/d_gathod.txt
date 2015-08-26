@@ -3,6 +3,7 @@
 	law = succ_primogeniture
 	law = centralization_3
 	law = investiture_law_1
+	historical_nomad = yes
 }
 8322.1.1=
 {

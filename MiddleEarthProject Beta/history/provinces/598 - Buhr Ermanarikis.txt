@@ -6,9 +6,9 @@ title = c_buhr_ermanarikis
 # Settlements
 max_settlements = 5
 
-b_sagathaburh = castle
-b_storkotha = city
-b_burh_stor = city
+#b_sagathaburh = castle
+#b_storkotha = city
+#b_burh_stor = city
 #b_mokrabuldar = city
 #b_mentelirorma = city
 

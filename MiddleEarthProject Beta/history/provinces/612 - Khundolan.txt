@@ -6,9 +6,9 @@ title = c_khundolan
 # Settlements
 max_settlements = 5
 
-b_khundolan = castle
-b_margvelasg = city
-b_ashvili = city
+#b_khundolan = castle
+#b_margvelasg = city
+#b_ashvili = city
 #b_tibolos = city
 #b_gurjivol = castle
 

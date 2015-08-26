@@ -7,9 +7,9 @@ title = c_janprok
 # Settlements
 max_settlements = 5
 
-b_janprok = castle
-b_jubardid = city
-b_morkapohlba = castle
+#b_janprok = castle
+#b_jubardid = city
+#b_morkapohlba = castle
 #b_burh_mokarina = city
 #b_jeripos = city
 

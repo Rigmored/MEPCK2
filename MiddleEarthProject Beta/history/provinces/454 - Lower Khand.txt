@@ -6,9 +6,9 @@ title = c_lower_khand
 # Settlements
 max_settlements = 5
 
-b_suthvais = castle
-b_kanish = city
-b_mishrethel = city
+#b_suthvais = castle
+#b_kanish = city
+#b_mishrethel = city
 #b_ammu_suth = city
 #b_raskat = city
 

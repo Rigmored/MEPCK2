@@ -6,9 +6,9 @@ title = c_tur_kirmar
 # Settlements
 max_settlements = 5
 
-b_tur_kirmar = castle
-b_kirmas = city
-b_turajas = city
+#b_tur_kirmar = castle
+#b_kirmas = city
+#b_turajas = city
 #b_kirashel =  city
 #b_turitanna = city
 

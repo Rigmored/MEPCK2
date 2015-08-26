@@ -6,8 +6,8 @@ title = c_upper_khand
 # Settlements
 max_settlements = 3
 
-b_havais = castle
-b_temen = city
+#b_havais = castle
+#b_temen = city
 #b_arukandil = city
 #b_estapor = city
 #b_dushil = city
