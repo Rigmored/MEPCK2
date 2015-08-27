@@ -1117,4 +1117,82 @@ targetted_decisions = {
 		}
 	}
 	
+	investigate_child = {
+		filter = dynasty
+		ai_target_filter = dynasty
+		
+		from_potential = {
+			is_ruler = yes
+			has_regent = no
+			prisoner = no
+			
+			NOT = {	has_character_flag = investigatingchild }
+			NOT = { has_character_flag = failed_investigation }
+		}
+		
+		potential = {
+			is_child_of = FROM
+			
+			NOT = { real_father = { character = FROM } }
+			NOT = { trait = bastard }
+			NOT = { trait = legitimized_bastard }
+			
+			OR = {
+				AND = {
+					ROOT = { father_even_if_dead = { trait = elf } }
+					ROOT = { mother_even_if_dead = { trait = elf } }
+					ROOT = { NOT = { trait = elf } }
+				}
+				AND = {
+					ROOT = { father_even_if_dead = { trait = orc } }
+					ROOT = { mother_even_if_dead = { trait = orc } }
+					ROOT = { NOT = { trait = orc } }
+				}
+				AND = {
+					ROOT = { 
+						father_even_if_dead = {
+							NOT = {
+								trait = elf
+								trait = orc
+								trait = half_elf
+								trait = half_orc
+							}
+						}
+					}
+					ROOT = {
+						mother_even_if_dead = {
+							NOT = {
+								trait = elf
+								trait = orc
+								trait = half_elf
+								trait = half_orc
+							}
+						}
+					}
+					ROOT = {
+						OR = {
+							trait = elf
+							trait = orc
+							trait = half_elf
+							trait = half_orc
+						}
+					}
+				}
+				AND = {
+					ROOT = { father_even_if_dead = { trait = half_elf } }
+					ROOT = { mother_even_if_dead = { trait = half_elf } }
+					ROOT = { NOT = { trait = half_elf } }
+				}
+			}
+		}
+		
+		allow = {
+			NOT = { trait = trusting }
+			FROM = { prestige = 50 }
+		}
+		
+		effect = {
+			character_event = { id = 37157 }
+		}
+	}
 }

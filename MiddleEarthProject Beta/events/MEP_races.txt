@@ -16,6 +16,10 @@ character_event = {
 		}	
 		NOT = { trait = elf }
 		NOT = { trait = half_elf }
+		AND = {
+			NOT = { father = { always = yes } }
+			NOT = { mother = { always = yes } }
+		}
 	}
 
 	mean_time_to_happen = { 
