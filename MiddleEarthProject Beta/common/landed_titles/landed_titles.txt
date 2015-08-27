@@ -10540,11 +10540,11 @@ e_barad_dur = {
 				color={ 194 109 80 }
 				color2={ 255 255 255 }
 			
-			culture_orkish = "Valley of the Fellbeasts"
-			culture_black_numenorean = "Valley of the Fellbeasts"
-			culture_goblin = "Valley of the Fellbeasts"
-			culture_troll = "Valley of the Fellbeasts"
-			culture_maiar = "Valley of the Fellbeasts"
+			culture_orkish = "Vale of the Fellbeast"
+			culture_black_numenorean = "Vale of the Fellbeast"
+			culture_goblin = "Vale of the Fellbeast"
+			culture_troll = "Vale of the Fellbeast"
+			culture_maiar = "Vale of the Fellbeast"
 			
 				b_friyar = {
 				}

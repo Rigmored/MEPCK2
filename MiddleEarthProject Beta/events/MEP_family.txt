@@ -1285,3 +1285,181 @@ character_event = {
 }
 
 # IDs to 37149 reserved for more events concerning this ambition
+
+#Events for investigating a child of different race than the character#
+
+character_event = { #Initial event
+	id = 37150
+	desc = EVTDESC37150
+	picture = GFX_evt_elves
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA37150 #Hire someone to investigate the child
+		trigger = {
+			wealth = 25
+		}
+		wealth = -25
+		opinion = { modifier = opinion_potential_cuckold who = spouse }
+		FROM = {
+			character_event = { id = 37154 }
+		}
+	}
+	
+	option = {
+		name = EVTOPTB37150 #Investigate yourself with high intrigue
+		trigger = {
+			intrigue = 12
+		}
+		opinion = { modifier = opinion_potential_cuckold who = spouse }
+		FROM = {
+			character_event = { id = 37155 }
+		}
+	}
+	
+	option = {
+		name = EVTOPTB37150 #Investigate yourself with low intrigue 
+		trigger = {
+			NOT = { intrigue = 12 }
+		}
+		opinion = { modifier = opinion_potential_cuckold who = spouse }
+		FROM = {
+			character_event = { id = 37156 }
+		}
+	}
+	
+	option = {
+		name = EVTOPTC37150 #Nevermind
+	}
+}
+
+character_event = {
+	id = 37151 #Discovered bastard, not father
+	desc = EVTDESC37151
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA37151
+		
+		opinion = { modifier = opinion_cuckolded_private who = spouse }
+		
+		FROM = {
+			dynasty = mother_even_if_dead
+			set_father = none
+			add_trait = bastard
+		}
+	}
+}
+
+character_event = {
+	id = 37152 #Fail
+	desc = EVTDESC37152
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA37152 #Damn!
+		set_character_flag = failed_investigation
+	}
+}
+
+character_event = {
+	id = 37153 #Discovered bastard and father
+	desc = EVTDESC37151
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA37153
+		
+		opinion = { modifier = opinion_cuckolded_private who = spouse }
+		
+		FROM = {
+			dynasty = real_father
+			set_father = real_father
+			add_trait = bastard
+		}
+	}
+}
+
+character_event = {
+	id = 37154 
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			60 = { 
+				FROM = { character_event = { id = 37151 months = 7 } } #Bastard, unknown father
+			}
+			40 = {
+				FROM = { character_event = { id = 37153 months = 7 } } #Bastard, known father
+			}
+		}
+	}
+	option = {name = ok}
+}
+
+character_event = {
+	id = 37155
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			70 = { 
+				FROM = { character_event = { id = 37153 months = 7 } } #Bastard, known father
+			}
+			30 = {
+				FROM = { character_event = { id = 37151 months = 7 } } #Bastard, unknown father 
+			}
+		}
+	}
+	option = {name = ok}
+}
+
+character_event = {
+	id = 37156
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			60 = {
+				FROM = { character_event = { id = 37151 months = 7 } } #Bastard, unknown father
+			}
+			30 = {
+				FROM = { character_event = { id = 37152 months = 7 } } #Failure
+			}
+			10 = {
+				FROM = { character_event = { id = 37153 months = 7 } } #Bastard, known father
+			}
+		}
+	}
+	option = {name = ok}
+}
+
+character_event = {
+	id = 37157
+	desc = EVTDESC37157
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA37157 #Uh-oh...
+		
+		father = {
+			character_event = { id = 37150 }
+		}
+	}
+}
+
