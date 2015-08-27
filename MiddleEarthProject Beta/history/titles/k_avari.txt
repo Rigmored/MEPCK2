@@ -1,6 +1,6 @@
 500.1.1=
 {
-historical_nomad = yes
+historical_nomad = no
     law = agnatic_succession
 	law = succ_primogeniture
 	law = centralization_2
