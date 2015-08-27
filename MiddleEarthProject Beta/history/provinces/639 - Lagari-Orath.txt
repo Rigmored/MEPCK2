@@ -6,7 +6,7 @@ title = c_lagari_orath
 # Settlements
 max_settlements = 1
 
-b_lagari_orath = castle
+b_lagari_orath = tribal
 
 # Misc
 culture = culture_nurnim

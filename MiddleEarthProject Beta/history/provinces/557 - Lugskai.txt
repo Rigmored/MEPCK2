@@ -6,7 +6,7 @@ title = c_lugskai
 # Settlements
 max_settlements = 1
 
-b_lugskai = castle
+b_lugskai = tribal
 
 # Misc
 culture = culture_avari
