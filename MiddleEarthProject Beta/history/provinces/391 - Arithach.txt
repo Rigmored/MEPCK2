@@ -7,8 +7,8 @@ title = c_arithach
 max_settlements = 5
 
 b_arithach = tribal
-b_tungol = tribal
-b_weosend = tribal
+b_tungol = city
+b_weosend = city
 #b_aernan = city
 #b_winterwilde = city
 

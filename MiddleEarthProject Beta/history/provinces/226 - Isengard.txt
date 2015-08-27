@@ -6,8 +6,8 @@ title = c_isengard
 # Settlements
 max_settlements = 5
 b_forthbrond = tribal
-b_athdar = tribal
-b_brontrig = tribal
+b_athdar = city
+b_brontrig = city
 #b_cuvnerth = city
 #b_isenstan = city
 

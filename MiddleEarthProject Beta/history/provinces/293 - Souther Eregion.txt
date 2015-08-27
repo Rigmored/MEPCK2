@@ -13,9 +13,9 @@ max_settlements = 5
 
 b_cillien = tribal
 
-b_echad_naeglanc = tribal
+b_echad_naeglanc = city
 
-b_banceaster = tribal
+b_banceaster = city
 
 #b_bonevales = city
 

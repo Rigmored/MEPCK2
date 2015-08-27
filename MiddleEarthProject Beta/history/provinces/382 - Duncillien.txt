@@ -10,7 +10,7 @@ title = c_duncillien
 
 max_settlements = 4
 b_duncillien = tribal
-b_avardin = tribal
+b_avardin = city
 #b_starkmoor = city
 #b_dunalais = city
 
