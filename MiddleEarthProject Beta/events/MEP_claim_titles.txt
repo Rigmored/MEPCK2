@@ -27,7 +27,6 @@ narrative_event = {
 		}
 		give_nickname = nick_galadhir
 		hidden_tooltip = {
-			activate_title = { title = e_silvan_elves status = no }
 			any_playable_ruler = {
 				limit = {
 					NOT = { has_landed_title = e_silvan_elves}
@@ -84,7 +83,6 @@ narrative_event = {
 			copy_title_laws = k_bellakar
 		}
 		hidden_tooltip = {
-			activate_title = { title = e_anadune status = no }
 			any_playable_ruler = {
 				limit = {
 					NOT = { has_landed_title = e_anadune }

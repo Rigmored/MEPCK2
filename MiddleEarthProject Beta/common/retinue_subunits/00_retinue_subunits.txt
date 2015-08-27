@@ -280,11 +280,11 @@ redserpentguard =
 
 #Black Numenorean Retinues#
 
-#50 Heavy Cavalry#
+#250 Heavy Cavalry#
 blacknumenoreanknights =
 {
     first_type = 4
-    first_amount = 50
+    first_amount = 250
     culture = culture_black_numenorean
 	potential = {
 		culture = culture_black_numenorean
@@ -293,6 +293,50 @@ blacknumenoreanknights =
     modifier = {
         knights_offensive = 3.0
         knights_defensive = 3.0
+       
+    }
+}
+
+#225 pikemen, 225 heavy infantry#
+blacknumenoreanpalaceguards =
+{
+    first_type = 2
+    first_amount = 225
+	second_type = 1
+	second_amount = 225
+    culture = culture_black_numenorean
+	potential = {
+		culture = culture_black_numenorean
+		is_nomadic = no
+	}
+    modifier = {
+        heavy_infantry_offensive = 2.5
+        heavy_infantry_defensive = 2.5
+		pikemen_defensive = 2.5
+		pikemen_offensive = 2.5
+       
+    }
+}
+
+#2 Oliphants, 150 archers#
+haradrimmumakil =
+{
+    first_type = 5
+    first_amount = 150
+	second_type = 6
+	second_amount = 2
+	
+	special_troops = war_elephants
+	
+    culture = culture_black_numenorean
+	potential = {
+		culture = culture_black_numenorean
+		is_nomadic = no
+	}
+    modifier = {
+        archers_offensive = 0.75
+        archers_defensive = 0.75
+		archers_morale = 0.75
        
     }
 }
@@ -768,18 +812,18 @@ avariroyalguard =
 }
 
 #25 Horse Archers#
-avarihousearchers = {
-    first_type = 3
+avarihorsearchers = {
+    first_type = 6
     first_amount = 25
+	special_troops = horse_archers
     culture = culture_avari
 	potential = {
 		culture = culture_avari
 		is_nomadic = no
 	}
     modifier = {
-        archers_defensive = 3.0
-        archers_offensive = 3.0
-        archers_morale = 0.1       
+        horse_archers_defebsive = 3.0
+        horse_archers_offensive = 3.0
     }
 }
 

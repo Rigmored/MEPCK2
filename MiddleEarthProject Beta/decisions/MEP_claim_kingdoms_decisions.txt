@@ -80,7 +80,7 @@ decisions = {
 			completely_controls = k_akhor
 		}
 		effect = {
-			set_global_flag = highkingsilvanelves
+			set_global_flag = numenorrestored
 			narrative_event = { id = claimtitles.3 }
 		}
 	}
