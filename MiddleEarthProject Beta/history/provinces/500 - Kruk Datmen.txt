@@ -6,7 +6,7 @@ title = c_kruk_datmen
 # Settlements
 max_settlements = 1
 
-b_kruk_datmen = castle
+b_kruk_datmen = tribal
 
 # Misc
 terrain = desert

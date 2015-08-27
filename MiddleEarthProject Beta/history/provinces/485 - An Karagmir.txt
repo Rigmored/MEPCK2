@@ -6,10 +6,10 @@ title = c_an_karagmir
 # Settlements
 max_settlements = 4
 
-b_an_karagmir = castle
+b_an_karagmir = tribal
 b_an_karagmircity = city
-b_an_karagmirtemple = castle
-#b_an_karagmir4 = city
+#b_an_karagmirtemple = castle
+b_an_karagmir4 = city
 
 # Misc
 

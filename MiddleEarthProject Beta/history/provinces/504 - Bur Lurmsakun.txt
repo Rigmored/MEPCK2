@@ -6,9 +6,9 @@ title = c_lurmsakun
 # Settlements
 max_settlements = 3
 
-b_lurmsakun = castle
+b_lurmsakun = tribal
 b_lurmsakuncity = city
-b_lurmsakuntemple = city
+#b_lurmsakuntemple = city
 
 # Misc
 culture = culture_haradrim

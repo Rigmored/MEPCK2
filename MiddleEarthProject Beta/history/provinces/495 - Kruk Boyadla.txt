@@ -6,7 +6,7 @@ title = c_kruk_boyadla
 # Settlements
 max_settlements = 1
 
-b_kruk_boyadla = castle
+b_kruk_boyadla = tribal
 
 # Misc
 

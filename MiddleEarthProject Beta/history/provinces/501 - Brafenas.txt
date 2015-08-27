@@ -6,9 +6,9 @@ title = c_brafenas
 # Settlements
 max_settlements = 3
 
-b_brafenas = castle
+b_brafenas = tribal
 b_brafenascity1 = city
-b_brafenascity2 = city
+#b_brafenascity2 = city
 
 # Misc
 culture = culture_haradrim
