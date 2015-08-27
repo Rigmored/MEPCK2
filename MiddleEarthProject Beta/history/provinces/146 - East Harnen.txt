@@ -8,9 +8,9 @@ title = c_east_harnen
 
 max_settlements = 5
 
-b_gobel_ancalimon = castle
-b_zayen = city
-b_harnimul = city
+b_gobel_ancalimon = tribal
+#b_zayen = city
+#b_harnimul = city
 #b_eastalin = castle
 #b_mindorin = castle
 

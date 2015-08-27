@@ -6,7 +6,7 @@ title = c_tereze
 # Settlements
 max_settlements = 1
 
-b_tereze = castle
+b_tereze = tribal
 
 # Misc
 culture = culture_far_haradrim
