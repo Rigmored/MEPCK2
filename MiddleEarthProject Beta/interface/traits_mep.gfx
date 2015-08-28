@@ -1756,4 +1756,53 @@ spriteType = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
+	spriteType = {
+		name = "GFX_trait_animal_lover"
+		texturefile = "gfx/traits/animal_lover_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_animal_tongue"
+		texturefile = "gfx/traits/animal_tongue.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}		
+	spriteType = {
+		name = "GFX_trait_blood_thirsty"
+		texturefile = "gfx/traits/blood_thirsty.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}			
+	spriteType = {
+		name = "GFX_trait_dreamer"
+		texturefile = "gfx/traits/dreamer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}			
+	spriteType = {
+		name = "GFX_trait_nature_lover"
+		texturefile = "gfx/traits/nature_lover.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_painter"
+		texturefile = "gfx/traits/painter.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_torturer"
+		texturefile = "gfx/traits/torturer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }
