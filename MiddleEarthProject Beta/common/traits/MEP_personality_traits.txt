@@ -9,6 +9,7 @@ animal_lover = {
 	opposite_opinion = -20
 	
 	monthly_character_piety = 0.10
+	random = no
 	
 	potential = {
 		NOT = {
@@ -27,7 +28,7 @@ nature_lover = {
 
 	diplomacy = 1	
 	learning = 1
-	
+	random = no	
 	lifestyle = yes
 	
 	same_opinion = 20
@@ -52,7 +53,7 @@ torturer = {
 	personality = yes
 	martial = 1	
 	diplomacy = -2
-	
+	random = no	
 	same_opinion = 10
 	general_opinion	= -5
 	opposite_opinion = -40
@@ -81,7 +82,7 @@ blood_thirsty = {
 	personality = yes
 	martial = 3
 	diplomacy = -2
-	
+	random = no	
 	same_opinion = 15
 	general_opinion	= -5
 	opposite_opinion = -45
@@ -109,7 +110,7 @@ good_speaker = {
 	personality = yes
 	intrigue = 1
 	diplomacy = 2
-	
+	random = no	
 	same_opinion = 10
 	vassal_opinion = 5
 	sex_appeal_opinion = 5
@@ -121,7 +122,7 @@ wizard-friend = {
 	personality = yes
 	intrigue = 1
 	learning = 1
-	
+	random = no	
 	liege_opinion = -10
 	vassal_opinion = -5
 	opposite_opinion = 10
@@ -136,7 +137,7 @@ wizard-friend = {
 animal_tongue = {
 	personality = yes
 	learning = 2
-	
+	random = no	
 	same_opinion = 10
 	opposite_opinion = 10
 	general_opinion	= -5
@@ -155,7 +156,7 @@ gold_fewer = {
 	personality = yes
 	diplomacy = -1
 	stewardship = 2
-	
+	random = no	
 	same_opinion = -10
 	general_opinion	= -10
 	dynasty_opinion = -5
@@ -171,7 +172,7 @@ dreamer = {
 	personality = yes
 	martial = -1
 	learning = 2
-	
+	random = no	
 	same_opinion = 10
 	general_opinion	= -5	
 }
@@ -181,7 +182,7 @@ resolute_leader = {
 	martial = 1
 	stewardship = 2
 	intrigue = 1
-	
+	random = no	
 	same_opinion = 10
 	vassal_opinion = 10
 }
@@ -189,7 +190,7 @@ resolute_leader = {
 elf_friend = {
 	personality = yes
 	diplomacy = 1
-	
+	random = no	
 	same_opinion = 10
 	opposite_opinion = 20
 	
@@ -206,7 +207,7 @@ elf_friend = {
 dwarf_friend = {
 	personality = yes
 	diplomacy = 1
-	
+	random = no	
 	same_opinion = 10
 	opposite_opinion = 20
 	
@@ -220,7 +221,7 @@ dwarf_friend = {
 hobbit_friend = {
 	personality = yes
 	diplomacy = 1
-	
+	random = no	
 	same_opinion = 10
 	opposite_opinion = 20
 	
@@ -235,7 +236,7 @@ pipe_smoker = {
 	personality = yes
 	diplomacy = 1
 	health = -0.5
-	
+	random = no	
 	same_opinion = 10
 }
 
@@ -243,7 +244,7 @@ pipe_smoker = {
 warg_breeder = {
 	personality = yes
 	martial = 2
-	
+	random = no	
 	same_opinion = 10
 	same_religion_opinion = 10
 	liege_opinion = 10
@@ -260,7 +261,7 @@ empathic = {
 	diplomacy = 2
 	learning = 1
 	martial = -1
-	
+	random = no	
 	same_opinion = 10
 	general_opinion = 10
 	opposite_opinion = -10

@@ -8,6 +8,8 @@ ruthless = {
     ai_rationality = 10
     ai_honor = -20
     ai_ambition = 25
+
+	random = no
     
 }
 
@@ -22,6 +24,8 @@ potential = {
     diplomacy = 1
     
     same_opinion = 20
+	
+	random = no
 }
 
 musician = {
@@ -35,6 +39,8 @@ potential = {
     intrigue = 1
     
     same_opinion = 20
+	
+	random = no
 }
 
 calligraphist = {
@@ -48,6 +54,8 @@ potential = {
     diplomacy = 1
     
     same_opinion = 20
+	
+	random = no
 }
 
 tall = {
