@@ -1,0 +1,74 @@
+namespace = newshadow
+
+character_event= {
+	id = newshadow.0 #Roll for big bad post Sauron
+	desc = newshadow
+	hide_window = yes
+	
+	trigger = {
+		year = 11362
+		NOT = {
+			OR = {
+				has_global_flag = mouthrising
+				has_global_flag = urukwarlord
+				has_global_flag = madelf
+				has_global_flag = blacknumenorreanpower
+			}
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			25 = {
+				set_global_flag = mouthrising
+			}
+			25 = {
+				set_global_flag = urukwarlord
+			}
+			25 = {
+				set_global_flag = madelf
+			}
+			25 = {
+				set_global_flag = blacknumenorreanpower
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { name = ok }
+}
+
+#character_event = {
+#	id = newshadow.1
+#	desc = newshadow
+#	hide_window = yes
+#	
+#	trigger = {
+#		NOT = {
+#			any_independent_ruler = {
+#				has_character_flag = aragorn
+#			}
+#		}
+#	}
+#	
+#	immediate = {
+#		trigger_switch = {
+#			on_trigger = has_global_flag
+#			mouthrising = { any_independent_ruler = { character_event = { id = newshadow.2 } } }
+#			urukwarlord = { any_independent_ruler = { character_event = { id = newshadow. } } }
+#			madelf = { any_independent_ruler = { character_event = { id = newshadow. } } }
+#			blacknumenorreanpower = { any_independent_ruler = { character_event = { id = newshadow. } } }
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 12
+#	}
+#	
+#	option = {
+#		name = ok
+#	}
+#}
