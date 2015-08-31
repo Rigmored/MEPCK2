@@ -188,6 +188,56 @@ winter_soldier = {
 	}	
 }
 
+seducer = {
+	lifestyle = yes
+	
+	opposites =  {
+		celibate
+		seductress
+	}
+	
+	potential = {
+		is_female = no
+	}
+	
+	intrigue = 2
+	diplomacy = 1
+	
+	sex_appeal_opinion = 50
+	
+	male_insult = INSULT_WHOREMONGER
+	male_insult_adj = INSULT_WHORING
+	male_compliment = COMPL_SEDUCER
+	male_compliment_adj = COMPL_CHARMING
+	
+	ruler_designer_cost = 12
+}
+
+seductress = {
+	lifestyle = yes
+	
+	opposites =  {
+		celibate
+		seducer
+	}
+	
+	potential = {
+		is_female = yes
+	}
+	
+	intrigue = 2
+	diplomacy = 1
+	
+	sex_appeal_opinion = 50
+	
+	female_insult = INSULT_TEMPTRESS
+	female_insult_adj = INSULT_DEBASED
+	female_compliment = COMPL_ENCHANTRESS
+	female_compliment_adj = COMPL_RAVISHING
+	
+	ruler_designer_cost = 12
+}
+
 administrator = {
 	lifestyle = yes
 	
@@ -243,4 +293,20 @@ gamer = {
 	martial = 1
 	
 	same_opinion = 20
+}
+
+adventurer = {
+
+	martial = 1
+	diplomacy = -1
+	combat_rating = 1
+	levy_size = 0.2
+	max_manpower_mult = 0.1
+	
+	same_opinion = 20
+
+	ai_ambition = 40
+	
+	customizer = no
+	random = no
 }

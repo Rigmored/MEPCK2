@@ -7560,3 +7560,186 @@ character_event = {
 		name = "EVTOPTA45340"
 	}
 }
+
+#######################
+#  INTEGRATED EVENTS  #
+#######################
+
+# SETTLE_ADVENTURER_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 288
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	desc = "EVTDESC288"
+
+	option = {
+		name = "OK"
+	}
+}
+
+# SETTLE_ADVENTURER_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 289
+
+	is_triggered_only = yes
+	major = no
+
+	trigger = {
+		ai = no
+	}
+
+	desc = "EVTDESC289"
+
+	option = {
+		name = "OK"
+	}
+}
+
+# ABSORB_CLAN_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 503
+	desc = "EVTDESC503"
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# ABSORB_CLAN_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 504
+	desc = "EVTDESC504"
+
+	is_triggered_only = yes
+	major = no
+	is_hostile = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# FORM_BLOOD_OATH_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 505
+	desc = "EVTDESC505"
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# FORM_BLOOD_OATH_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 506
+	desc = "EVTDESC506"
+
+	is_triggered_only = yes
+	major = no
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# SETTLE_FEUD_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 507
+	desc = "EVTDESC507"
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "EVTOPTA507"
+	}
+}
+
+# SETTLE_FEUD_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 508
+	desc = "EVTDESC508"
+
+	is_triggered_only = yes
+	major = no
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "EVTOPTA508"
+	}
+}
+
+# SPLIT_CLAN_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 509
+	desc = "EVTDESC509"
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# SPLIT_CLAN_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 510
+	desc = "EVTDESC510"
+
+	is_triggered_only = yes
+	major = no
+	is_hostile = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}

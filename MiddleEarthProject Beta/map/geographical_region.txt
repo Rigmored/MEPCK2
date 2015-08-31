@@ -23,7 +23,7 @@ world_south = {
 ## East - Rhun, Wainriders, Khand, Avari, Eastern Dwarves
 world_east = {
 	duchies = {
-		d_rhun d_sagathavuld d_gathod d_agasha_dag d_khand d_laorki d_ubesesh d_nurad d_harmal d_zirakdum d_stonefoot c_uluimur
+		d_rhun d_sagathavuld d_gathod d_agasha_dag d_khand d_laorki d_ubesesh d_nurad d_harmal d_zirakdum d_stonefoot d_avari_elves
 	}
 }
 
