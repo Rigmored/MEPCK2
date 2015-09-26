@@ -1,0 +1,192 @@
+obj_meditate_on_knowledge = {
+	type = character
+	
+	allow = {
+		prisoner = no
+		is_adult = yes
+		trait = school_gnosis_5 
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.001
+			ai = yes
+		}				
+		modifier = {
+			factor = 2.0
+			is_female  = yes
+		}
+		modifier = {
+			factor = 0.1
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.001
+			trait = slothful
+		}		
+		modifier = {
+			factor = 1.25
+			from_ruler_dynasty = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_lowborn  = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_heretic   = yes
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}		
+		modifier = {
+			factor = 10.0
+			trait = mystic
+		}
+		modifier = {
+			factor = 0.1
+			learning = 10
+		}
+		modifier = {
+			factor = 0.8
+			learning = 12
+		}
+		modifier = {
+			factor = 0.9
+			learning = 14
+		}
+		modifier = {
+			factor = 1
+			learning = 16
+		}
+		modifier = {
+			factor = 20
+			learning = 30
+		}		
+	}
+	success = {
+		learning = 100
+	}
+	creation_effect = {
+		add_trait = on_pilgrimage
+	}
+	abort = {
+	}
+	abort_effect = {
+		remove_trait = on_pilgrimage	
+	}
+	effect = {
+#		random_list = {
+#		  25 = {
+#			give_nickname = nick_the_strange
+#		  }
+#		  25 = {
+#			give_nickname = nick_the_arcane
+#		  }
+#		  25 = {
+#			give_nickname = nick_master_of_hidden_secrets
+#		  }
+#		  25 = {
+#			give_nickname = nick_master_of_the_dark 
+#		  }
+#		}
+#	set_special_character_title = ARCHMAGE
+	}
+}
+obj_meditate_on_life = {
+	type = character
+	
+	allow = {
+		prisoner = no
+		is_adult = yes
+		trait = school_gnosis_5 
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.001
+			ai = yes
+		}				
+		modifier = {
+			factor = 2.0
+			is_female  = yes
+		}
+		modifier = {
+			factor = 0.1
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.001
+			trait = slothful
+		}		
+		modifier = {
+			factor = 1.25
+			from_ruler_dynasty = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_lowborn  = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_heretic   = yes
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}		
+		modifier = {
+			factor = 10.0
+			trait = mystic
+		}
+		modifier = {
+			factor = 0.1
+			learning = 10
+		}
+		modifier = {
+			factor = 0.8
+			learning = 12
+		}
+		modifier = {
+			factor = 0.9
+			learning = 14
+		}
+		modifier = {
+			factor = 1
+			learning = 16
+		}
+		modifier = {
+			factor = 20
+			learning = 30
+		}		
+	}
+	success = {
+		health = 10000
+	}
+	creation_effect = {
+		add_trait = on_pilgrimage
+	}
+	abort = {
+	}
+	abort_effect = {
+		remove_trait = on_pilgrimage	
+	}
+	effect = {
+#		random_list = {
+#		  25 = {
+#			give_nickname = nick_the_strange
+#		  }
+#		  25 = {
+#			give_nickname = nick_the_arcane
+#		  }
+#		  25 = {
+#			give_nickname = nick_master_of_hidden_secrets
+#		  }
+#		  25 = {
+#			give_nickname = nick_master_of_the_dark 
+#		  }
+#		}
+#	set_special_character_title = ARCHMAGE
+	}
+}

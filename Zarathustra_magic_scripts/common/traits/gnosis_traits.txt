@@ -1,0 +1,43 @@
+
+school_gnosis_1 = {
+	ruler_designer_cost	= 20
+	opposites = { school_gnosis_4 school_gnosis_3 school_gnosis_2 school_gnosis_5 }
+
+    customizer = yes
+	random = no	
+	cached = yes
+	
+}	
+school_gnosis_2 = {
+	ruler_designer_cost	= 20
+	opposites = { school_gnosis_4 school_gnosis_3 school_gnosis_5 school_gnosis_1 }
+
+    customizer = yes
+	random = no	
+	cached = yes
+	
+}	
+school_gnosis_3 = {
+	ruler_designer_cost	= 20
+	opposites = { school_gnosis_4 school_gnosis_5 school_gnosis_2 school_gnosis_1 }
+    customizer = yes
+	random = no	
+	cached = yes
+	
+}	
+school_gnosis_4 = {
+	ruler_designer_cost	= 20
+	opposites = { school_gnosis_5 school_gnosis_3 school_gnosis_2 school_gnosis_1 }
+    customizer = yes
+	random = no	
+	cached = yes
+	
+}	
+school_gnosis_5 = {
+	ruler_designer_cost	= 20
+	opposites = { school_gnosis_4 school_gnosis_3 school_gnosis_2 school_gnosis_1 }
+    customizer = yes
+	random = no	
+	cached = yes
+	
+}

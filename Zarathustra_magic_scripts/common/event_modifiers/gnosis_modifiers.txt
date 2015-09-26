@@ -1,0 +1,17 @@
+school_gnosis_magic_cooldown = {
+	icon = 13
+}
+
+
+magic_drain = {
+	icon = 54
+}
+
+magic_burning = {
+	icon = 54
+}
+
+
+magic_combat_mod = {
+ local_movement_speed = 0.4		
+}

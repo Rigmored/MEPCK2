@@ -1,0 +1,319 @@
+namespace = gnosis_objective
+character_event = {
+	id = gnosis_objective.1
+	desc = gnosis_objective.1_desc
+	picture = GFX_evt_comet
+	border = GFX_event_normal_frame_religion
+
+	trigger = {
+		has_ambition = obj_study_the_gnosis 
+		prisoner = no
+		NOT = { trait = incapable }
+		NOT = {trait = school_gnosis_1}
+		OR = {
+			NOT = {trait = school_gnosis_2}
+			NOT = {trait = school_gnosis_3}		
+			NOT = {trait = school_gnosis_4}
+			NOT = { trait = school_gnosis_5}		
+		}
+	}
+mean_time_to_happen = {
+	years = 5
+	modifier = {
+		factor = 2 # Decreases chances by half
+		NOT = { trait = genius }
+	}
+	modifier = {
+		factor = 0.5 # Increases chances by half
+		trait = diligent
+	}
+	modifier = {
+		factor = 0.1 # Increases chances by ten
+		location = { province = 334 }
+	}	
+		modifier = {
+		factor = 0.1 # Increases chances by ten
+		location = { province = 802 }
+	}
+	modifier = {
+		factor = 0.1 # Increases chances by ten
+		location = { province = 496 }
+	}	
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = mystic
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = faqih
+	}	
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = ambitious
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = scholar
+	}	
+	
+}
+	option = {
+		name = gnosis_objective.1a
+		trigger = { not = {trait = school_gnosis_1}}
+				add_trait = school_gnosis_1	
+				set_variable = { which = "gnosiscantssung" value = 0 } 				
+		}
+}
+
+	
+character_event = {
+	id = gnosis_objective.2
+	desc = gnosis_objective.2_desc
+	picture = GFX_evt_comet
+	border = GFX_event_normal_frame_religion
+
+	trigger = {
+		has_ambition = obj_study_the_gnosis 
+		prisoner = no
+		trait = sorcery_inniate
+		NOT = {trait = school_gnosis_2}			
+		NOT = { trait = incapable }
+		check_variable = { which = "gnosiscantssung" value = 4 }				
+	}
+mean_time_to_happen = {
+	years = 5
+	modifier = {
+		factor = 2 # Decreases chances by half
+		NOT = { trait = genius }
+	}
+	modifier = {
+		factor = 0.5 # Increases chances by half
+		trait = diligent
+	}
+	modifier = {
+		factor = 0.1 # Increases chances by ten
+		location = { province = 334 }
+	}	
+		modifier = {
+		factor = 0.1 # Increases chances by ten
+		location = { province = 802 }
+	}
+	modifier = {
+		factor = 0.1 # Increases chances by ten
+		location = { province = 496 }
+	}	
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = mystic
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = faqih
+	}	
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = ambitious
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = scholar
+	}	
+	
+}
+	option = {
+		name = gnosis_objective.2a
+		trigger = { not = { trait = school_gnosis_2}}
+			add_trait = school_gnosis_2	
+			set_variable = { which = "gnosiscantssung" value = 0 } 				
+		}
+}
+
+
+character_event = {
+	id = gnosis_objective.3
+	desc = gnosis_objective.3_desc
+	picture = GFX_evt_comet
+	border = GFX_event_normal_frame_religion
+
+	trigger = {
+		has_ambition = obj_study_the_gnosis 
+		prisoner = no
+		trait = school_gnosis_2
+		NOT = {trait = school_gnosis_3}		
+		NOT = { trait = incapable }
+		check_variable = { which = "gnosiscantssung" value = 4 }
+
+	}
+mean_time_to_happen = {
+	years = 5
+	modifier = {
+		factor = 2 # Decreases chances by half
+		NOT = { trait = genius }
+	}
+	modifier = {
+		factor = 0.5 # Increases chances by half
+		trait = diligent
+	}
+	modifier = {
+		factor = 0.1 # Increases chances by ten
+		location = { province = 334 }
+	}	
+		modifier = {
+		factor = 0.1 # Increases chances by ten
+		location = { province = 802 }
+	}
+	modifier = {
+		factor = 0.1 # Increases chances by ten
+		location = { province = 496 }
+	}	
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = mystic
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = faqih
+	}	
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = ambitious
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = scholar
+	}	
+	
+}
+	option = {
+		name = gnosis_objective.3a
+		trigger = { not = {trait = school_gnosis_3}}
+				add_trait = school_gnosis_3		
+				set_variable = { which = "gnosiscantssung" value = 0 } 				
+		}
+}	
+
+
+
+
+character_event = {
+	id = gnosis_objective.4
+	desc = gnosis_objective.4_desc
+	picture = GFX_evt_comet
+	border = GFX_event_normal_frame_religion
+
+	trigger = {
+		has_ambition = obj_study_the_gnosis 
+		prisoner = no
+		trait = school_gnosis_3
+		NOT = {trait = school_gnosis_4}		
+		NOT = { trait = incapable }
+		check_variable = { which = "gnosiscantssung" value = 4 }
+
+	}
+mean_time_to_happen = {
+	years = 5
+	modifier = {
+		factor = 2 # Decreases chances by half
+		NOT = { trait = genius }
+	}
+	modifier = {
+		factor = 0.5 # Increases chances by half
+		trait = diligent
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = mystic
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = faqih
+	}	
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = ambitious
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = scholar
+	}	
+	
+}
+	option = {
+		name = gnosis_objective.4a
+		trigger = { not = {trait = school_gnosis_4}}
+				add_trait = school_gnosis_4	
+				set_variable = { which = "gnosiscantssung" value = 0 } 				
+		}
+}	
+
+
+
+character_event = {
+	id = gnosis_objective.5
+	desc = gnosis_objective.5_desc
+	picture = GFX_evt_comet
+	border = GFX_event_normal_frame_religion
+
+	trigger = {
+		has_ambition = obj_study_the_gnosis 
+		prisoner = no
+		trait = school_gnosis_4
+		NOT = {trait = school_gnosis_5}		
+		NOT = { trait = incapable }
+		check_variable = { which = "gnosiscantssung" value = 4 }
+
+	}
+mean_time_to_happen = {
+	years = 5
+	modifier = {
+		factor = 2 # Decreases chances by half
+		NOT = { trait = genius }
+	}
+	modifier = {
+		factor = 0.5 # Increases chances by half
+		trait = diligent
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = mystic
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = faqih
+	}	
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = ambitious
+	}
+		modifier = {
+		factor = 0.5 # Increases chances by ten
+		trait = scholar
+	}	
+	
+}
+	option = {
+		name = gnosis_objective.5a
+		trigger = { not = {trait = school_gnosis_5}}
+				add_trait = school_gnosis_5	
+				set_variable = { which = "gnosiscantssung" value = 0 } 				
+		}
+}
+
+character_event = {
+    id = gnosis_objective.99
+    desc = gnosis_objective.99_desc
+	picture = GFX_evt_comet
+	border = GFX_event_normal_frame_religion	
+    hide_window = no
+    
+   is_triggered_only = yes
+    
+		option = {
+		name = gnosis_objective.99a
+			death = {
+				death_reason = death_accident
+			}
+		}
+}
+
+
