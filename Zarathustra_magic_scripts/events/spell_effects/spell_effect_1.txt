@@ -1,0 +1,48 @@
+namespace = songs_of_power_effect
+
+character_event = {
+	id = songs_of_power_effect.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = { 
+			limit = { 
+				check_variable = { which = "spell_power" value = 3 }
+			}
+			character_event = {id = songs_of_power_effect.2}			
+			breeak = yes 
+		}
+		if ={
+			limit = {
+				not = {
+					check_variable =  { which = "spell_power" value = 2}
+				}
+			}
+			long_character_event = {id = songs_of_power_effect.1}
+		}
+
+
+	}
+}
+
+character_event = { 
+	id = songs_of_power_effect.2
+	desc = id = songs_of_power_effect.2_desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { 
+			check_variable = { which = "spell_power" value = 3 }
+		}
+		name = songs_of_power_effect.2a
+		location = {
+			any_neighbor_province = {
+				add_province_modifier = { name = mists_of_lothlorien days = 180}
+			}		
+		}
+		change_variable = { which = "spell_power" value = -3}
+		character_event = {id = magic_system.1}
+	}
+}

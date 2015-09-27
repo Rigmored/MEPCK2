@@ -1,0 +1,42 @@
+songs_of_power_cooldown = {
+	icon = 13
+}
+
+
+magic_combat_mod = {
+ local_movement_speed = 0.4		
+}
+
+light_of_the_soul_1 = {
+	monthly_character_piety = 1  
+	general_opinion = 5
+}
+
+light_of_the_soul_2 = {
+	monthly_character_piety = 2 
+	general_opinion = 10
+}
+
+light_of_the_soul_3 = {
+	monthly_character_piety = 3 
+	general_opinion = 15
+}
+
+light_of_the_soul_4 = {
+	monthly_character_piety = 4 
+	general_opinion = 20
+}
+
+light_of_the_soul_5 = {
+	monthly_character_piety = 5 
+	general_opinion = 25
+}
+
+
+mists_of_lothlorien = {
+
+	local_movement_speed = -0.25
+	max_attrition = 2
+	supply_limit = -10
+
+}
