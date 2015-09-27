@@ -45,4 +45,28 @@ character_event = {
 		change_variable = { which = "spell_power" value = -3}
 		character_event = {id = magic_system.1}
 	}
+
+	option = {
+		trigger = { 
+			check_variable = { which = "spell_power" value = 7 }
+		}
+		name = songs_of_power_effect.2a
+		location = {
+			any_neighbor_province = {
+				any_neighbor_province = {
+					limit = {
+						nor = { 
+							PREV
+							location
+						}
+					}
+					add_province_modifier = { name = mists_of_lothlorien days = 180}
+				}
+			}		
+		}
+		change_variable = { which = "spell_power" value = -7}
+		character_event = {id = magic_system.1}
+	}	
 }
+
+
