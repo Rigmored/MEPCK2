@@ -22,8 +22,14 @@ feudal_governments = {
 				NOT = { religion = norse_pagan_reformed }				
 			}
 			NOT = {
-				religion = religion_dunedain
 				religion = religion_wilderness
+			}
+			NAND = {
+				religion = religion_dunedain
+				trait = numenorean
+				trait = blood_of_numenor2
+				trait = blood_of_numenor
+				has_landed_title = e_steward_gondor
 			}
 			NOT = {	religion_group = muslim	}
 			is_patrician = no
