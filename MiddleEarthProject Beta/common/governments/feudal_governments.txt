@@ -19,7 +19,11 @@ feudal_governments = {
 			NAND = {
 				controls_religion = yes
 				NOT = { religion_group = muslim }
-				NOT = { religion = norse_pagan_reformed }
+				NOT = { religion = norse_pagan_reformed }				
+			}
+			NOT = {
+				religion = religion_dunedain
+				religion = religion_wilderness
 			}
 			NOT = {	religion_group = muslim	}
 			is_patrician = no
@@ -84,5 +88,106 @@ feudal_governments = {
 			tribal_government
 		}
 	}
+#lotr govts
+	#men
+	dunedain_feudalism_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			dunedain_stewardship_government
+		}
+		free_revoke_on_tiers = {
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+			wilderness_government
+		}
+		potential = {
+			religion = religion_dunedain
+			OR = {
+				trait = numenorean
+				trait = blood_of_numenor2
+				trait = blood_of_numenor
+			}
+			NOT = {
+				religion = religion_wilderness
+				has_landed_title = e_steward_gondor
+			}
+			is_patrician = no
+		}
+		color = { 0 0 128 }
+
+		uses_piety_for_law_change = no
+
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+
+		can_build_tribal = no
+		can_build_temple = no
+
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		demesne_size = -1
+		vassal_limit = 2
+		commander_limit = 1
+	}
 	
+	dunedain_stewardship_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			dunedain_feudalism_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		potential = {
+			NOT = { religion = religion_wilderness }
+			NOT = { trait = isildur_throne }
+			has_landed_title = e_steward_gondor
+			is_patrician = no
+		}
+
+		color = { 255 255 255 }
+
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+
+		ignores_de_jure_laws = yes
+		can_build_tribal = no
+		can_build_temple = no
+
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		demesne_size = -2
+		vassal_limit = 4
+		#commander_limit = 0
+	}
 }
