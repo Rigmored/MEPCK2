@@ -2,7 +2,7 @@ republic_governments = {
 
 	merchant_republic_government = {
 		preferred_holdings = { CITY }
-		allowed_holdings = { 
+		allowed_holdings = {
 			TRADE_POST
 			CITY
 			CASTLE
@@ -25,6 +25,10 @@ republic_governments = {
 				controls_religion = yes
 				NOT = { religion_group = muslim }
 				NOT = { religion = norse_pagan_reformed }
+			}
+			NOT = { 
+				religion = religion_wilderness
+				religion = religion_dunedain
 			}
 			is_female = no
 			OR = {
@@ -105,6 +109,10 @@ republic_governments = {
 				NOT = { religion = norse_pagan_reformed }
 			}
 			NOT = { is_government_potential = merchant_republic_government }
+			NOT = { 
+				religion = religion_wilderness
+				religion = religion_dunedain
+			}
 		}
 		
 		color = { 209 125 130 }
@@ -114,5 +122,4 @@ republic_governments = {
 		
 		can_build_tribal = no
 	}
-	
 }
