@@ -30,6 +30,10 @@ tribal_governments = {
 				NOT = { religion_group = muslim }
 				NOT = { religion = norse_pagan_reformed }
 			}
+			NOT = { 
+				religion = religion_wilderness
+				religion = religion_dunedain
+			}
 			is_patrician = no
 			mercenary = no
 			holy_order = no
@@ -51,5 +55,51 @@ tribal_governments = {
 		demesne_size = 2
 		vassal_limit = -10
 	}
-	
+#lotr govts
+	#misc
+	wilderness_government = {
+		preferred_holdings = { TRIBAL }
+		allowed_holdings = {
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture	
+			TEMPLE
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead		
+			wilderness_government
+		}
+		free_revoke_on_tiers = {
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		potential = {
+			religion = religion_wilderness
+			is_patrician = no
+		}
+
+		color = { 50 50 50 }
+
+		uses_piety_for_law_change = no
+
+		dukes_called_kings = no
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+		allows_matrilineal_marriage = no
+		
+		can_build_castle = no
+		can_build_city = no
+		can_build_tribal = no
+		can_build_temple = no
+
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+	}
 }
