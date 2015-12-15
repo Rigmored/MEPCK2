@@ -27,8 +27,17 @@ feudal_governments = {
 			NAND = {
 				religion = religion_dunedain
 				trait = numenorean
+			}
+			NAND = {
+				religion = religion_dunedain
 				trait = blood_of_numenor2
+			}
+			NAND = {
+				religion = religion_dunedain
 				trait = blood_of_numenor
+			}
+			NAND = {
+				religion = religion_dunedain
 				has_landed_title = e_steward_gondor
 			}
 			NOT = {	religion_group = muslim	}
