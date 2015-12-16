@@ -2,8 +2,10 @@
 #Wilderness;;;;;;x
 wilderness_government;Wilderness;Terres Sauvages;;;ITALIAN;x
 wilderness_government_desc;The wilderness has no government.;Terres Sauvages;;;ITALIAN;x
-dunedain_monarchy_government;Dunedain Monarchy;Monarchie Numénoréene;;;;x
+dunedain_feudalism_government;Dunedain Feudalism;Féodalisme Numénoréene;;;;x
+dunedain_feudalism_government_desc;Dunedain Feudalism;Féodalisme Numénoréene;;;;x
 dunedain_stewardship_government;Dunedain Stewardship;Intendance Numénoréene;;;;x
+dunedain_stewardship_government_desc;Dunedain Stewardship;Intendance Numénoréene;;;;x
 nazgul_tyranny_government;Nazgûl Tyranny;Tyrannie Nazgûl;;;;x
 dark_dominion_government;Dominion of Darkness;Domination des Ténèbres;;;;x
 orkish_despotism_government;Orkish Despotism;Despotisme Ork;;;;x
