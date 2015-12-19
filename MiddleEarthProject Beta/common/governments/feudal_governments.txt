@@ -56,53 +56,53 @@ feudal_governments = {
 		}
 	}
 	
-	muslim_government = {
-		preferred_holdings = { CASTLE }
-		allowed_holdings = { 
-			CASTLE
-			TEMPLE
-			FORT
-		}
-		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
-			TRIBAL
-		}
-		accepts_liege_governments = { # Gets the wrong religion modifier instead
-			feudal_government
-		}
-		free_revoke_on_tiers = {
-			duke
-		}
-		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
-			tribal_government
-		}
-		frame_suffix = "_iqta"
-		potential = {
-			NAND = {
-				controls_religion = yes
-				NOT = { religion_group = muslim }
-				NOT = { religion = norse_pagan_reformed }
-			}
-			religion_group = muslim
-			is_patrician = no
-		}
-		
-		color = { 10 138 57 }
-		
-		uses_decadence = yes
-		uses_piety_for_law_change = yes
-		
-		dukes_called_kings = yes
-		barons_need_dynasty = yes
-		have_gender_laws = no
-		allows_matrilineal_marriage = no
-		free_retract_vassalage = yes
-
-		can_build_tribal = no
-		
-		ignore_in_vassal_limit_calculation = {
-			tribal_government
-		}
-	}
+	#muslim_government = {
+	#	preferred_holdings = { CASTLE }
+	#	allowed_holdings = { 
+	#		CASTLE
+	#		TEMPLE
+	#		FORT
+	#	}
+	#	allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+	#		TRIBAL
+	#	}
+	#	accepts_liege_governments = { # Gets the wrong religion modifier instead
+	#		feudal_government
+	#	}
+	#	free_revoke_on_tiers = {
+	#		duke
+	#	}
+	#	free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+	#		tribal_government
+	#	}
+	#	frame_suffix = "_iqta"
+	#	potential = {
+	#		NAND = {
+	#			controls_religion = yes
+	#			NOT = { religion_group = muslim }
+	#			NOT = { religion = norse_pagan_reformed }
+	#		}
+	#		religion_group = muslim
+	#		is_patrician = no
+	#	}
+	#	
+	#	color = { 10 138 57 }
+	#	
+	#	uses_decadence = yes
+	#	uses_piety_for_law_change = yes
+	#	
+	#	dukes_called_kings = yes
+	#	barons_need_dynasty = yes
+	#	have_gender_laws = no
+	#	allows_matrilineal_marriage = no
+	#	free_retract_vassalage = yes
+	#
+	#	can_build_tribal = no
+	#	
+	#	ignore_in_vassal_limit_calculation = {
+	#		tribal_government
+	#	}
+	#}
 #lotr govts
 	#men
 	dunedain_feudalism_government = {
@@ -133,7 +133,7 @@ feudal_governments = {
 			}
 			NOT = {
 				religion = religion_wilderness
-				has_landed_title = e_steward_gondor
+				has_landed_title = e_steward_gondor #Should be removed when new stewardship system is in place
 			}
 			is_patrician = no
 		}
@@ -143,12 +143,7 @@ feudal_governments = {
 
 		dukes_called_kings = yes
 		barons_need_dynasty = no
-		can_imprison_without_reason = no
-		can_revoke_without_reason = no
-		can_usurp_kingdoms_and_empires = no
-		have_gender_laws = no
 		can_grant_kingdoms_and_empires_to_other_government = yes
-		allows_matrilineal_marriage = no
 
 		can_build_tribal = no
 		can_build_temple = no
@@ -157,7 +152,7 @@ feudal_governments = {
 			tribal_government
 		}
 		demesne_size = -1
-		vassal_limit = 2
+		vassal_limit = 4
 		commander_limit = 1
 	}
 	
@@ -171,7 +166,7 @@ feudal_governments = {
 			TRIBAL
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
-			dunedain_feudalism_government
+			dunedain_feudalism_government #Not sure about this one
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -179,7 +174,7 @@ feudal_governments = {
 		potential = {
 			NOT = { religion = religion_wilderness }
 			NOT = { trait = isildur_throne }
-			has_landed_title = e_steward_gondor
+			has_landed_title = e_steward_gondor #Should be rewritten when new stewardship szstem is in place
 			is_patrician = no
 		}
 
@@ -190,9 +185,7 @@ feudal_governments = {
 		can_imprison_without_reason = no
 		can_revoke_without_reason = no
 		can_usurp_kingdoms_and_empires = no
-		have_gender_laws = no
 		can_grant_kingdoms_and_empires_to_other_government = yes
-		allows_matrilineal_marriage = no
 
 		ignores_de_jure_laws = yes
 		can_build_tribal = no
