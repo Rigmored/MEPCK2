@@ -1,5 +1,5 @@
 10001 = {
-	name="Manwë Súlimo"
+	name="ManwÃ« SÃºlimo"
 	dynasty=10001
 	martial=30
 	diplomacy=30
@@ -11,10 +11,16 @@
 	add_trait=perceptive
 	add_trait=imposing
 	add_trait=tall
+	add_trait = just
+	add_trait = kind
+	add_trait = trusting
+	add_trait = humble
+	add_trait = content
 	5.1.1={
 		birth="5.1.1"
 		effect = {
-			set_character_flag = manwe_sulimo	
+			set_character_flag = manwe_sulimo
+			give_nickname = nick_elder_king	
 		}
 	}
 	25.1.1={
@@ -22,7 +28,7 @@
 	}
 }
 10002 = {
-	name="Varda Tintallë"
+	name="Varda TintallÃ«"
 	female=yes
 	dynasty=10002
 	martial=9
@@ -32,13 +38,21 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = fair
+	add_trait = perceptive
+	add_trait = kind
+	add_trait = patient
+	add_trait = diligent
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
+		effect = {
+			give_nickname = nick_star_kindler	
+		}
 	}
 }
 10003 = {
-	name="Aulë Mahal"
+	name="AulÃ« Mahal"
 	dynasty=10003
 	martial=9
 	diplomacy=9
@@ -47,10 +61,16 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = legendary_craftman
+	add_trait = quick
+	add_trait = humble
+	add_trait = diligent
+	add_trait = kind
 	5.1.1={
 		birth="5.1.1"
 		effect = {
 			set_character_flag = aule_mahal
+			give_nickname = nick_the_smith
 		}		
 	}
 	46.1.1={
@@ -59,7 +79,7 @@
 	}
 }
 10004 = {
-	name="Yavanna Palúrien"
+	name="Yavanna PalÃºrien"
 	female=yes
 	dynasty=10004
 	martial=9
@@ -69,15 +89,19 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = gardener
+	add_trait = diligent
+	add_trait = patient
 	5.1.1={
 		birth="5.1.1"
 		effect = {
 			set_character_flag = yavanna
+			give_nickname = nick_giver_of_fruits
 		}		
 	}
 }
 10005 = {
-	name="Ulmo Nûron"
+	name="Ulmo NÃ»ron"
 	dynasty=10005
 	martial=9
 	diplomacy=9
@@ -86,10 +110,14 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = imposing
+	add_trait = kind
+	add_trait = just
 	5.1.1={	
 		birth="5.1.1"
 		effect = {
 			set_character_flag = ulmo
+			give_nickname = nick_lord_of_waters
 		}		
 	}
 	11364.6.25={
@@ -98,7 +126,7 @@
 	}
 }
 10006 = {
-	name="Nienna Núri"
+	name="Nienna NÃºri"
 	female=yes
 	dynasty=10006
 	martial=9
@@ -108,16 +136,21 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = kind
+	add_trait = depressed
+	add_trait = patient
+	add_trait = brave
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
 		effect = {
 			set_character_flag = nienna
-		}		
+			give_nickname = nick_the_lady_of_mourning
+		}	
 	}
 }
 10007 = {
-	name="Námo Mandos"
+	name="NÃ¡mo Mandos"
 	dynasty=10006
 	martial=9
 	diplomacy=9
@@ -126,10 +159,13 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = just
+	add_trait = cynical
 	5.1.1={
 		birth="5.1.1"
 		effect = {
 			set_character_flag = mandos
+			give_nickname = nick_the_judge
 		}		
 	}
 	44.1.1={
@@ -138,7 +174,7 @@
 	}
 }
 10008 = {
-	name="Vairë Gwîr"
+	name="VairÃ« GwÃ®r"
 	female=yes
 	dynasty=10007
 	martial=9
@@ -148,13 +184,17 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = diligent
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
+		effect = {
+			give_nickname = nick_the_weaver
+		}		
 	}
 }
 10009 = {
-	name="Irmo Lórien"
+	name="Irmo LÃ³rien"
 	dynasty=10006
 	martial=9
 	diplomacy=9
@@ -163,10 +203,12 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = mystic
 	5.1.1={
 		birth="5.1.1"
 		effect = {
 			set_character_flag = irmo_lorien
+			give_nickname = nick_master_of_dreams
 		}		
 	}
 	43.1.1={
@@ -175,7 +217,7 @@
 	}
 }
 10010 = {
-	name="Estë Îdh"
+	name="EstÃ« ÃŽdh"
 	female=yes
 	dynasty=10008
 	martial=9
@@ -185,16 +227,21 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = kind
+	add_trait = healer_master
 	5.1.1={
 		birth="5.1.1"
+		effect = {
+			give_nickname = nick_the_healer
+		}
 	}
-		43.1.1={
+	43.1.1={
 		add_spouse=10009
 		employer = 10001
 	}
 }
 10011 = {
-	name="Oromë Aldaron"
+	name="OromÃ« Aldaron"
 	dynasty=10009
 	martial=9
 	diplomacy=9
@@ -203,10 +250,15 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = perceptive
+	add_trait = brave
+	add_trait = wroth
+	add_trait = hunter
 	5.1.1={
 		birth="5.1.1"
 		effect = {
 			set_character_flag = orome
+			give_nickname = nick_the_huntsman
 		}		
 	}
 	49.1.1={
@@ -215,7 +267,7 @@
 	}
 }
 10012 = {
-	name="Vána Oiolaisi"
+	name="VÃ¡na Oiolaisi"
 	female=yes
 	dynasty=10004
 	martial=9
@@ -225,9 +277,13 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = fair
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
+		effect = {
+			give_nickname = nick_ever_young
+		}
 	}
 }
 10013 = {
@@ -240,10 +296,16 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = brilliant_strategist
+	add_trait = brave
+	add_trait = strong
+	add_trait = patient
+	add_trait = master_fighter
 	9.1.1={
 		birth="9.1.1"
 		effect = {
 			set_character_flag = tulkas
+			give_nickname = nick_the_valiant
 		}		
 	}
 	53.1.1={
@@ -252,7 +314,7 @@
 	}
 }
 10014 = {
-	name="Nessa Rincëtâl"
+	name="Nessa RincÃ«tÃ¢l"
 	female=yes
 	dynasty=10009
 	martial=9
@@ -261,10 +323,14 @@
 	stewardship=9
 	religion="religion_eruhini"
 	culture="culture_valar"
+	add_trait = agile
 	add_trait=valar
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
+		effect = {
+			give_nickname = nick_the_dancer
+		}
 	}
 }
 10015 = {
@@ -277,6 +343,13 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = strong
+	add_trait = scholar
+	add_trait = deceitful
+	add_trait = proud
+	add_trait = ambitious
+	add_trait = imposing
+	add_trait = envious
 	4.1.1={
 		birth="4.1.1"
 	} #First Vala to enter Arda
@@ -286,7 +359,10 @@
 		add_trait=angainor
 		add_trait=evil_side
 		religion="religion_umaiar"
-	} #Name given by Fëanor
+		effect = {
+			give_nickname = nick_the_dark_traitor
+		}
+	} #Name given by FÃ«anor
 }
 10016 = {
 	name="Mairon"
@@ -312,14 +388,14 @@
 		}
 	}
 	42.1.1={
-		name="Thû"
+		name="ThÃ»"
 		dynasty=10012
         add_trait= evil_side
 		religion="religion_umaiar"
 	} #Mairon is corrupted by Melkor
 	4120.1.1={
 		name="Gorthaur"
-	} #Gothmog and Thû begin to restore Angband, Thû is called Gorthaur by the Sindar
+	} #Gothmog and ThÃ» begin to restore Angband, ThÃ» is called Gorthaur by the Sindar
 	4769.1.1={
 		name="Sauron"
 	} #Minas Tirith falls to Gorthaur, and the Noldor give him the Quenya name Sauron, 'the Abhorred'
@@ -365,7 +441,7 @@
 	11284.1.1={
 		name="Sauron"
 		dynasty = 10012
-		give_nickname = nick_the_dark_lord
+		give_nickname = nick_lord_of_the_rings
 	} #Sauron come back to Mordor after the attack of the White Council on Dol Guldur
 	11362.3.25={
 		death= "11362.3.25"
@@ -384,10 +460,10 @@
 	977.1.1={
 		name="Melian"
 		employer = 10001
-	} #Elwë weds Melian in Nan Elmoth
+	} #ElwÃ« weds Melian in Nan Elmoth
 }
 10018 = {
-	name="Virilomë"
+	name="VirilomÃ«"
 	female=yes
 	dynasty=10014
 	religion="religion_eruhini"
@@ -399,14 +475,14 @@
 	25.1.1={
 		add_trait= evil_side
 		religion="religion_umaiar"
-	} #Virilomë is corrupted by Melkor
+	} #VirilomÃ« is corrupted by Melkor
 	54.1.1={
 		name="Ungoliant"
 		add_trait = spider
-	} #Virilomë takes the form of a Great Spider
+	} #VirilomÃ« takes the form of a Great Spider
 	4853.1.1={
 		death="4853.1.1"
-	} #Ungoliant is slain by Eärendil
+	} #Ungoliant is slain by EÃ¤rendil
 }
 ##10019 = { ### Replaced by 10071 - Thorondor
 ##	name="Sorontar"
@@ -424,41 +500,47 @@
 	religion="religion_eruhini"
 	culture="culture_maiar"
 	add_trait=maiar
+	add_trait = brave
+	add_trait = proud
+	add_trait = hunter
 	7.1.1={
 		birth="7.1.1"
 	}
 	8.1.1={
 		add_trait= evil_side
 		religion="religion_umaiar"
-	} #Makar and Meássë join Melkor's War against the Valar
+	} #Makar and MeÃ¡ssÃ« join Melkor's War against the Valar
 	9.1.1={
 	remove_trait= evil_side
 		religion="religion_eruhini"
 		employer = 10001
-	} #Dissappointed by Melkor's cowardice and amazed by the strength and skill of Tulkas, Makar and Meássë swear loyalty to him
+	} #Dissappointed by Melkor's cowardice and amazed by the strength and skill of Tulkas, Makar and MeÃ¡ssÃ« swear loyalty to him
 }
 10021 = {
-	name="Meássë"
+	name="MeÃ¡ssÃ«"
 	female=yes
 	religion="religion_eruhini"
 	culture="culture_maiar"
 	add_trait=maiar
+	add_trait = brave
+	add_trait = proud
+	add_trait = hunter
 	7.1.1={
 		birth="7.1.1"
 	}
 	8.1.1={
 		add_trait= evil_side
 		religion="religion_umaiar"
-	} #Makar and Meássë join Melkor's War against the Valar
+	} #Makar and MeÃ¡ssÃ« join Melkor's War against the Valar
 	9.1.1={
 		dynasty=10016
 		remove_trait= evil_side
 		religion="religion_eruhini"
 		employer = 10001
-	} #Dissappointed by Melkor's cowardice and amazed by the strength and skill of Tulkas, Makar and Meássë swear loyalty to him
+	} #Dissappointed by Melkor's cowardice and amazed by the strength and skill of Tulkas, Makar and MeÃ¡ssÃ« swear loyalty to him
 }
 10022 = {
-	name="Ossë"
+	name="OssÃ«"
 	dynasty=10017
 	religion="religion_eruhini"
 	culture="culture_maiar"
@@ -469,14 +551,14 @@
 	26.1.1={
 	add_trait= evil_side
 	religion="religion_umaiar"
-	} #Ossë is corrupted by Melkor
+	} #OssÃ« is corrupted by Melkor
 	56.1.1={
 		dynasty=10017
 		religion="religion_eruhini"
 		remove_trait=evil_side
 		add_spouse=10023
 		employer = 10001
-	} #Unien persuades Ossë to return to loyalty for Ulmo
+	} #Unien persuades OssÃ« to return to loyalty for Ulmo
 }
 10023 = {
 	name="Uinen"
@@ -517,7 +599,7 @@
 	} #Vallavelca is corrupted by Melkor
 	57.1.1={
 		name="Gothmog"
-	} #The Balrogs recieve their hröa
+	} #The Balrogs recieve their hrÃ¶a
 	4822.1.1={
 		death="4822.1.1"
 	} #Gothmog is slain by Ecthelion in Gondolin
@@ -538,24 +620,24 @@
 	57.1.1={
 
 		name="Hallmog"
-	} #The Balrogs recieve their hröa
+	} #The Balrogs recieve their hrÃ¶a
 	4899.1.1={
 		name="Nameless Terror"
 		effect = {
 		set_character_flag=moriabalrog
 		}		
 		employer = 10007
-	} #The Balrog hides under Khazad-dûm in fear of the coming of the Valar in the War of Wrath
+	} #The Balrog hides under Khazad-dÃ»m in fear of the coming of the Valar in the War of Wrath
 	10323.1.1={
 		name="Durin's Bane"
 		add_trait = brilliant_strategist
 		add_trait = wroth
 		add_trait = cruel
 		add_trait = aggressive_leader
-	} #The Balrog is awoken from its slumber by the Dwarves of Khazad-dûm and slays Durin VI
+	} #The Balrog is awoken from its slumber by the Dwarves of Khazad-dÃ»m and slays Durin VI
 	11362.1.25={
 		death="11362.1.25"
-	} #Dúrin's Bane is slain by Gandalf in Moria
+	} #DÃºrin's Bane is slain by Gandalf in Moria
 }
 10027 = {
 	name="Arien"
@@ -581,7 +663,7 @@
 	}
 }
 10029 = {
-	name="Rómestámo"
+	name="RÃ³mestÃ¡mo"
 	dynasty=10020
 	religion="religion_eruhini"
 	culture="culture_istari"
@@ -686,6 +768,7 @@
 	11102.1.1={
 	    add_trait = ambitious
 		add_trait = cynical
+		add_trait = deceitful
 		add_trait= palantir_orthanc
 		remove_trait = mastermind_theologian
 		add_trait = intricate_webweaver
@@ -703,14 +786,14 @@
 		}
 	} #Saruman is fully corrupted by Sauron
 	11362.3.13 ={
-   		give_nickname = nick_the_traitor
- 	} #Saruma isn't the major Istari anymore
+   		give_nickname = nick_of_many_colors
+ 	} #Saruman isn't the major Istari anymore
 	11362.11.3={
 		death="11362.11.3"
 	} #Saruman is stabbed by Wormtongue
 }
 10033 = {
-	name="Olórin"
+	name="OlÃ³rin"
 	dynasty=10022
 	religion="religion_eruhini"
 	culture="culture_istari"
@@ -740,6 +823,8 @@
 	    add_trait = narya
 		add_trait = white_council
 		add_trait = humble
+		add_trait = kind
+		add_trait = patient
 		add_trait = charismatic_negotiator
 		effect= {
 		add_friend = 3006 #Galadriel
@@ -778,7 +863,7 @@
 
 	11300.1.1={
 		employer = 10031
-	}# Gandalf in the court of radagast to prevent him to be with Saruman
+	}# Gandalf in the court of Radagast to prevent him to be with Saruman
 	11362.3.13 ={
 		remove_trait = charismatic_negotiator
 		add_trait = grey_eminence
@@ -796,7 +881,7 @@
  }
  
 10034 = {
-	name="Eönwë"
+	name="EÃ¶nwÃ«"
 	dynasty=10015
 	religion="religion_eruhini"
 	culture="culture_maiar"
@@ -807,7 +892,7 @@
 	}
 }
 10035 = {
-	name="Ilmarë"
+	name="IlmarÃ«"
 	female=yes
 	dynasty=10019
 	religion="religion_eruhini"
@@ -819,7 +904,7 @@
 	}
 }
 10036 = {
-	name="Wenyúlá"
+	name="WenyÃºlÃ¡"
 	female=yes
 	dynasty=10021
 	religion="religion_eruhini"
@@ -831,7 +916,7 @@
 	}
 }
 10037 = {
-	name="Tavawë"
+	name="TavawÃ«"
 	dynasty=10020
 	religion="religion_eruhini"
 	culture="culture_maiar"
@@ -842,7 +927,7 @@
 	}
 }
 10038 = {
-	name="Nielíqui"
+	name="NielÃ­qui"
 	female=yes
 	dynasty=10013
 	religion="religion_eruhini"
@@ -854,7 +939,7 @@
 	}
 }
 10039 = {
-	name="Poldórëa"
+	name="PoldÃ³rÃ«a"
 	dynasty=10016
 	religion="religion_eruhini"
 	culture="culture_maiar"
@@ -865,7 +950,7 @@
 	}
 }
 10040 = {
-	name="Súlëmo"
+	name="SÃºlÃ«mo"
 	dynasty=10018
 	religion="religion_eruhini"
 	culture="culture_maiar"
@@ -876,7 +961,7 @@
 	}
 }
 10041 = {
-	name="Sendëlórë"
+	name="SendÃ«lÃ³rÃ«"
 	female=yes
 	dynasty=10023
 	religion="religion_eruhini"
@@ -899,7 +984,7 @@
 	}
 }
 10043 = {
-	name="Sírëindis" #River-wife
+	name="SÃ­rÃ«indis" #River-wife
 	female=yes
 	dynasty=10017
 	religion="religion_eruhini"
@@ -911,7 +996,7 @@
 	}
 }
 10044 = {
-	name="Sírëiel" #River-daughter
+	name="SÃ­rÃ«iel" #River-daughter
 	female=yes
 	dynasty=10017
 	religion="religion_eruhini"
@@ -1616,7 +1701,7 @@
 		effect = {
 			give_nickname = nick_lord_of_eagles
 		}
-	} #Some of Manwë's Maiar servants are take the form of Great Eagles to act as Manwë's messengers and spies upon Melkor
+	} #Some of ManwÃ«'s Maiar servants are take the form of Great Eagles to act as ManwÃ«'s messengers and spies upon Melkor
 }
 
 10072 = {
@@ -1673,7 +1758,7 @@
 }
 
 10075 = {
-	name="Belegthôr"
+	name="BelegthÃ´r"
 	dynasty=10031
 	religion="religion_eruhini"
 	culture="culture_eagles"
