@@ -356,8 +356,8 @@
 	dynasty=3002
 	female=yes
 
-	dna="cmack0ahaa0"
-	properties="mh0egibebbb"
+	dna="adifcrgfcbk"
+	properties="ck0dgd000000"
 
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -367,6 +367,7 @@
 	add_trait=honest
 	add_trait=patient
 	add_trait=charitable
+	add_trait = brave
 	add_trait=charismatic_negotiator
 	add_trait=great_healer
 
