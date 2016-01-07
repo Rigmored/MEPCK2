@@ -1,7 +1,7 @@
 #Line of Elros
 
 12001 = {
-	name="Vardamir" #NÃ³limon
+	name="Vardamir" #Nólimon
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -20,7 +20,7 @@
 }
 
 12002 = {
-	name="AltÃ¡riel"
+	name="Altáriel"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -34,7 +34,7 @@
 }
 
 12003 = {
-	name="TindÃ³miel"
+	name="Tindómiel"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -108,7 +108,7 @@
 }
 
 12007 = {
-	name="AlairÃ«"
+	name="Alairë"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -122,7 +122,7 @@
 }
 
 12008 = {
-	name="VardilmÃ«"
+	name="Vardilmë"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -177,7 +177,7 @@
 }
 
 12011 = {
-	name="Elendil" #ParmaitÃ«
+	name="Elendil" #Parmaitë
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -196,7 +196,7 @@
 }
 
 12012 = {
-	name="EÃ¤rendur"
+	name="Eärendur"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -232,7 +232,7 @@
 }
 
 12014 = {
-	name="SilmariÃ«n"
+	name="Silmariën"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -249,7 +249,7 @@
 }
 
 12015 = {
-	name="IsilmÃ«"
+	name="Isilmë"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -266,7 +266,7 @@
 }
 
 12016 = {
-	name="Ãrimon"
+	name="Írimon"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -344,7 +344,7 @@
 }
 
 12020 = {
-	name="AncalimÃ«"
+	name="Ancalimë"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -361,7 +361,7 @@
 }
 
 12021 = {
-	name="AnÃ¡rion"
+	name="Anárion"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -380,7 +380,7 @@
 }
 
 12022 = {
-	name="EÃ¤riel"
+	name="Eäriel"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -397,7 +397,7 @@
 }
 
 12023 = {
-	name="LlÃ³tÃ«ien"
+	name="Llótëien"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -414,7 +414,7 @@
 }
 
 12024 = {
-	name="SÃºrion"
+	name="Súrion"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -430,7 +430,7 @@
 }
 
 12025 = {
-	name="TelperiÃ«n"
+	name="Telperiën"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -540,7 +540,7 @@
 }
 
 12032 = {
-	name="TelemmaitÃ«"
+	name="Telemmaitë"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -591,7 +591,7 @@
 }
 
 12035 = {
-	name="VanimeldÃ«"
+	name="Vanimeldë"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -672,7 +672,7 @@
 }
 
 12040 = {
-	name="HerunÃºmen"
+	name="Herunúmen"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -685,7 +685,7 @@
 		add_spouse=12115
 	}
 	7701.1.1={
-		name="AdÃ»nakhÃ´r"
+		name="Adûnakhôr"
 		culture="culture_adunaic"
 	}
 	7864.1.1={
@@ -705,7 +705,7 @@
 		birth="7700.1.1"
 	}
 	7864.1.1={
-		name="ZimrathÃ´n"
+		name="Zimrathôn"
 		culture="culture_adunaic"
 	}
 	7935.1.1={
@@ -724,7 +724,7 @@
 		birth="7778.1.1"
 	}
 	7935.1.1={
-		name="SakalthÃ´r"
+		name="Sakalthôr"
 		culture="culture_adunaic"
 	}
 	8004.1.1={
@@ -746,7 +746,7 @@
 		add_spouse=12055
 	}
 	7935.1.1={
-		name="GimilzÃ´r"
+		name="Gimilzôr"
 		culture="culture_adunaic"
 	}
 	8079.1.1={
@@ -755,7 +755,7 @@
 }
 
 12044 = {
-	name="InziladÃ»n"
+	name="Inziladûn"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_adunaic"
@@ -775,7 +775,7 @@
 }
 
 12045 = {
-	name="GimilkhÃ¢d"
+	name="Gimilkhâd"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_adunaic"
@@ -791,7 +791,7 @@
 }
 
 12046 = {
-	name="MÃ­riel"
+	name="Míriel"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -805,7 +805,7 @@
 		name="Zimraphel"
 	}
 	8221.1.1={
-		name="MÃ­riel"
+		name="Míriel"
 		add_trait=sailed_west
 	}
 	8353.1.1={
@@ -819,29 +819,16 @@
 	religion="religion_numenorean"
 	culture="culture_adunaic"
 	father=12045
-	add_trait=blood_of_numenor
-	add_trait = quick
-	add_trait = strong
+	add_trait=blood_of_numenor	
 	8020.1.1={
 		birth="8020.1.1"
 	}
-	8036.1.1 = {
-		add_trait = brilliant_strategist
-		add_trait = charitable
-		add_trait = brave
-		add_trait = ambitious
-		add_trait = proud
-		effect = {
-			give_nickname = nick_the_golden
-		}
-	}
 	8157.1.1={
-		name="PharazÃ´n"
+		name="Pharazôn"
 		add_spouse=12046
 	}
 	8166.1.1={
 		add_trait = evil_side
-		add_trait = cruel
 	} #Ar-Pharazon is corrupted by Sauron to openly worship Morgoth
 	8221.1.1={
 		death="8221.1.1"
@@ -851,7 +838,7 @@
 #Branch of Gimilzagar
 
 12048 = {
-	name="MÃ­rion"
+	name="Mírion"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -864,7 +851,7 @@
 		add_spouse=12049
 	}
 	7701.1.1={
-		name="ZimrathÃ´r"
+		name="Zimrathôr"
 		culture="culture_adunaic"
 	}
 	7786.1.1={
@@ -894,7 +881,7 @@
 }
 
 12050 = {
-	name="NÃ¡ramir"
+	name="Náramir"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -908,7 +895,7 @@
 		add_spouse=12051
 	}
 	7701.1.1={
-		name="ZimrazÃ´r"
+		name="Zimrazôr"
 		culture="culture_adunaic"
 	}
 	7786.1.1={
@@ -926,7 +913,7 @@
 		birth="7642.1.1"
 	}
 	7801.1.1={
-		name="ArbÃªth"
+		name="Arbêth"
 		culture="culture_adunaic"
 	}
 	7871.1.1={
@@ -935,7 +922,7 @@
 }
 
 12052 = {
-	name="MÃ­rion"
+	name="Mírion"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -949,7 +936,7 @@
 		add_spouse=12053
 	}
 	7801.1.1={
-		name="ZimrathÃ´r"
+		name="Zimrathôr"
 		culture="culture_adunaic"
 	}
 	7886.1.1={
@@ -967,7 +954,7 @@
 		birth="7707.1.1"
 	}
 	7801.1.1={
-		name="AdÃ»phazÃ®"
+		name="Adûphazî"
 		culture="culture_adunaic"
 	}
 	7946.1.1={
@@ -999,7 +986,7 @@
 }
 
 12055 = {
-	name="LlÃ³tÃ«ien"
+	name="Llótëien"
 	dynasty=12001
 	female=yes
 	religion="religion_numenorean"
@@ -1011,7 +998,7 @@
 		birth="7874.1.1"
 	}
 	7935.1.1={
-		name="InzilbÃªth"
+		name="Inzilbêth"
 		culture="culture_adunaic"
 	}
 	8152.1.1={
@@ -1022,7 +1009,7 @@
 # Line of Manwendil - Chief Guardians of Meneltarma
 
 12056 = {
-	name="MinissÃ«"
+	name="Minissë"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1036,7 +1023,7 @@
 }
 
 12057 = {
-	name="SÃºlimar"
+	name="Súlimar"
 	dynasty=12002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1069,7 +1056,7 @@
 }
 
 12059 = {
-	name="VÃ«aher"
+	name="Vëaher"
 	dynasty=12002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1119,7 +1106,7 @@
 }
 
 12062 = {
-	name="SoronrÃ¡mar"
+	name="Soronrámar"
 	dynasty=12002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1138,7 +1125,7 @@
 }
 
 12063 = {
-	name="HÃºrowen" #House of EldalondÃ«
+	name="Húrowen" #House of Eldalondë
 	dynasty=12002
 	female=yes
 	religion="religion_numenorean"
@@ -1154,7 +1141,7 @@
 }
 
 12064 = {
-	name="SÃºlitar"
+	name="Súlitar"
 	dynasty=12002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1173,7 +1160,7 @@
 }
 
 12065 = {
-	name="NÃ¡mondil"
+	name="Námondil"
 	dynasty=12002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1192,7 +1179,7 @@
 }
 
 12066 = {
-	name="VÃ­ressÃ«"
+	name="Víressë"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1225,7 +1212,7 @@
 }
 
 12068 = {
-	name="EstendilmÃ«"
+	name="Estendilmë"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1258,7 +1245,7 @@
 }
 
 12070 = {
-	name="MÃ­riel"
+	name="Míriel"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1272,7 +1259,7 @@
 }
 
 12071 = {
-	name="SÃºlion"
+	name="Súlion"
 	dynasty=12002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1291,7 +1278,7 @@
 }
 
 12072 = {
-	name="Esteliel" #Line of AndÃºniÃ«
+	name="Esteliel" #Line of Andúnië
 	dynasty=12003
 	female=yes
 	religion="religion_numenorean"
@@ -1327,7 +1314,7 @@
 }
 
 12074 = {
-	name="VÃ«awen"
+	name="Vëawen"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1341,7 +1328,7 @@
 }
 
 12075 = {
-	name="SÃºlmacil"
+	name="Súlmacil"
 	dynasty=12002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1360,7 +1347,7 @@
 }
 
 12076 = {
-	name="VardurmÃ«" #House of EldalondÃ«
+	name="Vardurmë" #House of Eldalondë
 	dynasty=12009
 	female=yes
 	religion="religion_numenorean"
@@ -1375,7 +1362,7 @@
 }
 
 12077 = {
-	name="SÃºlicar"
+	name="Súlicar"
 	dynasty=12002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1417,7 +1404,7 @@
 	}
 }
 
-# Line of Elatan - Lords of AndÃºniÃ«
+# Line of Elatan - Lords of Andúnië
 
 12079 = {
 	name="Elendur"
@@ -1487,7 +1474,7 @@
 }
 
 12083 = {
-	name="Valandil" #First Lord of AndÃºniÃ«
+	name="Valandil" #First Lord of Andúnië
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1506,7 +1493,7 @@
 }
 
 12084 = {
-	name="TindÃ³mÃ«" #House of EldalondÃ«
+	name="Tindómë" #House of Eldalondë
 	dynasty=12009
 	female=yes
 	religion="religion_numenorean"
@@ -1575,7 +1562,7 @@
 }
 
 12088 = {
-	name="SÃ¡rawen"
+	name="Sárawen"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1608,7 +1595,7 @@
 }
 
 12090 = {
-	name="PalÃºrien"
+	name="Palúrien"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1641,7 +1628,7 @@
 }
 
 12092 = {
-	name="RÃ­anna"
+	name="Ríanna"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1674,7 +1661,7 @@
 }
 
 12094 = {
-	name="LÃºrien"
+	name="Lúrien"
 	dynasty=12002
 	female=yes
 	religion="religion_numenorean"
@@ -1691,7 +1678,7 @@
 }
 
 12095 = {
-	name="CalissÃ«"
+	name="Calissë"
 	female=yes
 	dynasty=12004	
 	religion="religion_numenorean"
@@ -1710,7 +1697,7 @@
 }
 
 12096 = {
-	name="IngloissÃ«"
+	name="Ingloissë"
 	female=yes
 	dynasty=12004
 	religion="religion_numenorean"
@@ -1729,7 +1716,7 @@
 }
 
 12097 = {
-	name="AnÃ¡rion"
+	name="Anárion"
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1781,7 +1768,7 @@
 }
 
 12100 = {
-	name="QuimellÃ«"
+	name="Quimellë"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1795,7 +1782,7 @@
 }
 
 12101 = {
-	name="VÃ«andur"
+	name="Vëandur"
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1828,7 +1815,7 @@
 }
 
 12103 = {
-	name="MÃ­rendil"
+	name="Mírendil"
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1847,7 +1834,7 @@
 }
 
 12104 = {
-	name="NieninquÃ«"
+	name="Nieninquë"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1861,7 +1848,7 @@
 }
 
 12105 = {
-	name="NÃ¡rendur"
+	name="Nárendur"
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1880,7 +1867,7 @@
 }
 
 12106 = {
-	name="LindÃ³riÃ«"
+	name="Lindórië"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1913,7 +1900,7 @@
 }
 
 12108 = {
-	name="RÃ³meniel" #House of RÃ³menna
+	name="Rómeniel" #House of Rómenna
 	dynasty=12004
 	female=yes
 	religion="religion_numenorean"
@@ -1929,7 +1916,7 @@
 }
 
 12109 = {
-	name="OlÃ³rendil"
+	name="Olórendil"
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1948,7 +1935,7 @@
 }
 
 12110 = {
-	name="ElendilmÃ«"
+	name="Elendilmë"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -2015,7 +2002,7 @@
 }
 
 12114 = {
-	name="EÃ¤rendur"
+	name="Eärendur"
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -2034,7 +2021,7 @@
 }
 
 12115 = {
-	name="IlumÃ­rÃ«"
+	name="Ilumírë"
 	dynasty=12003
 	female=yes
 	religion="religion_numenorean"
@@ -2052,7 +2039,7 @@
 }
 
 12116 = {
-	name="LindÃ³riÃ«"
+	name="Lindórië"
 	dynasty=12003
 	female=yes
 	religion="religion_numenorean"
@@ -2069,7 +2056,7 @@
 }
 
 12117 = {
-	name="SerindÃ«"
+	name="Serindë"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -2102,7 +2089,7 @@
 }
 
 12119 = {
-	name="LÃ³ralya"
+	name="Lóralya"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -2116,7 +2103,7 @@
 }
 
 12120 = {
-	name="NÃºmendil"
+	name="Númendil"
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -2135,7 +2122,7 @@
 }
 
 12121 = {
-	name="NehtÃ«"
+	name="Nehtë"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -2168,7 +2155,7 @@
 }
 
 12123 = {
-	name="VÃ³rima" #Line of RÃ³menna
+	name="Vórima" #Line of Rómenna
 	dynasty=12004
 	female=yes
 	religion="religion_numenorean"
@@ -2203,7 +2190,7 @@
 }
 
 12125 = {
-	name="EÃ¤wen" #Line of RÃ³menna
+	name="Eäwen" #Line of Rómenna
 	dynasty=12004
 	female=yes
 	religion="religion_numenorean"
@@ -2219,7 +2206,7 @@
 }
 
 12126 = {
-	name="ElectelÃ«"
+	name="Electelë"
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -2315,7 +2302,7 @@
 }
 
 12134 = {
-	name="Amanya" #Line of EldalondÃ«
+	name="Amanya" #Line of Eldalondë
 	female=yes
 	dynasty=12009
 	religion="religion_numenorean"
@@ -2402,7 +2389,7 @@
 }
 
 12137 = {
-	name="AnÃ¡rion"
+	name="Anárion"
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -2523,7 +2510,7 @@
 }
 
 12142 = {
-	name="ElestirnÃ«"
+	name="Elestirnë"
 	female=yes
 	dynasty=12003
 	religion="religion_numenorean"
@@ -2634,7 +2621,7 @@
 }
 
 12147 = {
-	name="YÃ¡vien"
+	name="Yávien"
 	female=yes
 	dynasty=12001
 	religion="religion_numenorean"
@@ -2681,7 +2668,7 @@
 		birth="5412.1.1"
 	}
 	5507.1.1={ 
-		add_trait=at_east  # Oromendur and Melyanna found the first NÃºmenorÃ«an colonial kingdom in the far East of Middle-earth
+		add_trait=at_east  # Oromendur and Melyanna found the first Númenorëan colonial kingdom in the far East of Middle-earth
 	}
 	5514.1.1={
 		add_spouse=12165
@@ -2711,7 +2698,7 @@
 }
 
 12151 = {
-	name="LindissÃ«"
+	name="Lindissë"
 	female=yes
 	dynasty=12001
 	religion="religion_numenorean"
@@ -2767,7 +2754,7 @@
 }
 
 12154 = {
-	name="IrÃ­ciÃ«"
+	name="Irícië"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -2781,7 +2768,7 @@
 }
 
 12155 = {
-	name="ÃrildÃ«"
+	name="Írildë"
 	female=yes
 	dynasty=12001
 	religion="religion_numenorean"
@@ -2831,7 +2818,7 @@
 }
 
 12158 = {
-	name="NessaniÃ«"
+	name="Nessanië"
 	female=yes
 	dynasty=12001
 	religion="religion_numenorean"
@@ -2963,7 +2950,7 @@
 		birth="5442.1.1"
 	}
 	5507.1.1={ 
-		add_trait=at_east  # Oromendur and Melyanna found the first NÃºmenorÃ«an colonial kingdom in the far East of Middle-earth
+		add_trait=at_east  # Oromendur and Melyanna found the first Númenorëan colonial kingdom in the far East of Middle-earth
 	}
 	5777.1.1={
 		death="5777.1.1"
@@ -2971,7 +2958,7 @@
 }
 
 12166 = {
-	name="VÃ«antur"
+	name="Vëantur"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3006,7 +2993,7 @@
 	}
 }
 
-# Line of Ciryatur - Lords of VailÃ«londÃ«, Orrostar
+# Line of Ciryatur - Lords of Vailëlondë, Orrostar
 
 12168 = {
 	name="Falmandur"
@@ -3057,7 +3044,7 @@
 }
 
 12220 = {
-	name="NÃ³liel"
+	name="Nóliel"
 	female=yes
 	dynasty=12006
 	religion="religion_numenorean"
@@ -3124,7 +3111,7 @@
 }
 
 12174 = {
-	name="UinilmÃ«"
+	name="Uinilmë"
 	female=yes
 	dynasty=12006
 	religion="religion_numenorean"
@@ -3139,10 +3126,10 @@
 	}
 }
 
-# Line of CÃºthalion - Lords of Ondosto
+# Line of Cúthalion - Lords of Ondosto
 
 12175 = {
-	name="CÃºnendil"
+	name="Cúnendil"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3160,7 +3147,7 @@
 }
 
 12176 = {
-	name="CÃºnamir"
+	name="Cúnamir"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3206,7 +3193,7 @@
 }
 
 12356 = {
-	name="CÃºthalion"
+	name="Cúthalion"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3221,7 +3208,7 @@
 }
 
 12357 = {
-	name="CÃ­rdan"
+	name="Círdan"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3266,7 +3253,7 @@
 }
 
 12360 = {
-	name="NÃºmemir"
+	name="Númemir"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3311,7 +3298,7 @@
 }
 
 12363 = {
-	name="EldalÃ³tÃ«"
+	name="Eldalótë"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3356,7 +3343,7 @@
 }
 
 12366 = {
-	name="MireÃ¤dur"
+	name="Mireädur"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3371,7 +3358,7 @@
 }
 
 12367 = {
-	name="MireÃ¤tan"
+	name="Mireätan"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3401,7 +3388,7 @@
 }
 
 12369 = {
-	name="RÃ³mÃ«mir"
+	name="Rómëmir"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3416,7 +3403,7 @@
 }
 
 12370 = {
-	name="RÃ³matar"
+	name="Rómatar"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3501,7 +3488,7 @@
 		birth="7777.1.1"
 	}
 	8014.1.1={
-		name="ZimrÃ¢dun"
+		name="Zimrâdun"
 	}
 	8061.1.1={
 		death="8061.1.1"
@@ -3509,7 +3496,7 @@
 }
 
 12375 = {
-	name="ZimrabÃ¢r"
+	name="Zimrabâr"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3524,7 +3511,7 @@
 }
 
 12376 = {
-	name="AphanuzÃ®r"
+	name="Aphanuzîr"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3573,7 +3560,7 @@
 }
 
 12379 = {
-	name="AlquarossÃ«"
+	name="Alquarossë"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3588,7 +3575,7 @@
 }
 
 12380 = {
-	name="CÃºnamir"
+	name="Cúnamir"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3603,7 +3590,7 @@
 }
 
 12381 = {
-	name="CÃºnendur"
+	name="Cúnendur"
 	dynasty=12007
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3618,7 +3605,7 @@
 }
 
 12382 = {
-	name="EctelÃ«ion"
+	name="Ectelëion"
 	dynasty=113
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3734,7 +3721,7 @@
 }
 
 12182 = {
-	name="NÃºneth"
+	name="Núneth"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3764,7 +3751,7 @@
 	}
 }
 
-# Branch of EÃ¤rendur
+# Branch of Eärendur
 
 12184 = {
 	name="Caliondo"
@@ -3883,10 +3870,10 @@
 	}
 }
 
-# Lords of EldalondÃ«
+# Lords of Eldalondë
 
 12191 = {
-	name="YÃ¡vaniel"
+	name="Yávaniel"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3919,7 +3906,7 @@
 }
 
 12193 = {
-	name="SÃºrien"
+	name="Súrien"
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -3933,7 +3920,7 @@
 }
 
 12194 = {
-	name="NÃ­niel"
+	name="Níniel"
 	female=yes
 	dynasty=12001
 	religion="religion_numenorean"
@@ -4052,10 +4039,10 @@
 	}
 }
 
-# Line of Ardamir - Lords of RÃ³menna
+# Line of Ardamir - Lords of Rómenna
 
 12201 = {
-	name="EÃ¤rmir"
+	name="Eärmir"
 	dynasty=12004
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4200,7 +4187,7 @@
 }
 
 12210 = {
-	name="NÃºmemir"
+	name="Númemir"
 	dynasty=12004
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4260,7 +4247,7 @@
 }
 
 12214 = {
-	name="EÃ¤rendil"
+	name="Eärendil"
 	dynasty=12004
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4335,7 +4322,7 @@
 }
 
 12219 = {
-	name="EÃ¤rendacil"
+	name="Eärendacil"
 	dynasty=12004
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4365,7 +4352,7 @@
 }
 
 12131 = {
-	name="RÃ³mÃ«mir"
+	name="Rómëmir"
 	dynasty=12004
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4380,7 +4367,7 @@
 }
 
 12132 = {
-	name="RÃ³mendur"
+	name="Rómendur"
 	dynasty=12004
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4420,7 +4407,7 @@
 }
 
 12225 = {
-	name="MÃ­rÃ«"
+	name="Mírë"
 	dynasty=12004
 	female=yes
 	religion="religion_numenorean"
@@ -4488,13 +4475,13 @@
 		birth="6662.1.1"
 	}
 	6724.1.1={
-		name="MÃ»raphel"
+		name="Mûraphel"
 		culture="culture_black_numenorean"
 		add_trait= evil_side
-	} #Moriel follows her brother into corruption and is trained as a Witch by her sister-in-law, MaegnÃºrwen
+	} #Moriel follows her brother into corruption and is trained as a Witch by her sister-in-law, Maegnúrwen
 	6907.1.1={
 		death="6907.1.1"
-	} #Slain by King Oromendil II of RÃ³menor
+	} #Slain by King Oromendil II of Rómenor
 }
 
 ## Lords of Nindamos ##
@@ -4516,7 +4503,7 @@
 	}
 }
 12226 = {
-	name="NÃ¡ramir"
+	name="Náramir"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4530,7 +4517,7 @@
 	}
 }
 12227 = {
-	name="NÃ¡rmenel"
+	name="Nármenel"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4558,7 +4545,7 @@
 	}
 }
 12229 = {
-	name="AbrazÃ®r"
+	name="Abrazîr"
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4637,7 +4624,7 @@
 	}
 }
 12234 = {
-	name="AndÃºnar"
+	name="Andúnar"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4665,7 +4652,7 @@
 	}
 }
 12236 = {
-	name="MÃ­ryaher"
+	name="Míryaher"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4707,7 +4694,7 @@
 	}
 }
 12239 = {
-	name="NÃºmentur"
+	name="Númentur"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4721,7 +4708,7 @@
 	}
 }
 12240 = {
-	name="MÃ¡renar"
+	name="Márenar"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4777,7 +4764,7 @@
 	}
 }
 12244 = {
-	name="MÃ­ryaher"
+	name="Míryaher"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4875,7 +4862,7 @@
 	}
 }
 12251 = {
-	name="BalkuthÃ´r"
+	name="Balkuthôr"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4889,7 +4876,7 @@
 	}
 }
 12252 = {
-	name="AphanuzÃ®r"
+	name="Aphanuzîr"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4903,7 +4890,7 @@
 	}
 }
 12253 = {
-	name="AgandaÃ»r"
+	name="Agandaûr"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4917,7 +4904,7 @@
 	}
 }
 12254 = {
-	name="BÃªlnithil"
+	name="Bêlnithil"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4932,7 +4919,7 @@
 	}
 }
 12255 = {
-	name="SakalbÃ¢r"
+	name="Sakalbâr"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4946,10 +4933,10 @@
 	}
 }
 
-# Lords of EldalondÃ«
+# Lords of Eldalondë
 
 12256 = {
-	name="MÃ­rion"
+	name="Mírion"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -4979,7 +4966,7 @@
 }
 
 12258 = {
-	name="Ã‰ruaryon"
+	name="Éruaryon"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5039,7 +5026,7 @@
 }
 
 12262 = {
-	name="MÃ­ryaher"
+	name="Míryaher"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5054,7 +5041,7 @@
 }
 
 12263 = {
-	name="MÃ­ryaryon"
+	name="Míryaryon"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5199,7 +5186,7 @@
 		birth="7710.1.1"
 	}
 	7834.1.1={
-			name="SakalbÃ¢r"
+			name="Sakalbâr"
 	}
 	7921.1.1={
 		death="7921.1.1"
@@ -5207,7 +5194,7 @@
 }
 
 12273 = {
-	name="NimruzÃ®r"
+	name="Nimruzîr"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5222,7 +5209,7 @@
 }
 
 12274 = {
-	name="UlbuzÃ®r"
+	name="Ulbuzîr"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5237,7 +5224,7 @@
 }
 
 12275 = {
-	name="SapazÃ®r"
+	name="Sapazîr"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5252,7 +5239,7 @@
 }
 
 12276 = {
-	name="ImrakhÃ´r"
+	name="Imrakhôr"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5267,7 +5254,7 @@
 }
 
 12277 = {
-	name="InziladÃ»n"
+	name="Inziladûn"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5287,7 +5274,7 @@
 
 ## Line of Ohtar ##
 12278 = {
-	name="ZimrÃ¢dun"
+	name="Zimrâdun"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5297,7 +5284,7 @@
 		birth="7963.1.1"
 	}
 	8067.1.1={
-		name="NÃºmemir"
+		name="Númemir"
 	}
 	8171.1.1={
 		death="8171.1.1"
@@ -5305,7 +5292,7 @@
 }
 
 12279 = {
-	name="AutÃ«aryon"
+	name="Autëaryon"
 	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5340,7 +5327,7 @@
 	}
 }
 
-## Lords of EmeriÃ« ##
+## Lords of Emerië ##
 
 
 12319 = {
@@ -5390,7 +5377,7 @@
 }
 
 12322 = {
-	name="MÃ¡mandil"
+	name="Mámandil"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5615,7 +5602,7 @@
 }
 
 12336 = {
-	name="LlÃ³tendil"
+	name="Llótendil"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5630,7 +5617,7 @@
 }
 
 12337 = {
-	name="NÃ¡ramir"
+	name="Náramir"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5640,7 +5627,7 @@
 		birth="7816.1.1"
 	}
 	8012.1.1={
-		name="ZimrazÃ´r"
+		name="Zimrazôr"
 	}	
 	8090.1.1={
 		death="8090.1.1"
@@ -5648,7 +5635,7 @@
 }
 
 12338 = {
-	name="InziladÃ»n"
+	name="Inziladûn"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5663,7 +5650,7 @@
 }
 
 12339 = {
-	name="AbrazÃ®r"
+	name="Abrazîr"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5678,7 +5665,7 @@
 }
 
 12340 = {
-	name="UlbuzÃ®r"
+	name="Ulbuzîr"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5693,7 +5680,7 @@
 }
 
 12341 = {
-	name="SapazÃ®r"
+	name="Sapazîr"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5742,7 +5729,7 @@
 }
 
 12344 = {
-	name="Ã‰ruaryon"
+	name="Éruaryon"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5787,7 +5774,7 @@
 }
 
 12347 = {
-	name="MÃ¡mandil"
+	name="Mámandil"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5858,7 +5845,7 @@
 }
 
 12351 = {
-	name="EÃ¤rcil"
+	name="Eärcil"
 	dynasty=12008
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5891,7 +5878,7 @@
 }
 
 12353 = {
-	name="NÃ¡mondur"
+	name="Námondur"
 	dynasty=108
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5957,7 +5944,7 @@
 }
 
 12387 = {
-	name="SÃºlmacil"
+	name="Súlmacil"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -5972,7 +5959,7 @@
 }
 
 12388 = {
-	name="SÃºlitar"
+	name="Súlitar"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6107,7 +6094,7 @@
 }
 
 12396 = {
-	name="AutÃ«aryon"
+	name="Autëaryon"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6122,7 +6109,7 @@
 }
 
 12397 = {
-	name="EÃ¤rendil"
+	name="Eärendil"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6152,7 +6139,7 @@
 }
 
 12399 = {
-	name="HerunÃºmen"
+	name="Herunúmen"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6215,7 +6202,7 @@
 }
 
 12403 = {
-	name="AdÃ»nabÃ¢r"
+	name="Adûnabâr"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6245,7 +6232,7 @@
 }
 
 12405 = {
-	name="NimruzÃ®r"
+	name="Nimruzîr"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6279,7 +6266,7 @@
 }
 
 12407 = {
-	name="AnÃ¡rion"
+	name="Anárion"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6294,7 +6281,7 @@
 }
 
 12408 = {
-	name="AnÃ¡ratan"
+	name="Anáratan"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6309,7 +6296,7 @@
 }
 
 12409 = {
-	name="AnÃ¡ratan"
+	name="Anáratan"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6360,7 +6347,7 @@
 ## Line of Dor-en-Ernil ##
 
 12412 = {
-	name="CÃºnendil"
+	name="Cúnendil"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6390,7 +6377,7 @@
 }
 
 12414 = {
-	name="CÃºnamir"
+	name="Cúnamir"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6441,7 +6428,7 @@
 }
 
 12417 = {
-	name="EÃ¤rtur"
+	name="Eärtur"
 	dynasty=12006
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6461,7 +6448,7 @@
 ## Lords of Pelargir ##
 
 12435 = {
-	name="NÃ¡rmenel"
+	name="Nármenel"
 	dynasty=12010
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6476,7 +6463,7 @@
 }
 
 12436 = {
-	name="LlÃ³tendil"
+	name="Llótendil"
 	dynasty=12010
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6506,7 +6493,7 @@
 }
 
 12438 = {
-	name="AndÃºchÃ­l"
+	name="Andúchíl"
 	dynasty=12010
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6608,7 +6595,7 @@
 
 
 12419 = {
-	name="AdÃ»nabÃ¢r"
+	name="Adûnabâr"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6623,7 +6610,7 @@
 }
 
 12420 = {
-	name="AphanuzÃ®r"
+	name="Aphanuzîr"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6653,7 +6640,7 @@
 }
 
 12422 = {
-	name="AgandaÃ»r"
+	name="Agandaûr"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6668,7 +6655,7 @@
 }
 
 12423 = {
-	name="UlbÃ¢r"
+	name="Ulbâr"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6683,7 +6670,7 @@
 }
 
 12424 = {
-	name="ZabathÃ¢nardu"
+	name="Zabathânardu"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6698,7 +6685,7 @@
 }
 
 12425 = {
-	name="ZabathÃ¢n"
+	name="Zabathân"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6713,7 +6700,7 @@
 }
 
 12426 = {
-	name="SapazÃ®r"
+	name="Sapazîr"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6728,7 +6715,7 @@
 }
 
 12427 = {
-	name="AndvÃ­r"
+	name="Andvír"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6743,7 +6730,7 @@
 }
 
 12428 = {
-	name="BÃ³r"
+	name="Bór"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6788,7 +6775,7 @@
 }
 
 12431 = {
-	name="AphanuzÃ®r"
+	name="Aphanuzîr"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6802,7 +6789,7 @@
 	}
 }
 12432 = {
-	name="ArphagÃ´r"
+	name="Arphagôr"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6816,7 +6803,7 @@
 	}
 }
 12433 = {
-	name="AzrubÃªl"
+	name="Azrubêl"
 	dynasty=13002
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6882,7 +6869,7 @@
 	}
 }
 12902 = {
-	name="AnÃ¡rion"
+	name="Anárion"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6910,7 +6897,7 @@
 	}
 }
 12904 = {
-	name="SoronrÃ¡mar"
+	name="Soronrámar"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6924,7 +6911,7 @@
 	}
 }
 12905 = {
-	name="SÃºlendur"
+	name="Súlendur"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -6980,7 +6967,7 @@
 	}
 }
 12909 = {
-	name="VÃ­rinehtar"
+	name="Vírinehtar"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7008,7 +6995,7 @@
 	}
 }
 12911 = {
-	name="EÃ¤rgon"
+	name="Eärgon"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7036,7 +7023,7 @@
 	}
 }
 12913 = {
-	name="ArtanÃ¡ro"
+	name="Artanáro"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7050,7 +7037,7 @@
 	}
 }
 12914 = {
-	name="AnÃ¡ratan"
+	name="Anáratan"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7067,7 +7054,7 @@
 	}
 }
 12915 = {
-	name="MÃ¡mandur"
+	name="Mámandur"
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7084,7 +7071,7 @@
 	}
 }
 12916 = {
-	name="MÃ­rendil" ## father of Caramir Caramirionath of Andrast id1300
+	name="Mírendil" ## father of Caramir Caramirionath of Andrast id1300
 	dynasty=12005
 	religion="religion_numenorean"
 	culture="culture_gondorian"
@@ -7102,7 +7089,7 @@
 
 
 12282 = {
-	name="AbÃ¢ruzÃ»r"
+	name="Abâruzûr"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7116,7 +7103,7 @@
 	}
 }
 12283 = {
-	name="AdÃ»naphazÃ´r"
+	name="Adûnaphazôr"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7130,7 +7117,7 @@
 	}
 }
 12284 = {
-	name="AbattÃ¢rik"
+	name="Abattârik"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7144,7 +7131,7 @@
 	}
 }
 12285 = {
-	name="InzilzÃ»r"
+	name="Inzilzûr"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7158,7 +7145,7 @@
 	}
 }
 12286 = {
-	name="MinulzÃ»r"
+	name="Minulzûr"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7173,7 +7160,7 @@
 }
 
 12287 = {
-	name="MÃ»rakhÃ´r"
+	name="Mûrakhôr"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7188,7 +7175,7 @@
 }
 
 12288 = {
-	name="UlbuzÃ®r"
+	name="Ulbuzîr"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7202,7 +7189,7 @@
 	}
 }
 12289 = {
-	name="Ã›rÃªzÃ»r"
+	name="Ûrêzûr"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7216,7 +7203,7 @@
 	}
 }
 12290 = {
-	name="TamarzÃ»r"
+	name="Tamarzûr"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7230,7 +7217,7 @@
 	}
 }
 12291 = {
-	name="ZimrÃ¢dun"
+	name="Zimrâdun"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7244,7 +7231,7 @@
 	}
 }
 12292 = {
-	name="ZimrazÃ»l"
+	name="Zimrazûl"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7258,7 +7245,7 @@
 	}
 }
 12293 = {
-	name="ZabathÃ¢nardu"
+	name="Zabathânardu"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7272,7 +7259,7 @@
 	}
 }
 12294 = {
-	name="ÃŠruhil"
+	name="Êruhil"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7300,7 +7287,7 @@
 	}
 }
 12296 = {
-	name="BalkumagÃ¢n"
+	name="Balkumagân"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7314,7 +7301,7 @@
 	}
 }
 12297 = {
-	name="AvalÃ´izÃ®r"
+	name="Avalôizîr"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -7342,7 +7329,7 @@
 	}
 }
 12299 = {
-	name="AzarkarbÃ»"
+	name="Azarkarbû"
 	dynasty=13001
 	religion="religion_numenorean"
 	culture="culture_numenorean"

@@ -1,5 +1,5 @@
 3001 = {
-	name="EÃ¤rendil"
+	name="Eärendil"
 	dynasty=3001
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -236,10 +236,10 @@
 	8443.1.1 = {
 		remove_trait=elessar
 		add_trait=elven_infertility
-	} #Galadriel gives the Elessar to CelebrÃ­an
+	} #Galadriel gives the Elessar to Celebrían
 	9343.1.1 = {
 		add_trait=elessar
-	} #Gandalf brings the Elessar of EÃ¤rendil from Valinor and delivers it to Galadriel
+	} #Gandalf brings the Elessar of Eärendil from Valinor and delivers it to Galadriel
 	10806.1.1 = {
 		add_trait=white_council
 		effect= {
@@ -251,7 +251,7 @@
 	} #The White Council is formed
 	11361.2.16 = {
 		remove_trait=elessar
-	} #Galadriel delivers the Elessar of EÃ¤rendil to Aragorn
+	} #Galadriel delivers the Elessar of Eärendil to Aragorn
 	11364.1.1 = {
 		remove_trait=white_council
 		add_trait=sailed_west
@@ -259,7 +259,7 @@
 }
 
 3007 = {
-	name="CelebrÃ­an"
+	name="Celebrían"
 	dynasty=3003
 	female=yes
 	religion="religion_moriquendi"
@@ -279,12 +279,12 @@
 	}
 	8443.1.1 = {
 		add_trait=elessar
-	} #Galadriel gives the Elessar to CelebrÃ­an
+	} #Galadriel gives the Elessar to Celebrían
 	10853.1.1 = {
 		remove_trait=elessar
 		add_trait=sailed_west
 		employer = 10001
-	} #CelebrÃ­an gives the Elessar to Arwen before she sails West
+	} #Celebrían gives the Elessar to Arwen before she sails West
 }
 
 3008 = {
@@ -356,8 +356,8 @@
 	dynasty=3002
 	female=yes
 
-	dna="adifcrgfcbk"
-	properties="ck0dgd000000"
+	dna="cmack0ahaa0"
+	properties="mh0egibebbb"
 
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -388,7 +388,7 @@
 	}
 	10853.1.1 = {
 		add_trait=elessar
-	} #CelebrÃ­an gives the Elessar to Arwen before she sails West
+	} #Celebrían gives the Elessar to Arwen before she sails West
 	11323.1.1={
 		
 		add_trait = vow_of_cerin_amroth
@@ -422,7 +422,7 @@
 }
 
 3013 = {
-	name="IminyÃ«"
+	name="Iminyë"
 	female=yes
 	dynasty=3010
 	religion="religion_moriquendi"
@@ -452,7 +452,7 @@
 }
 
 3015 = {
-	name="TatiÃ«"
+	name="Tatië"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -482,7 +482,7 @@
 }
 
 3017 = {
-	name="EnelyÃ«"
+	name="Enelyë"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -512,7 +512,7 @@
 }
 
 3019 = {
-	name="IcantiÃ«"
+	name="Icantië"
 	female=yes
 	dynasty=3010
 	religion="religion_moriquendi"
@@ -542,7 +542,7 @@
 }
 
 3021 = {
-	name="ElemenyÃ«"
+	name="Elemenyë"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -572,7 +572,7 @@
 }
 
 3023 = {
-	name="EncuiÃ«"
+	name="Encuië"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -602,7 +602,7 @@
 }
 
 3025 = {
-	name="LotsoyÃ«"
+	name="Lotsoyë"
 	female=yes
 	dynasty=3010
 	religion="religion_moriquendi"
@@ -632,7 +632,7 @@
 }
 
 3027 = {
-	name="ToltyÃ«"
+	name="Toltyë"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -662,7 +662,7 @@
 }
 
 3029 = {
-	name="EnertiÃ«"
+	name="Enertië"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -692,7 +692,7 @@
 }
 
 3031 = {
-	name="CainiÃ«"
+	name="Cainië"
 	female=yes
 	dynasty=3010
 	religion="religion_moriquendi"
@@ -722,7 +722,7 @@
 }
 
 3033 = {
-	name="MincayÃ«"
+	name="Mincayë"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -752,7 +752,7 @@
 }
 
 3035 = {
-	name="YuncaiÃ«"
+	name="Yuncaië"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -782,7 +782,7 @@
 }
 
 3037 = {
-	name="NelquiÃ«"
+	name="Nelquië"
 	female=yes
 	dynasty=3010
 	religion="religion_moriquendi"
@@ -812,7 +812,7 @@
 }
 
 3039 = {
-	name="CanaquiÃ«"
+	name="Canaquië"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -842,7 +842,7 @@
 }
 
 3041 = {
-	name="LepenyÃ«"
+	name="Lepenyë"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -872,7 +872,7 @@
 }
 
 3043 = {
-	name="EnenyÃ«"
+	name="Enenyë"
 	female=yes
 	dynasty=3010
 	religion="religion_moriquendi"
@@ -902,7 +902,7 @@
 }
 
 3045 = {
-	name="OtoquiÃ«"
+	name="Otoquië"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -932,7 +932,7 @@
 }
 
 3047 = {
-	name="ToloquiÃ«"
+	name="Toloquië"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -962,7 +962,7 @@
 }
 
 3049 = {
-	name="EterquiÃ«"
+	name="Eterquië"
 	female=yes
 	dynasty=3010
 	religion="religion_moriquendi"
@@ -992,7 +992,7 @@
 }
 
 3051 = {
-	name="QuainyÃ«"
+	name="Quainyë"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -1022,7 +1022,7 @@
 }
 
 3053 = {
-	name="MinquiÃ«"
+	name="Minquië"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -1038,7 +1038,7 @@
 #Firstborn Elves (First generation of Elves born)
 
 3054 = {
-	name="IngwÃ«"
+	name="Ingwë"
 	dynasty=3010
 	religion="religion_moriquendi"
 	culture="culture_minyar"
@@ -1054,8 +1054,7 @@
 	527.1.1 = {
 		culture="culture_vanyar"
 		dynasty=3008
-		add_trait=sailed_west	
-		add_trait=light_valinor
+		add_trait=sailed_west		
 		employer = 10001
 	}
 	795.1.1 = {
@@ -1064,7 +1063,7 @@
 }
 
 3055 = {
-	name="FinwÃ«"
+	name="Finwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -1096,8 +1095,8 @@
 	527.1.1 = {
 		culture="culture_noldor"
 		dynasty=3006
-		add_trait=sailed_west
 		add_trait=light_valinor
+		add_trait=sailed_west		
 		employer = 10001
 	}
 	795.1.1 = {
@@ -1112,7 +1111,7 @@
 }
 
 3056 = {
-	name="ElwÃ« Singollo"
+	name="Elwë Singollo"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1145,14 +1144,14 @@
 		add_trait=nauglamir
 		add_trait=aranruth
 		add_spouse=10017
-	} #ElwÃ« marries Melian and establishes Doriath
+	} #Elwë marries Melian and establishes Doriath
 	4814.1.1 = {
 		death="4814.1.1"
 	} #Slain by the Dwarves of Nogrod
 }
 
 3057 = {
-	name="MorwÃ«"
+	name="Morwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -1177,7 +1176,7 @@
 }
 
 3058 = {
-	name="NurwÃ«"
+	name="Nurwë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1202,7 +1201,7 @@
 }
 
 3059 = {
-	name="MalawÃ«"
+	name="Malawë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -1227,7 +1226,7 @@
 }
 
 3060 = {
-	name="AldawÃ«"
+	name="Aldawë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1249,11 +1248,11 @@
 	}
 	4662.1.1 = {
 		death="4662.1.1"
-	} #Slain by the Armies of Morgoth attacking the Council of the East in the Dagor IÃ¡rmael
+	} #Slain by the Armies of Morgoth attacking the Council of the East in the Dagor Iármael
 }
 
 3061 = {
-	name="FalawÃ«"
+	name="Falawë"
 	dynasty=3010
 	religion="religion_moriquendi"
 	culture="culture_minyar"
@@ -1275,11 +1274,11 @@
 	}
 	4662.1.1 = {
 		death="4662.1.1"
-	} #Slain by the Armies of Morgoth attacking the Council of the East in the Dagor IÃ¡rmael
+	} #Slain by the Armies of Morgoth attacking the Council of the East in the Dagor Iármael
 }
 
 3062 = {
-	name="MÃ­rwÃ«"
+	name="Mírwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -1294,7 +1293,7 @@
 	}
 	527.1.1 = {
 		culture="culture_avari"
-		name="MÃ­rdan"
+		name="Mírdan"
 		dynasty=3020
 	}
 	1437.1.1 = {
@@ -1305,15 +1304,15 @@
 		add_trait=sailed_west
 		remove_trait=at_east
 		add_trait=light_valinor
-	} # Taken to Valinor by OromÃ«
+	} # Taken to Valinor by Oromë
 	3928.1.1 = {
 		remove_trait=sailed_west
 		add_trait=at_east
-	} # Taken back to Endor by OromÃ«
+	} # Taken back to Endor by Oromë
 }
 
 3063 = {
-	name="LenwÃ«"
+	name="Lenwë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1338,11 +1337,11 @@
 	}
 	4785.1.1 = {
 		death="4785.1.1"
-	} #Slain on Caras Galadhon by Balrogs in pursuit of the Host of SÃºlwÃ«
+	} #Slain on Caras Galadhon by Balrogs in pursuit of the Host of Súlwë
 }
 
 3064 = {
-	name="IstawÃ«"
+	name="Istawë"
 	dynasty=3010
 	religion="religion_moriquendi"
 	culture="culture_minyar"
@@ -1367,7 +1366,7 @@
 }
 
 3065 = {
-	name="NowÃ«"
+	name="Nowë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1402,7 +1401,7 @@
 		dynasty=3015
 	}
 	949.1.1 = {
-		name="CÃ­rdan"
+		name="Círdan"
 	}
 	977.1.1 = {
 		culture="culture_sindar"
@@ -1412,13 +1411,13 @@
 	}
 	6596.1.1 = {
 		add_trait=narya
-	} #Celebrimbor delivers the Ring Narya to CÃ­rdan
+	} #Celebrimbor delivers the Ring Narya to Círdan
 	9343.1.1={
 		remove_trait=narya
-	} #CÃ­rdan gifts Narya to OlÃ³rin
+	} #Círdan gifts Narya to Olórin
 	9343.1.1={
 		add_trait=beard_elf
-	} #CÃ­rdan gifts Narya to OlÃ³rin
+	} #Círdan gifts Narya to Olórin
 
 	10806.1.1 = {
 		add_trait=white_council
@@ -1433,7 +1432,7 @@
 }
 
 3066 = {
-	name="CelepwÃ«"
+	name="Celepwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -1458,7 +1457,7 @@
 }
 
 3067 = {
-	name="FÃ¡wÃ«"
+	name="Fáwë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1478,7 +1477,7 @@
 		culture="culture_falmari"
 		add_trait=sailed_west
 		add_trait=light_valinor
-	} #OlwÃ« and the greater part of the Teleri arrive in Valinor
+	} #Olwë and the greater part of the Teleri arrive in Valinor
 	1341.1.1 = {
 		add_spouse=3083
 	}
@@ -1488,7 +1487,7 @@
 }
 
 3068 = {
-	name="UrunwÃ«"
+	name="Urunwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -1516,7 +1515,7 @@
 }
 
 3069 = {
-	name="RÃºwÃ«"
+	name="Rúwë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1545,7 +1544,7 @@
 }
 
 3070 = {
-	name="OlwÃ«"
+	name="Olwë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1573,14 +1572,14 @@
 		add_trait=sailed_west
 		add_trait=light_valinor
 		employer = 10001
-	} #OlwÃ« and the greater part of the Teleri arrive in Valinor
+	} #Olwë and the greater part of the Teleri arrive in Valinor
 	1073.1.1 = {
 		add_spouse=3080
 	}
 }
 
 3071 = {
-	name="IlwÃ«"
+	name="Ilwë"
 	dynasty=3010
 	religion="religion_moriquendi"
 	culture="culture_minyar"
@@ -1602,7 +1601,7 @@
 }
 
 3072 = {
-	name="AngawÃ«"
+	name="Angawë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -1627,7 +1626,7 @@
 }
 
 3073 = {
-	name="CurwÃ«"
+	name="Curwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -1738,7 +1737,7 @@
 }
 
 3078 = {
-	name="AlwÃ«"
+	name="Alwë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1766,7 +1765,7 @@
 }
 
 3079 = {
-	name="ElenwÃ«"
+	name="Elenwë"
 	dynasty=3010
 	religion="religion_moriquendi"
 	culture="culture_minyar"
@@ -1788,7 +1787,7 @@
 }
 
 3080 = {
-	name="NinquelÃ³te"
+	name="Ninquelóte"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -1809,11 +1808,11 @@
 		add_trait=sailed_west
 		add_trait=light_valinor
 		employer = 10001
-	} #OlwÃ« and the greater part of the Teleri arrive in Valinor
+	} #Olwë and the greater part of the Teleri arrive in Valinor
 }
 
 3081 = {
-	name="AilinwÃ«"
+	name="Ailinwë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1841,7 +1840,7 @@
 }
 
 3082 = {
-	name="ElemwÃ«"
+	name="Elemwë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -1892,7 +1891,7 @@
 }
 
 3084 = {
-	name="AmbrÃ­an"
+	name="Ambrían"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -1964,7 +1963,7 @@
 }
 
 3087 = {
-	name="NÃ¡riel"
+	name="Náriel"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -1987,7 +1986,7 @@
 }
 
 3088 = {
-	name="ElyÃ«"
+	name="Elyë"
 	female=yes
 	dynasty=3012
 	religion="religion_moriquendi"
@@ -2038,7 +2037,7 @@
 }
 
 3090 = {
-	name="AlalmÃ«"
+	name="Alalmë"
 	female=yes
 	dynasty=3010
 	religion="religion_moriquendi"
@@ -2057,7 +2056,7 @@
 }
 
 3091 = {
-	name="MÃ­riel" #SerindÃ«
+	name="Míriel" #Serindë
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -2113,7 +2112,7 @@
 	}
 	4785.1.1 = {
 		death="4785.1.1"
-	} #Slain on Caras Galadhon by Balrogs in pursuit of the Host of SÃºlwÃ«
+	} #Slain on Caras Galadhon by Balrogs in pursuit of the Host of Súlwë
 }
 
 3093 = {
@@ -2142,7 +2141,7 @@
 }
 
 3094 = {
-	name="QuilwÃ«"
+	name="Quilwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -2166,7 +2165,7 @@
 	}
 	4294.1.1 = {
 		death="4294.1.1"
-	} #Died crossing the HelcaraxÃ«
+	} #Died crossing the Helcaraxë
 }
 
 3095 = {
@@ -2192,7 +2191,7 @@
 }
 
 3096 = {
-	name="TanwÃ«"
+	name="Tanwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -2241,11 +2240,11 @@
 	}
 	4294.1.1 = {
 		death="4294.1.1"
-	} #Died crossing the HelcaraxÃ«
+	} #Died crossing the Helcaraxë
 }
 
 3098 = {
-	name="LÃ¶wÃ«"
+	name="Löwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -2269,14 +2268,14 @@
 		dynasty=3036
 	}
 	1485.1.1 = {
-		name="EÃ¶l"
+		name="Eöl"
 	}
 	4628.1.1 = {
 		add_spouse=3133
 	}
 	4712.1.1 = {
 		death="4712.1.1"
-	} #Cast over the  CaragdÃ»r in Gondolin for killing Aredhel
+	} #Cast over the  Caragdûr in Gondolin for killing Aredhel
 }
 
 3099 = {
@@ -2300,7 +2299,7 @@
 }
 
 3100 = {
-	name="FÃ«awÃ«"
+	name="Fëawë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -2315,7 +2314,7 @@
 	}
 	527.1.1 = {
 		culture="culture_avari"
-		name="PhayatarÃ¶"
+		name="Phayatarö"
 		dynasty=3037
 	}
 	767.1.1 = {
@@ -2323,11 +2322,11 @@
 	}
 	4662.1.1 = {
 		death="4662.1.1"
-	} #Slain by the Armies of Morgoth attacking the Council of the East in the Dagor IÃ¡rmael
+	} #Slain by the Armies of Morgoth attacking the Council of the East in the Dagor Iármael
 }
 
 3101 = {
-	name="LauriÃ«"
+	name="Laurië"
 	female=yes
 	dynasty=3010
 	religion="religion_moriquendi"
@@ -2348,7 +2347,7 @@
 }
 
 3108 = {
-	name="IsilwÃ«"
+	name="Isilwë"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -2373,7 +2372,7 @@
 }
 
 3109 = {
-	name="VÃ­riÃ«"
+	name="Vírië"
 	dynasty=3012
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
@@ -2394,7 +2393,7 @@
 	} #Sauron makes Mordor his home and slays the Elves living in Nurn
 }
 
-#House of RÃºwÃ«
+#House of Rúwë
 
 3102 = {
 	name="Oropher"
@@ -2525,7 +2524,7 @@
 	}
 }
 3107 = {
-	name="AmdÃ­r"
+	name="Amdír"
 	dynasty=3029
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -2572,7 +2571,7 @@
 	} # drowned at sea
 }
 
-# House of IsilwÃ«
+# House of Isilwë
 
 3110 = {
 	name="Ithilbor"
@@ -2631,7 +2630,7 @@
 	}
 	4796.1.1 = {
 		death="4796.1.1"
-	} # killed by TÃºrin out of anger
+	} # killed by Túrin out of anger
 }
 
 3113 = {
@@ -2670,10 +2669,10 @@
 	} #Slain in the Dagor Bragollach
 }
 
-# Line of ElwÃ«
+# Line of Elwë
 
 3115 = {
-	name="LÃºthien TinÃºviel"
+	name="Lúthien Tinúviel"
 	dynasty=3009
 	female=yes
 	religion="religion_moriquendi"
@@ -2699,7 +2698,7 @@
 }
 
 3116 = {
-	name="Dior Aranel EluchÃ­l"
+	name="Dior Aranel Eluchíl"
 	dynasty=3002
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -2727,7 +2726,7 @@
 }
 
 3117 = {
-	name="ElurÃ©d"
+	name="Eluréd"
 	dynasty=3002
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -2749,7 +2748,7 @@
 }
 
 3118 = {
-	name="ElurÃ­n"
+	name="Elurín"
 	dynasty=3002
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -2811,7 +2810,7 @@
 		religion="religion_moriquendi"
 		add_trait=sailed_west
 		add_trait=light_valinor
-	} # Taken to Valinor by OromÃ«
+	} # Taken to Valinor by Oromë
 	1629.1.1 = {
 		add_spouse=3126
 	}
@@ -2915,10 +2914,10 @@
 	} #slain in the Sack of Doriath
 }
 
-# House of Mahtan (UrunwÃ«)
+# House of Mahtan (Urunwë)
 
 3126 = {
-	name="LaurÃ«anna"
+	name="Laurëanna"
 	dynasty=3014
 	female=yes
 	religion="religion_moriquendi"
@@ -2976,7 +2975,7 @@
 	}
 }
 
-# Line of IstawÃ«
+# Line of Istawë
 
 3128 = {
 	name="Indis"
@@ -2999,7 +2998,7 @@
 # Line of Fingolfin
 
 3129 = {
-	name="Ã‘olofinwÃ« AracÃ¡no" ## Fingolfin
+	name="Ñolofinwë Aracáno" ## Fingolfin
 	dynasty=3006
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3046,7 +3045,7 @@
 }
 
 3130 = {
-	name="AnairÃ«"
+	name="Anairë"
 	dynasty=3031
 	female=yes
 	religion="religion_moriquendi"
@@ -3054,18 +3053,18 @@
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
-	add_trait=light_valinor
+	add_trait=light_valino
 	father=3073
 	1533.1.1 = {
 		birth="1533.1.1"
 	}
 	4293.1.1 = {
 		death="4293.1.1"
-	} #Perished while crossing the HelcaraxÃ«
+	} #Perished while crossing the Helcaraxë
 }
 
 3131 = {
-	name="FindecÃ¡no" ## Fingon 
+	name="Findecáno" ## Fingon 
 	dynasty=3005
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3110,7 +3109,7 @@
 }
 
 3132 = {
-	name="TurucÃ¡no" ## Turgon
+	name="Turucáno" ## Turgon
 	dynasty=3005
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3157,7 +3156,7 @@
 }
 
 3133 = {
-	name="ÃrissÃ«" ## Aredhel Ar-Feiniel
+	name="Írissë" ## Aredhel Ar-Feiniel
 	dynasty=3005
 	female=yes
 	religion="religion_moriquendi"
@@ -3187,11 +3186,11 @@
 	}
 	4712.1.1 = {
 		death="4712.1.1"
-	} #killed by her husband EÃ¶l
+	} #killed by her husband Eöl
 }
 
 3134 = {
-	name="AracÃ¡no"
+	name="Aracáno"
 	dynasty=3005
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3232,11 +3231,11 @@
 	}
 	4293.1.1 = {
 		death="4293.1.1"
-	} #Perished while crossing the HelcaraxÃ«
+	} #Perished while crossing the Helcaraxë
 }
 
 3136 = {
-	name="ItarillÃ«" ## Idril Celebrindal
+	name="Itarillë" ## Idril Celebrindal
 	dynasty=3005
 	female=yes
 	religion="religion_moriquendi"
@@ -3293,7 +3292,7 @@
 }
 
 3139 = {
-	name="ArtanÃ¡ro" ## Gil-Galad
+	name="Artanáro" ## Gil-Galad
 	dynasty=3005
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3333,7 +3332,7 @@
 }
 
 3140 = {
-	name="LÃ³mion" ## Maeglin
+	name="Lómion" ## Maeglin
 	dynasty=3036
 	religion="religion_moriquendi"
 	culture="culture_avari"
@@ -3367,10 +3366,10 @@
 	} #Fall of Gondolin
 }
 
-# Line of OlwÃ«
+# Line of Olwë
 
 3141 = {
-	name="MaiwÃ«"
+	name="Maiwë"
 	dynasty=3013
 	religion="religion_moriquendi"
 	culture="culture_falmari"
@@ -3390,7 +3389,7 @@
 }
 
 3142 = {
-	name="AlqualÃ­r"
+	name="Alqualír"
 	dynasty=3013
 	religion="religion_moriquendi"
 	culture="culture_falmari"
@@ -3410,7 +3409,7 @@
 }
 
 3143 = {
-	name="EÃ¤rwen"
+	name="Eärwen"
 	female=yes
 	dynasty=3013
 	religion="religion_moriquendi"
@@ -3431,7 +3430,7 @@
 # Line of Finarfin
 
 3145 = {
-	name="ArafinwÃ« Ingoldo" ## Finarfin
+	name="Arafinwë Ingoldo" ## Finarfin
 	dynasty=3006
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3468,7 +3467,7 @@
 }
 
 3146 = {
-	name="Artafinde FindarÃ¡to" ## Finrod Felagund
+	name="Artafinde Findaráto" ## Finrod Felagund
 	dynasty=3004
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3507,7 +3506,7 @@
 }
 
 3147 = {
-	name="AmariÃ«"
+	name="Amarië"
 	female=yes
 	dynasty=3008
 	religion="religion_moriquendi"
@@ -3525,7 +3524,7 @@
 }
 
 3148 = {
-	name="ArtanÃ¡ro Artaresto" ## Orodreth
+	name="Artanáro Artaresto" ## Orodreth
 	dynasty=3004
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3562,7 +3561,7 @@
 }
 
 3149 = {
-	name="FindÃ«ÃºlÃ«alÃ³s"
+	name="Findëúlëalós"
 	female=yes
 	dynasty=3028
 	religion="religion_moriquendi"
@@ -3586,7 +3585,7 @@
 }
 
 3150 = { 
-	name="FindÃ«ÃºlÃ«a"  ## Finduilas
+	name="Findëúlëa"  ## Finduilas
 	female=yes
 	dynasty=3004
 	religion="religion_moriquendi"
@@ -3619,7 +3618,7 @@
 }
 
 3151 = {
-	name="AngarÃ¡to" ## Angrod
+	name="Angaráto" ## Angrod
 	dynasty=3004
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3657,7 +3656,7 @@
 }
 
 3152 = {
-	name="EldalÃ³tÃ«"
+	name="Eldalótë"
 	female=yes
 	dynasty=3035
 	religion="religion_moriquendi"
@@ -3724,11 +3723,11 @@
 	}
 	8342.1.1 = {
 		death="8342.1.1"
-	} #Slain in the Siege of Barad-dÃ»r
+	} #Slain in the Siege of Barad-dûr
 }
 
 3155 = {
-	name="AmbarÃ¡to AicanÃ¡ro"  ## Aegnor 
+	name="Ambaráto Aicanáro"  ## Aegnor 
 	dynasty=3004
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -3744,7 +3743,7 @@
 	add_trait=inspiring_leader
 	add_trait=duelist
 	add_trait=legendary_warrior
-	add_trait=light_valinor
+		add_trait=light_valinor
 	
 	father=3145
 	mother=3143
@@ -3764,7 +3763,7 @@
 	} #Slain in the Dagor Bragollach
 }
 
-# Line of QuilwÃ«
+# Line of Quilwë
 
 3156 = {
 	name="Guilin"
@@ -3793,7 +3792,7 @@
 }
 
 3157 = {
-	name="UnÃ­lwen"
+	name="Unílwen"
 	female=yes
 	dynasty=3028
 	religion="religion_moriquendi"
@@ -3840,7 +3839,7 @@
 }
 
 3159 = {
-	name="MÃ­rlÃ³s"
+	name="Mírlós"
 	female=yes
 	dynasty=3035
 	religion="religion_moriquendi"
@@ -3854,7 +3853,7 @@
 		birth="4264.1.1"
 	}
 	4312.1.1 = {
-		name="MÃ­rloth"
+		name="Mírloth"
 		remove_trait=sailed_west
 	}
 	6595.1.1 = {
@@ -3886,7 +3885,7 @@
 }
 
 3161 = {
-	name="VarnirÃ­na"
+	name="Varnirína"
 	female=yes
 	dynasty=3035
 	religion="religion_moriquendi"
@@ -3921,7 +3920,7 @@
 	}
 }
 
-# Lines of NurwÃ« and MorwÃ«
+# Lines of Nurwë and Morwë
 
 3163 = {
 	name="Nurlag"
@@ -3945,7 +3944,7 @@
 }
 
 3164 = {
-	name="MorlÃ­n"
+	name="Morlín"
 	female=yes
 	dynasty=3016
 	religion="religion_moriquendi"
@@ -3981,7 +3980,7 @@
 }
 
 3166 = {
-	name="NurlÃ­n"
+	name="Nurlín"
 	female=yes
 	dynasty=3017
 	religion="religion_moriquendi"
@@ -3998,7 +3997,7 @@
 	} #Slain in the War of the Elves and Sauron
 }
 
-# Line of LenwÃ«
+# Line of Lenwë
 
 3167 = {
 	name="Denethor"
@@ -4087,7 +4086,7 @@
 }
 
 3170 = {
-	name="DÃ­rellas"
+	name="Dírellas"
 	dynasty=3004
 	female=yes
 	religion="religion_moriquendi"
@@ -4161,10 +4160,10 @@
 	}
 } # Wandering southern Ithilien alone
 
-# Line of AlwÃ«
+# Line of Alwë
 
 3174 = {
-	name="Beleg CÃºthalion"
+	name="Beleg Cúthalion"
 	dynasty=3032
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -4191,7 +4190,7 @@
 	}
 	4801.1.1 = {
 		death="4801.1.1"
-	} #Slain on accident by TÃºrin
+	} #Slain on accident by Túrin
 }
 
 3175 = {
@@ -4234,7 +4233,7 @@
 }
 
 3177 = {
-	name="GelluÃ­r"
+	name="Gelluír"
 	dynasty=3032
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -4273,7 +4272,7 @@
 }
 
 3179 = {
-	name="AnorÃ¡na"
+	name="Anorána"
 	female=yes
 	dynasty=3034
 	religion="religion_moriquendi"
@@ -4288,7 +4287,7 @@
 }
 
 3180 = {
-	name="LÃ­anna"
+	name="Líanna"
 	female=yes
 	dynasty=3032
 	religion="religion_moriquendi"
@@ -4303,7 +4302,7 @@
 	}
 }
 
-# Line of CelepwÃ«
+# Line of Celepwë
 
 3181 = {
 	name="Mablung"
@@ -4361,7 +4360,7 @@
 }
 
 3184 = {
-	name="AlmÃ¡rwen"
+	name="Almárwen"
 	female=yes
 	dynasty=3034
 	religion="religion_moriquendi"
@@ -4381,7 +4380,7 @@
 }
 
 3185 = {
-	name="FÃ©rloth"
+	name="Férloth"
 	female=yes
 	dynasty=3034
 	religion="religion_moriquendi"
@@ -4482,7 +4481,7 @@
 }
 
 3190 = {
-	name="RÃºmil"
+	name="Rúmil"
 	dynasty=3003
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -4712,7 +4711,7 @@
 }
 
 3201 = {
-	name="ArwÃ«"
+	name="Arwë"
 	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_tatyar"
@@ -4738,7 +4737,7 @@
 }
 
 3202 = {
-	name="AryantÃ«"
+	name="Aryantë"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -4761,7 +4760,7 @@
 }
 
 3203 = {
-	name="ApairÃ«"
+	name="Apairë"
 	female=yes
 	dynasty=3011
 	religion="religion_moriquendi"
@@ -4783,10 +4782,10 @@
 	}
 }
 
-# House of MalawÃ«
+# House of Malawë
 
 3204 = {
-	name="AncalÃ«"
+	name="Ancalë"
 	dynasty=3023
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -4825,7 +4824,7 @@
 }
 
 3206 = {
-	name="LaurenÃ¡rÃ«"
+	name="Laurenárë"
 	dynasty=3023
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -4849,7 +4848,7 @@
 }
 
 3207 = {
-	name="IngalaurÃ«"
+	name="Ingalaurë"
 	dynasty=3023
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -4922,7 +4921,7 @@
 }
 
 3209 = {
-	name="GeilnÃ³re" ## Gildor Inglorion
+	name="Geilnóre" ## Gildor Inglorion
 	dynasty=3023
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -4960,10 +4959,10 @@
 	}	
 }
 
-# House of IngwÃ«
+# House of Ingwë
 
 3210 = {
-	name="Ingwion PalantÃ­r"
+	name="Ingwion Palantír"
 	dynasty=3008
 	religion="religion_moriquendi"
 	culture="culture_vanyar"
@@ -4984,7 +4983,7 @@
 }
 
 3211 = {
-	name="VanimeldÃ«"
+	name="Vanimeldë"
 	female=yes
 	dynasty=3008
 	religion="religion_moriquendi"
@@ -5004,11 +5003,11 @@
 	}
 	4785.1.1 = {
 		death="4785.1.1"
-	} #Slain on Caras Galadhon by Balrogs in pursuit of the Host of SÃºlwÃ«
+	} #Slain on Caras Galadhon by Balrogs in pursuit of the Host of Súlwë
 }
 
 3212 = {
-	name="TelnienquÃ«"
+	name="Telnienquë"
 	female=yes
 	dynasty=3030
 	religion="religion_moriquendi"
@@ -5025,7 +5024,7 @@
 }
 
 3213 = {
-	name="FinmorwÃ«" #An heir for Finarfin
+	name="Finmorwë" #An heir for Finarfin
 	dynasty=3004
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5042,7 +5041,7 @@
 }
 
 3214 = {
-	name="DomÃ­yÃ©n"
+	name="Domíyén"
 	female=yes
 	dynasty=3025
 	religion="religion_moriquendi"
@@ -5060,11 +5059,11 @@
 		add_trait=sailed_west
 		remove_trait=at_east
 		add_trait=light_valinor
-	} # Taken to Valinor by OromÃ«
+	} # Taken to Valinor by Oromë
 	3928.1.1 = {
 		remove_trait=sailed_west
 		add_trait=at_east
-	} # Taken back to Endor by OromÃ«
+	} # Taken back to Endor by Oromë
 }
 
 3215 = {
@@ -5086,7 +5085,7 @@
 	3928.1.1 = {
 		remove_trait=sailed_west
 		add_trait=at_east
-	} # Taken back to Endor by OromÃ«
+	} # Taken back to Endor by Oromë
 }
 
 3216 = {
@@ -5106,7 +5105,7 @@
 	}
 	3928.1.1 = {
 		remove_trait=sailed_west
-	} # Taken back to Endor by OromÃ«
+	} # Taken back to Endor by Oromë
 	4787.1.1 = {
 		add_trait=at_east
 	}
@@ -5135,11 +5134,11 @@
 	}
 	4785.1.1 = {
 		death="4785.1.1"
-	} #Slain on Caras Galadhon by Balrogs in pursuit of the Host of SÃºlwÃ«
+	} #Slain on Caras Galadhon by Balrogs in pursuit of the Host of Súlwë
 }
 
 3218 = {
-	name="SÃºlwÃ«"
+	name="Súlwë"
 	dynasty=3019
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5188,7 +5187,7 @@
 }
 
 3330 = {
-	name="VÃ«aÃºyehtar"
+	name="Vëaúyehtar"
 	dynasty=3019
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5237,7 +5236,7 @@
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
-	add_trait=fashionable
+	add_trait=light_valinor
 	add_trait=strong
 	add_trait=at_east
 	father=3218
@@ -5257,7 +5256,6 @@
 	add_trait=strong
 	add_trait=twin
 	add_trait=at_east
-	add_trait=light_valinor
 	father=3331
 	mother=3162
 	5413.1.1 = {
@@ -5266,7 +5264,7 @@
 }
 
 3222 = {
-	name="IlsawendÃ«"
+	name="Ilsawendë"
 	female=yes
 	dynasty=3019
 	religion="religion_moriquendi"
@@ -5276,7 +5274,6 @@
 	add_trait=strong
 	add_trait=twin
 	add_trait=at_east
-	add_trait=light_valinor
 	father=3331
 	mother=3162
 	5413.1.1 = {
@@ -5284,7 +5281,7 @@
 	}
 }
 
-# House of ArwÃ«
+# House of Arwë
 
 3223 = {
     name="Arquen"
@@ -5295,7 +5292,7 @@
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
-    add_trait=light_valinor
+	add_trait=light_valinor
     father=3201
     mother=3202
     1835.1.1 = {
@@ -5308,7 +5305,7 @@
 }
 
 3224 = {
-    name="ErcassÃ«"
+    name="Ercassë"
     dynasty=3039
     religion="religion_moriquendi"
     culture="culture_noldor"
@@ -5316,7 +5313,7 @@
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
-    add_trait=light_valinor
+	add_trait=light_valinor
     father=3201
     mother=3202
     2175.1.1 = {
@@ -5339,7 +5336,7 @@
     add_trait=elf
     add_trait=fair
     add_trait=sailed_west
-    add_trait=light_valinor
+	add_trait=light_valinor
 
     female=yes
 
@@ -5361,7 +5358,7 @@
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
-    add_trait=light_valinor
+	add_trait=light_valinor
     father=3223
     mother=3225
     2462.1.1 = {
@@ -5384,7 +5381,7 @@
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
-    add_trait=light_valinor
+	add_trait=light_valinor
     father=3223
     mother=3225
     2697.1.1 = {
@@ -5399,7 +5396,7 @@
 }
 
 3226 = {
-    name="EctelÃ«ion"
+    name="Ectelëion"
     dynasty=3039
     religion="religion_moriquendi"
     culture="culture_noldor"
@@ -5408,7 +5405,7 @@
     add_trait=strong
     add_trait=sailed_west
     add_trait=legendary_warrior
-    add_trait=light_valinor
+	add_trait=light_valinor
     father=3319
     3198.1.1 = {
         birth="3198.1.1"
@@ -5423,7 +5420,7 @@
 }
 
 3227 = {
-    name="AicambalotsÃ«"
+    name="Aicambalotsë"
     dynasty=3039
     religion="religion_moriquendi"
     culture="culture_noldor"
@@ -5432,7 +5429,7 @@
     add_trait=strong
     add_trait=sailed_west
     add_trait=legendary_warrior
-    add_trait=light_valinor
+	add_trait=light_valinor
     father=3319
     3455.1.1 = {
         birth="3455.1.1"
@@ -5447,7 +5444,7 @@
 }
 
 3228 = {
-    name="LaiqalassÃ«"
+    name="Laiqalassë"
     dynasty=3039
     religion="religion_moriquendi"
     culture="culture_noldor"
@@ -5455,7 +5452,7 @@
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
-    add_trait=light_valinor
+	add_trait=light_valinor
     father=3224
     3720.1.1 = {
         birth="3720.1.1"
@@ -5478,7 +5475,7 @@
     add_trait=strong
     add_trait=sailed_west
     add_trait=legendary_warrior
-    add_trait=light_valinor
+	add_trait=light_valinor
     father=3224
     2975.1.1 = {
         birth="2975.1.1"
@@ -5500,7 +5497,7 @@
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
-    add_trait=light_valinor
+	add_trait=light_valinor
     father=3224
     3159.1.1 = {
         birth="3159.1.1"
@@ -5586,10 +5583,10 @@
     }
 }
 
-# Line of TanwÃ«
+# Line of Tanwë
 
 3233 = {
-	name="ÃrimÃ« LalwendÃ«"
+	name="Írimë Lalwendë"
 	female=yes
 	dynasty=3006
 	religion="religion_moriquendi"
@@ -5605,11 +5602,11 @@
 	}
 	4294.1.1 = {
 		death="4294.1.1"
-	} #Died crossing the HelcaraxÃ«
+	} #Died crossing the Helcaraxë
 }
 
 3234 = {
-	name="AranwÃ«"
+	name="Aranwë"
 	dynasty=3036
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5668,7 +5665,7 @@
 }
 
 3237 = {
-	name="VoronwÃ«"
+	name="Voronwë"
 	dynasty=3036
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5686,10 +5683,10 @@
 	} #sailed to Valinor with Tuor
 }
 
-# House of FÃ«anor
+# House of Fëanor
 
 3238 = {
-	name="CurufinwÃ« FÃ«anÃ¡ro" ## FÃ«anor
+	name="Curufinwë Fëanáro" ## Fëanor
 	dynasty=3006
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5704,7 +5701,6 @@
 	add_trait=genius
 	add_trait=legendary_warrior
 	add_trait=light_valinor
-	
 
 	martial=12
 	diplomacy=11
@@ -5726,7 +5722,7 @@
 		dynasty=3007
 	}
 	4282.1.1 = {
-		name="FÃ«anor"
+		name="Fëanor"
 		remove_trait=sailed_west
 		add_trait=ambitious
 		add_trait=zealous
@@ -5738,7 +5734,7 @@
 }
 
 3239 = {
-	name="NelyafinwÃ« Maitimo" ## Maedhros
+	name="Nelyafinwë Maitimo" ## Maedhros
 	dynasty=3007
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5784,7 +5780,7 @@
 }
 
 3240 = {
-	name="CanafinwÃ« MacalaurÃ«" ## Maglor 
+	name="Canafinwë Macalaurë" ## Maglor 
 	dynasty=3007
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5835,7 +5831,7 @@
 }
 
 3241 = {
-	name="TurcafinwÃ« Tyelcormo" ## Celegorm
+	name="Turcafinwë Tyelcormo" ## Celegorm
 	dynasty=3007
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5876,7 +5872,7 @@
 }
 
 3242 = {
-	name="MorifinwÃ« Carnistir" ## Caranthir
+	name="Morifinwë Carnistir" ## Caranthir
 	dynasty=3007
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5919,7 +5915,7 @@
 }
 
 3243 = {
-	name="CurufinwÃ« AtarincÃ«" ## Curufin
+	name="Curufinwë Atarincë" ## Curufin
 	dynasty=3007
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -5965,7 +5961,7 @@
 }
 
 3244 = {
-	name="PityafinwÃ« Ambarussa" ## Amrod
+	name="Pityafinwë Ambarussa" ## Amrod
 	dynasty=3007
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -6008,7 +6004,7 @@
 }
 
 3245 = {
-	name="OtsÃ«afinwÃ« Russandol"## Amras
+	name="Otsëafinwë Russandol"## Amras
 	dynasty=3007
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -6050,7 +6046,7 @@
 }
 
 3246 = {
-	name="TelufinwÃ« Umbarto"
+	name="Telufinwë Umbarto"
 	dynasty=3054
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -6073,7 +6069,7 @@
 }
 
 3247 = {
-	name="AlmarÃ©"
+	name="Almaré"
 	female=yes
 	dynasty=3024
 	religion="religion_moriquendi"
@@ -6220,7 +6216,7 @@
 	}	
 }
 3254 = {
-	name="DanithÃ¡rÃ³"
+	name="Danitháró"
 	dynasty=3040
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -6446,7 +6442,7 @@
 	}	
 }
 3269 = {
-	name="NurwÃ«"
+	name="Nurwë"
 	dynasty=3045
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -6805,7 +6801,7 @@
 	}	
 }
 3293 = {
-	name="LungumÃ¡"
+	name="Lungumá"
 	dynasty=3054
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -6822,7 +6818,7 @@
 ## Counts of Annuduin ##
 
 3294 = {
-	name="ElemwÃ«"
+	name="Elemwë"
 	dynasty=3055
 	religion="religion_moriquendi"
 	culture="culture_noldor"
@@ -6940,7 +6936,7 @@
 ## Counts of Manoriand ##
 
 3302 = {
-	name="VronwÃ«"
+	name="Vronwë"
 	dynasty=3058
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -6967,7 +6963,7 @@
 	}	
 }
 3304 = {
-	name="VoronwÃ«"
+	name="Voronwë"
 	dynasty=3058
 	religion="religion_moriquendi"
 	culture="culture_sindar"
@@ -7073,7 +7069,7 @@
 ## Placeholders of the Avari county in Dorwinion ##
 ## Six tribes of the Avari in Third Age ##
 3311 = {
-	name="KÃ­rtanÃ´"
+	name="Kírtanô"
 	dynasty=3061
 	religion="religion_moriquendi"
 	culture="culture_avari"
@@ -7083,7 +7079,7 @@
 	}
 }
 3312 = {
-	name="MirwÃª"
+	name="Mirwê"
 	dynasty=3062
 	religion="religion_moriquendi"
 	culture="culture_avari"
@@ -7093,7 +7089,7 @@
 	}
 }
 3313 = {
-	name="WolwÃª"
+	name="Wolwê"
 	dynasty=3063
 	religion="religion_moriquendi"
 	culture="culture_avari"
@@ -7103,7 +7099,7 @@
 	}
 }
 3314 = {
-	name="NurwÃª"
+	name="Nurwê"
 	dynasty=3064
 	religion="religion_moriquendi"
 	culture="culture_avari"
@@ -7113,7 +7109,7 @@
 	}
 }
 3315 = {
-	name="ElemwÃª"
+	name="Elemwê"
 	dynasty=3065
 	religion="religion_moriquendi"
 	culture="culture_avari"
@@ -7133,7 +7129,7 @@
 	}
 }
 
-## Children of KirtanÃ´ ##
+## Children of Kirtanô ##
 
 3317 = {
 	name="Teneroth"
@@ -7147,7 +7143,7 @@
 	}
 }
 3318 = {
-	name="MÃ­rselde"
+	name="Mírselde"
 	dynasty=3061
 	religion="religion_moriquendi"
 	culture="culture_avari"
@@ -7316,7 +7312,7 @@
 	9500.1.1 = { death = yes } #Possessed by the Necromancer to kill Huinen, but manages to overcome his possession, and both are killed by his Orcs
 }
 3408 = {
-	name="NarmirÃ«"
+	name="Narmirë"
 	female=yes
 	dynasty=3021
 	religion="religion_moriquendi"
