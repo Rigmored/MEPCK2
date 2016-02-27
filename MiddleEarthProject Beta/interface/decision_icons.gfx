@@ -4,22 +4,6 @@ spriteTypes = {
 		name = "GFX_hold_a_epic_tournament"
 		texturefile = "gfx\\interface\\decision_icon_tournament.dds"
 	}
-        spriteType = {
-		name = "GFX_employ_chancellor"
-		texturefile = "gfx\\interface\\decision_icon_employ_diplomat.dds"
-	}
-        spriteType = {
-		name = "GFX_employ_marshal"
-		texturefile = "gfx\\interface\\decision_icon_employ_marshal.dds"
-	}
-        spriteType = {
-		name = "GFX_employ_steward"
-		texturefile = "gfx\\interface\\decision_icon_employ_steward.dds"
-	}
-        spriteType = {
-		name = "GFX_employ_spymaster"
-		texturefile = "gfx\\interface\\decision_icon_employ_spymaster.dds"
-	}
 	spriteType = {
 		name = "GFX_feast_0"
 		texturefile = "gfx\\interface\\decision_icon_feast.dds"
@@ -669,6 +653,7 @@ spriteTypes = {
 		name = "GFX_adopt_republicanism"
 		texturefile = "gfx\\interface\\decision_icon_adopt_republicanism.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_convert_to_republic_indep"
 		texturefile = "gfx\\interface\\decision_icon_adopt_republicanism.dds"
@@ -748,7 +733,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_become_genghis_khan_tribal"
-
 		texturefile = "gfx\\interface\\decision_icon_become_genghis_khan.dds"
 	}
 	spriteType = {
@@ -1113,5 +1097,41 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_increase_pop_dwarves"
 		texturefile = "gfx\\interface\\decision_icon_pop_dwarves.dds"
+	}
+spriteType = {
+		name = "GFX_create_castille"
+		texturefile = "gfx\\interface\\decision_icon_create_castille.dds"
+	}
+	spriteType = {
+		name = "GFX_create_portugal"
+		texturefile = "gfx\\interface\\decision_icon_create_portugal.dds"
+	}
+	spriteType = {
+		name = "GFX_create_aragon"
+		texturefile = "gfx\\interface\\decision_icon_create_aragon.dds"
+	}
+	spriteType = {
+		name = "GFX_request_council_position"
+		texturefile = "gfx\\interface\\decision_icon_faction_succ_feudal_elective_ultimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_ask_for_land"
+		texturefile = "gfx\\interface\\decision_icon_faction_succ_feudal_elective_ultimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_extort_subjects"
+		texturefile = "gfx\\interface\\decision_icon_extort_subjects.dds"
+	}
+	spriteType = {
+		name = "GFX_donate_to_liege"
+		texturefile = "gfx\\interface\\decision_icon_donate_to_liege.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_increase_council_power_ultimatum"
+		texturefile = "gfx\\interface\\decision_icon_faction_increase_council_power_ultimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_powerful_vassal_takeover_ultimatum"
+		texturefile = "gfx\\interface\\decision_icon_faction_lower_crown_authority_ultimatum.dds"
 	}
 }

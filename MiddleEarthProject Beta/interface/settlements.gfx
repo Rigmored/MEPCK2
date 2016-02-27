@@ -2,7 +2,7 @@ objectTypes = {
 	EMFXActorType = {
 		name = "westerngfx_port"
 		actorfile = "gfx\models\Settlements\Western\Western_Port.xac"
-		scale = 0.5f
+		scale = 1.0f
 		use_animation = no
 		cull_distance = 300.0f
 	}
@@ -370,7 +370,7 @@ objectTypes = {
 	EMFXActorType = {
 		name = "westerngfx_castle_1"
 		actorfile = "gfx\models\Settlements\Western\Western_Castle_01.xac"
-		scale = 0.5f
+		scale = 1.0f
 		use_animation = no
 		cull_distance = 550.0f
 	}
@@ -378,7 +378,7 @@ objectTypes = {
 	EMFXActorType = {
 		name = "westerngfx_castle_2"
 		actorfile = "gfx\models\Settlements\Western\Western_Castle_02.xac"
-		scale = 0.5f
+		scale = 1.0f
 		use_animation = no
 		cull_distance = 550.0f
 	}
@@ -386,7 +386,7 @@ objectTypes = {
 	EMFXActorType = {
 		name = "westerngfx_castle_3"
 		actorfile = "gfx\models\Settlements\Western\Western_Castle_03.xac"
-		scale = 0.5f
+		scale = 1.0f
 		use_animation = no
 		cull_distance = 550.0f
 	}

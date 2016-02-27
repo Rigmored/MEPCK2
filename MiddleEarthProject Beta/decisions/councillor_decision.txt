@@ -7,15 +7,20 @@
 
 # Written by Henrik "Groogy" Hansson
 decisions = {
-	help_liege_manage_titles = {
-		is_high_prio = yes
+	
+	 help_liege_manage_titles = {
+	 	is_high_prio = yes
+
 		potential = {
 			ai = no
 			liege = {
 				NOT = { character = ROOT }
+				is_nomadic = no
 			}
 			OR = {
-				liege = { ai = no }
+				liege = {
+					ai = no
+				}
 				ai = no
 			}
 			OR = {
@@ -82,14 +87,24 @@ decisions = {
 				character_event = { id = 108052 }
 			}
 		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 10000
+		}
 	}
 	ask_help_to_manage_titles = {
 		is_high_prio = yes
 		potential = {
 			ai = no
 			is_ruler = yes
+			is_nomadic = no
+			
 			OR = {
-				job_chancellor = { ai = no }
+				job_chancellor = {
+					ai = no
+				}
 				ai = no
 			}
 			over_max_demesne_size = 4
@@ -114,7 +129,9 @@ decisions = {
 			custom_tooltip = {
 				text = HAS_CHANCELLOR
 				hidden_tooltip = {
-					job_chancellor = { is_alive = yes }
+					job_chancellor = {
+						is_alive = yes
+					}
 				}
 			}
 		}
@@ -124,6 +141,12 @@ decisions = {
 				character_event = { id = 108010 }
 				character_event = { id = 108005 }
 			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 10000
 		}
 	}
 }

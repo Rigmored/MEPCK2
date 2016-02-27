@@ -290,7 +290,6 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_throne_room_byzantine"
 		texturefile = "gfx\\event_pictures\\Ruler_listening_to_supplicant_byzantine.tga"
@@ -915,7 +914,7 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	
-# Temple
+	# Temple
 	
 	spriteType = {
 		name = "GFX_evt_cathedral_muslim"
@@ -1038,8 +1037,6 @@ spriteTypes =
 	
 	# Charlemagne
 	
-
-
 	spriteType = {
 		name = "GFX_evt_book_carolingian_script"
 		texturefile = "gfx\\event_pictures\book_carolingian_script_cm.tga"
@@ -1098,13 +1095,11 @@ spriteTypes =
 	# Charlemagne Eastern Christian
 	spriteType = {
 		name = "GFX_evt_found_hre_orthodox"
-
 		texturefile = "gfx\\event_pictures\great_schism_cm.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_found_hre_iconoclast"
-
 		texturefile = "gfx\\event_pictures\great_schism_cm.tga"
 		allwaystransparent = yes
 	}
@@ -1120,7 +1115,6 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_assault"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\assault.tga"
@@ -1133,28 +1127,24 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_character"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\character.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_claims"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\claims.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_crown_laws"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\crown_laws.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_currencies"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\currencies.tga"
@@ -1167,7 +1157,6 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_holdings"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\holdings.tga"
@@ -1176,48 +1165,40 @@ spriteTypes =
 	
 	spriteType = {
 		name = "GFX_evt_arrange_marriage"
-
 		texturefile = "gfx\\event_pictures\\learning_scenario\\arrange_marriage.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_send_gift"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\send_gift.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_declare_war"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\declare_war.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_diplomatic_mapmode"
-
 		texturefile = "gfx\\event_pictures\\learning_scenario\\diplomatic_mapmode.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_embark_army"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\embark_army.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_disembark_army"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\disembark_army.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_educate_child"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\educate_child.tga"
@@ -1230,14 +1211,12 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_factions_view"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\factions_view.tga"
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_find_spouce"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\find_spouce.tga"
@@ -1250,7 +1229,6 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_invite_plot_backers"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\invite_plot_backers.tga"
@@ -1263,15 +1241,14 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	
-
 	spriteType = {
 		name = "GFX_evt_manage_troops"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\manage_troops.tga"
 		allwaystransparent = yes
-	}	
+	}
+	
 	spriteType = {
 		name = "GFX_evt_inheritable_traits_alliance"
-
 		texturefile = "gfx\\event_pictures\\learning_scenario\\inheritable_traits_alliance.tga"
 		allwaystransparent = yes
 	}
@@ -1281,6 +1258,7 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\\learning_scenario\\military_view.tga"
 		allwaystransparent = yes
 	}
+	
 	spriteType = {
 		name = "GFX_evt_opinions"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\opinions.tga"
@@ -1291,7 +1269,8 @@ spriteTypes =
 		name = "GFX_evt_plot"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\plot.tga"
 		allwaystransparent = yes
-	}	
+	}
+	
 	spriteType = {
 		name = "GFX_evt_raise_troops"
 		texturefile = "gfx\\event_pictures\\learning_scenario\\raise_troops.tga"
