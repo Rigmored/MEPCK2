@@ -27,17 +27,117 @@ bookmark = {
 	character = 9013 # King Liubagilds of Rhovanion
 }
 
-bookmark = {
-    name = "BM_FATE_OF_ENGLAND"
+BM_WAR_OF_THE_RING = {
+    name = "BM_WAR_OF_THE_RING"
 	desc = "BM_WAR_OF_THE_RING_DESC"
 	date = 11361.1.1
 	
-	character = 24 # King Theoden of Rohan
-	character = 1943 # Steward Denethor II of Gondor
-   	character = 10016 # Sauron
-	character = 2038 # Aragorn II
-	character = 3003 # Lord Elrond of Fondcombe
-	character = 4043 # Dain II Ironfoot
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+	custom_start = yes
+	
+	selectable_character = {
+		age = 70
+		id = 24
+		name = ERA_THEODEN
+		
+		title = k_rohan
+		title_name = k_rohan
+		
+		character = {
+			dna=aamfg0gjfb0
+			properties=cj0ocobebbb
+			religion="religion_rhovanion"
+			culture="culture_rohirrim"
+			government = feudal_government
+			dynasty=5
+		}
+	}
+	selectable_character = {
+		age = 88
+		id = 1943
+		name = ERA_DENETHOR
+		
+		title = e_steward_gondor
+		title_name = e_steward_gondor
+		
+		character = {
+			dna=albfh0kcfa0
+			properties=kk0bhdbebbb
+			religion="religion_dunedain"
+			culture="culture_gondorian"
+			government = dunedain_stewardship_government
+			dynasty=100
+		}
+	}
+	selectable_character = {
+		age = 11355
+		id = 10016
+		name = ERA_SAURON
+		
+		title = e_barad_dur
+		title_name = e_barad_dur
+		
+		character = {
+			dna=bkadfwkiaal
+			properties=am0ad000a00
+			religion="religion_umaiar"
+			culture="culture_maiar"
+			government = feudal_government
+			dynasty=10012
+		}
+	}
+	selectable_character = {
+		age = 87
+		id = 2038
+		name = ERA_ARAGORN
+		
+		title = d_dunedain_of_north
+		title_name = d_dunedain_of_north
+		
+		character = {
+			dna=dmami0kcfa0
+			properties=kl0bgdbebbb
+			religion="religion_dunedain"
+			culture="culture_dunedain"
+			government = dunedain_feudalism_government
+			dynasty=2001
+		}
+	}
+	selectable_character = {
+		age = 6517
+		id = 3003
+		name = ERA_ELROND
+		
+		title = d_rivendell
+		title_name = d_rivendell
+		
+		character = {
+			dna=dlame0miaa0
+			properties=uh0cgbbebbb
+			religion="religion_moriquendi"
+			culture="culture_noldor"
+			government = feudal_government
+			dynasty=3002
+		}
+	}
+	selectable_character = {
+		age = 251
+		id = 4043
+		name = ERA_DAIN
+		
+		title = e_durins_folk
+		title_name = e_durins_folk
+		
+		character = {
+			dna=dmglb0hmac0
+			properties=km0hpobbbbb
+			religion="religion_mahal"
+			culture="culture_longbeard"
+			government = feudal_government
+			dynasty=4001
+		}
+	}
 }
 
 #bookmark =
