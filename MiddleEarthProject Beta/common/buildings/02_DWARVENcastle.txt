@@ -17,6 +17,7 @@ castle = {
 ####################### Inner fortification (Watchtowers and walls merged), give garrison size and fort level ###################### 
 	ca_DInnerFortification_1 = {
 		desc = ca_DInnerFortification_1_desc
+		prerequisites = { ca_Dwater_system_0 ca_Dstatue_0 }
 		not_if_x_exists = { ca_lonely_mountain }
 		gold_cost = 150
 		build_time = 539
@@ -365,7 +366,129 @@ castle = {
 	}
 	
 ####################### Stable, NONE (-335 max) #######################
-	
+####################### Water system : levy reinforce rate and land organisation #######################
+	ca_Dwater_system_0 = { #no water system
+		desc = ca_Dwater_system_0_desc
+		gold_cost = 0
+		build_time = 0
+		levy_reinforce_rate = -0.1
+		fertility = -0.2
+		ai_creation_factor = 102
+		potential = {
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dwater_system_1 = {
+		desc = ca_Dwater_system_1_desc
+		prerequisites = { ca_DInnerFortification_1 }
+		upgrades_from = ca_Dwater_system_0
+		gold_cost = 85
+		build_time = 365
+		levy_reinforce_rate =  0.1
+		fertility = 0.2
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dwater_system_2 = {
+		desc = ca_Dwater_system_1_desc
+		prerequisites = { ca_DInnerFortification_3 }
+		upgrades_from = ca_Dwater_system_1
+		gold_cost = 100
+		build_time = 550
+		levy_reinforce_rate = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+
+####################### Statues of past kings, piety #######################
+	ca_Dstatue_0 = { #no statue 
+		desc = ca_Dstatue_0_desc
+		gold_cost = 0
+		build_time = 0
+		liege_piety = -0.025
+		monthly_character_piety = -0.1
+		ai_creation_factor = 102
+		potential = {
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_1 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_1 }
+		upgrades_from = ca_Dstatue_0 
+		gold_cost = 70
+		build_time = 150
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_2 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_2 }
+		upgrades_from = ca_Dstatue_1
+		gold_cost = 100
+		build_time = 220
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_3 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_3 }
+		upgrades_from = ca_Dstatue_2
+		gold_cost = 150
+		build_time = 365
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_4 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_4 }
+		upgrades_from = ca_Dstatue_3
+		gold_cost = 240
+		build_time = 660
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+	ca_Dstatue_5 = {
+		desc = ca_Dstatue_1_desc
+		prerequisites = { ca_DInnerFortification_5 }
+		upgrades_from = ca_Dstatue_4
+		gold_cost = 480
+		build_time = 1280
+		liege_piety = 0.025
+		monthly_character_piety = 0.1
+		ai_creation_factor = 102
+		potential = {
+			has_global_flag = building
+			culture_group = culture_group_dwarves 
+            	}
+	}
+
 ####################### Castle town, gives income, unchanged #######################
 	ca_Dtown_1 = {
 		desc = ca_Dtown_1_desc
@@ -463,7 +586,7 @@ castle = {
 				terrain = hills
 				terrain = mountain
 			}
-	   		FROM = { culture_group = culture_group_dwarves }
+	   		culture_group = culture_group_dwarves
     		}
 	}
 	ca_dwarvenforges_2 = {
@@ -516,11 +639,9 @@ castle = {
 		ai_creation_factor = 110
 		add_number_to_name = yes
 		potential = {
-        		has_global_flag = building
-			OR = {
-				terrain = mountain
-			}
-	    		culture_group = culture_group_dwarves
+        	has_global_flag = building
+			terrain = mountain
+	    	culture_group = culture_group_dwarves
     		}
 	}
 
@@ -535,11 +656,9 @@ castle = {
 		ai_creation_factor = 110
 		add_number_to_name = yes
 		potential = {
-        		has_global_flag = building
-			OR = {
-				terrain = mountain
-			}
-	    		culture_group = culture_group_dwarves
+        	has_global_flag = building
+			terrain = mountain
+	    	culture_group = culture_group_dwarves
     		}
 	}
 	ca_dwarvenforges_6 = {
@@ -721,13 +840,13 @@ ca_khazad = { ##moria for dwarves
 		gold_cost = 10
 		build_time = 10
 		garrison_size = -2
-		tax_income = -10
+		tax_income = -1
 		ai_creation_factor = 110
 		add_number_to_name = no
         	potential = {
             		province_id = 292 #Erebor
 			NOT = { has_global_flag = erebor_built }
-			NOT = { year = 10000 }			
+			NOT = { year = 10342 }			
             }
 	}
 	ca_erebor = { #Erebor#
@@ -837,7 +956,7 @@ ca_khazad = { ##moria for dwarves
             }
 	}
 
-	ca_azanulimbardum = { #Azanulimbar-d鹠#
+	ca_azanulimbardum = { #Azanulimbar-d没m#
 		desc = ca_azanulimbardum_desc
 		gold_cost = 510
 		build_time = 1825
@@ -848,12 +967,12 @@ ca_khazad = { ##moria for dwarves
 		ai_creation_factor = 106
 		add_number_to_name = no
         potential = {
-            province_id = 572 #Azanulimbar-d鹠#
+            province_id = 572 #Azanulimbar-d没m#
 			
             }
 	}
 	
-	ca_azanulimbardum1 = { #Azanulimbar-d鹠#
+	ca_azanulimbardum1 = { #Azanulimbar-d没m#
 		desc = ca_azanulimbardum_desc
 		upgrades_from = ca_azanulimbardum
 		gold_cost = 525
@@ -866,12 +985,12 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 572 #Azanulimbar-d鹠#
+            	province_id = 572 #Azanulimbar-d没m#
 			culture_group = culture_group_dwarves
             }
 	}
 
-	ca_azanulimbardum2 = { #Azanulimbar-d鹠#
+	ca_azanulimbardum2 = { #Azanulimbar-d没m#
 		desc = ca_azanulimbardum_desc
 		upgrades_from = ca_azanulimbardum1
 		gold_cost = 605
@@ -884,12 +1003,12 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 572 #Azanulimbar-d鹠#
+            	province_id = 572 #Azanulimbar-d没m#
 			culture_group = culture_group_dwarves
             }
 	}
 
-	ca_azanulimbardum3 = { #Azanulimbar-d鹠#
+	ca_azanulimbardum3 = { #Azanulimbar-d没m#
 		desc = ca_azanulimbardum_desc
 		upgrades_from = ca_azanulimbardum2
 		gold_cost = 765
@@ -902,7 +1021,7 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 572 #Azanulimbar-d鹠#
+            	province_id = 572 #Azanulimbar-d没m#
 			culture_group = culture_group_dwarves
             }
 	}	
@@ -1092,7 +1211,7 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 644 #Zirakdum#
+            province_id = 644 #Zirakdum#
 			culture_group = culture_group_dwarves
             }
 	}
@@ -1110,12 +1229,12 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 644 #Zirakdum#
+            province_id = 644 #Zirakdum#
 			culture_group = culture_group_dwarves
             }
 	}	
 	
-	ca_thorinsgate = { #Thorin's Gatem#
+	ca_thorinsgate = { #Thorin's Gate#
 		desc = ca_thorinsgate_desc
 		gold_cost = 510
 		build_time = 1825
@@ -1130,7 +1249,7 @@ ca_khazad = { ##moria for dwarves
             }
 	}
 	
-	ca_thorinsgate1 = { #Thorin's Gatem#
+	ca_thorinsgate1 = { #Thorin's Gate#
 		desc = ca_thorinsgate_desc
 		upgrades_from = ca_thorinsgate
 		gold_cost = 605
@@ -1142,10 +1261,10 @@ ca_khazad = { ##moria for dwarves
 		ai_creation_factor = 106
 		add_number_to_name = no
         potential = {
-		has_global_flag = building
-            	province_id = 239 #Thorin's Gate#
+			has_global_flag = building
+            province_id = 239 #Thorin's Gate#
 			culture_group = culture_group_dwarves
-            }
+        }
 	}
 
 	ca_thorinsgate2 = { #Thorin's Gatem#
@@ -1161,7 +1280,7 @@ ca_khazad = { ##moria for dwarves
 		add_number_to_name = no
         potential = {
 		has_global_flag = building
-            	province_id = 239 #Thorin's Gate#
+            province_id = 239 #Thorin's Gate#
 			culture_group = culture_group_dwarves
             }
 	}
@@ -1187,7 +1306,7 @@ ca_khazad = { ##moria for dwarves
 ###################### Special buildings : unique buidings ###################### 
 	
 	ca_stone_durin = { ### The Durin's Stone
-		desc = ca_durin_stone_desc
+		desc = ca_stone_durin_desc
 		gold_cost = 100
 		build_time = 360
 		tax_income = 2	
@@ -1400,7 +1519,76 @@ ca_khazad = { ##moria for dwarves
 			FROMFROM = { title = b_gundabad_throne_hall } 
 			culture_group = culture_group_dwarves
         	}
-	}	
+	}
+	#StoneFoot
+	ca_stonefoot = { #Stonefoot#
+		desc = ca_stonefoot_desc
+		gold_cost = 510
+		build_time = 1825
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+           	province_id = 811 #Stonefoot#
+            }
+	}
+	
+	ca_stonefoot1 = { #Stonefoot#
+		desc = ca_stonefoot_desc
+		upgrades_from = ca_stonefoot
+		gold_cost = 525
+		build_time = 2055
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+		has_global_flag = building
+            	province_id = 811 #Stonefoot#
+			culture_group = culture_group_dwarves
+            }
+	}
+
+	ca_stonefoot2 = { #Stonefoot#
+		desc = ca_stonefoot_desc
+		upgrades_from = ca_stonefoot1
+		gold_cost = 605
+		build_time = 2380
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+		has_global_flag = building
+            province_id = 811 #Stonefoot#
+			culture_group = culture_group_dwarves
+            }
+	}
+
+	ca_stonefoot3 = { #Stonefoot#
+		desc = ca_stonefoot_desc
+		upgrades_from = ca_stonefoot2
+		gold_cost = 765
+		build_time = 3020
+		fort_level = 1
+		garrison_size = 0.25
+		heavy_infantry = 50
+		tax_income = 1
+		ai_creation_factor = 106
+		add_number_to_name = no
+        potential = {
+		has_global_flag = building
+            province_id = 811 #Stonefoot#
+			culture_group = culture_group_dwarves
+            }
+	}
 }
 
 

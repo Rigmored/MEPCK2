@@ -83,6 +83,7 @@ EVTOPTAcraft.21;I know what i'll do with it.;Je sais ce que je vais en faire.;;;
 EVTOPTBcraft.21;I'll sell it.;Je vais la revendre.;;;;;;;;;;;;x
 EVTTITcraft.22;No Gems?;Aucune Pierre Précieuse?;;;;;;;;;;;;x
 EVTDESCcraft.22;After some research, you weren't able to find the perfect stone. All the stones you've found are too bland, and none has inspired you. You're discouraged, and you won't be ready to return to your workshop before a long time.;Après quelques recherches, vous ne trouvez pas la pierre parfaite. Toutes les pierres que vous avez trouvé sont trop fades, et aucune ne vous a inspiré. Vous êtes découragé, et n'êtes pas prêt à retourner dans votre atelier avant un long moment.;;;;;;;;;;;;x
+EVTOPTAcraft.22;Oh no…;Oh non…;;;;;;;;;;;;x
 EVTTITcraft.23;A Perfect Gem!;Une Pierre Parfaite !;;;;;;;;;;;;x
 EVTDESCcraft.23;You've decided to rework the stone, and you'll polish it, shape it, to give it a more exciting form and an even greater brilliance. If you success in this work, you'll be celebrated as one of the greatest living jewelers.;Vous avez décidé de retravailler la pierre, et vous allez donc la polir, la façonner, afin de lui donner une forme plus exaltante et une brillance encore plus grande. Si vous réussissez ce travail, vous serez célébré comme l'un des plus grands joailliers vivant.;;;;;;;;;;;;x
 EVTOPTAcraft.23;A long and perillous work…;Un long et délicat travail…;;;;;;;;;;;;x
@@ -118,3 +119,9 @@ EVTTITcraft.33;The Gwaith-i-Mirdain;La Gwaith-i-Mirdain;;;;;;;;;;;;x
 EVTDESCcraft.33;Now that several artisans have joined you, it's time to rebuild the Gwaith-i-Mirdain. This famous brotherhood will for sure increase your business, and give back to the Noldor smiths the great reputation they had. However, you must not repeat the mistakes of the past, and many people continue to fear an excess of power in your accomplishments.;Maintenant que plusieurs artisans se sont joins à vous, il est temps de rebatir la Gwaith-i-Mirdain. Cette confrérie renommée permettra à coup sur d'augmenter votre commerce, et de redonner aux Noldor la réputation de grands forgerons qu'ils avaient. Vous devrez cependant ne plus reproduire les erreurs de jadis, et nombreux sont ceux qui continueront à craindre un excès de pouvoir dans vos réalisations.;;;;;;;;;;;;x
 EVTOPTAcraft.33;Time to recreate the Brotherhood !;;;;;;;;;;;;;x
 EVTOPTBcraft.33;Only Celebrimbor was able to create it…;Seul Celebrimbor était capable de la diriger.;;;;;;;;;;;;x
+EVTTITcraft.100;Craft an Object;Créer un Objet;;;;;;;;;;;;x
+EVTDESCcraft.100;You are a craftsman, and as such, you are able to create objects of great value. What action would you like to achieve?;Vous êtes un artisan, et en tant que tel, vous êtes capable de réaliser des objets de grande valeur. Quelle action souhaitez-vous réaliser?;;;;;;;;;;;;x
+EVTOPTAcraft.100;I'll forge a Sword!;Je vais forger une Epée!;;;;;;;;;;;;x
+EVTOPTBcraft.100;I'll create a Great Jewel!;Je vais créer un Superbe Bijou !;;;;;;;;;;;;x
+EVTOPTCcraft.100;I'll rebuild the Gwaith-i-Mirdain !;Je vais recréer le Gwaith-i-Mirdain !;;;;;;;;;;;;x
+EVTOPTDcraft.100;There's nothing i want to forge.;Il n'y a rien que je veuille forger.;;;;;;;;;;;;x

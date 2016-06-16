@@ -6,8 +6,8 @@ title = c_uldovhar
 # Settlements
 max_settlements = 5
 
-b_uldovhar   = castle
-b_vhar = castle
+#b_uldovhar   = castle
+#b_vhar = castle
 #b_burhuldo = city
 #b_dulolad = city 
 #b_akkhadad = city

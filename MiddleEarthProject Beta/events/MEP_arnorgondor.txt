@@ -5,177 +5,166 @@ namespace = arnorgondor
 ##Tension in Gondor and Arnor##
 character_event = {
     id = arnorgondor.1
-    title = "Realm Tensions"
-    desc = "It is hard to effectively rule both Arnor and Gondor. Even Elendil himself saw the truth of this, and divided his realm into two. Many suggest giving one of your children either Arnor or Gondor to rule directly."
+    title = "EVTTITarnorgondor.1"
+    desc = "EVTDESCarnorgondor.1"#It is hard to effectively rule both Arnor and Gondor. Even Elendil himself saw the truth of this, and divided his realm into two...
     picture = "GFX_kinstrife"
 	age = 16
 	only_independent = yes
 	
 	trigger = {
-	AND = {
-	num_of_children = 2
-	has_landed_title = e_gondor
-	has_landed_title = e_arnor
-	year = 11400
-	NOT = { has_character_flag = arnorgondor1 }
-	}
+		num_of_children = 2
+		has_landed_title = e_gondor
+		has_landed_title = e_arnor
+		year = 11400
+		NOT = { has_character_flag = arnorgondor1 }
 	}
 	
-	mean_time_to_happen = {
-	days = 180
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAarnorgondor.1"#It may be wise, yes.
+		set_character_flag = dividerealm
+		set_character_flag = arnorgondor1
 	}
 	
 	option = {
-	name = "It may be wise, yes."
-	set_character_flag = dividerealm
-	set_character_flag = arnorgondor1
+		name = "EVTOPTBarnorgondor.1"#No, the Kingdom will stay united.
+		set_character_flag = arnorgondor1
+		set_character_flag = realmunited
 	}
 	
-	option = {
-	name = "No, the Kingdom will stay united."
-	set_character_flag = arnorgondor1
-	set_character_flag = realmunited
-	}
-	
-	}
+}
 	
 	##The King has refused to split his realm##
-	character_event = {
+character_event = {
     id = arnorgondor.2
-    title = "Realm Tensions"
-    desc = "Your nobles seem to accept the decision to keep the realm intact, but many are simply taking local decisions into their own hands now, since they grow tired of constantly having to await word from your distant capital."
+    title = "EVTTITarnorgondor.2"
+    desc = "EVTDESCarnorgondor.2"#Your nobles seem to accept the decision to keep the realm intact, but many are simply taking local decisions into their own hands now
     picture = "GFX_kinstrife"
 	age = 16
 	only_independent = yes
 	
 	trigger = {
-	AND = {
-	num_of_children = 2
-	has_landed_title = e_gondor
-	has_landed_title = e_arnor
-	year = 11400
-	NOT = { has_character_flag = arnorgondor2 }
-	has_character_flag = realmunited
-	}
+		num_of_children = 2
+		has_landed_title = e_gondor
+		has_landed_title = e_arnor
+		year = 11400
+		NOT = { has_character_flag = arnorgondor2 }
+		has_character_flag = realmunited
 	}
 	
-	mean_time_to_happen = {
-	days = 360
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAarnorgondor.2"#Hmm... alright, we divide the realm then!
+		set_character_flag = dividerealm
+		set_character_flag = arnorgondor2
 	}
 	
 	option = {
-	name = "Hmm... alright, we divide the realm then!"
-	set_character_flag = dividerealm
-	set_character_flag = arnorgondor2
+		name = "EVTOPTBarnorgondor.2"#Fine, but we still stay united as one realm.
+		trigger = { ai = no }
+		set_character_flag = arnorgondor2
+		clr_character_flag = realmunited
+		any_vassal = {
+			character_event = { id = arnorgondor.3 days = 7 }
+		}
 	}
 	
-	option = {
-	name = "Fine, but we still stay united as one realm."
-	trigger = { ai = no }
-	set_character_flag = arnorgondor2
-	clr_character_flag = realmunited
-	any_vassal = {
-	character_event = { id = arnorgondor.3 days = 7 }
-	}
-	}
+}
 	
-	}
-	
-		##Vassals are told the realm will not be split##
-	character_event = {
+##Vassals are told the realm will not be split##
+character_event = {
     id = arnorgondor.3
-    title = "Realm Tensions"
-    desc = "The High King has refused to split Arnor and Gondor between his heirs, and insists on holding both titles for himself. He can not possibly rule two such large and distant realms effectively. Still, his wish is our command..."
+    title = "EVTTITarnorgondor.3"
+    desc = "EVTDESCarnorgondor.3"#The High King has refused to split Arnor and Gondor between his heirs, and insists on holding both titles for himself. He can not possibly rule two such large and distant realms effectively.
     picture = "GFX_kinstrife"
 	age = 16
 
 	is_triggered_only = yes
 	
 	option = {
-	name = "We'll just have to make do."
-	opinion = {
+		name = "EVTOPTAarnorgondor.3"#We'll just have to make do.
+		opinion = {
 			who = FROM
 			modifier = opinion_undivided_realm
 			years = 100
 		}
-		}
+	}
 		
-		}
+}
 		
-	##The King splits the realm##
-	character_event = {
+##The King splits the realm##
+character_event = {
     id = arnorgondor.4
-    title = "Dividing the Realm"
-    desc = "You have decided to divide the realm. Do you want to do it yourself (give away one either Arnor or Gondor title within 30 days) or do you want it to be done automatically now?"
+    title = "EVTTITarnorgondor.4"
+    desc = "EVTDESCarnorgondor.4"#You have decided to divide the realm. Do you want to do it yourself (give away one either Arnor or Gondor title within 30 days) or do you want it to be done automatically now?
     picture = "GFX_gondor_army"
 	age = 16
 	only_independent = yes
 	
 	trigger = {
-	AND = {
-	num_of_children = 2
-	has_landed_title = e_gondor
-	has_landed_title = e_arnor
-	year = 11400
-	NOT = { has_character_flag = arnorgondor4 }
-	has_character_flag = dividerealm
-	}
+		num_of_children = 2
+		has_landed_title = e_gondor
+		has_landed_title = e_arnor
+		year = 11400
+		NOT = { has_character_flag = arnorgondor4 }
+		has_character_flag = dividerealm
 	}
 	
-	mean_time_to_happen = {
-	days = 360
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAarnorgondor.4"#I'll do it myself right now.
+		trigger = { ai = no }
+		set_character_flag = arnorgondor4
+		set_character_flag = promisedtosplit
 	}
 	
 	option = {
-	name = "I'll do it myself right now."
-	trigger = { ai = no }
-	set_character_flag = arnorgondor4
-	set_character_flag = promisedtosplit
-	}
-	
-	option = {
-	name = "Give my non-heir child Arnor automatically."
-	set_character_flag = arnorgondor4
-	random_child = {
-	limit = {
-	is_primary_heir = no
-	}
-		character_event = { id = arnorgondor.5 days = 7 }
-	}
+		name = "EVTOPTBarnorgondor.4"#Give my non-heir child Arnor automatically.
+		set_character_flag = arnorgondor4
+		random_child = {
+			limit = {
+				is_primary_heir = no
+			}
+			character_event = { id = arnorgondor.5 days = 7 }
+		}
 	}
 	
 	
 	option = {
-	name = "I changed my mind, we stay United!"
-	trigger = { ai = no }
-	set_character_flag = realmunited
-	set_character_flag = arnorgondor4
+		name = "EVTOPTCarnorgondor.4"#I changed my mind, we stay United!
+		trigger = { ai = no }
+		set_character_flag = realmunited
+		set_character_flag = arnorgondor4
 	}
 
-	}
+}
 	
-	##Child is told it will rule Gondor#
-	character_event = {
+##Child is told it will rule Gondor#
+character_event = {
     id = arnorgondor.5
-    title = "Arnor is Yours"
-    desc = "You father the High King has decided to give you the rule of Arnor, to hold in his name. It is a daunting task, but one which you must accept and fulfill to the best of your ability."
+    title = "EVTTITarnorgondor.5"
+    desc = "EVTDESCarnorgondor.5"#You father the High King has decided to give you the rule of Arnor, to hold in his name. It is a daunting task, but one which you must accept and fulfill to the best of your ability.
     picture = "GFX_gondor_army"
 	age = 16
 
 	is_triggered_only = yes
 	
 	option = {
-	name = "I will not let him down!"
-	ROOT = { culture = culture_arnorian }
-	wealth = 2000
-	e_arnor =	{
-	usurp_title = ROOT
-	copy_title_laws = e_gondor	
+		name = "EVTOPTAarnorgondor.5"#I will not let him down!
+		ROOT = { culture = culture_arnorian }
+		wealth = 2000
+		e_arnor = {
+			usurp_title = ROOT
+			copy_title_laws = e_gondor	
 		}
-c_ered_nimrais = {
-			grant_title = ROOT
-			copy_title_laws = e_gondor
-		}	
+		#@FIXME@ this title is missing
+#		c_ered_nimrais = {
+#			grant_title = ROOT
+#			copy_title_laws = e_gondor
+#		}	
 		c_fornost = {
 			grant_title = ROOT
 			copy_title_laws = e_gondor
@@ -203,11 +192,12 @@ c_ered_nimrais = {
 		c_west_orromenyar = {
 			grant_title = ROOT
 			copy_title_laws = e_gondor
-		}	
-		c_annumenyar = {
-			grant_title = ROOT
-			copy_title_laws = e_gondor
-		}	
+		}
+		#@FIXME@ this title is missing
+#		c_annumenyar = {
+#			grant_title = ROOT
+#			copy_title_laws = e_gondor
+#		}	
 		d_evendim = {
 			grant_title = ROOT
 			copy_title_laws = e_gondor
@@ -241,99 +231,92 @@ c_ered_nimrais = {
 			copy_title_laws = e_gondor
 		}
 		any_playable_ruler = {
-		character_event = { id = arnorgondor.7 days = 7 }
+			character_event = { id = arnorgondor.7 days = 7 }
 		}
-		}
+	}
 		
-		}
+}
 		
-	##If the King didn't split##
-	character_event = {
+##If the King didn't split##
+character_event = {
     id = arnorgondor.6
-    title = "Dividing the Realm"
-    desc = "You have broken your promise, and have not split the realm immediately as you said you would. Your vassals are not amused."
+    title = "EVTTITarnorgondor.6"
+    desc = "EVTDESCarnorgondor.6"#You have broken your promise, and have not split the realm immediately as you said you would. Your vassals are not amused.;
     picture = "GFX_kinstrife"
 	age = 16
 	only_independent = yes
 	
 	trigger = {
-	AND = {
-	num_of_children = 2
-	has_landed_title = e_gondor
-	has_landed_title = e_arnor
-	year = 11400
-	NOT = { has_character_flag = arnorgondor6 }
-	has_character_flag = promisedtosplit
-	}
+		num_of_children = 2
+		has_landed_title = e_gondor
+		has_landed_title = e_arnor
+		year = 11400
+		NOT = { has_character_flag = arnorgondor6 }
+		has_character_flag = promisedtosplit
 	}
 	
-	mean_time_to_happen = {
-	days = 360
-	}
+	is_triggered_only = yes
 	
 	option = {
-	name = "I was just getting to it!"
-	set_character_flag = arnorgondor6
-	any_vassal = {
-	character_event = { id = arnorgondor.3 days = 7 }
-	}
-	}
-	
+		name = "EVTOPTAarnorgondor.6"#I was just getting to it!
+		set_character_flag = arnorgondor6
+		any_vassal = {
+			character_event = { id = arnorgondor.3 days = 7 }
+		}
 	}
 	
-	##The world is told The Re-United Kingdom has split##
-	character_event = {
+}
+	
+##The world is told The Re-United Kingdom has split##
+character_event = {
     id = arnorgondor.7
-    title = "The-Reunited Kingdom"
-    desc = "Arnor and Gondor have split, as it was nearly impossible to rule such realms from one location. They remain kin however, and have sworn oaths of abiding friendship and aid in need."
+    title = "EVTTITarnorgondor.7"
+    desc = "EVTDESCarnorgondor.7"#Arnor and Gondor have split, as it was nearly impossible to rule such realms from one location. They remain kin however, and have sworn oaths of abiding friendship and aid in need.
     picture = "GFX_gondor_army"
 	age = 16
 
 	is_triggered_only = yes
 	
 	option = {
-	name = "Interesting..."
-		}
+		name = "EVTOPTAarnorgondor.7"#Interesting...
+	}
 		
-		}
+}
 		
-	##If not already so, new e_arnor ruler becomes Arnorian culture - player can refuse##
-	character_event = {
+##If not already so, new e_arnor ruler becomes Arnorian culture - player can refuse##
+character_event = {
     id = arnorgondor.8
-    title = "Arnor"
-    desc = "A new realm is rising, and it is quickly developing its own culture apart from that of Gondor. A mix of Dunedain, Bree-lander, hillsfolk and simple isolated fishing villages. Do you want to embrace this new culture?"
+    title = "EVTTITarnorgondor.8"
+    desc = "EVTDESCarnorgondor.8"#A new realm is rising, and it is quickly developing its own culture apart from that of Gondor. A mix of Dunedain, Bree-lander, hillsfolk and simple isolated fishing villages. Do you want to embrace this new culture?
     picture = "GFX_good"
 	age = 16
 	only_independent = yes
 	
 	trigger = {
-	AND = {
-	has_landed_title = e_arnor
-	NOT = { has_landed_title = e_gondor }
-	NOT = { culture = culture_arnorian }
-	NOT = { culture = culture_orkish }
-	NOT = { culture = culture_goblin }
-	NOT = { culture = culture_istari }
-	year = 11400
-	NOT = { has_character_flag = arnorgondor8 }
-	}
+		has_landed_title = e_arnor
+		NOT = { has_landed_title = e_gondor }
+		NOT = { culture = culture_arnorian }
+		NOT = { culture = culture_orkish }
+		NOT = { culture = culture_goblin }
+		NOT = { culture = culture_istari }
+		year = 11400
+		NOT = { has_character_flag = arnorgondor8 }
 	}
 	
-	mean_time_to_happen = {
-	days = 360
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAarnorgondor.8"#I do feel like an Arnorian!
+		set_character_flag = arnorgondor8
+		ROOT = { culture = culture_arnorian }
 	}
 	
 	option = {
-	name = "I do feel like an Arnorian!"
-	set_character_flag = arnorgondor8
-	ROOT = { culture = culture_arnorian }
+		name = "EVTOPTBarnorgondor.8"#No, I'll stay what I am.
+		trigger = { ai = no }
+		set_character_flag = arnorgondor8
 	}
-	
-	option = {
-	name = "No, I'll stay what I am."
-	set_character_flag = arnorgondor8
-	}
-	}
+}
 	
 	
 	
@@ -341,7 +324,7 @@ c_ered_nimrais = {
 character_event = {
     id = arnorgondor.9
     title = "EVTTITarnorgondor.9"
-    desc = "EVTDESCarnorgondor.9"
+    desc = "EVTDESCarnorgondor.9" #You are now the King of one of the ancients Numenorian's Kingdoms in Exile. The title of Chief of the Dunedain of North is no more interesting for you
 	picture = "GFX_good"
 	age = 16
 	only_independent = yes
@@ -355,9 +338,7 @@ character_event = {
 		NOT = { has_character_flag = dunedainking }
 	}
 	
-	mean_time_to_happen = {
-		days = 100
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTAarnorgondor.9" ## I don't need to hold this.

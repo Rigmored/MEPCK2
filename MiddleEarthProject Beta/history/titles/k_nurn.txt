@@ -1,6 +1,14 @@
 5402.1.1=
 {
 holder = 10016 # Sauron
+law = succ_primogeniture
+	law = agnatic_succession
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 8343.1.1=
 {
@@ -129,6 +137,22 @@ holder = 5272 # Mitrofan I
 10321.1.1=
 {
 holder = 5273 # Volodar VII
+}
+10323.1.1=
+{
+holder = 1826 # Marwen
+}
+10345.1.1=
+{
+holder = 1820 # Talion
+}
+10348.1.1=
+{
+holder = 1827 # Lithariel
+}
+10352.1.1=
+{
+holder = 1828 # Tirion
 }
 10384.1.1=
 {

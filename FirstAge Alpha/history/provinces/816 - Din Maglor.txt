@@ -1,0 +1,22 @@
+#Din Maglor
+
+# County Title
+title = c_din_maglor
+
+# Settlements
+max_settlements = 6
+
+b_minas_maglor = castle
+b_dingarth = castle
+b_gobelaure = city
+b_ost_gandel = city
+b_minas_lammen = castle
+b_minas_minlamad = castle
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

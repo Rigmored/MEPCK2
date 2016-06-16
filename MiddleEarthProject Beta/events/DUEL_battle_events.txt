@@ -1,19 +1,21 @@
 # New events by Galle
 # Updated/extended by 'jordarkelf'
 ### Pre-Battlefield-Duel Events
-# 5556000	Begin Battlefield Duel Chain
-# 5556001	Defender: Fight or Run?
-# 5556002	Attacker: Fight or Run? (Begin Duel)
-# 5556003	Defender Runs
-# 5556004	Attacker Runs
+# duel_battle.1000	Begin Battlefield Duel Chain
+# duel_battle.1001	Defender: Fight or Run?
+# duel_battle.1002	Attacker: Fight or Run? (Begin Duel)
+# duel_battle.1003	Defender Runs
+# duel_battle.1004	Attacker Runs
 ### Post-Battlefield-Duel Events
-# 5556100	(End Duel) Victor Killed Opponent
-# 5556101	(End Duel) Victor Takes Opponent Hostage
-# 5556102	Opponent Imprisoned
+# duel_battle.1100	(End Duel) Victor Killed Opponent
+# duel_battle.1101	(End Duel) Victor Takes Opponent Hostage
+# duel_battle.1102	Opponent Imprisoned
 
+namespace = duel_battle
+#Fighting across the field, you see an enemy soldier cut off from the others. While you can't tell who, it's clear that they must be a perillous opponent.
 character_event = { # Battlefield Duel Start
-    id = 5556000
-    desc = "EVTDESC5556000"
+    id = duel_battle.1000
+    desc = "EVTDESCduel_battle.1000"
     border = "GFX_event_normal_frame_war"
     picture = GFX_battle_duel
     
@@ -39,43 +41,6 @@ character_event = { # Battlefield Duel Start
             }
         }
         NOT = { has_character_modifier = battlefield_fight }
-    }
-    
-    mean_time_to_happen = { #on_action, multiplies with chance there
-        days = 1
-        modifier = {
-            factor = 4
-            trait = great_orc
-        }        
-		modifier = {
-            factor = 5
-            trait = legendary_warrior
-        }
-		modifier = {
-            factor = 3
-            trait = armoth_knight
-        }	
-		modifier = {
-            factor = 3
-            trait = horse_master
-        }		
-		modifier = {
-            factor = 5
-            trait = mumakil_commander
-        }			
-		
-        modifier = {
-            factor = 3
-            trait = duelist
-        }
-        modifier = {
-            factor = 1.5
-            trait = brave
-        }
-        modifier = {
-            factor = 0.5
-            trait = craven
-        }
     }
     
     immediate = {
@@ -179,25 +144,29 @@ character_event = { # Battlefield Duel Start
     }
     
     option = {
-        name = "EVTOPTA5556000"
+		#Charge!
+        name = "EVTOPTAduel_battle.1000"
         FROM = {
             liege = {
                 random_realm_character = {
                     limit = { has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target } }
-					hidden_tooltip = { character_event = { id = 5556001 } }
+					#You were separated from your men in the chaos of battle, and now find yourself in the midst of war.
+					hidden_tooltip = { character_event = { id = duel_battle.1001 } }
                 }
                 if = {
                     limit = { has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target } }
-                    hidden_tooltip = { character_event = { id = 5556001 } }
+					#You were separated from your men in the chaos of battle, and now find yourself in the midst of war.
+                    hidden_tooltip = { character_event = { id = duel_battle.1001 } }
                 }
             }
         }
     }
 }
 
+#You were separated from your men in the chaos of battle, and now find yourself in the midst of war.
 character_event = {
-	id = 5556001
-	desc = "EVTDESC5556001"
+	id = duel_battle.1001
+	desc = "EVTDESCduel_battle.1001"
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
@@ -209,8 +178,10 @@ character_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA5556001"
-		FROM = { character_event = { id = 5556002 tooltip = "EVTTOOLTIP5556002" } }
+		#Prepare to die, [From.GetOnlyDynastyName] scum!
+		name = "EVTOPTAduel_battle.1001"
+		#As you get closer, you realize the enemy soldier is [From.GetBestName].
+		FROM = { character_event = { id = duel_battle.1002 tooltip = "EVTTOOLTIPduel_battle.1002" } }
 		ai_chance = {
 			factor = 100
 			modifier = {
@@ -237,8 +208,10 @@ character_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB5556001"
-		hidden_tooltip = { FROM = { character_event = { id = 5556003 } } }
+		#I need to get out of here!
+		name = "EVTOPTBduel_battle.1001"
+		#As you get closer, you realize the enemy soldier is [From.GetBestName]. Seeing you charge across the field toward [From.GetHerHim], [From.GetSheHe] turns and flees.
+		hidden_tooltip = { FROM = { character_event = { id = duel_battle.1003 } } }
 		if = {
 			limit = {
 				NOT = { trait = craven }
@@ -281,10 +254,6 @@ character_event = {
 			}
 			modifier = {
 				factor = 2
-				trait = leper
-			}
-			modifier = {
-				factor = 2
 				trait = wounded
 				NOT = { trait = lunatic }
 				NOT = { trait = brave }
@@ -311,16 +280,18 @@ character_event = {
 	}
 }
 
+#As you get closer, you realize the enemy soldier is [From.GetBestName].
 character_event = {
-	id = 5556002
-	desc = "EVTDESC5556002"
+	id = duel_battle.1002
+	desc = "EVTDESCduel_battle.1002"
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA5556002"
+		#Prepare to die, [From.GetOnlyDynastyName] scum!
+		name = "EVTOPTAduel_battle.1002"
 		
 		# Set context flags for duel
 		set_character_flag = flag_battlefield_duel
@@ -354,8 +325,10 @@ character_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB5556002"
-		hidden_tooltip = { FROM = { character_event = { id = 5556004 } } }
+		#I need to get out of here!
+		name = "EVTOPTBduel_battle.1002"
+		#You turn to face [From.GetTitle] [From.GetFirstName]… and [From.GetSheHe] breaks [From.GetHerHis] charge and flees.
+		hidden_tooltip = { FROM = { character_event = { id = duel_battle.1004 } } }
 		if = {
 			limit = {
 				NOT = { trait = craven }
@@ -398,10 +371,6 @@ character_event = {
 			}
 			modifier = {
 				factor = 2
-				trait = leper
-			}
-			modifier = {
-				factor = 2
 				trait = wounded
 				NOT = { trait = lunatic }
 				NOT = { trait = brave }
@@ -428,42 +397,47 @@ character_event = {
 	}
 }
 
+#As you get closer, you realize the enemy soldier is [From.GetBestName]. Seeing you charge across the field toward [From.GetHerHim], [From.GetSheHe] turns and flees. You pursue, but lose track of [From.GetHerHim] in the chaos.
 character_event = {
-	id = 5556003
-	desc = "EVTDESC5556003"
+	id = duel_battle.1003
+	desc = "EVTDESCduel_battle.1003"
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA5556003"
+		#That's right, coward, run back to [From.Capital.GetName]!
+		name = "EVTOPTAduel_battle.1003"
 		morale = 0.1
 	}
 }
 
+#You turn to face [From.GetTitle] [From.GetFirstName]… and [From.GetSheHe] breaks [From.GetHerHis] charge and flees.
 character_event = {
-	id = 5556004
-	desc = "EVTDESC5556004"
+	id = duel_battle.1004
+	desc = "EVTDESCduel_battle.1004"
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA5556004"
+		#That's right, coward, run back to [From.Capital.GetName]!
+		name = "EVTOPTAduel_battle.1004"
 		morale = 0.1
 	}
 }
 
 # Battlefield duel end
 character_event = {
-	id = 5556100
-	desc = "EVTDESC5556100"
+	id = duel_battle.1100
+	desc = "EVTDESCduel_battle.1100"
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA5556100"
+		#Now's our chance!
+		name = "EVTOPTAduel_battle.1100"
 		random_current_enemy = {
 			limit = { at_location = ROOT }
 			morale = -0.2
@@ -471,30 +445,35 @@ character_event = {
 	}
 }
 
+#[FromFrom.GetBestName] lies helpless at your feet, [FromFrom.GetHerHis] weapon discarded and yours at [FromFrom.GetHerHis] throat.
 character_event = {
-	id = 5556101
-	desc = "EVTDESC5556101"
+	id = duel_battle.1101
+	desc = "EVTDESCduel_battle.1101"
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA5556101"
+		#Come with me, and walk fast. It's a long way to [Root.Capital.GetName].
+		name = "EVTOPTAduel_battle.1101"
 		hidden_tooltip = {
-			FROMFROM = { character_event = { id = 5556102 } }
+			#You are defeated. [From.GetBestName] takes you prisoner.
+			FROMFROM = { character_event = { id = duel_battle.1102 } }
 		}
 	}
 }
 
+#You are defeated. [From.GetBestName] takes you prisoner.
 character_event = {
-	id = 5556102
-	desc = "EVTDESC5556102"
+	id = duel_battle.1102
+	desc = "EVTDESCduel_battle.1102"
 	picture = GFX_evt_battle
 	border = "GFX_event_normal_frame_war"
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA5556102"
+		#I'll remember this, [From.GetOnlyDynastyName].
+		name = "EVTOPTAduel_battle.1102"
 		imprison = FROM
 		set_character_flag = captured_in_battle
 		hidden_tooltip = {

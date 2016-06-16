@@ -1,0 +1,15 @@
+#Tumladen
+
+# County Title
+title = c_tumladen_gondolin
+
+# Settlements
+max_settlements = 3
+
+b_tumladen = castle
+b_echoriath = city
+b_nin_tumladen = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

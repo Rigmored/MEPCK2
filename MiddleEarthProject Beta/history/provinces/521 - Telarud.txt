@@ -1,15 +1,13 @@
-# 521 - c_telarud
+# 521 - Telarûd
 
 # County Title
 title = c_telarud
 
 # Settlements
-max_settlements = 3
+max_settlements = 1
 
-b_telarud  = castle
+b_telarud  = tribal
 
 # Misc
-8222.1.1 = {
 culture = culture_far_haradrim
 religion = religion_southron
-}

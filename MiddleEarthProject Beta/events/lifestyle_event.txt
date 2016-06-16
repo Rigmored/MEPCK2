@@ -22,6 +22,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -111,6 +114,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		NOT = {
 			lifestyle_traits = 1
 		}
@@ -203,6 +209,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -273,6 +282,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -318,27 +330,10 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTB5021"
-		if = {
-			limit = {
-				NOT = {
-					religion_group = muslim
-				}
-			}
-			character_event = { 
-				id = 5023
-				days = 30
-				tooltip = "EVTTOOLTIP5023"
-			}
-		}
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			character_event = { 
-				id = 5026
-				days = 30
-				tooltip = "EVTTOOLTIP5023" #Muslim Impaler
-			}
+		character_event = { 
+			id = 5023
+			days = 30
+			tooltip = "EVTTOOLTIP5023"
 		}
 	}
 }
@@ -355,6 +350,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -447,6 +445,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -496,6 +497,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -534,31 +538,6 @@ character_event = {
 	}
 }
 
-#Atone for thy sins or ignore it and become an Impaler - Muslim
-character_event = {
-	id = 5026
-	desc = "EVTDESC5026"
-	picture = "GFX_evt_garden"
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA5026"
-		prestige = 20
-		clr_character_flag = red_rose
-		clr_character_flag = stake_pole
-		set_character_flag = vlad_impaler
-	}
-	
-	option = {
-		name = "EVTOPTB5023"
-		piety = 20
-		clr_character_flag = red_rose
-		clr_character_flag = stake_pole
-		set_character_flag = rose_gardener
-	}
-}
-
 ########################################################################################
 #Duelist/Poet - Start
 ########################################################################################
@@ -574,17 +553,14 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		has_lover = no
 		is_married = no
 		NOT = {
-			trait = homosexual
-		}
-		NOT = {
 			lifestyle_traits = 1
-		}
-		NOT = {
-			religion_group = muslim
 		}
 		any_courtier = {
 			has_lover = no
@@ -595,9 +571,6 @@ character_event = {
 			is_female = yes
 			NOT = {
 				trait = celibate
-			}
-			NOT = {
-				trait = homosexual
 			}
 		}
 		NOT = {
@@ -651,9 +624,6 @@ character_event = {
 							trait = celibate
 						}
 						NOT = {
-							trait = homosexual
-						}
-						NOT = {
 							opinion = { who = ROOT value = 20 }
 						}
 						reverse_opinion = { who = ROOT value = 20 }
@@ -682,9 +652,6 @@ character_event = {
 						is_married = no
 						NOT = {
 							trait = celibate
-						}
-						NOT = {
-							trait = homosexual
 						}
 						NOT = {
 							opinion = { who = ROOT value = 20 }
@@ -723,9 +690,6 @@ character_event = {
 							trait = celibate
 						}
 						NOT = {
-							trait = homosexual
-						}
-						NOT = {
 							opinion = { who = ROOT value = 20 }
 						}
 						reverse_opinion = { who = ROOT value = 20 }
@@ -754,9 +718,6 @@ character_event = {
 						is_married = no
 						NOT = {
 							trait = celibate
-						}
-						NOT = {
-							trait = homosexual
 						}
 						NOT = {
 							opinion = { who = ROOT value = 20 }
@@ -882,6 +843,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -941,6 +905,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1087,6 +1054,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1136,27 +1106,10 @@ character_event = {
 				}
 			}
 			50 = {
-				if = {
-					limit = {
-						NOT = {
-							religion_group = muslim
-						}
-					}
-					character_event = {
-						id = 5042
-						days = 14
-						tooltip = "EVTTOOLTIP5042"
-					}
-				}
-				if = {
-					limit = {
-						religion_group = muslim
-					}
-					character_event = {
-						id = 5047
-						days = 14
-						tooltip = "EVTTOOLTIP5042"
-					}
+				character_event = {
+					id = 5042
+					days = 14
+					tooltip = "EVTTOOLTIP5042"
 				}
 			}	
 		}
@@ -1222,23 +1175,6 @@ character_event = {
 	}
 }
 
-#Muslim Hunting - Really fun!
-character_event = {
-	id = 5047
-	desc = "EVTDESC5047"
-	picture = "GFX_evt_hunt"
-	
-	is_triggered_only = yes	
-	
-	option = {
-		name = "EVTOPTA5042"
-		add_character_modifier = {
-			name = aspiring_hunter
-			duration = -1
-		}
-	}
-}
-
 #Falconry - no fun
 character_event = {
 	id = 5043
@@ -1291,6 +1227,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1349,6 +1288,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1410,6 +1352,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1580,6 +1525,9 @@ character_event = {
 
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1639,6 +1587,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1698,7 +1649,10 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		religion_group = sreligion_group_edain
+		religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		NOT = {
 			lifestyle_traits = 1
 		}
@@ -1764,6 +1718,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_modifier = one_hedonist
 		NOT = {
 			lifestyle_traits = 1
@@ -1825,6 +1782,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_modifier = one_celibate
 		OR = {
 			trait = chaste
@@ -1886,6 +1846,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_modifier = sweet_temptation
 		NOT = {
 			lifestyle_traits = 1
@@ -1937,6 +1900,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_modifier = stay_strong
 		NOT = {
 			lifestyle_traits = 1
@@ -2052,7 +2018,6 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		religion_group = muslim
 		NOT = {
 			lifestyle_traits = 1
 		}
@@ -2118,6 +2083,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -2208,6 +2176,9 @@ character_event = {
 	
 	trigger = {
 	    religion_group = religion_group_edain
+		NOT = {
+			trait = on_fellowshipquest
+		}
 		has_character_flag = LE_ST
 		NOT = {
 			lifestyle_traits = 1
@@ -2326,299 +2297,5 @@ character_event = {
 		clr_character_flag = LE_ST
 		remove_character_modifier = muslim_poet
 		prestige = 10
-	}
-}
-
-### Faqih - Muslims only ###
-character_event = {
-	id = 5080
-	desc = "EVTDESC5080"
-	picture = GFX_evt_shadowy_cabal
-	
-	min_age = 25
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		in_command = no
-		religion_group = muslim
-		NOT = {
-			has_character_modifier = aspiring_faqih
-		}
-		NOT = {
-			has_character_flag = LE_ST
-		}
-		NOT = {
-			has_character_flag = aspiring_faqih_flag
-		}
-		NOT = {
-			lifestyle_traits = 1
-		}
-		NOT = {
-			trait = hafiz
-		}
-		NOT = {
-			trait = inbred
-		}
-		NOT = {
-			trait = slow
-		}
-		NOT = {
-			trait = infirm
-		}
-	}
-	
-	immediate = {
-		set_character_flag = LE_ST
-	}
-	
-	mean_time_to_happen = {
-		months = 260
-		
-		modifier = {
-			factor = 0.7
-			trait = just
-		}
-		modifier = {
-			factor = 0.7
-			trait = scholar
-		}
-		modifier = {
-			factor = 0.7
-			trait = zealous
-		}
-		modifier = {
-			factor = 2
-			trait = cynical
-		}
-		modifier = {
-			factor = 2
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = content
-		}
-		modifier = {
-			factor = 2
-			trait = arbitrary
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA5080"
-		ai_chance = {
-			factor = 50
-			
-			modifier = {
-				factor = 0.5
-				trait = arbitrary
-			}
-			modifier = {
-				factor = 2
-				trait = just
-			}
-			modifier = {
-				factor = 0.5
-				trait = content
-			}
-			modifier = {
-				factor = 2
-				trait = diligent
-			}
-			modifier = {
-				factor = 0.5
-				trait = slothful
-			}
-			modifier = {
-				factor = 2
-				trait = ambitious
-			}
-		}
-		add_character_modifier = {
-			name = aspiring_faqih
-			duration = -1
-		}
-	}
-	option = {
-		name = "EVTOPTB5080"
-		ai_chance = {
-			factor = 50
-			
-			modifier = {
-				factor = 2
-				trait = arbitrary
-			}
-			modifier = {
-				factor = 0.5
-				trait = just
-			}
-			modifier = {
-				factor = 2
-				trait = content
-			}
-			modifier = {
-				factor = 0.5
-				trait = diligent
-			}
-			modifier = {
-				factor = 2
-				trait = slothful
-			}
-			modifier = {
-				factor = 0.5
-				trait = ambitious
-			}
-		}
-		if = {
-			limit = {
-				trait = zealous
-			}
-			remove_trait = zealous
-		}
-		if = {
-			limit = {
-				NOT = {
-					trait = zealous
-				}
-			}
-			prestige = -10
-		}
-	}
-}
-
-#Convinced/Not convinced?
-character_event = {
-	id = 5081
-	desc = "EVTDESC5081"
-	picture = GFX_evt_shadowy_cabal
-	
-	min_age = 25
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		in_command = no
-		religion_group = muslim
-		has_character_modifier = aspiring_faqih
-		had_character_flag = {
-			flag = LE_ST
-			days = 180
-		}
-		NOT = {
-			lifestyle_traits = 1
-		}
-	}
-	
-	immediate = {
-		set_character_flag = LE_ST
-	}
-	
-	mean_time_to_happen = {
-		months = 260
-		
-		modifier = {
-			factor = 0.7
-			trait = scholar
-		}
-		modifier = {
-			factor = 0.7
-			trait = just
-		}
-		modifier = {
-			factor = 0.7
-			trait = zealous
-		}
-		modifier = {
-			factor = 2
-			trait = cynical
-		}
-		modifier = {
-			factor = 2
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = content
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA5081"
-		prestige = 10
-	}
-	option = {
-		name = "EVTOPTB5081"
-		remove_character_modifier = aspiring_faqih
-		clr_character_flag = LE_ST
-	}
-}
-
-#You are a Faqih!
-character_event = {
-	id = 5082
-	desc = "EVTDESC5082"
-	picture = GFX_evt_shadowy_cabal
-
-	min_age = 25
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		in_command = no
-		religion_group = muslim
-		has_character_modifier = aspiring_faqih
-		had_character_flag = {
-			flag = LE_ST
-			days = 365
-		}
-		NOT = {
-			lifestyle_traits = 1
-		}
-	}
-	
-	immediate = {
-		set_character_flag = LE_ST
-	}
-	
-	mean_time_to_happen = {
-		months = 260
-		
-		modifier = {
-			factor = 0.7
-			trait = scholar
-		}
-		modifier = {
-			factor = 0.7
-			trait = just
-		}
-		modifier = {
-			factor = 0.7
-			trait = zealous
-		}
-		modifier = {
-			factor = 2
-			trait = cynical
-		}
-		modifier = {
-			factor = 2
-			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = content
-		}
-	}
-
-	option = {
-		name = "EVTOPTA5082"
-		remove_character_modifier = aspiring_faqih
-		clr_character_flag = LE_ST
-		add_trait = faqih
-	}
-	option = {
-		name = "EVTOPTB5082"
-		remove_character_modifier = aspiring_faqih
-		clr_character_flag = LE_ST
 	}
 }

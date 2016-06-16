@@ -7,7 +7,7 @@ namespace = valinor
 ##  Do you want to join the Ringbears in their Journey to Valinor? ##
 character_event = {
 	id = valinor.1
-	name = "EVTvalinor.1"
+	title = "EVTvalinor.1"
 	desc = "EVTDESCvalinor.1"
 	picture = GFX_evt_grey_havens
 
@@ -20,14 +20,14 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTBvalinor.1" # I'll live and die in Middle-Earth.
-		trigger = { ai = no }		
+		trigger = { ai = no }
 	}
 }
 
 ##  The Last Journey of the Ringbearers ##
 character_event = {
 	id = valinor.2
-	name = "EVTvalinor.2"
+	title = "EVTvalinor.2"
 	desc = "EVTDESCvalinor.2"
 	picture = GFX_evt_grey_havens
 
@@ -43,7 +43,7 @@ character_event = {
 ##  The Ship sail to west ##
 character_event = {
 	id = valinor.3
-	name = "EVTvalinor.3"
+	title = "EVTvalinor.3"
 	desc = "EVTDESCvalinor.3"
 	picture = GFX_evt_grey_havens
 
@@ -80,7 +80,7 @@ character_event = {
 ##  The End of the Third Age - Every independant ruler know that the ringbearers sailed to west ##
 character_event = {
 	id = valinor.4
-	name = "EVTvalinor.4"
+	title = "EVTvalinor.4"
 	desc = "EVTDESCvalinor.4"
 	picture = GFX_evt_grey_havens
 
@@ -98,7 +98,7 @@ character_event = {
 ##  After the death of the King Elessar, Legolas wants to sail to West ##
 character_event = {
 	id = valinor.5
-	name = "EVTvalinor.5"
+	title = "EVTvalinor.5"
 	desc = "EVTDESCvalinor.5"
 	picture = GFX_evt_grey_havens
 
@@ -118,7 +118,7 @@ character_event = {
 ##  Legolas ask Gimli to join him ##
 character_event = {
 	id = valinor.6
-	name = "EVTvalinor.6"
+	title = "EVTvalinor.6"
 	desc = "EVTDESCvalinor.6"
 	picture = GFX_evt_grey_havens
 
@@ -142,7 +142,7 @@ character_event = {
 ##  Gimli choose to travel with Legolas ##
 character_event = {
 	id = valinor.7
-	name = "EVTvalinor.7"
+	title = "EVTvalinor.7"
 	desc = "EVTDESCvalinor.7"
 	picture = GFX_evt_grey_havens
 
@@ -173,7 +173,7 @@ character_event = {
 ##  Gimli and Legolas are building a mighty ship ##
 character_event = {
 	id = valinor.8
-	name = "EVTvalinor.8"
+	title = "EVTvalinor.8"
 	desc = "EVTDESCvalinor.8"
 	picture = GFX_evt_grey_havens
 
@@ -188,7 +188,7 @@ character_event = {
 ##  Legolas build a mighty ship alone ##
 character_event = {
 	id = valinor.9
-	name = "EVTvalinor.9"
+	title = "EVTvalinor.9"
 	desc = "EVTDESCvalinor.9"
 	picture = GFX_evt_grey_havens
 
@@ -203,7 +203,7 @@ character_event = {
 ##  The Ship is ready to travel ##
 character_event = {
 	id = valinor.10
-	name = "EVTvalinor.10"
+	title = "EVTvalinor.10"
 	desc = "EVTDESCvalinor.10"
 	picture = GFX_evt_grey_havens
 
@@ -211,23 +211,25 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAvalinor.10" # We go to Valinor !
-		ROOT = {
+		if = {
 			limit = {
 				OR = {
 					has_character_flag = legolas
 					has_character_flag = gimli
 				}
 			}				
-			add_trait = sailed_west
-			recalc_succession = yes
-			abdicate = yes
-			any_claim = {
-				remove_claim = ROOT
+			ROOT = {
+				add_trait = sailed_west
+				recalc_succession = yes
+				abdicate = yes
+				any_claim = {
+					remove_claim = ROOT
+				}
+				e_valinor = {
+					holder_scope = { ROOT = { move_character = PREV } }
+				}		
+
 			}
-			e_valinor = {
-				holder_scope = { ROOT = { move_character = PREV } }
-			}		
-			recalc_succession = yes	
 		}
 		any_independent_ruler = {
 			character_event = { id = valinor.11 }
@@ -242,7 +244,7 @@ character_event = {
 ##  Every rulers are informed that Gimli and Legolas sailed to West ##
 character_event = {
 	id = valinor.11
-	name = "EVTvalinor.11"
+	title = "EVTvalinor.11"
 	desc = "EVTDESCvalinor.11"
 	picture = GFX_evt_grey_havens
 
@@ -257,7 +259,7 @@ character_event = {
 ##  Aragorn died, and Arwen will soon died too ##
 character_event = {
 	id = valinor.12
-	name = "EVTvalinor.12"
+	title = "EVTvalinor.12"
 	desc = "EVTDESCvalinor.12"
 	picture = GFX_evt_grey_havens
 
@@ -273,7 +275,7 @@ character_event = {
 ##  Aragorn died, and everybody is informed ##
 character_event = {
 	id = valinor.13
-	name = "EVTvalinor.13"
+	title = "EVTvalinor.13"
 	desc = "EVTDESCvalinor.13"
 	picture = GFX_evt_grey_havens
 
@@ -289,7 +291,7 @@ character_event = {
 ## Beginning of the ringbearers departure events ##
 character_event = {
 	id = valinor.14
-	name = "EVTvalinor.14"
+	title = "EVTvalinor.14"
 	desc = "EVTDESCvalinor.14"
 	picture = GFX_evt_grey_havens
 

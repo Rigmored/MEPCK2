@@ -9,6 +9,7 @@ namespace = duel_output
 ######################
 # duel_output.1	Collect your output from the duel engine.
 
+#The fight is over. [From.GetBestName] lies defeated. You have won!
 character_event = {
 	id = duel_output.1
 	desc = "EVTDESCDUELOUTPUT1"
@@ -19,6 +20,7 @@ character_event = {
 	hide_window = yes	
 	
 	option = {
+		#Victory is mine!;
 		name = "EVTOPTADUELOUTPUT1"
 		
 		########################
@@ -35,7 +37,8 @@ character_event = {
 			# Call the next event in your event chain
 			# FROM will be Winner scope
 			# FROMFROM will be Loser scope
-			character_event = { id = 5556100 tooltip = "EVTTOOLTIP5556100" }
+			#As [FromFrom.GetBestName] falls before you, [FromFrom.GetHerHis] soldiers look on and begin to lose hope.
+			character_event = { id = duel_battle.1100 tooltip = "EVTTOOLTIPduel_battle.1100" }
 			##########################
 			# CLEAR YOUR CONTEXT FLAGS
 			clr_character_flag = flag_battlefield_duel
@@ -66,7 +69,36 @@ character_event = {
 			clr_character_flag = flag_battlefield_duel
 			FROM = { clr_character_flag = flag_battlefield_duel }
 			FROMFROM = { clr_character_flag = flag_battlefield_duel }
+		}
+		if = {
+			limit = {
+				has_character_flag = flag_diplo_duel
+				has_character_flag = flag_killed_opponent
+			}
+			character_event = { id = duel_diplo.1100 tooltip = "EVTTOOLTIPduel_battle.1100" }
+			clr_character_flag = flag_diplo_duel
+			FROM = { clr_character_flag = flag_diplo_duel }
+			FROMFROM = { clr_character_flag = flag_diplo_duel }
 		}		
+		if = {
+			###########################
+			# If a kill versus a yield would be important,
+			# handle them in seperate blocks.
+			limit = {
+				has_character_flag = flag_diplo_duel
+				OR = {
+					has_character_flag = flag_spared_opponent
+					has_character_flag = flag_wounded_opponent #Todo
+					has_character_flag = flag_maimed_opponent #Todo
+				}
+			}
+			#[FromFrom.GetBestName] lies helpless at your feet, 
+			character_event = { id = duel_diplo.1101 tooltip = "EVTTOOLTIPduel_diplo.1101" }
+			clr_character_flag = flag_diplo_duel
+			FROM = { clr_character_flag = flag_diplo_duel }
+			FROMFROM = { clr_character_flag = flag_diplo_duel }
+			############################
+		}
 		if = {
 			###########################
 			# If a kill versus a yield would be important,
@@ -79,7 +111,8 @@ character_event = {
 					has_character_flag = flag_maimed_opponent #Todo
 				}
 			}
-			character_event = { id = 5556101 tooltip = "EVTTOOLTIP5556101" }
+			#[FromFrom.GetBestName] lies helpless at your feet, 
+			character_event = { id = duel_battle.1101 tooltip = "EVTTOOLTIPduel_battle.1101" }
 			clr_character_flag = flag_battlefield_duel
 			FROM = { clr_character_flag = flag_battlefield_duel }
 			FROMFROM = { clr_character_flag = flag_battlefield_duel }
@@ -119,7 +152,7 @@ character_event = {
 				has_character_flag = feast_dueller
 				has_character_flag = flag_spared_opponent
 			}
-			character_event = { id = dueling.1 } #Nothing happened
+#			character_event = { id = dueling.1 } #Nothing happened
 			clr_character_flag = feast_dueller
 			FROM = { clr_character_flag = feast_dueller }
 			FROMFROM = { clr_character_flag = feast_dueller }
@@ -133,7 +166,7 @@ character_event = {
 					has_character_flag = flag_maimed_opponent
 				}
 			}
-			character_event = { id = dueling.2 } #feast_events.txt
+#			character_event = { id = dueling.2 } #feast_events.txt
 			clr_character_flag = feast_dueller
 			FROM = { clr_character_flag = feast_dueller }
 			FROMFROM = { clr_character_flag = feast_dueller }
@@ -149,7 +182,7 @@ character_event = {
 				has_character_flag = duel_rival
 				has_character_flag = flag_spared_opponent
 			}
-			character_event = { id = dueling.3 } #Nothing happened
+#			character_event = { id = dueling.3 } #Nothing happened
 			clr_character_flag = duel_rival
 			FROM = { clr_character_flag = duel_rival }
 			FROMFROM = { clr_character_flag = duel_rival }
@@ -163,7 +196,7 @@ character_event = {
 					has_character_flag = flag_killed_opponent
 				}
 			}
-			character_event = { id = dueling.4 } #Killed, wounded, or maimed rival
+#			character_event = { id = dueling.4 } #Killed, wounded, or maimed rival
 			clr_character_flag = duel_rival
 			FROM = { clr_character_flag = duel_rival }
 			FROMFROM = { clr_character_flag = duel_rival }
@@ -182,7 +215,7 @@ character_event = {
 				}
 				has_character_flag = flag_spared_opponent
 			}
-			character_event = { id = dueling.8 } #No wound etc. = clean win for accused
+#			character_event = { id = dueling.8 } #No wound etc. = clean win for accused
 			clr_character_flag = duel_rival
 			FROM = { clr_character_flag = duel_rival }
 			FROMFROM = { clr_character_flag = duel_rival }
@@ -199,7 +232,7 @@ character_event = {
 					has_character_flag = flag_killed_opponent
 				}
 			}
-			character_event = { id = dueling.13 } #Killed, wounded, or maimed rival
+#			character_event = { id = dueling.13 } #Killed, wounded, or maimed rival
 			clr_character_flag = duel_rival
 			#winner's flags used to give proper flavour text so not cleared here
 			FROMFROM = { clr_character_flag = tournament_cheater_duel_accuser }
@@ -219,7 +252,7 @@ character_event = {
 					has_character_flag = flag_wounded_opponent
 				}
 			}
-			character_event = { id = dueling.3 } #Nothing happened or just wounded
+#			character_event = { id = dueling.3 } #Nothing happened or just wounded
 			clr_character_flag = duelist_courtier
 			FROM = { clr_character_flag = duelist_courtier }
 			FROMFROM = { clr_character_flag = duelist_courtier }
@@ -229,7 +262,7 @@ character_event = {
 				has_character_flag = duelist_courtier
 				has_character_flag = flag_maimed_opponent
 			}
-			character_event = { id = dueling.6 } #Maimed
+#			character_event = { id = dueling.6 } #Maimed
 			clr_character_flag = duelist_courtier
 			FROM = { clr_character_flag = duelist_courtier }
 			FROMFROM = { clr_character_flag = duelist_courtier }
@@ -239,167 +272,16 @@ character_event = {
 				has_character_flag = duelist_courtier
 				has_character_flag = flag_killed_opponent
 			}
-			character_event = { id = dueling.7 } #Killed
+#			character_event = { id = dueling.7 } #Killed
 			clr_character_flag = duelist_courtier
 			FROM = { clr_character_flag = duelist_courtier }
 			FROMFROM = { clr_character_flag = duelist_courtier }
 		}
 		# End of regency_events block
 		#############################
-		
-		#########################
-		# Tournament rival duel #
-		#########################
-		if = {
-			limit = {
-				OR = {
-					has_character_flag = tourny_duel_defender
-					has_character_flag = tourny_duel_agressor
-				}
-				has_character_flag = flag_spared_opponent
-			}
-			character_event = { id = joust.20 } #Draw
-		}
-		if = {
-			limit = {
-				has_character_flag = duel_rival
-				OR = {
-					has_character_flag = flag_wounded_opponent
-					has_character_flag = flag_maimed_opponent
-					has_character_flag = flag_killed_opponent
-				}
-			}
-			character_event = { id = joust.21 } #Killed, wounded, or maimed rival
-		}
-		# Flags for this are cleared in the followup events since I use them to track of agressor/defender
-		# End of Tournament rival duel block
-		####################################
-		
-		##########################
-		# Generic duel victory forwarder for combat trait advancement in cta.10 (PB_cta.txt)
-		#
-		# Bounce the loser scope into FROM via cta.11 so that cta.10's potential child events
-		# will have access to the loser in the FROMFROM scope like duel_output's children.
-		
-		FROM = { character_event = { id = cta.11 } }
-		
-		
-		#############################
-		# Special Context Flag Cleanup
-		#############################
-		clr_character_flag = flag_duel_friendly
-		FROM = { clr_character_flag = flag_duel_friendly }
-		clr_character_flag = flag_duel_to_the_death
-		FROM = { clr_character_flag = flag_duel_to_the_death }
-		clr_character_flag = flag_duel_tourney
-		FROM = { clr_character_flag = flag_duel_tourney }
-		#############################
-		# Clear kill/mercy flags
-		clr_character_flag = flag_killed_opponent
-		FROM = { clr_character_flag = flag_killed_opponent }
-		clr_character_flag = flag_wounded_opponent
-		FROM = { clr_character_flag = flag_wounded_opponent }
-		clr_character_flag = flag_maimed_opponent
-		FROM = { clr_character_flag = flag_maimed_opponent }
-		clr_character_flag = flag_spared_opponent
-		FROM = { clr_character_flag = flag_spared_opponent }
+
 	}
 }
-
-# duel_output.2	Collect your output from the duel engine - Tourny joust flavour
-
-character_event = {
-	id = duel_output.2
-	desc = "EVTDESCDUELOUTPUT2"
-	picture = GFX_evt_joust
-	
-	is_triggered_only = yes
-		hide_window = yes	
-	
-	option = {
-		name = "EVTOPTADUELOUTPUT1"
-				
-		#####################
-		# Tournament Jousts #
-		#####################
-		if = {
-			limit = {
-				has_character_flag = tournament_jouster
-				has_character_flag = flag_spared_opponent
-			}
-			character_event = { id = joust.10 } #Clean win
-			clr_character_flag = duelist_courtier
-			FROM = { clr_character_flag = tournament_jouster }
-			FROMFROM = { clr_character_flag = tournament_jouster }
-		}
-		if = {
-			limit = {
-				has_character_flag = tournament_jouster
-				has_character_flag = flag_wounded_opponent
-			}
-			character_event = { id = joust.11 } #Wounded loser
-			clr_character_flag = duelist_courtier
-			FROM = { clr_character_flag = tournament_jouster }
-			FROMFROM = { clr_character_flag = tournament_jouster }
-		}
-		if = {
-			limit = {
-				has_character_flag = tournament_jouster
-				has_character_flag = flag_maimed_opponent
-			}
-			character_event = { id = joust.12 } #Maimed loser
-			clr_character_flag = tournament_jouster
-			FROM = { clr_character_flag = tournament_jouster }
-			FROMFROM = { clr_character_flag = tournament_jouster }
-		}
-		if = {
-			limit = {
-				has_character_flag = tournament_jouster
-				has_character_flag = flag_killed_opponent
-			}
-			character_event = { id = joust.13 } #Killed loser
-			clr_character_flag = tournament_jouster
-			FROM = { clr_character_flag = tournament_jouster }
-			FROMFROM = { clr_character_flag = tournament_jouster }
-		}
-		# End of tournament jousts block
-		################################
-		
-		##########################
-		# Generic duel victory forwarder for combat trait advancement in cta.10 (PB_cta.txt)
-		#
-		# Bounce the loser scope into FROM via cta.11 so that cta.10's potential child events
-		# will have access to the loser in the FROMFROM scope like duel_output's children.
-		#
-		# Assumption: duel_output.2 is only ever triggered on the winner of a joust,
-		#             like duel_output.1, by the loser in the FROM scope (from inspection of
-		#             tournament_events.txt / joust.*, that appears to be the case).
-		
-		FROM = { character_event = { id = cta.11 } }
-		
-		
-		#############################
-		# Special Context Flag Cleanup
-		#############################
-		clr_character_flag = flag_duel_friendly
-		FROM = { clr_character_flag = flag_duel_friendly }
-		clr_character_flag = flag_duel_to_the_death
-		FROM = { clr_character_flag = flag_duel_to_the_death }
-		clr_character_flag = flag_duel_tourney
-		FROM = { clr_character_flag = flag_duel_tourney }
-		#############################
-		# Clear kill/mercy flags
-		clr_character_flag = flag_killed_opponent
-		FROM = { clr_character_flag = flag_killed_opponent }
-		clr_character_flag = flag_wounded_opponent
-		FROM = { clr_character_flag = flag_wounded_opponent }
-		clr_character_flag = flag_maimed_opponent
-		FROM = { clr_character_flag = flag_maimed_opponent }
-		clr_character_flag = flag_spared_opponent
-		FROM = { clr_character_flag = flag_spared_opponent }
-	}
-}
-
 
 # duel_output.3	Something broke, cancel everything
 

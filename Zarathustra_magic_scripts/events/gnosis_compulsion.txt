@@ -1,0 +1,1882 @@
+namespace = gnostic_cants_compulsion
+
+character_event = {
+	id = gnostic_cants_compulsion.99990
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		save_event_target_as = gnostic_cants_compulsion_caster
+		any_opinion_modifier_target = {
+			limit = {
+				reverse_has_opinion_modifier = {
+					who = PREV
+					modifier = mindmanip
+				}
+			}
+			save_event_target_as = gnostic_cants_compulsion_object
+			reverse_remove_opinion = {
+				who = PREV
+				modifier = mindmanip
+			}
+		}		
+		
+		if = {
+			limit = {
+				learning = 5
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}
+			}
+			set_variable = { which = "spell_power" value = 1}
+		}
+		if = {
+			limit = {
+				learning = 10
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 2}
+		}
+		if = {
+			limit = {
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}			
+				learning = 15
+			}
+			change_variable = { which = "spell_power" value = 3}
+		}
+		if = {
+			limit = {
+				learning = 20
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 4}
+		}
+		if = {
+			limit = {
+				learning = 25
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 5}
+		}
+		if = {
+			limit = {
+				learning = 30
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 6}
+		}
+		if = {
+			limit = {
+				learning = 35
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 7}
+		}
+		if = {
+			limit = {			
+				learning = 40
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 8}
+		}
+		if = {
+			limit = {
+				learning = 45
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 9}
+		}		
+					
+
+		character_event = { id = gnostic_cants_compulsion.1}
+	}
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.1
+	desc = gnostic_cants_compulsion.1_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	immediate = {
+		change_variable = { which = "gnosiscantssung" value = 1 } 
+		change_variable = { which = "spell_powercastcount" value = 1 } 		
+	}
+	option = {
+		name = gnostic_cants_compulsion.2
+		character_event = { id = gnostic_cants_compulsion.2 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.3	
+		character_event = { id = gnostic_cants_compulsion.3 }
+		}
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.2
+	desc = gnostic_cants_compulsion.2_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.201
+		character_event = { id = gnostic_cants_compulsion.201 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.202	
+		character_event = { id = gnostic_cants_compulsion.202 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.1	
+		character_event = { id = gnostic_cants_compulsion.1 }
+		}
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.201
+	desc = gnostic_cants_compulsion.201_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.20101
+		character_event = { id = gnostic_cants_compulsion.20101 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.20102	
+		character_event = { id = gnostic_cants_compulsion.20102 }
+		}		
+	option = {
+		name = gnostic_cants_compulsion.20103	
+		character_event = { id = gnostic_cants_compulsion.20103 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.2	
+		character_event = { id = gnostic_cants_compulsion.2 }
+		}
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.20101
+	desc = gnostic_cants_compulsion.20101_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+			name = gnostic_cants_compulsion.20101a	
+		event_target:gnostic_cants_compulsion_target = {	
+		opinion = { modifier = opinion_mind_influence who = ROOT years = 10 }
+		}
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+#			#clr_character_flag = Magic_Divining
+#			#set_character_flag = sorcery
+#			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }
+	}		
+	option = {
+			name = gnostic_cants_compulsion.20101b
+	
+		event_target:gnostic_cants_compulsion_target = {	
+		opinion = { modifier = opinion_mind_dark_whispers who = ROOT years = 10 }
+		}
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }			
+#			#clr_character_flag = Magic_Divining
+#			#set_character_flag = sorcery
+#			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }
+	}	
+
+		option = {
+			name = gnostic_cants_compulsion.20101c
+			trigger = { event_target:gnostic_cants_compulsion_target = { opinion = { who = ROOT value = 100 }}}
+			event_target:gnostic_cants_compulsion_target = {	
+				opinion = { modifier = opinion_mind_control who = ROOT years = 1000 }
+			}
+#			#clr_character_flag = Magic_Divining
+#			#set_character_flag = sorcery
+#			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+		}
+		option = {
+			name = gnostic_cants_compulsion.20101d
+			character_event = { id = gnostic_cants_compulsion.201 }
+		}
+}
+
+
+character_event = {
+	id = gnostic_cants_compulsion.20102
+	desc = gnostic_cants_compulsion.20102_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+			name = gnostic_cants_compulsion.20102a
+		event_target:gnostic_cants_compulsion_target = {	
+		 	add_friend = ROOT
+		}
+			##clr_character_flag = Magic_Divining
+			##set_character_flag = sorcery
+			##hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}		
+	option = {
+			name = gnostic_cants_compulsion.20102b
+				event_target:gnostic_cants_compulsion_target = {	
+				add_lover  = ROOT
+			}
+			##clr_character_flag = Magic_Divining
+			##set_character_flag = sorcery
+			##hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }	}	
+	option = {
+			name = gnostic_cants_compulsion.20102c
+			event_target:gnostic_cants_compulsion_target = {	
+				add_rival = ROOT
+			}
+			##clr_character_flag = Magic_Divining
+			##set_character_flag = sorcery
+			##hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+
+	}
+		option = {
+			name = gnostic_cants_compulsion.20102d
+			character_event = { id = gnostic_cants_compulsion.201 }
+		}
+}	
+	
+character_event = {
+	id = gnostic_cants_compulsion.20103
+	desc = gnostic_cants_compulsion.20103_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+		
+	option = {
+			name = gnostic_cants_compulsion.20103a
+			trigger = { OR = { event_target:gnostic_cants_compulsion_target = { trait = lunatic  } event_target:gnostic_cants_compulsion_target = { has_opinion_modifier = { who = ROOT modifier = opinion_mind_control } } event_target:gnostic_cants_compulsion_target = { ROOT = { is_guardian = yes } }} check_variable = { which = "spell_power" value = 5   } } 					
+			event_target:gnostic_cants_compulsion_target = {	
+				abdicate_to = ROOT
+			}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }			
+			set_variable = {which = "var1" value = 5}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+		}
+	option = {
+			name = gnostic_cants_compulsion.20103b
+			trigger = { ROOT = { higher_tier_than = event_target:gnostic_cants_compulsion_target }  check_variable = { which = "spell_power" value = 10   } event_target:gnostic_cants_compulsion_target = { independent = yes }   NOT = { ROOT = { is_liege_or_above = event_target:gnostic_cants_compulsion_target } }} 			
+			event_target:gnostic_cants_compulsion_target = {
+					set_defacto_liege = ROOT 				
+			}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }			
+			set_variable = {which = "var1" value = 10}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.20103c
+		character_event = { id = gnostic_cants_compulsion.201 }			
+	}		
+}
+
+
+
+
+
+character_event = {
+	id = gnostic_cants_compulsion.202
+	desc = gnostic_cants_compulsion.202_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.20201
+		character_event = { id = gnostic_cants_compulsion.20201 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.20202	
+		character_event = { id = gnostic_cants_compulsion.20202 }
+		}		
+	option = {
+		name = gnostic_cants_compulsion.20203	
+		character_event = { id = gnostic_cants_compulsion.20203 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.2	
+		character_event = { id = gnostic_cants_compulsion.2 }
+		}
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.20201
+	desc = gnostic_cants_compulsion.20201_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+			name = gnostic_cants_compulsion.20201a
+		event_target:gnostic_cants_compulsion_target = {	
+		opinion = { modifier = opinion_mind_influence who = event_target:gnostic_cants_compulsion_object years = 10 }
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }		
+	}		
+	option = {
+			name = gnostic_cants_compulsion.20201b
+		event_target:gnostic_cants_compulsion_target = {	
+		opinion = { modifier = opinion_mind_dark_whispers who = event_target:gnostic_cants_compulsion_object years = 10 }
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }		
+	}
+
+		option = {
+			name = gnostic_cants_compulsion.20201c
+		trigger = { event_target:gnostic_cants_compulsion_target = { opinion = { who = event_target:gnostic_cants_compulsion_object value = 100 }}}
+		event_target:gnostic_cants_compulsion_target = {	
+		opinion = { modifier = opinion_mind_control who = event_target:gnostic_cants_compulsion_object years = 1000 }
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }	
+	}
+		option = {
+			name = gnostic_cants_compulsion.20201d
+			character_event = { id = gnostic_cants_compulsion.202 }
+		}
+}
+
+
+character_event = {
+	id = gnostic_cants_compulsion.20202
+	desc = gnostic_cants_compulsion.20202_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+			name = gnostic_cants_compulsion.20202a
+		event_target:gnostic_cants_compulsion_target = {	
+		 	add_friend = event_target:gnostic_cants_compulsion_object
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }		
+	}		
+	option = {
+			name = gnostic_cants_compulsion.20202b
+		event_target:gnostic_cants_compulsion_target = {	
+		 	add_lover  = event_target:gnostic_cants_compulsion_object
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }		
+	}	
+	option = {
+			name = gnostic_cants_compulsion.20202c
+		event_target:gnostic_cants_compulsion_target = {	
+		 	add_rival = event_target:gnostic_cants_compulsion_object
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }		
+	}
+		option = {
+			name = gnostic_cants_compulsion.20102d
+			character_event = { id = gnostic_cants_compulsion.202 }
+		}
+}	
+	
+character_event = {
+	id = gnostic_cants_compulsion.20203
+	desc = gnostic_cants_compulsion.20203_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+		
+	option = {
+			name = gnostic_cants_compulsion.20203a
+			trigger = { OR = { event_target:gnostic_cants_compulsion_target = { trait = lunatic  } event_target:gnostic_cants_compulsion_target = { has_opinion_modifier = { who = root modifier = opinion_mind_control } } event_target:gnostic_cants_compulsion_target = { event_target:gnostic_cants_compulsion_object = { is_guardian = yes } }} check_variable = { which = "spell_power" value = 5   } } 					
+			event_target:gnostic_cants_compulsion_target = {	
+				abdicate_to = event_target:gnostic_cants_compulsion_object
+			}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }			
+			set_variable = {which = "var1" value = 5}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+		}
+	option = {
+			name = gnostic_cants_compulsion.20203b
+			trigger = { OR = { event_target:gnostic_cants_compulsion_target = { trait = lunatic  } event_target:gnostic_cants_compulsion_target = { has_opinion_modifier = { who = root modifier = opinion_mind_control } } event_target:gnostic_cants_compulsion_target = { event_target:gnostic_cants_compulsion_object = { is_guardian = yes } }} event_target:gnostic_cants_compulsion_object = { higher_tier_than = event_target:gnostic_cants_compulsion_target }  check_variable = { which = "spell_power" value = 10   } event_target:gnostic_cants_compulsion_target = { independent = yes }   NOT = { event_target:gnostic_cants_compulsion_object = { is_liege_or_above = event_target:gnostic_cants_compulsion_target } }} 			
+			event_target:gnostic_cants_compulsion_target = {
+					set_defacto_liege = event_target:gnostic_cants_compulsion_object 				
+			}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }			
+			set_variable = {which = "var1" value = 10}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.20203c
+		character_event = { id = gnostic_cants_compulsion.202 }			
+	}		
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.3
+	desc = gnostic_cants_compulsion3a_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.301
+		character_event = { id = gnostic_cants_compulsion.301 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.302	
+		character_event = { id = gnostic_cants_compulsion.302 }
+		}
+	option = {
+		name = gnostic_cants_compulsion.1	
+		character_event = { id = gnostic_cants_compulsion.1 }
+		}		
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.301
+	desc = gnostic_cants_compulsion301_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.301a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = lustful } } }		
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = lustful
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.301b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = chaste } } }		
+		event_target:gnostic_cants_compulsion_target = {		
+			add_trait = chaste	
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.301c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = gluttonous } } }		
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = gluttonous
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}	
+	option = {
+		name = gnostic_cants_compulsion.301d
+			character_event = { id = gnostic_cants_compulsion.401 }
+	}	
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.401
+	desc = gnostic_cants_compulsion.401_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.401a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = temperate } } }		
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = temperate
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.401b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = greedy } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = greedy 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.401c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = charitable } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = charitable 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.401d
+			character_event = { id = gnostic_cants_compulsion.501}
+	}	
+	
+}
+	
+	character_event = {
+	id = gnostic_cants_compulsion.501
+	desc = gnostic_cants_compulsion.501_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.501a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = slothful } } }		
+		event_target:gnostic_cants_compulsion_target = {		
+			add_trait = slothful
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.501b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = diligent } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = diligent 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.501c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = envious } } } 
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = envious 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.501d
+			character_event = { id = gnostic_cants_compulsion.601}
+	}	
+	
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.601
+	desc = gnostic_cants_compulsion.601_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.601a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = kind } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = kind
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.601b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = wroth } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = wroth 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.601c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = patient } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = patient 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.601d
+			character_event = { id = gnostic_cants_compulsion.701}
+	}	
+	
+}
+	
+
+character_event = {
+	id = gnostic_cants_compulsion.701
+	desc = gnostic_cants_compulsion.701_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.701a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = proud } } }
+		event_target:gnostic_cants_compulsion_target = {			
+			add_trait = proud
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.701b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = humble } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = humble 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.701c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = deceitful } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = deceitful 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.701d
+			character_event = { id = gnostic_cants_compulsion.801}
+	}	
+	
+}
+
+
+character_event = {
+	id = gnostic_cants_compulsion.801
+	desc = gnostic_cants_compulsion.801_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.801a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = craven } } }
+		event_target:gnostic_cants_compulsion_target = {	
+
+			add_trait = craven
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.801b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = honest } } } 	
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = honest 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.801c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = brave } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = brave 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.801d
+			character_event = { id = gnostic_cants_compulsion.901}
+	}	
+	
+}	
+
+
+character_event = {
+	id = gnostic_cants_compulsion.901
+	desc = gnostic_cants_compulsion.901_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.901a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = shy  } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = shy
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.901b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = gregarious } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = gregarious 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.901c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = ambitious } } }	
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = ambitious 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.901d
+			character_event = { id = gnostic_cants_compulsion.1001}
+	}	
+	
+}	
+
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1001
+	desc = gnostic_cants_compulsion.1001_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1001a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = content  } } }		
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = content
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1001b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = arbitrary } } }  
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = arbitrary 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1001c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = just } } }	
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = just 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1001d
+			character_event = { id = gnostic_cants_compulsion.1101}
+	}	
+	
+}	
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1101
+	desc = gnostic_cants_compulsion.1101_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1101a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = cynical } } }			
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = cynical
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1101b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = zealous } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = zealous 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1101c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = paranoid } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = paranoid 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1101d
+			character_event = { id = gnostic_cants_compulsion.1201}
+	}	
+	
+}	
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1201
+	desc = gnostic_cants_compulsion.1201_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1201a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = trusting  } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = trusting
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1201b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = cruel } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = cruel 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1201c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = sympathy_christendom } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = sympathy_christendom 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1201d
+			character_event = { id = gnostic_cants_compulsion.1301}
+	}	
+	
+}	
+
+character_event = {
+	id = gnostic_cants_compulsion.1301
+	desc = gnostic_cants_compulsion.1301_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1301a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = sympathy_pagans } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = sympathy_pagans
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }			
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1301b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = sympathy_islam } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = sympathy_islam 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1301c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = sympathy_zoroastrianism } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = sympathy_zoroastrianism 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1301d
+			character_event = { id = gnostic_cants_compulsion.1401}
+	}	
+	
+}
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1401
+	desc = gnostic_cants_compulsion.1401_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1401a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = stressed } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = stressed
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1401b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = drunkard } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = drunkard 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1401c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = homosexual } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = homosexual 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1401d
+			character_event = { id = gnostic_cants_compulsion.1501}
+	}	
+	
+}
+
+
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1501
+	desc = gnostic_cants_compulsion.1501_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1501a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = lunatic } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = lunatic
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1501b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = possessed } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = possessed 
+		}
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1501c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { not = { trait = incapable } } }
+		event_target:gnostic_cants_compulsion_target = {	
+			add_trait = incapable 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 10}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1501d
+			character_event = { id = gnostic_cants_compulsion.3}
+	}	
+	
+}
+
+
+
+
+
+	
+	
+character_event = {
+	id = gnostic_cants_compulsion.302
+	desc = gnostic_cants_compulsion302_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.302a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = lustful } } 
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = lustful
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.302b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = chaste } }		
+		event_target:gnostic_cants_compulsion_target = {	
+	
+			remove_trait = chaste	
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.302c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = gluttonous  } }		
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = gluttonous
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}	
+	option = {
+		name = gnostic_cants_compulsion.302d
+			character_event = { id = gnostic_cants_compulsion.402 }
+	}	
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.402
+	desc = gnostic_cants_compulsion.402_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.402a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = temperate } }
+		event_target:gnostic_cants_compulsion_target = {			
+			remove_trait = temperate
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.402b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = greedy  } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = greedy 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.402c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = charitable } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = charitable 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.402d
+			character_event = { id = gnostic_cants_compulsion.502}
+	}	
+	
+}
+	
+	character_event = {
+	id = gnostic_cants_compulsion.502
+	desc = gnostic_cants_compulsion.502_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.502a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = slothful } }
+		event_target:gnostic_cants_compulsion_target = {		
+			remove_trait = slothful
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.502b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = diligent } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = diligent 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.502c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = envious  } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = envious 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.502d
+			character_event = { id = gnostic_cants_compulsion.602}
+	}	
+	
+}
+
+character_event = {
+	id = gnostic_cants_compulsion.602
+	desc = gnostic_cants_compulsion.602_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.602a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = kind } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = kind
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.602b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = wroth } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = wroth 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.602c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = patient } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = patient 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.602d
+			character_event = { id = gnostic_cants_compulsion.702}
+	}	
+	
+}
+	
+
+character_event = {
+	id = gnostic_cants_compulsion.702
+	desc = gnostic_cants_compulsion.702_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.702a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = proud } }		
+		event_target:gnostic_cants_compulsion_target = {	
+		remove_trait = proud
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.702b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = humble } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = humble 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.702c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = deceitful  } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = deceitful 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.702d
+			character_event = { id = gnostic_cants_compulsion.802}
+	}	
+	
+}
+
+
+character_event = {
+	id = gnostic_cants_compulsion.802
+	desc = gnostic_cants_compulsion.802_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.802a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = craven } }
+		event_target:gnostic_cants_compulsion_target = {	
+
+			remove_trait = craven
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.802b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = honest } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = honest 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.802c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = brave } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = brave 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.802d
+			character_event = { id = gnostic_cants_compulsion.902}
+	}	
+	
+}	
+
+
+character_event = {
+	id = gnostic_cants_compulsion.902
+	desc = gnostic_cants_compulsion.902_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.902a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = shy } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = shy
+		}
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.902b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = gregarious } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = gregarious 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.902c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = ambitious } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = ambitious 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.902d
+			character_event = { id = gnostic_cants_compulsion.1002}
+	}	
+	
+}	
+
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1002
+	desc = gnostic_cants_compulsion.1002_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1002a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = content } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = content
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1002b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = arbitrary } }		
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = arbitrary 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1002c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = just } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = just 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1002d
+			character_event = { id = gnostic_cants_compulsion.1102}
+	}	
+	
+}	
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1102
+	desc = gnostic_cants_compulsion.1102_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1102a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = cynical } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = cynical
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1102b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = zealous } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = zealous 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1102c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = paranoid } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = paranoid 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1102d
+			character_event = { id = gnostic_cants_compulsion.1202}
+	}	
+	
+}	
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1202
+	desc = gnostic_cants_compulsion.1202_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1202a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = trusting } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = trusting
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1202b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = cruel } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = cruel 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1202c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = sympathy_christendom } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = sympathy_christendom 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1202d
+			character_event = { id = gnostic_cants_compulsion.1302}
+	}	
+	
+}	
+
+character_event = {
+	id = gnostic_cants_compulsion.1302
+	desc = gnostic_cants_compulsion.1302_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1302a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = sympathy_pagans } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = sympathy_pagans
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1302b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = sympathy_islam } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = sympathy_islam 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1302c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = sympathy_zoroastrianism } }		
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = sympathy_zoroastrianism 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1302d
+			character_event = { id = gnostic_cants_compulsion.1402}
+	}	
+	
+}
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1402
+	desc = gnostic_cants_compulsion.1402_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1402a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = stressed } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = stressed
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1402b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = drunkard } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = drunkard 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1402c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = homosexual } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = homosexual 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1402d
+			character_event = { id = gnostic_cants_compulsion.1502}
+	}	
+	
+}
+
+
+
+
+character_event = {
+	id = gnostic_cants_compulsion.1502
+	desc = gnostic_cants_compulsion.1502_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	option = {
+		name = gnostic_cants_compulsion.1502a
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = lunatic } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = lunatic
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1502b
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = possessed } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = possessed 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 1}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1502c
+		trigger =  { check_variable = { which = "spell_power" value = 1   } event_target:gnostic_cants_compulsion_target = { trait = incapable } }
+		event_target:gnostic_cants_compulsion_target = {	
+			remove_trait = incapable 
+		}
+			#clr_character_flag = Magic_Divining
+			#set_character_flag = sorcery
+			#hidden_tooltip = { character_event = { id = cooldown.1 days = 90 } }		
+			set_variable = {which = "var1" value = 10}
+			character_event = { id = gnostic_cants_compulsion.9999 }
+	}
+	option = {
+		name = gnostic_cants_compulsion.1502d
+			character_event = { id = gnostic_cants_compulsion.3}
+	}	
+	
+}	
+	
+	
+	
+	
+character_event = {
+	id = gnostic_cants_compulsion.9999
+	desc = gnostic_cants_compulsion.9999_desc
+	picture = GFX_evt_mongols
+	is_triggered_only = yes	
+	immediate = {	
+		if = {
+			limit = { check_variable = { which = "spell_power" value = "var1"   } } 
+			subtract_variable  = { which = "spell_power" which  = "var1" }
+		}		
+	}
+	
+	option = {
+		name = gnostic_cants_compulsion.9999a#Cast Another Spell ?
+		trigger = {check_variable = {which = "spell_power" value = 1}}
+		long_character_event = { id = gnostic_cants_compulsion.1}	
+	}
+	option = {
+		name = gnostic_cants_compulsion.9999b#No
+		character_event = { id = gnostic_cants_compulsion.99997}
+	}	
+}
+	
+
+	
+	
+
+character_event = {
+	id = gnostic_cants_compulsion.99997#Natural Cooldown
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		set_variable = { which = "spell_power" value = 0}
+		if = {
+			limit = { trait = school_gnosis_1}
+			add_character_modifier = { modifier = school_gnosis_magic_cooldown days = 50 }
+			break = yes
+		}
+		if = {
+			limit = { trait = school_gnosis_2}
+			add_character_modifier = { modifier = school_gnosis_magic_cooldown days = 40 }
+			break = yes
+		}
+		if = {
+			limit = { trait = school_gnosis_3}
+			add_character_modifier = { modifier = school_gnosis_magic_cooldown days = 30 }
+			break = yes
+		}
+		if = {
+			limit = { trait = school_gnosis_4}
+			add_character_modifier = { modifier = school_gnosis_magic_cooldown days = 20 }
+			break = yes
+		}		
+		if = {
+			limit = { trait = school_gnosis_5}
+			add_character_modifier = { modifier = school_gnosis_magic_cooldown days = 10 }
+			break = yes
+		}		
+	}
+	
+}
+	
+		

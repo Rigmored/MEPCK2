@@ -16,10 +16,7 @@ b_dernburg = city
 # Misc
 culture = culture_northmen
 religion = religion_rhovanion
-8000.1.1 = {
-culture = culture_northmen
-religion = religion_rhovanion
-}
+
 10293.1.1 = {
 culture = culture_woodsmen
 religion= religion_rhovanion

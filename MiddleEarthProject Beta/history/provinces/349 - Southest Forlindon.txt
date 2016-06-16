@@ -1,21 +1,20 @@
-# Tir Lowen
-
+#Tir Lowen
 
 # County Title
-
 title = c_southest_forlindon
 
-
 # Settlements
+max_settlements = 4
 
-max_settlements = 5
+b_tir_lowen = city
+b_lovastir = castle
+#b_forlodrin = city
+#b_nodiriast = city
 
-
-b_southest_forlindon = castle
-
-b_southest_forlindoncity = city
 # Misc
-8222.1.1 = {
-culture = culture_sindar
-religion = religion_moriquendi
+culture = culture_wilderness
+religion = religion_wilderness
+4222.1.1 = {
+	culture = culture_sindar
+	religion = religion_moriquendi
 }

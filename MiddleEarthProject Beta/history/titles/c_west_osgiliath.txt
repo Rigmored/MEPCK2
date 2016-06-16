@@ -78,7 +78,7 @@ holder = 1926 # Denethor I
 {
 holder = 1927 # Boromir
 }
-10820.1.1=
+10832.1.1=
 {
 holder = 1928 # Cirion
 }
@@ -137,10 +137,6 @@ holder = 1942 # Ecthelion II
 11327.1.1=
 {
 holder = 1943 # Denethor II
-}
-11350.1.1=
-{
-holder = 1944 # Boromir II
 }
 11364.5.1=
 {

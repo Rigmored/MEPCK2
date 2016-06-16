@@ -7,17 +7,13 @@ narrative_event = {
     picture = "GFX_evt_abandoned_lands"
 
 	trigger = {
-		AND = {
-			year = 9978
-			NOT = { year = 10180 }
-		}
+		year = 9978
+		NOT = { year = 10180 }
 		NOT = { has_global_flag = great_plague }
 		has_landed_title = c_uldovhar
 	}
 	
-	mean_time_to_happen = {
-		months = 20
-	}
+	is_triggered_only = yes
 			  
 	option = {
 		name = "EVTOPTAgreatplague.0" ## OK		

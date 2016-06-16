@@ -7,6 +7,9 @@ EVTTITrohanisengard.1;Gandalf the Grey;Gandalf le Gris;;;;;;;;;;;;x
 EVTDESCrohanisengard.1;Gandalf the Grey, a member of the Istari, comes to the Tower of Orthanc to ask your advice in these troubled times. It tells you that the One Ring, the symbol of the power of Sauron the Great, has been found and is in the hands of an insignificant hobbit! It's now time to reveal your choice: Will you help the Hobbits in their quest, at the Free Peoples side? Or will you ask Gandalf the Grey to join you, and lead this world with Sauron the Great?;;;;;;;;;;;;;x
 EVTOPTArohanisengard.1;Gandalf, you shall join me!;Gandalf, vous devez me rejoindre!;;;;;;;;;;;;x
 EVTOPTBrohanisengard.1;We should helps the Ringbearer !;Nous devons aider le Porteur de l'Anneau.;;;;;;;;;;;;x
+EVTTITrohanisengard.2;The Choice of Gandalf;Le Choix de Gandalf;;;;;;;;;;;;x
+EVTDESCrohanisengard.2;@FIXME@ Gandalf will choose to follow Saruman, or not;@FIXME@ Gandalf will choose to follow Saruman, or not;;;;;;;;;;;;x
+EVTOPTArohanisengard.2;You're an idiot, Saruman!;@FIXME@ You're an idiot, Saruman !;;;;;;;;;;;;x
 EVTTITrohanisengard.3;The Choice of Gandalf;Le Choix de Gandalf;;;;;;;;;;;;x
 EVTDESCrohanisengard.3;Gandalf the Grey looks at you with awe and amazement, when you make your proposal. He refuses to join the forces of Sauron, and judge you harshly. You will never make him an ally, as he prefers to remain faithful to the Valar.;Gandalf le Gris vous regarde avec effroi et stupéfaction, alors que vous lui faites votre proposition. Il refuse de joindre les forces de Sauron, et vous juge avec sévérité. Vous ne ferez jamais de lui un allié, lui qui préfère rester fidèle aux Valar.;;;;;;;;;;;;x
 EVTOPTArohanisengard.3;So, you choose to suffer…;Alors, vous avez choisi la souffrance…;;;;;;;;;;;;x
@@ -22,7 +25,7 @@ EVTOPTArohanisengard.6;We should stronger our defenses…;Nous devrions renforcer 
 EVTTITrohanisengard.7;Weaken the Rohan;Affaiblir le Rohan;;;;;;;;;;;;x
 EVTDESCrohanisengard.7;You learn that Théodred, the son and heir of Théoden, began to fortify the Fords of Isen. It seems to be the perfect time to weaken Rohan, and just al little more the King's mind. If you send some of your troops on the Fords of Isen, that should be enough to bring down Théodred.;Vous apprenez que Théodred, le fils et héritier de Théoden, a commencé à fortifier les Gués de l'Isen. Il semble que ce soit le moment idéal pour affaiblir le Rohan, et un peu plus l'esprit du Roi. Si vous lancez une partie de vos troupes sur les Gués de l'Isen, cela devrait être suffisant pour mettre à bas Théodred.;;;;;;;;;;;;x
 EVTOPTArohanisengard.7;I'll attack the Fords of Isen!;Je vais attaquer les Gués de l'Isen !;;;;;;;;;;;;x
-EVTOPTArohanisengard.7;No, that's not the time.;Non, ce n'est pas le moment…;;;;;;;;;;;;x
+EVTOPTBrohanisengard.7;No, that's not the time.;Non, ce n'est pas le moment…;;;;;;;;;;;;x
 EVTTITrohanisengard.8;The Fords of Isen;Les Gués de l'Isen;;;;;;;;;;;;x
 EVTDESCrohanisengard.8;You're warned of the approach of an army of Orcs and Dunlendings, at the Fords of Isen. You have strengthened your fortifications, but you need a general to command the troops in this perilous fight. Who among Eomer or Théodred seems most able to lead in this battle?;Vous êtes alerté de l'approche d'une armée composée d'orques et d'Hommes du Pays de Dun, au niveau des Gués de l'Isen. Vous avez renforcé vos fortifications, mais vous avez besoin d'un général pour commander les troupes lors de ce périlleux combat. Qui parmi Eomer ou Théodred vous semble le plus à même de mener cette bataille?;;;;;;;;;;;;x
 EVTOPTArohanisengard.8;My son Théodred should lead.;Mon fils Théodred doit commander.;;;;;;;;;;;;x

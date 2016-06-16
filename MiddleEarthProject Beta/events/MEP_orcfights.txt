@@ -399,7 +399,7 @@ character_event = {
 ## Small event to let a new fight begins ##
 character_event = {
 	id = orcfights.7
-	desc = EVTDESCorcfights.7
+	desc = OK
     picture = "GFX_war_at_north"
 	border = "GFX_event_normal_frame_war"
 		hide_window = yes
@@ -442,15 +442,15 @@ character_event = {
 				add_trait = craven
 			}	
 			25 = {
+				any_vassal = {
+					opinion = { modifier = opinion_frightened who = ROOT years = 30 }
+				}	
+				liege = {
+					any_vassal = {
+						opinion = { modifier = opinion_frightened who = ROOT years = 30 }
+					}
+				}
 			}				
-		any_vassal = {
-			opinion = { modifier = opinion_frightened who = ROOT years = 30 }
-		}	
-		liege = {
-			any_vassal = {
-				opinion = { modifier = opinion_frightened who = ROOT years = 30 }
-			}
 		}
 	}
-}
 }

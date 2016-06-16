@@ -1,6 +1,47 @@
+on_startup = {
+	events = {
+		toggle_startup.0
+		population.0 
+		waning.0
+	}
+}
+
 #character
 on_yearly_pulse = {
 	events = {
+	#MEP events
+	population.3
+	purge.0
+	ABDICATE.003
+	purge.3
+	elfchild.0
+	elfchild.1
+	elfchild.4
+	indarnorgondor.0
+	amroth.0
+	amroth.1
+	amroth.24
+	arnorgondor.1
+	arnorgondor.2
+	arnorgondor.4
+	arnorgondor.6
+	arnorgondor.8
+	arnorgondor.9
+	mepclaims.0
+	mepclaims.1
+	mepclaims.2
+	mepclaims.3
+	mepclaims.4
+	fallofarnor.1
+	galadrielring.0
+	galadrielring.1
+	galadrielring.2
+	galadrielring.4
+	galadrielring.9
+	gandalf.1
+	gandalf.2
+	opinionmodifier.0
+	waning.1
 	}
 	random_events = {
 		
@@ -11,9 +52,9 @@ on_yearly_pulse = {
 		100 = 4015
 		100 = 4020
 		100 = 4035
-		100 = 4036
+		# 100 = 4036
 		100 = 4040
-		100 = 4041
+		# 100 = 4041
 		100 = 4045
 		100 = 4050
 		100 = 4055
@@ -36,7 +77,7 @@ on_yearly_pulse = {
 		100 = 30004
 		100 = 30020
 		100 = 30021
-		100 = 30025
+		# 100 = 30025
 		100 = 30030
 		100 = 30040
 		100 = 30045
@@ -57,7 +98,7 @@ on_yearly_pulse = {
 		100 = 30085
 		100 = 30100
 		100 = 30105
-		100 = 30110
+		# 100 = 30110
 		
 		#Lovers Events
 		100 = 64000
@@ -94,36 +135,36 @@ on_yearly_pulse = {
 		250 = 66100
 		
 		#Hedge Knights Events
-		100 = 71000 
-		100 = 71006 
+		# 100 = 71000 
+		# 100 = 71006 
 		
 		#Rumours Events
-		10 = 69000
-		10 = 69003 
-		10 = 69010 
-		10 = 69014 
-		10 = 69020 
-		10 = 69023 
-		10 = 69030 
-		10 = 69037 
-		10 = 69040 
-		10 = 69043 
-		10 = 69050 
-		10 = 69052 
-		10 = 69054 
-		10 = 69056 
-		10 = 69058  
-		10 = 69060  
-		10 = 69063  
-		10 = 69070
-		10 = 69073
-		10 = 69100
-		10 = 69095
+		# 10 = 69000
+		# 10 = 69003 
+		# 10 = 69010 
+		# 10 = 69014 
+		# 10 = 69020 
+		# 10 = 69023 
+		# 10 = 69030 
+		# 10 = 69037 
+		# 10 = 69040 
+		# 10 = 69043 
+		# 10 = 69050 
+		# 10 = 69052 
+		# 10 = 69054 
+		# 10 = 69056 
+		# 10 = 69058  
+		# 10 = 69060  
+		# 10 = 69063  
+		# 10 = 69070
+		# 10 = 69073
+		# 10 = 69100
+		# 10 = 69095
 		
 		#Court Events
 		100 = 73000
 		100 = 73001
-		100 = 73002
+		# 100 = 73002
 		100 = 73003
 		100 = 73004
 		100 = 73005
@@ -131,10 +172,10 @@ on_yearly_pulse = {
 		100 = 73007
 		100 = 73008
 		100 = 73009
-		100 = 73010
+		# 100 = 73010
 		
 		#Religious Events
-		100 = 39230
+		# 100 = 39230
 		
 		#Bastard Events
 		100 = 76000
@@ -155,11 +196,124 @@ on_yearly_pulse = {
 		100 = 78020
 		100 = 78025
 		100 = 78030
+		100 = HL.10610
+
+# Effects of being in hiding
+		100 = CM.6100
+		100 = CM.6102
+		100 = CM.6104
+		100 = CM.6106
+		100 = CM.6108
+		100 = CM.6110
+		100 = CM.6112
+		100 = CM.6114
+		100 = CM.6116
+		100 = CM.6118
+		100 = CM.6120
+		100 = CM.6122
+		100 = CM.6124
+		100 = CM.6126
+		100 = CM.6128
+		100 = CM.6130
+		100 = CM.6132
 		
-		#Various Events
-		100 = TOG.3403
-		100 = TOG.3401
-		100 = TOG.3402
+		# Meddling mother events
+		100 = CM.1150
+		100 = CM.1160
+		100 = CM.1170
+		100 = CM.1180
+		100 = CM.1190
+		
+		# Other Charlemagne/Carloman
+		100 = CM.1130
+		
+		# Way of Life Theology focus
+		1000 = WoL.7000
+		1000 = WoL.7010
+		1000 = WoL.7020
+		1000 = WoL.7030
+		1000 = WoL.7040
+		1000 = WoL.7050
+		1000 = WoL.7060
+		1000 = WoL.7070
+
+		# Way of Life Hunting focus
+		2000 = WoL.5000 # Epic Hunt chain start
+		2000 = WoL.5200 # Receive hunting dog
+		1000 = WoL.5210 # Dog makes you happy
+		1000 = WoL.5211 # Dog makes you popular
+		1000 = WoL.5220 # Train your dog?
+		1000 = WoL.5230 # Bad dog kills other dog
+		1000 = WoL.5231 # Bad dog kills or wounds courtier
+
+		# Horse Lords Mercenary Events
+		300 = HL.10100
+		300 = HL.10200
+		300 = HL.10210
+		300 = HL.10220
+		300 = HL.10230
+		300 = HL.10240
+		300 = HL.10250
+		300 = HL.10260
+		300 = HL.10270
+		300 = HL.10400
+		100 = HL.10410
+		300 = HL.10500
+		300 = HL.10510
+		300 = HL.10530
+		300 = HL.10600
+		
+		# Wolf's Blood events
+		100 = HL.1010 # Wolf Child found in woods
+		100 = HL.1020 # Child lost in woods and is rescued by wolves
+		500 = HL.1200 # Call of the Wolves
+		500 = HL.1300 # The Lost Cub
+		150 = HL.1400 # Werewolf first occurrence
+		1500 = HL.1401 # Werewolf subsequent occurrences
+		
+		300 = HL.1500 # Become cannibal
+		300 = HL.1510 # Howl at the moon
+		300 = HL.1520 # Hunter instinct strikes unexpectedly (and awkwardly) at court
+		300 = HL.1530 # Hunter instincts in martial training (upgrade martial education)
+		300 = HL.1540 # Become strong
+		300 = HL.1550 # Cunning as a wolf (quick)
+		300 = HL.1560 # Animal instincts take over... (lustful)
+		300 = HL.1570 # Pack instinct (gregarious)
+		300 = HL.1580 # Wolf is brave (brave)
+		300 = HL.1590 # Animal cruelty (cruel)
+		300 = HL.1610 # Rabid wolf (wroth)
+		300 = HL.1620 # Wolf-face (ugly)
+		300 = HL.1630 # Animal mind (lower learning trait level) 
+		300 = HL.1640 # Really howl at the moon! (lunatic)
+		
+		# Horse Lords Horse Events
+		800 = HL.6010 # Ward can't ride yet
+		100 = HL.6020 # Dangerous river crossing - save spouse or favorite horse?
+		100 = HL.6030 # A loyal retinue warrior's family have lost their horses to sickness
+		100 = HL.6510 # Your horse gets bitten by another horse
+		100 = HL.6520 # Foreign portrait painter offers his services
+				
+		#Hobbit Party
+		5 = hobbits.5
+		100 = hobbits.6
+		200 = hobbits.7
+		100 = blueistari.1
+		100 = blueistari.2
+		25 = dragon.0
+		25 = dunedaincourtier.0
+		25 = dunedaincourtier.1
+		25 = dunedaincourtier.3
+		25 = rohirrimcourtier.0
+		25 = rohirrimcourtier.1
+		25 = rohirrimcourtier.3
+		25 = bardingcourtier.0
+		25 = bardingcourtier.1
+		25 = bardingcourtier.3
+		25 = sindarcourtier.0
+		25 = sindarcourtier.1
+		25 = sindarcourtier.3
+		25 = sindarcourtier.4
+		
 		
 		5000 = 0 # Chance of no yearly event
 	}
@@ -177,7 +331,7 @@ on_bi_yearly_pulse = {
 		10 = 65005
 		10 = 65007
 		10 = 65009
-		10 = 65166
+#		10 = 65166
 		10 = 65011
 		10 = 65020
 		10 = 65021
@@ -186,16 +340,16 @@ on_bi_yearly_pulse = {
 		10 = 65030
 		10 = 65031
 		10 = 65032
-		10 = 65033
-		10 = 65034
-		10 = 65035
+#		10 = 65033
+#		10 = 65034
+#		10 = 65035
 		10 = 65036
 		10 = 65037
 		10 = 65040
 		10 = 65041
 		10 = 65042
-		10 = 65043
-		10 = 65165
+#		10 = 65043
+#		10 = 65165
 		10 = 65044
 		10 = 65045
 		10 = 65048
@@ -203,7 +357,7 @@ on_bi_yearly_pulse = {
 		10 = 65050
 		10 = 65051
 		10 = 65052
-		10 = 65053
+#		10 = 65053
 		10 = 65055
 		10 = 65057
 		10 = 65060
@@ -238,11 +392,11 @@ on_bi_yearly_pulse = {
 		10 = 65160
 
 		#Seven Virtues
-		10 = 3020
-		10 = 3021
+		# 10 = 3020
+		# 10 = 3021
 		10 = 3022
 		10 = 3025
-		10 = 3026
+		# 10 = 3026
 		10 = 3030
 		10 = 3035
 		10 = 3012
@@ -318,7 +472,7 @@ on_bi_yearly_pulse = {
 		10 = 3495	
 		10 = 3280
 		10 = 3282
-		10 = 3283
+		# 10 = 3283
 		10 = 3286
 		10 = 3710
 		10 = 3715
@@ -375,12 +529,21 @@ on_bi_yearly_pulse = {
 		10 = 3690
 		10 = 3700
 		
+		
 		2000 = 0 # Chance of no bi-yearly event
 	}
 }
 
 #character
 on_five_year_pulse = {
+
+	events = {
+	ambitions.0
+	ambitions.8
+	ambitions.15
+	mepclaims.6
+	}
+	
 	random_events = {
 		#----  misc traits needing revision below...
 
@@ -391,7 +554,7 @@ on_five_year_pulse = {
 		10 = 3325
 		10 = 3330
 		10 = 3335
-		10 = 3740
+		# 10 = 3740
 		
 		#Shy
 		10 = 3340
@@ -404,21 +567,21 @@ on_five_year_pulse = {
 		10 = 3365
 		10 = 3370
 		10 = 3375
-		10 = 3371
+		# 10 = 3371
 		
 		#Content
 		10 = 3380
 		10 = 3385
 		10 = 3390
 		10 = 3395
-		10 = 3745
+		# 10 = 3745
 		
 		#Arbitrary
 		10 = 3400
 		10 = 3405
 		10 = 3410
 		10 = 3415
-		10 = 3411
+		# 10 = 3411
 		
 		#Just
 		10 = 3420
@@ -431,16 +594,16 @@ on_five_year_pulse = {
 		10 = 3445
 		10 = 3450
 		10 = 3455	
-		10 = 3456		
+		# 10 = 3456		
 		
 		#Zealous
 		10 = 3460
 		10 = 3465
 		10 = 3470
 		10 = 3475
-		10 = 3476
-		10 = 3750
-		10 = 3755
+		# 10 = 3476
+		# 10 = 3750
+		# 10 = 3755
 
 		#Trusting
 		10 = 3500
@@ -467,8 +630,8 @@ on_five_year_pulse = {
 		10 = 1015
 		10 = 1016
 		10 = 1017
-		10 = 1018
-		10 = 1019
+		# 10 = 1018
+		# 10 = 1019
 		10 = 1028
 		10 = 1029
 		10 = 1030
@@ -498,11 +661,11 @@ on_five_year_pulse = {
 		10 = 1054
 		10 = 1057
 		10 = 1058
-		10 = 1060
-		10 = 1070
-		10 = 3264
-		10 = 3730
-		10 = 3735
+		# 10 = 1060
+		# 10 = 1070
+		# 10 = 3264
+		# 10 = 3730
+		# 10 = 3735
 		
 		40 = 0
 	}
@@ -510,6 +673,9 @@ on_five_year_pulse = {
 
 #character
 on_decade_pulse = {
+events = {
+greatplague.0
+}
 
 }
 
@@ -544,8 +710,8 @@ on_yearly_childhood_pulse = {
 		100 = 1720
 		100 = 1730
 		100 = 1965
-		100 = 1632
-		100 = 1732
+#		100 = 1632
+#		100 = 1732
 		
 		#Toddler flavour events (age 2-5), not very common, but some will get them.
 		10 = 1900 
@@ -558,16 +724,16 @@ on_yearly_childhood_pulse = {
 		20 = 1905
 		20 = 1906
 		20 = 1907
-		20 = 1908
+#		20 = 1908
 		20 = 1909
-		20 = 1910
+#		20 = 1910
 		20 = 1911
 		20 = 1912
 		
 		#Youngsters flavour events (age 11-15), not very common, but some will get then..
 		50 = 1913
-		50 = 1914
-		50 = 1915
+#		50 = 1914
+#		50 = 1915
 		50 = 1916
 		50 = 1917
 		50 = 1918
@@ -586,7 +752,7 @@ on_yearly_childhood_pulse = {
 		50 = 1931
 		50 = 1932
 		50 = 1933
-		50 = 1934
+#		50 = 1934
 		50 = 1935
 		
 		1500 = 0
@@ -597,7 +763,7 @@ on_yearly_childhood_pulse = {
 on_combat_pulse = {
 	random_events = {
 		2750 = 0
-		40 = 5556000 # Battlefield duel			
+		40 = duel_battle.1000 # Battlefield duel			
 		
 		10 = 242 # Killed
 		20 = 243 # Wounded
@@ -616,13 +782,13 @@ on_combat_pulse = {
 		30 = 96500 # Gain Combat Trait 1
 		15 = 96501 # Gain Combat Trait 2
 		15 = 96502 # Gain Combat Trait 3
-		15 = 96503 # Gain Combat Trait 4
+		# 15 = 96503 # Gain Combat Trait 4
 		
-		50 = TOG.3000 # Becomes Berserker
-		15 = TOG.3001 # Berserker Maimed
-		20 = TOG.3002 # Berserker Wounded
-		15 = TOG.3003 # Berserker Killed
-		25 = TOG.3004 # Berserker Kills Many
+		# 50 = TOG.3000 # Becomes Berserker
+		# 15 = TOG.3001 # Berserker Maimed
+		# 20 = TOG.3002 # Berserker Wounded
+		# 15 = TOG.3003 # Berserker Killed
+		# 25 = TOG.3004 # Berserker Kills Many
 	}
 }
 
@@ -654,7 +820,7 @@ on_battle_won = {
 		800 = 0
 		10 = 260 # Heroism shown
 		10 = 261 # Soldier Distinguish himself.
-		100 = 8310 # Crusader becomes zealous
+		# 100 = 8310 # Crusader becomes zealous
 	}
 }
 
@@ -680,7 +846,7 @@ on_battle_lost = {
 	random_events = {
 		700 = 0
 		50 = 250 # Imprisoned by the enemy
-		50 = 8320 # Crusader becomes cynical
+		# 50 = 8320 # Crusader becomes cynical
 
 		
 	}
@@ -706,73 +872,73 @@ on_major_battle_lost_leader = {
 
 on_siege_won_leader = {
 	events = {
-		8330 # Conquers the crusade target
-		60100 # Mongols sack Kiev
-		60101 # Mongols sack Novgorod
-		60102 # Mongols sack Krakow
-		60103 # Mongols sack Aachen
-		60104 # Mongols sack Paris
-		60105 # Mongols sack London
-		60106 # Mongols sack Rome
-		60107 # Mongols sack Venice
-		60108 # Mongols sack Constantinople
-		60109 # Mongols sack Lisbon
-		60110 # Mongols sack Smolensk
-		60111 # Mongols sack Prague
-		60112 # Mongols sack Vienna
-		60113 # Mongols sack Esztergom
-		60114 # Mongols sack Athens
-		60115 # Mongols sack Belgrade
-		60116 # Mongols sack Baghdad
-		60117 # Mongols sack Damascus
-		60118 # Mongols sack Jerusalem
-		60119 # Mongols sack Alexandria
-		60120 # Mongols sack Cairo
-		60121 # Mongols sack Mecca
-		88005 # Mongols sack city near the Hashshashin
+		# 8330 # Conquers the crusade target
+		# 60100 # Mongols sack Kiev
+		# 60101 # Mongols sack Novgorod
+		# 60102 # Mongols sack Krakow
+		# 60103 # Mongols sack Aachen
+		# 60104 # Mongols sack Paris
+		# 60105 # Mongols sack London
+		# 60106 # Mongols sack Rome
+		# 60107 # Mongols sack Venice
+		# 60108 # Mongols sack Constantinople
+		# 60109 # Mongols sack Lisbon
+		# 60110 # Mongols sack Smolensk
+		# 60111 # Mongols sack Prague
+		# 60112 # Mongols sack Vienna
+		# 60113 # Mongols sack Esztergom
+		# 60114 # Mongols sack Athens
+		# 60115 # Mongols sack Belgrade
+		# 60116 # Mongols sack Baghdad
+		# 60117 # Mongols sack Damascus
+		# 60118 # Mongols sack Jerusalem
+		# 60119 # Mongols sack Alexandria
+		# 60120 # Mongols sack Cairo
+		# 60121 # Mongols sack Mecca
+		# 88005 # Mongols sack city near the Hashshashin
 		CM.10033 # Chronicle for certain major locations
 		CM.10034 # Chronicle for certain major locations
 	}
-	random_events = {
-		300 = 0
-		100 = 8340 # Finds the Spear of Destiny / Holy Lance
-		100 = 8342 # Finds the Holy Grail
-		500 = 8345 # Sack of Jerusalem
-	}
+	# random_events = {
+		# 300 = 0
+		# 100 = 8340 # Finds the Spear of Destiny / Holy Lance
+		# 100 = 8342 # Finds the Holy Grail
+		# 500 = 8345 # Sack of Jerusalem
+	# }
 }
 
 on_siege_lost_leader = {
 	events = {
-		8350 # Loses the crusade target's capital
+		# 8350 # Loses the crusade target's capital
 	}
 }
 
 # Fires for the owner of the winning unit (ROOT). The taken Holding title is in FROM.
 on_siege_over_winner = {
 	events = {
-		TOG.1005 # Peasants take county capital
-		TOG.1025 # Heretics take county capital
-		TOG.1045 # Nationalists take county capital
-		TOG.1065 # Religious rebels take county capital
-		CM.1101 # Destruction of Irminsul
+		# TOG.1005 # Peasants take county capital
+		# TOG.1025 # Heretics take county capital
+		# TOG.1045 # Nationalists take county capital
+		# TOG.1065 # Religious rebels take county capital
+		# CM.1101 # Destruction of Irminsul
 		CM.10035 # Chronicle for certain major locations
 	}
 	random_events = {
 		400 = 0 # Nothing happens
-		100 = SoA.5400 # Massacre at Beziers-type event
+		# 100 = SoA.5400 # Massacre at Beziers-type event
 	}
 }
 
 # Fires for all characters presumed to be in the Holding at the time. Siege winner unit owner in the 'new_character' scope, lost holding title in FROM, local character in ROOT.
 on_siege_over_loc_chars = {
 	events = {
-		SoA.5406 # Shepherds' Crusade kills Jews and priests
+		# SoA.5406 # Shepherds' Crusade kills Jews and priests
 	}
 	random_events = {
  		1000 = 0 # Nothing happens
- 		400 = SSI.61 # Aztec sacrifice
+ 		# 400 = SSI.61 # Aztec sacrifice
  		100 = 62100 # Character imprisoned
- 		200 = TOG.1190 # Rebels kill character
+ 		# 200 = TOG.1190 # Rebels kill character
  	}
 }
 
@@ -818,16 +984,18 @@ on_birth = {
 		706 # Full House achievement
 		707 # Keeping it in the Family achievement
 		CM.10011 # Chronicle entry
+		HL.1000 # Child born with Wolf's Blood
+		HL.1700 # Wolf's Blood inheritance
 	}
 	random_events = {
-		200 = 0
+		10 = dwarvenevents.0 # The child is the reincarnation of Durin the Deathless.
 	}
 }
 
 # character
 on_adulthood = {
 	events = {
-		SoA.3020 # Demon child's true nature asserts itself
+		# SoA.3020 # Demon child's true nature asserts itself
 	}
 }
 
@@ -847,22 +1015,25 @@ on_pregnancy = {
  		401 # Pregnancy out of wedlock
  		402 # Pregnancy in matrimony, with another father!
  		410 # Pregnancy as consort
- 		412 # Pregnancy as consort, with another father!		
- 	}
+ 		412 # Pregnancy as consort, with another father!
+  		elveninfertility.0 #Elven Pregnancy, infertility starts
+		dwarveninfertility.0 #Dwarven Pregnancy, infertility starts
+ 	    humaninfertility.0 #Human Pregnancy, infertility starts
+	}
 }
 
 #character
 on_crusade_creation = {
 	events = {
- 		200 # Christian Crusade against Muslims
- 		201 # Christian Crusade against Pagans
- 		321 # Christian Crusade against Heretics
- 		320 # Jihad against Christians
- 		322 # Jihad against Pagans
- 		323 # Jihad against Heretics
- 		324 # Pagan Holy War against Christians
- 		325 # Pagan Holy War against Muslims
- 		326 # Pagan Holy War against other Pagans
+ 		# 200 # Christian Crusade against Muslims
+ 		# 201 # Christian Crusade against Pagans
+ 		# 321 # Christian Crusade against Heretics
+ 		# 320 # Jihad against Christians
+ 		# 322 # Jihad against Pagans
+ 		# 323 # Jihad against Heretics
+ 		# 324 # Pagan Holy War against Christians
+ 		# 325 # Pagan Holy War against Muslims
+ 		# 326 # Pagan Holy War against other Pagans
 		CM.10015  # Chronicle entry
  	}
 }
@@ -871,9 +1042,9 @@ on_crusade_creation = {
 on_marriage = {
 	events = {
  		500 # Royal Marriage Aid Duty
- 		501 # Zoroastrian "Xwedodah" marriage
- 		502 # Messalian close kin marriage
-		708 # Marriage Game achievement
+ 		# 501 # Zoroastrian "Xwedodah" marriage
+ 		# 502 # Messalian close kin marriage
+		# 708 # Marriage Game achievement
 		CM.10023  # Chronicle entry
 		CM.10036 # Chronicle entry - primary heir
  	}
@@ -906,7 +1077,7 @@ on_released_from_prison = {
 	events = {
  		153
 		CM.10025  # Chronicle entry
-		CM.15002  # Free anyone thrown into the desert
+		# CM.15002  # Free anyone thrown into the desert
  	}
 }
 
@@ -927,24 +1098,24 @@ on_exiled = {
 #character. Fires every month for characters who are preparing an invasion.
 on_prepared_invasion_monthly = {
 	random_events = {
-		15 = 0
-		15 = 62322 	# A small force flocks to your banner
-		15 = 62320 	# A significant force flocks to your banner
-		2 = 62321 	# A Hero joins your cause with his retinue
+		# 15 = 0
+		# 15 = 62322 	# A small force flocks to your banner
+		# 15 = 62320 	# A significant force flocks to your banner
+		# 2 = 62321 	# A Hero joins your cause with his retinue
 	}
 }
 
 #character. Fires if a prepared invasion becomes invalid.
 on_prepared_invasion_aborts = {
 	events = {
-		62300 # Handle abort
+		# 62300 # Handle abort
 	}
 }
 
 #character. Fires if a prepared invasion expires.
 on_prepared_invasion_expires = {
 	events = {
-		62310 # Handle expiration
+		# 62310 # Handle expiration
 	}
 }
 
@@ -954,13 +1125,13 @@ on_death = {
 		650
 		24500
 		24502
-		70041
-		88291
-		SoA.5306
-		705
+		# 70041
+		# 88291
+		# SoA.5306
+		# 705
 		45340 # Inheritance of Traits
-		CM.1068 # Carloman dies
-		CM.1069 # Charlemagne dies
+		# CM.1068 # Carloman dies
+		# CM.1069 # Charlemagne dies
 		CM.10010 # Chronicle entry
 		CM.6185 # Dies of other causes while assassination is in progress - clear flags
 	}
@@ -973,31 +1144,31 @@ on_death = {
 
 on_merc_rampage = {
 	events = {
- 		38050
+ 		# 38050
  	}
 }
 
 on_merc_leave = {
 	events = {
- 		38051
+ 		# 38051
  	}
 }
 
 on_merc_turn_coat_from = {
 	events = {
- 		38052
+ 		# 38052
  	}
 }
 
 on_merc_turn_coat_to = {
 	events = {
- 		38053
+ 		# 38053
  	}
 }
 
 on_holy_order_leave = {
 	events = {
- 		38054
+ 		# 38054
  	}
 }
 
@@ -1015,11 +1186,11 @@ on_character_event_message = {
 
 on_loot_settlement = {
 	random_events = {
-		5 = TOG.3300
-		5 = TOG.3301
-		5 = TOG.3302
-		5 = TOG.3303
-		35 = TOG.3320
+		# 5 = TOG.3300
+		# 5 = TOG.3301
+		# 5 = TOG.3302
+		# 5 = TOG.3303
+		# 35 = TOG.3320
 		250 = 0
 	}
 }
@@ -1052,9 +1223,11 @@ REVOKE_TITLE_INTERACTION_DECLINE_EVENT = {
 	}
 }
 
+# FROM is character receiving peace proposal. ROOT is character sending peace proposal.
 OFFER_PEACE_INTERACTION_ACCEPT_EVENT = {
 	events = {
 		206
+		CM.1407 # Charlemagne in Spain
 	}
 }
 
@@ -1269,10 +1442,10 @@ ASK_FOR_INVASION_INTERACTION_DECLINE_EVENT = {
 	}
 }
 
+#
 ASK_FOR_DIVORCE_INTERACTION_ACCEPT_EVENT = {
 	events = {
 		234
-		717 # Achievement
 	}
 }
 
@@ -1296,14 +1469,16 @@ ASK_FOR_EXCOMMUNICATION_INTERACTION_DECLINE_EVENT = {
 
 CALL_ALLY_INTERACTION_ACCEPT_EVENT = {
 	events = {
-		238
+		238 # Ally accepts
+		41000 # Vassal accepts
 		CM.10014
 	}
 }
 
 CALL_ALLY_INTERACTION_DECLINE_EVENT = {
 	events = {
-		239
+		239 # Ally 
+		41001 # Vassal
 	}
 }
 
@@ -1374,6 +1549,19 @@ ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_EVENT = {
 	}
 }
 
+SETTLE_ADVENTURER_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		288
+		725
+	}
+}
+
+SETTLE_ADVENTURER_INTERACTION_DECLINE_EVENT = {
+	events = {
+		289
+	}
+}
+
 ASK_TO_JOIN_WAR_INTERACTION_ACCEPT_EVENT = {
 	events = {
 		293
@@ -1408,6 +1596,54 @@ MAKE_CONSORT_INTERACTION_ACCEPT_EVENT = {
 MAKE_CONSORT_INTERACTION_DECLINE_EVENT = {
 	events = {
 		298
+	}
+}
+
+ABSORB_CLAN_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		503
+	}
+}
+
+ABSORB_CLAN_INTERACTION_DECLINE_EVENT = {
+	events = {
+		504
+	}
+}
+
+SPLIT_CLAN_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		509
+	}
+}
+
+SPLIT_CLAN_INTERACTION_DECLINE_EVENT = {
+	events = {
+		510
+	}
+}
+
+FORM_BLOOD_OATH_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		505
+	}
+}
+
+FORM_BLOOD_OATH_INTERACTION_DECLINE_EVENT = {
+	events = {
+		506
+	}
+}
+
+SETTLE_FEUD_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		507
+	}
+}
+
+SETTLE_FEUD_INTERACTION_DECLINE_EVENT = {
+	events = {
+		508
 	}
 }
 
@@ -1446,6 +1682,8 @@ on_rebel_revolt = {
 		TOG.1060	# Religious rebels rise up
 		TOG.1010 	# Peasant rebels reinforced
 		TOG.1000 	# Peasant rebels rise up
+		HL.2010		# Minor Clan rebels reinforced
+		HL.2000		# Minor Clan rebels rise up
 	}
 }
 
@@ -1489,14 +1727,14 @@ on_forced_consort = {
 # When a pagan religion is reformed
 on_reform_religion = {
 	events = {
-		670
+		# 670
 	}
 }
 
 # When the religion changes in a county
 on_county_religion_change = {
 	events = {
-		SoA.4121
+		# SoA.4121
 	}
 }
 
@@ -1504,14 +1742,14 @@ on_county_religion_change = {
 # FROMFROM is the demander. FROM is the vassal. ROOT is the character. Fires for the vassal and each of his courtiers and vassals.
 on_vassal_accepts_religious_conversion = {
 	events = {
-		39700 # Hidden event actually changing the religion
+		# 39700 # Hidden event actually changing the religion
 	}
 }
 
 # A heresy has become the new norm, replacing the old orthodoxy
 on_heresy_takeover = {
 	events = {
-		SoA.4200
+		# SoA.4200
 	}
 }
 
@@ -1524,7 +1762,7 @@ on_become_doge = {
 
 on_elective_gavelkind_succession = {
 	events = {
-		63103
+		# 63103
 	}
 }
 # Fires when a navy moves into a port. Starts in unit scope, FROM is the owner.
@@ -1541,7 +1779,7 @@ on_rel_elector_chosen = {
 # Fires when a Pope is elected. SoA only! FROM is the previous Religious Head
 on_rel_head_chosen = {
 	events = {
-		704
+		# 704
 	}
 }
 
@@ -1560,7 +1798,7 @@ on_create_title = {
 	events = {
 
 		CM.10021
-		CM.1501
+		# CM.1501
 	}
 }
 
@@ -1617,6 +1855,9 @@ on_chronicle_start = {
 	events = {
 		CM.10000
 		buildings.0 ## Will allow the buildings
+		mepstart.0 ## will give some titles to the correct characters		
+		mepstartup.1 ## guide for players
+
 	}
 }
 

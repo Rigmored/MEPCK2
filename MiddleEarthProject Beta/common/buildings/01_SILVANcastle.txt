@@ -324,10 +324,10 @@ castle = {
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-            	}
+        }
 	}
 	ca_elven_barracks_2 = {
-		desc = ca_elven_barracks_2_desc
+		desc = ca_elven_barracks_1_desc
 
 		prerequisites = { ca_Swall_1 }
 		upgrades_from = ca_elven_barracks_1
@@ -336,17 +336,17 @@ castle = {
 		light_infantry = 50
 		archers = 50
 		ai_creation_factor = 99
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-            	}
+        }
 	}
 	ca_elven_barracks_3 = {
-		desc = ca_elven_barracks_3_desc
+		desc = ca_elven_barracks_1_desc
 		
 		upgrades_from = ca_elven_barracks_2
 		gold_cost = 200
@@ -354,17 +354,17 @@ castle = {
 		light_infantry = 55
 		archers = 55
 		ai_creation_factor = 98
-        	potential = {
-            		has_global_flag = building
+        potential = {
+           	has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-            	}
+        }
 	}
 	ca_elven_barracks_4 = {
-		desc = ca_elven_barracks_4_desc
+		desc = ca_elven_barracks_1_desc
 		
 		upgrades_from = ca_elven_barracks_3
 		gold_cost = 240
@@ -372,17 +372,17 @@ castle = {
 		light_infantry = 60
 		archers = 60
 		ai_creation_factor = 98
-        	potential = {
-            		has_global_flag = building
+        potential = {
+            has_global_flag = building
 			OR = {
 			culture = culture_silvan
 			culture = culture_nandor
 			culture = culture_laegrim
 			}
-            	}
+        }
 	}
 	ca_elven_barracks_5 = {
-		desc = ca_elven_barracks_5_desc
+		desc = ca_elven_barracks_1_desc
 		
 		upgrades_from = ca_elven_barracks_4
 		gold_cost = 305
@@ -400,7 +400,7 @@ castle = {
             	}
 	}
 	ca_elven_barracks_6 = {
-		desc = ca_elven_barracks_6_desc
+		desc = ca_elven_barracks_1_desc
 		
 		upgrades_from = ca_elven_barracks_5
 		gold_cost = 395
@@ -936,22 +936,23 @@ castle = {
 
 ####################### Unique buildings #######################
 	ca_thranduil = { 
-		desc = "The halls of the Woodland Realm, reminiscent of ancient Doriath in its splendors."
-		gold_cost = 150
+		desc = ca_thranduil_desc
+		gold_cost = 1400
 		build_time = 1460 #4y
 		fort_level = 4.4
-		garrison_size = 2.50
+		garrison_size = 2.00
 		heavy_infantry = 500
-		archers = 1000
+		pikemen = 500
+		archers = 750
 		ai_creation_factor = 100
         	potential = {
-            		province_id = 323 #thranduil#
+            		FROMFROM = { title = b_king_thranduil_hall }
 		}
 	}
 
 	ca_amon_lanc = { ### The Rebuilded Amon Lanc, city of Oropher
 		desc = ca_amon_lanc_desc
-		gold_cost = 550
+		gold_cost = 1000
 		build_time = 1460 #4y
 		fort_level = 1.0
 		ai_creation_factor = 86
@@ -971,16 +972,17 @@ castle = {
 	
 	ca_lorien = { #Lorien#
 		desc = ca_lorien_desc
-		gold_cost = 150
+		gold_cost = 1500
 		build_time = 1460 #4y
 		fort_level = 6.0
 		garrison_size = 2.00
-		heavy_infantry = 1250
+		heavy_infantry = 1000
 		archers = 1000
+		light_infantry = 500
 		horse_archers = 250
 		ai_creation_factor = 86
         	potential = {
-            		province_id = 235 #Lorien
+            		FROMFROM = { title = b_house_of_celeborn }
 		}
 	}	
 }

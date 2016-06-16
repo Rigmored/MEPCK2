@@ -1,4 +1,4 @@
-# 328 - Celonduin
+# 328 - Celebannon
 
 # County Title
 title = c_north_east_mirkwood
@@ -6,7 +6,7 @@ title = c_north_east_mirkwood
 # Settlements
 max_settlements = 5
 
-b_celonduin = castle
+b_celebannon = castle
 b_elanor = city
 b_celodimlad = castle
 #b_lond_alagos = castle
@@ -14,10 +14,7 @@ b_celodimlad = castle
 
 # Misc
 terrain = forest
-8222.1.1 = {
 culture = culture_silvan
 religion = religion_moriquendi
-terrain = forest
-}
 
 

@@ -1,11 +1,238 @@
--------MIDDLE-EARTH PROJECT----------
+﻿-------MIDDLE-EARTH PROJECT----------
+
+##### 0.5.1b Patch Changelog ##### 
+
+- Fixed game breaking bugs after 2.4.3 
+- Race traits now check real_father instead of father
+- Evil rulers now have the 'create orc' decision
+- Fixed broken trigger for fall of arnor event chain
+- Tweaked raiding frequency
+- Integrated horse lords static modifiers
+- Fixed some localisations for population modifiers, titles, etc
+
+##### 0.5b Changelog #####
+
+TLDR:
+- WoL and HL features integrated
+- Perfomance massively increased
+- Many bug fixes and tweaks
+- Population mechanics added
+- Colonisation tweaked
+- Wilderness overhauled
+- Playable holy orders (Swan Knights, Black Serpent)
+- Map changes, Mirkwood appearance overhauled
+
+-Removed buggy and recurring events from wotr informing that hobbits have left, and that rohan is under attack
+-Deleted file MEP_Narsil, it was causing CTD with aragorn and I dont see why narsil should be so easily reforged anyways
+-Removed all those wilderness holdings from Aragorn, had to give them to new wilderness chars, since he always got them even though holder was set to 0 due to inheritance i suppose
+-Deleted events buildings 100, 101, and 102. They were buggy and kept repeating endlessly when holding any of those, aragorn kept getting them in the WOTR bookmark
+-Changed end date to 99999 in hopes of fixing the CTD on load/resign (if a character has a death date beyond the mod end date, it will cause this crash) but it didnt work so the problem is somewhere else in /history folder
+-Fixed rather annoying load/resign CTD. The problem was that someone had used those special dwarven/elven letters in both landes_titles and history/provinces. That causes problems - special characters like that should only be used in localisation, not directly in game files.
+-Removed MEP_gondor_wotr events: They re good flavor, but it means that AI Gondor will always lose the main war because it uses up its levies in battles vs event armies before the main assault
+-Fixed title history so that Rohan no longer holds half the Vale of Anduin
+
+*Added population mechanics for Dunedain/Numenorean Group, Elves, and Dwarves.
+-Their lands are either lightly populated, populated, or densely populated
+-Set up starting event to populate the major areas
+-When you get a new province in-game to your culture, it'll automatically be lightly populated with a -66% penalty to troops and income
+-Populations can be increased via a decision, which is very costly and takes 20 years
+-When a province is occupied by enemies, there is a MTTH event of 5 years which lowers the population level by one (from dense to normal, from normal to light)
+
+-Removed shire provinces from Aragorn, it makes no sense to have the hobbits attack him with dejure cb
+-Changed retinue values. Seems they no longer stack with culture, so some dunedain and elven/dwarven ones needed a stat boost
+-Nerfed Isengard Uruk pits. Saruman had 45k troops, it was crazy.
+-Removed file MEP_alliance.txt from events, it was all unlocalised and therefore useless until someone localises it
+-Deleted orcs_decisions since it was a duplicate of MEP_orcs_decisions
+-Copied over vanilla dynasty_decisions.txt, since ours was out of date and possibly not working
+-Removed all special troops for now. They cause CTDs when seen on the map since a recent patch if they are not all individualy graphically defined (which I don't know how to do)
+-Quite a few event and decision validator errors fixed
+-Made it so that the special buildings, at least in many cases, are only in the barony where theyre supposed to be, not the whole province and sub-baronies
+-Removed coat_of_arms.txt from /interface. Something in there was causing a CTD when a certain army in that region was spotted, most likely related to Rivendells Banner/COA
+-Retinues were vastly overpowered, Gondor could raise something like 30,000 troops in retinues alone if at full strength. Brought them back in line with vanilla values, except that reinforce cost is still half of vanilla.
+-Did some balancing of realm power by editing some buildings, it might still need some work but seems better now. Before, Saruman and Sauron won 99% of the time.
+-Fixed crash with CTD on checking fort tab
+
+-Integrated events/decisions from Way of Life and Horselords
+-Updated some event files with more recent vanilla versions where I could see there was no custom content in ours
+-For the event file adventures_the_old_gods.txt these cultures can spawn adventurers to take on a duchy title (orcs already have another mechanic in-game):
+culture = culture_black_numenorean
+culture_group = culture_barding
+culture_group = culture_northmen
+culture = culture_eotheod
+culture = culture_rohirrim
+culture = culture_hillmen
+culture = culture_umbareans
+-In the same event file, any character with a claim to a king title can try to take it via an adventure army (vanilla mechanic)
+-Brought back the Old Gods rebel events, not sure why they were removed.
+-I now know why they were removed. They're annoying as hell for a large empire. Kept the event, but reduced frequency by 75%
+-Tweaked the Aragorn coronation event so he doesnt just automatically gain the extra provinces in the north. This is unfair to players who have expand that far, suddenly their lands are just taken away by event.
+-Small fix for MEP_population_mechanics regarding new elven provinces not getting the lightly populated modifier. 
+-Bigger fix for MEP population mechanics, it should work properly now
+-Removed personalty = yes from Numenorean traits, they got randomly assigned because of it
+-Restricted some Way of Life seductions so that you cant go around seducing Sauron, Eagles, Balrogs, ents, or orcs etc
+
+*Couldnt figure out why purge province job action didn't work, so I re-did the whole thing. Now if there are hostile cultures in your realm, you get an event asking if you want to purge your land of enemies. The hostile cultured provinces get a modifier for 10 years with a +5% revolt risk, and after that, the province becomes wilderness and must be colonised again. To prevent maiar and such cultured provinces when Sauron or Saruman takes over, those provinces are immediately turned orcish, instead of wilderness. I removed the job action purge province and the purge decision - it might have worked once, but I played 50 years, and Ithilien was still full of orcs in my Aragorn game so something is clearly not working anymore.
+
+-Removed the events giving both types of Blood of Numenor to random courtiers. It should be rare in the 3rd Age, and if there are too few, the solution is rather to give the trait to more starting nobles rather than just have a random courtier appear with a bloodline as powerful as Denethor or Aragorn...
+-On that note, also changed localisation from "Drops of Numenorean Blood" to "Strong Traces of Numenorean Blood" and the strongest one is now "True Blood of Numenor"". Everyone in Gondor and Arnor have "drops", the 2nd trait is still meant to be something special.
+-Reduced number of event troops Aragorn gets when he joins Rohan. Those 2.5k heavy cavalry smashes Sarumans army too easily.
+-Took away lands from Boromir and Faramir. If landed, they ll often marry commoners, which many players wont like - myself included :p
+
+-Code optimization. Moved all events that could be, to on_actions instead of MTTH.
+-I m afraid I had to delete the calender events entirely - with this as MTTH:
+mean_time_to_happen = {
+days = 1
+modifier = {
+factor = 0.00001
+always = yes
+}
+}
+It is extremely resource intensive, and not worth the drain on performance for just that small yearly event notification.
+-Also deleted MEP_numenor_reconquest.txt. It uses these triggers several times:
+completely_controls = d_umbar ### WARNING: completely_controls is a very demanding trigger.
+-Incidentally, this was the cause of the 20 day slowdown of the mod, together with the other MEP_Numenor file which inexplicably also caused huge lag.
+-Deleted event where Sauron gets 1000 gold from the Variags every few months while at war. It is quite unbalancing, and there is no way that the Variags are that rich.
+
+*Remake of colonization system. Sorry Lon, but I got too annoyed trying to colonize Annunimas and nothing happening 3 times in a row, and its always easier rebuilding an event from scratch than fixing someone else's
+Features:
+-Special mechanics for dunedain, you can choose to colonise with middle men at a lower cost
+-If you have an elf, dwarf, or a halfling in your court you can at higher cost colonise a province with these cultures
+
+
+-Changed localisation of Gondorian Commoners back to Gondorian Middlemen. It doesn't make sense to call them commoners, as they can also be nobles. Middlemen is a more accurate term, describing their lack of Dunedain "High Men" ancestry.
+-Added Arnorian Middle men culture also.
+-Fixed issue with commanders not working properly
+-Removed these # groups from the Duchy adventure old gods event, we don't want Rohirrim and such attacking Gondor or Bardings attacking the elves and dwarves
+OR = { # Only these for now
+culture = culture_black_numenorean
+#culture = culture_barding
+#culture = culture_northmen
+#culture = culture_eotheod
+#culture = culture_rohirrim
+culture = culture_hillmen
+culture = culture_umbareans
+has_character_flag = demon_child_non_pagan
+}
+-Temporary fix: Patricians and their families no longer get banished when good/evil side conquers and banishes the nobles of another side. This is to prevent Mordor from getting the Pelargir republic and becoming a republic himself. Placeholder fix until better one is found.
+
+*New Blood of Numenor mechanics
+-At start up, before the kinstrife bookmark, everyone of gondorian, arnorian, dunedain etc culture gets the lesser trait blood of numenor if they dont have it
+-After the kinstrife, only 70% of Gondorians and Arnorians get it, while 100% of dunedain still get it
+-If you lose the trait, Dunedain and Arnorians become Arnorian middle men, and Gondorians become Gondorian Middle men. Black Numenoreans can remain black numenorean cultured even if losing the trait, as there is no real need for a "black numenorean middle men" culture, and they shouldn't switch portraits to haradrim either :p
+
+-Temporary fix. Internal version has patrician portrait bug with elves and possibly some others, i m reverting the elven, hobbit, and dwarf portrait sets to thsoe from Birthright, which do not have the patrician portrait bug - at least until Lonhaldar comes back and fixes the current versions.
+
+##### 0.4.2b Changlog #####
+
+
+BUGFIX
+- Fixed bug with Orc, Human, Noldor and Silvan/Sindar feast events not firing correct events
+- Fixed bug where Orcs couldn't eat/sacrifice Beornings during feasts
+- Fixed some colours on Harad titles
+- Fixed some minor bugs in infertility events
+- Fixed some minor bugs in race traits assignment
+- Fixed bug where items weren't passed on to heirs after abdication
+- Fixed bug where Become a Craftsman ambition was available for all races, instead of only Noldor/Dwarves
+- Fixed capitals of Angmar + Arthedain
+- Fixed bug when creating Arnor, that said Arthedain wasn't completely controlled
+- Fixed Gwaith-i-Mirdain building appearing outside capital barony of Ost-in-Edhil
+- Fixed Arathorn I being married to a man
+- Fixed bug where immortal races could become incapable and never recover
+
+CASUS BELLI
+- Added 'Good Invasion' usable by Free Peoples against Orcs and other Creatures of Melkor
+
+CHARACTERS
+- Added gluttonous and charismatic negotiator to Will Whitfoot
+- Added Tauriel as courtisan in Thranduil's Halls
+- Added a bunch of new holders characters in Northern Mirkwood
+- Added Beorning characters from LOTRO
+- Added traits to some historic characters
+
+DECISIONS
+- Added Dwarven feast decision
+- Summer Fair only available for Hobbits
+
+DIPLOMACY
+- Disabled 'demand religious conversion' diplomatic interaction
+- Disabled 'send to monastery' diplomatic interaction
+- Integrated new version of Pledge Mod v4 (thanks Hoony)
+
+EVENTS
+- Added Dwarven feasts events
+- Relocalised all Summer Fair events for Hobbits
+
+GAMEPLAY
+- Extended end date by 200 years
+
+GFX
+- Reworked icons for Elf Warrior, Rider and Craftsman ambitions
+- Added unique icon for Eldar races
+- New title logo
+
+INTERFACE
+- New character view interface window 
+
+LAWS
+- Updated laws
+
+LOCALISATION
+- Re-added Middle Earth descriptions and names for education traits
+- Hobbit counts are now Messr
+- Edited localisation for feast events
+
+MAP
+- Changed Stonefoots in Zirakdum back to Stiffbeards
+- Added province of Azanulbizar to Duchy of Moria, west of Lorien
+- Moved Redhorn/Caradhras to correct position north of Moria
+- Better borders in West Gondor and Enedwaith
+- Overhauled Enedwaith landed_titles
+
+NICKNAMES
+- Added Flourdumpling to Will Whitfoot
+- Re-added Strider to Aragorn II
+
+OBJECTIVES
+- Disabled Seduction focus for Elves
+- Disabled Family focus for Creatures of Melkor
+- Disabled War focus for Hobbits
+- Disabled all focuses for Wilderness
+
+RELIGION
+- Added High and Evil god names for all religions
+- Added feminist = yes for Eldar and Spiders
+- Added conversion desire = 0 to all religions (races can't convert)
+- Removed Moriquendi/Calaquendi elven racial distinction and removed Calaquendi
+- Tweaked some religion names for consistency (Elven, Dwarven, Halfling, etc)
+- Added Umaiar religion for Sauron, Morgoth, Balrogs, etc
+
+SUBMODS
+- Integrated latest version of Pledge mod (v.4)
+
+TITLES
+- Assigned some Northern Mirkwood titles
+- Assigned some Vales of Anduin titles
+- Reworked Vales of Anduin titles, less power to Beornings, more wilderness lands to colonize
+- Added titular Mayordom of Shire held by Will Whitfoot
+- Restructured Shire, no duchy titles other than Mayordom at WotR start, no counts hold more than one township
+- Changed Thaindom of the Shire colour to beige
+- Removed d_ringbearer title
+
+TRAITS
+- Added combat stats to soldier and weapon traits
+- Added generic combat skill traits for all other races
+- Added more conditions for passing on Elf Blood/Blood of Numenor in special cases
+
 
 ##### 0.4b Changelog #####
 
+AMBITIONS :
+- Added the Ambition to become a craftsman (only for Noldor and Dwarves, and only for characters who don't have one of these traits : healer/musician/mariner)
+
 BUGFIX :
-- The Ambition to become a Elf Warrior is now fixed for characters more aged than 45.
+- The Ambition to become a Elf Warrior is now fixed for characters aged more than 45.
 - Some Object-Traits can be inherited, like the Dwarven Rings.
-- Fixed a bug where the Mithril chest trait doesn't appears in game.
+- Fixed a bug where the Mithril Mail trait doesn't appear in game.
 - Fixed a bug with an event during the Kin-Strife bookmark, for the Witch-King, that pops but don't have any options to close.
 - Fixed some bugs with colonisation/purge mechanics
 - Fixed bug with an event related to the alliance system that kept to pop up
@@ -19,12 +246,16 @@ BUGFIX :
 - Fixed missing sprite for Enigma trait
 - CB icons no longer misaligned
 - Fixed a bug with the abdication decision
+- Removed Dol Amroth special troops due to crash problem
+- Removed bugged road province modifiers
+- Fixed wilderness levy + income province malus
 
 BUILDINGS :
-- Added several levels for the buildings "Khazad-Dum" and "Erebor"
-- Added specific buildings for the cities of Thorin's Gate, Azanulimbar-Dum, Tamnogoth, Zirakdum and Nurunkhizdin
-- Added new cultural buildings for all the cultures
-- Any buildings in Ruined Provinces will now be automatically destroyed
+- Major building system overhaul:
+-- Added several levels for the buildings "Khazad-Dum" and "Erebor"
+-- Added specific buildings for the cities of Thorin's Gate, Azanulimbar-Dum, Tamnogoth, Zirakdum and Nurunkhizdin
+-- Added new cultural buildings for all the cultures
+-- Any buildings in Ruined Provinces will now be automatically destroyed
 
 CHARACTERS :
 - The Sons of Aragorn and Arwen will have now the trait "Half-Elf"
@@ -46,11 +277,14 @@ CULTURES AND RACES :
 - Elves will now be children until 50-100 years old. They won't be able to marry or to lead armies during this period.
 - Added Dorwinrim culture in Dorwinion
 - Added Wights race
+- Made Haldadians, Lossoth and Druwathings tribal
+- Elven childhood mechanics, an Elf won't reach adulthood until age 50
 
 DECISIONS :
 - Rebuild the Cities of Edhellond, Amon Sûl and Osgiliath
 - If the Dwarves rule Erebor, Khazad-Dum and Gundabad, as King of Gundabad, call the Assembly of the Dwarves, and try to unificate all the Dwarves of Middle-Earth.
 - Use only one decision to open all the lists of holders of artefacts (rings/palantiri/weapons for now)
+- New decision system divides decisions into Family/Special/Employment/Festivity
 
 EVENTS :
 - "Call the Council of Gondor" feature, and try to gain the vote on several possibilities.
@@ -62,6 +296,10 @@ EVENTS :
 - An eastern ruler has now the possibility to find and invite as courtisans one of the Blue Istari: Alatar and Pallando
 - When the King of Gondor is crowned, he's now able to renew the Oath of Eorl, or to try to vassalize/conquer the land for Gondor.
 - Added event to remove Ringbearer title from non-ringbearer
+- Elves can now only have one spouse in their lives. Hobbits and Dwarves can choose this option too.
+- Added startup guide event with index
+- Added events for hobbits to hold parties and give gifts to each other
+- Added global event informing of Sauron restoring/coming to full power
 
 GFX :
 - Changed a lot of old flags
@@ -71,19 +309,23 @@ GFX :
 - Removed crosses from CB icons and changed imperial reconquest cb from LoR laurel to Arnorian crown
 - New unique portraits for Sauron with the ring and the Mouth of Sauron
 - Fixed broken religion icons and ironman selection button
-- New decision icons for most decisions
+- New decision icons for most decisions and some changed
+- Removed vast amount of vanilla gfx that was increasing file size
+- Minimap improved
 
 JOB ACTIONS :
 - As an Evil Character, send your emissary in a weaker realm, and threaten them to improve your own glory
 - Use your Loremaster to heal the troops and stronger your reinforce rate.
-- Use your Loremaster to search after some ancient artefacts.
 
 LINKS :
-- Added many main characters to in-game wiki links list
+- Added some main characters to in-game wiki links list (Tolkien Gateway)
 
 LOCALISATIONS :
 - Added Khuzdul names for Dwarven Realms
 - Fixed missing localisation for Anadune title
+- Many updated and mixed localisations throughout
+- Added a number to the month names to help with season/year progression awareness
+- Race descriptions on character view, with info on troops bonuses and maluses
 
 MAP :
 - Revamped trees map: palms in Harad, pines in the North, cyprus in Harondor and some other trees here and there to fill the map
@@ -102,9 +344,13 @@ MAP :
 - Mirkwood Forest Road now covered with trees
 - Climate snow map added, northern middle earth covered in Snow until North Shire-Rivendell-Thranduil's Halls-Esgaroth line
 - Forodwaith wasteland province divided into 4
+- Bellakar mountain range reworked
 
 MINOR TITLES :
 - You can now grant only one minor title by character in Gondor.
+
+PORTRAITS :
+- Added portraits for orcs children
 
 PROVINCES :
 - Added all the baronies and revamped provinces in the following places: 
@@ -115,6 +361,7 @@ PROVINCES :
  . Taur Romen
  . Iron Hills
  . Rhovanion
+ . Lindon
 - Edhellond is now a wilderness province during the War of the Ring, and a vassal of Lindon before
 - Moved Fanuidhol province to Vales of Anduin and renamed in Burh Anduin
 - Reduced number of pre-built baronies in Vales of Anduin, Celebrant and Weather Hills
@@ -122,11 +369,12 @@ PROVINCES :
 - Deleted 2 baronies in Midgewater Marshes
 - Added new baronies in Rohirrim Eastfolde
 - Moved Brownlands capital to Talath Harroch
+- Changed the capital of the duchy of Elostirion to Elostirion (was Undertowers)
 
 TRAITS :
 - Added the Nine Rings of the Men to the Nazgul
 - The Numenorean Helmet you can find during the Rebuilding of Fornost Erain is replaced by the Armour of Arvedui.
-- Added Spirit Form trait for Sauron before he recovers ring
+- Added Spirit Form trait for Sauron before he recovers ring, linked to new decision for Sauron 
 - Added Westernesse Dagger trait
 - Reworked a little the bonus/malus of the Hobbit trait
 - Added more chance to gain the "gardener", "charitable", "gluttonous" and "hedonist" traits for random hobbits
@@ -138,8 +386,10 @@ TITLES :
 - the Witch King holds now more titles in the Fall of Arnor/Kin Strife bookmarks
 - Added Ringbearer titular duchy held by current ringbearer
 - The Tribes of Harad are now independant
+- Fixed problem with Shire titles in FoA
+- Fixed some incorrect duchy, kingdom and empire capitals
 
-#####HOTFIX#####
+#####HOTFIX 0.3.1b#####
 
 BUGFIX:
 - Add one missing holy site for Moriquendi religion

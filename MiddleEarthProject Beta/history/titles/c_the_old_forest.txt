@@ -4,7 +4,7 @@
 }
 1.1.1=
 {
-holder =  10045 # Tom Bombadil
+holder =  0
 }
 8221.1.1=
 {
@@ -14,6 +14,11 @@ liege=k_cardolan
 {
 liege=0
 }
+10500.1.1=
+{
+holder =  10045 # Bombadil
+}
+
 11362.5.1=
 {
 liege=k_cardolan

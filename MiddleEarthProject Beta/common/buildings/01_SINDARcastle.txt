@@ -83,7 +83,7 @@ castle = {
 	ca_Vwatchtower_1 = {
 		desc = ca_Vwatchtower_1_desc
 		
-	gold_cost = 30
+		gold_cost = 30
 		build_time = 90
 		garrison_size = 0.025
 		ai_creation_factor = 90
@@ -731,11 +731,11 @@ castle = {
 		gold_cost = 850
 		build_time = 1460
 		fort_level = 2.0
-		galleys = 10
+		galleys = 100
 		tax_income = 5		
 		ai_creation_factor = 106
         	potential = {
-            		province_id = 657
+            		FROMFROM = { has_landed_title = b_mithlond }
 			OR = {
 				culture_group = culture_group_moriquendi
 				culture_group = culture_group_umanyar

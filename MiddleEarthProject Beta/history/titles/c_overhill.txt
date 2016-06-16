@@ -5,6 +5,9 @@
 800.1.1={
 	liege=d_west_farthing
 }
+10800.1.1={
+	liege=k_shire
+}
 11356.1.1=
 {
 holder =  8123 # Griffo Boffin

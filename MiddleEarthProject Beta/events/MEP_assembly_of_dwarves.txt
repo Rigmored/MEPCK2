@@ -22,8 +22,8 @@ narrative_event = {
 			limit = {
 				has_landed_title = e_durins_folk
 				culture_group = culture_group_dwarves
-				capable_only = yes
 				NOT = { character = FROM }
+				NOT = { trait = incapable }
 				NOT = { 
 					has_character_flag = councillor9
 					has_character_flag = councillor8
@@ -42,7 +42,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_grey_mountains
 				culture_group = culture_group_dwarves
-				capable_only = yes
+				NOT = { trait = incapable }
 				NOT = { character = FROM }
 				NOT = { 
 					has_character_flag = councillor9
@@ -62,7 +62,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_misty_mountains
 				culture_group = culture_group_dwarves
-				capable_only = yes
+				NOT = { trait = incapable }
 				NOT = { character = FROM }
 				NOT = { 
 					has_character_flag = councillor9
@@ -82,7 +82,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_erebor
 				culture_group = culture_group_dwarves
-				capable_only = yes
+				NOT = { trait = incapable }
 				NOT = { character = FROM }
 				NOT = { 
 					has_character_flag = councillor9
@@ -102,7 +102,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_iron_mountains
 				culture_group = culture_group_dwarves
-				capable_only = yes
+				NOT = { trait = incapable }
 				NOT = { character = FROM }
 				NOT = { 
 					has_character_flag = councillor9
@@ -122,7 +122,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_aglarond
 				culture_group = culture_group_dwarves
-				capable_only = yes
+				NOT = { trait = incapable }
 				NOT = { character = FROM }
 				NOT = { 
 					has_character_flag = councillor9
@@ -142,7 +142,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_nurunkhizdin
 				culture_group = culture_group_dwarves
-				capable_only = yes
+				NOT = { trait = incapable }
 				NOT = { character = FROM }
 				NOT = { 
 					has_character_flag = councillor9
@@ -162,7 +162,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_zirakdum
 				culture_group = culture_group_dwarves
-				capable_only = yes
+				NOT = { trait = incapable }
 				NOT = { character = FROM }
 				NOT = { 
 					has_character_flag = councillor9
@@ -182,7 +182,7 @@ narrative_event = {
 			limit = {
 				has_landed_title = k_ered_luin
 				culture_group = culture_group_dwarves
-				capable_only = yes
+				NOT = { trait = incapable }
 				NOT = { character = FROM }
 				NOT = { 
 					has_character_flag = councillor9
@@ -210,7 +210,7 @@ narrative_event = {
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			character_event = { id = unificatedwarves.1 }
+			narrative_event = { id = unificatedwarves.1 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -218,7 +218,7 @@ narrative_event = {
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			character_event = { id = unificatedwarves.1 days = 25 }
+			narrative_event = { id = unificatedwarves.1 days = 25 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -226,7 +226,7 @@ narrative_event = {
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			character_event = { id = unificatedwarves.1 days = 27 }
+			narrative_event = { id = unificatedwarves.1 days = 27 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -234,7 +234,7 @@ narrative_event = {
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			character_event = { id = unificatedwarves.1 days = 29 }
+			narrative_event = { id = unificatedwarves.1 days = 29 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -242,7 +242,7 @@ narrative_event = {
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			character_event = { id = unificatedwarves.1 days = 31 }
+			narrative_event = { id = unificatedwarves.1 days = 31 }
 		}		
 		any_playable_ruler = {
 			limit = {
@@ -250,7 +250,7 @@ narrative_event = {
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			character_event = { id = unificatedwarves.1 days = 33 }
+			narrative_event = { id = unificatedwarves.1 days = 33 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -258,7 +258,7 @@ narrative_event = {
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			character_event = { id = unificatedwarves.1 days = 35 }
+			narrative_event = { id = unificatedwarves.1 days = 35 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -266,7 +266,7 @@ narrative_event = {
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			character_event = { id = unificatedwarves.1 days = 37 }
+			narrative_event = { id = unificatedwarves.1 days = 37 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -274,7 +274,7 @@ narrative_event = {
 				age = 1
 				culture_group = culture_group_dwarves
 			}
-			character_event = { id = unificatedwarves.1 days = 39 }
+			narrative_event = { id = unificatedwarves.1 days = 39 }
 		}	
 		narrative_event = { id = unificatedwarves.3 days = 80 }
 	}	
@@ -464,7 +464,7 @@ narrative_event = {
 
 
 ## The First one is informed that the Kings are coming ##
-character_event = {
+narrative_event = {
     id = unificatedwarves.2
     title = EVTTITunificatedwarves.2
     desc = EVTDESCunificatedwarves.2
@@ -496,7 +496,7 @@ narrative_event = {
 				culture_group = culture_group_dwarves
 				has_character_flag = join_assembly_dwarves
 			}
-			character_event = { id = unificatedwarves.4 }
+			narrative_event = { id = unificatedwarves.4 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -505,7 +505,7 @@ narrative_event = {
 				culture_group = culture_group_dwarves
 				has_character_flag = join_assembly_dwarves
 			}
-			character_event = { id = unificatedwarves.4 days = 1 }
+			narrative_event = { id = unificatedwarves.4 days = 1 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -514,7 +514,7 @@ narrative_event = {
 				culture_group = culture_group_dwarves
 				has_character_flag = join_assembly_dwarves
 			}
-			character_event = { id = unificatedwarves.4 days = 2 }
+			narrative_event = { id = unificatedwarves.4 days = 2 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -523,7 +523,7 @@ narrative_event = {
 				culture_group = culture_group_dwarves
 				has_character_flag = join_assembly_dwarves
 			}
-			character_event = { id = unificatedwarves.4 days = 3 }
+			narrative_event = { id = unificatedwarves.4 days = 3 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -532,7 +532,7 @@ narrative_event = {
 				culture_group = culture_group_dwarves
 				has_character_flag = join_assembly_dwarves
 			}
-			character_event = { id = unificatedwarves.4 days = 4 }
+			narrative_event = { id = unificatedwarves.4 days = 4 }
 		}		
 		any_playable_ruler = {
 			limit = {
@@ -541,7 +541,7 @@ narrative_event = {
 				culture_group = culture_group_dwarves
 				has_character_flag = join_assembly_dwarves
 			}
-			character_event = { id = unificatedwarves.4 days = 5 }
+			narrative_event = { id = unificatedwarves.4 days = 5 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -550,7 +550,7 @@ narrative_event = {
 				culture_group = culture_group_dwarves
 				has_character_flag = join_assembly_dwarves
 			}
-			character_event = { id = unificatedwarves.4 days = 6 }
+			narrative_event = { id = unificatedwarves.4 days = 6 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -559,7 +559,7 @@ narrative_event = {
 				culture_group = culture_group_dwarves
 				has_character_flag = join_assembly_dwarves
 			}
-			character_event = { id = unificatedwarves.4 days = 7 }
+			narrative_event = { id = unificatedwarves.4 days = 7 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -568,7 +568,7 @@ narrative_event = {
 				culture_group = culture_group_dwarves
 				has_character_flag = join_assembly_dwarves
 			}
-			character_event = { id = unificatedwarves.4 days = 8 }
+			narrative_event = { id = unificatedwarves.4 days = 8 }
 		}		
 		FROM = { narrative_event = { id = unificatedwarves.5 days = 12 } } ## The Result is known		
 	}
@@ -752,7 +752,7 @@ narrative_event = {
 			FROM = { clr_character_flag = vote8 }
 			set_character_flag = voted
 		}
-		FROM = { character_event = { id = unificatedwarves.4001 } }		
+		FROM = { narrative_event = { id = unificatedwarves.4001 } }		
 		set_character_flag = agree_to_unificate
 	}
 	
@@ -826,12 +826,12 @@ narrative_event = {
 				opinion = { who = FROM value = -100 }
 			}
 		}
-		FROM = { character_event = { id = unificatedwarves.4002 } }	
+		FROM = { narrative_event = { id = unificatedwarves.4002 } }	
 	}
 }
 
 ### A King voted for
-character_event = {
+narrative_event = {
 	id = unificatedwarves.4001
 	desc = EVTDESCunificatedwarves.4001
 	picture = "GFX_evt_dwarves"
@@ -844,7 +844,7 @@ character_event = {
 }
 
 ### A King voted against
-character_event = {
+narrative_event = {
 	id = unificatedwarves.4002
 	desc = EVTDESCunificatedwarves.4002
 	picture = "GFX_evt_dwarves"
@@ -870,259 +870,231 @@ narrative_event = {
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0assemblymember
-							has_character_flag = 1assemblymember
-							has_character_flag = 2assemblymember
-							has_character_flag = 3assemblymember
-							has_character_flag = 4assemblymember
-							has_character_flag = 5assemblymember
-							has_character_flag = 6assemblymember
-							has_character_flag = 7assemblymember
-							has_character_flag = 8assemblymember
-							has_character_flag = 9assemblymember
-						}
-						has_character_flag = vote0
+					OR = {
+						has_character_flag = 0assemblymember
+						has_character_flag = 1assemblymember
+						has_character_flag = 2assemblymember
+						has_character_flag = 3assemblymember
+						has_character_flag = 4assemblymember
+						has_character_flag = 5assemblymember
+						has_character_flag = 6assemblymember
+						has_character_flag = 7assemblymember
+						has_character_flag = 8assemblymember
+						has_character_flag = 9assemblymember
 					}
+					has_character_flag = vote0
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.7 } } ## The Vote is lost
+			FROM = { narrative_event = { id = unificatedwarves.7 } } ## The Vote is lost
 		}	
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 3assemblymember
-							has_character_flag = 4assemblymember
-							has_character_flag = 5assemblymember
-							has_character_flag = 6assemblymember
-							has_character_flag = 7assemblymember
-							has_character_flag = 8assemblymember
-							has_character_flag = 9assemblymember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 3assemblymember
+						has_character_flag = 4assemblymember
+						has_character_flag = 5assemblymember
+						has_character_flag = 6assemblymember
+						has_character_flag = 7assemblymember
+						has_character_flag = 8assemblymember
+						has_character_flag = 9assemblymember
 					}
+					has_character_flag = vote1
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.7 } } ## The Vote is lost
+			FROM = { narrative_event = { id = unificatedwarves.7 } } ## The Vote is lost
 		}	
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 5assemblymember
-							has_character_flag = 6assemblymember
-							has_character_flag = 7assemblymember
-							has_character_flag = 8assemblymember
-							has_character_flag = 9assemblymember
-						} 
-						has_character_flag = vote2
-					}
+					OR = {
+						has_character_flag = 5assemblymember
+						has_character_flag = 6assemblymember
+						has_character_flag = 7assemblymember
+						has_character_flag = 8assemblymember
+						has_character_flag = 9assemblymember
+					} 
+					has_character_flag = vote2
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.7 } } ## The Vote is lost
+			FROM = { narrative_event = { id = unificatedwarves.7 } } ## The Vote is lost
 		}	
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 7assemblymember
-							has_character_flag = 8assemblymember
-							has_character_flag = 9assemblymember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 7assemblymember
+						has_character_flag = 8assemblymember
+						has_character_flag = 9assemblymember
 					}
+					has_character_flag = vote3
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.7 } } ## The Vote is lost
+			FROM = { narrative_event = { id = unificatedwarves.7 } } ## The Vote is lost
 		}		
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 9assemblymember
-						}
-						has_character_flag = vote4
-					}
+					has_character_flag = 9assemblymember
+					has_character_flag = vote4
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.7 } } ## The Vote is lost
+			FROM = { narrative_event = { id = unificatedwarves.7 } } ## The Vote is lost
 		}		
 
 		### The Vote is Won ###
 		if = {
 			limit = {
 				FROM = { 
-					AND = {
-						OR = {
-							has_character_flag = 0assemblymember
-							has_character_flag = 1assemblymember
-							has_character_flag = 2assemblymember
-							has_character_flag = 3assemblymember
-							has_character_flag = 4assemblymember
-							has_character_flag = 5assemblymember
-							has_character_flag = 6assemblymember
-							has_character_flag = 7assemblymember
-							has_character_flag = 8assemblymember
-							has_character_flag = 9assemblymember
-						}
-						OR = {
-							has_character_flag = vote9 
-							has_character_flag = vote8 
-						}
+					OR = {
+						has_character_flag = 0assemblymember
+						has_character_flag = 1assemblymember
+						has_character_flag = 2assemblymember
+						has_character_flag = 3assemblymember
+						has_character_flag = 4assemblymember
+						has_character_flag = 5assemblymember
+						has_character_flag = 6assemblymember
+						has_character_flag = 7assemblymember
+						has_character_flag = 8assemblymember
+						has_character_flag = 9assemblymember
+					}
+					OR = {
+						has_character_flag = vote9 
+						has_character_flag = vote8 
 					}
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.6 } } ## The Vote is won
+			FROM = { narrative_event = { id = unificatedwarves.6 } } ## The Vote is won
 		}	
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0assemblymember
-							has_character_flag = 1assemblymember
-							has_character_flag = 2assemblymember
-							has_character_flag = 3assemblymember
-							has_character_flag = 4assemblymember
-							has_character_flag = 5assemblymember
-							has_character_flag = 6assemblymember
-							has_character_flag = 7assemblymember
-							has_character_flag = 8assemblymember
-							has_character_flag = 9assemblymember
-						}
-						has_character_flag = vote7
+					OR = {
+						has_character_flag = 0assemblymember
+						has_character_flag = 1assemblymember
+						has_character_flag = 2assemblymember
+						has_character_flag = 3assemblymember
+						has_character_flag = 4assemblymember
+						has_character_flag = 5assemblymember
+						has_character_flag = 6assemblymember
+						has_character_flag = 7assemblymember
+						has_character_flag = 8assemblymember
+						has_character_flag = 9assemblymember
 					}
+					has_character_flag = vote7
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.6 } } ## The Vote is won
+			FROM = { narrative_event = { id = unificatedwarves.6 } } ## The Vote is won
 		}	
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0assemblymember
-							has_character_flag = 1assemblymember
-							has_character_flag = 2assemblymember
-							has_character_flag = 3assemblymember
-							has_character_flag = 4assemblymember
-							has_character_flag = 5assemblymember
-							has_character_flag = 6assemblymember
-							has_character_flag = 7assemblymember
-							has_character_flag = 8assemblymember
-							has_character_flag = 9assemblymember
-						}
-						has_character_flag = vote6
+					OR = {
+						has_character_flag = 0assemblymember
+						has_character_flag = 1assemblymember
+						has_character_flag = 2assemblymember
+						has_character_flag = 3assemblymember
+						has_character_flag = 4assemblymember
+						has_character_flag = 5assemblymember
+						has_character_flag = 6assemblymember
+						has_character_flag = 7assemblymember
+						has_character_flag = 8assemblymember
+						has_character_flag = 9assemblymember
 					}
+					has_character_flag = vote6
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.6 } } ## The Vote is won
+			FROM = { narrative_event = { id = unificatedwarves.6 } } ## The Vote is won
 		}
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0assemblymember
-							has_character_flag = 1assemblymember
-							has_character_flag = 2assemblymember
-							has_character_flag = 3assemblymember
-							has_character_flag = 4assemblymember
-							has_character_flag = 5assemblymember
-							has_character_flag = 6assemblymember
-							has_character_flag = 7assemblymember
-							has_character_flag = 8assemblymember
-							has_character_flag = 9assemblymember
-						}
-						has_character_flag = vote5
+					OR = {
+						has_character_flag = 0assemblymember
+						has_character_flag = 1assemblymember
+						has_character_flag = 2assemblymember
+						has_character_flag = 3assemblymember
+						has_character_flag = 4assemblymember
+						has_character_flag = 5assemblymember
+						has_character_flag = 6assemblymember
+						has_character_flag = 7assemblymember
+						has_character_flag = 8assemblymember
+						has_character_flag = 9assemblymember
 					}
+					has_character_flag = vote5
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.6 } } ## The Vote is won
+			FROM = { narrative_event = { id = unificatedwarves.6 } } ## The Vote is won
 		}	
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0assemblymember
-							has_character_flag = 1assemblymember
-							has_character_flag = 2assemblymember
-							has_character_flag = 3assemblymember
-							has_character_flag = 4assemblymember
-							has_character_flag = 5assemblymember
-							has_character_flag = 6assemblymember
-							has_character_flag = 7assemblymember
-							has_character_flag = 8assemblymember
-						}
-						has_character_flag = vote4
+					OR = {
+						has_character_flag = 0assemblymember
+						has_character_flag = 1assemblymember
+						has_character_flag = 2assemblymember
+						has_character_flag = 3assemblymember
+						has_character_flag = 4assemblymember
+						has_character_flag = 5assemblymember
+						has_character_flag = 6assemblymember
+						has_character_flag = 7assemblymember
+						has_character_flag = 8assemblymember
 					}
+					has_character_flag = vote4
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.6} } ## The Vote is won
+			FROM = { narrative_event = { id = unificatedwarves.6} } ## The Vote is won
 		}	
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0assemblymember
-							has_character_flag = 1assemblymember
-							has_character_flag = 2assemblymember
-							has_character_flag = 3assemblymember
-							has_character_flag = 4assemblymember
-							has_character_flag = 5assemblymember
-							has_character_flag = 6assemblymember
-						}
-						has_character_flag = vote3
+					OR = {
+						has_character_flag = 0assemblymember
+						has_character_flag = 1assemblymember
+						has_character_flag = 2assemblymember
+						has_character_flag = 3assemblymember
+						has_character_flag = 4assemblymember
+						has_character_flag = 5assemblymember
+						has_character_flag = 6assemblymember
 					}
+					has_character_flag = vote3
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.6 } } ## The Vote is won
+			FROM = { narrative_event = { id = unificatedwarves.6 } } ## The Vote is won
 		}	
 		if = {
 			limit = {
 				FROM = {
-					AND = {
-						OR = {
-							has_character_flag = 0assemblymember
-							has_character_flag = 1assemblymember
-							has_character_flag = 2assemblymember
-							has_character_flag = 3assemblymember
-							has_character_flag = 4assemblymember
-						}
-						has_character_flag = vote2
+					OR = {
+						has_character_flag = 0assemblymember
+						has_character_flag = 1assemblymember
+						has_character_flag = 2assemblymember
+						has_character_flag = 3assemblymember
+						has_character_flag = 4assemblymember
 					}
+					has_character_flag = vote2
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.6 } } ## The Vote is won
+			FROM = { narrative_event = { id = unificatedwarves.6 } } ## The Vote is won
 		}	
 		if = {
 			limit = {
 				FROM = {
-					AND = { 
-						OR = {
-							has_character_flag = 0assemblymember
-							has_character_flag = 1assemblymember
-							has_character_flag = 2assemblymember
-						}
-						has_character_flag = vote1
+					OR = {
+						has_character_flag = 0assemblymember
+						has_character_flag = 1assemblymember
+						has_character_flag = 2assemblymember
 					}
+					has_character_flag = vote1
 				}
 			}
-			FROM = { character_event = { id = unificatedwarves.6 } } ## The Vote is won
+			FROM = { narrative_event = { id = unificatedwarves.6 } } ## The Vote is won
 		}
 	}	
 }
 
 ## The Kings are agree, all the Tribes of the Dwarves will now unificate ##
-character_event = {
+narrative_event = {
     id = unificatedwarves.6
     title = EVTTITunificatedwarves.6
     desc = EVTDESCunificatedwarves.6
@@ -1152,11 +1124,12 @@ character_event = {
 		}		
 		narrative_event = { id = unificatedwarves.8 }
 		clr_global_flag = unification_dwarves
+		set_global_flag = dwarvishunion
 	}
 }
 
 ## The Kings aren"t agree, you failed to unificate the Tribes of the Dwarves ##
-character_event = {
+narrative_event = {
     id = unificatedwarves.7
     title = EVTTITunificatedwarves.7
     desc = EVTDESCunificatedwarves.7
@@ -1197,7 +1170,7 @@ character_event = {
 
 
 ## Now It's time to elect the King of the Assembly ##
-character_event = {
+narrative_event = {
     id = unificatedwarves.8
     title = EVTTITunificatedwarves.8
     desc = EVTDESCunificatedwarves.8
@@ -1215,7 +1188,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.9 }
+			narrative_event = { id = unificatedwarves.9 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -1225,7 +1198,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.9 days = 1 }
+			narrative_event = { id = unificatedwarves.9 days = 1 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -1235,7 +1208,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.9 days = 2 }
+			narrative_event = { id = unificatedwarves.9 days = 2 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -1245,7 +1218,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.9 days = 3 }
+			narrative_event = { id = unificatedwarves.9 days = 3 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -1255,7 +1228,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.9 days = 4 }
+			narrative_event = { id = unificatedwarves.9 days = 4 }
 		}		
 		any_playable_ruler = {
 			limit = {
@@ -1265,7 +1238,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.9 days = 5 }
+			narrative_event = { id = unificatedwarves.9 days = 5 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -1275,7 +1248,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.9 days = 6 }
+			narrative_event = { id = unificatedwarves.9 days = 6 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -1285,7 +1258,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.9 days = 7 }
+			narrative_event = { id = unificatedwarves.9 days = 7 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -1295,7 +1268,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.9 days = 8 }
+			narrative_event = { id = unificatedwarves.9 days = 8 }
 		}		
 		narrative_event = { id = unificatedwarves.11 days = 10 } ## The Result is known		
 		set_character_flag = 1candidate
@@ -1379,7 +1352,7 @@ narrative_event = {
 				trait = thrifty_clerk
 			}
 			modifier = {
-				factor = 1
+				factor = 1.01
 				trait = fortune_builder
 			}
 			modifier = {
@@ -1396,7 +1369,7 @@ narrative_event = {
 				trait = trained_dwarf
 			}
 			modifier = {
-				factor = 1
+				factor = 1.01
 				trait = great_axeman
 			}
 			modifier = {
@@ -1680,10 +1653,6 @@ narrative_event = {
 			modifier = {
 				factor = 0.01
 				trait = pneumonic
-			}
-			modifier = {
-				factor = 0.01
-				trait = leper
 			}
 			modifier = {
 				factor = 0.4
@@ -2290,10 +2259,6 @@ narrative_event = {
 				trait = pneumonic
 			}
 			modifier = {
-				factor = 100
-				trait = leper
-			}
-			modifier = {
 				factor = 4
 				trait = bastard
 			}
@@ -2369,7 +2334,7 @@ narrative_event = {
 
 
 ## A Kings is candidate ! ##
-character_event = {
+narrative_event = {
     id = unificatedwarves.10
     title = "EVTTITunificatedwarves.10"
     desc = "EVTDESCunificatedwarves.10"
@@ -2384,7 +2349,7 @@ character_event = {
 
 
 ## Time to Vote ! ##
-character_event = {
+narrative_event = {
     id = unificatedwarves.11
     title = "EVTTITunificatedwarves.11"
     desc = "EVTDESCunificatedwarves.11"
@@ -2397,15 +2362,15 @@ character_event = {
 		trigger = {
 			FROM = { has_character_flag = 1candidate }
 		}
-		character_event = { id = unificatedwarves.33 }	
+		narrative_event = { id = unificatedwarves.33 }	
 	}	
 	option = {
 		name = "EVTOPTAunificatedwarves.11"
 		trigger = {
 			FROM = { NOT = { has_character_flag = 1candidate } }
 		}
-		character_event = { id = unificatedwarves.12 }
-		character_event = { id = unificatedwarves.14 days = 20 }
+		narrative_event = { id = unificatedwarves.12 }
+		narrative_event = { id = unificatedwarves.14 days = 20 }
 		set_character_flag = 0voteforking 
 		if = {
 			limit = {
@@ -2499,7 +2464,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.12 }
+			narrative_event = { id = unificatedwarves.12 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -2509,7 +2474,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.12 days = 1 }
+			narrative_event = { id = unificatedwarves.12 days = 1 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -2519,7 +2484,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.12 days = 2 }
+			narrative_event = { id = unificatedwarves.12 days = 2 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -2529,7 +2494,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.12 days = 3 }
+			narrative_event = { id = unificatedwarves.12 days = 3 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -2539,7 +2504,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.12 days = 4 }
+			narrative_event = { id = unificatedwarves.12 days = 4 }
 		}		
 		any_playable_ruler = {
 			limit = {
@@ -2549,7 +2514,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.12 days = 5 }
+			narrative_event = { id = unificatedwarves.12 days = 5 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -2559,7 +2524,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.12 days = 6 }
+			narrative_event = { id = unificatedwarves.12 days = 6 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -2569,7 +2534,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.12 days = 7 }
+			narrative_event = { id = unificatedwarves.12 days = 7 }
 		}	
 		any_playable_ruler = {
 			limit = {
@@ -2579,7 +2544,7 @@ character_event = {
 				has_character_flag = join_assembly_dwarves
 				has_character_flag = agree_to_unificate
 			}
-			character_event = { id = unificatedwarves.12 days = 8 }
+			narrative_event = { id = unificatedwarves.12 days = 8 }
 		}				
 	}
 }
@@ -2588,7 +2553,7 @@ character_event = {
 
 
 ## Vote ! ##
-character_event = {
+narrative_event = {
     id = unificatedwarves.12
     title = "EVTTITunificatedwarves.12"
     desc = "EVTDESCunificatedwarves.12"
@@ -4814,7 +4779,7 @@ character_event = {
 }
 
 
-character_event = {
+narrative_event = {
     id = unificatedwarves.14
     title = "EVTTITunificatedwarves.14"
     desc = "EVTDESCunificatedwarves.14"
@@ -4828,9 +4793,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					OR = { 
-						has_character_flag = 9voteforking						
-					}
+					has_character_flag = 9voteforking						
 					OR = {
 						has_character_flag = 9votecandidate1
 						has_character_flag = 8votecandidate1
@@ -4958,9 +4921,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					OR = { 
-						has_character_flag = 9voteforking						
-					}
+					has_character_flag = 9voteforking						
 					OR = {
 						has_character_flag = 9votecandidate2
 						has_character_flag = 8votecandidate2
@@ -5088,9 +5049,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					OR = { 
-						has_character_flag = 9voteforking						
-					}
+					has_character_flag = 9voteforking						
 					OR = {
 						has_character_flag = 9votecandidate3
 						has_character_flag = 8votecandidate3
@@ -5218,9 +5177,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					OR = { 
-						has_character_flag = 9voteforking						
-					}
+					has_character_flag = 9voteforking						
 					OR = {
 						has_character_flag = 9votecandidate4
 						has_character_flag = 8votecandidate4
@@ -5348,9 +5305,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					OR = { 
-						has_character_flag = 9voteforking						
-					}
+					has_character_flag = 9voteforking						
 					OR = {
 						has_character_flag = 9votecandidate5
 						has_character_flag = 8votecandidate5
@@ -5478,9 +5433,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					OR = { 
-						has_character_flag = 9voteforking						
-					}
+					has_character_flag = 9voteforking						
 					OR = {
 						has_character_flag = 9votecandidate6
 						has_character_flag = 8votecandidate6
@@ -5608,9 +5561,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					OR = { 
-						has_character_flag = 9voteforking						
-					}
+					has_character_flag = 9voteforking						
 					OR = {
 						has_character_flag = 9votecandidate7
 						has_character_flag = 8votecandidate7
@@ -5738,9 +5689,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					OR = { 
-						has_character_flag = 9voteforking						
-					}
+					has_character_flag = 9voteforking						
 					OR = {
 						has_character_flag = 9votecandidate8
 						has_character_flag = 8votecandidate8
@@ -5868,9 +5817,7 @@ character_event = {
 		if = {
 			limit = {
 				FROM = { 
-					OR = { 
-						has_character_flag = 9voteforking						
-					}
+					has_character_flag = 9voteforking						
 					OR = {
 						has_character_flag = 9votecandidate9
 						has_character_flag = 8votecandidate9
@@ -6037,7 +5984,7 @@ narrative_event = {
 				has_character_flag = agree_to_unificate
 				age = 1
 			}
-			set_defacto_liege = e_king_all_mountains
+			set_defacto_liege = e_all_mountains
 			clr_character_flag = agree_to_unificate
 		}
 		FROM = { narrative_event = { id = unificatedwarves.34 } }

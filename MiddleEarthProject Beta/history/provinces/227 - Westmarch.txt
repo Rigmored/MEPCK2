@@ -14,5 +14,5 @@ b_tilmendir = city
 # Misc
 culture = culture_dunlending
 religion = religion_haldadian
-8222.1.1 = { culture = culture_dunlending religion = religion_haldadian }
+
 10853.1.1 = { culture = culture_rohirrim religion = religion_rhovanion }

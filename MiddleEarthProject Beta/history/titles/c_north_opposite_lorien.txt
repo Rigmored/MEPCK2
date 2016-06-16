@@ -156,3 +156,12 @@ holder = 9200 # Andica
 {
 holder = 9201 # Adalgrim
 }
+
+11322.1.1=
+{
+holder =  340 # Grimbeorn the Old
+}
+11385.1.1=
+{
+holder =  341 # Sterkist
+}

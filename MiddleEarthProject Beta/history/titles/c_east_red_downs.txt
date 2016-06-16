@@ -5,7 +5,6 @@
 1080.1.1={
 	liege=d_south_farthing
 }
-11356.1.1=
-{
-holder =  8177 # Will Whitfoot
+10800.1.1={
+	liege=k_shire
 }

@@ -77,9 +77,8 @@ city = {
 			culture_group = culture_group_forodwaith
 			culture_group = culture_group_haldadian	
             		}
-            }
+            	}
 	}
-
 	ct_Pwatchtower_2 = {
 		desc = ct_Pwatchtower_1_desc
 		prerequisites = { ct_Pwall_2 }
@@ -94,7 +93,7 @@ city = {
 			culture_group = culture_group_forodwaith
 			culture_group = culture_group_haldadian	
             		}
-            }
+            	}
 	}
 	ct_Pwatchtower_3 = {
 		desc = ct_Pwatchtower_1_desc
@@ -110,9 +109,8 @@ city = {
 			culture_group = culture_group_forodwaith
 			culture_group = culture_group_haldadian	
             		}
-            }
+            	}
 	}
-	
 
 ################## Offense : Levy size ###############################
 	ct_Pbarracks_1 = {
@@ -161,7 +159,7 @@ city = {
 			culture_group = culture_group_forodwaith
 			culture_group = culture_group_haldadian	
             		}
-            }
+            	}
 	} 
 
 ################## Offense : Light infantry + archers ###############################
@@ -335,7 +333,7 @@ city = {
         	}
 	}
 	ct_Pmarketplace_2 = {
-		desc = ct_Pmarketplace_2_desc
+		desc = ct_Pmarketplace_1_desc
 		prerequisites = { ct_Pwall_1 }
 		
 		upgrades_from = ct_Pmarketplace_1
@@ -353,7 +351,7 @@ city = {
 		}
 	}
 	ct_Pmarketplace_3 = {
-		desc = ct_Pmarketplace_3_desc
+		desc = ct_Pmarketplace_1_desc
 		
 		prerequisites = { ct_Pwall_2 }
 		upgrades_from = ct_Pmarketplace_2

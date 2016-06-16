@@ -12,9 +12,8 @@ b_dol_arlad = city
 #b_dogolgar = castle
 
 # Misc
-8000.1.1 = { 
 culture = culture_northmen
-religion = religion_rhovanion}
+religion = religion_rhovanion
 10199.1.1 = {
 culture = culture_wilderness
 religion = religion_wilderness }

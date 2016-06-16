@@ -1,0 +1,22 @@
+decisions = {
+	change_temple = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			any_realm_title = { has_building = tp_temple_to_city }
+		}
+		effect = {
+			custom_tooltip = {
+				text = adopt_feudalism_tooltip_1
+				hidden_tooltip = {
+					any_realm_title = {
+						if = {
+							limit = { has_building = tp_temple_to_city }
+							convert_to_city = yes
+						}
+					}
+				}
+			}
+		}
+	}
+}

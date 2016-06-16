@@ -22,17 +22,9 @@ b_athmadhul = city
 
 
 # Misc
+culture = culture_silvan
+religion = religion_moriquendi
 
-
-2222.1.1 = {
-	culture = culture_silvan
-	religion = religion_moriquendi
-}
-
-2222.1.1 = {
-	culture = culture_silvan
-	religion = religion_moriquendi
-}
 
 11400.1.2 =
 {

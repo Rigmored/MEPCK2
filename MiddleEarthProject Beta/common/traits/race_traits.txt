@@ -1,5 +1,6 @@
-maiar = {	
-	fertility = -2000.0
+maiar = {
+	vassal_opinion = 100	#Sauron stopgag measure...
+	fertility = -5.0
     health = 100.0
     diplomacy = 3
 	stewardship = 3
@@ -13,7 +14,7 @@ maiar = {
 }
 
 eagle = {	
-	fertility = -2000.0
+	fertility = -5.0
     	health = 100.0
    	diplomacy = 3
 	stewardship = 3
@@ -37,7 +38,7 @@ eagle = {
 }
 
 balrog = {	
-	fertility = -2000.0
+	fertility = -5.0
 	opposites = { 
 		worship_balrog 
 	}
@@ -55,7 +56,7 @@ balrog = {
 		cached = yes
 }
 spider = {	
-	fertility = -2000.0
+	fertility = -5.0
     	health = 100.0
     	diplomacy = -20
 	stewardship = -20
@@ -133,11 +134,28 @@ dwarven = {
 	cached = yes
 }
 
+durin_reincarnation = {	
+   	health = 2.0	
+  	vassal_opinion = 20	
+	martial = 3
+    stewardship = 2
+	customizer = no
+	monthly_character_piety = 2.0	
+    monthly_character_prestige = 1.0	
+	command_modifier = {
+		terrain = mountain
+		damage = 0.3		
+		morale_offence = 0.2
+		morale_defence = 0.2		
+	}
+	cached = yes
+}
+
 ent = {	
     opposites = { orkish }
     opposite_opinion = -50
     same_opinion = 20	
-	fertility = -2000.0
+	fertility = -5.0
     health = 100.0
     diplomacy = 3
 	intrigue = -10
@@ -175,7 +193,7 @@ dwarven_infertility = {
 	potential = {
 		religion_group = religion_group_khazad
 	}
-    fertility = -100.0
+    fertility = -5.0
 	customizer = no	
 	cached = yes
 }
@@ -183,12 +201,12 @@ elven_infertility = {
 potential = {
 		religion_group = religion_group_eldar
 	}
-    fertility = -100.0
+    fertility = -5.0
 	customizer = no	
 	cached = yes
 }
 elf_childhood = {
-	fertility = -2000.0
+	fertility = -5.0
 	health = 100.0 #Hope to see less Nazgul deaths of old age
 	potential = {
 		religion_group = religion_group_eldar
@@ -199,7 +217,7 @@ elf_childhood = {
 	cached = yes
 }
 fea_strong = {
-	fertility = 2
+	fertility = 2.0
 	martial = 4
 	learning = 1
 	diplomacy = 2
@@ -225,7 +243,7 @@ fea_normal = {
 }
 
 fea_weak = {
-	fertility = -2
+	fertility = -2.0
 	martial = -1
 	diplomacy = -1
 	potential = {
@@ -238,7 +256,7 @@ fea_weak = {
 	cached = yes
 }
 valar = {	
-	fertility = -2000.0
+	fertility = -5.0
 	immortal = yes
     health = 100.0
 	diplomacy = 20
@@ -251,7 +269,7 @@ valar = {
 	cached = yes
 }
 enigma = {
-	fertility = -2000.0
+	fertility = -5.0
 	immortal = yes
     health = 100.0
 	customizer = no	
@@ -259,12 +277,13 @@ enigma = {
 	cached = yes
 }
 wilderness = {	
-	fertility = -2000.0
+	fertility = -5.0
 	immortal = yes
-	stewardship = -20
-	martial = -20
-	intrigue = -20
-	learning = -20
+	diplomacy = -30
+	stewardship = -30
+	martial = -30
+	intrigue = -30
+	learning = -30
    	potential = {
 		culture_group = culture_group_wilderness
 	}
@@ -279,6 +298,52 @@ wilderness = {
 	cached = yes
 	ai_greed = -100
 }
+
+numenorean = {
+	random = no
+    health = 15.0
+	intrigue = 2
+	martial = 1
+	diplomacy = 2
+	customizer = yes
+	same_opinion = 25
+	opposite_opinion = 20
+	vassal_opinion = 10	
+	agnatic = yes
+	fertility = -0.1
+	opposites =  {
+		blood_of_numenor2
+		blood_of_numenor
+		elf
+		blood_of_isildur
+		blood_of_anarion
+	}
+	cached = yes
+}
+
+prince_numenor = {
+	random = no
+    health = 20.0
+	intrigue = 3
+	martial = 2
+	diplomacy = 3
+	stewardship = 2
+	customizer = yes
+	same_opinion = 35
+	opposite_opinion = 30
+	vassal_opinion = 30	
+	agnatic = yes
+	fertility = -0.1
+	opposites =  {
+		blood_of_numenor2
+		blood_of_numenor
+		elf
+		blood_of_isildur
+		blood_of_anarion
+	}
+	cached = yes
+}
+
 blood_of_numenor = {
     health = 10.0
 	intrigue = 2
@@ -323,8 +388,17 @@ blood_of_anarion = {
 	vassal_opinion = 10
 	cached = yes	
 }
+heir_of_durin = {
+	health = 3.0
+	stewardship = 3
+	martial = 5
+	diplomacy = 2
+	customizer = no
+	vassal_opinion = 20	
+	cached = yes
+}
 nazgul = {
-	fertility = -2000.0
+	fertility = -5.0
 	health = 100.0 #Hope to see less Nazgul deaths of old age
 	immortal = yes
 	intrigue = 5
@@ -420,7 +494,7 @@ human_infertility = {
             culture_group = culture_group_halfling			
 		}
 	}
-    fertility = -1000.0
+    fertility = -5.0
 	customizer = no	
 	cached = yes
 }
@@ -444,7 +518,7 @@ beard_elf = {
 }
 
 wight = {
-	fertility = -2000.0
+	fertility = -5.0
 	health = 200
 	immortal = yes
 	intrigue = 4
@@ -467,52 +541,45 @@ wight = {
 ## Fire-Dragons
 uruloke = {	
 	opposites = { 
+		eagle
 		dwarven 
 		elf
 		blood_of_numenor
 		blood_of_numenor2
+		ent
 	}
 	martial = 3
 	opposite_opinion = -200
    	health = 100.0
-       	opposites = {
-		eagle
-		elf
-		dwarven
-		blood_of_numenor
-		blood_of_numenor2
-		ent
-       	}
-	opposite_opinion = -200
-    	immortal = yes
+	immortal = yes
 	customizer = yes	
 	ai_ambition = -100 #Influences the AI's desire for expansion, primarily affecting the likelihood of wanting to declare war.
-    	ai_rationality = -50 #Influences the way the AI makes choices, such as whether the AI will compare its own levy size with its enemy levy size if it wants to go to war.
-    	ai_honor = -100 #Influences the likelihood the AI will honor relationships and alliances, and the chance of attacking despite such relations. Also affects its likelihood of joining plots.
+	ai_rationality = -50 #Influences the way the AI makes choices, such as whether the AI will compare its own levy size with its enemy levy size if it wants to go to war.
+	ai_honor = -100 #Influences the likelihood the AI will honor relationships and alliances, and the chance of attacking despite such relations. Also affects its likelihood of joining plots.
 	cached = yes
 }
-## Ringlókë
+## RinglÃ³kÃ«
 cold_drake = {	
        	opposites = {
-		eagle
-		elf
-		dwarven
-		blood_of_numenor
-		blood_of_numenor2
-		ent
+			eagle
+			elf
+			dwarven
+			blood_of_numenor
+			blood_of_numenor2
+			ent
        	}
 	martial = 2
 	opposite_opinion = -200
    	health = 100.0
-    	immortal = yes
+	immortal = yes
 	customizer = yes	
 	ai_ambition = -100 #Influences the AI's desire for expansion, primarily affecting the likelihood of wanting to declare war.
-    	ai_rationality = -50 #Influences the way the AI makes choices, such as whether the AI will compare its own levy size with its enemy levy size if it wants to go to war.
-    	ai_honor = -100 #Influences the likelihood the AI will honor relationships and alliances, and the chance of attacking despite such relations. Also affects its likelihood of joining plots.
+	ai_rationality = -50 #Influences the way the AI makes choices, such as whether the AI will compare its own levy size with its enemy levy size if it wants to go to war.
+	ai_honor = -100 #Influences the likelihood the AI will honor relationships and alliances, and the chance of attacking despite such relations. Also affects its likelihood of joining plots.
 	cached = yes
 }
 
-## Penrámalókë
+## PenrÃ¡malÃ³kÃ«
 long_worms = {	
        	opposites = {
 		eagle

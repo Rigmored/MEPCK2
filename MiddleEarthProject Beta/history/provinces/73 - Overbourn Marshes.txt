@@ -4,13 +4,11 @@
 title = c_overbourn_marshes
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_deephallow = castle
 b_rushey = city
-b_willowbottom = city
-#b_morassville = city
-#b_brownrush = city
+#b_willowbottom = city
 
 
 

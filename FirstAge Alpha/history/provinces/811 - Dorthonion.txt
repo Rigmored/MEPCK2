@@ -1,0 +1,17 @@
+#Dorthonion
+
+# County Title
+title = c_dorthonion
+
+# Settlements
+max_settlements = 5
+
+b_beraid_angrod = castle
+b_dorthaun = castle
+b_osthon = city
+b_bar_i_toss = city
+b_minas_thonion = castle
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

@@ -1,0 +1,18 @@
+#Rhuven Estolad
+
+# County Title
+title = c_rhuven_estolad
+
+# Settlements
+max_settlements = 2
+
+b_rhuven_estolad = castle
+b_bargelion = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

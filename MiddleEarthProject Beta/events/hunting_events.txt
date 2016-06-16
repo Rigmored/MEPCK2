@@ -198,6 +198,7 @@ character_event = {
 	
 	immediate = {
 		set_character_flag = hunt_event_happened
+		set_character_flag = hunt_paranoia
 	}	
 
 	mean_time_to_happen = {
@@ -213,11 +214,7 @@ character_event = {
 			has_character_flag = hunt_event_happened
 		}		
 	}
-
-	immediate = {
-		set_character_flag = hunt_paranoia
-	}
-
+	
 	option = {
 		name = "EVTOPTA36001"
 		random_list = {
@@ -1139,6 +1136,7 @@ character_event = {
 
 	immediate = {
 		set_character_flag = hunt_event_happened
+		set_character_flag = hunt_killed_something
 	}	
 	
 	mean_time_to_happen = {
@@ -1179,12 +1177,7 @@ character_event = {
 			NOT = { martial = 4 }
 		}
 	}
-
-	immediate = {
-		set_character_flag = hunt_killed_something
-
-	}
-
+	
 	option = {
 		name = "EVTOPTA36040"
 		prestige = -20
@@ -1243,6 +1236,7 @@ character_event = {
 
 	immediate = {
 		set_character_flag = hunt_event_happened
+		set_character_flag = hunt_killed_something
 	}	
 	
 	mean_time_to_happen = {
@@ -1274,11 +1268,6 @@ character_event = {
 			factor = 0.75
 			trait = hunter
 		}
-
-	}
-
-	immediate = {
-		set_character_flag = hunt_killed_something
 
 	}
 

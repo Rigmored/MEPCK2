@@ -6,7 +6,7 @@
 }
 9643.1.1={
 holder = 12223 #The Witch King
-liege = "k_angmat"
+liege = "k_angmar"
 }
 10318.1.1={
 holder = 0

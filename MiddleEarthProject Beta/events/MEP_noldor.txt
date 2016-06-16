@@ -2,7 +2,7 @@ namespace = knoldor
 ##  Claim the High Kingship of the Noldor
 character_event = {
 	id = knoldor.1
-	name = "EVTknoldor.1"
+	title = "EVTknoldor.1"
 	desc = "EVTDESCknoldor.1"
 	picture = GFX_elf_meeting
 
@@ -34,7 +34,7 @@ character_event = {
 ## A character claims the High Kingship of the Noldor - Galadriel side
 character_event = {
 	id = knoldor.2
-	name = "EVTknoldor.2"
+	title = "EVTknoldor.2"
 	desc = "EVTDESCknoldor.2"
 	picture = GFX_elf_meeting
 
@@ -53,7 +53,7 @@ character_event = {
 		}		
 	}	
 	option = {
-		name = "EVTOPTBknoldor2" # No more Kings for the Noldor!
+		name = "EVTOPTBknoldor.2" # No more Kings for the Noldor!
 		ai_chance = {
 			factor = 30
 		}		
@@ -61,7 +61,7 @@ character_event = {
 			limit = {
 			has_character_flag=claimcrownnoldor
 			}
-		character_event = { id = knoldor4 }
+		character_event = { id = knoldor.4 }
 		}			
 	}		
 }
@@ -69,7 +69,7 @@ character_event = {
 ##  Crown of a High King!
 character_event = {
 	id = knoldor.3
-	name = "EVTknoldor.3"
+	title = "EVTknoldor.3"
 	desc = "EVTDESCknoldor.3"
 	picture = GFX_elf_meeting
 
@@ -77,8 +77,9 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAknoldor.3" # I'm the heir of Gil-Galad!
-		remove_character_flag=claimcrownnoldor
+		clr_character_flag=claimcrownnoldor
 		set_character_flag = hisghkingnoldor
+		activate_title = { title = e_noldor status = yes }
 		e_noldor = {
 			grant_title = ROOT
 		}
@@ -95,7 +96,7 @@ character_event = {
 ##  Galadriel refuse!
 character_event = {
 	id = knoldor.4
-	name = "EVTknoldor.4"
+	title = "EVTknoldor.4"
 	desc = "EVTDESCknoldor.4"
 	picture = GFX_elf_meeting
 
@@ -103,8 +104,9 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAknoldor.4" # I'll take the crown anyway!
-		remove_character_flag=claimcrownnoldor
+		clr_character_flag=claimcrownnoldor
 		set_character_flag = hisghkingnoldor
+		activate_title = { title = e_noldor status = yes }
 		e_noldor = {
 			grant_title = ROOT
 		}
@@ -118,8 +120,8 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTBknoldor4" # No more Kings for the Noldor!
-		remove_character_flag=claimcrownnoldor
+		name = "EVTOPTBknoldor.4" # No more Kings for the Noldor!
+		clr_character_flag=claimcrownnoldor
 		set_character_flag = hisghkingnoldor		
 	}		
 }
@@ -127,13 +129,13 @@ character_event = {
 ##  Galadriel accepts and gets the message where she declares allegiance!
 character_event = {
 	id = knoldor.5
-	desc = "Elrond has taken up his crown, and it is time for you to swear allegiance to him."
+	desc = "EVTDESCknoldor.5"#Elrond has taken up his crown, and it is time for you to swear allegiance to him.
 	picture = GFX_elf_meeting
 
 	is_triggered_only = yes
 	
 	option = {
-		name = "I swear..."
+		name = "EVTOPTAknoldor.5"#I swear...
 		set_defacto_liege = FROM
 	}
 		
@@ -142,51 +144,47 @@ character_event = {
 ###Now backtrack, if Sauron is defeated, the Sons of Elrond begin dreaming of restoring the ancient realm of Eregion#
 character_event = {
 	id = knoldor.6
-	desc = "With Sauron defeated, hope is renewed for the Elves. Your sons wish to rule lands of their own, and together with the elven smiths remaining, restore the glories of old Eregion here in the 4th Age."
+	desc = "EVTDESCknoldor.6"#With Sauron defeated, hope is renewed for the Elves. Your sons wish to rule lands of their own, and together with the elven smiths remaining, restore the glories of old Eregion here in the 4th Age.
 	picture = GFX_elf_meeting
 
 	trigger = {
-	has_landed_title = d_rivendell
-	age = 3000
-	NOT = { has_global_flag = knoldor6 }
-	has_global_flag = saurondefeated
+		has_landed_title = d_rivendell
+		age = 3000
+		NOT = { has_global_flag = knoldor6 }
+		has_global_flag = saurondefeated
 	}
 	
 	option = {
-		name = "A good idea!"
+		name = "EVTOPTAknoldor.6"#A good idea!
 		set_global_flag = knoldor6
 		random_child = {
-	limit = {
-	AND = {
-	is_primary_heir = yes
-	age = 99
-	is_female = no
-	}
-	}
-	add_claim = c_north_eregion
-	add_claim = c_norther_eregion
-	add_claim = c_west_eregion
-	}
+			limit = {
+				is_primary_heir = yes
+				age = 99
+				is_female = no
+			}
+			add_claim = c_north_eregion
+			add_claim = c_norther_eregion
+			add_claim = c_west_eregion
+		}
 		random_child = {
-	limit = {
-	AND = {
-	is_primary_heir = no
-	age = 99
-	is_female = no
-	}
-	}
-	add_claim = c_c_swanfleet
-	add_claim = c_redhorn_pass
-	add_claim = c_south_eregio
-	add_claim = c_middle_eregion
-	}
-	any_player_ruler = {
-	character_event = { id = knoldor.7 days = 30 }
-	}
+			limit = {
+				is_primary_heir = no
+				age = 99
+				is_female = no
+			}
+			add_claim = c_swanfleet
+			add_claim = c_redhorn_pass
+			add_claim = c_south_eregio
+			add_claim = c_middle_eregion
+		}
+		any_playable_ruler = {
+			character_event = { id = knoldor.7 days = 30 }
+		}
 	}
 	
 	option = {
-		name = "No, that is a bad idea." 
+		name = "EVTOPTBknoldor.6"#No, that is a bad idea.
 		trigger = { ai = no }
 	}
 }
@@ -194,27 +192,27 @@ character_event = {
 ##Other rulers are informed of this venture to reclaim eregion##
 character_event = {
 	id = knoldor.7
-	desc = "Word reaches you that the sons of Elrond are planning to reclaim the ancient realm of Eregion, and make it a kingdom of the Noldor once again."
+	desc = "EVTDESCknoldor.7"#Word reaches you that the sons of Elrond are planning to reclaim the ancient realm of Eregion, and make it a kingdom of the Noldor once again.
 	picture = GFX_elf_meeting
 
 	is_triggered_only = yes
 	
 	option = {
-		name = "They better not make any more rings!"
+		name = "EVTOPTAknoldor.7"#They better not make any more rings!
 	}
 	
 	option = {
-		name = "Well good luck to them."
+		name = "EVTOPTBknoldor.7"#Well good luck to them.
 	}	
 	option = {
-		name = "Why don't they just sail west already?"
+		name = "EVTOPTCknoldor.7"#Why don't they just sail west already?
 	}	
 }
 
 ##  Crown of a High King! - No Galadriel in Lorien
 character_event = {
 	id = knoldor.8
-	name = "EVTknoldor.8"
+	title = "EVTknoldor.8"
 	desc = "EVTDESCknoldor.8"
 	picture = GFX_elf_meeting
 
@@ -222,8 +220,9 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAknoldor.3" # I'm the heir of Gil-Galad!
-		remove_character_flag=claimcrownnoldor
+		clr_character_flag=claimcrownnoldor
 		set_character_flag = hisghkingnoldor
+		activate_title = { title = e_noldor status = yes }
 		e_noldor = {
 			grant_title = ROOT
 		}

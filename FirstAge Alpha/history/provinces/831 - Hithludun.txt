@@ -1,0 +1,18 @@
+#Hithludun
+
+# County Title
+title = c_hithludun
+
+# Settlements
+max_settlements = 2
+
+b_hithludun = castle
+b_dunarith = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

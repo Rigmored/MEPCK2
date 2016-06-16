@@ -4,17 +4,18 @@
 title = c_filimir
 
 # Settlements
-max_settlements = 3
+max_settlements = 5
 
-b_filimir = castle
+b_nidada = castle
+#b_filimer = castle
+#b_gundiok = city
+#b_filsatar = city
+#b_mostuvir = castle
 
 # Misc
 culture = culture_arnorian
 religion = religion_dunedain
-8222.1.1 = {
-culture = culture_arnorian
-religion = religion_dunedain
-}
+
 9752.1.1 = {
 culture = culture_wilderness
 religion = religion_wilderness

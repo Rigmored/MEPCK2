@@ -42,13 +42,13 @@ opinion_refused_to_trade = {
 
 ### Hobbits Gifts ###
 
-littlegift = {
+hobbit_little_gift = {
 	opinion = 10
 }
-goodgift = {
+hobbit_good_gift = {
 	opinion = 30
 }
-nogift = {
+hobbit_no_gift = {
 	opinion = -25
 }
 
@@ -71,4 +71,32 @@ hobbit_badparty = {
 
 protected_independance = {
 	opinion = 50
+}
+
+opinion_colonizes_my_province = {
+	opinion = 5
+	months = 12
+}
+
+opinion_colonized_my_province = {
+	opinion = 10
+	months = 60
+}
+
+opinion_colonizes_my_province_wrong = {
+	opinion = -10
+	months = 12
+}
+
+opinion_colonized_my_province_wrong = {
+	opinion = -20
+	months = 60
+}
+
+diplomatic_rhudaur = {
+	opinion = 10
+}
+
+opinion_castamirusurper = {
+	opinion = -20
 }

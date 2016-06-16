@@ -1,8 +1,13 @@
 10322.1.1=
 {   
-    law = agnatic_succession
-	law = succ_primogeniture
-	law = centralization_0
+    law = succ_feudal_elective
+	law = agnatic_succession
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_0
+    law = feudal_tax_1
+    law = city_contract_0
+    law = city_tax_1
 	holder = 8219 # Bucca of the Maresh
 }
 10381.1.1=

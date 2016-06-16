@@ -6,7 +6,7 @@ namespace = craft
 ######## craft.29 -  = rebuild the gwaith-i-mirdain events
 
 ### Weapon Event ###
-character_event = {
+narrative_event = {
 	id = craft.100
 	title = "EVTTITcraft.100"
 	desc = "EVTDESCcraft.100"
@@ -16,11 +16,35 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.100" ## I'll forge a sword !
+		trigger = {
+			NOT = {
+				trait = elvish_sword
+				trait = ancient_elvish_sword
+				trait = dwarvish_sword
+				trait = elvish_sword_magic_exceptional
+				trait = elvish_sword_magic_combat
+				trait = elvish_sword_magic_martial
+			}
+		}
 		character_event = { id = craft.0 days = 10 }
 	}
 	
 	option = {
 		name = "EVTOPTBcraft.100" ## I'll create a great jewel !
+		trigger = {
+			NOT = {
+				trait = dwarf_necklace
+				trait = elf_necklace
+				trait = dwarf_jewel
+				trait = elf_brooch
+				trait = elf_necklace_magic_exceptional
+				trait = elf_necklace_magic_learning
+				trait = elf_necklace_magic_diplomacy
+				trait = elf_brooch_magic_exceptional
+				trait = elf_brooch_magic_intrigue
+				trait = elf_brooch_magic_stewardship
+			}
+		}
 		character_event = { id = craft.12 }		
 	}	
 	
@@ -36,10 +60,11 @@ character_event = {
 				trait = legendary_craftman				
 			}
 		}
-		character_event = { id = craft.29 days = 5 }
+		narrative_event = { id = craft.29 days = 5 }
 	}
 	option = {
 		name = "EVTOPTDcraft.100" ## I won't forge anything for now.
+		clr_character_flag = crafts_object
 	}		
 }
 
@@ -187,6 +212,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.3" ## Great !
+		clr_character_flag = crafts_object
 		add_trait = ancient_elvish_sword
 		if = {
 			limit = {
@@ -230,7 +256,7 @@ character_event = {
 	}	
 }
 
-### Reforge an ancient sword - Success ###
+### Reforge an ancient sword - Fail ###
 character_event = {
 	id = craft.4
 	title = "EVTTITcraft.4"
@@ -241,6 +267,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.4" ## So bad...
+		clr_character_flag = crafts_object
 		prestige = -50
 	}	
 }
@@ -330,6 +357,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.6" ## Great !
+		clr_character_flag = crafts_object
 		add_trait = elvish_sword
 		if = {
 			limit = {
@@ -385,6 +413,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.7" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -497,6 +526,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.10" ## Great !
+		clr_character_flag = crafts_object
 		add_trait = dwarvish_sword
 		if = {
 			limit = {
@@ -556,7 +586,7 @@ character_event = {
 	}	
 }
 
-### Reforge an ancient sword - Success ###
+### Reforge an ancient sword - Failed ###
 character_event = {
 	id = craft.11
 	title = "EVTTITcraft.11"
@@ -568,6 +598,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.11" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -750,6 +781,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.16" ## So bad...
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -835,6 +867,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.18" ## Great !
+		clr_character_flag = crafts_object
 		if = {
 			limit = {
 				trait = craftsman
@@ -909,6 +942,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.19" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -982,6 +1016,7 @@ character_event = {
 	option = {
 		name = "EVTOPTBcraft.21" ## I'll sell it !
 		wealth = 150
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -996,6 +1031,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.22" ## So bad...
+		clr_character_flag = crafts_object
 	}		
 }
 
@@ -1082,6 +1118,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.24" ## A great jewel !
 		add_trait = dwarf_jewel
+		clr_character_flag = crafts_object
 		prestige = 100
 		if = {
 			limit = {
@@ -1132,7 +1169,7 @@ character_event = {
 			random = {
 				chance = 10
 				give_nickname = nick_golden_shield
-			}			
+			}
 		}			
 	}		
 }
@@ -1149,6 +1186,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.25" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}		
 }
 
@@ -1236,6 +1274,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.27" ## A great jewel !
 		add_trait = elf_brooch
+		clr_character_flag = crafts_object
 		if = {
 			limit = {
 				trait = craftsman
@@ -1284,6 +1323,7 @@ character_event = {
 	option = {
 		name = "EVTOPTAcraft.28" ## So bad...
 		prestige = -50
+		clr_character_flag = crafts_object
 	}		
 }
 
@@ -1338,7 +1378,7 @@ character_event = {
 		}	
 		if = {
 			limit = {
-				trait = legendary_craftsman
+				trait = legendary_craftman
 				age = 1
 			}
 			random_list = {
@@ -1364,9 +1404,8 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.31" ## Great !
-		character_event = { id = craft.33 days = 20 }
+		narrative_event = { id = craft.33 days = 20 }
 		create_character = {
-			location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
@@ -1378,23 +1417,21 @@ character_event = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
-			trait = legendary_craftsman
+			age = 3207
+			trait = legendary_craftman
 			trait = elf
 		}
 		new_character = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
+			age = 4100
 			trait = skilled_craftsman
 			trait = elf
 		}
@@ -1402,11 +1439,10 @@ character_event = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
+			age = 1725
 			trait = master_craftsman
 			trait = elf
 		}
@@ -1414,23 +1450,21 @@ character_event = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
-			trait = legendary_craftsman
+			age = 2108
+			trait = legendary_craftman
 			trait = elf
 		}
 		new_character = {
 			set_character_flag = call_to_gwaith
 		}
 		create_character = {
-			location = ROOT
 			religion = religion_moriquendi
 			culture = culture_noldor
 			female = no
-			age = 2543
+			age = 1887
 			trait = master_craftsman
 			trait = elf
 		}
@@ -1440,7 +1474,7 @@ character_event = {
 	}	
 }
 
-### Some artisans joins you in Ost-in-Edhil ###
+### Artisans refuse to join you in Ost-in-Edhil ###
 character_event = {
 	id = craft.32
 	title = "EVTTITcraft.32"
@@ -1451,6 +1485,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAcraft.32" ## so bad...	
+		clr_character_flag = crafts_object
 	}	
 }
 
@@ -1467,6 +1502,7 @@ narrative_event = {
 		name = "EVTOPTAcraft.33" ## Time to recreate the brotherhood !
 		add_trait = gwaith_i_mirdain
 		set_global_flag = gwaith_mirdain_rebuilded
+		clr_character_flag = crafts_object
 		wealth = -200
 		any_courtier = {
 			limit = {
@@ -1480,5 +1516,6 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTBcraft.33" ## It's not time.
+		clr_character_flag = crafts_object
 	}	
 }

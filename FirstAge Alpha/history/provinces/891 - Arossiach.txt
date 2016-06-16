@@ -1,0 +1,19 @@
+#Arossiach
+
+# County Title
+title = c_arossiach
+
+# Settlements
+max_settlements = 3
+
+b_aros_fords = castle
+b_minas_curufin = castle
+b_siachost = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

@@ -2278,88 +2278,6 @@ character_event = {
 	}
 }
 
-#Fosterling is Zealous - Muslim
-character_event = {
-	id = 2132
-	desc = EVTDESC2132
-	picture = GFX_evt_child_bully
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA2130 # Encourage
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 200
-				trait = zealous
-			}
-			modifier = {
-				factor = 0
-				trait = cynical
-			}
-		}
-		if = {
-			limit = {
-				trait = cynical
-			}
-			remove_trait = cynical
-		}
-		if = {
-			limit = {
-				learning = 10
-			}
-			FROM = { change_learning = 1}
-		}
-		if = {
-			limit = {
-				trait = zealous
-				learning = 10
-			}
-			FROM = { piety = 5}
-		}		
-		FROM = {
-			tooltip = {
-				add_trait = zealous
-			}
-			opinion = {
-				modifier = opinion_happy_with_guardian
-				who = ROOT
-				years = 2
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTB2130 # Discourage
-		ai_chance = {
-			factor = 10
-			modifier = {
-				factor = 200
-				trait = cynical
-			}
-			modifier = {
-				factor = 0
-				trait = zealous
-			}
-		}
-		if = {
-			limit = {
-				trait = zealous
-			}
-			remove_trait = zealous
-			piety = -50
-		}
-		FROM = {
-			remove_trait = zealous
-			hidden_tooltip = {
-				character_event = {
-					id = 1631
-				}
-			}
-		}
-	}
-}
 
 ##################################################
 
@@ -3471,26 +3389,9 @@ character_event = {
 		}
 		FROM = {
 			remove_trait = cynical
-			if = {
-				limit = {
-					NOT = {
-						religion_group = muslim
-					}
-				}
-				hidden_tooltip = {
-					character_event = {
-						id = 1731
-					}
-				}
-			}
-			if = {
-				limit = {
-					religion_group = muslim
-				}
-				hidden_tooltip = {
-					character_event = {
-						id = 1733
-					}
+			hidden_tooltip = {
+				character_event = {
+					id = 1731
 				}
 			}
 		}
@@ -3673,7 +3574,6 @@ character_event = {
 		independent = no
 		NOT = { trait = stressed}
 		NOT = { trait = depressed}
-		NOT = { trait = leper}
 		health = 4
 		
 		# Not if already having a ward
@@ -3692,12 +3592,6 @@ character_event = {
 				is_alive = yes
 				NOT = { age = 16 }
 				prisoner = no
-				NOT = {
-					AND = {
-						is_female = yes
-						religion_group = muslim
-					}
-				}
 				has_guardian = no
 			}
 		}
@@ -4166,11 +4060,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTD38203 # Let the monks purge sin from the child
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
 		ai_chance = { 
 			factor = 10
 			modifier = {
@@ -4456,75 +4345,6 @@ character_event = {
 	}
 }
 
-# Where do heathens come from?
-character_event = {
-	id = 38208
-	desc = EVTDESC38208
-	picture = GFX_evt_child_play
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA38208 # Heathens are people just like us 
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 4
-				trait = kind
-			}
-			modifier = {
-				factor = 2
-				trait = honest
-			}
-			modifier = {
-				factor = 0
-				trait = zealous
-			}			
-		}
-		random_list = {
-			50 = {	FROM = { add_trait = kind	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
-			40 = {	FROM = { add_trait = honest	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262} }}}
-			10 = {	FROM = { add_trait = gregarious	hidden_tooltip = { ROOT = { character_event = { id = 38165}} character_event = { id = 38265} }}}
-		}
-	}
-
-	option = {
-		name = EVTOPTB38208 # They are demons from Hell!
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 2
-				trait = wroth
-			}
-			modifier = {
-				factor = 10
-				trait = zealous
-			}			
-		}
-		
-		random_list = {
-			60 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
-			30 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			10 = {	FROM = { add_trait = cruel	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
-		}
-	}
-	option = {
-		name = EVTOPTC38208 # They are men like us, but unbeliever enemies
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 6
-				trait = just
-			}
-		}
-		
-		random_list = {
-			80 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
-			20 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-		}
-	}
-}
-
 #Your child is often playing very daring games with other children
 character_event = {
 	id = 38209
@@ -4596,71 +4416,6 @@ character_event = {
 	}
 }
 
-# Daddy, does God exist?
-character_event = {
-	id = 38210
-	desc = EVTDESC38210
-	picture = GFX_evt_child_play
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA38210 # Of course my child, go to play now
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 2
-				trait = trusting
-			}
-			modifier = {
-				factor = 2
-				trait = humble
-			}			
-		}		
-		random_list = {
-			70 = {	FROM = { add_trait = trusting	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
-			30 = {	FROM = { add_trait = humble	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
-		}
-	}
-
-	option = {
-		name = EVTOPTB38210 # Certainly child, let me tell you all about Him
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 10
-				trait = zealous
-			}
-			modifier = {
-				factor = 0
-				trait = cynical
-			}			
-		}		
-		random_list = {
-			90 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
-			10 = {	FROM = { add_trait = kind	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
-		}
-	}
-	option = {
-		name = EVTOPTC38210 # My child, let me explain how things really are...
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 10
-				trait = cynical
-			}
-			modifier = {
-				factor = 0
-				trait = zealous
-			}			
-		}		
-		random_list = {
-			70 = {	FROM = { add_trait = cynical	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
-			30 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
-		}
-	}
-}
-
 # Why do people die?
 character_event = {
 	id = 38211
@@ -4709,32 +4464,6 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTC38211 # It's all part of God's plan
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 2
-				trait = honest
-			}
-			modifier = {
-				factor = 8
-				trait = zealous
-			}			
-		}		
-		random_list = {
-			70 = {	FROM = { add_trait = honest	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262 } }}}		
-			30 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
-		}
-	}
-	option = {
-		name = EVTOPTD38211 # It's all part of Allah's plan
-		trigger = {
-			religion_group = muslim
-		}
 		ai_chance = { 
 			factor = 10
 			modifier = {
@@ -4873,24 +4602,17 @@ character_event = {
 				}
 			}
 			40 = {
-				if = {
-					limit = {
-						NOT = {
-							religion_group = muslim
-						}
-					}
-					FROM = {
-						add_trait = lustful
-						hidden_tooltip = {
-							ROOT = {
-								character_event = {
-									id = 38172
-								}
-							}
+				FROM = {
+					add_trait = lustful
+					hidden_tooltip = {
+						ROOT = {
 							character_event = {
-								id = 38272
-							} 
+								id = 38172
+							}
 						}
+						character_event = {
+							id = 38272
+						} 
 					}
 				}
 			}
@@ -4928,140 +4650,20 @@ character_event = {
 				}
 			}
 			40 = {
-				if = {
-					limit = {
-						NOT = {
-							religion_group = muslim
+				FROM = { 
+					add_trait = chaste
+					hidden_tooltip = {
+						ROOT = { 
+							character_event = { 
+								id = 38174
+							}
 						}
-					}
-					FROM = { 
-						add_trait = chaste
-						hidden_tooltip = {
-							ROOT = { 
-								character_event = { 
-									id = 38174
-								}
-							}
-							character_event = {
-								id = 38274
-							}
+						character_event = {
+							id = 38274
 						}
 					}
 				}
 			}
-		}
-	}
-}
-
-# If we're Catholic and our enemies are Catholic, why are we fighting?
-character_event = {
-	id = 38214
-	desc = EVTDESC38214
-	picture = GFX_evt_child_play
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA38214 # Fighting heathens is just silly church thing
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 5
-				trait = cynical
-			}
-			modifier = {
-				factor = 2
-				trait = arbitrary
-			}			
-		}		
-		
-		random_list = {
-			50 = {	FROM = { add_trait = cynical	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
-			50 = {	FROM = { add_trait = arbitrary	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
-		}
-	}
-	option = {
-		name = EVTOPTB38214 # I fight who I like!
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 5
-				trait = wroth
-			}
-			modifier = {
-				factor = 2
-				trait = cruel
-			}			
-		}		
-		
-		random_list = {
-			50 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			30 = {	FROM = { add_trait = cruel	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
-			20 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
-		}
-	}	
-	option = {
-		name = EVTOPTC38214 # Sometimes, even your brother can be an enemy
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 0
-				NOT = { trait = paranoid}
-			}
-		}		
-		
-		random_list = {
-			50 = {	FROM = { add_trait = arbitrary	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
-			45 = {}
-			5 = {	FROM = { add_trait = paranoid	hidden_tooltip = { ROOT = { character_event = { id = 38175}} character_event = { id = 38275} }}}
-		}
-	}
-}
-
-# Why is the church so rich when the peasants are starving and poor?
-character_event = {
-	id = 38215
-	desc = EVTDESC38215
-	picture = GFX_evt_child_play
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA38215 # Because for the poor is the kingdom of heaven
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 2
-				trait = greedy
-			}
-			modifier = {
-				factor = 5
-				trait = zealous
-			}			
-		}		
-		
-		random_list = {
-			70 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
-			30 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
-		}
-	}
-	option = {
-		name = EVTOPTB38215 # How about sharing of your own then?
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 5
-				trait = charitable
-			}
-			modifier = {
-				factor = 3
-				trait = just
-			}			
-		}		
-		
-		random_list = {
-			70 = {	FROM = { add_trait = charitable	hidden_tooltip = { ROOT = { character_event = { id = 38173}} character_event = { id = 38273} }}}
-			30 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
 		}
 	}
 }
@@ -5215,23 +4817,16 @@ character_event = {
 		
 		random_list = {
 			50 = {
-				if = {
-					limit = {
-						NOT = {
-							religion_group = muslim
-						}
-					}
-					FROM = { 
-						add_trait = chaste
-						hidden_tooltip = {
-							ROOT = { 
-								character_event = { 
-									id = 38174
-								}
-							}
+				FROM = { 
+					add_trait = chaste
+					hidden_tooltip = {
+						ROOT = { 
 							character_event = { 
-								id = 38274
+								id = 38174
 							}
+						}
+						character_event = { 
+							id = 38274
 						}
 					}
 				}
@@ -6021,47 +5616,6 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTC38227 #Money is for god
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
-		FROM = {
-			random_list = {
-				75 = {
-					add_trait = zealous
-					hidden_tooltip = {
-						ROOT = {
-							character_event = {
-								id = 38169 #Notify Child is zealous
-							}
-						}
-						character_event = {
-							id = 38269 #Notify Zealous
-						}
-					}
-				}
-				25 = {
-					add_trait = charitable
-					hidden_tooltip = {
-						ROOT = {
-							character_event = {
-								id = 38173 #Notify Child is charitable
-							}
-						}
-						character_event = {
-							id = 38273 #Notify Charitable
-						}
-					}
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTD38227 #Money is for god
-		trigger = {
-			religion_group = muslim
-		}
 		FROM = {
 			random_list = {
 				75 = {
@@ -6202,11 +5756,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA38229 #This will turn him into a great knight!
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
 		if = {
 			limit = {
 				martial = 10
@@ -6373,122 +5922,6 @@ character_event = {
 			}
 		}
 	}
-	option = {
-		name = EVTOPTC38229 #This will turn him into a great swordsmaster!
-		trigger = {
-			religion_group = muslim
-		}
-		if = {
-			limit = {
-				martial = 10
-			}
-			FROM = {
-				change_martial = 1
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					OR = {
-						trait = genius
-						trait = quick
-					}
-				}
-			}
-			FROM = {
-				change_martial = 1
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					NOT = {
-						trait = brave
-					}
-				}
-			}
-			FROM = {
-				random_list = {
-					40 = {
-						add_trait = brave
-						hidden_tooltip = {
-							ROOT = {
-								character_event = {
-									id = 38170 #Notify Child is brave
-								}
-							}
-							character_event = {
-								id = 38270 #Notify Brave
-							}
-						}
-					}
-					30 = {
-						add_trait = diligent
-						hidden_tooltip = {
-							ROOT = {
-								character_event = {
-									id = 38156 #Notify Child is diligent
-								}
-							}
-							character_event = {
-								id = 38256 #Notify Diligent
-							}
-						}
-					}
-					20 = {
-						add_trait = proud
-						hidden_tooltip = {
-							ROOT = {
-								character_event = {
-									id = 38161 #Notify Child is proud
-								}
-							}
-							character_event = {
-								id = 38261 #Notify Proud
-							}
-						}
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					trait = brave
-				}
-			}
-			FROM = {
-				random_list = {
-					60 = {
-						add_trait = diligent
-						hidden_tooltip = {
-							ROOT = {
-								character_event = {
-									id = 38170 #Notify Child is Diligent
-								}
-							}
-							character_event = {
-								id = 38270 #Notify Diligent
-							}
-						}
-					}
-					40 = {
-						add_trait = proud
-						hidden_tooltip = {
-							ROOT = {
-								character_event = {
-									id = 38161 #Notify Child is proud
-								}
-							}
-							character_event = {
-								id = 38261 #Notify Proud
-							}
-						}
-					}
-				}
-			}
-		}
-	}
 }
 
 ### Ward's first kiss ###
@@ -6514,37 +5947,30 @@ character_event = {
 			}
 		}
 		FROM = {
-			if = {
-				limit = {
-					NOT = {
-						religion_group = muslim
-					}
-				}
-				random_list = {
-					75 = {
-						add_trait = chaste
-						hidden_tooltip = {
-							ROOT = {
-								character_event = {
-									id = 38174 #Notify Child is chaste
-								}
-							}
+			random_list = {
+				75 = {
+					add_trait = chaste
+					hidden_tooltip = {
+						ROOT = {
 							character_event = {
-								id = 38274 #Notify Chaste
+								id = 38174 #Notify Child is chaste
 							}
 						}
+						character_event = {
+							id = 38274 #Notify Chaste
+						}
 					}
-					25 = {
-						add_trait = lustful
-						hidden_tooltip = {
-							ROOT = {
-								character_event = {
-									id = 38172 #Notify Child is chaste
-								}
-							}
+				}
+				25 = {
+					add_trait = lustful
+					hidden_tooltip = {
+						ROOT = {
 							character_event = {
-								id = 38272 #Notify Chaste
+								id = 38172 #Notify Child is chaste
 							}
+						}
+						character_event = {
+							id = 38272 #Notify Chaste
 						}
 					}
 				}
@@ -6564,22 +5990,15 @@ character_event = {
 		FROM = {
 			random_list = {
 				40 = {
-					if = {
-						limit = {
-							NOT = {
-								religion_group = muslim
+					add_trait = chaste
+					hidden_tooltip = {
+						ROOT = {
+							character_event = {
+								id = 38174 #Notify Child is chaste
 							}
 						}
-						add_trait = chaste
-						hidden_tooltip = {
-							ROOT = {
-								character_event = {
-									id = 38174 #Notify Child is chaste
-								}
-							}
-							character_event = {
-								id = 38274 #Notify Chaste
-							}
+						character_event = {
+							id = 38274 #Notify Chaste
 						}
 					}
 				}
@@ -6914,62 +6333,7 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA38233 #Make the child fast to atone for its sins
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
-		ai_chance = {
-			factor = 1
-		
-			modifier = {
-				factor = 100
-				trait = zealous
-			}
-		}
-		FROM = {
-			random_list = {
-				45 = {
-					add_trait = pneumonic
-				}
-				50 = {
-					remove_trait = ill
-					hidden_tooltip = {
-						ROOT = {
-							character_event = {
-								id = 38183 #Notify Child is no longer ill
-							}
-						}
-						character_event = {
-							id = 38283 #Notify Remove Ill
-						}
-					}
-				}
-				5 = {
-					death = {
-						death_reason = death_murder
-						killer = ROOT
-					}
-					set_character_flag = murdered_by_guardian
-				}
-			}
-			if = {
-				limit = {
-					trait = gluttonous
-					NOT = {
-						trait = zealous
-					}
-				}
-				opinion = {
-					modifier = opinion_mad_at_guardian
-					who = ROOT
-					years = 2
-				}
-			}
-		}
-	}
+	
 	option = {
 		name = EVTOPTB38233 #Pay a doctor to cure ward
 		ai_chance = {
@@ -7011,11 +6375,6 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTC38233 #Only God decides over life and death
-		trigger = {
-			NOT = {
-				religion_group = muslim
-			}
-		}
 		FROM = {
 			random = {
 				chance = 60
@@ -7057,57 +6416,9 @@ character_event = {
 			}
 		}
 	}
-	option = {
-		name = EVTOPTD38233 #Only Allah decides over life and death
-		trigger = {
-			religion_group = muslim
-		}
-		FROM = {
-			random = {
-				chance = 60
-			
-				death = {
-					death_reason = death_trait
-				}
-				if = {
-					limit = {
-						father = {
-							is_alive = yes
-						}
-					}
-					father = {
-						opinion = {
-							modifier = opinion_killed_close_kin
-							who = ROOT
-							years = 5
-						}
-					}
-				}
-				if = {
-					limit = {
-						father = {
-							is_alive = no
-						}
-						mother = {
-							is_alive = yes
-						}
-					}
-					mother = {
-						opinion = {
-							modifier = opinion_killed_close_kin
-							who = ROOT
-							years = 5
-						}
-					}
-				}
-			}
-		}
-	}
+	
 	option = {
 		name = EVTOPTE38233 #Do nothing
-		trigger = {
-			religion_group = muslim
-		}
 		ai_chance = {
 			factor = 1
 		
@@ -7153,82 +6464,6 @@ character_event = {
 					modifier = opinion_mad_at_guardian
 					who = ROOT
 					years = 2
-				}
-			}
-		}
-	}
-}
-
-# Homosexual Ward
-character_event = {
-	id = 38234
-	desc = EVTDESC38234
-	picture = GFX_evt_child_play
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA38234 #Make the child fast to atone for its sins
-		ai_chance = {
-			factor = 10
-			
-			modifier = {
-				factor = 9
-				trait = zealous
-			}
-		}
-		FROM = {
-			random = {
-				chance = 20
-				
-				remove_trait = homosexual
-				opinion = {
-					modifier = opinion_mad_at_guardian
-					who = ROOT
-					years = 5
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTB38234 #Try to beat it out of him/her
-		ai_chance = {
-			factor = 10
-			
-			modifier = {
-				factor = 9
-				trait = cruel
-			}
-		}
-		FROM = {
-			random = {
-				chance = 10
-				
-				remove_trait = homosexual
-				opinion = {
-					modifier = opinion_mad_at_guardian
-					who = ROOT
-					years = 5
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTC38234 #S/he will grow out of it
-		FROM = {
-			random = {
-				chance = 25
-				
-				add_trait = trusting
-				hidden_tooltip = {
-					ROOT = {
-						character_event = {
-							id = 38150 #Notify Child is trusting
-						}
-					}
-					character_event = {
-						id = 38250 #Notify Trusting
-					}
 				}
 			}
 		}

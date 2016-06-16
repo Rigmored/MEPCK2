@@ -1,0 +1,177 @@
+
+namespace = gnostic_cants
+
+character_event = {
+id = gnostic_cants.999
+hide_window = yes
+is_triggered_only = yes
+
+immediate = {
+	long_character_event = {id = gnostic_cants.1}
+	set_variable = [ which = "count" value = 0]
+}
+
+}
+
+long_character_event = {
+	id = gnostic_cants.1#"High Magic" 
+	desc = gnostic_cants.1_desc#"High Magic, the true magic. "
+	is_triggered_only = yes
+	
+	picture = GFX_evt_mage_lore_high_magic
+	
+	immediate = {
+		change_variable = [ which = "count" value = 1]
+	}
+
+	option = {
+		trigger = {
+			check_variable = { which = "spell_power" value = 1}
+		}
+		name = gnostic_cants.1a
+		if = { 
+			limit = {check_variable = {which = "count"} value = 0 }
+			set_character_flag = object1_1
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 1 }
+			set_character_flag = object1_2
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 2 }
+			set_character_flag = object1_3
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 3 }
+			set_character_flag = object1_4
+			character_event = {id = gnostic_cants.3}
+		}		
+	}
+	option = {
+		trigger = {
+			check_variable = { which = "spell_power" value = 1}
+		}	
+		name = gnostic_cants.1b
+		if = { 
+			limit = {check_variable = {which = "count"} value = 0 }
+			set_character_flag = object2_1
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 1 }
+			set_character_flag = object2_2
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 2 }
+			set_character_flag = object2_3
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 3 }
+			set_character_flag = object2_4
+			character_event = {id = gnostic_cants.3}
+		}
+	}
+	option = {
+		trigger = {
+			check_variable = { which = "spell_power" value = 2}
+		}	
+		name = gnostic_cants.1c
+		if = { 
+			limit = {check_variable = {which = "count"} value = 0 }
+			set_character_flag = object3_1
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 1 }
+			set_character_flag = object3_2
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 2 }
+			set_character_flag = object3_3
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 3 }
+			set_character_flag = object3_4
+			character_event = {id = gnostic_cants.3}
+		}		
+	}
+	option = {
+		trigger = {
+			check_variable = { which = "spell_power" value = 3}
+		}	
+		name = gnostic_cants.1d
+		if = { 
+			limit = {check_variable = {which = "count"} value = 0 }
+			set_character_flag = object4_1
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 1 }
+			set_character_flag = object4_2
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 2 }
+			set_character_flag = object4_3
+			character_event = {id = gnostic_cants.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 3 }
+			set_character_flag = object4_4
+			character_event = {id = gnostic_cants.3}
+		}		
+	}	
+}
+
+
+character_event = {
+id = gnostic_cants.3
+hide_window = yes
+is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { 
+				has_character_modifier = object1_1
+				has_character_modifier = object1_2
+				has_character_modifier = object1_3
+				has_character_modifier = object1_4				
+			}
+		
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object1_1
+				has_character_modifier = object2_2
+				has_character_modifier = object1_3
+				has_character_modifier = object1_4				
+			}
+		
+		}	
+		if = {
+			limit = { 
+				has_character_modifier = object1_1
+				has_character_modifier = object3_2
+				has_character_modifier = object1_3
+				has_character_modifier = object1_4				
+			}
+		
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object1_1
+				has_character_modifier = object4_2
+				has_character_modifier = object1_3
+				has_character_modifier = object1_4				
+			}
+		
+		}		
+	}
+}

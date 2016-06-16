@@ -11,11 +11,9 @@ character_event = {
 		trait = blood_of_numenor
 		current_heir = {
 			age = 5
-			AND = {
-				NOT = { trait = blood_of_numenor }
-				NOT = { trait = elven_blood }
-				NOT = { trait = half_elf }
-			}
+			NOT = { trait = blood_of_numenor }
+			NOT = { trait = elven_blood }
+			NOT = { trait = half_elf }
 		}
 		NOT = { has_character_flag = kinstrife1 }
 	}
@@ -44,13 +42,11 @@ character_event = {
 			culture = culture_arnorian
 			religion = religion_dunedain
 		}
-		AND = {
-			NOT = { trait = blood_of_numenor }
-			NOT = { trait = elven_blood }
-			NOT = { trait = half_elf }
-		}
+		NOT = { trait = blood_of_numenor }
+		NOT = { trait = elven_blood }
+		NOT = { trait = half_elf }
 		NOT = { has_character_flag = kinstrife2 }
-		}
+	}
 		
 	mean_time_to_happen = {
 		days = 20
@@ -423,10 +419,8 @@ character_event = {
 	hide_window = yes	
 	
 	trigger = {
-		AND = {
-			has_landed_title = e_gondor
-			has_landed_title = e_gondor_kinstrife
-		}
+		has_landed_title = e_gondor
+		has_landed_title = e_gondor_kinstrife
 		age = 16
 	}
 	
@@ -444,7 +438,7 @@ character_event = {
 					has_character_flag = kinstrifemember2				
 				}
 			}
-			set_de_facto_liege = e_gondor
+			set_defacto_liege = e_gondor
 		}			
 		e_gondor_kinstrife = {
 			destroy_landed_title = THIS
@@ -879,7 +873,7 @@ character_event = {
 		days = 1
 	}
 				  
-	 option = {
+	option = {
 		name = EVTOPTAkinstrife.23
 		clr_global_flag = kinstrife4
 		any_playable_ruler = {
@@ -896,16 +890,11 @@ character_event = {
 		trigger = { ai = no }
 		any_playable_ruler = {
 			limit = {
-				trait = blood_of_anarion
-				has_character_flag = eldacar
-			}			
-		}			
-		imprison = { 
-			any_playable_ruler = {
 				has_landed_title = e_gondor
 				prisoner = no
 			}
-		}			
+			imprison = ROOT 
+		}
 	}
 }
 
@@ -1103,10 +1092,8 @@ character_event = {
 		has_landed_title = e_gondor_kinstrife
 		e_gondor_kinstrife = {
 			holder_scope = {
-				AND = {
-					war = no
-					is_landed = yes
-				}
+				war = no
+				is_landed = yes
 			}
 		}		
 	}

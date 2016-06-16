@@ -14,10 +14,5 @@ b_orodost = city
 b_sarnur = city
 
 # Misc
-culture = culture_mountains
-religion = religion_wilderness
-
-11100.1.1 = {
-culture = culture_longbeard
+culture = culture_broadbeam
 religion = religion_mahal
-}

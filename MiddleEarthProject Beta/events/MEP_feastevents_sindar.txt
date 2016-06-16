@@ -4,7 +4,7 @@ namespace = sindarfeast
 ### Food Preparations ###
 character_event = {
 	id = sindarfeast.0
-	desc = "In preparation for the annual Feast of Starlight, you must begin to prepare the food for your guests. What standard should you instruct your steward to set for the feast this year?"
+	desc = EVTDESCsindarfeast.0
 	picture = "GFX_elf_meeting"
 	
 	only_rulers = yes
@@ -32,7 +32,7 @@ character_event = {
 	}
 
 	option = {
-		name = "Only the finest wine and most exquisite food!" #Spend lavishly on food
+		name = EVTOPTAsindarfeast.0 #Spend lavishly on food
 		ai_chance = {
 			factor = 30
 			
@@ -56,7 +56,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "Wine and decent food will suffice." #Spend medium on food
+		name = EVTOPTBsindarfeast.0 #Spend medium on food
 		ai_chance = {
 			factor = 30
 			
@@ -81,7 +81,7 @@ character_event = {
 		
 	}
 	option = {
-		name = "Just serve them whatever is available that day..." #Spend low on food
+		name = EVTOPTCsindarfeast.0 #Spend low on food
 		ai_chance = {
 			factor = 30
 			
@@ -113,7 +113,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.33
 	desc = EVTDESC72090
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	only_men = yes
 	capable_only = yes
@@ -394,7 +394,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.34
 	desc = EVTDESC72091
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -408,7 +408,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.35
 	desc = EVTDESC72092
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -836,7 +836,7 @@ letter_event = {
 		set_character_flag = coming_to_feast
 	}
 	option = {
-		name = sindarfeast.3 #Refuse
+		name = EVTOPTB72011 #Refuse
 		ai_chance = {
 			factor = 1
 			modifier  = {
@@ -846,7 +846,7 @@ letter_event = {
 		}
 		FROM = {
 			letter_event = {
-				id = 72012
+				id = sindarfeast.3
 				days = 1
 				random = 2
 				tooltip = EVTTOOLTIP72012
@@ -857,7 +857,7 @@ letter_event = {
 
 #Vassal refused to come to the feast
 letter_event = {
-	id = sindarfeast.3
+	id = sindarfeast.3 
 	desc = EVTDESC72012
 	picture = "GFX_elf_meeting"
 	
@@ -931,8 +931,8 @@ character_event = {
 #Welcome to the feast!
 character_event = {
 	id = sindarfeast.5
-	desc = EVTDESC72016
-	picture = GFX_evt_feast
+	desc = EVTDESCsindarfeast.5
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -946,7 +946,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.6
 	desc = EVTDESC72020
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	min_age = 16
 	only_rulers = yes
@@ -1078,7 +1078,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.9
 	desc = EVTDESC72021
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	min_age = 16
 	only_rulers = yes
@@ -1187,7 +1187,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.10
 	desc = EVTDESC72022
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	min_age = 16
 	only_rulers = yes
@@ -1319,7 +1319,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.7
 	desc = EVTDESC72023
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -1337,7 +1337,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.8
 	desc = EVTDESC72024
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -1355,7 +1355,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.11
 	desc = EVTDESC72025
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	capable_only = yes
 	prisoner = no
@@ -1449,7 +1449,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.12
 	desc = EVTDESC72026
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -1469,7 +1469,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.13
 	desc = EVTDESC72027
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	capable_only = yes
 	prisoner = no
@@ -1587,7 +1587,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.14
 	desc = EVTDESC72028
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -1606,7 +1606,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.15
 	desc = EVTDESC72045
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	min_age = 16
 	prisoner = no
@@ -1721,7 +1721,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.17
 	desc = EVTDESC72046
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	min_age = 16
 	prisoner = no
@@ -1807,7 +1807,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.19
 	desc = EVTDESC72048
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	min_age = 16
 	prisoner = no
@@ -1900,7 +1900,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.21
 	desc = EVTDESC72067
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	only_rulers = yes
 	prisoner = no
@@ -2002,7 +2002,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.22
 	desc = EVTDESC72068
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -2021,7 +2021,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.23
 	desc = EVTDESC72075
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	only_men = yes
 	min_age = 16
@@ -2234,7 +2234,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.27
 	desc = EVTDESC72080
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	capable_only = yes
 	prisoner = no
@@ -2334,7 +2334,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.28
 	desc = EVTDESC72081
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -2359,7 +2359,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.29
 	desc = EVTDESC72110
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	capable_only = yes
 	prisoner = no
@@ -2434,7 +2434,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.30
 	desc = EVTDESC72111
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	
@@ -2448,7 +2448,7 @@ character_event = {
 character_event = {
 	id = sindarfeast.31
 	desc = EVTDESC72112
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	only_rulers = yes
 	
@@ -2458,6 +2458,7 @@ character_event = {
 		OR = {
 		culture = culture_sindar
 		culture = culture_silvan
+		}
 	}
 	
 	mean_time_to_happen = {	
@@ -2505,13 +2506,13 @@ character_event = {
 		}
 	}
 }
-}
+
 
 #Feast cancelled: notify invited vassals
 letter_event = {
 	id = sindarfeast.32
 	desc = EVTDESC72113
-	picture = GFX_evt_feast
+	picture = GFX_evt_sindar_feast
 	
 	is_triggered_only = yes
 	

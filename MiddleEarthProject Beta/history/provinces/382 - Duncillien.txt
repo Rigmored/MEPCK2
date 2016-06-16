@@ -10,20 +10,12 @@ title = c_duncillien
 
 max_settlements = 4
 b_duncillien = tribal
-b_avardin = tribal
+b_avardin = city
 #b_starkmoor = city
 #b_dunalais = city
 
 # Misc
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
-8222.1.1 = {
 culture = culture_dunlending
 religion = religion_haldadian
-}
 
-9979.1.1 = {
-culture = culture_dunlending
-religion = religion_haldadian }

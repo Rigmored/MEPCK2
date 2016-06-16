@@ -78,6 +78,11 @@ holder = 2406 # Borodir
 holder = 0
 liege=0
 }
+11355.1.1=
+{
+holder = 15300
+liege=0
+}
 11362.5.1=
 {
 holder = 2038 # Aragorn II ## First King of the Reunited Kingdom

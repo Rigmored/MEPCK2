@@ -78,7 +78,7 @@ holder = 2248 # Calmacil
 }
 10318.1.1=
 {
-holder = 0
+holder = 25033
 liege = 0
 }
 11396.1.1=
@@ -90,3 +90,4 @@ liege = d_hobbitwestmarch
 {
 holder = 8163 # Elfstan
 }
+

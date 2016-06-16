@@ -9,9 +9,9 @@ title = c_west_harnen
 
 max_settlements = 5
 
-b_suk_abarrim = castle
-b_barakul = castle
-b_emnetil = city
+b_suk_abarrim = tribal
+#b_barakul = castle
+#b_emnetil = city
 #b_harnendur = castle
 #b_astalimon = castle
 

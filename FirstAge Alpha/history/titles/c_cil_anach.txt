@@ -1,0 +1,14 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+4318.1.1=
+{
+holder = 3155 # Aegnor
+liege = d_eryn_gorgoroth
+}
+4767.1.1=
+{
+holder = 0
+liege = 0
+}

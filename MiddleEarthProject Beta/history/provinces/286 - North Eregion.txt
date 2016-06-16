@@ -8,13 +8,11 @@ title = c_north_eregion
 
 # Settlements
 
-max_settlements = 5
+max_settlements = 2
 b_north_eregion = castle
 b_north_eregioncastle = castle
 
 
 # Misc
-8222.1.1 = {
 culture = culture_wilderness
 religion = religion_wilderness
-}

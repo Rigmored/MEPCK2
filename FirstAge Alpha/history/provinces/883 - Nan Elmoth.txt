@@ -1,0 +1,19 @@
+#Nan Elmoth
+
+# County Title
+title = c_nan_elmoth
+
+# Settlements
+max_settlements = 3
+
+b_gladuial = castle
+b_minas_elmoth = castle
+b_gobel_eol = city
+
+# Misc
+culture = culture_sindar
+religion = religion_moriquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

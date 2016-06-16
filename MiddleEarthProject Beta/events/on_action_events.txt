@@ -9,6 +9,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
+
 	desc = "A"
 }
 
@@ -16,6 +17,7 @@ character_event = {
 	id = 2
 
 	is_triggered_only = yes
+
 
 	desc = "B"
 }
@@ -162,7 +164,6 @@ character_event = {
 			if = {
 				limit = { 
 					dynasty = ROOT 
-					NOT = { religion_group = muslim }
 				}
 				add_trait = kinslayer
 			}
@@ -702,7 +703,6 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { FROM = { religion_group = muslim } }
 			}
 			FROM = { add_trait = kinslayer }
 		}
@@ -1249,557 +1249,6 @@ character_event = {
 				years = 5
 			}
 		}
-	}
-}
-
-# CHRISTIAN CRUSADE AGAINST MUSLIMS
-# Called from 'on_crusade_creation'
-# new_character is the targetted enemy
-# ROOT is the religious head
-# FROM is the attacked kingdom title
-narrative_event = {
-	id = 200
-	title = "EVTNAME200"
-	desc = "EVTDESC200"
-	picture = GFX_evt_crusaders
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes
-	
-	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = christian }
-		new_character = {
-			religion_group = muslim
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA200" # Deus Vult!
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB200" # No concern of ours
-		trigger = {
-			NOT = { religion = ROOT }
-			new_character = {
-				NOT = { religion = PREV }
-				NOT = { character = PREV }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD200" # To Arms!
-		trigger = {
-			new_character = {
-				character = PREV
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE200" # Terrible News!
-		trigger = {
-			new_character = {
-				religion = PREV
-				NOT = { character = PREV }
-			}
-		}
-	}
-}
-
-# CHRISTIAN CRUSADE AGAINST PAGANS
-# Called from 'on_crusade_creation'
-# new_character is the targetted enemy
-# ROOT is the religious head
-# FROM is the attacked kingdom title
-narrative_event = {
-	id = 201
-	title = "EVTNAME200"
-	desc = "EVTDESC201"
-	picture = GFX_evt_crusaders
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes
-	
-	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = christian }
-		new_character = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = christian }
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA200" # Deus Vult!
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB200" # No concern of ours
-		trigger = {
-			NOT = { religion = ROOT }
-			new_character = {
-				NOT = { religion = PREV }
-				NOT = { character = PREV }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD200" # To Arms!
-		trigger = {
-			new_character = {
-				character = PREV
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE200" # Terrible News!
-		trigger = {
-			new_character = {
-				religion = PREV
-				NOT = { character = PREV }
-			}
-		}
-	}
-}
-
-# CHRISTIAN CRUSADE AGAINST HERETICS
-# Called from 'on_crusade_creation'
-# new_character is the targetted enemy
-# ROOT is the religious head
-# FROM is the attacked kingdom title
-narrative_event = {
-	id = 321
-	title = EVTNAME200
-	desc = EVTDESC321
-	picture = GFX_evt_crusaders
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes
-	
-	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = christian }
-		new_character = {
-			religion_group = christian
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA200" # Deus Vult!
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB200" # No concern of ours
-		trigger = {
-			NOT = { religion = ROOT }
-			new_character = {
-				NOT = { religion = PREV }
-				NOT = { character = PREV }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD200" # To Arms!
-		trigger = {
-			new_character = {
-				character = PREV
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE200" # Terrible News!
-		trigger = {
-			new_character = {
-				religion = PREV
-				NOT = { character = PREV }
-			}
-		}
-	}
-}
-
-# MUSLIM JIHAD AGAINST CHRISTIANS
-# Called from 'on_crusade_creation'
-# new_character is the targetted enemy
-# ROOT is the religious head
-# FROM is the attacked kingdom title
-narrative_event = {
-	id = 320
-	title = "EVTNAME200"
-	desc = "EVTDESC320"
-	picture = GFX_evt_battle
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes	
-	
-	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = muslim }
-		new_character = {
-			religion_group = christian
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA320" # Allahu Akhbar!
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB200" # No concern of ours
-		trigger = {
-			NOT = { religion = ROOT }
-			new_character = {
-				NOT = { religion = PREV }
-				NOT = { character = PREV }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD200" # To Arms!
-		trigger = {
-			new_character = {
-				character = PREV
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE200" # Terrible News!
-		trigger = {
-			new_character = {
-				religion = PREV
-				NOT = { character = PREV }
-			}
-		}
-	}
-}
-
-# MUSLIM JIHAD AGAINST PAGANS
-# Called from 'on_crusade_creation'
-# new_character is the targetted enemy
-# ROOT is the religious head
-# FROM is the attacked kingdom title
-narrative_event = {
-	id = 322
-	title = "EVTNAME200"
-	desc = "EVTDESC322"
-	picture = GFX_evt_battle
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes	
-	
-	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = muslim }
-		new_character = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = christian }
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA320" # Allahu Akhbar!
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB200" # No concern of ours
-		trigger = {
-			NOT = { religion = ROOT }
-			new_character = {
-				NOT = { religion = PREV }
-				NOT = { character = PREV }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD200" # To Arms!
-		trigger = {
-			new_character = {
-				character = PREV
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE200" # Terrible News!
-		trigger = {
-			new_character = {
-				religion = PREV
-				NOT = { character = PREV }
-			}
-		}
-	}
-}
-
-# MUSLIM JIHAD AGAINST HERETICS
-# Called from 'on_crusade_creation'
-# new_character is the targetted enemy
-# ROOT is the religious head
-# FROM is the attacked kingdom title
-narrative_event = {
-	id = 323
-	title = "EVTNAME200"
-	desc = "EVTDESC323"
-	picture = GFX_evt_battle
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes	
-	
-	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = muslim }
-		new_character = {
-			religion_group = muslim
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA320" # Allahu Akhbar!
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB200" # No concern of ours
-		trigger = {
-			NOT = { religion = ROOT }
-			new_character = {
-				NOT = { religion = PREV }
-				NOT = { character = PREV }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD200" # To Arms!
-		trigger = {
-			new_character = {
-				character = PREV
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE200" # Terrible News!
-		trigger = {
-			new_character = {
-				religion = PREV
-				NOT = { character = PREV }
-			}
-		}
-	}
-}
-
-# PAGAN HOLY WAR AGAINST CHRISTIANS
-# Called from 'on_crusade_creation'
-# new_character is the targetted enemy
-# ROOT is the religious head
-# FROM is the attacked kingdom title
-narrative_event = {
-	id = 324
-	title = "EVTNAME200"
-	desc = "EVTDESC324"
-	picture = GFX_evt_viking_battle_oldgods
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes	
-	
-	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = pagan_group }
-		new_character = {
-			religion_group = christian
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA324" # For [God Name]!
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB200" # No concern of ours
-		trigger = {
-			NOT = { religion = ROOT }
-			new_character = {
-				NOT = { religion = PREV }
-				NOT = { character = PREV }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD200" # To Arms!
-		trigger = {
-			new_character = {
-				character = PREV
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE200" # Terrible News!
-		trigger = {
-			new_character = {
-				religion = PREV
-				NOT = { character = PREV }
-			}
-		}
-	}
-}
-
-# PAGAN HOLY WAR AGAINST MUSLIMS
-# Called from 'on_crusade_creation'
-# new_character is the targetted enemy
-# ROOT is the religious head
-# FROM is the attacked kingdom title
-narrative_event = {
-	id = 325
-	title = "EVTNAME200"
-	desc = "EVTDESC325"
-	picture = GFX_evt_viking_battle_oldgods
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes	
-	
-	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = pagan_group }
-		new_character = {
-			religion_group = muslim
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA324" # For [God Name]!
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB200" # No concern of ours
-		trigger = {
-			NOT = { religion = ROOT }
-			new_character = {
-				NOT = { religion = PREV }
-				NOT = { character = PREV }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD200" # To Arms!
-		trigger = {
-			new_character = {
-				character = PREV
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE200" # Terrible News!
-		trigger = {
-			new_character = {
-				religion = PREV
-				NOT = { character = PREV }
-			}
-		}
-	}
-}
-
-# PAGAN HOLY WAR AGAINST OTHER PAGANS
-# Called from 'on_crusade_creation'
-# new_character is the targetted enemy
-# ROOT is the religious head
-# FROM is the attacked kingdom title
-narrative_event = {
-	id = 326
-	title = "EVTNAME200"
-	desc = "EVTDESC326"
-	picture = GFX_evt_viking_battle_oldgods
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes	
-	
-	trigger = {
-		can_call_crusade = yes
-		ROOT = { religion_group = pagan_group }
-		new_character = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = christian }
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA324" # For [God Name]!
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB200" # No concern of ours
-		trigger = {
-			NOT = { religion = ROOT }
-			new_character = {
-				NOT = { religion = PREV }
-				NOT = { character = PREV }
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTD200" # To Arms!
-		trigger = {
-			new_character = {
-				character = PREV
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTE200" # Terrible News!
-		trigger = {
-			new_character = {
-				religion = PREV
-				NOT = { character = PREV }
-			}
-		}
-	}
-}
-
-# DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT_EVENT =
-diploresponse_event = {
-	id = 202
-	desc = "EVTDESC202"
-	
-	is_triggered_only = yes
-	major = no
-	is_friendly = yes
-
-	trigger = {
-		ai = no
-	}
-
-	option = {
-		name = "OK"
-	}
-}
-
-# DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE_EVENT =
-diploresponse_event = {
-	id = 203
-	desc = "EVTDESC203"
-	
-	is_triggered_only = yes
-	major = no
-
-	trigger = {
-		ai = no
-	}
-
-	option = {
-		name = "OK"
 	}
 }
 
@@ -2737,11 +2186,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { religion_group = muslim }
-		OR = {
-			NOT = { religion = zoroastrian }
-			NOT = { new_character = { is_close_relative = FROM } }
-		}
+		NOT = { new_character = { is_close_relative = FROM } }
 		OR = {
 			FROM = { character = ROOT }
 			AND = {
@@ -2781,101 +2226,6 @@ character_event = {
 		if = {
 			limit = { tier = BARON }
 			prestige = 25
-		}
-	}
-}
-
-# On-action event: Zoroastrian Xwedodah marriage
-character_event = {
-	id = 501
-	desc = "EVTDESC501"
-	picture = "GFX_evt_marriage_zoroastrian"
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		religion = zoroastrian
-		new_character = { is_close_relative = FROM }
-		OR = {
-			FROM = { character = ROOT }
-			AND = {
-				FROM = {
-					dynasty = ROOT
-					is_primary_heir = ROOT
-				}
-				new_character = {
-					NOT = { character = ROOT }
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA500"
-		scaled_wealth = 0.5
-		if = {
-			limit = { tier = EMPEROR }
-			piety = 300
-		}
-		if = {
-			limit = { tier = KING }
-			piety = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			piety = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			piety = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			piety = 25
-		}
-	}
-	option = {
-		name = "EVTOPTB500"
-		if = {
-			limit = { tier = EMPEROR }
-			prestige = 300
-		}
-		if = {
-			limit = { tier = KING }
-			prestige = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			prestige = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			prestige = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			prestige = 25
-		}
-		
-		if = {
-			limit = { tier = EMPEROR }
-			piety = 300
-		}
-		if = {
-			limit = { tier = KING }
-			piety = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			piety = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			piety = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			piety = 25
 		}
 	}
 }
@@ -3403,196 +2753,6 @@ character_event = {
 	}
 }
 
-narrative_event = {
-	id = 670
-	title = "EVTNAME670"
-	desc = "EVTDESC670"
-	picture = GFX_evt_heretic
-	border = "GFX_event_narrative_frame_religion"	
-	
-	is_triggered_only = yes
-	major = yes
-	show_ROOT = yes
-	hide_new = yes
-	
-	only_rulers = yes
-	
-	immediate = {
-		if = {
-			limit = { ai = no }
-			set_character_flag = achievement_new_ways
-		}
-		any_courtier = {
-			limit = {
-				is_heresy_of = ROOT
-				employer = { character = ROOT }
-			}
-			religion = ROOT
-		}
-		any_dynasty_member = {
-			limit = {
-				is_heresy_of = ROOT
-				is_playable = no
-			}
-			religion = ROOT
-		}
-		any_vassal = {
-			limit = {
-				is_playable = no
-				is_heresy_of = ROOT
-			}
-			religion = ROOT
-		}
-		capital_scope = {
-			if = {
-				limit = { is_heresy_of = ROOT }
-				religion = ROOT
-			}
-		}
-		if = {
-			limit = { religion = norse_pagan_reformed }
-			d_jomsvikings = {
-				religion = norse_pagan_reformed # This Holy Order now changes religion
-			}
-			set_global_flag = norse_reformation
-		}
-		if = {
-			limit = { religion = tengri_pagan_reformed }
-			set_global_flag = tengri_reformation
-		}
-		if = {
-			limit = { religion = baltic_pagan_reformed }
-			set_global_flag = baltic_reformation
-		}
-		if = {
-			limit = { religion = finnish_pagan_reformed }
-			set_global_flag = finnish_reformation
-		}
-		if = {
-			limit = { religion = aztec_reformed }
-			set_global_flag = aztec_reformation
-		}
-		if = {
-			limit = { religion = slavic_pagan_reformed }
-			set_global_flag = slavic_reformation
-		}
-		if = {
-			limit = { religion = west_african_pagan_reformed }
-			set_global_flag = west_african_reformation
-		}
-	}
-
-	option = {
-		name = "EVTOPTA670" # The Reformer
-		trigger = { religion = ROOT }
-	}
-	option = {
-		name = "EVTOPTB670" # Rulers of the old Faith - Accept
-		trigger = {
-			is_heresy_of = ROOT # The old religion has become a heresy of the Reformed one
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 5
-				any_liege = { religion = ROOT }
-			}
-			modifier = {
-				factor = 2
-				same_realm = ROOT
-			}
-			modifier = {
-				factor = 5
-				trait = cynical
-			}
-			modifier = {
-				factor = 10
-				dynasty = ROOT
-			}
-			modifier = {
-				factor = 0.1
-				trait = zealous
-			}
-			modifier = {
-				factor = 0.5
-				trait = content
-			}
-		}
-		
-		religion = ROOT
-		
-		hidden_tooltip = {
-			any_courtier = {
-				limit = {
-					is_heresy_of = ROOT
-					employer = { character = PREV }
-				}
-				religion = ROOT
-			}
-			any_vassal = {
-				limit = {
-					is_playable = no
-					is_heresy_of = ROOT
-				}
-				religion = ROOT
-			}
-			capital_scope = {
-				if = {
-					limit = { is_heresy_of = ROOT }
-					religion = ROOT
-				}
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTC670" # Rulers of the old Faith - Decline
-		trigger = {
-			is_heresy_of = ROOT # The old religion has become a heresy of the Reformed one
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				has_landed_title = d_jomsvikings
-			}
-		}
-		tooltip = { religion = THIS }
-	}
-	option = {
-		name = "EVTOPTD670" # Other playable rulers
-		trigger = {
-			NOT = { religion = ROOT }
-			NOT = { is_heresy_of = ROOT }
-		}
-	}
-}
-
-character_event = {
-	id = 675
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		controls_religion = yes
-		death_reason = death_sacrificed
-		killer = {
-			ai = no
-			NOT = { has_character_flag = achievement_holy_smoke }
-		}
-	}
-	
-	immediate = {
-		killer = {
-			set_character_flag = achievement_holy_smoke
-		}
-	}
-	
-	option = {
-		name = "OK"
-	}
-}
-
 ## Inheritance of Traits ##
 character_event = {
 	id = 45340
@@ -3618,7 +2778,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = stewardscept 
-					character_event = { id = 250277 }
 				}
 				add_trait = dead_target
 			}
@@ -3629,7 +2788,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = stewardscept  } }
 							add_trait = stewardscept 
-							character_event = { id = 250277 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -3640,7 +2798,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = stewardscept } }
 					add_trait = stewardscept
-					character_event = { id = 250277 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -3649,7 +2806,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = stewardscept } }
 					add_trait = stewardscept
-					character_event = { id = 250277 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -3658,7 +2814,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = stewardscept } }
 					add_trait = stewardscept
-					character_event = { id = 250277 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3667,7 +2822,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = stewardscept } }
 					add_trait = stewardscept
-					character_event = { id = 250277 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3676,7 +2830,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = stewardscept } }
 					add_trait = stewardscept
-					character_event = { id = 250277 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3685,7 +2838,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = stewardscept } }		
 				}
-				spouse = { add_trait = stewardscept character_event = { id = 250277 } }
+				spouse = { add_trait = stewardscept  }
 				add_trait = dead_target
 			}
 			if = {
@@ -3693,7 +2846,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = stewardscept } }
 				}
-				liege = { add_trait = stewardscept character_event = { id = 250277 } }
+				liege = { add_trait = stewardscept }
 				add_trait = dead_target
 			}
 			if = {
@@ -3703,7 +2856,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = stewardscept } }
 					add_trait = stewardscept 
-					character_event = { id = 250277 }
 				}
 			}
 		}
@@ -3721,7 +2873,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = ring 
-					character_event = { id = 250278 }
 				}
 				add_trait = dead_target
 			}
@@ -3732,7 +2883,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = ring  } }
 							add_trait = ring 
-							character_event = { id = 250278 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -3743,7 +2893,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = ring } }
 					add_trait = ring
-					character_event = { id = 250278 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -3752,7 +2901,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = ring } }
 					add_trait = ring
-					character_event = { id = 250278 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -3761,7 +2909,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = ring } }
 					add_trait = ring
-					character_event = { id = 250278 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3770,7 +2917,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = ring } }
 					add_trait = ring
-					character_event = { id = 250278 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3779,7 +2925,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = ring } }
 					add_trait = ring
-					character_event = { id = 250278 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3788,7 +2933,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = ring } }		
 				}
-				spouse = { add_trait = ring character_event = { id = 250278 } }
+				spouse = { add_trait = ring }
 				add_trait = dead_target
 			}
 			if = {
@@ -3796,7 +2941,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = ring } }
 				}
-				liege = { add_trait = ring character_event = { id = 250278 } }
+				liege = { add_trait = ring }
 				add_trait = dead_target
 			}
 			if = {
@@ -3806,7 +2951,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = ring } }
 					add_trait = ring 
-					character_event = { id = 250278 }
 				}
 			}
 		}
@@ -3824,7 +2968,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = narya 
-					character_event = { id = 250279 }
 				}
 				add_trait = dead_target
 			}
@@ -3835,7 +2978,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = narya  } }
 							add_trait = narya 
-							character_event = { id = 250279 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -3846,7 +2988,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = narya } }
 					add_trait = narya
-					character_event = { id = 250279 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -3855,7 +2996,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = narya } }
 					add_trait = narya
-					character_event = { id = 250279 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -3864,7 +3004,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = narya } }
 					add_trait = narya
-					character_event = { id = 250279 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3873,7 +3012,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = narya } }
 					add_trait = narya
-					character_event = { id = 250279 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3882,7 +3020,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = narya } }
 					add_trait = narya
-					character_event = { id = 250279 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3891,7 +3028,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = narya } }		
 				}
-				spouse = { add_trait = narya character_event = { id = 250279 } }
+				spouse = { add_trait = narya }
 				add_trait = dead_target
 			}
 			if = {
@@ -3899,7 +3036,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = narya } }
 				}
-				liege = { add_trait = narya character_event = { id = 250279 } }
+				liege = { add_trait = narya }
 				add_trait = dead_target
 			}
 			if = {
@@ -3909,7 +3046,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = narya } }
 					add_trait = narya 
-					character_event = { id = 250279 }
 				}
 			}
 		}	
@@ -3927,7 +3063,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = nenya 
-					character_event = { id = 250298 }
 				}
 				add_trait = dead_target
 			}
@@ -3938,7 +3073,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = nenya  } }
 							add_trait = nenya 
-							character_event = { id = 250298 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -3949,7 +3083,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = nenya } }
 					add_trait = nenya
-					character_event = { id = 250298 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -3958,7 +3091,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = nenya } }
 					add_trait = nenya
-					character_event = { id = 250298 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -3967,7 +3099,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = nenya } }
 					add_trait = nenya
-					character_event = { id = 250298 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3976,7 +3107,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = nenya } }
 					add_trait = nenya
-					character_event = { id = 250298 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3985,7 +3115,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = nenya } }
 					add_trait = nenya
-					character_event = { id = 250298 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -3994,7 +3123,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = nenya } }		
 				}
-				spouse = { add_trait = nenya character_event = { id = 250298 } }
+				spouse = { add_trait = nenya }
 				add_trait = dead_target
 			}
 			if = {
@@ -4002,7 +3131,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = nenya } }
 				}
-				liege = { add_trait = nenya character_event = { id = 250298 } }
+				liege = { add_trait = nenya }
 				add_trait = dead_target
 			}
 			if = {
@@ -4012,7 +3141,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = nenya } }
 					add_trait = nenya 
-					character_event = { id = 250298 }
 				}
 			}
 		}
@@ -4030,7 +3158,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = vilya 
-					character_event = { id = 250299 }
 				}
 				add_trait = dead_target
 			}
@@ -4041,7 +3168,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = vilya  } }
 							add_trait = vilya 
-							character_event = { id = 250299 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4052,7 +3178,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = vilya } }
 					add_trait = vilya
-					character_event = { id = 250299 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4061,7 +3186,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = vilya } }
 					add_trait = vilya
-					character_event = { id = 250299 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4070,7 +3194,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = vilya } }
 					add_trait = vilya
-					character_event = { id = 250299 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4079,7 +3202,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = vilya } }
 					add_trait = vilya
-					character_event = { id = 250299 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4088,7 +3210,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = vilya } }
 					add_trait = vilya
-					character_event = { id = 250299 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4097,7 +3218,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = vilya } }		
 				}
-				spouse = { add_trait = vilya character_event = { id = 250299 } }
+				spouse = { add_trait = vilya }
 				add_trait = dead_target
 			}
 			if = {
@@ -4105,7 +3226,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = vilya } }
 				}
-				liege = { add_trait = vilya character_event = { id = 250299 } }
+				liege = { add_trait = vilya }
 				add_trait = dead_target
 			}
 			if = {
@@ -4115,7 +3236,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = vilya } }
 					add_trait = vilya 
-					character_event = { id = 250299 }
 				}
 			}
 		}
@@ -4133,7 +3253,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = barahir 
-					character_event = { id = 250300 }
 				}
 				add_trait = dead_target
 			}
@@ -4144,7 +3263,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = barahir  } }
 							add_trait = barahir 
-							character_event = { id = 250300 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4155,7 +3273,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = barahir } }
 					add_trait = barahir
-					character_event = { id = 250300 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4164,7 +3281,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = barahir } }
 					add_trait = barahir
-					character_event = { id = 250300 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4173,7 +3289,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = barahir } }
 					add_trait = barahir
-					character_event = { id = 250300 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4182,7 +3297,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = barahir } }
 					add_trait = barahir
-					character_event = { id = 250300 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4191,7 +3305,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = barahir } }
 					add_trait = barahir
-					character_event = { id = 250300 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4200,7 +3313,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = barahir } }		
 				}
-				spouse = { add_trait = barahir character_event = { id = 250300 } }
+				spouse = { add_trait = barahir }
 				add_trait = dead_target
 			}
 			if = {
@@ -4208,7 +3321,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = barahir } }
 				}
-				liege = { add_trait = barahir character_event = { id = 250300 } }
+				liege = { add_trait = barahir }
 				add_trait = dead_target
 			}
 			if = {
@@ -4218,7 +3331,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = barahir } }
 					add_trait = barahir 
-					character_event = { id = 250300 }
 				}
 			}
 		}	
@@ -4236,7 +3348,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = elessar 
-					character_event = { id = 250283 }
 				}
 				add_trait = dead_target
 			}
@@ -4247,7 +3358,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = elessar  } }
 							add_trait = elessar 
-							character_event = { id = 250283 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4258,7 +3368,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = elessar } }
 					add_trait = elessar
-					character_event = { id = 250283 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4267,7 +3376,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = elessar } }
 					add_trait = elessar
-					character_event = { id = 250283 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4276,7 +3384,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = elessar } }
 					add_trait = elessar
-					character_event = { id = 250283 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4285,7 +3392,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = elessar } }
 					add_trait = elessar
-					character_event = { id = 250283 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4294,7 +3400,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = elessar } }
 					add_trait = elessar
-					character_event = { id = 250283 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4303,7 +3408,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = elessar } }		
 				}
-				spouse = { add_trait = elessar character_event = { id = 250283 } }
+				spouse = { add_trait = elessar }
 				add_trait = dead_target
 			}
 			if = {
@@ -4311,7 +3416,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = elessar } }
 				}
-				liege = { add_trait = elessar character_event = { id = 250283 } }
+				liege = { add_trait = elessar }
 				add_trait = dead_target
 			}
 			if = {
@@ -4321,7 +3426,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = elessar } }
 					add_trait = elessar 
-					character_event = { id = 250283 }
 				}
 			}
 		}	
@@ -4339,7 +3443,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = arkenstone
-					character_event = { id = 250301 }
 				}
 				add_trait = dead_target
 			}
@@ -4350,7 +3453,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = arkenstone  } }
 							add_trait = arkenstone 
-							character_event = { id = 250301 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4361,7 +3463,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = arkenstone } }
 					add_trait = arkenstone
-					character_event = { id = 250301 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4370,7 +3471,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = arkenstone } }
 					add_trait = arkenstone
-					character_event = { id = 250301 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4379,7 +3479,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = arkenstone } }
 					add_trait = arkenstone
-					character_event = { id = 250301 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4388,7 +3487,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = arkenstone } }
 					add_trait = arkenstone
-					character_event = { id = 250301 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4397,7 +3495,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = arkenstone } }
 					add_trait = arkenstone
-					character_event = { id = 250301 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4406,7 +3503,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = arkenstone } }		
 				}
-				spouse = { add_trait = arkenstone character_event = { id = 250301 } }
+				spouse = { add_trait = arkenstone }
 				add_trait = dead_target
 			}
 			if = {
@@ -4414,7 +3511,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = arkenstone } }
 				}
-				liege = { add_trait = arkenstone character_event = { id = 250301 } }
+				liege = { add_trait = arkenstone }
 				add_trait = dead_target
 			}
 			if = {
@@ -4424,7 +3521,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = arkenstone } }
 					add_trait = arkenstone 
-					character_event = { id = 250301 }
 				}
 			}
 		}
@@ -4442,7 +3538,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = palantir
-					character_event = { id = 250285 }
 				}
 				add_trait = dead_target
 			}
@@ -4453,7 +3548,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = palantir  } }
 							add_trait = palantir 
-							character_event = { id = 250285 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4464,7 +3558,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = palantir } }
 					add_trait = palantir
-					character_event = { id = 250285 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4473,7 +3566,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = palantir } }
 					add_trait = palantir
-					character_event = { id = 250285 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4482,7 +3574,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = palantir } }
 					add_trait = palantir
-					character_event = { id = 250285 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4491,7 +3582,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = palantir } }
 					add_trait = palantir
-					character_event = { id = 250285 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4500,7 +3590,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = palantir } }
 					add_trait = palantir
-					character_event = { id = 250285 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4509,7 +3598,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = palantir } }		
 				}
-				spouse = { add_trait = palantir character_event = { id = 250285 } }
+				spouse = { add_trait = palantir }
 				add_trait = dead_target
 			}
 			if = {
@@ -4517,7 +3606,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = palantir } }
 				}
-				liege = { add_trait = palantir character_event = { id = 250285 } }
+				liege = { add_trait = palantir }
 				add_trait = dead_target
 			}
 			if = {
@@ -4527,7 +3616,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = palantir } }
 					add_trait = palantir 
-					character_event = { id = 250285 }
 				}
 			}
 		}	
@@ -4545,7 +3633,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = annunimas 
-					character_event = { id = 250286 }
 				}
 				add_trait = dead_target
 			}
@@ -4556,7 +3643,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = annunimas  } }
 							add_trait = annunimas 
-							character_event = { id = 250286 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4567,7 +3653,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = annunimas } }
 					add_trait = annunimas
-					character_event = { id = 250286 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4576,7 +3661,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = annunimas } }
 					add_trait = annunimas
-					character_event = { id = 250286 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4585,7 +3669,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = annunimas } }
 					add_trait = annunimas
-					character_event = { id = 250286 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4594,7 +3677,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = annunimas } }
 					add_trait = annunimas
-					character_event = { id = 250286 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4603,7 +3685,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = annunimas } }
 					add_trait = annunimas
-					character_event = { id = 250286 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4612,7 +3693,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = annunimas } }		
 				}
-				spouse = { add_trait = annunimas character_event = { id = 250286 } }
+				spouse = { add_trait = annunimas }
 				add_trait = dead_target
 			}
 			if = {
@@ -4620,7 +3701,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = annunimas } }
 				}
-				liege = { add_trait = annunimas character_event = { id = 250286 } }
+				liege = { add_trait = annunimas }
 				add_trait = dead_target
 			}
 			if = {
@@ -4630,7 +3711,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = annunimas } }
 					add_trait = annunimas 
-					character_event = { id = 250286 }
 				}
 			}
 		}	
@@ -4648,7 +3728,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = horngondor
-					character_event = { id = 250287 }
 				}
 				add_trait = dead_target
 			}
@@ -4659,7 +3738,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = horngondor  } }
 							add_trait = horngondor 
-							character_event = { id = 250287 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4670,7 +3748,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = horngondor } }
 					add_trait = horngondor
-					character_event = { id = 250287 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4679,7 +3756,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = horngondor } }
 					add_trait = horngondor
-					character_event = { id = 250287 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4688,7 +3764,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = horngondor } }
 					add_trait = horngondor
-					character_event = { id = 250287 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4697,7 +3772,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = horngondor } }
 					add_trait = horngondor
-					character_event = { id = 250287 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4706,7 +3780,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = horngondor } }
 					add_trait = horngondor
-					character_event = { id = 250287 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4715,7 +3788,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = horngondor } }		
 				}
-				spouse = { add_trait = horngondor character_event = { id = 250287 } }
+				spouse = { add_trait = horngondor }
 				add_trait = dead_target
 			}
 			if = {
@@ -4723,7 +3796,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = horngondor } }
 				}
-				liege = { add_trait = horngondor character_event = { id = 250287 } }
+				liege = { add_trait = horngondor }
 				add_trait = dead_target
 			}
 			if = {
@@ -4733,7 +3806,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = horngondor } }
 					add_trait = horngondor 
-					character_event = { id = 250287 }
 				}
 			}
 		}	
@@ -4751,7 +3823,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = anduril 
-					character_event = { id = 250288 }
 				}
 				add_trait = dead_target
 			}
@@ -4762,7 +3833,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = anduril  } }
 							add_trait = anduril 
-							character_event = { id = 250288 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4773,7 +3843,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = anduril } }
 					add_trait = anduril
-					character_event = { id = 250288 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4782,7 +3851,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = anduril } }
 					add_trait = anduril
-					character_event = { id = 250288 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4791,7 +3859,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = anduril } }
 					add_trait = anduril
-					character_event = { id = 250288 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4800,7 +3867,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = anduril } }
 					add_trait = anduril
-					character_event = { id = 250288 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4809,7 +3875,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = anduril } }
 					add_trait = anduril
-					character_event = { id = 250288 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4818,7 +3883,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = anduril } }		
 				}
-				spouse = { add_trait = anduril character_event = { id = 250288 } }
+				spouse = { add_trait = anduril }
 				add_trait = dead_target
 			}
 			if = {
@@ -4826,7 +3891,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = anduril } }
 				}
-				liege = { add_trait = anduril character_event = { id = 250288 } }
+				liege = { add_trait = anduril }
 				add_trait = dead_target
 			}
 			if = {
@@ -4836,7 +3901,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = anduril } }
 					add_trait = anduril 
-					character_event = { id = 250288 }
 				}
 			}
 		}
@@ -4853,8 +3917,7 @@ character_event = {
 					}
 				}
 				current_heir = {
-					add_trait = narsil
-					character_event = { id = 250289 }					
+					add_trait = narsil					
 				}
 				add_trait = dead_target
 			}
@@ -4864,8 +3927,7 @@ character_event = {
 					current_heir = { 
 						if = {
 							limit = { NOT = { trait = narsil  } }
-							add_trait = narsil
-							character_event = { id = 250289 }							
+							add_trait = narsil						
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4876,7 +3938,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = narsil } }
 					add_trait = narsil
-					character_event = { id = 250289 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4885,7 +3946,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = narsil } }
 					add_trait = narsil
-					character_event = { id = 250289 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4894,7 +3954,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = narsil } }
 					add_trait = narsil
-					character_event = { id = 250289 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4903,7 +3962,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = narsil } }
 					add_trait = narsil
-					character_event = { id = 250289 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4912,7 +3970,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = narsil } }
 					add_trait = narsil
-					character_event = { id = 250289 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -4921,7 +3978,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = narsil } }		
 				}
-				spouse = { add_trait = narsil character_event = { id = 250289 } }
+				spouse = { add_trait = narsil }
 				add_trait = dead_target
 			}
 			if = {
@@ -4929,7 +3986,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = narsil } }
 				}
-				liege = { add_trait = narsil character_event = { id = 250289 } }
+				liege = { add_trait = narsil }
 				add_trait = dead_target
 			}
 			if = {
@@ -4939,7 +3996,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = narsil } }
 					add_trait = narsil 
-					character_event = { id = 250289 }
 				}
 			}
 		}	
@@ -4956,8 +4012,7 @@ character_event = {
 					}
 				}
 				current_heir = {
-					add_trait = glamdring
-					character_event = { id = 250290 }		
+					add_trait = glamdring	
 				}
 				add_trait = dead_target
 			}
@@ -4968,7 +4023,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = glamdring  } }
 							add_trait = glamdring 
-							character_event = { id = 250290 }	
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -4979,7 +4033,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = glamdring } }
 					add_trait = glamdring
-					character_event = { id = 250290 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4988,7 +4041,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = glamdring } }
 					add_trait = glamdring
-					character_event = { id = 250290 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -4997,7 +4049,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = glamdring } }
 					add_trait = glamdring
-					character_event = { id = 250290 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5006,7 +4057,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = glamdring } }
 					add_trait = glamdring
-					character_event = { id = 250290 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5015,7 +4065,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = glamdring } }
 					add_trait = glamdring
-					character_event = { id = 250290 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5024,7 +4073,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = glamdring } }		
 				}
-				spouse = { add_trait = glamdring character_event = { id = 250290 } }
+				spouse = { add_trait = glamdring }
 				add_trait = dead_target
 			}
 			if = {
@@ -5032,7 +4081,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = glamdring } }
 				}
-				liege = { add_trait = glamdring character_event = { id = 250290 } }
+				liege = { add_trait = glamdring }
 				add_trait = dead_target
 			}
 			if = {
@@ -5042,7 +4091,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = glamdring } }
 					add_trait = glamdring 
-					character_event = { id = 250290 }
 				}
 			}
 		}	
@@ -5059,7 +4107,6 @@ character_event = {
 					}
 				}
 				current_heir = {
-					character_event = { id = 250291 }
 					add_trait = sting 
 				}
 				add_trait = dead_target
@@ -5071,7 +4118,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = sting  } }
 							add_trait = sting 
-							character_event = { id = 250291 }	
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -5082,7 +4128,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = sting } }
 					add_trait = sting
-					character_event = { id = 250291 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5091,7 +4136,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = sting } }
 					add_trait = sting
-					character_event = { id = 250291 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5100,7 +4144,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = sting } }
 					add_trait = sting
-					character_event = { id = 250291 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5109,7 +4152,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = sting } }
 					add_trait = sting
-					character_event = { id = 250291 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5118,7 +4160,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = sting } }
 					add_trait = sting
-					character_event = { id = 250291 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5127,7 +4168,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = sting } }		
 				}
-				spouse = { add_trait = sting character_event = { id = 250291 } }
+				spouse = { add_trait = sting }
 				add_trait = dead_target
 			}
 			if = {
@@ -5135,7 +4176,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = sting } }
 				}
-				liege = { add_trait = sting character_event = { id = 250291 } }
+				liege = { add_trait = sting }
 				add_trait = dead_target
 			}
 			if = {
@@ -5145,7 +4186,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = sting } }
 					add_trait = sting 
-					character_event = { id = 250291 }
 				}
 			}
 		}
@@ -5163,7 +4203,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = herugrim 
-					character_event = { id = 250292 }	
 				}
 				add_trait = dead_target
 			}
@@ -5173,8 +4212,7 @@ character_event = {
 					current_heir = { 
 						if = {
 							limit = { NOT = { trait = herugrim  } }
-							add_trait = herugrim
-							character_event = { id = 250292 }	
+							add_trait = herugrim	
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -5185,7 +4223,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = herugrim } }
 					add_trait = herugrim
-					character_event = { id = 250292 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5194,7 +4231,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = herugrim } }
 					add_trait = herugrim
-					character_event = { id = 250292 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5203,7 +4239,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = herugrim } }
 					add_trait = herugrim
-					character_event = { id = 250292 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5212,7 +4247,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = herugrim } }
 					add_trait = herugrim
-					character_event = { id = 250292 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5221,7 +4255,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = herugrim } }
 					add_trait = herugrim
-					character_event = { id = 250292 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5230,7 +4263,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = herugrim } }		
 				}
-				spouse = { add_trait = herugrim character_event = { id = 250292 } }
+				spouse = { add_trait = herugrim }
 				add_trait = dead_target
 			}
 			if = {
@@ -5238,7 +4271,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = herugrim } }
 				}
-				liege = { add_trait = herugrim character_event = { id = 250292 } }
+				liege = { add_trait = herugrim }
 				add_trait = dead_target
 			}
 			if = {
@@ -5248,7 +4281,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = herugrim } }
 					add_trait = herugrim 
-					character_event = { id = 250292 }
 				}
 			}
 		}	
@@ -5265,7 +4297,6 @@ character_event = {
 					}
 				}
 				current_heir = {
-					character_event = { id = 250293 }
 					add_trait = orcrist 
 				}
 				add_trait = dead_target
@@ -5277,7 +4308,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = orcrist  } }
 							add_trait = orcrist 
-							character_event = { id = 250293 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -5288,7 +4318,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = orcrist } }
 					add_trait = orcrist
-					character_event = { id = 250293 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5297,7 +4326,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = orcrist } }
 					add_trait = orcrist
-					character_event = { id = 250293 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5306,7 +4334,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = orcrist } }
 					add_trait = orcrist
-					character_event = { id = 250293 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5315,7 +4342,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = orcrist } }
 					add_trait = orcrist
-					character_event = { id = 250293 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5324,7 +4350,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = orcrist } }
 					add_trait = orcrist
-					character_event = { id = 250293 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5333,7 +4358,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = orcrist } }		
 				}
-				spouse = { add_trait = orcrist character_event = { id = 250293 } }
+				spouse = { add_trait = orcrist }
 				add_trait = dead_target
 			}
 			if = {
@@ -5341,7 +4366,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = orcrist } }
 				}
-				liege = { add_trait = orcrist character_event = { id = 250293 } }
+				liege = { add_trait = orcrist }
 				add_trait = dead_target
 			}
 			if = {
@@ -5351,7 +4376,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = orcrist } }
 					add_trait = orcrist 
-					character_event = { id = 250293 }
 				}
 			}
 		}
@@ -5369,7 +4393,6 @@ character_event = {
 				}
 				current_heir = {
 					add_trait = gutwhine 
-					character_event = { id = 250294 }
 				}
 				add_trait = dead_target
 			}
@@ -5380,7 +4403,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = gutwhine  } }
 							add_trait = gutwhine 
-							character_event = { id = 250294 }	
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -5391,7 +4413,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = gutwhine } }
 					add_trait = gutwhine
-					character_event = { id = 250294 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5400,7 +4421,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = gutwhine } }
 					add_trait = gutwhine
-					character_event = { id = 250294 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5409,7 +4429,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = gutwhine } }
 					add_trait = gutwhine
-					character_event = { id = 250294 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5418,7 +4437,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = gutwhine } }
 					add_trait = gutwhine
-					character_event = { id = 250294 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5427,7 +4445,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = gutwhine } }
 					add_trait = gutwhine
-					character_event = { id = 250294 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5436,7 +4453,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = gutwhine } }		
 				}
-				spouse = { add_trait = gutwhine character_event = { id = 250294 } }
+				spouse = { add_trait = gutwhine }
 				add_trait = dead_target
 			}
 			if = {
@@ -5444,7 +4461,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = gutwhine } }
 				}
-				liege = { add_trait = gutwhine character_event = { id = 250294 } }
+				liege = { add_trait = gutwhine }
 				add_trait = dead_target
 			}
 			if = {
@@ -5454,7 +4471,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = gutwhine } }
 					add_trait = gutwhine 
-					character_event = { id = 250294 }
 				}
 			}
 		}	
@@ -5471,7 +4487,6 @@ character_event = {
 					}
 				}
 				current_heir = {
-					character_event = { id = 250295 }
 					add_trait = mithril 
 				}
 				add_trait = dead_target
@@ -5483,7 +4498,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = mithril  } }
 							add_trait = mithril 
-							character_event = { id = 250295 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -5494,7 +4508,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = mithril } }
 					add_trait = mithril
-					character_event = { id = 250295 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5503,7 +4516,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = mithril } }
 					add_trait = mithril
-					character_event = { id = 250295 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5512,7 +4524,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = mithril } }
 					add_trait = mithril
-					character_event = { id = 250295 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5521,7 +4532,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = mithril } }
 					add_trait = mithril
-					character_event = { id = 250295 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5530,7 +4540,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = mithril } }
 					add_trait = mithril
-					character_event = { id = 250295 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5539,7 +4548,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = mithril } }		
 				}
-				spouse = { add_trait = mithril character_event = { id = 250295 } }
+				spouse = { add_trait = mithril }
 				add_trait = dead_target
 			}
 			if = {
@@ -5547,7 +4556,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = mithril } }
 				}
-				liege = { add_trait = mithril character_event = { id = 250295 } }
+				liege = { add_trait = mithril }
 				add_trait = dead_target
 			}
 			if = {
@@ -5557,7 +4566,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = mithril } }
 					add_trait = mithril 
-					character_event = { id = 250295 }
 				}
 			}
 		}	
@@ -5574,7 +4582,6 @@ character_event = {
 					}
 				}
 				current_heir = {
-					character_event = { id = 250296 }
 					add_trait = himling_armour 
 				}
 				add_trait = dead_target
@@ -5586,7 +4593,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = himling_armour  } }
 							add_trait = himling_armour 
-							character_event = { id = 250296 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -5597,7 +4603,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = himling_armour } }
 					add_trait = himling_armour
-					character_event = { id = 250296 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5606,7 +4611,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = himling_armour } }
 					add_trait = himling_armour
-					character_event = { id = 250296 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5615,7 +4619,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = himling_armour } }
 					add_trait = himling_armour
-					character_event = { id = 250296 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5624,7 +4627,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = himling_armour } }
 					add_trait = himling_armour
-					character_event = { id = 250296 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5633,7 +4635,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = himling_armour } }
 					add_trait = himling_armour
-					character_event = { id = 250296 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5642,7 +4643,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = himling_armour } }		
 				}
-				spouse = { add_trait = himling_armour character_event = { id = 250296 } }
+				spouse = { add_trait = himling_armour }
 				add_trait = dead_target
 			}
 			if = {
@@ -5650,7 +4651,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = himling_armour } }
 				}
-				liege = { add_trait = himling_armour character_event = { id = 250296 } }
+				liege = { add_trait = himling_armour }
 				add_trait = dead_target
 			}
 			if = {
@@ -5660,7 +4661,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = himling_armour } }
 					add_trait = himling_armour 
-					character_event = { id = 250296 }
 				}
 			}
 		}	
@@ -5695,7 +4695,6 @@ character_event = {
 					}
 				}
 				current_heir = {
-					character_event = { id = 250297 }
 					add_trait = himling_sword 
 				}
 				add_trait = dead_target
@@ -5707,7 +4706,6 @@ character_event = {
 						if = {
 							limit = { NOT = { trait = himling_sword  } }
 							add_trait = himling_sword 
-							character_event = { id = 250297 }
 							ROOT = { add_trait = dead_target }
 						}	
 					}					
@@ -5718,7 +4716,6 @@ character_event = {
 				random_child = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = himling_sword } }
 					add_trait = himling_sword
-					character_event = { id = 250297 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5727,7 +4724,6 @@ character_event = {
 				random_sibling = {
 					limit = { dynasty = ROOT is_alive = yes NOT = { trait = himling_sword } }
 					add_trait = himling_sword
-					character_event = { id = 250297 }
 					ROOT = { add_trait = dead_target }
 				}	
 			}	
@@ -5736,7 +4732,6 @@ character_event = {
 				random_dynasty_member = {
 					limit = { is_alive = yes NOT = { trait = himling_sword } }
 					add_trait = himling_sword
-					character_event = { id = 250297 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5745,7 +4740,6 @@ character_event = {
 				random_child = {
 					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = himling_sword } }
 					add_trait = himling_sword
-					character_event = { id = 250297 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5754,7 +4748,6 @@ character_event = {
 				random_child = {
 					limit = { is_alive = yes NOT = { trait = himling_sword } }
 					add_trait = himling_sword
-					character_event = { id = 250297 }
 					ROOT = { add_trait = dead_target }
 				}
 			}
@@ -5763,7 +4756,7 @@ character_event = {
 					NOT = { trait = dead_target }
 					spouse = { is_alive = yes NOT = { trait = himling_sword } }		
 				}
-				spouse = { add_trait = himling_sword character_event = { id = 250297 } }
+				spouse = { add_trait = himling_sword }
 				add_trait = dead_target
 			}
 			if = {
@@ -5771,7 +4764,7 @@ character_event = {
 					NOT = { trait = dead_target }	
 					liege = { NOT = { character = ROOT } NOT = { trait = himling_sword } }
 				}
-				liege = { add_trait = himling_sword character_event = { id = 250297 } }
+				liege = { add_trait = himling_sword }
 				add_trait = dead_target
 			}
 			if = {
@@ -5781,7 +4774,6 @@ character_event = {
 				random_vassal = { 
 					limit = { NOT = { trait = himling_sword } }
 					add_trait = himling_sword 
-					character_event = { id = 250297 }
 				}
 			}
 		}	
@@ -8444,14 +7436,107 @@ character_event = {
 					add_trait = anglachel 
 				}
 			}
-		}			
+		}		
+	## Heir of Durin ##	
+	if = {
+			limit = { trait = heir_of_durin }
+			if = { 
+				limit = { 
+					is_ruler = yes
+					current_heir = { 
+						dynasty = ROOT 
+						is_alive = yes  
+						NOT = { trait = heir_of_durin } 
+					}
+				}
+				current_heir = {
+					add_trait = heir_of_durin 
+				}
+				add_trait = dead_target
+			}
+			if = { 
+				limit = { NOT = { trait = dead_target } is_patrician = yes }
+				family_palace = {
+					current_heir = { 
+						if = {
+							limit = { NOT = { trait = heir_of_durin  } }
+							add_trait = heir_of_durin 
+							ROOT = { add_trait = dead_target }
+						}	
+					}					
+				}				
+			}
+			if = { 
+				limit = { NOT = { trait = dead_target } }
+				random_child = {
+					limit = { dynasty = ROOT is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}	
+			}	
+			if = {
+				limit = { NOT = { trait = dead_target } }
+				random_sibling = {
+					limit = { dynasty = ROOT is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}	
+			}	
+			if = {
+				limit = { NOT = { trait = dead_target } }
+				random_dynasty_member = {
+					limit = { is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}
+			}
+			if = {
+				limit = { NOT = { trait = dead_target } }
+				random_child = {
+					limit = { is_primary_heir = yes is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}
+			}
+			if = {
+				limit = { NOT = { trait = dead_target } }
+				random_child = {
+					limit = { is_alive = yes NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin
+					ROOT = { add_trait = dead_target }
+				}
+			}
+			if = {
+				limit = { 
+					NOT = { trait = dead_target }
+					spouse = { is_alive = yes NOT = { trait = heir_of_durin } }		
+				}
+				spouse = { add_trait = heir_of_durin  }
+				add_trait = dead_target
+			}
+			if = {
+				limit = { 
+					NOT = { trait = dead_target }	
+					liege = { NOT = { character = ROOT } NOT = { trait = heir_of_durin } }
+				}
+				liege = { add_trait = heir_of_durin  }
+				add_trait = dead_target
+			}
+			if = {
+				limit = { 
+					NOT = { trait = dead_target }	
+				}
+				random_vassal = { 
+					limit = { NOT = { trait = heir_of_durin } }
+					add_trait = heir_of_durin 
+				}
+			}
+		}		
 		## Aragorn death ##
 		if = {
 			limit = { 
-				AND = {
-					has_character_flag = aragorn 
-					has_global_flag = saurondefeated
-				}
+				has_character_flag = aragorn 
+				has_global_flag = saurondefeated
 			}
 			if = { 
 				limit = { 
@@ -8460,17 +7545,201 @@ character_event = {
 				spouse = { character_event = { id = valinor.12 days = 40 } } ## Arwen loose her elf trait and will die soon after
 				add_trait = dead_target
 			}
-			any_playable_ruler = { character_event = { id = valinor.13 } }	## Every rulers are informed of the death of Aragorn				
-			if = { 
-				any_playable_ruler = {  
+			any_playable_ruler = {
+				character_event = { id = valinor.13 }	## Every rulers are informed of the death of Aragorn				
+				if = { 
 					limit = { has_character_flag = legolas }
 					character_event = { id = valinor.5 }  ## Legolas will begin his journey to Valinor
 					add_trait = dead_target
 				}
 			}			
-		}			
+		}	
+		
 	}	
 	option = {
 		name = "EVTOPTA45340"
+	}
+}
+
+#######################
+#  INTEGRATED EVENTS  #
+#######################
+
+# SETTLE_ADVENTURER_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 288
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	desc = "EVTDESC288"
+
+	option = {
+		name = "OK"
+	}
+}
+
+# SETTLE_ADVENTURER_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 289
+
+	is_triggered_only = yes
+	major = no
+
+	trigger = {
+		ai = no
+	}
+
+	desc = "EVTDESC289"
+
+	option = {
+		name = "OK"
+	}
+}
+
+# ABSORB_CLAN_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 503
+	desc = "EVTDESC503"
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# ABSORB_CLAN_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 504
+	desc = "EVTDESC504"
+
+	is_triggered_only = yes
+	major = no
+	is_hostile = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# FORM_BLOOD_OATH_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 505
+	desc = "EVTDESC505"
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# FORM_BLOOD_OATH_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 506
+	desc = "EVTDESC506"
+
+	is_triggered_only = yes
+	major = no
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# SETTLE_FEUD_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 507
+	desc = "EVTDESC507"
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "EVTOPTA507"
+	}
+}
+
+# SETTLE_FEUD_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 508
+	desc = "EVTDESC508"
+
+	is_triggered_only = yes
+	major = no
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "EVTOPTA508"
+	}
+}
+
+# SPLIT_CLAN_INTERACTION_ACCEPT_EVENT =
+diploresponse_event = {
+	id = 509
+	desc = "EVTDESC509"
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+# SPLIT_CLAN_INTERACTION_DECLINE_EVENT =
+diploresponse_event = {
+	id = 510
+	desc = "EVTDESC510"
+
+	is_triggered_only = yes
+	major = no
+	is_hostile = yes
+
+	trigger = {
+		ai = no
+	}
+
+	option = {
+		name = "OK"
 	}
 }

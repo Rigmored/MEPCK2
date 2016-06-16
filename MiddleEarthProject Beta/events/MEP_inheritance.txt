@@ -98,8 +98,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = { ## A Wonderful stone !
-		name = "EVTOPTA250301"
-		character_event = { id = 4000015 }		
+		name = "EVTOPTA250301"		
 	}
 }	
 

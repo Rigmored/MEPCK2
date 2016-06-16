@@ -1,3 +1,4 @@
+#8900+ for previously duplicated IDs#
 #House Baggins
 
 8054 = {
@@ -175,6 +176,9 @@
 	11189.1.1={
 		birth="11189.1.1"
 	}
+	11232.1.1={
+		add_spouse=8031
+	}
 	11269.1.1={
 		death="11269.1.1"
 	}
@@ -202,10 +206,9 @@
 		add_trait = sting
 		add_trait = brave
 		add_trait = ring
+		
 		effect = {
 		set_character_flag=ringbearer
-		}
-		effect = {
 		add_friend=10033 #Gandalf
 	    add_friend=4040 #Thorin
 		add_friend=4044 #Balin
@@ -232,10 +235,10 @@
 		add_trait = stressed
 		employer="3003"
 	}
-	11362.30.3={
+	11361.3.30={
 	    remove_trait = sting
 	}
-	11362.3.25 ={
+	11362.9.25 ={
 		remove_trait = ringbearer2
 		add_trait = ringbearer1
 	} #Ring destruction
@@ -488,8 +491,6 @@
 	11344.9.22 ={
 		effect = {
 		set_character_flag=ringbearer
-		}
-		effect = {
 		add_friend=8028
 		add_friend=8140
 		add_friend=8041
@@ -499,13 +500,13 @@
 		}
 	employer="8024"
 	} #Bilbo's birthday
-	11362.10.3 ={
+	11361.2.1 ={
 		add_trait = wounded
 	} #Nazgul Assault
-	11362.30.3 ={
+	11361.3.30 ={
 		add_trait = sting
 	} #Bilbo gives Sting to Frodo
-	11362.3.25 ={
+	11362.9.25 ={
 		remove_trait = ring
 		add_trait = ringbearer1
 		remove_trait = sting
@@ -574,10 +575,10 @@
 	father=8056
 	female=yes
 	add_trait = hobbit
-	11245.1.1={
+	11249.1.1={
 		birth="11249.1.1"
 	}
-	11338.1.1={
+	11345.1.1={
 		death="11345.1.1"
 	}
 }
@@ -590,11 +591,11 @@
 	mother=8097
 	female=yes
 	add_trait = hobbit
-	11245.1.1={
-		birth="11245.1.1"
+	11247.1.1={
+		birth="11247.1.1"
 	}
 	11338.1.1={
-		death="11345.1.1"
+		death="11338.1.1"
 	}
 }
 8099 = {
@@ -622,7 +623,7 @@
 	11293.1.1={
 		birth="11293.1.1"
 	}
-	13330.1.1={
+	11330.1.1={
 		add_spouse = 8123
 	}
 	11392.1.1={
@@ -718,6 +719,7 @@
 	father=8083
 	mother=8452
 	add_trait = hobbit
+	add_trait = twin
 	11123.1.1={
 		birth="11123.1.1"
 	}
@@ -833,6 +835,7 @@
 	father=8083
 	mother=8452
 	add_trait = hobbit
+	add_trait = twin
 	11123.1.1={
 		birth="11123.1.1"
 	}
@@ -1056,8 +1059,8 @@
 	mother=8125
 	add_trait = hobbit
 	add_trait=pipe_weed_farmer
-	11285.1.1={
-		birth="11285.1.1"
+	11288.1.1={
+		birth="11288.1.1"
 	}
 	11315.1.1={
 		add_spouse = 8112
@@ -1147,8 +1150,9 @@
 	mother=8021
 	female=yes
 	add_trait = hobbit
-	11242.1.1={
-		birth="11242.1.1"
+	add_trait = twin
+	11245.1.1={
+		birth="11245.1.1"
 	}
 	11270.1.1={
 		add_spouse =8102
@@ -1165,8 +1169,9 @@
 	father=8116
 	mother=8021
 	add_trait = hobbit
-	11241.1.1={
-		birth="11241.1.1"
+	add_trait = twin
+	11245.1.1={
+		birth="11245.1.1"
 	}
 	11279.1.1={
 		add_spouse = 8297
@@ -1282,6 +1287,7 @@
 	culture="culture_hobbit"
 	father=8115
 	mother=8292
+	
 	add_trait = hobbit
 	11205.1.1={
 		birth="11205.1.1"
@@ -1317,8 +1323,8 @@
 	father=8121
 	mother=8295
 	add_trait = hobbit
-	11243.1.1={
-		birth="11243.1.1"
+	11250.1.1={
+		birth="11250.1.1"
 	}
 	11290.1.1={
 		add_spouse = 8301
@@ -1338,7 +1344,7 @@
 	11291.1.1={
 		birth="11291.1.1"
 	}
-	13330.1.1={
+	11330.1.1={
 		add_spouse = 8100
 	}
 	11385.1.1={
@@ -1370,6 +1376,7 @@
 	mother=8295
 	female = yes
 	add_trait = hobbit
+	add_trait = legit_bastard
 	11247.1.1={
 		birth="11247.1.1"
 	}
@@ -1485,7 +1492,7 @@
 	11203.1.1={
 		birth="11203.1.1"
 	}
-	11200.1.1={
+	11240.1.1={
 		give_nickname = "nick_broadbelt"
 		add_spouse = 8032
 	}		
@@ -1748,7 +1755,7 @@
 	mother=8032
 	female=yes
 	add_trait = hobbit
-	11259.1.1={
+	11263.1.1={
 		birth="11263.1.1"
 	}
 	11323.1.1={
@@ -1813,6 +1820,10 @@
 	11189.1.1={
 		birth="11189.1.1"
 		give_nickname="nick_old_gammidgy"
+	}
+	
+	11226.1.1={
+		add_spouse = 8142
 	}
 	11306.1.1={
 		death="11306.1.1"
@@ -2016,10 +2027,10 @@
 	
 	11344.1.1 ={
 		effect = {
-		add_friend=8079
-		add_friend=8028
-		add_friend=8041
-		add_friend=10033
+			add_friend=8079
+			add_friend=8028
+			add_friend=8041
+			add_friend=10033
 		}
 	}
 	
@@ -2030,6 +2041,7 @@
 	11362.3.25 ={
 		add_trait = sting
 		add_trait = ringbearer2
+		add_spouse = 8158
 	} #Ring destruction
 	
 	11425.1.1={
@@ -2184,7 +2196,7 @@
 	11203.1.1={
 		birth="11203.1.1"
 	}
-	11253.1.1={
+	11244.1.1={
 	add_spouse = 8147
 	} #Rose Greenhand
 	11300.1.1={
@@ -2303,6 +2315,7 @@
 	culture="culture_hobbit"
 	father=8152
 	mother=8263
+	add_trait = twin
 	add_trait = hobbit
 	11327.1.1={
 		birth="11327.1.1"
@@ -2349,6 +2362,7 @@
 	dynasty=812
 	religion="religion_perian"
 	culture="culture_hobbit"
+	add_trait = twin
 	father=8152
 	mother = 8263
 	female=yes
@@ -2408,7 +2422,7 @@
 		birth="11364.1.1"
 		give_nickname="nick_the_fair_woman"
 	}
-	11472.1.1={
+	11478.1.1={
 		death="11478.1.1"
 	}
 }
@@ -2589,10 +2603,10 @@
 	father=8140
 	add_trait = hobbit
 	11388.1.1={
-		birth="11384.1.1"
+		birth="11388.1.1"
 	}
 	11497.1.1={
-		death="11488.1.1"
+		death="11497.1.1"
 	}
 }
 
@@ -2848,7 +2862,7 @@
 	father =8005
 	female=yes
 	add_trait = hobbit
-	11175.1.1={
+	11177.1.1={
 		birth="11177.1.1"
 	}
 	11215.1.1={
@@ -2994,8 +3008,8 @@
 	culture="culture_hobbit"
 	father =8015
 	add_trait = hobbit
-	11323.1.1={
-		birth="11312.1.1"
+	11325.1.1={
+		birth="11325.1.1"
 	}
 	11403.1.1={
 		death="11403.1.1"
@@ -3008,11 +3022,11 @@
 	culture="culture_hobbit"
 	father =8005
 	add_trait = hobbit
-	11190.1.1={
+	11192.1.1={
 		birth="11192.1.1"
 	}
-	11277.1.1={
-		death="11277.1.1"
+	11283.1.1={
+		death="11283.1.1"
 	}
 }
 8019 = {
@@ -3107,7 +3121,7 @@
 	11276.1.1={
 		birth="11276.1.1"
 	}
-	11320.1.1={
+	11318.1.1={
 		add_spouse = 8266
 	}
 	11377.1.1={
@@ -3155,7 +3169,7 @@
 	mother=8266
 	female=yes
 	add_trait = hobbit
-	11328.1.1={
+	11327.1.1={
 		birth="11327.1.1"
 	}
 	11417.1.1={
@@ -3246,6 +3260,9 @@
 	11195.1.1={
 		birth="11195.1.1"
 	}
+	11232.1.1={
+		add_spouse=8064
+	}
 	11277.1.1={
 		death="11277.1.1"
 	}
@@ -3276,6 +3293,9 @@
 	culture="culture_hobbit"
 	add_trait = hobbit
 	add_trait=hop_farmer
+	add_trait=gluttonous
+	add_trait=charismatic_negotiator
+	give_nickname = nick_flourdumpling
 	11280.1.1={
 		birth="11280.1.1"
 	}
@@ -3411,7 +3431,7 @@
 	11226.1.1={
 		birth="11226.1.1"
 	}
-	11322.1.1={
+	11285.1.1={
 		add_spouse=8303
 	}
 	11326.1.1={
@@ -3447,7 +3467,7 @@
 	11275.1.1={
 		death="11275.1.1"
 	}
-	}
+}
 	
 	8307 = {
 	name="Rollo" #Farmer's brother
@@ -3474,8 +3494,8 @@
 	father=8178
 	mother=8179
 	add_trait=mushroom_farmer
-	11307.1.1={
-		birth="11307.1.1"
+	11328.1.1={
+		birth="11328.1.1"
 	}
 	11414.1.1={
 		death="11414.1.1"
@@ -3682,7 +3702,7 @@
 	father=8251
 	add_trait = hobbit
 	10975.1.1={
-		birth="109775.1.1"
+		birth="10975.1.1"
 	}
 	11067.1.1={
 		death="11067.1.1"
@@ -3842,6 +3862,7 @@
 	religion="religion_perian"
 	culture="culture_fallohide"
 	add_trait = hobbit
+	father = 8524
 	9920.1.1={
 		birth="9920.1.1"
 	}
@@ -4679,6 +4700,7 @@
 8317= {
 	name="Firiel"
 	religion="religion_perian"
+	culture="culture_hobbit"
     female=yes
 	add_trait = hobbit
 	11190.1.1={
@@ -4704,7 +4726,7 @@
 	11295.1.1={
 		add_spouse=8315
 	}
-	11361.1.1={
+	11362.1.1={
 		death="11362.1.1"
 	}
 }
@@ -5059,41 +5081,6 @@
 		death="11182.1.1"
 	}
 }
-#Family Grubb
-8292 = {
-	name="Lavendar" #Wife of Otto The Fat
-	dynasty=844
-	religion="religion_perian"
-	culture="culture_hobbit"
-	add_trait = hobbit
-	female = yes
-	11159.1.1={
-		birth="11159.1.1"
-	}
-	11195.1.1={
-	add_spouse = 8115
-	}
-	11243.1.1={
-		death="11243.1.1"
-	}
-}
-8301 = {
-	name="Lila"
-	dynasty=844
-	religion="religion_perian"
-	culture="culture_hobbit"
-	add_trait = hobbit
-	female = yes
-	11246.1.1={
-		birth="11246.1.1"
-	}
-	11290.1.1={
-		add_spouse = 8122
-	}
-	11347.1.1={
-		death="11347.1.1"
-	}
-}
 
 #Family Brockhouse
 
@@ -5269,6 +5256,7 @@
 	mother=8324
 	female=yes
 	add_trait = hobbit
+	add_trait = twin
 	11297.1.1={
 		birth="11297.1.1"
 		add_trait=twin
@@ -5286,6 +5274,7 @@
 	mother=8324
 	female=yes
 	add_trait = hobbit
+	add_trait = twin
 	11297.1.1={
 		birth="11297.1.1"
 		add_trait=twin
@@ -5302,6 +5291,7 @@
 	father=8315
 	mother=8324
 	female=yes
+	add_trait = twin
 	add_trait = hobbit
 	11297.1.1={
 		birth="11297.1.1"
@@ -5319,6 +5309,7 @@
 	father=8315
 	mother=8324
 	female=yes
+	add_trait = twin
 	add_trait = hobbit
 	11297.1.1={
 		birth="11297.1.1"
@@ -5464,8 +5455,8 @@
 	11180.1.1={
 		add_spouse=8332
 	}
-	11239.1.1={
-		death="11239.1.1"
+	11241.1.1={
+		death="11241.1.1"
 	}
 }
 8332 = {
@@ -5629,7 +5620,7 @@
 		birth="11203.1.1"
 	}
 	11230.1.1={
-		add_matrilineal_spouse=8293
+		add_spouse=8293
 	}
 	11298.1.1={
 		death="11298.1.1"
@@ -5718,8 +5709,8 @@
 	dynasty=836
 	religion="religion_perian"
 	culture="culture_hobbit"
-	mother=8342
-	father=8343
+	mother=8343
+	father=8342
 	add_trait = hobbit
 	11300.1.1={
 		birth="11300.1.1"
@@ -5733,8 +5724,8 @@
 	dynasty=836
 	religion="religion_perian"
 	culture="culture_hobbit"
-	mother=8342
-	father=8343
+	mother=8343
+	father=8342
 	add_trait = hobbit
 	11304.1.1={
 		birth="11304.1.1"
@@ -5748,8 +5739,8 @@
 	dynasty=836
 	religion="religion_perian"
 	culture="culture_hobbit"
-	mother=8342
-	father=8343
+	mother=8343
+	father=8342
 	add_trait = hobbit
 	11310.1.1={
 		birth="11310.1.1"
@@ -5763,8 +5754,8 @@
 	dynasty=836
 	religion="religion_perian"
 	culture="culture_hobbit"
-	mother=8342
-	father=8343
+	mother=8343
+	father=8342
 	add_trait = hobbit
 	11311.1.1={
 		birth="11311.1.1"
@@ -5779,8 +5770,8 @@
 	female=yes
 	religion="religion_perian"
 	culture="culture_hobbit"
-	mother=8342
-	father=8343
+	mother=8343
+	father=8342
 	add_trait = hobbit
 	11312.1.1={
 		birth="11312.1.1"
@@ -5795,13 +5786,13 @@
 	female=yes
 	religion="religion_perian"
 	culture="culture_hobbit"
-	mother=8342
-	father=8343
+	mother=8343
+	father=8342
 	add_trait = hobbit
 	11313.1.1={
 		birth="11313.1.1"
 	}
-	11412.1.1={
+	11412.1.9={
 		death="11412.1.9"
 	}
 }
@@ -5934,8 +5925,8 @@
 8162 = {
 	name="Fastred" 
 	dynasty=859
-	father=8360
-	mother=8359
+	father=8359
+	mother=8360
 	religion="religion_perian"
 	culture="culture_hobbit"
 	add_trait = hobbit
@@ -6097,6 +6088,7 @@
 		death="10449.1.1"
 	}
 }
+#Father
 8369 = {
 	name="Theobald"
 	dynasty=821
@@ -6111,13 +6103,14 @@
 		death="10395.1.1"
 	}
 }
+#Son
 8370 = {
 	name="Tobold"
 	dynasty=821
 	religion="religion_perian"
 	culture="culture_hobbit"
 	add_trait = hobbit
-	father=8369
+	father=8371
 	10264.1.1={
 		birth="10264.1.1"
 	}
@@ -6926,7 +6919,7 @@
 		death="11378.1.1"
 	}
 }
-8427 = {
+8904 = {
 	name="Fastolph"
 	dynasty=802
 	religion="religion_perian"
@@ -6940,7 +6933,7 @@
 		death="11428.1.1"
 	}
 }
-8428 = {
+8903 = {
 	name="Menegilda"
 	dynasty=802
 	religion="religion_perian"
@@ -6955,7 +6948,7 @@
 		death="11432.1.1"
 	}
 }
-8426 = {
+8906 = {
 	name="Pervinca"
 	dynasty=802
 	religion="religion_perian"
@@ -6963,8 +6956,8 @@
 	father= 8425
 	add_trait = hobbit
 	female=yes
-	11342.1.1={
-		birth="11342.1.1"
+	11324.1.1={
+		birth="11324.1.1"
 	}
 	11435.1.1={
 		death="11435.1.1"
@@ -7085,7 +7078,7 @@
 		death="11381.1.1"
 	}
 }
-8435 = {
+8901 = {
 	name="Rudibert"
 	dynasty=802
 	religion="religion_perian"
@@ -7099,7 +7092,7 @@
 		death="11436.1.1"
 	}
 }
-8436 = {
+8902 = {
 	name="Jessamine"
 	dynasty=802
 	religion="religion_perian"
@@ -7114,7 +7107,7 @@
 		death="11440.1.1"
 	}
 }
-8435 = {
+8905 = {
 	name="Laterose"
 	dynasty=802
 	religion="religion_perian"
@@ -7126,7 +7119,7 @@
 		birth="11349.1.1"
 	}
 	11445.1.1={
-		death="11445.1"
+		death="11445.1.1"
 	}
 }
 
@@ -7136,14 +7129,13 @@
 	dynasty=861
 	religion="religion_perian"
 	culture="culture_hobbit"
-	father = 8434
 	add_trait = hobbit
 	female=yes
 	11118.1.1={
 		birth="11118.1.1"
 	}
 	11210.1.1={
-		death="11210.1"
+		death="11210.1.1"
 	}
 }
 
@@ -7190,20 +7182,6 @@
 	}
 	11378.1.1={
 		death="11378.1.1"
-	}
-}
-8439 = {
-	name="Merimas"
-	dynasty=802
-	religion="religion_perian"
-	culture="culture_hobbit"
-	father = 8438
-	add_trait = hobbit
-	11324.1.1={
-		birth="11324.1.1"
-	}
-	11417.1.1={
-		death="11417.1.1"
 	}
 }
 8439 = {
@@ -7683,6 +7661,7 @@
 	religion="religion_perian"
 	culture="culture_hobbit"
 	add_trait = hobbit
+	female = yes
 	father=8501
 	11161.1.1={
 		birth="11161.1.1"
@@ -7806,7 +7785,6 @@
 	religion="religion_perian"
 	culture="culture_hobbit"
 	add_trait = hobbit
-	father=8473
 	11165.1.1={
 		birth="11165.1.1"
 	}
@@ -7915,7 +7893,6 @@
 	}
 }
 
-
 ### Family Grubb
 8292 = {
 	name="Lavendar" #Wife of Otto The Fat
@@ -7953,6 +7930,7 @@
 		death="11347.1.1"
 	}
 }
+
 8484 = {
 	name="Laura" ## Wife of Mungo Baggins
 	dynasty=844
@@ -8297,8 +8275,8 @@
 	mother=8332
 	female=yes
 	add_trait = hobbit
-	11245.1.1={
-		birth="11245.1.1"
+	11239.1.1={
+		birth="11239.1.1"
 	}
 	11340.1.1={
 		death="11340.1.1"
@@ -8384,7 +8362,7 @@
 	religion="religion_perian"
 	culture="culture_hobbit"
 	add_trait = hobbit
-	father=8516
+	father=8517
 	female=yes
 	11269.1.1={
 		birth="11269.1.1"
@@ -8496,3 +8474,703 @@
 		death="11409.1.1"
 	}
 }	
+
+
+### First Ancestror of Hobbits of Shire + Bree-land ###
+
+8524 = {
+	name="Moro"
+	dynasty=822
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	9882.1.1={
+		birth="9882.1.1"
+	}
+	9974.1.1={
+		death="9974.1.1"
+	}
+}
+
+
+### House Underhill of Staddle ###
+
+8525 = {
+	name="Gerontius"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8524
+	9929.1.1={
+		birth="9929.1.1"
+	}
+	10022.1.1={
+		death="10022.1.1"
+	}
+}
+8526 = {
+	name="Adelard"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8525
+	9970.1.1={
+		birth="9970.1.1"
+	}
+	10060.1.1={
+		death="10060.1.1"
+	}
+}
+8527 = {
+	name="Wilibald"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8526
+	10013.1.1={
+		birth="10013.1.1"
+	}
+	10108.1.1={
+		death="10108.1.1"
+	}
+}
+8528 = {
+	name="Rudibert"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8527
+	10057.1.1={
+		birth="10057.1.1"
+	}
+	10159.1.1={
+		death="10159.1.1"
+	}
+}
+8529 = {
+	name="Adalgar"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8528
+	10100.1.1={
+		birth="10100.1.1"
+	}
+	10193.1.1={
+		death="10193.1.1"
+	}
+}
+8530 = {
+	name="Halfred"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8529
+	10145.1.1={
+		birth="10145.1.1"
+	}
+	10242.1.1={
+		death="10242.1.1"
+	}
+}
+8531 = {
+	name="Sigismund"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8530
+	10188.1.1={
+		birth="10188.1.1"
+	}
+	10283.1.1={
+		death="10283.1.1"
+	}
+}
+8532 = {
+	name="Heribald"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8531
+	10233.1.1={
+		birth="10233.1.1"
+	}
+	10329.1.1={
+		death="10329.1.1"
+	}
+}
+8533 = {
+	name="Filibert"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8532
+	10281.1.1={
+		birth="10281.1.1"
+	}
+	10378.1.1={
+		death="10378.1.1"
+	}
+}
+8534 = {
+	name="Ferdinand"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8533
+	10327.1.1={
+		birth=yes
+	}
+	10419.1.1={
+		death=yes
+	}
+}
+8535 = {
+	name="Nicholas"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8534
+	10372.1.1={
+		birth=yes
+	}
+	10468.1.1={
+		death=yes
+	}
+}
+8536 = {
+	name="Theobald"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8535
+	10416.1.1={
+		birth=yes
+	}
+	10511.1.1={
+		death=yes
+	}
+}
+8537 = {
+	name="Rudibert"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8536
+	10464.1.1={
+		birth=yes
+	}
+	10555.1.1={
+		death=yes
+	}
+}
+8538 = {
+	name="Fredegar"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8537
+	10512.1.1={
+		birth=yes
+	}
+	10606.1.1={
+		death=yes
+	}
+}
+8539 = {
+	name="Hildifons"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8538
+	10559.1.1={
+		birth=yes
+	}
+	10656.1.1={
+		death=yes
+	}
+}
+8540 = {
+	name="Herugar"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8539
+	10603.1.1={
+		birth=yes
+	}
+	10705.1.1={
+		death=yes
+	}
+}
+8541 = {
+	name="Rudolph"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8540
+	10650.1.1={
+		birth=yes
+	}
+	10746.1.1={
+		death=yes
+	}
+}
+8542 = {
+	name="Rufus"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8541
+	10693.1.1={
+		birth=yes
+	}
+	10784.1.1={
+		death=yes
+	}
+}
+8543 = {
+	name="Ferdibrand"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8542
+	10738.1.1={
+		birth=yes
+	}
+	10831.1.1={
+		death=yes
+	}
+}
+8544 = {
+	name="Celandine"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8542
+	female=yes
+	10742.1.1={
+		birth=yes
+	}
+	10828.1.1={
+		death=yes
+	}
+}
+8545 = {
+	name="Rudigar"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8543
+	10789.1.1={
+		birth=yes
+	}
+	10882.1.1={
+		death=yes
+	}
+}
+8546 = {
+	name="Wilimar"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8545
+	10837.1.1={
+		birth=yes
+	}
+	10931.1.1={
+		death=yes
+	}
+}
+8547 = {
+	name="Reginard"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8546
+	10884.1.1={
+		birth=yes
+	}
+	10980.1.1={
+		death=yes
+	}
+}
+8548 = {
+	name="Adalbert"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8547
+	10932.1.1={
+		birth=yes
+	}
+	11029.1.1={
+		death=yes
+	}
+}
+8549 = {
+	name="Ferumbras"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8548
+	10979.1.1={
+		birth=yes
+	}
+	11074.1.1={
+		death=yes
+	}
+}
+8550 = {
+	name="Fortinbras"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8548
+	10983.1.1={
+		birth=yes
+	}
+	11077.1.1={
+		death=yes
+	}
+}
+8551 = {
+	name="Edmund"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8549
+	11031.1.1={
+		birth=yes
+	}
+	11126.1.1={
+		death=yes
+	}
+}
+8552 = {
+	name="Isembard"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8551
+	11074.1.1={
+		birth=yes
+	}
+	11170.1.1={
+		death=yes
+	}
+}
+8553 = {
+	name="Humbert"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8552
+	11122.1.1={
+		birth=yes
+	}
+	11216.1.1={
+		death=yes
+	}
+}
+8554 = {
+	name="Everard"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8553
+	11165.1.1={
+		birth=yes
+	}
+	11258.1.1={
+		death=yes
+	}
+}
+8555 = {
+	name="Andrew"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8554
+	11207.1.1={
+		birth=yes
+	}
+	11299.1.1={
+		death=yes
+	}
+}
+8556 = {
+	name="Gerontius"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8555
+	11250.1.1={
+		birth=yes
+	}
+	11342.1.1={
+		death=yes
+	}
+}
+8557 = {
+	name="Robert"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8555
+	11253.1.1={
+		birth=yes
+	}
+	11347.1.1={
+		death=yes
+	}
+}
+8558 = {
+	name="Wilibald"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8556
+	11292.1.1={
+		birth=yes
+	}
+	11380.1.1={
+		death=yes
+	}
+}
+8559 = {
+	name="Rudolph"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8558
+	11326.1.1={
+		birth=yes
+	}
+	11415.1.1={
+		death=yes
+	}
+}
+8560 = {
+	name="Halfred"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8558
+	11328.1.1={
+		birth=yes
+	}
+	11420.1.1={
+		death=yes
+	}
+}
+8561 = {
+	name="Ferdibrand"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8558
+	11331.1.1={
+		birth=yes
+	}
+	11424.1.1={
+		death=yes
+	}
+}
+8562 = {
+	name="Rufus"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8559
+	11359.1.1={
+		birth=yes
+	}
+	11454.1.1={
+		death=yes
+	}
+}
+8563 = {
+	name="Harding"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8557
+	11289.1.1={
+		birth=yes
+	}
+	11380.1.1={
+		death=yes
+	}
+}
+8564 = {
+	name="Everard"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8563
+	11325.1.1={
+		birth=yes
+	}
+	11414.1.1={
+		death=yes
+	}
+}
+8565 = {
+	name="Theobald"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8563
+	11328.1.1={
+		birth=yes
+	}
+	11421.1.1={
+		death=yes
+	}
+}
+8566 = {
+	name="Bruno"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8564
+	11358.1.1={
+		birth=yes
+	}
+	11453.1.1={
+		death=yes
+	}
+}
+8567 = {
+	name="Rosamunda"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8564
+	female=yes
+	11359.1.1={
+		birth=yes
+	}
+	11451.1.1={
+		death=yes
+	}
+}
+8568 = {
+	name="William"
+	dynasty=864
+	religion="religion_perian"
+	culture="culture_fallohide"
+	add_trait = hobbit
+	father = 8565
+	11360.1.1={
+		birth=yes
+	}
+	11455.1.1={
+		death=yes
+	}
+}
+
+
+
+
+### Rulers in Cardolan ###
+8600 = {
+	name="Dinodas"
+	dynasty=865
+	religion="religion_perian"
+	culture="culture_hobbit"
+	add_trait = hobbit
+	11300.1.1={
+		birth=yes
+	}
+	11395.1.1={
+		death=yes
+	}
+}
+8601 = {
+	name="Gruffo"
+	dynasty=865
+	father=8600
+	religion="religion_perian"
+	culture="culture_hobbit"
+	add_trait = hobbit
+	11342.1.1={
+		birth=yes
+	}
+	11432.1.1={
+		death=yes
+	}
+}
+8602 = {
+	name="Adelard"
+	dynasty=865
+	father=8600
+	religion="religion_perian"
+	culture="culture_hobbit"
+	add_trait = hobbit
+	11344.1.1={
+		birth=yes
+	}
+	11436.1.1={
+		death=yes
+	}
+}
+8603 = {
+	name="May"
+	female=yes
+	dynasty=865
+	father=8600
+	religion="religion_perian"
+	culture="culture_hobbit"
+	add_trait = hobbit
+	11346.1.1={
+		birth=yes
+	}
+	11437.1.1={
+		death=yes
+	}
+}

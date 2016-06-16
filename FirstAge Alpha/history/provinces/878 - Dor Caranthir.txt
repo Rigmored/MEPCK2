@@ -1,0 +1,20 @@
+#Dor Caranthir
+
+# County Title
+title = c_dor_caranthir
+
+# Settlements
+max_settlements = 4
+
+b_dol_caranthir = castle
+b_othrondir = castle
+b_gobel_caranthir = city
+b_minas_carnistir = castle
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

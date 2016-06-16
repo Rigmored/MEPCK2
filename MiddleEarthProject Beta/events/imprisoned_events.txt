@@ -496,7 +496,6 @@ character_event = {
 	trigger = {
 		NOT = { trait = kind }
 		NOT = { trait = just }
-		AND = {
 		OR = { religion_group = religion_group_eruhini 
 		       religion_group = religion_group_melkor 
 			   culture = culture_dunlending }
@@ -509,7 +508,6 @@ character_event = {
 			trait = paranoid
 			trait = impaler
 			trait = cruel
-		}
 		}
 		any_courtier = {
 			age = 14
@@ -553,15 +551,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB50010 # Oil up the rack!
-		if = {
-			limit = { NOT = { religion = jain } }
-			piety = -10
-		}
-		if = {
-			limit = { religion = jain }
-			piety = -30
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		piety = -10
 		random_courtier = {
 			limit = {
 				age = 14

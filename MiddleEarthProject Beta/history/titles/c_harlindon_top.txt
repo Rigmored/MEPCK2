@@ -4,10 +4,9 @@
 }
 800.1.1=
 {
-liege="d_sindar_mariners"
+	liege="d_harlond"
 }
 8221.1.1=
 {
-holder = 19026 # Aerendil Nos Aerendil
+	holder = 3232 # Galdor
 }
-

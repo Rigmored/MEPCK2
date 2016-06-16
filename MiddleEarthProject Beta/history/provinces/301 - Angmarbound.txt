@@ -14,7 +14,3 @@ b_corussant = city
 # Misc
 culture = culture_hillmen
 religion = religion_haldadian
-8222.1.1 = {
-culture = culture_hillmen
-religion = religion_haldadian
-}

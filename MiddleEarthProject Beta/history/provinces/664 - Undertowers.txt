@@ -23,10 +23,7 @@ b_undertowers = castle
 culture = culture_arnorian	
 religion = religion_dunedain
 
-8222.1.1 = {
-culture = culture_arnorian	
-religion = religion_dunedain
-}
+
 
 9752.1.1 = {
 culture = culture_wilderness
@@ -34,6 +31,6 @@ culture = culture_wilderness
 }
 
 11396.1.1 = {
-culture = culture_harfoot
+culture = culture_hobbit
 	religion = religion_perian
 }

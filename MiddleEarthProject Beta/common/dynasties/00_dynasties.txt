@@ -526,6 +526,18 @@
                   name="Pen-Arduin"
                   culture = culture_gondorian
 }
+183 = { 
+                  name="Talionath"
+                  culture = culture_gondorian_middlemen
+}
+184 = { 
+                  name="Hirgonionath"
+                  culture = culture_gondorian
+}
+185 = { 
+                  name="Mittaliath"
+                  culture = culture_gondorian
+}
 
 #Arnorian
 
@@ -1005,8 +1017,8 @@
 		coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 3
+			texture = 7
+			texture_internal = 0
 			emblem = 0
 			color = 0
 			color = 0
@@ -1027,8 +1039,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 6
+			texture = 7
+			texture_internal = 2
 			emblem = 0
 			color = 0
 			color = 0
@@ -1043,8 +1055,8 @@
 		coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 7
+			texture = 7
+			texture_internal = 3
 			emblem = 0
 			color = 0
 			color = 0
@@ -1060,8 +1072,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 8
+			texture = 7
+			texture_internal = 4
 			emblem = 0
 			color = 0
 			color = 0
@@ -1076,8 +1088,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 4
+			texture = 7
+			texture_internal = 1
 			emblem = 0
 			color = 0
 			color = 0
@@ -1093,8 +1105,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 9
+			texture = 7
+			texture_internal = 5
 			emblem = 0
 			color = 0
 			color = 0
@@ -1104,13 +1116,13 @@
 }
 
 3009 = { 
-                  name="Nos Elwë"
-                  culture = culture_sindar
+	name="Nos Elwë"
+	culture = culture_sindar
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 10
+			texture = 7
+			texture_internal = 6
 			emblem = 0
 			color = 0
 			color = 0
@@ -1141,8 +1153,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 11
+			texture = 7
+			texture_internal = 7
 			emblem = 0
 			color = 0
 			color = 0
@@ -1162,8 +1174,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 12
+			texture = 7
+			texture_internal = 8
 			emblem = 0
 			color = 0
 			color = 0
@@ -1213,8 +1225,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 27
+			texture = 7
+			texture_internal = 10
 			emblem = 0
 			color = 0
 			color = 0
@@ -1254,8 +1266,8 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 3
-			texture_internal = 26
+			texture = 7
+			texture_internal = 9
 			emblem = 0
 			color = 0
 			color = 0
@@ -1482,6 +1494,22 @@
 	name="Bit Álar"
 	culture = culture_longbeard
 }	
+4010 = {
+	name="Bit Balfor"
+	culture = culture_stonefoot
+}	
+4011 = {
+	name="Bit Narvi"
+	culture = culture_longbeard
+}	
+4012 = {
+	name="Bit Fáir"
+	culture = culture_firebeard
+}
+4013 = {
+	name="Bit Arnîm"
+	culture = culture_blacklock
+}
 
 ## Easterlings ##
 5001 = { 
@@ -2298,6 +2326,35 @@
                   name="map Dafrig"
                   culture = culture_dunlending
 }
+7157 = { 
+                  name="map Lorcán"
+                  culture = culture_dunlending
+}
+7158 = { 
+                  name="map Mórda"
+                  culture = culture_dunlending
+}
+7159 = { 
+                  name="map Edern"
+                  culture = culture_dunlending
+}
+7160 = { 
+                  name="map Róen"
+                  culture = culture_dunlending
+}
+7161 = { 
+                  name="map Nai"
+                  culture = culture_dunlending
+}
+7162 = { 
+                  name="map Fychan"
+                  culture = culture_dunlending
+}
+7163 = { 
+                  name="map Ruad"
+                  culture = culture_dunlending
+}
+
 
 #Druwaith Iaur
 
@@ -2317,6 +2374,22 @@
 }
 7060 = { 
                   name="Bogablod"
+                  culture = culture_druwaithing
+}
+7061 = { 
+                  name="Gregorod"
+                  culture = culture_druwaithing
+}
+7062 = { 
+                  name="Heranalan"
+                  culture = culture_druwaithing
+}
+7063 = { 
+                  name="Aodredan"
+                  culture = culture_druwaithing
+}
+7064 = { 
+                  name="Ildutan"
                   culture = culture_druwaithing
 }
 
@@ -2369,9 +2442,9 @@
 	}					  				  
 }	
 804 = { 
-                  name="Sackville"
-                  culture = culture_stoor
-				   coat_of_arms = {
+	name="Sackville"
+	culture = culture_stoor
+	coat_of_arms = {
 		template = 0
 		layer = {
 			texture = 5
@@ -2384,9 +2457,9 @@
 	}
 }
 805 = { 
-                  name="Sackville-Baggins"
-                  culture = culture_stoor
-				   coat_of_arms = {
+	name="Sackville-Baggins"
+	culture = culture_stoor
+	coat_of_arms = {
 		template = 0
 		layer = {
 			texture = 5
@@ -2763,6 +2836,14 @@
                   name="of Long Cleeve"
                   culture = culture_stoor
 }
+864 = { 
+                  name="Underhill"
+                  culture = culture_fallohide
+}
+865 = { 
+                  name="Merryflower"
+                  culture = culture_hobbit
+}
 
 ## Northmen ##
 
@@ -2911,6 +2992,18 @@
 930 = { 
                   name="Audawulfsson"
                   culture = culture_northmen
+}
+932 = { 
+                  name="Percysson"
+                  culture = culture_barding
+}	
+933 = { 
+                  name="Corwinsson"
+                  culture = culture_barding
+}	
+934 = { 
+                  name="Lickspittle"
+                  culture = culture_barding
 }	
   
 #Other
@@ -3684,6 +3777,30 @@
                   name="Tuktereg"
                   culture = culture_troll
 }
+11066 = { 
+                  name="Kadakereg"
+                  culture = culture_troll
+}
+11070 = { 
+                  name="Gimûb-Shakh"
+                  culture = culture_orkish
+}
+11071 = { 
+                  name="Kaka-Shakh"
+                  culture = culture_orkish
+}
+11072 = { 
+                  name="Bolg-Shakh"
+                  culture = culture_orkish
+}
+11073 = { 
+                  name="Lûgnak-Shakh"
+                  culture = culture_orkish
+}
+11074 = { 
+                  name="Rûkdûg-Shakh"
+                  culture = culture_orkish
+}
 ## Arnorian ##
 
 
@@ -4009,6 +4126,10 @@
 15010 = { 
                   name="of Ulfang"
                   culture = culture_boradin
+}
+15011 = { 
+                  name="ân-Ôrgrin"
+                  culture = culture_druedain
 }
 
 ## Easterlings ##

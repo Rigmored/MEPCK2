@@ -30,6 +30,7 @@ holder =  12347 # Mámandil
 8221.1.1=
 {
 liege="e_gondor"
+de_jure_liege="e_gondor"
 }
 8259.1.1=
 {
@@ -184,16 +185,19 @@ holder =  1295 # Ivrindur
 {
 liege="e_steward_gondor"
 }
-10853.1.1={
-	law = agnatic_succession
-	law = succ_primogeniture
-	law = centralization_2
-	law = investiture_law_1
-}
 10853.1.1=
 {
-liege=""
+liege=0
+de_jure_liege="e_anduin"
 holder = 1 # Eorl
+law = agnatic_succession
+law = succ_primogeniture
+law = centralization_3
+law = crown_authority_3
+law = feudal_contract_2
+law = feudal_tax_1
+law = city_contract_1
+law = city_tax_1
 }
 10888.1.1=
 {
@@ -227,7 +231,7 @@ holder =  10 # Gram
 {
 holder =  11 #Helm Hammerhand
 }
-11002.3.1=
+11101.3.1=
 {
 holder =  43 #Wulf
 }
@@ -263,9 +267,16 @@ holder =  23 # Thengel
 {
 holder =  24 # Theoden
 }
+11350.1.1=
+{
+law = centralization_2
+law = crown_authority_2
+}
 11362.3.15=
 {
 holder =  27 # Éomer
+law = centralization_3
+law = crown_authority_3
 }
 11427.1.1=
 {

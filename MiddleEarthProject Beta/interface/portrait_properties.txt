@@ -8,6 +8,10 @@
 			factor = 0
 			NOT = { religion_group = christian }
 		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+		}
 	}
 
 	1 = { #throne room
@@ -16,6 +20,11 @@
 			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			is_tribal = yes
 		}
 	}
 
@@ -33,6 +42,14 @@
 			factor = 0
 			religion_group = muslim
 		}
+		modifier = {
+			factor = 0.01
+			is_nomadic = yes
+		}
+		modifier = {
+			factor = 10
+			is_tribal = yes
+		}
 	}
 
 	4 = { # bed
@@ -43,7 +60,7 @@
 			NOT = { trait = infirm }
 		}
 		modifier = {
-			factor = 0.01
+			factor = 0.02
 			trait = infirm
 		}
 	}
@@ -75,14 +92,27 @@
 		}
 	}
 	7 = { # Dolmen
-		factor = 1
+		factor = 5
 		modifier = {
 			factor = 0
 			NOT = { religion_group = pagan_group }
 		}
+		modifier = {
+			factor = 2
+			is_priest = yes
+		}
 	}
 	8 = { # Gallows
-		factor = 0
+			factor = 5
+		modifier = {
+			factor = 0
+			NOT = { trait = cruel }
+			NOT = { trait = impaler }
+		}
+		modifier = {
+			factor = 20
+			trait = impaler
+		}
 	}
 	9 = { # Church
 		factor = 100
@@ -92,11 +122,6 @@
 		}
 		modifier = {
 			factor = 0
-			is_ruler = no
-			
-			}
-		modifier = {
-			factor = 0
 			OR = {
 				is_ruler = no
 				is_theocracy = no
@@ -104,10 +129,10 @@
 		}
 	}
 	10 = { # Desert
-		factor = 1
+		factor = 5
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
+			NOT = { culture_group = culture_group_southron }
 			#NOT = { capital_scope = { terrain = desert } }
 			#NOT = { capital_scope = { terrain = coastal_desert } }
 		}
@@ -116,28 +141,30 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			#NOT = { capital_scope = { terrain = steppe } }
-			#NOT = { capital_scope = { terrain = plains } }
-			NOT = { culture_group = altaic }
+
+			NOT = { culture_group = culture_group_easterling }
 		}
 		modifier = {
 			factor = 10
-			culture_group = altaic
-			NOT = { culture = turkish }
+			culture_group = culture_group_easterling
+		}
+		modifier = {
+			factor = 10
+			is_nomadic = yes
 		}
 	}
 	12 = { # Ocean w ships
-		factor = 0
-		#modifier = {
-			#factor = 0
-			#NOT = { location = { terrain = ocean } }
-		#}
+		factor = 10
+		modifier = {
+			factor = 0
+			is_patrician = no
+		}
 	}
 	13 = { # Muslim interior
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
+			NOT = { culture_group = culture_group_southron }
 		}
 	}
 	14 = { # Harem
@@ -146,9 +173,16 @@
 			factor = 0
 			NOT = { religion_group = muslim }
 		}
+		modifier = {
+			factor = 100
+			OR = {
+				trait = lustful
+				trait = hedonist
+			}
+		}
 	}
 	15 = { # Muslim interior 2
-		factor = 1
+		factor = 5
 		modifier = {
 			factor = 0
 			NOT = { religion_group = muslim }
@@ -191,11 +225,6 @@
 
 		modifier = {
 			factor = 0
-			is_ruler = no
-			
-			}
-		modifier = {
-			factor = 0
 			OR = {
 				is_ruler = no
 				is_theocracy = no
@@ -207,7 +236,11 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = pagan_group }
+			NOT = { religion_group = religion_group_melkor }
+		}
+		modifier = {
+			factor = 10
+			is_priest = yes
 		}
 	}
 }
@@ -568,6 +601,14 @@
 			factor = 200
 			has_landed_title = e_valinor
 		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	1 = { # Royal clothes 2
@@ -591,6 +632,14 @@
 			factor = 200
 			has_landed_title = k_ulmo
 		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	2 = { # Royal clothes 3
@@ -613,7 +662,15 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_aule
-		}			
+		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	3 = { # Noble clothes 1
@@ -638,7 +695,18 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_orome
-		}			
+		}	
+		modifier = {
+			factor = 500
+			trait = staff_of_saruman
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	4 = { # Noble clothes 2
@@ -663,7 +731,18 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_orome
+		}		
+		modifier = {
+			factor = 500
+			trait = staff_of_gandalf
 		}			
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+			}
+		}		
 	}
 	
 	5 = { # Noble clothes 3
@@ -689,6 +768,17 @@
 			factor = 200
 			has_landed_title = k_mandos
 		}			
+		modifier = {
+			factor = 500
+			trait = staff_of_radagast
+		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	6 = { # Modest clothes 1
@@ -714,7 +804,15 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_lorien_valinor
-		}			
+		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	7 = { # Modest clothes 2
 		factor = 1
@@ -730,6 +828,14 @@
 				spouse = { real_tier = duke }
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	8 = { # Modest clothes 3
@@ -749,7 +855,15 @@
 		modifier = {
 			factor = 200
 			has_landed_title = k_tulkas
-		}			
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	9 = { # Shady clothes
 		factor = 3
@@ -770,6 +884,14 @@
 		}
 		modifier = {
 			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}			
+		modifier = {
+			factor = 0
 			NOT = { has_job_title = job_spymaster }
 			OR = {
 				real_tier = duke
@@ -779,6 +901,14 @@
 		modifier = {
 			factor = 200
 			trait = angainor
+		}		
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
 		}		
 	}
 	
@@ -939,7 +1069,7 @@
 				graphical_culture = southerngfx
 				graphical_culture = byzantinegfx
 			}
-		}
+		}	
 	}
 }
 
@@ -953,6 +1083,18 @@
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
 		}
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			OR = {
+				NOT = { trait = ring_murazor }
+			}
+		}	
+		modifier = {
+			factor = 5000
+			culture = culture_wight
+			trait = ring_murazor
+		}		
 		modifier = {
 			factor = 0
 			is_feudal = no
@@ -973,6 +1115,13 @@
 				trait = heresiarch
 			}
 		}
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}			
 	}
 	
 	# Royal crown/turban 1
@@ -988,10 +1137,29 @@
 			is_feudal = no
 		}
 		modifier = {
+			factor = 50000
+			culture = culture_wight
+			trait = ring_khamul
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_khamul
+			}
+		}		
+		modifier = {
 			factor = 0
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}	
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
 			}
 		}		
 		modifier = {
@@ -1017,13 +1185,31 @@
 				trait = ring
 				trait = mouthofsauron
 			}
-		}		
-		modifier = {
-			factor = 0
-			is_feudal = no
 		}
 		modifier = {
 			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}	
+		modifier = {
+			factor = 100000
+			trait = ring_akhorahil
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_akhorahil
+			}
+		}			
+		modifier = {
+			factor = 0.002
+			is_feudal = no
+		}
+		modifier = {
+			factor = 0.002
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
@@ -1045,18 +1231,44 @@
 				trait = ring
 				trait = mouthofsauron
 			}
-		}		
-		modifier = {
-			factor = 0
-			is_feudal = no
 		}
 		modifier = {
 			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}	
+		modifier = {
+			factor = 100000
+			trait = ring_adunaphazor
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_adunaphazor
+			}
+		}				
+		modifier = {
+			factor = 0.002
+			is_feudal = no
+		}
+		modifier = {
+			factor = 0.002
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 
 	# Simple golden band/turban
@@ -1074,6 +1286,24 @@
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}	
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}	
+		modifier = {
+			factor = 50000
+			trait = ring_dwar
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_dwar
 			}
 		}		
 		modifier = {
@@ -1099,6 +1329,14 @@
 				trait = heresiarch
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 
 	# Common headgear 1 - hood
@@ -1124,11 +1362,38 @@
 			}
 		}
 		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}
+		modifier = {
+			factor = 5000
+			culture = culture_wight
+			trait = ring_uvatha
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_uvatha
+			}
+		}			
+		modifier = {
 			factor = 10
 			is_ruler = yes
 			is_theocracy = yes
 			religion_group = pagan_group
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 	
 	# Common headgear 2 - hood
@@ -1140,7 +1405,26 @@
 				trait = ring
 				trait = mouthofsauron
 			}
+		}	
+		modifier = {
+			factor = 500
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
 		}		
+		modifier = {
+			factor = 5000
+			culture = culture_wight
+			trait = ring_ren
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_ren
+			}
+		}			
 		modifier = {
 			factor = 0
 			NOT = { trait = peasant_leader }
@@ -1173,15 +1457,40 @@
 		}
 		modifier = {
 			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}		
+		modifier = {
+			factor = 0
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}	
+		modifier = {
+			factor = 100000
+			trait = ring_abrazir
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_abrazir
 			}
 		}		
 		modifier = {
 			factor = 10000
 			trait = staff_of_gandalf
-		}		
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+			}
+		}				
 	}
 	
 	# Common headgear 4 - hood
@@ -1201,12 +1510,38 @@
 		}
 		modifier = {
 			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}		
+		modifier = {
+			factor = 50000
+			culture = culture_wight
+			trait = ring_jiundur
+		}	
+		modifier = {
+			factor = 0
+			culture = culture_wight
+			NOT = {
+				trait = ring_jiundur
+			}
+		}			
+		modifier = {
+			factor = 0
 			trait = ring
 		}		
 		modifier = {
 			factor = 10000
 			trait = staff_of_radagast
-		}			
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 
 	# Shady headgear
@@ -1233,7 +1568,14 @@
 				trait = ring
 				trait = mouthofsauron
 			}
-		}		
+		}	
+		modifier = {
+			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}	
 		modifier = {
 			factor = 0
 			NOT = { has_job_title = job_spymaster }
@@ -1242,6 +1584,14 @@
 				NOT = { intrigue = 10 }
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
 	}
 
 	# Martial headgear
@@ -1264,9 +1614,24 @@
 		}
 		modifier = {
 			factor = 0
+			AND = {
+				trait = elf_childhood
+				trait = elf
+			}
+		}		
+		modifier = {
+			factor = 0
 			OR = {
 				trait = ring
 				trait = mouthofsauron
+			}
+		}	
+		modifier = {
+			factor = 0
+			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
 			}
 		}		
 		modifier = {
@@ -1311,6 +1676,14 @@
 		modifier = {
 			factor = 0
 			OR = {
+				trait = staff_of_saruman
+				trait = staff_of_radagast
+				trait = staff_of_gandalf
+			}
+		}		
+		modifier = {
+			factor = 0
+			OR = {
 				real_tier = emperor
 				real_tier = king
 				real_tier = duke
@@ -1322,79 +1695,45 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				trait = ring
-				trait = mouthofsauron
+			AND = {
+				trait = elf_childhood
+				trait = elf
 			}
-		}		
-	}
-
-	# Catholic mitre
-	12 = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { religion = catholic }
-			NOT = { is_heresy_of = catholic }
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				is_ruler = no
-				is_theocracy = no
+			AND = {
+				NOT = { age = 150 }
+				trait = elf
 			}
-			NOT = { has_job_title  = job_spiritual }
 		}
 		modifier = {
 			factor = 0
-			has_landed_title = k_papal_state
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = ring
-				trait = mouthofsauron
+			AND = {
+				NOT = { has_job_title  = job_marshal }	
+				NOT = { has_job_title  = job_spiritual }	
+				NOT = { has_job_title  = job_spymaster }	
+				NOT = { has_job_title  = job_treasurer }	
+				NOT = { has_job_title  = job_chancellor }	
+				trait = elf
 			}
-		}		
-	}
-
-	# Papal tiara
-	13 = {
-		factor = 100
+		}			
 		modifier = {
 			factor = 0
-			NOT = { has_landed_title = k_papal_state }
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = ring
-				trait = mouthofsauron
+			AND = {
+				OR = {
+					real_tier = king
+					real_tier = emperor
+				}
+				AND = {
+					real_tier = duke
+					any_demesne_title = {
+						real_tier = baron
+					}
+				}
+				trait = elf
 			}
-		}		
-	}
-	
-	# Orthodox mitre
-	14 = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { religion = orthodox }
-			NOT = { is_heresy_of = orthodox }
-			NOT = { religion = miaphysite }
-			NOT = { is_heresy_of = miaphysite }
-			NOT = { has_landed_title = k_orthodox }
-			NOT = { has_landed_title = d_miaphysite }
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = no
-				is_theocracy = no
-
-			}
-			NOT = { has_job_title  = job_spiritual }
-		}
+		}			
 		modifier = {
 			factor = 0
 			OR = {
@@ -1500,8 +1839,9 @@
 8 = {
 	0 = { # blank
 		factor = 100
-			modifier = {
+		modifier = {
 			factor = 0
+			trait = elf
 			NOT = {
 				trait = beard_elf
 			}
@@ -1512,6 +1852,7 @@
 		factor = 100
 		modifier = {
 			factor = 0
+			trait = elf
 			trait = beard_elf
 		}
   	}
@@ -1549,13 +1890,6 @@
 			AND = {
 				NOT = { trait = mouthofsauron }
 				culture = culture_black_numenorean
-			}
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				has_character_flag = sauron
-				trait = ring
 			}
 		}		
 		modifier = {
@@ -1602,6 +1936,31 @@
 			factor = 0
 			NOT = {
 				trait = blinded
+			}
+		}
+	}
+}
+
+# p11 player
+11 = {
+	0 = { # blank
+		factor = 100
+		modifier = {
+			factor = 0
+			AND = {
+				ai = no
+				multiplayer = yes
+			}
+		}
+	}
+
+	1 = { # player
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				ai = yes
+				multiplayer = no
 			}
 		}
 	}

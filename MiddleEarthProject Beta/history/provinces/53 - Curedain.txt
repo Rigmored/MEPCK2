@@ -16,9 +16,7 @@ b_ethel = city
 culture = culture_gondorian_middlemen
 religion = religion_rhovanion
 terrain = woods
-1.1.1 = {
-terrain = woods
-}
+
 8222.1.1 = { 
 culture = culture_gondorian 
 religion = religion_dunedain }

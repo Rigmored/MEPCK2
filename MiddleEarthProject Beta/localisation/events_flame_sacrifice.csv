@@ -17,15 +17,5 @@ EVTDESCsacrificeflame.3;After few days, the Order of Servants of the Flame, drag
 EVTOPTAsacrificeflame.3;A miserable sacrifice…;;;;;;;;;x;;;;
 DEATH_SACRIFICED;was offered up in sacrifice by $KILLER$;;;;;;;;;x;;;;
 DEATH_SACRIFICED_NO_KILLER;was offered up in sacrifice;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;;;;;;;;;x;;;;
-;;The Sacrifice of Flame;;;;;;;;;;;;x
-;;Rumours in the dark, roars shook up in the deeps, flames envelop the depths of the mountain. He is restless. The Order of Servants of the Flame met urgently to decide what to do. After hours of screaming and fighting, the Order has established that a sacrifice should be enough to allay His restlessness. For now... What do you think?;;;;;;;;;;;;x
+#The Sacrifice of Flame;;;;;;;;;;;;x
+#Rumours in the dark, roars shook up in the deeps, flames envelop the depths of the mountain. He is restless. The Order of Servants of the Flame met urgently to decide what to do. After hours of screaming and fighting, the Order has established that a sacrifice should be enough to allay His restlessness. For now... What do you think?;;;;;;;;;;;;x

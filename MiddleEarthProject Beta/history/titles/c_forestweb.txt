@@ -3,14 +3,6 @@
 	law = succ_primogeniture
 	law = centralization_3
 	law = investiture_law_1
-liege="d_emyn_lasgalen"
-holder =  3102 # Oropher
-}
-8336.1.1=
-{
-holder =  3104 # Thranduil
-}
-9600.1.1=
-{
-holder =  3106 # Legolas
+liege="d_north_mirkwood"
+holder =  3177 # Gelluír
 }

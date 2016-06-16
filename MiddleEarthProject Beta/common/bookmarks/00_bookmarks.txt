@@ -1,0 +1,369 @@
+BM_FALL_OF_ARNOR = {
+
+	name = "BM_FALL_OF_ARNOR"
+	desc = "BM_FALL_OF_ARNOR_DESC"
+	date = 9651.1.1
+	
+	era = yes
+	picture = GFX_pick_era_image_1
+	
+	selectable_character = {
+		id = 2013
+		name = ERA_MALVEGIL
+		age = 164
+		
+		title = k_arthedain
+		title_name = k_arthedain
+		
+		character = {
+			dna=iznbrepabnc
+			properties=ao0bgc
+			religion="religion_dunedain"
+			culture="culture_dunedain"
+			government = feudal_government
+			dynasty=2001
+		}
+	}
+	selectable_character = {
+		id = 1668
+		name = ERA_ROMENDACIL
+		age = 182
+		
+		title = e_gondor
+		title_name = e_gondor
+		
+		character = {
+			dna=ikynedqfnyp
+			properties=agx0a0
+			religion="religion_dunedain"
+			culture="culture_gondorian"
+			government = feudal_government
+			dynasty=102
+		}
+	}
+	selectable_character = {
+		id = 12223
+		name = ERA_WITCH_KING
+		age = 2999
+		
+		title = e_angmar
+		title_name = e_angmar
+		
+		character = {
+			dna=aamfg0gjfb0
+			properties=cj0ocobebbb
+			religion="religion_wight"
+			culture="culture_wight"
+			government = feudal_government
+			dynasty=19017
+		}
+	}
+	selectable_character = {
+		id = 9010
+		name = ERA_FULKAHARI
+		age = 64
+		
+		title = e_rhovanion
+		title_name = e_rhovanion
+		
+		character = {
+			dna=svmvugydwek
+			properties=aa0af0
+			religion="religion_rhovanion"
+			culture="culture_northmen"
+			government = feudal_government
+			dynasty=902
+		}
+	}
+	selectable_character = {
+		age = 251
+		id = 4097
+		name = ERA_DOR
+		
+		title = e_durins_folk
+		title_name = e_durins_folk
+		
+		character = {
+			dna=ojcijykxcsv
+			properties=an0ag0
+			religion="religion_mahal"
+			culture="culture_longbeard"
+			government = feudal_government
+			dynasty=4001
+		}
+	}
+	selectable_character = {
+		id = 3104
+		name = ERA_THRANDUIL
+		age = 5304
+		
+		title = k_mirkwood
+		title_name = k_mirkwood
+		
+		character = {
+			dna=cdhdk0khga0
+			properties=jb0becbebbb
+			religion="religion_moriquendi"
+			culture="culture_sindar"
+			government = feudal_government
+			dynasty=3029
+		}
+	}
+	selectable_character = {
+		id = 2089
+		name = ERA_MINALCAR
+		age = 148
+		
+		title = k_cardolan
+		title_name = k_cardolan
+		
+		character = {
+			dna=spnottouvib
+			properties=aitbdc
+			religion="religion_dunedain"
+			culture="culture_dunedain"
+			government = feudal_government
+			dynasty=2109
+		}
+	}
+	selectable_character = {
+		id = 2097
+		name = ERA_FORODACIL
+		age = 131
+		
+		title = k_rhudaur
+		title_name = k_rhudaur
+		
+		character = {
+			dna=dojnxqugcba
+			properties=ai0bhb
+			religion="religion_dunedain"
+			culture="culture_dunedain"
+			government = feudal_government
+			dynasty=2110
+		}
+	}
+}
+
+BM_KIN_STRIFE = {
+
+	name = "BM_KIN_STRIFE"
+	desc = "BM_KIN_STRIFE_DESC"
+	date = 9770.1.1
+	
+	era = yes
+	picture = GFX_pick_era_image_2
+	
+	selectable_character = {
+		id = 2016
+		age = 36
+		name = ERA_ARAPHOR
+		
+		title = k_arthedain
+		title_name = k_arthedain
+		
+		character = {
+			dna=uizmiaolpxe
+			properties=am00gb
+			religion="religion_dunedain"
+			culture="culture_dunedain"
+			government = feudal_government
+			dynasty=2001
+		}
+	}
+	selectable_character = {
+		id = 1670
+		age = 233
+		name = ERA_VALACAR
+		
+		title = e_gondor
+		title_name = e_gondor
+		
+		character = {
+			dna=gkswoqqwvnp
+			properties=anyae0
+			religion="religion_dunedain"
+			culture="culture_gondorian"
+			government = feudal_government
+			dynasty=102
+		}
+	}
+	selectable_character = {
+		id = 1739
+		age = 168
+		name = ERA_CASTAMIR
+		
+		title = c_pelargir
+		title_name = c_pelargir
+		
+		character = {
+			dna=skxjvmgzhlk
+			properties=cdodei
+			religion="religion_dunedain"
+			culture="culture_gondorian"
+			government = feudal_government
+			dynasty=102
+		}
+	}
+	selectable_character = {
+		id = 12223
+		name = ERA_WITCH_KING
+		age = 3118
+		
+		title = e_angmar
+		title_name = e_angmar
+		
+		character = {
+			dna=aamfg0gjfb0
+			properties=cj0ocobebbb
+			religion="religion_wight"
+			culture="culture_wight"
+			government = feudal_government
+			dynasty=19017
+		}
+	}
+	selectable_character = {
+		id = 9013
+		age = 64
+		name = ERA_LIUBAGILDS
+		
+		title = e_rhovanion
+		title_name = e_rhovanion
+		
+		character = {
+			dna=ebnggzmvwjk
+			properties=ab0b00
+			religion="religion_rhovanion"
+			culture="culture_northmen"
+			government = feudal_government
+			dynasty=902
+		}
+	}
+}
+
+BM_WAR_OF_THE_RING = {
+    name = "BM_WAR_OF_THE_RING"
+	desc = "BM_WAR_OF_THE_RING_DESC"
+	date = 11361.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+	custom_start = yes
+	
+	selectable_character = {
+		age = 70
+		id = 24
+		name = ERA_THEODEN
+		
+		title = k_rohan
+		title_name = k_rohan
+		
+		character = {
+			dna=aamfg0gjfb0
+			properties=cj0ocobebbb
+			religion="religion_rhovanion"
+			culture="culture_rohirrim"
+			government = feudal_government
+			dynasty=5
+		}
+	}
+	selectable_character = {
+		age = 88
+		id = 1943
+		name = ERA_DENETHOR
+		
+		title = e_steward_gondor
+		title_name = e_steward_gondor
+		
+		character = {
+			dna=albfh0kcfa0
+			properties=kk0bhdbebbb
+			religion="religion_dunedain"
+			culture="culture_gondorian"
+			government = dunedain_stewardship_government
+			dynasty=100
+		}
+	}
+	selectable_character = {
+		age = 11355
+		id = 10016
+		name = ERA_SAURON
+		
+		title = e_barad_dur
+		title_name = e_barad_dur
+		
+		character = {
+			dna=bkadfwkiaal
+			properties=am0ad000a00
+			religion="religion_umaiar"
+			culture="culture_maiar"
+			government = feudal_government
+			dynasty=10012
+		}
+	}
+	selectable_character = {
+		age = 87
+		id = 2038
+		name = ERA_ARAGORN
+		
+		title = d_dunedain_of_north
+		title_name = d_dunedain_of_north
+		
+		character = {
+			dna=dmami0kcfa0
+			properties=kl0bgdbebbb
+			religion="religion_dunedain"
+			culture="culture_dunedain"
+			government = dunedain_feudalism_government
+			dynasty=2001
+		}
+	}
+	selectable_character = {
+		age = 6517
+		id = 3003
+		name = ERA_ELROND
+		
+		title = d_rivendell
+		title_name = d_rivendell
+		
+		character = {
+			dna=dlame0miaa0
+			properties=uh0cgbbebbb
+			religion="religion_moriquendi"
+			culture="culture_noldor"
+			government = feudal_government
+			dynasty=3002
+		}
+	}
+	selectable_character = {
+		age = 251
+		id = 4043
+		name = ERA_DAIN
+		
+		title = e_durins_folk
+		title_name = e_durins_folk
+		
+		character = {
+			dna=dmglb0hmac0
+			properties=km0hpobbbbb
+			religion="religion_mahal"
+			culture="culture_longbeard"
+			government = feudal_government
+			dynasty=4001
+		}
+	}
+}
+
+#bookmark =
+#{
+#	name = "BM_RISE_OF_THE_HANSA"
+#	desc = "BM_RISE_OF_THE_HANSA_DESC"
+#	date = 1.1.1
+#}
+
+#bookmark =
+#{
+ #   name = "BM_100_YEARS_WAR"
+#	desc = "BM_100_YEARS_WAR_DESC"
+#	date = 1.1.1
+#}

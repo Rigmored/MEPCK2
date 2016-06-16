@@ -255,7 +255,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_2 = {
-		desc = ca_Melven_barracks_2_desc
+		desc = ca_Melven_barracks_1_desc
 
 		prerequisites = { ca_Mwall_1 }
 		upgrades_from = ca_Melven_barracks_1
@@ -270,7 +270,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_3 = {
-		desc = ca_Melven_barracks_3_desc
+		desc = ca_Melven_barracks_1_desc
 		
 		upgrades_from = ca_Melven_barracks_2
 		gold_cost = 200
@@ -284,7 +284,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_4 = {
-		desc = ca_Melven_barracks_4_desc
+		desc = ca_Melven_barracks_1_desc
 		
 		upgrades_from = ca_Melven_barracks_3
 		gold_cost = 240
@@ -298,7 +298,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_5 = {
-		desc = ca_Melven_barracks_5_desc
+		desc = ca_Melven_barracks_1_desc
 		
 		upgrades_from = ca_Melven_barracks_3
 		gold_cost = 305
@@ -312,7 +312,7 @@ castle = {
             	}
 	}
 	ca_Melven_barracks_6 = {
-		desc = ca_Melven_barracks_6_desc
+		desc = ca_Melven_barracks_1_desc
 		
 		upgrades_from = ca_Melven_barracks_3
 		gold_cost = 395
@@ -459,7 +459,8 @@ castle = {
 		
 		gold_cost = 50
 		build_time = 180
-		light_cavalry = 18
+		light_cavalry = 30
+		horse_archers = 5
 		ai_creation_factor = 89
 		potential = {
 	   		has_global_flag = building
@@ -473,7 +474,8 @@ castle = {
 		upgrades_from = ca_Mstable_1
 		gold_cost = 60
 		build_time = 275
-		light_cavalry = 23
+		light_cavalry = 40
+		horse_archers = 5
 		ai_creation_factor = 88
         	potential = {
             		has_global_flag = building
@@ -487,7 +489,8 @@ castle = {
 		upgrades_from = ca_Mstable_2
 		gold_cost = 100
 		build_time = 365
-		light_cavalry = 28
+		light_cavalry = 50
+		horse_archers = 5
 		ai_creation_factor = 87
         	potential = {
             		has_global_flag = building
@@ -500,7 +503,8 @@ castle = {
 		upgrades_from = ca_Mstable_3
 		gold_cost = 150
 		build_time = 550
-		light_cavalry = 30
+		light_cavalry = 50
+		horse_archers = 10
 		ai_creation_factor = 86
         	potential = {
             		has_global_flag = building
@@ -512,7 +516,8 @@ castle = {
 		upgrades_from = ca_Mstable_4
 		gold_cost = 200
 		build_time = 1100
-		light_cavalry = 33
+		light_cavalry = 50
+		horse_archers = 15
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
@@ -525,7 +530,8 @@ castle = {
 		upgrades_from = ca_Mstable_5
 		gold_cost = 500
 		build_time = 2190
-		light_cavalry = 75
+		light_cavalry = 50
+		horse_archers = 25
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building

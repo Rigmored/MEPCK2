@@ -11,8 +11,17 @@
 	add_trait=perceptive
 	add_trait=imposing
 	add_trait=tall
+	add_trait = just
+	add_trait = kind
+	add_trait = trusting
+	add_trait = humble
+	add_trait = content
 	5.1.1={
 		birth="5.1.1"
+		effect = {
+			set_character_flag = manwe_sulimo
+			give_nickname = nick_elder_king	
+		}
 	}
 	25.1.1={
 		add_spouse=10002
@@ -29,9 +38,17 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = fair
+	add_trait = perceptive
+	add_trait = kind
+	add_trait = patient
+	add_trait = diligent
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
+		effect = {
+			give_nickname = nick_star_kindler	
+		}
 	}
 }
 10003 = {
@@ -44,8 +61,17 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = legendary_craftman
+	add_trait = quick
+	add_trait = humble
+	add_trait = diligent
+	add_trait = kind
 	5.1.1={
 		birth="5.1.1"
+		effect = {
+			set_character_flag = aule_mahal
+			give_nickname = nick_the_smith
+		}		
 	}
 	46.1.1={
 		add_spouse=10004
@@ -63,8 +89,15 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = gardener
+	add_trait = diligent
+	add_trait = patient
 	5.1.1={
 		birth="5.1.1"
+		effect = {
+			set_character_flag = yavanna
+			give_nickname = nick_giver_of_fruits
+		}		
 	}
 }
 10005 = {
@@ -77,8 +110,15 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
-	5.1.1={
+	add_trait = imposing
+	add_trait = kind
+	add_trait = just
+	5.1.1={	
 		birth="5.1.1"
+		effect = {
+			set_character_flag = ulmo
+			give_nickname = nick_lord_of_waters
+		}		
 	}
 	11364.6.25={
 		add_spouse=10006
@@ -96,9 +136,17 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = kind
+	add_trait = depressed
+	add_trait = patient
+	add_trait = brave
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
+		effect = {
+			set_character_flag = nienna
+			give_nickname = nick_the_lady_of_mourning
+		}	
 	}
 }
 10007 = {
@@ -111,8 +159,14 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = just
+	add_trait = cynical
 	5.1.1={
 		birth="5.1.1"
+		effect = {
+			set_character_flag = mandos
+			give_nickname = nick_the_judge
+		}		
 	}
 	44.1.1={
 		add_spouse=10008
@@ -130,9 +184,13 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = diligent
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
+		effect = {		
+			give_nickname = nick_the_weaver
+		}
 	}
 }
 10009 = {
@@ -145,8 +203,13 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = mystic
 	5.1.1={
 		birth="5.1.1"
+		effect = {
+			set_character_flag = irmo_lorien
+			give_nickname = nick_master_of_dreams
+		}		
 	}
 	43.1.1={
 		add_spouse=10010
@@ -164,10 +227,15 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = kind
+	add_trait = healer_master
 	5.1.1={
 		birth="5.1.1"
+		effect = {
+			give_nickname = nick_the_healer
+		}
 	}
-		43.1.1={
+	43.1.1={
 		add_spouse=10009
 		employer = 10001
 	}
@@ -182,8 +250,16 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = perceptive
+	add_trait = brave
+	add_trait = wroth
+	add_trait = hunter
 	5.1.1={
 		birth="5.1.1"
+		effect = {
+			set_character_flag = orome
+			give_nickname = nick_the_huntsman
+		}		
 	}
 	49.1.1={
 		add_spouse=10012
@@ -201,9 +277,13 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = fair
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
+		effect = {
+			give_nickname = nick_ever_young
+		}
 	}
 }
 10013 = {
@@ -216,8 +296,17 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = brilliant_strategist
+	add_trait = brave
+	add_trait = strong
+	add_trait = patient
+	add_trait = master_fighter
 	9.1.1={
 		birth="9.1.1"
+		effect = {
+			set_character_flag = tulkas
+			give_nickname = nick_the_valiant
+		}		
 	}
 	53.1.1={
 		add_spouse=10014
@@ -234,10 +323,14 @@
 	stewardship=9
 	religion="religion_eruhini"
 	culture="culture_valar"
+	add_trait = agile
 	add_trait=valar
 	5.1.1={
 		birth="5.1.1"
 		employer = 10001
+		effect = {
+			give_nickname = nick_the_dancer
+		}
 	}
 }
 10015 = {
@@ -250,6 +343,13 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	add_trait = strong
+	add_trait = scholar
+	add_trait = deceitful
+	add_trait = proud
+	add_trait = ambitious
+	add_trait = imposing
+	add_trait = envious
 	4.1.1={
 		birth="4.1.1"
 	} #First Vala to enter Arda
@@ -258,6 +358,10 @@
 		employer = 10001
 		add_trait=angainor
 		add_trait=evil_side
+		religion="religion_umaiar"
+		effect = {
+			give_nickname = nick_the_dark_traitor
+		}
 	} #Name given by Fëanor
 }
 10016 = {
@@ -287,10 +391,10 @@
 		name="Thû"
 		dynasty=10012
         add_trait= evil_side
+		religion="religion_umaiar"
 	} #Mairon is corrupted by Melkor
 	4120.1.1={
 		name="Gorthaur"
-		add_trait = ruthless
 	} #Gothmog and Thû begin to restore Angband, Thû is called Gorthaur by the Sindar
 	4769.1.1={
 		name="Sauron"
@@ -299,14 +403,16 @@
 		name="Annatar"
 		add_trait = fair
 		remove_trait = evil_side
+		religion="religion_eruhini"
 	} #Sauron comes to the Eldar under a fair guise
 	6482.1.1={
 		name="Sauron"
-		give_nickname = nick_the_great
+		give_nickname = nick_the_dark_lord
 		remove_trait = fair
 		add_trait = strong
 		add_trait = wroth
 		add_trait = evil_side
+		religion="religion_umaiar"
 		add_trait = cruel
 		add_trait = deceitful
 		add_trait = elusive_shadow
@@ -320,11 +426,10 @@
 		add_trait = ringbearer2
 		add_trait = spiritform
 	} #Sauron is defeated and loses the Ring
-	6482.1.1={
+	9343.1.1={
 		name="Necromancer"
 		dynasty = 0
-		give_nickname = 0
-		
+		give_nickname = nick_the_black
 	} #Sauron come to Dol Guldur
 	10345.1.1={
 		add_trait = palantir_ithil
@@ -336,7 +441,7 @@
 	11284.1.1={
 		name="Sauron"
 		dynasty = 10012
-		give_nickname = nick_the_great
+		give_nickname = nick_the_dark_lord
 	} #Sauron come back to Mordor after the attack of the White Council on Dol Guldur
 	11362.3.25={
 		death= "11362.3.25"
@@ -369,6 +474,7 @@
 	}
 	25.1.1={
 		add_trait= evil_side
+		religion="religion_umaiar"
 	} #Virilomë is corrupted by Melkor
 	54.1.1={
 		name="Ungoliant"
@@ -394,11 +500,15 @@
 	religion="religion_eruhini"
 	culture="culture_maiar"
 	add_trait=maiar
+	add_trait = brave
+	add_trait = proud
+	add_trait = hunter
 	7.1.1={
 		birth="7.1.1"
 	}
 	8.1.1={
 		add_trait= evil_side
+		religion="religion_umaiar"
 	} #Makar and Meássë join Melkor's War against the Valar
 	9.1.1={
 	remove_trait= evil_side
@@ -412,11 +522,15 @@
 	religion="religion_eruhini"
 	culture="culture_maiar"
 	add_trait=maiar
+	add_trait = brave
+	add_trait = proud
+	add_trait = hunter
 	7.1.1={
 		birth="7.1.1"
 	}
 	8.1.1={
 		add_trait= evil_side
+		religion="religion_umaiar"
 	} #Makar and Meássë join Melkor's War against the Valar
 	9.1.1={
 		dynasty=10016
@@ -436,6 +550,7 @@
 	}
 	26.1.1={
 	add_trait= evil_side
+	religion="religion_umaiar"
 	} #Ossë is corrupted by Melkor
 	56.1.1={
 		dynasty=10017
@@ -480,6 +595,7 @@
 	}
 	33.1.1={
 		add_trait= evil_side
+		religion="religion_umaiar"
 	} #Vallavelca is corrupted by Melkor
 	57.1.1={
 		name="Gothmog"
@@ -499,6 +615,7 @@
 	}
 	33.1.1={
 		add_trait= evil_side
+		religion="religion_umaiar"
 	} #Haldavelca is corrupted by Melkor
 	57.1.1={
 
@@ -651,6 +768,7 @@
 	11102.1.1={
 	    add_trait = ambitious
 		add_trait = cynical
+		add_trait = deceitful
 		add_trait= palantir_orthanc
 		remove_trait = mastermind_theologian
 		add_trait = intricate_webweaver
@@ -660,13 +778,16 @@
 	    remove_trait = good_side
 		remove_trait = leader_whitecouncil
 		add_trait = evil_side
+		religion="religion_umaiar"
 		add_trait = cruel
 		add_trait = ring_saruman
-		add_rival=10033 #Gandalf
+		effect = {
+			add_rival = 10033 #Gandalf
+		}
 	} #Saruman is fully corrupted by Sauron
 	11362.3.13 ={
-   give_nickname = 0
- } #Saruma isn't the major Istari anymore
+   		give_nickname = nick_the_traitor
+ 	} #Saruma isn't the major Istari anymore
 	11362.11.3={
 		death="11362.11.3"
 	} #Saruman is stabbed by Wormtongue
@@ -702,42 +823,47 @@
 	    add_trait = narya
 		add_trait = white_council
 		add_trait = humble
+		add_trait = kind
+		add_trait = patient
 		add_trait = charismatic_negotiator
 		effect= {
-		add_friend= 3006 #Galadriel
-		add_friend= 3065 #Cirdan
-		add_friend= 3005 #Celeborn
-		add_friend= 3003 #Elrond
+		add_friend = 3006 #Galadriel
+		add_friend = 3065 #Cirdan
+		add_friend = 3005 #Celeborn
+		add_friend = 3003 #Elrond
 	} #The White Council is formed
 	}
 	11284.5.30 ={
 		add_trait= glamdring
 		add_trait = inspiring_leader
 		effect={
-		add_friend=8140
-		add_friend=8041
-		add_friend=8028
-		add_friend=8079
-		add_friend=8065
-		add_friend=10031
-		add_friend=4040 #Thorin
-		add_friend=4044 #Balin
-		add_friend=4045 #Dwalin
-		add_friend=4048 #Fili
-		add_friend=4049 #Kili
-		add_friend=4052 #Dori
-		add_friend=4053 #Nori
-		add_friend=4054 #Ori
-		add_friend=4046 #Oin
-		add_friend=4047 #Gloin
-		add_friend=4081 #Bifur
-		add_friend=4085 #Bofur
-		add_friend=4086 #Bombur
-		add_friend=339 #Beorn
+		add_friend = 8140
+		add_friend = 8041
+		add_friend = 8028
+		add_friend = 8079
+		add_friend = 8065
+		add_friend = 10031
+		add_friend = 4040 #Thorin
+		add_friend = 4044 #Balin
+		add_friend = 4045 #Dwalin
+		add_friend = 4048 #Fili
+		add_friend = 4049 #Kili
+		add_friend = 4052 #Dori
+		add_friend = 4053 #Nori
+		add_friend = 4054 #Ori
+		add_friend = 4046 #Oin
+		add_friend = 4047 #Gloin
+		add_friend = 4081 #Bifur
+		add_friend = 4085 #Bofur
+		add_friend = 4086 #Bombur
+		add_friend = 339 #Beorn
 		}
 	}
 	#Glamdring, Orcrist and Sting recovered from the Troll-hoard
-	
+
+	11300.1.1={
+		employer = 10031
+	}# Gandalf in the court of radagast to prevent him to be with Saruman
 	11362.3.13 ={
 		remove_trait = charismatic_negotiator
 		add_trait = grey_eminence
@@ -896,6 +1022,7 @@
 	add_trait=enigma
 	3.1.1={
 		birth="3.1.1"
+		effect = { set_character_flag = tombombadil }
 	} #In Arda before the Valar arrived
 	9944.1.1={
 		name="Tom"
@@ -1116,7 +1243,7 @@
 		birth="4520.1.1"
 	}
 }
-10060 = {
+10090 = {
 	name="Chestnuts"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1130,7 +1257,7 @@
 		birth="4510.1.1"
 	}
 }
-10066 = {
+10091 = {
 	name="Baillas"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1144,7 +1271,7 @@
 		birth="4530.1.1"
 	}
 }
-10067 = {
+10092 = {
 	name="Barkmaster"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1158,7 +1285,7 @@
 		birth="4550.1.1"
 	}
 }
-10068 = {
+10093 = {
 	name="Caradhrian"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1172,7 +1299,7 @@
 		birth="4580.1.1"
 	}
 }
-10069 = {
+10094 = {
 	name="Fastroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1186,7 +1313,7 @@
 		birth="4580.1.1"
 	}
 }
-10070 = {
+10095 = {
 	name="Fircomb"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1200,7 +1327,7 @@
 		birth="4588.1.1"
 	}
 }
-10071 = {
+10096 = {
 	name="Greenroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1214,7 +1341,7 @@
 		birth="4590.1.1"
 	}
 }
-10072 = {
+10097 = {
 	name="Limbkeeper"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1228,7 +1355,7 @@
 		birth="4520.1.1"
 	}
 }
-10073 = {
+10098 = {
 	name="Lindenroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1242,7 +1369,7 @@
 		birth="4510.1.1"
 	}
 }
-10074 = {
+10099 = {
 	name="Longroot"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1256,7 +1383,7 @@
 		birth="4512.1.1"
 	}
 }
-10075 = {
+10100 = {
 	name="Pincat"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1270,7 +1397,7 @@
 		birth="4511.1.1"
 	}
 }
-10076 = {
+10101 = {
 	name="Sharpleaf"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1284,7 +1411,7 @@
 		birth="4518.1.1"
 	}
 }
-10077 = {
+10102 = {
 	name="Stiffbranch"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1298,7 +1425,7 @@
 		birth="4518.1.1"
 	}
 }
-10078 = {
+10103 = {
 	name="Twiglate"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1312,7 +1439,7 @@
 		birth="4528.1.1"
 	}
 }
-10079 = {
+10104 = {
 	name="Wisewood"
 	dynasty=10027
 	religion="religion_enyd"
@@ -1559,7 +1686,6 @@
 	religion="religion_eruhini"
 	culture="culture_eagles"
 	add_trait = eagle
-	add_trait = proud
 	add_trait = brave
 	add_trait = kind
 	add_trait = proud
@@ -1625,7 +1751,7 @@
 	add_trait = just
 	add_trait = humble
 	add_trait = perceptive	
-	add_trait = charismatic_negociator
+	add_trait = charismatic_negotiator
 	4650.1.1={
 		birth="4650.1.1"
 	}
@@ -1642,7 +1768,7 @@
 	add_trait = kind
 	add_trait = tall
 	add_trait = honest
-	add_trait = charismatic_negociator	
+	add_trait = charismatic_negotiator	
 	3250.1.1={
 		birth="3250.1.1"
 	}

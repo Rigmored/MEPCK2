@@ -1,8 +1,12 @@
 500.1.1={
-	law = agnatic_succession
 	law = succ_primogeniture
+	law = agnatic_succession
 	law = centralization_3
-	law = investiture_law_1
+    law = crown_authority_3
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 479.1.1=
 {
@@ -86,11 +90,11 @@ holder = 11018 # Gorûl
 }
 11098.1.1=
 {
-holder = 11020 # Azog
+holder = 11022 # Azog
 }
 11142.1.1=
 {
-holder = 11021 # Bolg
+holder = 11020 # Bolg
 }
 11284.1.1=
 {

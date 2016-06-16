@@ -1,4 +1,4 @@
-#Nilulonde
+# 520 - Nilulondë
 
 # County Title
 title = c_nilulonde
@@ -6,14 +6,12 @@ title = c_nilulonde
 # Settlements
 max_settlements = 5
 
-b_nilulonde  = castle
-b_tarikanash = city
-b_burlivondash = castle
+b_nilulonde  = tribal
+#b_tarikanash = city
+#b_burlivondash = castle
 #b_zarukafel = castle
 #b_ferlafoth = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_far_haradrim
 religion = religion_southron
-}

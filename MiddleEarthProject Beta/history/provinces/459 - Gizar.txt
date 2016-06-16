@@ -4,12 +4,11 @@
 title = c_gizar
 
 # Settlements
-max_settlements = 3
+max_settlements = 1
 
-b_gizar = castle
+b_gizar = tribal
 
 # Misc
-8222.1.1 = {
+
 culture = culture_haradrim
 religion = religion_southron
-}

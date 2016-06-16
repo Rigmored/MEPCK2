@@ -1,0 +1,105 @@
+tribal_governments = {
+
+	tribal_government = {
+		preferred_holdings = { TRIBAL }
+		allowed_holdings = {
+			TRIBAL
+			FORT
+		}
+		accepts_liege_governments_culture = { # Tribals have no opinion penalty towards their liege if of the same culture
+			feudal_government
+			republic_government
+			merchant_republic_government
+			theocracy_government
+			muslim_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+		}
+		no_vassal_tax = {
+			tribal_government
+		}
+		builds_with_prestige = {
+			TRIBAL
+		}
+		frame_suffix = "_tribal"
+		title_prefix = "tribal_"
+		potential = {
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = muslim }
+				NOT = { religion = norse_pagan_reformed }
+			}
+			NOT = { 
+				religion = religion_wilderness
+				religion = religion_dunedain
+			}
+			is_patrician = no
+			mercenary = no
+			holy_order = no
+		}
+		
+		color = { 92 31 23 }
+		
+		uses_decadence = yes
+		
+		allow_looting = yes
+		max_consorts = 3
+		ignores_de_jure_laws = yes
+		can_build_castle = no
+		can_build_city = no
+		can_build_temple = yes
+		can_build_tribal = yes
+		can_change_to_nomad_on_start = yes
+		
+		demesne_size = 2
+		vassal_limit = -10
+	}
+#lotr govts
+	#misc
+	wilderness_government = {
+		preferred_holdings = { TRIBAL }
+		allowed_holdings = {
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture	
+			TEMPLE
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead		
+			wilderness_government
+		}
+		free_revoke_on_tiers = {
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		potential = {
+			religion = religion_wilderness
+			is_patrician = no
+		}
+
+		color = { 50 50 50 }
+
+		uses_piety_for_law_change = no
+
+		dukes_called_kings = no
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+		allows_matrilineal_marriage = no
+		
+		can_build_castle = no
+		can_build_city = no
+		can_build_tribal = no
+		can_build_temple = no
+
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+	}
+}

@@ -13,13 +13,13 @@ b_glorinil = city
 #b_atamar = castle
 
 # Misc
-culture = culture_northmen
-religion = religion_rhovanion
-8000.1.1 = {
-culture = culture_northmen
-religion = religion_rhovanion
+culture = culture_wilderness
+religion = religion_wilderness
+10199.1.1={
+culture= culture_eotheod
+religion= religion_rhovanion
 }
-10853.1.1 = {
-culture = culture_beorning
-religion = religion_rhovanion
+10844.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
 }

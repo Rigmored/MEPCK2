@@ -1,6 +1,7 @@
 9500.1.1=
 {
 holder =  20076
+historical_nomad = yes
 }
 9547.1.1=
 {

@@ -10,17 +10,12 @@ title = c_taurorthon
 
 max_settlements = 4
 
-b_kauppa_kohta = castle
-b_hammastus = city
+b_kauppa_kohta = tribal
+b_hammastus = tribal
 #b_korkea = city
 #b_thiskdah = city
 
 # Misc
 terrain = arctic
-1.1.1 = {
-terrain = arctic
-}
-8222.1.1 = {
 culture = culture_lossoth
 religion = religion_lossoth
-}

@@ -5,6 +5,7 @@
 800.1.1={
 	liege=d_west_farthing
 }
+
 8221.1.1=
 {
 holder = 23016 # Hermacil
@@ -165,6 +166,9 @@ holder =  8236 # Herubald II
 {
 holder =  8237 # Sigismond
 }
+10800.1.1={
+	liege=k_shire
+}
 10809.1.1=
 {
 holder =  8238 # Herugar II
@@ -209,12 +213,12 @@ holder =  8063 # Mungo
 {
 holder =  8064 # Bungo
 }
-11269.1.1=
-{
 11358.1.1=
 {
-holder =  8024 # Paladin II
+holder = 8079 # Frodo Baggins
 }
+11464.1.1=
+{
 holder = 8140 # Sam Gamgee
 }
 11425.1.1=

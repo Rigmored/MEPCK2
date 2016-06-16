@@ -6,9 +6,9 @@ title = c_dilgul
 # Settlements
 max_settlements = 5
 
-b_dilgul = castle
-b_dekostrin = city
-b_dulvabor = city
+#b_dilgul = castle
+#b_dekostrin = city
+#b_dulvabor = city
 #b_budramost = city
 #b_mestonvil = city
 

@@ -10,163 +10,6 @@
 # and Chris King
 # and Henrik Eklund
 
-#Syphilitic
-character_event = {
-	id = 6000
-	desc = EVTDESC6000
-	picture = GFX_evt_illness
-	
-	min_age = 16
-	capable_only = yes
-	
-	trigger = {
-		NOT = {
-			trait = syphilitic
-		}
-		NOT = {
-			trait = celibate
-		}
-		NOT = {
-			trait = infirm
-		}
-		OR = {
-			NOT = { trait = chaste }
-			spouse = { 
-				is_alive = yes
-				is_abroad = no
-				trait = syphilitic 
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 20000
-		
-		modifier = {
-			factor = 0.1
-			spouse = { 
-				trait = syphilitic 
-			}
-		}
-		modifier = {
-			factor = 0.5
-			in_command = yes
-		}		
-		modifier = {
-			factor = 0.5
-			trait = lustful
-		}
-		modifier = {
-			factor = 0.6
-			trait = hedonist
-		}
-		
-		modifier = {
-			factor = 5.0
-			trait = chaste
-		}
-	}
-	
-	option = {
-		name = EVTOPTA6000
-		add_trait = syphilitic
-	}
-}
-
-#Remove Syphilitic
-character_event = {
-	id = 6001
-	desc = EVTDESC6001
-	picture = GFX_evt_recovery
-	
-	trigger = {
-		health = 6
-		trait = syphilitic
-	}
-	
-	mean_time_to_happen = {
-		months = 25000
-		
-		modifier = {
-			factor = 0.5
-			health = 8
-		}
-		modifier = {
-			factor = 0.5
-			health = 9
-		}
-	}
-	
-	option = {
-		name = EVTOPTA6001
-		remove_trait = syphilitic
-	}
-}
-
-#Leper
-character_event = {
-	id = 6010
-	desc = EVTDESC6010
-	picture = GFX_evt_illness
-	
-	min_age = 10
-	
-	trigger = {
-	AND = {
-		NOT = {	trait = leper }
-		NOT = {	trait = elf }
-		NOT = {	trait = dwarven }
-		NOT = { health = 5 }		
-	}
-	}
-	
-	mean_time_to_happen = {
-		months = 25000
-		
-		modifier = {
-			factor = 0.5
-			NOT = { 
-				health = 4 
-			}
-		}
-		modifier = {
-			factor = 0.5
-			in_command = yes
-		}		
-		
-	}
-	
-	option = {
-		name = EVTOPTA6010
-		add_trait = leper
-	}
-}
-
-#Remove Leper
-character_event = {
-	id = 6011
-	desc = EVTDESC6011
-	picture = GFX_evt_recovery
-	
-	min_age = 10
-	
-	trigger = {
-		health = 4
-		treasury = 25
-		trait = leper
-	}
-	
-	mean_time_to_happen = {
-		months = 25000
-	}
-	
-	option = {
-		name = EVTOPTA6011
-		remove_trait = leper
-		treasury = -25
-	}
-}
-
 #Lunatic
 character_event = {
 	id = 6020
@@ -176,7 +19,6 @@ character_event = {
 	min_age = 10
 	
 	trigger = {
-	AND = {
 		OR = {
 			trait = depressed
 			trait = stressed
@@ -189,15 +31,10 @@ character_event = {
 			culture = culture_istari
 		}
 	}
-	}
 	
 	mean_time_to_happen = {
 		months = 12000
 		
-		modifier = {
-			factor = 0.2
-			trait = syphilitic
-		}
 		modifier = {
 			factor = 0.5
 			trait = zealous
@@ -235,10 +72,6 @@ character_event = {
 	trigger = {
 		health = 4
 		trait = lunatic
-		NOT = { trait = syphilitic }
-		NOT = {
-			religion_group = muslim
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -267,7 +100,6 @@ character_event = {
 	min_age = 16
 	
 	trigger = {
-	AND = {
 		OR = {
 			is_ruler = yes
 			is_councillor = yes
@@ -277,7 +109,6 @@ character_event = {
 		NOT = { trait = incapable }
 		NOT = { trait = infirm }
 		NOT = { trait = elf }
-	}
 	}
 	
 	mean_time_to_happen = {
@@ -497,7 +328,6 @@ character_event = {
 	picture = GFX_evt_illness
 	
 	trigger = {
-	AND = {
 		health = 3.0
 		NOT = { trait = ill }
 		NOT = { trait = pneumonic }
@@ -510,10 +340,7 @@ character_event = {
 		NOT = { trait = elf }
 		NOT = { religion_group = religion_group_eruhini }
 		NOT = { religion_group = religion_group_wilderness }
-		NOT = { religion_group = religion_group_orkish }
-		NOT = { religion_group = religion_group_olog }
 		NOT = { religion_group = religion_group_melkor }
-	}
 	}
 	
 	mean_time_to_happen = {
@@ -650,8 +477,6 @@ character_event = {
 		NOT = { trait = elf }
 		NOT = { religion_group = religion_group_eruhini }
 		NOT = { religion_group = religion_group_wilderness }
-		NOT = { religion_group = religion_group_orkish }
-		NOT = { religion_group = religion_group_olog }
 		NOT = { religion_group = religion_group_melkor }
 	}
 	
@@ -883,24 +708,25 @@ character_event = {
 	min_age = 45
 	
 	trigger = {
-		AND = {
-			NOT = { trait = infirm }
-			NOT = { trait = incapable }
-			NOT = { trait = elf }
-			NOT = { trait = dwarven }
-			NOT = { trait = spider }
-			NOT = { trait = dragon }	
-			NOT = { trait = balrog }			
-			NOT = { trait = orkish }
-			NOT = { trait = dwarven }
-			NOT = { trait = blood_of_numenor }
-			NOT = { trait = blood_of_numenor2 }			
-			NOT = { trait = half_elf }
-			NOT = { trait = elven_blood }			
-			NOT = { culture_group = culture_group_eru }
-			NOT = { trait = nazgul }
-			NOT = { trait = ent }
-		}
+		NOT = { trait = infirm }
+		NOT = { trait = incapable }
+		NOT = { trait = elf }
+		NOT = { trait = dwarven }
+		NOT = { trait = spider }
+		NOT = { trait = uruloke }	
+		NOT = { trait = cold_drake }	
+		NOT = { trait = long_worms }	
+		NOT = { trait = balrog }			
+		NOT = { trait = orkish }
+		NOT = { trait = dwarven }
+		NOT = { culture_group = culture_group_wilderness }				
+		NOT = { trait = blood_of_numenor }
+		NOT = { trait = blood_of_numenor2 }			
+		NOT = { trait = half_elf }
+		NOT = { trait = elven_blood }			
+		NOT = { culture_group = culture_group_eru }
+		NOT = { trait = nazgul }
+		NOT = { trait = ent }
 	}
 	
 	mean_time_to_happen = {
@@ -955,24 +781,25 @@ character_event = {
 	min_age = 130
 	
 	trigger = {
-		AND = {
-			trait=blood_of_numenor2
-			NOT = { trait = infirm }
-			NOT = { trait = incapable }
-			NOT = { trait = elf }
-			NOT = { trait = dwarven }
-			NOT = { trait = spider }
-			NOT = { trait = dragon }	
-			NOT = { trait = balrog }			
-			NOT = { trait = orkish }
-			NOT = { trait = dwarven }
-			NOT = { trait = blood_of_numenor }
-			NOT = { trait = half_elf }
-			NOT = { trait = elven_blood }			
-			NOT = { culture_group = culture_group_eru }
-			NOT = { trait = nazgul }
-			NOT = { trait = ent }
-		}
+		trait=blood_of_numenor2
+		NOT = { trait = infirm }
+		NOT = { trait = incapable }
+		NOT = { trait = elf }
+		NOT = { trait = dwarven }
+		NOT = { trait = spider }
+		NOT = { trait = uruloke }	
+		NOT = { trait = cold_drake }	
+		NOT = { trait = long_worms }	
+		NOT = { culture_group = culture_group_wilderness }				
+		NOT = { trait = balrog }			
+		NOT = { trait = orkish }
+		NOT = { trait = dwarven }
+		NOT = { trait = blood_of_numenor }
+		NOT = { trait = half_elf }
+		NOT = { trait = elven_blood }			
+		NOT = { culture_group = culture_group_eru }
+		NOT = { trait = nazgul }
+		NOT = { trait = ent }
 	}
 	
 	mean_time_to_happen = {
@@ -1041,7 +868,7 @@ character_event = {
 		}	
 		modifier = {
 			factor = 13.0
-			has_landed_title = k_rudhaur
+			has_landed_title = k_rhudaur
 		}	
 		modifier = {
 			factor = 15.0
@@ -1071,26 +898,27 @@ character_event = {
 	min_age = 165
 	
 	trigger = {
-		AND = {
-			OR = {
-				trait = blood_of_numenor
-				trait = elven_blood
-				trait = half_elf
-			}
-			NOT = { trait = infirm }
-			NOT = { trait = incapable }
-			NOT = { trait = elf }
-			NOT = { trait = dwarven }
-			NOT = { trait = spider }
-			NOT = { trait = dragon }	
-			NOT = { trait = balrog }			
-			NOT = { trait = orkish }
-			NOT = { trait = dwarven }
-			NOT = { trait = blood_of_numenor2 }
-			NOT = { culture_group = culture_group_eru }
-			NOT = { trait = nazgul }
-			NOT = { trait = ent }
+		OR = {
+			trait = blood_of_numenor
+			trait = elven_blood
+			trait = half_elf
 		}
+		NOT = { trait = infirm }
+		NOT = { trait = incapable }
+		NOT = { trait = elf }
+		NOT = { trait = dwarven }
+		NOT = { trait = spider }
+		NOT = { trait = uruloke }	
+		NOT = { trait = cold_drake }	
+		NOT = { trait = long_worms }	
+		NOT = { trait = balrog }			
+		NOT = { trait = orkish }
+		NOT = { trait = dwarven }
+		NOT = { culture_group = culture_group_wilderness }				
+		NOT = { trait = blood_of_numenor2 }
+		NOT = { culture_group = culture_group_eru }
+		NOT = { trait = nazgul }
+		NOT = { trait = ent }
 	}
 	
 	mean_time_to_happen = {
@@ -1154,7 +982,7 @@ character_event = {
 		}	
 		modifier = {
 			factor = 5.0
-			has_landed_title = k_rudhaur
+			has_landed_title = k_rhudaur
 		}	
 		modifier = {
 			factor = 5.0
@@ -1184,21 +1012,22 @@ character_event = {
 	min_age = 265
 	
 	trigger = {
-		AND = {
-			trait = dwarven
-			NOT = { trait = infirm }
-			NOT = { trait = incapable }
-			NOT = { trait = elf }
-			NOT = { trait = spider }
-			NOT = { trait = dragon }	
-			NOT = { trait = balrog }			
-			NOT = { trait = orkish }
-			NOT = { trait = dwarven }
-			NOT = { trait = blood_of_numenor2 }
-			NOT = { culture_group = culture_group_eru }
-			NOT = { trait = nazgul }
-			NOT = { trait = ent }
-		}
+		trait = dwarven
+		NOT = { trait = infirm }
+		NOT = { trait = incapable }
+		NOT = { trait = elf }
+		NOT = { trait = spider }
+		NOT = { trait = uruloke }	
+		NOT = { trait = cold_drake }	
+		NOT = { trait = long_worms }	
+		NOT = { trait = balrog }			
+		NOT = { trait = orkish }
+		NOT = { trait = dwarven }
+		NOT = { culture_group = culture_group_wilderness }				
+		NOT = { trait = blood_of_numenor2 }
+		NOT = { culture_group = culture_group_eru }
+		NOT = { trait = nazgul }
+		NOT = { trait = ent }
 	}
 	
 	mean_time_to_happen = {
@@ -1242,19 +1071,33 @@ character_event = {
 	picture = GFX_evt_recovery
 	
 	trigger = {
-		AND = {
+		OR = {
+			trait = infirm
+			trait = inbred
+		}
+		NOT = {
 			OR = {
-				trait = infirm
-				trait = inbred
-			}
-			OR = {
-				NOT = { trait = incapable }
-				NOT = { trait = elf }
-				NOT = { culture_group = culture_group_eru }
-				NOT = { trait = ent }
-				NOT = { trait = ring }
-				NOT = { trait = ringbearer1 }
-				NOT = { trait = ringbearer2 }
+				trait = incapable
+				trait = ring
+				trait = ringbearer1
+				trait = ringbearer2
+				culture_group = culture_group_eru
+				culture_group = culture_group_wilderness
+				trait = maiar
+				trait = eagle
+				trait = balrog
+				trait = spider
+				trait = ent
+				trait = elf
+				trait = elf_childhood
+				trait = valar
+				trait = enigma
+				trait = wilderness
+				trait = nazgul
+				trait = wight
+				trait = uruloke
+				trait = cold_drake
+				trait = long_worms
 			}
 		}
 	}
@@ -1752,40 +1595,40 @@ character_event = {
 	option = {
 		name = EVTOPTA6300
 		tooltip_info = lunatic
-		character_event = { id = 6305 tooltip = EVTTOOLTIP6305 }
+		narrative_event = { id = 6305 tooltip = EVTTOOLTIP6305 }
 		hidden_tooltip = {
 			any_vassal = {
-				character_event = { id = 6301 }
+				narrative_event = { id = 6301 }
 			}
 		}	
 	}
 	option = {
 		name = EVTOPTB6300
 		tooltip_info = lunatic
-		character_event = { id = 6306 tooltip = EVTTOOLTIP6306 }
+		narrative_event = { id = 6306 tooltip = EVTTOOLTIP6306 }
 		hidden_tooltip = {
 			any_vassal = {
-				character_event = { id = 6302 }
+				narrative_event = { id = 6302 }
 			}
 		}	
 	}
 	option = {
 		name = EVTOPTC6300
 		tooltip_info = lunatic
-		character_event = { id = 6307 tooltip = EVTTOOLTIP6307 }
+		narrative_event = { id = 6307 tooltip = EVTTOOLTIP6307 }
 		hidden_tooltip = {
 			any_vassal = {
-				character_event = { id = 6303 }
+				narrative_event = { id = 6303 }
 			}
 		}	
 	}
 	option = {
 		name = EVTOPTD6300
 		tooltip_info = lunatic
-		character_event = { id = 6308 tooltip = EVTTOOLTIP6308 }
+		narrative_event = { id = 6308 tooltip = EVTTOOLTIP6308 }
 		hidden_tooltip = {
 			any_vassal = {
-				character_event = { id = 6304 }
+				narrative_event = { id = 6304 }
 			}
 		}	
 	}

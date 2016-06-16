@@ -300,32 +300,18 @@ spriteTypes = {
 			scale = 1
 		}
 	}
-	
-##### MEP ones #####
 	CoatOfArmsType = {
-		name = "coa_plain_orcs"
-		frame = "gfx\\coats_of_arms\\frame_orcs.dds"
-		mask = "gfx\\interface\\seal_mask_CoA_orc.tga"
-		seal_overlay = "gfx\\interface\\seal_overlay_CoA_orc.dds"
-		effect = "gfx/FX/coa_shield.lua"
-				
-		layer = {
-			mask = "gfx\\coats_of_arms\\plain_ork.tga"
-			center = { x= 0 y = 0 }
-			scale = 1
-		}
-	}
-	CoatOfArmsType = {
-		name = "coa_plain_orc_unit"
-		frame = "gfx\\coats_of_arms\\unit_banner_overlay_muslim.tga"
+		name = "coa_plain_elf"
+		frame = "gfx\\coats_of_arms\\frame_elf.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
 				
 		layer = {
-			mask = "gfx\\coats_of_arms\\unit_banner_mask_muslim.tga"
+			mask = "gfx\\coats_of_arms\\plain_elf.tga"
 			center = { x= 0 y = 0 }
 			scale = 1
 		}
-	}	
+	}
+
 }

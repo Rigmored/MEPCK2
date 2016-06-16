@@ -1,0 +1,19 @@
+#Anglennaug
+
+# County Title
+title = c_anglennaug
+
+# Settlements
+max_settlements = 3
+
+b_anglennaug = castle
+b_barad_naugrim = castle
+b_gobel_naugrim = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

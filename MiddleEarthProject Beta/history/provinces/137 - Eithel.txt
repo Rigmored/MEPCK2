@@ -15,7 +15,6 @@ b_ost_eretir = city
 #b_barad_eith = city
 
 # Misc
-8222.1.1 = {
+
 culture = culture_harondorian
 religion = religion_southron
-}

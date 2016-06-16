@@ -16,9 +16,3 @@ b_marshwaterford = castle
 culture = culture_wilderness
 religion = religion_wilderness
 terrain = marsh
-1.1.1 = {
-terrain = marsh
-culture = culture_wilderness
-religion = religion_wilderness
-}
-

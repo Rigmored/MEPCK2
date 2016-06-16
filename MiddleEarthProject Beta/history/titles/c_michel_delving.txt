@@ -66,6 +66,11 @@ holder = 2456 # Herumor
 {
 holder = 2457 # Galador
 }
+9900.1.1=
+{
+holder=no
+liege=no
+}
 9944.1.1=
 {
 holder =  8195 # Marcho
@@ -101,7 +106,7 @@ holder =  8203 # Mosco
 10322.1.1=
 {
 holder =  8219 # Bucca of the Maresh
-liege=d_west_farthing
+liege=k_shire
 }
 10381.1.1=
 {

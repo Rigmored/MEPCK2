@@ -7,20 +7,13 @@ title = c_ruasin
 
 max_settlements = 4
 
-b_ruasin = castle
-#b_abastril = city
-#b_ras_amast = city
-#b_nan_resumel = castle
+b_ruasin = tribal
+#b_abastril = tribal
+#b_ras_amast = tribal
+#b_nan_resumel = tribal
 
 
 # Misc
 culture = culture_druedain
 religion = religion_druedain
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
-6000.1.1 = {
-culture = culture_druedain
-religion = religion_druedain
-}

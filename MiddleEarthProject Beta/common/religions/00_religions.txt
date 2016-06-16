@@ -2,7 +2,10 @@ religion_group_eruhini = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
-		ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+		
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0	# never try to convert
 	
 	religion_eruhini = {
 		graphical_culture = westerngfx
@@ -10,22 +13,30 @@ religion_group_eruhini = {
 		icon = 1
 		color = { 0.70 0.82 0.81 }
 		
-		crusade_name = "CRUSADE"
-		scripture_name = THE_BIBLE
+		high_god_name = GOD_ERU
+		
 		god_names = {
 			GOD_ERU
+		}
+		
+		evil_god_names = {
+			GOD_MORGOTH
 		}
 
 		female_temple_holders = yes
 		
 	}
+
 }
 
 religion_group_enyd = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
-		ai_peaceful = yes # Will make Hordes lose their super aggressiveness 
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness 
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0	# never try to convert
 
 	religion_enyd = {
 		graphical_culture = westerngfx
@@ -33,10 +44,15 @@ religion_group_enyd = {
 		icon = 6
 		color = { 0.51 0.17 0.68 }
 		
+		high_god_name = GOD_ERU
+		
 		god_names = {
 			GOD_ERU GOD_YAVANNA
 		}
 
+		evil_god_names = {
+			GOD_MORGOTH
+		}
 
 		female_temple_holders = yes
 		
@@ -48,7 +64,10 @@ religion_group_khazad = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
-		ai_peaceful = yes # Will make Hordes lose their super aggressiveness 
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness 
+		
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0	# never try to convert
 	
 	religion_mahal = {
 		graphical_culture = norsegfx
@@ -56,10 +75,15 @@ religion_group_khazad = {
 		icon = 2
 		color = { 0.57 0.72 0.96 }
 		
+		high_god_name = GOD_MAHAL
+		
 		god_names = {
 			GOD_ERU GOD_MAHAL
 		}
 
+		evil_god_names = {
+			GOD_MORGOTH
+		}
 		
 		priests_can_marry = yes
 		raised_vassal_opinion_loss = no
@@ -71,46 +95,44 @@ religion_group_eldar = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
-		ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0	# never try to convert
 	
 	religion_moriquendi = {
 		graphical_culture = westerngfx
 
-		icon = 1
+		icon = 9
 		color = { 0.81 0.63 0.90 }
+		
+		high_god_name = GOD_ERU
 		
 		god_names = {
 			GOD_ERU GOD_THE_VALAR GOD_THE_MAIAR
 		}
+		
+		evil_god_names = {
+			GOD_MORGOTH
+		}
+		
+		feminist = yes   
 		priests_can_marry = yes
 		female_temple_holders = yes
 		allow_rivermovement = yes
 
-		intermarry = religion_calaquendi
 	}
-	religion_calaquendi = {
-		graphical_culture = westerngfx
-
-		icon = 1
-		color = { 0.54 0.99 0.98 }
-		
-		god_names = {
-			GOD_ERU GOD_THE_VALAR GOD_THE_MAIAR
-		}
-
-		
-		priests_can_marry = yes
-		female_temple_holders = yes
-
-		intermarry = religion_moriquendi
-	}
+	
 }
 
 religion_group_periannath = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
-		ai_peaceful = yes # Will make Hordes lose their super aggressiveness 
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness 
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0	# never try to convert
 	
 	religion_perian = {
 		graphical_culture = westerngfx
@@ -118,7 +140,13 @@ religion_group_periannath = {
 		icon = 5
 		color = { 0.69 1 0.39 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
 			GOD_THE_POWERS
 		}
 		
@@ -132,13 +160,22 @@ religion_group_edain = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness 
 	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0	# never try to convert
+	
 	religion_druedain = {
 		graphical_culture = westerngfx
 
 		icon = 1
 		color = { 0.49 0.75 0.22 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
 			GOD_THE_POWERS
 		}
 		
@@ -157,10 +194,15 @@ religion_group_edain = {
 		icon = 1
 		color = { 0.46 0.35 0.05 }
 		
+		high_god_name = GOD_ERU
+		
 		god_names = {
 			GOD_ERU GOD_THE_VALAR GOD_THE_MAIAR
 		}
 
+		evil_god_names = {
+			GOD_MORGOTH
+		}
 		
 		priests_can_marry = yes
 		female_temple_holders = yes
@@ -175,10 +217,15 @@ religion_group_edain = {
 		icon = 1
 		color = { 0.29 0.47 0.68 }
 		
+		high_god_name = GOD_ERU
+		
 		god_names = {
 			GOD_ERU GOD_THE_VALAR GOD_THE_MAIAR
 		}
 
+		evil_god_names = {
+			GOD_MORGOTH
+		}
 		
 		priests_can_marry = yes
 		female_temple_holders = yes
@@ -200,10 +247,15 @@ religion_group_edain = {
 		icon = 1
 		color = { 0.14 0.16 0.83 }
 		
+		high_god_name = GOD_ERU
+		
 		god_names = {
 			GOD_ERU GOD_THE_VALAR GOD_THE_MAIAR
 		}
 
+		evil_god_names = {
+			GOD_MORGOTH
+		}
 		
 		priests_can_marry = yes
 		female_temple_holders = yes
@@ -230,7 +282,13 @@ religion_group_edain = {
 		icon = 1
 		color = { 0.29 0.45 0.04 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
 			GOD_THE_POWERS
 		}
 		
@@ -250,40 +308,19 @@ religion_group_edain = {
 		intermarry = religion_angmarim
 	}
 
-
-	religion_nurning = {
-		graphical_culture = norsegfx
-
-		icon = 3
-		color = { 0.29 0.37 0.32 }
-		
-		god_names = {
-			GOD_THE_POWERS
-		}
-		
-		priests_can_marry = yes
-		allow_looting = yes
-		allow_rivermovement = yes
-		pc_marriage = yes
-		bs_marriage = yes
-
-		intermarry = religion_dunedain
-		intermarry = religion_black_numenorean
-		intermarry = religion_rhovanion
-		intermarry = religion_easterlings
-		intermarry = religion_haldadian
-		intermarry = religion_southron
-		intermarry = religion_ishmalogim
-		intermarry = religion_angmarim
-	}
-
 	religion_haldadian = {
 		graphical_culture = celticgfx
 
 		icon = 1
 		color = { 0.90 0.87 0.23 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
 			GOD_THE_POWERS
 		}
 		
@@ -315,7 +352,13 @@ religion_group_edain = {
 		icon = 3
 		color = { 0.67 0.67 0.83 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
 			GOD_THE_POWERS
 		}
 		
@@ -353,7 +396,13 @@ religion_group_edain = {
 		icon = 1
 		color = { 0.46 0.35 0.05 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
 			GOD_THE_POWERS
 		}
 		
@@ -372,7 +421,13 @@ religion_group_edain = {
 		icon = 3
 		color = { 0.76 0.35 0.76 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
 			GOD_THE_POWERS
 		}
 		
@@ -403,13 +458,54 @@ religion_group_hildor = {  #Men of Darkness
 	graphical_culture = westerngfx
 	playable = yes
 	
-		religion_southron = {
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0	# never try to convert
+	
+	religion_nurning = {
+		graphical_culture = norsegfx
+
+		icon = 3
+		color = { 0.29 0.37 0.32 }
+		
+		high_god_name = GOD_THE_POWERS
+		
+		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
+			GOD_THE_POWERS
+		}
+		
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		pc_marriage = yes
+		bs_marriage = yes
+
+		intermarry = religion_dunedain
+		intermarry = religion_black_numenorean
+		intermarry = religion_rhovanion
+		intermarry = religion_easterlings
+		intermarry = religion_haldadian
+		intermarry = religion_southron
+		intermarry = religion_ishmalogim
+		intermarry = religion_angmarim
+	}
+	
+	religion_southron = {
 		graphical_culture = muslimgfx
 
 		icon = 8
 		color = { 0.85 0.11 0.18 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
 			GOD_THE_POWERS
 		}
 
@@ -441,13 +537,19 @@ religion_group_hildor = {  #Men of Darkness
 		intermarry = religion_angmarim
 	}
 	
-		religion_easterlings = {
+	religion_easterlings = {
 		graphical_culture = mongolgfx
 
 		icon = 7
 		color = { 0.71 0.28 0.32 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
+			GOD_THE_POWERS
+		}
+		
+		evil_god_names = {
 			GOD_THE_POWERS
 		}
 
@@ -477,16 +579,22 @@ religion_group_hildor = {  #Men of Darkness
 		intermarry = religion_angmarim
 	}
 	
-		religion_black_numenorean = {
+	religion_black_numenorean = {
 		graphical_culture = westerngfx
 
 		icon = 3
 		color = { 0.33 0.28 0.32 }
 		
+		high_god_name = GOD_THE_POWERS
+		
 		god_names = {
 			GOD_POWER GOD_WEALTH
 		}
 
+		evil_god_names = {
+			GOD_THE_POWERS
+		}
+		
 		unit_modifier = {
 			levy_size = 0.3
 			key = "OFF_RELIGION"
@@ -518,13 +626,44 @@ religion_group_melkor = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0	# never try to convert
+	
+	religion_umaiar = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		color = { 0.70 0.82 0.81 }
+		
+		high_god_name = GOD_MORGOTH
+		
+		god_names = {
+			GOD_MORGOTH GOD_SAURON 
+		}
+		
+		evil_god_names = {
+			GOD_ERU
+		}
+
+		female_temple_holders = yes
+		
+	}
 	
 	religion_wight = {
 		graphical_culture = westerngfx
 		icon = 4
 		color = { 0.80 0.25 0.25 }
+		
+		high_god_name = GOD_MORGOTH
+		
 		god_names = {
 			GOD_MORGOTH PROPHET_SAURON
+		}
+	
+		evil_god_names = {
+			GOD_ERU
 		}
 
 		allow_viking_invasion = yes # Allows the "Prepare Invasion" diplo action
@@ -538,9 +677,17 @@ religion_group_melkor = {
 		graphical_culture = westerngfx
 		icon = 4
 		color = { 0.83 0.10 0.5 }
+	
+		high_god_name = GOD_MORGOTH
+		
 		god_names = {
-			GOD_MORGOTH
+			GOD_MORGOTH PROPHET_SAURON
 		}
+	
+		evil_god_names = {
+			GOD_ERU
+		}
+	
 		allow_looting = yes
 		priests_can_marry = yes
 		raised_vassal_opinion_loss = no
@@ -556,10 +703,17 @@ religion_group_melkor = {
 		graphical_culture = norsegfx
 		icon = 4
 		color = { 0.74 0.27 0.09 }
+		
+		high_god_name = GOD_MORGOTH
+		
 		god_names = {
-			GOD_MORGOTH GOD_SAURON
+			GOD_MORGOTH PROPHET_SAURON
 		}
-
+	
+		evil_god_names = {
+			GOD_ERU
+		}
+		
 		allow_viking_invasion = yes # Allows the "Prepare Invasion" diplo action
 		allow_looting = yes
 		raised_vassal_opinion_loss = no
@@ -578,9 +732,17 @@ religion_group_melkor = {
 		graphical_culture = westerngfx
 		icon = 4
 		color = { 0.83 0.10 0.5 }
+		
+		high_god_name = GOD_MORGOTH
+		
 		god_names = {
-			GOD_MORGOTH GOD_SAURON
+			GOD_MORGOTH PROPHET_SAURON
 		}
+	
+		evil_god_names = {
+			GOD_ERU
+		}
+		
 		allow_viking_invasion = yes # Allows the "Prepare Invasion" diplo action
 		allow_looting = yes
 		raised_vassal_opinion_loss = no
@@ -597,8 +759,15 @@ religion_group_melkor = {
 		graphical_culture = westerngfx
 		icon = 4
 		color = { 0.83 0.10 0.5 }
+		
+		high_god_name = GOD_MORGOTH
+		
 		god_names = {
-			GOD_MORGOTH GOD_SAURON
+			GOD_MORGOTH PROPHET_SAURON
+		}
+	
+		evil_god_names = {
+			GOD_ERU
 		}
 
 		raised_vassal_opinion_loss = no
@@ -611,10 +780,18 @@ religion_group_melkor = {
 		graphical_culture = westerngfx
 		icon = 4
 		color = { 0.83 0.10 0.5 }
+		
+		high_god_name = GOD_MORGOTH
+		
 		god_names = {
-			GOD_MORGOTH GOD_SAURON
+			GOD_MORGOTH PROPHET_SAURON
+		}
+	
+		evil_god_names = {
+			GOD_ERU
 		}
 
+		feminist=yes
 		raised_vassal_opinion_loss = no
 		short_reign_opinion_year_mult = 5 # The default is 2
 		aggression = 5.0 # AI aggression factor
@@ -630,15 +807,26 @@ religion_group_wilderness = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = no
-#Wilderness
+	
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0	# never try to convert
+
 	religion_wilderness = {
 		graphical_culture = westerngfx
 
 		icon = 6
 		color = { 0.59 0.48 0.46 }
+		
+		high_god_name = GOD_TREE
+		
 		god_names = {
 			GOD_TREE
 		}
+	
+		evil_god_names = {
+			GOD_MORGOTH
+		}
+		
 		female_temple_holders = no
 	}
 }

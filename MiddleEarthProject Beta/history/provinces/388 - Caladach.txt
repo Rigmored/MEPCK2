@@ -7,17 +7,12 @@ title = c_caladach
 max_settlements = 5
 
 b_caladach = tribal
-b_banford = tribal
-b_stantrong = tribal
+b_banford = city
+b_stantrong = city
 #b_sumorsunu = city
 #b_caladdun = city
 
 # Misc
-8222.1.1 = {
+
 culture = culture_dunlending
 religion = religion_haldadian
-}
-
-9979.1.1 = {
-culture = culture_dunlending
-religion = religion_haldadian }

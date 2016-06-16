@@ -1,6 +1,6 @@
 6599.1.1={
 	law = agnatic_succession
-	law = succ_primogeniture
+	law = succ_seniority
 	law = centralization_2
 	law = investiture_law_1
 }

@@ -1,4 +1,4 @@
-#Rasroval
+# 802 - Rasroval
 
 # County Title
 title = c_rasroval
@@ -13,3 +13,6 @@ b_rasroval = castle
 # Misc
 culture = culture_eagles
 religion = religion_eruhini
+4000.1.1 = {
+culture = culture_eagles
+religion = religion_eruhini }

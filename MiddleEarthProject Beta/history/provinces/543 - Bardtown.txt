@@ -13,10 +13,8 @@ b_deepchant = city
 #b_voicebottom = city
 
 # Misc
-8222.1.1 = {
 culture = culture_northmen
 religion = religion_rhovanion
-}
 11284.1.1 = {
 culture = culture_barding
 religion = religion_rhovanion

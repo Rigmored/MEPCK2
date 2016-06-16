@@ -130,6 +130,11 @@ holder = 14154 # Azuolas
 holder=0
 liege=0
 }
+10330.1.1=
+{
+holder=11250
+liege=0
+}
 11362.5.1=
 {
 holder = 2038 # Aragorn II ## First King of the Reunited Kingdom

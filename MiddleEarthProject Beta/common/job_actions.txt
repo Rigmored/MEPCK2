@@ -54,7 +54,7 @@ action_subjugate = {
 	potential = {
 		FROM = {
 			prestige = 100
-			cash = 100
+			wealth = 100
 			trait = evil_side
 		}
 	}
@@ -127,9 +127,17 @@ action_colonize_province = {
 	trigger = {
 		OR = {		
 			owner = { top_liege = { character = FROM } }
+			owner = { liege = { liege = { character = FROM } } }
 			owner = { liege = { character = FROM } }
 			owner = { character = FROM }
-			
+		}
+		NOT = {
+			OR = {
+				owner = { has_character_flag = colonizationwilderness}
+				owner = { liege = { has_character_flag = colonizationwilderness} }
+				owner = { liege = { liege = { has_character_flag = colonizationwilderness} } }
+				owner = { top_liege = { has_character_flag = colonizationwilderness} }
+			}
 		}
 		OR = {		
 			religion = religion_wilderness
@@ -186,7 +194,7 @@ action_organize_spies = {
 	
 	assassinate_chance_modifier = 0.005
 	
-	events = { 935 936 }
+	events = { 936 }
 }
 
 # Marshal

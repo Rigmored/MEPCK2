@@ -1,4 +1,4 @@
-#Sarnak Hor
+# 527 - Sarnak Hôr
 
 # County Title
 title = c_sarnak_hor
@@ -14,10 +14,6 @@ b_gaurwaithir = city
 
 # Misc
 terrain = coastal_desert
-1.1.1 = {
-terrain = coastal_desert
-}
-8222.1.1 = {
+
 culture = culture_bellakaze
 religion = religion_southron
-}

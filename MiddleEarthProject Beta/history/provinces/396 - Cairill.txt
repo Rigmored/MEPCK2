@@ -6,10 +6,9 @@ title = c_cairill
 # Settlements
 max_settlements = 3
 
-b_cairill = castle
+b_cairill = tribal
 
 # Misc
-8222.1.1 = {
+
 culture = culture_wilderness
 religion = religion_wilderness
-}

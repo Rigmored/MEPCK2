@@ -1,13 +1,10 @@
 decisions = {
-
-################## DWARVES ##################
+	################## DWARVES ##################
 ## Dwarves Decision to Reconquer the Moria ##
-reconquer_moria = {
-	
-	is_high_prio = yes
-	
-	potential = {
-		AND = {
+	reconquer_moria = {
+		is_high_prio = yes
+		potential = {
+			ai = no
 			culture = culture_longbeard
 			NOT = { has_landed_title = c_moria }
 			any_playable_ruler = {
@@ -17,42 +14,34 @@ reconquer_moria = {
 			}
 			independent = yes
 			is_ruler = yes
-			dynasty=4001
+			dynasty = 4001
 			OR = {
 				trait = brilliant_strategist
 				trait = dragon_slayer
 				trait = skilled_tactician
 				trait = great_axeman
 			}
+			NOT = { has_character_flag = reconquers_moria }
 		}
-		NOT = { has_character_flag = reconquers_moria }
+		allow = {
+			prestige = 1000
+			wealth = 1000
+			piety = 1000
+		}
+		effect = {
+			ROOT = {
+				narrative_event = { id = holywars.1 }
+			}
+			prestige = -1000
+			wealth = -1000
+			piety = -1000
+		}
 	}
-	
-	allow = {
-		prestige = 1000
-		wealth = 1000
-		piety = 1000
-	}
-	
-	effect = {
-		ROOT = { character_event = { id = holywars.1 } }
-		prestige = -1000
-		wealth = -1000
-		piety = -1000
-	}
-	
-	ai_will_do = {
-		factor = 2
-	}
-}
-
-## Dwarves Decision to Reconquer Gundabad ##
-reconquer_gundabad = {
-	
-	is_high_prio = yes
-	
-	potential = {
-		AND = {
+	## Dwarves Decision to Reconquer Gundabad ##
+	reconquer_gundabad = {
+		is_high_prio = yes
+		potential = {
+			ai = no
 			culture = culture_longbeard
 			NOT = { has_landed_title = c_gundabad }
 			has_landed_title = c_moria
@@ -63,53 +52,44 @@ reconquer_gundabad = {
 			}
 			independent = yes
 			is_ruler = yes
-			dynasty=4001
+			dynasty = 4001
 			OR = {
 				trait = brilliant_strategist
 				trait = dragon_slayer
 				trait = skilled_tactician
 				trait = great_axeman
 			}
+			NOT = { has_character_flag = reconquers_gundabad }
 		}
-		NOT = { has_character_flag = reconquers_gundabad }
+		allow = {
+			prestige = 1000
+			wealth = 1000
+			piety = 1000
+		}
+		effect = {
+			ROOT = {
+				narrative_event = { id = holywars.12 }
+			}
+			prestige = -1000
+			wealth = -1000
+			piety = -1000
+		}
 	}
-	
-	allow = {
-		prestige = 1000
-		wealth = 1000
-		piety = 1000
-	}
-	
-	effect = {
-		ROOT = { character_event = { id = holywars.12 } }
-		prestige = -1000
-		wealth = -1000
-		piety = -1000
-	}
-	
-	ai_will_do = {
-		factor = 2
-	}
-}
-
-
-################## NUMENOREAN #################
+	################## NUMENOREAN #################
 ## Gondorian decision to Reconquer Osgiliath ##
-reconquer_osgiliath = {
-	
-	is_high_prio = yes
-	
-	potential = {
-		AND = {
+	reconquer_osgiliath = {
+		is_high_prio = yes
+		potential = {
+			ai = no
 			OR = {
 				has_landed_title = e_gondor
-				has_landed_title = e_steward_gondor	
+				has_landed_title = e_steward_gondor
 			}
 			OR = {
 				culture = culture_gondorian
 				culture = culture_arnorian
 				culture = culture_numenorean
-				culture = culture_dunedain				
+				culture = culture_dunedain
 			}
 			OR = {
 				NOT = { has_landed_title = c_west_osgiliath }
@@ -131,7 +111,7 @@ reconquer_osgiliath = {
 					NOT = { culture = culture_numenorean }
 					NOT = { culture = culture_dunedain }
 					NOT = { de_jure_liege_or_above = ROOT }
-				}				
+				}
 			}
 			independent = yes
 			is_ruler = yes
@@ -141,27 +121,20 @@ reconquer_osgiliath = {
 				trait = brave
 				trait = proud
 			}
+			NOT = { has_character_flag = reconquers_osgiliath }
 		}
-		NOT = { has_character_flag = reconquers_osgiliath }
+		allow = {
+			prestige = 1000
+			wealth = 1000
+			piety = 1000
+		}
+		effect = {
+			ROOT = {
+				narrative_event = { id = holywars.8 }
+			}
+			prestige = -1000
+			wealth = -1000
+			piety = -1000
+		}
 	}
-	
-	allow = {
-		prestige = 1000
-		wealth = 1000
-		piety = 1000
-	}
-	
-	effect = {
-		ROOT = { character_event = { id = holywars.8 } }
-		prestige = -1000
-		wealth = -1000
-		piety = -1000
-	}
-	
-	ai_will_do = {
-		factor = 2
-	}
-}
-
-
 }

@@ -10,7 +10,7 @@
 #Gondorian Retinues#
 
 #400 Pikemen, 100 Archers#
-"Tower Guard Company" =
+towerguardcompany =
 {
     first_type = 2
     first_amount = 400
@@ -20,61 +20,66 @@
 	
 	potential = {		
 		culture = culture_gondorian
+		is_nomadic = no		
 	}
     modifier = {
-        archers_offensive = 0.1
-        archers_defensive = 0.1
-        pikemen_defensive = 0.1
-        pikemen_offensive = 0.1
-        pikemen_morale = 0.1
+        archers_offensive = 3.0
+        archers_defensive = 3.0
+        pikemen_defensive = 3.0
+        pikemen_offensive = 3.0
+        pikemen_morale = 1.0
     }
 }
 
 #250 Heavy Cavalry#
-"Gondorian Heavy Cavalry" =
+gondorianheavycavalry =
 {
     first_type = 4
     first_amount = 250
     culture = culture_gondorian
 	potential = {
 		culture = culture_gondorian
+		is_nomadic = no
 	}
     modifier = {
-        knights_offensive = 0.1
-        knights_defensive = 0.1
-        knights_morale = 0.1
+        knights_offensive = 2.5
+        knights_defensive = 2.5
+        knights_morale = 2.5
         
     }
 }
 
 #250 Heavy Cavalry#
-"Swan Knights" =
+swanknights =
 {
     first_type = 4
     first_amount = 250
     culture = culture_gondorian
 	potential = {
 		culture = culture_gondorian
+		is_nomadic = no
+		has_landed_title = c_dol_amroth
 	}
     modifier = {
-        knights_offensive = 0.2
-        knights_morale = 0.2
+        knights_offensive = 3.0
+        knights_morale = 3.0
         
     }
 }
 
 #500 Archers#
-"Black Vale Archers" =
+blackvalearchers =
 {
     first_type = 5
     first_amount = 500
     culture = culture_gondorian
 	potential = {
 		culture = culture_gondorian
+		is_nomadic = no
 	}
     modifier = {
-        archers_offensive = 0.1
-        archers_defensive = 0.1
+        archers_offensive = 1.2
+        archers_defensive = 1.2
        
     }
 }
@@ -82,26 +87,27 @@
 #Dunedain Retinues#
 
 #50 Archers, 50 heavy infantry#
-"Dunedain Elite Company" =
+dunedainelitecompany =
 {
     first_type = 5
     first_amount = 50
     second_type = 1
     second_amount = 50
     culture = culture_dunedain
-		potential = {
+	potential = {
 		culture = culture_dunedain
+		is_nomadic = no
 	}
     modifier = {
-        archers_offensive = 0.1
-        archers_defensive = 0.1
-        heavy_infantry_defensive = 0.1
-        heavy_infantry_offensive = 0.1
+        archers_offensive = 3.0
+        archers_defensive = 3.0
+        heavy_infantry_defensive = 3.0
+        heavy_infantry_offensive = 3.0
     }
 }
 
 #50 Knights#
-"Knights of Annunimas" =
+knightsofannuminas =
 {
     first_type = 4
     first_amount = 50
@@ -111,29 +117,33 @@
 			culture = culture_dunedain
 			culture = culture_arnorian
 		}
+		is_nomadic = no
 	}
     modifier = {
-        knights_offensive = 0.3
-        knights_morale = 0.1
+        knights_offensive = 2.5
+        knights_morale = 1.1
     }
 }
 
 #50 Knights#
-"Knights of Dol Amroth" =
+knightsofdolamroth =
 {
     first_type = 4
     first_amount = 50
     culture = culture_dunedain
-		potential = {
+	potential = {
 		culture = culture_dunedain
+		is_nomadic = no
+		has_landed_title = c_dol_amroth
 	}
     modifier = {
-        knights_offensive = 0.1
-        knights_morale = 0.3
+        knights_offensive = 3.0
+		knights_defensive = 2.5
+        knights_morale = 1.3
     }
 }
 
-"Royal Guard Company" =
+royalguardcompany =
 {
     first_type = 2
     first_amount = 400
@@ -145,33 +155,35 @@
 			culture = culture_dunedain
 			culture = culture_arnorian
 		}
+		is_nomadic = no
 	}
     modifier = {
-        archers_offensive = 0.1
-        archers_defensive = 0.1
-        pikemen_defensive = 0.1
-        pikemen_offensive = 0.1
+        archers_offensive = 2.5
+        archers_defensive = 2.5
+        pikemen_defensive = 2.5
+        pikemen_offensive = 2.5
         pikemen_morale = 0.1
     }
 }
 #Sindar Retinues
 
 #200 Archers, 50 Heavy Infatry#
-"Sindar Royal Guard" =
+sindarroyalguard =
 {
     first_type = 5
     first_amount = 200
     second_type = 1
     second_amount = 50
     culture = culture_sindar
-		potential = {
+	potential = {
 		culture = culture_sindar
+		is_nomadic = no
 	}
     modifier = {
-        archers_offensive = 0.1
-        archers_defensive = 0.1
-        heavy_infantry_defensive = 0.1
-        heavy_infantry_offensive = 0.1
+        archers_offensive = 3.0
+        archers_defensive = 3.0
+        heavy_infantry_defensive = 3.0
+        heavy_infantry_offensive = 3.0
        
     }
 }
@@ -179,79 +191,84 @@
 #Noldor Retinues
 
 #100 Heavy Infantry#
-"Noldor Elite Guards" =
+noldoreliteguard =
 {
     first_type = 1
     first_amount = 100
     culture = culture_noldor
 	potential = {
 		culture = culture_noldor
+		is_nomadic = no
 	}
     modifier = {
-        heavy_infantry_defensive = 0.1
-        heavy_infantry_offensive = 0.1
-        heavy_infantry_morale = 0.1       
+        heavy_infantry_defensive = 5.0
+        heavy_infantry_offensive = 5.0
+        heavy_infantry_morale = 1.1       
     }
 }
 
 #50 Horse Archers#
-"Noldor Horse Archers" = 
+noldorhorsearchers = 
 {
     first_type = 3
     first_amount = 50
     culture = culture_noldor
 	potential = {
 		culture = culture_noldor
+		is_nomadic = no
 	}
     modifier = {
-        archers_defensive = 0.1
-        archers_offensive = 0.1
-        archers_morale = 0.1       
+        archers_defensive = 5.0
+        archers_offensive = 5.0
+        archers_morale = 1.1       
     }
 }
 #Dwarven Retinues
 
 #100 Heavy Infantry#
-"Dwarven Gate-Wardens" =
+dwarvengatewardens =
 {
     first_type = 1
     first_amount = 100
     culture = culture_longbeard
 	potential = {
 		culture = culture_longbeard
+		is_nomadic = no
 	}
     modifier = {
-        heavy_infantry_defensive = 0.1
-        heavy_infantry_offensive = 0.1
-        heavy_infantry_morale = 0.1      
+        heavy_infantry_defensive = 4.5
+        heavy_infantry_offensive = 4.5
+        heavy_infantry_morale = 1.1      
     }
 }
 
 #100 Heavy Infantry#
-"Gate-Wardens" =
+gatewardens =
 {
     first_type = 1
     first_amount = 100
     culture = culture_broadbeam
 	potential = {
 		culture = culture_broadbeam
+		is_nomadic = no
 	}
     modifier = {
-        heavy_infantry_defensive = 0.1
-        heavy_infantry_offensive = 0.1
-        heavy_infantry_morale = 0.1       
+        heavy_infantry_defensive = 4.5
+        heavy_infantry_offensive = 4.5
+        heavy_infantry_morale = 1.1       
     }
 }
 #Harad Retinues
 
 #250 Heavy Cavalry#
-"Red Serpent Guard" =
+redserpentguard =
 {
     first_type = 4
     first_amount = 250
     culture = culture_haradrim
 	potential = {
 		culture = culture_haradrim
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 1.5
@@ -263,14 +280,15 @@
 
 #Black Numenorean Retinues#
 
-#50 Heavy Cavalry#
-"Black Numenorean Knights" =
+#250 Heavy Cavalry#
+blacknumenoreanknights =
 {
     first_type = 4
-    first_amount = 50
+    first_amount = 250
     culture = culture_black_numenorean
 	potential = {
 		culture = culture_black_numenorean
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 3.0
@@ -279,49 +297,96 @@
     }
 }
 
+#225 pikemen, 225 heavy infantry#
+blacknumenoreanpalaceguards =
+{
+    first_type = 2
+    first_amount = 225
+	second_type = 1
+	second_amount = 225
+    culture = culture_black_numenorean
+	potential = {
+		culture = culture_black_numenorean
+		is_nomadic = no
+	}
+    modifier = {
+        heavy_infantry_offensive = 2.5
+        heavy_infantry_defensive = 2.5
+		pikemen_defensive = 2.5
+		pikemen_offensive = 2.5
+       
+    }
+}
+
+#2 Oliphants, 150 archers#
+haradrimmumakil =
+{
+    first_type = 5
+    first_amount = 150
+	second_type = 6
+	second_amount = 2
+	
+	special_troops = war_elephants
+	
+    culture = culture_black_numenorean
+	potential = {
+		culture = culture_black_numenorean
+		is_nomadic = no
+	}
+    modifier = {
+        archers_offensive = 0.75
+        archers_defensive = 0.75
+		archers_morale = 0.75
+       
+    }
+}
+
 #Halfling Retinues#
 
 #250 Archers#
-"Took Archers" =
+tookarchers =
 {
     first_type = 5
     first_amount = 250
     culture = culture_fallohide
 	potential = {
 		culture = culture_fallohide
+		is_nomadic = no
 	}
     modifier = {
-        archers_offensive = 1.0
-        archers_defensive = 0.3
+        archers_offensive = 0.6
+        archers_defensive = -0.3
        
     }
 }
 
 #250 Light Infantry#
-"Halfling Sheriffs" =
+halflingsheriffs =
 {
     first_type = 5
     first_amount = 250
     culture = culture_harfoot
 	potential = {
 		culture = culture_harfoot
+		is_nomadic = no
 	}
     modifier = {
-        light_infantry_offensive = 0.2
-        light_infantry_defensive = 0.3
+        light_infantry_offensive = 0.1
+        light_infantry_defensive = 0.1
        
     }
 }
 #Barding/Dale Retinues#
 
 #100 Heavy Cavalry, 150 Light Cavalry#
-"Knights of Dale" =
+knightsofdale =
 {
     first_type = 4
     first_amount = 100
     culture = culture_barding
 	potential = {
 		culture = culture_barding
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 1.5
@@ -331,7 +396,7 @@
     }
 }
 #125 Archers, 125 Heavy Infatry#
-"Barding Men-at-Arms" =
+bardingmenatarms =
 {
     first_type = 5
     first_amount = 125
@@ -340,6 +405,7 @@
     culture = culture_barding
 	potential = {
 		culture = culture_barding
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -353,7 +419,7 @@
 #Breelander#
 
 #100 Heavy Cavalry, 150 Light Cavalry#
-"Greenway Sentinels" =
+greenwaysentinels =
 {
     first_type = 4
     first_amount = 100
@@ -362,16 +428,17 @@
     culture = culture_breelander
 	potential = {
     culture = culture_breelander
+	is_nomadic = no
 }
     modifier = {
-        knights_offensive = 1.5
-        knights_defensive = 1.5
+        knights_offensive = 1.0
+        knights_defensive = 1.0
         light_cavalry_offensive = 1.0
 	light_cavalry_defensive = 1.0
     }
 }
 #125 Archers, 125 Heavy Infatry#
-"Bree Men-at-Arms" =
+breemenatarms =
 {
     first_type = 5
     first_amount = 125
@@ -380,6 +447,7 @@
     culture = culture_breelander
 	potential = {
     culture = culture_breelander
+	is_nomadic = no
 }
     modifier = {
         archers_offensive = 1.0
@@ -390,7 +458,7 @@
     }
 }
 #100 Light infantry, 100 archers#
-"Guards of the Gates" =
+guardsofthegates =
 {
     first_type = 0
     first_amount = 100
@@ -399,6 +467,7 @@
     culture = culture_breelander
 	potential = {
     culture = culture_breelander
+	is_nomadic = no
 }
     modifier = {
        archers_offensive = 1.0
@@ -411,13 +480,14 @@
 #Northmen Retinues#
 
 #250 Light Cavalry#
-"Northmen Skirmishers" =
+northmenskirmishers =
 {
     first_type = 3
     first_amount = 250
     culture = culture_northmen
 	potential = {
 		culture = culture_northmen
+		is_nomadic = no
 	}
     modifier = {
 
@@ -426,7 +496,7 @@
     }
 }
 #125 Archers, 125 Heavy Infatry#
-"Northmen Royal Guard" =
+northmenroyalguard =
 {
     first_type = 5
     first_amount = 125
@@ -435,6 +505,7 @@
     culture = culture_northmen
 	potential = {
 		culture = culture_northmen
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -448,7 +519,7 @@
 #Woodsmen Retinues
 
 #125 Archers, 125 Heavy Infatry#
-"Forest Wardens" =
+forestwardens =
 {
     first_type = 5
     first_amount = 125
@@ -457,6 +528,7 @@
     culture = culture_woodsmen
 	potential = {
 		culture = culture_woodsmen
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -470,7 +542,7 @@
 #Beorning Retinues
 
 #125 heavy infantry, 125 archers#
-"Beorning Guards" =
+beorningguards =
 {
     first_type = 5
     first_amount = 125
@@ -479,6 +551,7 @@
     culture = culture_beorning
 	potential = {
 		culture = culture_beorning
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -490,13 +563,14 @@
 }
 
 #25 heavy infantry#
-"Beorning Skinchangers" =
+beorningskinchangers =
 {
     first_type = 1
     first_amount = 25
     culture = culture_beorning
 	potential = {
 		culture = culture_beorning
+		is_nomadic = no
 	}
     modifier = {
      heavy_infantry_defensive = 2.5
@@ -507,7 +581,7 @@
 #Balchoth Retinues
 
 #125 Horse Archers, 125 Light Cavalry#
-"Balchoth Chief's Guard" =
+balchothchiefguard =
 {
     first_type = 3
     first_amount = 125
@@ -516,6 +590,7 @@
     culture = culture_balchoth
 	potential = {
 		culture = culture_balchoth
+		is_nomadic = yes
 	}
     modifier = {
     light_cavalry_offensive = 1.0
@@ -527,13 +602,14 @@
 #Dunlending Retinues
 
 #125 Heavy Infantry#
-"Chieftain's Guard" =
+chieftainsguard =
 {
     first_type = 1
     first_amount = 125
     culture = culture_dunlending
 	potential = {
 		culture = culture_dunlending
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -547,23 +623,24 @@
 #Rohan Retinues#
 
 #120 Cavalry#
-"Eored of Rohan" =
+eoredofrohan =
 {
     first_type = 4
     first_amount = 120
     culture = culture_rohirrim
 	potential = {
 		culture = culture_rohirrim
+		is_nomadic = no
 	}
     modifier = {
-        knights_offensive = 1.0
-        knights_defensive = 1.0
+        knights_offensive = 1.5
+        knights_defensive = 1.5
         knights_morale = 0.6
         
     }
 }
 #125 Archers, 125 Heavy Infatry#
-"Rohan Elite Guard" =
+rohaneliteguard =
 {
     first_type = 5
     first_amount = 125
@@ -572,19 +649,20 @@
     culture = culture_rohirrim
 	potential = {
 		culture = culture_rohirrim
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
-        archers_defensive = 1.0
+        archers_defensive = 1.5
         heavy_infantry_defensive = 1.0
-        heavy_infantry_offensive = 1.0
+        heavy_infantry_offensive = 1.5
        
     }
 }
 
 ##Sauron retinues##
 #125 Archers, 125 Heavy Infatry#
-"Morgul Guards" =
+morgulguards =
 {
     first_type = 5
     first_amount = 125
@@ -592,10 +670,9 @@
     second_amount = 125
     culture = culture_orkish
 	potential = {
-	AND = {
 		culture = culture_maiar
-		trait = evil_side
-	}
+		owner = { trait = evil_side }
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -607,27 +684,26 @@
 }
 
 ##75 heavy cavalry##
-"Olog-Hai Elite" =
+ologhaielite =
 {
     first_type = 4
     first_amount = 75
     culture = culture_orkish
 	potential = {
-	AND = {
 		culture = culture_maiar
-		trait = evil_side
-	}
+		owner = { trait = evil_side }
+		is_nomadic = no
 	}
     modifier = {
-        knights_offensive = 5.0
-        knights_defensive = 5.0
+        knights_offensive = 2.0
+        knights_defensive = 2.0
         knights_morale = 0.6
         
     }
 }
 ##Saruman retinues##
 #125 Archers, 125 Heavy Infatry#
-"Isengard Guards" =
+isengardguards =
 {
     first_type = 5
     first_amount = 125
@@ -635,10 +711,9 @@
     second_amount = 125
     culture = culture_urukhai
 	potential = {
-	AND = {
 		culture = culture_istari
-		trait = evil_side
-	}
+		owner = { trait = evil_side }
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -650,16 +725,15 @@
 }
 
 #100 Pikemen#
-"Uruk-Hai Pikes" =
+urukhaipikes =
 {
     first_type = 2
     first_amount = 100
     culture = culture_urukhai
 	potential = {
-	AND = {
 		culture = culture_istari
-		trait = evil_side
-	}
+		owner = { trait = evil_side }
+		is_nomadic = no
 	}
     modifier = {
         pikemen_offensive = 1.0
@@ -670,7 +744,7 @@
 
 ##Arnorian Retinues
 #125 Archers, 125 Heavy Infatry#
-"Arnorian Men-at-Arms" =
+arnorianmenatarms =
 {
     first_type = 5
     first_amount = 125
@@ -682,18 +756,19 @@
 			culture = culture_dunedain
 			culture = culture_arnorian
 		}
+		is_nomadic = no
 	}
     modifier = {
-        archers_offensive = 1.0
-        archers_defensive = 1.0
-        heavy_infantry_defensive = 1.0
-        heavy_infantry_offensive = 1.0
+        archers_offensive = 3.0
+        archers_defensive = 3.0
+        heavy_infantry_defensive = 3.0
+        heavy_infantry_offensive = 3.0
        
     }
 }
 
 ##25 heavy cavalry##
-"Annunimas Royal Guard" =
+annuminasroyalguard =
 {
     first_type = 4
     first_amount = 25
@@ -703,6 +778,7 @@
 			culture = culture_dunedain
 			culture = culture_arnorian
 		}
+		is_nomadic = no
 	}
     modifier = {
         knights_offensive = 3.0
@@ -715,44 +791,46 @@
 #Avari Retinues
 
 #25 Archers, 25 Heavy Infatry#
-"Avari Royal Guard" =
+avariroyalguard =
 {
     first_type = 5
     first_amount = 25
     second_type = 1
     second_amount = 25
     culture = culture_avari
-potential = {
-culture = culture_avari
-}
+	potential = {
+		culture = culture_avari
+		is_nomadic = no
+	}
     modifier = {
-        archers_offensive = 0.1
-        archers_defensive = 0.1
-        heavy_infantry_defensive = 0.1
-        heavy_infantry_offensive = 0.1
+        archers_offensive = 3.0
+        archers_defensive = 3.0
+        heavy_infantry_defensive = 3.0
+        heavy_infantry_offensive = 3.0
        
     }
 }
 
 #25 Horse Archers#
-"Avari Horse Archers" = {
-    first_type = 3
+avarihorsearchers = {
+    first_type = 6
     first_amount = 25
+	special_troops = horse_archers
     culture = culture_avari
-potential = {
-culture = culture_avari
-}
+	potential = {
+		culture = culture_avari
+		is_nomadic = no
+	}
     modifier = {
-        archers_defensive = 0.1
-        archers_offensive = 0.1
-        archers_morale = 0.1       
+        horse_archers_defebsive = 3.0
+        horse_archers_offensive = 3.0
     }
 }
 
 ### ORCS RETINUES ###
 
 #500 Pikemen#
-"Orcs Pikes" =
+orcspikes =
 {
     first_type = 2
     first_amount = 500
@@ -762,6 +840,7 @@ culture = culture_avari
 			culture = culture_orkish
 			culture = culture_goblin
 		}
+		is_nomadic = no
 	}
     modifier = {
         pikemen_offensive = 1.0
@@ -770,7 +849,7 @@ culture = culture_avari
 }
 
 #500 Archers#
-"Orcs Archers" =
+orcsarchers =
 {
     first_type = 5
     first_amount = 500
@@ -780,6 +859,7 @@ culture = culture_avari
 			culture = culture_orkish
 			culture = culture_goblin
 		}
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -789,16 +869,17 @@ culture = culture_avari
 }
 
 # 250 Wargs Riders #
-"Wargs Riders" =
+wargriders =
 {
-    second_type = 4
-    second_amount = 250
+    first_type = 4
+    first_amount = 250
     culture =  culture_orkish
 	potential = {
 		OR = {
 			culture = culture_orkish
 			culture = culture_goblin
 		}
+		is_nomadic = no
 	}
     modifier = {
 		light_cavalry_offensive = 1.0 
@@ -809,13 +890,14 @@ culture = culture_avari
 ### URUK RETINUES ###
 
 #150 Pikemen#
-"Uruk Pikes" =
+urukpikes =
 {
     first_type = 2
     first_amount = 150
     culture =  culture_urukhai
 	potential = {
 		culture = culture_urukhai
+		is_nomadic = no
 	}
     modifier = {
         pikemen_offensive = 1.0
@@ -824,13 +906,14 @@ culture = culture_avari
 }
 
 #150 Archers#
-"Uruk Archers" =
+urukarchers =
 {
     first_type = 5
     first_amount = 150
     culture =  culture_urukhai
 	potential = {
 		culture = culture_urukhai
+		is_nomadic = no
 	}
     modifier = {
         archers_offensive = 1.0
@@ -840,13 +923,14 @@ culture = culture_avari
 }
 
 # 50 Wargs Riders #
-"Uruk Wargs Riders" =
+urukwargriders =
 {
-    second_type = 4
-    second_amount = 50
+    first_type = 4
+    first_amount = 50
     culture =  culture_urukhai
 	potential = {
 		culture = culture_urukhai
+		is_nomadic = no
 	}
     modifier = {
 		light_cavalry_offensive = 1.0 
@@ -856,13 +940,14 @@ culture = culture_avari
 ### VARIAGS RETINUES ###
 
 # 250 Light Cavalry #
-"Variags Lights Cavalry" =
+variagslightcavalry =
 {
-    second_type = 3
-    second_amount = 250
+    first_type = 3
+    first_amount = 250
     culture =  culture_variags
 	potential = {
 		culture = culture_variags
+		is_nomadic = yes
 	}
     modifier = {
 		light_cavalry_offensive = 1.0 
@@ -873,3 +958,181 @@ culture = culture_avari
 #Missing:
 #Wainrider
 #Easterling
+
+HORDE_RETTYPE_CAV1 = 
+{
+	first_type = 3
+	first_amount = 250
+	
+	hire_cost = 10
+	costs_prestige = yes
+	
+	maintenance_multiplier = 0.27
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV2 = 
+{
+	first_type = 3
+	first_amount = 225
+	second_type = 6
+	second_amount = 25
+
+	special_troops = horse_archers
+	
+	hire_cost = 25
+	costs_prestige = yes
+	
+	maintenance_multiplier = 0.5263
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV3 =
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 6
+	second_amount = 50
+
+	special_troops = horse_archers
+	
+	hire_cost = 25
+	
+	maintenance_multiplier = 0.125
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV4 =
+{
+	first_type = 3
+	first_amount = 150
+	second_type = 6
+	second_amount = 100
+
+	special_troops = horse_archers
+	
+	hire_cost = 50
+	
+	maintenance_multiplier = 0.238
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV5 =
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 4
+	second_amount = 50
+	
+	hire_cost = 50
+	
+	maintenance_multiplier = 0.227
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV6 =
+{
+	first_type = 3
+	first_amount = 100
+	second_type = 4
+	second_amount = 150
+	
+	hire_cost = 75
+	
+	maintenance_multiplier = 0.25
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV7 =
+{
+	first_type = 6
+	first_amount = 250
+	
+	special_troops = horse_archers
+	
+	hire_cost = 75
+	
+	maintenance_multiplier = 0.3
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_INDIAN = 
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 6
+	second_amount = 50
+	
+	special_troops = war_elephants
+
+	hire_cost = 100
+	
+	maintenance_multiplier = 0.625
+	
+	potential = {
+		is_nomadic = yes
+		capital_scope = {
+			region = world_india
+		}
+	}
+}
+
+HORDE_RETTYPE_DESERT = {
+	first_type = 3
+	first_amount = 100
+	second_type = 6
+	second_amount = 150
+	
+	special_troops = camel_cavalry
+	
+	hire_cost = 50
+	
+	maintenance_multiplier = 0.416
+	
+	potential = {
+		is_nomadic = yes
+		capital_scope = {
+			terrain = desert
+		}
+	}
+}
+
+HORDE_RETTYPE_EUROPE = {
+	first_type = 4
+	first_amount = 250
+	
+	hire_cost = 100
+	
+	maintenance_multiplier = 0.37
+	
+	potential = {
+		is_nomadic = yes
+		capital_scope = {
+			OR = {
+				region = world_europe_west
+				region = world_europe_south
+			}
+		}
+	}
+}

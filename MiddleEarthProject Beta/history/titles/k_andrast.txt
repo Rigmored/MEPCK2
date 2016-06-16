@@ -2,6 +2,11 @@
 	law = agnatic_succession
 	law = succ_primogeniture
 	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 8343.1.1=
 {
@@ -274,6 +279,14 @@ liege = e_gondor
 11367.1.1=
 {
 holder =  1366 # Harucar
+law = agnatic_succession
+	law = succ_primogeniture
+	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 11419.1.1=
 {

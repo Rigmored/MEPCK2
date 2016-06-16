@@ -1,0 +1,19 @@
+#Tharb Gelion
+
+# County Title
+title = c_tharb_gelion
+
+# Settlements
+max_settlements = 3
+
+b_tharb_gelion = castle
+b_minas_govad = castle
+b_ost_i_govad = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

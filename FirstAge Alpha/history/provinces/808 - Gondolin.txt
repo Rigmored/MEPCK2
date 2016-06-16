@@ -1,0 +1,19 @@
+#Gondolin itself
+
+# County Title
+title = c_gondolin
+
+# Settlements
+max_settlements = 7
+
+b_tower_turgon = castle
+b_gar_ainion = city
+b_fountain_south = city
+b_arch_ingwe = city
+b_main_gate = castle
+b_amon_gwareth = castle
+b_caragdur = castle
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

@@ -10,16 +10,16 @@ title = c_kyzilkum
 # Settlements
 max_settlements = 4
 
-b_kyzilkum = castle
-b_mebeth = city
+#b_kyzilkum = castle
+#b_mebeth = city
 #b_lakaor = city
 #b_sapedh = city
 
 # Misc
-8222.1.1 = {
+
 culture = culture_variags
 religion = religion_easterlings
-}
+
 
 10345.1.1 = { 
 culture = culture_wilderness

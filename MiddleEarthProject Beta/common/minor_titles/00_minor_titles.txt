@@ -4,7 +4,8 @@
 ########################################################
 #	grant_limit: Max number of holders.
 #	realm_in_name: Append the name of the country after the title (Queen [of Sweden])
-#	allow: conditions for the character to hold the title
+#	allowed_to_hold: conditions for the character to hold the title
+#	allowed_to_grant: conditions for a ruler to grant the title
 #	regent: This is the title for regents (not really "minor")
 #	gain_effect: fires when the title is granted
 #	lose_effect: fires when a title is lost if dismissal_trigger evaluates to false
@@ -31,11 +32,37 @@ title_regent = {
 	message = yes
 }
 
+title_appointed_regent = {
+	dignity = 0.9
+	grant_limit = 1
+	opinion_effect = 20
+	revoke_allowed = yes
+
+	monthly_salary = 0.05
+	monthly_prestige = 0.02
+
+	allowed_to_hold = {
+		is_adult = yes
+		prisoner = no
+		has_regent = no
+	}
+	
+	allowed_to_grant = {
+		has_regent = no
+	}
+
+	gain_effect = {
+	}
+
+	lose_effect = {
+	}
+}
+
 title_ruler_consort = {
 	dignity = 0.88
 	show_as_title = yes
 	realm_in_name = yes
-	spouse_context = yes # Title name as if the other gender version of the spouse's
+	spouse_context = yes # Title name as if the other gender version of the spouse's ruler title
 	revoke_allowed = no
 	
 	monthly_salary = 0.1
@@ -89,6 +116,7 @@ title_prince = {
 	show_as_title = yes
 	realm_in_name = yes
 	revoke_allowed = no
+	
 	monthly_salary = 0.05
 	monthly_prestige = 0.01
 	
@@ -100,42 +128,91 @@ title_prince = {
 	message = no
 }
 
-# Not currently in use
+# Pagan consort
 title_courtesan = {
 	dignity = 0.05
 	realm_in_name = yes
 	revoke_allowed = no
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.01
+	
 	gain_effect = {
 	}
 	lose_effect = {
 	}
 
 	message = no
+}
+
+# Commander, granted via its own interaction, so very special
+title_commander = {
+	is_high_prio = yes
+	
+	attribute = martial
+	dignity = 0.05
+	opinion_effect = 10
+	realm_in_name = yes
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.005
+	
+	allowed_to_hold = {
+	
+		AND = {
+			is_female = no
+			is_adult = yes
+		}
+	
+		prisoner = no
+		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+	
+	message = yes
 }
 
 #######################################
 # SOFT: GRANTABLE - FULLY MODDABLE
 #######################################
 
-
-## Rohan Minor Titles ##
-
-title_firstmarshal = {
-	dignity = 1.0
-	show_as_title = yes
+title_court_jester = {
+	dignity = 0.01
 	realm_in_name = yes
 	grant_limit = 1
-	opinion_effect = 15
+	opinion_effect = -10
 	
-	monthly_salary = 0.4
-	monthly_prestige = 0.4
+	monthly_salary = 0.02
+	monthly_prestige = -0.01
 	
-	allow = {
-		FROM = {
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		NOT = { has_character_flag = guru }
+	}
+	
+	allowed_to_grant = {
+		OR = {
 			is_feudal = yes
+			is_tribal = yes
+		}
+		primary_title = {
 			OR = {
-				has_landed_title = k_rohan
+				tier = king
+				tier = emperor
 			}
+		}
+		OR = {
+			religion_group = religion_group_eruhini
+			religion_group = religion_group_khazad
+			religion_group = religion_group_eldar
+			religion_group = religion_group_enyd
 		}
 	}
 	
@@ -143,25 +220,29 @@ title_firstmarshal = {
 	}
 	lose_effect = {
 	}
-	
-	message = no
+
+	message = yes
 }
-title_secondmarshal = {
-	dignity = 1.0
-	show_as_title = yes
+title_cupbearer = {
+	dignity = 0.1
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 15
 	
-	monthly_salary = 0.3
-	monthly_prestige = 0.3
+	monthly_salary = 0.05
+	monthly_prestige = 0.006
 	
-	allow = {
-		FROM = {
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		is_female = no
+	}
+	
+	allowed_to_grant = {
+		OR = {
 			is_feudal = yes
-			OR = {
-				has_landed_title = k_rohan
-			}
+			is_tribal = yes
 		}
 	}
 	
@@ -169,260 +250,6 @@ title_secondmarshal = {
 	}
 	lose_effect = {
 	}
-	
-	message = no
-}
-title_thirdmarshal = {
-	dignity = 1.0
-	show_as_title = yes
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 15
-	
-	monthly_salary = 0.3
-	monthly_prestige = 0.3
-	
-	allow = {
-		FROM = {
-			is_feudal = yes
-			OR = {
-				has_landed_title = k_rohan
-			}
-		}
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-	
-	message = no
-}
-title_kingcouncillor = {
-	dignity = 0.9
-	show_as_title = yes
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 15
-	
-	monthly_salary = 0.2
-	monthly_prestige = 0.2
-	
-	allow = {
-		FROM = {
-			is_feudal = yes
-			OR = {
-				has_landed_title = k_rohan
-			}
-		}
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-	
-	message = no
-}
 
-title_master_of_the_horse = {
-	dignity = 0.9
-	show_as_title = yes
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 15
-	
-	monthly_salary = 0.2
-	monthly_prestige = 0.2
-	
-	allow = {
-		FROM = {
-			is_feudal = yes
-			OR = {
-				has_landed_title = k_rohan
-			}
-		}
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-	
-	message = no
-}
-
-
-## Mordor Minor Titles ##
-
-title_LieutenantofDolGuldur = {
-	dignity = 1.0
-	show_as_title = yes
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 15
-	
-	monthly_salary = 0.4
-	monthly_prestige = 0.4
-	
-	allow = {
-		FROM = {
-			is_feudal = yes
-			OR = {
-				has_landed_title = e_mordor
-			}
-		}
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-	
-	message = no
-}
-title_masterofslaves = {
-	dignity = 0.9
-	show_as_title = yes
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 15
-	
-	monthly_salary = 0.1
-	monthly_prestige = 0.1
-	
-	allow = {
-		FROM = {
-			is_feudal = yes
-			OR = {
-				has_landed_title = e_mordor
-			}
-		}
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-	
-	message = no
-}
-
-## Hobbit Minor Titles ##
-
-title_shirrifs = {
-    dignity = 1.0
-    show_as_title = yes
-    realm_in_name = yes
-    grant_limit = 12
-    opinion_effect = 15
-    
-    monthly_salary = 0.5
-    monthly_prestige = 0.3
-    
-    allow = {
-        is_adult = yes
-        is_female = no
-        FROM = {
-            is_feudal = yes
-            primary_title = {
-                OR = {
-                    tier = king
-                    tier = emperor
-                }
-            }
-            OR = {
-                religion_group = religion_group_periannath
-            }
-        }
-        OR = {
-            religion_group = religion_group_periannath
-        }
-
-    }
-    
-    gain_effect = {
-    }
-    lose_effect = {
-    }
-
-    message = no
-}
-
-title_postmaster = {
-    dignity = 1.0
-    show_as_title = yes
-    realm_in_name = yes
-    grant_limit = 1
-    opinion_effect = 15
-    
-    monthly_salary = 1.5
-    monthly_prestige = 0.3
-    
-    allow = {
-        is_adult = yes
-        is_female = no
-        FROM = {
-            is_feudal = yes
-            primary_title = {
-                OR = {
-                    tier = king
-                    tier = emperor
-                }
-            }
-            OR = {
-                religion_group = religion_group_periannath
-            }
-        }
-        OR = {
-            religion_group = religion_group_periannath
-        }
-
-    }
-    
-    gain_effect = {
-    }
-    lose_effect = {
-    }
-
-    message = no
-}
-
-title_matriarch = {
-    dignity = 1.0
-    show_as_title = yes
-    realm_in_name = yes
-    revoke_allowed = no
-    opinion_effect = 25
-    
-    monthly_salary = 1.0
-    monthly_prestige = 0.9
-    
-    allow = {
-        is_adult = yes
-        is_female = yes
-        ROOT = { is_close_relative = FROM }
-        FROM = {
-            is_feudal = yes
-            primary_title = {
-                OR = {
-                    tier = king
-                    tier = emperor
-                }
-            }
-            OR = {
-                religion_group = religion_group_periannath
-            }
-        }
-        OR = {
-            religion_group = religion_group_periannath
-        }
-    }
-    
-    gain_effect = {
-    }
-    lose_effect = {
-    }
-    
-    message = no
+	message = yes
 }

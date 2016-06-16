@@ -18,11 +18,16 @@ narrative_event = {
 			tier = DUKE
 		}
 		NOT = { has_character_flag = gandalfinrealm }
+		any_playable_ruler = {
+			any_courtier = {
+				has_character_flag = gandalf
+				age = 1
+				prisoner = no
+			}
+		}
 	}
 	
-	mean_time_to_happen = {
-		months = 20
-	}	
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAgandalf.1 ## His help will be appreciate !
@@ -85,7 +90,7 @@ narrative_event = {
 					age = 1
 					prisoner = no
 				}
-				move_character = FROM
+				move_character = ROOT
 			}
 		}
 		set_character_flag = gandalfinrealm
@@ -175,9 +180,7 @@ character_event = {
 		NOT = { has_character_flag = coming_of_gandalf }
 	}
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAgandalf.2 ## Good.

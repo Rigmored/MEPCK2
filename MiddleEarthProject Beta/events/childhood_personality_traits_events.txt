@@ -527,6 +527,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		religion_group = christian
 		NOT = { personality_traits = 5 }
 		NOT = { trait = diligent }
 		NOT = { trait = slothful }
@@ -1660,6 +1661,9 @@ character_event = {
 	trigger = {
 		NOT = {
 			religion_group = muslim
+		}
+		NOT = {
+			religion_group = indian_group
 		}
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
@@ -3176,6 +3180,11 @@ character_event = {
 	option = {
 		name = "EVTOPTA1965"
 		add_trait = cruel
+		if = {
+			limit = { religion = jain }
+			piety = -20
+			custom_tooltip = { text = jain_ahimsa_tooltip }
+		}
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -3336,7 +3345,10 @@ character_event = {
 		has_guardian = yes
 		num_traits = 4
 		trait = homosexual
-		religion_group = muslim
+		OR = {
+			religion_group = muslim
+			religion_group = indian_group
+		}
 	}
 
 	mean_time_to_happen = {
@@ -3487,14 +3499,23 @@ character_event = {
 	picture = "GFX_evt_child_play"
 	
 	max_age = 5
+	prisoner = no
 
 	is_triggered_only = yes
 	
 	trigger = {
 		NOT = { trait = stutter }
-		father = { is_alive = yes }
+		father = {
+			is_alive = yes
+			employer = {
+				ROOT = {
+					employer = {
+						character = PREVPREV
+					}
+				}
+			}
+		}
 		NOT = { personality_traits = 5 }
-
 	}
 	
 	weight_multiplier = {
@@ -3578,12 +3599,22 @@ character_event = {
 	picture = "GFX_evt_child_play"
 	
 	max_age = 6
+	prisoner = no
 
 	is_triggered_only = yes
 	
 	trigger = {
 		NOT = { trait = trusting }
-		father = { is_alive = yes }
+		father = {
+			is_alive = yes
+			employer = {
+				ROOT = {
+					employer = {
+						character = PREVPREV
+					}
+				}
+			}
+		}
 		NOT = { personality_traits = 5 }
 	
 	}
@@ -3672,12 +3703,22 @@ character_event = {
 	picture = "GFX_evt_child_play"
 	
 	max_age = 6
+	prisoner = no
 
 	is_triggered_only = yes
 	
 	trigger = {
 		NOT = { trait = trusting }
-		father = { is_alive = yes }
+		father = {
+			is_alive = yes
+			employer = {
+				ROOT = {
+					employer = {
+						character = PREVPREV
+					}
+				}
+			}
+		}
 		NOT = { personality_traits = 5 }
 	}
 	
@@ -3765,12 +3806,22 @@ character_event = {
 	picture = "GFX_evt_child_play"
 	
 	max_age = 6
+	prisoner = no
 
 	is_triggered_only = yes
 	
 	trigger = {
 		NOT = { trait = wroth }
-		father = { is_alive = yes }
+		father = {
+			is_alive = yes
+			employer = {
+				ROOT = {
+					employer = {
+						character = PREVPREV
+					}
+				}
+			}
+		}
 		NOT = { personality_traits = 5 }
 	}
 	
@@ -3859,12 +3910,22 @@ character_event = {
 	picture = "GFX_evt_child_play"
 	
 	max_age = 6
+	prisoner = no
 
 	is_triggered_only = yes
 	
 	trigger = {
 		NOT = { trait = greedy }
-		father = { is_alive = yes }
+		father = {
+			is_alive = yes
+			employer = {
+				ROOT = {
+					employer = {
+						character = PREVPREV
+					}
+				}
+			}
+		}
 		NOT = { personality_traits = 5 }
 	}
 	
@@ -3953,13 +4014,23 @@ character_event = {
 	
 	min_age = 6
 	max_age = 11
+	prisoner = no
 
 	is_triggered_only = yes
 	
 	trigger = {
 		NOT = { is_abroad = yes }
-		father = { is_alive = yes }
-		mother = { is_alive = no }
+		father = {
+			is_alive = yes
+			employer = {
+				ROOT = {
+					employer = {
+						character = PREVPREV
+					}
+				}
+			}
+		}
+		mother_even_if_dead = { is_alive = no }
 		NOT = { trait = bastard }
 		NOT = { personality_traits = 5 }
 	}
@@ -4377,7 +4448,7 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		religion_group = christian
+		#religion_group = christian
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
 		NOT = { personality_traits = 5 }
@@ -5181,6 +5252,7 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
+		NOT = { religion_group = indian_group }
 		NOT = { trait = lustful }
 		NOT = { trait = chaste }
 		NOT = { trait = temperate }
@@ -5278,6 +5350,11 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = jewish_group
+		}
 		NOT = { trait = cynical }
 		NOT = { trait = craven }
 		NOT = { trait = brave }
@@ -5392,6 +5469,10 @@ character_event = {
 	
 	weight_multiplier = {
 		days = 1
+		modifier = {
+			religion = cathar
+			factor = 3
+		}
 		modifier = {
 			trait = clubfooted
 			factor = 0.8
@@ -6404,7 +6485,7 @@ character_event = {
 	}
 }
 
-# Too curious a child: Guradian finds him/her in the highest tower
+# Too curious a child: Guardian finds him/her in the highest tower
 character_event = {
 	id = 1932
 	desc = "EVTDESC1932"

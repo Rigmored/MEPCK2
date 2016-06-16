@@ -20,9 +20,7 @@ narrative_event = {
 		NOT = { has_global_flag = gondorreclaimrohan }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAindarnorgondor.0 # I'll protect the independance of Rohan.

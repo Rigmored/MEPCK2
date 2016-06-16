@@ -5,7 +5,7 @@ on_fellowshipquest = { # Part of the Fellowship of the Ring
 	cannot_marry = yes
 	cached = yes
 	monthly_character_prestige = 10.00
-	fertility = -100.0
+	fertility = -5.0
 }
 
 saruman_spell = {
@@ -19,7 +19,7 @@ saruman_spell = {
 	general_opinion = -50
 	health = 10 ##Because Saruman wants to keep his zombie puppet alive, and we don't want Theoden to die too soon##
 	incapacitating = yes
-	fertility = -100.0
+	fertility = -5.0
 	cannot_marry = yes
 	ai_ambition = -100 #Influences the AI's desire for expansion, primarily affecting the likelihood of wanting to declare war.
     ai_rationality = -50 #Influences the way the AI makes choices, such as whether the AI will compare its own levy size with its enemy levy size if it wants to go to war.
@@ -39,7 +39,7 @@ vow_of_cerin_amroth = { # Aragorn and Arwen only
 	customizer = no
 	cached = yes
 	cannot_marry = yes
-	fertility = -50.0
+	fertility = -5.0
 	random = no
 	monthly_character_prestige = 5.00
 }
@@ -48,7 +48,7 @@ love_amroth = { # Amroth and Nimrodel only
 	customizer = no
 	cached = yes
 	cannot_marry = yes
-	fertility = -50.0
+	fertility = -5.0
 	random = no
 	monthly_character_prestige = 5.00
 }
@@ -60,17 +60,16 @@ story_amroth = { # Amroth and Nimrodel are travelling
 	cannot_marry = yes
 	cached = yes
 	monthly_character_prestige = 10.00
-	fertility = -100.0
+	fertility = -5.0
 }
 
 journey_to_valinor = { # Journey to Valinor
 	customizer = no
+	fertility = -5.0
 	random =no
 	pilgrimage = yes # Will need a regent, but can still be guardian to children
 	cannot_marry = yes
 	cached = yes
-	monthly_character_prestige = 10.00
-	fertility = -100.0
 }
 
 at_east = { # The Character is in the unknown lands of the East
@@ -97,5 +96,26 @@ ringsearch = { # The Character is searching for the ring but not part of the fel
 	pilgrimage = yes # Will need a regent, but can still be guardian to children
 	cannot_marry = yes
 	cannot_inherit = yes
+	cached = yes
+}
+
+erebor_founder = {
+	customizer = no
+	monthly_character_prestige = 1.0
+	diplomacy = 1
+	same_religion_opinion = 5
+}
+erebor_gem_mine = {
+	stewardship = 1
+	same_religion_opinion = 5
+	customizer = no
+	unique = yes
+	cached = yes
+}
+mithril_found = {
+	stewardship = 2
+	same_religion_opinion = 5
+	customizer = no
+	unique = yes
 	cached = yes
 }

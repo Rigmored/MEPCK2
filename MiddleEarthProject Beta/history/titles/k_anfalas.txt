@@ -2,6 +2,11 @@
 	law = agnatic_succession
 	law = succ_primogeniture
 	law = centralization_2
+    law = crown_authority_2
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
 }
 7750.1.1=
 {
@@ -104,7 +109,7 @@ holder =  1132 # Eämbar
 {
 holder =  1133 # Zimrazôr
 }
-9790.1.1=
+9883.1.1=
 {
 holder =  1134 # Êruhil
 }

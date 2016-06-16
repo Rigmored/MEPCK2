@@ -1,0 +1,19 @@
+#Tol Sirion
+
+# County Title
+title = c_tol_sirion
+
+# Settlements
+max_settlements = 3
+
+b_tol_sirion = castle
+b_minas_tirith = castle
+b_ostitir = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

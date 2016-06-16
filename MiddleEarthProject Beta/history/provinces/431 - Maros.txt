@@ -1,10 +1,10 @@
-# 431 - c_maros
+# 431 - Marös
 
 # County Title
 title = c_maros
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
 b_maros  = castle
 b_maroscastle  = castle
@@ -12,7 +12,6 @@ b_maroscity  = city
 b_marostemple  = city
 
 # Misc
-8222.1.1 = {
+
 culture = culture_black_numenorean
 religion = religion_black_numenorean
-}

@@ -1,13 +1,13 @@
 ## Sindar ##
 
 4724.1.1={
-holder=3319
+holder=3400
 }
 4900.1.1={
-holder=3320
+holder=3401
 }
 9587.1.1={
-holder=3321
+holder=3402
 }
 
 

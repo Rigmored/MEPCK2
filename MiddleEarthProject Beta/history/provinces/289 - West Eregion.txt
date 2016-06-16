@@ -12,9 +12,6 @@ max_settlements = 5
 b_west_eregion = castle
 b_west_eregiontemple = city
 
-
-# Misc
-8222.1.1 = {
+#Misc
 culture = culture_wilderness
 religion = religion_wilderness
-}

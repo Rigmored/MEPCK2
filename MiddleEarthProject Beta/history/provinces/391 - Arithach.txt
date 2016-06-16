@@ -7,15 +7,12 @@ title = c_arithach
 max_settlements = 5
 
 b_arithach = tribal
-b_tungol = tribal
-b_weosend = tribal
+b_tungol = city
+b_weosend = city
 #b_aernan = city
 #b_winterwilde = city
 
 # Misc
 culture = culture_dunlending
 religion = religion_haldadian
-8222.1.1 = {
-culture = culture_dunlending
-religion = religion_haldadian
-}
+

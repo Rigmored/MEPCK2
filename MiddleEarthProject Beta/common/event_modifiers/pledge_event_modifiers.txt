@@ -39,3 +39,11 @@ pledge_building = {
 	levy_size = -0.5
 	levy_reinforce_rate = -10.0
 }
+
+has_pledge_attacker = {
+	icon = 15
+}
+
+has_pledge_defender = {
+	icon = 15
+}

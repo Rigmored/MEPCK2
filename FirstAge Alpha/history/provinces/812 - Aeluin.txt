@@ -1,0 +1,15 @@
+#Aeluin
+
+# County Title
+title = c_aeluin
+
+# Settlements
+max_settlements = 3
+
+b_nin_aeluin = castle
+b_minas_aeluin = castle
+b_ostluin = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

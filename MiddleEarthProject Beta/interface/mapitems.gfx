@@ -1,5 +1,19 @@
 objectTypes = {
 		
+	### MEP #######################################################	
+	
+	# pdxmesh = {
+		# name = "orthanc_mesh"
+		# file = "gfx/models/other/500.mesh"
+		# scale = 0.1f
+	# }
+		
+	pdxmesh = {
+		name = "tirith_mesh"
+		file = "gfx/models/other/tirith.mesh"
+		scale = 0.01f
+	}
+	
 	### Misc ######################################################	
 		
 	EMFXActorType = {
@@ -435,7 +449,6 @@ objectTypes = {
 		scale = 0.9f
 		use_animation = no
 	}
-
 	
 	EMFXActorType = {
 		name = "indiangfx_emperor_shield"

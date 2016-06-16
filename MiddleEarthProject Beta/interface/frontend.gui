@@ -113,7 +113,7 @@ guiTypes = {
 		
 		### era windows
 		windowType = {
-			name = "dark_ages_window"
+			name = "era_window_1"
 			position = { x=75 y=121 }
 			moveable = 0
 			fullScreen = no
@@ -142,7 +142,7 @@ guiTypes = {
 				name = "label"
 				position = { x = 10 y = 9 }
 				font = "vic_18"
-				text = "DARK_AGES"
+				text = ""
 				maxWidth = 150
 				maxHeight = 20
 				fixedsize = yes
@@ -161,7 +161,7 @@ guiTypes = {
 		}
 		###
 		windowType = {
-			name = "viking_era_window"
+			name = "era_window_2"
 			position = { x=256 y=121 }
 			moveable = 0
 			fullScreen = no
@@ -190,7 +190,7 @@ guiTypes = {
 				name = "label"
 				position = { x = 10 y = 9 }
 				font = "vic_18"
-				text = "VIKING_ERA"
+				text = ""
 				maxWidth = 150
 				maxHeight = 20
 				fixedsize = yes
@@ -209,7 +209,7 @@ guiTypes = {
 		}
 		###
 		windowType = {
-			name = "early_med_window"
+			name = "era_window_3"
 			position = { x=437 y=121 }
 			moveable = 0
 			fullScreen = no
@@ -238,7 +238,7 @@ guiTypes = {
 				name = "label"
 				position = { x = 10 y = 9 }
 				font = "vic_18"
-				text = "EARLY_MED"
+				text = ""
 				maxWidth = 150
 				maxHeight = 20
 				fixedsize = yes
@@ -257,7 +257,7 @@ guiTypes = {
 		}
 		###
 		windowType = {
-			name = "high_med_window"
+			name = "era_window_4"
 			position = { x=618 y=121 }
 			moveable = 0
 			fullScreen = no
@@ -286,7 +286,7 @@ guiTypes = {
 				name = "label"
 				position = { x = 10 y = 9 }
 				font = "vic_18"
-				text = "HIGH_MED"
+				text = ""
 				maxWidth = 150
 				maxHeight = 20
 				fixedsize = yes
@@ -305,7 +305,7 @@ guiTypes = {
 		}
 		###
 		windowType = {
-			name = "late_med_window"
+			name = "era_window_5"
 			position = { x=799 y=121 }
 			moveable = 0
 			fullScreen = no
@@ -334,7 +334,7 @@ guiTypes = {
 				name = "label"
 				position = { x = 10 y = 9 }
 				font = "vic_18"
-				text = "LATE_MED"
+				text = ""
 				maxWidth = 150
 				maxHeight = 20
 				fixedsize = yes
@@ -365,8 +365,8 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 			name = "era_characters"
-			position = { x=118 y=370 }
-			size = { x=1010 y=32 }
+			position = { x=119 y=370 }
+			size = { x=930 y=32 }
 			format = left
 		}
 		
@@ -1110,7 +1110,7 @@ guiTypes = {
 			{
 				name ="left_window"
 				backGround=""
-				position = { x=0 y =-18}	
+				position = { x=0 y =-32}	
 				size = { x=420 y =500}
 				moveable = 0
 				dontRender = ""
@@ -1298,7 +1298,7 @@ guiTypes = {
 			{
 				name ="right_window"
 				backGround=""
-				position = { x=-13 y =-18}	
+				position = { x=-13 y =-32}	
 				size = { x=420 y =500}
 				moveable = 0
 				dontRender = ""
@@ -1539,7 +1539,7 @@ guiTypes = {
 					}
 					iconType =
 					{
-						name ="player_shield_crown"
+						name ="player_crown"
 						spriteType = "GFX_shield_crown_strip_medium"
 						position = { x= 16 y = 150 }
 						Orientation = "UPPER_LEFT"
@@ -1646,7 +1646,7 @@ guiTypes = {
 						textureFile = ""
 						font = "vic_18_black"
 						borderSize = {x = 0 y = 0}
-						text = "FE_WARS"	
+						text = "FE_DIPLOMACY"	
 						maxWidth = 180
 						maxHeight = 20	
 						format = left
@@ -4776,72 +4776,90 @@ guiTypes = {
 			
 				guiButtonType = 
 				{
-					position = { x= -129 y = 69 }
+					position = { x= -127 y = 69 }
 					name = "mapmode_terrain"
 					quadTextureSprite ="GFX_mapmode_terrain"
 					Orientation = "CENTER_UP"
 					pdx_tooltip = "MAPMODE_TERRAIN"
 					pdx_tooltip_delayed = "MAPMODE_TERRAIN_DESC"
+					shortcut = "q"
 				}
 				
 				guiButtonType = 
 				{
-					position = { x= -97 y = 69 }
+					position = { x= -99 y = 69 }
 					name = "mapmode_realms"
 					quadTextureSprite ="GFX_mapmode_realms"
 					Orientation = "CENTER_UP"
 					pdx_tooltip = "MAPMODE_REALM"
 					pdx_tooltip_delayed = "MAPMODE_REALM_DESC"
+					shortcut = "w"
 				}
 				
 				guiButtonType = 
 				{
-					position = { x= -65 y = 69 }
+					position = { x= -71 y = 69 }
 					name = "mapmode_defacto_counties"
 					quadTextureSprite ="GFX_mapmode_counties"
 					Orientation = "CENTER_UP"
 					pdx_tooltip ="MAPMODE_DEFACTO_COUNTIES"
 					pdx_tooltip_delayed = "MAPMODE_DEFACTO_COUNTIES_DESC"
+					shortcut = "f"
 				}				
 				
 				guiButtonType = 
 				{
-					position = { x= -33 y = 69 }
+					position = { x= -43 y = 69 }
 					name = "mapmode_defacto_duchies"
 					quadTextureSprite ="GFX_mapmode_duchies"
 					Orientation = "CENTER_UP"
 					pdx_tooltip ="MAPMODE_DEFACTO_DUCHIES"
 					pdx_tooltip_delayed = "MAPMODE_DEFACTO_DUCHIES_DESC"
+					shortcut = "i"
 				}
 				
 				guiButtonType = 
 				{
-					position = { x= -1 y = 69 }
+					position = { x= -15 y = 69 }
 					name = "mapmode_defacto_kingdoms"
 					quadTextureSprite ="GFX_mapmode_kingdoms"
 					Orientation = "CENTER_UP"
 					pdx_tooltip ="MAPMODE_DEFACTO_KINGDOMS"
 					pdx_tooltip_delayed = "MAPMODE_DEFACTO_KINGDOMS_DESC"
+					shortcut = "o"
 				}
 				
 				guiButtonType = 
 				{
-					position = { x= 31 y = 69 }
+					position = { x= 13 y = 69 }
 					name = "mapmode_religion"
 					quadTextureSprite ="GFX_mapmode_religion"
 					Orientation = "CENTER_UP"
 					pdx_tooltip ="MAPMODE_RELIGION"
 					pdx_tooltip_delayed = "MAPMODE_RELIGION_DESC"
+					shortcut = "r"
 				}
 				
 				guiButtonType = 
 				{
-					position = { x= 63 y = 69 }
+					position = { x= 41 y = 69 }
 					name = "mapmode_culture"
 					quadTextureSprite ="GFX_mapmode_culture"
 					Orientation = "CENTER_UP"
 					pdx_tooltip ="MAPMODE_CULTURE"
 					pdx_tooltip_delayed = "MAPMODE_CULTURE_DESC"
+					shortcut = "t"
+				}
+				
+				guiButtonType = 
+				{
+					position = { x= 69 y = 69 }
+					name = "mapmode_governments"
+					quadTextureSprite ="GFX_mapmode_governments"
+					Orientation = "CENTER_UP"
+					pdx_tooltip ="MAPMODE_GOVERNMENTS"
+					pdx_tooltip_delayed = "MAPMODE_GOVERNMENTS_DESC"
+					shortcut = "h"
 				}
 				
 				### show only for multiplayer.
@@ -4849,12 +4867,12 @@ guiTypes = {
 				{
 					name ="players_mapmode_bg"
 					spriteType = "GFX_lobby_players_mapmode_bg"
-					position = { x= 93 y = 64 }
+					position = { x= 97 y = 64 }
 					Orientation = "CENTER_UP"
 				}
 				guiButtonType =
 				{
-					position = { x= 95 y = 69 }
+					position = { x= 97 y = 69 }
 					name = "mapmode_players"
 					quadTextureSprite ="GFX_mapmode_players"
 					Orientation = "CENTER_UP"
@@ -4951,6 +4969,30 @@ guiTypes = {
 					Orientation = "LOWER_LEFT"
 				}
 				
+				iconType = 
+				{
+					name ="WOL_DLC"
+					spriteType = "GFX_dlc_icon_way_of_life"
+					position = { x= 302 y = -218 }
+					Orientation = "LOWER_LEFT"
+				}
+				
+				iconType = 
+				{
+					name ="HL_DLC"
+					spriteType = "GFX_dlc_icon_horse_lords"
+					position = { x= 336 y = -218 }
+					Orientation = "LOWER_LEFT"
+				}
+				
+				iconType = 
+				{
+					name ="ZE_DLC"
+					spriteType = "GFX_dlc_icon_zeus"
+					position = { x= 370 y = -218 }
+					Orientation = "LOWER_LEFT"
+				}
+				
 				editBoxType = 
 				{
 					position = { x = 3 y = -38 }
@@ -5014,10 +5056,10 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "observe_button"
-					position = { x = -236 y = -210 }
-					quadTextureSprite ="GFX_big_button_220"	
+					position = { x = -226 y = -125 }
+					quadTextureSprite ="GFX_big_button_220_thin"	
 					buttonText = "OBSERVE"
-					buttonFont = "vic_22"
+					buttonFont = "vic_18"
 					Orientation = "LOWER_RIGHT"
 					clicksound = menu_click
 				}				
@@ -5025,7 +5067,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "play_button"
-					position = { x = -236 y = -110 }
+					position = { x = -226 y = -92 }
 					quadTextureSprite ="GFX_big_button_220"	
 					buttonText = "PLAY"
 					buttonFont = "vic_22"
@@ -5036,10 +5078,10 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "back_button"
-					position = { x = -236 y = -60 }
-					quadTextureSprite ="GFX_big_button_220"	
+					position = { x = -226 y = -43 }
+					quadTextureSprite ="GFX_big_button_220_thin"	
 					buttonText = "FE_BACK"
-					buttonFont = "vic_22"
+					buttonFont = "vic_18"
 					Orientation = "LOWER_RIGHT"
 					clicksound = menu_click
 				}			
@@ -5963,7 +6005,7 @@ guiTypes = {
 
 	positionType = {
 		name = "warshield_position"
-		position = { x = -130 y = 355 }
+		position = { x = -100 y = 341 }
 	}
 
 	positionType = {
@@ -5973,7 +6015,7 @@ guiTypes = {
 
 	positionType = {
 		name = "warshield_offset"
-		position = { x = 32 y = 00 }
+		position = { x = 28 y = 00 }
 	}
 
 	### connection log text
@@ -6203,6 +6245,16 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_112"	
 			buttonText = "IRONMAN_START"
 			buttonFont = "vic_18"
+		}
+		
+		guiButtonType = 
+		{
+			name = "continue"
+			position = { x = 140 y = 470 }
+			quadTextureSprite ="GFX_big_button_176"	
+			buttonText = "CONTINUE"
+			buttonFont = "vic_22"
+			clicksound = menu_click
 		}
 	}
 	

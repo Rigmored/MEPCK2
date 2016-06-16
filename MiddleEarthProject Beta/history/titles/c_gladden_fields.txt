@@ -122,18 +122,14 @@ holder = 8389 # Gundagol - nephew of Sméagol
 10900.1.1=
 {
 holder = 0 ## Only a barony remains occupied by Hobbits
+liege=0
 }
-
-11204.1.1=
+11322.1.1=
 {
-liege=k_anduin_vale
-holder =  338 # Beorn
-}
-11320.1.1=
-{
-holder =  339 # Grimbeorn the Old
+holder =  25038
+liege=0
 }
 11385.1.1=
 {
-holder =  340 # Beornward
+holder =  341 # Sterkist
 }

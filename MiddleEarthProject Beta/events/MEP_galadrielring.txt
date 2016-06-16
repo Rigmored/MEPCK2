@@ -4,314 +4,282 @@
 namespace = galadrielring
 
 ##She looks to bring moria under her control##
-	character_event = {
+character_event = {
     id = galadrielring.0
-    title = "High Queen"
-    desc = "With the ring, you are the most powerful elven ruler since the days of Feanor, Fingolfin, and Gil-Galad. You have surely earned the right to call yourself High Queen of the Elves!"
+    title = "EVTTITgaladrielring.0"
+    desc = "EVTDESCgaladrielring.0"
     picture = "GFX_war_at_north"
-	is_ruler = yes
+	only_rulers = yes
 	only_independent = yes
 
-		trigger = {
-		AND = {
+	trigger = {
 		OR = {
 			has_landed_title = d_lorien
 			has_landed_title = c_lorien
-			}	
-			dynasty = 3004
-			independent = yes
-			is_ruler = yes
-			is_female = yes
-			trait = ring
-			NOT = { has_character_flag = galadrielring0 }
-			}
-			}
+		}	
+		dynasty = 3004
+		is_female = yes
+		trait = ring
+		NOT = { has_character_flag = galadrielring0 }
+	}
 	
-		mean_time_to_happen = {
-		months = 1
-		}
+	is_triggered_only = yes
 		
-		option = {
-		name = "Send out riders. The elves must unite again."
+	option = {
+		name = "EVTOPTAgaladrielring.0"
 		set_character_flag = galadrielring0
+		activate_title = { title = e_noldor status = yes }
 		e_noldor = {
 			grant_title = ROOT
 		}	
 		any_independent_ruler = {
-		limit = { trait = elf }
-		character_event = { id = galadrielring.5 days = 14 }
+			limit = { trait = elf }
+			character_event = { id = galadrielring.5 days = 14 }
 		}
-		}
-		}
+	}
+}
 
 		
 ##She looks to bring moria under her control##
-	character_event = {
+character_event = {
     id = galadrielring.1
-    title = "Expand your Realm"
-    desc = "The Orcs of Moria have long been a threat, but now that you have the ring it is time to end it once and for all.  You should prepare your armies. This is just the beginning!"
+    title = "EVTTITgaladrielring.1"
+    desc = "EVTDESCgaladrielring.1"
     picture = "GFX_war_at_north"
-	is_ruler = yes
+	only_rulers = yes
 	only_independent = yes
 
-		trigger = {
-		AND = {
+	trigger = {
 		OR = {
 			has_landed_title = d_lorien
 			has_landed_title = c_lorien
-			}	
-			dynasty = 3004
-			independent = yes
-			is_ruler = yes
-			is_female = yes
-			trait = ring
-			NOT = { has_character_flag = galadrielring1 }
-			}
-			}
+		}	
+		dynasty = 3004
+		is_female = yes
+		trait = ring
+		NOT = { has_character_flag = galadrielring1 }
+	}
 	
-		mean_time_to_happen = {
-		months = 6
-		}
+	is_triggered_only = yes
 		
-		option = {
-		name = "The Age of the Orc is ending."
+	option = {
+		name = "EVTOPTAgaladrielring.1"
 		set_character_flag = galadrielring1
 		add_claim = c_moria
-		}
-		}
+	}
+}
 		
 ##She looks to bring the men of Anduin Vale under her control##
-	character_event = {
+character_event = {
     id = galadrielring.2
-    title = "Expand your Realm"
-    desc = "The men of Anduin Vale are under threat from the orcs of Gundabad. You should send your armies there to protect them, and organize their men for the future war against Sauron."
+    title = "EVTTITgaladrielring.2"
+    desc = "EVTDESCgaladrielring.2"
     picture = "GFX_war_at_north"
-	is_ruler = yes
+	only_rulers = yes
 	only_independent = yes
 
-		trigger = {
-		AND = {
+	trigger = {
 		OR = {
 			has_landed_title = d_lorien
 			has_landed_title = c_lorien
-			}	
-			dynasty = 3004
-			independent = yes
-			is_ruler = yes
-			is_female = yes
-			trait = ring
-			has_character_flag = galadrielring1
-			NOT = { has_character_flag = galadrielring2 }
-			year = 11370
-			}
-			}
+		}	
+		dynasty = 3004
+		is_female = yes
+		trait = ring
+		has_character_flag = galadrielring1
+		NOT = { has_character_flag = galadrielring2 }
+		year = 11370
+	}
 	
-		mean_time_to_happen = {
-		months = 12
-		}
+	is_triggered_only = yes
 		
-		option = {
-		name = "Let's hope they do not resist us too fiercely."
+	option = {
+		name = "EVTOPTAgaladrielring.2"
 		set_character_flag = galadrielring2
 		add_claim = k_anduin_vale
 		any_playable_ruler = {
-		character_event = { id = galadrielring.3 days = 7 }
+			character_event = { id = galadrielring.3 days = 7 }
  		}
-		}
-		}
+	}
+}
 		
-		##rulers are informed that Galadriel is moving in on Anduin Vale##
-			character_event = {
+##rulers are informed that Galadriel is moving in on Anduin Vale##
+character_event = {
     id = galadrielring.3
-    title = "A new Ring-Lord"
-    desc = "Rumors reach you that Galadriel has taken up the ring, and is preparing to move against the realm of Anduin vale, supposedly to protect them. Yet if her elven armies are opposed, will she use force to gain their allegiance?"
+    title = "EVTTITgaladrielring.3"
+    desc = "EVTDESCgaladrielring.3"
     picture = "GFX_shadows_coming"
-	is_ruler = yes
-
+	only_rulers = yes
 	is_triggered_only = yes
 	
 	option = {
-	name = "She better not use force!"
-	trigger = { trait = good_side }
+		name = "EVTOPTAgaladrielring.3"
+		trigger = { trait = good_side }
 	}
 	
 	option = {
-	name = "Galadriel has the ring? Interesting..."
+		name = "EVTOPTBgaladrielring.3"
 	}
 	
 	option = {
-	name = "Cursed elves!"
-	trigger = { trait = evil_side }
+		name = "EVTOPTCgaladrielring.3"
+		trigger = { trait = evil_side }
 	}
-	}
+}
 	
 	
-	##She looks to bring the woodsmen under her control##
-	character_event = {
+##She looks to bring the woodsmen under her control##
+character_event = {
     id = galadrielring.4
-    title = "Expand your Realm"
-    desc = "The woodsmen are under threat from the orcs of Dol Guldur. You should send your armies there to protect them, and organize their men for the future war against Sauron."
+    title = "EVTTITgaladrielring.4"
+    desc = "EVTDESCgaladrielring.4"
     picture = "GFX_war_at_north"
-	is_ruler = yes
+	only_rulers = yes
 	only_independent = yes
 
-		trigger = {
-		AND = {
+	trigger = {
 		OR = {
 			has_landed_title = d_lorien
 			has_landed_title = c_lorien
-			}	
-			dynasty = 3004
-			independent = yes
-			is_ruler = yes
-			is_female = yes
-			trait = ring
-			has_character_flag = galadrielring1
-			NOT = { has_character_flag = galadrielring4 }
-			year = 11372
-			}
-			}
+		}	
+		dynasty = 3004
+		is_female = yes
+		trait = ring
+		has_character_flag = galadrielring1
+		NOT = { has_character_flag = galadrielring4 }
+		year = 11372
+	}
 	
-		mean_time_to_happen = {
-		months = 12
-		}
+	is_triggered_only = yes
 		
-		option = {
-		name = "Let's hope they do not resist us too fiercely."
+	option = {
+		name = "EVTOPTAgaladrielring.4"
 		set_character_flag = galadrielring4
 		add_claim = k_woodsmen_mirkwood
 		any_playable_ruler = {
-		character_event = { id = galadrielring.8 days = 7 }
+			character_event = { id = galadrielring.8 days = 7 }
  		}
-		}
-		}
+	}
+}
 	
-	##the other elven rulers are asked to accept her high kingship - only mirkwood accepts##
-	character_event = {
+##the other elven rulers are asked to accept her high kingship - only mirkwood accepts##
+character_event = {
     id = galadrielring.5
-    title = "A new Ring-Lord"
-    desc = "Emissaries from Galadriel reach you. She has taken the title High Queen of the Elves, and asks for your allegiance. Together, you will set things right, and destroy Sauron and all evil creatures!"
+    title = "EVTTITgaladrielring.5"
+    desc = "EVTDESCgaladrielring.5"
     picture = "GFX_elf_meeting"
-	is_ruler = yes
+	only_rulers = yes
 
 	is_triggered_only = yes
 	
 
 	option = {
-	name = "Yes, we need to unite!"
-	trigger = {
-	ai = no
-	}
-	set_defacto_liege = FROM
-	FROM = { character_event = { id = galadrielring.6 days = 7 } }
+		name = "EVTOPTAgaladrielring.5"
+		trigger = { ai = no }
+		set_defacto_liege = FROM
+		FROM = { character_event = { id = galadrielring.6 days = 7 } }
 	}
 	
 	option = {
-	name = "No! The ring will corrupt her."
-	trigger = { ai = no }
-	FROM = { character_event = { id = galadrielring.7 days = 7 } }
+		name = "EVTOPTBgaladrielring.5"
+		trigger = { ai = no }
+		FROM = { character_event = { id = galadrielring.7 days = 7 } }
 	}
 	
-		option = {
-	name = "No! The ring will corrupt her."
-	FROM = { character_event = { id = galadrielring.7 days = 7 } }
+	option = {
+		name = "EVTOPTCgaladrielring.5"
+		FROM = { character_event = { id = galadrielring.7 days = 7 } }
 	}
-	}
+}
 
-	##galadriel gets positive reply##
-	character_event = {
+##galadriel gets positive reply##
+character_event = {
     id = galadrielring.6
-    title = "An Elf Lord Joins You"
-    desc = "We shall join you, Lady Galadriel, and together we shall secure a bright future for elvendom in Middle Earth forever. No other race shall oust us, not orc, nor man, nor Sauron himself!"
+    title = "EVTTITgaladrielring.6"
+    desc = "EVTDESCgaladrielring.6"
     picture = "GFX_elf_meeting"
-	is_ruler = yes
+	only_rulers = yes
 
 	is_triggered_only = yes
 	
 	option = {
-	name = "Excellent."
+		name = "EVTOPTAgaladrielring.6"
 	}
 
-	}
+}
 	
-	##galadriel gets negative reply##
-	character_event = {
+##galadriel gets negative reply##
+character_event = {
     id = galadrielring.7
-    title = "An Elf Lord Refuses"
-    desc = "Lady Galadriel, your will has turned to madness. The ring is all-together evil, and shall corrupt you. I will follow you no more than I would follow Sauron himself!"
+    title = "EVTTITgaladrielring.7"
+    desc = "EVTDESCgaladrielring.7"
     picture = "GFX_elf_meeting"
-	is_ruler = yes
+	only_rulers = yes
 
 	is_triggered_only = yes
 	
 	option = {
-	name = "Damn him!"
-	add_trait = wroth
+		name = "EVTOPTAgaladrielring.7"
+		add_trait = wroth
 	}
 
-	}
+}
 	
-		##rulers are informed that Galadriel is moving in on Anduin Vale##
-			character_event = {
+##rulers are informed that Galadriel is moving in on Anduin Vale##
+character_event = {
     id = galadrielring.8
-    title = "The new Ring-Lord"
-    desc = "Rumors reach you that Galadriel is now preparing to move against the woodsmen of Mirkwood, supposedly to protect them from Dol Guldur. Where will her conquests end?"
+    title = "EVTTITgaladrielring.8"
+    desc = "EVTDESCgaladrielring.8"
     picture = "GFX_shadows_coming"
-	is_ruler = yes
+	only_rulers = yes
 
 	is_triggered_only = yes
 	
 	option = {
-	name = "Let's hope she does not turn to darkness."
-	trigger = { trait = good_side }
+		name = "EVTOPTAgaladrielring.8"
+		trigger = { trait = good_side }
 	}
 	
 	option = {
-	name = "She better stay away from my borders!"
+		name = "EVTOPTBgaladrielring.8"
 	}
 	
 	option = {
-	name = "Cursed elves!"
-	trigger = { trait = evil_side }
+		name = "EVTOPTCgaladrielring.8"
+		trigger = { trait = evil_side }
 	}
-	}
+}
 	
-		##She looks to bring the mirkwood under her control##
-	character_event = {
+##She looks to bring the mirkwood under her control##
+character_event = {
     id = galadrielring.9
-    title = "Expand your Realm"
-    desc = "The wood elves of Mirkwood must be added to your growing realm before they are overwhelmed by their enemies. You should send your armies there to protect them, and organize their levies for the future war against Sauron."
+    title = "EVTTITgaladrielring.9"
+    desc = "EVTDESCgaladrielring.9"
     picture = "GFX_war_at_north"
-	is_ruler = yes
 	only_independent = yes
-
-		trigger = {
-		AND = {
+	only_rulers = yes
+	
+	trigger = {
 		OR = {
 			has_landed_title = d_lorien
 			has_landed_title = c_lorien
-			}	
+		}	
 		OR = {	
-		NOT = { any_vassal = { has_landed_title = k_mirkwood } }
-		NOT = { has_landed_title = k_mirkwood }
-			}
-			dynasty = 3004
-			independent = yes
-			is_ruler = yes
-			is_female = yes
-			trait = ring
-			NOT = { has_character_flag = galadrielring9 }
-			year = 11380
-			}
-			}
-	
-		mean_time_to_happen = {
-		months = 24
+			NOT = { any_vassal = { has_landed_title = k_mirkwood } }
+			NOT = { has_landed_title = k_mirkwood }
 		}
+		dynasty = 3004
+		is_female = yes
+		trait = ring
+		NOT = { has_character_flag = galadrielring9 }
+		year = 11380
+	}
+	
+	is_triggered_only = yes
 		
-		option = {
-		name = "Let's hope they do not resist us too fiercely."
+	option = {
+		name = "EVTOPTAgaladrielring.9"
 		set_character_flag = galadrielring9
 		add_claim = k_mirkwood
-		}
-		}
+	}
+}

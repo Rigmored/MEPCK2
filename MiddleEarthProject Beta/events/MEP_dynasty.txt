@@ -70,14 +70,6 @@ character_event = {
 			trait = pneumonic
 		}
 		modifier = {
-			factor = 0.8
-			trait = syphilitic
-		}
-		modifier = {
-			factor = 0.5
-			trait = leper
-		}
-		modifier = {
 			factor = 0.9
 			trait = wounded
 		}
@@ -364,14 +356,6 @@ character_event = {
 			trait = pneumonic
 		}
 		modifier = {
-			factor = 0.8
-			trait = syphilitic
-		}
-		modifier = {
-			factor = 0.5
-			trait = leper
-		}
-		modifier = {
 			factor = 0.9
 			trait = wounded
 		}
@@ -561,14 +545,6 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = pneumonic
-		}
-		modifier = {
-			factor = 0.8
-			trait = syphilitic
-		}
-		modifier = {
-			factor = 0.5
-			trait = leper
 		}
 		modifier = {
 			factor = 0.9

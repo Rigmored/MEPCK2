@@ -10,7 +10,6 @@ b_dol_ringwest = city
 b_nen_hilith = castle
 
 # Misc
-8222.1.1 = {
+
 culture = culture_broadbeam
 religion = religion_mahal
-}

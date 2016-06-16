@@ -6,13 +6,15 @@
 title = c_anghabar
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 
-b_anghabar = castle
-b_anghabar2 = city
+b_anghabar = castle		
+b_sellathir = city			
+b_sarlond = castle			
+b_toldil = city
+b_lond_totolin = city 
+				
 
 # Misc
-8222.1.1 = {
 culture = culture_gondorian
 religion = religion_dunedain
-}

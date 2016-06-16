@@ -26,8 +26,26 @@ character_event = {
 	hide_window = yes
 	
 	immediate = {
-		liege = {letter_event = { id = PLG.102}}
-		set_defacto_liege = THIS
+		if = {
+			limit = {liege = {has_character_modifier = has_pledge_attacker}}
+			
+			liege = {letter_event = { id = PLG.102}}
+		}
+		
+		if = {
+			limit = {NOT = {liege = {has_character_modifier = has_pledge_attacker}}}
+			liege = {
+				add_character_modifier = {
+					name = has_pledge_attacker
+					duration = 720
+					hidden = yes
+				}
+			}
+			liege = {letter_event = { id = PLG.202}}
+			
+		}
+		
+		
 		join_attacker_wars = FROM
 		set_defacto_liege = FROM
 	}
@@ -41,18 +59,26 @@ letter_event = {
 	id = PLG.102
 	desc = PLG102
 	picture = GFX_evt_large_army
+	notification = yes
+	
 	is_triggered_only = yes
+	major = no
+	is_friendly = yes
 	option = {
 		name = EXCELLENT
 	}
 }
 
-
 letter_event = {
 	id = PLG.104
 	desc = PLG104
 	picture = GFX_evt_large_army
+	notification = yes
+	
+	
 	is_triggered_only = yes
+	major = no
+	is_friendly = yes
 	immediate = {
 		FROM = {
 			capital_scope = {
@@ -61,89 +87,93 @@ letter_event = {
 						province = PREV
 						owner = ROOT
 						match_character = FROM
-						match_mult = 0.5
+						match_mult = 0.5			
 						attrition = 1.0
+						maintenance_multiplier = 1.0
 						disband_on_peace = yes
-						cannot_inherit = yes
-						earmark = peace_unit
 					}
 				}
 			}
-			
-			add_character_modifier = {name = pledge duration = 1825}
 			any_realm_province = {
 				add_province_modifier = {
 					name = pledge_building
-					duration = 7
+					duration = 1
 				}
 			}
+			
 		}
-		opinion = {
-			modifier = opinion_very_grateful
-			who = FROM
-			years = 3
-		}
+		
 	}
 	option = {
 		name = EXCELLENT
 	}
 }
 
-namespace = REM
-character_event = {
-	id = REM.1000
-	desc = ""
-	hide_window = yes
-	trigger = {
-		has_character_modifier = pledge
-		independent = yes
-	}
+
+letter_event = {
+	id = PLG.204
+	desc = PLG104
+	picture = GFX_evt_large_army
 	
-	mean_time_to_happen = {
-		months = 6
-	}
-	
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
 	immediate = {
-		any_realm_province = {
-			owner = {remove_character_modifier = pledge}
-			remove_province_modifier = pledge_building
+		FROM = {
+			capital_scope = {
+				FROM = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = FROM
+						match_mult = 0.5			
+						attrition = 1.0
+						maintenance_multiplier = 1.0
+						disband_on_peace = yes
+					}
+				}
+			}
+			any_realm_province = {
+				add_province_modifier = {
+					name = pledge_building
+					duration = 1
+				}
+			}
+			
 		}
+		
 	}
 	option = {
-		name = OK
+		name = EXCELLENT
 	}
 }
 
-character_event = {
-	id = REM.1001
-	desc = ""
-	hide_window = yes
-	trigger = {
-		has_character_modifier = pledge
-		independent = no
-		primary_title = { lower_tier_than = COUNT }
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		remove_character_modifier = pledge
-	}
+
+letter_event = {
+	id = PLG.202
+	desc = PLG102
+	picture = GFX_evt_large_army
+
+	is_triggered_only = yes
+	major = no
+	is_friendly = yes
 	option = {
-		name = OK
+		name = EXCELLENT
 	}
 }
 
+
 character_event = {
-	id = REM.1003
+	id = PLG.300
 	desc = ""
 	hide_window = yes
+	only_rulers = yes
+	
 	trigger = {
-		independent = no
-		liege = {
-			is_primary_war_defender = no
+		war = no
+		OR = {
+			has_character_modifier = has_pledge_attacker
+			has_character_modifier = has_pledge_defender 
 		}
 	}
 	
@@ -152,30 +182,9 @@ character_event = {
 	}
 	
 	immediate = {
-		remove_character_modifier = pledge
+		remove_character_modifier = has_pledge_attacker
+		remove_character_modifier = has_pledge_defender 
 	}
-	option = {
-		name = OK
-	}
-}
-
-character_event = {
-	id = REM.1002
-	desc = ""
-	hide_window = yes
-	only_ruler = yes
-	trigger = {
-		is_primary_war_defender = no
-	}
-	
-	mean_time_to_happen = {
-		days = 14
-	}
-	
-	immediate = {
-		disband_event_forces = peace_unit
-	}
-	
 	option = {
 		name = OK
 	}

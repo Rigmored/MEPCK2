@@ -1,0 +1,19 @@
+#Talath Rhunen
+
+# County Title
+title = c_talath_rhunen
+
+# Settlements
+max_settlements = 3
+
+b_minas_rhunen = castle
+b_dor_ascar = castle
+b_ost_i_rhunen = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

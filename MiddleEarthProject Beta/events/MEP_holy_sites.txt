@@ -158,7 +158,7 @@ character_event = {
 		name = EVTOPTAholywars.6 ### Time to Fight Now!
 		any_playable_ruler = {
 			limit = { 
-				set_character_flag = join_reconquest_moria
+				has_character_flag = join_reconquest_moria
 				culture_group = culture_group_dwarves
 				age = 1
 			}
@@ -222,7 +222,7 @@ narrative_event = {
 		name = EVTOPTAholywars.8 ### My strength will be enough !
 		narrative_event = { id = holywars.10 days = 30 }
 		add_claim = c_west_osgiliath
-		add_claim = d_east_osgiliath
+		add_claim = c_east_osgiliath
 		any_playable_ruler = {
 			limit = { 
 				OR = {
@@ -489,7 +489,7 @@ character_event = {
 		name = EVTOPTAholywars.17 ### Time to Fight Now!
 		any_playable_ruler = {
 			limit = { 
-				set_character_flag = join_reconquest_gundabad
+				has_character_flag = join_reconquest_gundabad
 				culture_group = culture_group_dwarves
 				age = 1
 			}

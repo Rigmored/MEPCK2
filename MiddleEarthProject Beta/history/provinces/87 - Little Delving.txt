@@ -4,13 +4,11 @@
 title = c_little_delving
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_little_delving = castle
 b_greenpaddle = city
-b_littlehole = city
-#b_blackrove = city
-#b_highorn = city
+#b_littlehole = city
 
 # Misc
 culture = culture_wilderness

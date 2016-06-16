@@ -167,6 +167,9 @@ holder =  8236 # Herubald II
 {
 holder =  8237 # Sigismond
 }
+10800.1.1={
+	liege=k_shire
+}
 10809.1.1=
 {
 holder =  8238 # Herugar II

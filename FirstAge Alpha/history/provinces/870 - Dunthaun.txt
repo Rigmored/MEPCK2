@@ -1,0 +1,15 @@
+#Dûnthaun
+
+# County Title
+title = c_dunthaun
+
+# Settlements
+max_settlements = 3
+
+b_dunthaun = castle
+b_carasthon = castle
+b_taunsolch = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

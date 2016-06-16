@@ -667,7 +667,7 @@ castle = {
 		add_number_to_name = no
     		potential = {
         		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
     		}
 	}
 	ca_elven_forge2 = {
@@ -681,7 +681,7 @@ castle = {
 		add_number_to_name = no
     		potential = {
         		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
     		}
 	}
 	ca_elven_forge3 = {
@@ -695,7 +695,7 @@ castle = {
 		add_number_to_name = no
     		potential = {
         		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
     		}
 	}
 	ca_healing = {
@@ -707,7 +707,12 @@ castle = {
 		add_number_to_name = no
     		potential = {
 			has_global_flag = building
-			FROM = { culture = culture_noldor }
+			OR = {
+				culture_group = culture_group_moriquendi
+				culture_group = culture_group_umanyar
+				culture_group = culture_group_amanyar
+				culture_group = culture_group_quendi
+				}
     		}
 	}
 
@@ -717,12 +722,10 @@ castle = {
 		build_time = 205
 		knights = 20
 		ai_creation_factor = 85
-        	potential = {
-            		has_global_flag = building
-			FROM = { culture = culture_noldor }
-			OR = {
+        potential = {
+            has_global_flag = building
+			culture = culture_noldor
 			province_id = 234 # Imladris
-			}
 		}
 	}
 	ca_rivendellha2 = {
@@ -735,7 +738,7 @@ castle = {
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
             	}
 	}
 	ca_rivendellha3 = {
@@ -748,7 +751,7 @@ castle = {
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
             	}
 	}
 	ca_rivendellha4 = {
@@ -761,7 +764,7 @@ castle = {
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
             	}
 	}
 	ca_rivendellha5 = {
@@ -774,7 +777,7 @@ castle = {
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
-			FROM = { culture = culture_noldor }
+			culture = culture_noldor
             	}
 	}
 	
@@ -855,17 +858,18 @@ castle = {
 		build_time = 1460 #4y
 		fort_level = 5.0
 		garrison_size = 2.00
-		heavy_infantry = 30
-		archers = 30
-		horse_archers = 20
+		heavy_infantry = 100
+		archers = 100
+		horse_archers = 100
+		knights = 100
 		ai_creation_factor = 86
         	potential = {
-            		province_id = 234 #Imladris
-			culture = culture_noldor
+            	FROMFROM = { title = b_last_homely_house }
+				culture = culture_noldor
             	}
 	}
 
-	ca_gwaith_i_mirdain = { ### Gwaith i Mirdain in Ost-n-Edhil
+	ca_gwaith_i_mirdain = { ### Gwaith i Mirdain in Ost-in-Edhil
 		desc = ca_gwaith_i_mirdain_desc
 		gold_cost = 2050
 		build_time = 6460 #4y
@@ -875,7 +879,7 @@ castle = {
 		ai_creation_factor = 86
 		garrison_size = 2.00
         	potential = {
-			province_id = 290 # Ost-in-Edhil
+			FROMFROM = { title = b_ostinedhil }
 			culture = culture_noldor
 			has_global_flag = gwaith_mirdain_rebuilded
         	}

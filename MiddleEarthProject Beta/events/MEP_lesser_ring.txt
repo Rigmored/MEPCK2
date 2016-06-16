@@ -59,6 +59,7 @@ narrative_event = {
 	option = {
 		name = "EVTOPTAlesserrings.1" ## It's a Ring !
 		add_trait = lesser_ring
+		clr_character_flag = huntforring
 		prestige = 100
 	}
 	option = {

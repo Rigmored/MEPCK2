@@ -2,6 +2,13 @@
 	law = agnatic_succession
 	law = succ_primogeniture
 	law = centralization_3
+    law = crown_authority_3
+    law = feudal_contract_2
+    law = feudal_tax_1
+    law = city_contract_2
+    law = city_tax_1
+	liege=0
+	historical_nomad = yes
 }
 8343.1.1=
 {
@@ -89,7 +96,7 @@ holder = 17059 # Okhotur
 }
 9618.1.1=
 {
-holder = 0
+holder = 17060 # Khabichi
 }
 9679.1.1=
 {

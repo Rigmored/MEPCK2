@@ -13,13 +13,10 @@ b_rhunen_garth = castle
 #b_mith_adab = castle
 
 # Misc
-terrain = forest
-3000.1.1 = {
-terrain = forest
-b_eastern_wood_gate = ca_men_i_naugrim
-}
-8222.1.1 = {
 culture = culture_silvan
 religion = religion_moriquendi
+terrain = forest
+3000.1.1 = {
+b_eastern_wood_gate = ca_men_i_naugrim
 }
 

@@ -1,6 +1,6 @@
 1.1.1=
 {
 liege = e_valinor
-holder =  10003 # Aulë Mahal
+holder =  0
 }
 

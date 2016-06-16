@@ -1,0 +1,42 @@
+decisions = {
+	help_liege = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			NOT = { has_character_modifier = pledge }
+			NOT = {
+				any_realm_province = { has_province_modifier = pledge_building }
+			}
+			mercenary = no
+			is_playable = yes
+			is_ruler = yes
+			independent = no
+			OR = {
+				is_feudal = yes
+				AND = {
+					is_tribal = yes
+					liege = { is_tribal = no }
+				}
+			}
+			war = no
+			OR = {
+				ai = no
+				is_councillor = no
+			}
+			liege = {
+				war = yes
+				is_primary_war_attacker = yes
+				is_tribal = no
+			}
+		}
+		allow = { in_faction = no }
+		effect = {
+			liege = {
+				character_event = {
+					id = PLG.100
+					tooltip = PLGT100
+				}
+			}
+		}
+	}
+}

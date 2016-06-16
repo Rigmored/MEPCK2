@@ -18,21 +18,19 @@ narrative_event = {
 		NOT = { has_character_flag = amroth_intro }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAamroth.0 ## I'll only love her !
-		add_trait = amroth_love
+		add_trait = love_amroth
 		set_character_flag = amroth_intro
 		any_playable_ruler = {
 			limit = {
-				has_landed_title = c_nimrodel
+				has_landed_title = c_wester_south_lorien
 				age = 1
 				has_character_flag = nimrodel
 			}
-			add_trait = amroth_love
+			add_trait = love_amroth
 		}
 	}
 }
@@ -48,16 +46,14 @@ narrative_event = {
 	prisoner = no
 	
 	trigger = {
-		has_landed_title = c_nimrodel
+		has_landed_title = c_wester_south_lorien
 		has_character_flag = nimrodel
 		age = 20
 		NOT = { year = 11323 }
 		has_global_flag = moriaminesareclosed
 	}
 	
-	mean_time_to_happen = {
-		days = 200
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAamroth.1 ## I need to leave my river !
@@ -166,7 +162,7 @@ character_event = {
 	option = {
 		name = EVTOPTBamroth.5 ## I refuse.
 		trigger = { ai = no }
-		remove_trait = amroth_love
+		remove_trait = love_amroth
 		remove_trait = story_amroth
 		FROM = {
 			narrative_event = { id = amroth.7 }
@@ -182,7 +178,7 @@ character_event = {
 				}
 			}
 			15 = {
-				remove_trait = amroth_love
+				remove_trait = love_amroth
 				remove_trait = story_amroth			
 				FROM = {
 					narrative_event = { id = amroth.7 } # NO
@@ -221,7 +217,7 @@ narrative_event = {
 	option = {
 		name = EVTOPTAamroth.7 ## I'm depressed.
 		add_trait = depressed
-		remove_trait = amroth_love
+		remove_trait = love_amroth
 		remove_trait = story_amroth
 		character_event = { id = amroth.31 days = 2 }
 		FROM = { character_event = { id = amroth.31 days = 2 } }
@@ -607,9 +603,7 @@ narrative_event = {
 		NOT = { has_global_flag = mithrellas_imrazor_events }
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTAamroth.24 ## I'll welcome her.
@@ -621,7 +615,8 @@ narrative_event = {
 			culture="culture_gondorian"
 			age = 54
 			dna="ahgkd0kjba0"
-			properties="gl0fhhbebbb"
+			# Sorry, but the validator doesn't like this
+			#properties="gl0fhhbebbb"
 			attributes = {
 				martial = 3
 				stewardship = 3
@@ -653,7 +648,8 @@ narrative_event = {
 			female = yes
 			age = 2527
 			dna="ahgkd0kjba0"
-			properties="gl0fhhbebbb"
+			# Sorry, but the validator doesn't like this
+			#properties="gl0fhhbebbb"
 			trait=elf
 			trait=kind
 			trait=just
@@ -768,7 +764,8 @@ character_event = {
 				culture="culture_gondorian"
 				age = 0
 				dna="bgakk0imcc0"
-				properties="kl0bhabebbb"				
+				# Sorry, but the validator doesn't like this
+				#properties="kl0bhabebbb"				
 				attributes = {
 					martial = 2
 					stewardship = 2
@@ -827,11 +824,11 @@ character_event = {
 	option = {
 		name = EVTOPTAamroth.31 ## He's nobliest than me.
 		remove_trait = story_amroth
-		remove_trait = amroth_love
+		remove_trait = love_amroth
 		add_trait = depressed
 		FROM = {
 			remove_trait = story_amroth
-			remove_trait = amroth_love
+			remove_trait = love_amroth
 			add_trait = depressed		
 		}
 	}

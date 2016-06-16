@@ -1,0 +1,13 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+4318.1.1=
+{
+holder = 3151 # Angrod
+liege = e_noldor
+}
+4767.1.1=
+{
+holder = 0
+}

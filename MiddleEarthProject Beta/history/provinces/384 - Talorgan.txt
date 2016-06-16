@@ -11,21 +11,14 @@ title = c_talorgan
 max_settlements = 5
 
 b_talorgan = tribal
-b_carreglyn = tribal
-b_serentalor = tribal
+b_carreglyn = city
+b_serentalor = city
 #b_thurbald = city
 #b_hogas = city
 
 # Misc
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
-8222.1.1 = {
+
+
 culture = culture_dunlending
 religion = religion_haldadian
-}
-
-9979.1.1 = {
-culture = culture_dunlending
-religion = religion_haldadian }

@@ -84,6 +84,13 @@ holder = 2533
 holder = 0
 liege  = 0
 }
+
+11301.1.1=
+{
+holder = 25007
+}
+
+
 11362.5.1=
 {
 holder = 2038 # Aragorn II ## First King of the Reunited Kingdom

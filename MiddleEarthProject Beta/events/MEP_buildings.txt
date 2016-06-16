@@ -13,7 +13,7 @@ namespace = buildings
 ## Event that will unlock all the buildings after 10000 ##
 character_event = {
 	id = buildings.0
-	desc = "hidden"
+	desc = OK
 	picture = GFX_good
 	hide_window = yes	
 
@@ -752,19 +752,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTAbuildings.26" ## I'll rebuild osgiliath
-		if = {
-			limit = {
-				has_character_flag = osgiliath_west
-			}
-			set_global_flag = west_osgiliath_rebuilded
-		}
-		if = {
-			limit = {
-				has_character_flag = east_sgiliath
-			}
-			set_global_flag = east_osgiliath_rebuilded
-		}		
+		name = "EVTOPTAbuildings.26" ## I'll rebuild osgiliath	
 		wealth = -150
 		FROM = {
 			character_event = { id = buildings.27 days = 20 } # Rebuilding of osgiliath - First Step
@@ -773,6 +761,8 @@ character_event = {
 	option = {
 		name = "EVTOPTBbuildings.26"
 		trigger = { ai = no }
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west		
 	}		
 }
 
@@ -803,7 +793,8 @@ character_event = {
 	option = {
 		name = "EVTOPTBbuildings.9"
 		trigger = { ai = no }
-		clr_global_flag = osgiliath_rebuilded
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west
 	}		
 }
 
@@ -850,7 +841,8 @@ character_event = {
 	option = {
 		name = "EVTOPTBbuildings.10"
 		trigger = { ai = no }
-		clr_global_flag = osgiliath_rebuilded
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west
 	}		
 }
 
@@ -865,7 +857,8 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAbuildings.29" ## Ok.
-		clr_global_flag = osgiliath_rebuilded
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west
 		random_list = {
 			80 = {
 			}
@@ -892,41 +885,43 @@ character_event = {
 		piety = 100
 		if = {
 			limit = {
-				has_character_flag = west_osgiliath
+				has_character_flag = osgiliath_west
 				NOT = { has_global_flag = west_osgiliath_rebuilded_finally }
 			}
 			set_global_flag = west_osgiliath_rebuilded_finally	
-			b_osgiliath = {
+			b_minasnumen = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_adannon = {
+			b_golden_gate = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_ariant = {
+			b_bar_annabon = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_clorhir = {
+			b_lumbar_quays = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_gaerannon = {
+			b_rozinbarad = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}		
-			b_menelband = {
+			b_forum_of_turambar = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}	
-			b_tyl_annun = {
+			b_belthil = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}			
 			c_west_osgiliath = {
-				culture = ROOT
-				religion = ROOT
+				location = {
+					culture = ROOT
+					religion = ROOT
+				}
 			}
 		}
 		if = {
@@ -935,39 +930,43 @@ character_event = {
 				NOT = { has_global_flag = east_osgiliath_rebuilded_finally }
 			}
 			set_global_flag = east_osgiliath_rebuilded_finally					
-			b_osgiliath = {
+			b_dome_of_the_stars = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_adannon = {
+			b_tol_gilthoniel = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_ariant = {
+			b_gate_of_tulkas = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_clorhir = {
+			b_silver_gate = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}
-			b_gaerannon = {
+			b_menelvagor_quays = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}		
-			b_menelband = {
+			b_bar_raudh = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}	
-			b_tyl_annun = {
+			b_abad_atanatar = {
 				remove_building = ca_osgiliath_ruins
 				remove_building = ct_osgiliath_ruins
 			}			
 			c_east_osgiliath = {
-				culture = ROOT
-				religion = ROOT
+				location = {
+					culture = ROOT
+					religion = ROOT
+				}
 			}
 		}		
+		clr_character_flag = osgiliath_west		
+		clr_character_flag = east_osgiliath
 	}		
 }
 
@@ -982,7 +981,8 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAbuildings.31" ## Ok.
-		clr_global_flag = osgiliath_rebuilded
+		clr_character_flag = east_osgiliath
+		clr_character_flag = osgiliath_west
 		random_list = {
 			80 = {
 			}
@@ -1012,374 +1012,3 @@ character_event = {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-######## DESTRUCTION OF ANY BUILDING IN RUINS/WILDERNESS LANDS #########
-## Ruins of Fornost ##
-character_event = {
-	id = buildings.100
-	title = "EVTTITbuildings.100"
-	desc = "EVTDESCbuildings.100"
-	picture = GFX_evt_rebuilding
-
-	trigger = { 
-		has_landed_title = c_fornost
-		OR = {
-			270 = {
-				b_citadel_fornost = {
-					OR = {
-						has_building = ca_fornost_ruins
-						has_building = ct_fornost_ruins
-					}
-					num_of_buildings = 2
-				}
-			}
-			270 = {		
-				b_gates_norbury = {
-					OR = {
-						has_building = ca_fornost_ruins
-						has_building = ct_fornost_ruins
-					}
-					num_of_buildings = 2
-				}
-			}
-			270 = {		
-				b_ost_nuaran = {
-					OR = {
-						has_building = ca_fornost_ruins
-						has_building = ct_fornost_ruins
-					}
-					num_of_buildings = 2
-				}			
-			}
-			270 = {
-				b_tower_of_amlaith = {
-					OR = {
-						has_building = ca_fornost_ruins
-						has_building = ct_fornost_ruins
-					}
-					num_of_buildings = 2
-				}	
-			}
-			270 = {
-				b_hall_of_arveleg = {
-					OR = {
-						has_building = ca_fornost_ruins
-						has_building = ct_fornost_ruins
-					}
-					num_of_buildings = 2
-				}
-			}
-			270 = {
-				b_minas_vrun = {
-					OR = {
-						has_building = ca_fornost_ruins
-						has_building = ct_fornost_ruins
-					}
-					num_of_buildings = 2
-				}
-			}		
-		}		
-	}
-	
-	option = {
-		name = "EVTOPTAbuildings.100"
-		270 = { 
-			b_citadel_fornost = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_fornost_ruins				
-			}
-		}
-		270 = { 
-			b_gates_norbury = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_fornost_ruins				
-			}
-		}
-		270 = { 
-			b_ost_nuaran = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_fornost_ruins			
-			}
-		}
-		270 = { 
-			b_tower_of_amlaith = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_fornost_ruins				
-			}
-		}
-		270 = { 
-			b_hall_of_arveleg = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_fornost_ruins			
-			}
-		}
-		270 = { 
-			b_minas_vrun = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_fornost_ruins				
-			}
-		}	
-	}		
-}
-
-
-## Ruins of Annuminas ##
-character_event = {
-	id = buildings.101
-	title = "EVTTITbuildings.101"
-	desc = "EVTDESCbuildings.101"
-	picture = GFX_evt_rebuilding
-
-	trigger = { 
-		has_landed_title = c_annuminas
-		OR = {
-			659 = {
-				b_annuminas = {
-					OR = {
-						has_building = ca_annuminas_ruins
-						has_building = ct_annuminas_ruins
-					}	
-					num_of_buildings = 2
-				}
-			}
-			659 = {		
-				b_adannon = {
-					OR = {
-						has_building = ca_annuminas_ruins
-						has_building = ct_annuminas_ruins
-					}	
-					num_of_buildings = 2
-				}	
-			}
-			659 = {		
-				b_ariant = {
-					OR = {
-						has_building = ca_annuminas_ruins
-						has_building = ct_annuminas_ruins
-					}	
-					num_of_buildings = 2
-				}
-			}
-			659 = {
-				b_clorhir = {
-					OR = {
-						has_building = ca_annuminas_ruins
-						has_building = ct_annuminas_ruins
-					}	
-					num_of_buildings = 2
-				}
-			}
-			659 = {
-				b_gaerannon = {
-					OR = {
-						has_building = ca_annuminas_ruins
-						has_building = ct_annuminas_ruins
-					}	
-					num_of_buildings = 2
-				}	
-			}
-			659 = {
-				b_menelband = {
-					OR = {
-						has_building = ca_annuminas_ruins
-						has_building = ct_annuminas_ruins
-					}	
-					num_of_buildings = 2
-				}
-			}	
-			659 = {
-				b_tyl_annun = {
-					OR = {
-						has_building = ca_annuminas_ruins
-						has_building = ct_annuminas_ruins
-					}	
-					num_of_buildings = 2
-				}
-			}			
-		}		
-	}
-	
-	option = {
-		name = "EVTOPTAbuildings.100"
-		659 = { 
-			b_annuminas = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_annuminas_ruins
-			}
-		}
-		659 = { 
-			b_adannon = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_annuminas_ruins
-			}
-		}
-		659 = { 
-			b_ariant = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_annuminas_ruins
-			}
-		}
-		659 = { 
-			b_clorhir = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_annuminas_ruins
-			}
-		}
-		659 = { 
-			b_gaerannon = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_annuminas_ruins
-			}
-		}
-		659 = { 
-			b_menelband = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_annuminas_ruins
-			}
-		}	
-		659 = { 
-			b_tyl_annun = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_annuminas_ruins
-			}
-		}		
-	}		
-}
-
-
-## Ruins of Edhellond ##
-character_event = {
-	id = buildings.102
-	title = "EVTTITbuildings.102"
-	desc = "EVTDESCbuildings.102"
-	picture = GFX_evt_rebuilding
-
-	trigger = { 
-		has_landed_title = c_edhellond
-		OR = {
-			429 = {
-				b_edhellond = {
-					OR = {
-						has_building = ca_edhellond_ruins
-						has_building = ct_edhellond_ruins
-					}
-					num_of_buildings = 2
-				}
-			}
-			429 = {		
-				b_lond_cobas = {
-					OR = {
-						has_building = ca_edhellond_ruins
-						has_building = ct_edhellond_ruins
-					}
-					num_of_buildings = 2
-				}
-			}
-			429 = {		
-				b_tirith_cobas = {
-					OR = {
-						has_building = ca_edhellond_ruins
-						has_building = ct_edhellond_ruins
-					}
-					num_of_buildings = 2
-				}
-			}
-			429 = {
-				b_annubad = {
-					OR = {
-						has_building = ca_edhellond_ruins
-						has_building = ct_edhellond_ruins
-					}
-					num_of_buildings = 2
-				}
-			}
-			429 = {
-				b_silagond = {
-					OR = {
-						has_building = ca_edhellond_ruins
-						has_building = ct_edhellond_ruins
-					}
-					num_of_buildings = 2
-				}	
-			}
-			429 = {
-				b_sirionad = {
-					OR = {
-						has_building = ca_edhellond_ruins
-						has_building = ct_edhellond_ruins
-					}
-					num_of_buildings = 2
-				}
-			}			
-		}		
-	}
-	
-	option = {
-		name = "EVTOPTAbuildings.100"
-		429 = { 
-			b_edhellond = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_edhellond_ruins		
-			}
-		}
-		429 = { 
-			b_lond_cobas = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_edhellond_ruins			
-			}
-		}
-		429 = { 
-			b_tirith_cobas = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_edhellond_ruins			
-			}
-		}
-		429 = { 
-			b_annubad = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_edhellond_ruins		
-			}
-		}
-		429 = { 
-			b_silagond = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_edhellond_ruins			
-			}
-		}
-		429 = { 
-			b_sirionad = {
-				destroy_random_building = yes
-				destroy_random_building = yes
-				add_building = ca_edhellond_ruins			
-			}
-		}			
-	}		
-}

@@ -3,13 +3,13 @@ namespace = sauron
 ##Option for Sauron to command his allies##
 character_event = {
     id = sauron.1
-    title = "Command Your Allies"
-    desc = "You can send your agents to instruct your allies to attack certain targets. They may refuse if the targets are too strong, however."
+    title = "EVTTITsauron.1"#Command Your Allies
+    desc = "EVTDESCsauron.1"#You can send your agents to instruct your allies to attack certain targets. They may refuse if the targets are too strong, however.
     picture = "GFX_good"
 	is_triggered_only = yes
 		  
 	option = {
-		name = "Command the Orcs of Gundabad"
+		name = "EVTOPTAsauron.1"#Command the Orcs of Gundabad
 		trigger = {
 			dynasty = 10012
 		}				
@@ -17,7 +17,7 @@ character_event = {
 	}
 		
 	option = {
-		name = "Command the men of the East"
+		name = "EVTOPTBsauron.1"#Command the men of the East
 		trigger = {
 			dynasty = 10012
 		}				
@@ -25,7 +25,7 @@ character_event = {
 	}
 		
 	option = {
-		name = "Command the men of the South"
+		name = "EVTOPTCsauron.1"#Command the men of the South
 		trigger = {
 			dynasty = 10012
 		}				
@@ -33,33 +33,31 @@ character_event = {
 	}
 
 	option = {
-		name = "No, now is not the time."
+		name = "EVTOPTDsauron.1"#No, now is not the time.
 	}	
 }
 		
 ##Option for Sauron to command his allies in K_Gundabad##
 character_event = {
     id = sauron.2
-    title = "Command the Orcs of Gundabad"
-    desc = "Who shall the Orcs of Gundabad attack?"
+    title = "EVTTITsauron.2"#Command the Orcs of Gundabad
+    desc = "EVTDESCsauron.2"#Who shall the Orcs of Gundabad attack?
     picture = "GFX_good"
 	
 	is_triggered_only = yes
 			  
 	option = {
-		name = "Destroy Imladris!"
+		name = "EVTOPTAsauron.2"#Destroy Imladris!
 		trigger = {
 			dynasty = 10012
 		}	
 		prestige = -1000
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					has_landed_title = k_gundabad
-					OR = {
-						trait = evil_side
-						culture_group = culture_group_melkor
-					}
+				has_landed_title = k_gundabad
+				OR = {
+					trait = evil_side
+					culture_group = culture_group_melkor
 				}
 			}
 			character_event = { id = sauron.3 days = 30}
@@ -67,19 +65,17 @@ character_event = {
 	}
 		
 	option = {
-		name = "Conquer Rhudaur!"
+		name = "EVTOPTBsauron.2"#Conquer Rhudaur!
 		trigger = {
 			dynasty = 10012
 		}				
 		prestige = -1000
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					has_landed_title = k_gundabad
-					OR = {
-						trait = evil_side
-						culture_group = culture_group_melkor
-					}
+				has_landed_title = k_gundabad
+				OR = {
+					trait = evil_side
+					culture_group = culture_group_melkor
 				}
 			}
 			character_event = { id = sauron.4 days = 30}
@@ -87,19 +83,17 @@ character_event = {
 	}
 		
 	option = {
-		name = "Destroy the men of Anduin Vale!"
+		name = "EVTOPTCsauron.2"#Destroy the men of Anduin Vale!
 		trigger = {
 			dynasty = 10012
 		}				
 		prestige = -1000
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					has_landed_title = k_gundabad
-					OR = {
-						trait = evil_side
-						culture_group = culture_group_melkor
-					}
+				has_landed_title = k_gundabad
+				OR = {
+					trait = evil_side
+					culture_group = culture_group_melkor
 				}
 			}
 			character_event = { id = sauron.5 days = 30}
@@ -107,7 +101,7 @@ character_event = {
 	}
 
 	option = {
-		name = "No, now is not the time."
+		name = "EVTOPTDsauron.2"#No, now is not the time.
 	}
 }
 		
@@ -115,13 +109,13 @@ character_event = {
 ##Orcs of Gundabad get instructions##
 character_event = {
     id = sauron.3
-    title = "Sauron commands you"
-    desc = "Too long has little Rivendell stood against us. Now they are few, and weak - gather your forces and leave none alive!"
+    title = "EVTTITsauron.3"#Sauron commands you
+    desc = "EVTDESCsauron.3"#Too long has little Rivendell stood against us. Now they are few, and weak - gather your forces and leave none alive!
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 	option = {
-        name = "Death to all elves!"
+        name = "EVTOPTAsauron.3"#Death to all elves!
 		add_claim = d_rivendell
 		add_claim = c_imladris
 	}
@@ -129,13 +123,13 @@ character_event = {
 			
 character_event = {
     id = sauron.4
-    title = "Sauron commands you"
-    desc = "Expand into Rhudaur, and build up this region as a base for further attacks into Eriador. Failure will not be tolerated. The Eye is on you!"
+    title = "EVTTITsauron.4"#Sauron commands you
+    desc = "EVTDESCsauron.4"#Expand into Rhudaur, and build up this region as a base for further attacks into Eriador. Failure will not be tolerated. The Eye is on you!
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 	option = {
-        name = "As you command, Lord!"
+        name = "EVTOPTAsauron.4"#As you command, Lord!
 		add_claim = c_south_melosse
 		add_claim = c_north_melosse
 		add_claim = c_trollshaws
@@ -144,7 +138,8 @@ character_event = {
 		add_claim = c_magillos
 		add_claim = c_ettendales
 		add_claim = c_angmarbound
-		add_claim = c_west_frontier
+		#@FIXME@
+		#add_claim = c_west_frontier
 		add_claim = c_east_eldenaryar
 		add_claim = c_southest_eredoriath
 		add_claim = c_south_eredoriath
@@ -160,13 +155,13 @@ character_event = {
 			
 character_event = {
     id = sauron.5
-    title = "Sauron commands you"
-    desc = "Go East across the mountains, and destroy the new realm that has arisen there! "
+    title = "EVTTITsauron.5"#Sauron commands you
+    desc = "EVTDESCsauron.5"#Go East across the mountains, and destroy the new realm that has arisen there! 
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 	option = {
-		name = "As you command, Lord!"
+		name = "EVTOPTAsauron.5"#As you command, Lord!
 		add_claim = k_anduin_vale
 		add_claim = c_gladden_fields
 		add_claim = c_south_gladden
@@ -189,93 +184,87 @@ character_event = {
 ##Option for Sauron to command his servants amongst the men of the East##
 character_event = {
     id = sauron.6
-    title = "Command the men of the East"
-    desc = "Who shall the Easterlings be commanded to attack?"
+    title = "EVTTITsauron.6"#Command the men of the East
+    desc = "EVTDESCsauron.6"#Who shall the Easterlings be commanded to attack?
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 			  
 	option = {
-		name = "Destroy Rhovanion!"
+		name = "EVTOPTAsauron.6"#Destroy Rhovanion!
 		trigger = {
 			dynasty = 10012
 		}	
 		prestige = -1000
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					culture_group = culture_group_easterling
-					trait = evil_side
-					NOT = { culture = culture_variag }
-				}
+				culture_group = culture_group_easterling
+				trait = evil_side
+				NOT = { culture = culture_variags }
 			}
 			character_event = { id = sauron.7 days = 30}
 		}
 	}
 		
 	option = {
-		name = "Conquer Dale!"
+		name = "EVTOPTBsauron.6"#Conquer Dale!
 		trigger = {
 			dynasty = 10012
 		}
 		prestige = -1000
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					culture_group = culture_group_easterling
-					trait = evil_side
-					NOT = { culture = culture_variag }
-				}
+				culture_group = culture_group_easterling
+				trait = evil_side
+				NOT = { culture = culture_variags }
 			}
 			character_event = { id = sauron.8 days = 30}
 		}
 	}
 		
 	option = {
-		name = "Attack the Dwarves of the North"
+		name = "EVTOPTCsauron.6"#Attack the Dwarves of the North
 		trigger = {
 			dynasty = 10012
 		}				
 		prestige = -1000
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					culture_group = culture_group_easterling
-					trait = evil_side
-					NOT = { culture = culture_variag }
-				}
+				culture_group = culture_group_easterling
+				trait = evil_side
+				NOT = { culture = culture_variags }
 			}
 			character_event = { id = sauron.9 days = 30}
 		}
 	}
 
 	option = {
-		name = "No, now is not the time."
+		name = "EVTOPTDsauron.6"#No, now is not the time.
 	}		
 }
 		
 character_event = {
     id = sauron.7
-    title = "Sauron commands you"
-    desc = "Assemble the tribes, and attack Dorwinion. Enslave these fools, and destroy all who oppose you!"
+    title = "EVTTITsauron.7"#Sauron commands you
+    desc = "EVTDESCsauron.7"#Assemble the tribes, and attack Dorwinion. Enslave these fools, and destroy all who oppose you!
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 	option = {
-        name = "As you command, Lord!"
+        name = "EVTOPTAsauron.7"#As you command, Lord!
 		add_claim = k_dorwinion
 	}			
 }
 			
 character_event = {
     id = sauron.8
-    title = "Sauron commands you"
-    desc = "Assemble the tribes, and attack Dale. Enslave these fools, and keep those dwarves under siege in their mountain stronghold!"
+    title = "EVTTITsauron.8"#Sauron commands you
+    desc = "EVTDESCsauron.8"#Assemble the tribes, and attack Dale. Enslave these fools, and keep those dwarves under siege in their mountain stronghold!
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 	option = {
-        name = "As you command, Lord!"
+        name = "EVTOPTAsauron.8"#As you command, Lord!
 		add_claim = k_dale
 		add_claim = d_dale
 		add_claim = c_dale
@@ -284,13 +273,13 @@ character_event = {
 			
 character_event = {
     id = sauron.9
-    title = "Sauron commands you"
-    desc = "Assemble the tribes, and attack the Dwarves of the North. "
+    title = "EVTTITsauron.9"#Sauron commands you
+    desc = "EVTDESCsauron.9"#Assemble the tribes, and attack the Dwarves of the North. 
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 	option = {
-            name = "As you command, Lord!"
+            name = "EVTOPTAsauron.9"#As you command, Lord!
 			add_claim = c_erebor
 			add_claim = c_azanulimbar_dum
 			add_claim = c_duban_nala
@@ -301,102 +290,96 @@ character_event = {
 ##Option for Sauron to command his servants amongst the men of the South##
 character_event = {
     id = sauron.10
-    title = "Command the men of the South"
-    desc = "Who shall your southern servants be commanded to attack?"
+    title = "EVTTITsauron.10"#Command the men of the South
+    desc = "EVTDESCsauron.10"#Who shall your southern servants be commanded to attack?
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 			  
 	option = {
-		name = "I grant them Belfalas if they can take it."
+		name = "EVTOPTAsauron.10"#I grant them Belfalas if they can take it.
 		trigger = {
 			dynasty = 10012
 		}	
 		prestige = -1000
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					OR = {
+				OR = {
 					culture = culture_black_numenorean
 					culture_group = culture_group_southron
-					culture = culture_variag
-					}
-					trait = evil_side
+					culture = culture_variags
 				}
+				trait = evil_side
 			}
 			character_event = { id = sauron.11 days = 30}
 		}
 	}
 		
 	option = {
-		name = "I grant them Anfalas if they can take it."
+		name = "EVTOPTBsauron.10"#I grant them Anfalas if they can take it.
 		trigger = {
 			dynasty = 10012
 		}				
 		prestige = -1000
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					OR = {
-						culture = culture_black_numenorean
-						culture_group = culture_group_southron
-						culture = culture_variag
-					}
-					trait = evil_side
+				OR = {
+					culture = culture_black_numenorean
+					culture_group = culture_group_southron
+					culture = culture_variags
 				}
+				trait = evil_side
 			}
 			character_event = { id = sauron.12 days = 30}
 		}
 	}
 		
 	option = {
-		name = "I grant them Anndrast if they can take it."
+		name = "EVTOPTCsauron.10"#I grant them Andrast if they can take it.
 		trigger = {
 			dynasty = 10012
 		}				
 		prestige = -1000
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					OR = {
-						culture = culture_black_numenorean
-						culture_group = culture_group_southron
-						culture = culture_variag
-					}
-				trait = evil_side
+				OR = {
+					culture = culture_black_numenorean
+					culture_group = culture_group_southron
+					culture = culture_variags
 				}
+				trait = evil_side
 			}
 			character_event = { id = sauron.13 days = 30}
 		}
 	}
 
 	option = {
-		name = "No, now is not the time."
+		name = "EVTOPTDsauron.10"#No, now is not the time.
 	}		
 }
 		
 character_event = {
     id = sauron.11
-    title = "Sauron commands you"
-    desc = "Eastern Gondor shall go to Mordor and there my Orcs shall dwell, but the rich lands of Belfalas are yours - if you can take them."
+    title = "EVTTITsauron.11"#Sauron commands you
+    desc = "EVTDESCsauron.11"#Eastern Gondor shall go to Mordor and there my Orcs shall dwell, but the rich lands of Belfalas are yours - if you can take them.
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 	option = {
-        name = "Thankyou, Great Lord!"
+        name = "EVTOPTAsauron.11"#Thank you, Great Lord!"
 		add_claim = k_belfalas
 	}
 }
 
 character_event = {
     id = sauron.12
-    title = "Sauron commands you"
-    desc = "Eastern Gondor shall go to Mordor and there my Orcs shall dwell, but the rich lands of Anfalas are yours - if you can take them."
+    title = "EVTTITsauron.12"#Sauron commands you
+    desc = "EVTDESCsauron.12"#Eastern Gondor shall go to Mordor and there my Orcs shall dwell, but the rich lands of Anfalas are yours - if you can take them."
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 	option = {
-        name = "Thank you, Great Lord!"
+        name = "EVTOPTAsauron.12"#Thank you, Great Lord!
 		add_claim = k_anfalas
 	}
 			
@@ -404,13 +387,13 @@ character_event = {
 			
 character_event = {
     id = sauron.13
-    title = "Sauron commands you"
-    desc = "Eastern Gondor shall go to Mordor and there my Orcs shall dwell, but the rich lands of Andrast are yours - if you can take them."
+    title = "EVTTITsauron.13"#Sauron commands you
+    desc = "EVTDESCsauron.13"#Eastern Gondor shall go to Mordor and there my Orcs shall dwell, but the rich lands of Andrast are yours - if you can take them.
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 	option = {
-        name = "Thank you, Great Lord!"
+        name = "EVTOPTAsauron.13"#Thank you, Great Lord!
 		add_claim = k_andrast
 	}
 			
@@ -420,50 +403,48 @@ character_event = {
 
 character_event = {
     id = sauron.14
-    title = "Call in your vassal troops"
-    desc = "Some fool has dared to attack Mordor! Shall we send word to your servants in the East and South to come to Mordor's defense?"
+    title = "EVTTITsauron.14"#Call in your vassal troops
+    desc = "EVTDESCsauron.14"#Some fool has dared to attack Mordor! Shall we send word to your servants in the East and South to come to Mordor's defense?
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 			  
 	option = {
-		name = "Yes, let them defend their Lord and God!"
+		name = "EVTOPTAsauron.14"#Yes, let them defend their Lord and God!
 		trigger = {
 			dynasty = 10012
 		}
 		set_character_flag = sauroncalled_allies					
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					OR = {
-						culture_group = culture_group_easterling
-						culture_group = culture_group_southron
-						culture = culture_black_numenorean
-					}
-				trait = evil_side
+				OR = {
+					culture_group = culture_group_easterling
+					culture_group = culture_group_southron
+					culture = culture_black_numenorean
 				}
+				trait = evil_side
 			}
 			character_event = { id = sauron.15 }
 		}
 	}	
 
 	option = {
-            name = "No, Mordor can handle this alone."
+            name = "EVTOPTBsauron.14"#No, Mordor can handle this alone.
 	}		
 }
 		
 #Sauron's servants receives the call for aid#		
 character_event = {
     id = sauron.15
-    title = "Mordor commands you"
-    desc = "Lord Sauron the Great demands that you assemble your full might and come to Mordor to beat back this so-called invasion."
+    title = "EVTTITsauron.15"#Mordor commands you
+    desc = "EVTDESCsauron.15"#Lord Sauron the Great demands that you assemble your full might and come to Mordor to beat back this so-called invasion.
     picture = "GFX_good"
 	
 	is_triggered_only = yes	
 		
 	option = {
-        name = "We'll be right there, Great Lord!"
-		limit = {
+        name = "EVTOPTAsauron.15"#We'll be right there, Great Lord!
+		trigger = {
 			trait = evil_side
 		}
 		ROOT = {
@@ -471,13 +452,11 @@ character_event = {
 		}
 		any_independent_ruler  = {
 			limit = {
-				AND = {
-					OR = {
-						has_landed_title = e_mordor
-						has_landed_title = c_barad_dur
-					}
-				dynasty = 10012	
+				OR = {
+					has_landed_title = k_mordor
+					has_landed_title = c_barad_dur
 				}
+				dynasty = 10012	
 			}
 			character_event = { id = sauron.16 days = 7 }
 		}				
@@ -487,14 +466,14 @@ character_event = {
 #Mordor gets replies#	
 character_event = {
     id = sauron.16
-    title = "Your servants Respond"
-    desc = "An answer returns from your servant - they have answered Mordor's call, and will march immediately to its defense."
+    title = "EVTTITsauron.16"#Your servants Respond
+    desc = "EVTDESCsauron.16"#An answer returns from your servant - they have answered Mordor's call, and will march immediately to its defense.
     picture = "GFX_good"
 	is_triggered_only = yes
 	
 		
 	option = {
-        name = "Of course they will."
+        name = "EVTOPTAsauron.16"#Of course they will.
 	}				
 }
 				
@@ -502,14 +481,14 @@ character_event = {
 
 character_event = {
     id = sauron.17
-    title = "Calling for Aid"
-    desc = "Enough time has passed, that you can now call in allies to Mordor's defense again if needed."
+    title = "EVTTITsauron.17"#Calling for Aid
+    desc = "EVTDESCsauron.17"#Enough time has passed, that you can now call in allies to Mordor's defense again if needed.
     picture = "GFX_good"
 	mean_time_to_happen = { months = 50 }
 	
 	trigger = {
 		has_character_flag = sauroncalled_allies
-		has_raised_levies = no
+		has_raised_levies = ROOT
 	}
 			  
 	option = {
@@ -522,44 +501,38 @@ character_event = {
 
 character_event = {
     id = sauron.18
-    title = "Call in your vassal troops"
-    desc = "Some fool has dared to attack Mordor! Shall we send word to your servants in the East and South to come to Mordor's defense?"
+    title = "EVTTITsauron.18"#Call in your vassal troops
+    desc = "EVTDESCsauron.18"#Some fool has dared to attack Mordor! Shall we send word to your servants in the East and South to come to Mordor's defense?
     picture = "GFX_good"
-	is_ruler = yes
+	only_rulers = yes
 	only_independent = yes
 
 	trigger = {
-		AND = {
-			OR = {
-					has_landed_title = c_barad_dur
-					has_landed_title = e_mordor
-				}	
-				dynasty = 10012
-				independent = yes
-				is_ruler = yes
-				ai = yes
-				is_primary_war_defender = yes
-				NOT = { has_character_flag = sauroncalled_allies }
-		}
+		OR = {
+			has_landed_title = c_barad_dur
+			has_landed_title = k_mordor
+		}	
+		dynasty = 10012
+		ai = yes
+		is_primary_war_defender = yes
+		NOT = { has_character_flag = sauroncalled_allies }
 	}
 		
 		
 	option = {
-		name = "Yes, let them defend their Lord and God!"
+		name = "EVTOPTAsauron.18"#Yes, let them defend their Lord and God!
 		trigger = {
 			dynasty = 10012
 		}
 		set_character_flag = sauroncalled_allies					
 		any_independent_ruler = {
 			limit = {
-				AND = {
-					OR = {
-						culture_group = culture_group_easterling
-						culture_group = culture_group_southron
-						culture = culture_black_numenorean
-					}
-					trait = evil_side
+				OR = {
+					culture_group = culture_group_easterling
+					culture_group = culture_group_southron
+					culture = culture_black_numenorean
 				}
+				trait = evil_side
 			}
 			character_event = { id = sauron.15 }
 		}		
@@ -569,36 +542,32 @@ character_event = {
 ##Sauron gets event to raise taxes##
 character_event = {
     id = sauron.19
-    title = "Exploit your minions"
-    desc = "Your steward informs you that you are not fully exploiting your vassals. He suggests you raise taxes immediately."
+    title = "EVTTITsauron.19"#Exploit your minions
+    desc = "EVTDESCsauron.19"#Your steward informs you that you are not fully exploiting your vassals. He suggests you raise taxes immediately.
     picture = "GFX_sauron_commands"
-	is_ruler = yes
+	only_rulers = yes
 	only_independent = yes
 
 	trigger = {
-		AND = {
-			OR = {
-					has_landed_title = c_barad_dur
-					has_landed_title = e_mordor
-				}	
-				dynasty = 10012
-				independent = yes
-				is_ruler = yes
-				NOT = { has_character_flag = sauron19 }
-			OR = {
-				primary_title = {
-					OR = {
-						has_law = city_tax_0
-						has_law = city_tax_1
-						has_law = city_tax_2
-					}
+		OR = {
+				has_landed_title = c_barad_dur
+				has_landed_title = k_mordor
+			}	
+		dynasty = 10012
+		NOT = { has_character_flag = sauron19 }
+		OR = {
+			primary_title = {
+				OR = {
+					has_law = city_tax_0
+					has_law = city_tax_1
+					has_law = city_tax_2
 				}
-				primary_title = {
-					OR = {
-						has_law = feudal_tax_0
-						has_law = feudal_tax_1
-						has_law = feudal_tax_2
-					}
+			}
+			primary_title = {
+				OR = {
+					has_law = feudal_tax_0
+					has_law = feudal_tax_1
+					has_law = feudal_tax_2
 				}
 			}
 		}
@@ -609,13 +578,13 @@ character_event = {
 	}
 	
 	option = {
-		name = "Silence! Do not bother me with this again."
+		name = "EVTOPTAsauron.19"#Silence! Do not bother me with this again.
 		trigger = { ai = no }
 		set_character_flag = sauron19
 	}
 	
 	option = {
-		name = "Do so! This army doesn't feed itself..."
+		name = "EVTOPTBsauron.19"#Do so! This army doesn't feed itself...
 		primary_title = { add_law = city_tax_3 }
 		primary_title = { add_law = feudal_tax_3 }
 	}
@@ -625,23 +594,19 @@ character_event = {
 	
 character_event = {
     id = sauron.20
-    title = "Expand your Realm"
-    desc = "The lands of Middle-Earth are yours, you have but to send forth your armies and take what is rightfully yours! This neighboring duchy, for example..."
+    title = "EVTTITsauron.20"#Expand your Realm
+    desc = "EVTDESCsauron.20"#The lands of Middle-Earth are yours, you have but to send forth your armies and take what is rightfully yours! This neighboring duchy, for example...
     picture = "GFX_sauron_commands"
-	is_ruler = yes
+	only_rulers = yes
 	only_independent = yes
 
 	trigger = {
-		AND = {
-			OR = {
-				has_landed_title = c_barad_dur
-				has_landed_title = e_mordor
-			}	
-			dynasty = 10012
-			independent = yes
-			is_ruler = yes
-			num_of_claims = 0
-		}
+		OR = {
+			has_landed_title = c_barad_dur
+			has_landed_title = k_mordor
+		}	
+		dynasty = 10012
+		num_of_claims = 0
 		year = 11375
 	}
 	
@@ -650,7 +615,7 @@ character_event = {
 	}
 		
 	option = { 
-		name = "It will be mine."
+		name = "EVTOPTAsauron.20"#It will be mine.
 		random_realm_province = {
 			limit = {
 				any_neighbor_province = {
@@ -658,8 +623,7 @@ character_event = {
 						owner = { religion = religion_dunedain }
 						owner = { religion = religion_rhovanion }
 						owner = { religion = religion_mahal }
-						owner = { religion = religion_moriquendi }
-						owner = { religion = religion_calaquendi }
+						owner = { religion_group = religion_group_eldar }
 						owner = { religion = religion_haldadian }
 					}					
 				}
@@ -670,8 +634,7 @@ character_event = {
 						owner = { religion = religion_dunedain }
 						owner = { religion = religion_rhovanion }
 						owner = { religion = religion_mahal }
-						owner = { religion = religion_moriquendi }
-						owner = { religion = religion_calaquendi }
+						owner = { religion_group = religion_group_eldar }
 						owner = { religion = religion_haldadian }
 					}
 				}
@@ -704,7 +667,9 @@ character_event = {
 		
 	option = {
 		name = "EVTOPTBsauron.21" ## Command Akhôrahil, Adûnaphazôr	and Abrazîr	
-		NOT = { has_global_flag = numenorean_nazguls_in_angmar }
+		trigger = {
+			NOT = { has_global_flag = numenorean_nazguls_in_angmar }
+		}
 		character_event = { id = sauron.32 days = 5 }
 		set_character_flag = call_his_nazguls
 		ai_chance = { factor = 25 }
@@ -737,14 +702,10 @@ character_event = {
 		trigger = {
 			prestige = 500
 			wealth = 500
-			AND = {
-				has_landed_title = c_amon_lanc
-				has_landed_title = k_dol_guldur
-			}
-			AND = {
-				NOT = { has_global_flag = balchoths_invasion }
-				NOT = { has_global_flag = wainriders_invasion }
-			}
+			has_landed_title = c_amon_lanc
+			has_landed_title = k_dol_guldur
+			NOT = { has_global_flag = balchoths_invasion }
+			NOT = { has_global_flag = wainriders_invasion }
 		}
 		ai_chance = { factor = 80 }
 		prestige = -500
@@ -764,14 +725,12 @@ character_event = {
 		trigger = {
 			prestige = 500
 			wealth = 500
-			AND = {
-				has_landed_title = c_amon_lanc
-				has_landed_title = k_dol_guldur
-			}
+			has_landed_title = c_amon_lanc
+			has_landed_title = k_dol_guldur
 			NOT = { has_global_flag = khamul_in_angmar }
 			any_playable_ruler = {
 				has_landed_title = e_angmar
-				has_character_flag = withcking
+				has_character_flag = witchking
 			}
 		}	
 		ai_chance = { factor = 20 }
@@ -815,7 +774,7 @@ character_event = {
 			dynasty = 5011
 			random_traits = yes
 			culture = culture_balchoth
-			religion = culture_easterling
+			religion = religion_easterlings
 			age = 30
 			attributes = {
 				martial = 10
@@ -857,7 +816,7 @@ character_event = {
 			name = "Khudbard"
 			dynasty = 5012
 			culture = culture_balchoth
-			religion = culture_easterling
+			religion = religion_easterlings
 			age = 30
 			attributes = {
 				martial = 10
@@ -904,11 +863,9 @@ narrative_event = {
 	option = {
 		name = "EVTOPTAsauron.24"
 		trigger = {
-			AND = {
-				has_landed_title = k_balchoths
-				culture = culture_balchoth
-				age = 16
-			}
+			has_landed_title = k_balchoths
+			culture = culture_balchoth
+			age = 16
 		}
 		set_global_flag = balchoths_arrival
 		if = {
@@ -1445,7 +1402,7 @@ narrative_event = {
 	option = {
 		name = "EVTOPTBsauron.24"
 		trigger = {
-			AND = {
+			OR = {
 				NOT = { culture = culture_balchoth }
 				NOT = { has_landed_title = k_balchoths }
 			}
@@ -2153,14 +2110,10 @@ character_event = {
 		trigger = {
 			prestige = 500
 			wealth = 500
-			AND = {
-				has_landed_title = c_amon_lanc
-				has_landed_title = k_dol_guldur
-			}
+			has_landed_title = c_amon_lanc
+			has_landed_title = k_dol_guldur
 			NOT = { has_landed_title = k_mordor }
-			AND = {
-				NOT = { has_global_flag = mordor_sauron_reconquest }
-			}
+			NOT = { has_global_flag = mordor_sauron_reconquest }
 		}
 		ai_chance = { factor = 80 }
 		prestige = -500
@@ -2173,10 +2126,8 @@ character_event = {
 		trigger = {
 			prestige = 500
 			wealth = 500
-			AND = {
-				has_landed_title = c_amon_lanc
-				has_landed_title = k_dol_guldur
-			}
+			has_landed_title = c_amon_lanc
+			has_landed_title = k_dol_guldur
 			any_playable_ruler = {
 				has_landed_title = e_angmar
 				has_character_flag = withcking

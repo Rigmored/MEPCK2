@@ -1,4 +1,4 @@
-#Rhunavuld
+#Rhûnavuld
 
 # County Title
 title = c_rhunavuld
@@ -6,14 +6,12 @@ title = c_rhunavuld
 # Settlements
 max_settlements = 5
 
-b_rhunavuld = castle
-b_othabuld = city
-#b_oldavolra = city 
-#b_groznya = city
-#b_rhoshavora = city
+#b_rhunavuld = tribal
+#b_othabuld =
+#b_oldavolra = 
+#b_groznya = 
+#b_rhoshavora = 
 
 # Misc
-8222.1.1 = {
 culture = culture_wainriders
 religion = religion_easterlings
-}

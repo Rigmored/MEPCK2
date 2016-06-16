@@ -12,13 +12,11 @@ narrative_event = {
 	age = 16
 
 	trigger = {
-		AND = {
-			year = 11355
-			NOT = { year = 11363 }
-			has_landed_title = k_isengard
-			NOT = { has_character_flag = intro_rohanisengardwars }
-			culture = culture_istari
-		}
+		year = 11355
+		NOT = { year = 11363 }
+		has_landed_title = k_isengard
+		NOT = { has_character_flag = intro_rohanisengardwars }
+		culture = culture_istari
 	}
 	
 	mean_time_to_happen = {
@@ -41,7 +39,7 @@ narrative_event = {
 			}
 			narrative_event = { id = rohanisengard.6 days = 80 }
 		}
-		any_realm_demesne = {
+		any_realm_province = {
 			culture = culture_urukhai
 			religion = religion_uruk
 		}
@@ -53,9 +51,9 @@ narrative_event = {
 		add_trait = good_side
 		narrative_event = { id = rohanisengard.1 days = 30 }
 		set_character_flag = goodsaruman
-		any_realm_demesne = {
+		any_realm_province = {
 			culture = culture_rohirrim
-			religion = religion_northmen
+			religion = religion_rhovanion
 		}		
 	}
 }
@@ -83,7 +81,7 @@ narrative_event = {
 					age = 1
 				}
 				move_character = FROM
-				character_event = { id = rohanisengard.2 days = 1 }
+				narrative_event = { id = rohanisengard.2 days = 1 }
 			}
 		}
 	}
@@ -193,7 +191,7 @@ character_event = {
 	}
 	
 	option = {
-		name = "c" ## Free!
+		name = "EVTOPTArohanisengard.5" ## How could it be...?
 		any_courtier = {
 			limit = {
 				has_character_flag = gandalf
@@ -201,7 +199,7 @@ character_event = {
 				has_character_flag = imprisoned_in_isengard
 				imprisoned_days = 10
 			}		
-			reverse_imprison = FROM
+			reverse_imprison = ROOT
 		}
 	}
 }
@@ -263,7 +261,7 @@ character_event = {
 				has_landed_title = k_rohan
 				age = 1
 			}
-			narrative_event = { id = rohanisengard.8 days = 2 }
+			character_event = { id = rohanisengard.8 days = 2 }
 		}
 	}
 	
@@ -344,7 +342,7 @@ character_event = {
 					has_landed_title = e_gondor
 					has_landed_title = e_steward_gondor
 					has_landed_title = c_minas_tirith
-					has_landed_title = k_lorien
+					has_landed_title = d_lorien
 					has_landed_title = d_rivendell
 				}
 			}
@@ -603,7 +601,6 @@ character_event = {
 			}
 			death = {
 				death_reason = death_battle
-				killer = 10032
 			}
 		}
 	}
@@ -773,7 +770,7 @@ character_event = {
 		create_character = {
 			random_traits = yes
 			dynasty = random
-			religion = religion_northmen
+			religion = religion_rhovanion
 			culture = culture_rohirrim
 			female = no
 			age = 50
@@ -824,7 +821,7 @@ character_event = {
 					has_landed_title = e_gondor
 					has_landed_title = e_steward_gondor
 					has_landed_title = c_minas_tirith
-					has_landed_title = k_lorien
+					has_landed_title = d_lorien
 					has_landed_title = d_rivendell
 				}
 			}
@@ -934,7 +931,6 @@ character_event = {
 			}
 			death = {
 				death_reason = death_battle
-				killer = 10032
 			}
 		}
 	}
@@ -960,7 +956,7 @@ character_event = {
 			}
 			character_event = { id = rohanisengard.27 days = 10 }
 		}		
-		any_plyabale_ruler = {
+		any_playable_ruler = {
 			limit = {
 				has_character_flag = eomer
 				age = 1
@@ -1094,8 +1090,8 @@ character_event = {
 ### Eomer and Théodred are fighting together - Issue ###
 character_event = {
     id = rohanisengard.30
-    title = "EVTTITrohanisengard.30"
-    desc = "EVTDESCrohanisengard.30"
+    title = "OK"
+    desc = "OK"
     picture = "GFX_event_palantir"
 	age = 16
 	only_independent = yes
@@ -1104,7 +1100,7 @@ character_event = {
 	hide_window = yes
 	
 	option = {
-		name = "EVTOPTArohanisengard.30" ## I hope they'll win.
+		name = "OK" ## I hope they'll win.
 		### If Eomer come to help Théodred ###
 		if = {
 			limit = {
@@ -1169,7 +1165,6 @@ character_event = {
 			}
 			death = {
 				death_reason = death_battle
-				killer = 10032
 			}
 		}
 	}
@@ -1202,7 +1197,6 @@ character_event = {
 			}
 			death = {
 				death_reason = death_battle
-				killer = 10032
 			}
 		}
 		any_dynasty_member = {
@@ -1212,7 +1206,6 @@ character_event = {
 			}
 			death = {
 				death_reason = death_battle
-				killer = 10032
 			}
 		}		
 	}
@@ -1307,7 +1300,6 @@ character_event = {
 			}
 			death = {
 				death_reason = death_battle
-				killer = 10032
 			}
 		}
 	}

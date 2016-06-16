@@ -13,13 +13,10 @@ b_nardhethir = city
 
 # Misc
 terrain = marsh
-1.1.1 = {
-terrain = marsh
-}
-6222.1.1 = {
+
 culture = culture_calending
 religion = religion_haldadian
-}
+
 8222.1.1 = {
 culture = culture_gondorian
 religion = religion_dunedain

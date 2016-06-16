@@ -1,4 +1,4 @@
-#Duban Nala
+#Duban-Nâla
 
 # County Title
 title = c_duban_nala

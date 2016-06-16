@@ -1,0 +1,19 @@
+#Celoniand
+
+# County Title
+title = c_celoniand
+
+# Settlements
+max_settlements = 3
+
+b_celoniand = castle
+b_barad_celon = castle
+b_nin_i_celon = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

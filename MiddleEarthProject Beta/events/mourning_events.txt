@@ -68,7 +68,6 @@ character_event = {
 				add_trait = lustful
 			}
 			10 = {
-				add_trait = incapable
 			}
 		}		
 	}
@@ -76,12 +75,6 @@ character_event = {
 	option = {
 		name = EVTOPTB24501
 		add_trait = depressed
-		if = {
-			limit = {
-				religion_group = christian
-			}
-			add_trait = celibate
-		}
 	}	
 }
 
@@ -565,25 +558,11 @@ character_event = {
 	picture = GFX_evt_death
 	
 	is_triggered_only = yes
-
-	weight_multiplier = {
-		days = 1
-	}
 	
 	option = {
 		name = EVTOPTA4140
 		trigger = {
-			religion_group = religion_group_dunedain
-		}
-		add_character_modifier = {
-			name = the_sincere
-			duration = 180
-		}
-	}
-	option = {
-		name = EVTOPTD4140
-		trigger = {
-			religion_group = muslim
+			religion_group = religion_group_edain
 		}
 		add_character_modifier = {
 			name = the_sincere
@@ -592,12 +571,6 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTE4140
-		trigger = {
-			NOT = {
-				religion_group = muslim
-				religion_group = christian
-			}
-		}
 		add_character_modifier = {
 			name = the_sincere
 			duration = 180

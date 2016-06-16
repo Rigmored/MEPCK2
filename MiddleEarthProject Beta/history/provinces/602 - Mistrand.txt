@@ -6,9 +6,9 @@ title = c_mistrand
 # Settlements
 max_settlements = 5
 
-b_mistrand = castle
-b_urthondast = city
-b_moggubul = castle
+#b_mistrand = castle
+#b_urthondast = city
+#b_moggubul = castle
 #b_podabost = city
 #b_bobavil = city
 

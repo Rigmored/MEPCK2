@@ -19,7 +19,4 @@ b_thonfalas = castle
 # Misc
 culture = culture_gondorian
 religion = religion_dunedain
-8222.1.1 = {
-culture = culture_gondorian
-religion = religion_dunedain
-}
+

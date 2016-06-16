@@ -81,9 +81,9 @@ holder =  8196 # Blanco
 {
 holder =  8198 # Gruffo I
 }
-11356.1.1=
-{
-holder =  8177 # Will Whitfoot
+10800.1.1={
+	liege=k_shire
+	holder=no
 }
 
 

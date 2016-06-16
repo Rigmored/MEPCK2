@@ -6,13 +6,11 @@ title = c_kruk_mahur
 # Settlements
 max_settlements = 4
 
-b_kruk_mahur = castle
-b_tar_mahur = city
+#b_kruk_mahur = castle
+#b_tar_mahur = city
 #b_palak = city
 #b_xamith_ufar = city
 
 # Misc
-8222.1.1 = {
 culture = culture_variags
 religion = religion_easterlings
-}

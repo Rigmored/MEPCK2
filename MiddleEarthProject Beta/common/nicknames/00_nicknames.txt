@@ -50,62 +50,39 @@ nick_hardeknud = {}
 nick_the_maid = {}
 nick_darc = {}
 nick_the_master_of_hungary = {}
+nick_hildetand = {}
+nick_ring = {}
+nick_the_unfaithful = {}
+nick_the_beguiling = {}
+nick_the_temptress = {}
+nick_the_seducer = {}
+nick_the_lewd = {}
+nick_the_lecher = {}
+nick_the_unchaste = {}
+nick_of_the_wilds = {}
+nick_the_culture = {}		# "the Swedish", etc
+nick_the_rel_group = {}		# "the Muslim", etc
+nick_the_shadow = {}
+nick_the_whisperer = {}
+nick_the_spider = {}
+nick_the_impaler = {}
+nick_the_pilgrim = {}
+nick_the_viking = {}
+nick_the_decadent = {}
+nick_bloodaxe = {}
+nick_the_sword_of_god = {}
+nick_the_shrewd = {}
+nick_the_wily = {}
+nick_the_fox = {}
+nick_the_jovial = {}
+nick_the_jolly = {}
+nick_the_gracious = {}
+nick_the_rash = {}
+nick_the_headless = {}
+nick_the_beheader = {}
+nick_the_ruthless = {}
+nick_the_strange = {}
 
-## MEP nicknames ##
-nick_the_dark_lord = {}
-nick_the_white = {}
-nick_the_the_hapless ={}
-nick_hammerhand ={}
-nick_leofa ={}
-nick_ednew ={}
-nick_eadig ={}
-nick_great_goblin ={}
-nick_the_grey = {}
-nick_the_brown = {}
-nick_the_black ={}
-nick_the_faithful ={}
-nick_ironfoot ={}
-nick_stonehelm ={}
-nick_oakenshield ={}
-nick_wolfhunter ={}
-nick_the_deathless ={}
-nick_nibs ={}
-nick_jolly ={}
-nick_the_nick ={}
-nick_long_hom ={}
-nick_angmardacil ={}
-nick_wormtongue ={}
-nick_galadhir ={}
-nick_bullroarer ={}
-nick_the_frightened = {}
-nick_witch_king = {}
-nick_the_easterling = {}
-nick_father_dragons = {}
-nick_the_black = {}
-nick_the_golden = {}
-nick_the_worm = {}
-nick_the_terrible = {}
-nick_the_numenorean = {}
-nick_the_tall = {}
-nick_fire_hammer = {}
-nick_golden_hands = {}
-nick_sparkling_beard = {}
-nick_ruby_belt = {}
-nick_emerald_hairs = {}
-nick_diamond_hands = {}
-nick_lord_of_eagles = {}
-nick_deepdelver = {}
-nick_proudneck = {}
-nick_masterful = {}
-nick_broadbelt = {}
-nick_goldfather= {}
-nick_fatty= {}
-nick_halfelven = {}
-nick_elffriend = {}
-nick_steelsheen = {}
-nick_the_blue = {}
-nick_terriblehost = {}
-nick_goodhost = {}
 
 # GIVEN BY TRAITS
 #################
@@ -159,6 +136,17 @@ nick_the_good = {
 		NOT = { culture_group = culture_group_melkor }
 		NOT = { culture_group = culture_group_wilderness }
 		NOT = { culture_group = culture_group_eru }	
+	}
+	chance = {
+		factor = 1
+	}
+}
+
+nick_the_troubadour = {
+	allow = {
+		age = 20
+		trait = poet
+		trait = gregarious
 	}
 	chance = {
 		factor = 1
@@ -257,18 +245,6 @@ nick_the_blind = {
 			trait = inbred
 			trait = blinded
 		}
-	}
-	chance = {
-		factor = 1
-	}
-}
-
-nick_the_leper = {
-	allow = {
-		age = 20
-		trait = leper
-		NOT = { culture_group = culture_group_wilderness }
-		NOT = { culture_group = culture_group_eru }	
 	}
 	chance = {
 		factor = 1
@@ -937,8 +913,9 @@ nick_the_old = {
 		NOT = { trait = dwarven }
 		NOT = { trait = orkish }
 		NOT = { trait = maiar }
-		NOT = { trait = dragon }
-		NOT = { has_character_flag = sauron }
+		NOT = { trait = uruloke }
+		NOT = { trait = cold_drake }
+		NOT = { trait = long_worms }
 		NOT = { trait = nazgul }
 	}
 	chance = {
@@ -981,340 +958,5 @@ nick_the_great = {
 			factor = 2.0
 			prestige = 6000
 		}
-	}
-}
-
-
-###### DWARVES NICKNAMES - MEP #########
-
-### Irongloves ###
-nick_irongloves = {
-	allow = {
-		culture_group = culture_group_dwarves
-		OR = {
-			trait = trained_dwarf
-			trait = great_axeman
-		}
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			martial = 12
-		}
-		modifier = {
-			factor = 2.0
-			martial = 14
-		}
-		modifier = {
-			factor = 2.0
-			martial = 16
-		}
-	}
-}
-
-### Dragonhelm ###
-nick_dragonhelm = {
-	allow = {
-		culture_group = culture_group_dwarves
-		trait = dragon_slayer
-		prestige = 800
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			martial = 12
-		}
-		modifier = {
-			factor = 2.0
-			martial = 14
-		}
-		modifier = {
-			factor = 2.0
-			martial = 16
-		}
-	}
-}
-
-### Ironaxe ###
-nick_ironaxe = {
-	allow = {
-		culture_group = culture_group_dwarves
-		trait = great_axeman
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			martial = 12
-		}
-		modifier = {
-			factor = 2.0
-			martial = 14
-		}
-		modifier = {
-			factor = 2.0
-			martial = 16
-		}
-	}
-}
-
-### Ironshield ###
-nick_ironshield = {
-	allow = {
-		culture_group = culture_group_dwarves
-		OR = {
-			trait = great_axeman
-			trait = dwarf_warrior
-		}
-		prestige = 500
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			martial = 12
-		}
-		modifier = {
-			factor = 2.0
-			martial = 14
-		}
-		modifier = {
-			factor = 2.0
-			martial = 16
-		}
-	}
-}
-
-### Ironbeard ###
-nick_ironbeard = {
-	allow = {
-		culture_group = culture_group_dwarves
-		OR = {
-			trait = great_axeman
-			trait = dwarf_warrior
-		}
-		age = 210
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			martial = 12
-		}
-		modifier = {
-			factor = 2.0
-			martial = 14
-		}
-		modifier = {
-			factor = 2.0
-			martial = 16
-		}
-	}
-}
-
-### Goldenhood ###
-nick_goldenhood = {
-	allow = {
-		culture_group = culture_group_dwarves
-		OR = {
-			trait = master_craftsman
-			trait = legendary_craftman
-		}
-		age = 210
-		prestige = 300
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			stewardship = 12
-		}
-		modifier = {
-			factor = 2.0
-			stewardship = 14
-		}
-		modifier = {
-			factor = 2.0
-			stewardship = 16
-		}
-	}
-}
-
-### Stonebeard ###
-nick_stonebeard = {
-	allow = {
-		culture_group = culture_group_dwarves
-		age = 210
-		prestige = 500
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			prestige = 1000
-		}
-		modifier = {
-			factor = 2.0
-			prestige = 2000
-		}
-		modifier = {
-			factor = 2.0
-			age = 230
-		}
-	}
-}
-
-### Stonehead ###
-nick_stonehead = {
-	allow = {
-		culture_group = culture_group_dwarves
-		age = 210
-	}
-	chance = {
-		factor = 2
-	}
-}
-
-### Fireaxe ###
-nick_fireaxe = {
-	allow = {
-		culture_group = culture_group_dwarves
-		OR = {
-			trait = great_axeman
-			trait = dwarf_warrior
-		}
-		prestige = 200
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			martial = 12
-		}
-		modifier = {
-			factor = 2.0
-			martial = 14
-		}
-		modifier = {
-			factor = 2.0
-			martial = 16
-		}
-	}
-}
-
-### Firestone ###
-nick_firestone = {
-	allow = {
-		culture_group = culture_group_dwarves
-		OR = {
-			trait = master_craftsman
-			trait = legendary_craftman
-		}
-		prestige = 200
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			stewardship = 12
-		}
-		modifier = {
-			factor = 2.0
-			stewardship = 14
-		}
-		modifier = {
-			factor = 2.0
-			stewardship = 16
-		}
-	}
-}
-
-### Silveraxe ###
-nick_silveraxe = {
-	allow = {
-		culture_group = culture_group_dwarves
-		OR = {
-			trait = great_axeman
-			trait = dwarf_warrior
-		}
-		prestige = 200
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			martial = 12
-		}
-		modifier = {
-			factor = 2.0
-			martial = 14
-		}
-		modifier = {
-			factor = 2.0
-			martial = 16
-		}
-	}
-}
-
-### Silverhelm ###
-nick_silverhelm = {
-	allow = {
-		culture_group = culture_group_dwarves
-		OR = {
-			trait = great_axeman
-			trait = dwarf_warrior
-		}
-		prestige = 200
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			martial = 12
-		}
-		modifier = {
-			factor = 2.0
-			martial = 14
-		}
-		modifier = {
-			factor = 2.0
-			martial = 16
-		}
-	}
-}
-
-### Ironpick ###
-nick_ironpick = {
-	allow = {
-		culture_group = culture_group_dwarves
-		OR = {
-			trait = craftsman
-			trait = skilled_craftman
-		}
-		prestige = 200
-	}
-	chance = {
-		factor = 2
-		modifier = {
-			factor = 2.0
-			stewardship = 12
-		}
-		modifier = {
-			factor = 2.0
-			stewardship = 14
-		}
-		modifier = {
-			factor = 2.0
-			stewardship = 16
-		}
-	}
-}
-
-### Founder of Erebor ###
-nick_erebor_founder = {
-	allow = {
-		trait = erebor_founder
 	}
 }

@@ -1,0 +1,15 @@
+#Pass of Anach - Cîl Anach
+
+# County Title
+title = c_cil_anach
+
+# Settlements
+max_settlements = 3
+
+b_cil_anach = castle
+b_din_fuin = castle
+b_aglontaur = castle
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

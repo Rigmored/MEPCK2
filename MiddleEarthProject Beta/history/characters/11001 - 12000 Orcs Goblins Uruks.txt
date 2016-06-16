@@ -41,7 +41,7 @@
 	6933.1.1={
 	birth="6933.1.1"
 	}
-	9990.1.1={
+	7171.1.1={
 		add_spouse=11157
 	}
 	7480.1.1={
@@ -211,7 +211,7 @@
 	birth="10017.1.1"
 	}
 	10287.1.1={
-	death="10387.1.1"
+	death="10287.1.1"
 	}
 }
 11015 = {
@@ -429,7 +429,7 @@ add_rival=339 #Beorn
 	birth="11217.1.1"
 	}
 	11438.1.1={
-	death="11428.1.1"
+	death="11438.1.1"
 	}
 }
 
@@ -1452,8 +1452,8 @@ add_rival=339 #Beorn
 	10013.1.1={
 	birth="10013.1.1"
 	}
-	10345.1.1={
-	death="10359.1.1"
+	10348.1.1={
+	death="10348.1.1"
 	}
 }
 11093 = {
@@ -1703,7 +1703,7 @@ add_rival=339 #Beorn
 	10015.1.1={
 	birth="10015.1.1"
 	}
-	10345.1.1={
+	10359.1.1={
 	death="10359.1.1"
 	}
 }
@@ -1896,7 +1896,7 @@ add_rival=339 #Beorn
 	birth="10010.1.1"
 	}
 	10345.1.1={
-	death="10359.1.1"
+	death="10345.1.1"
 	}
 }
 11123 = {
@@ -2098,7 +2098,7 @@ add_rival=339 #Beorn
 
 ## Orks of First Age ##
 
-11135 = {
+11302 = {
 	name="Balcmeg"
 	dynasty=11028
 	religion="religion_orkish"
@@ -2204,7 +2204,7 @@ add_rival=339 #Beorn
 	death="4822.1.1"
 	} ## Killed during the Fall of Gondolin
 }
-11142 = {
+11303 = {
 	name="Balog"
 	dynasty=11033
 	religion="religion_orkish"
@@ -2226,7 +2226,7 @@ add_rival=339 #Beorn
 	culture="culture_orkish" 
 	add_trait=orkish
 	add_trait=great_orc
-	father=11141
+	father=11303
 	4996.1.1={
 	birth="4996.1.1"
 	}
@@ -2291,7 +2291,7 @@ add_rival=339 #Beorn
 	religion="religion_orkish"
 	culture="culture_orkish" 
 	add_trait=orkish
-	father=11135
+	father=11302
 	4547.1.1={
 	birth="4547.1.1"
 	}
@@ -2449,7 +2449,7 @@ add_rival=339 #Beorn
 	religion="religion_orkish"
 	culture="culture_orkish" 
 	add_trait=orkish
-	father=11155
+	father=11156
 	female=yes
 	6925.1.1={
 	birth="6925.1.1"
@@ -2810,7 +2810,7 @@ add_rival=339 #Beorn
 	religion="religion_orkish"
 	culture="culture_orkish" 
 	add_trait=orkish
-	father=11177
+	father=11178
 	10449.1.1={
 	birth="10449.1.1"
 	}
@@ -2887,7 +2887,7 @@ add_rival=339 #Beorn
 	culture="culture_orkish" 
 	add_trait=orkish
 	add_trait=strong
-	father=11186
+	father=11138
 	4555.1.1={
 	birth="4555.1.1"
 	}
@@ -3067,15 +3067,15 @@ add_rival=339 #Beorn
 	culture="culture_urukhai" 
 	add_trait=orkish
 	add_trait=strong
-	father=11197
+	father=11198
 	11257.1.1={
 	birth="11257.1.1"
 	}
 	11361.1.1={
 		employer=10032
 	}	
-	11362.2.29={
-	death="11362.2.29"
+	11362.2.28={
+	death="11362.2.28"
 	} ## Slained by Eomer near Fangorn
 }
 11200 = {
@@ -3107,8 +3107,8 @@ add_rival=339 #Beorn
 	11361.1.1={
 		employer=10032
 	}
-	11362.2.29={
-	death="11362.2.29"
+	11362.2.28={
+	death="11362.2.28"
 	} ## Slained by Eomer near Fangorn
 }
 11202 = {
@@ -3126,7 +3126,7 @@ add_rival=339 #Beorn
 	death="11286.1.1"
 	}
 }
-11225 = {
+11300 = {
 	name="Lugdush"
 	dynasty=11031
 	religion="religion_orkish"
@@ -3141,7 +3141,7 @@ add_rival=339 #Beorn
 		employer=10032
 	}
 	11362.3.4={
-	death="11362.2.29"
+	death="11362.3.4"
 	} ## Slained by Eomer near Fangorn
 }
 11203 = {
@@ -3169,14 +3169,14 @@ add_rival=339 #Beorn
 	culture="culture_urukhai" 
 	add_trait=orkish
 	add_trait=strong
-	father=11197
+	father=11202
 	11271.1.1={
 	birth="11271.1.1"
 	}
 	11361.1.1={
 		employer=10032
 	}	
-	11362.2.29={
+	11362.3.4={
 	death="11362.3.4"
 	} ## Killed at the Battle of Helm's Deep
 }
@@ -3219,7 +3219,7 @@ add_rival=339 #Beorn
 	culture="culture_urukhai"
 	add_trait=orkish
 	add_trait=strong
-	father=11205
+	father=11206
 	11094.1.1={
 	birth="11094.1.1"
 	}
@@ -3230,7 +3230,7 @@ add_rival=339 #Beorn
 11210 = {
 	name="Azgûrath"
 	dynasty=11036
-	father=11205
+	father=11207
 	religion="religion_orkish"
 	culture="culture_orkish"
 	add_trait=orkish
@@ -3249,7 +3249,7 @@ add_rival=339 #Beorn
 	culture="culture_orkish"
 	add_trait=orkish
 	add_trait=strong
-	father=11205
+	father=11207
 	11200.1.1={
 	birth="11200.1.1"
 	}
@@ -3297,8 +3297,8 @@ add_rival=339 #Beorn
 11214 = {
 	name="Bûrat"
 	dynasty=11038
-	father=11213
-	mother=11219
+	father=11212
+	mother=11218
 	religion="religion_olog"
 	culture="culture_troll"
 	add_trait=orkish
@@ -3313,8 +3313,8 @@ add_rival=339 #Beorn
 11215 = {
 	name="Tûma"
 	dynasty=11038
-	father=11213
-	mother=11219
+	father=11212
+	mother=11218
 	religion="religion_olog"
 	culture="culture_troll"
 	add_trait=orkish
@@ -3329,8 +3329,8 @@ add_rival=339 #Beorn
 11216 = {
 	name="Wûluag"
 	dynasty=11038
-	father=11213
-	mother=11219
+	father=11212
+	mother=11218
 	religion="religion_olog"
 	culture="culture_troll"
 	add_trait=orkish
@@ -3345,8 +3345,8 @@ add_rival=339 #Beorn
 11217 = {
 	name="Dhît"
 	dynasty=11038
-	father=11213
-	mother=11219
+	father=11212
+	mother=11218
 	religion="religion_olog"
 	culture="culture_troll"
 	add_trait=orkish
@@ -3365,7 +3365,6 @@ add_rival=339 #Beorn
 	culture="culture_troll"
 	add_trait=orkish
 	add_trait=strong
-	add_trait=twin
 	11030.1.1={
 	birth="11030.1.1"
 	}
@@ -3383,7 +3382,6 @@ add_rival=339 #Beorn
 	culture="culture_troll"
 	add_trait=orkish
 	add_trait=strong
-	add_trait=twin
 	11170.1.1={
 	birth="11170.1.1"
 	}
@@ -3591,8 +3589,119 @@ add_rival=339 #Beorn
 	culture="culture_orkish" 
 	add_trait=orkish
 	add_trait=great_orc
-	father=11228
+	father=11230
 	11300.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}
+
+
+
+#### Trolls of WoTR ####
+
+11250 = {
+	name="Kadak"
+	dynasty=11066
+	religion="religion_olog"
+	culture="culture_troll"
+	add_trait=orkish
+	add_trait=strong
+	11314.1.1={
+	birth="11314.1.1"
+	}
+	11402.1.1={
+	death="11402.1.1"
+	}
+}
+11251 = {
+	name="Brök"
+	dynasty=11066
+	father=11250
+	religion="religion_olog"
+	culture="culture_troll"
+	add_trait=orkish
+	add_trait=strong
+	11345.1.1={
+	birth="11345.1.1"
+	}
+	11438.1.1={
+	death="11438.1.1"
+	}
+}
+
+#### Orcs WotR Grey Mountains ####
+
+11260 = {
+	name="Gimûb"
+	dynasty=11070
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11321.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}
+
+11261 = {
+	name="Hûra"
+	dynasty=11071
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11302.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}
+
+11262 = {
+	name="Dûsh"
+	dynasty=11072
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11297.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}
+
+11263 = {
+	name="Ûkbûk"
+	dynasty=11073
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11317.1.1={
+		birth="11300.1.1"
+	}
+	11573.1.1={
+		death="11573.1.1"
+	}
+}
+
+11264 = {
+	name="Nákra"
+	dynasty=11074
+	religion="religion_orkish"
+	culture="culture_orkish" 
+	add_trait=orkish
+	add_trait=great_orc
+	11311.1.1={
 		birth="11300.1.1"
 	}
 	11573.1.1={

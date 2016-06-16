@@ -80,15 +80,19 @@ holder = 0 # Smaug is in Erebor
 {
 holder = 9905 # Bard I
 }
-11320.1.1=
+11288.1.1=
 {
-holder = 9906 # Bain I
+holder = 9264 # Corwin
 }
-11350.1.1=
+11324.1.1=
 {
-holder = 9907 # Brand I
+holder = 9265 # Braga
+}
+11361.1.1=
+{
+holder = 9266 # Soury
 }
 11362.3.17=
 {
-holder = 9908 # Bard II
+holder = 9267 # Olaf
 }

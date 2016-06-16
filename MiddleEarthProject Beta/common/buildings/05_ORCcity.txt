@@ -728,8 +728,100 @@ city = {
 		}
 	}
 
+####################### Orc special fortresses #######################
+	ct_numenorean2up = { #Minas Morgul for Nazgûl#
+		desc = ca_numenorean2up_desc
+		upgrades_from = ct_numenorean2
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 2
+		ai_creation_factor = 86
+		light_infantry = 600
+		heavy_infantry = 500
+		archers = 350
+        	potential = {
+            		province_id = 426 #minas_morgul
+	    		culture_group = culture_group_melkor
+            }
+	}	
+	ct_witchking_fortress = { #Angmar fortress
+		desc = ca_witchking_fortress_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 2
+		ai_creation_factor = 86
+		light_infantry = 400
+		heavy_infantry = 300
+		archers = 250
+        	potential = {
+            		province_id = 624 #Carn Dum
+	    		culture_group = culture_group_melkor
+			FROM = { trait=nazgul }
+		}
+	}
+	ct_Gundabad_Orc = { #Orc Stronghold
+		desc = ca_Gundabad_Orc_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 1.0
+		ai_creation_factor = 86
+		tax_income = 4
+		light_infantry = 250
+		heavy_infantry = 200
+		archers = 200
+       		potential = {
+         		province_id = 642 # Gundabad
+			culture_group = culture_group_melkor
+           	}
+	}
+	ct_dolguldur = { #DolGuldur#
+		desc = ca_dolguldur_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 5.0
+		ai_creation_factor = 86
+		light_infantry = 250
+		heavy_infantry = 250
+		archers = 250
+        	potential = {
+            		province_id = 310 #Amon Lanc
+			culture_group = culture_group_melkor
+            	}
+	}
+	ct_isengarduruk = { #Isengard#
+		desc = ca_isengarduruk_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 1.0
+		ai_creation_factor = 86
+		tax_income = 5
+		light_infantry = 250
+		heavy_infantry = 750
+		archers = 250
+       		potential = {
+         		province_id = 225 # Orthanc
+			OR = {
+				culture_group = culture_group_melkor
+				culture = culture_istari
+			}
+           	}
+	}
+
+	ct_moria = { #Moria for orcs
+		desc = ca_moria_desc
+		gold_cost = 150
+		build_time = 1460
+		fort_level = 5.0
+		garrison_size = 1.50
+		heavy_infantry = 200
+		ai_creation_factor = 86
+        	potential = {
+            		province_id = 285 #Moria
+			culture_group = culture_group_melkor
+		}
+	}	
+
 # Shrine of Melkor #
-	
 	tp_shrine_melkor = {
 		desc = tp_shrine_melkor_desc
 		gold_cost = 150
@@ -740,9 +832,7 @@ city = {
 		add_number_to_name = no
         	potential = {
             		has_global_flag = building
-			FROM = { 
-				culture_group = culture_group_melkor
-			}
-        	}
+			culture_group = culture_group_melkor	
+		}
 	}	
 }

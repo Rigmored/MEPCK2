@@ -6,10 +6,9 @@ title = c_gwathlo_basin
 # Settlements
 max_settlements = 3
 
-b_gwathlo_basin = castle
+b_gwathlo_basin = tribal
 
 # Misc
-8222.1.1 = {
+
 culture = culture_wilderness
 religion = religion_wilderness
-}

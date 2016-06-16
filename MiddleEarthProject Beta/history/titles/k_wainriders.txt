@@ -1,7 +1,5 @@
 8220.1.1={
-	law = agnatic_succession
-	law = succ_primogeniture
-	law = centralization_3
+	historical_nomad = yes
 }
 9924.1.1=
 {

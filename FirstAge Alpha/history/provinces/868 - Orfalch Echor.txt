@@ -1,0 +1,19 @@
+#Orfalch Echor
+
+# County Title
+title = c_orfalch_echor
+
+# Settlements
+max_settlements = 7
+
+b_gate_of_steel = castle
+b_gate_of_gold = castle
+b_gate_of_silver = castle
+b_gate_of_iron = castle
+b_gate_of_bronze = castle
+b_gate_of_stone = castle
+b_gate_of_wood = castle
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi

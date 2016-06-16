@@ -2,12 +2,10 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=e_durins_folk
-}
 11113.1.1=
 {
 holder = 4023 # Thror I
+	liege=e_durins_folk
 }
 11133.1.1=
 {

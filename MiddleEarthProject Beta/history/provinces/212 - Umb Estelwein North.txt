@@ -18,7 +18,3 @@ b_estrivel = city
 # Misc
 culture = culture_gondorian_middlemen
 religion = religion_haldadian
-8222.1.1 = {
-culture = culture_gondorian_middlemen
-religion = religion_haldadian
-}

@@ -6,7 +6,7 @@ title = c_the_narrows
 # Settlements
 max_settlements = 4
 
-b_rad_angálaladh = castle
+b_rad_angalaladh = castle
 b_narrowford = castle
 #b_eastern_gate_narrows = castle
 #b_western_gate_narrows = castle
@@ -15,9 +15,6 @@ b_narrowford = castle
 culture = culture_silvan
 religion = religion_moriquendi
 terrain = forest
-1.1.1 = {
-terrain = forest
-}
 6595.1.1 = {
 culture = culture_northmen
 religion = religion_rhovanion }

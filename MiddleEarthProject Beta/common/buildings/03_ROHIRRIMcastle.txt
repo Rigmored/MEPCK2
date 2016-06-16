@@ -678,8 +678,8 @@ castle = {
             	}
 	}
 ####################### Shipyard, gives galleys -50% #######################
-	ca_Hshipyard_1 = {
-		desc = HRshipyard_desc
+	ca_Rshipyard_1 = {
+		desc = Rshipyard_desc
 		port = yes
 		
 		gold_cost = 35
@@ -695,10 +695,10 @@ castle = {
             	}
 	}
 	
-	ca_Hshipyard_2 = {
-		desc = HRshipyard_desc
+	ca_Rshipyard_2 = {
+		desc = Rshipyard_desc
 		port = yes
-		upgrades_from = ca_Hshipyard_1
+		upgrades_from = ca_Rshipyard_1
 		gold_cost = 40
 		build_time = 310
 		galleys = 3
@@ -712,10 +712,10 @@ castle = {
             	}
 	}
 	
-	ca_Hshipyard_3 = {
-		desc = HRshipyard_desc
+	ca_Rshipyard_3 = {
+		desc = Rshipyard_desc
 		port = yes
-		upgrades_from = ca_Hshipyard_2
+		upgrades_from = ca_Rshipyard_2
 		gold_cost = 60
 		build_time = 545
 		galleys = 4
@@ -729,11 +729,11 @@ castle = {
             }
 	}
 	
-	ca_Hshipyard_4 = {
-		desc = HRshipyard_desc
+	ca_Rshipyard_4 = {
+		desc = Rshipyard_desc
 		port = yes
 		
-		upgrades_from = ca_Hshipyard_3
+		upgrades_from = ca_Rshipyard_3
 		gold_cost = 85
 		build_time = 810
 		galleys = 5

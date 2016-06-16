@@ -77,7 +77,7 @@ holder = 2193 # Arveleg I
 }
 9752.1.1=
 {
-holder = 0
+holder = 25010
 liege = 0
 }
 11362.5.1=

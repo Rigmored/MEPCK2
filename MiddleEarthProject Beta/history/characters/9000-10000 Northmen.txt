@@ -80,12 +80,26 @@
 	religion="religion_rhovanion"
 	culture="culture_barding"
 	add_trait=master_bowman
+	add_trait=tradesman
+	add_trait=honest
+	add_trait=humble
+	add_trait=brave
+	add_trait=strong
+	add_trait=kind
+	add_trait=just
 	father=9904
-	11252.1.1={
-		birth="11252.1.1"
+	11248.1.1={
+		birth="11248.1.1"
 	}
-	11284.10.1={
+	11268.1.1={
+		add_spouse=9270
+	}
+	11284.11.10={
 		add_trait=necklace_of_girion
+		add_trait=fortune_builder
+	}
+	11286.1.1={
+		add_spouse=9273
 	}
 	11320.1.1={
 		death="11320.1.1"
@@ -96,8 +110,16 @@
 	dynasty=901
 	religion="religion_rhovanion"
 	culture="culture_barding"
-	add_trait=skilled_bowman	
+	add_trait=great_bowman
+	add_trait=honest
+	add_trait=humble
+	add_trait=brave
+	add_trait=strong
+	add_trait=kind
+	add_trait=just
+	add_trait=fortune_builder	
 	father=9905
+	mother=9270
 	11270.1.1={
 		birth="11270.1.1"
 	}
@@ -131,6 +153,7 @@
 	religion="religion_rhovanion"
 	culture="culture_barding"
 	father=9907
+	add_trait=great_bowman
 	add_trait=tradesman
 	add_trait=just
 	add_trait=kind
@@ -371,7 +394,7 @@
 		birth="10152.1.1"
 	}
 	10199.1.1={
-		culture ="culture_eothed"
+		culture ="culture_eotheod"
 	}	
 	10246.1.1={
 		death="10246.1.1"
@@ -388,7 +411,7 @@
 		birth="10189.1.1"
 	}
 	10199.1.1={
-		culture ="culture_eothed"
+		culture ="culture_eotheod"
 	}	
 	10276.1.1={
 		death="10276.1.1"
@@ -398,7 +421,7 @@
 	name="Feohtan"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9026
 	10227.1.1={
@@ -412,7 +435,7 @@
 	name="Frumgar"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9027
 	10266.1.1={
@@ -426,7 +449,7 @@
 	name="Fram"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9028
 	10266.1.1={
@@ -440,7 +463,7 @@
 	name="Colbrand"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9029
 	10304.1.1={
@@ -454,7 +477,7 @@
 	name="Éowig"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9030
 	10343.1.1={
@@ -468,7 +491,7 @@
 	name="Felaróf"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9031
 	10380.1.1={
@@ -482,7 +505,7 @@
 	name="Éobrand"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9032
 	10418.1.1={
@@ -496,7 +519,7 @@
 	name="Mædwine"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9033
 	10456.1.1={
@@ -510,7 +533,7 @@
 	name="Grimhelm"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9034
 	10493.1.1={
@@ -524,7 +547,7 @@
 	name="Waldæg"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9035
 	10529.1.1={
@@ -538,7 +561,7 @@
 	name="Cenwulf"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9036
 	10567.1.1={
@@ -552,7 +575,7 @@
 	name="Frithbéorth"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9037
 	10609.1.1={
@@ -566,7 +589,7 @@
 	name="Athelfrith"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9038
 	10647.1.1={
@@ -580,7 +603,7 @@
 	name="Waltheof"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9039
 	10684.1.1={
@@ -594,7 +617,7 @@
 	name="Ealdwine"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9040
 	10722.1.1={
@@ -608,7 +631,7 @@
 	name="Pendred"
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=great_rider
 	father=9041
 	10765.1.1={
@@ -622,7 +645,7 @@
 	name="Léod" ## Father of Eorl the Young ##
 	dynasty=902
 	religion="religion_rhovanion"
-	culture="culture_eothed"
+	culture="culture_eotheod"
 	add_trait=good_rider
 	father=9042
 	10802.1.1={
@@ -1823,8 +1846,11 @@
 	religion="religion_rhovanion"
 	culture="culture_dorwinrim"
 	father=9134
-	11292.1.1={
-		birth="11292.1.1"
+	11280.1.1={
+		birth="11280.1.1"
+	}
+	11303.1.1={
+		add_spouse=9274
 	}
 	11362.2.1={
 		death="11362.2.1"
@@ -1836,6 +1862,7 @@
 	religion="religion_rhovanion"
 	culture="culture_dorwinrim"
 	father=9135
+	mother=9274
 	11329.1.1={
 		birth="11329.1.1"
 	}
@@ -2296,7 +2323,7 @@
 	dynasty=910
 	religion="religion_rhovanion"
 	culture="culture_barding"
-	father=9902
+	father=9903
 	11207.1.1={
 		birth="11207.1.1"
 	}
@@ -2309,6 +2336,7 @@
 	dynasty=910
 	religion="religion_rhovanion"
 	culture="culture_barding"
+	add_trait=twin
 	father=9170
 	11244.1.1={
 		birth="11244.1.1"
@@ -3272,7 +3300,7 @@
 	dynasty=921
 	religion="religion_rhovanion"
 	culture="culture_northmen"
-	father=9240
+	father=9241
 	10805.1.1={
 		birth="10805.1.1"
 	}	
@@ -3563,5 +3591,209 @@
 	}
 	9822.1.1={
 		death="9822.1.1"
+	}
+}
+
+# Line of Corwin (from Hobbit video game) Lords of Celduin
+
+9264 = {
+	name="Corwin" #I
+	dynasty=933
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	add_trait=skilled_bowman
+	11265.1.1={
+		birth="11265.1.1"
+	}
+	11286.1.1={
+		add_spouse=9271
+	}
+	11324.1.1={
+		death="11324.1.1"
+	}
+}
+9265 = {
+	name="Braga"
+	dynasty=933
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	add_trait=skilled_bowman
+	father=9264
+	mother=9271
+	11287.1.1={
+		birth="11287.1.1"
+	}
+	11361.1.1={
+		death="11361.1.1"
+	}
+}
+9266 = {
+	name="Soury"
+	dynasty=933
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9265
+	add_trait=skilled_bowman
+	11310.1.1={
+		birth="11310.1.1"
+	}
+	11362.3.17 = {
+		death="11362.3.17"
+	} # Slain in the Battle of Dale
+}
+9267 = {
+	name="Olaf"
+	dynasty=933
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9266
+	add_trait=skilled_bowman
+	11339.1.1={
+		birth="11339.1.1"
+	}
+	11435.1.1={
+		death="11435.1.1"
+	}
+}
+9268 = {
+	name="Corwin" #II
+	dynasty=933
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9267
+	add_trait=skilled_bowman
+	11358.1.1={
+		birth="11358.1.1"
+	}
+	11455.1.1={
+		death="11455.1.1"
+	}
+}
+
+#Alfrid from the Hobbit films
+9269 = {
+	name="Alfrid"
+	dynasty=934
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	add_trait=deceitful
+	add_trait=craven
+	add_trait=envious
+	add_trait=flamboyant_schemer
+	add_trait=arbitrary
+	add_trait=cynical
+	add_trait=paranoid
+	add_trait=selfish
+	11235.1.1={
+		birth="11235.1.1"
+	}
+	11259.1.1={
+		employer=19047
+	}
+	11305.1.1={
+		death="11305.1.1"
+	}
+}
+
+#Bard's family
+9270 = {
+	name="Birgitta" #Bard's First Wife
+	female=yes
+	dynasty=911
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	add_trait=fair
+	father=9180
+	11250.1.1={
+		birth="11250.1.1"
+	}
+	11275.1.1={
+		death="11275.1.1"
+	}
+}
+9271 = {
+	name="Sigrid"
+	female=yes
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	add_trait=fair
+	add_trait=honest
+	add_trait=humble
+	add_trait=brave
+	add_trait=strong
+	add_trait=kind
+	add_trait=just
+	father=9905
+	mother=9270
+	11269.1.1={
+		birth="11269.1.1"
+	}
+	11339.1.1={
+		death="11339.1.1"
+	}
+}
+9272 = {
+	name="Tilda"
+	female=yes
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	add_trait=fair
+	add_trait=honest
+	add_trait=humble
+	add_trait=brave
+	add_trait=strong
+	add_trait=kind
+	add_trait=just
+	father=9905
+	mother=9270
+	11272.1.1={
+		birth="11272.1.1"
+	}
+	11346.1.1={
+		death="11346.1.1"
+	}
+}
+9273 = {
+	name="Hilda" #Bard's Second Wife (In the Hobbit movie, but not listed as Bard's wife)
+	female=yes
+	dynasty=910
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	add_trait=strong
+	add_trait=honest
+	add_trait=brave
+	add_trait=just
+	add_trait=twin
+	father=9170
+	11244.1.1={
+		birth="11244.1.1"
+	}
+	11313.1.1={
+		death="11313.1.1"
+	}
+}
+9274 = {
+	name="Bianca"
+	female=yes
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	add_trait=fair
+	add_trait=fashionable
+	add_trait=honest
+	add_trait=humble
+	add_trait=brave
+	add_trait=strong
+	add_trait=kind
+	add_trait=just
+	father=9905
+	mother=9273
+	11286.1.1={
+		birth="11286.1.1"
+	}
+	11361.1.1={
+		death="11361.1.1"
 	}
 }

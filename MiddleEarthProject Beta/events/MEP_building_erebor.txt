@@ -17,7 +17,7 @@ character_event = {
 		set_global_flag = building_erebor
 		wealth = -100
 		FROM = {
-			character_event = { id = building_erebor.1 days = 30 } # building  - First Step#
+			character_event = { id = building_erebor.1 days = 90 } # building  - First Step#
 		}
 	}	
 	option = {
@@ -45,7 +45,7 @@ character_event = {
 					50 = {  }
 				}
 				FROM = {
-					character_event = { id = building_erebor.3 days = 30 } # Second Step
+					character_event = { id = building_erebor.3 days = 90 } # Second Step
 				}
 			}
 			25 = {
@@ -68,7 +68,7 @@ character_event = {
 					1 = { add_trait = infirm }
 				}
 				FROM = {
-					character_event = { id = building_erebor.3 days = 30 } # Second Step
+					character_event = { id = building_erebor.3 days = 90 } # Second Step
 				}
 			}
 			30 = {
@@ -91,7 +91,7 @@ character_event = {
 					1 = { add_trait = infirm }
 				}
 				FROM = {
-					character_event = { id = building_erebor.3 days = 30 } # Second Step
+					character_event = { id = building_erebor.3 days = 90 } # Second Step
 				}
 			}
 			20 = {
@@ -148,7 +148,7 @@ character_event = {
 					50 = { add_trait = slothful }
 				}
 				FROM = {
-					character_event = { id = building_erebor.5 days = 30 } # Third Step
+					character_event = { id = building_erebor.5 days = 90 } # Third Step
 				}
 			}
 			25 = {
@@ -171,7 +171,7 @@ character_event = {
 					1 = { add_trait = infirm }
 				}
 				FROM = {
-					character_event = { id = building_erebor.5 days = 30 } # Third Step
+					character_event = { id = building_erebor.5 days = 90 } # Third Step
 				}
 			}
 			30 = {
@@ -194,7 +194,7 @@ character_event = {
 					1 = { add_trait = infirm }
 				}
 				FROM = {
-					character_event = { id = building_erebor.5 days = 30 } # Third Step
+					character_event = { id = building_erebor.5 days = 90 } # Third Step
 				}
 			}
 			20 = {
@@ -256,7 +256,7 @@ character_event = {
 					1 = { add_trait = infirm }
 				}
 				FROM = {
-					character_event = { id = building_erebor.7 days = 30 } # Building of Erebor - Second Step
+					character_event = { id = building_erebor.7 days = 90 } # Building of Erebor - Second Step
 				}
 			}
 			20 = {
@@ -266,7 +266,7 @@ character_event = {
 			}	
 			10 = {
 				FROM = {
-					character_event = { id = building_erebor.8 days = 25} # You found something into the mountain...
+					character_event = { id = building_erebor.8 days = 30} # You found something into the mountain...
 				}
 			}				
 		}
@@ -285,7 +285,7 @@ character_event = {
 					1 = { add_trait = infirm }
 				}
 				FROM = {
-					character_event = { id = building_erebor.7 days = 30 } # Building of Erebor - Second Step
+					character_event = { id = building_erebor.7 days = 90 } # Building of Erebor - Second Step
 				}
 			}
 			30 = {
@@ -295,7 +295,7 @@ character_event = {
 			}	
 			10 = {
 				FROM = {
-					character_event = { id = building_erebor.8 days = 25} # You found something into the mountain...
+					character_event = { id = building_erebor.8 days = 30} # You found something into the mountain...
 				}
 			}				
 		}
@@ -315,7 +315,7 @@ character_event = {
 					1 = { add_trait = infirm }
 				}
 				FROM = {
-					character_event = { id = building_erebor.7 days = 30 } # Building of Erebor is Complete
+					character_event = { id = building_erebor.7 days = 90 } # Building of Erebor is Complete
 				}
 			}
 			25 = {
@@ -325,7 +325,7 @@ character_event = {
 			}	
 			10 = {
 				FROM = {
-					character_event = { id = building_erebor.8 days = 25} # You found something into the mountain...
+					character_event = { id = building_erebor.8 days = 30} # You found something into the mountain...
 				}
 			}				
 		}
@@ -380,7 +380,6 @@ character_event = {
 		set_global_flag = erebor_built
 		clr_global_flag = building_erebor	
 		add_trait = erebor_founder
-		FROM = {give_nickname = nick_erebor_founder }
 		b_gate_of_erebor = { #castle
 			remove_building = ca_lonely_mountain
 			add_building = ca_erebor			
@@ -428,6 +427,6 @@ character_event = {
 	option = {
 		name = "EVTOPTAbuilding_erebor.8" ## Great !
 		add_trait = erebor_gem_mine
-		character_event = { id = building_erebor.7 days = 10 }		
+		character_event = { id = building_erebor.7 days = 60 }		
 	}		
 }

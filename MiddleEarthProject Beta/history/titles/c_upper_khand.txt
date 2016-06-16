@@ -5,6 +5,30 @@
 1080.1.1={
 	liege=d_khand
 }
+9550.1.1=
+{
+holder =  20058 # Abaziôn
+}
+9598.1.1=
+{
+holder =  20059 # Adoês
+}
+9634.1.1=
+{
+holder =  20060 # Sauaiosos
+}
+9645.1.1=
+{
+holder =  20300 # Pêrakos
+}
+9682.1.1=
+{
+holder =  20061 # Xianphôkanos
+}
+9716.1.1=
+{
+holder =  0
+}
 10250.1.1=
 {
 holder =  5001 # Aboagos I

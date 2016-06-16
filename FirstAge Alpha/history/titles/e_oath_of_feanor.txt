@@ -1,0 +1,11 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+4281.1.1= {
+holder = 3238 # Fëanor
+}
+4283.1.1=
+{
+holder = 3239 # Maedhros
+}

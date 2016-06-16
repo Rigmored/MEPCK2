@@ -6,14 +6,12 @@ title = c_thoropar
 # Settlements
 max_settlements = 5
 
-b_thoropar = castle
-b_ug_thoras = castle
-b_moriapor = city
-#b_karpataer = city
-#b_moravik = city
+#b_thoropar = tribal
+#b_ug_thoras = 
+#b_moriapor = 
+#b_karpataer = 
+#b_moravik = 
 
 # Misc
-8222.1.1 = {
 culture = culture_wainriders
 religion = religion_easterlings
-}

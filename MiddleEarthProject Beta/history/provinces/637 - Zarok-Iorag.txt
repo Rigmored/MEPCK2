@@ -1,12 +1,12 @@
-# 637 - c_zarok_iorag
+# 637 - Zarok-Iôrag
 
 # County Title
 title = c_zarok_iorag
 
 # Settlements
-max_settlements = 3
+max_settlements = 1
 
-b_zarok_iorag = castle
+b_zarok_iorag = tribal
 
 # Misc
 culture = culture_nurnim

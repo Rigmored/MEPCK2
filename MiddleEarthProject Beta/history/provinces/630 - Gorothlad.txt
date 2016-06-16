@@ -14,7 +14,22 @@ b_donnvail = city
 # Misc
 culture = culture_hillmen
 religion = religion_angmarim
-9643.1.1 = {
-culture = culture_wilderness
-religion = religion_wilderness
+
+8222.1.1 = {
+	b_gabilshathur = ca_Pwall_1
+	b_gabilshathur = ca_Pwatchtower_1 
+	b_gabilshathur = ca_Pkeep_1
+	b_gabilshathur = ca_Pmilitia_barracks_1
+	b_gabilshathur = ca_Ptraining_grounds_1
+	b_gabilshathur = ca_Pcastleguards_1
+	b_gabilshathur = ca_Pstable_1
+	b_gabilshathur = ca_Ptown_1
+	b_gabilshathur = ca_Phillsmen_1 
+
+	b_donnvail = ct_Pwall_1
+	b_donnvail = ct_Pwatchtower_1 
+	b_donnvail = ct_Pbarracks_1 
+	b_donnvail = ct_Ptownmilitia_1 
+	b_donnvail = ct_Pguard_1 
+	b_donnvail = ct_Pmarketplace_1
 }

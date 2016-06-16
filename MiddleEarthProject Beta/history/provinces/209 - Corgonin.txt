@@ -16,10 +16,3 @@ b_calenhirost = city
 culture = culture_gondorian_middlemen
 religion = religion_rhovanion
 terrain = hills
-1.1.1 = {
-terrain = hills
-}
-8222.1.1 = {
-culture = culture_gondorian_middlemen
-religion = religion_rhovanion
-}

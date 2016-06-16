@@ -1,0 +1,387 @@
+
+namespace = songs_of_power
+
+character_event = {
+	id = songs_of_power.999
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		long_character_event = {id = songs_of_power.1}
+		set_variable = { which = "count" value = 0}
+		if = {
+			limit = {
+				learning = 5
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}
+			}
+			set_variable = { which = "spell_power" value = 1}
+		}
+		if = {
+			limit = {
+				learning = 10
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 2}
+		}
+		if = {
+			limit = {
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}			
+				learning = 15
+			}
+			change_variable = { which = "spell_power" value = 3}
+		}
+		if = {
+			limit = {
+				learning = 20
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 4}
+		}
+		if = {
+			limit = {
+				learning = 25
+				or = {
+					trait = school_gnosis_1
+					trait = school_gnosis_2
+					trait = school_gnosis_3
+					trait = school_gnosis_4
+					trait = school_gnosis_5					
+				}				
+			}
+			change_variable = { which = "spell_power" value = 5}
+		}		
+	}
+
+}
+
+long_character_event = {
+	id = songs_of_power.1#"High Magic" 
+	desc = songs_of_power.1_desc#"High Magic, the true magic. "
+	is_triggered_only = yes
+	
+	picture = GFX_evt_mage_lore_high_magic
+	
+	immediate = {
+		change_variable = { which = "count" value = 1}
+	}
+
+	option = {
+		trigger = {
+			check_variable = { which = "spell_power" value = 1}
+		}
+		name = songs_of_power.1a
+		if = { 
+			limit = {check_variable = {which = "count"} value = 0 }
+			set_character_flag = object1_1
+			character_event = {id = songs_of_power.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 1 }
+			set_character_flag = object1_2
+			character_event = {id = songs_of_power.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 2 }
+			set_character_flag = object1_3
+			character_event = {id = songs_of_power.3}	
+			set_variable = { which = "count" value = 0}			
+		}	
+	}
+	option = {
+		trigger = {
+			check_variable = { which = "spell_power" value = 1}
+		}	
+		name = songs_of_power.1b
+		if = { 
+			limit = {check_variable = {which = "count"} value = 0 }
+			set_character_flag = object2_1
+			character_event = {id = songs_of_power.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 1 }
+			set_character_flag = object2_2
+			character_event = {id = songs_of_power.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 2 }
+			set_character_flag = object2_3
+			character_event = {id = songs_of_power.3}			
+			set_variable = { which = "count" value = 0}						
+		}
+	}
+	option = {
+		trigger = {
+			check_variable = { which = "spell_power" value = 2}
+		}	
+		name = songs_of_power.1c
+		if = { 
+			limit = {check_variable = {which = "count"} value = 0 }
+			set_character_flag = object3_1
+			character_event = {id = songs_of_power.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 1 }
+			set_character_flag = object3_2
+			character_event = {id = songs_of_power.1}			
+		}
+		if = { 
+			limit = {check_variable = {which = "count"} value = 2 }
+			set_character_flag = object3_3
+			character_event = {id = songs_of_power.3}			
+			set_variable = { which = "count" value = 0}						
+		}	
+	}
+	option = {			
+		name = songs_of_power.1d
+	}
+}
+
+
+character_event = {
+id = songs_of_power.3
+hide_window = yes
+is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { 
+				has_character_modifier = object1_1 #1
+				has_character_modifier = object1_2
+				has_character_modifier = object1_3			
+			}
+		
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object1_1 #2
+				has_character_modifier = object1_2
+				has_character_modifier = object2_3				
+			}
+		
+		}	
+		if = {
+			limit = { 
+				has_character_modifier = object1_1 #3
+				has_character_modifier = object1_2
+				has_character_modifier = object3_3				
+			}
+		
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object1_1 #4
+				has_character_modifier = object2_2
+				has_character_modifier = object1_3			
+			}
+		
+		}	
+		if = {
+			limit = { 
+				has_character_modifier = object1_1 #5
+				has_character_modifier = object2_2
+				has_character_modifier = object2_3			
+			}
+		
+		}			
+		if = {
+			limit = { 
+				has_character_modifier = object1_1 #6
+				has_character_modifier = object2_2
+				has_character_modifier = object3_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object1_1 #7
+				has_character_modifier = object3_2
+				has_character_modifier = object1_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object1_1 #8
+				has_character_modifier = object3_2
+				has_character_modifier = object2_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object1_1 #9
+				has_character_modifier = object3_2
+				has_character_modifier = object3_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object2_1 #10
+				has_character_modifier = object1_2
+				has_character_modifier = object1_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object2_1 #11
+				has_character_modifier = object1_2
+				has_character_modifier = object2_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object2_1 #12
+				has_character_modifier = object1_2
+				has_character_modifier = object3_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object2_1 #13
+				has_character_modifier = object2_2
+				has_character_modifier = object1_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object2_1 #14
+				has_character_modifier = object2_2
+				has_character_modifier = object2_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object2_1 #15
+				has_character_modifier = object2_2
+				has_character_modifier = object3_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object2_1 #16
+				has_character_modifier = object3_2
+				has_character_modifier = object1_3			
+			}
+			
+		}		
+		if = {
+			limit = { 
+				has_character_modifier = object2_1 #17
+				has_character_modifier = object3_2
+				has_character_modifier = object2_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object2_1 # 18
+				has_character_modifier = object3_2
+				has_character_modifier = object3_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object3_1 # 19
+				has_character_modifier = object1_2
+				has_character_modifier = object1_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object3_1 # 20
+				has_character_modifier = object1_2
+				has_character_modifier = object2_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object3_1 # 21
+				has_character_modifier = object1_2
+				has_character_modifier = object3_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object3_1 # 22
+				has_character_modifier = object2_2
+				has_character_modifier = object1_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object3_1 # 23
+				has_character_modifier = object2_2
+				has_character_modifier = object2_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object3_1 # 24
+				has_character_modifier = object2_2
+				has_character_modifier = object3_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object3_1 # 25
+				has_character_modifier = object3_2
+				has_character_modifier = object1_3			
+			}
+			
+		}
+		if = {
+			limit = { 
+				has_character_modifier = object3_1 # 26
+				has_character_modifier = object3_2
+				has_character_modifier = object2_3			
+			}
+			
+		}		
+		if = {
+			limit = { 
+				has_character_modifier = object3_1 # 27
+				has_character_modifier = object3_2
+				has_character_modifier = object3_3			
+			}
+			
+		}		
+	}
+}

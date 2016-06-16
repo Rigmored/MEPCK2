@@ -65,9 +65,9 @@
 	add_trait=strong
 	add_trait=twin
 	add_trait=quick
-	add_trait=experimenter
 	add_trait=perceptive
 	add_trait=healer_master
+	add_trait=great_elf
 	
 	father=3001
 	mother=3002
@@ -192,7 +192,7 @@
 	name="Artanis"
 	dynasty=3004
 	female=yes
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 
 	add_trait=elf
@@ -367,6 +367,7 @@
 	add_trait=honest
 	add_trait=patient
 	add_trait=charitable
+	add_trait = brave
 	add_trait=charismatic_negotiator
 	add_trait=great_healer
 
@@ -415,7 +416,7 @@
 	75.1.1 = {
 		birth="75.1.1"
 	}
-	90.1.1 = {
+	93.1.1 = {
 		add_spouse=3013
 	}
 }
@@ -445,7 +446,7 @@
 	75.1.2 = {
 		birth="75.1.2"
 	}
-	90.1.1 = {
+	93.1.1 = {
 		add_spouse=3015
 	}
 }
@@ -475,7 +476,7 @@
 	75.1.3 = {
 		birth="75.1.3"
 	}
-	90.1.1 = {
+	93.1.1 = {
 		add_spouse=3017		
 	}
 }
@@ -505,7 +506,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3019
 	}
 }
@@ -535,7 +536,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3021
 	}
 }
@@ -565,7 +566,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3023
 	}
 }
@@ -595,7 +596,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3025
 	}
 }
@@ -625,7 +626,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3027
 	}
 }
@@ -655,7 +656,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3029
 	}
 }
@@ -685,7 +686,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3031
 	}
 }
@@ -715,7 +716,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3033
 	}
 }
@@ -745,7 +746,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3035
 	}
 }
@@ -775,7 +776,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3037
 	}
 }
@@ -805,7 +806,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3039
 	}
 }
@@ -835,7 +836,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3041
 	}
 }
@@ -865,7 +866,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3043
 	}
 }
@@ -895,7 +896,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3045
 	}
 }
@@ -925,7 +926,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3047
 	}
 }
@@ -955,7 +956,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3049
 	}
 }
@@ -985,7 +986,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3051
 	}
 }
@@ -1015,7 +1016,7 @@
 	75.2.1 = {
 		birth="75.2.1"
 	}
-	91.1.1 = {
+	93.1.1 = {
 		add_spouse=3053
 	}
 }
@@ -1039,7 +1040,7 @@
 3054 = {
 	name="Ingwë"
 	dynasty=3010
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
 	add_trait=fair
@@ -1064,7 +1065,7 @@
 3055 = {
 	name="Finwë"
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 
 	add_trait=elf
@@ -1094,6 +1095,7 @@
 	527.1.1 = {
 		culture="culture_noldor"
 		dynasty=3006
+		add_trait=light_valinor
 		add_trait=sailed_west		
 		employer = 10001
 	}
@@ -1111,8 +1113,8 @@
 3056 = {
 	name="Elwë Singollo"
 	dynasty=3012
-	religion="religion_calaquendi"
-	culture="culture_nelya"
+	religion="religion_moriquendi"
+	culture="culture_nelyar"
 
 	add_trait=elf
 	add_trait=fair
@@ -1133,6 +1135,7 @@
 	527.1.1 = {
 		culture="culture_teleri"
 		dynasty=3009
+		add_trait=light_valinor
 	}
 	977.1.1 = {
 		name="Elu Thingol"
@@ -1200,7 +1203,7 @@
 3059 = {
 	name="Malawë"
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 	add_trait=elf
 	add_trait=fair
@@ -1214,6 +1217,7 @@
 		culture="culture_noldor"
 		dynasty=3023
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 	1054.1.1 = {
@@ -1296,9 +1300,10 @@
 		add_spouse=3214
 	}
 	1725.1.1 = {
-		religion="religion_calaquendi"
+		religion="religion_moriquendi"
 		add_trait=sailed_west
 		remove_trait=at_east
+		add_trait=light_valinor
 	} # Taken to Valinor by Oromë
 	3928.1.1 = {
 		remove_trait=sailed_west
@@ -1338,7 +1343,7 @@
 3064 = {
 	name="Istawë"
 	dynasty=3010
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
 	add_trait=fair
@@ -1352,6 +1357,7 @@
 		culture="culture_vanyar"
 		dynasty=3027
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 	910.1.1 = {
@@ -1373,7 +1379,7 @@
 	add_trait=perceptive
 	add_trait=charismatic_negotiator
 	add_trait=ship_builder
-	add_trait=bearded_elf
+	add_trait=beard_elf
 
 	father=3028
 	mother=3029
@@ -1453,7 +1459,7 @@
 3067 = {
 	name="Fáwë"
 	dynasty=3012
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_nelyar"
 	add_trait=elf
 	add_trait=fair
@@ -1470,6 +1476,7 @@
 	968.1.1 = {
 		culture="culture_falmari"
 		add_trait=sailed_west
+		add_trait=light_valinor
 	} #Olwë and the greater part of the Teleri arrive in Valinor
 	1341.1.1 = {
 		add_spouse=3083
@@ -1482,7 +1489,7 @@
 3068 = {
 	name="Urunwë"
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 	add_trait=elf
 	add_trait=fair
@@ -1496,6 +1503,7 @@
 		culture="culture_noldor"
 		dynasty=3014
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 	804.1.1 = {
@@ -1538,7 +1546,7 @@
 3070 = {
 	name="Olwë"
 	dynasty=3012
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_nelyar"
 
 	add_trait=elf
@@ -1562,6 +1570,7 @@
 		culture="culture_falmari"
 		name="Olue"
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	} #Olwë and the greater part of the Teleri arrive in Valinor
 	1073.1.1 = {
@@ -1572,7 +1581,7 @@
 3071 = {
 	name="Ilwë"
 	dynasty=3010
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
 	add_trait=fair
@@ -1586,6 +1595,7 @@
 		culture="culture_vanyar"
 		dynasty=3030
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 }
@@ -1593,7 +1603,7 @@
 3072 = {
 	name="Angawë"
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 	add_trait=elf
 	add_trait=fair
@@ -1607,6 +1617,7 @@
 		culture="culture_noldor"
 		dynasty=3024
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 	1044.1.1 = {
@@ -1617,7 +1628,7 @@
 3073 = {
 	name="Curwë"
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 	add_trait=elf
 	add_trait=fair
@@ -1631,6 +1642,7 @@
 		culture="culture_noldor"
 		dynasty=3031
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 }
@@ -1659,7 +1671,7 @@
 	name="Indiel"
 	female=yes
 	dynasty=3010
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
 	add_trait=fair
@@ -1672,6 +1684,7 @@
 		culture="culture_vanyar"
 		dynasty=3008
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 }
@@ -1754,7 +1767,7 @@
 3079 = {
 	name="Elenwë"
 	dynasty=3010
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
 	add_trait=fair
@@ -1768,6 +1781,7 @@
 		culture="culture_vanyar"
 		dynasty=3033
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 }
@@ -1776,7 +1790,7 @@
 	name="Ninquelóte"
 	female=yes
 	dynasty=3012
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_nelyar"
 	add_trait=elf
 	add_trait=fair
@@ -1792,6 +1806,7 @@
 	968.1.1 = {
 		culture="culture_falmari"
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	} #Olwë and the greater part of the Teleri arrive in Valinor
 }
@@ -1857,7 +1872,7 @@
 	name="Ilmaien"
 	female=yes
 	dynasty=3010
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
 	add_trait=fair
@@ -1870,6 +1885,7 @@
 		culture="culture_vanyar"
 		dynasty=3025
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 }
@@ -1903,7 +1919,7 @@
 	name="Iliniel"
 	female=yes
 	dynasty=3010
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
 	add_trait=fair
@@ -1916,6 +1932,7 @@
 		culture="culture_vanyar"
 		dynasty=3025
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 }
@@ -1949,7 +1966,7 @@
 	name="Náriel"
 	female=yes
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 	add_trait=elf
 	add_trait=fair
@@ -1963,6 +1980,7 @@
 		culture="culture_noldor"
 		dynasty=3016
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 }
@@ -2041,7 +2059,7 @@
 	name="Míriel" #Serindë
 	female=yes
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 
 	add_trait=elf
@@ -2061,6 +2079,7 @@
 		culture="culture_noldor"
 		dynasty=3020
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 	1149.1.1 = {
@@ -2124,7 +2143,7 @@
 3094 = {
 	name="Quilwë"
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 	add_trait=elf
 	add_trait=fair
@@ -2138,6 +2157,7 @@
 		culture="culture_noldor"
 		dynasty=3035
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 	1207.1.1 = {
@@ -2173,7 +2193,7 @@
 3096 = {
 	name="Tanwë"
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 	add_trait=elf
 	add_trait=fair
@@ -2187,6 +2207,7 @@
 		culture="culture_noldor"
 		dynasty=3036
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 	2415.1.1 = {
@@ -2201,7 +2222,7 @@
 	name="Isilien"
 	female=yes
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 	add_trait=elf
 	add_trait=fair
@@ -2214,6 +2235,7 @@
 	527.1.1 = {
 		culture="culture_noldor"
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 	4294.1.1 = {
@@ -2307,7 +2329,7 @@
 	name="Laurië"
 	female=yes
 	dynasty=3010
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
 	add_trait=fair
@@ -2319,6 +2341,7 @@
 	527.1.1 = {
 		culture="culture_vanyar"
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001
 	}
 }
@@ -2357,6 +2380,7 @@
 	add_trait=fair
 	father=3040
 	mother=3041
+	female=yes
 	364.1.1 = {
 		birth="364.1.1"
 	}
@@ -2690,10 +2714,10 @@
   	dna="bmhaj0mgac0"
   	properties="ja0eefbebbb"
 
-	4782.1.1 = {
-		birth="4782.1.1"
+	4712.1.1 = {
+		birth="4712.1.1"
 	}
-	3809.1.1 = {
+	4780.1.1 = {
 		add_spouse=3125
 	}
 	4818.1.1={
@@ -2734,8 +2758,8 @@
 	add_trait=twin
 	father=3116
 	mother=3125
-	4812.1.1 = {
-		birth="4812.1.1"
+	4782.1.1 = {
+		birth="4782.1.1"
 	}
 	4869.1.1 = {
 		add_spouse=3185
@@ -2783,8 +2807,9 @@
 		birth="1149.1.1"
 	}
 	1533.1.1 = {
-		religion="religion_calaquendi"
+		religion="religion_moriquendi"
 		add_trait=sailed_west
+		add_trait=light_valinor
 	} # Taken to Valinor by Oromë
 	1629.1.1 = {
 		add_spouse=3126
@@ -2881,8 +2906,8 @@
 	add_trait=elf
 	add_trait=fair
 	father=3124
-	4782.1.1 = {
-		birth="2782.1.1"
+	3322.1.1 = {
+		birth="3322.1.1"
 	}
 	4818.1.1={
 		death="4818.1.1"
@@ -2895,11 +2920,12 @@
 	name="Laurëanna"
 	dynasty=3014
 	female=yes
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3068
 	mother=3087
 	1294.1.1 = {
@@ -2917,11 +2943,12 @@
 	name="Nerdanel"
 	dynasty=3014
 	female=yes
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3068
 	mother=3087
 	1198.1.1 = {
@@ -2933,12 +2960,13 @@
 3137 = {
 	name="Urundil"
 	dynasty=3014
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3068
 	mother=3087
 	1550.1.1 = {
@@ -2953,11 +2981,12 @@
 	name="Indis"
 	female=yes
 	dynasty=3027
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_vanyar"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3064
 	mother=3075
 	1064.1.1 = {
@@ -2971,7 +3000,7 @@
 3129 = {
 	name="Ñolofinwë Aracáno" ## Fingolfin
 	dynasty=3006
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 
 	add_trait=elf
@@ -2985,6 +3014,7 @@
 	add_trait=imposing
 	add_trait=ringil
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 
 	father=3055
 	mother=3128
@@ -3018,11 +3048,12 @@
 	name="Anairë"
 	dynasty=3031
 	female=yes
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valino
 	father=3073
 	1533.1.1 = {
 		birth="1533.1.1"
@@ -3035,7 +3066,7 @@
 3131 = {
 	name="Findecáno" ## Fingon 
 	dynasty=3005
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 
 	add_trait=elf
@@ -3048,6 +3079,7 @@
 	add_trait=organizer
 	add_trait=inspiring_leader
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 
 	father=3129
 	mother=3130
@@ -3079,7 +3111,7 @@
 3132 = {
 	name="Turucáno" ## Turgon
 	dynasty=3005
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 
 	add_trait=elf
@@ -3094,6 +3126,7 @@
 	add_trait=glamdring
 	add_trait=staff_of_doom
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 
 	father=3129
 	mother=3130
@@ -3126,7 +3159,7 @@
 	name="Írissë" ## Aredhel Ar-Feiniel
 	dynasty=3005
 	female=yes
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 
 	add_trait=elf
@@ -3136,6 +3169,7 @@
 	add_trait=tall
 	add_trait=elusive_shadow
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 
 	father=3129
 	mother=3130
@@ -3158,7 +3192,7 @@
 3134 = {
 	name="Aracáno"
 	dynasty=3005
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
@@ -3168,6 +3202,7 @@
 	add_trait=imposing
 	add_trait=inspiring_leader
 	add_trait=great_elf
+	add_trait=light_valinor
 	father=3129
 	mother=3130
 	3200.1.1 = {
@@ -3176,7 +3211,7 @@
 	4312.1.1 = {
 		name="Argon"
 		remove_trait=sailed_west
-		death="4822.1.1"
+		death="4312.1.1"
 	} #Slain in the Battle of the Lammoth
 }
 
@@ -3184,11 +3219,12 @@
 	name="Elenwen"
 	dynasty=3033
 	female=yes
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_vanyar"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3079
 	2434.1.1 = {
 		birth="2434.1.1"
@@ -3202,7 +3238,7 @@
 	name="Itarillë" ## Idril Celebrindal
 	dynasty=3005
 	female=yes
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 
 	add_trait=elf
@@ -3212,6 +3248,7 @@
 	add_trait=fashionable
 	add_trait=kind
 	add_trait=chaste
+	add_trait=light_valinor
 
 	father=3132
 	mother=3135
@@ -3236,11 +3273,12 @@
 	name="Fanya"
 	dynasty=3014
 	female=yes
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3137
 	2252.1.1 = {
 		birth="2252.1.1"
@@ -3333,12 +3371,13 @@
 3141 = {
 	name="Maiwë"
 	dynasty=3013
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_falmari"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3070
 	mother=3080
 	1629.1.1 = {
@@ -3352,12 +3391,13 @@
 3142 = {
 	name="Alqualír"
 	dynasty=3013
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_falmari"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3070
 	mother=3080
 	1820.1.1 = {
@@ -3372,11 +3412,12 @@
 	name="Eärwen"
 	female=yes
 	dynasty=3013
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_falmari"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3070
 	mother=3080
 	1916.1.1 = {
@@ -3391,7 +3432,7 @@
 3145 = {
 	name="Arafinwë Ingoldo" ## Finarfin
 	dynasty=3006
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 
 	add_trait=elf
@@ -3404,6 +3445,7 @@
 	add_trait=kind
 	add_trait=grey_eminence
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 
 	father=3055
 	mother=3128
@@ -3427,7 +3469,7 @@
 3146 = {
 	name="Artafinde Findaráto" ## Finrod Felagund
 	dynasty=3004
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -3440,6 +3482,7 @@
 	add_trait=grey_eminence
 	add_trait=nauglamir
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 	
 	father=3145
 	mother=3143
@@ -3466,11 +3509,12 @@
 	name="Amarië"
 	female=yes
 	dynasty=3008
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_vanyar"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3210
 	mother=3212
 	2491.1.1 = {
@@ -3482,7 +3526,7 @@
 3148 = {
 	name="Artanáro Artaresto" ## Orodreth
 	dynasty=3004
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -3493,6 +3537,7 @@
 	add_trait=just
 	add_trait=kind
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 	
 	father=3145
 	mother=3143
@@ -3519,11 +3564,12 @@
 	name="Findëúlëalós"
 	female=yes
 	dynasty=3028
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_falmari"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3067
 	mother=3083
 	2635.1.1 = {
@@ -3542,7 +3588,7 @@
 	name="Findëúlëa"  ## Finduilas
 	female=yes
 	dynasty=3004
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -3551,6 +3597,7 @@
 	add_trait=charismatic_negotiator
 	add_trait=just
 	add_trait=kind
+	add_trait=light_valinor
 	
 	father=3148
 	mother=3149
@@ -3573,7 +3620,7 @@
 3151 = {
 	name="Angaráto" ## Angrod
 	dynasty=3004
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -3585,6 +3632,7 @@
 	add_trait=defensive_leader
 	add_trait=patient
 	add_trait=great_elf
+	add_trait=light_valinor
 	
 	father=3145
 	mother=3143
@@ -3611,11 +3659,12 @@
 	name="Eldalótë"
 	female=yes
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3194
 	2970.1.1 = {
 		birth="2970.1.1"
@@ -3632,12 +3681,13 @@
 3153 = {
 	name="Artaher"
 	dynasty=3004
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3151
 	mother=3152
 	4244.1.1 = {
@@ -3663,7 +3713,6 @@
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
-	add_trait=sailed_west
 	father=3153
 	mother=3159
 	4780.1.1 = {
@@ -3680,7 +3729,7 @@
 3155 = {
 	name="Ambaráto Aicanáro"  ## Aegnor 
 	dynasty=3004
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -3694,6 +3743,7 @@
 	add_trait=inspiring_leader
 	add_trait=duelist
 	add_trait=legendary_warrior
+		add_trait=light_valinor
 	
 	father=3145
 	mother=3143
@@ -3718,12 +3768,13 @@
 3156 = {
 	name="Guilin"
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3094
 	mother=3097
 	2280.1.1 = {
@@ -3744,11 +3795,12 @@
 	name="Unílwen"
 	female=yes
 	dynasty=3028
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_falmari"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3067
 	mother=3083
 	2318.1.1 = {
@@ -3766,12 +3818,13 @@
 3158 = {
 	name="Gelmir"
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3156
 	mother=3157
 	3430.1.1 = {
@@ -3789,11 +3842,12 @@
 	name="Mírlós"
 	female=yes
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3158
 	4264.1.1 = {
 		birth="4264.1.1"
@@ -3810,12 +3864,13 @@
 3160 = {
 	name="Gwindor"
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3156
 	mother=3157
 	3593.1.1 = {
@@ -3833,7 +3888,7 @@
 	name="Varnirína"
 	female=yes
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
@@ -3851,7 +3906,7 @@
 	name="Ancalima"
 	female=yes
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
@@ -4095,13 +4150,13 @@
 	dynasty=3029
 	female=yes
 	religion="religion_moriquendi"
-	culture="culture_silvan"
+	culture="culture_sindar"
 	father=3107
 	mother=3113
 	add_trait=elf
 	add_trait=fair
-	10325.1.1 = {
-		birth="10325.1.1"
+	6580.1.1 = {
+		birth="6580.1.1"
 	}
 } # Wandering southern Ithilien alone
 
@@ -4499,13 +4554,14 @@
 3194 = {
 	name="Duilin"
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 	father=3094
 	mother=3097
 	2112.1.1 = {
@@ -4522,12 +4578,13 @@
 3195 = {
 	name="Penlin"
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3094
 	mother=3097
 	2180.1.1 = {
@@ -4541,13 +4598,14 @@
 3196 = {
 	name="Penlod"
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 	father=3094
 	mother=3097
 	2854.1.1 = {
@@ -4564,13 +4622,14 @@
 3197 = {
 	name="Pengolodh"
 	dynasty=3035
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 	father=3094
 	mother=3097
 	3219.1.1 = {
@@ -4587,12 +4646,13 @@
 3198 = {
 	name="Nambarauto"
 	dynasty=3024
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3072
 	mother=3203
 	2092.1.1 = {
@@ -4609,12 +4669,13 @@
 3199 = {
 	name="Rog"
 	dynasty=3024
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3198
 	2537.1.1 = {
 		birth="2537.1.1"
@@ -4630,12 +4691,13 @@
 3200 = {
 	name="Salgant"
 	dynasty=3024
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3198
 	2906.1.1 = {
 		birth="2906.1.1"
@@ -4662,10 +4724,11 @@
 		birth="240.1.1"
 	}
 	527.1.1 = {
-		religion="religion_calaquendi"
+		religion="religion_moriquendi"
 		culture="culture_noldor"
 		dynasty=3039
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001	
 	}
 	987.1.1 = {
@@ -4677,7 +4740,7 @@
 	name="Aryantë"
 	female=yes
 	dynasty=3011
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_tatyar"
 	add_trait=elf
 	add_trait=fair
@@ -4687,10 +4750,11 @@
 		birth="259.1.1"
 	}
 	527.1.1 = {
-		religion="religion_calaquendi"
+		religion="religion_moriquendi"
 		culture="culture_noldor"
 		dynasty=3031
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001	
 	}
 }
@@ -4709,10 +4773,11 @@
 		birth="364.1.1"
 	}
 	527.1.1 = {
-		religion="religion_calaquendi"
+		religion="religion_moriquendi"
 		culture="culture_noldor"
 		dynasty=3039
 		add_trait=sailed_west
+		add_trait=light_valinor
 		employer = 10001	
 	}
 }
@@ -4722,12 +4787,13 @@
 3204 = {
 	name="Ancalë"
 	dynasty=3023
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3059
 	mother=3101
 	1293.1.1 = {
@@ -4743,11 +4809,12 @@
 	name="Findis"
 	female=yes
 	dynasty=3006
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3055
 	mother=3128
 	1322.1.1 = {
@@ -4759,12 +4826,13 @@
 3206 = {
 	name="Laurenárë"
 	dynasty=3023
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3204
 	mother=3205
 	1964.1.1 = {
@@ -4782,13 +4850,14 @@
 3207 = {
 	name="Ingalaurë"
 	dynasty=3023
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
 	add_trait=great_elf
+	add_trait=light_valinor
 	father=3204
 	mother=3205
 	2204.1.1 = {
@@ -4806,7 +4875,7 @@
 3208 = {
 	name="Laurefindil" ## Glorfindel
 	dynasty=3023
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -4847,14 +4916,14 @@
 	}
 	8343.1.1={
 		employer=3003
-		give_job_title = job_marshall
+		give_job_title = job_marshal
 	}
 }
 
 3209 = {
 	name="Geilnóre" ## Gildor Inglorion
 	dynasty=3023
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -4895,12 +4964,13 @@
 3210 = {
 	name="Ingwion Palantír"
 	dynasty=3008
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_vanyar"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3054
 	mother=3085
 	862.1.1 = {
@@ -4916,12 +4986,13 @@
 	name="Vanimeldë"
 	female=yes
 	dynasty=3008
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_vanyar"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3054
 	mother=3085
 	1869.1.1 = {
@@ -4939,11 +5010,12 @@
 	name="Telnienquë"
 	female=yes
 	dynasty=3030
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_vanyar"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3071
 	930.1.1 = {
 		birth="930.1.1"
@@ -4954,7 +5026,7 @@
 3213 = {
 	name="Finmorwë" #An heir for Finarfin
 	dynasty=3004
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
@@ -4983,9 +5055,10 @@
 		birth="1150.1.1"
 	}
 	1725.1.1 = {
-		religion="religion_calaquendi"
+		religion="religion_moriquendi"
 		add_trait=sailed_west
 		remove_trait=at_east
+		add_trait=light_valinor
 	} # Taken to Valinor by Oromë
 	3928.1.1 = {
 		remove_trait=sailed_west
@@ -4996,12 +5069,13 @@
 3215 = {
 	name="Failadan"
 	dynasty=3020
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_avari"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3062
 	mother=3214
 	female=yes
@@ -5012,20 +5086,18 @@
 		remove_trait=sailed_west
 		add_trait=at_east
 	} # Taken back to Endor by Oromë
-	4814.1.1 = {
-		add_spouse=3219
-	}
 }
 
 3216 = {
 	name="Elendis"
 	female=yes
 	dynasty=3020
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_avari"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3062
 	mother=3214
 	3018.1.1 = {
@@ -5042,12 +5114,13 @@
 3217 = {
 	name="Celegon"
 	dynasty=3019
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3120
 	mother=3126
 	1772.1.1 = {
@@ -5067,22 +5140,23 @@
 3218 = {
 	name="Súlwë"
 	dynasty=3019
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
-	father=3218
+	add_trait=light_valinor
+	father=3217
 	mother=3211
 	2300.1.1 = {
 		birth="2300.1.1"
 	}
-	4365.1.1 = {
-		add_spouse=3216
-	}
 	4312.1.1 = {
 		remove_trait=sailed_west
+	}	
+	4365.1.1 = {
+		add_spouse=3216
 	}
 	4787.1.1 = {
 		add_trait=at_east
@@ -5093,12 +5167,13 @@
 	name="Eilian"
 	female=yes
 	dynasty=3019
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
-	father=3218
+	add_trait=light_valinor
+	father=3217
 	mother=3211
 	3066.1.1 = {
 		birth="3066.1.1"
@@ -5111,16 +5186,16 @@
 	}
 }
 
-3218 = {
+3330 = {
 	name="Vëaúyehtar"
 	dynasty=3019
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	father=3218
-	mother=3211
+	mother=3216
 	4366.1.1 = {
 		birth="4366.1.1"
 	}
@@ -5132,16 +5207,16 @@
 	}
 }
 
-3219 = {
+3331 = {
 	name="Nucumnehtar"
 	dynasty=3019
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	father=3218
-	mother=3211
+	mother=3216
 	4387.1.1 = {
 		birth="4387.1.1"
 	}
@@ -5157,32 +5232,31 @@
 	name="Marilla"
 	female=yes
 	dynasty=3019
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
+	add_trait=light_valinor
 	add_trait=strong
+	add_trait=at_east
 	father=3218
-	mother=3211
-	4420.1.1 = {
-		birth="4420.1.1"
-	}
-	4787.1.1 = {
-		add_trait=at_east
+	mother=3216
+	4424.1.1 = {
+		birth=yes
 	}
 }
 
 3221 = {
 	name="Laurehtar"
 	dynasty=3019
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=twin
 	add_trait=at_east
-	father=3219
+	father=3331
 	mother=3162
 	5413.1.1 = {
 		birth="5413.1.1"
@@ -5193,14 +5267,14 @@
 	name="Ilsawendë"
 	female=yes
 	dynasty=3019
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=twin
 	add_trait=at_east
-	father=3219
+	father=3331
 	mother=3162
 	5413.1.1 = {
 		birth="5413.1.1"
@@ -5212,12 +5286,13 @@
 3223 = {
     name="Arquen"
     dynasty=3039
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
     add_trait=elf
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
+	add_trait=light_valinor
     father=3201
     mother=3202
     1835.1.1 = {
@@ -5232,12 +5307,13 @@
 3224 = {
     name="Ercassë"
     dynasty=3039
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
     add_trait=elf
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
+	add_trait=light_valinor
     father=3201
     mother=3202
     2175.1.1 = {
@@ -5254,12 +5330,13 @@
 3225 = {
     name="Faniel"
     dynasty=3006
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
 
     add_trait=elf
     add_trait=fair
     add_trait=sailed_west
+	add_trait=light_valinor
 
     female=yes
 
@@ -5275,12 +5352,13 @@
 3319 = {
     name="Ehtyar"
     dynasty=3039
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
     add_trait=elf
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
+	add_trait=light_valinor
     father=3223
     mother=3225
     2462.1.1 = {
@@ -5297,12 +5375,13 @@
 3320 = {
     name="Calmacil"
     dynasty=3039
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
     add_trait=elf
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
+	add_trait=light_valinor
     father=3223
     mother=3225
     2697.1.1 = {
@@ -5319,13 +5398,14 @@
 3226 = {
     name="Ectelëion"
     dynasty=3039
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
     add_trait=elf
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
     add_trait=legendary_warrior
+	add_trait=light_valinor
     father=3319
     3198.1.1 = {
         birth="3198.1.1"
@@ -5342,13 +5422,14 @@
 3227 = {
     name="Aicambalotsë"
     dynasty=3039
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
     add_trait=elf
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
     add_trait=legendary_warrior
+	add_trait=light_valinor
     father=3319
     3455.1.1 = {
         birth="3455.1.1"
@@ -5365,12 +5446,13 @@
 3228 = {
     name="Laiqalassë"
     dynasty=3039
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
     add_trait=elf
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
+	add_trait=light_valinor
     father=3224
     3720.1.1 = {
         birth="3720.1.1"
@@ -5386,13 +5468,14 @@
 3229 = {
     name="Elemmacil"
     dynasty=3039
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
     add_trait=elf
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
     add_trait=legendary_warrior
+	add_trait=light_valinor
     father=3224
     2975.1.1 = {
         birth="2975.1.1"
@@ -5408,12 +5491,13 @@
 3321 = {
     name="Enerdhil"
     dynasty=3039
-    religion="religion_calaquendi"
+    religion="religion_moriquendi"
     culture="culture_noldor"
     add_trait=elf
     add_trait=fair
     add_trait=strong
     add_trait=sailed_west
+	add_trait=light_valinor
     father=3224
     3159.1.1 = {
         birth="3159.1.1"
@@ -5505,11 +5589,12 @@
 	name="Írimë Lalwendë"
 	female=yes
 	dynasty=3006
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3055
 	mother=3128
 	1437.1.1 = {
@@ -5523,16 +5608,20 @@
 3234 = {
 	name="Aranwë"
 	dynasty=3036
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3096
 	mother=3233
 	3066.1.1 = {
 		birth="3066.1.1"
+	}
+	4312.1.1 = {
+       		remove_trait=sailed_west
 	}
 	4320.1.1 = {
 		add_spouse=3235
@@ -5599,7 +5688,7 @@
 3238 = {
 	name="Curufinwë Fëanáro" ## Fëanor
 	dynasty=3006
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -5611,6 +5700,7 @@
 	add_trait=legendary_craftman
 	add_trait=genius
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 
 	martial=12
 	diplomacy=11
@@ -5634,7 +5724,6 @@
 	4282.1.1 = {
 		name="Fëanor"
 		remove_trait=sailed_west
-		add_trait=agressive_leader
 		add_trait=ambitious
 		add_trait=zealous
 		add_trait=oath_of_feanor
@@ -5647,7 +5736,7 @@
 3239 = {
 	name="Nelyafinwë Maitimo" ## Maedhros
 	dynasty=3007
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -5656,6 +5745,7 @@
 	add_trait=sailed_west
 	add_trait=skilled_tactician
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 
 	martial=13
 	diplomacy=8
@@ -5692,7 +5782,7 @@
 3240 = {
 	name="Canafinwë Macalaurë" ## Maglor 
 	dynasty=3007
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -5704,6 +5794,7 @@
 	add_trait=poet
 	add_trait=chaste
 	add_trait=legendary_musician
+	add_trait=light_valinor
 
 	martial=17
 	diplomacy=10
@@ -5742,7 +5833,7 @@
 3241 = {
 	name="Turcafinwë Tyelcormo" ## Celegorm
 	dynasty=3007
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -5753,6 +5844,7 @@
 	add_trait=imposing
 	add_trait=charismatic_negotiator
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 
 	martial=14
 	diplomacy=5
@@ -5782,7 +5874,7 @@
 3242 = {
 	name="Morifinwë Carnistir" ## Caranthir
 	dynasty=3007
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -5795,6 +5887,7 @@
 	add_trait=skilled_tactician
 	add_trait=envious
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 	
 	father=3238
 	mother=3127
@@ -5824,7 +5917,7 @@
 3243 = {
 	name="Curufinwë Atarincë" ## Curufin
 	dynasty=3007
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 
 	add_trait=elf
@@ -5836,6 +5929,7 @@
 	add_trait=envious
 	add_trait=perceptive
 	add_trait=legendary_warrior
+	add_trait=light_valinor
 
 	martial=7
 	diplomacy=11
@@ -5869,7 +5963,7 @@
 3244 = {
 	name="Pityafinwë Ambarussa" ## Amrod
 	dynasty=3007
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -5881,6 +5975,8 @@
 	add_trait=chaste
 	add_trait=perceptive
 	add_trait=legendary_warrior
+	add_trait = twin
+	add_trait=light_valinor
 
 	martial=16
 	diplomacy=5
@@ -5910,7 +6006,7 @@
 3245 = {
 	name="Otsëafinwë Russandol"## Amras
 	dynasty=3007
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
@@ -5921,6 +6017,8 @@
 	add_trait=chaste
 	add_trait=perceptive
 	add_trait=legendary_warrior
+	add_trait = twin
+	add_trait=light_valinor
 
 	martial=16
 	diplomacy=5
@@ -5950,13 +6048,14 @@
 3246 = {
 	name="Telufinwë Umbarto"
 	dynasty=3054
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
 	add_trait=sailed_west
+	add_trait=light_valinor
 
 	father=3238
 	mother=3127
@@ -5973,11 +6072,12 @@
 	name="Almaré"
 	female=yes
 	dynasty=3024
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 	add_trait=elf
 	add_trait=fair
 	add_trait=sailed_west
+	add_trait=light_valinor
 	father=3198
 	2587.1.1 = {
 		birth="2587.1.1"
@@ -5994,7 +6094,7 @@
 3248 = {
 	name="Telperinquar" ## Celebrimbor
 	dynasty=3007
-	religion="religion_calaquendi"
+	religion="religion_moriquendi"
 	culture="culture_noldor"
 
 	add_trait=elf
@@ -6030,6 +6130,9 @@
 		remove_trait=sailed_west
 		add_trait=light_valinor
 	}
+	4765.1.1 = {
+		add_spouse=3409
+	}
 	6599.1.1 = {
 		death="6599.1.1"
 	} #Slain in the War of the Elves and Sauron
@@ -6044,7 +6147,7 @@
 	add_trait=elf
 	add_trait=fair
 	add_trait=strong
-	add_trait=charismatic_negociator
+	add_trait=charismatic_negotiator
 	add_trait=poet
 	add_trait=chaste
 	add_trait=kind
@@ -7053,9 +7156,9 @@
 }
 
 
-### Elves of Edhellond ###
+### Elves of Edhellond 3400+###
 
-3319 = {
+3400 = {
 	name="Gwachaedir"
 	dynasty=3067
 	religion="religion_moriquendi"
@@ -7068,13 +7171,13 @@
 		death="4900.1.1"
 	}	
 }
-3320 = {
+3401 = {
 	name="Ithilbor"
 	dynasty=3060
 	religion="religion_moriquendi"
 	culture="culture_sindar"
 	add_trait=elf	
-	father=3319
+	father=3400
 	4152.1.1 = {
 		birth="4152.1.1"
 	}
@@ -7082,17 +7185,189 @@
 		death="9587.1.1"
 	}	
 }
-3321 = {
+3402 = {
 	name="Elmagil"
 	dynasty=3060
 	religion="religion_moriquendi"
 	culture="culture_sindar"
 	add_trait=elf	
-	father=3320
+	father=3401
 	7584.1.1 = {
 		birth="7584.1.1"
 	}
 	10324.1.1 = {
 		death="10324.1.1"
 	}	
+}
+
+#TAURIEL FROM THE HOBBIT MOVIE
+3403 = {
+	name="Tauriel"
+	dynasty=3014
+	female=yes
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf	
+	add_trait=fair
+	add_trait=agile
+	add_trait=proud
+	add_trait=skilled_tactician
+	father=3406
+	mother=3407
+	9497.6.5 = {
+		birth=yes
+	}
+	9500.1.1 = {
+		add_trait=trained_elf
+		employer = 3104
+		effect= {
+		add_friend = 3106
+		add_rival = 3104
+		}
+	}
+	11284.10.1={
+		effect={
+			add_friend=4049 #Kili
+		} #Becomes friends with Kili
+	}
+	11284.11.10 = { employer = 3403 } #Thranduil gives her the keys to Ceber Fanuin, where she can grieve the death of Kili
+	11480.1.1 = {
+		add_trait=sailed_west
+		employer = 10001
+	}
+}
+
+#MERP Elf, Guardian of Athrad Laegrim
+3404 = {
+	name="Camthalion"
+	dynasty=3021
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	add_trait=trained_elf
+	add_trait=agile
+	add_trait=intricate_webweaver
+	add_trait=quick
+	father=3168
+	mother=3166
+	6500.1.1 = {
+		birth=yes
+	}
+}
+
+#Merp Elf, Guardian of Celebannon
+3405 = {
+	name="Ohtar"
+	dynasty=3034
+	religion="religion_moriquendi"
+	culture="culture_sindar"
+	add_trait=elf
+	add_trait=fair
+	add_trait=trained_elf
+	add_trait=skilled_tactician
+	add_trait=duelist
+	father=3081
+	mother=3084
+	3348.1.1 = {
+		birth=yes
+	}
+}
+#Merp Elf, Guardian of Emin Duir
+3406 = {
+	name="Huinen"
+	dynasty=3014
+	religion="religion_moriquendi"
+	culture="culture_noldor"
+	add_trait=elf	
+	add_trait=fair
+	add_trait=elusive_shadow
+	add_trait=genius
+	add_trait=deceitful
+	add_trait=sailed_west
+	father=3068
+	mother=3087
+	2250.1.1 = {
+		birth="2250.1.1"
+	}
+	4312.1.1 = {
+		remove_trait=sailed_west
+		add_trait=light_valinor
+	}
+	9495.1.1 = { add_spouse = 3407 } #The Necromancer sends Anoril to discover secrets from Huinen, but she falls in love with him instead
+	9500.1.1 = { death = yes } #Killed by the Necromancer along with his wife
+}
+3407 = {
+	name="Anoril"
+	female=yes
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf	
+	add_trait=fair
+	add_trait=elusive_shadow
+	add_trait=genius
+	add_trait=deceitful
+	8350.1.1 = {
+		birth="8350.1.1"
+	}
+	9500.1.1 = { death = yes } #Possessed by the Necromancer to kill Huinen, but manages to overcome his possession, and both are killed by his Orcs
+}
+3408 = {
+	name="Narmirë"
+	female=yes
+	dynasty=3021
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	add_trait=fair
+	add_trait=agile
+	add_trait=fashionable
+	father=3404
+	9800.1.1 = {
+		birth=yes
+	}
+}
+
+#Family of Celebrimbor
+
+3409 = {
+	name="Astariel"
+	female=yes
+	dynasty=3004
+	religion="religion_moriquendi"
+	culture="culture_noldor"
+	add_trait=elf
+	add_trait=fair
+	add_trait=fashionable
+	add_trait=sailed_west
+	father=3151
+	mother=3152
+	3690.1.1 = {
+		birth="3690.1.1"
+	}
+	4312.1.1 = {
+		name="Astoriel"
+		remove_trait=sailed_west
+		add_trait=light_valinor
+	}
+	6599.1.1 = {
+		death="6599.1.1"
+	} #Slain in the War of the Elves and Sauron
+}
+
+3410 = {
+	name="Istiel"
+	dynasty=3007
+	religion="religion_moriquendi"
+	culture="culture_noldor"
+	add_trait=elf
+	add_trait=fair
+	add_trait=fashionable
+	father=3248
+	mother=3409
+	4780.1.1 = {
+		birth="4780.1.1"
+	}
+	6599.1.1 = {
+		death="6599.1.1"
+	} #Slain in the War of the Elves and Sauron
 }

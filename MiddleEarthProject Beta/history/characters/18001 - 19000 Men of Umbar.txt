@@ -142,7 +142,7 @@
 		birth="11361.1.1"
 	}
 	11470.1.1={
-		death="114700.1.1"
+		death="11470.1.1"
 	}
 }
 
@@ -1610,8 +1610,6 @@
 	culture="culture_black_numenorean"
 	religion="religion_black_numenorean"
 	add_trait=blood_of_numenor2
-	father=18097
-	mother=18093
 	9872.1.1={
 		birth="9872.1.1"
 	}
@@ -2303,7 +2301,6 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor
-	father=18004
 	9217.1.1={
 		birth="9217.1.1"
 	}

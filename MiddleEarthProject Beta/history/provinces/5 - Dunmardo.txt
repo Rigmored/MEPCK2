@@ -1,29 +1,18 @@
 #Dunmardo
 
-
 # County Title
-
 title = c_dunmardo
 
-
 # Settlements
-
 max_settlements = 5
 
-
 b_dunmardo = castle
-
 b_awarthmil = city
-
 b_min_rimmon = castle
-
 #b_heleghim = city
-
 #b_minastir = city
 
-
 # Misc
-
 culture = culture_gondorian_middlemen
 religion = religion_rhovanion
 

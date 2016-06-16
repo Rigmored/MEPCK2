@@ -16,7 +16,6 @@ b_imlad_fuin = castle
 #b_romenostir = castle
 
 # Misc
-8222.1.1 = {
+
 culture = culture_harondorian
 religion = religion_southron
-}

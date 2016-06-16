@@ -1,4 +1,4 @@
-#Lokosin
+# Lókosin
 
 # County Title
 title = c_lokosin

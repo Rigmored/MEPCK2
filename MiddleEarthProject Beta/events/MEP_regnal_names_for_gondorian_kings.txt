@@ -41,7 +41,7 @@ character_event = {
 	
 	## The character choose a name from Past ##
 	option = {
-		name = "EVTOPTAZkinggondor.1" ## I'll take the name of an hero
+		name = "EVTOPTAAAkinggondor.1" ## I'll take the name of an hero
 		trigger = { 
 			NOT = { trait = cruel }
 			NOT = { trait = evil_side }
@@ -228,10 +228,8 @@ character_event = {
 	option = {
 		name = "EVTOPTAkinggondor.1" ## I'll be the King Meneldil		
 		trigger = {
-			AND = {
-				trait = perceptive
-				trait = kind
-			}
+			trait = perceptive
+			trait = kind
 		}
 		set_name = "Meneldil"
 	}
@@ -239,10 +237,8 @@ character_event = {
 	option = {
 		name = "EVTOPTBkinggondor.1" ## I'll be the King Cemendur		
 		trigger = {
-			AND = {
-				trait = content
-				trait = kind
-			}
+			trait = content
+			trait = kind
 		}
 		set_name = "Cemendur"
 	}	
@@ -250,10 +246,8 @@ character_event = {
 	option = {
 		name = "EVTOPTCkinggondor.1" ## I'll be the King Eärendil	
 		trigger = {
-			AND = {
-				trait = proud
-				trait = just
-			}
+			trait = proud
+			trait = just
 		}
 		set_name = "Earendil"
 	}		
@@ -261,10 +255,8 @@ character_event = {
 	option = {
 		name = "EVTOPTDkinggondor.1" ## I'll be the King Anardil	
 		trigger = {
-			AND = {
-				trait = kind
-				trait = perceptive
-			}
+			trait = kind
+			trait = perceptive
 		}
 		set_name = "Anardil"
 	}	
@@ -288,10 +280,8 @@ character_event = {
 	option = {
 		name = "EVTOPTGkinggondor.1" ## I'll be the King Turambar
 		trigger = {
-			AND = {
-				trait = brilliant_strategist
-				trait = perceptive
-			}
+			trait = brilliant_strategist
+			trait = perceptive
 		}
 		set_name = "Turambar"
 	}		
@@ -310,10 +300,8 @@ character_event = {
 	option = {
 		name = "EVTOPTIkinggondor.1" ## I'll be the King Siriondil
 		trigger = {
-			AND = {
-				trait = fair
-				trait = kind
-			}
+			trait = fair
+			trait = kind
 		}
 		set_name = "Siriondil"
 	}	
@@ -329,10 +317,8 @@ character_event = {
 	option = {
 		name = "EVTOPTKkinggondor.1" ## I'll be the King Earnil
 		trigger = {
-			AND = {
-				trait = skilled_tactician
-				trait = kind
-			}
+			trait = skilled_tactician
+			trait = kind
 		}
 		set_name = "Eärnil"
 	}	
@@ -340,10 +326,8 @@ character_event = {
 	option = {
 		name = "EVTOPTKkinggondor.1" ## I'll be the King Ciryandil
 		trigger = {
-			AND = {
-				trait = brave
-				trait = kind
-			}
+			trait = brave
+			trait = kind
 		}
 		set_name = "Cyriandil"
 	}	
@@ -419,10 +403,8 @@ character_event = {
 	option = {
 		name = "EVTOPTRkinggondor.1" ## I'll be the King Minardil
 		trigger = {
-			AND = {
-				trait = just
-				trait = patient
-			}
+			trait = just
+			trait = patient
 		}
 		set_name = "Minardil"
 	}		
@@ -430,10 +412,8 @@ character_event = {
 	option = {
 		name = "EVTOPTSkinggondor.1" ## I'll be the King Telemnar
 		trigger = {
-			AND = {
-				trait = perceptive
-				trait = patient
-			}
+			trait = perceptive
+			trait = patient
 		}
 		set_name = "Telemnar"
 	}	
@@ -674,10 +654,8 @@ character_event = {
 	option = {
 		name = "EVTOPTACkinggondor.1" ## I'll be the King Meneldur
 		trigger = {
-			AND = {
-				trait = fair
-				trait = kind
-			}
+			trait = fair
+			trait = kind
 		}
 		set_name = "Meneldur"
 	}	

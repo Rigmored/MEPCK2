@@ -4,13 +4,12 @@
 title = c_greenfields
 
 # Settlements
-max_settlements = 5
+max_settlements = 3
 
 b_greenfields = castle
 b_fearfulfire = city
 #b_greenshield = city
-#b_moldville = city
-#b_tepidtown = city
+
 
 # Misc
 culture = culture_wilderness

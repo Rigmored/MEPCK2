@@ -13,9 +13,9 @@ max_settlements = 5
 
 b_cillien = tribal
 
-b_echad_naeglanc = tribal
+b_echad_naeglanc = city
 
-b_banceaster = tribal
+b_banceaster = city
 
 #b_bonevales = city
 
@@ -24,10 +24,10 @@ b_banceaster = tribal
 
 # Misc
 
-8222.1.1 = {
+
 culture = culture_dunlending	
 religion = religion_haldadian
-}
+
 
 
 9979.1.1 = {

@@ -1,0 +1,19 @@
+#Helevorn
+
+# County Title
+title = c_helevorn
+
+# Settlements
+max_settlements = 3
+
+b_helevorn = castle
+b_garth_helevorn = castle
+b_tarn_helevorn = city
+
+# Misc
+culture = culture_noldor
+religion = religion_calaquendi
+4902.1.1 = {
+culture = culture_wilderness
+religion = religion_wilderness
+}

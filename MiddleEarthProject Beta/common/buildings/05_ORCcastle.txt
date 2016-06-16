@@ -872,7 +872,21 @@ castle = {
             			}
 		}
 	}
-
+# Shrine of Melkor #
+	ca_shrine_melkor = {
+		desc = tp_shrine_melkor_desc
+		gold_cost = 150
+		build_time = 547
+		liege_piety = 0.05
+		monthly_character_piety = 0.1
+		heavy_infantry = 40
+		ai_creation_factor = 109
+		add_number_to_name = no
+        	potential = {
+            		has_global_flag = building
+		   	FROM = { trait= evil_side }	
+		}
+	}	
 ####################### Unique buildings #######################
 	ca_blackgate = { #Black Gate#
 		desc = ca_blackgate_desc
@@ -882,29 +896,27 @@ castle = {
 		light_infantry = 1000
 		ai_creation_factor = 86
 		garrison_size = 2.00
-        potential = {
-	    province_id = 72 #Udun
-		culture_group = culture_group_melkor
-            }
-		extra_tech_building_start = 0.0
+       		potential = { 
+	    		province_id = 691 #Morannon
+			culture_group = culture_group_melkor
+           	}
 	}
 
-	ca_barraddur = { # Barad_dur walls#
+	ca_baraddur = { # Barad_dur walls#
 		desc = ca_baraddur_desc
 		gold_cost = 150
 		build_time = 1460 #4y
-		light_infantry = 1500
-		heavy_infantry = 1000
-		archers = 1000
+		light_infantry = 250
+		heavy_infantry = 250
+		archers = 250
 		tax_income = 15
 		fort_level = 8.0
 		ai_creation_factor = 86
 		garrison_size = 2.00
-        potential = {
-	    province_id = 654 #barad_dur
-		culture_group = culture_group_melkor
-            }
-		extra_tech_building_start = 0.0
+        	potential = {
+	    		province_id = 654 #barad_dur
+			culture_group = culture_group_melkor
+            	}
 	}
 
 	ca_numenorean2up = { #Minas Morgul for Nazgûl#
@@ -914,17 +926,44 @@ castle = {
 		build_time = 1460 #4y
 		fort_level = 2
 		ai_creation_factor = 86
-		light_infantry = 600
-		heavy_infantry = 500
+		light_infantry = 200
 		archers = 350
-        potential = {
-            province_id = 426 #minas_morgul
-	    culture_group = culture_group_melkor
-            }
-		extra_tech_building_start = 0.0
+        	potential = {
+            		province_id = 426 #minas_morgul
+	    		culture_group = culture_group_melkor
+            	}
 	}
-	
-	
+	ca_witchking_fortress = { #Angmar fortress
+		desc = ca_witchking_fortress_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 2
+		ai_creation_factor = 86
+		tax_income = 6
+		light_infantry = 400
+		heavy_infantry = 300
+		archers = 250
+        	potential = {
+            		province_id = 624 #Carn Dum
+	    		culture_group = culture_group_melkor
+			FROM = { trait=nazgul }
+		}
+	}
+	ca_Gundabad_Orc = { #Orc Stronghold
+		desc = ca_Gundabad_Orc_desc
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 1.0
+		ai_creation_factor = 86
+		tax_income = 3
+		light_infantry = 200
+		heavy_infantry = 500
+		archers = 250
+       		potential = {
+         		province_id = 642 # Gundabad
+			culture_group = culture_group_melkor
+           	}
+	}
 
 	ca_dolguldur = { #DolGuldur#
 		desc = ca_dolguldur_desc
@@ -935,11 +974,10 @@ castle = {
 		light_infantry = 250
 		heavy_infantry = 250
 		archers = 250
-        potential = {
-            province_id = 310 #Amon Lanc
+        	potential = {
+            		province_id = 310 #Amon Lanc
 			culture_group = culture_group_melkor
-            }
-		extra_tech_building_start = 0.0
+            	}
 	}
 	
 	ca_isengarduruk = { #Isengard#
@@ -949,19 +987,15 @@ castle = {
 		fort_level = 1.0
 		ai_creation_factor = 86
 		tax_income = 5
-		light_infantry = 250
-		heavy_infantry = 750
-		archers = 250
+		heavy_infantry = 50
+		archers = 50
        		potential = {
          		province_id = 225 # Orthanc
-			FROM = {
-				OR = {
-					culture_group = culture_group_melkor
-					culture = culture_istari
-				}
+			OR = {
+				culture_group = culture_group_melkor
+				culture = culture_istari
 			}
            	}
-		extra_tech_building_start = 0.0
 	}
 	
 	ca_moria = { ##moria for orcs
@@ -972,11 +1006,10 @@ castle = {
 		garrison_size = 1.50
 		heavy_infantry = 200
 		ai_creation_factor = 86
-        potential = {
-            province_id = 285 #Moria
+        	potential = {
+            		province_id = 285 #Moria
 			culture_group = culture_group_melkor
-        }
-		extra_tech_building_start = 0.0
+		}
 	}	
 	
 	ca_watcher_lake = { ##Watcher Lake in Moria
@@ -987,12 +1020,10 @@ castle = {
 		garrison_size = 1.50
 		heavy_infantry = 200
 		ai_creation_factor = 86
-        potential = {
-            FROMFROM = { title = b_first_hall }
-			year = 10323
-        }
-		extra_tech_building_start = 0.0
+        	potential = {
+            		FROMFROM = { title = b_first_hall }
+			culture_group = culture_group_melkor
+        	}
 	}	
 	
-
 }

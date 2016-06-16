@@ -43,7 +43,7 @@ ring = {
 	intrigue = 20
 	diplomacy = 6
 	martial = 10
-	fertility = -100.0
+	fertility = -3.0
     	immortal = yes	
     	liege_opinion = -100
 	vassal_opinion = 10
@@ -66,7 +66,7 @@ ring = {
 
 ## The character don't holds the ring anymore, because the ring is destroyed.
 ringbearer1 = {
-	fertility = -20.0
+	fertility = -3.0
 	health = 10.0	
 	general_opinion = 2
     	monthly_character_prestige = 0.5	
@@ -76,7 +76,7 @@ ringbearer1 = {
 
 ## If the character don't hold the ring anymore, but the ring is still alive
 ringbearer2 = {
-	fertility = -20.0
+	fertility = -3.0
 	immortal = yes	
 	general_opinion = 2
 	monthly_character_prestige = 0.5	
@@ -194,6 +194,7 @@ sailed_west = {
 	cannot_marry = yes
 	cannot_inherit = yes
 	ai_ambition = -100
+	fertility = -3.0
 	customizer = no	
 }
 dead_target = {
@@ -201,7 +202,7 @@ dead_target = {
 	customizer = no
 }
 
-##### KINGS OF GONDOR TRAITS #####
+##### KINGS OF GONDOR (AND/OR ARNOR) TRAITS #####
 ship_king = {
 	customizer = no	
 	stewardship = 1
@@ -226,7 +227,12 @@ umbardacil = {
 	martial = 1
 	vassal_opinion = 10
 }
-
+angmardacil = {
+	customizer = no
+	monthly_character_prestige = 1.0
+	diplomacy = 1
+	same_religion_opinion = 10
+}
 #####################
 ##### PALANTIRI #####
 #####################
@@ -407,6 +413,16 @@ elf_brooch = {
 	unique = yes
 	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger 
 }
+
+elendil_statue = {
+	diplomacy = 2
+	learning = 1
+	monthly_character_prestige = 0.1
+	customizer = no
+	unique = yes
+	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger 
+}
+
 
 
 ##### NEW SHADOW TRAITS #####

@@ -1,11 +1,7 @@
 # 673 - Zirakzinbar
 
-
-
 # County Title
 title = c_zirakzinbar
-
-
 
 # Settlements
 max_settlements = 4
@@ -16,7 +12,5 @@ b_sudulthurkh = castle
 #b_shemeldurj = castle
 
 # Misc
-8222.1.1 = {
 culture = culture_firebeard
 religion = religion_mahal
-}

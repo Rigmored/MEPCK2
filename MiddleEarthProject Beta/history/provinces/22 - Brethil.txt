@@ -13,7 +13,6 @@ b_bar_novond = castle
 #b_dor_brethil = castle
  
 # Misc
-8222.1.1 = {
+
 culture = culture_gondorian
 religion = religion_dunedain
-}

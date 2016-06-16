@@ -195,9 +195,8 @@ city = {
 			culture_group = culture_group_numenorean
 			culture_group = culture_group_forodwaith
 			culture_group = culture_group_haldadian
-			culture_group = culture_group_edain	
 			}
-        	}
+        }
 	}
 	ct_ferry_boat_1 = {
 		desc = ct_ferry_boat_1_desc

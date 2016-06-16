@@ -6,14 +6,12 @@ title = c_diluvuld
 # Settlements
 max_settlements = 5
 
-b_diluvuld = castle
-b_grodaroz = city
-#b_garduvuld = city
-#b_marushkraz = city
-#b_dilbisr = city
+#b_diluvuld = tribal
+#b_grodaroz = 
+#b_garduvuld = 
+#b_marushkraz = 
+#b_dilbisr = 
 
 # Misc
-8222.1.1 = {
 culture = culture_wainriders
 religion = religion_easterlings
-}

@@ -1,0 +1,13 @@
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+4318.1.1=
+{
+holder = 3240 # Maglor
+liege = d_din_maglor
+}
+4767.1.1=
+{
+holder = 0
+}

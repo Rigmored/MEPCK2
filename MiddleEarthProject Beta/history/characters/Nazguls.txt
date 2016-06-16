@@ -1,4 +1,4 @@
-## The Witch King ##
+### The Witch King ##
 12223 = {
 	name="Mornar"
 	dynasty=19017
@@ -199,9 +199,9 @@
 	} #The One Ring is destroyed
 }
 
-## Ji-Undur the Far Haradrim ##
+## Jí Indûr the Far Haradrim ##
 6555 = {
-	name="Ji-Undur"
+	name="Jí Indûr"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"	
@@ -222,6 +222,7 @@
 	
 	6722.1.1={
 		add_trait = ring_jiundur
+		name="Indûr"
 	}	
 	
 	6742.1.1={
@@ -269,9 +270,9 @@
 }
 
 
-## Uvatha the Northman ##
+## Ûvatha the Northman ##
 99902 = {
-	name="Uvatha"
+	name="Ûvatha"
 	dynasty=19017
 	religion="religion_wight"
 	culture="culture_wight"	

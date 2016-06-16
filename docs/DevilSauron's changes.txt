@@ -1,0 +1,7 @@
+19.12.2015
+	-Changed dunedain governments
+		-Matrilineal marriages and gender laws are allowed
+		-Allowed revoking, usurping and imprisoning without reason for dunedain feudals, but steward can't do it
+		-Raised vassal limit for dunedain feudals from +2 to +4
+	-Commented out Iqta
+	

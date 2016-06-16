@@ -35,6 +35,7 @@ character_event = {
 				NOT = { reverse_opinion = { who = ROOT value = 0 } }
 				NOT = { has_dynasty_flag = the_victims }
 				NOT = { has_character_flag = the_grand_ball }
+				NOT = { trait = in_hiding }
 			}
 			liege = {
 				any_vassal = {
@@ -47,6 +48,7 @@ character_event = {
 					NOT = { trait = incapable }
 					NOT = { has_dynasty_flag = the_victims }
 					NOT = { has_character_flag = the_grand_ball }
+					NOT = { trait = in_hiding }
 				}
 			}
 		}
@@ -67,6 +69,7 @@ character_event = {
 						has_dynasty_flag = the_victims
 						any_vassal = { ai = no }
 					}
+					NOT = { trait = in_hiding }
 				}
 			}
 			liege = { 
@@ -95,6 +98,7 @@ character_event = {
 						prisoner = no
 						NOT = { reverse_opinion = { who = ROOT value = 0 } }
 						NOT = { has_dynasty_flag = the_victims }
+						NOT = { trait = in_hiding }
 					}
 					narrative_event = { id = REP.101 }
 					set_character_flag = the_grand_ball
@@ -112,7 +116,7 @@ character_event = {
 narrative_event = {
 	id = REP.101
 	title = EVTNAME_REP_101
-	desc = EVTDESC_REP_101
+	desc = EVTDESC_REP_101
 	picture = GFX_evt_courtiers_talking
 	
 	is_triggered_only = yes
@@ -135,7 +139,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.102
 	title = EVTNAME_REP_102
-	desc = EVTDESC_REP_102
+	desc = EVTDESC_REP_102
 	picture = GFX_evt_scandal
 	
 	hide_from = yes
@@ -243,7 +247,7 @@ character_event = {
 narrative_event = {
 	id = REP.104
 	title = EVTNAME_REP_104
-	desc = EVTDESC_REP_104
+	desc = EVTDESC_REP_104
 	picture = GFX_evt_courtiers_talking
 	
 	hide_from = yes
@@ -270,7 +274,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.105
 	title = EVTNAME_REP_105
-	desc = EVTDESC_REP_105
+	desc = EVTDESC_REP_105
 	picture = GFX_evt_family_feud_republic
 	
 	hide_from = yes
@@ -453,6 +457,7 @@ character_event = {
 					trait = incapable
 					trait = infirm
 				}
+				NOT = { trait = in_hiding }
 			}
 			liege = {
 				any_vassal = {
@@ -468,6 +473,7 @@ character_event = {
 						trait = incapable
 						trait = infirm
 					}
+					NOT = { trait = in_hiding }
 				}
 			}
 		}
@@ -484,6 +490,7 @@ character_event = {
 					ai = no
 					has_dynasty_flag = the_victims
 					NOT = { has_dynasty_flag = flagship_feud }
+					NOT = { trait = in_hiding }
 				}
 			}
 			liege = { 
@@ -498,6 +505,7 @@ character_event = {
 						ai = no
 						has_dynasty_flag = the_victims
 						NOT = { has_dynasty_flag = flagship_feud }
+						NOT = { trait = in_hiding }
 					}
 				}
 			}
@@ -507,6 +515,7 @@ character_event = {
 						is_patrician = yes
 						ai = no
 						has_dynasty_flag = the_victims
+						NOT = { trait = in_hiding }
 					}
 					narrative_event = { id = REP.151 }
 				}
@@ -523,7 +532,7 @@ character_event = {
 narrative_event = {
 	id = REP.151
 	title = EVTNAME_REP_151
-	desc = EVTDESC_REP_151
+	desc = EVTDESC_REP_151
 	picture = GFX_evt_busy_trading_dock_republic
 	
 	is_triggered_only = yes
@@ -576,7 +585,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.152
 	title = EVTNAME_REP_152
-	desc = EVTDESC_REP_152
+	desc = EVTDESC_REP_152
 	picture = GFX_evt_merchant_ship_at_sea_republic
 	
 	hide_from = yes
@@ -602,7 +611,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.153
 	title = EVTNAME_REP_153
-	desc = EVTDESC_REP_153
+	desc = EVTDESC_REP_153
 	picture = GFX_evt_merchant_ship_at_sea_republic
 	
 	hide_from = yes
@@ -621,7 +630,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.154
 	title = EVTNAME_REP_154
-	desc = EVTDESC_REP_154
+	desc = EVTDESC_REP_154
 	picture = GFX_evt_merchant_ship_at_sea_republic
 	
 	hide_from = yes
@@ -640,7 +649,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.155
 	title = EVTNAME_REP_155
-	desc = EVTDESC_REP_155
+	desc = EVTDESC_REP_155
 	picture = GFX_evt_family_feud_republic
 	
 	hide_from = yes
@@ -679,6 +688,7 @@ character_event = {
 			prisoner = no
 			in_command = no
 			NOT = { trait = incapable }
+			NOT = { trait = in_hiding }
 		}
 		age = 15
 		NOT = { 
@@ -688,6 +698,7 @@ character_event = {
 			trait = incapable
 			trait = eunuch
 		}
+		NOT = { trait = in_hiding }
 		father = {
 			OR = {
 				liege = { 
@@ -701,6 +712,7 @@ character_event = {
 					NOT = { 
 						trait = incapable
 					}
+					NOT = { trait = in_hiding }
 					any_child = {
 						is_female = yes
 						is_married = no
@@ -712,6 +724,7 @@ character_event = {
 							trait = infirm
 							trait = homosexual
 						}
+						NOT = { trait = in_hiding }
 					}
 				}
 				liege = {
@@ -724,6 +737,7 @@ character_event = {
 						prisoner = no
 						in_command = no
 						NOT = { trait = incapable }
+						NOT = { trait = in_hiding }
 						any_child = {
 							is_female = yes
 							is_married = no
@@ -735,6 +749,7 @@ character_event = {
 								trait = infirm
 								trait = homosexual
 							}
+							NOT = { trait = in_hiding }
 						}
 					}
 				}
@@ -750,6 +765,7 @@ character_event = {
 						ai = no
 						has_dynasty_flag = the_victims
 						has_dynasty_flag = feud_phase_two
+						NOT = { trait = in_hiding }
 					}
 				}
 				liege = { 
@@ -764,6 +780,7 @@ character_event = {
 							ai = no
 							has_dynasty_flag = the_victims
 							has_dynasty_flag = feud_phase_two
+							NOT = { trait = in_hiding }
 						}
 					}
 				}
@@ -777,6 +794,7 @@ character_event = {
 							prisoner = no
 							in_command = no
 							NOT = { trait = incapable }
+							NOT = { trait = in_hiding }
 						}
 						narrative_event = { id = REP.161 }
 					}
@@ -799,7 +817,7 @@ character_event = {
 narrative_event = {
 	id = REP.161
 	title = EVTNAME_REP_161
-	desc = EVTDESC_REP_161
+	desc = EVTDESC_REP_161
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -888,6 +906,7 @@ character_event = {
 			prisoner = no
 			in_command = no
 			NOT = { trait = incapable }
+			NOT = { trait = in_hiding }
 		}
 		age = 15
 		NOT = { 
@@ -895,6 +914,7 @@ character_event = {
 			trait = homosexual
 			trait = incapable
 		}
+		NOT = { trait = in_hiding }
 		father = {
 			OR = {
 				liege = { 
@@ -905,6 +925,7 @@ character_event = {
 					prisoner = no
 					in_command = no
 					NOT = { trait = incapable }
+					NOT = { trait = in_hiding }
 					any_child = {
 						age = 15
 						is_female = no
@@ -915,6 +936,7 @@ character_event = {
 							trait = incapable
 							trait = eunuch
 						}
+						NOT = { trait = in_hiding }
 						prisoner = no
 						is_married = no
 						in_command = no
@@ -930,6 +952,7 @@ character_event = {
 						prisoner = no
 						in_command = no
 						NOT = { trait = incapable }
+						NOT = { trait = in_hiding }
 						any_child = {
 							age = 15
 							is_female = no
@@ -940,6 +963,7 @@ character_event = {
 								trait = incapable
 								trait = eunuch
 							}
+							NOT = { trait = in_hiding }
 							prisoner = no
 							is_married = no
 							in_command = no
@@ -1004,7 +1028,7 @@ character_event = {
 narrative_event = {
 	id = REP.163
 	title = EVTNAME_REP_161
-	desc = EVTDESC_REP_163
+	desc = EVTDESC_REP_163
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -1080,7 +1104,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.164
 	title = EVTNAME_REP_164
-	desc = EVTDESC_REP_164
+	desc = EVTDESC_REP_164
 	picture = GFX_evt_family_feud_republic
 	
 	hide_from = yes
@@ -1120,7 +1144,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.165
 	title = EVTNAME_REP_164
-	desc = EVTDESC_REP_165
+	desc = EVTDESC_REP_165
 	picture = GFX_evt_family_feud_republic
 	
 	hide_from = yes
@@ -1160,7 +1184,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.166
 	title = EVTNAME_REP_166
-	desc = EVTDESC_REP_166
+	desc = EVTDESC_REP_166
 	picture = GFX_evt_marriage
 	
 	hide_from = yes
@@ -1275,7 +1299,7 @@ character_event = {
 narrative_event = {
 	id = REP.168
 	title = EVTNAME_REP_168
-	desc = EVTDESC_REP_168
+	desc = EVTDESC_REP_168
 	picture = GFX_evt_death
 	
 	is_triggered_only = yes
@@ -1335,6 +1359,7 @@ character_event = {
 						trait = blinded
 						trait = craven
 					}
+					NOT = { trait = in_hiding }
 				}
 			}
 			liege = {
@@ -1356,6 +1381,7 @@ character_event = {
 							trait = blinded
 							trait = craven
 						}
+						NOT = { trait = in_hiding }
 					}
 				}
 			}
@@ -1388,6 +1414,7 @@ character_event = {
 							trait = infirm
 							trait = blinded
 						}
+						NOT = { trait = in_hiding }
 					}
 					character_event = { id = REP.181 }
 				}
@@ -1423,6 +1450,7 @@ character_event = {
 								trait = infirm
 								trait = blinded
 							}
+							NOT = { trait = in_hiding }
 						}
 						character_event = { id = REP.181 }
 					}
@@ -1460,7 +1488,7 @@ character_event = {
 narrative_event = {
 	id = REP.182
 	title = EVTNAME_REP_182
-	desc = EVTDESC_REP_182
+	desc = EVTDESC_REP_182
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -1534,7 +1562,7 @@ character_event = {
 narrative_event = {
 	id = REP.185
 	title = EVTNAME_REP_185
-	desc = EVTDESC_REP_185
+	desc = EVTDESC_REP_185
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -1555,7 +1583,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.186
 	title = EVTNAME_REP_186
-	desc = EVTDESC_REP_186
+	desc = EVTDESC_REP_186
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
@@ -1614,6 +1642,7 @@ character_event = {
 			trait = infirm
 			trait = blinded
 		}
+		NOT = { trait = in_hiding }
 		has_dynasty_flag = the_feuders
 		liege = { is_merchant_republic = yes }
 		OR = {
@@ -1628,6 +1657,7 @@ character_event = {
 					trait = infirm
 					trait = blinded
 				}
+				NOT = { trait = in_hiding }
 				has_dynasty_flag = the_victims
 				has_dynasty_flag = feud_phase_two
 				NOT = { has_dynasty_flag = pirate_feud }
@@ -1644,6 +1674,7 @@ character_event = {
 						trait = infirm
 						trait = blinded
 					}
+					NOT = { trait = in_hiding }
 					has_dynasty_flag = the_victims
 					has_dynasty_flag = feud_phase_two
 					NOT = { has_dynasty_flag = pirate_feud }
@@ -1664,6 +1695,7 @@ character_event = {
 					has_dynasty_flag = the_victims
 					has_dynasty_flag = feud_phase_two
 					NOT = { has_dynasty_flag = pirate_feud }
+					NOT = { trait = in_hiding }
 				}
 			}
 			liege = { 
@@ -1679,6 +1711,7 @@ character_event = {
 						has_dynasty_flag = the_victims
 						has_dynasty_flag = feud_phase_two
 						NOT = { has_dynasty_flag = pirate_feud }
+						NOT = { trait = in_hiding }
 					}
 				}
 			}
@@ -1690,6 +1723,7 @@ character_event = {
 						has_dynasty_flag = the_victims
 						has_dynasty_flag = feud_phase_two
 						NOT = { has_dynasty_flag = pirate_feud }
+						NOT = { trait = in_hiding }
 					}
 					narrative_event = { id = REP.191 }
 				}
@@ -1706,7 +1740,7 @@ character_event = {
 narrative_event = {
 	id = REP.191
 	title = EVTNAME_REP_191
-	desc = EVTDESC_REP_191
+	desc = EVTDESC_REP_191
 	picture = GFX_evt_busy_trading_dock_republic
 	
 	is_triggered_only = yes
@@ -1736,14 +1770,14 @@ narrative_event = {
 narrative_event = {
 	id = REP.192
 	title = EVTNAME_REP_192
-	desc = EVTDESC_REP_192
+	desc = EVTDESC_REP_192
 	picture = GFX_evt_kraken
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTA_REP_192
-		custom_tooltip = {
+		custom_tooltip = { 
 			text = flotsam_tooltip
 			hidden_tooltip = {
 				FROMFROM = {
@@ -1778,7 +1812,7 @@ character_event = {
 narrative_event = {
 	id = REP.194
 	title = EVTNAME_REP_194
-	desc = EVTDESC_REP_194
+	desc = EVTDESC_REP_194
 	picture = GFX_evt_trade_post_republic
 	
 	is_triggered_only = yes
@@ -1805,7 +1839,7 @@ narrative_event = {
 narrative_event = {
 	id = REP.195
 	title = EVTNAME_REP_195
-	desc = EVTDESC_REP_195
+	desc = EVTDESC_REP_195
 	picture = GFX_evt_merchant_ship_at_sea_republic
 	
 	is_triggered_only = yes
@@ -1878,7 +1912,7 @@ character_event = {
 narrative_event = {
 	id = REP.201
 	title = EVTNAME_REP_201
-	desc = EVTDESC_REP_201
+	desc = EVTDESC_REP_201
 	picture = GFX_evt_doge_republic
 	
 	is_triggered_only = yes
@@ -1938,7 +1972,7 @@ character_event = {
 narrative_event = {
 	id = REP.203
 	title = EVTNAME_REP_201
-	desc = EVTDESC_REP_203
+	desc = EVTDESC_REP_203
 	picture = GFX_evt_doge_republic
 	
 	is_triggered_only = yes
@@ -2033,7 +2067,7 @@ character_event = {
 narrative_event = {
 	id = REP.206
 	title = EVTNAME_REP_206
-	desc = EVTDESC_REP_206
+	desc = EVTDESC_REP_206
 	picture = GFX_evt_family_feud_republic
 	
 	is_triggered_only = yes
